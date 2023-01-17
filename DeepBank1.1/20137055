@@ -1,0 +1,171 @@
+;;;
+;;; Redwoods export of `wsj01c';
+;;; (wsun@wsun; 22-jan-2018 (11:19 h)).
+;;;
+
+[20137055] (1 of 1) {1} `Manila markets were closed for a holiday.'
+
+[20137055:2] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Manila", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:14>, 1, "markets", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <15:19>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <20:26>, 1, "closed", 0, "null", "VBN" 0.9252 "VBD" 0.0474 "JJ" 0.0274)
+  (5, 4, 5, <27:30>, 1, "for", 0, "null", "IN" 1.0)
+  (6, 5, 6, <31:32>, 1, "a", 0, "null", "DT" 1.0)
+  (7, 6, 7, <33:40>, 1, "holiday", 0, "null", "NN" 1.0)
+  (8, 7, 8, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:6>, 1, "Manila", 0, "null")
+  (97, 0, 1, <0:6>, 1, "manila", 0, "null")
+  (104, 0, 1, <0:6>, 1, "manila", 0, "null")
+  (81, 1, 2, <7:14>, 1, "markets", 0, "null")
+  (94, 1, 2, <7:14>, 1, "markets", 0, "null", "NNS" 1.0)
+  (98, 1, 2, <7:14>, 1, "markets", 0, "null")
+  (83, 2, 3, <15:19>, 1, "were", 0, "null")
+  (95, 2, 3, <15:19>, 1, "were", 0, "null", "VBD" 1.0)
+  (99, 2, 3, <15:19>, 1, "were", 0, "null")
+  (90, 3, 4, <20:26>, 1, "closed", 0, "null")
+  (93, 3, 4, <20:26>, 1, "closed", 0, "null", "VBN" 0.9252)
+  (103, 3, 4, <20:26>, 1, "closed", 0, "null")
+  (85, 4, 5, <27:30>, 1, "for", 0, "null")
+  (100, 4, 5, <27:30>, 1, "for", 0, "null")
+  (87, 5, 6, <31:32>, 1, "a", 0, "null")
+  (101, 5, 6, <31:32>, 1, "a", 0, "null")
+  (89, 6, 7, <33:41>, 1, "holiday.", 0, "null")
+  (96, 6, 7, <33:41>, 1, "holiday.", 0, "null", "NN" 1.0)
+  (102, 6, 7, <33:41>, 1, "holiday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1890 SB-HD_MC_C 5.127 0 7
+  (1872 HDN_BNP_C -0.433355 0 2
+   (1871 NP-HDN_CPD_C 0.289945 0 2
+    (1869 HDN_BNP-PN_C -0.210996 0 1
+     (106 manila_n1@n_-_pn_le 0 0 1
+      ("manila" 97
+       "token [ +CARG \"Manila\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"manila\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1870 ^N_PL_OLR 0.616132 1 2
+     (121 market_n1@n_-_c_le 0.44809 1 2
+      ("markets" 81
+       "token [ +CARG #1=\"markets\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1889 ^HD-CMP_U_C 4.04445 2 7
+   (218 be_c_were@v_prd_wre_le 1.64781 2 3
+    ("were" 83
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1888 HD-AJ_INT-UNSL_C 1.98737 3 7
+    (382 closed_isect@aj_-_i_le 0.149559 3 4
+     ("closed" 90
+      "token [ +CARG #1=\"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92517139999999998\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1887 HD-CMP_U_C -0.0143701 4 7
+     (461 for@p_np_i_le -0.733244 4 5
+      ("for" 85
+       "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1886 SP-HD_N_C -0.327906 5 7
+      (479 a_det@d_-_sg-nmd_le -0.667877 5 6
+       ("a" 87
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1874 ^W_PERIOD_PLR 0.824823 6 7
+       (1873 N_SG_ILR 0 6 7
+        (553 holiday_n1@n_-_c-day_le 0 6 7
+         ("holiday." 89
+          "token [ +CARG \"holiday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"holiday.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (NP (N "manila")) (N (N "markets"))))
+ (VP (V "were")
+  (AP (AP "closed")
+   (PP (P "for") (NP (DET "a") (N (N (N "holiday."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Manila" ]
+          [ _market_n_1<7:14>
+            LBL: h8
+            ARG0: x6 ]
+          [ _closed_a_1<20:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _for_p<27:30>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<31:32>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ _holiday_n_1<33:41>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h19 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Manila"){x IND +}[]
+ x6:_market_n_1<7:14>{x PERS 3, NUM pl, IND +}[]
+ e3:_closed_a_1<20:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_for_p<27:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:_a_q<31:32>[BV x16]
+ x16:_holiday_n_1<33:41>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:14> BV _market_n_1<7:14>  
+  compound<0:14> ARG1 _market_n_1<7:14>  
+  compound<0:14> ARG2 named<0:6>(Manila)  
+  proper_q<0:6> BV named<0:6>(Manila)  
+  _closed_a_1<20:26> ARG1 _market_n_1<7:14>  
+  _for_p<27:30> ARG1 _closed_a_1<20:26>  
+  _for_p<27:30> ARG2 _holiday_n_1<33:41>  
+  _a_q<31:32> BV _holiday_n_1<33:41>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  named<0:6>(Manila) IND +  
+  _market_n_1<7:14> PERS 3  
+  _market_n_1<7:14> NUM pl  
+  _market_n_1<7:14> IND +  
+  _closed_a_1<20:26> SF prop  
+  _closed_a_1<20:26> TENSE past  
+  _closed_a_1<20:26> MOOD indicative  
+  _closed_a_1<20:26> PROG -  
+  _closed_a_1<20:26> PERF -  
+  _for_p<27:30> SF prop  
+  _for_p<27:30> TENSE untensed  
+  _for_p<27:30> MOOD indicative  
+  _for_p<27:30> PROG -  
+  _for_p<27:30> PERF -  
+  _holiday_n_1<33:41> PERS 3  
+  _holiday_n_1<33:41> NUM sg  
+  _holiday_n_1<33:41> IND +  
+}
+

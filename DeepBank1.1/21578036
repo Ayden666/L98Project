@@ -1,0 +1,254 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:36 h)).
+;;;
+
+[21578036] (1 of 1) {1} `American Medical jumped 1 7/8 to 23 5/8.'
+
+[21578036:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "American", 0, "null", "NNP" 0.9864 "JJ" 0.0136)
+  (2, 1, 2, <9:16>, 1, "Medical", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <17:23>, 1, "jumped", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <24:25>, 1, "1", 0, "null", "CD" 1.0)
+  (5, 4, 5, <26:29>, 1, "7/8", 0, "null", "CD" 1.0)
+  (6, 5, 6, <30:32>, 1, "to", 0, "null", "TO" 1.0)
+  (7, 6, 7, <33:35>, 1, "23", 0, "null", "CD" 1.0)
+  (8, 7, 8, <36:39>, 1, "5/8", 0, "null", "CD" 1.0)
+  (9, 8, 9, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (102, 0, 1, <0:8>, 1, "American", 0, "null")
+  (107, 0, 1, <0:8>, 1, "american", 0, "null")
+  (117, 0, 1, <0:8>, 1, "american", 0, "null")
+  (83, 1, 2, <9:16>, 1, "Medical", 0, "null")
+  (103, 1, 2, <9:16>, 1, "Medical", 0, "null", "NNP" 1.0)
+  (106, 1, 2, <9:16>, 1, "medical", 0, "null")
+  (109, 1, 2, <9:16>, 1, "medical", 0, "null")
+  (97, 2, 3, <17:23>, 1, "jumped", 0, "null")
+  (104, 2, 3, <17:23>, 1, "jumped", 0, "null", "VBD" 1.0)
+  (115, 2, 3, <17:23>, 1, "jumped", 0, "null")
+  (99, 3, 4, <24:25>, 1, "1", 0, "null")
+  (105, 3, 4, <24:25>, 1, "1", 0, "null", "CD" 1.0)
+  (116, 3, 4, <24:25>, 1, "1", 0, "null")
+  (80, 4, 5, <26:29>, 1, "7/8", 0, "null")
+  (87, 4, 5, <26:29>, 1, "7/8", 0, "null")
+  (108, 4, 5, <26:29>, 1, "7/8", 0, "null")
+  (111, 4, 5, <26:29>, 1, "7/8", 0, "null")
+  (95, 5, 6, <30:32>, 1, "to", 0, "null")
+  (114, 5, 6, <30:32>, 1, "to", 0, "null")
+  (84, 6, 7, <33:35>, 1, "23", 0, "null")
+  (110, 6, 7, <33:35>, 1, "23", 0, "null")
+  (88, 7, 8, <36:40>, 1, "5/8.", 0, "null")
+  (89, 7, 8, <36:40>, 1, "5/8.", 0, "null")
+  (112, 7, 8, <36:40>, 1, "5/8.", 0, "null")
+  (113, 7, 8, <36:40>, 1, "5/8.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3108 SB-HD_MC_C 10.7997 0 8
+  (3092 HDN_BNP-PN_C 2.6479 0 2
+   (3091 NP-HDN_NME-CPD_C 2.10818 0 2
+    (3089 HDN_BNP-PN_C 0.955547 0 1
+     (3088 N_SG_ILR 0.203112 0 1
+      (119 generic_proper_ne@n_-_pn-gen_le -0.437841 0 1
+       ("American" 102
+        "token [ +CARG #1=\"American\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98643409999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (3090 ^N_SG_ILR -0.164942 1 2
+     (138 generic_proper_ne@n_-_pn-gen_le -0.00779417 1 2
+      ("Medical" 83
+       "token [ +CARG #1=\"Medical\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (3107 ^HD-AJ_INT-UNSL_C 7.66429 2 8
+   (3100 ^HD-AJ_INT-UNSL_C 4.96488 2 5
+    (3094 ^HD_OPTCMP_C 3.90945 2 3
+     (3093 V_PST_OLR 2.41889 2 3
+      (152 jump_v2@v_pp*_dir_le 1.82353 2 3
+       ("jumped" 97
+        "token [ +CARG #1=\"jumped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (3099 NP_ADV-MNP_C -0.12766 3 5
+     (3098 HDN_BNP-NUM_C 0.611876 3 5
+      (3097 HDN_NP-NUM_C 1.02293 3 5
+       (3096 XP_BRCK-PR_C 0.016823 3 5
+        (3095 HD-CMP_U_C 0.106703 3 5
+         (261 one_c_dgt_adj@aj_np_i-crd-nsp_le 0 3 4
+          ("1" 99
+           "token [ +CARG #1=\"1\" +CLASS numeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW - ] ]"))
+         (280 generic_fract_ne@aj_-_i-frct-gen_le 0 4 5
+          ("7/8" 87
+           "token [ +CARG #1=\"7/8\" +CLASS frct_ne +FORM #1 +FROM \"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))
+   (3106 HD-CMP_U_C 1.14104 5 8
+    (305 to@p_np_i-nnm_le -0.649111 5 6
+     ("to" 95
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3105 HDN_BNP-NUM_C 1.27952 6 8
+     (3104 HDN_NP-NUM_C 0.760882 6 8
+      (3103 XP_BRCK-PR_C 0.077226 6 8
+       (3102 HD-CMP_U_C 0.167106 6 8
+        (358 generic_card_np_ne@aj_np_i-crd-gen_le 0 6 7
+         ("23" 84
+          "token [ +CARG #1=\"23\" +CLASS card_ne +FORM #1 +FROM \"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (3101 W_PERIOD_PLR 0 7 8
+         (363 generic_fract_ne@aj_-_i-frct-gen_le 0 7 8
+          ("5/8." 89
+           "token [ +CARG \"5/8\" +CLASS frct_ne +FORM \"5/8.\" +FROM \"36\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S (NP (N (NP (N (N "American"))) (N (N "Medical"))))
+ (VP
+  (VP (VP (V (V "jumped")))
+   (PP (NP (N (ADJ (ADJ (ADJ "1") (ADJ "7/8")))))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "23") (ADJ (ADJ "5/8.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "American" ]
+          [ named<9:16>
+            LBL: h8
+            ARG0: x6
+            CARG: "Medical" ]
+          [ _jump_v_1<17:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<24:29>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<24:29>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<24:25>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "1" ]
+          [ plus<24:25>
+            LBL: h22
+            ARG0: i24
+            ARG1: i21
+            ARG2: h20
+            ARG3: h23 ]
+          [ fraction<26:29>
+            LBL: h23
+            ARG0: i25
+            ARG1: i21
+            CARG: "7/8" ]
+          [ _to_p<30:32>
+            LBL: h2
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x27 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<33:40>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ card<33:35>
+            LBL: h31
+            ARG0: x27
+            ARG1: i32
+            CARG: "23" ]
+          [ plus<33:35>
+            LBL: h33
+            ARG0: i35
+            ARG1: i32
+            ARG2: h31
+            ARG3: h34 ]
+          [ fraction<36:40>
+            LBL: h34
+            ARG0: i36
+            ARG1: i32
+            CARG: "5/8" ] >
+   HCONS: < h29 QEQ h33 h18 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("American"){x PERS 3, NUM sg, IND +}[]
+ x6:named<9:16>("Medical"){x PERS 3, NUM sg, IND +}[]
+ e3:_jump_v_1<17:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<24:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<24:29>[BV x16]
+ x16:card<24:25>("1"){x PERS 3, NUM sg}[]
+ i24:plus<24:25>{i}[ARG2 x16, ARG3 i25]
+ i25:fraction<26:29>("7/8"){i}[]
+ e26:_to_p<30:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x27]
+ _4:number_q<33:40>[BV x27]
+ x27:card<33:35>("23"){x PERS 3, NUM sg}[]
+ i35:plus<33:35>{i}[ARG2 x27, ARG3 i36]
+ i36:fraction<36:40>("5/8"){i}[]
+}
+
+{
+  proper_q<0:16> BV named<9:16>(Medical)  
+  compound<0:16> ARG1 named<9:16>(Medical)  
+  compound<0:16> ARG2 named<0:8>(American)  
+  proper_q<0:8> BV named<0:8>(American)  
+  _jump_v_1<17:23> ARG1 named<9:16>(Medical)  
+  loc_nonsp<24:29> ARG1 _jump_v_1<17:23>  
+  loc_nonsp<24:29> ARG2 card<24:25>(1)  
+  number_q<24:29> BV card<24:25>(1)  
+  plus<24:25> ARG2 card<24:25>(1)  
+  plus<24:25> ARG3 fraction<26:29>(7/8)  
+  _to_p<30:32> ARG1 _jump_v_1<17:23>  
+  _to_p<30:32> ARG2 card<33:35>(23)  
+  number_q<33:40> BV card<33:35>(23)  
+  plus<33:35> ARG2 card<33:35>(23)  
+  plus<33:35> ARG3 fraction<36:40>(5/8)  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:8>(American) PERS 3  
+  named<0:8>(American) NUM sg  
+  named<0:8>(American) IND +  
+  named<9:16>(Medical) PERS 3  
+  named<9:16>(Medical) NUM sg  
+  named<9:16>(Medical) IND +  
+  _jump_v_1<17:23> SF prop  
+  _jump_v_1<17:23> TENSE past  
+  _jump_v_1<17:23> MOOD indicative  
+  _jump_v_1<17:23> PROG -  
+  _jump_v_1<17:23> PERF -  
+  loc_nonsp<24:29> SF prop  
+  loc_nonsp<24:29> TENSE untensed  
+  loc_nonsp<24:29> MOOD indicative  
+  loc_nonsp<24:29> PROG -  
+  loc_nonsp<24:29> PERF -  
+  card<24:25>(1) PERS 3  
+  card<24:25>(1) NUM sg  
+  _to_p<30:32> SF prop  
+  _to_p<30:32> TENSE untensed  
+  _to_p<30:32> MOOD indicative  
+  _to_p<30:32> PROG -  
+  _to_p<30:32> PERF -  
+  card<33:35>(23) PERS 3  
+  card<33:35>(23) NUM sg  
+}
+

@@ -1,0 +1,284 @@
+;;;
+;;; Redwoods export of `wsj19a';
+;;; (wsun@wsun; 23-jan-2018 (04:02 h)).
+;;;
+
+[21915020] (1 of 1) {1} `Securities trading was conducted in a backup facility in Concord.'
+
+[21915020:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Securities", 0, "null", "NNP" 0.5203 "NNPS" 0.4328 "NNS" 0.0469)
+  (2, 1, 2, <11:18>, 1, "trading", 0, "null", "NN" 1.0)
+  (3, 2, 3, <19:22>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <23:32>, 1, "conducted", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <33:35>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <36:37>, 1, "a", 0, "null", "DT" 1.0)
+  (7, 6, 7, <38:44>, 1, "backup", 0, "null", "JJ" 0.844 "NN" 0.156)
+  (8, 7, 8, <45:53>, 1, "facility", 0, "null", "NN" 1.0)
+  (9, 8, 9, <54:56>, 1, "in", 0, "null", "IN" 1.0)
+  (10, 9, 10, <57:64>, 1, "Concord", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <64:65>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (130, 0, 1, <0:10>, 1, "Securities", 0, "null")
+  (132, 0, 1, <0:10>, 1, "Securities", 0, "null", "NNPS" 0.4328)
+  (140, 0, 1, <0:10>, 1, "securities", 0, "null")
+  (150, 0, 1, <0:10>, 1, "securities", 0, "null")
+  (111, 1, 2, <11:18>, 1, "trading", 0, "null")
+  (133, 1, 2, <11:18>, 1, "trading", 0, "null", "NN" 1.0)
+  (142, 1, 2, <11:18>, 1, "trading", 0, "null")
+  (113, 2, 3, <19:22>, 1, "was", 0, "null")
+  (134, 2, 3, <19:22>, 1, "was", 0, "null", "VBD" 1.0)
+  (143, 2, 3, <19:22>, 1, "was", 0, "null")
+  (115, 3, 4, <23:32>, 1, "conducted", 0, "null")
+  (135, 3, 4, <23:32>, 1, "conducted", 0, "null", "VBN" 1.0)
+  (144, 3, 4, <23:32>, 1, "conducted", 0, "null")
+  (117, 4, 5, <33:35>, 1, "in", 0, "null")
+  (145, 4, 5, <33:35>, 1, "in", 0, "null")
+  (119, 5, 6, <36:37>, 1, "a", 0, "null")
+  (146, 5, 6, <36:37>, 1, "a", 0, "null")
+  (127, 6, 7, <38:44>, 1, "backup", 0, "null")
+  (131, 6, 7, <38:44>, 1, "backup", 0, "null", "JJ" 0.844)
+  (138, 6, 7, <38:44>, 1, "backup", 0, "null", "NN" 0.156)
+  (149, 6, 7, <38:44>, 1, "backup", 0, "null")
+  (121, 7, 8, <45:53>, 1, "facility", 0, "null")
+  (136, 7, 8, <45:53>, 1, "facility", 0, "null", "NN" 1.0)
+  (147, 7, 8, <45:53>, 1, "facility", 0, "null")
+  (123, 8, 9, <54:56>, 1, "in", 0, "null")
+  (148, 8, 9, <54:56>, 1, "in", 0, "null")
+  (103, 9, 10, <57:65>, 1, "Concord.", 0, "null")
+  (137, 9, 10, <57:65>, 1, "Concord.", 0, "null", "NNP" 1.0)
+  (139, 9, 10, <57:65>, 1, "concord.", 0, "null")
+  (141, 9, 10, <57:65>, 1, "concord.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2290 SB-HD_MC_C 12.6434 0 10
+  (2276 HDN_BNP_C 3.29985 0 2
+   (2275 N-HDN_CPD_C 2.67911 0 2
+    (172 securities_n1@n_-_c-pl-cpd_le 0.911434 0 1
+     ("securities" 140
+      "token [ +CARG \"Securities\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"securities\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.52029729999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2274 ^HDN_OPTCMP_C 1.65558 1 2
+     (2273 V_NGER-TR_DLR 2.81456 1 2
+      (2272 V_PRP_OLR 3.0788 1 2
+       (189 trade_v1@v_np*_le 2.82677 1 2
+        ("trading" 111
+         "token [ +CARG #1=\"trading\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (2289 ^HD-CMP_U_C 7.82761 2 10
+   (202 be_c_was@v_prd_was_le 2.0009 2 3
+    ("was" 113
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2288 HD-AJ_INT-UNSL_C 5.81076 3 10
+    (2278 ^HD_OPTCMP_C 0.680774 3 4
+     (2277 V_PAS_ODLR -0.300408 3 4
+      (228 conduct_v1@v_np*_le 0 3 4
+       ("conducted" 115
+        "token [ +CARG #1=\"conducted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2287 HD-CMP_U_C 3.81087 4 10
+     (350 in@p_np_i-reg_le -0.179868 4 5
+      ("in" 117
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2286 SP-HD_N_C 3.36744 5 10
+      (395 a_det@d_-_sg-nmd_le -0.667877 5 6
+       ("a" 119
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2285 ^HDN-AJ_REDREL_C 3.6074 6 10
+       (2280 ^N-HDN_CPD_C 0.549338 6 8
+        (468 backup_n1@n_-_mc_le 0 6 7
+         ("backup" 127
+          "token [ +CARG #1=\"backup\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84399270000000004\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (2279 ^N_MS-CNT_ILR 0.397283 7 8
+         (472 facility_n1@n_-_mc_le 0 7 8
+          ("facility" 121
+           "token [ +CARG #1=\"facility\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"45\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (2284 HD-CMP_U_C 2.12927 8 10
+        (494 in@p_np_i-reg_le 0.354487 8 9
+         ("in" 123
+          "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"54\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"56\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (2283 HDN_BNP-PN_C 0.781909 9 10
+         (2282 W_PERIOD_PLR 0.217529 9 10
+          (2281 N_SG_ILR -0.215389 9 10
+           (535 generic_proper_ne@n_-_pn-gen_le 0 9 10
+            ("Concord." 103
+             "token [ +CARG \"Concord\" +CLASS proper_ne +FORM \"Concord.\" +FROM \"57\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"65\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))))
+
+(S (NP (N (N "securities") (N (N (V (V "trading"))))))
+ (VP (V "was")
+  (VP (VP (V (V "conducted")))
+   (PP (P "in")
+    (NP (DET "a")
+     (N (N (N "backup") (N (N "facility")))
+      (PP (P "in") (NP (N (N (N "Concord.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:18>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _security_n_1<0:10>
+            LBL: h14
+            ARG0: x9 ]
+          [ _trade_v_1<11:18>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i18
+            ARG2: p17 ]
+          [ nominalization<11:18>
+            LBL: h8
+            ARG0: x6
+            ARG1: h15 ]
+          [ _conduct_v_1<23:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: i19
+            ARG2: x6 ]
+          [ parg_d<23:32>
+            LBL: h2
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _in_p<33:35>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x22 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<36:37>
+            LBL: h23
+            ARG0: x22
+            RSTR: h25
+            BODY: h24 ]
+          [ compound<38:53>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x27 ]
+          [ udef_q<38:44>
+            LBL: h29
+            ARG0: x27
+            RSTR: h30
+            BODY: h31 ]
+          [ _backup_n_1<38:44>
+            LBL: h32
+            ARG0: x27 ]
+          [ _facility_n_1<45:53>
+            LBL: h26
+            ARG0: x22 ]
+          [ _in_p<54:56>
+            LBL: h26
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x34 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<57:65>
+            LBL: h35
+            ARG0: x34
+            RSTR: h36
+            BODY: h37 ]
+          [ named<57:65>
+            LBL: h38
+            ARG0: x34
+            CARG: "Concord" ] >
+   HCONS: < h36 QEQ h38 h30 QEQ h32 h25 QEQ h26 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:18>[BV x6]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:10>[BV x9]
+ x9:_security_n_1<0:10>{x PERS 3, NUM pl, IND +}[]
+ e16:_trade_v_1<11:18>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x6:nominalization<11:18>{x PERS 3, NUM sg, GEND n}[ARG1 e16]
+ e3:_conduct_v_1-fn.Cotheme<23:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2-fn.Cotheme x6]
+ e20:parg_d<23:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e21:_in_p<33:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x22]
+ _3:_a_q<36:37>[BV x22]
+ e28:compound<38:53>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x27]
+ _4:udef_q<38:44>[BV x27]
+ x27:_backup_n_1<38:44>{x}[]
+ x22:_facility_n_1<45:53>{x PERS 3, NUM sg}[]
+ e33:_in_p<54:56>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x34]
+ _5:proper_q<57:65>[BV x34]
+ x34:named<57:65>("Concord"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:18> BV nominalization<11:18>  
+  compound<0:18> ARG1 nominalization<11:18>  
+  compound<0:18> ARG2 _security_n_1<0:10>  
+  udef_q<0:10> BV _security_n_1<0:10>  
+  nominalization<11:18> ARG1 _trade_v_1<11:18>  
+  _conduct_v_1<23:32> ARG2 nominalization<11:18>  
+  parg_d<23:32> ARG1 _conduct_v_1<23:32>  
+  parg_d<23:32> ARG2 nominalization<11:18>  
+  _in_p<33:35> ARG1 _conduct_v_1<23:32>  
+  _in_p<33:35> ARG2 _facility_n_1<45:53>  
+  _a_q<36:37> BV _facility_n_1<45:53>  
+  compound<38:53> ARG1 _facility_n_1<45:53>  
+  compound<38:53> ARG2 _backup_n_1<38:44>  
+  udef_q<38:44> BV _backup_n_1<38:44>  
+  _in_p<54:56> ARG1 _facility_n_1<45:53>  
+  _in_p<54:56> ARG2 named<57:65>(Concord)  
+  proper_q<57:65> BV named<57:65>(Concord)  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  _security_n_1<0:10> PERS 3  
+  _security_n_1<0:10> NUM pl  
+  _security_n_1<0:10> IND +  
+  _trade_v_1<11:18> SF prop  
+  _trade_v_1<11:18> TENSE untensed  
+  _trade_v_1<11:18> MOOD indicative  
+  _trade_v_1<11:18> PROG +  
+  _trade_v_1<11:18> PERF -  
+  nominalization<11:18> PERS 3  
+  nominalization<11:18> NUM sg  
+  nominalization<11:18> GEND n  
+  _conduct_v_1<23:32> SF prop  
+  _conduct_v_1<23:32> TENSE past  
+  _conduct_v_1<23:32> MOOD indicative  
+  _conduct_v_1<23:32> PROG -  
+  _conduct_v_1<23:32> PERF -  
+  parg_d<23:32> SF prop  
+  parg_d<23:32> TENSE untensed  
+  parg_d<23:32> MOOD indicative  
+  parg_d<23:32> PROG -  
+  parg_d<23:32> PERF -  
+  _in_p<33:35> SF prop  
+  _in_p<33:35> TENSE untensed  
+  _in_p<33:35> MOOD indicative  
+  _in_p<33:35> PROG -  
+  _in_p<33:35> PERF -  
+  compound<38:53> SF prop  
+  compound<38:53> TENSE untensed  
+  compound<38:53> MOOD indicative  
+  compound<38:53> PROG -  
+  compound<38:53> PERF -  
+  _facility_n_1<45:53> PERS 3  
+  _facility_n_1<45:53> NUM sg  
+  _in_p<54:56> SF prop  
+  _in_p<54:56> TENSE untensed  
+  _in_p<54:56> MOOD indicative  
+  _in_p<54:56> PROG -  
+  _in_p<54:56> PERF -  
+  named<57:65>(Concord) PERS 3  
+  named<57:65>(Concord) NUM sg  
+  named<57:65>(Concord) IND +  
+}
+

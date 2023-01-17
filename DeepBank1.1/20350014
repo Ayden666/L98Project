@@ -1,0 +1,146 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:24 h)).
+;;;
+
+[20350014] (1 of 1) {1} `Health-insurance costs soared.'
+
+[20350014:0] (active)
+
+<
+  (1, 0, 1, <0:16>, 1, "Health-insurance", 0, "null", "NN" 1.0)
+  (2, 1, 2, <17:22>, 1, "costs", 0, "null", "NNS" 0.9314 "VBZ" 0.0686)
+  (3, 2, 3, <23:29>, 1, "soared", 0, "null", "VBD" 0.8815 "VBN" 0.1185)
+  (4, 3, 4, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:16>, 1, "Health-", 0, "null")
+  (62, 0, 1, <0:16>, 1, "health-", 0, "null")
+  (66, 0, 1, <0:16>, 1, "health-", 0, "null")
+  (52, 1, 2, <0:16>, 1, "insurance", 0, "null")
+  (60, 1, 2, <0:16>, 1, "insurance", 0, "null", "NN" 1.0)
+  (63, 1, 2, <0:16>, 1, "insurance", 0, "null")
+  (53, 2, 3, <17:22>, 1, "costs", 0, "null")
+  (58, 2, 3, <17:22>, 1, "costs", 0, "null", "NNS" 0.9314)
+  (64, 2, 3, <17:22>, 1, "costs", 0, "null")
+  (55, 3, 4, <23:30>, 1, "soared.", 0, "null")
+  (59, 3, 4, <23:30>, 1, "soared.", 0, "null", "VBD" 0.8815)
+  (61, 3, 4, <23:30>, 1, "soared.", 0, "null", "VBN" 0.1185)
+  (65, 3, 4, <23:30>, 1, "soared.", 0, "null")
+>
+
+(ROOT_STRICT
+ (669 SB-HD_MC_C 4.49729 0 4
+  (665 HDN_BNP_C 3.30057 0 3
+   (664 N-HDN_CPD_C 2.67982 0 3
+    (662 XP_BRCK-PR_C 2.00512 0 2
+     (661 N-HDN_CPD_C 1.76409 0 2
+      (660 W_HYPHEN_PLR 1.28368 0 1
+       (70 health_n1@n_-_m_le 0 0 1
+        ("health-" 62
+         "token [ +CARG \"Health-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"health-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (73 insurance_n1@n_-_mc_le -0.0340782 1 2
+       ("insurance" 52
+        "token [ +CARG #1=\"insurance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+    (663 ^N_PL_OLR 0.848659 2 3
+     (75 cost_n1@n_-_mc_le 0.31264 2 3
+      ("costs" 53
+       "token [ +CARG #1=\"costs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93140540000000005\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (668 ^HD_OPTCMP_C 1.21718 3 4
+   (667 W_PERIOD_PLR 0.913193 3 4
+    (666 V_PST_OLR 0.222831 3 4
+     (98 soar_v1@v_pp*_dir_le 0 3 4
+      ("soared." 55
+       "token [ +CARG \"soared\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"soared.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88145439999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N (N (N "health-")) (N "insurance"))) (N (N "costs"))))
+ (VP (V (V (V "soared.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:22>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:16>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:16>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:16>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _health_n_1<0:16>
+            LBL: h20
+            ARG0: x15 ]
+          [ _insurance_n_1<0:16>
+            LBL: h14
+            ARG0: x9 ]
+          [ _cost_n_1<17:22>
+            LBL: h8
+            ARG0: x6 ]
+          [ _soar_v_1<23:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:22>[BV x6]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:16>[BV x9]
+ e16:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:16>[BV x15]
+ x15:_health_n_1<0:16>{x PERS 3, NUM sg, IND -}[]
+ x9:_insurance_n_1<0:16>{x}[]
+ x6:_cost_n_1<17:22>{x PERS 3, NUM pl}[]
+ e3:_soar_v_1<23:30>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:22> BV _cost_n_1<17:22>  
+  compound<0:22> ARG1 _cost_n_1<17:22>  
+  compound<0:22> ARG2 _insurance_n_1<0:16>  
+  udef_q<0:16> BV _insurance_n_1<0:16>  
+  compound<0:16> ARG1 _insurance_n_1<0:16>  
+  compound<0:16> ARG2 _health_n_1<0:16>  
+  udef_q<0:16> BV _health_n_1<0:16>  
+  _soar_v_1<23:30> ARG1 _cost_n_1<17:22>  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  _health_n_1<0:16> PERS 3  
+  _health_n_1<0:16> NUM sg  
+  _health_n_1<0:16> IND -  
+  _cost_n_1<17:22> PERS 3  
+  _cost_n_1<17:22> NUM pl  
+  _soar_v_1<23:30> SF prop  
+  _soar_v_1<23:30> TENSE past  
+  _soar_v_1<23:30> MOOD indicative  
+  _soar_v_1<23:30> PROG -  
+  _soar_v_1<23:30> PERF -  
+}
+

@@ -1,0 +1,94 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:39 h)).
+;;;
+
+[21057073] (1 of 1) {1} `That isn't surprising.'
+
+[21057073:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.6684 "WDT" 0.3024 "IN" 0.0292)
+  (2, 1, 2, <5:7>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <7:10>, 1, "n’t", 0, "null", "RB" 0.426 "JJ" 0.2422 "NN" 0.1792 "VB" 0.0727 "VBN" 0.0585 "JJS" 0.0153 "VBP" 0.0062)
+  (4, 3, 4, <11:21>, 1, "surprising", 0, "null", "JJ" 0.9563 "VBG" 0.0437)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:4>, 1, "that", 0, "null")
+  (60, 0, 1, <0:4>, 1, "that", 0, "null")
+  (50, 1, 2, <5:10>, 1, "isn’t", 0, "null")
+  (56, 1, 2, <5:10>, 1, "isn’t", 0, "null", "VBZ" 1.0)
+  (58, 1, 2, <5:10>, 1, "isn’t", 0, "null")
+  (52, 2, 3, <11:22>, 1, "surprising.", 0, "null")
+  (55, 2, 3, <11:22>, 1, "surprising.", 0, "null", "JJ" 0.9563)
+  (59, 2, 3, <11:22>, 1, "surprising.", 0, "null")
+>
+
+(ROOT_STRICT
+ (426 SB-HD_MC_C 2.89678 0 3
+  (423 HDN_BNP-QNT_C -0.199308 0 1
+   (422 HDN_OPTCMP_C -0.288082 0 1
+    (76 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 57
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66838489999999995\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (425 ^HD-CMP_U_C 1.82674 1 3
+   (92 be_c_is_neg_3_u@v_prd_is-n_le 1.21425 1 2
+    ("isn’t" 50
+     "token [ +CARG #1=\"isn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (424 W_PERIOD_PLR 0.612486 2 3
+    (104 surprising_a1@aj_-_i_le 0 2 3
+     ("surprising." 52
+      "token [ +CARG \"surprising\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"surprising.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95633999999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N "that"))) (VP (V "isn’t") (AP (AP "surprising."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<5:10>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _surprising_a_1<11:22>
+            LBL: h11
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e10:neg<5:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_surprising_a_1<11:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  neg<5:10> ARG1 _surprising_a_1<11:22>  
+  _surprising_a_1<11:22> ARG1 generic_entity<0:4>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  neg<5:10> SF prop  
+  neg<5:10> TENSE untensed  
+  neg<5:10> MOOD indicative  
+  neg<5:10> PROG -  
+  neg<5:10> PERF -  
+  _surprising_a_1<11:22> SF prop  
+  _surprising_a_1<11:22> TENSE pres  
+  _surprising_a_1<11:22> MOOD indicative  
+  _surprising_a_1<11:22> PROG -  
+  _surprising_a_1<11:22> PERF -  
+}
+

@@ -1,0 +1,67 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:58 h)).
+;;;
+
+[21311005] (1 of 1) {1} `Exxon'
+
+[21311005:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Exxon", 0, "null", "NNP" 0.9716 "NN" 0.0284)
+>
+
+<
+  (14, 0, 1, <0:5>, 1, "Exxon", 0, "null")
+  (15, 0, 1, <0:5>, 1, "exxon", 0, "null")
+  (16, 0, 1, <0:5>, 1, "exxon", 0, "null")
+>
+
+(ROOT_FRAG
+ (26 NP_FRG_C -1.98531 0 1
+  (25 HDN_BNP-PN_C -0.838794 0 1
+   (24 N_SG_ILR -0.273606 0 1
+    (18 exxon_n1@n_-_pn_le 0 0 1
+     ("exxon" 15
+      "token [ +CARG \"Exxon\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"exxon\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97157970000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N "exxon"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x4
+            CARG: "Exxon" ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:5>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:5>[BV x4]
+ x4:named<0:5>("Exxon"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:5> ARG named<0:5>(Exxon)  
+  proper_q<0:5> BV named<0:5>(Exxon)  
+  unknown<0:5> SF prop-or-ques  
+  unknown<0:5> TENSE untensed  
+  unknown<0:5> MOOD indicative  
+  unknown<0:5> PROG -  
+  unknown<0:5> PERF -  
+  named<0:5>(Exxon) PERS 3  
+  named<0:5>(Exxon) NUM sg  
+  named<0:5>(Exxon) IND +  
+}
+

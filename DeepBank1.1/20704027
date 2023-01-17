@@ -1,0 +1,201 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:46 h)).
+;;;
+
+[20704027] (1 of 1) {1} `Thereafter, interest paid annually at 7.65%.'
+
+[20704027:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Thereafter", 0, "null", "RB" 1.0)
+  (2, 1, 2, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <12:20>, 1, "interest", 0, "null", "NN" 1.0)
+  (4, 3, 4, <21:25>, 1, "paid", 0, "null", "VBD" 0.6662 "VBN" 0.3338)
+  (5, 4, 5, <26:34>, 1, "annually", 0, "null", "RB" 1.0)
+  (6, 5, 6, <35:37>, 1, "at", 0, "null", "IN" 1.0)
+  (7, 6, 7, <38:42>, 1, "7.65", 0, "null", "CD" 1.0)
+  (8, 7, 8, <42:43>, 1, "%", 0, "null", "NN" 1.0)
+  (9, 8, 9, <43:44>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (99, 0, 1, <0:11>, 1, "Thereafter,", 0, "null", "RB" 1.0)
+  (101, 0, 1, <0:11>, 1, "thereafter,", 0, "null")
+  (108, 0, 1, <0:11>, 1, "thereafter,", 0, "null")
+  (85, 1, 2, <12:20>, 1, "interest", 0, "null")
+  (97, 1, 2, <12:20>, 1, "interest", 0, "null", "NN" 1.0)
+  (103, 1, 2, <12:20>, 1, "interest", 0, "null")
+  (94, 2, 3, <21:25>, 1, "paid", 0, "null")
+  (96, 2, 3, <21:25>, 1, "paid", 0, "null", "VBD" 0.6662)
+  (100, 2, 3, <21:25>, 1, "paid", 0, "null", "VBN" 0.3338)
+  (107, 2, 3, <21:25>, 1, "paid", 0, "null")
+  (87, 3, 4, <26:34>, 1, "annually", 0, "null")
+  (98, 3, 4, <26:34>, 1, "annually", 0, "null", "RB" 1.0)
+  (104, 3, 4, <26:34>, 1, "annually", 0, "null")
+  (89, 4, 5, <35:37>, 1, "at", 0, "null")
+  (105, 4, 5, <35:37>, 1, "at", 0, "null")
+  (76, 5, 6, <38:42>, 1, "7.65", 0, "null")
+  (102, 5, 6, <38:42>, 1, "7.65", 0, "null")
+  (91, 6, 7, <42:44>, 1, "%.", 0, "null")
+  (106, 6, 7, <42:44>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1667 FLR-HD_NWH_C 5.30557 0 7
+  (1651 W_COMMA_PLR 0.209886 0 1
+   (114 thereafter_adv1@pp_-_i_le 0 0 1
+    ("thereafter," 101
+     "token [ +CARG \"Thereafter\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"thereafter,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1666 ^SB-HD_NMC_C 4.27684 1 7
+   (1654 HDN_BNP_C 0.209273 1 2
+    (1653 HDN_OPTCMP_C 0.137551 1 2
+     (1652 N_MS-CNT_ILR 1.24407 1 2
+      (123 interest_n1@n_pp_mc-in_le 0.404192 1 2
+       ("interest" 85
+        "token [ +CARG #1=\"interest\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (1665 ^HD-AJ_INT-UNSL_C 3.80827 2 7
+    (1659 ^HD-AJ_INT-UNSL_C -0.0346671 2 4
+     (1658 ^HD_XAJ-INT-VP_C 0.835558 2 3
+      (1657 HD_OPTCMP_C -0.298739 2 3
+       (1656 HD_OPTCMP_C 0.650024 2 3
+        (1655 V_PST_OLR 0.618106 2 3
+         (152 pay_v1@v_np*-np_le 0.63647 2 3
+          ("paid" 94
+           "token [ +CARG #1=\"paid\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66618109999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+     (263 annually_isect@av_-_i-vp_le 0 3 4
+      ("annually" 87
+       "token [ +CARG #1=\"annually\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1664 HD-CMP_U_C 2.24166 4 7
+     (265 at@p_np_i-reg_le -1.21766 4 5
+      ("at" 89
+       "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1663 HDN_BNP_C 3.72438 5 7
+      (1662 NUM-N_MNP_C 1.92835 5 7
+       (269 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("7.65" 76
+         "token [ +CARG #1=\"7.65\" +CLASS card_or_proper_ne +FORM #1 +FROM \"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (1661 ^W_PERIOD_PLR 1.02943 6 7
+        (1660 N_PL_OLR 0.482577 6 7
+         (271 percent_char_n1@n_-_c-meas-spr_le 0.328883 6 7
+          ("%." 91
+           "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (PP (PP "thereafter,"))
+ (S/PP (NP (N (N (N "interest"))))
+  (VP/PP (VP/PP (VP/PP (VP (V (V (V "paid"))))) (ADV "annually"))
+   (PP (P "at") (NP (N (ADJ "7.65") (N (N (N "%.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:44>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _thereafter_p<0:11>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3 ]
+          [ udef_q<12:20>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h9 ]
+          [ _interest_n_in<12:20>
+            LBL: h10
+            ARG0: x8
+            ARG1: i11 ]
+          [ _pay_v_for<21:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x8
+            ARG2: i13
+            ARG3: i12 ]
+          [ _annual_a_1<26:34>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _at_p<35:37>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<38:44>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<38:42>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            CARG: "7.65" ]
+          [ _percent_n_of<42:44>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h18 QEQ h20 h7 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_thereafter_p<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:udef_q<12:20>[BV x8]
+ x8:_interest_n_in<12:20>{x PERS 3, NUM sg}[]
+ e3:_pay_v_for<21:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ e14:_annual_a_1<26:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e15:_at_p<35:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _2:udef_q<38:44>[BV x16]
+ e21:card<38:42>("7.65"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16]
+ x16:_percent_n_of<42:44>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  focus_d<0:44> ARG1 _pay_v_for<21:25>  
+  focus_d<0:44> ARG2 _thereafter_p<0:11>  
+  _thereafter_p<0:11> ARG1 _pay_v_for<21:25>  
+  udef_q<12:20> BV _interest_n_in<12:20>  
+  _pay_v_for<21:25> ARG1 _interest_n_in<12:20>  
+  _annual_a_1<26:34> ARG1 _pay_v_for<21:25>  
+  _at_p<35:37> ARG1 _pay_v_for<21:25>  
+  _at_p<35:37> ARG2 _percent_n_of<42:44>  
+  udef_q<38:44> BV _percent_n_of<42:44>  
+  card<38:42>(7.65) ARG1 _percent_n_of<42:44>  
+  focus_d<0:44> SF prop  
+  focus_d<0:44> TENSE untensed  
+  focus_d<0:44> MOOD indicative  
+  focus_d<0:44> PROG -  
+  focus_d<0:44> PERF -  
+  _thereafter_p<0:11> SF prop  
+  _thereafter_p<0:11> TENSE untensed  
+  _thereafter_p<0:11> MOOD indicative  
+  _thereafter_p<0:11> PROG -  
+  _thereafter_p<0:11> PERF -  
+  _interest_n_in<12:20> PERS 3  
+  _interest_n_in<12:20> NUM sg  
+  _pay_v_for<21:25> SF prop  
+  _pay_v_for<21:25> TENSE past  
+  _pay_v_for<21:25> MOOD indicative  
+  _pay_v_for<21:25> PROG -  
+  _pay_v_for<21:25> PERF -  
+  _annual_a_1<26:34> SF prop  
+  _annual_a_1<26:34> TENSE untensed  
+  _annual_a_1<26:34> MOOD indicative  
+  _annual_a_1<26:34> PROG -  
+  _annual_a_1<26:34> PERF -  
+  _at_p<35:37> SF prop  
+  _at_p<35:37> TENSE untensed  
+  _at_p<35:37> MOOD indicative  
+  _at_p<35:37> PROG -  
+  _at_p<35:37> PERF -  
+  card<38:42>(7.65) SF prop  
+  card<38:42>(7.65) TENSE untensed  
+  card<38:42>(7.65) MOOD indicative  
+  card<38:42>(7.65) PROG -  
+  card<38:42>(7.65) PERF -  
+  _percent_n_of<42:44> PERS 3  
+  _percent_n_of<42:44> NUM pl  
+  _percent_n_of<42:44> IND +  
+}
+

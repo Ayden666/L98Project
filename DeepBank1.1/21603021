@@ -1,0 +1,100 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:54 h)).
+;;;
+
+[21603021] (1 of 1) {1} `He produced it.'
+
+[21603021:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:11>, 1, "produced", 0, "null", "VBD" 0.9825 "VBN" 0.0175)
+  (3, 2, 3, <12:14>, 1, "it", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:2>, 1, "he", 0, "null")
+  (50, 0, 1, <0:2>, 1, "he", 0, "null")
+  (44, 1, 2, <3:11>, 1, "produced", 0, "null")
+  (46, 1, 2, <3:11>, 1, "produced", 0, "null", "VBD" 0.9825)
+  (49, 1, 2, <3:11>, 1, "produced", 0, "null")
+  (43, 2, 3, <12:15>, 1, "it.", 0, "null")
+  (48, 2, 3, <12:15>, 1, "it.", 0, "null")
+>
+
+(ROOT_STRICT
+ (373 SB-HD_MC_C 3.02627 0 3
+  (368 HDN_BNP-QNT_C 1.50958 0 1
+   (51 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 47
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (372 ^HD-CMP_U_C 0.247342 1 3
+   (369 ^V_PST_OLR 0.221927 1 2
+    (81 produce_v1@v_np*_le -0.0848486 1 2
+     ("produced" 44
+      "token [ +CARG #1=\"produced\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98248979999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (371 HDN_BNP-QNT_C 0.320932 2 3
+    (370 W_PERIOD_PLR 0.27506 2 3
+     (210 it2@n_-_pr-it_le 0 2 3
+      ("it." 43
+       "token [ +CARG \"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"it.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "he")) (VP (V (V "produced")) (NP (NP (NP "it.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _produce_v_1<3:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pron<12:15>
+            LBL: h10
+            ARG0: x9 ]
+          [ pronoun_q<12:15>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ] >
+   HCONS: < h12 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_produce_v_1<3:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ x9:pron<12:15>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<12:15>[BV x9]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _produce_v_1<3:11> ARG1 pron<0:2>  
+  _produce_v_1<3:11> ARG2 pron<12:15>  
+  pronoun_q<12:15> BV pron<12:15>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _produce_v_1<3:11> SF prop  
+  _produce_v_1<3:11> TENSE past  
+  _produce_v_1<3:11> MOOD indicative  
+  _produce_v_1<3:11> PROG -  
+  _produce_v_1<3:11> PERF -  
+  pron<12:15> PERS 3  
+  pron<12:15> NUM sg  
+  pron<12:15> GEND n  
+  pron<12:15> PT std  
+}
+

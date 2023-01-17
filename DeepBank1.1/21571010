@@ -1,0 +1,128 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:31 h)).
+;;;
+
+[21571010] (1 of 1) {1} `Who will take over these places?'
+
+[21571010:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Who", 0, "null", "WP" 1.0)
+  (2, 1, 2, <4:8>, 1, "will", 0, "null", "MD" 1.0)
+  (3, 2, 3, <9:13>, 1, "take", 0, "null", "VB" 1.0)
+  (4, 3, 4, <14:18>, 1, "over", 0, "null", "IN" 0.6025 "RP" 0.3905 "RB" 0.007)
+  (5, 4, 5, <19:24>, 1, "these", 0, "null", "DT" 1.0)
+  (6, 5, 6, <25:31>, 1, "places", 0, "null", "NNS" 0.9886 "VBZ" 0.0114)
+  (7, 6, 7, <31:32>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (85, 0, 1, <0:3>, 1, "who", 0, "null")
+  (91, 0, 1, <0:3>, 1, "who", 0, "null")
+  (74, 1, 2, <4:8>, 1, "will", 0, "null")
+  (86, 1, 2, <4:8>, 1, "will", 0, "null")
+  (76, 2, 3, <9:13>, 1, "take", 0, "null")
+  (84, 2, 3, <9:13>, 1, "take", 0, "null", "VB" 1.0)
+  (87, 2, 3, <9:13>, 1, "take", 0, "null")
+  (79, 3, 4, <14:18>, 1, "over", 0, "null")
+  (89, 3, 4, <14:18>, 1, "over", 0, "null")
+  (78, 4, 5, <19:24>, 1, "these", 0, "null")
+  (88, 4, 5, <19:24>, 1, "these", 0, "null")
+  (80, 5, 6, <25:32>, 1, "places?", 0, "null")
+  (83, 5, 6, <25:32>, 1, "places?", 0, "null", "NNS" 0.9886)
+  (90, 5, 6, <25:32>, 1, "places?", 0, "null")
+>
+
+(ROOT_STRICT
+ (968 FLR-HD_WH-MC-SB_C 9.00492 0 6
+  (957 HDN_BNP-QNT_C -0.146686 0 1
+   (956 HDN_OPTCMP_C 0.506826 0 1
+    (92 who1@n_-_pr-who_le 0.235349 0 1
+     ("who" 85
+      "token [ +CARG \"Who\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"who\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (967 ^HD_XSB-FIN_C 8.9189 1 6
+   (966 HD-CMP_U_C 8.43321 1 6
+    (101 will_aux_pos@v_vp_will-p_le 1.6958 1 2
+     ("will" 74
+      "token [ +CARG #1=\"will\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (965 HD-CMP_U_C 6.26644 2 6
+     (960 ^HD-CMP_U_C 4.02746 2 4
+      (959 ^V_NP-PRTCL_DLR 1.1937 2 3
+       (958 V_N3S-BSE_ILR 1.14428 2 3
+        (132 take_over_v1@v_p-np_le 0.503747 2 3
+         ("take" 76
+          "token [ +CARG #1=\"take\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (160 over_prtcl@p_np_ptcl_le 1.70024 3 4
+       ("over" 79
+        "token [ +CARG #1=\"over\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.60253789999999996\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (964 SP-HD_N_C 2.06816 4 6
+      (180 these_det@d_-_pl_le 1.21449 4 5
+       ("these" 78
+        "token [ +CARG #1=\"these\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (963 ^HDN_OPTCMP_C 0 5 6
+       (962 W_QMARK_PLR 0 5 6
+        (961 N_PL_OLR 0 5 6
+         (186 place_n1@n_pp_c-plc-of_le 0 5 6
+          ("places?" 80
+           "token [ +CARG \"places\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"places?\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98855599999999999\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "who")))
+ (S/NP
+  (VP/NP (V/NP "will")
+   (VP (V (V (V (V "take"))) (P "over"))
+    (NP (DET "these") (N (N (N (N "places?")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ person<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ which_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _take_v_over<9:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _these_q_dem<19:24>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _place_n_of<25:32>
+            LBL: h13
+            ARG0: x9
+            ARG1: i14 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:person<0:3>{x PERS 3, NUM sg}[]
+ _1:which_q<0:3>[BV x5]
+ e3:_take_v_over<9:13>{e SF ques, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_these_q_dem<19:24>[BV x9]
+ x9:_place_n_of<25:32>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  which_q<0:3> BV person<0:3>  
+  _take_v_over<9:13> ARG1 person<0:3>  
+  _take_v_over<9:13> ARG2 _place_n_of<25:32>  
+  _these_q_dem<19:24> BV _place_n_of<25:32>  
+  person<0:3> PERS 3  
+  person<0:3> NUM sg  
+  _take_v_over<9:13> SF ques  
+  _take_v_over<9:13> TENSE fut  
+  _take_v_over<9:13> MOOD indicative  
+  _take_v_over<9:13> PROG -  
+  _take_v_over<9:13> PERF -  
+  _place_n_of<25:32> PERS 3  
+  _place_n_of<25:32> NUM pl  
+  _place_n_of<25:32> IND +  
+}
+

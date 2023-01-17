@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:14 h)).
+;;;
+
+[22038003] (1 of 1) {1} `--George O. Ludcke.'
+
+[22038003:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "–George", 0, "null", "VB" 0.5623 "NN" 0.2969 "JJ" 0.119 "VBP" 0.0118 "NNP" 0.01)
+  (2, 1, 2, <9:11>, 1, "O.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:18>, 1, "Ludcke", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <18:19>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:8>, 1, "–George", 0, "null", "VB" 0.5623)
+  (58, 0, 1, <0:8>, 1, "–George", 0, "null", "NN" 0.2969)
+  (59, 0, 1, <0:8>, 1, "–George", 0, "null", "JJ" 0.119)
+  (64, 0, 1, <0:8>, 1, "–george", 0, "null")
+  (67, 0, 1, <0:8>, 1, "–george", 0, "null")
+  (40, 1, 2, <9:11>, 1, "O.", 0, "null")
+  (60, 1, 2, <9:11>, 1, "O.", 0, "null", "NNP" 1.0)
+  (62, 1, 2, <9:11>, 1, "o.", 0, "null")
+  (65, 1, 2, <9:11>, 1, "o.", 0, "null")
+  (42, 2, 3, <12:19>, 1, "Ludcke.", 0, "null")
+  (61, 2, 3, <12:19>, 1, "Ludcke.", 0, "null", "NNP" 1.0)
+  (63, 2, 3, <12:19>, 1, "ludcke.", 0, "null")
+  (66, 2, 3, <12:19>, 1, "ludcke.", 0, "null")
+>
+
+(ROOT_FRAG
+ (316 NP_FRG_C 0.756781 0 3
+  (315 HDN_BNP-PN_C 1.90329 0 3
+   (314 NP-HDN_TTL-CPD_C 2.80963 0 3
+    (313 N_MS-CNT_ILR -0.743932 0 1
+     (71 generic_mass_count_noun@n_-_mc-unk_le 0 0 1
+      ("–George" 58
+       "token [ +CARG #1=\"–George\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_–george/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB \"0.56234879999999998\" +TAG \"VB\" ] +PRBS *cons* [ FIRST \"0.29687429999999998\" REST *null* ] +TAGS *cons* [ FIRST \"NN\" REST *null* ] ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (309 ^NP-HDN_NME-CPD_C 2.47246 1 3
+     (306 HDN_BNP-PN_C 0.586141 1 2
+      (305 N_SG_ILR -0.166294 1 2
+       (85 o_period_np1@n_-_pn_le 0 1 2
+        ("o." 62
+         "token [ +CARG \"O.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"o.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (308 ^W_PERIOD_PLR 1.02066 2 3
+      (307 N_SG_ILR 0.466069 2 3
+       (91 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("Ludcke." 42
+         "token [ +CARG \"Ludcke\" +CLASS proper_ne +FORM \"Ludcke.\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP
+ (NP (N (N (N "–George")) (N (NP (N (N "o."))) (N (N (N "Ludcke.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:19>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _–george/nn_u_unknown<0:8>
+            LBL: h14
+            ARG0: x9 ]
+          [ compound<9:19>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<9:11>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<9:11>
+            LBL: h20
+            ARG0: x15
+            CARG: "O" ]
+          [ named<12:19>
+            LBL: h8
+            ARG0: x4
+            CARG: "Ludcke" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:19>[BV x4]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_–george/nn_u_unknown<0:8>{x PERS 3, NUM sg}[]
+ e16:compound<9:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x15]
+ _3:proper_q<9:11>[BV x15]
+ x15:named<9:11>("O"){x PERS 3, NUM sg, IND +}[]
+ x4:named<12:19>("Ludcke"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:19> ARG named<12:19>(Ludcke)  
+  proper_q<0:19> BV named<12:19>(Ludcke)  
+  compound<0:19> ARG1 named<12:19>(Ludcke)  
+  compound<0:19> ARG2 _–george/nn_u_unknown<0:8>  
+  udef_q<0:8> BV _–george/nn_u_unknown<0:8>  
+  compound<9:19> ARG1 named<12:19>(Ludcke)  
+  compound<9:19> ARG2 named<9:11>(O)  
+  proper_q<9:11> BV named<9:11>(O)  
+  unknown<0:19> SF prop  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  _–george/nn_u_unknown<0:8> PERS 3  
+  _–george/nn_u_unknown<0:8> NUM sg  
+  compound<9:19> SF prop  
+  compound<9:19> TENSE untensed  
+  compound<9:19> MOOD indicative  
+  compound<9:19> PROG -  
+  compound<9:19> PERF -  
+  named<9:11>(O) PERS 3  
+  named<9:11>(O) NUM sg  
+  named<9:11>(O) IND +  
+  named<12:19>(Ludcke) PERS 3  
+  named<12:19>(Ludcke) NUM sg  
+  named<12:19>(Ludcke) IND +  
+}
+

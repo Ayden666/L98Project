@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj05e';
+;;; (wsun@wsun; 22-jan-2018 (15:37 h)).
+;;;
+
+[20594010] (1 of 1) {1} `-- Len Elliott.'
+
+[20594010:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:6>, 1, "Len", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <7:14>, 1, "Elliott", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (44, 0, 1, <0:2>, 1, "–", 0, "null")
+  (52, 0, 1, <0:2>, 1, "–", 0, "null")
+  (47, 1, 2, <3:6>, 1, "Len", 0, "null")
+  (49, 1, 2, <3:6>, 1, "len", 0, "null")
+  (53, 1, 2, <3:6>, 1, "len", 0, "null")
+  (40, 2, 3, <7:15>, 1, "Elliott.", 0, "null")
+  (48, 2, 3, <7:15>, 1, "Elliott.", 0, "null", "NNP" 1.0)
+  (50, 2, 3, <7:15>, 1, "elliott.", 0, "null")
+  (51, 2, 3, <7:15>, 1, "elliott.", 0, "null")
+>
+
+(ROOT_FRAG
+ (169 AJ-HD_SCP-XP_C 1.19428 0 3
+  (56 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 44
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (168 ^NP_FRG_C 0.305269 1 3
+   (167 HDN_BNP-PN_C 0.922777 1 3
+    (166 NP-HDN_NME-CPD_C 0.870386 1 3
+     (163 HDN_BNP-PN_C 0.365523 1 2
+      (162 N_SG_ILR -0.386912 1 2
+       (64 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Len" 47
+         "token [ +CARG #1=\"Len\" +CLASS proper_ne +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (165 ^W_PERIOD_PLR -0.0750314 2 3
+      (164 N_SG_ILR -0.629626 2 3
+       (71 elliott_n1@n_-_pn_le 0 2 3
+        ("elliott." 50
+         "token [ +CARG \"Elliott\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"elliott.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (ADV "–") (XP (NP (N (NP (N (N "Len"))) (N (N (N "elliott.")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:15>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:15>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ compound<3:15>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:6>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ named<3:6>
+            LBL: h18
+            ARG0: x13
+            CARG: "Len" ]
+          [ named<7:15>
+            LBL: h12
+            ARG0: x8
+            CARG: "Elliott" ] >
+   HCONS: < h16 QEQ h18 h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:proper_q<3:15>[BV x8]
+ e14:compound<3:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x13]
+ _2:proper_q<3:6>[BV x13]
+ x13:named<3:6>("Len"){x PERS 3, NUM sg, IND +}[]
+ x8:named<7:15>("Elliott"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:15>  
+  discourse<0:2> R-INDEX unknown<3:15>  
+  unknown<3:15> ARG named<7:15>(Elliott)  
+  proper_q<3:15> BV named<7:15>(Elliott)  
+  compound<3:15> ARG1 named<7:15>(Elliott)  
+  compound<3:15> ARG2 named<3:6>(Len)  
+  proper_q<3:6> BV named<3:6>(Len)  
+  unknown<3:15> SF prop  
+  unknown<3:15> TENSE untensed  
+  unknown<3:15> MOOD indicative  
+  unknown<3:15> PROG -  
+  unknown<3:15> PERF -  
+  compound<3:15> SF prop  
+  compound<3:15> TENSE untensed  
+  compound<3:15> MOOD indicative  
+  compound<3:15> PROG -  
+  compound<3:15> PERF -  
+  named<3:6>(Len) PERS 3  
+  named<3:6>(Len) NUM sg  
+  named<3:6>(Len) IND +  
+  named<7:15>(Elliott) PERS 3  
+  named<7:15>(Elliott) NUM sg  
+  named<7:15>(Elliott) IND +  
+}
+

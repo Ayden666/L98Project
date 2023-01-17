@@ -1,0 +1,180 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:40 h)).
+;;;
+
+[21874042] (1 of 1) {1} `Short-term rates were little changed.'
+
+[21874042:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Short-term", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <11:16>, 1, "rates", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <17:21>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <22:28>, 1, "little", 0, "null", "RB" 0.9778 "JJ" 0.0222)
+  (5, 4, 5, <29:36>, 1, "changed", 0, "null", "VBN" 0.9266 "VBD" 0.0402 "JJ" 0.0333)
+  (6, 5, 6, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:10>, 1, "Short-", 0, "null")
+  (87, 0, 1, <0:10>, 1, "short-", 0, "null")
+  (93, 0, 1, <0:10>, 1, "short-", 0, "null")
+  (76, 1, 2, <0:10>, 1, "term", 0, "null")
+  (86, 1, 2, <0:10>, 1, "term", 0, "null", "JJ" 1.0)
+  (90, 1, 2, <0:10>, 1, "term", 0, "null")
+  (74, 2, 3, <11:16>, 1, "rates", 0, "null")
+  (85, 2, 3, <11:16>, 1, "rates", 0, "null", "NNS" 1.0)
+  (89, 2, 3, <11:16>, 1, "rates", 0, "null")
+  (72, 3, 4, <17:21>, 1, "were", 0, "null")
+  (84, 3, 4, <17:21>, 1, "were", 0, "null", "VBD" 1.0)
+  (88, 3, 4, <17:21>, 1, "were", 0, "null")
+  (77, 4, 5, <22:28>, 1, "little", 0, "null")
+  (82, 4, 5, <22:28>, 1, "little", 0, "null", "RB" 0.9778)
+  (91, 4, 5, <22:28>, 1, "little", 0, "null")
+  (79, 5, 6, <29:37>, 1, "changed.", 0, "null")
+  (83, 5, 6, <29:37>, 1, "changed.", 0, "null", "VBN" 0.9266)
+  (92, 5, 6, <29:37>, 1, "changed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2051 SB-HD_MC_C 11.4266 0 6
+  (2045 HDN_BNP_C 6.72991 0 3
+   (2044 N-HDN_CPD_C 6.10916 0 3
+    (2041 XP_BRCK-PR_C 3.99425 0 2
+     (2040 AJ-HDN_NORM_C 3.17743 0 2
+      (2038 W_HYPHEN_PLR 1.2324 0 1
+       (2037 J_ATT_DLR 0.810801 0 1
+        (98 short_a1@aj_pp_i-er_le 0.596445 0 1
+         ("short-" 87
+          "token [ +CARG \"Short-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"short-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"))))
+      (2039 ^HDN_OPTCMP_C 0.794721 1 2
+       (114 term_n1@n_pp_c-of_le -0.528178 1 2
+        ("term" 76
+         "token [ +CARG #1=\"term\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (2043 ^HDN_OPTCMP_C 1.59664 2 3
+     (2042 N_PL_OLR 1.35598 2 3
+      (130 rate_n1@n_pp_mc-of_le 0.88296 2 3
+       ("rates" 74
+        "token [ +CARG #1=\"rates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (2050 ^HD-CMP_U_C 3.18078 3 6
+   (160 be_c_were@v_prd_wre_le 1.64781 3 4
+    ("were" 72
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2049 AJ-HD_INT_C 1.30395 4 6
+    (177 little_adv1@av_-_i-vp_le -0.862048 4 5
+     ("little" 77
+      "token [ +CARG #1=\"little\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97781249999999997\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2048 ^HD_OPTCMP_C 1.15924 5 6
+     (2047 W_PERIOD_PLR -0.268182 5 6
+      (2046 V_PAS_ODLR -0.369736 5 6
+       (236 change_v1@v_np_noger_le 0 5 6
+        ("changed." 79
+         "token [ +CARG \"changed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"changed.\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92657599999999996\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP
+  (N (N (N (AP (AP (ADJ "short-"))) (N (N "term"))))
+   (N (N (N "rates")))))
+ (VP (V "were") (VP (ADV "little") (VP (V (V (V "changed.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _short_a_of<0:10>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: i16 ]
+          [ _term_n_of<0:10>
+            LBL: h14
+            ARG0: x9
+            ARG1: i17 ]
+          [ _rate_n_of<11:16>
+            LBL: h8
+            ARG0: x6
+            ARG1: i18 ]
+          [ _little_a_1<22:28>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _change_v_cause<29:37>
+            LBL: h2
+            ARG0: e3
+            ARG1: i20
+            ARG2: x6 ]
+          [ parg_d<29:37>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:10>[BV x9]
+ e15:_short_a_of<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_term_n_of<0:10>{x IND +}[]
+ x6:_rate_n_of<11:16>{x PERS 3, NUM pl}[]
+ e19:_little_a_1<22:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_change_v_cause<29:37>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e21:parg_d<29:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:16> BV _rate_n_of<11:16>  
+  compound<0:16> ARG1 _rate_n_of<11:16>  
+  compound<0:16> ARG2 _term_n_of<0:10>  
+  udef_q<0:10> BV _term_n_of<0:10>  
+  _short_a_of<0:10> ARG1 _term_n_of<0:10>  
+  _little_a_1<22:28> ARG1 _change_v_cause<29:37>  
+  _change_v_cause<29:37> ARG2 _rate_n_of<11:16>  
+  parg_d<29:37> ARG1 _change_v_cause<29:37>  
+  parg_d<29:37> ARG2 _rate_n_of<11:16>  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  _short_a_of<0:10> SF prop  
+  _short_a_of<0:10> TENSE untensed  
+  _short_a_of<0:10> MOOD indicative  
+  _short_a_of<0:10> PROG -  
+  _short_a_of<0:10> PERF -  
+  _term_n_of<0:10> IND +  
+  _rate_n_of<11:16> PERS 3  
+  _rate_n_of<11:16> NUM pl  
+  _little_a_1<22:28> SF prop  
+  _little_a_1<22:28> TENSE untensed  
+  _little_a_1<22:28> MOOD indicative  
+  _little_a_1<22:28> PROG -  
+  _little_a_1<22:28> PERF -  
+  _change_v_cause<29:37> SF prop  
+  _change_v_cause<29:37> TENSE past  
+  _change_v_cause<29:37> MOOD indicative  
+  _change_v_cause<29:37> PROG -  
+  _change_v_cause<29:37> PERF -  
+  parg_d<29:37> SF prop  
+  parg_d<29:37> TENSE untensed  
+  parg_d<29:37> MOOD indicative  
+  parg_d<29:37> PROG -  
+  parg_d<29:37> PERF -  
+}
+

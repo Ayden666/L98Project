@@ -1,0 +1,182 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (13:53 h)).
+;;;
+
+[20422012] (1 of 1) {1} `But the stock market swings have continued.'
+
+[20422012:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <8:13>, 1, "stock", 0, "null", "NN" 1.0)
+  (4, 3, 4, <14:20>, 1, "market", 0, "null", "NN" 1.0)
+  (5, 4, 5, <21:27>, 1, "swings", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <28:32>, 1, "have", 0, "null", "VBP" 0.9815 "VB" 0.0185)
+  (7, 6, 7, <33:42>, 1, "continued", 0, "null", "VBN" 0.8366 "JJ" 0.1481 "VBD" 0.0153)
+  (8, 7, 8, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (100, 0, 1, <0:3>, 1, "but", 0, "null")
+  (107, 0, 1, <0:3>, 1, "but", 0, "null")
+  (83, 1, 2, <4:7>, 1, "the", 0, "null")
+  (101, 1, 2, <4:7>, 1, "the", 0, "null")
+  (85, 2, 3, <8:13>, 1, "stock", 0, "null")
+  (97, 2, 3, <8:13>, 1, "stock", 0, "null", "NN" 1.0)
+  (102, 2, 3, <8:13>, 1, "stock", 0, "null")
+  (87, 3, 4, <14:20>, 1, "market", 0, "null")
+  (98, 3, 4, <14:20>, 1, "market", 0, "null", "NN" 1.0)
+  (103, 3, 4, <14:20>, 1, "market", 0, "null")
+  (89, 4, 5, <21:27>, 1, "swings", 0, "null")
+  (99, 4, 5, <21:27>, 1, "swings", 0, "null", "NNS" 1.0)
+  (104, 4, 5, <21:27>, 1, "swings", 0, "null")
+  (90, 5, 6, <28:32>, 1, "have", 0, "null")
+  (94, 5, 6, <28:32>, 1, "have", 0, "null", "VBP" 0.9815)
+  (105, 5, 6, <28:32>, 1, "have", 0, "null")
+  (92, 6, 7, <33:43>, 1, "continued.", 0, "null")
+  (95, 6, 7, <33:43>, 1, "continued.", 0, "null", "VBN" 0.8366)
+  (96, 6, 7, <33:43>, 1, "continued.", 0, "null", "JJ" 0.1481)
+  (106, 6, 7, <33:43>, 1, "continued.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1860 CL_CNJ-FRG_C 12.1917 0 7
+  (1859 MRK-NH_CL_C 11.3219 0 7
+   (110 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 100
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1858 SB-HD_MC_C 8.90922 1 7
+    (1853 SP-HD_N_C 5.52765 1 5
+     (136 the_1@d_-_the_le 1.04749 1 2
+      ("the" 83
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1852 ^N-HDN_CPD_C 4.41381 2 5
+      (1850 N-HDN_CPD_C 3.90746 2 4
+       (163 stock_n1@n_-_mc_le 0.505018 2 3
+        ("stock" 85
+         "token [ +CARG #1=\"stock\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (187 market_n1@n_-_c_le 1.17677 3 4
+        ("market" 87
+         "token [ +CARG #1=\"market\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1851 ^N_PL_OLR 0.511364 4 5
+       (225 swing_n1@n_-_mc_le 0 4 5
+        ("swings" 89
+         "token [ +CARG #1=\"swings\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (1857 ^HD-CMP_U_C 2.15315 5 7
+     (245 have_fin_aux@v_vp_have-f_le 2.48692 5 6
+      ("have" 90
+       "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98150709999999997\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1856 HD_OPTCMP_C -0.42475 6 7
+      (1855 W_PERIOD_PLR -0.576177 6 7
+       (1854 V_PSP_OLR -0.426014 6 7
+        (270 continue_v1@v_pp*_dir_le 0 6 7
+         ("continued." 92
+          "token [ +CARG \"continued\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"continued.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83658569999999999\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "the") (N (N (N "stock") (N "market")) (N (N "swings"))))
+   (VP (V "have") (VP (V (V (V "continued."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ] ]
+          [ _the_q<4:7>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: PL ]
+            RSTR: h11
+            BODY: h9 ]
+          [ compound<8:27>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x13 [ x IND: + ] ]
+          [ udef_q<8:20>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<8:20>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x19 ]
+          [ udef_q<8:13>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ _stock_n_1<8:13>
+            LBL: h24
+            ARG0: x19 ]
+          [ _market_n_1<14:20>
+            LBL: h18
+            ARG0: x13 ]
+          [ _swing_n_1<21:27>
+            LBL: h12
+            ARG0: x10 ]
+          [ _continue_v_1<33:43>
+            LBL: h25
+            ARG0: e4
+            ARG1: x10 ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h11 QEQ h12 h5 QEQ h25 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_the_q<4:7>[BV x10]
+ e14:compound<8:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x13]
+ _2:udef_q<8:20>[BV x13]
+ e20:compound<8:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x19]
+ _3:udef_q<8:13>[BV x19]
+ x19:_stock_n_1<8:13>{x}[]
+ x13:_market_n_1<14:20>{x IND +}[]
+ x10:_swing_n_1<21:27>{x PERS 3, NUM pl}[]
+ e4:_continue_v_1-fn.Process_continue<33:43>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x10]
+}
+
+{
+  _but_c<0:3> R-HNDL _continue_v_1<33:43>  
+  _but_c<0:3> R-INDEX _continue_v_1<33:43>  
+  _the_q<4:7> BV _swing_n_1<21:27>  
+  compound<8:27> ARG1 _swing_n_1<21:27>  
+  compound<8:27> ARG2 _market_n_1<14:20>  
+  udef_q<8:20> BV _market_n_1<14:20>  
+  compound<8:20> ARG1 _market_n_1<14:20>  
+  compound<8:20> ARG2 _stock_n_1<8:13>  
+  udef_q<8:13> BV _stock_n_1<8:13>  
+  _continue_v_1<33:43> ARG1 _swing_n_1<21:27>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  compound<8:27> SF prop  
+  compound<8:27> TENSE untensed  
+  compound<8:27> MOOD indicative  
+  compound<8:27> PROG -  
+  compound<8:27> PERF -  
+  compound<8:20> SF prop  
+  compound<8:20> TENSE untensed  
+  compound<8:20> MOOD indicative  
+  compound<8:20> PROG -  
+  compound<8:20> PERF -  
+  _market_n_1<14:20> IND +  
+  _swing_n_1<21:27> PERS 3  
+  _swing_n_1<21:27> NUM pl  
+  _continue_v_1<33:43> SF prop  
+  _continue_v_1<33:43> TENSE pres  
+  _continue_v_1<33:43> MOOD indicative  
+  _continue_v_1<33:43> PROG -  
+  _continue_v_1<33:43> PERF +  
+}
+

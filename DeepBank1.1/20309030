@@ -1,0 +1,203 @@
+;;;
+;;; Redwoods export of `wsj03a';
+;;; (wsun@wsun; 22-jan-2018 (13:01 h)).
+;;;
+
+[20309030] (1 of 1) {1} `But the FHA program is hemorrhaging bad loans.'
+
+[20309030:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <8:11>, 1, "FHA", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <12:19>, 1, "program", 0, "null", "NN" 1.0)
+  (5, 4, 5, <20:22>, 1, "is", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <23:35>, 1, "hemorrhaging", 0, "null", "VBG" 0.9166 "JJ" 0.072 "NN" 0.0114)
+  (7, 6, 7, <36:39>, 1, "bad", 0, "null", "JJ" 1.0)
+  (8, 7, 8, <40:45>, 1, "loans", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (111, 0, 1, <0:3>, 1, "but", 0, "null")
+  (121, 0, 1, <0:3>, 1, "but", 0, "null")
+  (94, 1, 2, <4:7>, 1, "the", 0, "null")
+  (114, 1, 2, <4:7>, 1, "the", 0, "null")
+  (83, 2, 3, <8:11>, 1, "FHA", 0, "null")
+  (106, 2, 3, <8:11>, 1, "FHA", 0, "null", "NNP" 1.0)
+  (112, 2, 3, <8:11>, 1, "fha", 0, "null")
+  (113, 2, 3, <8:11>, 1, "fha", 0, "null")
+  (96, 3, 4, <12:19>, 1, "program", 0, "null")
+  (107, 3, 4, <12:19>, 1, "program", 0, "null", "NN" 1.0)
+  (115, 3, 4, <12:19>, 1, "program", 0, "null")
+  (98, 4, 5, <20:22>, 1, "is", 0, "null")
+  (108, 4, 5, <20:22>, 1, "is", 0, "null", "VBZ" 1.0)
+  (116, 4, 5, <20:22>, 1, "is", 0, "null")
+  (103, 5, 6, <23:35>, 1, "hemorrhaging", 0, "null")
+  (105, 5, 6, <23:35>, 1, "hemorrhaging", 0, "null", "VBG" 0.9166)
+  (119, 5, 6, <23:35>, 1, "hemorrhaging", 0, "null")
+  (100, 6, 7, <36:39>, 1, "bad", 0, "null")
+  (109, 6, 7, <36:39>, 1, "bad", 0, "null", "JJ" 1.0)
+  (117, 6, 7, <36:39>, 1, "bad", 0, "null")
+  (102, 7, 8, <40:46>, 1, "loans.", 0, "null")
+  (110, 7, 8, <40:46>, 1, "loans.", 0, "null", "NNS" 1.0)
+  (118, 7, 8, <40:46>, 1, "loans.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1906 CL_CNJ-FRG_C 12.9203 0 8
+  (1905 MRK-NH_CL_C 12.0504 0 8
+   (124 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 111
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1904 SB-HD_MC_C 9.63772 1 8
+    (1895 SP-HD_N_C 3.19996 1 4
+     (150 the_1@d_-_the_le 1.13181 1 2
+      ("the" 94
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1894 ^NP-HDN_CPD_C 1.46858 2 4
+      (1891 HDN_BNP-PN_C -0.050883 2 3
+       (175 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("FHA" 83
+         "token [ +CARG #1=\"FHA\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (1893 ^HDN_OPTCMP_C 1.15621 3 4
+       (1892 N_SG_ILR 1.39966 3 4
+        (177 program_n1@n_pp_c-of_le -0.0362082 3 4
+         ("program" 96
+          "token [ +CARG #1=\"program\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+    (1903 ^HD-CMP_U_C 5.20935 4 8
+     (220 be_c_is@v_prd_is_le 1.53171 4 5
+      ("is" 98
+       "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1902 HD-CMP_U_C 2.85351 5 8
+      (1896 ^V_PRP_OLR 0.163469 5 6
+       (308 hemorrhage_v1@v_np*_le 0 5 6
+        ("hemorrhaging" 103
+         "token [ +CARG #1=\"hemorrhaging\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91655719999999996\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1901 HDN_BNP_C 1.48212 6 8
+       (1900 AJ-HDN_NORM_C 1.15147 6 8
+        (1897 J_ATT_DLR 0.95957 6 7
+         (317 bad_a1@aj_pp_i-er_le 0.333232 6 7
+          ("bad" 100
+           "token [ +CARG #1=\"bad\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (1899 ^W_PERIOD_PLR -0.111566 7 8
+         (1898 N_PL_OLR 0.412767 7 8
+          (324 loan_n1@n_-_c_le 0 7 8
+           ("loans." 102
+            "token [ +CARG \"loans\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"loans.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "the") (N (NP (N "FHA")) (N (N (N "program")))))
+   (VP (V "is")
+    (VP (V (V "hemorrhaging"))
+     (NP (N (AP (ADJ "bad")) (N (N (N "loans."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ] ]
+          [ _the_q<4:7>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h11
+            BODY: h9 ]
+          [ compound<8:19>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x13 [ x IND: + ] ]
+          [ proper_q<8:11>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ named<8:11>
+            LBL: h18
+            ARG0: x13
+            CARG: "FHA" ]
+          [ _program_n_of<12:19>
+            LBL: h12
+            ARG0: x10
+            ARG1: i19 ]
+          [ _hemorrhage_v_1<23:35>
+            LBL: h20
+            ARG0: e4
+            ARG1: x10
+            ARG2: x21 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<36:46>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ _bad_a_at<36:39>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: i27 ]
+          [ _loan_n_1<40:46>
+            LBL: h25
+            ARG0: x21 ] >
+   HCONS: < h23 QEQ h25 h16 QEQ h18 h11 QEQ h12 h5 QEQ h20 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_the_q<4:7>[BV x10]
+ e14:compound<8:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x13]
+ _2:proper_q<8:11>[BV x13]
+ x13:named<8:11>("FHA"){x IND +}[]
+ x10:_program_n_of<12:19>{x PERS 3, NUM sg, IND +}[]
+ e4:_hemorrhage_v_1<23:35>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x10, ARG2 x21]
+ _3:udef_q<36:46>[BV x21]
+ e26:_bad_a_at<36:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21]
+ x21:_loan_n_1<40:46>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _but_c<0:3> R-HNDL _hemorrhage_v_1<23:35>  
+  _but_c<0:3> R-INDEX _hemorrhage_v_1<23:35>  
+  _the_q<4:7> BV _program_n_of<12:19>  
+  compound<8:19> ARG1 _program_n_of<12:19>  
+  compound<8:19> ARG2 named<8:11>(FHA)  
+  proper_q<8:11> BV named<8:11>(FHA)  
+  _hemorrhage_v_1<23:35> ARG1 _program_n_of<12:19>  
+  _hemorrhage_v_1<23:35> ARG2 _loan_n_1<40:46>  
+  udef_q<36:46> BV _loan_n_1<40:46>  
+  _bad_a_at<36:39> ARG1 _loan_n_1<40:46>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  compound<8:19> SF prop  
+  compound<8:19> TENSE untensed  
+  compound<8:19> MOOD indicative  
+  compound<8:19> PROG -  
+  compound<8:19> PERF -  
+  named<8:11>(FHA) IND +  
+  _program_n_of<12:19> PERS 3  
+  _program_n_of<12:19> NUM sg  
+  _program_n_of<12:19> IND +  
+  _hemorrhage_v_1<23:35> SF prop  
+  _hemorrhage_v_1<23:35> TENSE pres  
+  _hemorrhage_v_1<23:35> MOOD indicative  
+  _hemorrhage_v_1<23:35> PROG +  
+  _hemorrhage_v_1<23:35> PERF -  
+  _bad_a_at<36:39> SF prop  
+  _bad_a_at<36:39> TENSE untensed  
+  _bad_a_at<36:39> MOOD indicative  
+  _bad_a_at<36:39> PROG -  
+  _bad_a_at<36:39> PERF -  
+  _loan_n_1<40:46> PERS 3  
+  _loan_n_1<40:46> NUM pl  
+  _loan_n_1<40:46> IND +  
+}
+

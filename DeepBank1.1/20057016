@@ -1,0 +1,224 @@
+;;;
+;;; Redwoods export of `wsj00c';
+;;; (wsun@wsun; 22-jan-2018 (10:33 h)).
+;;;
+
+[20057016] (1 of 1) {1} `Yesterday's announcement was made after markets closed.'
+
+[20057016:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Yesterday", 0, "null", "NN" 1.0)
+  (2, 1, 2, <9:11>, 1, "’s", 0, "null", "NNS" 0.7193 "JJ" 0.1158 "NN" 0.0779 "VBZ" 0.0718 "IN" 0.0152)
+  (3, 2, 3, <12:24>, 1, "announcement", 0, "null", "NN" 1.0)
+  (4, 3, 4, <25:28>, 1, "was", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <29:33>, 1, "made", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <34:39>, 1, "after", 0, "null", "IN" 1.0)
+  (7, 6, 7, <40:47>, 1, "markets", 0, "null", "NNS" 1.0)
+  (8, 7, 8, <48:54>, 1, "closed", 0, "null", "VBD" 0.846 "VBN" 0.1214 "JJ" 0.0326)
+  (9, 8, 9, <54:55>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (111, 0, 1, <0:9>, 1, "Yesterday", 0, "null")
+  (120, 0, 1, <0:9>, 1, "yesterday", 0, "null")
+  (128, 0, 1, <0:9>, 1, "yesterday", 0, "null")
+  (107, 1, 2, <9:11>, 1, "’s", 0, "null")
+  (112, 1, 2, <9:11>, 1, "’s", 0, "null", "NNS" 0.7193)
+  (114, 1, 2, <9:11>, 1, "’s", 0, "null", "JJ" 0.1158)
+  (126, 1, 2, <9:11>, 1, "’s", 0, "null")
+  (98, 2, 3, <12:24>, 1, "announcement", 0, "null")
+  (116, 2, 3, <12:24>, 1, "announcement", 0, "null", "NN" 1.0)
+  (121, 2, 3, <12:24>, 1, "announcement", 0, "null")
+  (100, 3, 4, <25:28>, 1, "was", 0, "null")
+  (117, 3, 4, <25:28>, 1, "was", 0, "null", "VBD" 1.0)
+  (122, 3, 4, <25:28>, 1, "was", 0, "null")
+  (102, 4, 5, <29:33>, 1, "made", 0, "null")
+  (118, 4, 5, <29:33>, 1, "made", 0, "null", "VBN" 1.0)
+  (123, 4, 5, <29:33>, 1, "made", 0, "null")
+  (104, 5, 6, <34:39>, 1, "after", 0, "null")
+  (124, 5, 6, <34:39>, 1, "after", 0, "null")
+  (106, 6, 7, <40:47>, 1, "markets", 0, "null")
+  (119, 6, 7, <40:47>, 1, "markets", 0, "null", "NNS" 1.0)
+  (125, 6, 7, <40:47>, 1, "markets", 0, "null")
+  (108, 7, 8, <48:55>, 1, "closed.", 0, "null")
+  (113, 7, 8, <48:55>, 1, "closed.", 0, "null", "VBD" 0.846)
+  (115, 7, 8, <48:55>, 1, "closed.", 0, "null", "VBN" 0.1214)
+  (127, 7, 8, <48:55>, 1, "closed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4251 HD-AJ_SCP_C 13.569 0 8
+  (4244 ^SB-HD_MC_C 9.60858 0 5
+   (4240 SP-HD_N_C 4.13117 0 3
+    (4237 SP-HD_HC_C 3.42193 0 2
+     (4236 HDN_BNP-QNT_C 3.0297 0 1
+      (131 yesterday_np@n_-_ad-time_le 0.972471 0 1
+       ("yesterday" 120
+        "token [ +CARG \"Yesterday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"yesterday\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (135 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 1 2
+      ("’s" 107
+       "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.71931679999999998\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (4239 ^HDN_OPTCMP_C 0.488428 2 3
+     (4238 N_MS-CNT_ILR 0.576228 2 3
+      (343 announcement_n1@n_pp_mc-of_le -0.166558 2 3
+       ("announcement" 98
+        "token [ +CARG #1=\"announcement\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (4243 ^HD-CMP_U_C 3.93731 3 5
+    (350 be_c_was@v_prd_was_le 1.85482 3 4
+     ("was" 100
+      "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (4242 HD_OPTCMP_C 1.20329 4 5
+     (4241 V_PAS_ODLR 0.876461 4 5
+      (435 make_v1@v_np_noarg3_le 1.10737 4 5
+       ("made" 102
+        "token [ +CARG #1=\"made\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (4250 HD-CMP_U_C 3.50364 5 8
+   (551 after2@p_cp_s-notop_le 0.108084 5 6
+    ("after" 104
+     "token [ +CARG #1=\"after\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (4249 SB-HD_NMC_C 0.788919 6 8
+    (4246 HDN_BNP_C 0.716365 6 7
+     (4245 N_PL_OLR 1.35018 6 7
+      (577 market_n1@n_-_c_le 0.880778 6 7
+       ("markets" 106
+        "token [ +CARG #1=\"markets\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (4248 ^W_PERIOD_PLR -0.102655 7 8
+     (4247 V_PST_OLR 0.307822 7 8
+      (713 close_v2@v_-_unacc_le 0 7 8
+       ("closed." 108
+        "token [ +CARG \"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"closed.\" +FROM #1=\"48\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84598320000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S
+  (NP (DET (NP (N "yesterday")) (DET "’s")) (N (N (N "announcement"))))
+  (VP (V "was") (VP (V (V "made")))))
+ (PP (P "after") (S (NP (N (N "markets"))) (VP (VP (V "closed."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ time_n<0:9>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ def_implicit_q<0:9>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _yesterday_a_1<0:9>
+            LBL: h4
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 ]
+          [ def_explicit_q<9:11>
+            LBL: h10
+            ARG0: x12 [ x PERS: 3 NUM: SG ]
+            RSTR: h11
+            BODY: h13 ]
+          [ poss<9:11>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x12
+            ARG2: x5 ]
+          [ _announcement_n_of<12:24>
+            LBL: h14
+            ARG0: x12
+            ARG1: i16 ]
+          [ _make_v_1<29:33>
+            LBL: h17
+            ARG0: e3
+            ARG1: i19
+            ARG2: x12
+            ARG3: u18 ]
+          [ parg_d<29:33>
+            LBL: h17
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x12 ]
+          [ _after_x_h<34:39>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h22
+            ARG2: h23 ]
+          [ udef_q<40:47>
+            LBL: h24
+            ARG0: x26 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h25
+            BODY: h27 ]
+          [ _market_n_1<40:47>
+            LBL: h28
+            ARG0: x26 ]
+          [ _close_v_1<48:55>
+            LBL: h29
+            ARG0: e30 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x26 ] >
+   HCONS: < h25 QEQ h28 h23 QEQ h29 h22 QEQ h17 h11 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e21:
+ x5:time_n<0:9>{x PERS 3, NUM sg}[]
+ _1:def_implicit_q<0:9>[BV x5]
+ e9:_yesterday_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ _2:def_explicit_q<9:11>[BV x12]
+ e15:poss<9:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x12, ARG2 x5]
+ x12:_announcement_n_of<12:24>{x PERS 3, NUM sg}[]
+ e3:_make_v_1<29:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x12]
+ e20:parg_d<29:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x12]
+ e21:_after_x_h<34:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e30]
+ _3:udef_q<40:47>[BV x26]
+ x26:_market_n_1<40:47>{x PERS 3, NUM pl, IND +}[]
+ e30:_close_v_1<48:55>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x26]
+}
+
+{
+  def_implicit_q<0:9> BV time_n<0:9>  
+  _yesterday_a_1<0:9> ARG1 time_n<0:9>  
+  def_explicit_q<9:11> BV _announcement_n_of<12:24>  
+  poss<9:11> ARG1 _announcement_n_of<12:24>  
+  poss<9:11> ARG2 time_n<0:9>  
+  _make_v_1<29:33> ARG2 _announcement_n_of<12:24>  
+  parg_d<29:33> ARG1 _make_v_1<29:33>  
+  parg_d<29:33> ARG2 _announcement_n_of<12:24>  
+  _after_x_h<34:39> ARG1 _make_v_1<29:33>  
+  _after_x_h<34:39> ARG2 _close_v_1<48:55>  
+  udef_q<40:47> BV _market_n_1<40:47>  
+  _close_v_1<48:55> ARG1 _market_n_1<40:47>  
+  time_n<0:9> PERS 3  
+  time_n<0:9> NUM sg  
+  _yesterday_a_1<0:9> SF prop  
+  _yesterday_a_1<0:9> TENSE untensed  
+  _yesterday_a_1<0:9> MOOD indicative  
+  _yesterday_a_1<0:9> PROG -  
+  _yesterday_a_1<0:9> PERF -  
+  poss<9:11> SF prop  
+  poss<9:11> TENSE untensed  
+  poss<9:11> MOOD indicative  
+  poss<9:11> PROG -  
+  poss<9:11> PERF -  
+  _announcement_n_of<12:24> PERS 3  
+  _announcement_n_of<12:24> NUM sg  
+  _make_v_1<29:33> SF prop  
+  _make_v_1<29:33> TENSE past  
+  _make_v_1<29:33> MOOD indicative  
+  _make_v_1<29:33> PROG -  
+  _make_v_1<29:33> PERF -  
+  parg_d<29:33> SF prop  
+  parg_d<29:33> TENSE untensed  
+  parg_d<29:33> MOOD indicative  
+  parg_d<29:33> PROG -  
+  parg_d<29:33> PERF -  
+  _after_x_h<34:39> SF prop  
+  _after_x_h<34:39> TENSE untensed  
+  _after_x_h<34:39> MOOD indicative  
+  _after_x_h<34:39> PROG -  
+  _after_x_h<34:39> PERF -  
+  _market_n_1<40:47> PERS 3  
+  _market_n_1<40:47> NUM pl  
+  _market_n_1<40:47> IND +  
+  _close_v_1<48:55> SF prop  
+  _close_v_1<48:55> TENSE past  
+  _close_v_1<48:55> MOOD indicative  
+  _close_v_1<48:55> PROG -  
+  _close_v_1<48:55> PERF -  
+}
+

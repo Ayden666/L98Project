@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj14c';
+;;; (wsun@wsun; 22-jan-2018 (23:25 h)).
+;;;
+
+[21453059] (1 of 1) {1} `*Not counting dividends'
+
+[21453059:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "*Not", 0, "null", "NNP" 0.6105 "JJ" 0.1366 "NN" 0.1053 "VBD" 0.0379 "VB" 0.0351 "IN" 0.0296 "JJS" 0.018 "CD" 0.0131 "VBP" 0.0076 "VBN" 0.0064)
+  (2, 1, 2, <5:13>, 1, "counting", 0, "null", "VBG" 0.7628 "NN" 0.2372)
+  (3, 2, 3, <14:23>, 1, "dividends", 0, "null", "NNS" 1.0)
+>
+
+<
+  (55, 0, 1, <0:4>, 1, "*Not", 0, "null", "NNP" 0.6105)
+  (56, 0, 1, <0:4>, 1, "*Not", 0, "null", "JJ" 0.1366)
+  (57, 0, 1, <0:4>, 1, "*Not", 0, "null", "NN" 0.1053)
+  (59, 0, 1, <0:4>, 1, "*not", 0, "null")
+  (62, 0, 1, <0:4>, 1, "*not", 0, "null")
+  (50, 1, 2, <5:13>, 1, "counting", 0, "null")
+  (54, 1, 2, <5:13>, 1, "counting", 0, "null", "VBG" 0.7628)
+  (61, 1, 2, <5:13>, 1, "counting", 0, "null")
+  (49, 2, 3, <14:23>, 1, "dividends", 0, "null")
+  (58, 2, 3, <14:23>, 1, "dividends", 0, "null", "NNS" 1.0)
+  (60, 2, 3, <14:23>, 1, "dividends", 0, "null")
+>
+
+(ROOT_FRAG
+ (582 VP_NFIN-FRG_C -0.150473 0 3
+  (581 MRK-NH_EVNT_C -0.425369 0 3
+   (576 ^W_ASTERISK-PRE_PLR 0 0 1
+    (107 not_conj_event@c_xp_not-ev_le 0 0 1
+     ("*not" 59
+      "token [ +CARG \"*Not\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"*not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61049330000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (580 HD-CMP_U_C -0.425369 1 3
+    (577 ^V_PRP_OLR 0.029813 1 2
+     (180 count_v2@v_np*_le 0 1 2
+      ("counting" 50
+       "token [ +CARG #1=\"counting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.76277890000000004\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (579 HDN_BNP_C -1.28588 2 3
+     (578 N_PL_OLR -0.100628 2 3
+      (190 dividend_n1@n_-_c_le 0 2 3
+       ("dividends" 49
+        "token [ +CARG #1=\"dividends\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP
+ (VP-C (CONJ (CONJ "*not"))
+  (VP (V (V "counting")) (NP (N (N "dividends"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _not_c<0:4>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ] ]
+          [ _count_v_1<5:13>
+            LBL: h5
+            ARG0: e4
+            ARG1: i9
+            ARG2: x8 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<14:23>
+            LBL: h10
+            ARG0: x8
+            RSTR: h11
+            BODY: h12 ]
+          [ _dividend_n_1<14:23>
+            LBL: h13
+            ARG0: x8 ] >
+   HCONS: < h11 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_not_c<0:4>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ e4:_count_v_1<5:13>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x8]
+ _1:udef_q<14:23>[BV x8]
+ x8:_dividend_n_1<14:23>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _not_c<0:4> R-HNDL _count_v_1<5:13>  
+  _not_c<0:4> R-INDEX _count_v_1<5:13>  
+  _count_v_1<5:13> ARG2 _dividend_n_1<14:23>  
+  udef_q<14:23> BV _dividend_n_1<14:23>  
+  _not_c<0:4> SF prop-or-ques  
+  _not_c<0:4> TENSE untensed  
+  _not_c<0:4> MOOD indicative  
+  _not_c<0:4> PROG -  
+  _not_c<0:4> PERF -  
+  _count_v_1<5:13> SF prop-or-ques  
+  _count_v_1<5:13> TENSE untensed  
+  _count_v_1<5:13> MOOD indicative  
+  _count_v_1<5:13> PROG +  
+  _count_v_1<5:13> PERF -  
+  _dividend_n_1<14:23> PERS 3  
+  _dividend_n_1<14:23> NUM pl  
+  _dividend_n_1<14:23> IND +  
+}
+

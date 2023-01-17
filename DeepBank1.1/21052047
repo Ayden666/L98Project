@@ -1,0 +1,100 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:37 h)).
+;;;
+
+[21052047] (1 of 1) {1} `Business: Restaurants'
+
+[21052047:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Business", 0, "null", "NNP" 0.802 "NN" 0.198)
+  (2, 1, 2, <8:9>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <10:21>, 1, "Restaurants", 0, "null", "NNP" 0.6214 "NNS" 0.2604 "NNPS" 0.1183)
+>
+
+<
+  (42, 0, 1, <0:8>, 1, "Business", 0, "null")
+  (47, 0, 1, <0:8>, 1, "business", 0, "null")
+  (50, 0, 1, <0:8>, 1, "business", 0, "null")
+  (37, 1, 2, <8:9>, 1, ":", 0, "null")
+  (49, 1, 2, <8:9>, 1, ":", 0, "null")
+  (29, 2, 3, <10:21>, 1, "Restaurants", 0, "null")
+  (43, 2, 3, <10:21>, 1, "Restaurants", 0, "null", "NNP" 0.6214)
+  (44, 2, 3, <10:21>, 1, "Restaurants", 0, "null", "NNS" 0.2604)
+  (45, 2, 3, <10:21>, 1, "Restaurants", 0, "null", "NNPS" 0.1183)
+  (46, 2, 3, <10:21>, 1, "restaurants", 0, "null")
+  (48, 2, 3, <10:21>, 1, "restaurants", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (310 SB-HD_MC_C 1.49581 0 3
+  (306 HDN_BNP_C 0.24484 0 1
+   (305 N_MS-CNT_ILR 0.444916 0 1
+    (53 business_n1@n_-_mc_le 0.118499 0 1
+     ("business" 47
+      "token [ +CARG \"Business\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"business\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8020351\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (309 ^HD-CMP_U_C -0.264936 1 3
+   (58 colon_copula_v@v_np_colon_le 0.879077 1 2
+    (":" 37
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (308 HDN_BNP_C -0.953158 2 3
+    (307 N_PL_OLR -0.100628 2 3
+     (111 restaurant_n1@n_-_c_le 0 2 3
+      ("restaurants" 46
+       "token [ +CARG \"Restaurants\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"restaurants\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.62135989999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "business"))) (VP (V ":") (NP (N (N "restaurants")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _business_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _colon_v_id<8:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<10:21>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _restaurant_n_1<10:21>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:8>[BV x6]
+ x6:_business_n_1<0:8>{x PERS 3, NUM sg}[]
+ e3:_colon_v_id<8:9>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<10:21>[BV x9]
+ x9:_restaurant_n_1<10:21>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:8> BV _business_n_1<0:8>  
+  _colon_v_id<8:9> ARG1 _business_n_1<0:8>  
+  _colon_v_id<8:9> ARG2 _restaurant_n_1<10:21>  
+  udef_q<10:21> BV _restaurant_n_1<10:21>  
+  _business_n_1<0:8> PERS 3  
+  _business_n_1<0:8> NUM sg  
+  _colon_v_id<8:9> SF prop  
+  _colon_v_id<8:9> TENSE tensed  
+  _colon_v_id<8:9> MOOD indicative  
+  _colon_v_id<8:9> PROG -  
+  _colon_v_id<8:9> PERF -  
+  _restaurant_n_1<10:21> PERS 3  
+  _restaurant_n_1<10:21> NUM pl  
+  _restaurant_n_1<10:21> IND +  
+}
+

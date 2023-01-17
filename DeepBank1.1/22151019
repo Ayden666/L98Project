@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:24 h)).
+;;;
+
+[22151019] (1 of 1) {1} `They're very friendly."'
+
+[22151019:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <4:7>, 1, "’re", 0, "null", "VBP" 0.7511 "VBD" 0.104 "VB" 0.0835 "NN" 0.0339 "JJ" 0.0165 "RB" 0.0111)
+  (3, 2, 3, <8:12>, 1, "very", 0, "null", "RB" 1.0)
+  (4, 3, 4, <13:21>, 1, "friendly", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+  (6, 5, 6, <22:23>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (79, 0, 1, <0:4>, 1, "they", 0, "null")
+  (83, 0, 1, <0:4>, 1, "they", 0, "null")
+  (73, 1, 2, <4:7>, 1, "’re", 0, "null")
+  (75, 1, 2, <4:7>, 1, "’re", 0, "null", "VBP" 0.7511)
+  (76, 1, 2, <4:7>, 1, "’re", 0, "null", "VBD" 0.104)
+  (82, 1, 2, <4:7>, 1, "’re", 0, "null")
+  (70, 2, 3, <8:12>, 1, "very", 0, "null")
+  (77, 2, 3, <8:12>, 1, "very", 0, "null", "RB" 1.0)
+  (80, 2, 3, <8:12>, 1, "very", 0, "null")
+  (72, 3, 4, <13:23>, 1, "friendly.”", 0, "null")
+  (78, 3, 4, <13:23>, 1, "friendly.”", 0, "null", "JJ" 1.0)
+  (81, 3, 4, <13:23>, 1, "friendly.”", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (279 SB-HD_MC_C 7.12733 0 4
+  (273 HDN_BNP-QNT_C 1.15641 0 1
+   (84 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 79
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (278 ^HD-CMP_U_C 4.70157 1 4
+   (99 be_c_are_cx_2@v_prd_are-cx_le 0.400947 1 2
+    ("’re" 73
+     "token [ +CARG #1=\"’re\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75107849999999998\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (277 SP-HD_HC_C 4.30062 2 4
+    (104 very@av_-_dg-v_le 1.06286 2 3
+     ("very" 70
+      "token [ +CARG #1=\"very\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (276 ^HD_OPTCMP_C 2.65213 3 4
+     (275 W_DQRIGHT_PLR 2.5076 3 4
+      (274 W_PERIOD_PLR 0.173888 3 4
+       (109 friendly_a1@aj_pp_i_le 0 3 4
+        ("friendly.”" 72
+         "token [ +CARG \"friendly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"friendly.”\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "they"))
+ (VP (V "’re") (AP (ADV "very") (AP (ADJ (ADJ (ADJ "friendly.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _very_x_deg<8:12>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _friendly_a_to<13:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: i10 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e9:_very_x_deg<8:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_friendly_a_to<13:23>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _very_x_deg<8:12> ARG1 _friendly_a_to<13:23>  
+  _friendly_a_to<13:23> ARG1 pron<0:4>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _very_x_deg<8:12> SF prop  
+  _very_x_deg<8:12> TENSE untensed  
+  _very_x_deg<8:12> MOOD indicative  
+  _very_x_deg<8:12> PROG -  
+  _very_x_deg<8:12> PERF -  
+  _friendly_a_to<13:23> SF prop  
+  _friendly_a_to<13:23> TENSE pres  
+  _friendly_a_to<13:23> MOOD indicative  
+  _friendly_a_to<13:23> PROG -  
+  _friendly_a_to<13:23> PERF -  
+}
+

@@ -1,0 +1,67 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:41 h)).
+;;;
+
+[20694013] (1 of 1) {1} `Chairperson'
+
+[20694013:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Chairperson", 0, "null", "NNP" 1.0)
+>
+
+<
+  (12, 0, 1, <0:11>, 1, "Chairperson", 0, "null")
+  (13, 0, 1, <0:11>, 1, "chairperson", 0, "null")
+  (14, 0, 1, <0:11>, 1, "chairperson", 0, "null")
+>
+
+(ROOT_FRAG
+ (22 NP_FRG_C -2.39095 0 1
+  (21 HDN_BNP-PN_C -1.24444 0 1
+   (20 N_SG_ILR -0.679251 0 1
+    (15 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Chairperson" 12
+      "token [ +CARG #1=\"Chairperson\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+
+(XP (NP (N (N "Chairperson"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:11>
+            LBL: h8
+            ARG0: x4
+            CARG: "Chairperson" ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:11>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:11>[BV x4]
+ x4:named<0:11>("Chairperson"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:11> ARG named<0:11>(Chairperson)  
+  proper_q<0:11> BV named<0:11>(Chairperson)  
+  unknown<0:11> SF prop-or-ques  
+  unknown<0:11> TENSE untensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  named<0:11>(Chairperson) PERS 3  
+  named<0:11>(Chairperson) NUM sg  
+  named<0:11>(Chairperson) IND +  
+}
+

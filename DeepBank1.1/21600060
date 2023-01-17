@@ -1,0 +1,119 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:52 h)).
+;;;
+
+[21600060] (1 of 1) {1} `SPECIALIZED FUNDS:'
+
+[21600060:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "SPECIALIZED", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <12:17>, 1, "FUNDS", 0, "null", "NNS" 0.9803 "NNPS" 0.0197)
+  (3, 2, 3, <17:18>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:11>, 1, "SPECIALIZED", 0, "null")
+  (41, 0, 1, <0:11>, 1, "SPECIALIZED", 0, "null", "JJ" 1.0)
+  (42, 0, 1, <0:11>, 1, "specialized", 0, "null")
+  (45, 0, 1, <0:11>, 1, "specialized", 0, "null")
+  (30, 1, 2, <12:17>, 1, "FUNDS", 0, "null")
+  (40, 1, 2, <12:17>, 1, "FUNDS", 0, "null", "NNS" 0.9803)
+  (43, 1, 2, <12:17>, 1, "funds", 0, "null")
+  (44, 1, 2, <12:17>, 1, "funds", 0, "null")
+  (37, 2, 3, <17:18>, 1, ":", 0, "null")
+  (46, 2, 3, <17:18>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (487 NP-AJ_RORP-FRG_C 2.50305 0 3
+  (486 ^HDN_BNP_C 1.80057 0 2
+   (485 AJ-HDN_NORM_C 0.820719 0 2
+    (483 V_J-NB-PAS-TR_DLR -0.309782 0 1
+     (482 V_PAS_ODLR 0.157638 0 1
+      (70 specialize_v1@v_np*_le 0 0 1
+       ("specialized" 42
+        "token [ +CARG \"SPECIALIZED\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"specialized\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (484 ^N_PL_OLR 1.01039 1 2
+     (116 fund_n1@n_-_c_le 1.02925 1 2
+      ("funds" 43
+       "token [ +CARG \"FUNDS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"funds\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98027390000000003\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (134 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+   (":" 37
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (AP (V (V "specialized"))) (N (N "funds")))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _specialize_v_1<0:11>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i10
+            ARG2: x4 ]
+          [ parg_d<0:11>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: x4 ]
+          [ _fund_n_1<12:17>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<17:18>
+            LBL: h2
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i12 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:17>[BV x4]
+ e9:_specialize_v_1<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x4]
+ e11:parg_d<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x4]
+ x4:_fund_n_1<12:17>{x PERS 3, NUM pl, IND +}[]
+ e13:_colon_p_namely<17:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:18> ARG _fund_n_1<12:17>  
+  udef_q<0:17> BV _fund_n_1<12:17>  
+  _specialize_v_1<0:11> ARG2 _fund_n_1<12:17>  
+  parg_d<0:11> ARG1 _specialize_v_1<0:11>  
+  parg_d<0:11> ARG2 _fund_n_1<12:17>  
+  unknown<0:18> SF prop  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  _specialize_v_1<0:11> SF prop  
+  _specialize_v_1<0:11> TENSE untensed  
+  _specialize_v_1<0:11> MOOD indicative  
+  _specialize_v_1<0:11> PROG -  
+  _specialize_v_1<0:11> PERF -  
+  parg_d<0:11> SF prop  
+  parg_d<0:11> TENSE untensed  
+  parg_d<0:11> MOOD indicative  
+  parg_d<0:11> PROG -  
+  parg_d<0:11> PERF -  
+  _fund_n_1<12:17> PERS 3  
+  _fund_n_1<12:17> NUM pl  
+  _fund_n_1<12:17> IND +  
+  _colon_p_namely<17:18> SF prop  
+  _colon_p_namely<17:18> TENSE untensed  
+  _colon_p_namely<17:18> MOOD indicative  
+  _colon_p_namely<17:18> PROG -  
+  _colon_p_namely<17:18> PERF -  
+}
+

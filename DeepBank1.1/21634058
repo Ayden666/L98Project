@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:20 h)).
+;;;
+
+[21634058] (1 of 1) {1} `We reinvented it.'
+
+[21634058:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "We", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:13>, 1, "reinvented", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <14:16>, 1, "it", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (45, 0, 1, <0:2>, 1, "we", 0, "null")
+  (48, 0, 1, <0:2>, 1, "we", 0, "null")
+  (41, 1, 2, <3:13>, 1, "reinvented", 0, "null")
+  (44, 1, 2, <3:13>, 1, "reinvented", 0, "null", "VBD" 1.0)
+  (46, 1, 2, <3:13>, 1, "reinvented", 0, "null")
+  (43, 2, 3, <14:17>, 1, "it.", 0, "null")
+  (47, 2, 3, <14:17>, 1, "it.", 0, "null")
+>
+
+(ROOT_STRICT
+ (341 SB-HD_MC_C 0.863765 0 3
+  (335 HDN_BNP-QNT_C 0.662785 0 1
+   (49 we@n_-_pr-we_le 0.158566 0 1
+    ("we" 45
+     "token [ +CARG \"We\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"we\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (340 ^HD-CMP_U_C -1.06837 1 3
+   (337 ^V_V-RE_DLR -1.4538 1 2
+    (336 V_PST_OLR -0.0706632 1 2
+     (66 invent_v1@v_np*_le 0 1 2
+      ("reinvented" 41
+       "token [ +CARG #1=\"reinvented\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (339 HDN_BNP-QNT_C 0.320932 2 3
+    (338 W_PERIOD_PLR 0.27506 2 3
+     (167 it2@n_-_pr-it_le 0 2 3
+      ("it." 43
+       "token [ +CARG \"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"it.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "we")) (VP (V (V (V "reinvented"))) (NP (NP (NP "it.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _invent_v_1<3:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ _re-_a_again<3:13>
+            LBL: h2
+            ARG0: i10
+            ARG1: e3 ]
+          [ pron<14:17>
+            LBL: h11
+            ARG0: x9 ]
+          [ pronoun_q<14:17>
+            LBL: h12
+            ARG0: x9
+            RSTR: h13
+            BODY: h14 ] >
+   HCONS: < h13 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 1, NUM pl, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_invent_v_1<3:13>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ i10:_re-_a_again<3:13>{i}[ARG1 e3]
+ x9:pron<14:17>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<14:17>[BV x9]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _invent_v_1<3:13> ARG1 pron<0:2>  
+  _invent_v_1<3:13> ARG2 pron<14:17>  
+  _re-_a_again<3:13> ARG1 _invent_v_1<3:13>  
+  pronoun_q<14:17> BV pron<14:17>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM pl  
+  pron<0:2> PT std  
+  _invent_v_1<3:13> SF prop  
+  _invent_v_1<3:13> TENSE past  
+  _invent_v_1<3:13> MOOD indicative  
+  _invent_v_1<3:13> PROG -  
+  _invent_v_1<3:13> PERF -  
+  pron<14:17> PERS 3  
+  pron<14:17> NUM sg  
+  pron<14:17> GEND n  
+  pron<14:17> PT std  
+}
+

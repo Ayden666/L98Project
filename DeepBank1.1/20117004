@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:07 h)).
+;;;
+
+[20117004] (1 of 1) {1} `An appeal is expected.'
+
+[20117004:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "An", 0, "null", "DT" 1.0)
+  (2, 1, 2, <3:9>, 1, "appeal", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:21>, 1, "expected", 0, "null", "VBN" 0.9798 "JJ" 0.0202)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:2>, 1, "an", 0, "null")
+  (64, 0, 1, <0:2>, 1, "an", 0, "null")
+  (52, 1, 2, <3:9>, 1, "appeal", 0, "null")
+  (58, 1, 2, <3:9>, 1, "appeal", 0, "null", "NN" 1.0)
+  (61, 1, 2, <3:9>, 1, "appeal", 0, "null")
+  (54, 2, 3, <10:12>, 1, "is", 0, "null")
+  (59, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (62, 2, 3, <10:12>, 1, "is", 0, "null")
+  (55, 3, 4, <13:22>, 1, "expected.", 0, "null")
+  (57, 3, 4, <13:22>, 1, "expected.", 0, "null", "VBN" 0.9798)
+  (63, 3, 4, <13:22>, 1, "expected.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1004 SB-HD_MC_C 4.73031 0 4
+  (999 SP-HD_N_C 0.985128 0 2
+   (68 an_det@d_-_sg-nmd-an_le 1.19957 0 1
+    ("an" 60
+     "token [ +CARG \"An\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"an\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (998 ^N_MS-CNT_ILR 0.326596 1 2
+    (89 appeal_n1@n_-_mc-ns_le 0 1 2
+     ("appeal" 52
+      "token [ +CARG #1=\"appeal\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1003 ^HD-CMP_U_C 1.79067 2 4
+   (135 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 54
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1002 HD_OPTCMP_C 0.285111 3 4
+    (1001 W_PERIOD_PLR 0.133685 3 4
+     (1000 V_PAS_ODLR -0.192154 3 4
+      (236 expect_v1@v_np*_le 0 3 4
+       ("expected." 55
+        "token [ +CARG \"expected\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"expected.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97979320000000003\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "an") (N (N "appeal")))
+ (VP (V "is") (VP (V (V (V "expected."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _a_q<0:2>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _appeal_n_1<3:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _expect_v_1<13:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: i9
+            ARG2: x6 ]
+          [ parg_d<13:22>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_a_q<0:2>[BV x6]
+ x6:_appeal_n_1<3:9>{x PERS 3, NUM sg}[]
+ e3:_expect_v_1<13:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e10:parg_d<13:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  _a_q<0:2> BV _appeal_n_1<3:9>  
+  _expect_v_1<13:22> ARG2 _appeal_n_1<3:9>  
+  parg_d<13:22> ARG1 _expect_v_1<13:22>  
+  parg_d<13:22> ARG2 _appeal_n_1<3:9>  
+  _appeal_n_1<3:9> PERS 3  
+  _appeal_n_1<3:9> NUM sg  
+  _expect_v_1<13:22> SF prop  
+  _expect_v_1<13:22> TENSE pres  
+  _expect_v_1<13:22> MOOD indicative  
+  _expect_v_1<13:22> PROG -  
+  _expect_v_1<13:22> PERF -  
+  parg_d<13:22> SF prop  
+  parg_d<13:22> TENSE untensed  
+  parg_d<13:22> MOOD indicative  
+  parg_d<13:22> PROG -  
+  parg_d<13:22> PERF -  
+}
+

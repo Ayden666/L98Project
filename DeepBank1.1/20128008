@@ -1,0 +1,255 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:13 h)).
+;;;
+
+[20128008] (1 of 1) {1} `Shearson is 62%-owned by American Express Co.'
+
+[20128008:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Shearson", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <12:21>, 1, "62%-owned", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <22:24>, 1, "by", 0, "null", "IN" 1.0)
+  (5, 4, 5, <25:33>, 1, "American", 0, "null", "NNP" 0.9067 "JJ" 0.0933)
+  (6, 5, 6, <34:41>, 1, "Express", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <42:44>, 1, "Co", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (106, 0, 1, <0:8>, 1, "Shearson", 0, "null")
+  (114, 0, 1, <0:8>, 1, "shearson", 0, "null")
+  (124, 0, 1, <0:8>, 1, "shearson", 0, "null")
+  (95, 1, 2, <9:11>, 1, "is", 0, "null")
+  (109, 1, 2, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (120, 1, 2, <9:11>, 1, "is", 0, "null")
+  (101, 2, 3, <12:21>, 1, "62%-", 0, "null")
+  (111, 2, 3, <12:21>, 1, "62%-", 0, "null", "NN" 1.0)
+  (123, 2, 3, <12:21>, 1, "62%-", 0, "null")
+  (99, 3, 4, <12:21>, 1, "owned", 0, "null")
+  (110, 3, 4, <12:21>, 1, "owned", 0, "null", "JJ" 1.0)
+  (122, 3, 4, <12:21>, 1, "owned", 0, "null")
+  (97, 4, 5, <22:24>, 1, "by", 0, "null")
+  (121, 4, 5, <22:24>, 1, "by", 0, "null")
+  (83, 5, 6, <25:33>, 1, "American", 0, "null")
+  (107, 5, 6, <25:33>, 1, "American", 0, "null", "NNP" 0.9067)
+  (116, 5, 6, <25:33>, 1, "american", 0, "null")
+  (117, 5, 6, <25:33>, 1, "american", 0, "null")
+  (84, 6, 7, <34:41>, 1, "Express", 0, "null")
+  (108, 6, 7, <34:41>, 1, "Express", 0, "null", "NNP" 1.0)
+  (113, 6, 7, <34:41>, 1, "express", 0, "null")
+  (118, 6, 7, <34:41>, 1, "express", 0, "null")
+  (87, 7, 8, <42:45>, 1, "Co.", 0, "null")
+  (112, 7, 8, <42:45>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (115, 7, 8, <42:45>, 1, "co.", 0, "null")
+  (119, 7, 8, <42:45>, 1, "co.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3350 SB-HD_MC_C 8.55102 0 8
+  (3334 HDN_BNP-PN_C -0.861555 0 1
+   (3333 N_SG_ILR -0.812599 0 1
+    (128 generic_proper_ne@n_-_pn-gen_le 0.166949 0 1
+     ("Shearson" 106
+      "token [ +CARG #1=\"Shearson\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (3349 ^HD-CMP_U_C 8.39553 1 8
+   (168 be_c_is@v_prd_is_le 1.53171 1 2
+    ("is" 95
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (3348 HD-AJ_INT-UNSL_C 6.72715 2 8
+    (3338 ^XP_BRCK-PR_C -1.07443 2 4
+     (3337 N-V_J-CPD_C -1.27284 2 4
+      (3335 W_HYPHEN_PLR -1.85637 2 3
+       (255 generic_mass_count_noun@n_-_mc-unk_le 0 2 3
+        ("62%-" 111
+         "token [ +CARG #1=\"62%-\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED \"_62%-/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1.0\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW + ] ]")))
+      (3336 ^V_PAS_ODLR -0.818166 3 4
+       (269 own_v1@v_np_le 0.170917 3 4
+        ("owned" 99
+         "token [ +CARG #1=\"owned\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (3347 HD-CMP_U_C 6.63236 4 8
+     (364 by_p@p_np_i-dgsp_le 0.224576 4 5
+      ("by" 97
+       "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3346 HDN_BNP-PN_C 6.97794 5 8
+      (3345 HDN-AJ_REDREL_C 7.27699 5 8
+       (3342 ^NP-HDN_NME-CPD_C 3.6117 5 7
+        (3340 HDN_BNP-PN_C 0.668631 5 6
+         (3339 N_SG_ILR 0.203112 5 6
+          (385 generic_proper_ne@n_-_pn-gen_le -0.523785 5 6
+           ("American" 83
+            "token [ +CARG #1=\"American\" +CLASS proper_ne +FORM #1 +FROM \"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90672629999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+        (3341 ^N_SG_ILR 1.58126 6 7
+         (405 generic_proper_ne@n_-_pn-gen_le 0.438027 6 7
+          ("Express" 84
+           "token [ +CARG #1=\"Express\" +CLASS proper_ne +FORM #1 +FROM \"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (3344 W_PERIOD_PLR 2.36284 7 8
+        (3343 N_SG_ILR 1.30395 7 8
+         (420 co_post_ttl@n_-_tt-post_le 1.97728 7 8
+          ("co." 115
+           "token [ +CARG \"Co\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "Shearson")))
+ (VP (V "is")
+  (AP (AP (AP (N (N "62%-")) (V (V "owned"))))
+   (PP (P "by")
+    (NP
+     (N (N (NP (N (N "American"))) (N (N "Express")))
+      (N (N (N "co.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Shearson" ]
+          [ compound<12:21>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x9 ]
+          [ udef_q<12:21>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _62%-/nn_u_unknown<12:21>
+            LBL: h14
+            ARG0: x9 ]
+          [ _own_v_1<12:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x6 ]
+          [ parg_d<12:21>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _by_p<22:24>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<25:45>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ compound<25:41>
+            LBL: h22
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            ARG2: x23 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<25:33>
+            LBL: h25
+            ARG0: x23
+            RSTR: h26
+            BODY: h27 ]
+          [ named<25:33>
+            LBL: h28
+            ARG0: x23
+            CARG: "American" ]
+          [ named<34:41>
+            LBL: h22
+            ARG0: x18
+            CARG: "Express" ]
+          [ _company_n_1<42:45>
+            LBL: h29
+            ARG0: x30 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<42:45>
+            LBL: h31
+            ARG0: x30
+            RSTR: h32
+            BODY: h33 ]
+          [ compound<42:45>
+            LBL: h22
+            ARG0: i34
+            ARG1: x18
+            ARG2: x30 ] >
+   HCONS: < h32 QEQ h29 h26 QEQ h28 h20 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:8>[BV x6]
+ x6:named<0:8>("Shearson"){x PERS 3, NUM sg, IND +}[]
+ e10:compound<12:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x9]
+ _2:udef_q<12:21>[BV x9]
+ x9:_62%-/nn_u_unknown<12:21>{x}[]
+ e3:_own_v_1<12:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e16:parg_d<12:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e17:_by_p<22:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ _3:proper_q<25:45>[BV x18]
+ e24:compound<25:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x23]
+ _4:proper_q<25:33>[BV x23]
+ x23:named<25:33>("American"){x PERS 3, NUM sg, IND +}[]
+ x18:named<34:41>("Express"){x PERS 3, NUM sg, IND +}[]
+ x30:_company_n_1<42:45>{x PERS 3, NUM sg, IND +}[]
+ _5:udef_q<42:45>[BV x30]
+ i34:compound<42:45>{i}[ARG1 x18, ARG2 x30]
+}
+
+{
+  proper_q<0:8> BV named<0:8>(Shearson)  
+  compound<12:21> ARG1 _own_v_1<12:21>  
+  compound<12:21> ARG2 _62%-/nn_u_unknown<12:21>  
+  udef_q<12:21> BV _62%-/nn_u_unknown<12:21>  
+  _own_v_1<12:21> ARG2 named<0:8>(Shearson)  
+  parg_d<12:21> ARG1 _own_v_1<12:21>  
+  parg_d<12:21> ARG2 named<0:8>(Shearson)  
+  _by_p<22:24> ARG1 _own_v_1<12:21>  
+  _by_p<22:24> ARG2 named<34:41>(Express)  
+  proper_q<25:45> BV named<34:41>(Express)  
+  compound<25:41> ARG1 named<34:41>(Express)  
+  compound<25:41> ARG2 named<25:33>(American)  
+  proper_q<25:33> BV named<25:33>(American)  
+  udef_q<42:45> BV _company_n_1<42:45>  
+  compound<42:45> ARG1 named<34:41>(Express)  
+  compound<42:45> ARG2 _company_n_1<42:45>  
+  named<0:8>(Shearson) PERS 3  
+  named<0:8>(Shearson) NUM sg  
+  named<0:8>(Shearson) IND +  
+  compound<12:21> SF prop  
+  compound<12:21> TENSE untensed  
+  compound<12:21> MOOD indicative  
+  compound<12:21> PROG -  
+  compound<12:21> PERF -  
+  _own_v_1<12:21> SF prop  
+  _own_v_1<12:21> TENSE pres  
+  _own_v_1<12:21> MOOD indicative  
+  _own_v_1<12:21> PROG -  
+  _own_v_1<12:21> PERF -  
+  parg_d<12:21> SF prop  
+  parg_d<12:21> TENSE untensed  
+  parg_d<12:21> MOOD indicative  
+  parg_d<12:21> PROG -  
+  parg_d<12:21> PERF -  
+  _by_p<22:24> SF prop  
+  _by_p<22:24> TENSE untensed  
+  _by_p<22:24> MOOD indicative  
+  _by_p<22:24> PROG -  
+  _by_p<22:24> PERF -  
+  compound<25:41> SF prop  
+  compound<25:41> TENSE untensed  
+  compound<25:41> MOOD indicative  
+  compound<25:41> PROG -  
+  compound<25:41> PERF -  
+  named<25:33>(American) PERS 3  
+  named<25:33>(American) NUM sg  
+  named<25:33>(American) IND +  
+  named<34:41>(Express) PERS 3  
+  named<34:41>(Express) NUM sg  
+  named<34:41>(Express) IND +  
+  _company_n_1<42:45> PERS 3  
+  _company_n_1<42:45> NUM sg  
+  _company_n_1<42:45> IND +  
+}
+

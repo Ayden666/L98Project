@@ -1,0 +1,92 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:26 h)).
+;;;
+
+[20756024] (1 of 1) {1} `-- FINANCES.'
+
+[20756024:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:11>, 1, "FINANCES", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <11:12>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:2>, 1, "–", 0, "null")
+  (39, 0, 1, <0:2>, 1, "–", 0, "null")
+  (31, 1, 2, <3:12>, 1, "FINANCES.", 0, "null")
+  (36, 1, 2, <3:12>, 1, "FINANCES.", 0, "null", "NNS" 1.0)
+  (37, 1, 2, <3:12>, 1, "finances.", 0, "null")
+  (38, 1, 2, <3:12>, 1, "finances.", 0, "null")
+>
+
+(ROOT_FRAG
+ (136 AJ-HD_SCP-XP_C -0.169931 0 2
+  (42 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 33
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (135 ^NP_FRG_C -1.05895 1 2
+   (134 HDN_BNP_C -1.75639 1 2
+    (133 W_PERIOD_PLR -0.590775 1 2
+     (132 N_PL_OLR -0.242274 1 2
+      (56 finance_n1@n_-_mc_le 0 1 2
+       ("finances." 37
+        "token [ +CARG \"FINANCES\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"finances.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (ADV "–") (XP (NP (N (N (N "finances."))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:12>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<3:12>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ _finance_n_1<3:12>
+            LBL: h12
+            ARG0: x8 ] >
+   HCONS: < h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:udef_q<3:12>[BV x8]
+ x8:_finance_n_1<3:12>{x PERS 3, NUM pl}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:12>  
+  discourse<0:2> R-INDEX unknown<3:12>  
+  unknown<3:12> ARG _finance_n_1<3:12>  
+  udef_q<3:12> BV _finance_n_1<3:12>  
+  unknown<3:12> SF prop  
+  unknown<3:12> TENSE untensed  
+  unknown<3:12> MOOD indicative  
+  unknown<3:12> PROG -  
+  unknown<3:12> PERF -  
+  _finance_n_1<3:12> PERS 3  
+  _finance_n_1<3:12> NUM pl  
+}
+

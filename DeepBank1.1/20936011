@@ -1,0 +1,86 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:28 h)).
+;;;
+
+[20936011] (1 of 1) {1} `Times have changed.'
+
+[20936011:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Times", 0, "null", "NNP" 0.5665 "NNPS" 0.3833 "NNS" 0.0501)
+  (2, 1, 2, <6:10>, 1, "have", 0, "null", "VBP" 0.85 "VB" 0.15)
+  (3, 2, 3, <11:18>, 1, "changed", 0, "null", "VBN" 0.9775 "JJ" 0.0225)
+  (4, 3, 4, <18:19>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:5>, 1, "Times", 0, "null")
+  (55, 0, 1, <0:5>, 1, "Times", 0, "null", "NNPS" 0.3833)
+  (57, 0, 1, <0:5>, 1, "times", 0, "null")
+  (60, 0, 1, <0:5>, 1, "times", 0, "null")
+  (47, 1, 2, <6:10>, 1, "have", 0, "null")
+  (53, 1, 2, <6:10>, 1, "have", 0, "null", "VBP" 0.85)
+  (56, 1, 2, <6:10>, 1, "have", 0, "null", "VB" 0.15)
+  (58, 1, 2, <6:10>, 1, "have", 0, "null")
+  (49, 2, 3, <11:19>, 1, "changed.", 0, "null")
+  (54, 2, 3, <11:19>, 1, "changed.", 0, "null", "VBN" 0.9775)
+  (59, 2, 3, <11:19>, 1, "changed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1005 SB-HD_MC_C 3.53353 0 3
+  (1001 HDN_BNP_C -0.108232 0 1
+   (1000 N_PL_OLR 0.467774 0 1
+    (97 time_n1@n_-_c-time_le 0.190741 0 1
+     ("times" 57
+      "token [ +CARG \"Times\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"times\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56654959999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1004 ^HD-CMP_U_C 2.12585 1 3
+   (189 have_fin_aux@v_vp_have-f_le 2.48247 1 2
+    ("have" 47
+     "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84998700000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1003 W_PERIOD_PLR -0.356625 2 3
+    (1002 V_PSP_OLR 0.0153204 2 3
+     (232 change_v2@v_-_unacc_le 0 2 3
+      ("changed." 49
+       "token [ +CARG \"changed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"changed.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97754759999999996\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "times"))) (VP (V "have") (VP (VP (V "changed.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ udef_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _time_n_of<0:5>
+            LBL: h8
+            ARG0: x6 ]
+          [ _change_v_1<11:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:5>[BV x6]
+ x6:_time_n_of<0:5>{x PERS 3, NUM pl, IND +}[]
+ e3:_change_v_1<11:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x6]
+}
+
+{
+  udef_q<0:5> BV _time_n_of<0:5>  
+  _change_v_1<11:19> ARG1 _time_n_of<0:5>  
+  _time_n_of<0:5> PERS 3  
+  _time_n_of<0:5> NUM pl  
+  _time_n_of<0:5> IND +  
+  _change_v_1<11:19> SF prop  
+  _change_v_1<11:19> TENSE pres  
+  _change_v_1<11:19> MOOD indicative  
+  _change_v_1<11:19> PROG -  
+  _change_v_1<11:19> PERF +  
+}
+

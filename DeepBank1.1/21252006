@@ -1,0 +1,93 @@
+;;;
+;;; Redwoods export of `wsj12b';
+;;; (wsun@wsun; 22-jan-2018 (21:27 h)).
+;;;
+
+[21252006] (1 of 1) {1} `Judge Not'
+
+[21252006:2] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Judge", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:9>, 1, "Not", 0, "null", "RB" 1.0)
+>
+
+<
+  (25, 0, 1, <0:5>, 1, "Judge", 0, "null")
+  (28, 0, 1, <0:5>, 1, "judge", 0, "null")
+  (30, 0, 1, <0:5>, 1, "judge", 0, "null")
+  (20, 1, 2, <6:9>, 1, "Not", 0, "null")
+  (26, 1, 2, <6:9>, 1, "Not", 0, "null", "RB" 1.0)
+  (27, 1, 2, <6:9>, 1, "not", 0, "null")
+  (29, 1, 2, <6:9>, 1, "not", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (269 HD_IMP_C -1.85658 0 2
+  (268 HD-CMP_U_C -1.9499 0 2
+   (267 ^HD_OPTCMP_C -0.698933 0 1
+    (266 V_N3S-BSE_ILR -0.279348 0 1
+     (36 judge_v2@v_pp*-cp_le 0.535864 0 1
+      ("judge" 28
+       "token [ +CARG \"Judge\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"judge\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (77 not_cp@x_-_not-cp_le -1.25096 1 2
+    ("not" 27
+     "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"not\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (VP (V (V (V "judge"))) (S "not")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _judge_v_1<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h10
+            ARG3: i9 ]
+          [ ellipsis<6:9>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u13 ]
+          [ neg<6:9>
+            LBL: h14
+            ARG0: i16
+            ARG1: h15 ] >
+   HCONS: < h15 QEQ h11 h10 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:9>[BV x6]
+ x6:pron<0:9>{x PERS 2, PT zero}[]
+ e3:_judge_v_1<0:5>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 i16]
+ e12:ellipsis<6:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i16:neg<6:9>{i}[ARG1 e12]
+}
+
+{
+  pronoun_q<0:9> BV pron<0:9>  
+  _judge_v_1<0:5> ARG1 pron<0:9>  
+  _judge_v_1<0:5> ARG2 neg<6:9>  
+  neg<6:9> ARG1 ellipsis<6:9>  
+  pron<0:9> PERS 2  
+  pron<0:9> PT zero  
+  _judge_v_1<0:5> SF comm  
+  _judge_v_1<0:5> TENSE pres  
+  _judge_v_1<0:5> MOOD indicative  
+  _judge_v_1<0:5> PROG -  
+  _judge_v_1<0:5> PERF -  
+  ellipsis<6:9> SF prop  
+  ellipsis<6:9> TENSE untensed  
+  ellipsis<6:9> MOOD indicative  
+  ellipsis<6:9> PROG -  
+  ellipsis<6:9> PERF -  
+}
+

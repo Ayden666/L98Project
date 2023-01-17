@@ -1,0 +1,194 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:30 h)).
+;;;
+
+[20271002] (1 of 1) {1} `Continental Cablevision Inc. --'
+
+[20271002:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Continental", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <12:23>, 1, "Cablevision", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <24:28>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <29:31>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (49, 0, 1, <0:11>, 1, "Continental", 0, "null")
+  (54, 0, 1, <0:11>, 1, "continental", 0, "null")
+  (58, 0, 1, <0:11>, 1, "continental", 0, "null")
+  (39, 1, 2, <12:23>, 1, "Cablevision", 0, "null")
+  (50, 1, 2, <12:23>, 1, "Cablevision", 0, "null", "NNP" 1.0)
+  (52, 1, 2, <12:23>, 1, "cablevision", 0, "null")
+  (55, 1, 2, <12:23>, 1, "cablevision", 0, "null")
+  (40, 2, 3, <24:28>, 1, "Inc.", 0, "null")
+  (51, 2, 3, <24:28>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (53, 2, 3, <24:28>, 1, "inc.", 0, "null")
+  (56, 2, 3, <24:28>, 1, "inc.", 0, "null")
+  (48, 3, 4, <29:31>, 1, "–", 0, "null")
+  (57, 3, 4, <29:31>, 1, "–", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (400 CL-CL_RUNON_C 4.13731 0 4
+  (398 NP_FRG_C 3.93133 0 3
+   (397 HDN_BNP-PN_C 5.22396 0 3
+    (396 HDN-AJ_REDREL_C 5.07645 0 3
+     (393 ^NP-HDN_NME-CPD_C 1.79985 0 2
+      (391 HDN_BNP-PN_C 0.238998 0 1
+       (390 N_SG_ILR -0.226521 0 1
+        (63 continental_n1@n_-_pn_le -0.0602271 0 1
+         ("continental" 54
+          "token [ +CARG \"Continental\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"continental\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (392 ^N_SG_ILR 0.199039 1 2
+       (64 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Cablevision" 39
+         "token [ +CARG #1=\"Cablevision\" +CLASS proper_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (395 W_PERIOD_PLR 2.66678 2 3
+      (394 N_SG_ILR 1.60789 2 3
+       (73 inc_post_ttl@n_-_tt-post_le 2.28122 2 3
+        ("inc." 53
+         "token [ +CARG \"Inc.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"inc.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (399 ^R_DSC-FRG_C 0.205977 3 4
+   (79 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.205977 3 4
+    ("–" 48
+     "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S
+ (XP
+  (NP
+   (N (N (NP (N (N "continental"))) (N (N "Cablevision")))
+    (N (N (N "inc."))))))
+ (S (ADV "–")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:31>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:28>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:28>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<0:23>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<0:11>
+            LBL: h19
+            ARG0: x14
+            CARG: "Continental" ]
+          [ named<12:23>
+            LBL: h13
+            ARG0: x9
+            CARG: "Cablevision" ]
+          [ _inc_n_1<24:28>
+            LBL: h20
+            ARG0: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<24:28>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<24:28>
+            LBL: h13
+            ARG0: i25
+            ARG1: x9
+            ARG2: x21 ]
+          [ unknown<29:31>
+            LBL: h26
+            ARG0: e6
+            ARG: u27 ]
+          [ excl<29:31>
+            LBL: h28
+            ARG0: i29
+            CARG: "s-dash" ]
+          [ discourse<29:31>
+            LBL: h30
+            ARG0: i33
+            L-HNDL: h28
+            L-INDEX: i29
+            R-HNDL: h32
+            R-INDEX: i31 ] >
+   HCONS: < h23 QEQ h20 h17 QEQ h19 h11 QEQ h13 h5 QEQ h30 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:31>{e SF prop-or-ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL i33, R-INDEX e6]
+ e7:unknown<0:28>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:proper_q<0:28>[BV x9]
+ e15:compound<0:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _2:proper_q<0:11>[BV x14]
+ x14:named<0:11>("Continental"){x PERS 3, NUM sg, IND +}[]
+ x9:named<12:23>("Cablevision"){x PERS 3, NUM sg, IND +}[]
+ x21:_inc_n_1<24:28>{x PERS 3, NUM sg, IND +}[]
+ _3:udef_q<24:28>[BV x21]
+ i25:compound<24:28>{i}[ARG1 x9, ARG2 x21]
+ e6:unknown<29:31>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i29:excl<29:31>("s-dash"){i}[]
+ i33:discourse<29:31>{i}[L-HNDL i29, L-INDEX i29]
+}
+
+{
+  implicit_conj<0:31> L-HNDL unknown<0:28>  
+  implicit_conj<0:31> L-INDEX unknown<0:28>  
+  implicit_conj<0:31> R-HNDL discourse<29:31>  
+  implicit_conj<0:31> R-INDEX unknown<29:31>  
+  unknown<0:28> ARG named<12:23>(Cablevision)  
+  proper_q<0:28> BV named<12:23>(Cablevision)  
+  compound<0:23> ARG1 named<12:23>(Cablevision)  
+  compound<0:23> ARG2 named<0:11>(Continental)  
+  proper_q<0:11> BV named<0:11>(Continental)  
+  udef_q<24:28> BV _inc_n_1<24:28>  
+  compound<24:28> ARG1 named<12:23>(Cablevision)  
+  compound<24:28> ARG2 _inc_n_1<24:28>  
+  discourse<29:31> L-HNDL excl<29:31>(s-dash)  
+  discourse<29:31> L-INDEX excl<29:31>(s-dash)  
+  implicit_conj<0:31> SF prop-or-ques  
+  implicit_conj<0:31> TENSE tensed  
+  implicit_conj<0:31> MOOD indicative  
+  implicit_conj<0:31> PROG -  
+  implicit_conj<0:31> PERF -  
+  unknown<0:28> SF prop  
+  unknown<0:28> TENSE tensed  
+  unknown<0:28> MOOD indicative  
+  unknown<0:28> PROG -  
+  unknown<0:28> PERF -  
+  compound<0:23> SF prop  
+  compound<0:23> TENSE untensed  
+  compound<0:23> MOOD indicative  
+  compound<0:23> PROG -  
+  compound<0:23> PERF -  
+  named<0:11>(Continental) PERS 3  
+  named<0:11>(Continental) NUM sg  
+  named<0:11>(Continental) IND +  
+  named<12:23>(Cablevision) PERS 3  
+  named<12:23>(Cablevision) NUM sg  
+  named<12:23>(Cablevision) IND +  
+  _inc_n_1<24:28> PERS 3  
+  _inc_n_1<24:28> NUM sg  
+  _inc_n_1<24:28> IND +  
+  unknown<29:31> SF prop-or-ques  
+  unknown<29:31> TENSE untensed  
+  unknown<29:31> MOOD indicative  
+  unknown<29:31> PROG -  
+  unknown<29:31> PERF -  
+}
+

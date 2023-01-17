@@ -1,0 +1,138 @@
+;;;
+;;; Redwoods export of `wsj20c';
+;;; (wsun@wsun; 23-jan-2018 (05:22 h)).
+;;;
+
+[22052003] (1 of 1) {1} `The Kabul regime would fall.'
+
+[22052003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "Kabul", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:16>, 1, "regime", 0, "null", "NN" 1.0)
+  (4, 3, 4, <17:22>, 1, "would", 0, "null", "MD" 1.0)
+  (5, 4, 5, <23:27>, 1, "fall", 0, "null", "VB" 1.0)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:3>, 1, "the", 0, "null")
+  (78, 0, 1, <0:3>, 1, "the", 0, "null")
+  (56, 1, 2, <4:9>, 1, "Kabul", 0, "null")
+  (68, 1, 2, <4:9>, 1, "Kabul", 0, "null", "NNP" 1.0)
+  (71, 1, 2, <4:9>, 1, "kabul", 0, "null")
+  (73, 1, 2, <4:9>, 1, "kabul", 0, "null")
+  (63, 2, 3, <10:16>, 1, "regime", 0, "null")
+  (69, 2, 3, <10:16>, 1, "regime", 0, "null", "NN" 1.0)
+  (74, 2, 3, <10:16>, 1, "regime", 0, "null")
+  (65, 3, 4, <17:22>, 1, "would", 0, "null")
+  (75, 3, 4, <17:22>, 1, "would", 0, "null")
+  (67, 4, 5, <23:28>, 1, "fall.", 0, "null")
+  (70, 4, 5, <23:28>, 1, "fall.", 0, "null", "VB" 1.0)
+  (76, 4, 5, <23:28>, 1, "fall.", 0, "null")
+>
+
+(ROOT_STRICT
+ (352 SB-HD_MC_C 4.9874 0 5
+  (347 SP-HD_N_C 2.72303 0 3
+   (91 the_1@d_-_the_le 1.13181 0 1
+    ("the" 72
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (346 ^NP-HDN_CPD_C 0.949102 1 3
+    (344 HDN_BNP-PN_C -0.050883 1 2
+     (116 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Kabul" 56
+       "token [ +CARG #1=\"Kabul\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (345 ^N_SG_ILR 0.295851 2 3
+     (119 regime_n1@n_-_c_le 0 2 3
+      ("regime" 63
+       "token [ +CARG #1=\"regime\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (351 ^HD-CMP_U_C 0.309857 3 5
+   (124 would_aux_pos@v_vp_mdl-p-unsp_le 1.0822 3 4
+    ("would" 65
+     "token [ +CARG #1=\"would\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (350 HD_OPTCMP_C -0.449226 4 5
+    (349 W_PERIOD_PLR -0.600653 4 5
+     (348 V_N3S-BSE_ILR 0.300108 4 5
+      (133 fall_v1@v_pp_unacc_le 0 4 5
+       ("fall." 67
+        "token [ +CARG \"fall\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"fall.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "the") (N (NP (N "Kabul")) (N (N "regime"))))
+ (VP (V "would") (VP (V (V (V "fall."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<4:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<4:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Kabul" ]
+          [ _regime_n_1<10:16>
+            LBL: h8
+            ARG0: x6 ]
+          [ _would_v_modal<17:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: h15 ]
+          [ _fall_v_1<23:28>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h15 QEQ h16 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<4:9>[BV x9]
+ x9:named<4:9>("Kabul"){x IND +}[]
+ x6:_regime_n_1<10:16>{x PERS 3, NUM sg, IND +}[]
+ e3:_would_v_modal<17:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e17]
+ e17:_fall_v_1<23:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _regime_n_1<10:16>  
+  compound<4:16> ARG1 _regime_n_1<10:16>  
+  compound<4:16> ARG2 named<4:9>(Kabul)  
+  proper_q<4:9> BV named<4:9>(Kabul)  
+  _would_v_modal<17:22> ARG1 _fall_v_1<23:28>  
+  _fall_v_1<23:28> ARG1 _regime_n_1<10:16>  
+  compound<4:16> SF prop  
+  compound<4:16> TENSE untensed  
+  compound<4:16> MOOD indicative  
+  compound<4:16> PROG -  
+  compound<4:16> PERF -  
+  named<4:9>(Kabul) IND +  
+  _regime_n_1<10:16> PERS 3  
+  _regime_n_1<10:16> NUM sg  
+  _regime_n_1<10:16> IND +  
+  _would_v_modal<17:22> SF prop  
+  _would_v_modal<17:22> TENSE pres  
+  _would_v_modal<17:22> MOOD indicative  
+  _would_v_modal<17:22> PROG -  
+  _would_v_modal<17:22> PERF -  
+  _fall_v_1<23:28> SF prop  
+  _fall_v_1<23:28> TENSE untensed  
+  _fall_v_1<23:28> MOOD indicative  
+  _fall_v_1<23:28> PROG -  
+  _fall_v_1<23:28> PERF -  
+}
+

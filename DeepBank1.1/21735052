@@ -1,0 +1,127 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:17 h)).
+;;;
+
+[21735052] (1 of 1) {1} `Business: Tax Preparation'
+
+[21735052:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Business", 0, "null", "NNP" 0.8169 "NN" 0.1831)
+  (2, 1, 2, <8:9>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <10:13>, 1, "Tax", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <14:25>, 1, "Preparation", 0, "null", "NNP" 1.0)
+>
+
+<
+  (51, 0, 1, <0:8>, 1, "Business", 0, "null")
+  (56, 0, 1, <0:8>, 1, "business", 0, "null")
+  (60, 0, 1, <0:8>, 1, "business", 0, "null")
+  (48, 1, 2, <8:9>, 1, ":", 0, "null")
+  (59, 1, 2, <8:9>, 1, ":", 0, "null")
+  (39, 2, 3, <10:13>, 1, "Tax", 0, "null")
+  (52, 2, 3, <10:13>, 1, "Tax", 0, "null", "NNP" 1.0)
+  (54, 2, 3, <10:13>, 1, "tax", 0, "null")
+  (57, 2, 3, <10:13>, 1, "tax", 0, "null")
+  (40, 3, 4, <14:25>, 1, "Preparation", 0, "null")
+  (53, 3, 4, <14:25>, 1, "Preparation", 0, "null", "NNP" 1.0)
+  (55, 3, 4, <14:25>, 1, "preparation", 0, "null")
+  (58, 3, 4, <14:25>, 1, "preparation", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (690 SP-HD_HC_C 3.31922 0 4
+  (64 business_n1@n_-_mc_le 0.118499 0 1
+   ("business" 56
+    "token [ +CARG \"Business\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"business\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81690030000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (689 ^HD-CMP_U_C 3.16117 1 4
+   (71 colon_copula_v3@v_nb_colon-nb_le 1.07845 1 2
+    (":" 48
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (685 N-HDN_CPD_C 1.65196 2 4
+    (108 tax_n1@n_-_mc_le -0.100563 2 3
+     ("tax" 54
+      "token [ +CARG \"Tax\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"tax\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (684 ^N_MS-CNT_ILR 0.264696 3 4
+     (118 preparation_n1@n_-_mc-ns_le 0 3 4
+      ("preparation" 55
+       "token [ +CARG \"Preparation\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"preparation\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (N "business") (S (V ":") (N (N "tax") (N (N "preparation")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _business_n_1<0:8>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL ] ]
+          [ _colon_v_id<8:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x6 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<8:9>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ udef_q<8:9>
+            LBL: h10
+            ARG0: x6
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<10:25>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x14 ]
+          [ udef_q<10:13>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ _tax_n_1<10:13>
+            LBL: h19
+            ARG0: x14 ]
+          [ _preparation_n_1<14:25>
+            LBL: h13
+            ARG0: x6 ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h8 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:_business_n_1<0:8>{x PERS 3, NUM pl}[]
+ e3:_colon_v_id<8:9>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x6]
+ _1:udef_q<8:9>[BV x5]
+ _2:udef_q<8:9>[BV x6]
+ e15:compound<10:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x14]
+ _3:udef_q<10:13>[BV x14]
+ x14:_tax_n_1<10:13>{x}[]
+ x6:_preparation_n_1<14:25>{x PERS 3, NUM sg}[]
+}
+
+{
+  _colon_v_id<8:9> ARG1 _business_n_1<0:8>  
+  _colon_v_id<8:9> ARG2 _preparation_n_1<14:25>  
+  udef_q<8:9> BV _business_n_1<0:8>  
+  udef_q<8:9> BV _preparation_n_1<14:25>  
+  compound<10:25> ARG1 _preparation_n_1<14:25>  
+  compound<10:25> ARG2 _tax_n_1<10:13>  
+  udef_q<10:13> BV _tax_n_1<10:13>  
+  _business_n_1<0:8> PERS 3  
+  _business_n_1<0:8> NUM pl  
+  _colon_v_id<8:9> SF prop  
+  _colon_v_id<8:9> TENSE tensed  
+  _colon_v_id<8:9> MOOD indicative  
+  _colon_v_id<8:9> PROG -  
+  _colon_v_id<8:9> PERF -  
+  compound<10:25> SF prop  
+  compound<10:25> TENSE untensed  
+  compound<10:25> MOOD indicative  
+  compound<10:25> PROG -  
+  compound<10:25> PERF -  
+  _preparation_n_1<14:25> PERS 3  
+  _preparation_n_1<14:25> NUM sg  
+}
+

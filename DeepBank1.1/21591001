@@ -1,0 +1,69 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:47 h)).
+;;;
+
+[21591001] (1 of 1) {1} `Ing.'
+
+[21591001:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Ing", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <3:4>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:4>, 1, "Ing.", 0, "null")
+  (23, 0, 1, <0:4>, 1, "ing.", 0, "null")
+  (24, 0, 1, <0:4>, 1, "ing.", 0, "null")
+>
+
+(ROOT_FRAG
+ (59 NP_FRG_C -2.04413 0 1
+  (58 HDN_BNP-PN_C -0.897618 0 1
+   (57 W_PERIOD_PLR -0.233624 0 1
+    (56 N_SG_ILR -0.215389 0 1
+     (25 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Ing." 22
+       "token [ +CARG \"Ing\" +CLASS proper_ne +FORM \"Ing.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (N (N "Ing.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:4>
+            LBL: h8
+            ARG0: x4
+            CARG: "Ing" ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:4>[BV x4]
+ x4:named<0:4>("Ing"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:4> ARG named<0:4>(Ing)  
+  proper_q<0:4> BV named<0:4>(Ing)  
+  unknown<0:4> SF prop  
+  unknown<0:4> TENSE untensed  
+  unknown<0:4> MOOD indicative  
+  unknown<0:4> PROG -  
+  unknown<0:4> PERF -  
+  named<0:4>(Ing) PERS 3  
+  named<0:4>(Ing) NUM sg  
+  named<0:4>(Ing) IND +  
+}
+

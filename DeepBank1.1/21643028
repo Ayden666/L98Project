@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:24 h)).
+;;;
+
+[21643028] (1 of 1) {1} `What should I do?'
+
+[21643028:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "What", 0, "null", "WP" 0.9865 "WDT" 0.0135)
+  (2, 1, 2, <5:11>, 1, "should", 0, "null", "MD" 1.0)
+  (3, 2, 3, <12:13>, 1, "I", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <14:16>, 1, "do", 0, "null", "VB" 0.7204 "VBP" 0.2796)
+  (5, 4, 5, <16:17>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:4>, 1, "what", 0, "null")
+  (69, 0, 1, <0:4>, 1, "what", 0, "null")
+  (56, 1, 2, <5:11>, 1, "should", 0, "null")
+  (66, 1, 2, <5:11>, 1, "should", 0, "null")
+  (47, 2, 3, <12:13>, 1, "I", 0, "null")
+  (63, 2, 3, <12:13>, 1, "i", 0, "null")
+  (65, 2, 3, <12:13>, 1, "i", 0, "null")
+  (59, 3, 4, <14:17>, 1, "do?", 0, "null")
+  (61, 3, 4, <14:17>, 1, "do?", 0, "null", "VB" 0.7204)
+  (62, 3, 4, <14:17>, 1, "do?", 0, "null", "VBP" 0.2796)
+  (67, 3, 4, <14:17>, 1, "do?", 0, "null")
+>
+
+(ROOT_STRICT
+ (430 FLR-HD_WH-MC_C 2.69397 0 4
+  (422 HDN_BNP-QNT_C 0.969673 0 1
+   (421 HDN_OPTCMP_C 1.31835 0 1
+    (75 what1@n_-_pr-wh_le 0.858054 0 1
+     ("what" 64
+      "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"what\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98650320000000002\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (429 ^HD-CMP_U_C 1.7243 1 4
+   (425 ^HD-CMP_U_C 2.5639 1 3
+    (423 ^V_AUX-SB-INV_DLR 0 1 2
+     (87 should_aux_pos@v_vp_mdl-p-sv_le 0 1 2
+      ("should" 56
+       "token [ +CARG #1=\"should\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (424 HDN_BNP-QNT_C 1.11799 2 3
+     (93 i@n_-_pr-i_le 0.729722 2 3
+      ("i" 63
+       "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL - ] +FORM \"i\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (428 HD_XCMP_C -0.779551 3 4
+    (427 W_QMARK_PLR -0.609053 3 4
+     (426 V_N3S-BSE_ILR -0.609053 3 4
+      (125 do2@v_np_le 0 3 4
+       ("do?" 59
+        "token [ +CARG \"do\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"do?\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72040530000000003\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "what")))
+ (S/NP (V/NP (V/NP (V/NP "should")) (NP (NP "i")))
+  (VP/NP (V/NP (V/NP (V/NP "do?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ thing<0:4>
+            LBL: h4
+            ARG0: x5 ]
+          [ which_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _should_v_modal<5:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: h9 ]
+          [ pron<12:13>
+            LBL: h10
+            ARG0: x11 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<12:13>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ _do_v_1<14:17>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x5 ] >
+   HCONS: < h13 QEQ h10 h9 QEQ h15 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:4>{x}[]
+ _1:which_q<0:4>[BV x5]
+ e3:_should_v_modal<5:11>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e16]
+ x11:pron<12:13>{x PERS 1, NUM sg, PT std}[]
+ _2:pronoun_q<12:13>[BV x11]
+ e16:_do_v_1<14:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x5]
+}
+
+{
+  which_q<0:4> BV thing<0:4>  
+  _should_v_modal<5:11> ARG1 _do_v_1<14:17>  
+  pronoun_q<12:13> BV pron<12:13>  
+  _do_v_1<14:17> ARG1 pron<12:13>  
+  _do_v_1<14:17> ARG2 thing<0:4>  
+  _should_v_modal<5:11> SF ques  
+  _should_v_modal<5:11> TENSE pres  
+  _should_v_modal<5:11> MOOD indicative  
+  _should_v_modal<5:11> PROG -  
+  _should_v_modal<5:11> PERF -  
+  pron<12:13> PERS 1  
+  pron<12:13> NUM sg  
+  pron<12:13> PT std  
+  _do_v_1<14:17> SF prop  
+  _do_v_1<14:17> TENSE untensed  
+  _do_v_1<14:17> MOOD indicative  
+  _do_v_1<14:17> PROG -  
+  _do_v_1<14:17> PERF -  
+}
+

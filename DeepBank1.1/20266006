@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:27 h)).
+;;;
+
+[20266006] (1 of 1) {1} `The Reserve Fund'
+
+[20266006:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "Reserve", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:16>, 1, "Fund", 0, "null", "NNP" 0.9609 "NN" 0.0391)
+>
+
+<
+  (43, 0, 1, <0:3>, 1, "the", 0, "null")
+  (49, 0, 1, <0:3>, 1, "the", 0, "null")
+  (30, 1, 2, <4:11>, 1, "Reserve", 0, "null")
+  (41, 1, 2, <4:11>, 1, "Reserve", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <4:11>, 1, "reserve", 0, "null")
+  (45, 1, 2, <4:11>, 1, "reserve", 0, "null")
+  (31, 2, 3, <12:16>, 1, "Fund", 0, "null")
+  (40, 2, 3, <12:16>, 1, "Fund", 0, "null", "NNP" 0.9609)
+  (44, 2, 3, <12:16>, 1, "fund", 0, "null")
+  (46, 2, 3, <12:16>, 1, "fund", 0, "null")
+>
+
+(ROOT_FRAG
+ (346 NP_FRG_C 1.14343 0 3
+  (345 SP-HD_N_C 2.15034 0 3
+   (62 the_1@d_-_the_le 0.244361 0 1
+    ("the" 43
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (344 ^NP-HDN_CPD_C 1.04703 1 3
+    (342 HDN_BNP-PN_C 0.721873 1 2
+     (87 generic_proper_ne@n_-_pn-gen_le 0.772756 1 2
+      ("Reserve" 30
+       "token [ +CARG #1=\"Reserve\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (343 ^N_SG_ILR -0.0162362 2 3
+     (94 fund_n1@n_-_c_le -0.312087 2 3
+      ("fund" 44
+       "token [ +CARG \"Fund\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"fund\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96087040000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (DET "the") (N (NP (N "Reserve")) (N (N "fund")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ compound<4:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<4:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<4:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "Reserve" ]
+          [ _fund_n_1<12:16>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:_the_q<0:3>[BV x4]
+ e10:compound<4:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<4:11>[BV x9]
+ x9:named<4:11>("Reserve"){x IND +}[]
+ x4:_fund_n_1<12:16>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:16> ARG _fund_n_1<12:16>  
+  _the_q<0:3> BV _fund_n_1<12:16>  
+  compound<4:16> ARG1 _fund_n_1<12:16>  
+  compound<4:16> ARG2 named<4:11>(Reserve)  
+  proper_q<4:11> BV named<4:11>(Reserve)  
+  unknown<0:16> SF prop-or-ques  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  compound<4:16> SF prop  
+  compound<4:16> TENSE untensed  
+  compound<4:16> MOOD indicative  
+  compound<4:16> PROG -  
+  compound<4:16> PERF -  
+  named<4:11>(Reserve) IND +  
+  _fund_n_1<12:16> PERS 3  
+  _fund_n_1<12:16> NUM sg  
+  _fund_n_1<12:16> IND +  
+}
+

@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:58 h)).
+;;;
+
+[21311034] (1 of 1) {1} `Phillips Petroleum'
+
+[21311034:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Phillips", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:18>, 1, "Petroleum", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:8>, 1, "Phillips", 0, "null")
+  (28, 0, 1, <0:8>, 1, "phillips", 0, "null")
+  (30, 0, 1, <0:8>, 1, "phillips", 0, "null")
+  (20, 1, 2, <9:18>, 1, "Petroleum", 0, "null")
+  (26, 1, 2, <9:18>, 1, "Petroleum", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <9:18>, 1, "petroleum", 0, "null")
+  (29, 1, 2, <9:18>, 1, "petroleum", 0, "null")
+>
+
+(ROOT_FRAG
+ (115 NP_FRG_C 0.554452 0 2
+  (114 HDN_BNP-PN_C 1.70096 0 2
+   (113 NP-HDN_NME-CPD_C 1.74027 0 2
+    (111 HDN_BNP-PN_C 0.586141 0 1
+     (110 N_SG_ILR -0.166294 0 1
+      (39 phillips_n1@n_-_pn_le 0 0 1
+       ("phillips" 28
+        "token [ +CARG \"Phillips\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"phillips\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (112 ^N_SG_ILR 0.819536 1 2
+     (42 generic_proper_ne@n_-_pn-gen_le 0.962793 1 2
+      ("Petroleum" 20
+       "token [ +CARG #1=\"Petroleum\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "phillips"))) (N (N "Petroleum")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Phillips" ]
+          [ named<9:18>
+            LBL: h8
+            ARG0: x4
+            CARG: "Petroleum" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:18>[BV x4]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Phillips"){x PERS 3, NUM sg, IND +}[]
+ x4:named<9:18>("Petroleum"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:18> ARG named<9:18>(Petroleum)  
+  proper_q<0:18> BV named<9:18>(Petroleum)  
+  compound<0:18> ARG1 named<9:18>(Petroleum)  
+  compound<0:18> ARG2 named<0:8>(Phillips)  
+  proper_q<0:8> BV named<0:8>(Phillips)  
+  unknown<0:18> SF prop-or-ques  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  named<0:8>(Phillips) PERS 3  
+  named<0:8>(Phillips) NUM sg  
+  named<0:8>(Phillips) IND +  
+  named<9:18>(Petroleum) PERS 3  
+  named<9:18>(Petroleum) NUM sg  
+  named<9:18>(Petroleum) IND +  
+}
+

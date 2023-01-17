@@ -1,0 +1,268 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:20 h)).
+;;;
+
+[20746003] (1 of 1) {1} `Earnings per share were 10.35 kronor compared with 5.80 kronor.'
+
+[20746003:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Earnings", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <9:12>, 1, "per", 0, "null", "IN" 1.0)
+  (3, 2, 3, <13:18>, 1, "share", 0, "null", "NN" 1.0)
+  (4, 3, 4, <19:23>, 1, "were", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <24:29>, 1, "10.35", 0, "null", "CD" 1.0)
+  (6, 5, 6, <30:36>, 1, "kronor", 0, "null", "NNS" 0.8635 "NN" 0.1365)
+  (7, 6, 7, <37:45>, 1, "compared", 0, "null", "VBN" 1.0)
+  (8, 7, 8, <46:50>, 1, "with", 0, "null", "IN" 1.0)
+  (9, 8, 9, <51:55>, 1, "5.80", 0, "null", "CD" 1.0)
+  (10, 9, 10, <56:62>, 1, "kronor", 0, "null", "NNS" 0.8872 "NN" 0.1128)
+  (11, 10, 11, <62:63>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (119, 0, 1, <0:8>, 1, "Earnings", 0, "null", "NNS" 1.0)
+  (125, 0, 1, <0:8>, 1, "earnings", 0, "null")
+  (135, 0, 1, <0:8>, 1, "earnings", 0, "null")
+  (108, 1, 2, <9:12>, 1, "per", 0, "null")
+  (130, 1, 2, <9:12>, 1, "per", 0, "null")
+  (110, 2, 3, <13:18>, 1, "share", 0, "null")
+  (121, 2, 3, <13:18>, 1, "share", 0, "null", "NN" 1.0)
+  (131, 2, 3, <13:18>, 1, "share", 0, "null")
+  (112, 3, 4, <19:23>, 1, "were", 0, "null")
+  (122, 3, 4, <19:23>, 1, "were", 0, "null", "VBD" 1.0)
+  (132, 3, 4, <19:23>, 1, "were", 0, "null")
+  (93, 4, 5, <24:29>, 1, "10.35", 0, "null")
+  (126, 4, 5, <24:29>, 1, "10.35", 0, "null")
+  (113, 5, 6, <30:36>, 1, "kronor", 0, "null")
+  (117, 5, 6, <30:36>, 1, "kronor", 0, "null", "NNS" 0.8635)
+  (123, 5, 6, <30:36>, 1, "kronor", 0, "null", "NN" 0.1365)
+  (133, 5, 6, <30:36>, 1, "kronor", 0, "null")
+  (104, 6, 7, <37:45>, 1, "compared", 0, "null")
+  (120, 6, 7, <37:45>, 1, "compared", 0, "null", "VBN" 1.0)
+  (128, 6, 7, <37:45>, 1, "compared", 0, "null")
+  (106, 7, 8, <46:50>, 1, "with", 0, "null")
+  (129, 7, 8, <46:50>, 1, "with", 0, "null")
+  (94, 8, 9, <51:55>, 1, "5.80", 0, "null")
+  (127, 8, 9, <51:55>, 1, "5.80", 0, "null")
+  (115, 9, 10, <56:63>, 1, "kronor.", 0, "null")
+  (118, 9, 10, <56:63>, 1, "kronor.", 0, "null", "NNS" 0.8872)
+  (124, 9, 10, <56:63>, 1, "kronor.", 0, "null", "NN" 0.1128)
+  (134, 9, 10, <56:63>, 1, "kronor.", 0, "null")
+>
+
+(ROOT_STRICT
+ (7484 SB-HD_MC_C 15.1522 0 10
+  (7469 HDN_BNP_C 3.40384 0 3
+   (7468 HDN-AJ_REDREL_C 3.13246 0 3
+    (7465 ^N_PL_OLR -0.172328 0 1
+     (144 earnings_n1@n_-_c-pl_le 0.365973 0 1
+      ("earnings" 125
+       "token [ +CARG \"Earnings\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"earnings\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (7467 HD-CMP_U_C 2.87111 1 3
+     (150 per_p@p_nb_i-per_le 1.22023 1 2
+      ("per" 108
+       "token [ +CARG #1=\"per\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (7466 N_SG_ILR 1.65088 2 3
+      (155 share_n2@n_-_c-meas-nb_le 0.896355 2 3
+       ("share" 110
+        "token [ +CARG #1=\"share\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (7483 ^HD-AJ_SCP_C 11.48 3 10
+   (7473 ^HD-CMP_U_C 4.2292 3 6
+    (163 be_id_were@v_np_wre_le 0.0146903 3 4
+     ("were" 112
+      "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (7472 HDN_BNP_C 3.40824 4 6
+     (7471 NUM-N_MNP_C 2.27985 4 6
+      (172 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+       ("10.35" 93
+        "token [ +CARG #1=\"10.35\" +CLASS card_or_time_or_proper_ne +FORM #1 +FROM \"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (7470 ^N_PL_OLR 0.923015 5 6
+       (176 kronor_n2@n_-_c-meas-nb_le 0 5 6
+        ("kronor" 113
+         "token [ +CARG #1=\"kronor\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86348340000000001\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (7482 VP_SBRD-PRD-PAS_C 7.99574 6 10
+    (7481 HD-CMP_U_C 8.3474 6 10
+     (7475 ^HD_OPTCMP_C 2.02478 6 7
+      (7474 V_PAS_ODLR 1.75201 6 7
+       (206 compare_with_v1@v_np-pp_e_le 0.53432 6 7
+        ("compared" 104
+         "token [ +CARG #1=\"compared\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (7480 HD-CMP_U_C 4.58798 7 10
+      (323 with_prtcl@p_np_ptcl_le 0.48726 7 8
+       ("with" 106
+        "token [ +CARG #1=\"with\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"46\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (7479 HDN_BNP_C 2.26157 8 10
+       (7478 NUM-N_MNP_C 1.30975 8 10
+        (336 generic_card_ne@aj_-_i-crd-gen_le 0 8 9
+         ("5.80" 94
+          "token [ +CARG #1=\"5.80\" +CLASS card_or_proper_ne +FORM #1 +FROM \"51\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+        (7477 ^W_PERIOD_PLR 0.410834 9 10
+         (7476 N_PL_OLR -0.136022 9 10
+          (338 kronor_n2@n_-_c-meas-nb_le 0 9 10
+           ("kronor." 115
+            "token [ +CARG \"kronor\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"kronor.\" +FROM #1=\"56\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88717950000000001\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"63\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "earnings")) (PP (P "per") (N (N "share")))))
+ (VP (VP (V "were") (NP (N (ADJ "10.35") (N (N "kronor")))))
+  (PP
+   (VP (V (V (V "compared")))
+    (PP (P "with") (NP (N (ADJ "5.80") (N (N (N "kronor."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:18>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _earnings_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _per_p<9:12>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<9:12>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _share_n_of<13:18>
+            LBL: h14
+            ARG0: x10 ]
+          [ _be_v_id<19:23>
+            LBL: h15
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<24:36>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<24:29>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            CARG: "10.35" ]
+          [ _kronor_n_1<30:36>
+            LBL: h20
+            ARG0: x16 ]
+          [ subord<37:63>
+            LBL: h2
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h23
+            ARG2: h22 ]
+          [ _compare_v_with<37:45>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i27
+            ARG2: i28
+            ARG3: x29 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ parg_d<37:45>
+            LBL: h25
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e26
+            ARG2: i28 ]
+          [ udef_q<51:63>
+            LBL: h31
+            ARG0: x29
+            RSTR: h32
+            BODY: h33 ]
+          [ card<51:55>
+            LBL: h34
+            ARG0: e35 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x29
+            CARG: "5.80" ]
+          [ _kronor_n_1<56:63>
+            LBL: h34
+            ARG0: x29 ] >
+   HCONS: < h32 QEQ h34 h22 QEQ h25 h23 QEQ h15 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e24:
+ _1:udef_q<0:18>[BV x6]
+ x6:_earnings_n_1<0:8>{x PERS 3, NUM pl, IND +}[]
+ e9:_per_p<9:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<9:12>[BV x10]
+ x10:_share_n_of<13:18>{x PERS 3, NUM sg, IND +}[]
+ e3:_be_v_id<19:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:udef_q<24:36>[BV x16]
+ e21:card<24:29>("10.35"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16]
+ x16:_kronor_n_1<30:36>{x PERS 3, NUM pl, IND +}[]
+ e24:subord<37:63>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e26]
+ e26:_compare_v_with<37:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG3 x29]
+ e30:parg_d<37:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e26]
+ _4:udef_q<51:63>[BV x29]
+ e35:card<51:55>("5.80"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x29]
+ x29:_kronor_n_1<56:63>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:18> BV _earnings_n_1<0:8>  
+  _per_p<9:12> ARG1 _earnings_n_1<0:8>  
+  _per_p<9:12> ARG2 _share_n_of<13:18>  
+  udef_q<9:12> BV _share_n_of<13:18>  
+  _be_v_id<19:23> ARG1 _earnings_n_1<0:8>  
+  _be_v_id<19:23> ARG2 _kronor_n_1<30:36>  
+  udef_q<24:36> BV _kronor_n_1<30:36>  
+  card<24:29>(10.35) ARG1 _kronor_n_1<30:36>  
+  subord<37:63> ARG1 _be_v_id<19:23>  
+  subord<37:63> ARG2 _compare_v_with<37:45>  
+  _compare_v_with<37:45> ARG3 _kronor_n_1<56:63>  
+  parg_d<37:45> ARG1 _compare_v_with<37:45>  
+  udef_q<51:63> BV _kronor_n_1<56:63>  
+  card<51:55>(5.80) ARG1 _kronor_n_1<56:63>  
+  _earnings_n_1<0:8> PERS 3  
+  _earnings_n_1<0:8> NUM pl  
+  _earnings_n_1<0:8> IND +  
+  _per_p<9:12> SF prop  
+  _per_p<9:12> TENSE untensed  
+  _per_p<9:12> MOOD indicative  
+  _per_p<9:12> PROG -  
+  _per_p<9:12> PERF -  
+  _share_n_of<13:18> PERS 3  
+  _share_n_of<13:18> NUM sg  
+  _share_n_of<13:18> IND +  
+  _be_v_id<19:23> SF prop  
+  _be_v_id<19:23> TENSE past  
+  _be_v_id<19:23> MOOD indicative  
+  _be_v_id<19:23> PROG -  
+  _be_v_id<19:23> PERF -  
+  card<24:29>(10.35) SF prop  
+  card<24:29>(10.35) TENSE untensed  
+  card<24:29>(10.35) MOOD indicative  
+  card<24:29>(10.35) PROG -  
+  card<24:29>(10.35) PERF -  
+  _kronor_n_1<30:36> PERS 3  
+  _kronor_n_1<30:36> NUM pl  
+  _kronor_n_1<30:36> IND +  
+  subord<37:63> SF prop  
+  subord<37:63> TENSE untensed  
+  subord<37:63> MOOD indicative  
+  subord<37:63> PROG -  
+  subord<37:63> PERF -  
+  _compare_v_with<37:45> SF prop  
+  _compare_v_with<37:45> TENSE untensed  
+  _compare_v_with<37:45> MOOD indicative  
+  _compare_v_with<37:45> PROG -  
+  _compare_v_with<37:45> PERF -  
+  parg_d<37:45> SF prop  
+  parg_d<37:45> TENSE untensed  
+  parg_d<37:45> MOOD indicative  
+  parg_d<37:45> PROG -  
+  parg_d<37:45> PERF -  
+  card<51:55>(5.80) SF prop  
+  card<51:55>(5.80) TENSE untensed  
+  card<51:55>(5.80) MOOD indicative  
+  card<51:55>(5.80) PROG -  
+  card<51:55>(5.80) PERF -  
+  _kronor_n_1<56:63> PERS 3  
+  _kronor_n_1<56:63> NUM pl  
+  _kronor_n_1<56:63> IND +  
+}
+

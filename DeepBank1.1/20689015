@@ -1,0 +1,143 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:38 h)).
+;;;
+
+[20689015] (1 of 1) {1} `SHORT-TERM MUNICIPALS:'
+
+[20689015:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "SHORT-TERM", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <11:21>, 1, "MUNICIPALS", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <21:22>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (40, 0, 1, <0:10>, 1, "SHORT-", 0, "null")
+  (51, 0, 1, <0:10>, 1, "SHORT-", 0, "null", "NN" 1.0)
+  (54, 0, 1, <0:10>, 1, "short-", 0, "null")
+  (57, 0, 1, <0:10>, 1, "short-", 0, "null")
+  (39, 1, 2, <0:10>, 1, "TERM", 0, "null")
+  (50, 1, 2, <0:10>, 1, "TERM", 0, "null", "JJ" 1.0)
+  (53, 1, 2, <0:10>, 1, "term", 0, "null")
+  (56, 1, 2, <0:10>, 1, "term", 0, "null")
+  (38, 2, 3, <11:21>, 1, "MUNICIPALS", 0, "null")
+  (49, 2, 3, <11:21>, 1, "MUNICIPALS", 0, "null", "NNS" 1.0)
+  (52, 2, 3, <11:21>, 1, "municipals", 0, "null")
+  (55, 2, 3, <11:21>, 1, "municipals", 0, "null")
+  (48, 3, 4, <21:22>, 1, ":", 0, "null")
+  (58, 3, 4, <21:22>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (567 NP-AJ_RORP-FRG_C 4.15314 0 4
+  (566 ^HDN_BNP_C 3.45066 0 3
+   (565 N-HDN_CPD_C 3.89689 0 3
+    (564 XP_BRCK-PR_C 3.99425 0 2
+     (563 AJ-HDN_NORM_C 3.17743 0 2
+      (561 W_HYPHEN_PLR 1.2324 0 1
+       (560 J_ATT_DLR 0.810801 0 1
+        (67 short_a1@aj_pp_i-er_le 0.596445 0 1
+         ("short-" 54
+          "token [ +CARG \"SHORT-\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL + ] +FORM \"short-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"))))
+      (562 ^HDN_OPTCMP_C 0.794721 1 2
+       (85 term_n1@n_pp_c-of_le -0.528178 1 2
+        ("term" 53
+         "token [ +CARG \"TERM\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"term\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (94 generic_pl_noun@n_-_c-pl-unk_le 0 2 3
+     ("MUNICIPALS" 49
+      "token [ +CARG #1=\"MUNICIPALS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_municipals/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (110 colon_namely_pp@pp_-_i-cln_le -0.552866 3 4
+   (":" 48
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP
+ (NP
+  (N (N (N (AP (AP (ADJ "short-"))) (N (N "term")))) (N "MUNICIPALS")))
+ (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:21>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:21>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _short_a_of<0:10>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: i16 ]
+          [ _term_n_of<0:10>
+            LBL: h14
+            ARG0: x9
+            ARG1: i17 ]
+          [ _municipals/nns_u_unknown<11:21>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<21:22>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i18 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:21>[BV x4]
+ e10:compound<0:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:10>[BV x9]
+ e15:_short_a_of<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_term_n_of<0:10>{x IND +}[]
+ x4:_municipals/nns_u_unknown<11:21>{x PERS 3, NUM pl}[]
+ e19:_colon_p_namely<21:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:22> ARG _municipals/nns_u_unknown<11:21>  
+  udef_q<0:21> BV _municipals/nns_u_unknown<11:21>  
+  compound<0:21> ARG1 _municipals/nns_u_unknown<11:21>  
+  compound<0:21> ARG2 _term_n_of<0:10>  
+  udef_q<0:10> BV _term_n_of<0:10>  
+  _short_a_of<0:10> ARG1 _term_n_of<0:10>  
+  unknown<0:22> SF prop  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  compound<0:21> SF prop  
+  compound<0:21> TENSE untensed  
+  compound<0:21> MOOD indicative  
+  compound<0:21> PROG -  
+  compound<0:21> PERF -  
+  _short_a_of<0:10> SF prop  
+  _short_a_of<0:10> TENSE untensed  
+  _short_a_of<0:10> MOOD indicative  
+  _short_a_of<0:10> PROG -  
+  _short_a_of<0:10> PERF -  
+  _term_n_of<0:10> IND +  
+  _municipals/nns_u_unknown<11:21> PERS 3  
+  _municipals/nns_u_unknown<11:21> NUM pl  
+  _colon_p_namely<21:22> SF prop  
+  _colon_p_namely<21:22> TENSE untensed  
+  _colon_p_namely<21:22> MOOD indicative  
+  _colon_p_namely<21:22> PROG -  
+  _colon_p_namely<21:22> PERF -  
+}
+

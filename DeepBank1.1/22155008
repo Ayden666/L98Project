@@ -1,0 +1,187 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:26 h)).
+;;;
+
+[22155008] (1 of 1) {1} `IBM, Armonk, N.Y., remained upbeat.'
+
+[22155008:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "IBM", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <3:4>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <5:11>, 1, "Armonk", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <11:12>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <13:17>, 1, "N.Y.", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <17:18>, 1, ",", 0, "null", "," 1.0)
+  (7, 6, 7, <19:27>, 1, "remained", 0, "null", "VBD" 0.9681 "VBN" 0.0319)
+  (8, 7, 8, <28:34>, 1, "upbeat", 0, "null", "JJ" 0.9134 "NN" 0.0866)
+  (9, 8, 9, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (89, 0, 1, <0:4>, 1, "IBM,", 0, "null")
+  (111, 0, 1, <0:4>, 1, "IBM,", 0, "null", "NNP" 1.0)
+  (114, 0, 1, <0:4>, 1, "ibm,", 0, "null")
+  (117, 0, 1, <0:4>, 1, "ibm,", 0, "null")
+  (91, 1, 2, <5:12>, 1, "Armonk,", 0, "null")
+  (112, 1, 2, <5:12>, 1, "Armonk,", 0, "null", "NNP" 1.0)
+  (115, 1, 2, <5:12>, 1, "armonk,", 0, "null")
+  (118, 1, 2, <5:12>, 1, "armonk,", 0, "null")
+  (93, 2, 3, <13:18>, 1, "N.Y.,", 0, "null")
+  (113, 2, 3, <13:18>, 1, "N.Y.,", 0, "null", "NNP" 1.0)
+  (116, 2, 3, <13:18>, 1, "n.y.,", 0, "null")
+  (119, 2, 3, <13:18>, 1, "n.y.,", 0, "null")
+  (105, 3, 4, <19:27>, 1, "remained", 0, "null")
+  (109, 3, 4, <19:27>, 1, "remained", 0, "null", "VBD" 0.9681)
+  (120, 3, 4, <19:27>, 1, "remained", 0, "null")
+  (107, 4, 5, <28:35>, 1, "upbeat.", 0, "null")
+  (110, 4, 5, <28:35>, 1, "upbeat.", 0, "null", "JJ" 0.9134)
+  (121, 4, 5, <28:35>, 1, "upbeat.", 0, "null")
+>
+
+(ROOT_STRICT
+ (932 SB-HD_MC_C 9.30722 0 5
+  (928 HDN_BNP-PN_C 6.0244 0 3
+   (927 NP-HDN_CTY-CPD_C 5.96023 0 3
+    (920 HDN_BNP-PN_C 0.562716 0 1
+     (919 W_COMMA_PLR -0.266433 0 1
+      (918 N_SG_ILR -0.609145 0 1
+       (135 ibm_n1@n_-_pn_le 0 0 1
+        ("ibm," 114
+         "token [ +CARG \"IBM\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"ibm,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (926 ^NP-HDN_CTY-CPD_C 4.448 1 3
+     (923 HDN_BNP-PN_C 1.02527 1 2
+      (922 W_COMMA_PLR -0.118892 1 2
+       (921 N_SG_ILR -0.461604 1 2
+        (141 generic_proper_ne@n_-_pn-gen_le 0 1 2
+         ("Armonk," 91
+          "token [ +CARG \"Armonk\" +CLASS proper_ne +FORM \"Armonk,\" +FROM \"5\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+     (925 ^W_COMMA_PLR 1.46896 2 3
+      (924 N_SG_ILR -0.183649 2 3
+       (161 newyork_n3@n_-_pn-abb_le 0 2 3
+        ("n.y.," 116
+         "token [ +CARG \"N.Y.\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"n.y.,\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (931 ^HD-CMP_U_C 2.26576 3 5
+   (929 ^V_PST_OLR 2.03272 3 4
+    (207 remain_v4@v_prd_seq_le 1.33012 3 4
+     ("remained" 105
+      "token [ +CARG #1=\"remained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96805890000000006\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (930 W_PERIOD_PLR -0.0965441 4 5
+    (344 generic_adj@aj_-_i-unk_le 0 4 5
+     ("upbeat." 110
+      "token [ +CARG \"upbeat\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"upbeat.\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED \"_upbeat/JJ_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"0.91336910000000004\" +TAG #4=\"JJ\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+
+(S
+ (NP
+  (N (NP (N (N (N "ibm,"))))
+   (N (NP (N (N (N "Armonk,")))) (N (N (N "n.y.,"))))))
+ (VP (V (V "remained")) (AP (AP "upbeat."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:18>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "IBM" ]
+          [ compound<5:18>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<5:12>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<5:12>
+            LBL: h20
+            ARG0: x15
+            CARG: "Armonk" ]
+          [ named<13:18>
+            LBL: h8
+            ARG0: x6
+            CARG: "New+York" ]
+          [ _remain_v_1<19:27>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h21 ]
+          [ _upbeat/jj_u_unknown<28:35>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h21 QEQ h22 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:18>[BV x6]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("IBM"){x PERS 3, NUM sg, IND +}[]
+ e16:compound<5:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:proper_q<5:12>[BV x15]
+ x15:named<5:12>("Armonk"){x PERS 3, NUM sg, IND +}[]
+ x6:named<13:18>("New+York"){x PERS 3, NUM sg, IND +}[]
+ e3:_remain_v_1<19:27>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e23]
+ e23:_upbeat/jj_u_unknown<28:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:18> BV named<13:18>(New+York)  
+  compound<0:18> ARG1 named<13:18>(New+York)  
+  compound<0:18> ARG2 named<0:4>(IBM)  
+  proper_q<0:4> BV named<0:4>(IBM)  
+  compound<5:18> ARG1 named<13:18>(New+York)  
+  compound<5:18> ARG2 named<5:12>(Armonk)  
+  proper_q<5:12> BV named<5:12>(Armonk)  
+  _remain_v_1<19:27> ARG1 named<13:18>(New+York)  
+  _remain_v_1<19:27> ARG2 _upbeat/jj_u_unknown<28:35>  
+  _upbeat/jj_u_unknown<28:35> ARG1 named<13:18>(New+York)  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  named<0:4>(IBM) PERS 3  
+  named<0:4>(IBM) NUM sg  
+  named<0:4>(IBM) IND +  
+  compound<5:18> SF prop  
+  compound<5:18> TENSE untensed  
+  compound<5:18> MOOD indicative  
+  compound<5:18> PROG -  
+  compound<5:18> PERF -  
+  named<5:12>(Armonk) PERS 3  
+  named<5:12>(Armonk) NUM sg  
+  named<5:12>(Armonk) IND +  
+  named<13:18>(New+York) PERS 3  
+  named<13:18>(New+York) NUM sg  
+  named<13:18>(New+York) IND +  
+  _remain_v_1<19:27> SF prop  
+  _remain_v_1<19:27> TENSE past  
+  _remain_v_1<19:27> MOOD indicative  
+  _remain_v_1<19:27> PROG -  
+  _remain_v_1<19:27> PERF -  
+  _upbeat/jj_u_unknown<28:35> SF prop  
+  _upbeat/jj_u_unknown<28:35> TENSE untensed  
+  _upbeat/jj_u_unknown<28:35> MOOD indicative  
+  _upbeat/jj_u_unknown<28:35> PROG -  
+  _upbeat/jj_u_unknown<28:35> PERF -  
+}
+

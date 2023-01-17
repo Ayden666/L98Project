@@ -1,0 +1,159 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778031] (1 of 1) {1} `A lot of car alarms went off.'
+
+[21778031:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "A", 0, "null", "DT" 1.0)
+  (2, 1, 2, <2:5>, 1, "lot", 0, "null", "NN" 1.0)
+  (3, 2, 3, <6:8>, 1, "of", 0, "null", "IN" 1.0)
+  (4, 3, 4, <9:12>, 1, "car", 0, "null", "NN" 1.0)
+  (5, 4, 5, <13:19>, 1, "alarms", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <20:24>, 1, "went", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <25:28>, 1, "off", 0, "null", "RP" 0.8479 "RB" 0.1157 "IN" 0.0243 "JJ" 0.0121)
+  (8, 7, 8, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:1>, 1, "A", 0, "null")
+  (101, 0, 1, <0:1>, 1, "a", 0, "null")
+  (102, 0, 1, <0:1>, 1, "a", 0, "null")
+  (85, 1, 2, <2:5>, 1, "lot", 0, "null")
+  (97, 1, 2, <2:5>, 1, "lot", 0, "null", "NN" 1.0)
+  (103, 1, 2, <2:5>, 1, "lot", 0, "null")
+  (87, 2, 3, <6:8>, 1, "of", 0, "null")
+  (104, 2, 3, <6:8>, 1, "of", 0, "null")
+  (89, 3, 4, <9:12>, 1, "car", 0, "null")
+  (98, 3, 4, <9:12>, 1, "car", 0, "null", "NN" 1.0)
+  (105, 3, 4, <9:12>, 1, "car", 0, "null")
+  (91, 4, 5, <13:19>, 1, "alarms", 0, "null")
+  (99, 4, 5, <13:19>, 1, "alarms", 0, "null", "NNS" 1.0)
+  (106, 4, 5, <13:19>, 1, "alarms", 0, "null")
+  (93, 5, 6, <20:24>, 1, "went", 0, "null")
+  (100, 5, 6, <20:24>, 1, "went", 0, "null", "VBD" 1.0)
+  (107, 5, 6, <20:24>, 1, "went", 0, "null")
+  (94, 6, 7, <25:29>, 1, "off.", 0, "null")
+  (96, 6, 7, <25:29>, 1, "off.", 0, "null", "RB" 0.1157)
+  (108, 6, 7, <25:29>, 1, "off.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1212 SB-HD_MC_C 7.31441 0 7
+  (1208 SP-HD_N_C 2.74006 0 5
+   (115 a_det@d_-_sg-nmd_le -0.795126 0 1
+    ("a" 101
+     "token [ +CARG \"A\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"a\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1207 ^HD-CMP_U_C 3.1523 1 5
+    (1202 ^N_SG_ILR 0.670303 1 2
+     (190 lot_n@n_pp_c-gr-of_le 0.732197 1 2
+      ("lot" 85
+       "token [ +CARG #1=\"lot\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1206 HD-CMP_U_C 1.17972 2 5
+     (234 of_prtcl@p_np_ptcl-of_le 1.04356 2 3
+      ("of" 87
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1205 HDN_BNP_C -0.511671 3 5
+      (1204 N-HDN_CPD_C -0.122714 3 5
+       (311 car_n1@n_-_c_le -0.332093 3 4
+        ("car" 89
+         "token [ +CARG #1=\"car\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1203 ^N_PL_OLR 0.536019 4 5
+        (313 alarm_n1@n_-_mc_le 0 4 5
+         ("alarms" 91
+          "token [ +CARG #1=\"alarms\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+  (1211 ^HD-CMP_U_C 2.61984 5 7
+   (1209 ^V_PST_OLR 1.44991 5 6
+    (338 go_off_v1@v_p_le 0 5 6
+     ("went" 93
+      "token [ +CARG #1=\"went\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1210 W_PERIOD_PLR 0.840342 6 7
+    (386 off_prtcl@p_np_ptcl_le 0 6 7
+     ("off." 94
+      "token [ +CARG \"off\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"off.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84791340000000004\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S
+ (NP (DET "a")
+  (N (N (N "lot")) (PP (P "of") (NP (N (N "car") (N (N "alarms")))))))
+ (VP (V (V "went")) (P (P "off."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _a_q<0:1>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _lot_n_of<2:5>
+            LBL: h8
+            ARG0: x6
+            ARG1: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<9:19>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<9:19>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x IND: + ] ]
+          [ udef_q<9:12>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ _car_n_1<9:12>
+            LBL: h19
+            ARG0: x14 ]
+          [ _alarm_n_1<13:19>
+            LBL: h13
+            ARG0: x9 ]
+          [ _go_v_off<20:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_a_q<0:1>[BV x6]
+ x6:_lot_n_of<2:5>{x PERS 3, NUM sg, IND +}[ARG1 x9]
+ _2:udef_q<9:19>[BV x9]
+ e15:compound<9:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:udef_q<9:12>[BV x14]
+ x14:_car_n_1<9:12>{x IND +}[]
+ x9:_alarm_n_1<13:19>{x PERS 3, NUM pl}[]
+ e3:_go_v_off<20:24>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _a_q<0:1> BV _lot_n_of<2:5>  
+  _lot_n_of<2:5> ARG1 _alarm_n_1<13:19>  
+  udef_q<9:19> BV _alarm_n_1<13:19>  
+  compound<9:19> ARG1 _alarm_n_1<13:19>  
+  compound<9:19> ARG2 _car_n_1<9:12>  
+  udef_q<9:12> BV _car_n_1<9:12>  
+  _go_v_off<20:24> ARG1 _lot_n_of<2:5>  
+  _lot_n_of<2:5> PERS 3  
+  _lot_n_of<2:5> NUM sg  
+  _lot_n_of<2:5> IND +  
+  compound<9:19> SF prop  
+  compound<9:19> TENSE untensed  
+  compound<9:19> MOOD indicative  
+  compound<9:19> PROG -  
+  compound<9:19> PERF -  
+  _car_n_1<9:12> IND +  
+  _alarm_n_1<13:19> PERS 3  
+  _alarm_n_1<13:19> NUM pl  
+  _go_v_off<20:24> SF prop  
+  _go_v_off<20:24> TENSE past  
+  _go_v_off<20:24> MOOD indicative  
+  _go_v_off<20:24> PROG -  
+  _go_v_off<20:24> PERF -  
+}
+

@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj11e';
+;;; (wsun@wsun; 22-jan-2018 (20:55 h)).
+;;;
+
+[21193002] (1 of 1) {1} `Charlie Brown is selling out.'
+
+[21193002:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Charlie", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:13>, 1, "Brown", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:16>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <17:24>, 1, "selling", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <25:28>, 1, "out", 0, "null", "RP" 0.9449 "RB" 0.0385 "IN" 0.0166)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:7>, 1, "Charlie", 0, "null")
+  (77, 0, 1, <0:7>, 1, "charlie", 0, "null")
+  (82, 0, 1, <0:7>, 1, "charlie", 0, "null")
+  (56, 1, 2, <8:13>, 1, "Brown", 0, "null")
+  (73, 1, 2, <8:13>, 1, "Brown", 0, "null", "NNP" 1.0)
+  (76, 1, 2, <8:13>, 1, "brown", 0, "null")
+  (78, 1, 2, <8:13>, 1, "brown", 0, "null")
+  (67, 2, 3, <14:16>, 1, "is", 0, "null")
+  (74, 2, 3, <14:16>, 1, "is", 0, "null", "VBZ" 1.0)
+  (79, 2, 3, <14:16>, 1, "is", 0, "null")
+  (69, 3, 4, <17:24>, 1, "selling", 0, "null")
+  (75, 3, 4, <17:24>, 1, "selling", 0, "null", "VBG" 1.0)
+  (80, 3, 4, <17:24>, 1, "selling", 0, "null")
+  (70, 4, 5, <25:29>, 1, "out.", 0, "null")
+  (81, 4, 5, <25:29>, 1, "out.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1302 SB-HD_MC_C 7.0699 0 5
+  (1297 HDN_BNP-PN_C 2.20403 0 2
+   (1296 NP-HDN_NME-CPD_C 1.66432 0 2
+    (1294 HDN_BNP-PN_C 0.586141 0 1
+     (1293 N_SG_ILR -0.166294 0 1
+      (85 charlie_n1@n_-_pn_le 0 0 1
+       ("charlie" 77
+        "token [ +CARG \"Charlie\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"charlie\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1295 ^N_SG_ILR -0.239404 1 2
+     (89 brown_n1@n_-_pn_le 0.363458 1 2
+      ("brown" 76
+       "token [ +CARG \"Brown\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"brown\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1301 ^HD-CMP_U_C 3.84882 2 5
+   (131 be_c_is@v_prd_is_le 1.47611 2 3
+    ("is" 67
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1300 HD-CMP_U_C 1.7546 3 5
+    (1298 ^V_PRP_OLR 0.245264 3 4
+     (221 sell_out_v2@v_p_le 0 3 4
+      ("selling" 69
+       "token [ +CARG #1=\"selling\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1299 W_PERIOD_PLR 1.23981 4 5
+     (250 out_particle@p_np_ptcl_le 0 4 5
+      ("out." 70
+       "token [ +CARG \"out\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"out.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94493050000000001\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (NP (N (N "charlie"))) (N (N "brown"))))
+ (VP (V "is") (VP (V (V "selling")) (P (P "out.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ proper_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "Charlie" ]
+          [ named<8:13>
+            LBL: h8
+            ARG0: x6
+            CARG: "Brown" ]
+          [ _sell_v_out<17:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:7>[BV x9]
+ x9:named<0:7>("Charlie"){x PERS 3, NUM sg, IND +}[]
+ x6:named<8:13>("Brown"){x PERS 3, NUM sg, IND +}[]
+ e3:_sell_v_out<17:24>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:13> BV named<8:13>(Brown)  
+  compound<0:13> ARG1 named<8:13>(Brown)  
+  compound<0:13> ARG2 named<0:7>(Charlie)  
+  proper_q<0:7> BV named<0:7>(Charlie)  
+  _sell_v_out<17:24> ARG1 named<8:13>(Brown)  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:7>(Charlie) PERS 3  
+  named<0:7>(Charlie) NUM sg  
+  named<0:7>(Charlie) IND +  
+  named<8:13>(Brown) PERS 3  
+  named<8:13>(Brown) NUM sg  
+  named<8:13>(Brown) IND +  
+  _sell_v_out<17:24> SF prop  
+  _sell_v_out<17:24> TENSE pres  
+  _sell_v_out<17:24> MOOD indicative  
+  _sell_v_out<17:24> PROG +  
+  _sell_v_out<17:24> PERF -  
+}
+

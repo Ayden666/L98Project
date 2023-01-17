@@ -1,0 +1,67 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:06 h)).
+;;;
+
+[21212007] (1 of 1) {1} `Foresight'
+
+[21212007:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Foresight", 0, "null", "NN" 1.0)
+>
+
+<
+  (12, 0, 1, <0:9>, 1, "Foresight", 0, "null")
+  (13, 0, 1, <0:9>, 1, "foresight", 0, "null")
+  (14, 0, 1, <0:9>, 1, "foresight", 0, "null")
+>
+
+(ROOT_FRAG
+ (26 NP_FRG_C -0.824144 0 1
+  (25 HDN_BNP_C -0.619731 0 1
+   (24 N_MS_ILR -0.437783 0 1
+    (16 foresight_n@n_-_m_le 0 0 1
+     ("foresight" 13
+      "token [ +CARG \"Foresight\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"foresight\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N "foresight"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _foresight_n_1<0:9>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:9>[BV x4]
+ x4:_foresight_n_1<0:9>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  unknown<0:9> ARG _foresight_n_1<0:9>  
+  udef_q<0:9> BV _foresight_n_1<0:9>  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  _foresight_n_1<0:9> PERS 3  
+  _foresight_n_1<0:9> NUM sg  
+  _foresight_n_1<0:9> GEND n  
+  _foresight_n_1<0:9> IND -  
+}
+

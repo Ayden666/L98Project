@@ -1,0 +1,175 @@
+;;;
+;;; Redwoods export of `wsj03a';
+;;; (wsun@wsun; 22-jan-2018 (13:02 h)).
+;;;
+
+[20312004] (1 of 1) {1} `-- Arnold J. Zarett.'
+
+[20312004:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:9>, 1, "Arnold", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:12>, 1, "J.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <13:19>, 1, "Zarett", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:2>, 1, "–", 0, "null")
+  (68, 0, 1, <0:2>, 1, "–", 0, "null")
+  (60, 1, 2, <3:9>, 1, "Arnold", 0, "null")
+  (64, 1, 2, <3:9>, 1, "arnold", 0, "null")
+  (69, 1, 2, <3:9>, 1, "arnold", 0, "null")
+  (49, 2, 3, <10:12>, 1, "J.", 0, "null")
+  (61, 2, 3, <10:12>, 1, "J.", 0, "null", "NNP" 1.0)
+  (63, 2, 3, <10:12>, 1, "j.", 0, "null")
+  (66, 2, 3, <10:12>, 1, "j.", 0, "null")
+  (51, 3, 4, <13:20>, 1, "Zarett.", 0, "null")
+  (62, 3, 4, <13:20>, 1, "Zarett.", 0, "null", "NNP" 1.0)
+  (65, 3, 4, <13:20>, 1, "zarett.", 0, "null")
+  (67, 3, 4, <13:20>, 1, "zarett.", 0, "null")
+>
+
+(ROOT_FRAG
+ (353 AJ-HD_SCP-XP_C 4.42036 0 4
+  (73 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.069421 0 1
+   ("–" 57
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (352 ^NP_FRG_C 3.53134 1 4
+   (351 HDN_BNP-PN_C 4.14885 1 4
+    (350 NP-HDN_NME-CPD_C 4.09646 1 4
+     (347 HDN_BNP-PN_C 2.4959 1 3
+      (346 NP-HDN_NME-CPD_C 2.14799 1 3
+       (344 HDN_BNP-PN_C 0.586141 1 2
+        (343 N_SG_ILR -0.166294 1 2
+         (82 arnold_n1@n_-_pn_le 0 1 2
+          ("arnold" 64
+           "token [ +CARG \"Arnold\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"arnold\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (345 ^N_SG_ILR 0.0459512 2 3
+        (92 j_period_np1@n_-_pn_le 0.648813 2 3
+         ("j." 63
+          "token [ +CARG \"J.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"j.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (349 ^W_PERIOD_PLR 1.02066 3 4
+      (348 N_SG_ILR 0.466069 3 4
+       (97 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Zarett." 51
+         "token [ +CARG \"Zarett\" +CLASS proper_ne +FORM \"Zarett.\" +FROM \"13\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "–")
+ (XP
+  (NP
+   (N (NP (N (NP (N (N "arnold"))) (N (N "j."))))
+    (N (N (N "Zarett.")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:20>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:20>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ compound<3:20>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:12>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<3:12>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:9>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ named<3:9>
+            LBL: h24
+            ARG0: x19
+            CARG: "Arnold" ]
+          [ named<10:12>
+            LBL: h18
+            ARG0: x13
+            CARG: "J" ]
+          [ named<13:20>
+            LBL: h12
+            ARG0: x8
+            CARG: "Zarett" ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:proper_q<3:20>[BV x8]
+ e14:compound<3:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x13]
+ _2:proper_q<3:12>[BV x13]
+ e20:compound<3:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x19]
+ _3:proper_q<3:9>[BV x19]
+ x19:named<3:9>("Arnold"){x PERS 3, NUM sg, IND +}[]
+ x13:named<10:12>("J"){x PERS 3, NUM sg, IND +}[]
+ x8:named<13:20>("Zarett"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:20>  
+  discourse<0:2> R-INDEX unknown<3:20>  
+  unknown<3:20> ARG named<13:20>(Zarett)  
+  proper_q<3:20> BV named<13:20>(Zarett)  
+  compound<3:20> ARG1 named<13:20>(Zarett)  
+  compound<3:20> ARG2 named<10:12>(J)  
+  proper_q<3:12> BV named<10:12>(J)  
+  compound<3:12> ARG1 named<10:12>(J)  
+  compound<3:12> ARG2 named<3:9>(Arnold)  
+  proper_q<3:9> BV named<3:9>(Arnold)  
+  unknown<3:20> SF prop  
+  unknown<3:20> TENSE untensed  
+  unknown<3:20> MOOD indicative  
+  unknown<3:20> PROG -  
+  unknown<3:20> PERF -  
+  compound<3:20> SF prop  
+  compound<3:20> TENSE untensed  
+  compound<3:20> MOOD indicative  
+  compound<3:20> PROG -  
+  compound<3:20> PERF -  
+  compound<3:12> SF prop  
+  compound<3:12> TENSE untensed  
+  compound<3:12> MOOD indicative  
+  compound<3:12> PROG -  
+  compound<3:12> PERF -  
+  named<3:9>(Arnold) PERS 3  
+  named<3:9>(Arnold) NUM sg  
+  named<3:9>(Arnold) IND +  
+  named<10:12>(J) PERS 3  
+  named<10:12>(J) NUM sg  
+  named<10:12>(J) IND +  
+  named<13:20>(Zarett) PERS 3  
+  named<13:20>(Zarett) NUM sg  
+  named<13:20>(Zarett) IND +  
+}
+

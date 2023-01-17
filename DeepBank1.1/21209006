@@ -1,0 +1,168 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:04 h)).
+;;;
+
+[21209006] (1 of 1) {1} `Gannett has 161 million shares outstanding.'
+
+[21209006:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Gannett", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:11>, 1, "has", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <12:15>, 1, "161", 0, "null", "CD" 1.0)
+  (4, 3, 4, <16:23>, 1, "million", 0, "null", "CD" 1.0)
+  (5, 4, 5, <24:30>, 1, "shares", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <31:42>, 1, "outstanding", 0, "null", "JJ" 1.0)
+  (7, 6, 7, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:7>, 1, "Gannett", 0, "null")
+  (78, 0, 1, <0:7>, 1, "gannett", 0, "null")
+  (84, 0, 1, <0:7>, 1, "gannett", 0, "null")
+  (70, 1, 2, <8:11>, 1, "has", 0, "null")
+  (76, 1, 2, <8:11>, 1, "has", 0, "null", "VBZ" 1.0)
+  (82, 1, 2, <8:11>, 1, "has", 0, "null")
+  (60, 2, 3, <12:15>, 1, "161", 0, "null")
+  (79, 2, 3, <12:15>, 1, "161", 0, "null")
+  (66, 3, 4, <16:23>, 1, "million", 0, "null")
+  (74, 3, 4, <16:23>, 1, "million", 0, "null", "CD" 1.0)
+  (80, 3, 4, <16:23>, 1, "million", 0, "null")
+  (68, 4, 5, <24:30>, 1, "shares", 0, "null")
+  (75, 4, 5, <24:30>, 1, "shares", 0, "null", "NNS" 1.0)
+  (81, 4, 5, <24:30>, 1, "shares", 0, "null")
+  (72, 5, 6, <31:43>, 1, "outstanding.", 0, "null")
+  (77, 5, 6, <31:43>, 1, "outstanding.", 0, "null", "JJ" 1.0)
+  (83, 5, 6, <31:43>, 1, "outstanding.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1159 SB-HD_MC_C 5.5978 0 6
+  (1150 HDN_BNP-PN_C -1.0285 0 1
+   (1149 N_SG_ILR -0.979548 0 1
+    (85 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Gannett" 73
+      "token [ +CARG #1=\"Gannett\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1158 ^HD-CMP_U_C 5.60926 1 6
+   (1151 ^V_3S-FIN_OLR 1.21973 1 2
+    (106 have-poss@v_np_poss_le 0.528051 1 2
+     ("has" 70
+      "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1157 HDN_BNP_C 3.78305 2 6
+    (1156 HDN-AJ_REDREL_C 4.52361 2 6
+     (1154 ^NUM-N_MNP_C 2.61499 2 5
+      (1152 SP-HD_HC_C 0.939135 2 4
+       (186 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+        ("161" 60
+         "token [ +CARG #1=\"161\" +CLASS card_or_year_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (188 million@aj_-_i-crd-mln_le 0.569174 3 4
+        ("million" 66
+         "token [ +CARG #1=\"million\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1153 ^N_PL_OLR 0.93269 4 5
+       (194 share_n2@n_-_c-meas-nb_le 0.270994 4 5
+        ("shares" 68
+         "token [ +CARG #1=\"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1155 W_PERIOD_PLR 0.2715 5 6
+      (216 outstanding_a2@aj_-_i-prd_le 0.663271 5 6
+       ("outstanding." 72
+        "token [ +CARG \"outstanding\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"outstanding.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "Gannett")))
+ (VP (V (V "has"))
+  (NP
+   (N (N (ADJ (ADJ "161") (ADJ "million")) (N (N "shares")))
+    (AP (AP "outstanding."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Gannett" ]
+          [ _have_v_1<8:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:43>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<12:15>
+            LBL: h13
+            ARG0: i15
+            ARG1: i14
+            CARG: "161" ]
+          [ card<16:23>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "1000000" ]
+          [ times<16:23>
+            LBL: h18
+            ARG0: i19
+            ARG1: i14
+            ARG2: h13
+            ARG3: h16 ]
+          [ _share_n_of<24:30>
+            LBL: h18
+            ARG0: x9 ]
+          [ _outstanding_a_1<31:43>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ] >
+   HCONS: < h11 QEQ h18 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Gannett"){x PERS 3, NUM sg, IND +}[]
+ e3:_have_v_1<8:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<12:43>[BV x9]
+ i15:card<12:15>("161"){i}[]
+ e17:card<16:23>("1000000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ i19:times<16:23>{i}[ARG2 i15, ARG3 e17]
+ x9:_share_n_of<24:30>{x PERS 3, NUM pl, IND +}[]
+ e20:_outstanding_a_1<31:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Gannett)  
+  _have_v_1<8:11> ARG1 named<0:7>(Gannett)  
+  _have_v_1<8:11> ARG2 _share_n_of<24:30>  
+  udef_q<12:43> BV _share_n_of<24:30>  
+  card<16:23>(1000000) ARG1 _share_n_of<24:30>  
+  times<16:23> ARG2 card<12:15>(161)  
+  times<16:23> ARG3 card<16:23>(1000000)  
+  _outstanding_a_1<31:43> ARG1 _share_n_of<24:30>  
+  named<0:7>(Gannett) PERS 3  
+  named<0:7>(Gannett) NUM sg  
+  named<0:7>(Gannett) IND +  
+  _have_v_1<8:11> SF prop  
+  _have_v_1<8:11> TENSE pres  
+  _have_v_1<8:11> MOOD indicative  
+  _have_v_1<8:11> PROG -  
+  _have_v_1<8:11> PERF -  
+  card<16:23>(1000000) SF prop  
+  card<16:23>(1000000) TENSE untensed  
+  card<16:23>(1000000) MOOD indicative  
+  card<16:23>(1000000) PROG -  
+  card<16:23>(1000000) PERF -  
+  _share_n_of<24:30> PERS 3  
+  _share_n_of<24:30> NUM pl  
+  _share_n_of<24:30> IND +  
+  _outstanding_a_1<31:43> SF prop  
+  _outstanding_a_1<31:43> TENSE untensed  
+  _outstanding_a_1<31:43> MOOD indicative  
+  _outstanding_a_1<31:43> PROG -  
+  _outstanding_a_1<31:43> PERF -  
+}
+

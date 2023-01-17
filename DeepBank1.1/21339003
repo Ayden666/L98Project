@@ -1,0 +1,170 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:18 h)).
+;;;
+
+[21339003] (1 of 1) {1} `PRIME RATE: 10 1/2%.'
+
+[21339003:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "PRIME", 0, "null", "JJ" 0.5069 "NNP" 0.482 "NN" 0.0111)
+  (2, 1, 2, <6:10>, 1, "RATE", 0, "null", "NN" 0.5397 "NNP" 0.4603)
+  (3, 2, 3, <10:11>, 1, ":", 0, "null", ":" 1.0)
+  (4, 3, 4, <12:14>, 1, "10", 0, "null", "CD" 1.0)
+  (5, 4, 5, <15:18>, 1, "1/2", 0, "null", "CD" 1.0)
+  (6, 5, 6, <18:19>, 1, "%", 0, "null", "NN" 1.0)
+  (7, 6, 7, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:5>, 1, "PRIME", 0, "null")
+  (85, 0, 1, <0:5>, 1, "PRIME", 0, "null", "JJ" 0.5069)
+  (86, 0, 1, <0:5>, 1, "PRIME", 0, "null", "NNP" 0.482)
+  (88, 0, 1, <0:5>, 1, "prime", 0, "null")
+  (91, 0, 1, <0:5>, 1, "prime", 0, "null")
+  (65, 1, 2, <6:10>, 1, "RATE", 0, "null")
+  (84, 1, 2, <6:10>, 1, "RATE", 0, "null", "NN" 0.5397)
+  (87, 1, 2, <6:10>, 1, "rate", 0, "null")
+  (90, 1, 2, <6:10>, 1, "rate", 0, "null")
+  (77, 2, 3, <10:11>, 1, ":", 0, "null")
+  (94, 2, 3, <10:11>, 1, ":", 0, "null")
+  (67, 3, 4, <12:14>, 1, "10", 0, "null")
+  (92, 3, 4, <12:14>, 1, "10", 0, "null")
+  (61, 4, 5, <15:18>, 1, "1/2", 0, "null")
+  (68, 4, 5, <15:18>, 1, "1/2", 0, "null")
+  (89, 4, 5, <15:18>, 1, "1/2", 0, "null")
+  (93, 4, 5, <15:18>, 1, "1/2", 0, "null")
+  (79, 5, 6, <18:20>, 1, "%.", 0, "null")
+  (95, 5, 6, <18:20>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1452 SB-HD_MC_C 6.4481 0 6
+  (1451 HDN_BNP_C 1.75247 0 2
+   (1450 AJ-HDN_NORM_C 1.01797 0 2
+    (101 prime_a1@aj_-_i_le -0.307598 0 1
+     ("prime" 88
+      "token [ +CARG \"PRIME\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"prime\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.50692119999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1439 ^HDN_OPTCMP_C 0.844911 1 2
+     (1438 N_MS-CNT_ILR 1.10986 1 2
+      (110 rate_n1@n_pp_mc-of_le 1.6444 1 2
+       ("rate" 87
+        "token [ +CARG \"RATE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"rate\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.53973930000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1448 ^HD-CMP_U_C 3.17972 2 6
+   (121 colon_copula_v@v_np_colon_le 0.879077 2 3
+    (":" 77
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1447 HDN_BNP_C 2.4915 3 6
+    (1446 NUM-N_MNP_C 1.44935 3 6
+     (1443 XP_BRCK-PR_C 0.419913 3 5
+      (1442 HD-CMP_U_C 0.565488 3 5
+       (154 generic_card_np_ne@aj_np_i-crd-gen_le 0 3 4
+        ("10" 67
+         "token [ +CARG #1=\"10\" +CLASS card_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+       (157 generic_fract_ne@aj_-_i-frct-gen_le 0.108086 4 5
+        ("1/2" 68
+         "token [ +CARG #1=\"1/2\" +CLASS frct_ne +FORM #1 +FROM \"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))
+     (1445 ^W_PERIOD_PLR 1.02943 5 6
+      (1444 N_PL_OLR 0.482577 5 6
+       (158 percent_char_n1@n_-_c-meas-spr_le 0.328883 5 6
+        ("%." 79
+         "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (AP "prime") (N (N (N "rate")))))
+ (VP (V ":")
+  (NP (N (ADJ (ADJ (ADJ "10") (ADJ "1/2"))) (N (N (N "%.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _prime_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _rate_n_of<6:10>
+            LBL: h8
+            ARG0: x6
+            ARG1: i10 ]
+          [ _colon_v_id<10:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x11 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:20>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ card<12:14>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            CARG: "10" ]
+          [ plus<12:14>
+            LBL: h17
+            ARG0: i19
+            ARG1: x11
+            ARG2: h15
+            ARG3: h18 ]
+          [ fraction<15:18>
+            LBL: h18
+            ARG0: i20
+            ARG1: x11
+            CARG: "1/2" ]
+          [ _percent_n_of<18:20>
+            LBL: h17
+            ARG0: x11 ] >
+   HCONS: < h13 QEQ h17 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:10>[BV x6]
+ e9:_prime_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_rate_n_of<6:10>{x PERS 3, NUM sg}[]
+ e3:_colon_v_id<10:11>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x11]
+ _2:udef_q<12:20>[BV x11]
+ e16:card<12:14>("10"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+ i19:plus<12:14>{i}[ARG1 x11, ARG2 e16, ARG3 i20]
+ i20:fraction<15:18>("1/2"){i}[ARG1 x11]
+ x11:_percent_n_of<18:20>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:10> BV _rate_n_of<6:10>  
+  _prime_a_1<0:5> ARG1 _rate_n_of<6:10>  
+  _colon_v_id<10:11> ARG1 _rate_n_of<6:10>  
+  _colon_v_id<10:11> ARG2 _percent_n_of<18:20>  
+  udef_q<12:20> BV _percent_n_of<18:20>  
+  card<12:14>(10) ARG1 _percent_n_of<18:20>  
+  plus<12:14> ARG1 _percent_n_of<18:20>  
+  plus<12:14> ARG2 card<12:14>(10)  
+  plus<12:14> ARG3 fraction<15:18>(1/2)  
+  fraction<15:18>(1/2) ARG1 _percent_n_of<18:20>  
+  _prime_a_1<0:5> SF prop  
+  _prime_a_1<0:5> TENSE untensed  
+  _prime_a_1<0:5> MOOD indicative  
+  _prime_a_1<0:5> PROG -  
+  _prime_a_1<0:5> PERF -  
+  _rate_n_of<6:10> PERS 3  
+  _rate_n_of<6:10> NUM sg  
+  _colon_v_id<10:11> SF prop  
+  _colon_v_id<10:11> TENSE tensed  
+  _colon_v_id<10:11> MOOD indicative  
+  _colon_v_id<10:11> PROG -  
+  _colon_v_id<10:11> PERF -  
+  card<12:14>(10) SF prop  
+  card<12:14>(10) TENSE untensed  
+  card<12:14>(10) MOOD indicative  
+  card<12:14>(10) PROG -  
+  card<12:14>(10) PERF -  
+  _percent_n_of<18:20> PERS 3  
+  _percent_n_of<18:20> NUM pl  
+  _percent_n_of<18:20> IND +  
+}
+

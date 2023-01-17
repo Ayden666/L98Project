@@ -1,0 +1,152 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:07 h)).
+;;;
+
+[20019009] (1 of 1) {1} `He was previously vice president.'
+
+[20019009:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <7:17>, 1, "previously", 0, "null", "RB" 1.0)
+  (4, 3, 4, <18:22>, 1, "vice", 0, "null", "NN" 0.9823 "RB" 0.0177)
+  (5, 4, 5, <23:32>, 1, "president", 0, "null", "NN" 1.0)
+  (6, 5, 6, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:2>, 1, "he", 0, "null")
+  (77, 0, 1, <0:2>, 1, "he", 0, "null")
+  (61, 1, 2, <3:6>, 1, "was", 0, "null")
+  (69, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (73, 1, 2, <3:6>, 1, "was", 0, "null")
+  (63, 2, 3, <7:17>, 1, "previously", 0, "null")
+  (70, 2, 3, <7:17>, 1, "previously", 0, "null", "RB" 1.0)
+  (74, 2, 3, <7:17>, 1, "previously", 0, "null")
+  (66, 3, 4, <18:22>, 1, "vice", 0, "null")
+  (68, 3, 4, <18:22>, 1, "vice", 0, "null", "NN" 0.9823)
+  (76, 3, 4, <18:22>, 1, "vice", 0, "null")
+  (65, 4, 5, <23:33>, 1, "president.", 0, "null")
+  (71, 4, 5, <23:33>, 1, "president.", 0, "null", "NN" 1.0)
+  (75, 4, 5, <23:33>, 1, "president.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (761 SB-HD_MC_C 5.39103 0 5
+  (755 HDN_BNP-QNT_C 1.50958 0 1
+   (78 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 72
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (760 ^HD-CMP_U_C 2.6121 1 5
+   (756 ^HD-AJ_VMOD_C 0.638368 1 3
+    (98 be_id_was@v_np_was_le 0.742511 1 2
+     ("was" 61
+      "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (114 previously_adv1@pp_-_i-vm_le -0.104143 2 3
+     ("previously" 63
+      "token [ +CARG #1=\"previously\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (759 HDN_BNP-PRD_C 1.97374 3 5
+    (758 N-HDN_CPD_C 2.18501 3 5
+     (126 vice_n2@n_-_c-cpd_le 2.51294 3 4
+      ("vice" 66
+       "token [ +CARG #1=\"vice\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98232030000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (757 ^W_PERIOD_PLR -0.327925 4 5
+      (130 president_prd_n1@n_-_c-prd_le 0 4 5
+       ("president." 65
+        "token [ +CARG \"president\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"president.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "he"))
+ (VP (V (V "was") (PP "previously"))
+  (NP (N (N "vice") (N (N "president."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<3:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 ]
+          [ _previously_p<7:17>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ udef_q<18:33>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<18:33>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<18:22>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _vice_n_1<18:22>
+            LBL: h20
+            ARG0: x15 ]
+          [ _president_n_of<23:33>
+            LBL: h14
+            ARG0: x9 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_be_v_id<3:6>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ e10:_previously_p<7:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _2:udef_q<18:33>[BV x9]
+ e16:compound<18:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<18:22>[BV x15]
+ x15:_vice_n_1<18:22>{x PERS 3, NUM sg, IND +}[]
+ x9:_president_n_of<23:33>{x}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _be_v_id<3:6> ARG1 pron<0:2>  
+  _be_v_id<3:6> ARG2 _president_n_of<23:33>  
+  _previously_p<7:17> ARG1 _be_v_id<3:6>  
+  udef_q<18:33> BV _president_n_of<23:33>  
+  compound<18:33> ARG1 _president_n_of<23:33>  
+  compound<18:33> ARG2 _vice_n_1<18:22>  
+  udef_q<18:22> BV _vice_n_1<18:22>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _be_v_id<3:6> SF prop  
+  _be_v_id<3:6> TENSE past  
+  _be_v_id<3:6> MOOD indicative  
+  _be_v_id<3:6> PROG -  
+  _be_v_id<3:6> PERF -  
+  _previously_p<7:17> SF prop  
+  _previously_p<7:17> TENSE untensed  
+  _previously_p<7:17> MOOD indicative  
+  _previously_p<7:17> PROG -  
+  _previously_p<7:17> PERF -  
+  compound<18:33> SF prop  
+  compound<18:33> TENSE untensed  
+  compound<18:33> MOOD indicative  
+  compound<18:33> PROG -  
+  compound<18:33> PERF -  
+  _vice_n_1<18:22> PERS 3  
+  _vice_n_1<18:22> NUM sg  
+  _vice_n_1<18:22> IND +  
+}
+

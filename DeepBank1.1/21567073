@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:29 h)).
+;;;
+
+[21567073] (1 of 1) {1} `They want it back.'
+
+[21567073:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:9>, 1, "want", 0, "null", "VBP" 0.9136 "VB" 0.0864)
+  (3, 2, 3, <10:12>, 1, "it", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <13:17>, 1, "back", 0, "null", "RP" 0.593 "RB" 0.3704 "VB" 0.0135 "JJ" 0.0116 "VBP" 0.0115)
+  (5, 4, 5, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (67, 0, 1, <0:4>, 1, "they", 0, "null")
+  (71, 0, 1, <0:4>, 1, "they", 0, "null")
+  (61, 1, 2, <5:9>, 1, "want", 0, "null")
+  (65, 1, 2, <5:9>, 1, "want", 0, "null", "VBP" 0.9136)
+  (69, 1, 2, <5:9>, 1, "want", 0, "null")
+  (60, 2, 3, <10:12>, 1, "it", 0, "null")
+  (68, 2, 3, <10:12>, 1, "it", 0, "null")
+  (63, 3, 4, <13:18>, 1, "back.", 0, "null")
+  (66, 3, 4, <13:18>, 1, "back.", 0, "null", "RB" 0.3704)
+  (70, 3, 4, <13:18>, 1, "back.", 0, "null")
+>
+
+(ROOT_STRICT
+ (493 SB-HD_MC_C 3.43666 0 4
+  (480 HDN_BNP-QNT_C 1.15641 0 1
+   (72 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 67
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (492 ^HD-AJ_INT-UNSL_C 1.70073 1 4
+   (488 ^HD-CMP_U_C 0.876519 1 3
+    (487 ^V_N3S-BSE_ILR 0.833532 1 2
+     (96 want_v1@v_np_ntr_le 0.34325 1 2
+      ("want" 61
+       "token [ +CARG #1=\"want\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91362449999999995\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (482 HDN_BNP-QNT_C -0.418448 2 3
+     (105 it2@n_-_pr-it_le -0.571118 2 3
+      ("it" 60
+       "token [ +CARG #1=\"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (491 NP_ADV_C -0.353001 3 4
+    (490 HDN_BNP-QNT_C -0.299409 3 4
+     (489 W_PERIOD_PLR -0.763199 3 4
+      (124 back_nom@n_-_ad-loc_le 0 3 4
+       ("back." 63
+        "token [ +CARG \"back\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"back.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.59296409999999999\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "they"))
+ (VP (VP (V (V "want")) (NP (NP "it"))) (PP (NP (N (N "back."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _want_v_1<5:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pron<10:12>
+            LBL: h10
+            ARG0: x9 ]
+          [ pronoun_q<10:12>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ loc_nonsp<13:18>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ place_n<13:18>
+            LBL: h16
+            ARG0: x15 ]
+          [ def_implicit_q<13:18>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _back_p<13:18>
+            LBL: h16
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15 ] >
+   HCONS: < h18 QEQ h16 h12 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_want_v_1-fn.Desiring<5:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Experiencer x5, ARG2-fn.Event/Focal_participant x9]
+ x9:pron<10:12>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<10:12>[BV x9]
+ e14:loc_nonsp<13:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x15]
+ x15:place_n<13:18>{x PERS 3, NUM sg}[]
+ _3:def_implicit_q<13:18>[BV x15]
+ e20:_back_p<13:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _want_v_1<5:9> ARG1 pron<0:4>  
+  _want_v_1<5:9> ARG2 pron<10:12>  
+  pronoun_q<10:12> BV pron<10:12>  
+  loc_nonsp<13:18> ARG1 _want_v_1<5:9>  
+  loc_nonsp<13:18> ARG2 place_n<13:18>  
+  def_implicit_q<13:18> BV place_n<13:18>  
+  _back_p<13:18> ARG1 place_n<13:18>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _want_v_1<5:9> SF prop  
+  _want_v_1<5:9> TENSE pres  
+  _want_v_1<5:9> MOOD indicative  
+  _want_v_1<5:9> PROG -  
+  _want_v_1<5:9> PERF -  
+  pron<10:12> PERS 3  
+  pron<10:12> NUM sg  
+  pron<10:12> GEND n  
+  pron<10:12> PT std  
+  loc_nonsp<13:18> SF prop  
+  loc_nonsp<13:18> TENSE untensed  
+  loc_nonsp<13:18> MOOD indicative  
+  loc_nonsp<13:18> PROG -  
+  loc_nonsp<13:18> PERF -  
+  place_n<13:18> PERS 3  
+  place_n<13:18> NUM sg  
+  _back_p<13:18> SF prop  
+  _back_p<13:18> TENSE untensed  
+  _back_p<13:18> MOOD indicative  
+  _back_p<13:18> PROG -  
+  _back_p<13:18> PERF -  
+}
+

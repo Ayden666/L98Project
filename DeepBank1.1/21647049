@@ -1,0 +1,159 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:27 h)).
+;;;
+
+[21647049] (1 of 1) {1} `"These days, anything can happen.'
+
+[21647049:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:6>, 1, "These", 0, "null", "DT" 1.0)
+  (3, 2, 3, <7:11>, 1, "days", 0, "null", "NNS" 0.9898 "NN" 0.0102)
+  (4, 3, 4, <11:12>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <13:21>, 1, "anything", 0, "null", "NN" 1.0)
+  (6, 5, 6, <22:25>, 1, "can", 0, "null", "MD" 1.0)
+  (7, 6, 7, <26:32>, 1, "happen", 0, "null", "VB" 1.0)
+  (8, 7, 8, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (91, 0, 1, <0:6>, 1, "“these", 0, "null")
+  (96, 0, 1, <0:6>, 1, "“these", 0, "null")
+  (86, 1, 2, <7:12>, 1, "days,", 0, "null")
+  (88, 1, 2, <7:12>, 1, "days,", 0, "null", "NNS" 0.9898)
+  (95, 1, 2, <7:12>, 1, "days,", 0, "null")
+  (79, 2, 3, <13:21>, 1, "anything", 0, "null")
+  (89, 2, 3, <13:21>, 1, "anything", 0, "null", "NN" 1.0)
+  (92, 2, 3, <13:21>, 1, "anything", 0, "null")
+  (81, 3, 4, <22:25>, 1, "can", 0, "null")
+  (93, 3, 4, <22:25>, 1, "can", 0, "null")
+  (85, 4, 5, <26:33>, 1, "happen.", 0, "null")
+  (90, 4, 5, <26:33>, 1, "happen.", 0, "null", "VB" 1.0)
+  (94, 4, 5, <26:33>, 1, "happen.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1175 FLR-HD_NWH_C 6.30871 0 5
+  (1167 NP_ADV_C 1.18119 0 2
+   (1166 SP-HD_N_C 0.4969 0 2
+    (1162 W_DQLEFT_PLR 0 0 1
+     (99 these_det@d_-_pl_le 0 0 1
+      ("“these" 91
+       "token [ +CARG \"These\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“these\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1165 ^HDN_OPTCMP_C 0.605035 1 2
+     (1164 W_COMMA_PLR 0.575008 1 2
+      (1163 N_PL_OLR 0 1 2
+       (110 day_n@n_pp_c-day_le 0 1 2
+        ("days," 86
+         "token [ +CARG \"days\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"days,\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98983980000000005\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (1174 ^SB-HD_NMC_C 4.1339 2 5
+   (1169 HDN_BNP-QNT_C 1.09543 2 3
+    (1168 HDN_OPTCMP_C 0.847776 2 3
+     (866 anything@n_-_pr_le -0.114769 2 3
+      ("anything" 79
+       "token [ +CARG #1=\"anything\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1173 ^HD-CMP_U_C 1.75956 3 5
+    (874 can_aux_pos@v_vp_mdl-p_le 2.40537 3 4
+     ("can" 81
+      "token [ +CARG #1=\"can\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1172 HD_XAJ-INT-VP_C -1.01208 4 5
+     (1171 W_PERIOD_PLR -1.63401 4 5
+      (1170 V_N3S-BSE_ILR -0.887388 4 5
+       (880 happen_v1@v_-_unacc_le 0 4 5
+        ("happen." 85
+         "token [ +CARG \"happen\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"happen.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (PP (NP (DET (DET "“these")) (N (N (N (N "days,"))))))
+ (S/PP (NP (N (N "anything")))
+  (VP/PP (V/PP "can") (VP/PP (VP (VP (V "happen.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:33>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ loc_nonsp<0:12>
+            LBL: h6
+            ARG0: e4
+            ARG1: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x7 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _these_q_dem<0:6>
+            LBL: h9
+            ARG0: x7
+            RSTR: h11
+            BODY: h10 ]
+          [ _day_n_of<7:12>
+            LBL: h12
+            ARG0: x7
+            ARG1: i13 ]
+          [ thing<13:21>
+            LBL: h14
+            ARG0: x15 [ x PERS: 3 NUM: SG ] ]
+          [ _any_q<13:21>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _can_v_modal<22:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: h19 ]
+          [ _happen_v_1<26:33>
+            LBL: h6
+            ARG0: e8
+            ARG1: x15 ] >
+   HCONS: < h19 QEQ h6 h17 QEQ h14 h11 QEQ h12 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:loc_nonsp<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e8, ARG2 x7]
+ _1:_these_q_dem<0:6>[BV x7]
+ x7:_day_n_of<7:12>{x PERS 3, NUM pl, IND +}[]
+ x15:thing<13:21>{x PERS 3, NUM sg}[]
+ _2:_any_q<13:21>[BV x15]
+ e3:_can_v_modal<22:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e8]
+ e8:_happen_v_1-fn.Event<26:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+}
+
+{
+  focus_d<0:33> ARG1 _can_v_modal<22:25>  
+  focus_d<0:33> ARG2 loc_nonsp<0:12>  
+  loc_nonsp<0:12> ARG1 _happen_v_1<26:33>  
+  loc_nonsp<0:12> ARG2 _day_n_of<7:12>  
+  _these_q_dem<0:6> BV _day_n_of<7:12>  
+  _any_q<13:21> BV thing<13:21>  
+  _can_v_modal<22:25> ARG1 _happen_v_1<26:33>  
+  _happen_v_1<26:33> ARG1 thing<13:21>  
+  focus_d<0:33> SF prop  
+  focus_d<0:33> TENSE untensed  
+  focus_d<0:33> MOOD indicative  
+  focus_d<0:33> PROG -  
+  focus_d<0:33> PERF -  
+  loc_nonsp<0:12> SF prop  
+  loc_nonsp<0:12> TENSE untensed  
+  loc_nonsp<0:12> MOOD indicative  
+  loc_nonsp<0:12> PROG -  
+  loc_nonsp<0:12> PERF -  
+  _day_n_of<7:12> PERS 3  
+  _day_n_of<7:12> NUM pl  
+  _day_n_of<7:12> IND +  
+  thing<13:21> PERS 3  
+  thing<13:21> NUM sg  
+  _can_v_modal<22:25> SF prop  
+  _can_v_modal<22:25> TENSE pres  
+  _can_v_modal<22:25> MOOD indicative  
+  _can_v_modal<22:25> PROG -  
+  _can_v_modal<22:25> PERF -  
+  _happen_v_1<26:33> SF prop  
+  _happen_v_1<26:33> TENSE untensed  
+  _happen_v_1<26:33> MOOD indicative  
+  _happen_v_1<26:33> PROG -  
+  _happen_v_1<26:33> PERF -  
+}
+

@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:02 h)).
+;;;
+
+[20808013] (1 of 1) {1} `Line-item veto.'
+
+[20808013:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Line-item", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <10:14>, 1, "veto", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (42, 0, 1, <0:9>, 1, "Line-", 0, "null")
+  (45, 0, 1, <0:9>, 1, "line-", 0, "null")
+  (48, 0, 1, <0:9>, 1, "line-", 0, "null")
+  (39, 1, 2, <0:9>, 1, "item", 0, "null")
+  (43, 1, 2, <0:9>, 1, "item", 0, "null", "JJ" 1.0)
+  (46, 1, 2, <0:9>, 1, "item", 0, "null")
+  (41, 2, 3, <10:15>, 1, "veto.", 0, "null")
+  (44, 2, 3, <10:15>, 1, "veto.", 0, "null", "NN" 1.0)
+  (47, 2, 3, <10:15>, 1, "veto.", 0, "null")
+>
+
+(ROOT_FRAG
+ (248 NP_NB-FRG_C 0.453109 0 3
+  (247 N-HDN_CPD_C 1.37015 0 3
+   (244 XP_BRCK-PR_C 0.0482709 0 2
+    (243 N-HDN_CPD_C 0.104395 0 2
+     (241 W_HYPHEN_PLR 0 0 1
+      (60 line_n1@n_-_c-ed-ns_le 0 0 1
+       ("line-" 45
+        "token [ +CARG \"Line-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"line-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+     (242 ^HDN_OPTCMP_C -0.296957 1 2
+      (96 item_n1@n_pp_c-ns-of_le 0 1 2
+       ("item" 39
+        "token [ +CARG #1=\"item\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+   (246 ^W_PERIOD_PLR 1.12315 2 3
+    (245 N_SG_ILR 0.837064 2 3
+     (98 veto_n1@n_-_c_le 0 2 3
+      ("veto." 41
+       "token [ +CARG \"veto\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"veto.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (N (N (N (N (N "line-")) (N (N "item")))) (N (N (N "veto.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:9>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _line_n_of<0:9>
+            LBL: h20
+            ARG0: x15 ]
+          [ _item_n_of<0:9>
+            LBL: h14
+            ARG0: x9
+            ARG1: i21 ]
+          [ _veto_n_1<10:15>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:15>[BV x4]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:9>[BV x9]
+ e16:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:9>[BV x15]
+ x15:_line_n_of<0:9>{x IND +}[]
+ x9:_item_n_of<0:9>{x IND +}[]
+ x4:_veto_n_1<10:15>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:15> ARG _veto_n_1<10:15>  
+  udef_q<0:15> BV _veto_n_1<10:15>  
+  compound<0:15> ARG1 _veto_n_1<10:15>  
+  compound<0:15> ARG2 _item_n_of<0:9>  
+  udef_q<0:9> BV _item_n_of<0:9>  
+  compound<0:9> ARG1 _item_n_of<0:9>  
+  compound<0:9> ARG2 _line_n_of<0:9>  
+  udef_q<0:9> BV _line_n_of<0:9>  
+  unknown<0:15> SF prop  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _line_n_of<0:9> IND +  
+  _item_n_of<0:9> IND +  
+  _veto_n_1<10:15> PERS 3  
+  _veto_n_1<10:15> NUM sg  
+  _veto_n_1<10:15> IND +  
+}
+

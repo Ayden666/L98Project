@@ -1,0 +1,154 @@
+;;;
+;;; Redwoods export of `wsj13e';
+;;; (wsun@wsun; 22-jan-2018 (22:46 h)).
+;;;
+
+[21389001] (1 of 1) {1} `Are consumers too deep in hock?'
+
+[21389001:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Are", 0, "null", "VBP" 0.9345 "NNP" 0.0655)
+  (2, 1, 2, <4:13>, 1, "consumers", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:17>, 1, "too", 0, "null", "RB" 1.0)
+  (4, 3, 4, <18:22>, 1, "deep", 0, "null", "JJ" 0.6096 "RB" 0.3904)
+  (5, 4, 5, <23:25>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <26:30>, 1, "hock", 0, "null", "NN" 1.0)
+  (7, 6, 7, <30:31>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:3>, 1, "Are", 0, "null", "VBP" 0.9345)
+  (87, 0, 1, <0:3>, 1, "are", 0, "null")
+  (93, 0, 1, <0:3>, 1, "are", 0, "null")
+  (70, 1, 2, <4:13>, 1, "consumers", 0, "null")
+  (83, 1, 2, <4:13>, 1, "consumers", 0, "null", "NNS" 1.0)
+  (88, 1, 2, <4:13>, 1, "consumers", 0, "null")
+  (72, 2, 3, <14:17>, 1, "too", 0, "null")
+  (84, 2, 3, <14:17>, 1, "too", 0, "null", "RB" 1.0)
+  (89, 2, 3, <14:17>, 1, "too", 0, "null")
+  (79, 3, 4, <18:22>, 1, "deep", 0, "null")
+  (82, 3, 4, <18:22>, 1, "deep", 0, "null", "JJ" 0.6096)
+  (86, 3, 4, <18:22>, 1, "deep", 0, "null", "RB" 0.3904)
+  (92, 3, 4, <18:22>, 1, "deep", 0, "null")
+  (74, 4, 5, <23:25>, 1, "in", 0, "null")
+  (90, 4, 5, <23:25>, 1, "in", 0, "null")
+  (76, 5, 6, <26:31>, 1, "hock?", 0, "null")
+  (85, 5, 6, <26:31>, 1, "hock?", 0, "null", "NN" 1.0)
+  (91, 5, 6, <26:31>, 1, "hock?", 0, "null")
+>
+
+(ROOT_STRICT
+ (904 HD_YESNO_C 0.995574 0 6
+  (903 HD-CMP_U_C 1.01618 0 6
+   (896 ^HD-CMP_U_C -1.29785 0 2
+    (892 ^V_AUX-SB-INV_DLR -0.353696 0 1
+     (95 be_c_are@v_prd_are_le -0.123947 0 1
+      ("are" 87
+       "token [ +CARG \"Are\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"are\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93452310000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (895 HDN_BNP_C -0.795715 1 2
+     (894 HDN_OPTCMP_C -0.259957 1 2
+      (893 N_PL_OLR 0.518757 1 2
+       (101 consumer_n1@n_pp_c-of_le 0 1 2
+        ("consumers" 70
+         "token [ +CARG #1=\"consumers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (902 HD-AJ_INT-UNSL_C 1.85863 2 6
+    (897 ^SP-HD_HC_C 1.87509 2 4
+     (120 too_deg_nc@av_-_dg-cmp-so_le 1.50812 2 3
+      ("too" 72
+       "token [ +CARG #1=\"too\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (136 deep_a1@aj_-_i-er_le 0 3 4
+      ("deep" 79
+       "token [ +CARG #1=\"deep\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.60957550000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (901 HD-CMP_U_C -0.483185 4 6
+     (160 in@p_np_i-reg_le -0.179868 4 5
+      ("in" 74
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (900 HDN_BNP_C -0.191087 5 6
+      (899 W_QMARK_PLR -0.779943 5 6
+       (898 N_MS-CNT_ILR -0.779943 5 6
+        (203 generic_mass_count_noun@n_-_mc-unk_le 0 5 6
+         ("hock?" 85
+          "token [ +CARG \"hock\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"hock?\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED \"_hock/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S
+ (S (V (V (V "are")) (NP (N (N (N "consumers")))))
+  (AP (AP (ADV "too") (AP "deep"))
+   (PP (P "in") (NP (N (N (N "hock?"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<4:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _consumer_n_of<4:13>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ comp_too<14:17>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: u11 ]
+          [ _deep_a_1<18:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _in_p<23:25>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x13 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<26:31>
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ _hock/nn_u_unknown<26:31>
+            LBL: h17
+            ARG0: x13 ] >
+   HCONS: < h15 QEQ h17 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<4:13>[BV x6]
+ x6:_consumer_n_of<4:13>{x PERS 3, NUM pl, IND +}[]
+ e10:comp_too<14:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_deep_a_1<18:22>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e12:_in_p<23:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x13]
+ _2:udef_q<26:31>[BV x13]
+ x13:_hock/nn_u_unknown<26:31>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<4:13> BV _consumer_n_of<4:13>  
+  comp_too<14:17> ARG1 _deep_a_1<18:22>  
+  _deep_a_1<18:22> ARG1 _consumer_n_of<4:13>  
+  _in_p<23:25> ARG1 _deep_a_1<18:22>  
+  _in_p<23:25> ARG2 _hock/nn_u_unknown<26:31>  
+  udef_q<26:31> BV _hock/nn_u_unknown<26:31>  
+  _consumer_n_of<4:13> PERS 3  
+  _consumer_n_of<4:13> NUM pl  
+  _consumer_n_of<4:13> IND +  
+  comp_too<14:17> SF prop  
+  comp_too<14:17> TENSE untensed  
+  comp_too<14:17> MOOD indicative  
+  comp_too<14:17> PROG -  
+  comp_too<14:17> PERF -  
+  _deep_a_1<18:22> SF ques  
+  _deep_a_1<18:22> TENSE pres  
+  _deep_a_1<18:22> MOOD indicative  
+  _deep_a_1<18:22> PROG -  
+  _deep_a_1<18:22> PERF -  
+  _in_p<23:25> SF prop  
+  _in_p<23:25> TENSE untensed  
+  _in_p<23:25> MOOD indicative  
+  _in_p<23:25> PROG -  
+  _in_p<23:25> PERF -  
+  _hock/nn_u_unknown<26:31> PERS 3  
+  _hock/nn_u_unknown<26:31> NUM sg  
+}
+

@@ -1,0 +1,97 @@
+;;;
+;;; Redwoods export of `wsj07c';
+;;; (wsun@wsun; 22-jan-2018 (17:28 h)).
+;;;
+
+[20758074] (1 of 1) {1} `"Real heroes exist.'
+
+[20758074:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "Real", 0, "null", "JJ" 0.9157 "NNP" 0.0843)
+  (3, 2, 3, <6:12>, 1, "heroes", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <13:18>, 1, "exist", 0, "null", "VBP" 0.9439 "VB" 0.0561)
+  (5, 4, 5, <18:19>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (58, 0, 1, <0:5>, 1, "“Real", 0, "null", "JJ" 0.9157)
+  (61, 0, 1, <0:5>, 1, "“real", 0, "null")
+  (64, 0, 1, <0:5>, 1, "“real", 0, "null")
+  (53, 1, 2, <6:12>, 1, "heroes", 0, "null")
+  (60, 1, 2, <6:12>, 1, "heroes", 0, "null", "NNS" 1.0)
+  (62, 1, 2, <6:12>, 1, "heroes", 0, "null")
+  (56, 2, 3, <13:19>, 1, "exist.", 0, "null")
+  (59, 2, 3, <13:19>, 1, "exist.", 0, "null", "VBP" 0.9439)
+  (63, 2, 3, <13:19>, 1, "exist.", 0, "null")
+>
+
+(ROOT_STRICT
+ (229 SB-HD_MC_C 0.44416 0 3
+  (226 HDN_BNP_C 2.07091 0 2
+   (225 AJ-HDN_NORM_C 1.33641 0 2
+    (223 W_DQLEFT_PLR 1.35527 0 1
+     (73 real_a1@aj_-_i_le 0 0 1
+      ("“real" 61
+       "token [ +CARG \"Real\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“real\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91573269999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (224 ^N_PL_OLR -0.0188574 1 2
+     (81 hero_n1@n_-_c_le 0 1 2
+      ("heroes" 53
+       "token [ +CARG #1=\"heroes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (228 ^W_PERIOD_PLR -1.1966 2 3
+   (227 V_N3S-BSE_ILR -0.662176 2 3
+    (96 exist_v1@v_-_unacc_le 0 2 3
+     ("exist." 56
+      "token [ +CARG \"exist\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"exist.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94393099999999996\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (AP (AP "“real")) (N (N "heroes")))) (VP (VP (V "exist."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _real_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _hero_n_1<6:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _exist_v_1<13:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:12>[BV x6]
+ e9:_real_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_hero_n_1<6:12>{x PERS 3, NUM pl, IND +}[]
+ e3:_exist_v_1-fn.Existence<13:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:12> BV _hero_n_1<6:12>  
+  _real_a_1<0:5> ARG1 _hero_n_1<6:12>  
+  _exist_v_1<13:19> ARG1 _hero_n_1<6:12>  
+  _real_a_1<0:5> SF prop  
+  _real_a_1<0:5> TENSE untensed  
+  _real_a_1<0:5> MOOD indicative  
+  _real_a_1<0:5> PROG -  
+  _real_a_1<0:5> PERF -  
+  _hero_n_1<6:12> PERS 3  
+  _hero_n_1<6:12> NUM pl  
+  _hero_n_1<6:12> IND +  
+  _exist_v_1<13:19> SF prop  
+  _exist_v_1<13:19> TENSE pres  
+  _exist_v_1<13:19> MOOD indicative  
+  _exist_v_1<13:19> PROG -  
+  _exist_v_1<13:19> PERF -  
+}
+

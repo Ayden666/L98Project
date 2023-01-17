@@ -1,0 +1,323 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:17 h)).
+;;;
+
+[22043035] (1 of 1) {1} `Treasury securities were essentially flat to about 1/2 point lower.'
+
+[22043035:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Treasury", 0, "null", "NNP" 0.9425 "NN" 0.0575)
+  (2, 1, 2, <9:19>, 1, "securities", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <20:24>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <25:36>, 1, "essentially", 0, "null", "RB" 1.0)
+  (5, 4, 5, <37:41>, 1, "flat", 0, "null", "JJ" 0.9666 "RB" 0.0334)
+  (6, 5, 6, <42:44>, 1, "to", 0, "null", "TO" 1.0)
+  (7, 6, 7, <45:50>, 1, "about", 0, "null", "IN" 0.6406 "RB" 0.3594)
+  (8, 7, 8, <51:54>, 1, "1/2", 0, "null", "CD" 1.0)
+  (9, 8, 9, <55:60>, 1, "point", 0, "null", "NN" 1.0)
+  (10, 9, 10, <61:66>, 1, "lower", 0, "null", "JJR" 0.7219 "RBR" 0.2781)
+  (11, 10, 11, <66:67>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (128, 0, 1, <0:8>, 1, "Treasury", 0, "null")
+  (136, 0, 1, <0:8>, 1, "treasury", 0, "null")
+  (146, 0, 1, <0:8>, 1, "treasury", 0, "null")
+  (113, 1, 2, <9:19>, 1, "securities", 0, "null")
+  (132, 1, 2, <9:19>, 1, "securities", 0, "null", "NNS" 1.0)
+  (139, 1, 2, <9:19>, 1, "securities", 0, "null")
+  (115, 2, 3, <20:24>, 1, "were", 0, "null")
+  (133, 2, 3, <20:24>, 1, "were", 0, "null", "VBD" 1.0)
+  (140, 2, 3, <20:24>, 1, "were", 0, "null")
+  (117, 3, 4, <25:36>, 1, "essentially", 0, "null")
+  (134, 3, 4, <25:36>, 1, "essentially", 0, "null", "RB" 1.0)
+  (141, 3, 4, <25:36>, 1, "essentially", 0, "null")
+  (122, 4, 5, <37:41>, 1, "flat", 0, "null")
+  (129, 4, 5, <37:41>, 1, "flat", 0, "null", "JJ" 0.9666)
+  (143, 4, 5, <37:41>, 1, "flat", 0, "null")
+  (119, 5, 6, <42:44>, 1, "to", 0, "null")
+  (142, 5, 6, <42:44>, 1, "to", 0, "null")
+  (124, 6, 7, <45:50>, 1, "about", 0, "null")
+  (135, 6, 7, <45:50>, 1, "about", 0, "null", "RB" 0.3594)
+  (144, 6, 7, <45:50>, 1, "about", 0, "null")
+  (98, 7, 8, <51:54>, 1, "1/2", 0, "null")
+  (99, 7, 8, <51:54>, 1, "1/2", 0, "null")
+  (137, 7, 8, <51:54>, 1, "1/2", 0, "null")
+  (111, 8, 9, <55:60>, 1, "point", 0, "null")
+  (131, 8, 9, <55:60>, 1, "point", 0, "null", "NN" 1.0)
+  (138, 8, 9, <55:60>, 1, "point", 0, "null")
+  (126, 9, 10, <61:67>, 1, "lower.", 0, "null")
+  (130, 9, 10, <61:67>, 1, "lower.", 0, "null", "JJR" 0.7219)
+  (145, 9, 10, <61:67>, 1, "lower.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2981 SB-HD_MC_C 10.1412 0 10
+  (2961 HDN_BNP_C 2.12473 0 2
+   (2960 NP-HDN_CPD_C 2.84803 0 2
+    (2958 HDN_BNP-PN_C 2.17923 0 1
+     (147 generic_proper_ne@n_-_pn-gen_le 1.07902 0 1
+      ("Treasury" 128
+       "token [ +CARG #1=\"Treasury\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94245069999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (2959 ^N_PL_OLR 0.783992 1 2
+     (152 security_n1@n_-_mc_le 0.991093 1 2
+      ("securities" 113
+       "token [ +CARG #1=\"securities\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2980 ^HD-CMP_U_C 6.50052 2 10
+   (175 be_c_were@v_prd_wre_le 1.32039 2 3
+    ("were" 115
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2979 SP-HD_HC_C 4.96278 3 10
+    (2962 AJ-HD_SCP-XP_C 0.792118 3 5
+     (186 essentially_adv1@av_-_s-vp-pr_le 0 3 4
+      ("essentially" 117
+       "token [ +CARG #1=\"essentially\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (190 flat_a1@aj_-_i-er_le 0.792118 4 5
+      ("flat" 122
+       "token [ +CARG #1=\"flat\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96657090000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2978 ^HD-CMP_U_C 4.17066 5 10
+     (236 x_to_y_adj_to@aj_pp_i-x-to-y_le -0.319618 5 6
+      ("to" 119
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2977 SP-HD_HC_C 3.89936 6 10
+      (2976 SP-HD_HC_C 2.08915 6 9
+       (276 about_deg@av_-_dg-jomv_le 0.20188 6 7
+        ("about" 124
+         "token [ +CARG #1=\"about\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"45\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.6405651\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2975 ^MNP_DEG-PRD_C 1.12817 7 9
+        (2974 NUM-N_MNP_C 0.0814142 7 9
+         (304 generic_fract_ne@aj_-_i-frct-gen_le 0.108086 7 8
+          ("1/2" 99
+           "token [ +CARG #1=\"1/2\" +CLASS frct_ne +FORM #1 +FROM \"51\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+         (2973 ^N_SG_ILR 0.060549 8 9
+          (313 point_n1@n_-_c-meas-nb_le 0.258429 8 9
+           ("point" 111
+            "token [ +CARG #1=\"point\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"55\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"60\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+      (2967 ^HD_OPTCMP_C 1.34804 9 10
+       (2966 W_PERIOD_PLR 0.71727 9 10
+        (338 lower_a1@aj_pp_i-cmp_le 0 9 10
+         ("lower." 126
+          "token [ +CARG \"lower\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"lower.\" +FROM #1=\"61\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72193099999999999\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"67\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (NP (N "Treasury")) (N (N "securities"))))
+ (VP (V "were")
+  (AP (AP (ADV "essentially") (AP "flat"))
+   (AP (ADJ "to")
+    (AP (ADV (ADV "about") (ADV (N (ADJ "1/2") (N (N "point")))))
+     (AP (ADJ (ADJ "lower."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:19>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Treasury" ]
+          [ _security_n_1<9:19>
+            LBL: h8
+            ARG0: x6 ]
+          [ _essential_a_1<25:36>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h17 ]
+          [ _flat_a_1<37:41>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i19 ]
+          [ interval_p_end<42:44>
+            LBL: h21
+            ARG0: e3
+            ARG1: i23
+            ARG2: i22 ]
+          [ interval_p_start<42:44>
+            LBL: h21
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i23
+            ARG2: i19 ]
+          [ elliptical_n<42:44>
+            LBL: h15
+            ARG0: i19 ]
+          [ udef_q<42:44>
+            LBL: h25
+            ARG0: i19
+            RSTR: h26
+            BODY: h27 ]
+          [ elliptical_n<42:44>
+            LBL: h28
+            ARG0: i22 ]
+          [ udef_q<42:44>
+            LBL: h29
+            ARG0: i22
+            RSTR: h30
+            BODY: h31 ]
+          [ interval<42:44>
+            LBL: h21
+            ARG0: i23 ]
+          [ udef_q<42:44>
+            LBL: h32
+            ARG0: i23
+            RSTR: h33
+            BODY: h34 ]
+          [ loc_nonsp<42:44>
+            LBL: h2
+            ARG0: e35 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: i23 ]
+          [ _about_x_deg<45:50>
+            LBL: h28
+            ARG0: e36 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e37 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ measure<51:60>
+            LBL: h28
+            ARG0: e37
+            ARG1: e39 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x38 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<51:60>
+            LBL: h40
+            ARG0: x38
+            RSTR: h41
+            BODY: h42 ]
+          [ fraction<51:54>
+            LBL: h43
+            ARG0: i44
+            ARG1: x38
+            CARG: "1/2" ]
+          [ _point_n_of<55:60>
+            LBL: h43
+            ARG0: x38 ]
+          [ _low_a_1<61:67>
+            LBL: h28
+            ARG0: e45 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i22 ]
+          [ comp<61:67>
+            LBL: h28
+            ARG0: e39
+            ARG1: e45
+            ARG2: u46 ] >
+   HCONS: < h41 QEQ h43 h30 QEQ h28 h26 QEQ h15 h33 QEQ h21 h17 QEQ h18 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e35:
+ _1:udef_q<0:19>[BV x6]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Treasury"){x IND +}[]
+ x6:_security_n_1<9:19>{x PERS 3, NUM pl}[]
+ e16:_essential_a_1<25:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e20:_flat_a_1<37:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 i19]
+ e3:interval_p_end<42:44>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 i23, ARG2 i22]
+ e24:interval_p_start<42:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 i23, ARG2 i19]
+ i19:elliptical_n<42:44>{i}[]
+ _3:udef_q<42:44>[BV i19]
+ i22:elliptical_n<42:44>{i}[]
+ _4:udef_q<42:44>[BV i22]
+ i23:interval<42:44>{i}[]
+ _5:udef_q<42:44>[BV i23]
+ e35:loc_nonsp<42:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 i23]
+ e36:_about_x_deg<45:50>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e37]
+ e37:measure<51:60>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e39, ARG2 x38]
+ _6:udef_q<51:60>[BV x38]
+ i44:fraction<51:54>("1/2"){i}[ARG1 x38]
+ x38:_point_n_of<55:60>{x PERS 3, NUM sg, IND +}[]
+ e45:_low_a_1<61:67>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 i22]
+ e39:comp<61:67>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e45]
+}
+
+{
+  udef_q<0:19> BV _security_n_1<9:19>  
+  compound<0:19> ARG1 _security_n_1<9:19>  
+  compound<0:19> ARG2 named<0:8>(Treasury)  
+  proper_q<0:8> BV named<0:8>(Treasury)  
+  _essential_a_1<25:36> ARG1 _flat_a_1<37:41>  
+  _flat_a_1<37:41> ARG1 elliptical_n<42:44>  
+  interval_p_end<42:44> ARG1 interval<42:44>  
+  interval_p_end<42:44> ARG2 elliptical_n<42:44>  
+  interval_p_start<42:44> ARG1 interval<42:44>  
+  interval_p_start<42:44> ARG2 elliptical_n<42:44>  
+  udef_q<42:44> BV elliptical_n<42:44>  
+  udef_q<42:44> BV elliptical_n<42:44>  
+  udef_q<42:44> BV interval<42:44>  
+  loc_nonsp<42:44> ARG1 _security_n_1<9:19>  
+  loc_nonsp<42:44> ARG2 interval<42:44>  
+  _about_x_deg<45:50> ARG1 measure<51:60>  
+  measure<51:60> ARG1 comp<61:67>  
+  measure<51:60> ARG2 _point_n_of<55:60>  
+  udef_q<51:60> BV _point_n_of<55:60>  
+  fraction<51:54>(1/2) ARG1 _point_n_of<55:60>  
+  _low_a_1<61:67> ARG1 elliptical_n<42:44>  
+  comp<61:67> ARG1 _low_a_1<61:67>  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  named<0:8>(Treasury) IND +  
+  _security_n_1<9:19> PERS 3  
+  _security_n_1<9:19> NUM pl  
+  _essential_a_1<25:36> SF prop  
+  _essential_a_1<25:36> TENSE untensed  
+  _essential_a_1<25:36> MOOD indicative  
+  _essential_a_1<25:36> PROG -  
+  _essential_a_1<25:36> PERF -  
+  _flat_a_1<37:41> SF prop  
+  _flat_a_1<37:41> TENSE untensed  
+  _flat_a_1<37:41> MOOD indicative  
+  _flat_a_1<37:41> PROG -  
+  _flat_a_1<37:41> PERF -  
+  interval_p_end<42:44> SF prop  
+  interval_p_end<42:44> TENSE past  
+  interval_p_end<42:44> MOOD indicative  
+  interval_p_end<42:44> PROG -  
+  interval_p_end<42:44> PERF -  
+  interval_p_start<42:44> SF prop  
+  interval_p_start<42:44> TENSE untensed  
+  interval_p_start<42:44> MOOD indicative  
+  interval_p_start<42:44> PROG -  
+  interval_p_start<42:44> PERF -  
+  loc_nonsp<42:44> SF prop  
+  loc_nonsp<42:44> TENSE untensed  
+  loc_nonsp<42:44> MOOD indicative  
+  loc_nonsp<42:44> PROG -  
+  loc_nonsp<42:44> PERF -  
+  _about_x_deg<45:50> SF prop  
+  _about_x_deg<45:50> TENSE untensed  
+  _about_x_deg<45:50> MOOD indicative  
+  _about_x_deg<45:50> PROG -  
+  _about_x_deg<45:50> PERF -  
+  measure<51:60> SF prop  
+  measure<51:60> TENSE untensed  
+  measure<51:60> MOOD indicative  
+  measure<51:60> PROG -  
+  measure<51:60> PERF -  
+  _point_n_of<55:60> PERS 3  
+  _point_n_of<55:60> NUM sg  
+  _point_n_of<55:60> IND +  
+  _low_a_1<61:67> SF prop  
+  _low_a_1<61:67> TENSE untensed  
+  _low_a_1<61:67> MOOD indicative  
+  _low_a_1<61:67> PROG -  
+  _low_a_1<61:67> PERF -  
+  comp<61:67> SF prop  
+  comp<61:67> TENSE untensed  
+  comp<61:67> MOOD indicative  
+  comp<61:67> PROG -  
+  comp<61:67> PERF -  
+}
+

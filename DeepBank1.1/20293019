@@ -1,0 +1,112 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:47 h)).
+;;;
+
+[20293019] (1 of 1) {1} `States are following suit.'
+
+[20293019:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "States", 0, "null", "NNPS" 0.8742 "NNS" 0.0786 "NNP" 0.0472)
+  (2, 1, 2, <7:10>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <11:20>, 1, "following", 0, "null", "VBG" 0.901 "JJ" 0.099)
+  (4, 3, 4, <21:25>, 1, "suit", 0, "null", "NN" 1.0)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:6>, 1, "States", 0, "null", "NNPS" 0.8742)
+  (65, 0, 1, <0:6>, 1, "states", 0, "null")
+  (69, 0, 1, <0:6>, 1, "states", 0, "null")
+  (54, 1, 2, <7:10>, 1, "are", 0, "null")
+  (63, 1, 2, <7:10>, 1, "are", 0, "null", "VBP" 1.0)
+  (66, 1, 2, <7:10>, 1, "are", 0, "null")
+  (58, 2, 3, <11:20>, 1, "following", 0, "null")
+  (62, 2, 3, <11:20>, 1, "following", 0, "null", "VBG" 0.901)
+  (68, 2, 3, <11:20>, 1, "following", 0, "null")
+  (56, 3, 4, <21:26>, 1, "suit.", 0, "null")
+  (64, 3, 4, <21:26>, 1, "suit.", 0, "null", "NN" 1.0)
+  (67, 3, 4, <21:26>, 1, "suit.", 0, "null")
+>
+
+(ROOT_STRICT
+ (824 SB-HD_MC_C 3.07229 0 4
+  (813 HDN_BNP_C 0.71755 0 1
+   (812 HDN_OPTCMP_C 0.435555 0 1
+    (811 N_PL_OLR 0.858479 0 1
+     (80 state_n1@n_pp_mc-of-lhc_le -0.094601 0 1
+      ("states" 65
+       "token [ +CARG \"States\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"states\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87422440000000001\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (823 ^HD-CMP_U_C 0.838835 1 4
+   (113 be_c_are@v_prd_are_le 1.27762 1 2
+    ("are" 54
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (822 HD-CMP_U_C -0.892942 2 4
+    (821 ^V_PRP_OLR 0.221462 2 3
+     (125 follow_v1_i@v_nb_idm_le 0.324244 2 3
+      ("following" 58
+       "token [ +CARG #1=\"following\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90102040000000005\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (817 HDN_BNP-SG-NOMOD_C -1.37685 3 4
+     (816 W_PERIOD_PLR -1.14761 3 4
+      (815 N_SG_ILR -1.0527 3 4
+       (148 suit_n1_i@n_-_c-br-idm_le 0 3 4
+        ("suit." 56
+         "token [ +CARG \"suit\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"suit.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "states"))))
+ (VP (V "are") (VP (V (V "following")) (NP (N (N (N "suit.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _state_n_of<0:6>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _follow_v_i<11:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ idiom_q_i<21:26>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _suit_n_i<21:26>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_state_n_of<0:6>{x PERS 3, NUM pl}[]
+ e3:_follow_v_i<11:20>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6, ARG2 x10]
+ _2:idiom_q_i<21:26>[BV x10]
+ x10:_suit_n_i<21:26>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:6> BV _state_n_of<0:6>  
+  _follow_v_i<11:20> ARG1 _state_n_of<0:6>  
+  _follow_v_i<11:20> ARG2 _suit_n_i<21:26>  
+  idiom_q_i<21:26> BV _suit_n_i<21:26>  
+  _state_n_of<0:6> PERS 3  
+  _state_n_of<0:6> NUM pl  
+  _follow_v_i<11:20> SF prop  
+  _follow_v_i<11:20> TENSE pres  
+  _follow_v_i<11:20> MOOD indicative  
+  _follow_v_i<11:20> PROG +  
+  _follow_v_i<11:20> PERF -  
+  _suit_n_i<21:26> PERS 3  
+  _suit_n_i<21:26> NUM sg  
+  _suit_n_i<21:26> IND +  
+}
+

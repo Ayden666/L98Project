@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj13e';
+;;; (wsun@wsun; 22-jan-2018 (22:51 h)).
+;;;
+
+[21397056] (1 of 1) {1} `That's hyperventilating.'
+
+[21397056:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.9694 "IN" 0.0205 "WDT" 0.0101)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "JJ" 0.4329 "NN" 0.2731 "NNS" 0.2682 "VBZ" 0.0213 "CD" 0.0044)
+  (3, 2, 3, <7:23>, 1, "hyperventilating", 0, "null", "NN" 1.0)
+  (4, 3, 4, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:4>, 1, "that", 0, "null")
+  (63, 0, 1, <0:4>, 1, "that", 0, "null")
+  (53, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (56, 1, 2, <4:6>, 1, "’s", 0, "null", "JJ" 0.4329)
+  (57, 1, 2, <4:6>, 1, "’s", 0, "null", "NN" 0.2731)
+  (58, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.2682)
+  (62, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (51, 2, 3, <7:24>, 1, "hyperventilating.", 0, "null")
+  (59, 2, 3, <7:24>, 1, "hyperventilating.", 0, "null", "NN" 1.0)
+  (61, 2, 3, <7:24>, 1, "hyperventilating.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (541 SB-HD_MC_C -1.76854 0 3
+  (536 HDN_BNP-QNT_C -0.199308 0 1
+   (535 HDN_OPTCMP_C -0.288082 0 1
+    (79 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 60
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96942390000000001\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (540 ^HD-CMP_U_C -2.83858 1 3
+   (105 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+    ("’s" 53
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.43294820000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (539 HDN_BNP_C -1.55741 2 3
+    (538 W_PERIOD_PLR -0.296163 2 3
+     (537 N_MS-CNT_ILR -0.497049 2 3
+      (362 generic_mass_count_noun@n_-_mc-unk_le 0 2 3
+       ("hyperventilating." 59
+        "token [ +CARG \"hyperventilating\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"hyperventilating.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED \"_hyperventilating/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (NP (N (N "that")))
+ (VP (V "’s") (NP (N (N (N "hyperventilating."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<7:24>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _hyperventilating/nn_u_unknown<7:24>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<7:24>[BV x9]
+ x9:_hyperventilating/nn_u_unknown<7:24>{x PERS 3, NUM sg}[]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  _be_v_id<4:6> ARG1 generic_entity<0:4>  
+  _be_v_id<4:6> ARG2 _hyperventilating/nn_u_unknown<7:24>  
+  udef_q<7:24> BV _hyperventilating/nn_u_unknown<7:24>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  _hyperventilating/nn_u_unknown<7:24> PERS 3  
+  _hyperventilating/nn_u_unknown<7:24> NUM sg  
+}
+

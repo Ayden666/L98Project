@@ -1,0 +1,189 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:04 h)).
+;;;
+
+[21208088] (1 of 1) {1} `Kellogg surged 4 1/4 to 75.'
+
+[21208088:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Kellogg", 0, "null", "NNP" 0.9822 "NN" 0.0178)
+  (2, 1, 2, <8:14>, 1, "surged", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <15:16>, 1, "4", 0, "null", "CD" 1.0)
+  (4, 3, 4, <17:20>, 1, "1/4", 0, "null", "CD" 1.0)
+  (5, 4, 5, <21:23>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <24:26>, 1, "75", 0, "null", "CD" 1.0)
+  (7, 6, 7, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:7>, 1, "Kellogg", 0, "null")
+  (74, 0, 1, <0:7>, 1, "kellogg", 0, "null")
+  (81, 0, 1, <0:7>, 1, "kellogg", 0, "null")
+  (69, 1, 2, <8:14>, 1, "surged", 0, "null")
+  (73, 1, 2, <8:14>, 1, "surged", 0, "null", "VBD" 1.0)
+  (80, 1, 2, <8:14>, 1, "surged", 0, "null")
+  (61, 2, 3, <15:16>, 1, "4", 0, "null")
+  (76, 2, 3, <15:16>, 1, "4", 0, "null")
+  (58, 3, 4, <17:20>, 1, "1/4", 0, "null")
+  (62, 3, 4, <17:20>, 1, "1/4", 0, "null")
+  (75, 3, 4, <17:20>, 1, "1/4", 0, "null")
+  (77, 3, 4, <17:20>, 1, "1/4", 0, "null")
+  (67, 4, 5, <21:23>, 1, "to", 0, "null")
+  (79, 4, 5, <21:23>, 1, "to", 0, "null")
+  (63, 5, 6, <24:27>, 1, "75.", 0, "null")
+  (78, 5, 6, <24:27>, 1, "75.", 0, "null")
+>
+
+(ROOT_STRICT
+ (900 SB-HD_MC_C 7.70228 0 6
+  (884 HDN_BNP-PN_C -1.0285 0 1
+   (883 N_SG_ILR -0.979548 0 1
+    (82 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Kellogg" 72
+      "token [ +CARG #1=\"Kellogg\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98223260000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (899 ^HD-AJ_INT-UNSL_C 8.24329 1 6
+   (894 ^HD-AJ_INT-UNSL_C 2.80859 1 4
+    (886 ^HD_OPTCMP_C 2.08592 1 2
+     (885 V_PST_OLR 0.595361 1 2
+      (96 surge_v1@v_pp*_dir_le 0 1 2
+       ("surged" 69
+        "token [ +CARG #1=\"surged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (893 NP_ADV-MNP_C -0.460418 2 4
+     (892 HDN_BNP-NUM_C 0.279118 2 4
+      (891 HDN_NP-NUM_C 0.690171 2 4
+       (890 XP_BRCK-PR_C -0.315935 2 4
+        (887 HD-CMP_U_C 0 2 4
+         (174 generic_card_np_ne@aj_np_i-crd-gen_le 0 2 3
+          ("4" 61
+           "token [ +CARG #1=\"4\" +CLASS card_ne +FORM #1 +FROM \"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+         (177 generic_fract_ne@aj_-_i-frct-gen_le 0 3 4
+          ("1/4" 62
+           "token [ +CARG #1=\"1/4\" +CLASS frct_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))
+   (898 HD-CMP_U_C 3.87632 4 6
+    (202 to@p_np_i-nnm_le -1.63041 4 5
+     ("to" 67
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (897 HDN_BNP-NUM_C 4.01481 5 6
+     (896 HDN_NP-NUM_C 3.49617 5 6
+      (895 W_PERIOD_PLR 2.19869 5 6
+       (257 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("75." 63
+         "token [ +CARG \"75\" +CLASS card_ne +FORM \"75.\" +FROM \"24\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (N "Kellogg")))
+ (VP
+  (VP (VP (V (V "surged")))
+   (PP (NP (N (ADJ (ADJ (ADJ "4") (ADJ "1/4")))))))
+  (PP (P "to") (NP (N (ADJ (ADJ "75.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Kellogg" ]
+          [ _surge_v_1<8:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<15:20>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<15:20>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ card<15:16>
+            LBL: h14
+            ARG0: x10
+            ARG1: i15
+            CARG: "4" ]
+          [ plus<15:16>
+            LBL: h16
+            ARG0: i18
+            ARG1: i15
+            ARG2: h14
+            ARG3: h17 ]
+          [ fraction<17:20>
+            LBL: h17
+            ARG0: i19
+            ARG1: i15
+            CARG: "1/4" ]
+          [ _to_p<21:23>
+            LBL: h2
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x21 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<24:27>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ card<24:27>
+            LBL: h25
+            ARG0: x21
+            ARG1: i26
+            CARG: "75" ] >
+   HCONS: < h23 QEQ h25 h12 QEQ h16 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Kellogg"){x PERS 3, NUM sg, IND +}[]
+ e3:_surge_v_1<8:14>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<15:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:number_q<15:20>[BV x10]
+ x10:card<15:16>("4"){x PERS 3, NUM sg}[]
+ i18:plus<15:16>{i}[ARG2 x10, ARG3 i19]
+ i19:fraction<17:20>("1/4"){i}[]
+ e20:_to_p<21:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x21]
+ _3:number_q<24:27>[BV x21]
+ x21:card<24:27>("75"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Kellogg)  
+  _surge_v_1<8:14> ARG1 named<0:7>(Kellogg)  
+  loc_nonsp<15:20> ARG1 _surge_v_1<8:14>  
+  loc_nonsp<15:20> ARG2 card<15:16>(4)  
+  number_q<15:20> BV card<15:16>(4)  
+  plus<15:16> ARG2 card<15:16>(4)  
+  plus<15:16> ARG3 fraction<17:20>(1/4)  
+  _to_p<21:23> ARG1 _surge_v_1<8:14>  
+  _to_p<21:23> ARG2 card<24:27>(75)  
+  number_q<24:27> BV card<24:27>(75)  
+  named<0:7>(Kellogg) PERS 3  
+  named<0:7>(Kellogg) NUM sg  
+  named<0:7>(Kellogg) IND +  
+  _surge_v_1<8:14> SF prop  
+  _surge_v_1<8:14> TENSE past  
+  _surge_v_1<8:14> MOOD indicative  
+  _surge_v_1<8:14> PROG -  
+  _surge_v_1<8:14> PERF -  
+  loc_nonsp<15:20> SF prop  
+  loc_nonsp<15:20> TENSE untensed  
+  loc_nonsp<15:20> MOOD indicative  
+  loc_nonsp<15:20> PROG -  
+  loc_nonsp<15:20> PERF -  
+  card<15:16>(4) PERS 3  
+  card<15:16>(4) NUM sg  
+  _to_p<21:23> SF prop  
+  _to_p<21:23> TENSE untensed  
+  _to_p<21:23> MOOD indicative  
+  _to_p<21:23> PROG -  
+  _to_p<21:23> PERF -  
+  card<24:27>(75) PERS 3  
+  card<24:27>(75) NUM sg  
+}
+

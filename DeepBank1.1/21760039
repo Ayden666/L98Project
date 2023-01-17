@@ -1,0 +1,146 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:30 h)).
+;;;
+
+[21760039] (1 of 1) {1} `The Orange Workers speak sincerely.'
+
+[21760039:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "Orange", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:18>, 1, "Workers", 0, "null", "NNPS" 0.8321 "NNS" 0.1078 "NNP" 0.0601)
+  (4, 3, 4, <19:24>, 1, "speak", 0, "null", "VBP" 0.92 "VB" 0.08)
+  (5, 4, 5, <25:34>, 1, "sincerely", 0, "null", "RB" 1.0)
+  (6, 5, 6, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (82, 0, 1, <0:3>, 1, "the", 0, "null")
+  (90, 0, 1, <0:3>, 1, "the", 0, "null")
+  (57, 1, 2, <4:10>, 1, "Orange", 0, "null")
+  (79, 1, 2, <4:10>, 1, "Orange", 0, "null", "NNP" 1.0)
+  (81, 1, 2, <4:10>, 1, "orange", 0, "null")
+  (84, 1, 2, <4:10>, 1, "orange", 0, "null")
+  (58, 2, 3, <11:18>, 1, "Workers", 0, "null")
+  (76, 2, 3, <11:18>, 1, "Workers", 0, "null", "NNPS" 0.8321)
+  (78, 2, 3, <11:18>, 1, "Workers", 0, "null", "NNS" 0.1078)
+  (83, 2, 3, <11:18>, 1, "workers", 0, "null")
+  (85, 2, 3, <11:18>, 1, "workers", 0, "null")
+  (73, 3, 4, <19:24>, 1, "speak", 0, "null")
+  (77, 3, 4, <19:24>, 1, "speak", 0, "null", "VBP" 0.92)
+  (87, 3, 4, <19:24>, 1, "speak", 0, "null")
+  (71, 4, 5, <25:35>, 1, "sincerely.", 0, "null")
+  (80, 4, 5, <25:35>, 1, "sincerely.", 0, "null", "RB" 1.0)
+  (86, 4, 5, <25:35>, 1, "sincerely.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1308 SB-HD_MC_C 4.16024 0 5
+  (1302 SP-HD_N_C 3.31709 0 3
+   (103 the_1@d_-_the_le -0.121681 0 1
+    ("the" 82
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1301 ^NP-HDN_NME-CPD_C 0.642073 1 3
+    (1299 HDN_BNP-PN_C 0.600065 1 2
+     (1298 N_SG_ILR -0.386912 1 2
+      (128 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Orange" 57
+        "token [ +CARG #1=\"Orange\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (1300 ^N_PL_OLR -0.124687 2 3
+     (132 generic_proper_ne@n_-_pn-gen_le 0 2 3
+      ("Workers" 58
+       "token [ +CARG #1=\"Workers\" +CLASS proper_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83211219999999997\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1307 ^HD-AJ_INT-UNSL_C -0.189047 3 5
+   (1305 ^HD_OPTCMP_C -1.30062 3 4
+    (1304 HD_OPTCMP_C -0.838353 3 4
+     (1303 V_N3S-BSE_ILR 0.179463 3 4
+      (161 speak_v3@v_pp*-pp*_le 0 3 4
+       ("speak" 73
+        "token [ +CARG #1=\"speak\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91999350000000002\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (1306 W_PERIOD_PLR 0.601349 4 5
+    (167 sincerely@av_-_i-vp_le 0 4 5
+     ("sincerely." 71
+      "token [ +CARG \"sincerely\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"sincerely.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "the") (N (NP (N (N "Orange"))) (N (N "Workers"))))
+ (VP (VP (V (V (V "speak")))) (ADV (ADV "sincerely."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<4:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<4:10>
+            LBL: h14
+            ARG0: x9
+            CARG: "Orange" ]
+          [ named<11:18>
+            LBL: h8
+            ARG0: x6
+            CARG: "Workers" ]
+          [ _speak_v_to<19:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _sincere_a_1<25:35>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<4:10>[BV x9]
+ x9:named<4:10>("Orange"){x PERS 3, NUM sg, IND +}[]
+ x6:named<11:18>("Workers"){x PERS 3, NUM pl, IND +}[]
+ e3:_speak_v_to<19:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_sincere_a_1<25:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _the_q<0:3> BV named<11:18>(Workers)  
+  compound<4:18> ARG1 named<11:18>(Workers)  
+  compound<4:18> ARG2 named<4:10>(Orange)  
+  proper_q<4:10> BV named<4:10>(Orange)  
+  _speak_v_to<19:24> ARG1 named<11:18>(Workers)  
+  _sincere_a_1<25:35> ARG1 _speak_v_to<19:24>  
+  compound<4:18> SF prop  
+  compound<4:18> TENSE untensed  
+  compound<4:18> MOOD indicative  
+  compound<4:18> PROG -  
+  compound<4:18> PERF -  
+  named<4:10>(Orange) PERS 3  
+  named<4:10>(Orange) NUM sg  
+  named<4:10>(Orange) IND +  
+  named<11:18>(Workers) PERS 3  
+  named<11:18>(Workers) NUM pl  
+  named<11:18>(Workers) IND +  
+  _speak_v_to<19:24> SF prop  
+  _speak_v_to<19:24> TENSE pres  
+  _speak_v_to<19:24> MOOD indicative  
+  _speak_v_to<19:24> PROG -  
+  _speak_v_to<19:24> PERF -  
+  _sincere_a_1<25:35> SF prop  
+  _sincere_a_1<25:35> TENSE untensed  
+  _sincere_a_1<25:35> MOOD indicative  
+  _sincere_a_1<25:35> PROG -  
+  _sincere_a_1<25:35> PERF -  
+}
+

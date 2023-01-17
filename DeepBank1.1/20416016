@@ -1,0 +1,193 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (13:50 h)).
+;;;
+
+[20416016] (1 of 1) {1} `Debt-Burdened Doctors Seek Financial Security'
+
+[20416016:6] (active)
+
+<
+  (1, 0, 1, <0:13>, 1, "Debt-Burdened", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <14:21>, 1, "Doctors", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <22:26>, 1, "Seek", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <27:36>, 1, "Financial", 0, "null", "NNP" 0.9731 "JJ" 0.0269)
+  (5, 4, 5, <37:45>, 1, "Security", 0, "null", "NNP" 0.978 "NN" 0.022)
+>
+
+<
+  (79, 0, 1, <0:13>, 1, "Debt-", 0, "null")
+  (88, 0, 1, <0:13>, 1, "debt-", 0, "null")
+  (96, 0, 1, <0:13>, 1, "debt-", 0, "null")
+  (62, 1, 2, <0:13>, 1, "Burdened", 0, "null")
+  (84, 1, 2, <0:13>, 1, "Burdened", 0, "null", "JJ" 1.0)
+  (87, 1, 2, <0:13>, 1, "burdened", 0, "null")
+  (95, 1, 2, <0:13>, 1, "burdened", 0, "null")
+  (61, 2, 3, <14:21>, 1, "Doctors", 0, "null")
+  (83, 2, 3, <14:21>, 1, "Doctors", 0, "null", "NNS" 1.0)
+  (86, 2, 3, <14:21>, 1, "doctors", 0, "null")
+  (94, 2, 3, <14:21>, 1, "doctors", 0, "null")
+  (58, 3, 4, <22:26>, 1, "Seek", 0, "null")
+  (82, 3, 4, <22:26>, 1, "Seek", 0, "null", "VBP" 1.0)
+  (85, 3, 4, <22:26>, 1, "seek", 0, "null")
+  (91, 3, 4, <22:26>, 1, "seek", 0, "null")
+  (59, 4, 5, <27:36>, 1, "Financial", 0, "null")
+  (80, 4, 5, <27:36>, 1, "Financial", 0, "null", "NNP" 0.9731)
+  (89, 4, 5, <27:36>, 1, "financial", 0, "null")
+  (92, 4, 5, <27:36>, 1, "financial", 0, "null")
+  (60, 5, 6, <37:45>, 1, "Security", 0, "null")
+  (81, 5, 6, <37:45>, 1, "Security", 0, "null", "NNP" 0.978)
+  (90, 5, 6, <37:45>, 1, "security", 0, "null")
+  (93, 5, 6, <37:45>, 1, "security", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (2821 SB-HD_MC_C 5.32083 0 6
+  (2812 HDN_BNP_C 3.08514 0 3
+   (2811 AJ-HDN_NORM_C 2.35064 0 3
+    (2759 XP_BRCK-PR_C 2.1726 0 2
+     (2758 N-V_J-CPD_C 1.87511 0 2
+      (2756 W_HYPHEN_PLR 1.29625 0 1
+       (104 debt_n1@n_-_mc_le 0 0 1
+        ("debt-" 88
+         "token [ +CARG \"Debt-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"debt-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (2757 ^V_PAS_ODLR -0.989083 1 2
+       (188 burden_v1@v_np_le 0 1 2
+        ("burdened" 87
+         "token [ +CARG \"Burdened\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"burdened\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (2810 ^N_PL_OLR -0.0188574 2 3
+     (245 doctor_n1@n_-_c_le 0 2 3
+      ("doctors" 86
+       "token [ +CARG \"Doctors\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"doctors\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2820 ^HD-CMP_U_C 0.71978 3 6
+   (2813 ^V_N3S-BSE_ILR -0.329965 3 4
+    (261 seek_v1@v_np_le 0 3 4
+     ("seek" 85
+      "token [ +CARG \"Seek\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"seek\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2819 HDN_BNP_C -0.0080728 4 6
+    (2818 AJ-HDN_NORM_C -0.272878 4 6
+     (269 financial_a1@aj_-_i_le -1.24055 4 5
+      ("financial" 89
+       "token [ +CARG \"Financial\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"financial\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97309610000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2817 ^N_MS-CNT_ILR -0.509365 5 6
+      (272 security_n1@n_-_mc_le -0.428125 5 6
+       ("security" 90
+        "token [ +CARG \"Security\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"security\" +FROM #1=\"37\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97802840000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (AP (AP (N (N "debt-")) (V (V "burdened")))) (N (N "doctors"))))
+ (VP (V (V "seek")) (NP (N (AP "financial") (N (N "security"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:21>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x10 ]
+          [ udef_q<0:13>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _debt_n_1<0:13>
+            LBL: h15
+            ARG0: x10 ]
+          [ _burden_v_1<0:13>
+            LBL: h8
+            ARG0: e9
+            ARG1: i16
+            ARG2: x6 ]
+          [ parg_d<0:13>
+            LBL: h8
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: x6 ]
+          [ _doctor_n_1<14:21>
+            LBL: h8
+            ARG0: x6 ]
+          [ _seek_v_1<22:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x18 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<27:45>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ _financial_a_1<27:36>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18 ]
+          [ _security_n_1<37:45>
+            LBL: h22
+            ARG0: x18 ] >
+   HCONS: < h20 QEQ h22 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:21>[BV x6]
+ e11:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x10]
+ _2:udef_q<0:13>[BV x10]
+ x10:_debt_n_1<0:13>{x}[]
+ e9:_burden_v_1<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e17:parg_d<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x6]
+ x6:_doctor_n_1<14:21>{x PERS 3, NUM pl, IND +}[]
+ e3:_seek_v_1<22:26>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x18]
+ _3:udef_q<27:45>[BV x18]
+ e23:_financial_a_1<27:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18]
+ x18:_security_n_1<37:45>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:21> BV _doctor_n_1<14:21>  
+  compound<0:13> ARG1 _burden_v_1<0:13>  
+  compound<0:13> ARG2 _debt_n_1<0:13>  
+  udef_q<0:13> BV _debt_n_1<0:13>  
+  _burden_v_1<0:13> ARG2 _doctor_n_1<14:21>  
+  parg_d<0:13> ARG1 _burden_v_1<0:13>  
+  parg_d<0:13> ARG2 _doctor_n_1<14:21>  
+  _seek_v_1<22:26> ARG1 _doctor_n_1<14:21>  
+  _seek_v_1<22:26> ARG2 _security_n_1<37:45>  
+  udef_q<27:45> BV _security_n_1<37:45>  
+  _financial_a_1<27:36> ARG1 _security_n_1<37:45>  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _burden_v_1<0:13> SF prop  
+  _burden_v_1<0:13> TENSE untensed  
+  _burden_v_1<0:13> MOOD indicative  
+  _burden_v_1<0:13> PROG -  
+  _burden_v_1<0:13> PERF -  
+  parg_d<0:13> SF prop  
+  parg_d<0:13> TENSE untensed  
+  parg_d<0:13> MOOD indicative  
+  parg_d<0:13> PROG -  
+  parg_d<0:13> PERF -  
+  _doctor_n_1<14:21> PERS 3  
+  _doctor_n_1<14:21> NUM pl  
+  _doctor_n_1<14:21> IND +  
+  _seek_v_1<22:26> SF prop  
+  _seek_v_1<22:26> TENSE pres  
+  _seek_v_1<22:26> MOOD indicative  
+  _seek_v_1<22:26> PROG -  
+  _seek_v_1<22:26> PERF -  
+  _financial_a_1<27:36> SF prop  
+  _financial_a_1<27:36> TENSE untensed  
+  _financial_a_1<27:36> MOOD indicative  
+  _financial_a_1<27:36> PROG -  
+  _financial_a_1<27:36> PERF -  
+  _security_n_1<37:45> PERS 3  
+  _security_n_1<37:45> NUM sg  
+}
+

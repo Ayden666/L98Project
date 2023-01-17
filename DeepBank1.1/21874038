@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:40 h)).
+;;;
+
+[21874038] (1 of 1) {1} `Treasury Securities'
+
+[21874038:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Treasury", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:19>, 1, "Securities", 0, "null", "NNP" 0.6835 "NNPS" 0.3065 "NNS" 0.01)
+>
+
+<
+  (29, 0, 1, <0:8>, 1, "Treasury", 0, "null")
+  (32, 0, 1, <0:8>, 1, "treasury", 0, "null")
+  (35, 0, 1, <0:8>, 1, "treasury", 0, "null")
+  (20, 1, 2, <9:19>, 1, "Securities", 0, "null")
+  (30, 1, 2, <9:19>, 1, "Securities", 0, "null", "NNP" 0.6835)
+  (31, 1, 2, <9:19>, 1, "Securities", 0, "null", "NNPS" 0.3065)
+  (33, 1, 2, <9:19>, 1, "securities", 0, "null")
+  (34, 1, 2, <9:19>, 1, "securities", 0, "null")
+>
+
+(ROOT_FRAG
+ (204 NP_FRG_C 0.687101 0 2
+  (203 HDN_BNP-PN_C 1.83361 0 2
+   (202 NP-HDN_NME-CPD_C 1.87292 0 2
+    (200 HDN_BNP-PN_C 1.44454 0 1
+     (199 N_SG_ILR 0.692103 0 1
+      (37 generic_proper_ne@n_-_pn-gen_le 1.07902 0 1
+       ("Treasury" 29
+        "token [ +CARG #1=\"Treasury\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (201 ^N_SG_ILR 0.0937875 1 2
+     (41 generic_proper_ne@n_-_pn-gen_le 0.237045 1 2
+      ("Securities" 20
+       "token [ +CARG #1=\"Securities\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68345400000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "Treasury"))) (N (N "Securities")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:19>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Treasury" ]
+          [ named<9:19>
+            LBL: h8
+            ARG0: x4
+            CARG: "Securities" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:19>[BV x4]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Treasury"){x PERS 3, NUM sg, IND +}[]
+ x4:named<9:19>("Securities"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:19> ARG named<9:19>(Securities)  
+  proper_q<0:19> BV named<9:19>(Securities)  
+  compound<0:19> ARG1 named<9:19>(Securities)  
+  compound<0:19> ARG2 named<0:8>(Treasury)  
+  proper_q<0:8> BV named<0:8>(Treasury)  
+  unknown<0:19> SF prop-or-ques  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  named<0:8>(Treasury) PERS 3  
+  named<0:8>(Treasury) NUM sg  
+  named<0:8>(Treasury) IND +  
+  named<9:19>(Securities) PERS 3  
+  named<9:19>(Securities) NUM sg  
+  named<9:19>(Securities) IND +  
+}
+

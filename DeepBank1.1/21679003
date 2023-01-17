@@ -1,0 +1,184 @@
+;;;
+;;; Redwoods export of `wsj16e';
+;;; (wsun@wsun; 23-jan-2018 (01:45 h)).
+;;;
+
+[21679003] (1 of 1) {1} `Goldman, Sachs & Co. was the underwriter.'
+
+[21679003:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Goldman", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:8>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <9:14>, 1, "Sachs", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:16>, 1, "&", 0, "null", "CC" 1.0)
+  (5, 4, 5, <17:20>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <21:24>, 1, "was", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <25:28>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <29:40>, 1, "underwriter", 0, "null", "NN" 1.0)
+  (9, 8, 9, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (102, 0, 1, <0:8>, 1, "Goldman,", 0, "null")
+  (109, 0, 1, <0:8>, 1, "goldman,", 0, "null")
+  (116, 0, 1, <0:8>, 1, "goldman,", 0, "null")
+  (84, 1, 2, <9:14>, 1, "Sachs", 0, "null")
+  (103, 1, 2, <9:14>, 1, "Sachs", 0, "null", "NNP" 1.0)
+  (107, 1, 2, <9:14>, 1, "sachs", 0, "null")
+  (110, 1, 2, <9:14>, 1, "sachs", 0, "null")
+  (97, 2, 3, <15:16>, 1, "&", 0, "null")
+  (114, 2, 3, <15:16>, 1, "&", 0, "null")
+  (85, 3, 4, <17:20>, 1, "Co.", 0, "null")
+  (104, 3, 4, <17:20>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (108, 3, 4, <17:20>, 1, "co.", 0, "null")
+  (111, 3, 4, <17:20>, 1, "co.", 0, "null")
+  (93, 4, 5, <21:24>, 1, "was", 0, "null")
+  (105, 4, 5, <21:24>, 1, "was", 0, "null", "VBD" 1.0)
+  (112, 4, 5, <21:24>, 1, "was", 0, "null")
+  (95, 5, 6, <25:28>, 1, "the", 0, "null")
+  (113, 5, 6, <25:28>, 1, "the", 0, "null")
+  (101, 6, 7, <29:41>, 1, "underwriter.", 0, "null")
+  (106, 6, 7, <29:41>, 1, "underwriter.", 0, "null", "NN" 1.0)
+  (115, 6, 7, <29:41>, 1, "underwriter.", 0, "null")
+>
+
+(ROOT_STRICT
+ (973 SB-HD_MC_C 8.68253 0 7
+  (972 HDN_BNP-PN_C 3.51121 0 4
+   (971 HDN-AJ_REDREL_C 2.87379 0 4
+    (963 ^NP-HDN_CTY-CPD_C 2.07457 0 2
+     (961 HDN_BNP-PN_C 1.21538 0 1
+      (960 W_COMMA_PLR -0.118892 0 1
+       (959 N_SG_ILR -0.461604 0 1
+        (119 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Goldman," 102
+          "token [ +CARG \"Goldman\" +CLASS proper_ne +FORM \"Goldman,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+     (962 ^N_SG_ILR -0.59625 1 2
+      (130 generic_proper_ne@n_-_pn-gen_le -0.00591155 1 2
+       ("Sachs" 84
+        "token [ +CARG #1=\"Sachs\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (246 and_co_post_ttl_2@n_-_tt-post-npt_le -0.169804 2 4
+     ("& co." 97
+      "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      108
+      "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (970 ^HD-CMP_U_C 4.15427 4 7
+   (179 be_id_was@v_np_was_le 0.510521 4 5
+    ("was" 93
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (969 SP-HD_N_C 2.7755 5 7
+    (207 the_1@d_-_the_le 1.07131 5 6
+     ("the" 95
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (968 ^W_PERIOD_PLR 0.933196 6 7
+     (967 N_SG_ILR 0.432921 6 7
+      (233 underwriter_n1@n_-_c_le 0 6 7
+       ("underwriter." 101
+        "token [ +CARG \"underwriter\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"underwriter.\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (NP (N (N (N "Goldman,")))) (N (N "Sachs"))) (N "& co.")))
+ (VP (V "was") (NP (DET "the") (N (N (N "underwriter."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Goldman" ]
+          [ named<9:14>
+            LBL: h8
+            ARG0: x6
+            CARG: "Sachs" ]
+          [ _and+company_n_1<15:20>
+            LBL: h15
+            ARG0: x16 [ x IND: + ] ]
+          [ udef_q<15:20>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ compound<15:20>
+            LBL: h8
+            ARG0: i20
+            ARG1: x6
+            ARG2: x16 ]
+          [ _be_v_id<21:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<25:28>
+            LBL: h22
+            ARG0: x21
+            RSTR: h24
+            BODY: h23 ]
+          [ _underwriter_n_1<29:41>
+            LBL: h25
+            ARG0: x21 ] >
+   HCONS: < h24 QEQ h25 h18 QEQ h15 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:20>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Goldman"){x PERS 3, NUM sg, IND +}[]
+ x6:named<9:14>("Sachs"){x PERS 3, NUM sg, IND +}[]
+ x16:_and+company_n_1<15:20>{x IND +}[]
+ _3:udef_q<15:20>[BV x16]
+ i20:compound<15:20>{i}[ARG1 x6, ARG2 x16]
+ e3:_be_v_id<21:24>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x21]
+ _4:_the_q<25:28>[BV x21]
+ x21:_underwriter_n_1<29:41>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:20> BV named<9:14>(Sachs)  
+  compound<0:14> ARG1 named<9:14>(Sachs)  
+  compound<0:14> ARG2 named<0:8>(Goldman)  
+  proper_q<0:8> BV named<0:8>(Goldman)  
+  udef_q<15:20> BV _and+company_n_1<15:20>  
+  compound<15:20> ARG1 named<9:14>(Sachs)  
+  compound<15:20> ARG2 _and+company_n_1<15:20>  
+  _be_v_id<21:24> ARG1 named<9:14>(Sachs)  
+  _be_v_id<21:24> ARG2 _underwriter_n_1<29:41>  
+  _the_q<25:28> BV _underwriter_n_1<29:41>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  named<0:8>(Goldman) PERS 3  
+  named<0:8>(Goldman) NUM sg  
+  named<0:8>(Goldman) IND +  
+  named<9:14>(Sachs) PERS 3  
+  named<9:14>(Sachs) NUM sg  
+  named<9:14>(Sachs) IND +  
+  _and+company_n_1<15:20> IND +  
+  _be_v_id<21:24> SF prop  
+  _be_v_id<21:24> TENSE past  
+  _be_v_id<21:24> MOOD indicative  
+  _be_v_id<21:24> PROG -  
+  _be_v_id<21:24> PERF -  
+  _underwriter_n_1<29:41> PERS 3  
+  _underwriter_n_1<29:41> NUM sg  
+  _underwriter_n_1<29:41> IND +  
+}
+

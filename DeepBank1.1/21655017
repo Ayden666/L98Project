@@ -1,0 +1,83 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:32 h)).
+;;;
+
+[21655017] (1 of 1) {1} `"Oh, yes.'
+
+[21655017:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "Oh", 0, "null", "UH" 1.0)
+  (3, 2, 3, <3:4>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <5:8>, 1, "yes", 0, "null", "UH" 1.0)
+  (5, 4, 5, <8:9>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:4>, 1, "“oh,", 0, "null")
+  (55, 0, 1, <0:4>, 1, "“oh,", 0, "null")
+  (52, 1, 2, <5:9>, 1, "yes.", 0, "null")
+  (54, 1, 2, <5:9>, 1, "yes.", 0, "null")
+>
+
+(ROOT_FRAG
+ (214 AJ-HD_SCP_C 1.7599 0 2
+  (208 W_DQLEFT_PLR 1.7599 0 1
+   (207 W_COMMA_PLR 1.089 0 1
+    (58 oh_root_pre@av_-_s-cp-mc-pr_le 0 0 1
+     ("“oh," 53
+      "token [ +CARG \"Oh\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“oh,\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (213 ^R_SCP-FRG_C 0 1 2
+   (212 W_PERIOD_PLR 0 1 2
+    (79 yes_pre_root@av_-_s-cp-mc-pr_le 0 1 2
+     ("yes." 52
+      "token [ +CARG \"yes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"yes.\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (ADV (ADV (ADV "“oh,"))) (XP (ADV (ADV "yes."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _oh_a_1<0:4>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ unknown<5:9>
+            LBL: h6
+            ARG0: e3
+            ARG: u7 ]
+          [ _yes_a_1<5:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ] >
+   HCONS: < h9 QEQ h6 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e5:
+ e5:_oh_a_1<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e10]
+ e3:unknown<5:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e10:_yes_a_1<5:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _oh_a_1<0:4> ARG1 _yes_a_1<5:9>  
+  _yes_a_1<5:9> ARG1 unknown<5:9>  
+  _oh_a_1<0:4> SF prop  
+  _oh_a_1<0:4> TENSE untensed  
+  _oh_a_1<0:4> MOOD indicative  
+  _oh_a_1<0:4> PROG -  
+  _oh_a_1<0:4> PERF -  
+  unknown<5:9> SF prop  
+  unknown<5:9> TENSE untensed  
+  unknown<5:9> MOOD indicative  
+  unknown<5:9> PROG -  
+  unknown<5:9> PERF -  
+  _yes_a_1<5:9> SF prop  
+  _yes_a_1<5:9> TENSE untensed  
+  _yes_a_1<5:9> MOOD indicative  
+  _yes_a_1<5:9> PROG -  
+  _yes_a_1<5:9> PERF -  
+}
+

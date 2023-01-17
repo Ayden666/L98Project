@@ -1,0 +1,188 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:03 h)).
+;;;
+
+[21208025] (1 of 1) {1} `Shearson Lehman Hutton declined to comment.'
+
+[21208025:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Shearson", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:15>, 1, "Lehman", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <16:22>, 1, "Hutton", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <23:31>, 1, "declined", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <32:34>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <35:42>, 1, "comment", 0, "null", "VB" 0.9642 "NN" 0.0358)
+  (7, 6, 7, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:8>, 1, "Shearson", 0, "null")
+  (90, 0, 1, <0:8>, 1, "shearson", 0, "null")
+  (96, 0, 1, <0:8>, 1, "shearson", 0, "null")
+  (66, 1, 2, <9:15>, 1, "Lehman", 0, "null")
+  (85, 1, 2, <9:15>, 1, "Lehman", 0, "null", "NNP" 1.0)
+  (88, 1, 2, <9:15>, 1, "lehman", 0, "null")
+  (91, 1, 2, <9:15>, 1, "lehman", 0, "null")
+  (67, 2, 3, <16:22>, 1, "Hutton", 0, "null")
+  (86, 2, 3, <16:22>, 1, "Hutton", 0, "null", "NNP" 1.0)
+  (89, 2, 3, <16:22>, 1, "hutton", 0, "null")
+  (92, 2, 3, <16:22>, 1, "hutton", 0, "null")
+  (78, 3, 4, <23:31>, 1, "declined", 0, "null")
+  (87, 3, 4, <23:31>, 1, "declined", 0, "null", "VBD" 1.0)
+  (93, 3, 4, <23:31>, 1, "declined", 0, "null")
+  (80, 4, 5, <32:34>, 1, "to", 0, "null")
+  (94, 4, 5, <32:34>, 1, "to", 0, "null")
+  (81, 5, 6, <35:43>, 1, "comment.", 0, "null")
+  (84, 5, 6, <35:43>, 1, "comment.", 0, "null", "VB" 0.9642)
+  (95, 5, 6, <35:43>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1332 SB-HD_MC_C 11.4076 0 6
+  (1326 HDN_BNP-PN_C 4.28223 0 3
+   (1325 NP-HDN_NME-CPD_C 3.74252 0 3
+    (1323 HDN_BNP-PN_C 2.64941 0 2
+     (1322 NP-HDN_NME-CPD_C 2.3015 0 2
+      (1320 HDN_BNP-PN_C 0.532472 0 1
+       (1319 N_SG_ILR -0.219963 0 1
+        (99 generic_proper_ne@n_-_pn-gen_le 0.166949 0 1
+         ("Shearson" 83
+          "token [ +CARG #1=\"Shearson\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1321 ^N_SG_ILR 0.253131 1 2
+       (100 generic_proper_ne@n_-_pn-gen_le 0.396388 1 2
+        ("Lehman" 66
+         "token [ +CARG #1=\"Lehman\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (1324 ^N_SG_ILR -0.224474 2 3
+     (102 generic_proper_ne@n_-_pn-gen_le 0 2 3
+      ("Hutton" 67
+       "token [ +CARG #1=\"Hutton\" +CLASS proper_ne +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1331 ^HD-CMP_U_C 6.10833 3 6
+   (1327 ^V_PST_OLR 2.50099 3 4
+    (119 decline_v2@v_vp_seq_le 1.27984 3 4
+     ("declined" 78
+      "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1330 HD-CMP_U_C 2.69111 4 6
+    (229 to_c_prop@cm_vp_to_le 2.48409 4 5
+     ("to" 80
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1329 W_PERIOD_PLR -0.468337 5 6
+     (1328 V_N3S-BSE_ILR -0.466301 5 6
+      (284 comment_v2@v_-_le 0.214297 5 6
+       ("comment." 81
+        "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"35\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96420229999999996\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (NP (N (NP (N (N "Shearson"))) (N (N "Lehman"))))
+   (N (N "Hutton"))))
+ (VP (V (V "declined")) (VP (COMP "to") (VP (VP (V "comment."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:22>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:15>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:8>
+            LBL: h20
+            ARG0: x15
+            CARG: "Shearson" ]
+          [ named<9:15>
+            LBL: h14
+            ARG0: x9
+            CARG: "Lehman" ]
+          [ named<16:22>
+            LBL: h8
+            ARG0: x6
+            CARG: "Hutton" ]
+          [ _decline_v_1<23:31>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h21 ]
+          [ _comment_v_on<35:43>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h21 QEQ h22 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:22>[BV x6]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:15>[BV x9]
+ e16:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:8>[BV x15]
+ x15:named<0:8>("Shearson"){x PERS 3, NUM sg, IND +}[]
+ x9:named<9:15>("Lehman"){x PERS 3, NUM sg, IND +}[]
+ x6:named<16:22>("Hutton"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<23:31>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e23]
+ e23:_comment_v_on<35:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:22> BV named<16:22>(Hutton)  
+  compound<0:22> ARG1 named<16:22>(Hutton)  
+  compound<0:22> ARG2 named<9:15>(Lehman)  
+  proper_q<0:15> BV named<9:15>(Lehman)  
+  compound<0:15> ARG1 named<9:15>(Lehman)  
+  compound<0:15> ARG2 named<0:8>(Shearson)  
+  proper_q<0:8> BV named<0:8>(Shearson)  
+  _decline_v_1<23:31> ARG1 named<16:22>(Hutton)  
+  _decline_v_1<23:31> ARG2 _comment_v_on<35:43>  
+  _comment_v_on<35:43> ARG1 named<16:22>(Hutton)  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  named<0:8>(Shearson) PERS 3  
+  named<0:8>(Shearson) NUM sg  
+  named<0:8>(Shearson) IND +  
+  named<9:15>(Lehman) PERS 3  
+  named<9:15>(Lehman) NUM sg  
+  named<9:15>(Lehman) IND +  
+  named<16:22>(Hutton) PERS 3  
+  named<16:22>(Hutton) NUM sg  
+  named<16:22>(Hutton) IND +  
+  _decline_v_1<23:31> SF prop  
+  _decline_v_1<23:31> TENSE past  
+  _decline_v_1<23:31> MOOD indicative  
+  _decline_v_1<23:31> PROG -  
+  _decline_v_1<23:31> PERF -  
+  _comment_v_on<35:43> SF prop  
+  _comment_v_on<35:43> TENSE untensed  
+  _comment_v_on<35:43> MOOD indicative  
+  _comment_v_on<35:43> PROG -  
+  _comment_v_on<35:43> PERF -  
+}
+

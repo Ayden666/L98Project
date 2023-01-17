@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:37 h)).
+;;;
+
+[21052044] (1 of 1) {1} `Now, apparently, they do.'
+
+[21052044:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Now", 0, "null", "RB" 1.0)
+  (2, 1, 2, <3:4>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <5:15>, 1, "apparently", 0, "null", "RB" 1.0)
+  (4, 3, 4, <15:16>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <17:21>, 1, "they", 0, "null", "PRP" 1.0)
+  (6, 5, 6, <22:24>, 1, "do", 0, "null", "VBP" 0.982 "VB" 0.018)
+  (7, 6, 7, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (78, 0, 1, <0:4>, 1, "Now,", 0, "null", "RB" 1.0)
+  (80, 0, 1, <0:4>, 1, "now,", 0, "null")
+  (84, 0, 1, <0:4>, 1, "now,", 0, "null")
+  (74, 1, 2, <5:16>, 1, "apparently,", 0, "null")
+  (79, 1, 2, <5:16>, 1, "apparently,", 0, "null", "RB" 1.0)
+  (82, 1, 2, <5:16>, 1, "apparently,", 0, "null")
+  (70, 2, 3, <17:21>, 1, "they", 0, "null")
+  (81, 2, 3, <17:21>, 1, "they", 0, "null")
+  (75, 3, 4, <22:25>, 1, "do.", 0, "null")
+  (77, 3, 4, <22:25>, 1, "do.", 0, "null", "VBP" 0.982)
+  (83, 3, 4, <22:25>, 1, "do.", 0, "null")
+>
+
+(ROOT_STRICT
+ (492 AJ-HD_SCP_C 7.74943 0 4
+  (485 W_COMMA_PLR 2.84173 0 1
+   (95 now_disc_pre@av_-_s-cp-mc-pr_le -0.0168496 0 1
+    ("now," 80
+     "token [ +CARG \"Now\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"now,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (491 ^AJ-HD_SCP_C 4.28679 1 4
+   (486 W_COMMA_PLR 1.16243 1 2
+    (109 apparently_adv2@av_-_s-cp-pr_le 0 1 2
+     ("apparently," 74
+      "token [ +CARG \"apparently\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"apparently,\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (490 ^SB-HD_MC_C 2.39265 2 4
+    (487 HDN_BNP-QNT_C 1.59936 2 3
+     (125 they@n_-_pr-they_le 0.818341 2 3
+      ("they" 70
+       "token [ +CARG #1=\"they\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (489 ^W_PERIOD_PLR 0.039834 3 4
+     (488 V_AUX-ELL-REF_DLR 0.442554 3 4
+      (142 do1_pos@v_vp_do-f_le 0 3 4
+       ("do." 75
+        "token [ +CARG \"do\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"do.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98200019999999999\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (ADV (ADV "now,"))
+ (S (ADV (ADV "apparently,")) (S (NP (NP "they")) (VP (VP (V "do."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _now_a_1<0:4>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ _apparent_a_1<5:16>
+            LBL: h6
+            ARG0: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h7 ]
+          [ pron<17:21>
+            LBL: h9
+            ARG0: x10 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<17:21>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ ellipsis_ref<22:25>
+            LBL: h14
+            ARG0: e3
+            ARG1: x10 ] >
+   HCONS: < h12 QEQ h9 h7 QEQ h14 h4 QEQ h6 h1 QEQ h2 > ]
+
+{e5:
+ e5:_now_a_1<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e8]
+ e8:_apparent_a_1<5:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ x10:pron<17:21>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<17:21>[BV x10]
+ e3:ellipsis_ref<22:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+}
+
+{
+  _now_a_1<0:4> ARG1 _apparent_a_1<5:16>  
+  _apparent_a_1<5:16> ARG1 ellipsis_ref<22:25>  
+  pronoun_q<17:21> BV pron<17:21>  
+  ellipsis_ref<22:25> ARG1 pron<17:21>  
+  _now_a_1<0:4> SF prop  
+  _now_a_1<0:4> TENSE untensed  
+  _now_a_1<0:4> MOOD indicative  
+  _now_a_1<0:4> PROG -  
+  _now_a_1<0:4> PERF -  
+  _apparent_a_1<5:16> SF prop  
+  _apparent_a_1<5:16> TENSE untensed  
+  _apparent_a_1<5:16> MOOD indicative  
+  _apparent_a_1<5:16> PROG -  
+  _apparent_a_1<5:16> PERF -  
+  pron<17:21> PERS 3  
+  pron<17:21> NUM pl  
+  pron<17:21> PT std  
+  ellipsis_ref<22:25> SF prop  
+  ellipsis_ref<22:25> TENSE pres  
+  ellipsis_ref<22:25> MOOD indicative  
+  ellipsis_ref<22:25> PROG -  
+  ellipsis_ref<22:25> PERF -  
+}
+

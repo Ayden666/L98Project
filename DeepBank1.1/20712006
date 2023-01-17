@@ -1,0 +1,191 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:50 h)).
+;;;
+
+[20712006] (1 of 1) {1} `Prices fell marginally for fuel and electricity.'
+
+[20712006:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Prices", 0, "null", "NNS" 0.9259 "NNP" 0.0741)
+  (2, 1, 2, <7:11>, 1, "fell", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <12:22>, 1, "marginally", 0, "null", "RB" 1.0)
+  (4, 3, 4, <23:26>, 1, "for", 0, "null", "IN" 1.0)
+  (5, 4, 5, <27:31>, 1, "fuel", 0, "null", "NN" 1.0)
+  (6, 5, 6, <32:35>, 1, "and", 0, "null", "CC" 1.0)
+  (7, 6, 7, <36:47>, 1, "electricity", 0, "null", "NN" 1.0)
+  (8, 7, 8, <47:48>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (90, 0, 1, <0:6>, 1, "Prices", 0, "null", "NNS" 0.9259)
+  (95, 0, 1, <0:6>, 1, "prices", 0, "null")
+  (102, 0, 1, <0:6>, 1, "prices", 0, "null")
+  (77, 1, 2, <7:11>, 1, "fell", 0, "null")
+  (91, 1, 2, <7:11>, 1, "fell", 0, "null", "VBD" 1.0)
+  (96, 1, 2, <7:11>, 1, "fell", 0, "null")
+  (79, 2, 3, <12:22>, 1, "marginally", 0, "null")
+  (92, 2, 3, <12:22>, 1, "marginally", 0, "null", "RB" 1.0)
+  (97, 2, 3, <12:22>, 1, "marginally", 0, "null")
+  (81, 3, 4, <23:26>, 1, "for", 0, "null")
+  (98, 3, 4, <23:26>, 1, "for", 0, "null")
+  (83, 4, 5, <27:31>, 1, "fuel", 0, "null")
+  (93, 4, 5, <27:31>, 1, "fuel", 0, "null", "NN" 1.0)
+  (99, 4, 5, <27:31>, 1, "fuel", 0, "null")
+  (85, 5, 6, <32:35>, 1, "and", 0, "null")
+  (100, 5, 6, <32:35>, 1, "and", 0, "null")
+  (87, 6, 7, <36:48>, 1, "electricity.", 0, "null")
+  (94, 6, 7, <36:48>, 1, "electricity.", 0, "null", "NN" 1.0)
+  (101, 6, 7, <36:48>, 1, "electricity.", 0, "null")
+>
+
+(ROOT_STRICT
+ (589 SB-HD_MC_C 6.66124 0 7
+  (576 HDN_BNP_C 0.567282 0 1
+   (575 N_PL_OLR 1.14329 0 1
+    (108 price_n1@n_-_mc-ed_le 0.13625 0 1
+     ("prices" 95
+      "token [ +CARG \"Prices\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"prices\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92587169999999996\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (588 ^HD-AJ_INT-UNSL_C 5.25385 1 7
+   (579 ^HD-AJ_INT-UNSL_C 3.55714 1 3
+    (578 ^HD_OPTCMP_C 3.79136 1 2
+     (577 V_PST_OLR 2.3008 1 2
+      (126 fall_v1@v_pp_unacc_le 0.574647 1 2
+       ("fell" 77
+        "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (134 generic_adverb@av_-_i-unk_le 0 2 3
+     ("marginally" 92
+      "token [ +CARG #1=\"marginally\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_marginally/RB_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"RB\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+   (587 HD-CMP_U_C 0.138338 3 7
+    (139 for@p_np_i_le -0.354773 3 4
+     ("for" 81
+      "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (586 NP-NP_CRD-T_C -0.0804438 4 7
+     (581 HDN_BNP_C -0.599208 4 5
+      (580 N_MS-CNT_ILR -0.14807 4 5
+       (153 fuel_n@n_-_mc_le 0 4 5
+        ("fuel" 83
+         "token [ +CARG #1=\"fuel\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (585 ^MRK-NH_NOM_C -0.961622 5 7
+      (159 and_conj@c_xp_and_le -0.868281 5 6
+       ("and" 85
+        "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (584 HDN_BNP_C -0.0520712 6 7
+       (583 W_PERIOD_PLR 0.451632 6 7
+        (582 N_MS_ILR -0.150183 6 7
+         (175 electricity_n1@n_-_m_le 0 6 7
+          ("electricity." 87
+           "token [ +CARG \"electricity\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"electricity.\" +FROM #1=\"36\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "prices")))
+ (VP (VP (VP (V (V "fell"))) (ADV "marginally"))
+  (PP (P "for")
+   (NP (NP (N (N "fuel")))
+    (NP-CJ (CONJ "and") (NP (N (N (N "electricity.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _price_n_of<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _fall_v_1<7:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _marginally/rb_u_unknown<12:22>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _for_p<23:26>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x11 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<27:48>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ udef_q<27:31>
+            LBL: h15
+            ARG0: x17 [ x PERS: 3 NUM: SG ]
+            RSTR: h16
+            BODY: h18 ]
+          [ _fuel_n_1<27:31>
+            LBL: h19
+            ARG0: x17 ]
+          [ _and_c<32:35>
+            LBL: h20
+            ARG0: x11
+            L-INDEX: x17
+            R-INDEX: x21 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<36:48>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ _electricity_n_1<36:48>
+            LBL: h25
+            ARG0: x21 ] >
+   HCONS: < h23 QEQ h25 h16 QEQ h19 h13 QEQ h20 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_price_n_of<0:6>{x PERS 3, NUM pl}[]
+ e3:_fall_v_1-fn.Change_position_on_a_scale<7:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:_marginally/rb_u_unknown<12:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e10:_for_p<23:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x11]
+ _2:udef_q<27:48>[BV x11]
+ _3:udef_q<27:31>[BV x17]
+ x17:_fuel_n_1<27:31>{x PERS 3, NUM sg}[]
+ x11:_and_c<32:35>{x PERS 3, NUM pl}[L-INDEX x17, R-INDEX x21]
+ _4:udef_q<36:48>[BV x21]
+ x21:_electricity_n_1<36:48>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  udef_q<0:6> BV _price_n_of<0:6>  
+  _fall_v_1<7:11> ARG1 _price_n_of<0:6>  
+  _marginally/rb_u_unknown<12:22> ARG1 _fall_v_1<7:11>  
+  _for_p<23:26> ARG1 _fall_v_1<7:11>  
+  _for_p<23:26> ARG2 _and_c<32:35>  
+  udef_q<27:48> BV _and_c<32:35>  
+  udef_q<27:31> BV _fuel_n_1<27:31>  
+  _and_c<32:35> L-INDEX _fuel_n_1<27:31>  
+  _and_c<32:35> R-INDEX _electricity_n_1<36:48>  
+  udef_q<36:48> BV _electricity_n_1<36:48>  
+  _price_n_of<0:6> PERS 3  
+  _price_n_of<0:6> NUM pl  
+  _fall_v_1<7:11> SF prop  
+  _fall_v_1<7:11> TENSE past  
+  _fall_v_1<7:11> MOOD indicative  
+  _fall_v_1<7:11> PROG -  
+  _fall_v_1<7:11> PERF -  
+  _marginally/rb_u_unknown<12:22> SF prop  
+  _marginally/rb_u_unknown<12:22> TENSE untensed  
+  _marginally/rb_u_unknown<12:22> MOOD indicative  
+  _marginally/rb_u_unknown<12:22> PROG -  
+  _marginally/rb_u_unknown<12:22> PERF -  
+  _for_p<23:26> SF prop  
+  _for_p<23:26> TENSE untensed  
+  _for_p<23:26> MOOD indicative  
+  _for_p<23:26> PROG -  
+  _for_p<23:26> PERF -  
+  _fuel_n_1<27:31> PERS 3  
+  _fuel_n_1<27:31> NUM sg  
+  _and_c<32:35> PERS 3  
+  _and_c<32:35> NUM pl  
+  _electricity_n_1<36:48> PERS 3  
+  _electricity_n_1<36:48> NUM sg  
+  _electricity_n_1<36:48> GEND n  
+  _electricity_n_1<36:48> IND -  
+}
+

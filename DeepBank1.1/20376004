@@ -1,0 +1,111 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:38 h)).
+;;;
+
+[20376004] (1 of 1) {1} `Investors welcomed the move.'
+
+[20376004:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Investors", 0, "null", "NNP" 0.4785 "NNS" 0.3449 "NNPS" 0.1766)
+  (2, 1, 2, <10:18>, 1, "welcomed", 0, "null", "VBD" 0.9533 "VBN" 0.0467)
+  (3, 2, 3, <19:22>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <23:27>, 1, "move", 0, "null", "NN" 0.9897 "VB" 0.0103)
+  (5, 4, 5, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:9>, 1, "Investors", 0, "null")
+  (66, 0, 1, <0:9>, 1, "Investors", 0, "null", "NNS" 0.3449)
+  (67, 0, 1, <0:9>, 1, "Investors", 0, "null", "NNPS" 0.1766)
+  (68, 0, 1, <0:9>, 1, "investors", 0, "null")
+  (72, 0, 1, <0:9>, 1, "investors", 0, "null")
+  (58, 1, 2, <10:18>, 1, "welcomed", 0, "null")
+  (64, 1, 2, <10:18>, 1, "welcomed", 0, "null", "VBD" 0.9533)
+  (70, 1, 2, <10:18>, 1, "welcomed", 0, "null")
+  (56, 2, 3, <19:22>, 1, "the", 0, "null")
+  (69, 2, 3, <19:22>, 1, "the", 0, "null")
+  (60, 3, 4, <23:28>, 1, "move.", 0, "null")
+  (65, 3, 4, <23:28>, 1, "move.", 0, "null", "NN" 0.9897)
+  (71, 3, 4, <23:28>, 1, "move.", 0, "null")
+>
+
+(ROOT_STRICT
+ (539 SB-HD_MC_C 6.50531 0 4
+  (533 HDN_BNP_C 1.09738 0 1
+   (532 N_PL_OLR 1.67338 0 1
+    (88 investor_n1@n_-_c_le 1.17492 0 1
+     ("investors" 68
+      "token [ +CARG \"Investors\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"investors\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.47845729999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (538 ^HD-CMP_U_C 3.89202 1 4
+   (534 ^V_PST_OLR 0.107619 1 2
+    (109 welcome_v1@v_np_le 0 1 2
+     ("welcomed" 58
+      "token [ +CARG #1=\"welcomed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95325110000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (537 SP-HD_N_C 2.7755 2 4
+    (206 the_1@d_-_the_le 1.07131 2 3
+     ("the" 56
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (536 ^W_PERIOD_PLR 0.933196 3 4
+     (535 N_SG_ILR 0.432921 3 4
+      (237 move_n1@n_-_c_le 0 3 4
+       ("move." 60
+        "token [ +CARG \"move\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"move.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98965190000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "investors")))
+ (VP (V (V "welcomed")) (NP (DET "the") (N (N (N "move."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _investor_n_1<0:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _welcome_v_1<10:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<19:22>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _move_n_1<23:28>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:9>[BV x6]
+ x6:_investor_n_1<0:9>{x PERS 3, NUM pl, IND +}[]
+ e3:_welcome_v_1<10:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_the_q<19:22>[BV x9]
+ x9:_move_n_1<23:28>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:9> BV _investor_n_1<0:9>  
+  _welcome_v_1<10:18> ARG1 _investor_n_1<0:9>  
+  _welcome_v_1<10:18> ARG2 _move_n_1<23:28>  
+  _the_q<19:22> BV _move_n_1<23:28>  
+  _investor_n_1<0:9> PERS 3  
+  _investor_n_1<0:9> NUM pl  
+  _investor_n_1<0:9> IND +  
+  _welcome_v_1<10:18> SF prop  
+  _welcome_v_1<10:18> TENSE past  
+  _welcome_v_1<10:18> MOOD indicative  
+  _welcome_v_1<10:18> PROG -  
+  _welcome_v_1<10:18> PERF -  
+  _move_n_1<23:28> PERS 3  
+  _move_n_1<23:28> NUM sg  
+  _move_n_1<23:28> IND +  
+}
+

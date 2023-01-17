@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj11d';
+;;; (wsun@wsun; 22-jan-2018 (20:43 h)).
+;;;
+
+[21171008] (1 of 1) {1} `"It was chaotic.'
+
+[21171008:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:7>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <8:15>, 1, "chaotic", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (56, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (59, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (49, 1, 2, <4:7>, 1, "was", 0, "null")
+  (54, 1, 2, <4:7>, 1, "was", 0, "null", "VBD" 1.0)
+  (57, 1, 2, <4:7>, 1, "was", 0, "null")
+  (53, 2, 3, <8:16>, 1, "chaotic.", 0, "null")
+  (55, 2, 3, <8:16>, 1, "chaotic.", 0, "null", "JJ" 1.0)
+  (58, 2, 3, <8:16>, 1, "chaotic.", 0, "null")
+>
+
+(ROOT_STRICT
+ (439 SB-HD_MC_C 3.47164 0 3
+  (436 HDN_BNP-QNT_C -0.56328 0 1
+   (435 W_DQLEFT_PLR 0.072519 0 1
+    (61 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 56
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (438 ^HD-CMP_U_C 2.76557 1 3
+   (81 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 49
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (437 W_PERIOD_PLR 0.612486 2 3
+    (100 chaotic_a1@aj_-_i_le 0 2 3
+     ("chaotic." 53
+      "token [ +CARG \"chaotic\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"chaotic.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP (NP "“it"))) (VP (V "was") (AP (AP "chaotic."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _chaotic_a_1<8:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_chaotic_a_1<8:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _chaotic_a_1<8:16> ARG1 pron<0:3>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _chaotic_a_1<8:16> SF prop  
+  _chaotic_a_1<8:16> TENSE past  
+  _chaotic_a_1<8:16> MOOD indicative  
+  _chaotic_a_1<8:16> PROG -  
+  _chaotic_a_1<8:16> PERF -  
+}
+

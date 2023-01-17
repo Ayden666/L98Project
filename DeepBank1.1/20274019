@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:32 h)).
+;;;
+
+[20274019] (1 of 1) {1} `First, they are safe.'
+
+[20274019:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "First", 0, "null", "RB" 0.8083 "NNP" 0.1657 "LS" 0.0141 "JJ" 0.0119)
+  (2, 1, 2, <5:6>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <7:11>, 1, "they", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <12:15>, 1, "are", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <16:20>, 1, "safe", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:6>, 1, "First,", 0, "null")
+  (72, 0, 1, <0:6>, 1, "First,", 0, "null", "RB" 0.8083)
+  (75, 0, 1, <0:6>, 1, "first,", 0, "null")
+  (79, 0, 1, <0:6>, 1, "first,", 0, "null")
+  (64, 1, 2, <7:11>, 1, "they", 0, "null")
+  (76, 1, 2, <7:11>, 1, "they", 0, "null")
+  (66, 2, 3, <12:15>, 1, "are", 0, "null")
+  (73, 2, 3, <12:15>, 1, "are", 0, "null", "VBP" 1.0)
+  (77, 2, 3, <12:15>, 1, "are", 0, "null")
+  (68, 3, 4, <16:21>, 1, "safe.", 0, "null")
+  (74, 3, 4, <16:21>, 1, "safe.", 0, "null", "JJ" 1.0)
+  (78, 3, 4, <16:21>, 1, "safe.", 0, "null")
+>
+
+(ROOT_STRICT
+ (578 AJ-HD_SCP_C 4.05167 0 4
+  (575 NP_VOC-PRE_C -0.503086 0 1
+   (574 HDN_BNP-PN_C 0.892856 0 1
+    (573 W_COMMA_PLR 0.163419 0 1
+     (572 N_SG_ILR -0.461604 0 1
+      (80 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("First," 71
+        "token [ +CARG \"First\" +CLASS proper_ne +FORM \"First,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80829390000000001\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+  (577 ^SB-HD_MC_C 4.95756 1 4
+   (565 HDN_BNP-QNT_C 1.61184 1 2
+    (134 they@n_-_pr-they_le 0.980748 1 2
+     ("they" 64
+      "token [ +CARG #1=\"they\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (576 ^HD-CMP_U_C 2.18498 2 4
+    (149 be_c_are@v_prd_are_le 1.27762 2 3
+     ("are" 66
+      "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (567 HD_OPTCMP_C 0.665166 3 4
+     (566 W_PERIOD_PLR -0.0058813 3 4
+      (156 safe_a1@aj_pp_i-er_le 0 3 4
+       ("safe." 68
+        "token [ +CARG \"safe\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"safe.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (ADV (NP (N (N (N "First,")))))
+ (S (NP (NP "they")) (VP (V "are") (AP (ADJ (ADJ "safe."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ addressee<0:6>
+            LBL: h2
+            ARG0: i5
+            ARG1: x4 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: e3 ]
+          [ proper_q<0:6>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ named<0:6>
+            LBL: h9
+            ARG0: x4
+            CARG: "First" ]
+          [ pron<7:11>
+            LBL: h10
+            ARG0: x11 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<7:11>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ _safe_a_for<16:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x11
+            ARG2: i15 ] >
+   HCONS: < h13 QEQ h10 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ i5:addressee<0:6>{i}[ARG1 x4, ARG2 e3]
+ _1:proper_q<0:6>[BV x4]
+ x4:named<0:6>("First"){x PERS 3, NUM sg, IND +}[]
+ x11:pron<7:11>{x PERS 3, NUM pl, PT std}[]
+ _2:pronoun_q<7:11>[BV x11]
+ e3:_safe_a_for<16:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+}
+
+{
+  addressee<0:6> ARG1 named<0:6>(First)  
+  addressee<0:6> ARG2 _safe_a_for<16:21>  
+  proper_q<0:6> BV named<0:6>(First)  
+  pronoun_q<7:11> BV pron<7:11>  
+  _safe_a_for<16:21> ARG1 pron<7:11>  
+  named<0:6>(First) PERS 3  
+  named<0:6>(First) NUM sg  
+  named<0:6>(First) IND +  
+  pron<7:11> PERS 3  
+  pron<7:11> NUM pl  
+  pron<7:11> PT std  
+  _safe_a_for<16:21> SF prop  
+  _safe_a_for<16:21> TENSE pres  
+  _safe_a_for<16:21> MOOD indicative  
+  _safe_a_for<16:21> PROG -  
+  _safe_a_for<16:21> PERF -  
+}
+

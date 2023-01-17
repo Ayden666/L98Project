@@ -1,0 +1,148 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:06 h)).
+;;;
+
+[21213024] (1 of 1) {1} `Donaldson Lufkin wouldn't comment.'
+
+[21213024:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Donaldson", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:16>, 1, "Lufkin", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <17:22>, 1, "would", 0, "null", "MD" 1.0)
+  (4, 3, 4, <22:25>, 1, "n’t", 0, "null", "VB" 0.5279 "NN" 0.2504 "RB" 0.1572 "JJ" 0.0501 "JJS" 0.0143)
+  (5, 4, 5, <26:33>, 1, "comment", 0, "null", "NN" 0.5383 "VB" 0.4617)
+  (6, 5, 6, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:9>, 1, "Donaldson", 0, "null")
+  (69, 0, 1, <0:9>, 1, "donaldson", 0, "null")
+  (73, 0, 1, <0:9>, 1, "donaldson", 0, "null")
+  (52, 1, 2, <10:16>, 1, "Lufkin", 0, "null")
+  (66, 1, 2, <10:16>, 1, "Lufkin", 0, "null", "NNP" 1.0)
+  (68, 1, 2, <10:16>, 1, "lufkin", 0, "null")
+  (70, 1, 2, <10:16>, 1, "lufkin", 0, "null")
+  (61, 2, 3, <17:25>, 1, "wouldn’t", 0, "null")
+  (71, 2, 3, <17:25>, 1, "wouldn’t", 0, "null")
+  (62, 3, 4, <26:34>, 1, "comment.", 0, "null")
+  (65, 3, 4, <26:34>, 1, "comment.", 0, "null", "NN" 0.5383)
+  (67, 3, 4, <26:34>, 1, "comment.", 0, "null", "VB" 0.4617)
+  (72, 3, 4, <26:34>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (310 SB-HD_MC_C 2.12514 0 4
+  (306 HDN_BNP-PN_C 2.30018 0 2
+   (305 NP-HDN_NME-CPD_C 1.76046 0 2
+    (303 HDN_BNP-PN_C 0.586141 0 1
+     (302 N_SG_ILR -0.166294 0 1
+      (76 donaldson_n1@n_-_pn_le 0 0 1
+       ("donaldson" 69
+        "token [ +CARG \"Donaldson\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"donaldson\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (304 ^N_SG_ILR -0.143257 1 2
+     (79 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Lufkin" 52
+       "token [ +CARG #1=\"Lufkin\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (309 ^HD-CMP_U_C -1.19209 2 4
+   (91 would_aux_neg_3_u@v_vp_mdl-n_le -0.150355 2 3
+    ("wouldn’t" 61
+     "token [ +CARG #1=\"wouldn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (308 W_PERIOD_PLR -1.04174 3 4
+    (307 V_N3S-BSE_ILR -0.466301 3 4
+     (95 comment_v2@v_-_le 0.214297 3 4
+      ("comment." 62
+       "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.5383289\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (NP (N (N "donaldson"))) (N (N "Lufkin"))))
+ (VP (V "wouldn’t") (VP (VP (V "comment.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Donaldson" ]
+          [ named<10:16>
+            LBL: h8
+            ARG0: x6
+            CARG: "Lufkin" ]
+          [ neg<17:25>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _would_v_modal<17:25>
+            LBL: h17
+            ARG0: e3
+            ARG1: h18 ]
+          [ _comment_v_on<26:34>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h15 QEQ h17 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:proper_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ x9:named<0:9>("Donaldson"){x PERS 3, NUM sg, IND +}[]
+ x6:named<10:16>("Lufkin"){x PERS 3, NUM sg, IND +}[]
+ e16:neg<17:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_would_v_modal<17:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e20:_comment_v_on-fn.Statement<26:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x6]
+}
+
+{
+  proper_q<0:16> BV named<10:16>(Lufkin)  
+  compound<0:16> ARG1 named<10:16>(Lufkin)  
+  compound<0:16> ARG2 named<0:9>(Donaldson)  
+  proper_q<0:9> BV named<0:9>(Donaldson)  
+  neg<17:25> ARG1 _would_v_modal<17:25>  
+  _would_v_modal<17:25> ARG1 _comment_v_on<26:34>  
+  _comment_v_on<26:34> ARG1 named<10:16>(Lufkin)  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:9>(Donaldson) PERS 3  
+  named<0:9>(Donaldson) NUM sg  
+  named<0:9>(Donaldson) IND +  
+  named<10:16>(Lufkin) PERS 3  
+  named<10:16>(Lufkin) NUM sg  
+  named<10:16>(Lufkin) IND +  
+  neg<17:25> SF prop  
+  neg<17:25> TENSE untensed  
+  neg<17:25> MOOD indicative  
+  neg<17:25> PROG -  
+  neg<17:25> PERF -  
+  _would_v_modal<17:25> SF prop  
+  _would_v_modal<17:25> TENSE pres  
+  _would_v_modal<17:25> MOOD indicative  
+  _would_v_modal<17:25> PROG -  
+  _would_v_modal<17:25> PERF -  
+  _comment_v_on<26:34> SF prop  
+  _comment_v_on<26:34> TENSE untensed  
+  _comment_v_on<26:34> MOOD indicative  
+  _comment_v_on<26:34> PROG -  
+  _comment_v_on<26:34> PERF -  
+}
+

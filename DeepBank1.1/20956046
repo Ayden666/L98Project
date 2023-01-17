@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj09b';
+;;; (wsun@wsun; 22-jan-2018 (18:40 h)).
+;;;
+
+[20956046] (1 of 1) {1} `Foreign Presence'
+
+[20956046:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Foreign", 0, "null", "NNP" 0.9797 "JJ" 0.0203)
+  (2, 1, 2, <8:16>, 1, "Presence", 0, "null", "NNP" 1.0)
+>
+
+<
+  (27, 0, 1, <0:7>, 1, "Foreign", 0, "null")
+  (30, 0, 1, <0:7>, 1, "foreign", 0, "null")
+  (32, 0, 1, <0:7>, 1, "foreign", 0, "null")
+  (20, 1, 2, <8:16>, 1, "Presence", 0, "null")
+  (28, 1, 2, <8:16>, 1, "Presence", 0, "null", "NNP" 1.0)
+  (29, 1, 2, <8:16>, 1, "presence", 0, "null")
+  (31, 1, 2, <8:16>, 1, "presence", 0, "null")
+>
+
+(ROOT_FRAG
+ (131 NP_FRG_C 1.28038 0 2
+  (130 HDN_BNP_C 1.48479 0 2
+   (129 AJ-HDN_NORM_C 1.62014 0 2
+    (35 foreign_a1@aj_-_i_le 0.46454 0 1
+     ("foreign" 30
+      "token [ +CARG \"Foreign\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"foreign\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97974890000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (128 ^N_MS-CNT_ILR -0.08124 1 2
+     (38 presence_n1@n_-_mc_le 0 1 2
+      ("presence" 29
+       "token [ +CARG \"Presence\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"presence\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (AP "foreign") (N (N "presence")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:16>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _foreign_a_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _presence_n_1<8:16>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:16>[BV x4]
+ e9:_foreign_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_presence_n_1<8:16>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:16> ARG _presence_n_1<8:16>  
+  udef_q<0:16> BV _presence_n_1<8:16>  
+  _foreign_a_1<0:7> ARG1 _presence_n_1<8:16>  
+  unknown<0:16> SF prop-or-ques  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  _foreign_a_1<0:7> SF prop  
+  _foreign_a_1<0:7> TENSE untensed  
+  _foreign_a_1<0:7> MOOD indicative  
+  _foreign_a_1<0:7> PROG -  
+  _foreign_a_1<0:7> PERF -  
+  _presence_n_1<8:16> PERS 3  
+  _presence_n_1<8:16> NUM sg  
+}
+

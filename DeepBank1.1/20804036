@@ -1,0 +1,208 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:00 h)).
+;;;
+
+[20804036] (1 of 1) {1} `"Batibot" lacks the polish of "Sesame Street."'
+
+[20804036:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:8>, 1, "Batibot", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:9>, 1, "”", 0, "null", "''" 1.0)
+  (4, 3, 4, <10:15>, 1, "lacks", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <16:19>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <20:26>, 1, "polish", 0, "null", "NN" 0.9323 "VB" 0.0677)
+  (7, 6, 7, <27:29>, 1, "of", 0, "null", "IN" 1.0)
+  (8, 7, 8, <30:31>, 1, "“", 0, "null", "``" 1.0)
+  (9, 8, 9, <31:37>, 1, "Sesame", 0, "null", "NNP" 1.0)
+  (10, 9, 10, <38:44>, 1, "Street", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <44:45>, 1, ".", 0, "null", "." 1.0)
+  (12, 11, 12, <45:46>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (137, 0, 1, <0:9>, 1, "“Batibot”", 0, "null")
+  (143, 0, 1, <0:9>, 1, "“batibot”", 0, "null")
+  (151, 0, 1, <0:9>, 1, "“batibot”", 0, "null")
+  (124, 1, 2, <10:15>, 1, "lacks", 0, "null")
+  (139, 1, 2, <10:15>, 1, "lacks", 0, "null", "VBZ" 1.0)
+  (147, 1, 2, <10:15>, 1, "lacks", 0, "null")
+  (126, 2, 3, <16:19>, 1, "the", 0, "null")
+  (148, 2, 3, <16:19>, 1, "the", 0, "null")
+  (135, 3, 4, <20:26>, 1, "polish", 0, "null")
+  (138, 3, 4, <20:26>, 1, "polish", 0, "null", "NN" 0.9323)
+  (150, 3, 4, <20:26>, 1, "polish", 0, "null")
+  (128, 4, 5, <27:29>, 1, "of", 0, "null")
+  (149, 4, 5, <27:29>, 1, "of", 0, "null")
+  (114, 5, 6, <30:37>, 1, "“Sesame", 0, "null")
+  (140, 5, 6, <30:37>, 1, "“Sesame", 0, "null", "NNP" 1.0)
+  (142, 5, 6, <30:37>, 1, "“sesame", 0, "null")
+  (145, 5, 6, <30:37>, 1, "“sesame", 0, "null")
+  (120, 6, 7, <38:46>, 1, "Street.”", 0, "null")
+  (141, 6, 7, <38:46>, 1, "Street.”", 0, "null", "NNP" 1.0)
+  (144, 6, 7, <38:46>, 1, "street.”", 0, "null")
+  (146, 6, 7, <38:46>, 1, "street.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (1642 SB-HD_MC_C 6.82101 0 7
+  (1623 HDN_BNP-PN_C -1.3581 0 1
+   (1622 W_DQLEFT_PLR -0.449353 0 1
+    (1621 W_DQRIGHT_PLR -0.385396 0 1
+     (1620 N_SG_ILR -0.209993 0 1
+      (154 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("“Batibot”" 137
+        "token [ +CARG \"Batibot\" +CLASS proper_ne +FORM \"“Batibot”\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+  (1641 ^HD-CMP_U_C 7.16206 1 7
+   (1624 ^V_3S-FIN_OLR 0.198464 1 2
+    (168 lack_v1@v_np_le 0 1 2
+     ("lacks" 124
+      "token [ +CARG #1=\"lacks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1640 SP-HD_N_C 6.02548 2 7
+    (189 the_1@d_-_the_le 0.405901 2 3
+     ("the" 126
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1639 ^HDN-AJ_REDREL_C 4.96247 3 7
+     (1638 ^N_MS_ILR -0.344837 3 4
+      (216 polish_n2@n_-_m_le 0 3 4
+       ("polish" 135
+        "token [ +CARG #1=\"polish\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93231819999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1633 HD-CMP_U_C 4.80784 4 7
+      (267 of_poss@p_np_i-nm-poss_le -0.152822 4 5
+       ("of" 128
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1632 HDN_BNP-PN_C 4.15421 5 7
+       (1631 NP-HDN_NME-CPD_C 3.97473 5 7
+        (1627 HDN_BNP-PN_C -0.146847 5 6
+         (1626 W_DQLEFT_PLR -0.317074 5 6
+          (1625 N_SG_ILR -0.905594 5 6
+           (349 generic_proper_ne@n_-_pn-gen_le 0 5 6
+            ("“Sesame" 114
+             "token [ +CARG \"Sesame\" +CLASS proper_ne +FORM \"“Sesame\" +FROM \"30\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+        (1630 ^W_DQRIGHT_PLR 2.14165 6 7
+         (1629 W_PERIOD_PLR 0.178745 6 7
+          (1628 N_SG_ILR -0.422994 6 7
+           (358 generic_proper_ne@n_-_pn-gen_le 0 6 7
+            ("Street.”" 120
+             "token [ +CARG \"Street\" +CLASS proper_ne +FORM \"Street.”\" +FROM \"38\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))))
+
+(S (NP (N (N (N (N "“Batibot”")))))
+ (VP (V (V "lacks"))
+  (NP (DET "the")
+   (N (N (N "polish"))
+    (PP (P "of")
+     (NP (N (NP (N (N (N "“Sesame")))) (N (N (N (N "Street.”")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Batibot" ]
+          [ _lack_v_1<10:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ _the_q<16:19>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _polish_n_2<20:26>
+            LBL: h13
+            ARG0: x9 ]
+          [ _of_p<27:29>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<30:46>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<30:46>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<30:37>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ named<30:37>
+            LBL: h25
+            ARG0: x20
+            CARG: "Sesame" ]
+          [ named<38:46>
+            LBL: h19
+            ARG0: x15
+            CARG: "Street" ] >
+   HCONS: < h23 QEQ h25 h17 QEQ h19 h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ x6:named<0:9>("Batibot"){x PERS 3, NUM sg, IND +}[]
+ e3:_lack_v_1<10:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_the_q<16:19>[BV x9]
+ x9:_polish_n_2<20:26>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e14:_of_p<27:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<30:46>[BV x15]
+ e21:compound<30:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x20]
+ _4:proper_q<30:37>[BV x20]
+ x20:named<30:37>("Sesame"){x PERS 3, NUM sg, IND +}[]
+ x15:named<38:46>("Street"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<0:9>(Batibot)  
+  _lack_v_1<10:15> ARG1 named<0:9>(Batibot)  
+  _lack_v_1<10:15> ARG2 _polish_n_2<20:26>  
+  _the_q<16:19> BV _polish_n_2<20:26>  
+  _of_p<27:29> ARG1 _polish_n_2<20:26>  
+  _of_p<27:29> ARG2 named<38:46>(Street)  
+  proper_q<30:46> BV named<38:46>(Street)  
+  compound<30:46> ARG1 named<38:46>(Street)  
+  compound<30:46> ARG2 named<30:37>(Sesame)  
+  proper_q<30:37> BV named<30:37>(Sesame)  
+  named<0:9>(Batibot) PERS 3  
+  named<0:9>(Batibot) NUM sg  
+  named<0:9>(Batibot) IND +  
+  _lack_v_1<10:15> SF prop  
+  _lack_v_1<10:15> TENSE pres  
+  _lack_v_1<10:15> MOOD indicative  
+  _lack_v_1<10:15> PROG -  
+  _lack_v_1<10:15> PERF -  
+  _polish_n_2<20:26> PERS 3  
+  _polish_n_2<20:26> NUM sg  
+  _polish_n_2<20:26> GEND n  
+  _polish_n_2<20:26> IND -  
+  _of_p<27:29> SF prop  
+  _of_p<27:29> TENSE untensed  
+  _of_p<27:29> MOOD indicative  
+  _of_p<27:29> PROG -  
+  _of_p<27:29> PERF -  
+  compound<30:46> SF prop  
+  compound<30:46> TENSE untensed  
+  compound<30:46> MOOD indicative  
+  compound<30:46> PROG -  
+  compound<30:46> PERF -  
+  named<30:37>(Sesame) PERS 3  
+  named<30:37>(Sesame) NUM sg  
+  named<30:37>(Sesame) IND +  
+  named<38:46>(Street) PERS 3  
+  named<38:46>(Street) NUM sg  
+  named<38:46>(Street) IND +  
+}
+

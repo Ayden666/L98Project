@@ -1,0 +1,152 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:24 h)).
+;;;
+
+[22151040] (1 of 1) {1} `New trade accords were signed.'
+
+[22151040:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "New", 0, "null", "NNP" 0.9028 "JJ" 0.0972)
+  (2, 1, 2, <4:9>, 1, "trade", 0, "null", "NN" 0.9881 "VB" 0.0119)
+  (3, 2, 3, <10:17>, 1, "accords", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <23:29>, 1, "signed", 0, "null", "VBN" 0.9737 "VBD" 0.0263)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:3>, 1, "New", 0, "null")
+  (77, 0, 1, <0:3>, 1, "new", 0, "null")
+  (82, 0, 1, <0:3>, 1, "new", 0, "null")
+  (68, 1, 2, <4:9>, 1, "trade", 0, "null")
+  (73, 1, 2, <4:9>, 1, "trade", 0, "null", "NN" 0.9881)
+  (80, 1, 2, <4:9>, 1, "trade", 0, "null")
+  (63, 2, 3, <10:17>, 1, "accords", 0, "null")
+  (75, 2, 3, <10:17>, 1, "accords", 0, "null", "NNS" 1.0)
+  (78, 2, 3, <10:17>, 1, "accords", 0, "null")
+  (65, 3, 4, <18:22>, 1, "were", 0, "null")
+  (76, 3, 4, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (79, 3, 4, <18:22>, 1, "were", 0, "null")
+  (70, 4, 5, <23:30>, 1, "signed.", 0, "null")
+  (74, 4, 5, <23:30>, 1, "signed.", 0, "null", "VBN" 0.9737)
+  (81, 4, 5, <23:30>, 1, "signed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1333 SB-HD_MC_C 6.91142 0 5
+  (1328 HDN_BNP_C 3.63998 0 3
+   (1327 AJ-HDN_NORM_C 2.90548 0 3
+    (86 new_a1@aj_-_i-er_le 0.798181 0 1
+     ("new" 77
+      "token [ +CARG \"New\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"new\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90275399999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1326 ^N-HDN_CPD_C 1.11424 1 3
+     (1324 HDN_OPTCMP_C 0.532123 1 2
+      (91 trade_n1@n_pp_mc-of_le -0.438193 1 2
+       ("trade" 68
+        "token [ +CARG #1=\"trade\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98814179999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1325 ^N_PL_OLR 0.441841 2 3
+      (94 accord_n1@n_-_mc_le 0 2 3
+       ("accords" 63
+        "token [ +CARG #1=\"accords\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1332 ^HD-CMP_U_C 1.75553 3 5
+   (109 be_c_were@v_prd_wre_le 1.45048 3 4
+    ("were" 65
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1331 HD_OPTCMP_C 0.285111 4 5
+    (1330 W_PERIOD_PLR 0.133685 4 5
+     (1329 V_PAS_ODLR -0.192154 4 5
+      (148 sign_v1@v_np*_le 0 4 5
+       ("signed." 70
+        "token [ +CARG \"signed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"signed.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97372749999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (AP "new") (N (N (N "trade")) (N (N "accords")))))
+ (VP (V "were") (VP (V (V (V "signed."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _new_a_1<0:3>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ compound<4:17>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 ]
+          [ udef_q<4:9>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _trade_n_of<4:9>
+            LBL: h15
+            ARG0: x10
+            ARG1: i16 ]
+          [ _accord_n_1<10:17>
+            LBL: h8
+            ARG0: x6 ]
+          [ _sign_v_1<23:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: i17
+            ARG2: x6 ]
+          [ parg_d<23:30>
+            LBL: h2
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:17>[BV x6]
+ e9:_new_a_1<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:compound<4:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<4:9>[BV x10]
+ x10:_trade_n_of<4:9>{x}[]
+ x6:_accord_n_1<10:17>{x PERS 3, NUM pl}[]
+ e3:_sign_v_1<23:30>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e18:parg_d<23:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:17> BV _accord_n_1<10:17>  
+  _new_a_1<0:3> ARG1 _accord_n_1<10:17>  
+  compound<4:17> ARG1 _accord_n_1<10:17>  
+  compound<4:17> ARG2 _trade_n_of<4:9>  
+  udef_q<4:9> BV _trade_n_of<4:9>  
+  _sign_v_1<23:30> ARG2 _accord_n_1<10:17>  
+  parg_d<23:30> ARG1 _sign_v_1<23:30>  
+  parg_d<23:30> ARG2 _accord_n_1<10:17>  
+  _new_a_1<0:3> SF prop  
+  _new_a_1<0:3> TENSE untensed  
+  _new_a_1<0:3> MOOD indicative  
+  _new_a_1<0:3> PROG -  
+  _new_a_1<0:3> PERF -  
+  compound<4:17> SF prop  
+  compound<4:17> TENSE untensed  
+  compound<4:17> MOOD indicative  
+  compound<4:17> PROG -  
+  compound<4:17> PERF -  
+  _accord_n_1<10:17> PERS 3  
+  _accord_n_1<10:17> NUM pl  
+  _sign_v_1<23:30> SF prop  
+  _sign_v_1<23:30> TENSE past  
+  _sign_v_1<23:30> MOOD indicative  
+  _sign_v_1<23:30> PROG -  
+  _sign_v_1<23:30> PERF -  
+  parg_d<23:30> SF prop  
+  parg_d<23:30> TENSE untensed  
+  parg_d<23:30> MOOD indicative  
+  parg_d<23:30> PROG -  
+  parg_d<23:30> PERF -  
+}
+

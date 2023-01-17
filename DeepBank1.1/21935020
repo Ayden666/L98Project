@@ -1,0 +1,142 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:13 h)).
+;;;
+
+[21935020] (1 of 1) {1} `University of South Carolina'
+
+[21935020:1] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "University", 0, "null", "NNP" 0.9327 "NN" 0.0673)
+  (2, 1, 2, <11:13>, 1, "of", 0, "null", "IN" 1.0)
+  (3, 2, 3, <14:19>, 1, "South", 0, "null", "NNP" 0.9797 "NNPS" 0.0203)
+  (4, 3, 4, <20:28>, 1, "Carolina", 0, "null", "NNP" 1.0)
+>
+
+<
+  (53, 0, 1, <0:10>, 1, "University", 0, "null")
+  (58, 0, 1, <0:10>, 1, "university", 0, "null")
+  (62, 0, 1, <0:10>, 1, "university", 0, "null")
+  (48, 1, 2, <11:13>, 1, "of", 0, "null")
+  (61, 1, 2, <11:13>, 1, "of", 0, "null")
+  (39, 2, 3, <14:19>, 1, "South", 0, "null")
+  (54, 2, 3, <14:19>, 1, "South", 0, "null", "NNP" 0.9797)
+  (57, 2, 3, <14:19>, 1, "south", 0, "null")
+  (59, 2, 3, <14:19>, 1, "south", 0, "null")
+  (40, 3, 4, <20:28>, 1, "Carolina", 0, "null")
+  (55, 3, 4, <20:28>, 1, "Carolina", 0, "null", "NNP" 1.0)
+  (56, 3, 4, <20:28>, 1, "carolina", 0, "null")
+  (60, 3, 4, <20:28>, 1, "carolina", 0, "null")
+>
+
+(ROOT_FRAG
+ (448 NP_FRG_C 3.00866 0 4
+  (447 HDN_BNP_C 3.21307 0 4
+   (445 HD-CMP_U_C 4.71168 0 4
+    (438 ^N_MS-CNT_ILR 0.0756318 0 1
+     (67 university_n1@n_pp_mc-of-lhc_le -0.208166 0 1
+      ("university" 58
+       "token [ +CARG \"University\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"university\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93271519999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (444 HD-CMP_U_C 4.04136 1 4
+     (107 of_prtcl@p_np_ptcl-of_le 1.04356 1 2
+      ("of" 48
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (443 HDN_BNP-PN_C 2.60682 2 4
+      (442 NP-HDN_NME-CPD_C 2.39745 2 4
+       (440 HDN_BNP-PN_C 1.31257 2 3
+        (439 N_SG_ILR 0.560138 2 3
+         (184 generic_proper_ne@n_-_pn-gen_le 0.94705 2 3
+          ("South" 39
+           "token [ +CARG #1=\"South\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97969269999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (441 ^N_SG_ILR -0.143257 3 4
+        (190 generic_proper_ne@n_-_pn-gen_le 0 3 4
+         ("Carolina" 40
+          "token [ +CARG #1=\"Carolina\" +CLASS proper_ne +FORM #1 +FROM \"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(XP
+ (NP
+  (N (N (N "university"))
+   (PP (P "of") (NP (N (NP (N (N "South"))) (N (N "Carolina"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:28>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:28>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _university_n_of<0:10>
+            LBL: h8
+            ARG0: x4
+            ARG1: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<14:28>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<14:28>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<14:19>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<14:19>
+            LBL: h19
+            ARG0: x14
+            CARG: "South" ]
+          [ named<20:28>
+            LBL: h13
+            ARG0: x9
+            CARG: "Carolina" ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:28>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:28>[BV x4]
+ x4:_university_n_of<0:10>{x PERS 3, NUM sg}[ARG1 x9]
+ _2:proper_q<14:28>[BV x9]
+ e15:compound<14:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<14:19>[BV x14]
+ x14:named<14:19>("South"){x PERS 3, NUM sg, IND +}[]
+ x9:named<20:28>("Carolina"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:28> ARG _university_n_of<0:10>  
+  udef_q<0:28> BV _university_n_of<0:10>  
+  _university_n_of<0:10> ARG1 named<20:28>(Carolina)  
+  proper_q<14:28> BV named<20:28>(Carolina)  
+  compound<14:28> ARG1 named<20:28>(Carolina)  
+  compound<14:28> ARG2 named<14:19>(South)  
+  proper_q<14:19> BV named<14:19>(South)  
+  unknown<0:28> SF prop-or-ques  
+  unknown<0:28> TENSE untensed  
+  unknown<0:28> MOOD indicative  
+  unknown<0:28> PROG -  
+  unknown<0:28> PERF -  
+  _university_n_of<0:10> PERS 3  
+  _university_n_of<0:10> NUM sg  
+  compound<14:28> SF prop  
+  compound<14:28> TENSE untensed  
+  compound<14:28> MOOD indicative  
+  compound<14:28> PROG -  
+  compound<14:28> PERF -  
+  named<14:19>(South) PERS 3  
+  named<14:19>(South) NUM sg  
+  named<14:19>(South) IND +  
+  named<20:28>(Carolina) PERS 3  
+  named<20:28>(Carolina) NUM sg  
+  named<20:28>(Carolina) IND +  
+}
+

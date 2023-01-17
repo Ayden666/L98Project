@@ -1,0 +1,99 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:32 h)).
+;;;
+
+[21655022] (1 of 1) {1} `"I think so.'
+
+[21655022:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:2>, 1, "I", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:8>, 1, "think", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <9:11>, 1, "so", 0, "null", "RB" 1.0)
+  (5, 4, 5, <11:12>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (49, 0, 1, <0:2>, 1, "“I", 0, "null")
+  (59, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (60, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (52, 1, 2, <3:8>, 1, "think", 0, "null")
+  (57, 1, 2, <3:8>, 1, "think", 0, "null", "VBP" 1.0)
+  (61, 1, 2, <3:8>, 1, "think", 0, "null")
+  (56, 2, 3, <9:12>, 1, "so.", 0, "null")
+  (58, 2, 3, <9:12>, 1, "so.", 0, "null", "RB" 1.0)
+  (62, 2, 3, <9:12>, 1, "so.", 0, "null")
+>
+
+(ROOT_STRICT
+ (370 SB-HD_MC_C 2.1211 0 3
+  (365 HDN_BNP-QNT_C -0.0561766 0 1
+   (364 W_DQLEFT_PLR 0.579622 0 1
+    (71 i@n_-_pr-i_le 0.336087 0 1
+     ("“i" 59
+      "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"“i\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (369 ^HD-CMP_U_C 0.90793 1 3
+   (367 ^HD_OPTCMP_C 1.01248 1 2
+    (366 V_N3S-BSE_ILR 0.556252 1 2
+     (103 think1@v_pp*-cp_le 1.37146 1 2
+      ("think" 52
+       "token [ +CARG #1=\"think\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (368 W_PERIOD_PLR 0 2 3
+    (131 so_cp@x_-_so-cp_le 0 2 3
+     ("so." 56
+      "token [ +CARG \"so\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"so.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP (NP "“i"))) (VP (V (V (V "think"))) (S (S "so."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _think_v_1<3:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: h10
+            ARG3: i9 ]
+          [ ellipsis<9:12>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u13 ] >
+   HCONS: < h10 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_think_v_1<3:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 e12]
+ e12:ellipsis<9:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _think_v_1<3:8> ARG1 pron<0:2>  
+  _think_v_1<3:8> ARG2 ellipsis<9:12>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM sg  
+  pron<0:2> PT std  
+  _think_v_1<3:8> SF prop  
+  _think_v_1<3:8> TENSE pres  
+  _think_v_1<3:8> MOOD indicative  
+  _think_v_1<3:8> PROG -  
+  _think_v_1<3:8> PERF -  
+  ellipsis<9:12> SF prop  
+  ellipsis<9:12> TENSE untensed  
+  ellipsis<9:12> MOOD indicative  
+  ellipsis<9:12> PROG -  
+  ellipsis<9:12> PERF -  
+}
+

@@ -1,0 +1,87 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:17 h)).
+;;;
+
+[20248006] (1 of 1) {1} `Public Affairs'
+
+[20248006:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Public", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:14>, 1, "Affairs", 0, "null", "NNP" 0.7419 "NNPS" 0.2581)
+>
+
+<
+  (27, 0, 1, <0:6>, 1, "Public", 0, "null")
+  (30, 0, 1, <0:6>, 1, "public", 0, "null")
+  (33, 0, 1, <0:6>, 1, "public", 0, "null")
+  (20, 1, 2, <7:14>, 1, "Affairs", 0, "null")
+  (28, 1, 2, <7:14>, 1, "Affairs", 0, "null", "NNP" 0.7419)
+  (29, 1, 2, <7:14>, 1, "Affairs", 0, "null", "NNPS" 0.2581)
+  (31, 1, 2, <7:14>, 1, "affairs", 0, "null")
+  (32, 1, 2, <7:14>, 1, "affairs", 0, "null")
+>
+
+(ROOT_FRAG
+ (186 NP_FRG_C 1.72557 0 2
+  (185 HDN_BNP_C 1.92999 0 2
+   (184 AJ-HDN_NORM_C 2.06534 0 2
+    (36 public_a1@aj_-_i_le 0.905281 0 1
+     ("public" 30
+      "token [ +CARG \"Public\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"public\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (183 ^N_PL_OLR -0.0188574 1 2
+     (54 affair_n1@n_-_c_le 0 1 2
+      ("affairs" 31
+       "token [ +CARG \"Affairs\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"affairs\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.74185319999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (AP "public") (N (N "affairs")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:14>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _public_a_1<0:6>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _affair_n_1<7:14>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:14>[BV x4]
+ e9:_public_a_1<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_affair_n_1<7:14>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:14> ARG _affair_n_1<7:14>  
+  udef_q<0:14> BV _affair_n_1<7:14>  
+  _public_a_1<0:6> ARG1 _affair_n_1<7:14>  
+  unknown<0:14> SF prop-or-ques  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  _public_a_1<0:6> SF prop  
+  _public_a_1<0:6> TENSE untensed  
+  _public_a_1<0:6> MOOD indicative  
+  _public_a_1<0:6> PROG -  
+  _public_a_1<0:6> PERF -  
+  _affair_n_1<7:14> PERS 3  
+  _affair_n_1<7:14> NUM pl  
+  _affair_n_1<7:14> IND +  
+}
+

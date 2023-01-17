@@ -1,0 +1,88 @@
+;;;
+;;; Redwoods export of `wsj09c';
+;;; (wsun@wsun; 22-jan-2018 (18:51 h)).
+;;;
+
+[20972003] (1 of 1) {1} `And why not?'
+
+[20972003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "why", 0, "null", "WRB" 1.0)
+  (3, 2, 3, <8:11>, 1, "not", 0, "null", "RB" 1.0)
+  (4, 3, 4, <11:12>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (45, 0, 1, <0:3>, 1, "and", 0, "null")
+  (48, 0, 1, <0:3>, 1, "and", 0, "null")
+  (41, 1, 2, <4:7>, 1, "why", 0, "null")
+  (46, 1, 2, <4:7>, 1, "why", 0, "null")
+  (43, 2, 3, <8:12>, 1, "not?", 0, "null")
+  (44, 2, 3, <8:12>, 1, "not?", 0, "null", "RB" 1.0)
+  (47, 2, 3, <8:12>, 1, "not?", 0, "null")
+>
+
+(ROOT_STRICT
+ (469 CL_CNJ-FRG_C 0.588316 0 3
+  (468 MRK-NH_CL_C -0.28157 0 3
+   (52 and_conj@c_xp_and_le -0.28157 0 1
+    ("and" 45
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (467 W_QMARK_PLR 0 1 3
+    (364 why_not_vp_2@x_-_why_le 0 1 3
+     ("why not?" 41
+      "token [ +CARG #1=\"why\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      43
+      "token [ +CARG \"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"not?\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (S (CONJ "and") (S (S "why not?"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _and_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ generic_verb<4:12>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _why+not_x<4:12>
+            LBL: h10
+            ARG0: e4
+            ARG1: h11 ] >
+   HCONS: < h11 QEQ h8 h5 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:_and_c<0:3>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ e9:generic_verb<4:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e4:_why+not_x<4:12>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9]
+}
+
+{
+  _and_c<0:3> R-HNDL _why+not_x<4:12>  
+  _and_c<0:3> R-INDEX _why+not_x<4:12>  
+  _why+not_x<4:12> ARG1 generic_verb<4:12>  
+  _and_c<0:3> SF prop-or-ques  
+  _and_c<0:3> TENSE untensed  
+  _and_c<0:3> MOOD indicative  
+  _and_c<0:3> PROG -  
+  _and_c<0:3> PERF -  
+  generic_verb<4:12> SF prop  
+  generic_verb<4:12> TENSE untensed  
+  generic_verb<4:12> MOOD indicative  
+  generic_verb<4:12> PROG -  
+  generic_verb<4:12> PERF -  
+  _why+not_x<4:12> SF prop-or-ques  
+  _why+not_x<4:12> TENSE untensed  
+  _why+not_x<4:12> MOOD indicative  
+  _why+not_x<4:12> PROG -  
+  _why+not_x<4:12> PERF -  
+}
+

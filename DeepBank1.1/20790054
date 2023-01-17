@@ -1,0 +1,181 @@
+;;;
+;;; Redwoods export of `wsj07d';
+;;; (wsun@wsun; 22-jan-2018 (17:52 h)).
+;;;
+
+[20790054] (1 of 1) {1} `Cars can't move because of overflowing sewers.'
+
+[20790054:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Cars", 0, "null", "NNS" 0.9752 "NNPS" 0.0248)
+  (2, 1, 2, <5:7>, 1, "ca", 0, "null", "MD" 1.0)
+  (3, 2, 3, <7:10>, 1, "n’t", 0, "null", "VB" 0.6526 "NN" 0.1373 "RB" 0.1347 "JJS" 0.0384 "JJ" 0.0371)
+  (4, 3, 4, <11:15>, 1, "move", 0, "null", "NN" 0.5677 "VB" 0.4168 "VBP" 0.0155)
+  (5, 4, 5, <16:23>, 1, "because", 0, "null", "IN" 0.8091 "RB" 0.1909)
+  (6, 5, 6, <24:26>, 1, "of", 0, "null", "IN" 1.0)
+  (7, 6, 7, <27:38>, 1, "overflowing", 0, "null", "VBG" 1.0)
+  (8, 7, 8, <39:45>, 1, "sewers", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (101, 0, 1, <0:4>, 1, "Cars", 0, "null", "NNS" 0.9752)
+  (107, 0, 1, <0:4>, 1, "cars", 0, "null")
+  (114, 0, 1, <0:4>, 1, "cars", 0, "null")
+  (92, 1, 2, <5:10>, 1, "can’t", 0, "null")
+  (110, 1, 2, <5:10>, 1, "can’t", 0, "null")
+  (97, 2, 3, <11:15>, 1, "move", 0, "null")
+  (102, 2, 3, <11:15>, 1, "move", 0, "null", "NN" 0.5677)
+  (103, 2, 3, <11:15>, 1, "move", 0, "null", "VB" 0.4168)
+  (112, 2, 3, <11:15>, 1, "move", 0, "null")
+  (98, 3, 4, <16:23>, 1, "because", 0, "null")
+  (106, 3, 4, <16:23>, 1, "because", 0, "null", "RB" 0.1909)
+  (113, 3, 4, <16:23>, 1, "because", 0, "null")
+  (88, 4, 5, <24:26>, 1, "of", 0, "null")
+  (108, 4, 5, <24:26>, 1, "of", 0, "null")
+  (90, 5, 6, <27:38>, 1, "overflowing", 0, "null")
+  (104, 5, 6, <27:38>, 1, "overflowing", 0, "null", "VBG" 1.0)
+  (109, 5, 6, <27:38>, 1, "overflowing", 0, "null")
+  (94, 6, 7, <39:46>, 1, "sewers.", 0, "null")
+  (105, 6, 7, <39:46>, 1, "sewers.", 0, "null", "NNS" 1.0)
+  (111, 6, 7, <39:46>, 1, "sewers.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1155 SB-HD_MC_C 7.21883 0 7
+  (1135 HDN_BNP_C 0.0334369 0 1
+   (1134 N_PL_OLR 0.609443 0 1
+    (120 car_n1@n_-_c_le 0.110976 0 1
+     ("cars" 107
+      "token [ +CARG \"Cars\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"cars\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9751978\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1154 ^HD-CMP_U_C 5.66949 1 7
+   (126 can_aux_neg_3_u@v_vp_mdl-n_le 0.350606 1 2
+    ("can’t" 92
+     "token [ +CARG #1=\"can’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1153 HD-AJ_INT-UNSL_C 5.1001 2 7
+    (1137 ^HD_OPTCMP_C 1.8172 2 3
+     (1136 V_N3S-BSE_ILR 1.64643 2 3
+      (139 move_v1@v_pp*_dir_le 1.5949 2 3
+       ("move" 97
+        "token [ +CARG #1=\"move\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56765469999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1152 HD-CMP_U_C 1.96379 3 7
+     (294 because_of_p@p_np_i_le -0.192253 3 5
+      ("because of" 98
+       "token [ +CARG #1=\"because\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80906529999999999\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+       88
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1151 HDN_BNP_C 0.583874 5 7
+      (1150 AJ-HDN_NORM_C 0.225046 5 7
+       (1149 V_J-NB-PRP-TR_DLR -0.475215 5 6
+        (1148 V_PRP_OLR 1.02031 5 6
+         (271 overflow_v2@v_pp_unacc_le 0 5 6
+          ("overflowing" 90
+           "token [ +CARG #1=\"overflowing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (1139 ^W_PERIOD_PLR 1.47786 6 7
+        (286 generic_pl_noun@n_-_c-pl-unk_le 0 6 7
+         ("sewers." 105
+          "token [ +CARG \"sewers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"sewers.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED \"_sewers/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NNS\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (NP (N (N "cars")))
+ (VP (V "can’t")
+  (VP (VP (V (V "move")))
+   (PP (P "because of")
+    (NP (N (AP (V (V "overflowing"))) (N (N "sewers."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _car_n_1<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<5:10>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _can_v_modal<5:10>
+            LBL: h11
+            ARG0: e3
+            ARG1: h12 ]
+          [ _move_v_1<11:15>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _because+of_p<16:26>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e14
+            ARG2: x16 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<27:46>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ _overflow_v_1<27:38>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: x16 ]
+          [ _sewers/nns_u_unknown<39:46>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h18 QEQ h20 h9 QEQ h11 h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:udef_q<0:4>[BV x6]
+ x6:_car_n_1<0:4>{x PERS 3, NUM pl, IND +}[]
+ e10:neg<5:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_can_v_modal<5:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:_move_v_1<11:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_because+of_p<16:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14, ARG2 x16]
+ _2:udef_q<27:46>[BV x16]
+ e21:_overflow_v_1<27:38>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG1 x16]
+ x16:_sewers/nns_u_unknown<39:46>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:4> BV _car_n_1<0:4>  
+  neg<5:10> ARG1 _can_v_modal<5:10>  
+  _can_v_modal<5:10> ARG1 _move_v_1<11:15>  
+  _move_v_1<11:15> ARG1 _car_n_1<0:4>  
+  _because+of_p<16:26> ARG1 _move_v_1<11:15>  
+  _because+of_p<16:26> ARG2 _sewers/nns_u_unknown<39:46>  
+  udef_q<27:46> BV _sewers/nns_u_unknown<39:46>  
+  _overflow_v_1<27:38> ARG1 _sewers/nns_u_unknown<39:46>  
+  _car_n_1<0:4> PERS 3  
+  _car_n_1<0:4> NUM pl  
+  _car_n_1<0:4> IND +  
+  neg<5:10> SF prop  
+  neg<5:10> TENSE untensed  
+  neg<5:10> MOOD indicative  
+  neg<5:10> PROG -  
+  neg<5:10> PERF -  
+  _can_v_modal<5:10> SF prop  
+  _can_v_modal<5:10> TENSE pres  
+  _can_v_modal<5:10> MOOD indicative  
+  _can_v_modal<5:10> PROG -  
+  _can_v_modal<5:10> PERF -  
+  _move_v_1<11:15> SF prop  
+  _move_v_1<11:15> TENSE untensed  
+  _move_v_1<11:15> MOOD indicative  
+  _move_v_1<11:15> PROG -  
+  _move_v_1<11:15> PERF -  
+  _because+of_p<16:26> SF prop  
+  _because+of_p<16:26> TENSE untensed  
+  _because+of_p<16:26> MOOD indicative  
+  _because+of_p<16:26> PROG -  
+  _because+of_p<16:26> PERF -  
+  _overflow_v_1<27:38> SF prop  
+  _overflow_v_1<27:38> TENSE untensed  
+  _overflow_v_1<27:38> MOOD indicative  
+  _overflow_v_1<27:38> PROG +  
+  _overflow_v_1<27:38> PERF -  
+  _sewers/nns_u_unknown<39:46> PERS 3  
+  _sewers/nns_u_unknown<39:46> NUM pl  
+}
+

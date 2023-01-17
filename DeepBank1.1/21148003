@@ -1,0 +1,143 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:30 h)).
+;;;
+
+[21148003] (1 of 1) {1} `Employees haven't yet been notified.'
+
+[21148003:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Employees", 0, "null", "NNS" 0.8015 "NNPS" 0.1385 "NNP" 0.06)
+  (2, 1, 2, <10:14>, 1, "have", 0, "null", "VBP" 0.9531 "VB" 0.0469)
+  (3, 2, 3, <14:17>, 1, "n’t", 0, "null", "RB" 0.2199 "JJ" 0.2063 "NN" 0.185 "VBN" 0.1543 "VBP" 0.1359 "VB" 0.0556 "JJS" 0.0177 "RBS" 0.0127 "VBD" 0.009 "IN" 0.0038)
+  (4, 3, 4, <18:21>, 1, "yet", 0, "null", "RB" 0.9802 "CC" 0.0198)
+  (5, 4, 5, <22:26>, 1, "been", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <27:35>, 1, "notified", 0, "null", "VBN" 1.0)
+  (7, 6, 7, <35:36>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (79, 0, 1, <0:9>, 1, "Employees", 0, "null", "NNS" 0.8015)
+  (82, 0, 1, <0:9>, 1, "Employees", 0, "null", "NNPS" 0.1385)
+  (85, 0, 1, <0:9>, 1, "employees", 0, "null")
+  (90, 0, 1, <0:9>, 1, "employees", 0, "null")
+  (76, 1, 2, <10:17>, 1, "haven’t", 0, "null")
+  (81, 1, 2, <10:17>, 1, "haven’t", 0, "null", "VBP" 0.9531)
+  (89, 1, 2, <10:17>, 1, "haven’t", 0, "null")
+  (74, 2, 3, <18:21>, 1, "yet", 0, "null")
+  (80, 2, 3, <18:21>, 1, "yet", 0, "null", "RB" 0.9802)
+  (88, 2, 3, <18:21>, 1, "yet", 0, "null")
+  (70, 3, 4, <22:26>, 1, "been", 0, "null")
+  (83, 3, 4, <22:26>, 1, "been", 0, "null", "VBN" 1.0)
+  (86, 3, 4, <22:26>, 1, "been", 0, "null")
+  (72, 4, 5, <27:36>, 1, "notified.", 0, "null")
+  (84, 4, 5, <27:36>, 1, "notified.", 0, "null", "VBN" 1.0)
+  (87, 4, 5, <27:36>, 1, "notified.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1051 SB-HD_MC_C 7.55735 0 5
+  (1044 HDN_BNP_C 0.377828 0 1
+   (1043 HDN_OPTCMP_C 0.0958326 0 1
+    (1042 N_PL_OLR 0.518757 0 1
+     (101 employee_n1@n_pp_c-of_le 0 0 1
+      ("employees" 85
+       "token [ +CARG \"Employees\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"employees\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80151260000000002\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1050 ^HD-CMP_U_C 5.66362 1 5
+   (107 have_fin_aux_neg_3_u@v_vp_have-f-n_le 0.123662 1 2
+    ("haven’t" 76
+     "token [ +CARG #1=\"haven’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9531288\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1049 AJ-HD_INT_C 5.00852 2 5
+    (117 yet_adv3@av_-_i-vp-x_le -0.690299 2 3
+     ("yet" 74
+      "token [ +CARG #1=\"yet\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98023629999999995\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1048 ^HD-CMP_U_C 2.73031 3 5
+     (134 be_c_been@v_prd_been_le 1.11208 3 4
+      ("been" 70
+       "token [ +CARG #1=\"been\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1047 HD_OPTCMP_C 1.27399 4 5
+      (1046 W_PERIOD_PLR 0.621276 4 5
+       (1045 V_PAS_ODLR 0.295437 4 5
+        (169 notify_v1@v_np_le 0 4 5
+         ("notified." 72
+          "token [ +CARG \"notified\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"notified.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "employees"))))
+ (VP (V "haven’t")
+  (VP (ADV "yet") (VP (V "been") (VP (V (V (V "notified."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ udef_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _employee_n_of<0:9>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ neg<10:17>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h10 ]
+          [ _yet_a_1<18:21>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _notify_v_of<27:36>
+            LBL: h12
+            ARG0: e3
+            ARG1: i14
+            ARG2: x6 ]
+          [ parg_d<27:36>
+            LBL: h12
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h10 QEQ h12 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e11:
+ _1:udef_q<0:9>[BV x6]
+ x6:_employee_n_of<0:9>{x PERS 3, NUM pl, IND +}[]
+ e11:neg<10:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e13:_yet_a_1<18:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_notify_v_of-fn.Telling<27:36>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG2-fn.Addressee x6]
+ e15:parg_d<27:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:9> BV _employee_n_of<0:9>  
+  neg<10:17> ARG1 _notify_v_of<27:36>  
+  _yet_a_1<18:21> ARG1 _notify_v_of<27:36>  
+  _notify_v_of<27:36> ARG2 _employee_n_of<0:9>  
+  parg_d<27:36> ARG1 _notify_v_of<27:36>  
+  parg_d<27:36> ARG2 _employee_n_of<0:9>  
+  _employee_n_of<0:9> PERS 3  
+  _employee_n_of<0:9> NUM pl  
+  _employee_n_of<0:9> IND +  
+  neg<10:17> SF prop  
+  neg<10:17> TENSE untensed  
+  neg<10:17> MOOD indicative  
+  neg<10:17> PROG -  
+  neg<10:17> PERF -  
+  _yet_a_1<18:21> SF prop  
+  _yet_a_1<18:21> TENSE untensed  
+  _yet_a_1<18:21> MOOD indicative  
+  _yet_a_1<18:21> PROG -  
+  _yet_a_1<18:21> PERF -  
+  _notify_v_of<27:36> SF prop  
+  _notify_v_of<27:36> TENSE pres  
+  _notify_v_of<27:36> MOOD indicative  
+  _notify_v_of<27:36> PROG -  
+  _notify_v_of<27:36> PERF +  
+  parg_d<27:36> SF prop  
+  parg_d<27:36> TENSE untensed  
+  parg_d<27:36> MOOD indicative  
+  parg_d<27:36> PROG -  
+  parg_d<27:36> PERF -  
+}
+

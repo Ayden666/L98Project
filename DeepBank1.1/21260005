@@ -1,0 +1,83 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:31 h)).
+;;;
+
+[21260005] (1 of 1) {1} `(Braniff declined).'
+
+[21260005:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "(", 0, "null", "(" 1.0)
+  (2, 1, 2, <1:8>, 1, "Braniff", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:17>, 1, "declined", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:18>, 1, ")", 0, "null", ")" 1.0)
+  (5, 4, 5, <18:19>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:8>, 1, "(Braniff", 0, "null")
+  (55, 0, 1, <0:8>, 1, "(braniff", 0, "null")
+  (57, 0, 1, <0:8>, 1, "(braniff", 0, "null")
+  (52, 1, 2, <9:19>, 1, "declined).", 0, "null")
+  (54, 1, 2, <9:19>, 1, "declined).", 0, "null", "VBD" 1.0)
+  (56, 1, 2, <9:19>, 1, "declined).", 0, "null")
+>
+
+(ROOT_STRICT
+ (300 SB-HD_MC_C 0.673154 0 2
+  (295 HDN_BNP-PN_C 0.156131 0 1
+   (294 W_LPAREN_PLR 0.600231 0 1
+    (293 N_SG_ILR 0.194035 0 1
+     (59 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("(Braniff" 53
+       "token [ +CARG \"Braniff\" +CLASS proper_ne +FORM \"(Braniff\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (299 ^HD_OPTCMP_C 0.910157 1 2
+   (298 W_PERIOD_PLR 0.606168 1 2
+    (297 W_RPAREN_PLR -0.0706632 1 2
+     (296 V_PST_OLR -0.0706632 1 2
+      (77 decline_v1@v_np*_le 0 1 2
+       ("declined)." 52
+        "token [ +CARG \"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"declined).\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "(Braniff")))) (VP (V (V (V (V "declined)."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Braniff" ]
+          [ _decline_v_1<9:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:8>[BV x6]
+ x6:named<0:8>("Braniff"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<9:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:8> BV named<0:8>(Braniff)  
+  _decline_v_1<9:19> ARG1 named<0:8>(Braniff)  
+  named<0:8>(Braniff) PERS 3  
+  named<0:8>(Braniff) NUM sg  
+  named<0:8>(Braniff) IND +  
+  _decline_v_1<9:19> SF prop  
+  _decline_v_1<9:19> TENSE past  
+  _decline_v_1<9:19> MOOD indicative  
+  _decline_v_1<9:19> PROG -  
+  _decline_v_1<9:19> PERF -  
+}
+

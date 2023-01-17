@@ -1,0 +1,81 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:30 h)).
+;;;
+
+[21760058] (1 of 1) {1} `"Oh no.'
+
+[21760058:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "Oh", 0, "null", "UH" 1.0)
+  (3, 2, 3, <4:6>, 1, "no", 0, "null", "UH" 1.0)
+  (4, 3, 4, <6:7>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (43, 0, 1, <0:3>, 1, "“oh", 0, "null")
+  (45, 0, 1, <0:3>, 1, "“oh", 0, "null")
+  (42, 1, 2, <4:7>, 1, "no.", 0, "null")
+  (44, 1, 2, <4:7>, 1, "no.", 0, "null")
+>
+
+(ROOT_FRAG
+ (170 AJ-HD_SCP_C -0.375482 0 2
+  (167 W_DQLEFT_PLR -0.375482 0 1
+   (48 oh_root_pre@av_-_s-cp-mc-pr_le 0 0 1
+    ("“oh" 43
+     "token [ +CARG \"Oh\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“oh\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (169 ^R_SCP-FRG_C 0 1 2
+   (168 W_PERIOD_PLR 0 1 2
+    (53 no_disc_root@av_-_s-cp-mc-pr_le 0 1 2
+     ("no." 42
+      "token [ +CARG \"no\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"no.\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (ADV (ADV "“oh")) (XP (ADV (ADV "no."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _oh_a_1<0:3>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ unknown<4:7>
+            LBL: h6
+            ARG0: e3
+            ARG: u7 ]
+          [ _no_a_1<4:7>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ] >
+   HCONS: < h9 QEQ h6 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e5:
+ e5:_oh_a_1<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e10]
+ e3:unknown<4:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e10:_no_a_1<4:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _oh_a_1<0:3> ARG1 _no_a_1<4:7>  
+  _no_a_1<4:7> ARG1 unknown<4:7>  
+  _oh_a_1<0:3> SF prop  
+  _oh_a_1<0:3> TENSE untensed  
+  _oh_a_1<0:3> MOOD indicative  
+  _oh_a_1<0:3> PROG -  
+  _oh_a_1<0:3> PERF -  
+  unknown<4:7> SF prop  
+  unknown<4:7> TENSE untensed  
+  unknown<4:7> MOOD indicative  
+  unknown<4:7> PROG -  
+  unknown<4:7> PERF -  
+  _no_a_1<4:7> SF prop  
+  _no_a_1<4:7> TENSE untensed  
+  _no_a_1<4:7> MOOD indicative  
+  _no_a_1<4:7> PROG -  
+  _no_a_1<4:7> PERF -  
+}
+

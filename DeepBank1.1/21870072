@@ -1,0 +1,153 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:38 h)).
+;;;
+
+[21870072] (1 of 1) {1} `Corporate profits may also dip initially.'
+
+[21870072:1] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Corporate", 0, "null", "JJ" 0.9773 "NNP" 0.0227)
+  (2, 1, 2, <10:17>, 1, "profits", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <18:21>, 1, "may", 0, "null", "MD" 1.0)
+  (4, 3, 4, <22:26>, 1, "also", 0, "null", "RB" 1.0)
+  (5, 4, 5, <27:30>, 1, "dip", 0, "null", "VB" 1.0)
+  (6, 5, 6, <31:40>, 1, "initially", 0, "null", "RB" 1.0)
+  (7, 6, 7, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (79, 0, 1, <0:9>, 1, "Corporate", 0, "null", "JJ" 0.9773)
+  (84, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (90, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (68, 1, 2, <10:17>, 1, "profits", 0, "null")
+  (80, 1, 2, <10:17>, 1, "profits", 0, "null", "NNS" 1.0)
+  (85, 1, 2, <10:17>, 1, "profits", 0, "null")
+  (70, 2, 3, <18:21>, 1, "may", 0, "null")
+  (86, 2, 3, <18:21>, 1, "may", 0, "null")
+  (72, 3, 4, <22:26>, 1, "also", 0, "null")
+  (81, 3, 4, <22:26>, 1, "also", 0, "null", "RB" 1.0)
+  (87, 3, 4, <22:26>, 1, "also", 0, "null")
+  (74, 4, 5, <27:30>, 1, "dip", 0, "null")
+  (82, 4, 5, <27:30>, 1, "dip", 0, "null", "VB" 1.0)
+  (88, 4, 5, <27:30>, 1, "dip", 0, "null")
+  (76, 5, 6, <31:41>, 1, "initially.", 0, "null")
+  (83, 5, 6, <31:41>, 1, "initially.", 0, "null", "RB" 1.0)
+  (89, 5, 6, <31:41>, 1, "initially.", 0, "null")
+>
+
+(ROOT_STRICT
+ (886 SB-HD_MC_C 5.16439 0 6
+  (875 HDN_BNP_C 1.58835 0 2
+   (874 AJ-HDN_NORM_C 0.853849 0 2
+    (92 corporate_isect@aj_-_i_le 0.334608 0 1
+     ("corporate" 84
+      "token [ +CARG \"Corporate\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"corporate\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97726539999999995\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (873 ^N_PL_OLR -0.074035 1 2
+     (98 profit_n1@n_-_mc_le 0.110491 1 2
+      ("profits" 68
+       "token [ +CARG #1=\"profits\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (885 ^HD-AJ_INT-UNSL_C 2.73594 2 6
+   (884 ^HD-CMP_U_C 2.18782 2 5
+    (135 may_aux_pos@v_vp_mdl-p_le 0.732523 2 3
+     ("may" 70
+      "token [ +CARG #1=\"may\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (883 AJ-HD_SCP-XP_C 0.411104 3 5
+     (138 also_adv1@av_-_s-vp-x_le -0.0123147 3 4
+      ("also" 72
+       "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (877 ^HD_OPTCMP_C 0.364228 4 5
+      (876 V_N3S-BSE_ILR 0.0515359 4 5
+       (156 dip_v1@v_pp*_dir_le 0 4 5
+        ("dip" 74
+         "token [ +CARG #1=\"dip\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (878 W_PERIOD_PLR 0.496257 5 6
+    (160 initially_adv@av_-_i-vp_le 0 5 6
+     ("initially." 76
+      "token [ +CARG \"initially\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"initially.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (AP "corporate") (N (N "profits"))))
+ (VP (VP (V "may") (VP (ADV "also") (VP (V (V "dip")))))
+  (ADV (ADV "initially."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _corporate_a_1<0:9>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _profit_n_1<10:17>
+            LBL: h8
+            ARG0: x6 ]
+          [ _may_v_modal<18:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: h10 ]
+          [ _also_a_1<22:26>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h13 ]
+          [ _dip_v_1<27:30>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _initial_a_1<31:41>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h13 QEQ h14 h10 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:17>[BV x6]
+ e9:_corporate_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_profit_n_1<10:17>{x PERS 3, NUM pl}[]
+ e3:_may_v_modal<18:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_also_a_1<22:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e15]
+ e15:_dip_v_1<27:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e16:_initial_a_1<31:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  udef_q<0:17> BV _profit_n_1<10:17>  
+  _corporate_a_1<0:9> ARG1 _profit_n_1<10:17>  
+  _may_v_modal<18:21> ARG1 _also_a_1<22:26>  
+  _also_a_1<22:26> ARG1 _dip_v_1<27:30>  
+  _dip_v_1<27:30> ARG1 _profit_n_1<10:17>  
+  _initial_a_1<31:41> ARG1 _may_v_modal<18:21>  
+  _corporate_a_1<0:9> SF prop  
+  _corporate_a_1<0:9> TENSE untensed  
+  _corporate_a_1<0:9> MOOD indicative  
+  _corporate_a_1<0:9> PROG -  
+  _corporate_a_1<0:9> PERF -  
+  _profit_n_1<10:17> PERS 3  
+  _profit_n_1<10:17> NUM pl  
+  _may_v_modal<18:21> SF prop  
+  _may_v_modal<18:21> TENSE pres  
+  _may_v_modal<18:21> MOOD indicative  
+  _may_v_modal<18:21> PROG -  
+  _may_v_modal<18:21> PERF -  
+  _also_a_1<22:26> SF prop  
+  _also_a_1<22:26> TENSE untensed  
+  _also_a_1<22:26> MOOD indicative  
+  _also_a_1<22:26> PROG -  
+  _also_a_1<22:26> PERF -  
+  _dip_v_1<27:30> SF prop  
+  _dip_v_1<27:30> TENSE untensed  
+  _dip_v_1<27:30> MOOD indicative  
+  _dip_v_1<27:30> PROG -  
+  _dip_v_1<27:30> PERF -  
+  _initial_a_1<31:41> SF prop  
+  _initial_a_1<31:41> TENSE untensed  
+  _initial_a_1<31:41> MOOD indicative  
+  _initial_a_1<31:41> PROG -  
+  _initial_a_1<31:41> PERF -  
+}
+

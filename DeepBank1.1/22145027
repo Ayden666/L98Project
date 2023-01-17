@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:20 h)).
+;;;
+
+[22145027] (1 of 1) {1} `Many companies are hesitating.'
+
+[22145027:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Many", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <5:14>, 1, "companies", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <15:18>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <19:29>, 1, "hesitating", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:4>, 1, "Many", 0, "null", "JJ" 1.0)
+  (59, 0, 1, <0:4>, 1, "many", 0, "null")
+  (63, 0, 1, <0:4>, 1, "many", 0, "null")
+  (50, 1, 2, <5:14>, 1, "companies", 0, "null")
+  (56, 1, 2, <5:14>, 1, "companies", 0, "null", "NNS" 1.0)
+  (60, 1, 2, <5:14>, 1, "companies", 0, "null")
+  (52, 2, 3, <15:18>, 1, "are", 0, "null")
+  (57, 2, 3, <15:18>, 1, "are", 0, "null", "VBP" 1.0)
+  (61, 2, 3, <15:18>, 1, "are", 0, "null")
+  (54, 3, 4, <19:30>, 1, "hesitating.", 0, "null")
+  (58, 3, 4, <19:30>, 1, "hesitating.", 0, "null", "VBG" 1.0)
+  (62, 3, 4, <19:30>, 1, "hesitating.", 0, "null")
+>
+
+(ROOT_STRICT
+ (482 SB-HD_MC_C 3.74104 0 4
+  (478 HDN_BNP_C 1.92701 0 2
+   (477 AJ-HDN_NORM_C 1.19251 0 2
+    (67 many_a1@aj_-_i-many_le 0.0576749 0 1
+     ("many" 59
+      "token [ +CARG \"Many\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"many\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (476 ^HDN_OPTCMP_C 0.52192 1 2
+     (475 N_PL_OLR 0.845844 1 2
+      (87 company_n1@n_pp_mc-of_le 0.222137 1 2
+       ("companies" 50
+        "token [ +CARG #1=\"companies\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (481 ^HD-CMP_U_C 0.298122 2 4
+   (110 be_c_are@v_prd_are_le 1.27762 2 3
+    ("are" 52
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (480 W_PERIOD_PLR -0.894944 3 4
+    (479 V_PRP_OLR -0.858183 3 4
+     (118 hesitate_v1@v_-_le 0 3 4
+      ("hesitating." 54
+       "token [ +CARG \"hesitating\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"hesitating.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (ADJ "many") (N (N (N "companies")))))
+ (VP (V "are") (VP (VP (V "hesitating.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ much-many_a<0:4>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _company_n_of<5:14>
+            LBL: h8
+            ARG0: x6
+            ARG1: i10 ]
+          [ _hesitate_v_1<19:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:14>[BV x6]
+ e9:much-many_a<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_company_n_of<5:14>{x PERS 3, NUM pl, IND +}[]
+ e3:_hesitate_v_1<19:30>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:14> BV _company_n_of<5:14>  
+  much-many_a<0:4> ARG1 _company_n_of<5:14>  
+  _hesitate_v_1<19:30> ARG1 _company_n_of<5:14>  
+  much-many_a<0:4> SF prop  
+  much-many_a<0:4> TENSE untensed  
+  much-many_a<0:4> MOOD indicative  
+  much-many_a<0:4> PROG -  
+  much-many_a<0:4> PERF -  
+  _company_n_of<5:14> PERS 3  
+  _company_n_of<5:14> NUM pl  
+  _company_n_of<5:14> IND +  
+  _hesitate_v_1<19:30> SF prop  
+  _hesitate_v_1<19:30> TENSE pres  
+  _hesitate_v_1<19:30> MOOD indicative  
+  _hesitate_v_1<19:30> PROG +  
+  _hesitate_v_1<19:30> PERF -  
+}
+

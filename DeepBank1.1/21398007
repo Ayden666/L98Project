@@ -1,0 +1,145 @@
+;;;
+;;; Redwoods export of `wsj13e';
+;;; (wsun@wsun; 22-jan-2018 (22:51 h)).
+;;;
+
+[21398007] (1 of 1) {1} `TV evangelist: salesparson.'
+
+[21398007:1] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "TV", 0, "null", "NN" 0.8286 "NNP" 0.1714)
+  (2, 1, 2, <3:13>, 1, "evangelist", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:14>, 1, ":", 0, "null", ":" 1.0)
+  (4, 3, 4, <15:26>, 1, "salesparson", 0, "null", "NN" 1.0)
+  (5, 4, 5, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:2>, 1, "TV", 0, "null")
+  (59, 0, 1, <0:2>, 1, "TV", 0, "null", "NN" 0.8286)
+  (62, 0, 1, <0:2>, 1, "TV", 0, "null", "NNP" 0.1714)
+  (63, 0, 1, <0:2>, 1, "tv", 0, "null")
+  (64, 0, 1, <0:2>, 1, "tv", 0, "null")
+  (52, 1, 2, <3:13>, 1, "evangelist", 0, "null")
+  (60, 1, 2, <3:13>, 1, "evangelist", 0, "null", "NN" 1.0)
+  (65, 1, 2, <3:13>, 1, "evangelist", 0, "null")
+  (54, 2, 3, <13:14>, 1, ":", 0, "null")
+  (66, 2, 3, <13:14>, 1, ":", 0, "null")
+  (56, 3, 4, <15:27>, 1, "salesparson.", 0, "null")
+  (61, 3, 4, <15:27>, 1, "salesparson.", 0, "null", "NN" 1.0)
+  (67, 3, 4, <15:27>, 1, "salesparson.", 0, "null")
+>
+
+(ROOT_FRAG
+ (313 NP_NB-FRG_C 1.31166 0 4
+  (312 HDN-AJ_REDREL_C 2.39488 0 4
+   (310 ^N-HDN_CPD_C 2.40162 0 2
+    (72 tv_n1@n_-_mc_le 0.094127 0 1
+     ("tv" 63
+      "token [ +CARG \"TV\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"tv\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82864970000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (309 ^N_SG_ILR 0.772046 1 2
+     (73 evangelist_n1@n_-_c_le 0 1 2
+      ("evangelist" 52
+       "token [ +CARG #1=\"evangelist\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (311 HD-CMP_U_C -0.575443 2 4
+    (83 colon_namely_nbar@p_nb_i_le 0.515914 2 3
+     (":" 54
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (306 W_PERIOD_PLR -0.790555 3 4
+     (305 N_MS-CNT_ILR -0.686584 3 4
+      (113 generic_mass_count_noun@n_-_mc-unk_le 0 3 4
+       ("salesparson." 61
+        "token [ +CARG \"salesparson\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"salesparson.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED \"_salesparson/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(XP
+ (N (N (N "tv") (N (N "evangelist")))
+  (PP (P ":") (N (N (N "salesparson."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:27>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:27>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 ]
+          [ udef_q<0:2>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _tv_n_1<0:2>
+            LBL: h14
+            ARG0: x9 ]
+          [ _evangelist_n_1<3:13>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<13:14>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<13:14>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ _salesparson/nn_u_unknown<15:27>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:27>[BV x4]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:2>[BV x9]
+ x9:_tv_n_1<0:2>{x}[]
+ x4:_evangelist_n_1<3:13>{x PERS 3, NUM sg, IND +}[]
+ e15:_colon_p_namely<13:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x16]
+ _3:udef_q<13:14>[BV x16]
+ x16:_salesparson/nn_u_unknown<15:27>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:27> ARG _evangelist_n_1<3:13>  
+  udef_q<0:27> BV _evangelist_n_1<3:13>  
+  compound<0:13> ARG1 _evangelist_n_1<3:13>  
+  compound<0:13> ARG2 _tv_n_1<0:2>  
+  udef_q<0:2> BV _tv_n_1<0:2>  
+  _colon_p_namely<13:14> ARG1 _evangelist_n_1<3:13>  
+  _colon_p_namely<13:14> ARG2 _salesparson/nn_u_unknown<15:27>  
+  udef_q<13:14> BV _salesparson/nn_u_unknown<15:27>  
+  unknown<0:27> SF prop  
+  unknown<0:27> TENSE untensed  
+  unknown<0:27> MOOD indicative  
+  unknown<0:27> PROG -  
+  unknown<0:27> PERF -  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _evangelist_n_1<3:13> PERS 3  
+  _evangelist_n_1<3:13> NUM sg  
+  _evangelist_n_1<3:13> IND +  
+  _colon_p_namely<13:14> SF prop  
+  _colon_p_namely<13:14> TENSE untensed  
+  _colon_p_namely<13:14> MOOD indicative  
+  _colon_p_namely<13:14> PROG -  
+  _colon_p_namely<13:14> PERF -  
+  _salesparson/nn_u_unknown<15:27> PERS 3  
+  _salesparson/nn_u_unknown<15:27> NUM sg  
+}
+

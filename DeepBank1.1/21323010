@@ -1,0 +1,145 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:06 h)).
+;;;
+
+[21323010] (1 of 1) {1} `Negative answers crackle back.'
+
+[21323010:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Negative", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <9:16>, 1, "answers", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <17:24>, 1, "crackle", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <25:29>, 1, "back", 0, "null", "RB" 0.7575 "RP" 0.1986 "JJ" 0.034 "NN" 0.0099)
+  (5, 4, 5, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:8>, 1, "Negative", 0, "null", "JJ" 1.0)
+  (65, 0, 1, <0:8>, 1, "negative", 0, "null")
+  (69, 0, 1, <0:8>, 1, "negative", 0, "null")
+  (56, 1, 2, <9:16>, 1, "answers", 0, "null")
+  (63, 1, 2, <9:16>, 1, "answers", 0, "null", "NNS" 1.0)
+  (66, 1, 2, <9:16>, 1, "answers", 0, "null")
+  (58, 2, 3, <17:24>, 1, "crackle", 0, "null")
+  (64, 2, 3, <17:24>, 1, "crackle", 0, "null", "VBP" 1.0)
+  (67, 2, 3, <17:24>, 1, "crackle", 0, "null")
+  (59, 3, 4, <25:30>, 1, "back.", 0, "null")
+  (61, 3, 4, <25:30>, 1, "back.", 0, "null", "RB" 0.7575)
+  (68, 3, 4, <25:30>, 1, "back.", 0, "null")
+>
+
+(ROOT_STRICT
+ (427 SB-HD_MC_C 2.84798 0 4
+  (421 HDN_BNP_C 1.9671 0 2
+   (420 AJ-HDN_NORM_C 1.2326 0 2
+    (71 negative_isect@aj_-_i_le 0 0 1
+     ("negative" 65
+      "token [ +CARG \"Negative\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"negative\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (419 ^HDN_OPTCMP_C 0.391985 1 2
+     (418 N_PL_OLR 0.715909 1 2
+      (74 answer_n1@n_pp_c-ns_le 0 1 2
+       ("answers" 56
+        "token [ +CARG #1=\"answers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (426 ^HD-AJ_INT-UNSL_C 0.040774 2 4
+   (422 ^V_N3S-BSE_ILR -0.11316 2 3
+    (93 crackle_v1@v_-_le 0 2 3
+     ("crackle" 58
+      "token [ +CARG #1=\"crackle\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (425 NP_ADV_C -0.353001 3 4
+    (424 HDN_BNP-QNT_C -0.299409 3 4
+     (423 W_PERIOD_PLR -0.763199 3 4
+      (100 back_nom@n_-_ad-loc_le 0 3 4
+       ("back." 59
+        "token [ +CARG \"back\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"back.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75745689999999999\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (AP "negative") (N (N (N "answers")))))
+ (VP (VP (V "crackle")) (PP (NP (N (N "back."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _negative_a_1<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _answer_n_to<9:16>
+            LBL: h8
+            ARG0: x6
+            ARG1: i10 ]
+          [ _crackle_v_1<17:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<25:30>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x12 [ x PERS: 3 NUM: SG ] ]
+          [ place_n<25:30>
+            LBL: h13
+            ARG0: x12 ]
+          [ def_implicit_q<25:30>
+            LBL: h14
+            ARG0: x12
+            RSTR: h15
+            BODY: h16 ]
+          [ _back_p<25:30>
+            LBL: h13
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x12 ] >
+   HCONS: < h15 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:16>[BV x6]
+ e9:_negative_a_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_answer_n_to<9:16>{x PERS 3, NUM pl, IND +}[]
+ e3:_crackle_v_1-fn.Motion_noise<17:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Theme x6]
+ e11:loc_nonsp<25:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x12]
+ x12:place_n<25:30>{x PERS 3, NUM sg}[]
+ _2:def_implicit_q<25:30>[BV x12]
+ e17:_back_p<25:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x12]
+}
+
+{
+  udef_q<0:16> BV _answer_n_to<9:16>  
+  _negative_a_1<0:8> ARG1 _answer_n_to<9:16>  
+  _crackle_v_1<17:24> ARG1 _answer_n_to<9:16>  
+  loc_nonsp<25:30> ARG1 _crackle_v_1<17:24>  
+  loc_nonsp<25:30> ARG2 place_n<25:30>  
+  def_implicit_q<25:30> BV place_n<25:30>  
+  _back_p<25:30> ARG1 place_n<25:30>  
+  _negative_a_1<0:8> SF prop  
+  _negative_a_1<0:8> TENSE untensed  
+  _negative_a_1<0:8> MOOD indicative  
+  _negative_a_1<0:8> PROG -  
+  _negative_a_1<0:8> PERF -  
+  _answer_n_to<9:16> PERS 3  
+  _answer_n_to<9:16> NUM pl  
+  _answer_n_to<9:16> IND +  
+  _crackle_v_1<17:24> SF prop  
+  _crackle_v_1<17:24> TENSE pres  
+  _crackle_v_1<17:24> MOOD indicative  
+  _crackle_v_1<17:24> PROG -  
+  _crackle_v_1<17:24> PERF -  
+  loc_nonsp<25:30> SF prop  
+  loc_nonsp<25:30> TENSE untensed  
+  loc_nonsp<25:30> MOOD indicative  
+  loc_nonsp<25:30> PROG -  
+  loc_nonsp<25:30> PERF -  
+  place_n<25:30> PERS 3  
+  place_n<25:30> NUM sg  
+  _back_p<25:30> SF prop  
+  _back_p<25:30> TENSE untensed  
+  _back_p<25:30> MOOD indicative  
+  _back_p<25:30> PROG -  
+  _back_p<25:30> PERF -  
+}
+

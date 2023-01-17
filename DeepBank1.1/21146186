@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146186] (1 of 1) {1} `The farmer leaves.'
+
+[21146186:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "farmer", 0, "null", "NN" 1.0)
+  (3, 2, 3, <11:17>, 1, "leaves", 0, "null", "VBZ" 0.7222 "NNS" 0.2778)
+  (4, 3, 4, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (49, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 0, 1, <0:3>, 1, "the", 0, "null")
+  (43, 1, 2, <4:10>, 1, "farmer", 0, "null")
+  (47, 1, 2, <4:10>, 1, "farmer", 0, "null", "NN" 1.0)
+  (50, 1, 2, <4:10>, 1, "farmer", 0, "null")
+  (44, 2, 3, <11:18>, 1, "leaves.", 0, "null")
+  (46, 2, 3, <11:18>, 1, "leaves.", 0, "null", "VBZ" 0.7222)
+  (48, 2, 3, <11:18>, 1, "leaves.", 0, "null", "NNS" 0.2778)
+  (51, 2, 3, <11:18>, 1, "leaves.", 0, "null")
+>
+
+(ROOT_STRICT
+ (438 SB-HD_MC_C -0.640316 0 3
+  (434 SP-HD_N_C 2.14135 0 2
+   (65 the_1@d_-_the_le 0.244361 0 1
+    ("the" 49
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (433 ^N_SG_ILR 0.055293 1 2
+    (90 farmer_n1@n_-_c_le 0 1 2
+     ("farmer" 43
+      "token [ +CARG #1=\"farmer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (437 ^HD_OPTCMP_C -2.70871 2 3
+   (436 W_PERIOD_PLR -3.0127 2 3
+    (435 V_3S-FIN_OLR -1.58721 2 3
+     (122 leave_v1@v_np*_le 0 2 3
+      ("leaves." 44
+       "token [ +CARG \"leaves\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"leaves.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72220340000000005\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET "the") (N (N "farmer"))) (VP (V (V (V "leaves.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _farmer_n_1<4:10>
+            LBL: h8
+            ARG0: x6 ]
+          [ _leave_v_1<11:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_farmer_n_1<4:10>{x PERS 3, NUM sg, IND +}[]
+ e3:_leave_v_1<11:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _farmer_n_1<4:10>  
+  _leave_v_1<11:18> ARG1 _farmer_n_1<4:10>  
+  _farmer_n_1<4:10> PERS 3  
+  _farmer_n_1<4:10> NUM sg  
+  _farmer_n_1<4:10> IND +  
+  _leave_v_1<11:18> SF prop  
+  _leave_v_1<11:18> TENSE pres  
+  _leave_v_1<11:18> MOOD indicative  
+  _leave_v_1<11:18> PROG -  
+  _leave_v_1<11:18> PERF -  
+}
+

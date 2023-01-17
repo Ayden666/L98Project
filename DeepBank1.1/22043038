@@ -1,0 +1,139 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:17 h)).
+;;;
+
+[22043038] (1 of 1) {1} `Short-term rates increased.'
+
+[22043038:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Short-term", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <11:16>, 1, "rates", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <17:26>, 1, "increased", 0, "null", "VBD" 0.6786 "VBN" 0.273 "JJ" 0.0485)
+  (4, 3, 4, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:10>, 1, "Short-", 0, "null")
+  (62, 0, 1, <0:10>, 1, "short-", 0, "null")
+  (66, 0, 1, <0:10>, 1, "short-", 0, "null")
+  (54, 1, 2, <0:10>, 1, "term", 0, "null")
+  (61, 1, 2, <0:10>, 1, "term", 0, "null", "JJ" 1.0)
+  (64, 1, 2, <0:10>, 1, "term", 0, "null")
+  (52, 2, 3, <11:16>, 1, "rates", 0, "null")
+  (60, 2, 3, <11:16>, 1, "rates", 0, "null", "NNS" 1.0)
+  (63, 2, 3, <11:16>, 1, "rates", 0, "null")
+  (55, 3, 4, <17:27>, 1, "increased.", 0, "null")
+  (58, 3, 4, <17:27>, 1, "increased.", 0, "null", "VBD" 0.6786)
+  (59, 3, 4, <17:27>, 1, "increased.", 0, "null", "VBN" 0.273)
+  (65, 3, 4, <17:27>, 1, "increased.", 0, "null")
+>
+
+(ROOT_STRICT
+ (813 SB-HD_MC_C 6.62869 0 4
+  (810 HDN_BNP_C 6.72991 0 3
+   (809 N-HDN_CPD_C 6.10916 0 3
+    (806 XP_BRCK-PR_C 3.99425 0 2
+     (805 AJ-HDN_NORM_C 3.17743 0 2
+      (803 W_HYPHEN_PLR 1.2324 0 1
+       (802 J_ATT_DLR 0.810801 0 1
+        (71 short_a1@aj_pp_i-er_le 0.596445 0 1
+         ("short-" 62
+          "token [ +CARG \"Short-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"short-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"))))
+      (804 ^HDN_OPTCMP_C 0.794721 1 2
+       (87 term_n1@n_pp_c-of_le -0.528178 1 2
+        ("term" 54
+         "token [ +CARG #1=\"term\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (808 ^HDN_OPTCMP_C 1.59664 2 3
+     (807 N_PL_OLR 1.35598 2 3
+      (103 rate_n1@n_pp_mc-of_le 0.88296 2 3
+       ("rates" 52
+        "token [ +CARG #1=\"rates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (812 ^W_PERIOD_PLR 0.328934 3 4
+   (811 V_PST_OLR 0.369482 3 4
+    (147 increase_v1@v_-_unacc_le 0 3 4
+     ("increased." 55
+      "token [ +CARG \"increased\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"increased.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67858499999999999\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S
+ (NP
+  (N (N (N (AP (AP (ADJ "short-"))) (N (N "term"))))
+   (N (N (N "rates")))))
+ (VP (VP (V "increased."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _short_a_of<0:10>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: i16 ]
+          [ _term_n_of<0:10>
+            LBL: h14
+            ARG0: x9
+            ARG1: i17 ]
+          [ _rate_n_of<11:16>
+            LBL: h8
+            ARG0: x6
+            ARG1: i18 ]
+          [ _increase_v_1<17:27>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:10>[BV x9]
+ e15:_short_a_of<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_term_n_of<0:10>{x IND +}[]
+ x6:_rate_n_of<11:16>{x PERS 3, NUM pl}[]
+ e3:_increase_v_1<17:27>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:16> BV _rate_n_of<11:16>  
+  compound<0:16> ARG1 _rate_n_of<11:16>  
+  compound<0:16> ARG2 _term_n_of<0:10>  
+  udef_q<0:10> BV _term_n_of<0:10>  
+  _short_a_of<0:10> ARG1 _term_n_of<0:10>  
+  _increase_v_1<17:27> ARG1 _rate_n_of<11:16>  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  _short_a_of<0:10> SF prop  
+  _short_a_of<0:10> TENSE untensed  
+  _short_a_of<0:10> MOOD indicative  
+  _short_a_of<0:10> PROG -  
+  _short_a_of<0:10> PERF -  
+  _term_n_of<0:10> IND +  
+  _rate_n_of<11:16> PERS 3  
+  _rate_n_of<11:16> NUM pl  
+  _increase_v_1<17:27> SF prop  
+  _increase_v_1<17:27> TENSE past  
+  _increase_v_1<17:27> MOOD indicative  
+  _increase_v_1<17:27> PROG -  
+  _increase_v_1<17:27> PERF -  
+}
+

@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj00b';
+;;; (wsun@wsun; 22-jan-2018 (10:26 h)).
+;;;
+
+[20044109] (1 of 1) {1} `Mrs. Yeargin declined.'
+
+[20044109:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Mrs.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:12>, 1, "Yeargin", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:21>, 1, "declined", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:4>, 1, "Mrs.", 0, "null")
+  (50, 0, 1, <0:4>, 1, "mrs.", 0, "null")
+  (53, 0, 1, <0:4>, 1, "mrs.", 0, "null")
+  (38, 1, 2, <5:12>, 1, "Yeargin", 0, "null")
+  (47, 1, 2, <5:12>, 1, "Yeargin", 0, "null", "NNP" 1.0)
+  (49, 1, 2, <5:12>, 1, "yeargin", 0, "null")
+  (51, 1, 2, <5:12>, 1, "yeargin", 0, "null")
+  (45, 2, 3, <13:22>, 1, "declined.", 0, "null")
+  (48, 2, 3, <13:22>, 1, "declined.", 0, "null", "VBD" 1.0)
+  (52, 2, 3, <13:22>, 1, "declined.", 0, "null")
+>
+
+(ROOT_STRICT
+ (402 SB-HD_MC_C 3.45594 0 3
+  (398 HDN_BNP-PN_C 3.41043 0 2
+   (397 NP-HDN_TTL-CPD_C 2.72449 0 2
+    (395 N_SG_ILR 1.57757 0 1
+     (71 missus_abb_n2@n_-_c-nochd_le 0.0584842 0 1
+      ("mrs." 50
+       "token [ +CARG \"Mrs.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mrs.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (396 ^N_SG_ILR -0.259177 1 2
+     (78 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Yeargin" 38
+       "token [ +CARG #1=\"Yeargin\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (401 ^HD_OPTCMP_C 0.438642 2 3
+   (400 W_PERIOD_PLR 0.134653 2 3
+    (399 V_PST_OLR -0.555709 2 3
+     (104 decline_v1@v_np*_le 0 2 3
+      ("declined." 45
+       "token [ +CARG \"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"declined.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N "mrs.")) (N (N "Yeargin"))))
+ (VP (V (V (V "declined.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _missus_n_1<0:4>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<5:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "Yeargin" ]
+          [ _decline_v_1<13:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p15 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:4>[BV x9]
+ x9:_missus_n_1<0:4>{x PERS 3, NUM sg, IND +}[]
+ x6:named<5:12>("Yeargin"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<13:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:12> BV named<5:12>(Yeargin)  
+  compound<0:12> ARG1 named<5:12>(Yeargin)  
+  compound<0:12> ARG2 _missus_n_1<0:4>  
+  udef_q<0:4> BV _missus_n_1<0:4>  
+  _decline_v_1<13:22> ARG1 named<5:12>(Yeargin)  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _missus_n_1<0:4> PERS 3  
+  _missus_n_1<0:4> NUM sg  
+  _missus_n_1<0:4> IND +  
+  named<5:12>(Yeargin) PERS 3  
+  named<5:12>(Yeargin) NUM sg  
+  named<5:12>(Yeargin) IND +  
+  _decline_v_1<13:22> SF prop  
+  _decline_v_1<13:22> TENSE past  
+  _decline_v_1<13:22> MOOD indicative  
+  _decline_v_1<13:22> PROG -  
+  _decline_v_1<13:22> PERF -  
+}
+

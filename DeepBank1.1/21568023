@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:29 h)).
+;;;
+
+[21568023] (1 of 1) {1} `Moreover, ostentation is appreciated.'
+
+[21568023:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Moreover", 0, "null", "RB" 1.0)
+  (2, 1, 2, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <10:21>, 1, "ostentation", 0, "null", "NN" 1.0)
+  (4, 3, 4, <22:24>, 1, "is", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <25:36>, 1, "appreciated", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (67, 0, 1, <0:9>, 1, "Moreover,", 0, "null", "RB" 1.0)
+  (69, 0, 1, <0:9>, 1, "moreover,", 0, "null")
+  (73, 0, 1, <0:9>, 1, "moreover,", 0, "null")
+  (58, 1, 2, <10:21>, 1, "ostentation", 0, "null")
+  (65, 1, 2, <10:21>, 1, "ostentation", 0, "null", "NN" 1.0)
+  (70, 1, 2, <10:21>, 1, "ostentation", 0, "null")
+  (60, 2, 3, <22:24>, 1, "is", 0, "null")
+  (66, 2, 3, <22:24>, 1, "is", 0, "null", "VBZ" 1.0)
+  (71, 2, 3, <22:24>, 1, "is", 0, "null")
+  (64, 3, 4, <25:37>, 1, "appreciated.", 0, "null")
+  (68, 3, 4, <25:37>, 1, "appreciated.", 0, "null", "VBN" 1.0)
+  (72, 3, 4, <25:37>, 1, "appreciated.", 0, "null")
+>
+
+(ROOT_STRICT
+ (885 AJ-HD_SCP_C 5.1088 0 4
+  (877 W_COMMA_PLR 2.57723 0 1
+   (81 moreover_root_pre@av_-_s-cp-nsp-pr_le 0.227726 0 1
+    ("moreover," 69
+     "token [ +CARG \"Moreover\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"moreover,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (884 ^SB-HD_MC_C 1.15101 1 4
+   (879 HDN_BNP_C -1.80853 1 2
+    (878 N_MS-CNT_ILR -0.904738 1 2
+     (89 generic_mass_count_noun@n_-_mc-unk_le 0 1 2
+      ("ostentation" 65
+       "token [ +CARG #1=\"ostentation\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_ostentation/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+   (883 ^HD-CMP_U_C 1.98036 2 4
+    (129 be_c_is@v_prd_is_le 1.47611 2 3
+     ("is" 60
+      "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (882 HD_OPTCMP_C 0.772703 3 4
+     (881 W_PERIOD_PLR 0.621276 3 4
+      (880 V_PAS_ODLR 0.295437 3 4
+       (232 appreciate_v1@v_np_le 0 3 4
+        ("appreciated." 64
+         "token [ +CARG \"appreciated\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"appreciated.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (ADV (ADV "moreover,"))
+ (S (NP (N (N "ostentation")))
+  (VP (V "is") (VP (V (V (V "appreciated.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _moreover_a_1<0:9>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ udef_q<10:21>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h9 ]
+          [ _ostentation/nn_u_unknown<10:21>
+            LBL: h10
+            ARG0: x8 ]
+          [ _appreciate_v_1<25:37>
+            LBL: h11
+            ARG0: e3
+            ARG1: i12
+            ARG2: x8 ]
+          [ parg_d<25:37>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x8 ] >
+   HCONS: < h7 QEQ h10 h4 QEQ h11 h1 QEQ h2 > ]
+
+{e5:
+ e5:_moreover_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:udef_q<10:21>[BV x8]
+ x8:_ostentation/nn_u_unknown<10:21>{x PERS 3, NUM sg}[]
+ e3:_appreciate_v_1-fn.Judgment<25:37>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2-fn.Evaluee x8]
+ e13:parg_d<25:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x8]
+}
+
+{
+  _moreover_a_1<0:9> ARG1 _appreciate_v_1<25:37>  
+  udef_q<10:21> BV _ostentation/nn_u_unknown<10:21>  
+  _appreciate_v_1<25:37> ARG2 _ostentation/nn_u_unknown<10:21>  
+  parg_d<25:37> ARG1 _appreciate_v_1<25:37>  
+  parg_d<25:37> ARG2 _ostentation/nn_u_unknown<10:21>  
+  _moreover_a_1<0:9> SF prop  
+  _moreover_a_1<0:9> TENSE untensed  
+  _moreover_a_1<0:9> MOOD indicative  
+  _moreover_a_1<0:9> PROG -  
+  _moreover_a_1<0:9> PERF -  
+  _ostentation/nn_u_unknown<10:21> PERS 3  
+  _ostentation/nn_u_unknown<10:21> NUM sg  
+  _appreciate_v_1<25:37> SF prop  
+  _appreciate_v_1<25:37> TENSE pres  
+  _appreciate_v_1<25:37> MOOD indicative  
+  _appreciate_v_1<25:37> PROG -  
+  _appreciate_v_1<25:37> PERF -  
+  parg_d<25:37> SF prop  
+  parg_d<25:37> TENSE untensed  
+  parg_d<25:37> MOOD indicative  
+  parg_d<25:37> PROG -  
+  parg_d<25:37> PERF -  
+}
+

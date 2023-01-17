@@ -1,0 +1,96 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:14 h)).
+;;;
+
+[20909068] (1 of 1) {1} `Be the Star'
+
+[20909068:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "Be", 0, "null", "VB" 1.0)
+  (2, 1, 2, <3:6>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <7:11>, 1, "Star", 0, "null", "NNP" 0.7546 "NN" 0.2112 "JJ" 0.0342)
+>
+
+<
+  (41, 0, 1, <0:2>, 1, "Be", 0, "null", "VB" 1.0)
+  (42, 0, 1, <0:2>, 1, "be", 0, "null")
+  (47, 0, 1, <0:2>, 1, "be", 0, "null")
+  (37, 1, 2, <3:6>, 1, "the", 0, "null")
+  (45, 1, 2, <3:6>, 1, "the", 0, "null")
+  (29, 2, 3, <7:11>, 1, "Star", 0, "null")
+  (40, 2, 3, <7:11>, 1, "Star", 0, "null", "NN" 0.2112)
+  (43, 2, 3, <7:11>, 1, "star", 0, "null")
+  (44, 2, 3, <7:11>, 1, "star", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (251 HD_IMP_C 1.95725 0 3
+  (250 HD-CMP_U_C 1.86393 0 3
+   (51 be_id_be@v_np_be_le 0.331367 0 1
+    ("be" 42
+     "token [ +CARG \"Be\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"be\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (249 SP-HD_N_C 1.29269 1 3
+    (74 the_1@d_-_the_le 1.07131 1 2
+     ("the" 37
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (248 ^N_SG_ILR 0.110939 2 3
+     (102 star_n1@n_-_c_le 0 2 3
+      ("star" 43
+       "token [ +CARG \"Star\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"star\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75461239999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (VP (V "be") (NP (DET "the") (N (N "star")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _be_v_id<0:2>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<3:6>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _star_n_1<7:11>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:11>[BV x6]
+ x6:pron<0:11>{x PERS 2, PT zero}[]
+ e3:_be_v_id<0:2>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_the_q<3:6>[BV x9]
+ x9:_star_n_1<7:11>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:11> BV pron<0:11>  
+  _be_v_id<0:2> ARG1 pron<0:11>  
+  _be_v_id<0:2> ARG2 _star_n_1<7:11>  
+  _the_q<3:6> BV _star_n_1<7:11>  
+  pron<0:11> PERS 2  
+  pron<0:11> PT zero  
+  _be_v_id<0:2> SF comm  
+  _be_v_id<0:2> TENSE pres  
+  _be_v_id<0:2> MOOD indicative  
+  _be_v_id<0:2> PROG -  
+  _be_v_id<0:2> PERF -  
+  _star_n_1<7:11> PERS 3  
+  _star_n_1<7:11> NUM sg  
+  _star_n_1<7:11> IND +  
+}
+

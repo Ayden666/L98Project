@@ -1,0 +1,286 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:15 h)).
+;;;
+
+[21015018] (1 of 1) {1} `Sekisui House, which gained 150 Tuesday, lost 70 to 2640.'
+
+[21015018:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Sekisui", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:13>, 1, "House", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:14>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <15:20>, 1, "which", 0, "null", "WDT" 1.0)
+  (5, 4, 5, <21:27>, 1, "gained", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <28:31>, 1, "150", 0, "null", "CD" 1.0)
+  (7, 6, 7, <32:39>, 1, "Tuesday", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <39:40>, 1, ",", 0, "null", "," 1.0)
+  (9, 8, 9, <41:45>, 1, "lost", 0, "null", "VBD" 0.9849 "VBN" 0.0151)
+  (10, 9, 10, <46:48>, 1, "70", 0, "null", "CD" 1.0)
+  (11, 10, 11, <49:51>, 1, "to", 0, "null", "TO" 1.0)
+  (12, 11, 12, <52:56>, 1, "2640", 0, "null", "CD" 1.0)
+  (13, 12, 13, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (137, 0, 1, <0:7>, 1, "Sekisui", 0, "null")
+  (142, 0, 1, <0:7>, 1, "sekisui", 0, "null")
+  (154, 0, 1, <0:7>, 1, "sekisui", 0, "null")
+  (120, 1, 2, <8:14>, 1, "House,", 0, "null")
+  (141, 1, 2, <8:14>, 1, "House,", 0, "null", "NNP" 1.0)
+  (144, 1, 2, <8:14>, 1, "house,", 0, "null")
+  (149, 1, 2, <8:14>, 1, "house,", 0, "null")
+  (128, 2, 3, <15:20>, 1, "which", 0, "null")
+  (151, 2, 3, <15:20>, 1, "which", 0, "null")
+  (130, 3, 4, <21:27>, 1, "gained", 0, "null")
+  (139, 3, 4, <21:27>, 1, "gained", 0, "null", "VBD" 1.0)
+  (152, 3, 4, <21:27>, 1, "gained", 0, "null")
+  (108, 4, 5, <28:31>, 1, "150", 0, "null")
+  (145, 4, 5, <28:31>, 1, "150", 0, "null")
+  (117, 5, 6, <32:40>, 1, "Tuesday,", 0, "null")
+  (140, 5, 6, <32:40>, 1, "Tuesday,", 0, "null", "NNP" 1.0)
+  (143, 5, 6, <32:40>, 1, "tuesday,", 0, "null")
+  (147, 5, 6, <32:40>, 1, "tuesday,", 0, "null")
+  (135, 6, 7, <41:45>, 1, "lost", 0, "null")
+  (138, 6, 7, <41:45>, 1, "lost", 0, "null", "VBD" 0.9849)
+  (153, 6, 7, <41:45>, 1, "lost", 0, "null")
+  (110, 7, 8, <46:48>, 1, "70", 0, "null")
+  (146, 7, 8, <46:48>, 1, "70", 0, "null")
+  (126, 8, 9, <49:51>, 1, "to", 0, "null")
+  (150, 8, 9, <49:51>, 1, "to", 0, "null")
+  (118, 9, 10, <52:57>, 1, "2640.", 0, "null")
+  (148, 9, 10, <52:57>, 1, "2640.", 0, "null")
+>
+
+(ROOT_STRICT
+ (6944 SB-HD_MC_C 20.1896 0 10
+  (6934 HDN_BNP-PN_C 10.0181 0 6
+   (6933 HDN-AJ_RC-PR_C 8.4425 0 6
+    (6920 ^HDN-AJ_REDREL_C -0.641679 0 2
+     (6917 ^N_SG_ILR -0.845931 0 1
+      (157 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Sekisui" 137
+        "token [ +CARG #1=\"Sekisui\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (6919 W_COMMA_PLR -0.644823 1 2
+      (6918 N_SG_ILR -1.04544 1 2
+       (170 house_post_ttl@n_-_tt-post_le 0 1 2
+        ("house," 144
+         "token [ +CARG \"House\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"house,\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (6932 FLR-HD_REL-FIN_C 8.62953 2 6
+     (6921 HDN_BNP-QNT_C 1.19222 2 3
+      (194 which_r@n_-_pr-rel-what_le 0.796893 2 3
+       ("which" 128
+        "token [ +CARG #1=\"which\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WDT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (6931 ^HD_XSB-FIN_C 6.05379 3 6
+      (6930 HD-AJ_INT-UNSL_C 5.63482 3 6
+       (6925 ^HD-CMP_U_C 3.36462 3 5
+        (6922 ^V_PST_OLR 1.93042 3 4
+         (201 gain_v1@v_np*_le 0.775218 3 4
+          ("gained" 130
+           "token [ +CARG #1=\"gained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (6924 HDN_BNP-NUM_C 0.272448 4 5
+         (6923 HDN_NP-NUM_C -0.246194 4 5
+          (296 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+           ("150" 108
+            "token [ +CARG #1=\"150\" +CLASS card_or_year_ne +FORM #1 +FROM \"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+       (6929 NP_ADV_C 1.30943 5 6
+        (6928 HDN_BNP-PN_C 1.07421 5 6
+         (6927 W_COMMA_PLR -0.340583 5 6
+          (6926 N_SG_ILR -1.02769 5 6
+           (309 tuesday_n1@n_-_c-dow_le 0 5 6
+            ("tuesday," 143
+             "token [ +CARG \"Tuesday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"tuesday,\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+  (6943 ^HD-AJ_INT-UNSL_C 9.684 6 10
+   (6938 ^HD-CMP_U_C 4.67383 6 8
+    (6935 ^V_PST_OLR 3.27719 6 7
+     (328 lose_v1@v_np*_le 2.12199 6 7
+      ("lost" 135
+       "token [ +CARG #1=\"lost\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"41\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9849\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (6937 HDN_BNP-NUM_C 0.153752 7 8
+     (6936 HDN_NP-NUM_C -0.36489 7 8
+      (351 generic_card_ne@aj_-_i-crd-gen_le 0 7 8
+       ("70" 110
+        "token [ +CARG #1=\"70\" +CLASS card_ne +FORM #1 +FROM \"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (6942 HD-CMP_U_C 3.87632 8 10
+    (376 to@p_np_i-nnm_le -1.63041 8 9
+     ("to" 126
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"49\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"11\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (6941 HDN_BNP-NUM_C 4.01481 9 10
+     (6940 HDN_NP-NUM_C 3.49617 9 10
+      (6939 W_PERIOD_PLR 2.19869 9 10
+       (431 generic_card_ne@aj_-_i-crd-gen_le 0 9 10
+        ("2640." 118
+         "token [ +CARG \"2640\" +CLASS card_or_year_ne +FORM \"2640.\" +FROM \"52\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S
+ (NP
+  (N (N (N (N "Sekisui")) (N (N (N "house,"))))
+   (S (NP (N "which"))
+    (S/NP
+     (VP/NP (VP/NP (V/NP (V/NP "gained")) (NP (N (ADJ "150"))))
+      (PP (NP (N (N (N "tuesday,"))))))))))
+ (VP (VP (V (V "lost")) (NP (N (ADJ "70"))))
+  (PP (P "to") (NP (N (ADJ (ADJ "2640.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:40>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Sekisui" ]
+          [ _house_n_1<8:14>
+            LBL: h9
+            ARG0: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<8:14>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<8:14>
+            LBL: h8
+            ARG0: i14
+            ARG1: x6
+            ARG2: x10 ]
+          [ _gain_v_1<21:27>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<28:31>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<28:31>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "150" ]
+          [ loc_nonsp<32:40>
+            LBL: h8
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e15
+            ARG2: x23 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<32:40>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ dofw<32:40>
+            LBL: h27
+            ARG0: x23
+            CARG: "Tue" ]
+          [ _lose_v_1<41:45>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x28 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<46:48>
+            LBL: h29
+            ARG0: x28
+            RSTR: h30
+            BODY: h31 ]
+          [ card<46:48>
+            LBL: h32
+            ARG0: x28
+            ARG1: i33
+            CARG: "70" ]
+          [ _to_p<49:51>
+            LBL: h2
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x35 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<52:57>
+            LBL: h36
+            ARG0: x35
+            RSTR: h37
+            BODY: h38 ]
+          [ card<52:57>
+            LBL: h39
+            ARG0: x35
+            ARG1: i40
+            CARG: "2640" ] >
+   HCONS: < h37 QEQ h39 h30 QEQ h32 h25 QEQ h27 h18 QEQ h20 h12 QEQ h9 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:40>[BV x6]
+ x6:named<0:7>("Sekisui"){x PERS 3, NUM sg, IND +}[]
+ x10:_house_n_1<8:14>{x PERS 3, NUM sg, IND +}[]
+ _2:udef_q<8:14>[BV x10]
+ i14:compound<8:14>{i}[ARG1 x6, ARG2 x10]
+ e15:_gain_v_1<21:27>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:number_q<28:31>[BV x16]
+ x16:card<28:31>("150"){x PERS 3, NUM sg}[]
+ e22:loc_nonsp<32:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e15, ARG2 x23]
+ _4:proper_q<32:40>[BV x23]
+ x23:dofw<32:40>("Tue"){x PERS 3, NUM sg, IND +}[]
+ e3:_lose_v_1<41:45>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x28]
+ _5:number_q<46:48>[BV x28]
+ x28:card<46:48>("70"){x PERS 3, NUM sg}[]
+ e34:_to_p<49:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x35]
+ _6:number_q<52:57>[BV x35]
+ x35:card<52:57>("2640"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:40> BV named<0:7>(Sekisui)  
+  udef_q<8:14> BV _house_n_1<8:14>  
+  compound<8:14> ARG1 named<0:7>(Sekisui)  
+  compound<8:14> ARG2 _house_n_1<8:14>  
+  _gain_v_1<21:27> ARG1 named<0:7>(Sekisui)  
+  _gain_v_1<21:27> ARG2 card<28:31>(150)  
+  number_q<28:31> BV card<28:31>(150)  
+  loc_nonsp<32:40> ARG1 _gain_v_1<21:27>  
+  loc_nonsp<32:40> ARG2 dofw<32:40>(Tue)  
+  proper_q<32:40> BV dofw<32:40>(Tue)  
+  _lose_v_1<41:45> ARG1 named<0:7>(Sekisui)  
+  _lose_v_1<41:45> ARG2 card<46:48>(70)  
+  number_q<46:48> BV card<46:48>(70)  
+  _to_p<49:51> ARG1 _lose_v_1<41:45>  
+  _to_p<49:51> ARG2 card<52:57>(2640)  
+  number_q<52:57> BV card<52:57>(2640)  
+  named<0:7>(Sekisui) PERS 3  
+  named<0:7>(Sekisui) NUM sg  
+  named<0:7>(Sekisui) IND +  
+  _house_n_1<8:14> PERS 3  
+  _house_n_1<8:14> NUM sg  
+  _house_n_1<8:14> IND +  
+  _gain_v_1<21:27> SF prop  
+  _gain_v_1<21:27> TENSE past  
+  _gain_v_1<21:27> MOOD indicative  
+  _gain_v_1<21:27> PROG -  
+  _gain_v_1<21:27> PERF -  
+  card<28:31>(150) PERS 3  
+  card<28:31>(150) NUM sg  
+  loc_nonsp<32:40> SF prop  
+  loc_nonsp<32:40> TENSE untensed  
+  loc_nonsp<32:40> MOOD indicative  
+  loc_nonsp<32:40> PROG -  
+  loc_nonsp<32:40> PERF -  
+  dofw<32:40>(Tue) PERS 3  
+  dofw<32:40>(Tue) NUM sg  
+  dofw<32:40>(Tue) IND +  
+  _lose_v_1<41:45> SF prop  
+  _lose_v_1<41:45> TENSE past  
+  _lose_v_1<41:45> MOOD indicative  
+  _lose_v_1<41:45> PROG -  
+  _lose_v_1<41:45> PERF -  
+  card<46:48>(70) PERS 3  
+  card<46:48>(70) NUM sg  
+  _to_p<49:51> SF prop  
+  _to_p<49:51> TENSE untensed  
+  _to_p<49:51> MOOD indicative  
+  _to_p<49:51> PROG -  
+  _to_p<49:51> PERF -  
+  card<52:57>(2640) PERS 3  
+  card<52:57>(2640) NUM sg  
+}
+

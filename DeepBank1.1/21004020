@@ -1,0 +1,163 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:09 h)).
+;;;
+
+[21004020] (1 of 1) {1} `X-rays have problems, too.'
+
+[21004020:2] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "X-rays", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <7:11>, 1, "have", 0, "null", "VBP" 0.9495 "VB" 0.0505)
+  (3, 2, 3, <12:20>, 1, "problems", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <20:21>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <22:25>, 1, "too", 0, "null", "RB" 1.0)
+  (6, 5, 6, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (76, 0, 1, <0:6>, 1, "X-", 0, "null")
+  (81, 0, 1, <0:6>, 1, "x-", 0, "null")
+  (86, 0, 1, <0:6>, 1, "x-", 0, "null")
+  (69, 1, 2, <0:6>, 1, "rays", 0, "null")
+  (78, 1, 2, <0:6>, 1, "rays", 0, "null", "NNS" 1.0)
+  (82, 1, 2, <0:6>, 1, "rays", 0, "null")
+  (74, 2, 3, <7:11>, 1, "have", 0, "null")
+  (77, 2, 3, <7:11>, 1, "have", 0, "null", "VBP" 0.9495)
+  (85, 2, 3, <7:11>, 1, "have", 0, "null")
+  (71, 3, 4, <12:21>, 1, "problems,", 0, "null")
+  (79, 3, 4, <12:21>, 1, "problems,", 0, "null", "NNS" 1.0)
+  (83, 3, 4, <12:21>, 1, "problems,", 0, "null")
+  (73, 4, 5, <22:26>, 1, "too.", 0, "null")
+  (80, 4, 5, <22:26>, 1, "too.", 0, "null", "RB" 1.0)
+  (84, 4, 5, <22:26>, 1, "too.", 0, "null")
+>
+
+(ROOT_STRICT
+ (973 SB-HD_MC_C 2.2764 0 5
+  (972 HDN_BNP_C -1.78071 0 2
+   (971 XP_BRCK-PR_C -1.69623 0 2
+    (970 NP-HDN_CPD_C -1.15747 0 2
+     (969 HDN_BNP-PN_C -1.17024 0 1
+      (968 W_HYPHEN_PLR -0.667491 0 1
+       (92 x_lower_np1@n_-_pn_le 0 0 1
+        ("x-" 81
+         "token [ +CARG \"X-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"x-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"))))
+     (953 ^N_PL_OLR 0.143372 1 2
+      (98 ray_n2@n_-_c_le 0 1 2
+       ("rays" 69
+        "token [ +CARG #1=\"rays\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))
+  (963 ^HD-AJ_SCP-PR_C 3.21774 2 5
+   (961 ^HD-CMP_U_C 1.40386 2 4
+    (956 ^V_N3S-BSE_ILR 0.312111 2 3
+     (112 have-poss@v_np_poss_le 0.632367 2 3
+      ("have" 74
+       "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94952899999999996\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (960 HDN_BNP_C 0.630445 3 4
+     (959 HDN_OPTCMP_C 1.39827 3 4
+      (958 W_COMMA_PLR 0.78783 3 4
+       (957 N_PL_OLR 0.400205 3 4
+        (133 problem_n1@n_pp_c-ns-of_le 0 3 4
+         ("problems," 71
+          "token [ +CARG \"problems\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"problems,\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (962 W_PERIOD_PLR 0.812048 4 5
+    (167 too@av_-_s-vp-only_le 0.32476 4 5
+     ("too." 73
+      "token [ +CARG \"too\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"too.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N (NP (N (N "x-"))) (N (N "rays")))))
+ (VP (VP (V (V "have")) (NP (N (N (N (N "problems,"))))))
+  (ADV (ADV "too."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:6>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "X" ]
+          [ _ray_n_1<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _have_v_1<7:11>
+            LBL: h15
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:21>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ _problem_n_of<12:21>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21 ]
+          [ _too_a_also<22:26>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h23 ] >
+   HCONS: < h23 QEQ h15 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e22:
+ _1:udef_q<0:6>[BV x6]
+ e10:compound<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("X"){x IND +}[]
+ x6:_ray_n_1<0:6>{x PERS 3, NUM pl, IND +}[]
+ e3:_have_v_1<7:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:udef_q<12:21>[BV x16]
+ x16:_problem_n_of<12:21>{x PERS 3, NUM pl, IND +}[]
+ e22:_too_a_also<22:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  udef_q<0:6> BV _ray_n_1<0:6>  
+  compound<0:6> ARG1 _ray_n_1<0:6>  
+  compound<0:6> ARG2 named<0:6>(X)  
+  proper_q<0:6> BV named<0:6>(X)  
+  _have_v_1<7:11> ARG1 _ray_n_1<0:6>  
+  _have_v_1<7:11> ARG2 _problem_n_of<12:21>  
+  udef_q<12:21> BV _problem_n_of<12:21>  
+  _too_a_also<22:26> ARG1 _have_v_1<7:11>  
+  compound<0:6> SF prop  
+  compound<0:6> TENSE untensed  
+  compound<0:6> MOOD indicative  
+  compound<0:6> PROG -  
+  compound<0:6> PERF -  
+  named<0:6>(X) IND +  
+  _ray_n_1<0:6> PERS 3  
+  _ray_n_1<0:6> NUM pl  
+  _ray_n_1<0:6> IND +  
+  _have_v_1<7:11> SF prop  
+  _have_v_1<7:11> TENSE pres  
+  _have_v_1<7:11> MOOD indicative  
+  _have_v_1<7:11> PROG -  
+  _have_v_1<7:11> PERF -  
+  _problem_n_of<12:21> PERS 3  
+  _problem_n_of<12:21> NUM pl  
+  _problem_n_of<12:21> IND +  
+  _too_a_also<22:26> SF prop  
+  _too_a_also<22:26> TENSE untensed  
+  _too_a_also<22:26> MOOD indicative  
+  _too_a_also<22:26> PROG -  
+  _too_a_also<22:26> PERF -  
+}
+

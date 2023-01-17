@@ -1,0 +1,166 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:18 h)).
+;;;
+
+[20453007] (1 of 1) {1} `Call it disaster marketing.'
+
+[20453007:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Call", 0, "null", "VB" 0.8911 "NNP" 0.0635 "NN" 0.0454)
+  (2, 1, 2, <5:7>, 1, "it", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <8:16>, 1, "disaster", 0, "null", "NN" 1.0)
+  (4, 3, 4, <17:26>, 1, "marketing", 0, "null", "NN" 1.0)
+  (5, 4, 5, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:4>, 1, "Call", 0, "null", "VB" 0.8911)
+  (62, 0, 1, <0:4>, 1, "call", 0, "null")
+  (66, 0, 1, <0:4>, 1, "call", 0, "null")
+  (52, 1, 2, <5:7>, 1, "it", 0, "null")
+  (63, 1, 2, <5:7>, 1, "it", 0, "null")
+  (54, 2, 3, <8:16>, 1, "disaster", 0, "null")
+  (60, 2, 3, <8:16>, 1, "disaster", 0, "null", "NN" 1.0)
+  (64, 2, 3, <8:16>, 1, "disaster", 0, "null")
+  (56, 3, 4, <17:27>, 1, "marketing.", 0, "null")
+  (61, 3, 4, <17:27>, 1, "marketing.", 0, "null", "NN" 1.0)
+  (65, 3, 4, <17:27>, 1, "marketing.", 0, "null")
+>
+
+(ROOT_STRICT
+ (449 HD_IMP_C -1.33895 0 4
+  (448 HD-CMP_U_C -1.43226 0 4
+   (441 ^HD-CMP_U_C -0.0369182 0 2
+    (439 ^V_N3S-BSE_ILR -0.253718 0 1
+     (71 call_ditrans_v1@v_np-np_only_le 0.753271 0 1
+      ("call" 62
+       "token [ +CARG \"Call\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"call\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89106540000000001\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (440 HDN_BNP-QNT_C -0.418448 1 2
+     (92 it2@n_-_pr-it_le -0.571118 1 2
+      ("it" 52
+       "token [ +CARG #1=\"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (447 HDN_BNP_C -1.21597 2 4
+    (446 N-HDN_CPD_C -1.04593 2 4
+     (106 disaster_n1@n_-_mc_le 0 2 3
+      ("disaster" 54
+       "token [ +CARG #1=\"disaster\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (445 ^HDN_OPTCMP_C -1.82812 3 4
+      (444 W_PERIOD_PLR -1.90654 3 4
+       (443 V_NGER-TR_DLR -1.62985 3 4
+        (442 V_PRP_OLR -0.618437 3 4
+         (123 market_v1@v_np_le 0 3 4
+          ("marketing." 56
+           "token [ +CARG \"marketing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"marketing.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (VP (V (V (V "call")) (NP (NP "it")))
+  (NP (N (N "disaster") (N (N (N (V (V "marketing.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:27>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:27>
+            LBL: h8
+            ARG0: x6 ]
+          [ _call_v_name<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG GEND: N ]
+            ARG3: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pron<5:7>
+            LBL: h11
+            ARG0: x9 ]
+          [ pronoun_q<5:7>
+            LBL: h12
+            ARG0: x9
+            RSTR: h13
+            BODY: h14 ]
+          [ udef_q<8:27>
+            LBL: h15
+            ARG0: x10
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<8:27>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x19 ]
+          [ udef_q<8:16>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ _disaster_n_1<8:16>
+            LBL: h24
+            ARG0: x19 ]
+          [ _market_v_1<17:27>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i28
+            ARG2: p27 ]
+          [ nominalization<17:27>
+            LBL: h18
+            ARG0: x10
+            ARG1: h25 ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h13 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:27>[BV x6]
+ x6:pron<0:27>{x PERS 2, PT zero}[]
+ e3:_call_v_name<0:4>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10, ARG3 x9]
+ x9:pron<5:7>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<5:7>[BV x9]
+ _3:udef_q<8:27>[BV x10]
+ e20:compound<8:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x19]
+ _4:udef_q<8:16>[BV x19]
+ x19:_disaster_n_1<8:16>{x}[]
+ e26:_market_v_1<17:27>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x10:nominalization<17:27>{x PERS 3, NUM sg, GEND n}[ARG1 e26]
+}
+
+{
+  pronoun_q<0:27> BV pron<0:27>  
+  _call_v_name<0:4> ARG1 pron<0:27>  
+  _call_v_name<0:4> ARG2 nominalization<17:27>  
+  _call_v_name<0:4> ARG3 pron<5:7>  
+  pronoun_q<5:7> BV pron<5:7>  
+  udef_q<8:27> BV nominalization<17:27>  
+  compound<8:27> ARG1 nominalization<17:27>  
+  compound<8:27> ARG2 _disaster_n_1<8:16>  
+  udef_q<8:16> BV _disaster_n_1<8:16>  
+  nominalization<17:27> ARG1 _market_v_1<17:27>  
+  pron<0:27> PERS 2  
+  pron<0:27> PT zero  
+  _call_v_name<0:4> SF comm  
+  _call_v_name<0:4> TENSE pres  
+  _call_v_name<0:4> MOOD indicative  
+  _call_v_name<0:4> PROG -  
+  _call_v_name<0:4> PERF -  
+  pron<5:7> PERS 3  
+  pron<5:7> NUM sg  
+  pron<5:7> GEND n  
+  pron<5:7> PT std  
+  compound<8:27> SF prop  
+  compound<8:27> TENSE untensed  
+  compound<8:27> MOOD indicative  
+  compound<8:27> PROG -  
+  compound<8:27> PERF -  
+  _market_v_1<17:27> SF prop  
+  _market_v_1<17:27> TENSE untensed  
+  _market_v_1<17:27> MOOD indicative  
+  _market_v_1<17:27> PROG +  
+  _market_v_1<17:27> PERF -  
+  nominalization<17:27> PERS 3  
+  nominalization<17:27> NUM sg  
+  nominalization<17:27> GEND n  
+}
+

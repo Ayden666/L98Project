@@ -1,0 +1,852 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:38 h)).
+;;;
+
+[21271030] (1 of 1) {1} `Pacific Gas & Electric Co. is offering its 6,000 San Francisco employees a two-tier flextime schedule -- either 6 a.m. to 2 p.m. or 10 a.m. to 6 p.m.'
+
+[21271030:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Pacific", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:11>, 1, "Gas", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:13>, 1, "&", 0, "null", "CC" 1.0)
+  (4, 3, 4, <14:22>, 1, "Electric", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <23:26>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <27:29>, 1, "is", 0, "null", "VBZ" 1.0)
+  (7, 6, 7, <30:38>, 1, "offering", 0, "null", "VBG" 0.9866 "NN" 0.0134)
+  (8, 7, 8, <39:42>, 1, "its", 0, "null", "PRP$" 1.0)
+  (9, 8, 9, <43:48>, 1, "6,000", 0, "null", "CD" 1.0)
+  (10, 9, 10, <49:52>, 1, "San", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <53:62>, 1, "Francisco", 0, "null", "NNP" 1.0)
+  (12, 11, 12, <63:72>, 1, "employees", 0, "null", "NNS" 0.7389 "VBZ" 0.2611)
+  (13, 12, 13, <73:74>, 1, "a", 0, "null", "DT" 1.0)
+  (14, 13, 14, <75:83>, 1, "two-tier", 0, "null", "JJ" 1.0)
+  (15, 14, 15, <84:92>, 1, "flextime", 0, "null", "NN" 1.0)
+  (16, 15, 16, <93:101>, 1, "schedule", 0, "null", "NN" 1.0)
+  (17, 16, 17, <102:104>, 1, "–", 0, "null", ":" 1.0)
+  (18, 17, 18, <105:111>, 1, "either", 0, "null", "RB" 0.4328 "CC" 0.3522 "DT" 0.215)
+  (19, 18, 19, <112:113>, 1, "6", 0, "null", "CD" 1.0)
+  (20, 19, 20, <114:118>, 1, "a.m.", 0, "null", "NN" 0.9866 "RB" 0.0134)
+  (21, 20, 21, <119:121>, 1, "to", 0, "null", "TO" 1.0)
+  (22, 21, 22, <122:123>, 1, "2", 0, "null", "CD" 1.0)
+  (23, 22, 23, <124:128>, 1, "p.m.", 0, "null", "NN" 0.9537 "RB" 0.0463)
+  (24, 23, 24, <129:131>, 1, "or", 0, "null", "CC" 1.0)
+  (25, 24, 25, <132:134>, 1, "10", 0, "null", "CD" 1.0)
+  (26, 25, 26, <135:139>, 1, "a.m.", 0, "null", "NN" 0.9807 "RB" 0.0193)
+  (27, 26, 27, <140:142>, 1, "to", 0, "null", "TO" 1.0)
+  (28, 27, 28, <143:144>, 1, "6", 0, "null", "CD" 1.0)
+  (29, 28, 29, <145:148>, 1, "p.m", 0, "null", "NN" 0.5879 "RB" 0.4121)
+  (30, 29, 30, <148:149>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (345, 0, 1, <0:7>, 1, "Pacific", 0, "null")
+  (370, 0, 1, <0:7>, 1, "pacific", 0, "null")
+  (400, 0, 1, <0:7>, 1, "pacific", 0, "null")
+  (275, 1, 2, <8:11>, 1, "Gas", 0, "null")
+  (355, 1, 2, <8:11>, 1, "Gas", 0, "null", "NNP" 1.0)
+  (367, 1, 2, <8:11>, 1, "gas", 0, "null")
+  (378, 1, 2, <8:11>, 1, "gas", 0, "null")
+  (330, 2, 3, <12:13>, 1, "&", 0, "null")
+  (392, 2, 3, <12:13>, 1, "&", 0, "null")
+  (276, 3, 4, <14:22>, 1, "Electric", 0, "null")
+  (356, 3, 4, <14:22>, 1, "Electric", 0, "null", "NNP" 1.0)
+  (368, 3, 4, <14:22>, 1, "electric", 0, "null")
+  (379, 3, 4, <14:22>, 1, "electric", 0, "null")
+  (277, 4, 5, <23:26>, 1, "Co.", 0, "null")
+  (357, 4, 5, <23:26>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (369, 4, 5, <23:26>, 1, "co.", 0, "null")
+  (380, 4, 5, <23:26>, 1, "co.", 0, "null")
+  (324, 5, 6, <27:29>, 1, "is", 0, "null")
+  (362, 5, 6, <27:29>, 1, "is", 0, "null", "VBZ" 1.0)
+  (389, 5, 6, <27:29>, 1, "is", 0, "null")
+  (340, 6, 7, <30:38>, 1, "offering", 0, "null")
+  (351, 6, 7, <30:38>, 1, "offering", 0, "null", "VBG" 0.9866)
+  (398, 6, 7, <30:38>, 1, "offering", 0, "null")
+  (326, 7, 8, <39:42>, 1, "its", 0, "null")
+  (390, 7, 8, <39:42>, 1, "its", 0, "null")
+  (269, 8, 9, <43:48>, 1, "6,000", 0, "null")
+  (375, 8, 9, <43:48>, 1, "6,000", 0, "null")
+  (273, 9, 10, <49:52>, 1, "San", 0, "null")
+  (353, 9, 10, <49:52>, 1, "San", 0, "null", "NNP" 1.0)
+  (365, 9, 10, <49:52>, 1, "san", 0, "null")
+  (376, 9, 10, <49:52>, 1, "san", 0, "null")
+  (274, 10, 11, <53:62>, 1, "Francisco", 0, "null")
+  (354, 10, 11, <53:62>, 1, "Francisco", 0, "null", "NNP" 1.0)
+  (366, 10, 11, <53:62>, 1, "francisco", 0, "null")
+  (377, 10, 11, <53:62>, 1, "francisco", 0, "null")
+  (337, 11, 12, <63:72>, 1, "employees", 0, "null")
+  (349, 11, 12, <63:72>, 1, "employees", 0, "null", "NNS" 0.7389)
+  (363, 11, 12, <63:72>, 1, "employees", 0, "null", "VBZ" 0.2611)
+  (396, 11, 12, <63:72>, 1, "employees", 0, "null")
+  (314, 12, 13, <73:74>, 1, "a", 0, "null")
+  (384, 12, 13, <73:74>, 1, "a", 0, "null")
+  (322, 13, 14, <75:83>, 1, "two-", 0, "null")
+  (361, 13, 14, <75:83>, 1, "two-", 0, "null", "NN" 1.0)
+  (388, 13, 14, <75:83>, 1, "two-", 0, "null")
+  (320, 14, 15, <75:83>, 1, "tier", 0, "null")
+  (360, 14, 15, <75:83>, 1, "tier", 0, "null", "JJ" 1.0)
+  (387, 14, 15, <75:83>, 1, "tier", 0, "null")
+  (316, 15, 16, <84:92>, 1, "flextime", 0, "null")
+  (358, 15, 16, <84:92>, 1, "flextime", 0, "null", "NN" 1.0)
+  (385, 15, 16, <84:92>, 1, "flextime", 0, "null")
+  (318, 16, 17, <93:101>, 1, "schedule", 0, "null")
+  (359, 16, 17, <93:101>, 1, "schedule", 0, "null", "NN" 1.0)
+  (386, 16, 17, <93:101>, 1, "schedule", 0, "null")
+  (328, 17, 18, <102:104>, 1, "–", 0, "null")
+  (391, 17, 18, <102:104>, 1, "–", 0, "null")
+  (339, 18, 19, <105:111>, 1, "either", 0, "null")
+  (350, 18, 19, <105:111>, 1, "either", 0, "null", "RB" 0.4328)
+  (397, 18, 19, <105:111>, 1, "either", 0, "null")
+  (265, 19, 20, <112:113>, 1, "6", 0, "null")
+  (371, 19, 20, <112:113>, 1, "6", 0, "null")
+  (331, 20, 21, <114:118>, 1, "a.m.", 0, "null")
+  (346, 20, 21, <114:118>, 1, "a.m.", 0, "null", "NN" 0.9866)
+  (393, 20, 21, <114:118>, 1, "a.m.", 0, "null")
+  (308, 21, 22, <119:121>, 1, "to", 0, "null")
+  (381, 21, 22, <119:121>, 1, "to", 0, "null")
+  (266, 22, 23, <122:123>, 1, "2", 0, "null")
+  (372, 22, 23, <122:123>, 1, "2", 0, "null")
+  (333, 23, 24, <124:128>, 1, "p.m.", 0, "null")
+  (347, 23, 24, <124:128>, 1, "p.m.", 0, "null", "NN" 0.9537)
+  (394, 23, 24, <124:128>, 1, "p.m.", 0, "null")
+  (310, 24, 25, <129:131>, 1, "or", 0, "null")
+  (382, 24, 25, <129:131>, 1, "or", 0, "null")
+  (267, 25, 26, <132:134>, 1, "10", 0, "null")
+  (373, 25, 26, <132:134>, 1, "10", 0, "null")
+  (335, 26, 27, <135:139>, 1, "a.m.", 0, "null")
+  (348, 26, 27, <135:139>, 1, "a.m.", 0, "null", "NN" 0.9807)
+  (395, 26, 27, <135:139>, 1, "a.m.", 0, "null")
+  (312, 27, 28, <140:142>, 1, "to", 0, "null")
+  (383, 27, 28, <140:142>, 1, "to", 0, "null")
+  (268, 28, 29, <143:144>, 1, "6", 0, "null")
+  (374, 28, 29, <143:144>, 1, "6", 0, "null")
+  (342, 29, 30, <145:149>, 1, "p.m.", 0, "null")
+  (352, 29, 30, <145:149>, 1, "p.m.", 0, "null", "NN" 0.5879)
+  (364, 29, 30, <145:149>, 1, "p.m.", 0, "null", "RB" 0.4121)
+  (399, 29, 30, <145:149>, 1, "p.m.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (31044 CL-CL_RUNON_C 7.8602 0 30
+  (31037 NP_FRG_C 4.80088 0 5
+   (30934 NP-NP_CRD-T_C 5.26892 0 5
+    (30927 HDN_BNP-PN_C 1.09232 0 2
+     (30926 NP-HDN_NME-CPD_C 1.01015 0 2
+      (30924 HDN_BNP-PN_C -0.21974 0 1
+       (30923 N_SG_ILR -0.972175 0 1
+        (407 pacific_n1@n_-_pn_le -0.254433 0 1
+         ("pacific" 370
+          "token [ +CARG \"Pacific\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"pacific\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (30925 ^N_SG_ILR -0.143257 1 2
+       (410 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Gas" 275
+         "token [ +CARG #1=\"Gas\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (30933 ^MRK-NH_NOM_C 2.54975 2 5
+     (428 and_conj_amp@c_xp_amp_le -0.71207 2 3
+      ("&" 330
+       "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (30932 HDN_BNP-PN_C 2.51997 3 5
+      (30931 HDN-AJ_REDREL_C 2.70137 3 5
+       (30928 ^N_SG_ILR -0.249013 3 4
+        (429 generic_proper_ne@n_-_pn-gen_le 0.499946 3 4
+         ("Electric" 276
+          "token [ +CARG #1=\"Electric\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+       (30930 W_PERIOD_PLR 2.36284 4 5
+        (30929 N_SG_ILR 1.30395 4 5
+         (443 co_post_ttl@n_-_tt-post_le 1.97728 4 5
+          ("co." 369
+           "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+  (31043 ^HD_YESNO_C 3.05932 5 30
+   (31042 HD-CMP_U_C 3.22953 5 30
+    (31041 ^HD-CMP_U_C 7.94023 5 18
+     (31038 ^V_AUX-SB-INV_DLR 0.539939 5 6
+      (503 be_id_is@v_np_is_le 0.198027 5 6
+       ("is" 324
+        "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (31040 HDN_BNP-VGER_C 7.19154 6 18
+      (31039 VP_NP-GER_C 7.44462 6 18
+       (30999 HD-CMP_U_C 6.8108 6 18
+        (30981 ^HD-CMP_U_C 6.33709 6 12
+         (30935 ^V_PRP_OLR -0.695833 6 7
+          (593 offer_v1@v_np-np_le 0.462842 6 7
+           ("offering" 340
+            "token [ +CARG #1=\"offering\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98659830000000004\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (30980 SP-HD_N_C 6.13689 7 12
+          (631 its_poss@d_-_poss-its_le 0.0240218 7 8
+           ("its" 326
+            "token [ +CARG #1=\"its\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+          (30979 ^AJ-HDN_NORM_C 4.55763 8 12
+           (651 generic_card_ne@aj_-_i-crd-gen_le 0 8 9
+            ("6,000" 269
+             "token [ +CARG #1=\"6,000\" +CLASS card_ne +FORM #1 +FROM \"43\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+           (30942 ^NP-HDN_CPD_C 3.48131 9 12
+            (30939 HDN_BNP-PN_C 3.27577 9 11
+             (30938 NP-HDN_NME-CPD_C 2.87498 9 11
+              (30937 HDN_BNP-PN_C 1.77746 9 10
+               (30936 N_SG_ILR 1.02502 9 10
+                (652 generic_proper_ne@n_-_pn-gen_le -0.124168 9 10
+                 ("San" 273
+                  "token [ +CARG #1=\"San\" +CLASS proper_ne +FORM #1 +FROM \"49\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+              (660 francisco_n1@n_-_pn_le 0.168103 10 11
+               ("francisco" 366
+                "token [ +CARG \"Francisco\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"francisco\" +FROM #1=\"53\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"62\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+            (30941 ^HDN_OPTCMP_C 0.417969 11 12
+             (30940 N_PL_OLR 0.539383 11 12
+              (661 employee_n1@n_pp_c-of_le 0 11 12
+               ("employees" 337
+                "token [ +CARG #1=\"employees\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"63\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"12\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.73886160000000001\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"72\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+        (30998 SP-HD_N_C 0.554343 12 18
+         (681 a_det@d_-_sg-nmd_le -0.667877 12 13
+          ("a" 314
+           "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"73\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"13\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"74\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (30949 ^N-HDN_CPD_C 1.41839 13 18
+          (30945 XP_BRCK-PR_C -0.88976 13 15
+           (30944 AJ-HDN_NORM_C -1.62222 13 15
+            (30943 W_HYPHEN_PLR -2.04967 13 14
+             (758 two@aj_-_i-crd-one_le -0.237688 13 14
+              ("two-" 322
+               "token [ +CARG #1=\"two-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"75\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"14\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"83\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+            (775 tier_n1@n_-_c-ed_le 0 14 15
+             ("tier" 320
+              "token [ +CARG #1=\"tier\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"75\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"14\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"83\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+          (30948 ^N-HDN_CPD_C 1.68648 15 18
+           (777 generic_mass_count_noun@n_-_mc-unk_le 0 15 16
+            ("flextime" 358
+             "token [ +CARG #1=\"flextime\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"84\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"15\" REST #3 ] ] +PRED \"_flextime/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"92\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+           (30947 ^HD-PCT_C 1.68648 16 18
+            (30946 ^N_SG_ILR -0.243411 16 17
+             (780 schedule_n1@n_-_c-ns_le 0 16 17
+              ("schedule" 318
+               "token [ +CARG #1=\"schedule\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"93\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"16\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"101\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+            (787 s_dbl_dash_pct@pt_-_s-dash_le 0.649249 17 18
+             ("–" 328
+              "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"102\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"17\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"104\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+    (30995 NP-NP_CRD-T_C -4.52793 18 30
+     (30964 MRK-NH_ATOM_C -2.36803 18 24
+      (795 either_conj@c_xp_either-mrk_le 1.77606 18 19
+       ("either" 339
+        "token [ +CARG #1=\"either\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"105\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"18\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.43283759999999999\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"111\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (30963 HDN_BNP_C -4.23821 19 24
+       (30962 SP-HD_HC_C -4.02114 19 24
+        (30957 HDN_OPTCMP_C -1.88087 19 21
+         (30956 HD-CMP_U_C -1.25121 19 21
+          (30955 ^HDN_OPTCMP_C -0.155212 19 20
+           (800 generic_time_noun_ne@n_np_pn-hour-gen_le 0 19 20
+            ("6" 265
+             "token [ +CARG #1=\"6\" +CLASS card_or_dom_ne +FORM #1 +FROM \"112\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"19\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"113\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+          (805 am_temp@x_-_am-pm_le -0.502744 20 21
+           ("a.m." 331
+            "token [ +CARG #1=\"a.m.\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"114\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"20\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98656080000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"118\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+        (30961 ^HD-CMP_U_C -2.08057 21 24
+         (855 x_to_y_np_sg_to@n_np_x-to-y-sg_le -1.21585 21 22
+          ("to" 308
+           "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"119\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"21\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"121\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (30960 HDN_OPTCMP_C -1.1188 22 24
+          (30959 HD-CMP_U_C -0.489135 22 24
+           (30958 ^HDN_OPTCMP_C -0.155212 22 23
+            (889 generic_time_noun_ne@n_np_pn-hour-gen_le 0 22 23
+             ("2" 266
+              "token [ +CARG #1=\"2\" +CLASS card_or_dom_ne +FORM #1 +FROM \"122\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"22\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"123\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+           (894 pm_temp@x_-_am-pm_le 0.0728807 23 24
+            ("p.m." 333
+             "token [ +CARG #1=\"p.m.\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"124\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"23\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95365060000000001\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"128\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+     (30994 ^MRK-NH_NOM_C -4.44596 24 30
+      (902 or_conj_1@c_xp_or_le -0.783631 24 25
+       ("or" 310
+        "token [ +CARG #1=\"or\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"129\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"24\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"131\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (30993 HDN_BNP_C -3.62801 25 30
+       (30992 SP-HD_HC_C -4.22276 25 30
+        (30967 HDN_OPTCMP_C -2.08249 25 27
+         (30966 HD-CMP_U_C -1.45283 25 27
+          (30965 ^HDN_OPTCMP_C -0.356833 25 26
+           (917 generic_time_noun_ne@n_np_pn-hour-gen_le -0.201621 25 26
+            ("10" 267
+             "token [ +CARG #1=\"10\" +CLASS card_or_dom_ne +FORM #1 +FROM \"132\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"25\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"134\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+          (922 am_temp@x_-_am-pm_le -0.502744 26 27
+           ("a.m." 335
+            "token [ +CARG #1=\"a.m.\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"135\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"26\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98070919999999995\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"139\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+        (30991 ^HD-CMP_U_C -2.08057 27 30
+         (972 x_to_y_np_sg_to@n_np_x-to-y-sg_le -1.21585 27 28
+          ("to" 312
+           "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"140\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"27\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"142\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (30990 HDN_OPTCMP_C -1.1188 28 30
+          (30989 HD-CMP_U_C -0.489135 28 30
+           (30968 ^HDN_OPTCMP_C -0.155212 28 29
+            (1006 generic_time_noun_ne@n_np_pn-hour-gen_le 0 28 29
+             ("6" 268
+              "token [ +CARG #1=\"6\" +CLASS card_or_dom_ne +FORM #1 +FROM \"143\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"28\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"144\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+           (1011 pm_temp@x_-_am-pm_le 0.0728807 29 30
+            ("p.m." 342
+             "token [ +CARG \"p.m\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"p.m.\" +FROM #1=\"145\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"29\" REST *cons* [ FIRST \"30\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58793689999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"149\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S
+ (XP
+  (NP (NP (N (NP (N (N "pacific"))) (N (N "Gas"))))
+   (NP-CJ (CONJ "&") (NP (N (N (N "Electric")) (N (N (N "co."))))))))
+ (S
+  (S
+   (V (V (V "is"))
+    (NP
+     (N
+      (VP
+       (V (V (V "offering"))
+        (NP (DET "its")
+         (N (ADJ "6,000")
+          (N (NP (N (NP (N (N "San"))) (N "francisco")))
+           (N (N (N "employees")))))))
+       (NP (DET "a")
+        (N (N (N (ADJ (ADJ "two-")) (N "tier")))
+         (N (N "flextime") (N (N (N "schedule")) (PNCT "–")))))))))
+   (NP
+    (NP-CJ (CONJ "either")
+     (NP
+      (N (NP (NP (NP (NP "6")) (XP "a.m.")))
+       (N (N "to") (NP (NP (NP (NP "2")) (XP "p.m.")))))))
+    (NP-CJ (CONJ "or")
+     (NP
+      (N (NP (NP (NP (NP "10")) (XP "a.m.")))
+       (N (N "to") (NP (NP (NP (NP "6")) (XP "p.m.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:149>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:26>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 ]
+          [ udef_q<0:26>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ proper_q<0:11>
+            LBL: h13
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h14
+            BODY: h16 ]
+          [ compound<0:11>
+            LBL: h17
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x18 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h20
+            ARG0: x18
+            RSTR: h21
+            BODY: h22 ]
+          [ named<0:7>
+            LBL: h23
+            ARG0: x18
+            CARG: "Pacific" ]
+          [ named<8:11>
+            LBL: h17
+            ARG0: x15
+            CARG: "Gas" ]
+          [ _and_c<12:13>
+            LBL: h24
+            ARG0: x9
+            L-INDEX: x15
+            R-INDEX: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<14:26>
+            LBL: h26
+            ARG0: x25
+            RSTR: h27
+            BODY: h28 ]
+          [ named<14:22>
+            LBL: h29
+            ARG0: x25
+            CARG: "Electric" ]
+          [ _company_n_1<23:26>
+            LBL: h30
+            ARG0: x31 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<23:26>
+            LBL: h32
+            ARG0: x31
+            RSTR: h33
+            BODY: h34 ]
+          [ compound<23:26>
+            LBL: h29
+            ARG0: i35
+            ARG1: x25
+            ARG2: x31 ]
+          [ _be_v_id<27:29>
+            LBL: h36
+            ARG0: e6
+            ARG1: x37 [ x PERS: 3 NUM: SG GEND: N ]
+            ARG2: x38 ]
+          [ udef_q<30:104>
+            LBL: h39
+            ARG0: x37
+            RSTR: h40
+            BODY: h41 ]
+          [ nominalization<30:104>
+            LBL: h42
+            ARG0: x37
+            ARG1: h43 ]
+          [ _offer_v_1<30:38>
+            LBL: h43
+            ARG0: e44 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i47
+            ARG2: x46 [ x PERS: 3 NUM: SG IND: + ]
+            ARG3: x45 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ def_explicit_q<39:42>
+            LBL: h48
+            ARG0: x45
+            RSTR: h50
+            BODY: h49 ]
+          [ poss<39:42>
+            LBL: h51
+            ARG0: e53 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x45
+            ARG2: x52 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<39:42>
+            LBL: h54
+            ARG0: x52
+            RSTR: h55
+            BODY: h56 ]
+          [ pron<39:42>
+            LBL: h57
+            ARG0: x52 ]
+          [ card<43:48>
+            LBL: h51
+            ARG0: e58 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x45
+            CARG: "6,000" ]
+          [ compound<49:72>
+            LBL: h51
+            ARG0: e60 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x45
+            ARG2: x59 [ x IND: + ] ]
+          [ proper_q<49:62>
+            LBL: h61
+            ARG0: x59
+            RSTR: h62
+            BODY: h63 ]
+          [ compound<49:62>
+            LBL: h64
+            ARG0: e66 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x59
+            ARG2: x65 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<49:52>
+            LBL: h67
+            ARG0: x65
+            RSTR: h68
+            BODY: h69 ]
+          [ named<49:52>
+            LBL: h70
+            ARG0: x65
+            CARG: "San" ]
+          [ named<53:62>
+            LBL: h64
+            ARG0: x59
+            CARG: "Francisco" ]
+          [ _employee_n_of<63:72>
+            LBL: h51
+            ARG0: x45
+            ARG1: i71 ]
+          [ _a_q<73:74>
+            LBL: h72
+            ARG0: x46
+            RSTR: h74
+            BODY: h73 ]
+          [ compound<75:104>
+            LBL: h75
+            ARG0: e77 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x46
+            ARG2: x76 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<75:83>
+            LBL: h78
+            ARG0: x76
+            RSTR: h79
+            BODY: h80 ]
+          [ card<75:83>
+            LBL: h81
+            ARG0: e82 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x76
+            CARG: "2" ]
+          [ _tier_n_1<75:83>
+            LBL: h81
+            ARG0: x76 ]
+          [ compound<84:104>
+            LBL: h75
+            ARG0: e84 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x46
+            ARG2: x83 ]
+          [ udef_q<84:92>
+            LBL: h85
+            ARG0: x83
+            RSTR: h86
+            BODY: h87 ]
+          [ _flextime/nn_u_unknown<84:92>
+            LBL: h88
+            ARG0: x83 ]
+          [ _schedule_n_1<93:101>
+            LBL: h75
+            ARG0: x46 ]
+          [ udef_q<105:149>
+            LBL: h89
+            ARG0: x38
+            RSTR: h90
+            BODY: h91 ]
+          [ udef_q<112:128>
+            LBL: h92
+            ARG0: x94
+            RSTR: h93
+            BODY: h95 ]
+          [ numbered_hour<112:113>
+            LBL: h96
+            ARG0: i97 [ i PERS: 3 NUM: SG ]
+            ARG1: u98
+            ARG2: i99
+            CARG: "6" ]
+          [ def_implicit_q<112:113>
+            LBL: h100
+            ARG0: i97
+            RSTR: h101
+            BODY: h102 ]
+          [ _am_x<114:118>
+            LBL: h96
+            ARG0: i99
+            CARG: "am_time" ]
+          [ interval<119:121>
+            LBL: h103
+            ARG0: x94 ]
+          [ interval_p_start<119:121>
+            LBL: h103
+            ARG0: e104 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x94
+            ARG2: i97 ]
+          [ interval_p_end<119:121>
+            LBL: h103
+            ARG0: e106 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x94
+            ARG2: i105 [ i PERS: 3 NUM: SG ] ]
+          [ numbered_hour<122:123>
+            LBL: h107
+            ARG0: i105
+            ARG1: u108
+            ARG2: i109
+            CARG: "2" ]
+          [ def_implicit_q<122:123>
+            LBL: h110
+            ARG0: i105
+            RSTR: h111
+            BODY: h112 ]
+          [ _pm_x<124:128>
+            LBL: h107
+            ARG0: i109
+            CARG: "pm_time" ]
+          [ _or_c<129:131>
+            LBL: h113
+            ARG0: x38
+            L-INDEX: x94
+            R-INDEX: x114 ]
+          [ udef_q<132:149>
+            LBL: h115
+            ARG0: x114
+            RSTR: h116
+            BODY: h117 ]
+          [ numbered_hour<132:134>
+            LBL: h118
+            ARG0: i119 [ i PERS: 3 NUM: SG ]
+            ARG1: u120
+            ARG2: i121
+            CARG: "10" ]
+          [ def_implicit_q<132:134>
+            LBL: h122
+            ARG0: i119
+            RSTR: h123
+            BODY: h124 ]
+          [ _am_x<135:139>
+            LBL: h118
+            ARG0: i121
+            CARG: "am_time" ]
+          [ interval<140:142>
+            LBL: h125
+            ARG0: x114 ]
+          [ interval_p_start<140:142>
+            LBL: h125
+            ARG0: e126 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x114
+            ARG2: i119 ]
+          [ interval_p_end<140:142>
+            LBL: h125
+            ARG0: e128 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x114
+            ARG2: i127 [ i PERS: 3 NUM: SG ] ]
+          [ numbered_hour<143:144>
+            LBL: h129
+            ARG0: i127
+            ARG1: u130
+            ARG2: i131
+            CARG: "6" ]
+          [ def_implicit_q<143:144>
+            LBL: h132
+            ARG0: i127
+            RSTR: h133
+            BODY: h134 ]
+          [ _pm_x<145:149>
+            LBL: h129
+            ARG0: i131
+            CARG: "pm_time" ] >
+   HCONS: < h133 QEQ h129 h123 QEQ h118 h116 QEQ h125 h111 QEQ h107 h101 QEQ h96 h93 QEQ h103 h90 QEQ h113 h86 QEQ h88 h79 QEQ h81 h74 QEQ h75 h68 QEQ h70 h62 QEQ h64 h55 QEQ h57 h50 QEQ h51 h40 QEQ h42 h33 QEQ h30 h27 QEQ h29 h21 QEQ h23 h14 QEQ h17 h11 QEQ h24 h5 QEQ h36 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:149>{e SF ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL e6, R-INDEX e6]
+ e7:unknown<0:26>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:udef_q<0:26>[BV x9]
+ _2:proper_q<0:11>[BV x15]
+ e19:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x18]
+ _3:proper_q<0:7>[BV x18]
+ x18:named<0:7>("Pacific"){x PERS 3, NUM sg, IND +}[]
+ x15:named<8:11>("Gas"){x PERS 3, NUM sg, IND +}[]
+ x9:_and_c<12:13>{x}[L-INDEX x15, R-INDEX x25]
+ _4:proper_q<14:26>[BV x25]
+ x25:named<14:22>("Electric"){x PERS 3, NUM sg, IND +}[]
+ x31:_company_n_1<23:26>{x PERS 3, NUM sg, IND +}[]
+ _5:udef_q<23:26>[BV x31]
+ i35:compound<23:26>{i}[ARG1 x25, ARG2 x31]
+ e6:_be_v_id<27:29>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x37, ARG2 x38]
+ _6:udef_q<30:104>[BV x37]
+ x37:nominalization<30:104>{x PERS 3, NUM sg, GEND n}[ARG1 e44]
+ e44:_offer_v_1<30:38>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x46, ARG3 x45]
+ _7:def_explicit_q<39:42>[BV x45]
+ e53:poss<39:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x45, ARG2 x52]
+ _8:pronoun_q<39:42>[BV x52]
+ x52:pron<39:42>{x PERS 3, NUM sg, GEND n, PT std}[]
+ e58:card<43:48>("6,000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x45]
+ e60:compound<49:72>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x45, ARG2 x59]
+ _9:proper_q<49:62>[BV x59]
+ e66:compound<49:62>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x59, ARG2 x65]
+ _10:proper_q<49:52>[BV x65]
+ x65:named<49:52>("San"){x PERS 3, NUM sg, IND +}[]
+ x59:named<53:62>("Francisco"){x IND +}[]
+ x45:_employee_n_of<63:72>{x PERS 3, NUM pl, IND +}[]
+ _11:_a_q<73:74>[BV x46]
+ e77:compound<75:104>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x46, ARG2 x76]
+ _12:udef_q<75:83>[BV x76]
+ e82:card<75:83>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x76]
+ x76:_tier_n_1<75:83>{x PERS 3, NUM pl, IND +}[]
+ e84:compound<84:104>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x46, ARG2 x83]
+ _13:udef_q<84:92>[BV x83]
+ x83:_flextime/nn_u_unknown<84:92>{x}[]
+ x46:_schedule_n_1<93:101>{x PERS 3, NUM sg, IND +}[]
+ _14:udef_q<105:149>[BV x38]
+ _15:udef_q<112:128>[BV x94]
+ i97:numbered_hour<112:113>("6"){i PERS 3, NUM sg}[ARG2 i99]
+ _16:def_implicit_q<112:113>[BV i97]
+ i99:_am_x<114:118>("am_time"){i}[]
+ x94:interval<119:121>{x}[]
+ e104:interval_p_start<119:121>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x94, ARG2 i97]
+ e106:interval_p_end<119:121>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x94, ARG2 i105]
+ i105:numbered_hour<122:123>("2"){i PERS 3, NUM sg}[ARG2 i109]
+ _17:def_implicit_q<122:123>[BV i105]
+ i109:_pm_x<124:128>("pm_time"){i}[]
+ x38:_or_c<129:131>{x}[L-INDEX x94, R-INDEX x114]
+ _18:udef_q<132:149>[BV x114]
+ i119:numbered_hour<132:134>("10"){i PERS 3, NUM sg}[ARG2 i121]
+ _19:def_implicit_q<132:134>[BV i119]
+ i121:_am_x<135:139>("am_time"){i}[]
+ x114:interval<140:142>{x}[]
+ e126:interval_p_start<140:142>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x114, ARG2 i119]
+ e128:interval_p_end<140:142>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x114, ARG2 i127]
+ i127:numbered_hour<143:144>("6"){i PERS 3, NUM sg}[ARG2 i131]
+ _20:def_implicit_q<143:144>[BV i127]
+ i131:_pm_x<145:149>("pm_time"){i}[]
+}
+
+{
+  implicit_conj<0:149> L-HNDL unknown<0:26>  
+  implicit_conj<0:149> L-INDEX unknown<0:26>  
+  implicit_conj<0:149> R-HNDL _be_v_id<27:29>  
+  implicit_conj<0:149> R-INDEX _be_v_id<27:29>  
+  unknown<0:26> ARG _and_c<12:13>  
+  udef_q<0:26> BV _and_c<12:13>  
+  proper_q<0:11> BV named<8:11>(Gas)  
+  compound<0:11> ARG1 named<8:11>(Gas)  
+  compound<0:11> ARG2 named<0:7>(Pacific)  
+  proper_q<0:7> BV named<0:7>(Pacific)  
+  _and_c<12:13> L-INDEX named<8:11>(Gas)  
+  _and_c<12:13> R-INDEX named<14:22>(Electric)  
+  proper_q<14:26> BV named<14:22>(Electric)  
+  udef_q<23:26> BV _company_n_1<23:26>  
+  compound<23:26> ARG1 named<14:22>(Electric)  
+  compound<23:26> ARG2 _company_n_1<23:26>  
+  _be_v_id<27:29> ARG1 nominalization<30:104>  
+  _be_v_id<27:29> ARG2 _or_c<129:131>  
+  udef_q<30:104> BV nominalization<30:104>  
+  nominalization<30:104> ARG1 _offer_v_1<30:38>  
+  _offer_v_1<30:38> ARG2 _schedule_n_1<93:101>  
+  _offer_v_1<30:38> ARG3 _employee_n_of<63:72>  
+  def_explicit_q<39:42> BV _employee_n_of<63:72>  
+  poss<39:42> ARG1 _employee_n_of<63:72>  
+  poss<39:42> ARG2 pron<39:42>  
+  pronoun_q<39:42> BV pron<39:42>  
+  card<43:48>(6,000) ARG1 _employee_n_of<63:72>  
+  compound<49:72> ARG1 _employee_n_of<63:72>  
+  compound<49:72> ARG2 named<53:62>(Francisco)  
+  proper_q<49:62> BV named<53:62>(Francisco)  
+  compound<49:62> ARG1 named<53:62>(Francisco)  
+  compound<49:62> ARG2 named<49:52>(San)  
+  proper_q<49:52> BV named<49:52>(San)  
+  _a_q<73:74> BV _schedule_n_1<93:101>  
+  compound<75:104> ARG1 _schedule_n_1<93:101>  
+  compound<75:104> ARG2 _tier_n_1<75:83>  
+  udef_q<75:83> BV _tier_n_1<75:83>  
+  card<75:83>(2) ARG1 _tier_n_1<75:83>  
+  compound<84:104> ARG1 _schedule_n_1<93:101>  
+  compound<84:104> ARG2 _flextime/nn_u_unknown<84:92>  
+  udef_q<84:92> BV _flextime/nn_u_unknown<84:92>  
+  udef_q<105:149> BV _or_c<129:131>  
+  udef_q<112:128> BV interval<119:121>  
+  numbered_hour<112:113>(6) ARG2 _am_x<114:118>(am_time)  
+  def_implicit_q<112:113> BV numbered_hour<112:113>(6)  
+  interval_p_start<119:121> ARG1 interval<119:121>  
+  interval_p_start<119:121> ARG2 numbered_hour<112:113>(6)  
+  interval_p_end<119:121> ARG1 interval<119:121>  
+  interval_p_end<119:121> ARG2 numbered_hour<122:123>(2)  
+  numbered_hour<122:123>(2) ARG2 _pm_x<124:128>(pm_time)  
+  def_implicit_q<122:123> BV numbered_hour<122:123>(2)  
+  _or_c<129:131> L-INDEX interval<119:121>  
+  _or_c<129:131> R-INDEX interval<140:142>  
+  udef_q<132:149> BV interval<140:142>  
+  numbered_hour<132:134>(10) ARG2 _am_x<135:139>(am_time)  
+  def_implicit_q<132:134> BV numbered_hour<132:134>(10)  
+  interval_p_start<140:142> ARG1 interval<140:142>  
+  interval_p_start<140:142> ARG2 numbered_hour<132:134>(10)  
+  interval_p_end<140:142> ARG1 interval<140:142>  
+  interval_p_end<140:142> ARG2 numbered_hour<143:144>(6)  
+  numbered_hour<143:144>(6) ARG2 _pm_x<145:149>(pm_time)  
+  def_implicit_q<143:144> BV numbered_hour<143:144>(6)  
+  implicit_conj<0:149> SF ques  
+  implicit_conj<0:149> TENSE tensed  
+  implicit_conj<0:149> MOOD indicative  
+  implicit_conj<0:149> PROG -  
+  implicit_conj<0:149> PERF -  
+  unknown<0:26> SF prop  
+  unknown<0:26> TENSE tensed  
+  unknown<0:26> MOOD indicative  
+  unknown<0:26> PROG -  
+  unknown<0:26> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:7>(Pacific) PERS 3  
+  named<0:7>(Pacific) NUM sg  
+  named<0:7>(Pacific) IND +  
+  named<8:11>(Gas) PERS 3  
+  named<8:11>(Gas) NUM sg  
+  named<8:11>(Gas) IND +  
+  named<14:22>(Electric) PERS 3  
+  named<14:22>(Electric) NUM sg  
+  named<14:22>(Electric) IND +  
+  _company_n_1<23:26> PERS 3  
+  _company_n_1<23:26> NUM sg  
+  _company_n_1<23:26> IND +  
+  _be_v_id<27:29> SF ques  
+  _be_v_id<27:29> TENSE pres  
+  _be_v_id<27:29> MOOD indicative  
+  _be_v_id<27:29> PROG -  
+  _be_v_id<27:29> PERF -  
+  nominalization<30:104> PERS 3  
+  nominalization<30:104> NUM sg  
+  nominalization<30:104> GEND n  
+  _offer_v_1<30:38> SF prop  
+  _offer_v_1<30:38> TENSE untensed  
+  _offer_v_1<30:38> MOOD indicative  
+  _offer_v_1<30:38> PROG +  
+  _offer_v_1<30:38> PERF -  
+  poss<39:42> SF prop  
+  poss<39:42> TENSE untensed  
+  poss<39:42> MOOD indicative  
+  poss<39:42> PROG -  
+  poss<39:42> PERF -  
+  pron<39:42> PERS 3  
+  pron<39:42> NUM sg  
+  pron<39:42> GEND n  
+  pron<39:42> PT std  
+  card<43:48>(6,000) SF prop  
+  card<43:48>(6,000) TENSE untensed  
+  card<43:48>(6,000) MOOD indicative  
+  card<43:48>(6,000) PROG -  
+  card<43:48>(6,000) PERF -  
+  compound<49:72> SF prop  
+  compound<49:72> TENSE untensed  
+  compound<49:72> MOOD indicative  
+  compound<49:72> PROG -  
+  compound<49:72> PERF -  
+  compound<49:62> SF prop  
+  compound<49:62> TENSE untensed  
+  compound<49:62> MOOD indicative  
+  compound<49:62> PROG -  
+  compound<49:62> PERF -  
+  named<49:52>(San) PERS 3  
+  named<49:52>(San) NUM sg  
+  named<49:52>(San) IND +  
+  named<53:62>(Francisco) IND +  
+  _employee_n_of<63:72> PERS 3  
+  _employee_n_of<63:72> NUM pl  
+  _employee_n_of<63:72> IND +  
+  compound<75:104> SF prop  
+  compound<75:104> TENSE untensed  
+  compound<75:104> MOOD indicative  
+  compound<75:104> PROG -  
+  compound<75:104> PERF -  
+  card<75:83>(2) SF prop  
+  card<75:83>(2) TENSE untensed  
+  card<75:83>(2) MOOD indicative  
+  card<75:83>(2) PROG -  
+  card<75:83>(2) PERF -  
+  _tier_n_1<75:83> PERS 3  
+  _tier_n_1<75:83> NUM pl  
+  _tier_n_1<75:83> IND +  
+  compound<84:104> SF prop  
+  compound<84:104> TENSE untensed  
+  compound<84:104> MOOD indicative  
+  compound<84:104> PROG -  
+  compound<84:104> PERF -  
+  _schedule_n_1<93:101> PERS 3  
+  _schedule_n_1<93:101> NUM sg  
+  _schedule_n_1<93:101> IND +  
+  numbered_hour<112:113>(6) PERS 3  
+  numbered_hour<112:113>(6) NUM sg  
+  interval_p_start<119:121> SF prop  
+  interval_p_start<119:121> TENSE untensed  
+  interval_p_start<119:121> MOOD indicative  
+  interval_p_start<119:121> PROG -  
+  interval_p_start<119:121> PERF -  
+  interval_p_end<119:121> SF prop  
+  interval_p_end<119:121> TENSE untensed  
+  interval_p_end<119:121> MOOD indicative  
+  interval_p_end<119:121> PROG -  
+  interval_p_end<119:121> PERF -  
+  numbered_hour<122:123>(2) PERS 3  
+  numbered_hour<122:123>(2) NUM sg  
+  numbered_hour<132:134>(10) PERS 3  
+  numbered_hour<132:134>(10) NUM sg  
+  interval_p_start<140:142> SF prop  
+  interval_p_start<140:142> TENSE untensed  
+  interval_p_start<140:142> MOOD indicative  
+  interval_p_start<140:142> PROG -  
+  interval_p_start<140:142> PERF -  
+  interval_p_end<140:142> SF prop  
+  interval_p_end<140:142> TENSE untensed  
+  interval_p_end<140:142> MOOD indicative  
+  interval_p_end<140:142> PROG -  
+  interval_p_end<140:142> PERF -  
+  numbered_hour<143:144>(6) PERS 3  
+  numbered_hour<143:144>(6) NUM sg  
+}
+

@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj21a';
+;;; (wsun@wsun; 23-jan-2018 (05:58 h)).
+;;;
+
+[22105014] (1 of 1) {1} `Macmillan has owned Berlitz since 1966.'
+
+[22105014:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Macmillan", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:13>, 1, "has", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <14:19>, 1, "owned", 0, "null", "VBN" 1.0)
+  (4, 3, 4, <20:27>, 1, "Berlitz", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <28:33>, 1, "since", 0, "null", "IN" 1.0)
+  (6, 5, 6, <34:38>, 1, "1966", 0, "null", "CD" 1.0)
+  (7, 6, 7, <38:39>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (75, 0, 1, <0:9>, 1, "Macmillan", 0, "null")
+  (80, 0, 1, <0:9>, 1, "macmillan", 0, "null")
+  (86, 0, 1, <0:9>, 1, "macmillan", 0, "null")
+  (70, 1, 2, <10:13>, 1, "has", 0, "null")
+  (77, 1, 2, <10:13>, 1, "has", 0, "null", "VBZ" 1.0)
+  (83, 1, 2, <10:13>, 1, "has", 0, "null")
+  (72, 2, 3, <14:19>, 1, "owned", 0, "null")
+  (78, 2, 3, <14:19>, 1, "owned", 0, "null", "VBN" 1.0)
+  (84, 2, 3, <14:19>, 1, "owned", 0, "null")
+  (63, 3, 4, <20:27>, 1, "Berlitz", 0, "null")
+  (76, 3, 4, <20:27>, 1, "Berlitz", 0, "null", "NNP" 1.0)
+  (79, 3, 4, <20:27>, 1, "berlitz", 0, "null")
+  (81, 3, 4, <20:27>, 1, "berlitz", 0, "null")
+  (74, 4, 5, <28:33>, 1, "since", 0, "null")
+  (85, 4, 5, <28:33>, 1, "since", 0, "null")
+  (64, 5, 6, <34:39>, 1, "1966.", 0, "null")
+  (82, 5, 6, <34:39>, 1, "1966.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1176 SB-HD_MC_C 13.5489 0 6
+  (1164 HDN_BNP-PN_C 0.489307 0 1
+   (1163 N_SG_ILR 0.538263 0 1
+    (89 macmillan_n1@n_-_pn_le 0 0 1
+     ("macmillan" 80
+      "token [ +CARG \"Macmillan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"macmillan\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1175 ^HD-CMP_U_C 12.0425 1 6
+   (108 has_aux@v_vp_has_le 2.86674 1 2
+    ("has" 70
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1174 HD-AJ_INT-UNSL_C 8.62334 2 6
+    (1168 ^HD-CMP_U_C 0.246426 2 4
+     (1165 ^V_PSP_OLR 0.71913 2 3
+      (191 own_v1@v_np_le 0 2 3
+       ("owned" 72
+        "token [ +CARG #1=\"owned\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1167 HDN_BNP-PN_C -1.07064 3 4
+      (1166 N_SG_ILR -0.648737 3 4
+       (308 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Berlitz" 63
+         "token [ +CARG #1=\"Berlitz\" +CLASS proper_ne +FORM #1 +FROM \"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (1173 HD-CMP_U_C 7.15825 4 6
+     (313 since@p_np_i-ngap_le 1.02522 4 5
+      ("since" 74
+       "token [ +CARG #1=\"since\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1172 HDN_BNP-PN_C 3.9744 5 6
+      (1171 HDN_OPTCMP_C 2.89384 5 6
+       (1170 W_PERIOD_PLR 2.12637 5 6
+        (1169 N_SG_ILR 1.40701 5 6
+         (323 generic_year_ne@n_-_pn-yoc-gen_le 0 5 6
+          ("1966." 64
+           "token [ +CARG \"1966\" +CLASS card_or_year_ne +FORM \"1966.\" +FROM \"34\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(S (NP (N (N "macmillan")))
+ (VP (V "has")
+  (VP (VP (V (V "owned")) (NP (N (N "Berlitz"))))
+   (PP (P "since") (NP (N (N (N (N "1966.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Macmillan" ]
+          [ _own_v_1<14:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<20:27>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ named<20:27>
+            LBL: h13
+            ARG0: x9
+            CARG: "Berlitz" ]
+          [ _since_p<28:33>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<34:39>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ yofc<34:39>
+            LBL: h19
+            ARG0: x15
+            CARG: "1966" ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ x6:named<0:9>("Macmillan"){x PERS 3, NUM sg, IND +}[]
+ e3:_own_v_1<14:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x6, ARG2 x9]
+ _2:proper_q<20:27>[BV x9]
+ x9:named<20:27>("Berlitz"){x PERS 3, NUM sg, IND +}[]
+ e14:_since_p<28:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x15]
+ _3:proper_q<34:39>[BV x15]
+ x15:yofc<34:39>("1966"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<0:9>(Macmillan)  
+  _own_v_1<14:19> ARG1 named<0:9>(Macmillan)  
+  _own_v_1<14:19> ARG2 named<20:27>(Berlitz)  
+  proper_q<20:27> BV named<20:27>(Berlitz)  
+  _since_p<28:33> ARG1 _own_v_1<14:19>  
+  _since_p<28:33> ARG2 yofc<34:39>(1966)  
+  proper_q<34:39> BV yofc<34:39>(1966)  
+  named<0:9>(Macmillan) PERS 3  
+  named<0:9>(Macmillan) NUM sg  
+  named<0:9>(Macmillan) IND +  
+  _own_v_1<14:19> SF prop  
+  _own_v_1<14:19> TENSE pres  
+  _own_v_1<14:19> MOOD indicative  
+  _own_v_1<14:19> PROG -  
+  _own_v_1<14:19> PERF +  
+  named<20:27>(Berlitz) PERS 3  
+  named<20:27>(Berlitz) NUM sg  
+  named<20:27>(Berlitz) IND +  
+  _since_p<28:33> SF prop  
+  _since_p<28:33> TENSE untensed  
+  _since_p<28:33> MOOD indicative  
+  _since_p<28:33> PROG -  
+  _since_p<28:33> PERF -  
+  yofc<34:39>(1966) PERS 3  
+  yofc<34:39>(1966) NUM sg  
+  yofc<34:39>(1966) IND +  
+}
+

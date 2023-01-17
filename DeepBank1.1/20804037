@@ -1,0 +1,115 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:00 h)).
+;;;
+
+[20804037] (1 of 1) {1} `Sound stages echo.'
+
+[20804037:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Sound", 0, "null", "JJ" 0.8254 "NNP" 0.0806 "NN" 0.0736 "VB" 0.0204)
+  (2, 1, 2, <6:12>, 1, "stages", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <13:17>, 1, "echo", 0, "null", "VBP" 0.9394 "NN" 0.0487 "VB" 0.0118)
+  (4, 3, 4, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:5>, 1, "Sound", 0, "null", "JJ" 0.8254)
+  (57, 0, 1, <0:5>, 1, "sound", 0, "null")
+  (60, 0, 1, <0:5>, 1, "sound", 0, "null")
+  (49, 1, 2, <6:12>, 1, "stages", 0, "null")
+  (56, 1, 2, <6:12>, 1, "stages", 0, "null", "NNS" 1.0)
+  (58, 1, 2, <6:12>, 1, "stages", 0, "null")
+  (51, 2, 3, <13:18>, 1, "echo.", 0, "null")
+  (55, 2, 3, <13:18>, 1, "echo.", 0, "null", "VBP" 0.9394)
+  (59, 2, 3, <13:18>, 1, "echo.", 0, "null")
+>
+
+(ROOT_STRICT
+ (357 SB-HD_MC_C 1.06398 0 3
+  (353 HDN_BNP_C 2.27553 0 2
+   (352 N-HDN_CPD_C 1.65478 0 2
+    (349 HDN_OPTCMP_C 0.363789 0 1
+     (63 sound_n1@n_pp_mc-of_le 0 0 1
+      ("sound" 57
+       "token [ +CARG \"Sound\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sound\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82541960000000003\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (351 ^HDN_OPTCMP_C 0.679729 1 2
+     (350 N_PL_OLR 0.439071 1 2
+      (73 stage_n1@n_pp_c-of_le 0 1 2
+       ("stages" 49
+        "token [ +CARG #1=\"stages\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (356 ^HD_OPTCMP_C -1.19109 2 3
+   (355 W_PERIOD_PLR -1.49508 2 3
+    (354 V_N3S-BSE_ILR -0.638355 2 3
+     (89 echo_v1@v_np*_le 0 2 3
+      ("echo." 51
+       "token [ +CARG \"echo\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"echo.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93944039999999995\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N "sound")) (N (N (N "stages")))))
+ (VP (V (V (V "echo.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _sound_n_of<0:5>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ _stage_n_of<6:12>
+            LBL: h8
+            ARG0: x6
+            ARG1: i16 ]
+          [ _echo_v_1<13:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p17 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:5>[BV x9]
+ x9:_sound_n_of<0:5>{x}[]
+ x6:_stage_n_of<6:12>{x PERS 3, NUM pl, IND +}[]
+ e3:_echo_v_1<13:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:12> BV _stage_n_of<6:12>  
+  compound<0:12> ARG1 _stage_n_of<6:12>  
+  compound<0:12> ARG2 _sound_n_of<0:5>  
+  udef_q<0:5> BV _sound_n_of<0:5>  
+  _echo_v_1<13:18> ARG1 _stage_n_of<6:12>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _stage_n_of<6:12> PERS 3  
+  _stage_n_of<6:12> NUM pl  
+  _stage_n_of<6:12> IND +  
+  _echo_v_1<13:18> SF prop  
+  _echo_v_1<13:18> TENSE pres  
+  _echo_v_1<13:18> MOOD indicative  
+  _echo_v_1<13:18> PROG -  
+  _echo_v_1<13:18> PERF -  
+}
+

@@ -1,0 +1,78 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:16 h)).
+;;;
+
+[21936018] (1 of 1) {1} `It works.'
+
+[21936018:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:8>, 1, "works", 0, "null", "VBZ" 0.8888 "NNS" 0.1112)
+  (3, 2, 3, <8:9>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (37, 0, 1, <0:2>, 1, "it", 0, "null")
+  (39, 0, 1, <0:2>, 1, "it", 0, "null")
+  (33, 1, 2, <3:9>, 1, "works.", 0, "null")
+  (35, 1, 2, <3:9>, 1, "works.", 0, "null", "VBZ" 0.8888)
+  (36, 1, 2, <3:9>, 1, "works.", 0, "null", "NNS" 0.1112)
+  (38, 1, 2, <3:9>, 1, "works.", 0, "null")
+>
+
+(ROOT_STRICT
+ (216 SB-HD_MC_C -2.30277 0 2
+  (212 HDN_BNP-QNT_C 0.430464 0 1
+   (41 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 37
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (215 ^HD_OPTCMP_C -2.70871 1 2
+   (214 W_PERIOD_PLR -3.0127 1 2
+    (213 V_3S-FIN_OLR -1.58721 1 2
+     (77 work_v1@v_np*_le 0 1 2
+      ("works." 33
+       "token [ +CARG \"works\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"works.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88881060000000001\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "it")) (VP (V (V (V "works.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _work_v_1<3:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_work_v_1<3:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _work_v_1<3:9> ARG1 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _work_v_1<3:9> SF prop  
+  _work_v_1<3:9> TENSE pres  
+  _work_v_1<3:9> MOOD indicative  
+  _work_v_1<3:9> PROG -  
+  _work_v_1<3:9> PERF -  
+}
+

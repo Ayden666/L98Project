@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (18:59 h)).
+;;;
+
+[20985013] (1 of 1) {1} `Professor of Taxation'
+
+[20985013:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Professor", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:12>, 1, "of", 0, "null", "IN" 1.0)
+  (3, 2, 3, <13:21>, 1, "Taxation", 0, "null", "NNP" 1.0)
+>
+
+<
+  (36, 0, 1, <0:9>, 1, "Professor", 0, "null")
+  (39, 0, 1, <0:9>, 1, "professor", 0, "null")
+  (42, 0, 1, <0:9>, 1, "professor", 0, "null")
+  (35, 1, 2, <10:12>, 1, "of", 0, "null")
+  (41, 1, 2, <10:12>, 1, "of", 0, "null")
+  (29, 2, 3, <13:21>, 1, "Taxation", 0, "null")
+  (37, 2, 3, <13:21>, 1, "Taxation", 0, "null", "NNP" 1.0)
+  (38, 2, 3, <13:21>, 1, "taxation", 0, "null")
+  (40, 2, 3, <13:21>, 1, "taxation", 0, "null")
+>
+
+(ROOT_FRAG
+ (282 NP_NB-FRG_C 2.51054 0 3
+  (281 HD-CMP_U_C 3.20645 0 3
+   (276 ^N_SG_ILR 1.20794 0 1
+    (45 professor_n1@n_pp_c-of_le 0 0 1
+     ("professor" 39
+      "token [ +CARG \"Professor\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"professor\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (280 HD-CMP_U_C 1.47579 1 3
+    (84 of_prtcl@p_np_ptcl-of_le 1.04356 1 2
+     ("of" 35
+      "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (279 HDN_BNP_C -0.380854 2 3
+     (278 HDN_OPTCMP_C 0.154904 2 3
+      (277 N_MS_ILR 0.068189 2 3
+       (163 taxation_n1@n_pp_m_le 0 2 3
+        ("taxation" 38
+         "token [ +CARG \"Taxation\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"taxation\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (N (N (N "professor")) (PP (P "of") (NP (N (N (N "taxation")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:21>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:21>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _professor_n_of<0:9>
+            LBL: h8
+            ARG0: x4
+            ARG1: x9 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<13:21>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _taxation_n_of<13:21>
+            LBL: h13
+            ARG0: x9
+            ARG1: i14 ] >
+   HCONS: < h11 QEQ h13 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:21>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:21>[BV x4]
+ x4:_professor_n_of<0:9>{x PERS 3, NUM sg, IND +}[ARG1 x9]
+ _2:udef_q<13:21>[BV x9]
+ x9:_taxation_n_of<13:21>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  unknown<0:21> ARG _professor_n_of<0:9>  
+  udef_q<0:21> BV _professor_n_of<0:9>  
+  _professor_n_of<0:9> ARG1 _taxation_n_of<13:21>  
+  udef_q<13:21> BV _taxation_n_of<13:21>  
+  unknown<0:21> SF prop-or-ques  
+  unknown<0:21> TENSE untensed  
+  unknown<0:21> MOOD indicative  
+  unknown<0:21> PROG -  
+  unknown<0:21> PERF -  
+  _professor_n_of<0:9> PERS 3  
+  _professor_n_of<0:9> NUM sg  
+  _professor_n_of<0:9> IND +  
+  _taxation_n_of<13:21> PERS 3  
+  _taxation_n_of<13:21> NUM sg  
+  _taxation_n_of<13:21> GEND n  
+  _taxation_n_of<13:21> IND -  
+}
+

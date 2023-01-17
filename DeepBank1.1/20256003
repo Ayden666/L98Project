@@ -1,0 +1,240 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:22 h)).
+;;;
+
+[20256003] (1 of 1) {1} `Accepted bids ranged from 8.38% to 8.395%.'
+
+[20256003:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Accepted", 0, "null", "JJ" 0.989 "NNP" 0.011)
+  (2, 1, 2, <9:13>, 1, "bids", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:20>, 1, "ranged", 0, "null", "VBD" 0.553 "VBN" 0.447)
+  (4, 3, 4, <21:25>, 1, "from", 0, "null", "IN" 1.0)
+  (5, 4, 5, <26:30>, 1, "8.38", 0, "null", "CD" 1.0)
+  (6, 5, 6, <30:31>, 1, "%", 0, "null", "NN" 1.0)
+  (7, 6, 7, <32:34>, 1, "to", 0, "null", "TO" 1.0)
+  (8, 7, 8, <35:40>, 1, "8.395", 0, "null", "CD" 1.0)
+  (9, 8, 9, <40:41>, 1, "%", 0, "null", "NN" 1.0)
+  (10, 9, 10, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (106, 0, 1, <0:8>, 1, "Accepted", 0, "null", "JJ" 0.989)
+  (110, 0, 1, <0:8>, 1, "accepted", 0, "null")
+  (119, 0, 1, <0:8>, 1, "accepted", 0, "null")
+  (95, 1, 2, <9:13>, 1, "bids", 0, "null")
+  (108, 1, 2, <9:13>, 1, "bids", 0, "null", "NNS" 1.0)
+  (114, 1, 2, <9:13>, 1, "bids", 0, "null")
+  (104, 2, 3, <14:20>, 1, "ranged", 0, "null")
+  (107, 2, 3, <14:20>, 1, "ranged", 0, "null", "VBD" 0.553)
+  (109, 2, 3, <14:20>, 1, "ranged", 0, "null", "VBN" 0.447)
+  (118, 2, 3, <14:20>, 1, "ranged", 0, "null")
+  (97, 3, 4, <21:25>, 1, "from", 0, "null")
+  (115, 3, 4, <21:25>, 1, "from", 0, "null")
+  (82, 4, 5, <26:30>, 1, "8.38", 0, "null")
+  (111, 4, 5, <26:30>, 1, "8.38", 0, "null")
+  (99, 5, 6, <30:31>, 1, "%", 0, "null")
+  (116, 5, 6, <30:31>, 1, "%", 0, "null")
+  (93, 6, 7, <32:34>, 1, "to", 0, "null")
+  (113, 6, 7, <32:34>, 1, "to", 0, "null")
+  (83, 7, 8, <35:40>, 1, "8.395", 0, "null")
+  (112, 7, 8, <35:40>, 1, "8.395", 0, "null")
+  (101, 8, 9, <40:42>, 1, "%.", 0, "null")
+  (117, 8, 9, <40:42>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3784 SB-HD_MC_C 12.5594 0 9
+  (3771 HDN_BNP_C 0.598371 0 2
+   (3770 AJ-HDN_NORM_C -0.136129 0 2
+    (3768 V_J-NB-PAS-TR_DLR -0.237378 0 1
+     (3767 V_PAS_ODLR 0.230042 0 1
+      (168 accept_v1@v_np*_le 0.072404 0 1
+       ("accepted" 110
+        "token [ +CARG \"Accepted\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"accepted\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98898920000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (3769 ^N_PL_OLR -0.0188574 1 2
+     (229 bid_n1@n_-_c_le 0 1 2
+      ("bids" 95
+       "token [ +CARG #1=\"bids\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (3783 ^HD-CMP_U_C 10.4451 2 9
+   (3777 ^HD-CMP_U_C 6.53602 2 6
+    (3772 ^V_PST_OLR 0 2 3
+     (283 range_v1@v_pp-pp_le 0 2 3
+      ("ranged" 104
+       "token [ +CARG #1=\"ranged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55295139999999998\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3776 HD-CMP_U_C 5.02378 3 6
+     (513 from@p_np_i_le -0.572251 3 4
+      ("from" 97
+       "token [ +CARG #1=\"from\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3775 HDN_BNP_C 3.95936 4 6
+      (3774 NUM-N_MNP_C 3.00755 4 6
+       (531 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+        ("8.38" 82
+         "token [ +CARG #1=\"8.38\" +CLASS card_or_time_or_proper_ne +FORM #1 +FROM \"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (3773 ^N_PL_OLR 1.65072 5 6
+        (537 percent_char_n1@n_-_c-meas-spr_le 1.28059 5 6
+         ("%" 99
+          "token [ +CARG #1=\"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (3782 HD-CMP_U_C 3.19858 6 9
+    (574 to_nmod@p_np_i-nm-no-tm_le -0.282168 6 7
+     ("to" 93
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3781 HDN_BNP_C 2.88016 7 9
+     (3780 NUM-N_MNP_C 1.92835 7 9
+      (620 generic_card_ne@aj_-_i-crd-gen_le 0 7 8
+       ("8.395" 83
+        "token [ +CARG #1=\"8.395\" +CLASS card_or_proper_ne +FORM #1 +FROM \"35\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (3779 ^W_PERIOD_PLR 1.02943 8 9
+       (3778 N_PL_OLR 0.482577 8 9
+        (622 percent_char_n1@n_-_c-meas-spr_le 0.328883 8 9
+         ("%." 101
+          "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (AP (V (V "accepted"))) (N (N "bids"))))
+ (VP
+  (V (V (V "ranged"))
+   (PP (P "from") (NP (N (ADJ "8.38") (N (N "%"))))))
+  (PP (P "to") (NP (N (ADJ "8.395") (N (N (N "%."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _accept_v_1<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i10
+            ARG2: x6 ]
+          [ parg_d<0:8>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: x6 ]
+          [ _bid_n_1<9:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _range_v_1<14:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _from_p<21:25>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x13 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<26:31>
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ card<26:30>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            CARG: "8.38" ]
+          [ _percent_n_of<30:31>
+            LBL: h17
+            ARG0: x13 ]
+          [ _to_p<32:34>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x20 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<35:42>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ card<35:40>
+            LBL: h24
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            CARG: "8.395" ]
+          [ _percent_n_of<40:42>
+            LBL: h24
+            ARG0: x20 ] >
+   HCONS: < h22 QEQ h24 h15 QEQ h17 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:13>[BV x6]
+ e9:_accept_v_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e11:parg_d<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x6]
+ x6:_bid_n_1<9:13>{x PERS 3, NUM pl, IND +}[]
+ e3:_range_v_1<14:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e12:_from_p<21:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x13]
+ _2:udef_q<26:31>[BV x13]
+ e18:card<26:30>("8.38"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13]
+ x13:_percent_n_of<30:31>{x PERS 3, NUM pl, IND +}[]
+ e19:_to_p<32:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x20]
+ _3:udef_q<35:42>[BV x20]
+ e25:card<35:40>("8.395"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20]
+ x20:_percent_n_of<40:42>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:13> BV _bid_n_1<9:13>  
+  _accept_v_1<0:8> ARG2 _bid_n_1<9:13>  
+  parg_d<0:8> ARG1 _accept_v_1<0:8>  
+  parg_d<0:8> ARG2 _bid_n_1<9:13>  
+  _range_v_1<14:20> ARG1 _bid_n_1<9:13>  
+  _from_p<21:25> ARG1 _range_v_1<14:20>  
+  _from_p<21:25> ARG2 _percent_n_of<30:31>  
+  udef_q<26:31> BV _percent_n_of<30:31>  
+  card<26:30>(8.38) ARG1 _percent_n_of<30:31>  
+  _to_p<32:34> ARG1 _range_v_1<14:20>  
+  _to_p<32:34> ARG2 _percent_n_of<40:42>  
+  udef_q<35:42> BV _percent_n_of<40:42>  
+  card<35:40>(8.395) ARG1 _percent_n_of<40:42>  
+  _accept_v_1<0:8> SF prop  
+  _accept_v_1<0:8> TENSE untensed  
+  _accept_v_1<0:8> MOOD indicative  
+  _accept_v_1<0:8> PROG -  
+  _accept_v_1<0:8> PERF -  
+  parg_d<0:8> SF prop  
+  parg_d<0:8> TENSE untensed  
+  parg_d<0:8> MOOD indicative  
+  parg_d<0:8> PROG -  
+  parg_d<0:8> PERF -  
+  _bid_n_1<9:13> PERS 3  
+  _bid_n_1<9:13> NUM pl  
+  _bid_n_1<9:13> IND +  
+  _range_v_1<14:20> SF prop  
+  _range_v_1<14:20> TENSE past  
+  _range_v_1<14:20> MOOD indicative  
+  _range_v_1<14:20> PROG -  
+  _range_v_1<14:20> PERF -  
+  _from_p<21:25> SF prop  
+  _from_p<21:25> TENSE untensed  
+  _from_p<21:25> MOOD indicative  
+  _from_p<21:25> PROG -  
+  _from_p<21:25> PERF -  
+  card<26:30>(8.38) SF prop  
+  card<26:30>(8.38) TENSE untensed  
+  card<26:30>(8.38) MOOD indicative  
+  card<26:30>(8.38) PROG -  
+  card<26:30>(8.38) PERF -  
+  _percent_n_of<30:31> PERS 3  
+  _percent_n_of<30:31> NUM pl  
+  _percent_n_of<30:31> IND +  
+  _to_p<32:34> SF prop  
+  _to_p<32:34> TENSE untensed  
+  _to_p<32:34> MOOD indicative  
+  _to_p<32:34> PROG -  
+  _to_p<32:34> PERF -  
+  card<35:40>(8.395) SF prop  
+  card<35:40>(8.395) TENSE untensed  
+  card<35:40>(8.395) MOOD indicative  
+  card<35:40>(8.395) PROG -  
+  card<35:40>(8.395) PERF -  
+  _percent_n_of<40:42> PERS 3  
+  _percent_n_of<40:42> NUM pl  
+  _percent_n_of<40:42> IND +  
+}
+

@@ -1,0 +1,124 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:20 h)).
+;;;
+
+[20455036] (1 of 1) {1} `(Lavery vs. U.S.)'
+
+[20455036:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "(", 0, "null", "(" 1.0)
+  (2, 1, 2, <1:7>, 1, "Lavery", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:11>, 1, "vs.", 0, "null", "FW" 0.4991 "CC" 0.3518 "IN" 0.1491)
+  (4, 3, 4, <12:15>, 1, "U.S", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+  (6, 5, 6, <16:17>, 1, ")", 0, "null", ")" 1.0)
+>
+
+<
+  (72, 0, 1, <0:7>, 1, "(Lavery", 0, "null")
+  (75, 0, 1, <0:7>, 1, "(lavery", 0, "null")
+  (79, 0, 1, <0:7>, 1, "(lavery", 0, "null")
+  (70, 1, 2, <8:11>, 1, "vs.", 0, "null")
+  (73, 1, 2, <8:11>, 1, "vs.", 0, "null", "FW" 0.4991)
+  (78, 1, 2, <8:11>, 1, "vs.", 0, "null")
+  (61, 2, 3, <12:17>, 1, "U.S.)", 0, "null")
+  (74, 2, 3, <12:17>, 1, "U.S.)", 0, "null", "NNP" 1.0)
+  (76, 2, 3, <12:17>, 1, "u.s.)", 0, "null")
+  (77, 2, 3, <12:17>, 1, "u.s.)", 0, "null")
+>
+
+(ROOT_INFFRAG
+ (321 NP_FRG_C -1.59239 0 3
+  (320 NP-NP_CRD-T_C -1.15046 0 3
+   (314 HDN_BNP-PN_C 0.156131 0 1
+    (313 W_LPAREN_PLR 0.600231 0 1
+     (312 N_SG_ILR 0.194035 0 1
+      (82 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("(Lavery" 72
+        "token [ +CARG \"Lavery\" +CLASS proper_ne +FORM \"(Lavery\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (319 ^MRK-NH_NOM_C -1.36393 1 3
+    (96 vs_2_conj@c_xp_vs_le 0 1 2
+     ("vs." 70
+      "token [ +CARG #1=\"vs.\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.49911280000000002\" +TAG \"FW\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (318 HDN_BNP_C -1.36393 2 3
+     (317 W_RPAREN_PLR -1.20704 2 3
+      (316 W_PERIOD_PLR -2.2809 2 3
+       (315 N_PL_OLR -2.0672 2 3
+        (120 u_period_np1@n_-_pn_le 0 2 3
+         ("u.s.)" 76
+          "token [ +CARG \"U.S\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"u.s.)\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP
+ (NP (NP (N (N (N "(Lavery"))))
+  (NP-CJ (CONJ "vs.") (NP (N (N (N (N "u.s.)"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 ]
+          [ udef_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ proper_q<0:7>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h9
+            BODY: h11 ]
+          [ named<0:7>
+            LBL: h12
+            ARG0: x10
+            CARG: "Lavery" ]
+          [ _versus_c<8:11>
+            LBL: h13
+            ARG0: x4
+            L-INDEX: x10
+            R-INDEX: x14 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:17>
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ named<12:17>
+            LBL: h18
+            ARG0: x14
+            CARG: "U" ] >
+   HCONS: < h16 QEQ h18 h9 QEQ h12 h6 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:17>[BV x4]
+ _2:proper_q<0:7>[BV x10]
+ x10:named<0:7>("Lavery"){x PERS 3, NUM sg, IND +}[]
+ x4:_versus_c<8:11>{x}[L-INDEX x10, R-INDEX x14]
+ _3:udef_q<12:17>[BV x14]
+ x14:named<12:17>("U"){x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:17> ARG _versus_c<8:11>  
+  udef_q<0:17> BV _versus_c<8:11>  
+  proper_q<0:7> BV named<0:7>(Lavery)  
+  _versus_c<8:11> L-INDEX named<0:7>(Lavery)  
+  _versus_c<8:11> R-INDEX named<12:17>(U)  
+  udef_q<12:17> BV named<12:17>(U)  
+  unknown<0:17> SF prop  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  named<0:7>(Lavery) PERS 3  
+  named<0:7>(Lavery) NUM sg  
+  named<0:7>(Lavery) IND +  
+  named<12:17>(U) PERS 3  
+  named<12:17>(U) NUM pl  
+  named<12:17>(U) IND +  
+}
+

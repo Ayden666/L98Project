@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj11d';
+;;; (wsun@wsun; 22-jan-2018 (20:38 h)).
+;;;
+
+[21162034] (1 of 1) {1} `WITHHOLDING RULES:'
+
+[21162034:8] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "WITHHOLDING", 0, "null", "NN" 1.0)
+  (2, 1, 2, <12:17>, 1, "RULES", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <17:18>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:11>, 1, "WITHHOLDING", 0, "null")
+  (39, 0, 1, <0:11>, 1, "WITHHOLDING", 0, "null", "NN" 1.0)
+  (41, 0, 1, <0:11>, 1, "withholding", 0, "null")
+  (43, 0, 1, <0:11>, 1, "withholding", 0, "null")
+  (30, 1, 2, <12:17>, 1, "RULES", 0, "null")
+  (38, 1, 2, <12:17>, 1, "RULES", 0, "null", "NNS" 1.0)
+  (40, 1, 2, <12:17>, 1, "rules", 0, "null")
+  (42, 1, 2, <12:17>, 1, "rules", 0, "null")
+  (37, 2, 3, <17:18>, 1, ":", 0, "null")
+  (44, 2, 3, <17:18>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (533 NP_FRG_C -0.430635 0 3
+  (532 HDN_BNP_C -0.226222 0 3
+   (531 HDN-AJ_REDREL_C -0.130826 0 3
+    (530 ^N-HDN_CPD_C -0.491068 0 2
+     (520 HDN_OPTCMP_C -1.80416 0 1
+      (519 V_NGER-TR_DLR -0.656804 0 1
+       (493 V_PRP_OLR 0.693486 0 1
+        (50 withhold_v1@v_np_le 0 0 1
+         ("withholding" 41
+          "token [ +CARG \"WITHHOLDING\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"withholding\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (494 ^N_PL_OLR -0.291044 1 2
+      (57 rule_n1@n_-_mc-ns_le 0.666598 1 2
+       ("rules" 40
+        "token [ +CARG \"RULES\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"rules\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (87 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+     (":" 37
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (N (N (V (V "withholding")))) (N (N "rules"))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _withhold_v_1<0:11>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i17
+            ARG2: p16 ]
+          [ nominalization<0:11>
+            LBL: h18
+            ARG0: x9
+            ARG1: h14 ]
+          [ _rule_n_of<12:17>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<17:18>
+            LBL: h8
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h18 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:18>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:11>[BV x9]
+ e15:_withhold_v_1<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x9:nominalization<0:11>{x PERS 3, NUM sg, GEND n}[ARG1 e15]
+ x4:_rule_n_of<12:17>{x PERS 3, NUM pl}[]
+ e19:_colon_p_namely<17:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:18> ARG _rule_n_of<12:17>  
+  udef_q<0:18> BV _rule_n_of<12:17>  
+  compound<0:17> ARG1 _rule_n_of<12:17>  
+  compound<0:17> ARG2 nominalization<0:11>  
+  udef_q<0:11> BV nominalization<0:11>  
+  nominalization<0:11> ARG1 _withhold_v_1<0:11>  
+  _colon_p_namely<17:18> ARG1 _rule_n_of<12:17>  
+  unknown<0:18> SF prop-or-ques  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  _withhold_v_1<0:11> SF prop  
+  _withhold_v_1<0:11> TENSE untensed  
+  _withhold_v_1<0:11> MOOD indicative  
+  _withhold_v_1<0:11> PROG +  
+  _withhold_v_1<0:11> PERF -  
+  nominalization<0:11> PERS 3  
+  nominalization<0:11> NUM sg  
+  nominalization<0:11> GEND n  
+  _rule_n_of<12:17> PERS 3  
+  _rule_n_of<12:17> NUM pl  
+  _colon_p_namely<17:18> SF prop  
+  _colon_p_namely<17:18> TENSE untensed  
+  _colon_p_namely<17:18> MOOD indicative  
+  _colon_p_namely<17:18> PROG -  
+  _colon_p_namely<17:18> PERF -  
+}
+

@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:08 h)).
+;;;
+
+[20118121] (1 of 1) {1} `Fundamentalists Jihad'
+
+[20118121:0] (active)
+
+<
+  (1, 0, 1, <0:15>, 1, "Fundamentalists", 0, "null", "NNPS" 1.0)
+  (2, 1, 2, <16:21>, 1, "Jihad", 0, "null", "NNP" 1.0)
+>
+
+<
+  (26, 0, 1, <0:15>, 1, "Fundamentalists", 0, "null", "NNPS" 1.0)
+  (28, 0, 1, <0:15>, 1, "fundamentalists", 0, "null")
+  (31, 0, 1, <0:15>, 1, "fundamentalists", 0, "null")
+  (20, 1, 2, <16:21>, 1, "Jihad", 0, "null")
+  (25, 1, 2, <16:21>, 1, "Jihad", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <16:21>, 1, "jihad", 0, "null")
+  (29, 1, 2, <16:21>, 1, "jihad", 0, "null")
+>
+
+(ROOT_FRAG
+ (83 NP_FRG_C -1.10751 0 2
+  (82 HDN_BNP-PN_C 0.0389971 0 2
+   (81 NP-HDN_NME-CPD_C 0.0783044 0 2
+    (79 HDN_BNP_C 0 0 1
+     (34 genericname_pl@n_-_pn-pl-unk_le 0 0 1
+      ("Fundamentalists" 26
+       "token [ +CARG #1=\"Fundamentalists\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_fundamentalists/NNPS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNPS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (80 ^N_SG_ILR -0.143257 1 2
+     (41 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Jihad" 20
+       "token [ +CARG #1=\"Jihad\" +CLASS proper_ne +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N "Fundamentalists")) (N (N "Jihad")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:21>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:21>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:21>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:15>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:15>
+            LBL: h14
+            ARG0: x9
+            CARG: "Fundamentalists" ]
+          [ named<16:21>
+            LBL: h8
+            ARG0: x4
+            CARG: "Jihad" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:21>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:21>[BV x4]
+ e10:compound<0:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:15>[BV x9]
+ x9:named<0:15>("Fundamentalists"){x PERS 3, NUM pl, IND +}[]
+ x4:named<16:21>("Jihad"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:21> ARG named<16:21>(Jihad)  
+  proper_q<0:21> BV named<16:21>(Jihad)  
+  compound<0:21> ARG1 named<16:21>(Jihad)  
+  compound<0:21> ARG2 named<0:15>(Fundamentalists)  
+  udef_q<0:15> BV named<0:15>(Fundamentalists)  
+  unknown<0:21> SF prop-or-ques  
+  unknown<0:21> TENSE untensed  
+  unknown<0:21> MOOD indicative  
+  unknown<0:21> PROG -  
+  unknown<0:21> PERF -  
+  compound<0:21> SF prop  
+  compound<0:21> TENSE untensed  
+  compound<0:21> MOOD indicative  
+  compound<0:21> PROG -  
+  compound<0:21> PERF -  
+  named<0:15>(Fundamentalists) PERS 3  
+  named<0:15>(Fundamentalists) NUM pl  
+  named<0:15>(Fundamentalists) IND +  
+  named<16:21>(Jihad) PERS 3  
+  named<16:21>(Jihad) NUM sg  
+  named<16:21>(Jihad) IND +  
+}
+

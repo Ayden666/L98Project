@@ -1,0 +1,191 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (23:02 h)).
+;;;
+
+[21416021] (1 of 1) {1} `Rachel Weiss Brookline, Mass.'
+
+[21416021:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Rachel", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:12>, 1, "Weiss", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:22>, 1, "Brookline", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <22:23>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <24:28>, 1, "Mass", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:6>, 1, "Rachel", 0, "null")
+  (78, 0, 1, <0:6>, 1, "rachel", 0, "null")
+  (84, 0, 1, <0:6>, 1, "rachel", 0, "null")
+  (58, 1, 2, <7:12>, 1, "Weiss", 0, "null")
+  (74, 1, 2, <7:12>, 1, "Weiss", 0, "null", "NNP" 1.0)
+  (77, 1, 2, <7:12>, 1, "weiss", 0, "null")
+  (81, 1, 2, <7:12>, 1, "weiss", 0, "null")
+  (62, 2, 3, <13:23>, 1, "Brookline,", 0, "null")
+  (75, 2, 3, <13:23>, 1, "Brookline,", 0, "null", "NNP" 1.0)
+  (79, 2, 3, <13:23>, 1, "brookline,", 0, "null")
+  (82, 2, 3, <13:23>, 1, "brookline,", 0, "null")
+  (64, 3, 4, <24:29>, 1, "Mass.", 0, "null")
+  (76, 3, 4, <24:29>, 1, "Mass.", 0, "null", "NNP" 1.0)
+  (80, 3, 4, <24:29>, 1, "mass.", 0, "null")
+  (83, 3, 4, <24:29>, 1, "mass.", 0, "null")
+>
+
+(ROOT_FRAG
+ (658 NP_FRG_C 4.18652 0 4
+  (657 HDN_BNP-PN_C 5.33303 0 4
+   (656 NP-HDN_NME-CPD_C 5.37234 0 4
+    (644 HDN_BNP-PN_C 2.30669 0 2
+     (643 NP-HDN_NME-CPD_C 1.95878 0 2
+      (641 HDN_BNP-PN_C 0.586141 0 1
+       (640 N_SG_ILR -0.166294 0 1
+        (89 rachel_n1@n_-_pn_le 0 0 1
+         ("rachel" 78
+          "token [ +CARG \"Rachel\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"rachel\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (642 ^N_SG_ILR -0.143257 1 2
+       (90 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Weiss" 58
+         "token [ +CARG #1=\"Weiss\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (655 ^NP-HDN_CTY-CPD_C 3.50336 2 4
+     (654 HDN_BNP-PN_C 0.580175 2 3
+      (646 W_COMMA_PLR 1.57253 2 3
+       (645 N_SG_ILR 0.501186 2 3
+        (92 generic_proper_ne@n_-_pn-gen_le 0 2 3
+         ("Brookline," 62
+          "token [ +CARG \"Brookline\" +CLASS proper_ne +FORM \"Brookline,\" +FROM \"13\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+     (650 ^W_PERIOD_PLR 1.24389 3 4
+      (649 N_SG_ILR 0.628043 3 4
+       (115 massachusetts_n4@n_-_pn-abb_le 0 3 4
+        ("mass." 80
+         "token [ +CARG \"Mass\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"mass.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (NP
+  (N (NP (N (NP (N (N "rachel"))) (N (N "Weiss"))))
+   (N (NP (N (N (N "Brookline,")))) (N (N (N "mass.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:29>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:29>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:29>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:12>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:12>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:6>
+            LBL: h20
+            ARG0: x15
+            CARG: "Rachel" ]
+          [ named<7:12>
+            LBL: h14
+            ARG0: x9
+            CARG: "Weiss" ]
+          [ compound<13:29>
+            LBL: h8
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:23>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ named<13:23>
+            LBL: h26
+            ARG0: x21
+            CARG: "Brookline" ]
+          [ named<24:29>
+            LBL: h8
+            ARG0: x4
+            CARG: "Massachusetts" ] >
+   HCONS: < h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:29>[BV x4]
+ e10:compound<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:12>[BV x9]
+ e16:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:6>[BV x15]
+ x15:named<0:6>("Rachel"){x PERS 3, NUM sg, IND +}[]
+ x9:named<7:12>("Weiss"){x PERS 3, NUM sg, IND +}[]
+ e22:compound<13:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x21]
+ _4:proper_q<13:23>[BV x21]
+ x21:named<13:23>("Brookline"){x PERS 3, NUM sg, IND +}[]
+ x4:named<24:29>("Massachusetts"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:29> ARG named<24:29>(Massachusetts)  
+  proper_q<0:29> BV named<24:29>(Massachusetts)  
+  compound<0:29> ARG1 named<24:29>(Massachusetts)  
+  compound<0:29> ARG2 named<7:12>(Weiss)  
+  proper_q<0:12> BV named<7:12>(Weiss)  
+  compound<0:12> ARG1 named<7:12>(Weiss)  
+  compound<0:12> ARG2 named<0:6>(Rachel)  
+  proper_q<0:6> BV named<0:6>(Rachel)  
+  compound<13:29> ARG1 named<24:29>(Massachusetts)  
+  compound<13:29> ARG2 named<13:23>(Brookline)  
+  proper_q<13:23> BV named<13:23>(Brookline)  
+  unknown<0:29> SF prop  
+  unknown<0:29> TENSE untensed  
+  unknown<0:29> MOOD indicative  
+  unknown<0:29> PROG -  
+  unknown<0:29> PERF -  
+  compound<0:29> SF prop  
+  compound<0:29> TENSE untensed  
+  compound<0:29> MOOD indicative  
+  compound<0:29> PROG -  
+  compound<0:29> PERF -  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:6>(Rachel) PERS 3  
+  named<0:6>(Rachel) NUM sg  
+  named<0:6>(Rachel) IND +  
+  named<7:12>(Weiss) PERS 3  
+  named<7:12>(Weiss) NUM sg  
+  named<7:12>(Weiss) IND +  
+  compound<13:29> SF prop  
+  compound<13:29> TENSE untensed  
+  compound<13:29> MOOD indicative  
+  compound<13:29> PROG -  
+  compound<13:29> PERF -  
+  named<13:23>(Brookline) PERS 3  
+  named<13:23>(Brookline) NUM sg  
+  named<13:23>(Brookline) IND +  
+  named<24:29>(Massachusetts) PERS 3  
+  named<24:29>(Massachusetts) NUM sg  
+  named<24:29>(Massachusetts) IND +  
+}
+

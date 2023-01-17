@@ -1,0 +1,198 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:28 h)).
+;;;
+
+[20469056] (1 of 1) {1} `Judge Hancock didn't return phone calls.'
+
+[20469056:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Judge", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:13>, 1, "Hancock", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:17>, 1, "did", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:20>, 1, "n’t", 0, "null", "JJ" 0.7346 "NN" 0.1406 "JJS" 0.0548 "RB" 0.0375 "VB" 0.0184 "VBN" 0.0141)
+  (5, 4, 5, <21:27>, 1, "return", 0, "null", "NN" 0.9219 "VB" 0.066 "JJ" 0.0121)
+  (6, 5, 6, <28:33>, 1, "phone", 0, "null", "NN" 1.0)
+  (7, 6, 7, <34:39>, 1, "calls", 0, "null", "NNS" 0.6957 "VBZ" 0.3043)
+  (8, 7, 8, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (90, 0, 1, <0:5>, 1, "Judge", 0, "null")
+  (98, 0, 1, <0:5>, 1, "judge", 0, "null")
+  (104, 0, 1, <0:5>, 1, "judge", 0, "null")
+  (70, 1, 2, <6:13>, 1, "Hancock", 0, "null")
+  (93, 1, 2, <6:13>, 1, "Hancock", 0, "null", "NNP" 1.0)
+  (97, 1, 2, <6:13>, 1, "hancock", 0, "null")
+  (99, 1, 2, <6:13>, 1, "hancock", 0, "null")
+  (85, 2, 3, <14:20>, 1, "didn’t", 0, "null")
+  (95, 2, 3, <14:20>, 1, "didn’t", 0, "null", "VBD" 1.0)
+  (101, 2, 3, <14:20>, 1, "didn’t", 0, "null")
+  (86, 3, 4, <21:27>, 1, "return", 0, "null")
+  (91, 3, 4, <21:27>, 1, "return", 0, "null", "NN" 0.9219)
+  (102, 3, 4, <21:27>, 1, "return", 0, "null")
+  (83, 4, 5, <28:33>, 1, "phone", 0, "null")
+  (94, 4, 5, <28:33>, 1, "phone", 0, "null", "NN" 1.0)
+  (100, 4, 5, <28:33>, 1, "phone", 0, "null")
+  (87, 5, 6, <34:40>, 1, "calls.", 0, "null")
+  (92, 5, 6, <34:40>, 1, "calls.", 0, "null", "NNS" 0.6957)
+  (96, 5, 6, <34:40>, 1, "calls.", 0, "null", "VBZ" 0.3043)
+  (103, 5, 6, <34:40>, 1, "calls.", 0, "null")
+>
+
+(ROOT_STRICT
+ (962 SB-HD_MC_C 5.59054 0 6
+  (954 HDN_BNP-PN_C 3.84977 0 2
+   (953 NP-HDN_TTL-CPD_C 3.16383 0 2
+    (951 HDN_OPTCMP_C 2.08848 0 1
+     (950 N_SG_ILR 2.49654 0 1
+      (108 judge_n1@n_pp_c-of_le 1.4245 0 1
+       ("judge" 98
+        "token [ +CARG \"Judge\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"judge\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (952 ^N_SG_ILR -0.0982517 1 2
+     (115 hancock_n1@n_-_pn_le 0 1 2
+      ("hancock" 97
+       "token [ +CARG \"Hancock\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"hancock\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (961 ^HD-CMP_U_C 0.723716 2 6
+   (116 did1_neg_4_u@v_vp_did-n_le 0.677188 2 3
+    ("didn’t" 85
+     "token [ +CARG #1=\"didn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (960 HD-CMP_U_C -0.580695 3 6
+    (955 ^V_N3S-BSE_ILR -0.429816 3 4
+     (122 return_v5@v_np_noger_le 0.19053 3 4
+      ("return" 86
+       "token [ +CARG #1=\"return\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92190030000000001\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (959 HDN_BNP_C -0.724541 4 6
+     (958 N-HDN_CPD_C -0.335585 4 6
+      (124 phone_n1@n_-_c-ns_le 0 4 5
+       ("phone" 83
+        "token [ +CARG #1=\"phone\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (957 ^W_PERIOD_PLR -0.66439 5 6
+       (956 N_PL_OLR -0.194837 5 6
+        (135 call_n1@n_-_c-ns_le 0 5 6
+         ("calls." 87
+          "token [ +CARG \"calls\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"calls.\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69572299999999998\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N (N "judge"))) (N (N "hancock"))))
+ (VP (V "didn’t")
+  (VP (V (V "return")) (NP (N (N "phone") (N (N (N "calls."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _judge_n_of<0:5>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ named<6:13>
+            LBL: h8
+            ARG0: x6
+            CARG: "Hancock" ]
+          [ neg<14:20>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h16 ]
+          [ _return_v_1<21:27>
+            LBL: h18
+            ARG0: e3
+            ARG1: x6
+            ARG2: x19 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<28:40>
+            LBL: h20
+            ARG0: x19
+            RSTR: h21
+            BODY: h22 ]
+          [ compound<28:40>
+            LBL: h23
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x19
+            ARG2: x24 [ x IND: + ] ]
+          [ udef_q<28:33>
+            LBL: h26
+            ARG0: x24
+            RSTR: h27
+            BODY: h28 ]
+          [ _phone_n_1<28:33>
+            LBL: h29
+            ARG0: x24 ]
+          [ _call_n_1<34:40>
+            LBL: h23
+            ARG0: x19 ] >
+   HCONS: < h27 QEQ h29 h21 QEQ h23 h16 QEQ h18 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e17:
+ _1:proper_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:5>[BV x9]
+ x9:_judge_n_of<0:5>{x PERS 3, NUM sg, IND +}[]
+ x6:named<6:13>("Hancock"){x PERS 3, NUM sg, IND +}[]
+ e17:neg<14:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_return_v_1<21:27>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x19]
+ _3:udef_q<28:40>[BV x19]
+ e25:compound<28:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x19, ARG2 x24]
+ _4:udef_q<28:33>[BV x24]
+ x24:_phone_n_1<28:33>{x IND +}[]
+ x19:_call_n_1<34:40>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:13> BV named<6:13>(Hancock)  
+  compound<0:13> ARG1 named<6:13>(Hancock)  
+  compound<0:13> ARG2 _judge_n_of<0:5>  
+  udef_q<0:5> BV _judge_n_of<0:5>  
+  neg<14:20> ARG1 _return_v_1<21:27>  
+  _return_v_1<21:27> ARG1 named<6:13>(Hancock)  
+  _return_v_1<21:27> ARG2 _call_n_1<34:40>  
+  udef_q<28:40> BV _call_n_1<34:40>  
+  compound<28:40> ARG1 _call_n_1<34:40>  
+  compound<28:40> ARG2 _phone_n_1<28:33>  
+  udef_q<28:33> BV _phone_n_1<28:33>  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _judge_n_of<0:5> PERS 3  
+  _judge_n_of<0:5> NUM sg  
+  _judge_n_of<0:5> IND +  
+  named<6:13>(Hancock) PERS 3  
+  named<6:13>(Hancock) NUM sg  
+  named<6:13>(Hancock) IND +  
+  neg<14:20> SF prop  
+  neg<14:20> TENSE untensed  
+  neg<14:20> MOOD indicative  
+  neg<14:20> PROG -  
+  neg<14:20> PERF -  
+  _return_v_1<21:27> SF prop  
+  _return_v_1<21:27> TENSE past  
+  _return_v_1<21:27> MOOD indicative  
+  _return_v_1<21:27> PROG -  
+  _return_v_1<21:27> PERF -  
+  compound<28:40> SF prop  
+  compound<28:40> TENSE untensed  
+  compound<28:40> MOOD indicative  
+  compound<28:40> PROG -  
+  compound<28:40> PERF -  
+  _phone_n_1<28:33> IND +  
+  _call_n_1<34:40> PERS 3  
+  _call_n_1<34:40> NUM pl  
+  _call_n_1<34:40> IND +  
+}
+

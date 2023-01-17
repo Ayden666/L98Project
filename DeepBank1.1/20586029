@@ -1,0 +1,232 @@
+;;;
+;;; Redwoods export of `wsj05d';
+;;; (wsun@wsun; 22-jan-2018 (15:32 h)).
+;;;
+
+[20586029] (1 of 1) {1} `The DAX dropped 19.69 points Friday to 1462.93.'
+
+[20586029:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 0.9846 "NNP" 0.0154)
+  (2, 1, 2, <4:7>, 1, "DAX", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:15>, 1, "dropped", 0, "null", "VBD" 0.9769 "VBN" 0.0231)
+  (4, 3, 4, <16:21>, 1, "19.69", 0, "null", "CD" 1.0)
+  (5, 4, 5, <22:28>, 1, "points", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <29:35>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <36:38>, 1, "to", 0, "null", "TO" 1.0)
+  (8, 7, 8, <39:46>, 1, "1462.93", 0, "null", "CD" 1.0)
+  (9, 8, 9, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (105, 0, 1, <0:3>, 1, "the", 0, "null")
+  (115, 0, 1, <0:3>, 1, "the", 0, "null")
+  (81, 1, 2, <4:7>, 1, "DAX", 0, "null")
+  (101, 1, 2, <4:7>, 1, "DAX", 0, "null", "NNP" 1.0)
+  (104, 1, 2, <4:7>, 1, "dax", 0, "null")
+  (108, 1, 2, <4:7>, 1, "dax", 0, "null")
+  (97, 2, 3, <8:15>, 1, "dropped", 0, "null")
+  (99, 2, 3, <8:15>, 1, "dropped", 0, "null", "VBD" 0.9769)
+  (112, 2, 3, <8:15>, 1, "dropped", 0, "null")
+  (77, 3, 4, <16:21>, 1, "19.69", 0, "null")
+  (106, 3, 4, <16:21>, 1, "19.69", 0, "null")
+  (92, 4, 5, <22:28>, 1, "points", 0, "null")
+  (102, 4, 5, <22:28>, 1, "points", 0, "null", "NNS" 1.0)
+  (110, 4, 5, <22:28>, 1, "points", 0, "null")
+  (80, 5, 6, <29:35>, 1, "Friday", 0, "null")
+  (100, 5, 6, <29:35>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (103, 5, 6, <29:35>, 1, "friday", 0, "null")
+  (107, 5, 6, <29:35>, 1, "friday", 0, "null")
+  (94, 6, 7, <36:38>, 1, "to", 0, "null")
+  (111, 6, 7, <36:38>, 1, "to", 0, "null")
+  (82, 7, 8, <39:47>, 1, "1462.93.", 0, "null")
+  (109, 7, 8, <39:47>, 1, "1462.93.", 0, "null")
+>
+
+(ROOT_STRICT
+ (8147 SB-HD_MC_C 20.8205 0 8
+  (8130 SP-HD_N_C 2.46985 0 2
+   (128 the_1@d_-_the_le 0.244361 0 1
+    ("the" 105
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98463509999999999\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (8129 ^N_SG_ILR 0.383789 1 2
+    (153 generic_proper_ne@n_-_pn-gen_le 0 1 2
+     ("DAX" 81
+      "token [ +CARG #1=\"DAX\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (8146 ^HD-AJ_INT-UNSL_C 17.3184 2 8
+   (8141 ^HD-AJ_INT-UNSL_C 11.8837 2 6
+    (8137 ^HD-AJ_INT-UNSL_C 10.1934 2 5
+     (8132 ^HD_OPTCMP_C 4.77772 2 3
+      (8131 V_PST_OLR 3.28717 2 3
+       (178 drop_v2@v_pp_unacc_le 1.56102 2 3
+        ("dropped" 97
+         "token [ +CARG #1=\"dropped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9769196\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (8136 NP_ADV-MNP_C 3.60616 3 5
+      (8135 HDN_BNP_C 5.17507 3 5
+       (8134 NUM-N_MNP_C 3.65069 3 5
+        (418 generic_card_ne@aj_-_i-crd-gen_le 0 3 4
+         ("19.69" 77
+          "token [ +CARG #1=\"19.69\" +CLASS card_or_proper_ne +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+        (8133 ^N_PL_OLR 1.48871 4 5
+         (428 point_n1@n_-_c-meas-nb_le 0.565697 4 5
+          ("points" 92
+           "token [ +CARG #1=\"points\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+    (8140 NP_ADV_C 1.20059 5 6
+     (8139 HDN_BNP-PN_C 0.909632 5 6
+      (8138 N_SG_ILR 0.902228 5 6
+       (496 friday_n1@n_-_c-dow_le 0.384498 5 6
+        ("friday" 103
+         "token [ +CARG \"Friday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"friday\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (8145 HD-CMP_U_C 3.87632 6 8
+    (523 to@p_np_i-nnm_le -1.63041 6 7
+     ("to" 94
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (8144 HDN_BNP-NUM_C 4.01481 7 8
+     (8143 HDN_NP-NUM_C 3.49617 7 8
+      (8142 W_PERIOD_PLR 2.19869 7 8
+       (578 generic_card_ne@aj_-_i-crd-gen_le 0 7 8
+        ("1462.93." 82
+         "token [ +CARG \"1462.93\" +CLASS card_or_proper_ne +FORM \"1462.93.\" +FROM \"39\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (DET "the") (N (N "DAX")))
+ (VP
+  (VP
+   (VP (VP (V (V "dropped")))
+    (PP (NP (N (ADJ "19.69") (N (N "points"))))))
+   (PP (NP (N (N "friday")))))
+  (PP (P "to") (NP (N (ADJ (ADJ "1462.93.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ named<4:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "DAX" ]
+          [ _drop_v_1<8:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<16:28>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<16:28>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ card<16:21>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            CARG: "19.69" ]
+          [ _point_n_of<22:28>
+            LBL: h14
+            ARG0: x10 ]
+          [ loc_nonsp<29:35>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<29:35>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ dofw<29:35>
+            LBL: h21
+            ARG0: x17
+            CARG: "Fri" ]
+          [ _to_p<36:38>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<39:47>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<39:47>
+            LBL: h27
+            ARG0: x23
+            ARG1: i28
+            CARG: "1462.93" ] >
+   HCONS: < h25 QEQ h27 h19 QEQ h21 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:named<4:7>("DAX"){x PERS 3, NUM sg, IND +}[]
+ e3:_drop_v_1<8:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<16:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:udef_q<16:28>[BV x10]
+ e15:card<16:21>("19.69"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_point_n_of<22:28>{x PERS 3, NUM pl, IND +}[]
+ e16:loc_nonsp<29:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ _3:proper_q<29:35>[BV x17]
+ x17:dofw<29:35>("Fri"){x PERS 3, NUM sg, IND +}[]
+ e22:_to_p<36:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:number_q<39:47>[BV x23]
+ x23:card<39:47>("1462.93"){x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV named<4:7>(DAX)  
+  _drop_v_1<8:15> ARG1 named<4:7>(DAX)  
+  loc_nonsp<16:28> ARG1 _drop_v_1<8:15>  
+  loc_nonsp<16:28> ARG2 _point_n_of<22:28>  
+  udef_q<16:28> BV _point_n_of<22:28>  
+  card<16:21>(19.69) ARG1 _point_n_of<22:28>  
+  loc_nonsp<29:35> ARG1 _drop_v_1<8:15>  
+  loc_nonsp<29:35> ARG2 dofw<29:35>(Fri)  
+  proper_q<29:35> BV dofw<29:35>(Fri)  
+  _to_p<36:38> ARG1 _drop_v_1<8:15>  
+  _to_p<36:38> ARG2 card<39:47>(1462.93)  
+  number_q<39:47> BV card<39:47>(1462.93)  
+  named<4:7>(DAX) PERS 3  
+  named<4:7>(DAX) NUM sg  
+  named<4:7>(DAX) IND +  
+  _drop_v_1<8:15> SF prop  
+  _drop_v_1<8:15> TENSE past  
+  _drop_v_1<8:15> MOOD indicative  
+  _drop_v_1<8:15> PROG -  
+  _drop_v_1<8:15> PERF -  
+  loc_nonsp<16:28> SF prop  
+  loc_nonsp<16:28> TENSE untensed  
+  loc_nonsp<16:28> MOOD indicative  
+  loc_nonsp<16:28> PROG -  
+  loc_nonsp<16:28> PERF -  
+  card<16:21>(19.69) SF prop  
+  card<16:21>(19.69) TENSE untensed  
+  card<16:21>(19.69) MOOD indicative  
+  card<16:21>(19.69) PROG -  
+  card<16:21>(19.69) PERF -  
+  _point_n_of<22:28> PERS 3  
+  _point_n_of<22:28> NUM pl  
+  _point_n_of<22:28> IND +  
+  loc_nonsp<29:35> SF prop  
+  loc_nonsp<29:35> TENSE untensed  
+  loc_nonsp<29:35> MOOD indicative  
+  loc_nonsp<29:35> PROG -  
+  loc_nonsp<29:35> PERF -  
+  dofw<29:35>(Fri) PERS 3  
+  dofw<29:35>(Fri) NUM sg  
+  dofw<29:35>(Fri) IND +  
+  _to_p<36:38> SF prop  
+  _to_p<36:38> TENSE untensed  
+  _to_p<36:38> MOOD indicative  
+  _to_p<36:38> PROG -  
+  _to_p<36:38> PERF -  
+  card<39:47>(1462.93) PERS 3  
+  card<39:47>(1462.93) NUM sg  
+}
+

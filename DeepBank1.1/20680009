@@ -1,0 +1,144 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:24 h)).
+;;;
+
+[20680009] (1 of 1) {1} `e-In Canadian dollars.'
+
+[20680009:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "e", 0, "null", "SYM" 0.9876 "LS" 0.0124)
+  (2, 1, 2, <1:2>, 1, "-", 0, "null", ":" 1.0)
+  (3, 2, 3, <2:4>, 1, "In", 0, "null", "IN" 1.0)
+  (4, 3, 4, <5:13>, 1, "Canadian", 0, "null", "JJ" 0.9855 "NNP" 0.0145)
+  (5, 4, 5, <14:21>, 1, "dollars", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:1>, 1, "e", 0, "null")
+  (75, 0, 1, <0:1>, 1, "e", 0, "null", "SYM" 0.9876)
+  (83, 0, 1, <0:1>, 1, "e", 0, "null")
+  (67, 1, 2, <1:2>, 1, "-", 0, "null")
+  (81, 1, 2, <1:2>, 1, "-", 0, "null")
+  (57, 2, 3, <2:4>, 1, "In", 0, "null")
+  (77, 2, 3, <2:4>, 1, "in", 0, "null")
+  (79, 2, 3, <2:4>, 1, "in", 0, "null")
+  (58, 3, 4, <5:13>, 1, "Canadian", 0, "null")
+  (74, 3, 4, <5:13>, 1, "Canadian", 0, "null", "JJ" 0.9855)
+  (78, 3, 4, <5:13>, 1, "canadian", 0, "null")
+  (80, 3, 4, <5:13>, 1, "canadian", 0, "null")
+  (69, 4, 5, <14:22>, 1, "dollars.", 0, "null")
+  (76, 4, 5, <14:22>, 1, "dollars.", 0, "null", "NNS" 1.0)
+  (82, 4, 5, <14:22>, 1, "dollars.", 0, "null")
+>
+
+(ROOT_FRAG
+ (729 NP_FRG_C 1.40777 0 5
+  (728 HDN_BNP-PN_C 2.55429 0 5
+   (727 HDN-AJ_REDREL-PR_C 1.13565 0 5
+    (721 ^HD-PCT_C 0.352874 0 2
+     (720 ^N_SG_ILR -0.223321 0 1
+      (86 e_lower_np1@n_-_pn_le 0 0 1
+       ("e" 72
+        "token [ +CARG #1=\"e\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.987564\" +TAG \"SYM\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (111 hyphen_punct_right@pt_-_hyphn-rgt_le -0.492329 1 2
+      ("-" 67
+       "token [ +CARG #1=\"-\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"1\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (726 HD-CMP_U_C 0.0991007 2 5
+     (139 in@p_np_i-reg_le -0.51537 2 3
+      ("in" 77
+       "token [ +CARG \"In\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"in\" +FROM #1=\"2\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (725 HDN_BNP_C 0.516252 3 5
+      (724 AJ-HDN_NORM_C 0.127661 3 5
+       (182 canadian_a1@aj_-_i_le 0.374349 3 4
+        ("canadian" 78
+         "token [ +CARG \"Canadian\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"canadian\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98550590000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (723 ^W_PERIOD_PLR -1.51978 4 5
+        (722 N_PL_OLR -0.995446 4 5
+         (186 dollar_n1@n_-_c-meas-nb_le 0 4 5
+          ("dollars." 69
+           "token [ +CARG \"dollars\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"dollars.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(XP
+ (NP
+  (N (N (N (N "e")) (PNCT "-"))
+   (PP (P "in") (NP (N (AP "canadian") (N (N (N "dollars.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:22>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:1>
+            LBL: h8
+            ARG0: x4
+            CARG: "E" ]
+          [ _in_p<2:4>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<5:22>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _canadian_a_1<5:13>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _dollar_n_1<14:22>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:22>[BV x4]
+ x4:named<0:1>("E"){x PERS 3, NUM sg, IND +}[]
+ e9:_in_p<2:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x10]
+ _2:udef_q<5:22>[BV x10]
+ e15:_canadian_a_1<5:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_dollar_n_1<14:22>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:22> ARG named<0:1>(E)  
+  proper_q<0:22> BV named<0:1>(E)  
+  _in_p<2:4> ARG1 named<0:1>(E)  
+  _in_p<2:4> ARG2 _dollar_n_1<14:22>  
+  udef_q<5:22> BV _dollar_n_1<14:22>  
+  _canadian_a_1<5:13> ARG1 _dollar_n_1<14:22>  
+  unknown<0:22> SF prop  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  named<0:1>(E) PERS 3  
+  named<0:1>(E) NUM sg  
+  named<0:1>(E) IND +  
+  _in_p<2:4> SF prop  
+  _in_p<2:4> TENSE untensed  
+  _in_p<2:4> MOOD indicative  
+  _in_p<2:4> PROG -  
+  _in_p<2:4> PERF -  
+  _canadian_a_1<5:13> SF prop  
+  _canadian_a_1<5:13> TENSE untensed  
+  _canadian_a_1<5:13> MOOD indicative  
+  _canadian_a_1<5:13> PROG -  
+  _canadian_a_1<5:13> PERF -  
+  _dollar_n_1<14:22> PERS 3  
+  _dollar_n_1<14:22> NUM pl  
+  _dollar_n_1<14:22> IND +  
+}
+

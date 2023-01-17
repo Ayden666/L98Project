@@ -1,0 +1,114 @@
+;;;
+;;; Redwoods export of `wsj16e';
+;;; (wsun@wsun; 23-jan-2018 (01:50 h)).
+;;;
+
+[21687020] (1 of 1) {1} `Futures prices declined.'
+
+[21687020:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Futures", 0, "null", "NNPS" 0.4187 "NNS" 0.3172 "NNP" 0.264)
+  (2, 1, 2, <8:14>, 1, "prices", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <15:23>, 1, "declined", 0, "null", "VBD" 0.9899 "VBN" 0.0101)
+  (4, 3, 4, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (50, 0, 1, <0:7>, 1, "Futures", 0, "null")
+  (51, 0, 1, <0:7>, 1, "Futures", 0, "null", "NNPS" 0.4187)
+  (53, 0, 1, <0:7>, 1, "Futures", 0, "null", "NNS" 0.3172)
+  (55, 0, 1, <0:7>, 1, "futures", 0, "null")
+  (58, 0, 1, <0:7>, 1, "futures", 0, "null")
+  (45, 1, 2, <8:14>, 1, "prices", 0, "null")
+  (54, 1, 2, <8:14>, 1, "prices", 0, "null", "NNS" 1.0)
+  (56, 1, 2, <8:14>, 1, "prices", 0, "null")
+  (47, 2, 3, <15:24>, 1, "declined.", 0, "null")
+  (52, 2, 3, <15:24>, 1, "declined.", 0, "null", "VBD" 0.9899)
+  (57, 2, 3, <15:24>, 1, "declined.", 0, "null")
+>
+
+(ROOT_STRICT
+ (457 SB-HD_MC_C 3.05744 0 3
+  (453 HDN_BNP_C 2.63926 0 2
+   (452 N-HDN_CPD_C 2.01851 0 2
+    (82 futures_n1@n_-_c-pl-cpd_le 0.659379 0 1
+     ("futures" 55
+      "token [ +CARG \"Futures\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"futures\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.41873359999999998\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (451 ^N_PL_OLR 1.04317 1 2
+     (85 price_n1@n_-_mc-ed_le 0.382246 1 2
+      ("prices" 45
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (456 ^HD_OPTCMP_C 0.438642 2 3
+   (455 W_PERIOD_PLR 0.134653 2 3
+    (454 V_PST_OLR -0.555709 2 3
+     (114 decline_v1@v_np*_le 0 2 3
+      ("declined." 47
+       "token [ +CARG \"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"declined.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98992100000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "futures") (N (N "prices")))) (VP (V (V (V "declined.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _future_n_1<0:7>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<8:14>
+            LBL: h8
+            ARG0: x6 ]
+          [ _decline_v_1<15:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p15 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:7>[BV x9]
+ x9:_future_n_1<0:7>{x PERS 3, NUM pl, IND +}[]
+ x6:_price_n_of<8:14>{x PERS 3, NUM pl}[]
+ e3:_decline_v_1-fn.Change_position_on_a_scale<15:24>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:14> BV _price_n_of<8:14>  
+  compound<0:14> ARG1 _price_n_of<8:14>  
+  compound<0:14> ARG2 _future_n_1<0:7>  
+  udef_q<0:7> BV _future_n_1<0:7>  
+  _decline_v_1<15:24> ARG1 _price_n_of<8:14>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _future_n_1<0:7> PERS 3  
+  _future_n_1<0:7> NUM pl  
+  _future_n_1<0:7> IND +  
+  _price_n_of<8:14> PERS 3  
+  _price_n_of<8:14> NUM pl  
+  _decline_v_1<15:24> SF prop  
+  _decline_v_1<15:24> TENSE past  
+  _decline_v_1<15:24> MOOD indicative  
+  _decline_v_1<15:24> PROG -  
+  _decline_v_1<15:24> PERF -  
+}
+

@@ -1,0 +1,156 @@
+;;;
+;;; Redwoods export of `wsj06a';
+;;; (wsun@wsun; 22-jan-2018 (15:41 h)).
+;;;
+
+[20602008] (1 of 1) {1} `DISCOUNT RATE: 7%.'
+
+[20602008:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "DISCOUNT", 0, "null", "NNP" 0.5688 "JJ" 0.2244 "NN" 0.2068)
+  (2, 1, 2, <9:13>, 1, "RATE", 0, "null", "NNP" 0.5439 "NN" 0.4561)
+  (3, 2, 3, <13:14>, 1, ":", 0, "null", ":" 1.0)
+  (4, 3, 4, <15:16>, 1, "7", 0, "null", "CD" 1.0)
+  (5, 4, 5, <16:17>, 1, "%", 0, "null", "NN" 1.0)
+  (6, 5, 6, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (56, 0, 1, <0:8>, 1, "DISCOUNT", 0, "null")
+  (72, 0, 1, <0:8>, 1, "DISCOUNT", 0, "null", "NNP" 0.5688)
+  (73, 0, 1, <0:8>, 1, "DISCOUNT", 0, "null", "JJ" 0.2244)
+  (75, 0, 1, <0:8>, 1, "DISCOUNT", 0, "null", "NN" 0.2068)
+  (77, 0, 1, <0:8>, 1, "discount", 0, "null")
+  (80, 0, 1, <0:8>, 1, "discount", 0, "null")
+  (55, 1, 2, <9:13>, 1, "RATE", 0, "null")
+  (74, 1, 2, <9:13>, 1, "RATE", 0, "null", "NN" 0.4561)
+  (76, 1, 2, <9:13>, 1, "rate", 0, "null")
+  (79, 1, 2, <9:13>, 1, "rate", 0, "null")
+  (65, 2, 3, <13:14>, 1, ":", 0, "null")
+  (81, 2, 3, <13:14>, 1, ":", 0, "null")
+  (51, 3, 4, <15:16>, 1, "7", 0, "null")
+  (78, 3, 4, <15:16>, 1, "7", 0, "null")
+  (67, 4, 5, <16:18>, 1, "%.", 0, "null")
+  (82, 4, 5, <16:18>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1167 SB-HD_MC_C 8.62299 0 5
+  (1161 HDN_BNP_C 3.37698 0 2
+   (1160 N-HDN_CPD_C 2.75624 0 2
+    (90 discount_n@n_-_mc_le -0.288325 0 1
+     ("discount" 77
+      "token [ +CARG \"DISCOUNT\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"discount\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.5688126\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1159 ^HDN_OPTCMP_C 0.844911 1 2
+     (1158 N_MS-CNT_ILR 1.10986 1 2
+      (98 rate_n1@n_pp_mc-of_le 0.936666 1 2
+       ("rate" 76
+        "token [ +CARG \"RATE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"rate\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54393020000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1166 ^HD-CMP_U_C 3.73009 2 5
+   (109 colon_copula_v@v_np_colon_le 0.879077 2 3
+    (":" 65
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1165 HDN_BNP_C 3.04187 3 5
+    (1164 NUM-N_MNP_C 1.99972 3 5
+     (143 generic_card_ne@aj_-_i-crd-gen_le -0.0527896 3 4
+      ("7" 51
+       "token [ +CARG #1=\"7\" +CLASS card_or_dom_ne +FORM #1 +FROM \"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+     (1163 ^W_PERIOD_PLR 1.02943 4 5
+      (1162 N_PL_OLR 0.482577 4 5
+       (147 percent_char_n1@n_-_c-meas-spr_le 0.328883 4 5
+        ("%." 67
+         "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "discount") (N (N (N "rate")))))
+ (VP (V ":") (NP (N (ADJ "7") (N (N (N "%.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _discount_n_1<0:8>
+            LBL: h14
+            ARG0: x9 ]
+          [ _rate_n_of<9:13>
+            LBL: h8
+            ARG0: x6
+            ARG1: i15 ]
+          [ _colon_v_id<13:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<15:18>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<15:16>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            CARG: "7" ]
+          [ _percent_n_of<16:18>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_discount_n_1<0:8>{x}[]
+ x6:_rate_n_of<9:13>{x PERS 3, NUM sg}[]
+ e3:_colon_v_id<13:14>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:udef_q<15:18>[BV x16]
+ e21:card<15:16>("7"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16]
+ x16:_percent_n_of<16:18>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:13> BV _rate_n_of<9:13>  
+  compound<0:13> ARG1 _rate_n_of<9:13>  
+  compound<0:13> ARG2 _discount_n_1<0:8>  
+  udef_q<0:8> BV _discount_n_1<0:8>  
+  _colon_v_id<13:14> ARG1 _rate_n_of<9:13>  
+  _colon_v_id<13:14> ARG2 _percent_n_of<16:18>  
+  udef_q<15:18> BV _percent_n_of<16:18>  
+  card<15:16>(7) ARG1 _percent_n_of<16:18>  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _rate_n_of<9:13> PERS 3  
+  _rate_n_of<9:13> NUM sg  
+  _colon_v_id<13:14> SF prop  
+  _colon_v_id<13:14> TENSE tensed  
+  _colon_v_id<13:14> MOOD indicative  
+  _colon_v_id<13:14> PROG -  
+  _colon_v_id<13:14> PERF -  
+  card<15:16>(7) SF prop  
+  card<15:16>(7) TENSE untensed  
+  card<15:16>(7) MOOD indicative  
+  card<15:16>(7) PROG -  
+  card<15:16>(7) PERF -  
+  _percent_n_of<16:18> PERS 3  
+  _percent_n_of<16:18> NUM pl  
+  _percent_n_of<16:18> IND +  
+}
+

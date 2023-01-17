@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:21 h)).
+;;;
+
+[20253019] (1 of 1) {1} `The price wasn't disclosed.'
+
+[20253019:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "price", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:13>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <13:16>, 1, "n’t", 0, "null", "RB" 0.3181 "NN" 0.2749 "VBN" 0.1552 "JJ" 0.0917 "VB" 0.0708 "VBP" 0.0612 "JJS" 0.0171 "VBD" 0.011)
+  (5, 4, 5, <17:26>, 1, "disclosed", 0, "null", "VBN" 0.7537 "VBD" 0.2463)
+  (6, 5, 6, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:3>, 1, "the", 0, "null")
+  (70, 0, 1, <0:3>, 1, "the", 0, "null")
+  (57, 1, 2, <4:9>, 1, "price", 0, "null")
+  (63, 1, 2, <4:9>, 1, "price", 0, "null", "NN" 1.0)
+  (67, 1, 2, <4:9>, 1, "price", 0, "null")
+  (59, 2, 3, <10:16>, 1, "wasn’t", 0, "null")
+  (64, 2, 3, <10:16>, 1, "wasn’t", 0, "null", "VBD" 1.0)
+  (68, 2, 3, <10:16>, 1, "wasn’t", 0, "null")
+  (60, 3, 4, <17:27>, 1, "disclosed.", 0, "null")
+  (62, 3, 4, <17:27>, 1, "disclosed.", 0, "null", "VBN" 0.7537)
+  (65, 3, 4, <17:27>, 1, "disclosed.", 0, "null", "VBD" 0.2463)
+  (69, 3, 4, <17:27>, 1, "disclosed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (883 SB-HD_MC_C 5.04537 0 4
+  (877 SP-HD_N_C 1.17222 0 2
+   (83 the_1@d_-_the_le 1.13181 0 1
+    ("the" 66
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (876 ^N_MS-CNT_ILR -0.410342 1 2
+    (108 price_n1@n_-_mc-ed_le -0.00870264 1 2
+     ("price" 57
+      "token [ +CARG #1=\"price\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (882 ^HD-CMP_U_C 1.91863 2 4
+   (112 be_c_was_neg_3_u@v_prd_was-n_le 1.25887 2 3
+    ("wasn’t" 59
+     "token [ +CARG #1=\"wasn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (881 HD_OPTCMP_C 0.55611 3 4
+    (880 HD_OPTCMP_C 1.23222 3 4
+     (879 W_PERIOD_PLR 0.256666 3 4
+      (878 V_PAS_ODLR 0.219307 3 4
+       (138 disclose_v1@v_np-pp*_to_le 0 3 4
+        ("disclosed." 60
+         "token [ +CARG \"disclosed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"disclosed.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75374260000000004\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N "price")))
+ (VP (V "wasn’t") (VP (V (V (V (V "disclosed.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _price_n_of<4:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<10:16>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _disclose_v_to<17:27>
+            LBL: h11
+            ARG0: e3
+            ARG1: i12
+            ARG2: x6
+            ARG3: i13 ]
+          [ parg_d<17:27>
+            LBL: h11
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:_the_q<0:3>[BV x6]
+ x6:_price_n_of<4:9>{x PERS 3, NUM sg}[]
+ e10:neg<10:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_disclose_v_to<17:27>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e14:parg_d<17:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  _the_q<0:3> BV _price_n_of<4:9>  
+  neg<10:16> ARG1 _disclose_v_to<17:27>  
+  _disclose_v_to<17:27> ARG2 _price_n_of<4:9>  
+  parg_d<17:27> ARG1 _disclose_v_to<17:27>  
+  parg_d<17:27> ARG2 _price_n_of<4:9>  
+  _price_n_of<4:9> PERS 3  
+  _price_n_of<4:9> NUM sg  
+  neg<10:16> SF prop  
+  neg<10:16> TENSE untensed  
+  neg<10:16> MOOD indicative  
+  neg<10:16> PROG -  
+  neg<10:16> PERF -  
+  _disclose_v_to<17:27> SF prop  
+  _disclose_v_to<17:27> TENSE past  
+  _disclose_v_to<17:27> MOOD indicative  
+  _disclose_v_to<17:27> PROG -  
+  _disclose_v_to<17:27> PERF -  
+  parg_d<17:27> SF prop  
+  parg_d<17:27> TENSE untensed  
+  parg_d<17:27> MOOD indicative  
+  parg_d<17:27> PROG -  
+  parg_d<17:27> PERF -  
+}
+

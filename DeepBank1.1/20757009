@@ -1,0 +1,133 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:26 h)).
+;;;
+
+[20757009] (1 of 1) {1} `-- John Drybred.'
+
+[20757009:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:7>, 1, "John", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:15>, 1, "Drybred", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (44, 0, 1, <0:2>, 1, "–", 0, "null")
+  (52, 0, 1, <0:2>, 1, "–", 0, "null")
+  (47, 1, 2, <3:7>, 1, "John", 0, "null")
+  (49, 1, 2, <3:7>, 1, "john", 0, "null")
+  (53, 1, 2, <3:7>, 1, "john", 0, "null")
+  (40, 2, 3, <8:16>, 1, "Drybred.", 0, "null")
+  (48, 2, 3, <8:16>, 1, "Drybred.", 0, "null", "NNP" 1.0)
+  (50, 2, 3, <8:16>, 1, "drybred.", 0, "null")
+  (51, 2, 3, <8:16>, 1, "drybred.", 0, "null")
+>
+
+(ROOT_FRAG
+ (312 AJ-HD_SCP-XP_C 4.17946 0 3
+  (56 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 44
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (311 ^NP_FRG_C 3.29045 1 3
+   (310 HDN_BNP-PN_C 3.90796 1 3
+    (309 NP-HDN_NME-CPD_C 3.85557 1 3
+     (306 HDN_BNP-PN_C 2.25501 1 2
+      (305 N_SG_ILR 1.50257 1 2
+       (65 john@n_-_pn-msc_le 0.500553 1 2
+        ("john" 49
+         "token [ +CARG \"John\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"john\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (308 ^W_PERIOD_PLR 1.02066 2 3
+      (307 N_SG_ILR 0.466069 2 3
+       (84 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("Drybred." 40
+         "token [ +CARG \"Drybred\" +CLASS proper_ne +FORM \"Drybred.\" +FROM \"8\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "–") (XP (NP (N (NP (N (N "john"))) (N (N (N "Drybred.")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:16>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:16>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ compound<3:16>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x13 [ x PERS: 3 NUM: SG GEND: M IND: + ] ]
+          [ proper_q<3:7>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ named<3:7>
+            LBL: h18
+            ARG0: x13
+            CARG: "John" ]
+          [ named<8:16>
+            LBL: h12
+            ARG0: x8
+            CARG: "Drybred" ] >
+   HCONS: < h16 QEQ h18 h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:proper_q<3:16>[BV x8]
+ e14:compound<3:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x13]
+ _2:proper_q<3:7>[BV x13]
+ x13:named<3:7>("John"){x PERS 3, NUM sg, GEND m, IND +}[]
+ x8:named<8:16>("Drybred"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:16>  
+  discourse<0:2> R-INDEX unknown<3:16>  
+  unknown<3:16> ARG named<8:16>(Drybred)  
+  proper_q<3:16> BV named<8:16>(Drybred)  
+  compound<3:16> ARG1 named<8:16>(Drybred)  
+  compound<3:16> ARG2 named<3:7>(John)  
+  proper_q<3:7> BV named<3:7>(John)  
+  unknown<3:16> SF prop  
+  unknown<3:16> TENSE untensed  
+  unknown<3:16> MOOD indicative  
+  unknown<3:16> PROG -  
+  unknown<3:16> PERF -  
+  compound<3:16> SF prop  
+  compound<3:16> TENSE untensed  
+  compound<3:16> MOOD indicative  
+  compound<3:16> PROG -  
+  compound<3:16> PERF -  
+  named<3:7>(John) PERS 3  
+  named<3:7>(John) NUM sg  
+  named<3:7>(John) GEND m  
+  named<3:7>(John) IND +  
+  named<8:16>(Drybred) PERS 3  
+  named<8:16>(Drybred) NUM sg  
+  named<8:16>(Drybred) IND +  
+}
+

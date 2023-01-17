@@ -1,0 +1,138 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:05 h)).
+;;;
+
+[20814044] (1 of 1) {1} `Compiled by William Mathewson'
+
+[20814044:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Compiled", 0, "null", "VBN" 1.0)
+  (2, 1, 2, <9:11>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <12:19>, 1, "William", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <20:29>, 1, "Mathewson", 0, "null", "NNP" 1.0)
+>
+
+<
+  (51, 0, 1, <0:8>, 1, "Compiled", 0, "null", "VBN" 1.0)
+  (54, 0, 1, <0:8>, 1, "compiled", 0, "null")
+  (60, 0, 1, <0:8>, 1, "compiled", 0, "null")
+  (48, 1, 2, <9:11>, 1, "by", 0, "null")
+  (57, 1, 2, <9:11>, 1, "by", 0, "null")
+  (39, 2, 3, <12:19>, 1, "William", 0, "null")
+  (49, 2, 3, <12:19>, 1, "William", 0, "null", "NNP" 1.0)
+  (52, 2, 3, <12:19>, 1, "william", 0, "null")
+  (55, 2, 3, <12:19>, 1, "william", 0, "null")
+  (40, 3, 4, <20:29>, 1, "Mathewson", 0, "null")
+  (50, 3, 4, <20:29>, 1, "Mathewson", 0, "null", "NNP" 1.0)
+  (53, 3, 4, <20:29>, 1, "mathewson", 0, "null")
+  (56, 3, 4, <20:29>, 1, "mathewson", 0, "null")
+>
+
+(ROOT_FRAG
+ (611 VP_NFIN-FRG_C 4.98481 0 4
+  (610 HD-CMP_U_C 6.73835 0 4
+   (603 ^V_PAS_ODLR 0.433207 0 1
+    (130 compile_v1@v_np*_le 0 0 1
+     ("compiled" 54
+      "token [ +CARG \"Compiled\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"compiled\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (609 HD-CMP_U_C 5.1435 1 4
+    (168 by_pass_p@p_np_ptcl_le 1.83114 1 2
+     ("by" 48
+      "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (608 HDN_BNP-PN_C 2.19895 2 4
+     (607 NP-HDN_NME-CPD_C 1.98958 2 4
+      (605 HDN_BNP-PN_C 0.904699 2 3
+       (604 N_SG_ILR 0.152264 2 3
+        (190 william_n1@n_-_pn_le 0.318558 2 3
+         ("william" 52
+          "token [ +CARG \"William\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"william\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (606 ^N_SG_ILR -0.143257 3 4
+       (191 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Mathewson" 40
+         "token [ +CARG #1=\"Mathewson\" +CLASS proper_ne +FORM #1 +FROM \"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP
+ (VP (V (V "compiled"))
+  (PP (P "by") (NP (N (NP (N (N "william"))) (N (N "Mathewson")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _compile_v_1<0:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: i4 ]
+          [ parg_d<0:8>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: i4 ]
+          [ proper_q<12:29>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<12:29>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<12:19>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ named<12:19>
+            LBL: h16
+            ARG0: x11
+            CARG: "William" ]
+          [ named<20:29>
+            LBL: h10
+            ARG0: x5
+            CARG: "Mathewson" ] >
+   HCONS: < h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:_compile_v_1<0:8>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e6:parg_d<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<12:29>[BV x5]
+ e12:compound<12:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x11]
+ _2:proper_q<12:19>[BV x11]
+ x11:named<12:19>("William"){x PERS 3, NUM sg, IND +}[]
+ x5:named<20:29>("Mathewson"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _compile_v_1<0:8> ARG1 named<20:29>(Mathewson)  
+  parg_d<0:8> ARG1 _compile_v_1<0:8>  
+  proper_q<12:29> BV named<20:29>(Mathewson)  
+  compound<12:29> ARG1 named<20:29>(Mathewson)  
+  compound<12:29> ARG2 named<12:19>(William)  
+  proper_q<12:19> BV named<12:19>(William)  
+  _compile_v_1<0:8> SF prop-or-ques  
+  _compile_v_1<0:8> TENSE untensed  
+  _compile_v_1<0:8> MOOD indicative  
+  _compile_v_1<0:8> PROG -  
+  _compile_v_1<0:8> PERF -  
+  parg_d<0:8> SF prop  
+  parg_d<0:8> TENSE untensed  
+  parg_d<0:8> MOOD indicative  
+  parg_d<0:8> PROG -  
+  parg_d<0:8> PERF -  
+  compound<12:29> SF prop  
+  compound<12:29> TENSE untensed  
+  compound<12:29> MOOD indicative  
+  compound<12:29> PROG -  
+  compound<12:29> PERF -  
+  named<12:19>(William) PERS 3  
+  named<12:19>(William) NUM sg  
+  named<12:19>(William) IND +  
+  named<20:29>(Mathewson) PERS 3  
+  named<20:29>(Mathewson) NUM sg  
+  named<20:29>(Mathewson) IND +  
+}
+

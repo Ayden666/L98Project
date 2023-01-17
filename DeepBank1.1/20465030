@@ -1,0 +1,257 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:25 h)).
+;;;
+
+[20465030] (1 of 1) {1} `Dr. Dryja made his retinoblastoma discovery in 1986.'
+
+[20465030:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Dr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Dryja", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:14>, 1, "made", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <15:18>, 1, "his", 0, "null", "PRP$" 1.0)
+  (5, 4, 5, <19:33>, 1, "retinoblastoma", 0, "null", "NN" 1.0)
+  (6, 5, 6, <34:43>, 1, "discovery", 0, "null", "NN" 1.0)
+  (7, 6, 7, <44:46>, 1, "in", 0, "null", "IN" 1.0)
+  (8, 7, 8, <47:51>, 1, "1986", 0, "null", "CD" 1.0)
+  (9, 8, 9, <51:52>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (97, 0, 1, <0:3>, 1, "Dr.", 0, "null")
+  (103, 0, 1, <0:3>, 1, "dr.", 0, "null")
+  (111, 0, 1, <0:3>, 1, "dr.", 0, "null")
+  (81, 1, 2, <4:9>, 1, "Dryja", 0, "null")
+  (98, 1, 2, <4:9>, 1, "Dryja", 0, "null", "NNP" 1.0)
+  (102, 1, 2, <4:9>, 1, "dryja", 0, "null")
+  (104, 1, 2, <4:9>, 1, "dryja", 0, "null")
+  (88, 2, 3, <10:14>, 1, "made", 0, "null")
+  (99, 2, 3, <10:14>, 1, "made", 0, "null", "VBD" 1.0)
+  (106, 2, 3, <10:14>, 1, "made", 0, "null")
+  (90, 3, 4, <15:18>, 1, "his", 0, "null")
+  (107, 3, 4, <15:18>, 1, "his", 0, "null")
+  (92, 4, 5, <19:33>, 1, "retinoblastoma", 0, "null")
+  (100, 4, 5, <19:33>, 1, "retinoblastoma", 0, "null", "NN" 1.0)
+  (108, 4, 5, <19:33>, 1, "retinoblastoma", 0, "null")
+  (94, 5, 6, <34:43>, 1, "discovery", 0, "null")
+  (101, 5, 6, <34:43>, 1, "discovery", 0, "null", "NN" 1.0)
+  (109, 5, 6, <34:43>, 1, "discovery", 0, "null")
+  (96, 6, 7, <44:46>, 1, "in", 0, "null")
+  (110, 6, 7, <44:46>, 1, "in", 0, "null")
+  (82, 7, 8, <47:52>, 1, "1986.", 0, "null")
+  (105, 7, 8, <47:52>, 1, "1986.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2320 SB-HD_MC_C 17.0068 0 8
+  (2307 HDN_BNP-PN_C 1.27671 0 2
+   (2306 NP-HDN_TTL-CPD_C 0.59077 0 2
+    (2304 N_SG_ILR -0.71707 0 1
+     (118 doctor_abb_n2@n_-_c-nocnh_le 0.788312 0 1
+      ("dr." 103
+       "token [ +CARG \"Dr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"dr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2305 ^N_SG_ILR -0.0982517 1 2
+     (122 dryja_n1@n_-_pn_le 0 1 2
+      ("dryja" 102
+       "token [ +CARG \"Dryja\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"dryja\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2319 ^HD-AJ_INT-UNSL_C 15.2426 2 8
+   (2313 ^HD-CMP_U_C 6.63848 2 6
+    (2308 ^V_PST_OLR 2.451 2 3
+     (164 make_v1@v_np_noarg3_le 1.22312 2 3
+      ("made" 88
+       "token [ +CARG #1=\"made\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2312 SP-HD_N_C 2.61958 3 6
+     (308 his_poss@d_-_poss-his_le 1.58373 3 4
+      ("his" 90
+       "token [ +CARG #1=\"his\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2311 ^N-HDN_CPD_C 0.873336 4 6
+      (315 retinoblastoma_n1@n_-_mc_le 0 4 5
+       ("retinoblastoma" 92
+        "token [ +CARG #1=\"retinoblastoma\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2310 ^HDN_OPTCMP_C 0.522418 5 6
+       (2309 N_MS-CNT_ILR 0.424729 5 6
+        (321 discovery_n1@n_pp_mc-of_le 0 5 6
+         ("discovery" 94
+          "token [ +CARG #1=\"discovery\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (2318 HD-CMP_U_C 7.47024 6 8
+    (346 in_temp@p_np_i-tmp_le 1.24586 6 7
+     ("in" 96
+      "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2317 HDN_BNP-PN_C 4.46113 7 8
+     (2316 HDN_OPTCMP_C 3.38056 7 8
+      (2315 W_PERIOD_PLR 2.61309 7 8
+       (2314 N_SG_ILR 1.89373 7 8
+        (387 generic_year_ne@n_-_pn-yoc-gen_le 0.486726 7 8
+         ("1986." 82
+          "token [ +CARG \"1986\" +CLASS card_or_year_ne +FORM \"1986.\" +FROM \"47\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (NP (N (N (N "dr.")) (N (N "dryja"))))
+ (VP
+  (VP (V (V "made"))
+   (NP (DET "his") (N (N "retinoblastoma") (N (N (N "discovery"))))))
+  (PP (P "in") (NP (N (N (N (N "1986."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _doctor_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Dryja" ]
+          [ _make_v_1<10:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: SG ]
+            ARG3: u15 ]
+          [ def_explicit_q<15:18>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ poss<15:18>
+            LBL: h20
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x21 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<15:18>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ pron<15:18>
+            LBL: h26
+            ARG0: x21 ]
+          [ compound<19:43>
+            LBL: h20
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x27 ]
+          [ udef_q<19:33>
+            LBL: h29
+            ARG0: x27
+            RSTR: h30
+            BODY: h31 ]
+          [ _retinoblastoma_n_1<19:33>
+            LBL: h32
+            ARG0: x27 ]
+          [ _discovery_n_of<34:43>
+            LBL: h20
+            ARG0: x16
+            ARG1: i33 ]
+          [ _in_p_temp<44:46>
+            LBL: h2
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x35 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<47:52>
+            LBL: h36
+            ARG0: x35
+            RSTR: h37
+            BODY: h38 ]
+          [ yofc<47:52>
+            LBL: h39
+            ARG0: x35
+            CARG: "1986" ] >
+   HCONS: < h37 QEQ h39 h30 QEQ h32 h24 QEQ h26 h19 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_doctor_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Dryja"){x PERS 3, NUM sg, IND +}[]
+ e3:_make_v_1<10:14>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:def_explicit_q<15:18>[BV x16]
+ e22:poss<15:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x21]
+ _4:pronoun_q<15:18>[BV x21]
+ x21:pron<15:18>{x PERS 3, NUM sg, GEND m, PT std}[]
+ e28:compound<19:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x27]
+ _5:udef_q<19:33>[BV x27]
+ x27:_retinoblastoma_n_1<19:33>{x}[]
+ x16:_discovery_n_of<34:43>{x PERS 3, NUM sg}[]
+ e34:_in_p_temp<44:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x35]
+ _6:proper_q<47:52>[BV x35]
+ x35:yofc<47:52>("1986"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Dryja)  
+  compound<0:9> ARG1 named<4:9>(Dryja)  
+  compound<0:9> ARG2 _doctor_n_1<0:3>  
+  udef_q<0:3> BV _doctor_n_1<0:3>  
+  _make_v_1<10:14> ARG1 named<4:9>(Dryja)  
+  _make_v_1<10:14> ARG2 _discovery_n_of<34:43>  
+  def_explicit_q<15:18> BV _discovery_n_of<34:43>  
+  poss<15:18> ARG1 _discovery_n_of<34:43>  
+  poss<15:18> ARG2 pron<15:18>  
+  pronoun_q<15:18> BV pron<15:18>  
+  compound<19:43> ARG1 _discovery_n_of<34:43>  
+  compound<19:43> ARG2 _retinoblastoma_n_1<19:33>  
+  udef_q<19:33> BV _retinoblastoma_n_1<19:33>  
+  _in_p_temp<44:46> ARG1 _make_v_1<10:14>  
+  _in_p_temp<44:46> ARG2 yofc<47:52>(1986)  
+  proper_q<47:52> BV yofc<47:52>(1986)  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _doctor_n_1<0:3> PERS 3  
+  _doctor_n_1<0:3> NUM sg  
+  _doctor_n_1<0:3> IND +  
+  named<4:9>(Dryja) PERS 3  
+  named<4:9>(Dryja) NUM sg  
+  named<4:9>(Dryja) IND +  
+  _make_v_1<10:14> SF prop  
+  _make_v_1<10:14> TENSE past  
+  _make_v_1<10:14> MOOD indicative  
+  _make_v_1<10:14> PROG -  
+  _make_v_1<10:14> PERF -  
+  poss<15:18> SF prop  
+  poss<15:18> TENSE untensed  
+  poss<15:18> MOOD indicative  
+  poss<15:18> PROG -  
+  poss<15:18> PERF -  
+  pron<15:18> PERS 3  
+  pron<15:18> NUM sg  
+  pron<15:18> GEND m  
+  pron<15:18> PT std  
+  compound<19:43> SF prop  
+  compound<19:43> TENSE untensed  
+  compound<19:43> MOOD indicative  
+  compound<19:43> PROG -  
+  compound<19:43> PERF -  
+  _discovery_n_of<34:43> PERS 3  
+  _discovery_n_of<34:43> NUM sg  
+  _in_p_temp<44:46> SF prop  
+  _in_p_temp<44:46> TENSE untensed  
+  _in_p_temp<44:46> MOOD indicative  
+  _in_p_temp<44:46> PROG -  
+  _in_p_temp<44:46> PERF -  
+  yofc<47:52>(1986) PERS 3  
+  yofc<47:52>(1986) NUM sg  
+  yofc<47:52>(1986) IND +  
+}
+

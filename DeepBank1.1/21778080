@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778080] (1 of 1) {1} `MACPOST:'
+
+[21778080:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "MACPOST", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:8>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (20, 0, 1, <0:7>, 1, "MACPOST", 0, "null")
+  (25, 0, 1, <0:7>, 1, "MACPOST", 0, "null", "NNP" 1.0)
+  (26, 0, 1, <0:7>, 1, "macpost", 0, "null")
+  (27, 0, 1, <0:7>, 1, "macpost", 0, "null")
+  (24, 1, 2, <7:8>, 1, ":", 0, "null")
+  (28, 1, 2, <7:8>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (96 NP-AJ_RORP-FRG_C -0.983186 0 2
+  (95 ^HDN_BNP-PN_C -0.746836 0 1
+   (94 N_SG_ILR 0.013124 0 1
+    (32 macpost_n1@n_-_pn_le 0 0 1
+     ("macpost" 26
+      "token [ +CARG \"MACPOST\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"macpost\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (42 colon_namely_pp@pp_-_i-cln_le 0.0128037 1 2
+   (":" 24
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (N "macpost"))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:8>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x4
+            CARG: "MACPOST" ]
+          [ _colon_p_namely<7:8>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i9 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:7>[BV x4]
+ x4:named<0:7>("MACPOST"){x PERS 3, NUM sg, IND +}[]
+ e10:_colon_p_namely<7:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:8> ARG named<0:7>(MACPOST)  
+  proper_q<0:7> BV named<0:7>(MACPOST)  
+  unknown<0:8> SF prop  
+  unknown<0:8> TENSE untensed  
+  unknown<0:8> MOOD indicative  
+  unknown<0:8> PROG -  
+  unknown<0:8> PERF -  
+  named<0:7>(MACPOST) PERS 3  
+  named<0:7>(MACPOST) NUM sg  
+  named<0:7>(MACPOST) IND +  
+  _colon_p_namely<7:8> SF prop  
+  _colon_p_namely<7:8> TENSE untensed  
+  _colon_p_namely<7:8> MOOD indicative  
+  _colon_p_namely<7:8> PROG -  
+  _colon_p_namely<7:8> PERF -  
+}
+

@@ -1,0 +1,77 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778142] (1 of 1) {1} `I agreed.'
+
+[21778142:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:8>, 1, "agreed", 0, "null", "VBD" 0.9652 "VBN" 0.0348)
+  (3, 2, 3, <8:9>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (29, 0, 1, <0:1>, 1, "I", 0, "null")
+  (38, 0, 1, <0:1>, 1, "i", 0, "null")
+  (39, 0, 1, <0:1>, 1, "i", 0, "null")
+  (35, 1, 2, <2:9>, 1, "agreed.", 0, "null")
+  (37, 1, 2, <2:9>, 1, "agreed.", 0, "null", "VBD" 0.9652)
+  (40, 1, 2, <2:9>, 1, "agreed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (402 SB-HD_MC_C 2.1488 0 2
+  (397 HDN_BNP-QNT_C 1.98216 0 1
+   (47 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 38
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (401 ^HD_OPTCMP_C 0.191168 1 2
+   (400 HD_OPTCMP_C 1.15963 1 2
+    (399 W_PERIOD_PLR 0.435573 1 2
+     (398 V_PST_OLR 0.275113 1 2
+      (96 agree_v2@v_pp*-pp*_le 0 1 2
+       ("agreed." 35
+        "token [ +CARG \"agreed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"agreed.\" +FROM #1=\"2\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96523559999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "i")) (VP (V (V (V (V "agreed."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _agree_v_on<2:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e3:_agree_v_on<2:9>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  _agree_v_on<2:9> ARG1 pron<0:1>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  _agree_v_on<2:9> SF prop  
+  _agree_v_on<2:9> TENSE past  
+  _agree_v_on<2:9> MOOD indicative  
+  _agree_v_on<2:9> PROG -  
+  _agree_v_on<2:9> PERF -  
+}
+

@@ -1,0 +1,92 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:34 h)).
+;;;
+
+[21264021] (1 of 1) {1} `"The magazine is strong.'
+
+[21264021:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:4>, 1, "The", 0, "null", "DT" 1.0)
+  (3, 2, 3, <5:13>, 1, "magazine", 0, "null", "NN" 1.0)
+  (4, 3, 4, <14:16>, 1, "is", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <17:23>, 1, "strong", 0, "null", "JJ" 0.9878 "RB" 0.0122)
+  (6, 5, 6, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:4>, 1, "“the", 0, "null")
+  (74, 0, 1, <0:4>, 1, "“the", 0, "null")
+  (60, 1, 2, <5:13>, 1, "magazine", 0, "null")
+  (68, 1, 2, <5:13>, 1, "magazine", 0, "null", "NN" 1.0)
+  (71, 1, 2, <5:13>, 1, "magazine", 0, "null")
+  (62, 2, 3, <14:16>, 1, "is", 0, "null")
+  (69, 2, 3, <14:16>, 1, "is", 0, "null", "VBZ" 1.0)
+  (72, 2, 3, <14:16>, 1, "is", 0, "null")
+  (65, 3, 4, <17:24>, 1, "strong.", 0, "null")
+  (67, 3, 4, <17:24>, 1, "strong.", 0, "null", "JJ" 0.9878)
+  (73, 3, 4, <17:24>, 1, "strong.", 0, "null")
+>
+
+(ROOT_STRICT
+ (523 SB-HD_MC_C 5.97611 0 4
+  (520 SP-HD_N_C 1.74482 0 2
+   (518 W_DQLEFT_PLR 1.49211 0 1
+    (87 the_1@d_-_the_le 0.947013 0 1
+     ("“the" 70
+      "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“the\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (519 ^N_SG_ILR 0.27445 1 2
+    (114 magazine_n1@n_-_c_le 0.219157 1 2
+     ("magazine" 60
+      "token [ +CARG #1=\"magazine\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (522 ^HD-CMP_U_C 2.27677 2 4
+   (156 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 62
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (521 W_PERIOD_PLR 0.852384 3 4
+    (245 strong_a1@aj_-_i-er_le 0 3 4
+     ("strong." 65
+      "token [ +CARG \"strong\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"strong.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9878458\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET (DET "“the")) (N (N "magazine")))
+ (VP (V "is") (AP (AP "strong."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _magazine_n_1<5:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _strong_a_1<17:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:4>[BV x6]
+ x6:_magazine_n_1<5:13>{x PERS 3, NUM sg, IND +}[]
+ e3:_strong_a_1<17:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:4> BV _magazine_n_1<5:13>  
+  _strong_a_1<17:24> ARG1 _magazine_n_1<5:13>  
+  _magazine_n_1<5:13> PERS 3  
+  _magazine_n_1<5:13> NUM sg  
+  _magazine_n_1<5:13> IND +  
+  _strong_a_1<17:24> SF prop  
+  _strong_a_1<17:24> TENSE pres  
+  _strong_a_1<17:24> MOOD indicative  
+  _strong_a_1<17:24> PROG -  
+  _strong_a_1<17:24> PERF -  
+}
+

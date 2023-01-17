@@ -1,0 +1,237 @@
+;;;
+;;; Redwoods export of `wsj18c';
+;;; (wsun@wsun; 23-jan-2018 (03:30 h)).
+;;;
+
+[21856070] (1 of 1) {1} `Consider, for example, what happened to Maxwell House coffee.'
+
+[21856070:4] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Consider", 0, "null", "VB" 1.0)
+  (2, 1, 2, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <10:13>, 1, "for", 0, "null", "IN" 1.0)
+  (4, 3, 4, <14:21>, 1, "example", 0, "null", "NN" 1.0)
+  (5, 4, 5, <21:22>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <23:27>, 1, "what", 0, "null", "WP" 0.9366 "WDT" 0.0634)
+  (7, 6, 7, <28:36>, 1, "happened", 0, "null", "VBD" 0.9752 "VBN" 0.0248)
+  (8, 7, 8, <37:39>, 1, "to", 0, "null", "TO" 1.0)
+  (9, 8, 9, <40:47>, 1, "Maxwell", 0, "null", "NNP" 1.0)
+  (10, 9, 10, <48:53>, 1, "House", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <54:60>, 1, "coffee", 0, "null", "NN" 1.0)
+  (12, 11, 12, <60:61>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (141, 0, 1, <0:9>, 1, "Consider,", 0, "null", "VB" 1.0)
+  (146, 0, 1, <0:9>, 1, "consider,", 0, "null")
+  (157, 0, 1, <0:9>, 1, "consider,", 0, "null")
+  (125, 1, 2, <10:13>, 1, "for", 0, "null")
+  (149, 1, 2, <10:13>, 1, "for", 0, "null")
+  (131, 2, 3, <14:22>, 1, "example,", 0, "null")
+  (142, 2, 3, <14:22>, 1, "example,", 0, "null", "NN" 1.0)
+  (151, 2, 3, <14:22>, 1, "example,", 0, "null")
+  (134, 3, 4, <23:27>, 1, "what", 0, "null")
+  (153, 3, 4, <23:27>, 1, "what", 0, "null")
+  (136, 4, 5, <28:36>, 1, "happened", 0, "null")
+  (138, 4, 5, <28:36>, 1, "happened", 0, "null", "VBD" 0.9752)
+  (154, 4, 5, <28:36>, 1, "happened", 0, "null")
+  (127, 5, 6, <37:39>, 1, "to", 0, "null")
+  (150, 5, 6, <37:39>, 1, "to", 0, "null")
+  (111, 6, 7, <40:47>, 1, "Maxwell", 0, "null")
+  (139, 6, 7, <40:47>, 1, "Maxwell", 0, "null", "NNP" 1.0)
+  (144, 6, 7, <40:47>, 1, "maxwell", 0, "null")
+  (147, 6, 7, <40:47>, 1, "maxwell", 0, "null")
+  (112, 7, 8, <48:53>, 1, "House", 0, "null")
+  (140, 7, 8, <48:53>, 1, "House", 0, "null", "NNP" 1.0)
+  (145, 7, 8, <48:53>, 1, "house", 0, "null")
+  (148, 7, 8, <48:53>, 1, "house", 0, "null")
+  (133, 8, 9, <54:61>, 1, "coffee.", 0, "null")
+  (143, 8, 9, <54:61>, 1, "coffee.", 0, "null", "NN" 1.0)
+  (152, 8, 9, <54:61>, 1, "coffee.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3782 HD_IMP_C 5.93823 0 9
+  (3781 HD-CMP_U_C 5.84492 0 9
+   (3780 ^HD-AJ_SCP-PR_C 0.950721 0 3
+    (3767 ^W_COMMA_PLR -0.177619 0 1
+     (3766 V_N3S-BSE_ILR -0.183181 0 1
+      (167 consider_v5@v_np*_le 0 0 1
+       ("consider," 146
+        "token [ +CARG \"Consider\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"consider,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (3762 W_COMMA_PLR 0.806449 1 3
+     (495 for_example_disc_adv@av_-_dc-like-po_le 0.332365 1 3
+      ("for example," 125
+       "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+       131
+       "token [ +CARG \"example\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"example,\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (3770 HD-CL_FR-REL_C 4.8942 3 9
+    (3769 ^HDN_BNP-QNT_C -0.213549 3 4
+     (258 what2@n_-_pr-fr_le -0.418277 3 4
+      ("what" 134
+       "token [ +CARG #1=\"what\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93663370000000001\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3758 HD_XSB-FIN_C 6.36696 4 9
+     (3757 HD-CMP_U_C 5.67132 4 9
+      (3749 ^V_PST_OLR 1.04821 4 5
+       (277 happen_to_v1@v_pp_e_le 0 4 5
+        ("happened" 136
+         "token [ +CARG #1=\"happened\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97524330000000004\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (3756 HD-CMP_U_C 4.35244 5 9
+       (431 to_prtcl@p_np_ptcl_le 0.017699 5 6
+        ("to" 127
+         "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (3755 HDN_BNP_C 3.445 6 9
+        (3754 N-HDN_CPD_C 3.83395 6 9
+         (3751 NP-HDN_CPD_C 3.13322 6 8
+          (3750 HDN_BNP-PN_C -0.377426 6 7
+           (475 maxwell_n1@n_-_pn_le 0 6 7
+            ("maxwell" 144
+             "token [ +CARG \"Maxwell\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"maxwell\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+          (479 house_n2@n_-_c-nm_le 0.288584 7 8
+           ("house" 145
+            "token [ +CARG \"House\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"house\" +FROM #1=\"48\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (3753 ^W_PERIOD_PLR 0.784596 8 9
+          (3752 N_MS-CNT_ILR 0.214285 8 9
+           (488 coffee_n1@n_-_mc_le 0 8 9
+            ("coffee." 133
+             "token [ +CARG \"coffee\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"coffee.\" +FROM #1=\"54\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"61\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S
+ (VP (V (V (V (V "consider,"))) (ADV (ADV "for example,")))
+  (NP (NP/NP (N/NP "what"))
+   (S/NP
+    (VP/NP (V/NP (V/NP "happened"))
+     (PP (P "to")
+      (NP
+       (N (N (NP (N "maxwell")) (N "house"))
+        (N (N (N "coffee.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:61>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:61>
+            LBL: h8
+            ARG0: x6 ]
+          [ _consider_v_1<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 ] ]
+          [ free_relative_q<23:27>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ thing<23:27>
+            LBL: h13
+            ARG0: x9 ]
+          [ _happen_v_to<28:36>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<40:61>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<40:61>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x20 [ x IND: + ] ]
+          [ udef_q<40:53>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<40:53>
+            LBL: h25
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x26 [ x IND: + ] ]
+          [ proper_q<40:47>
+            LBL: h28
+            ARG0: x26
+            RSTR: h29
+            BODY: h30 ]
+          [ named<40:47>
+            LBL: h31
+            ARG0: x26
+            CARG: "Maxwell" ]
+          [ named_n<48:53>
+            LBL: h25
+            ARG0: x20
+            CARG: "House" ]
+          [ _coffee_n_1<54:61>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h29 QEQ h31 h23 QEQ h25 h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:61>[BV x6]
+ x6:pron<0:61>{x PERS 2, PT zero}[]
+ e3:_consider_v_1-fn.Cogitation<0:9>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Cognizer x6, ARG2-fn.Topic x9]
+ _2:free_relative_q<23:27>[BV x9]
+ x9:thing<23:27>{x PERS 3}[]
+ e14:_happen_v_to<28:36>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<40:61>[BV x15]
+ e21:compound<40:61>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x20]
+ _4:udef_q<40:53>[BV x20]
+ e27:compound<40:53>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x26]
+ _5:proper_q<40:47>[BV x26]
+ x26:named<40:47>("Maxwell"){x IND +}[]
+ x20:named_n<48:53>("House"){x IND +}[]
+ x15:_coffee_n_1<54:61>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:61> BV pron<0:61>  
+  _consider_v_1<0:9> ARG1 pron<0:61>  
+  _consider_v_1<0:9> ARG2 thing<23:27>  
+  free_relative_q<23:27> BV thing<23:27>  
+  _happen_v_to<28:36> ARG1 thing<23:27>  
+  _happen_v_to<28:36> ARG2 _coffee_n_1<54:61>  
+  udef_q<40:61> BV _coffee_n_1<54:61>  
+  compound<40:61> ARG1 _coffee_n_1<54:61>  
+  compound<40:61> ARG2 named_n<48:53>(House)  
+  udef_q<40:53> BV named_n<48:53>(House)  
+  compound<40:53> ARG1 named_n<48:53>(House)  
+  compound<40:53> ARG2 named<40:47>(Maxwell)  
+  proper_q<40:47> BV named<40:47>(Maxwell)  
+  pron<0:61> PERS 2  
+  pron<0:61> PT zero  
+  _consider_v_1<0:9> SF comm  
+  _consider_v_1<0:9> TENSE pres  
+  _consider_v_1<0:9> MOOD indicative  
+  _consider_v_1<0:9> PROG -  
+  _consider_v_1<0:9> PERF -  
+  thing<23:27> PERS 3  
+  _happen_v_to<28:36> SF prop  
+  _happen_v_to<28:36> TENSE past  
+  _happen_v_to<28:36> MOOD indicative  
+  _happen_v_to<28:36> PROG -  
+  _happen_v_to<28:36> PERF -  
+  compound<40:61> SF prop  
+  compound<40:61> TENSE untensed  
+  compound<40:61> MOOD indicative  
+  compound<40:61> PROG -  
+  compound<40:61> PERF -  
+  compound<40:53> SF prop  
+  compound<40:53> TENSE untensed  
+  compound<40:53> MOOD indicative  
+  compound<40:53> PROG -  
+  compound<40:53> PERF -  
+  named<40:47>(Maxwell) IND +  
+  named_n<48:53>(House) IND +  
+  _coffee_n_1<54:61> PERS 3  
+  _coffee_n_1<54:61> NUM sg  
+}
+

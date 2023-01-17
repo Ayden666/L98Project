@@ -1,0 +1,197 @@
+;;;
+;;; Redwoods export of `wsj12b';
+;;; (wsun@wsun; 22-jan-2018 (21:25 h)).
+;;;
+
+[21249032] (1 of 1) {1} `LONG-TERM care insurance gains favor.'
+
+[21249032:4] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "LONG-TERM", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <10:14>, 1, "care", 0, "null", "NN" 0.9697 "VB" 0.017 "VBP" 0.0133)
+  (3, 2, 3, <15:24>, 1, "insurance", 0, "null", "NN" 1.0)
+  (4, 3, 4, <25:30>, 1, "gains", 0, "null", "NNS" 0.9895 "VBZ" 0.0105)
+  (5, 4, 5, <31:36>, 1, "favor", 0, "null", "VBP" 0.6541 "NN" 0.3223 "VB" 0.0236)
+  (6, 5, 6, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (65, 0, 1, <0:9>, 1, "LONG-", 0, "null")
+  (94, 0, 1, <0:9>, 1, "LONG-", 0, "null", "NN" 1.0)
+  (97, 0, 1, <0:9>, 1, "long-", 0, "null")
+  (99, 0, 1, <0:9>, 1, "long-", 0, "null")
+  (64, 1, 2, <0:9>, 1, "TERM", 0, "null")
+  (93, 1, 2, <0:9>, 1, "TERM", 0, "null", "JJ" 1.0)
+  (96, 1, 2, <0:9>, 1, "term", 0, "null")
+  (98, 1, 2, <0:9>, 1, "term", 0, "null")
+  (85, 2, 3, <10:14>, 1, "care", 0, "null")
+  (90, 2, 3, <10:14>, 1, "care", 0, "null", "NN" 0.9697)
+  (102, 2, 3, <10:14>, 1, "care", 0, "null")
+  (82, 3, 4, <15:24>, 1, "insurance", 0, "null")
+  (95, 3, 4, <15:24>, 1, "insurance", 0, "null", "NN" 1.0)
+  (100, 3, 4, <15:24>, 1, "insurance", 0, "null")
+  (83, 4, 5, <25:30>, 1, "gains", 0, "null")
+  (89, 4, 5, <25:30>, 1, "gains", 0, "null", "NNS" 0.9895)
+  (101, 4, 5, <25:30>, 1, "gains", 0, "null")
+  (86, 5, 6, <31:37>, 1, "favor.", 0, "null")
+  (91, 5, 6, <31:37>, 1, "favor.", 0, "null", "VBP" 0.6541)
+  (92, 5, 6, <31:37>, 1, "favor.", 0, "null", "NN" 0.3223)
+  (103, 5, 6, <31:37>, 1, "favor.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1497 SB-HD_MC_C 5.30385 0 6
+  (1496 HDN_BNP_C 2.9943 0 4
+   (1495 N-HDN_CPD_C 2.37355 0 4
+    (1494 N-HDN_CPD_C 2.31196 0 3
+     (1468 XP_BRCK-PR_C 2.88251 0 2
+      (1467 AJ-HDN_NORM_C 2.06568 0 2
+       (1465 W_HYPHEN_PLR 0.120659 0 1
+        (128 long_a1@aj_-_i-er_le -0.776721 0 1
+         ("long-" 97
+          "token [ +CARG \"LONG-\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL + ] +FORM \"long-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+       (1466 ^HDN_OPTCMP_C 0.794721 1 2
+        (161 term_n1@n_pp_c-of_le -0.528178 1 2
+         ("term" 96
+          "token [ +CARG \"TERM\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"term\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+     (171 care_n1@n_-_m_le 0.134103 2 3
+      ("care" 85
+       "token [ +CARG #1=\"care\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9696591\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1469 ^N_MS-CNT_ILR -0.162796 3 4
+     (177 insurance_n1@n_-_mc_le 0.276318 3 4
+      ("insurance" 82
+       "token [ +CARG #1=\"insurance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1477 ^HD-CMP_U_C 0.793644 4 6
+   (1473 ^V_3S-FIN_OLR 0.998186 4 5
+    (185 gain_v1@v_np*_le 0.606668 4 5
+     ("gains" 83
+      "token [ +CARG #1=\"gains\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98946840000000003\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1476 HDN_BNP_C -0.81101 5 6
+    (1475 W_PERIOD_PLR 0.45024 5 6
+     (1474 N_MS-CNT_ILR 0.249354 5 6
+      (196 favor_n1@n_-_mc_le 0 5 6
+       ("favor." 86
+        "token [ +CARG \"favor\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"favor.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65408549999999999\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (N (N (N (AP (AP "long-")) (N (N "term")))) (N "care"))
+   (N (N "insurance"))))
+ (VP (V (V "gains")) (NP (N (N (N "favor."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:24>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:24>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:14>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:14>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _long_a_1<0:9>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15 ]
+          [ _term_n_of<0:9>
+            LBL: h20
+            ARG0: x15
+            ARG1: i22 ]
+          [ _care_n_1<10:14>
+            LBL: h14
+            ARG0: x9 ]
+          [ _insurance_n_1<15:24>
+            LBL: h8
+            ARG0: x6 ]
+          [ _gain_v_1<25:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x23 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<31:37>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ _favor_n_1<31:37>
+            LBL: h27
+            ARG0: x23 ] >
+   HCONS: < h25 QEQ h27 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:24>[BV x6]
+ e10:compound<0:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:14>[BV x9]
+ e16:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:9>[BV x15]
+ e21:_long_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ x15:_term_n_of<0:9>{x IND +}[]
+ x9:_care_n_1<10:14>{x PERS 3, NUM sg, IND -}[]
+ x6:_insurance_n_1<15:24>{x PERS 3, NUM sg}[]
+ e3:_gain_v_1-fn.Change_of_quantity_of_possession<25:30>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x6, ARG2-fn.Theme x23]
+ _4:udef_q<31:37>[BV x23]
+ x23:_favor_n_1<31:37>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:24> BV _insurance_n_1<15:24>  
+  compound<0:24> ARG1 _insurance_n_1<15:24>  
+  compound<0:24> ARG2 _care_n_1<10:14>  
+  udef_q<0:14> BV _care_n_1<10:14>  
+  compound<0:14> ARG1 _care_n_1<10:14>  
+  compound<0:14> ARG2 _term_n_of<0:9>  
+  udef_q<0:9> BV _term_n_of<0:9>  
+  _long_a_1<0:9> ARG1 _term_n_of<0:9>  
+  _gain_v_1<25:30> ARG1 _insurance_n_1<15:24>  
+  _gain_v_1<25:30> ARG2 _favor_n_1<31:37>  
+  udef_q<31:37> BV _favor_n_1<31:37>  
+  compound<0:24> SF prop  
+  compound<0:24> TENSE untensed  
+  compound<0:24> MOOD indicative  
+  compound<0:24> PROG -  
+  compound<0:24> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _long_a_1<0:9> SF prop  
+  _long_a_1<0:9> TENSE untensed  
+  _long_a_1<0:9> MOOD indicative  
+  _long_a_1<0:9> PROG -  
+  _long_a_1<0:9> PERF -  
+  _term_n_of<0:9> IND +  
+  _care_n_1<10:14> PERS 3  
+  _care_n_1<10:14> NUM sg  
+  _care_n_1<10:14> IND -  
+  _insurance_n_1<15:24> PERS 3  
+  _insurance_n_1<15:24> NUM sg  
+  _gain_v_1<25:30> SF prop  
+  _gain_v_1<25:30> TENSE pres  
+  _gain_v_1<25:30> MOOD indicative  
+  _gain_v_1<25:30> PROG -  
+  _gain_v_1<25:30> PERF -  
+  _favor_n_1<31:37> PERS 3  
+  _favor_n_1<31:37> NUM sg  
+}
+

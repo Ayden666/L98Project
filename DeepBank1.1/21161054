@@ -1,0 +1,171 @@
+;;;
+;;; Redwoods export of `wsj11d';
+;;; (wsun@wsun; 22-jan-2018 (20:38 h)).
+;;;
+
+[21161054] (1 of 1) {1} `Guaranteed by Mitsubishi Bank Ltd.'
+
+[21161054:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "VBN" 0.9596 "JJ" 0.0404)
+  (2, 1, 2, <11:13>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <14:24>, 1, "Mitsubishi", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <25:29>, 1, "Bank", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <30:33>, 1, "Ltd", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (75, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "VBN" 0.9596)
+  (82, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (87, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (70, 1, 2, <11:13>, 1, "by", 0, "null")
+  (86, 1, 2, <11:13>, 1, "by", 0, "null")
+  (58, 2, 3, <14:24>, 1, "Mitsubishi", 0, "null")
+  (76, 2, 3, <14:24>, 1, "Mitsubishi", 0, "null", "NNP" 1.0)
+  (79, 2, 3, <14:24>, 1, "mitsubishi", 0, "null")
+  (83, 2, 3, <14:24>, 1, "mitsubishi", 0, "null")
+  (59, 3, 4, <25:29>, 1, "Bank", 0, "null")
+  (77, 3, 4, <25:29>, 1, "Bank", 0, "null", "NNP" 1.0)
+  (80, 3, 4, <25:29>, 1, "bank", 0, "null")
+  (84, 3, 4, <25:29>, 1, "bank", 0, "null")
+  (62, 4, 5, <30:34>, 1, "Ltd.", 0, "null")
+  (78, 4, 5, <30:34>, 1, "Ltd.", 0, "null", "NNP" 1.0)
+  (81, 4, 5, <30:34>, 1, "ltd.", 0, "null")
+  (85, 4, 5, <30:34>, 1, "ltd.", 0, "null")
+>
+
+(ROOT_FRAG
+ (1865 VP_NFIN-FRG_C 9.63857 0 5
+  (1864 HD-CMP_U_C 11.3921 0 5
+   (1855 ^V_PAS_ODLR 0.32998 0 1
+    (180 guarantee_v3@v_np_le 0 0 1
+     ("guaranteed" 82
+      "token [ +CARG \"Guaranteed\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"guaranteed\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95955420000000002\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1863 HD-CMP_U_C 9.90049 1 5
+    (279 by_pass_p@p_np_ptcl_le 1.83114 1 2
+     ("by" 70
+      "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1862 HDN_BNP-PN_C 6.95593 2 5
+     (1861 HDN-AJ_REDREL_C 6.9241 2 5
+      (1859 ^NP-HDN_NME-CPD_C 2.54929 2 4
+       (1857 HDN_BNP-PN_C 0.078607 2 3
+        (1856 N_SG_ILR -0.386912 2 3
+         (299 generic_proper_ne@n_-_pn-gen_le 0 2 3
+          ("Mitsubishi" 58
+           "token [ +CARG #1=\"Mitsubishi\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (1858 ^N_SG_ILR 1.10888 3 4
+        (301 generic_proper_ne@n_-_pn-gen_le 0.909837 3 4
+         ("Bank" 59
+          "token [ +CARG #1=\"Bank\" +CLASS proper_ne +FORM #1 +FROM \"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1860 W_PERIOD_PLR 3.07237 4 5
+       (313 ltd_post_ttl@n_-_tt-post-npt_le 0.255979 4 5
+        ("ltd." 81
+         "token [ +CARG \"Ltd\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"ltd.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (VP (V (V "guaranteed"))
+  (PP (P "by")
+   (NP
+    (N (N (NP (N (N "Mitsubishi"))) (N (N "Bank"))) (N (N "ltd.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _guarantee_v_1<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: i4 ]
+          [ parg_d<0:10>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: i4 ]
+          [ proper_q<14:34>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<14:29>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<14:24>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ named<14:24>
+            LBL: h16
+            ARG0: x11
+            CARG: "Mitsubishi" ]
+          [ named<25:29>
+            LBL: h10
+            ARG0: x5
+            CARG: "Bank" ]
+          [ _ltd_n_1<30:34>
+            LBL: h17
+            ARG0: x18 [ x IND: + ] ]
+          [ udef_q<30:34>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ compound<30:34>
+            LBL: h10
+            ARG0: i22
+            ARG1: x5
+            ARG2: x18 ] >
+   HCONS: < h20 QEQ h17 h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:_guarantee_v_1<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e6:parg_d<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<14:34>[BV x5]
+ e12:compound<14:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x11]
+ _2:proper_q<14:24>[BV x11]
+ x11:named<14:24>("Mitsubishi"){x PERS 3, NUM sg, IND +}[]
+ x5:named<25:29>("Bank"){x PERS 3, NUM sg, IND +}[]
+ x18:_ltd_n_1<30:34>{x IND +}[]
+ _3:udef_q<30:34>[BV x18]
+ i22:compound<30:34>{i}[ARG1 x5, ARG2 x18]
+}
+
+{
+  _guarantee_v_1<0:10> ARG1 named<25:29>(Bank)  
+  parg_d<0:10> ARG1 _guarantee_v_1<0:10>  
+  proper_q<14:34> BV named<25:29>(Bank)  
+  compound<14:29> ARG1 named<25:29>(Bank)  
+  compound<14:29> ARG2 named<14:24>(Mitsubishi)  
+  proper_q<14:24> BV named<14:24>(Mitsubishi)  
+  udef_q<30:34> BV _ltd_n_1<30:34>  
+  compound<30:34> ARG1 named<25:29>(Bank)  
+  compound<30:34> ARG2 _ltd_n_1<30:34>  
+  _guarantee_v_1<0:10> SF prop  
+  _guarantee_v_1<0:10> TENSE untensed  
+  _guarantee_v_1<0:10> MOOD indicative  
+  _guarantee_v_1<0:10> PROG -  
+  _guarantee_v_1<0:10> PERF -  
+  parg_d<0:10> SF prop  
+  parg_d<0:10> TENSE untensed  
+  parg_d<0:10> MOOD indicative  
+  parg_d<0:10> PROG -  
+  parg_d<0:10> PERF -  
+  compound<14:29> SF prop  
+  compound<14:29> TENSE untensed  
+  compound<14:29> MOOD indicative  
+  compound<14:29> PROG -  
+  compound<14:29> PERF -  
+  named<14:24>(Mitsubishi) PERS 3  
+  named<14:24>(Mitsubishi) NUM sg  
+  named<14:24>(Mitsubishi) IND +  
+  named<25:29>(Bank) PERS 3  
+  named<25:29>(Bank) NUM sg  
+  named<25:29>(Bank) IND +  
+  _ltd_n_1<30:34> IND +  
+}
+

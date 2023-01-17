@@ -1,0 +1,164 @@
+;;;
+;;; Redwoods export of `wsj00b';
+;;; (wsun@wsun; 22-jan-2018 (10:18 h)).
+;;;
+
+[20041010] (1 of 1) {1} `New York City:'
+
+[20041010:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "New", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:8>, 1, "York", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:13>, 1, "City", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <13:14>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (45, 0, 1, <0:3>, 1, "New", 0, "null")
+  (50, 0, 1, <0:3>, 1, "new", 0, "null")
+  (54, 0, 1, <0:3>, 1, "new", 0, "null")
+  (37, 1, 2, <4:8>, 1, "York", 0, "null")
+  (46, 1, 2, <4:8>, 1, "York", 0, "null", "NNP" 1.0)
+  (48, 1, 2, <4:8>, 1, "york", 0, "null")
+  (51, 1, 2, <4:8>, 1, "york", 0, "null")
+  (38, 2, 3, <9:13>, 1, "City", 0, "null")
+  (47, 2, 3, <9:13>, 1, "City", 0, "null", "NNP" 1.0)
+  (49, 2, 3, <9:13>, 1, "city", 0, "null")
+  (52, 2, 3, <9:13>, 1, "city", 0, "null")
+  (44, 3, 4, <13:14>, 1, ":", 0, "null")
+  (53, 3, 4, <13:14>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (331 NP-AJ_RORP-FRG_C 2.21279 0 4
+  (330 ^HDN_BNP-PN_C 2.44914 0 3
+   (329 NP-HDN_NME-CPD_C 3.85704 0 3
+    (327 HDN_BNP-PN_C 3.25769 0 2
+     (326 XP_BRCK-PR_C 3.28557 0 2
+      (325 NP-HDN_NME-CPD_C 3.39349 0 2
+       (323 HDN_BNP-PN_C 3.31244 0 1
+        (322 N_SG_ILR 1.78355 0 1
+         (57 generic_proper_ne@n_-_pn-gen_le 2.17046 0 1
+          ("New" 45
+           "token [ +CARG #1=\"New\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))))
+       (324 ^N_SG_ILR -0.934227 1 2
+        (65 york_n1@n_-_pn_le 0 1 2
+         ("york" 48
+          "token [ +CARG \"York\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"york\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +UW - ] ]"))))))
+    (328 ^N_SG_ILR 0.166554 2 3
+     (66 generic_proper_ne@n_-_pn-gen_le 0.309811 2 3
+      ("City" 38
+       "token [ +CARG #1=\"City\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (79 colon_namely_pp@pp_-_i-cln_le 0.0128037 3 4
+   (":" 44
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP
+ (NP (N (NP (N (N (NP (N (N "New"))) (N (N "york"))))) (N (N "City"))))
+ (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:13>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:8>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:3>
+            LBL: h20
+            ARG0: x15
+            CARG: "New" ]
+          [ named<4:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "York" ]
+          [ named<9:13>
+            LBL: h8
+            ARG0: x4
+            CARG: "City" ]
+          [ _colon_p_namely<13:14>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i21 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:13>[BV x4]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ e16:compound<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:3>[BV x15]
+ x15:named<0:3>("New"){x PERS 3, NUM sg, IND +}[]
+ x9:named<4:8>("York"){x PERS 3, NUM sg, IND +}[]
+ x4:named<9:13>("City"){x PERS 3, NUM sg, IND +}[]
+ e22:_colon_p_namely<13:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:14> ARG named<9:13>(City)  
+  proper_q<0:13> BV named<9:13>(City)  
+  compound<0:13> ARG1 named<9:13>(City)  
+  compound<0:13> ARG2 named<4:8>(York)  
+  proper_q<0:8> BV named<4:8>(York)  
+  compound<0:8> ARG1 named<4:8>(York)  
+  compound<0:8> ARG2 named<0:3>(New)  
+  proper_q<0:3> BV named<0:3>(New)  
+  unknown<0:14> SF prop  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  compound<0:8> SF prop  
+  compound<0:8> TENSE untensed  
+  compound<0:8> MOOD indicative  
+  compound<0:8> PROG -  
+  compound<0:8> PERF -  
+  named<0:3>(New) PERS 3  
+  named<0:3>(New) NUM sg  
+  named<0:3>(New) IND +  
+  named<4:8>(York) PERS 3  
+  named<4:8>(York) NUM sg  
+  named<4:8>(York) IND +  
+  named<9:13>(City) PERS 3  
+  named<9:13>(City) NUM sg  
+  named<9:13>(City) IND +  
+  _colon_p_namely<13:14> SF prop  
+  _colon_p_namely<13:14> TENSE untensed  
+  _colon_p_namely<13:14> MOOD indicative  
+  _colon_p_namely<13:14> PROG -  
+  _colon_p_namely<13:14> PERF -  
+}
+

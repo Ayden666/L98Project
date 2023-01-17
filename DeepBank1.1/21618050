@@ -1,0 +1,96 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:10 h)).
+;;;
+
+[21618050] (1 of 1) {1} `Two ironies intrude.'
+
+[21618050:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Two", 0, "null", "CD" 1.0)
+  (2, 1, 2, <4:11>, 1, "ironies", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <12:19>, 1, "intrude", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (44, 0, 1, <0:3>, 1, "Two", 0, "null", "CD" 1.0)
+  (47, 0, 1, <0:3>, 1, "two", 0, "null")
+  (50, 0, 1, <0:3>, 1, "two", 0, "null")
+  (41, 1, 2, <4:11>, 1, "ironies", 0, "null")
+  (45, 1, 2, <4:11>, 1, "ironies", 0, "null", "NNS" 1.0)
+  (48, 1, 2, <4:11>, 1, "ironies", 0, "null")
+  (43, 2, 3, <12:20>, 1, "intrude.", 0, "null")
+  (46, 2, 3, <12:20>, 1, "intrude.", 0, "null", "VBP" 1.0)
+  (49, 2, 3, <12:20>, 1, "intrude.", 0, "null")
+>
+
+(ROOT_STRICT
+ (222 SB-HD_MC_C -0.605174 0 3
+  (218 SP-HD_N_C 0.486001 0 2
+   (216 NUM_DET_C 0.885191 0 1
+    (56 two@aj_-_i-crd-one_le -0.408015 0 1
+     ("two" 47
+      "token [ +CARG \"Two\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"two\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (217 ^N_PL_OLR -0.136586 1 2
+    (66 irony_n1@n_-_mc-ns_le 0 1 2
+     ("ironies" 41
+      "token [ +CARG #1=\"ironies\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (221 ^HD_OPTCMP_C -1.01821 2 3
+   (220 W_PERIOD_PLR -1.3222 2 3
+    (219 V_N3S-BSE_ILR -0.465484 2 3
+     (83 intrude_v1@v_pp*_dir_le 0 2 3
+      ("intrude." 43
+       "token [ +CARG \"intrude\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"intrude.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET (ADJ "two")) (N (N "ironies"))) (VP (V (V (V "intrude.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL ]
+            RSTR: h6
+            BODY: h7 ]
+          [ card<0:3>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            CARG: "2" ]
+          [ _irony_n_1<4:11>
+            LBL: h8
+            ARG0: x5 ]
+          [ _intrude_v_1<12:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:3>[BV x5]
+ e9:card<0:3>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ x5:_irony_n_1<4:11>{x PERS 3, NUM pl}[]
+ e3:_intrude_v_1<12:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  udef_q<0:3> BV _irony_n_1<4:11>  
+  card<0:3>(2) ARG1 _irony_n_1<4:11>  
+  _intrude_v_1<12:20> ARG1 _irony_n_1<4:11>  
+  card<0:3>(2) SF prop  
+  card<0:3>(2) TENSE untensed  
+  card<0:3>(2) MOOD indicative  
+  card<0:3>(2) PROG -  
+  card<0:3>(2) PERF -  
+  _irony_n_1<4:11> PERS 3  
+  _irony_n_1<4:11> NUM pl  
+  _intrude_v_1<12:20> SF prop  
+  _intrude_v_1<12:20> TENSE pres  
+  _intrude_v_1<12:20> MOOD indicative  
+  _intrude_v_1<12:20> PROG -  
+  _intrude_v_1<12:20> PERF -  
+}
+

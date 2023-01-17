@@ -1,0 +1,124 @@
+;;;
+;;; Redwoods export of `wsj14c';
+;;; (wsun@wsun; 22-jan-2018 (23:24 h)).
+;;;
+
+[21450046] (1 of 1) {1} `This creates several problems.'
+
+[21450046:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "This", 0, "null", "DT" 0.9866 "NNP" 0.0134)
+  (2, 1, 2, <5:12>, 1, "creates", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <13:20>, 1, "several", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <21:29>, 1, "problems", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:4>, 1, "this", 0, "null")
+  (64, 0, 1, <0:4>, 1, "this", 0, "null")
+  (50, 1, 2, <5:12>, 1, "creates", 0, "null")
+  (57, 1, 2, <5:12>, 1, "creates", 0, "null", "VBZ" 1.0)
+  (61, 1, 2, <5:12>, 1, "creates", 0, "null")
+  (52, 2, 3, <13:20>, 1, "several", 0, "null")
+  (58, 2, 3, <13:20>, 1, "several", 0, "null", "JJ" 1.0)
+  (62, 2, 3, <13:20>, 1, "several", 0, "null")
+  (54, 3, 4, <21:30>, 1, "problems.", 0, "null")
+  (59, 3, 4, <21:30>, 1, "problems.", 0, "null", "NNS" 1.0)
+  (63, 3, 4, <21:30>, 1, "problems.", 0, "null")
+>
+
+(ROOT_STRICT
+ (241 SB-HD_MC_C 4.20464 0 4
+  (233 HDN_BNP-QNT_C 1.29878 0 1
+   (232 HDN_OPTCMP_C 1.21001 0 1
+    (69 this_deix@n_-_pr-dei-sg_le 0.76853 0 1
+     ("this" 60
+      "token [ +CARG \"This\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"this\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98661489999999996\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (240 ^HD-CMP_U_C 1.63651 1 4
+   (234 ^V_3S-FIN_OLR 0.391518 1 2
+    (76 create_v1@v_np*_le 0 1 2
+     ("creates" 50
+      "token [ +CARG #1=\"creates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (239 HDN_BNP_C 0.638528 2 4
+    (238 AJ-HDN_NORM_C 0.373723 2 4
+     (85 several_a1@aj_-_i-svrl_le 0.368523 2 3
+      ("several" 52
+       "token [ +CARG #1=\"several\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (237 ^HDN_OPTCMP_C 0.247253 3 4
+      (236 W_PERIOD_PLR 0.208721 3 4
+       (235 N_PL_OLR 0.29099 3 4
+        (88 problem_n1@n_pp_c-ns-of_le 0 3 4
+         ("problems." 54
+          "token [ +CARG \"problems\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"problems.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N "this")))
+ (VP (V (V "creates"))
+  (NP (N (ADJ "several") (N (N (N (N "problems."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _this_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _create_v_1<5:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<13:30>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _several_a_1<13:20>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _problem_n_of<21:30>
+            LBL: h13
+            ARG0: x9
+            ARG1: i15 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_this_q_dem<0:4>[BV x5]
+ e3:_create_v_1-fn.Creating<5:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Cause x5, ARG2-fn.Theme x9]
+ _2:udef_q<13:30>[BV x9]
+ e14:_several_a_1<13:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_problem_n_of<21:30>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _this_q_dem<0:4> BV generic_entity<0:4>  
+  _create_v_1<5:12> ARG1 generic_entity<0:4>  
+  _create_v_1<5:12> ARG2 _problem_n_of<21:30>  
+  udef_q<13:30> BV _problem_n_of<21:30>  
+  _several_a_1<13:20> ARG1 _problem_n_of<21:30>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _create_v_1<5:12> SF prop  
+  _create_v_1<5:12> TENSE pres  
+  _create_v_1<5:12> MOOD indicative  
+  _create_v_1<5:12> PROG -  
+  _create_v_1<5:12> PERF -  
+  _several_a_1<13:20> SF prop  
+  _several_a_1<13:20> TENSE untensed  
+  _several_a_1<13:20> MOOD indicative  
+  _several_a_1<13:20> PROG -  
+  _several_a_1<13:20> PERF -  
+  _problem_n_of<21:30> PERS 3  
+  _problem_n_of<21:30> NUM pl  
+  _problem_n_of<21:30> IND +  
+}
+

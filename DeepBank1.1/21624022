@@ -1,0 +1,201 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:13 h)).
+;;;
+
+[21624022] (1 of 1) {1} `Donaldson Lufkin declined to comment on the restructuring.'
+
+[21624022:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Donaldson", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:16>, 1, "Lufkin", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <17:25>, 1, "declined", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <26:28>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <29:36>, 1, "comment", 0, "null", "VB" 0.9862 "NN" 0.0138)
+  (6, 5, 6, <37:39>, 1, "on", 0, "null", "IN" 0.9101 "RP" 0.0899)
+  (7, 6, 7, <40:43>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <44:57>, 1, "restructuring", 0, "null", "NN" 1.0)
+  (9, 8, 9, <57:58>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (105, 0, 1, <0:9>, 1, "Donaldson", 0, "null")
+  (111, 0, 1, <0:9>, 1, "donaldson", 0, "null")
+  (119, 0, 1, <0:9>, 1, "donaldson", 0, "null")
+  (83, 1, 2, <10:16>, 1, "Lufkin", 0, "null")
+  (107, 1, 2, <10:16>, 1, "Lufkin", 0, "null", "NNP" 1.0)
+  (110, 1, 2, <10:16>, 1, "lufkin", 0, "null")
+  (112, 1, 2, <10:16>, 1, "lufkin", 0, "null")
+  (94, 2, 3, <17:25>, 1, "declined", 0, "null")
+  (108, 2, 3, <17:25>, 1, "declined", 0, "null", "VBD" 1.0)
+  (113, 2, 3, <17:25>, 1, "declined", 0, "null")
+  (96, 3, 4, <26:28>, 1, "to", 0, "null")
+  (114, 3, 4, <26:28>, 1, "to", 0, "null")
+  (101, 4, 5, <29:36>, 1, "comment", 0, "null")
+  (106, 4, 5, <29:36>, 1, "comment", 0, "null", "VB" 0.9862)
+  (117, 4, 5, <29:36>, 1, "comment", 0, "null")
+  (103, 5, 6, <37:39>, 1, "on", 0, "null")
+  (118, 5, 6, <37:39>, 1, "on", 0, "null")
+  (98, 6, 7, <40:43>, 1, "the", 0, "null")
+  (115, 6, 7, <40:43>, 1, "the", 0, "null")
+  (100, 7, 8, <44:58>, 1, "restructuring.", 0, "null")
+  (109, 7, 8, <44:58>, 1, "restructuring.", 0, "null", "NN" 1.0)
+  (116, 7, 8, <44:58>, 1, "restructuring.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2537 SB-HD_MC_C 16.6236 0 8
+  (2526 HDN_BNP-PN_C 2.30018 0 2
+   (2525 NP-HDN_NME-CPD_C 1.76046 0 2
+    (2523 HDN_BNP-PN_C 0.586141 0 1
+     (2522 N_SG_ILR -0.166294 0 1
+      (122 donaldson_n1@n_-_pn_le 0 0 1
+       ("donaldson" 111
+        "token [ +CARG \"Donaldson\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"donaldson\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2524 ^N_SG_ILR -0.143257 1 2
+     (125 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Lufkin" 83
+       "token [ +CARG #1=\"Lufkin\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2536 ^HD-CMP_U_C 13.3064 2 8
+   (2527 ^V_PST_OLR 2.50099 2 3
+    (152 decline_v2@v_vp_seq_le 1.27984 2 3
+     ("declined" 94
+      "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2535 HD-CMP_U_C 9.88918 3 8
+    (262 to_c_prop@cm_vp_to_le 2.48409 3 4
+     ("to" 96
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2534 HD-CMP_U_C 6.38172 4 8
+     (2528 ^V_N3S-BSE_ILR 1.2346 4 5
+      (316 comment_v1@v_pp_e_le 0.637656 4 5
+       ("comment" 101
+        "token [ +CARG #1=\"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98617250000000001\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2533 HD-CMP_U_C 3.83476 5 8
+      (342 on_prtcl@p_np_ptcl_le 1.54582 5 6
+       ("on" 103
+        "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91014620000000002\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2532 SP-HD_N_C 0.927345 6 8
+       (377 the_1@d_-_the_le 1.07131 6 7
+        ("the" 98
+         "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2531 ^W_PERIOD_PLR -1.13855 7 8
+        (2530 V_NGER-INTR_DLR -0.980867 7 8
+         (2529 V_PRP_OLR -0.509009 7 8
+          (404 restructure_v2@v_-_unacc_le 0 7 8
+           ("restructuring." 100
+            "token [ +CARG \"restructuring\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"restructuring.\" +FROM #1=\"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"58\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (NP (N (N "donaldson"))) (N (N "Lufkin"))))
+ (VP (V (V "declined"))
+  (VP (COMP "to")
+   (VP (V (V "comment"))
+    (PP (P "on") (NP (DET "the") (N (N (VP (V "restructuring."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Donaldson" ]
+          [ named<10:16>
+            LBL: h8
+            ARG0: x6
+            CARG: "Lufkin" ]
+          [ _decline_v_1<17:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h15 ]
+          [ _comment_v_on<29:36>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x18 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _the_q<40:43>
+            LBL: h19
+            ARG0: x18
+            RSTR: h21
+            BODY: h20 ]
+          [ _restructure_v_1<44:58>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i24 ]
+          [ nominalization<44:58>
+            LBL: h25
+            ARG0: x18
+            ARG1: h22 ] >
+   HCONS: < h21 QEQ h25 h15 QEQ h16 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ x9:named<0:9>("Donaldson"){x PERS 3, NUM sg, IND +}[]
+ x6:named<10:16>("Lufkin"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<17:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e17]
+ e17:_comment_v_on-fn.Statement<29:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x6, ARG2-fn.Message x18]
+ _3:_the_q<40:43>[BV x18]
+ e23:_restructure_v_1<44:58>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x18:nominalization<44:58>{x PERS 3, NUM sg, GEND n}[ARG1 e23]
+}
+
+{
+  proper_q<0:16> BV named<10:16>(Lufkin)  
+  compound<0:16> ARG1 named<10:16>(Lufkin)  
+  compound<0:16> ARG2 named<0:9>(Donaldson)  
+  proper_q<0:9> BV named<0:9>(Donaldson)  
+  _decline_v_1<17:25> ARG1 named<10:16>(Lufkin)  
+  _decline_v_1<17:25> ARG2 _comment_v_on<29:36>  
+  _comment_v_on<29:36> ARG1 named<10:16>(Lufkin)  
+  _comment_v_on<29:36> ARG2 nominalization<44:58>  
+  _the_q<40:43> BV nominalization<44:58>  
+  nominalization<44:58> ARG1 _restructure_v_1<44:58>  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:9>(Donaldson) PERS 3  
+  named<0:9>(Donaldson) NUM sg  
+  named<0:9>(Donaldson) IND +  
+  named<10:16>(Lufkin) PERS 3  
+  named<10:16>(Lufkin) NUM sg  
+  named<10:16>(Lufkin) IND +  
+  _decline_v_1<17:25> SF prop  
+  _decline_v_1<17:25> TENSE past  
+  _decline_v_1<17:25> MOOD indicative  
+  _decline_v_1<17:25> PROG -  
+  _decline_v_1<17:25> PERF -  
+  _comment_v_on<29:36> SF prop  
+  _comment_v_on<29:36> TENSE untensed  
+  _comment_v_on<29:36> MOOD indicative  
+  _comment_v_on<29:36> PROG -  
+  _comment_v_on<29:36> PERF -  
+  _restructure_v_1<44:58> SF prop  
+  _restructure_v_1<44:58> TENSE untensed  
+  _restructure_v_1<44:58> MOOD indicative  
+  _restructure_v_1<44:58> PROG +  
+  _restructure_v_1<44:58> PERF -  
+  nominalization<44:58> PERS 3  
+  nominalization<44:58> NUM sg  
+  nominalization<44:58> GEND n  
+}
+

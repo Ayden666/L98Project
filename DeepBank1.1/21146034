@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:28 h)).
+;;;
+
+[21146034] (1 of 1) {1} `It's nice!'
+
+[21146034:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9609 "NNS" 0.0391)
+  (3, 2, 3, <5:9>, 1, "nice", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <9:10>, 1, "!", 0, "null", "." 1.0)
+>
+
+<
+  (48, 0, 1, <0:2>, 1, "it", 0, "null")
+  (51, 0, 1, <0:2>, 1, "it", 0, "null")
+  (44, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (46, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9609)
+  (50, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (43, 2, 3, <5:10>, 1, "nice!", 0, "null")
+  (47, 2, 3, <5:10>, 1, "nice!", 0, "null", "JJ" 1.0)
+  (49, 2, 3, <5:10>, 1, "nice!", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (429 SB-HD_MC_C 1.19896 0 3
+  (425 HDN_BNP-QNT_C 0.430464 0 1
+   (53 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 48
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (428 ^HD-CMP_U_C -0.500855 1 3
+   (76 be_c_is_cx_3@v_prd_is-cx_le 0.106447 1 2
+    ("’s" 44
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96089279999999999\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (427 HD_OPTCMP_C 0 2 3
+    (426 W_BANG_PLR 0 2 3
+     (232 nice_a1@aj_pp_i-er_le 0 2 3
+      ("nice!" 43
+       "token [ +CARG \"nice\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"nice!\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "it")) (VP (V "’s") (AP (ADJ (ADJ "nice!")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _nice_a_of-for<5:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: i9 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_nice_a_of-for<5:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _nice_a_of-for<5:10> ARG1 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _nice_a_of-for<5:10> SF prop  
+  _nice_a_of-for<5:10> TENSE pres  
+  _nice_a_of-for<5:10> MOOD indicative  
+  _nice_a_of-for<5:10> PROG -  
+  _nice_a_of-for<5:10> PERF -  
+}
+

@@ -1,0 +1,243 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:38 h)).
+;;;
+
+[21270014] (1 of 1) {1} `Similar proposals were defeated in at least 15 other states.'
+
+[21270014:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Similar", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <8:17>, 1, "proposals", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <23:31>, 1, "defeated", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <32:34>, 1, "in", 0, "null", "IN" 0.9731 "RP" 0.0269)
+  (6, 5, 6, <35:37>, 1, "at", 0, "null", "IN" 1.0)
+  (7, 6, 7, <38:43>, 1, "least", 0, "null", "JJS" 1.0)
+  (8, 7, 8, <44:46>, 1, "15", 0, "null", "CD" 1.0)
+  (9, 8, 9, <47:52>, 1, "other", 0, "null", "JJ" 1.0)
+  (10, 9, 10, <53:59>, 1, "states", 0, "null", "NNS" 1.0)
+  (11, 10, 11, <59:60>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (119, 0, 1, <0:7>, 1, "Similar", 0, "null", "JJ" 1.0)
+  (126, 0, 1, <0:7>, 1, "similar", 0, "null")
+  (136, 0, 1, <0:7>, 1, "similar", 0, "null")
+  (106, 1, 2, <8:17>, 1, "proposals", 0, "null")
+  (121, 1, 2, <8:17>, 1, "proposals", 0, "null", "NNS" 1.0)
+  (129, 1, 2, <8:17>, 1, "proposals", 0, "null")
+  (108, 2, 3, <18:22>, 1, "were", 0, "null")
+  (122, 2, 3, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (130, 2, 3, <18:22>, 1, "were", 0, "null")
+  (110, 3, 4, <23:31>, 1, "defeated", 0, "null")
+  (123, 3, 4, <23:31>, 1, "defeated", 0, "null", "VBN" 1.0)
+  (131, 3, 4, <23:31>, 1, "defeated", 0, "null")
+  (117, 4, 5, <32:34>, 1, "in", 0, "null")
+  (135, 4, 5, <32:34>, 1, "in", 0, "null")
+  (112, 5, 6, <35:37>, 1, "at", 0, "null")
+  (132, 5, 6, <35:37>, 1, "at", 0, "null")
+  (114, 6, 7, <38:43>, 1, "least", 0, "null")
+  (124, 6, 7, <38:43>, 1, "least", 0, "null", "JJS" 1.0)
+  (133, 6, 7, <38:43>, 1, "least", 0, "null")
+  (96, 7, 8, <44:46>, 1, "15", 0, "null")
+  (127, 7, 8, <44:46>, 1, "15", 0, "null")
+  (104, 8, 9, <47:52>, 1, "other", 0, "null")
+  (120, 8, 9, <47:52>, 1, "other", 0, "null", "JJ" 1.0)
+  (128, 8, 9, <47:52>, 1, "other", 0, "null")
+  (116, 9, 10, <53:60>, 1, "states.", 0, "null")
+  (125, 9, 10, <53:60>, 1, "states.", 0, "null", "NNS" 1.0)
+  (134, 9, 10, <53:60>, 1, "states.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2106 SB-HD_MC_C 11.1567 0 10
+  (2093 HDN_BNP_C 1.20874 0 2
+   (2092 AJ-HDN_NORM_C 0.474239 0 2
+    (2090 HD_OPTCMP_C 0.370814 0 1
+     (138 similar_to_a1@aj_pp_i-cmp-dif_le 0.0822387 0 1
+      ("similar" 126
+       "token [ +CARG \"Similar\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"similar\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2091 ^N_PL_OLR -0.0188574 1 2
+     (141 proposal_n1@n_-_c_le 0 1 2
+      ("proposals" 106
+       "token [ +CARG #1=\"proposals\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2105 ^HD-CMP_U_C 8.43207 2 10
+   (166 be_c_were@v_prd_wre_le 1.45048 2 3
+    ("were" 108
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2104 HD-AJ_INT-UNSL_C 6.37499 3 10
+    (2095 ^HD_OPTCMP_C 0.332001 3 4
+     (2094 V_PAS_ODLR -0.649181 3 4
+      (184 defeat_v1@v_np_le 0 3 4
+       ("defeated" 110
+        "token [ +CARG #1=\"defeated\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2103 HD-CMP_U_C 4.72387 4 10
+     (306 in@p_np_i-reg_le -0.179868 4 5
+      ("in" 117
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97305699999999995\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2102 SP-HD_N_C 4.28044 5 10
+      (2097 SP-HD_HC_C 3.47846 5 8
+       (463 at_least_deg@av_-_dg-jomv_le 0.920101 5 7
+        ("at least" 112
+         "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+         114
+         "token [ +CARG #1=\"least\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJS\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2096 ^NUM_DET_C 1.39472 7 8
+        (384 generic_card_ne@aj_-_i-crd-gen_le 0.0305217 7 8
+         ("15" 96
+          "token [ +CARG #1=\"15\" +CLASS card_or_dom_ne +FORM #1 +FROM \"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (2101 ^AJ-HDN_NORM_C 0.481236 8 10
+       (390 other_a1@aj_-_i-att-nsp_le 0.944834 8 9
+        ("other" 104
+         "token [ +CARG #1=\"other\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"47\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2100 ^HDN_OPTCMP_C -0.132458 9 10
+        (2099 W_PERIOD_PLR -0.044801 9 10
+         (2098 N_PL_OLR 0.0374678 9 10
+          (407 state_n1@n_pp_mc-of-lhc_le 0 9 10
+           ("states." 116
+            "token [ +CARG \"states\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"states.\" +FROM #1=\"53\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"60\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (AP (ADJ "similar")) (N (N "proposals"))))
+ (VP (V "were")
+  (VP (VP (V (V "defeated")))
+   (PP (P "in")
+    (NP (DET (ADV "at least") (DET (ADJ "15")))
+     (N (AP "other") (N (N (N (N "states."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _similar_a_to<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ comp<0:7>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: u10 ]
+          [ _proposal_n_1<8:17>
+            LBL: h8
+            ARG0: x6 ]
+          [ _defeat_v_1<23:31>
+            LBL: h2
+            ARG0: e3
+            ARG1: i12
+            ARG2: x6 ]
+          [ parg_d<23:31>
+            LBL: h2
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _in_p<32:34>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x15 [ x PERS: 3 NUM: PL ] ]
+          [ _at+least_x_deg<35:43>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ udef_q<44:46>
+            LBL: h19
+            ARG0: x15
+            RSTR: h20
+            BODY: h21 ]
+          [ card<44:46>
+            LBL: h16
+            ARG0: e18
+            ARG1: x15
+            CARG: "15" ]
+          [ _other_a_1<47:52>
+            LBL: h16
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15 ]
+          [ _state_n_of<53:60>
+            LBL: h16
+            ARG0: x15
+            ARG1: i23 ] >
+   HCONS: < h20 QEQ h16 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:17>[BV x6]
+ e9:_similar_a_to<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:comp<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9]
+ x6:_proposal_n_1<8:17>{x PERS 3, NUM pl, IND +}[]
+ e3:_defeat_v_1<23:31>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e13:parg_d<23:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e14:_in_p<32:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x15]
+ e17:_at+least_x_deg<35:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e18]
+ _2:udef_q<44:46>[BV x15]
+ e18:card<44:46>("15"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ e22:_other_a_1<47:52>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ x15:_state_n_of<53:60>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:17> BV _proposal_n_1<8:17>  
+  _similar_a_to<0:7> ARG1 _proposal_n_1<8:17>  
+  comp<0:7> ARG1 _similar_a_to<0:7>  
+  _defeat_v_1<23:31> ARG2 _proposal_n_1<8:17>  
+  parg_d<23:31> ARG1 _defeat_v_1<23:31>  
+  parg_d<23:31> ARG2 _proposal_n_1<8:17>  
+  _in_p<32:34> ARG1 _defeat_v_1<23:31>  
+  _in_p<32:34> ARG2 _state_n_of<53:60>  
+  _at+least_x_deg<35:43> ARG1 card<44:46>(15)  
+  udef_q<44:46> BV _state_n_of<53:60>  
+  card<44:46>(15) ARG1 _state_n_of<53:60>  
+  _other_a_1<47:52> ARG1 _state_n_of<53:60>  
+  _similar_a_to<0:7> SF prop  
+  _similar_a_to<0:7> TENSE untensed  
+  _similar_a_to<0:7> MOOD indicative  
+  _similar_a_to<0:7> PROG -  
+  _similar_a_to<0:7> PERF -  
+  comp<0:7> SF prop  
+  comp<0:7> TENSE untensed  
+  comp<0:7> MOOD indicative  
+  comp<0:7> PROG -  
+  comp<0:7> PERF -  
+  _proposal_n_1<8:17> PERS 3  
+  _proposal_n_1<8:17> NUM pl  
+  _proposal_n_1<8:17> IND +  
+  _defeat_v_1<23:31> SF prop  
+  _defeat_v_1<23:31> TENSE past  
+  _defeat_v_1<23:31> MOOD indicative  
+  _defeat_v_1<23:31> PROG -  
+  _defeat_v_1<23:31> PERF -  
+  parg_d<23:31> SF prop  
+  parg_d<23:31> TENSE untensed  
+  parg_d<23:31> MOOD indicative  
+  parg_d<23:31> PROG -  
+  parg_d<23:31> PERF -  
+  _in_p<32:34> SF prop  
+  _in_p<32:34> TENSE untensed  
+  _in_p<32:34> MOOD indicative  
+  _in_p<32:34> PROG -  
+  _in_p<32:34> PERF -  
+  _at+least_x_deg<35:43> SF prop  
+  _at+least_x_deg<35:43> TENSE untensed  
+  _at+least_x_deg<35:43> MOOD indicative  
+  _at+least_x_deg<35:43> PROG -  
+  _at+least_x_deg<35:43> PERF -  
+  card<44:46>(15) SF prop  
+  card<44:46>(15) TENSE untensed  
+  card<44:46>(15) MOOD indicative  
+  card<44:46>(15) PROG -  
+  card<44:46>(15) PERF -  
+  _other_a_1<47:52> SF prop  
+  _other_a_1<47:52> TENSE untensed  
+  _other_a_1<47:52> MOOD indicative  
+  _other_a_1<47:52> PROG -  
+  _other_a_1<47:52> PERF -  
+  _state_n_of<53:60> PERS 3  
+  _state_n_of<53:60> NUM pl  
+}
+

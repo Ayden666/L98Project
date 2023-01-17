@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj16f';
+;;; (wsun@wsun; 23-jan-2018 (01:53 h)).
+;;;
+
+[21692038] (1 of 1) {1} `RICHMOND RESIGNATIONS:'
+
+[21692038:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "RICHMOND", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:21>, 1, "RESIGNATIONS", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <21:22>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:8>, 1, "RICHMOND", 0, "null")
+  (39, 0, 1, <0:8>, 1, "RICHMOND", 0, "null", "NNP" 1.0)
+  (41, 0, 1, <0:8>, 1, "richmond", 0, "null")
+  (43, 0, 1, <0:8>, 1, "richmond", 0, "null")
+  (30, 1, 2, <9:21>, 1, "RESIGNATIONS", 0, "null")
+  (38, 1, 2, <9:21>, 1, "RESIGNATIONS", 0, "null", "NNS" 1.0)
+  (40, 1, 2, <9:21>, 1, "resignations", 0, "null")
+  (42, 1, 2, <9:21>, 1, "resignations", 0, "null")
+  (37, 2, 3, <21:22>, 1, ":", 0, "null")
+  (44, 2, 3, <21:22>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (225 NP_FRG_C -0.267824 0 3
+  (224 HDN_BNP_C -0.0634102 0 3
+   (223 HDN-AJ_REDREL_C 0.0319858 0 3
+    (222 ^NP-HDN_CPD_C -0.569335 0 2
+     (220 HDN_BNP-PN_C -0.549526 0 1
+      (49 richmond_n1@n_-_pn_le 0 0 1
+       ("richmond" 41
+        "token [ +CARG \"RICHMOND\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"richmond\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (221 ^N_PL_OLR 0.373418 1 2
+      (52 resignation_n1@n_-_mc_le 0 1 2
+       ("resignations" 40
+        "token [ +CARG \"RESIGNATIONS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"resignations\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (69 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+     (":" 37
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (NP (N "richmond")) (N (N "resignations"))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:22>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:21>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Richmond" ]
+          [ _resignation_n_1<9:21>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<21:22>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:22>[BV x4]
+ e10:compound<0:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Richmond"){x IND +}[]
+ x4:_resignation_n_1<9:21>{x PERS 3, NUM pl}[]
+ e15:_colon_p_namely<21:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:22> ARG _resignation_n_1<9:21>  
+  udef_q<0:22> BV _resignation_n_1<9:21>  
+  compound<0:21> ARG1 _resignation_n_1<9:21>  
+  compound<0:21> ARG2 named<0:8>(Richmond)  
+  proper_q<0:8> BV named<0:8>(Richmond)  
+  _colon_p_namely<21:22> ARG1 _resignation_n_1<9:21>  
+  unknown<0:22> SF prop-or-ques  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  compound<0:21> SF prop  
+  compound<0:21> TENSE untensed  
+  compound<0:21> MOOD indicative  
+  compound<0:21> PROG -  
+  compound<0:21> PERF -  
+  named<0:8>(Richmond) IND +  
+  _resignation_n_1<9:21> PERS 3  
+  _resignation_n_1<9:21> NUM pl  
+  _colon_p_namely<21:22> SF prop  
+  _colon_p_namely<21:22> TENSE untensed  
+  _colon_p_namely<21:22> MOOD indicative  
+  _colon_p_namely<21:22> PROG -  
+  _colon_p_namely<21:22> PERF -  
+}
+

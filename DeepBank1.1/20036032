@@ -1,0 +1,202 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:16 h)).
+;;;
+
+[20036032] (1 of 1) {1} `Excluding these orders, backlogs declined 0.3%.'
+
+[20036032:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Excluding", 0, "null", "VBG" 1.0)
+  (2, 1, 2, <10:15>, 1, "these", 0, "null", "DT" 1.0)
+  (3, 2, 3, <16:22>, 1, "orders", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <22:23>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <24:32>, 1, "backlogs", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <33:41>, 1, "declined", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <42:45>, 1, "0.3", 0, "null", "CD" 1.0)
+  (8, 7, 8, <45:46>, 1, "%", 0, "null", "NN" 1.0)
+  (9, 8, 9, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (94, 0, 1, <0:9>, 1, "Excluding", 0, "null", "VBG" 1.0)
+  (98, 0, 1, <0:9>, 1, "excluding", 0, "null")
+  (105, 0, 1, <0:9>, 1, "excluding", 0, "null")
+  (85, 1, 2, <10:15>, 1, "these", 0, "null")
+  (100, 1, 2, <10:15>, 1, "these", 0, "null")
+  (93, 2, 3, <16:23>, 1, "orders,", 0, "null")
+  (97, 2, 3, <16:23>, 1, "orders,", 0, "null", "NNS" 1.0)
+  (104, 2, 3, <16:23>, 1, "orders,", 0, "null")
+  (87, 3, 4, <24:32>, 1, "backlogs", 0, "null")
+  (95, 3, 4, <24:32>, 1, "backlogs", 0, "null", "NNS" 1.0)
+  (101, 3, 4, <24:32>, 1, "backlogs", 0, "null")
+  (89, 4, 5, <33:41>, 1, "declined", 0, "null")
+  (96, 4, 5, <33:41>, 1, "declined", 0, "null", "VBD" 1.0)
+  (102, 4, 5, <33:41>, 1, "declined", 0, "null")
+  (76, 5, 6, <42:45>, 1, "0.3", 0, "null")
+  (99, 5, 6, <42:45>, 1, "0.3", 0, "null")
+  (91, 6, 7, <45:47>, 1, "%.", 0, "null")
+  (103, 6, 7, <45:47>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2077 AJ-HD_SCP_C 8.50438 0 7
+  (2066 VP_SBRD-PRE_C 2.9037 0 3
+   (2065 HD-CMP_U_C 2.88846 0 3
+    (2061 ^V_PRP_OLR 0.423532 0 1
+     (112 exclude_v1@v_np_le 0 0 1
+      ("excluding" 98
+       "token [ +CARG \"Excluding\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"excluding\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2064 SP-HD_N_C 1.76808 1 3
+     (118 these_det@d_-_pl_le 1.21449 1 2
+      ("these" 85
+       "token [ +CARG #1=\"these\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2063 ^W_COMMA_PLR 0.553593 2 3
+      (2062 N_PL_OLR -0.094919 2 3
+       (126 order_n1@n_-_mc-ns_le 0 2 3
+        ("orders," 93
+         "token [ +CARG \"orders\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"orders,\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (2076 ^SB-HD_MC_C 4.75283 3 7
+   (2067 HDN_BNP_C -0.0366083 3 4
+    (283 generic_pl_noun@n_-_c-pl-unk_le 0 3 4
+     ("backlogs" 95
+      "token [ +CARG #1=\"backlogs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED \"_backlogs/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+   (2075 ^HD-AJ_INT-UNSL_C 4.81129 4 7
+    (2069 ^HD_OPTCMP_C 1.80556 4 5
+     (2068 V_PST_OLR 0.927029 4 5
+      (302 decline_v1@v_np*_le 1.36356 4 5
+       ("declined" 89
+        "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2074 NP_ADV-MNP_C 3.02365 5 7
+     (2073 HDN_BNP_C 4.24703 5 7
+      (2072 NUM-N_MNP_C 2.72265 5 7
+       (388 generic_decimal_ne@aj_-_i-one-gen_le 0 5 6
+        ("0.3" 76
+         "token [ +CARG #1=\"0.3\" +CLASS card_or_decimal_ne +FORM #1 +FROM \"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (2071 ^W_PERIOD_PLR 2.72265 6 7
+        (2070 N_SG_ILR 1.89783 6 7
+         (396 percent_char_n1@n_-_c-meas-spr_le 0.881465 6 7
+          ("%." 91
+           "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (PP (VP (V (V "excluding")) (NP (DET "these") (N (N (N "orders,"))))))
+ (S (NP (N "backlogs"))
+  (VP (VP (V (V "declined")))
+   (PP (NP (N (ADJ "0.3") (N (N (N "%.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ subord<0:23>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h5
+            ARG2: h4 ]
+          [ _exclude_v_1<0:9>
+            LBL: h7
+            ARG0: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i10
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ _these_q_dem<10:15>
+            LBL: h11
+            ARG0: x9
+            RSTR: h13
+            BODY: h12 ]
+          [ _order_n_of<16:23>
+            LBL: h14
+            ARG0: x9 ]
+          [ udef_q<24:32>
+            LBL: h15
+            ARG0: x17 [ x PERS: 3 NUM: PL ]
+            RSTR: h16
+            BODY: h18 ]
+          [ _backlogs/nns_u_unknown<24:32>
+            LBL: h19
+            ARG0: x17 ]
+          [ _decline_v_1<33:41>
+            LBL: h20
+            ARG0: e3
+            ARG1: x17
+            ARG2: p21 ]
+          [ loc_nonsp<42:47>
+            LBL: h20
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<42:47>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<42:45>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            CARG: "1" ]
+          [ _percent_n_of<45:47>
+            LBL: h27
+            ARG0: x23 ] >
+   HCONS: < h25 QEQ h27 h16 QEQ h19 h13 QEQ h14 h4 QEQ h7 h5 QEQ h20 h1 QEQ h2 > ]
+
+{e6:
+ e6:subord<0:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e8]
+ e8:_exclude_v_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x9]
+ _1:_these_q_dem<10:15>[BV x9]
+ x9:_order_n_of<16:23>{x PERS 3, NUM pl}[]
+ _2:udef_q<24:32>[BV x17]
+ x17:_backlogs/nns_u_unknown<24:32>{x PERS 3, NUM pl}[]
+ e3:_decline_v_1-fn.Change_position_on_a_scale<33:41>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+ e22:loc_nonsp<42:47>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _3:udef_q<42:47>[BV x23]
+ e28:card<42:45>("1"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+ x23:_percent_n_of<45:47>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  subord<0:23> ARG1 _decline_v_1<33:41>  
+  subord<0:23> ARG2 _exclude_v_1<0:9>  
+  _exclude_v_1<0:9> ARG2 _order_n_of<16:23>  
+  _these_q_dem<10:15> BV _order_n_of<16:23>  
+  udef_q<24:32> BV _backlogs/nns_u_unknown<24:32>  
+  _decline_v_1<33:41> ARG1 _backlogs/nns_u_unknown<24:32>  
+  loc_nonsp<42:47> ARG1 _decline_v_1<33:41>  
+  loc_nonsp<42:47> ARG2 _percent_n_of<45:47>  
+  udef_q<42:47> BV _percent_n_of<45:47>  
+  card<42:45>(1) ARG1 _percent_n_of<45:47>  
+  subord<0:23> SF prop  
+  subord<0:23> TENSE untensed  
+  subord<0:23> MOOD indicative  
+  subord<0:23> PROG -  
+  subord<0:23> PERF -  
+  _exclude_v_1<0:9> SF prop  
+  _exclude_v_1<0:9> TENSE untensed  
+  _exclude_v_1<0:9> MOOD indicative  
+  _exclude_v_1<0:9> PROG +  
+  _exclude_v_1<0:9> PERF -  
+  _order_n_of<16:23> PERS 3  
+  _order_n_of<16:23> NUM pl  
+  _backlogs/nns_u_unknown<24:32> PERS 3  
+  _backlogs/nns_u_unknown<24:32> NUM pl  
+  _decline_v_1<33:41> SF prop  
+  _decline_v_1<33:41> TENSE past  
+  _decline_v_1<33:41> MOOD indicative  
+  _decline_v_1<33:41> PROG -  
+  _decline_v_1<33:41> PERF -  
+  loc_nonsp<42:47> SF prop  
+  loc_nonsp<42:47> TENSE untensed  
+  loc_nonsp<42:47> MOOD indicative  
+  loc_nonsp<42:47> PROG -  
+  loc_nonsp<42:47> PERF -  
+  card<42:45>(1) SF prop  
+  card<42:45>(1) TENSE untensed  
+  card<42:45>(1) MOOD indicative  
+  card<42:45>(1) PROG -  
+  card<42:45>(1) PERF -  
+  _percent_n_of<45:47> PERS 3  
+  _percent_n_of<45:47> NUM sg  
+  _percent_n_of<45:47> IND +  
+}
+

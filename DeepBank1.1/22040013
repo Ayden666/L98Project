@@ -1,0 +1,224 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:15 h)).
+;;;
+
+[22040013] (1 of 1) {1} `Analysts were only slightly disappointed by Citicorp's numbers.'
+
+[22040013:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Analysts", 0, "null", "NNS" 0.9879 "NNP" 0.0121)
+  (2, 1, 2, <9:13>, 1, "were", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <14:18>, 1, "only", 0, "null", "RB" 1.0)
+  (4, 3, 4, <19:27>, 1, "slightly", 0, "null", "RB" 1.0)
+  (5, 4, 5, <28:40>, 1, "disappointed", 0, "null", "VBN" 0.807 "JJ" 0.1826 "VBD" 0.0104)
+  (6, 5, 6, <41:43>, 1, "by", 0, "null", "IN" 1.0)
+  (7, 6, 7, <44:52>, 1, "Citicorp", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <52:54>, 1, "’s", 0, "null", "NNS" 0.5484 "JJ" 0.2096 "VBZ" 0.1237 "NN" 0.1055 "CD" 0.0128)
+  (9, 8, 9, <55:62>, 1, "numbers", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <62:63>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (126, 0, 1, <0:8>, 1, "Analysts", 0, "null", "NNS" 0.9879)
+  (139, 0, 1, <0:8>, 1, "analysts", 0, "null")
+  (148, 0, 1, <0:8>, 1, "analysts", 0, "null")
+  (111, 1, 2, <9:13>, 1, "were", 0, "null")
+  (134, 1, 2, <9:13>, 1, "were", 0, "null", "VBD" 1.0)
+  (141, 1, 2, <9:13>, 1, "were", 0, "null")
+  (113, 2, 3, <14:18>, 1, "only", 0, "null")
+  (135, 2, 3, <14:18>, 1, "only", 0, "null", "RB" 1.0)
+  (142, 2, 3, <14:18>, 1, "only", 0, "null")
+  (115, 3, 4, <19:27>, 1, "slightly", 0, "null")
+  (136, 3, 4, <19:27>, 1, "slightly", 0, "null", "RB" 1.0)
+  (143, 3, 4, <19:27>, 1, "slightly", 0, "null")
+  (122, 4, 5, <28:40>, 1, "disappointed", 0, "null")
+  (127, 4, 5, <28:40>, 1, "disappointed", 0, "null", "VBN" 0.807)
+  (129, 4, 5, <28:40>, 1, "disappointed", 0, "null", "JJ" 0.1826)
+  (146, 4, 5, <28:40>, 1, "disappointed", 0, "null")
+  (117, 5, 6, <41:43>, 1, "by", 0, "null")
+  (144, 5, 6, <41:43>, 1, "by", 0, "null")
+  (92, 6, 7, <44:52>, 1, "Citicorp", 0, "null")
+  (133, 6, 7, <44:52>, 1, "Citicorp", 0, "null", "NNP" 1.0)
+  (138, 6, 7, <44:52>, 1, "citicorp", 0, "null")
+  (140, 6, 7, <44:52>, 1, "citicorp", 0, "null")
+  (123, 7, 8, <52:54>, 1, "’s", 0, "null")
+  (128, 7, 8, <52:54>, 1, "’s", 0, "null", "NNS" 0.5484)
+  (130, 7, 8, <52:54>, 1, "’s", 0, "null", "JJ" 0.2096)
+  (131, 7, 8, <52:54>, 1, "’s", 0, "null", "VBZ" 0.1237)
+  (132, 7, 8, <52:54>, 1, "’s", 0, "null", "NN" 0.1055)
+  (147, 7, 8, <52:54>, 1, "’s", 0, "null")
+  (119, 8, 9, <55:63>, 1, "numbers.", 0, "null")
+  (137, 8, 9, <55:63>, 1, "numbers.", 0, "null", "NNS" 1.0)
+  (145, 8, 9, <55:63>, 1, "numbers.", 0, "null")
+>
+
+(ROOT_STRICT
+ (7638 SB-HD_MC_C 12.5551 0 9
+  (7625 HDN_BNP_C 0.106085 0 1
+   (7624 N_PL_OLR 0.682091 0 1
+    (155 analyst_n1@n_-_c_le 0.183624 0 1
+     ("analysts" 139
+      "token [ +CARG \"Analysts\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"analysts\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98792599999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (7637 ^HD-CMP_U_C 10.9331 1 9
+   (161 be_c_were@v_prd_wre_le 1.45048 1 2
+    ("were" 111
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (7636 AJ-HD_INT_C 9.05626 2 9
+    (7626 SP-HD_HC_C 1.65593 2 4
+     (184 only_deg@av_-_dg-jomv_le 1.39596 2 3
+      ("only" 113
+       "token [ +CARG #1=\"only\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (220 slightly@av_-_i-vp_le 0.0846188 3 4
+      ("slightly" 115
+       "token [ +CARG #1=\"slightly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (7635 ^HD-CMP_U_C 6.9856 4 9
+     (7627 ^V_PAS_ODLR 0.251636 4 5
+      (228 disappoint_v1@v_np_le 0 4 5
+       ("disappointed" 122
+        "token [ +CARG #1=\"disappointed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80701369999999994\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (7634 HD-CMP_U_C 4.60937 5 9
+      (379 by_pass_p@p_np_ptcl_le 1.83114 5 6
+       ("by" 117
+        "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"41\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (7633 SP-HD_N_C 1.47772 6 9
+       (7630 SP-HD_HC_C 2.4212 6 8
+        (7629 HDN_BNP-PN_C 0.09912 6 7
+         (7628 N_SG_ILR -0.515712 6 7
+          (399 generic_proper_ne@n_-_pn-gen_le 0 6 7
+           ("Citicorp" 92
+            "token [ +CARG #1=\"Citicorp\" +CLASS proper_ne +FORM #1 +FROM \"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+        (404 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 7 8
+         ("’s" 123
+          "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"52\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54838469999999995\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (7632 ^W_PERIOD_PLR -0.552172 8 9
+        (7631 N_PL_OLR -0.471246 8 9
+         (715 number_n1@n_-_c-gr_le 0 8 9
+          ("numbers." 119
+           "token [ +CARG \"numbers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"numbers.\" +FROM #1=\"55\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"63\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "analysts")))
+ (VP (V "were")
+  (VP (ADV (ADV "only") (ADV "slightly"))
+   (VP (V (V "disappointed"))
+    (PP (P "by")
+     (NP (DET (NP (N (N "Citicorp"))) (DET "’s"))
+      (N (N (N "numbers.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _analyst_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _only_x_deg<14:18>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _slight_a_1<19:27>
+            LBL: h2
+            ARG0: e10
+            ARG1: e3 ]
+          [ _disappoint_v_1<28:40>
+            LBL: h2
+            ARG0: e3
+            ARG1: x11 [ x PERS: 3 NUM: PL IND: + ]
+            ARG2: x6 ]
+          [ parg_d<28:40>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ proper_q<44:52>
+            LBL: h13
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h14
+            BODY: h16 ]
+          [ named<44:52>
+            LBL: h17
+            ARG0: x15
+            CARG: "Citicorp" ]
+          [ def_explicit_q<52:54>
+            LBL: h18
+            ARG0: x11
+            RSTR: h19
+            BODY: h20 ]
+          [ poss<52:54>
+            LBL: h21
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x15 ]
+          [ _number_n_of<55:63>
+            LBL: h21
+            ARG0: x11 ] >
+   HCONS: < h19 QEQ h21 h14 QEQ h17 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:8>[BV x6]
+ x6:_analyst_n_1<0:8>{x PERS 3, NUM pl, IND +}[]
+ e9:_only_x_deg<14:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e10]
+ e10:_slight_a_1<19:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_disappoint_v_1-fn.Experiencer_obj<28:40>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Stimulus x11, ARG2-fn.Experiencer x6]
+ e12:parg_d<28:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _2:proper_q<44:52>[BV x15]
+ x15:named<44:52>("Citicorp"){x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<52:54>[BV x11]
+ e22:poss<52:54>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x15]
+ x11:_number_n_of<55:63>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:8> BV _analyst_n_1<0:8>  
+  _only_x_deg<14:18> ARG1 _slight_a_1<19:27>  
+  _slight_a_1<19:27> ARG1 _disappoint_v_1<28:40>  
+  _disappoint_v_1<28:40> ARG1 _number_n_of<55:63>  
+  _disappoint_v_1<28:40> ARG2 _analyst_n_1<0:8>  
+  parg_d<28:40> ARG1 _disappoint_v_1<28:40>  
+  parg_d<28:40> ARG2 _analyst_n_1<0:8>  
+  proper_q<44:52> BV named<44:52>(Citicorp)  
+  def_explicit_q<52:54> BV _number_n_of<55:63>  
+  poss<52:54> ARG1 _number_n_of<55:63>  
+  poss<52:54> ARG2 named<44:52>(Citicorp)  
+  _analyst_n_1<0:8> PERS 3  
+  _analyst_n_1<0:8> NUM pl  
+  _analyst_n_1<0:8> IND +  
+  _only_x_deg<14:18> SF prop  
+  _only_x_deg<14:18> TENSE untensed  
+  _only_x_deg<14:18> MOOD indicative  
+  _only_x_deg<14:18> PROG -  
+  _only_x_deg<14:18> PERF -  
+  _slight_a_1<19:27> SF prop  
+  _slight_a_1<19:27> TENSE untensed  
+  _slight_a_1<19:27> MOOD indicative  
+  _slight_a_1<19:27> PROG -  
+  _slight_a_1<19:27> PERF -  
+  _disappoint_v_1<28:40> SF prop  
+  _disappoint_v_1<28:40> TENSE past  
+  _disappoint_v_1<28:40> MOOD indicative  
+  _disappoint_v_1<28:40> PROG -  
+  _disappoint_v_1<28:40> PERF -  
+  parg_d<28:40> SF prop  
+  parg_d<28:40> TENSE untensed  
+  parg_d<28:40> MOOD indicative  
+  parg_d<28:40> PROG -  
+  parg_d<28:40> PERF -  
+  named<44:52>(Citicorp) PERS 3  
+  named<44:52>(Citicorp) NUM sg  
+  named<44:52>(Citicorp) IND +  
+  poss<52:54> SF prop  
+  poss<52:54> TENSE untensed  
+  poss<52:54> MOOD indicative  
+  poss<52:54> PROG -  
+  poss<52:54> PERF -  
+  _number_n_of<55:63> PERS 3  
+  _number_n_of<55:63> NUM pl  
+  _number_n_of<55:63> IND +  
+}
+

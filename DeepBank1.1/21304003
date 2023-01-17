@@ -1,0 +1,165 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:54 h)).
+;;;
+
+[21304003] (1 of 1) {1} `Inco shares fell after the announcements.'
+
+[21304003:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Inco", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:11>, 1, "shares", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <12:16>, 1, "fell", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:22>, 1, "after", 0, "null", "IN" 1.0)
+  (5, 4, 5, <23:26>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <27:40>, 1, "announcements", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (77, 0, 1, <0:4>, 1, "Inco", 0, "null")
+  (81, 0, 1, <0:4>, 1, "inco", 0, "null")
+  (87, 0, 1, <0:4>, 1, "inco", 0, "null")
+  (68, 1, 2, <5:11>, 1, "shares", 0, "null")
+  (78, 1, 2, <5:11>, 1, "shares", 0, "null", "NNS" 1.0)
+  (82, 1, 2, <5:11>, 1, "shares", 0, "null")
+  (70, 2, 3, <12:16>, 1, "fell", 0, "null")
+  (79, 2, 3, <12:16>, 1, "fell", 0, "null", "VBD" 1.0)
+  (83, 2, 3, <12:16>, 1, "fell", 0, "null")
+  (72, 3, 4, <17:22>, 1, "after", 0, "null")
+  (84, 3, 4, <17:22>, 1, "after", 0, "null")
+  (74, 4, 5, <23:26>, 1, "the", 0, "null")
+  (85, 4, 5, <23:26>, 1, "the", 0, "null")
+  (76, 5, 6, <27:41>, 1, "announcements.", 0, "null")
+  (80, 5, 6, <27:41>, 1, "announcements.", 0, "null", "NNS" 1.0)
+  (86, 5, 6, <27:41>, 1, "announcements.", 0, "null")
+>
+
+(ROOT_STRICT
+ (508 SB-HD_MC_C 9.28705 0 6
+  (499 HDN_BNP_C 1.08557 0 2
+   (498 NP-HDN_CPD_C 1.80887 0 2
+    (496 HDN_BNP-PN_C -0.439162 0 1
+     (88 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Inco" 77
+       "token [ +CARG #1=\"Inco\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (497 ^N_PL_OLR 2.36323 1 2
+     (91 share_n2@n_-_c-meas-nb_le 1.68208 1 2
+      ("shares" 68
+       "token [ +CARG #1=\"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (507 ^HD-AJ_INT-UNSL_C 7.36137 2 6
+   (501 ^HD_OPTCMP_C 3.17933 2 3
+    (500 V_PST_OLR 2.3008 2 3
+     (118 fall_v1@v_pp_unacc_le 0.574647 2 3
+      ("fell" 70
+       "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (506 HD-CMP_U_C 2.86978 3 6
+    (129 after_p@p_np_i_le 0.155954 3 4
+     ("after" 72
+      "token [ +CARG #1=\"after\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (505 SP-HD_N_C 2.03293 4 6
+     (150 the_1@d_-_the_le 1.07131 4 5
+      ("the" 74
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (504 ^HDN_OPTCMP_C 0.721078 5 6
+      (503 W_PERIOD_PLR 0.390769 5 6
+       (502 N_PL_OLR 0.354498 5 6
+        (175 announcement_n1@n_pp_mc-of_le 0 5 6
+         ("announcements." 76
+          "token [ +CARG \"announcements\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"announcements.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (NP (N "Inco")) (N (N "shares"))))
+ (VP (VP (V (V "fell")))
+  (PP (P "after") (NP (DET "the") (N (N (N (N "announcements."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "Inco" ]
+          [ _share_n_of<5:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _fall_v_1<12:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _after_p<17:22>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: PL ] ]
+          [ _the_q<23:26>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ _announcement_n_of<27:41>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21 ] >
+   HCONS: < h19 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("Inco"){x IND +}[]
+ x6:_share_n_of<5:11>{x PERS 3, NUM pl, IND +}[]
+ e3:_fall_v_1<12:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_after_p<17:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:_the_q<23:26>[BV x16]
+ x16:_announcement_n_of<27:41>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:11> BV _share_n_of<5:11>  
+  compound<0:11> ARG1 _share_n_of<5:11>  
+  compound<0:11> ARG2 named<0:4>(Inco)  
+  proper_q<0:4> BV named<0:4>(Inco)  
+  _fall_v_1<12:16> ARG1 _share_n_of<5:11>  
+  _after_p<17:22> ARG1 _fall_v_1<12:16>  
+  _after_p<17:22> ARG2 _announcement_n_of<27:41>  
+  _the_q<23:26> BV _announcement_n_of<27:41>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:4>(Inco) IND +  
+  _share_n_of<5:11> PERS 3  
+  _share_n_of<5:11> NUM pl  
+  _share_n_of<5:11> IND +  
+  _fall_v_1<12:16> SF prop  
+  _fall_v_1<12:16> TENSE past  
+  _fall_v_1<12:16> MOOD indicative  
+  _fall_v_1<12:16> PROG -  
+  _fall_v_1<12:16> PERF -  
+  _after_p<17:22> SF prop  
+  _after_p<17:22> TENSE untensed  
+  _after_p<17:22> MOOD indicative  
+  _after_p<17:22> PROG -  
+  _after_p<17:22> PERF -  
+  _announcement_n_of<27:41> PERS 3  
+  _announcement_n_of<27:41> NUM pl  
+}
+

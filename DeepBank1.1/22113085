@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:04 h)).
+;;;
+
+[22113085] (1 of 1) {1} `Still, predicting is tricky.'
+
+[22113085:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Still", 0, "null", "RB" 1.0)
+  (2, 1, 2, <5:6>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <7:17>, 1, "predicting", 0, "null", "VBG" 0.9607 "NN" 0.0393)
+  (4, 3, 4, <18:20>, 1, "is", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <21:27>, 1, "tricky", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:6>, 1, "Still,", 0, "null", "RB" 1.0)
+  (71, 0, 1, <0:6>, 1, "still,", 0, "null")
+  (75, 0, 1, <0:6>, 1, "still,", 0, "null")
+  (65, 1, 2, <7:17>, 1, "predicting", 0, "null")
+  (67, 1, 2, <7:17>, 1, "predicting", 0, "null", "VBG" 0.9607)
+  (74, 1, 2, <7:17>, 1, "predicting", 0, "null")
+  (60, 2, 3, <18:20>, 1, "is", 0, "null")
+  (68, 2, 3, <18:20>, 1, "is", 0, "null", "VBZ" 1.0)
+  (72, 2, 3, <18:20>, 1, "is", 0, "null")
+  (64, 3, 4, <21:28>, 1, "tricky.", 0, "null")
+  (70, 3, 4, <21:28>, 1, "tricky.", 0, "null", "JJ" 1.0)
+  (73, 3, 4, <21:28>, 1, "tricky.", 0, "null")
+>
+
+(ROOT_STRICT
+ (859 AJ-HD_SCP_C 5.32953 0 4
+  (851 W_COMMA_PLR 2.7835 0 1
+   (83 still_adv2@av_-_s-cp-pr_le 0.730995 0 1
+    ("still," 71
+     "token [ +CARG \"Still\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"still,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (858 ^SB-HD_MC_C 1.16547 1 4
+   (855 HDN_BNP_C -2.09048 1 2
+    (854 HDN_OPTCMP_C -1.80416 1 2
+     (853 V_NGER-TR_DLR -0.656804 1 2
+      (852 V_PRP_OLR -0.104394 1 2
+       (105 predict_v1@v_np_le 0 1 2
+        ("predicting" 65
+         "token [ +CARG #1=\"predicting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96069740000000003\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (857 ^HD-CMP_U_C 2.27677 2 4
+    (164 be_c_is@v_prd_is_le 0.262573 2 3
+     ("is" 60
+      "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (856 W_PERIOD_PLR 0.852384 3 4
+     (250 tricky_a1@aj_-_i-er_le 0 3 4
+      ("tricky." 64
+       "token [ +CARG \"tricky\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"tricky.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (ADV (ADV "still,"))
+ (S (NP (N (N (V (V "predicting")))))
+  (VP (V "is") (AP (AP "tricky.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _still_a_disc<0:6>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ udef_q<7:17>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG GEND: N ]
+            RSTR: h7
+            BODY: h9 ]
+          [ _predict_v_1<7:17>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i13
+            ARG2: p12 ]
+          [ nominalization<7:17>
+            LBL: h14
+            ARG0: x8
+            ARG1: h10 ]
+          [ _tricky_a_1<21:28>
+            LBL: h15
+            ARG0: e3
+            ARG1: x8 ] >
+   HCONS: < h7 QEQ h14 h4 QEQ h15 h1 QEQ h2 > ]
+
+{e5:
+ e5:_still_a_disc<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:udef_q<7:17>[BV x8]
+ e11:_predict_v_1<7:17>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x8:nominalization<7:17>{x PERS 3, NUM sg, GEND n}[ARG1 e11]
+ e3:_tricky_a_1<21:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+}
+
+{
+  _still_a_disc<0:6> ARG1 _tricky_a_1<21:28>  
+  udef_q<7:17> BV nominalization<7:17>  
+  nominalization<7:17> ARG1 _predict_v_1<7:17>  
+  _tricky_a_1<21:28> ARG1 nominalization<7:17>  
+  _still_a_disc<0:6> SF prop  
+  _still_a_disc<0:6> TENSE untensed  
+  _still_a_disc<0:6> MOOD indicative  
+  _still_a_disc<0:6> PROG -  
+  _still_a_disc<0:6> PERF -  
+  _predict_v_1<7:17> SF prop  
+  _predict_v_1<7:17> TENSE untensed  
+  _predict_v_1<7:17> MOOD indicative  
+  _predict_v_1<7:17> PROG +  
+  _predict_v_1<7:17> PERF -  
+  nominalization<7:17> PERS 3  
+  nominalization<7:17> NUM sg  
+  nominalization<7:17> GEND n  
+  _tricky_a_1<21:28> SF prop  
+  _tricky_a_1<21:28> TENSE pres  
+  _tricky_a_1<21:28> MOOD indicative  
+  _tricky_a_1<21:28> PROG -  
+  _tricky_a_1<21:28> PERF -  
+}
+

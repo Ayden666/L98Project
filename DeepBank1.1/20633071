@@ -1,0 +1,65 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:59 h)).
+;;;
+
+[20633071] (1 of 1) {1} `Never."'
+
+[20633071:2] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Never", 0, "null", "RB" 0.8888 "NNP" 0.1112)
+  (2, 1, 2, <5:6>, 1, ".", 0, "null", "." 1.0)
+  (3, 2, 3, <6:7>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (34, 0, 1, <0:7>, 1, "Never.”", 0, "null")
+  (35, 0, 1, <0:7>, 1, "Never.”", 0, "null", "RB" 0.8888)
+  (36, 0, 1, <0:7>, 1, "never.”", 0, "null")
+  (37, 0, 1, <0:7>, 1, "never.”", 0, "null")
+>
+
+(ROOT_FRAG
+ (116 R_SCP-FRG_C 2.05589 0 1
+  (115 W_DQRIGHT_PLR 2.05589 0 1
+   (114 W_PERIOD_PLR 0 0 1
+    (50 never_prdp@av_-_s-not-prdp_le 0 0 1
+     ("never.”" 36
+      "token [ +CARG \"Never\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"never.”\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88879220000000003\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (ADV (ADV (ADV "never.”"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h4
+            ARG0: e3
+            ARG: u5 ]
+          [ _never_a_1<0:7>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h6 ] >
+   HCONS: < h6 QEQ h4 h1 QEQ h2 > ]
+
+{e7:
+ e3:unknown<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_never_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _never_a_1<0:7> ARG1 unknown<0:7>  
+  unknown<0:7> SF prop  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _never_a_1<0:7> SF prop  
+  _never_a_1<0:7> TENSE untensed  
+  _never_a_1<0:7> MOOD indicative  
+  _never_a_1<0:7> PROG -  
+  _never_a_1<0:7> PERF -  
+}
+

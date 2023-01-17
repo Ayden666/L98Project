@@ -1,0 +1,174 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:36 h)).
+;;;
+
+[21052020] (1 of 1) {1} `Banks may contribute more senior debt.'
+
+[21052020:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Banks", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <6:9>, 1, "may", 0, "null", "MD" 1.0)
+  (3, 2, 3, <10:20>, 1, "contribute", 0, "null", "VB" 1.0)
+  (4, 3, 4, <21:25>, 1, "more", 0, "null", "RBR" 0.799 "JJR" 0.201)
+  (5, 4, 5, <26:32>, 1, "senior", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <33:37>, 1, "debt", 0, "null", "NN" 1.0)
+  (7, 6, 7, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (79, 0, 1, <0:5>, 1, "Banks", 0, "null", "NNS" 1.0)
+  (84, 0, 1, <0:5>, 1, "banks", 0, "null")
+  (90, 0, 1, <0:5>, 1, "banks", 0, "null")
+  (70, 1, 2, <6:9>, 1, "may", 0, "null")
+  (85, 1, 2, <6:9>, 1, "may", 0, "null")
+  (72, 2, 3, <10:20>, 1, "contribute", 0, "null")
+  (80, 2, 3, <10:20>, 1, "contribute", 0, "null", "VB" 1.0)
+  (86, 2, 3, <10:20>, 1, "contribute", 0, "null")
+  (77, 3, 4, <21:25>, 1, "more", 0, "null")
+  (83, 3, 4, <21:25>, 1, "more", 0, "null", "JJR" 0.201)
+  (89, 3, 4, <21:25>, 1, "more", 0, "null")
+  (74, 4, 5, <26:32>, 1, "senior", 0, "null")
+  (81, 4, 5, <26:32>, 1, "senior", 0, "null", "JJ" 1.0)
+  (87, 4, 5, <26:32>, 1, "senior", 0, "null")
+  (76, 5, 6, <33:38>, 1, "debt.", 0, "null")
+  (82, 5, 6, <33:38>, 1, "debt.", 0, "null", "NN" 1.0)
+  (88, 5, 6, <33:38>, 1, "debt.", 0, "null")
+>
+
+(ROOT_STRICT
+ (882 SB-HD_MC_C 8.55994 0 6
+  (872 HDN_BNP_C 1.21472 0 1
+   (871 HDN_OPTCMP_C 0.932721 0 1
+    (870 N_PL_OLR 1.35564 0 1
+     (96 bank_n1@n_pp_mc-of-lhc_le 0.402565 0 1
+      ("banks" 84
+       "token [ +CARG \"Banks\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"banks\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (881 ^HD-CMP_U_C 5.82931 1 6
+   (109 may_aux_pos@v_vp_mdl-p_le 1.73139 1 2
+    ("may" 70
+     "token [ +CARG #1=\"may\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (880 HD-CMP_U_C 3.44979 2 6
+    (873 ^V_N3S-BSE_ILR 0.218836 2 3
+     (112 contribute_v1@v_np*_le 0 2 3
+      ("contribute" 72
+       "token [ +CARG #1=\"contribute\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (879 HDN_BNP_C 2.65729 3 6
+     (878 AJ-HDN_ADJN_C 2.40995 3 6
+      (874 HD_OPTCMP_C -1.10598 3 4
+       (119 more_adj@aj_pp_i-more_le -0.441571 3 4
+        ("more" 77
+         "token [ +CARG #1=\"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.79895470000000002\" +TAG \"RBR\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (877 ^AJ-HDN_NORM_C 2.79409 4 6
+       (163 senior_a1@aj_-_i_le -0.128963 4 5
+        ("senior" 74
+         "token [ +CARG #1=\"senior\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (876 ^W_PERIOD_PLR 1.03591 5 6
+        (875 N_MS-CNT_ILR 0.310782 5 6
+         (166 debt_n1@n_-_mc_le 0 5 6
+          ("debt." 76
+           "token [ +CARG \"debt\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"debt.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "banks"))))
+ (VP (V "may")
+  (VP (V (V "contribute"))
+   (NP (N (ADJ (ADJ "more")) (N (AP "senior") (N (N (N "debt.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _bank_n_of<0:5>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _may_v_modal<6:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: h10 ]
+          [ _contribute_v_to<10:20>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x13 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<21:38>
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ much-many_a<21:25>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13 ]
+          [ comp<21:25>
+            LBL: h17
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e18
+            ARG2: u19 ]
+          [ _senior_a_1<26:32>
+            LBL: h17
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13 ]
+          [ _debt_n_1<33:38>
+            LBL: h17
+            ARG0: x13 ] >
+   HCONS: < h15 QEQ h17 h10 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:5>[BV x6]
+ x6:_bank_n_of<0:5>{x PERS 3, NUM pl}[]
+ e3:_may_v_modal<6:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_contribute_v_to<10:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x13]
+ _2:udef_q<21:38>[BV x13]
+ e18:much-many_a<21:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13]
+ e20:comp<21:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e18]
+ e21:_senior_a_1<26:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13]
+ x13:_debt_n_1<33:38>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:5> BV _bank_n_of<0:5>  
+  _may_v_modal<6:9> ARG1 _contribute_v_to<10:20>  
+  _contribute_v_to<10:20> ARG1 _bank_n_of<0:5>  
+  _contribute_v_to<10:20> ARG2 _debt_n_1<33:38>  
+  udef_q<21:38> BV _debt_n_1<33:38>  
+  much-many_a<21:25> ARG1 _debt_n_1<33:38>  
+  comp<21:25> ARG1 much-many_a<21:25>  
+  _senior_a_1<26:32> ARG1 _debt_n_1<33:38>  
+  _bank_n_of<0:5> PERS 3  
+  _bank_n_of<0:5> NUM pl  
+  _may_v_modal<6:9> SF prop  
+  _may_v_modal<6:9> TENSE pres  
+  _may_v_modal<6:9> MOOD indicative  
+  _may_v_modal<6:9> PROG -  
+  _may_v_modal<6:9> PERF -  
+  _contribute_v_to<10:20> SF prop  
+  _contribute_v_to<10:20> TENSE untensed  
+  _contribute_v_to<10:20> MOOD indicative  
+  _contribute_v_to<10:20> PROG -  
+  _contribute_v_to<10:20> PERF -  
+  much-many_a<21:25> SF prop  
+  much-many_a<21:25> TENSE untensed  
+  much-many_a<21:25> MOOD indicative  
+  much-many_a<21:25> PROG -  
+  much-many_a<21:25> PERF -  
+  comp<21:25> SF prop  
+  comp<21:25> TENSE untensed  
+  comp<21:25> MOOD indicative  
+  comp<21:25> PROG -  
+  comp<21:25> PERF -  
+  _senior_a_1<26:32> SF prop  
+  _senior_a_1<26:32> TENSE untensed  
+  _senior_a_1<26:32> MOOD indicative  
+  _senior_a_1<26:32> PROG -  
+  _senior_a_1<26:32> PERF -  
+  _debt_n_1<33:38> PERS 3  
+  _debt_n_1<33:38> NUM sg  
+}
+

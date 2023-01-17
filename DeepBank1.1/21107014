@@ -1,0 +1,67 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:06 h)).
+;;;
+
+[21107014] (1 of 1) {1} `Houston'
+
+[21107014:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Houston", 0, "null", "NNP" 1.0)
+>
+
+<
+  (12, 0, 1, <0:7>, 1, "Houston", 0, "null")
+  (13, 0, 1, <0:7>, 1, "houston", 0, "null")
+  (14, 0, 1, <0:7>, 1, "houston", 0, "null")
+>
+
+(ROOT_FRAG
+ (24 NP_FRG_C -1.98531 0 1
+  (23 HDN_BNP-PN_C -0.838794 0 1
+   (22 N_SG_ILR -0.273606 0 1
+    (16 houston_n1@n_-_pn_le 0 0 1
+     ("houston" 13
+      "token [ +CARG \"Houston\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"houston\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N "houston"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x4
+            CARG: "Houston" ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:7>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:7>[BV x4]
+ x4:named<0:7>("Houston"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:7> ARG named<0:7>(Houston)  
+  proper_q<0:7> BV named<0:7>(Houston)  
+  unknown<0:7> SF prop-or-ques  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  named<0:7>(Houston) PERS 3  
+  named<0:7>(Houston) NUM sg  
+  named<0:7>(Houston) IND +  
+}
+

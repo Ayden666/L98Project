@@ -1,0 +1,131 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:54 h)).
+;;;
+
+[20296060] (1 of 1) {1} `"What is the way forward?'
+
+[20296060:2] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "What", 0, "null", "WP" 1.0)
+  (3, 2, 3, <6:8>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <9:12>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <13:16>, 1, "way", 0, "null", "NN" 1.0)
+  (6, 5, 6, <17:24>, 1, "forward", 0, "null", "RB" 1.0)
+  (7, 6, 7, <24:25>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (79, 0, 1, <0:5>, 1, "“what", 0, "null")
+  (84, 0, 1, <0:5>, 1, "“what", 0, "null")
+  (67, 1, 2, <6:8>, 1, "is", 0, "null")
+  (76, 1, 2, <6:8>, 1, "is", 0, "null", "VBZ" 1.0)
+  (80, 1, 2, <6:8>, 1, "is", 0, "null")
+  (69, 2, 3, <9:12>, 1, "the", 0, "null")
+  (81, 2, 3, <9:12>, 1, "the", 0, "null")
+  (71, 3, 4, <13:16>, 1, "way", 0, "null")
+  (77, 3, 4, <13:16>, 1, "way", 0, "null", "NN" 1.0)
+  (82, 3, 4, <13:16>, 1, "way", 0, "null")
+  (75, 4, 5, <17:25>, 1, "forward?", 0, "null")
+  (78, 4, 5, <17:25>, 1, "forward?", 0, "null", "RB" 1.0)
+  (83, 4, 5, <17:25>, 1, "forward?", 0, "null")
+>
+
+(ROOT_STRICT
+ (1015 FLR-HD_WH-MC_C 2.53897 0 5
+  (998 HDN_BNP-QNT_C 0.247199 0 1
+   (997 HDN_OPTCMP_C 0.59588 0 1
+    (996 W_DQLEFT_PLR 0 0 1
+     (90 what1@n_-_pr-wh_le 0 0 1
+      ("“what" 79
+       "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“what\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1014 ^HD_XCMP_C 2.18835 1 5
+   (1013 HD-CMP_U_C 2.52447 1 5
+    (999 ^V_AUX-SB-INV_DLR 0.571514 1 2
+     (145 be_id_is@v_np_is_le -0.749485 1 2
+      ("is" 67
+       "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1009 SP-HD_N_C 1.84974 2 5
+     (241 the_1@d_-_the_le 1.07131 2 3
+      ("the" 69
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1008 ^HDN-AJ_REDREL_C 0.96863 3 5
+      (1001 ^HDN_OPTCMP_C 0.405873 3 4
+       (1000 N_SG_ILR 0.756225 3 4
+        (276 way_n1@n_pp_c-mod-of_le -0.297375 3 4
+         ("way" 71
+          "token [ +CARG #1=\"way\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (1005 W_QMARK_PLR 0 4 5
+       (302 forward_adv@pp_-_i_le 0 4 5
+        ("forward?" 75
+         "token [ +CARG \"forward\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"forward?\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "“what"))))
+ (S/NP
+  (V/NP (V/NP (V/NP "is"))
+   (NP (DET "the") (N (N (N (N "way"))) (PP (PP "forward?")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ thing<0:5>
+            LBL: h4
+            ARG0: x5 ]
+          [ which_q<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<6:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x9 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: x5 ]
+          [ _the_q<9:12>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _way_n_of<13:16>
+            LBL: h13
+            ARG0: x9
+            ARG1: i14 ]
+          [ _forward_p<17:25>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:5>{x}[]
+ _1:which_q<0:5>[BV x5]
+ e3:_be_v_id<6:8>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x5]
+ _2:_the_q<9:12>[BV x9]
+ x9:_way_n_of<13:16>{x PERS 3, NUM sg, IND +}[]
+ e15:_forward_p<17:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  which_q<0:5> BV thing<0:5>  
+  _be_v_id<6:8> ARG1 _way_n_of<13:16>  
+  _be_v_id<6:8> ARG2 thing<0:5>  
+  _the_q<9:12> BV _way_n_of<13:16>  
+  _forward_p<17:25> ARG1 _way_n_of<13:16>  
+  _be_v_id<6:8> SF ques  
+  _be_v_id<6:8> TENSE pres  
+  _be_v_id<6:8> MOOD indicative  
+  _be_v_id<6:8> PROG -  
+  _be_v_id<6:8> PERF -  
+  _way_n_of<13:16> PERS 3  
+  _way_n_of<13:16> NUM sg  
+  _way_n_of<13:16> IND +  
+  _forward_p<17:25> SF prop  
+  _forward_p<17:25> TENSE untensed  
+  _forward_p<17:25> MOOD indicative  
+  _forward_p<17:25> PROG -  
+  _forward_p<17:25> PERF -  
+}
+

@@ -1,0 +1,162 @@
+;;;
+;;; Redwoods export of `wsj01d';
+;;; (wsun@wsun; 22-jan-2018 (11:48 h)).
+;;;
+
+[20192062] (1 of 1) {1} `The September index was 47.1%.'
+
+[20192062:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:13>, 1, "September", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:19>, 1, "index", 0, "null", "NN" 1.0)
+  (4, 3, 4, <20:23>, 1, "was", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <24:28>, 1, "47.1", 0, "null", "CD" 1.0)
+  (6, 5, 6, <28:29>, 1, "%", 0, "null", "NN" 1.0)
+  (7, 6, 7, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (79, 0, 1, <0:3>, 1, "the", 0, "null")
+  (86, 0, 1, <0:3>, 1, "the", 0, "null")
+  (63, 1, 2, <4:13>, 1, "September", 0, "null")
+  (75, 1, 2, <4:13>, 1, "September", 0, "null", "NNP" 1.0)
+  (78, 1, 2, <4:13>, 1, "september", 0, "null")
+  (81, 1, 2, <4:13>, 1, "september", 0, "null")
+  (70, 2, 3, <14:19>, 1, "index", 0, "null")
+  (76, 2, 3, <14:19>, 1, "index", 0, "null", "NN" 1.0)
+  (82, 2, 3, <14:19>, 1, "index", 0, "null")
+  (72, 3, 4, <20:23>, 1, "was", 0, "null")
+  (77, 3, 4, <20:23>, 1, "was", 0, "null", "VBD" 1.0)
+  (83, 3, 4, <20:23>, 1, "was", 0, "null")
+  (60, 4, 5, <24:28>, 1, "47.1", 0, "null")
+  (80, 4, 5, <24:28>, 1, "47.1", 0, "null")
+  (74, 5, 6, <28:30>, 1, "%.", 0, "null")
+  (84, 5, 6, <28:30>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (999 SB-HD_MC_C 9.34421 0 6
+  (993 SP-HD_N_C 4.12258 0 3
+   (99 the_1@d_-_the_le 1.13181 0 1
+    ("the" 79
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (992 ^NP-HDN_CPD_C 2.34865 1 3
+    (990 HDN_BNP-PN_C 1.1377 1 2
+     (126 september@n_-_c-month_le 0.178648 1 2
+      ("september" 78
+       "token [ +CARG \"September\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"september\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (991 ^N_SG_ILR 0.50682 2 3
+     (127 index_n1@n_-_c_le 0.210969 2 3
+      ("index" 70
+       "token [ +CARG #1=\"index\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (998 ^HD-CMP_U_C 3.26712 3 6
+   (137 be_id_was@v_np_was_le 0.510521 3 4
+    ("was" 72
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (997 HDN_BNP_C 2.9705 4 6
+    (996 NUM-N_MNP_C 1.92835 4 6
+     (154 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+      ("47.1" 60
+       "token [ +CARG #1=\"47.1\" +CLASS card_or_proper_ne +FORM #1 +FROM \"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+     (995 ^W_PERIOD_PLR 1.02943 5 6
+      (994 N_PL_OLR 0.482577 5 6
+       (156 percent_char_n1@n_-_c-meas-spr_le 0.328883 5 6
+        ("%." 74
+         "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (NP (N "september")) (N (N "index"))))
+ (VP (V "was") (NP (N (ADJ "47.1") (N (N (N "%.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<4:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ mofy<4:13>
+            LBL: h14
+            ARG0: x9
+            CARG: "Sep" ]
+          [ _index_n_1<14:19>
+            LBL: h8
+            ARG0: x6 ]
+          [ _be_v_id<20:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<24:30>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ card<24:28>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            CARG: "47.1" ]
+          [ _percent_n_of<28:30>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<4:13>[BV x9]
+ x9:mofy<4:13>("Sep"){x IND +}[]
+ x6:_index_n_1<14:19>{x PERS 3, NUM sg, IND +}[]
+ e3:_be_v_id<20:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:udef_q<24:30>[BV x15]
+ e20:card<24:28>("47.1"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ x15:_percent_n_of<28:30>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _the_q<0:3> BV _index_n_1<14:19>  
+  compound<4:19> ARG1 _index_n_1<14:19>  
+  compound<4:19> ARG2 mofy<4:13>(Sep)  
+  proper_q<4:13> BV mofy<4:13>(Sep)  
+  _be_v_id<20:23> ARG1 _index_n_1<14:19>  
+  _be_v_id<20:23> ARG2 _percent_n_of<28:30>  
+  udef_q<24:30> BV _percent_n_of<28:30>  
+  card<24:28>(47.1) ARG1 _percent_n_of<28:30>  
+  compound<4:19> SF prop  
+  compound<4:19> TENSE untensed  
+  compound<4:19> MOOD indicative  
+  compound<4:19> PROG -  
+  compound<4:19> PERF -  
+  mofy<4:13>(Sep) IND +  
+  _index_n_1<14:19> PERS 3  
+  _index_n_1<14:19> NUM sg  
+  _index_n_1<14:19> IND +  
+  _be_v_id<20:23> SF prop  
+  _be_v_id<20:23> TENSE past  
+  _be_v_id<20:23> MOOD indicative  
+  _be_v_id<20:23> PROG -  
+  _be_v_id<20:23> PERF -  
+  card<24:28>(47.1) SF prop  
+  card<24:28>(47.1) TENSE untensed  
+  card<24:28>(47.1) MOOD indicative  
+  card<24:28>(47.1) PROG -  
+  card<24:28>(47.1) PERF -  
+  _percent_n_of<28:30> PERS 3  
+  _percent_n_of<28:30> NUM pl  
+  _percent_n_of<28:30> IND +  
+}
+

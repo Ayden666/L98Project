@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:25 h)).
+;;;
+
+[20465051] (1 of 1) {1} `The finding riveted medicine.'
+
+[20465051:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "finding", 0, "null", "NN" 0.8846 "VBG" 0.1154)
+  (3, 2, 3, <12:19>, 1, "riveted", 0, "null", "VBD" 0.629 "VBN" 0.371)
+  (4, 3, 4, <20:28>, 1, "medicine", 0, "null", "NN" 1.0)
+  (5, 4, 5, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:3>, 1, "the", 0, "null")
+  (67, 0, 1, <0:3>, 1, "the", 0, "null")
+  (55, 1, 2, <4:11>, 1, "finding", 0, "null")
+  (61, 1, 2, <4:11>, 1, "finding", 0, "null", "VBG" 0.1154)
+  (65, 1, 2, <4:11>, 1, "finding", 0, "null")
+  (57, 2, 3, <12:19>, 1, "riveted", 0, "null")
+  (59, 2, 3, <12:19>, 1, "riveted", 0, "null", "VBD" 0.629)
+  (62, 2, 3, <12:19>, 1, "riveted", 0, "null", "VBN" 0.371)
+  (66, 2, 3, <12:19>, 1, "riveted", 0, "null")
+  (54, 3, 4, <20:29>, 1, "medicine.", 0, "null")
+  (60, 3, 4, <20:29>, 1, "medicine.", 0, "null", "NN" 1.0)
+  (64, 3, 4, <20:29>, 1, "medicine.", 0, "null")
+>
+
+(ROOT_STRICT
+ (878 SB-HD_MC_C 4.31265 0 4
+  (872 SP-HD_N_C 2.14135 0 2
+   (80 the_1@d_-_the_le 0.244361 0 1
+    ("the" 63
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (871 ^N_SG_ILR 0.055293 1 2
+    (121 finding_n1@n_-_c_le 0 1 2
+     ("finding" 55
+      "token [ +CARG #1=\"finding\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88455280000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (877 ^HD-CMP_U_C 0.216786 2 4
+   (873 ^V_PST_OLR 0.107619 2 3
+    (134 rivet_v1@v_np_le 0 2 3
+     ("riveted" 57
+      "token [ +CARG #1=\"riveted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.62904099999999996\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (876 HDN_BNP_C -0.81101 3 4
+    (875 W_PERIOD_PLR 0.45024 3 4
+     (874 N_MS-CNT_ILR 0.249354 3 4
+      (277 medicine_n1@n_-_mc_le 0 3 4
+       ("medicine." 54
+        "token [ +CARG \"medicine\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"medicine.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "the") (N (N "finding")))
+ (VP (V (V "riveted")) (NP (N (N (N "medicine."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _finding_n_1<4:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _rivet_v_1<12:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<20:29>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _medicine_n_1<20:29>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_finding_n_1<4:11>{x PERS 3, NUM sg, IND +}[]
+ e3:_rivet_v_1<12:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<20:29>[BV x9]
+ x9:_medicine_n_1<20:29>{x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV _finding_n_1<4:11>  
+  _rivet_v_1<12:19> ARG1 _finding_n_1<4:11>  
+  _rivet_v_1<12:19> ARG2 _medicine_n_1<20:29>  
+  udef_q<20:29> BV _medicine_n_1<20:29>  
+  _finding_n_1<4:11> PERS 3  
+  _finding_n_1<4:11> NUM sg  
+  _finding_n_1<4:11> IND +  
+  _rivet_v_1<12:19> SF prop  
+  _rivet_v_1<12:19> TENSE past  
+  _rivet_v_1<12:19> MOOD indicative  
+  _rivet_v_1<12:19> PROG -  
+  _rivet_v_1<12:19> PERF -  
+  _medicine_n_1<20:29> PERS 3  
+  _medicine_n_1<20:29> NUM sg  
+}
+

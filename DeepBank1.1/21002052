@@ -1,0 +1,126 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:08 h)).
+;;;
+
+[21002052] (1 of 1) {1} `Other manufacturers are equally cautious.'
+
+[21002052:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Other", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <6:19>, 1, "manufacturers", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <20:23>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <24:31>, 1, "equally", 0, "null", "RB" 1.0)
+  (5, 4, 5, <32:40>, 1, "cautious", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:5>, 1, "Other", 0, "null", "JJ" 1.0)
+  (71, 0, 1, <0:5>, 1, "other", 0, "null")
+  (76, 0, 1, <0:5>, 1, "other", 0, "null")
+  (59, 1, 2, <6:19>, 1, "manufacturers", 0, "null")
+  (67, 1, 2, <6:19>, 1, "manufacturers", 0, "null", "NNS" 1.0)
+  (72, 1, 2, <6:19>, 1, "manufacturers", 0, "null")
+  (61, 2, 3, <20:23>, 1, "are", 0, "null")
+  (68, 2, 3, <20:23>, 1, "are", 0, "null", "VBP" 1.0)
+  (73, 2, 3, <20:23>, 1, "are", 0, "null")
+  (63, 3, 4, <24:31>, 1, "equally", 0, "null")
+  (69, 3, 4, <24:31>, 1, "equally", 0, "null", "RB" 1.0)
+  (74, 3, 4, <24:31>, 1, "equally", 0, "null")
+  (65, 4, 5, <32:41>, 1, "cautious.", 0, "null")
+  (70, 4, 5, <32:41>, 1, "cautious.", 0, "null", "JJ" 1.0)
+  (75, 4, 5, <32:41>, 1, "cautious.", 0, "null")
+>
+
+(ROOT_STRICT
+ (596 SB-HD_MC_C 9.42453 0 5
+  (591 HDN_BNP_C 2.82751 0 2
+   (590 AJ-HDN_NORM_C 2.09301 0 2
+    (80 other_a1@aj_-_i-att-nsp_le 1.77614 0 1
+     ("other" 71
+      "token [ +CARG \"Other\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"other\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (589 ^HDN_OPTCMP_C 0.288496 1 2
+     (588 N_PL_OLR 0.61242 1 2
+      (88 manufacturer_n1@n_pp_c-of_le 0.163515 1 2
+       ("manufacturers" 59
+        "token [ +CARG #1=\"manufacturers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (595 ^HD-CMP_U_C 5.08112 2 5
+   (99 be_c_are@v_prd_are_le 0.214009 2 3
+    ("are" 61
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (594 AJ-HD_INT_C 2.83641 3 5
+    (106 equally@av_-_i-vp_le 0 3 4
+     ("equally" 63
+      "token [ +CARG #1=\"equally\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (593 ^HD_OPTCMP_C 1.66231 4 5
+     (592 W_PERIOD_PLR 0.234888 4 5
+      (111 cautious_a1@aj_pp_i_le 0 4 5
+       ("cautious." 65
+        "token [ +CARG \"cautious\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cautious.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (AP "other") (N (N (N "manufacturers")))))
+ (VP (V "are") (AP (ADV "equally") (AP (ADJ (ADJ "cautious."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:19>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _other_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _manufacturer_n_of<6:19>
+            LBL: h8
+            ARG0: x6
+            ARG1: i10 ]
+          [ _equal_a_to<24:31>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _cautious_a_of<32:41>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i12 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:19>[BV x6]
+ e9:_other_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_manufacturer_n_of<6:19>{x PERS 3, NUM pl, IND +}[]
+ e11:_equal_a_to<24:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_cautious_a_of<32:41>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:19> BV _manufacturer_n_of<6:19>  
+  _other_a_1<0:5> ARG1 _manufacturer_n_of<6:19>  
+  _equal_a_to<24:31> ARG1 _cautious_a_of<32:41>  
+  _cautious_a_of<32:41> ARG1 _manufacturer_n_of<6:19>  
+  _other_a_1<0:5> SF prop  
+  _other_a_1<0:5> TENSE untensed  
+  _other_a_1<0:5> MOOD indicative  
+  _other_a_1<0:5> PROG -  
+  _other_a_1<0:5> PERF -  
+  _manufacturer_n_of<6:19> PERS 3  
+  _manufacturer_n_of<6:19> NUM pl  
+  _manufacturer_n_of<6:19> IND +  
+  _equal_a_to<24:31> SF prop  
+  _equal_a_to<24:31> TENSE untensed  
+  _equal_a_to<24:31> MOOD indicative  
+  _equal_a_to<24:31> PROG -  
+  _equal_a_to<24:31> PERF -  
+  _cautious_a_of<32:41> SF prop  
+  _cautious_a_of<32:41> TENSE pres  
+  _cautious_a_of<32:41> MOOD indicative  
+  _cautious_a_of<32:41> PROG -  
+  _cautious_a_of<32:41> PERF -  
+}
+

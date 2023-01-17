@@ -1,0 +1,101 @@
+;;;
+;;; Redwoods export of `wsj01c';
+;;; (wsun@wsun; 22-jan-2018 (11:20 h)).
+;;;
+
+[20139001] (1 of 1) {1} `Hold the Putty!'
+
+[20139001:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Hold", 0, "null", "VB" 0.8434 "VBP" 0.1566)
+  (2, 1, 2, <5:8>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <9:14>, 1, "Putty", 0, "null", "NN" 1.0)
+  (4, 3, 4, <14:15>, 1, "!", 0, "null", "." 1.0)
+>
+
+<
+  (49, 0, 1, <0:4>, 1, "Hold", 0, "null", "VB" 0.8434)
+  (51, 0, 1, <0:4>, 1, "Hold", 0, "null", "VBP" 0.1566)
+  (53, 0, 1, <0:4>, 1, "hold", 0, "null")
+  (56, 0, 1, <0:4>, 1, "hold", 0, "null")
+  (44, 1, 2, <5:8>, 1, "the", 0, "null")
+  (55, 1, 2, <5:8>, 1, "the", 0, "null")
+  (40, 2, 3, <9:15>, 1, "Putty!", 0, "null")
+  (50, 2, 3, <9:15>, 1, "Putty!", 0, "null", "NN" 1.0)
+  (52, 2, 3, <9:15>, 1, "putty!", 0, "null")
+  (54, 2, 3, <9:15>, 1, "putty!", 0, "null")
+>
+
+(ROOT_STRICT
+ (316 HD_IMP_C 2.72962 0 3
+  (315 HD-CMP_U_C 2.63631 0 3
+   (306 ^V_N3S-BSE_ILR 0.704354 0 1
+    (78 hold_v1@v_np*_le 0.891511 0 1
+     ("hold" 53
+      "token [ +CARG \"Hold\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"hold\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8434374\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (314 SP-HD_N_C 0.682905 1 3
+    (96 the_1@d_-_the_le 1.07131 1 2
+     ("the" 44
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (313 ^W_BANG_PLR -0.388408 2 3
+     (312 N_SG_ILR -0.388408 2 3
+      (122 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("Putty!" 40
+        "token [ +CARG \"Putty\" +CLASS proper_ne +FORM \"Putty!\" +FROM \"9\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (VP (V (V "hold")) (NP (DET "the") (N (N (N "Putty!"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _hold_v_1<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<5:8>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ named<9:15>
+            LBL: h13
+            ARG0: x9
+            CARG: "Putty" ] >
+   HCONS: < h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:15>[BV x6]
+ x6:pron<0:15>{x PERS 2, PT zero}[]
+ e3:_hold_v_1<0:4>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_the_q<5:8>[BV x9]
+ x9:named<9:15>("Putty"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:15> BV pron<0:15>  
+  _hold_v_1<0:4> ARG1 pron<0:15>  
+  _hold_v_1<0:4> ARG2 named<9:15>(Putty)  
+  _the_q<5:8> BV named<9:15>(Putty)  
+  pron<0:15> PERS 2  
+  pron<0:15> PT zero  
+  _hold_v_1<0:4> SF comm  
+  _hold_v_1<0:4> TENSE pres  
+  _hold_v_1<0:4> MOOD indicative  
+  _hold_v_1<0:4> PROG -  
+  _hold_v_1<0:4> PERF -  
+  named<9:15>(Putty) PERS 3  
+  named<9:15>(Putty) NUM sg  
+  named<9:15>(Putty) IND +  
+}
+

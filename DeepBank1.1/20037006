@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:16 h)).
+;;;
+
+[20037006] (1 of 1) {1} `This is Japan?'
+
+[20037006:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "This", 0, "null", "DT" 0.9837 "NNP" 0.0163)
+  (2, 1, 2, <5:7>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <8:13>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <13:14>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:4>, 1, "this", 0, "null")
+  (56, 0, 1, <0:4>, 1, "this", 0, "null")
+  (44, 1, 2, <5:7>, 1, "is", 0, "null")
+  (49, 1, 2, <5:7>, 1, "is", 0, "null", "VBZ" 1.0)
+  (54, 1, 2, <5:7>, 1, "is", 0, "null")
+  (40, 2, 3, <8:14>, 1, "Japan?", 0, "null")
+  (50, 2, 3, <8:14>, 1, "Japan?", 0, "null", "NNP" 1.0)
+  (51, 2, 3, <8:14>, 1, "japan?", 0, "null")
+  (53, 2, 3, <8:14>, 1, "japan?", 0, "null")
+>
+
+(ROOT_STRICT
+ (463 SB-HD_MC_C 2.9592 0 3
+  (458 HDN_BNP-QNT_C 1.29878 0 1
+   (457 HDN_OPTCMP_C 1.21001 0 1
+    (61 this_deix@n_-_pr-dei-sg_le 0.76853 0 1
+     ("this" 52
+      "token [ +CARG \"This\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"this\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98368370000000005\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (462 ^HD-CMP_U_C 0.391075 1 3
+   (107 be_id_is@v_np_is_le 0.159389 1 2
+    ("is" 44
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (461 HDN_BNP-PN_C -0.418865 2 3
+    (460 W_QMARK_PLR -0.418865 2 3
+     (459 N_SG_ILR -0.6713 2 3
+      (201 japan_n1@n_-_pn_le 0 2 3
+       ("japan?" 51
+        "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japan?\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "this"))) (VP (V "is") (NP (N (N (N "japan?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _this_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<5:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:14>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ named<8:14>
+            LBL: h13
+            ARG0: x9
+            CARG: "Japan" ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_this_q_dem<0:4>[BV x5]
+ e3:_be_v_id<5:7>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:proper_q<8:14>[BV x9]
+ x9:named<8:14>("Japan"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _this_q_dem<0:4> BV generic_entity<0:4>  
+  _be_v_id<5:7> ARG1 generic_entity<0:4>  
+  _be_v_id<5:7> ARG2 named<8:14>(Japan)  
+  proper_q<8:14> BV named<8:14>(Japan)  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _be_v_id<5:7> SF ques  
+  _be_v_id<5:7> TENSE pres  
+  _be_v_id<5:7> MOOD indicative  
+  _be_v_id<5:7> PROG -  
+  _be_v_id<5:7> PERF -  
+  named<8:14>(Japan) PERS 3  
+  named<8:14>(Japan) NUM sg  
+  named<8:14>(Japan) IND +  
+}
+

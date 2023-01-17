@@ -1,0 +1,114 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:31 h)).
+;;;
+
+[21364008] (1 of 1) {1} `Even Drexel is pulling back.'
+
+[21364008:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Even", 0, "null", "RB" 1.0)
+  (2, 1, 2, <5:11>, 1, "Drexel", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:22>, 1, "pulling", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <23:27>, 1, "back", 0, "null", "RP" 0.6035 "RB" 0.3769 "NN" 0.0196)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:4>, 1, "Even", 0, "null", "RB" 1.0)
+  (78, 0, 1, <0:4>, 1, "even", 0, "null")
+  (84, 0, 1, <0:4>, 1, "even", 0, "null")
+  (56, 1, 2, <5:11>, 1, "Drexel", 0, "null")
+  (73, 1, 2, <5:11>, 1, "Drexel", 0, "null", "NNP" 1.0)
+  (77, 1, 2, <5:11>, 1, "drexel", 0, "null")
+  (79, 1, 2, <5:11>, 1, "drexel", 0, "null")
+  (67, 2, 3, <12:14>, 1, "is", 0, "null")
+  (75, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (80, 2, 3, <12:14>, 1, "is", 0, "null")
+  (69, 3, 4, <15:22>, 1, "pulling", 0, "null")
+  (76, 3, 4, <15:22>, 1, "pulling", 0, "null", "VBG" 1.0)
+  (81, 3, 4, <15:22>, 1, "pulling", 0, "null")
+  (70, 4, 5, <23:28>, 1, "back.", 0, "null")
+  (72, 4, 5, <23:28>, 1, "back.", 0, "null", "RB" 0.3769)
+  (82, 4, 5, <23:28>, 1, "back.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1258 SB-HD_MC_C 5.41088 0 5
+  (1253 SP-HD_HC_C 0.961216 0 2
+   (91 even_deg2@av_-_dg-jo_le 0.532012 0 1
+    ("even" 78
+     "token [ +CARG \"Even\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"even\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1252 ^HDN_BNP-PN_C 0.128621 1 2
+    (1251 N_SG_ILR -0.147756 1 2
+     (99 drexel_n1@n_-_pn_le 0.156251 1 2
+      ("drexel" 77
+       "token [ +CARG \"Drexel\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"drexel\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1257 ^HD-CMP_U_C 4.19828 2 5
+   (139 be_c_is@v_prd_is_le 0.262573 2 3
+    ("is" 67
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1256 HD-CMP_U_C 2.10406 3 5
+    (1254 ^V_PRP_OLR 0.245264 3 4
+     (232 pull_back_v2@v_p_le 0 3 4
+      ("pulling" 69
+       "token [ +CARG #1=\"pulling\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1255 W_PERIOD_PLR 1.58927 4 5
+     (272 back_particle@pp_-_ptcl_le 0 4 5
+      ("back." 70
+       "token [ +CARG \"back\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"back.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.60347919999999999\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (ADV "even") (NP (N (N "drexel"))))
+ (VP (V "is") (VP (V (V "pulling")) (PP (PP "back.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _even_x_deg<0:4>
+            LBL: h4
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u6 ]
+          [ proper_q<5:11>
+            LBL: h4
+            ARG0: x8 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h9 ]
+          [ named<5:11>
+            LBL: h10
+            ARG0: x8
+            CARG: "Drexel" ]
+          [ _pull_v_back<15:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x8 ] >
+   HCONS: < h7 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:_even_x_deg<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 _1]
+ _1:proper_q<5:11>[BV x8]
+ x8:named<5:11>("Drexel"){x PERS 3, NUM sg, IND +}[]
+ e3:_pull_v_back<15:22>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x8]
+}
+
+{
+  _even_x_deg<0:4> ARG1 proper_q<5:11>  
+  proper_q<5:11> BV named<5:11>(Drexel)  
+  _pull_v_back<15:22> ARG1 named<5:11>(Drexel)  
+  _even_x_deg<0:4> SF prop  
+  _even_x_deg<0:4> TENSE untensed  
+  _even_x_deg<0:4> MOOD indicative  
+  _even_x_deg<0:4> PROG -  
+  _even_x_deg<0:4> PERF -  
+  named<5:11>(Drexel) PERS 3  
+  named<5:11>(Drexel) NUM sg  
+  named<5:11>(Drexel) IND +  
+  _pull_v_back<15:22> SF prop  
+  _pull_v_back<15:22> TENSE pres  
+  _pull_v_back<15:22> MOOD indicative  
+  _pull_v_back<15:22> PROG +  
+  _pull_v_back<15:22> PERF -  
+}
+

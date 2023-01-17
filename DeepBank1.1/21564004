@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:26 h)).
+;;;
+
+[21564004] (1 of 1) {1} `Pencils down.'
+
+[21564004:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Pencils", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <8:12>, 1, "down", 0, "null", "RB" 0.5487 "IN" 0.2351 "RP" 0.208 "JJ" 0.0082)
+  (3, 2, 3, <12:13>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (40, 0, 1, <0:7>, 1, "Pencils", 0, "null", "NNS" 1.0)
+  (41, 0, 1, <0:7>, 1, "pencils", 0, "null")
+  (43, 0, 1, <0:7>, 1, "pencils", 0, "null")
+  (37, 1, 2, <8:13>, 1, "down.", 0, "null")
+  (39, 1, 2, <8:13>, 1, "down.", 0, "null", "RB" 0.5487)
+  (42, 1, 2, <8:13>, 1, "down.", 0, "null")
+>
+
+(ROOT_FRAG
+ (204 NP-AJ_RORP-FRG_C -0.444491 0 2
+  (203 ^HDN_BNP_C -0.653276 0 1
+   (198 N_PL_OLR -0.0329458 0 1
+    (50 pencil_n1@n_-_c_le 0 0 1
+     ("pencils" 41
+      "token [ +CARG \"Pencils\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"pencils\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (199 W_PERIOD_PLR -0.124094 1 2
+   (62 down_adv1@pp_-_i_le 0.00429468 1 2
+    ("down." 37
+     "token [ +CARG \"down\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"down.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.5487339\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (NP (N (N "pencils"))) (PP (PP "down.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:7>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _pencil_n_1<0:7>
+            LBL: h8
+            ARG0: x4 ]
+          [ _down_p<8:13>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i9 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:7>[BV x4]
+ x4:_pencil_n_1<0:7>{x PERS 3, NUM pl, IND +}[]
+ e10:_down_p<8:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:13> ARG _pencil_n_1<0:7>  
+  udef_q<0:7> BV _pencil_n_1<0:7>  
+  unknown<0:13> SF prop  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  _pencil_n_1<0:7> PERS 3  
+  _pencil_n_1<0:7> NUM pl  
+  _pencil_n_1<0:7> IND +  
+  _down_p<8:13> SF prop  
+  _down_p<8:13> TENSE untensed  
+  _down_p<8:13> MOOD indicative  
+  _down_p<8:13> PROG -  
+  _down_p<8:13> PERF -  
+}
+

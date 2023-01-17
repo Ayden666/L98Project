@@ -1,0 +1,143 @@
+;;;
+;;; Redwoods export of `wsj05a';
+;;; (wsun@wsun; 22-jan-2018 (14:50 h)).
+;;;
+
+[20512003] (1 of 1) {1} `Mr. McCall will remain chairman.'
+
+[20512003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:10>, 1, "McCall", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:15>, 1, "will", 0, "null", "MD" 1.0)
+  (4, 3, 4, <16:22>, 1, "remain", 0, "null", "VB" 1.0)
+  (5, 4, 5, <23:31>, 1, "chairman", 0, "null", "NN" 1.0)
+  (6, 5, 6, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (72, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (78, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (56, 1, 2, <4:10>, 1, "McCall", 0, "null")
+  (69, 1, 2, <4:10>, 1, "McCall", 0, "null", "NNP" 1.0)
+  (73, 1, 2, <4:10>, 1, "mccall", 0, "null")
+  (74, 1, 2, <4:10>, 1, "mccall", 0, "null")
+  (63, 2, 3, <11:15>, 1, "will", 0, "null")
+  (75, 2, 3, <11:15>, 1, "will", 0, "null")
+  (65, 3, 4, <16:22>, 1, "remain", 0, "null")
+  (70, 3, 4, <16:22>, 1, "remain", 0, "null", "VB" 1.0)
+  (76, 3, 4, <16:22>, 1, "remain", 0, "null")
+  (67, 4, 5, <23:32>, 1, "chairman.", 0, "null")
+  (71, 4, 5, <23:32>, 1, "chairman.", 0, "null", "NN" 1.0)
+  (77, 4, 5, <23:32>, 1, "chairman.", 0, "null")
+>
+
+(ROOT_STRICT
+ (568 SB-HD_MC_C 6.26844 0 5
+  (563 HDN_BNP-PN_C 3.86187 0 2
+   (562 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (560 N_SG_ILR 2.02901 0 1
+     (86 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 72
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (561 ^N_SG_ILR -0.259177 1 2
+     (89 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("McCall" 56
+       "token [ +CARG #1=\"McCall\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (567 ^HD-CMP_U_C 1.38952 2 5
+   (97 will_aux_pos@v_vp_will-p_le 2.13462 2 3
+    ("will" 63
+     "token [ +CARG #1=\"will\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (566 HD-CMP_U_C -1.28002 3 5
+    (564 ^V_N3S-BSE_ILR -1.82033 3 4
+     (122 remain_v6@v_nb_le -0.573146 3 4
+      ("remain" 65
+       "token [ +CARG #1=\"remain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (565 W_PERIOD_PLR -0.267914 4 5
+     (136 chairman_prd_n1@n_-_c-prd_le 0 4 5
+      ("chairman." 67
+       "token [ +CARG \"chairman\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"chairman.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N "mr.")) (N (N "McCall"))))
+ (VP (V "will") (VP (V (V "remain")) (N (N "chairman.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:10>
+            LBL: h8
+            ARG0: x6
+            CARG: "McCall" ]
+          [ _remain_v_1<16:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 ]
+          [ udef_q<16:22>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _chairman_n_of<23:32>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:10>[BV x6]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:10>("McCall"){x PERS 3, NUM sg, IND +}[]
+ e3:_remain_v_1-fn.State_continue<16:22>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2-fn.Theme x15]
+ _3:udef_q<16:22>[BV x15]
+ x15:_chairman_n_of<23:32>{x}[]
+}
+
+{
+  proper_q<0:10> BV named<4:10>(McCall)  
+  compound<0:10> ARG1 named<4:10>(McCall)  
+  compound<0:10> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _remain_v_1<16:22> ARG1 named<4:10>(McCall)  
+  _remain_v_1<16:22> ARG2 _chairman_n_of<23:32>  
+  udef_q<16:22> BV _chairman_n_of<23:32>  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:10>(McCall) PERS 3  
+  named<4:10>(McCall) NUM sg  
+  named<4:10>(McCall) IND +  
+  _remain_v_1<16:22> SF prop  
+  _remain_v_1<16:22> TENSE fut  
+  _remain_v_1<16:22> MOOD indicative  
+  _remain_v_1<16:22> PROG -  
+  _remain_v_1<16:22> PERF -  
+}
+

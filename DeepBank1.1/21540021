@@ -1,0 +1,204 @@
+;;;
+;;; Redwoods export of `wsj15b';
+;;; (wsun@wsun; 23-jan-2018 (00:13 h)).
+;;;
+
+[21540021] (1 of 1) {1} `Freight rates are bottoming out and starting to rebound.'
+
+[21540021:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Freight", 0, "null", "NN" 0.6469 "NNP" 0.3531)
+  (2, 1, 2, <8:13>, 1, "rates", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:17>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <18:27>, 1, "bottoming", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <28:31>, 1, "out", 0, "null", "RP" 0.9601 "RB" 0.0214 "IN" 0.0185)
+  (6, 5, 6, <32:35>, 1, "and", 0, "null", "CC" 1.0)
+  (7, 6, 7, <36:44>, 1, "starting", 0, "null", "VBG" 1.0)
+  (8, 7, 8, <45:47>, 1, "to", 0, "null", "TO" 1.0)
+  (9, 8, 9, <48:55>, 1, "rebound", 0, "null", "VB" 0.8531 "NN" 0.1469)
+  (10, 9, 10, <55:56>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (118, 0, 1, <0:7>, 1, "Freight", 0, "null")
+  (125, 0, 1, <0:7>, 1, "freight", 0, "null")
+  (134, 0, 1, <0:7>, 1, "freight", 0, "null")
+  (101, 1, 2, <8:13>, 1, "rates", 0, "null")
+  (120, 1, 2, <8:13>, 1, "rates", 0, "null", "NNS" 1.0)
+  (126, 1, 2, <8:13>, 1, "rates", 0, "null")
+  (103, 2, 3, <14:17>, 1, "are", 0, "null")
+  (121, 2, 3, <14:17>, 1, "are", 0, "null", "VBP" 1.0)
+  (127, 2, 3, <14:17>, 1, "are", 0, "null")
+  (105, 3, 4, <18:27>, 1, "bottoming", 0, "null")
+  (122, 3, 4, <18:27>, 1, "bottoming", 0, "null", "VBG" 1.0)
+  (128, 3, 4, <18:27>, 1, "bottoming", 0, "null")
+  (114, 4, 5, <28:31>, 1, "out", 0, "null")
+  (132, 4, 5, <28:31>, 1, "out", 0, "null")
+  (107, 5, 6, <32:35>, 1, "and", 0, "null")
+  (129, 5, 6, <32:35>, 1, "and", 0, "null")
+  (109, 6, 7, <36:44>, 1, "starting", 0, "null")
+  (123, 6, 7, <36:44>, 1, "starting", 0, "null", "VBG" 1.0)
+  (130, 6, 7, <36:44>, 1, "starting", 0, "null")
+  (111, 7, 8, <45:47>, 1, "to", 0, "null")
+  (131, 7, 8, <45:47>, 1, "to", 0, "null")
+  (115, 8, 9, <48:56>, 1, "rebound.", 0, "null")
+  (119, 8, 9, <48:56>, 1, "rebound.", 0, "null", "VB" 0.8531)
+  (124, 8, 9, <48:56>, 1, "rebound.", 0, "null", "NN" 0.1469)
+  (133, 8, 9, <48:56>, 1, "rebound.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3908 SB-HD_MC_C 13.4414 0 9
+  (3897 HDN_BNP_C 2.84697 0 2
+   (3896 N-HDN_CPD_C 2.22623 0 2
+    (136 freight_n1@n_-_m_le 0 0 1
+     ("freight" 125
+      "token [ +CARG \"Freight\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"freight\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.64689529999999995\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3895 ^HDN_OPTCMP_C 1.59664 1 2
+     (3894 N_PL_OLR 1.35598 1 2
+      (140 rate_n1@n_pp_mc-of_le 0.88296 1 2
+       ("rates" 101
+        "token [ +CARG #1=\"rates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (3907 ^HD-CMP_U_C 9.07856 2 9
+   (170 be_c_are@v_prd_are_le 1.30737 2 3
+    ("are" 103
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (3906 VPPR-VPPR_CRD-T_C 7.46874 3 9
+    (3899 HD-CMP_U_C 2.35511 3 5
+     (3898 ^V_PRP_OLR 0.537287 3 4
+      (179 bottom_out_v1@v_p_le 0 3 4
+       ("bottoming" 105
+        "token [ +CARG #1=\"bottoming\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (213 out_particle@p_np_ptcl_le 1.31078 4 5
+      ("out" 114
+       "token [ +CARG #1=\"out\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96012679999999995\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3905 ^MRK-NH_EVNT_C 4.28047 5 9
+     (266 and_conj@c_xp_and_le 0.16653 5 6
+      ("and" 107
+       "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3904 HD-CMP_U_C 3.66108 6 9
+      (3900 ^V_PRP_OLR 0.630571 6 7
+       (295 start_v3@v_vp_ssr_le 0 6 7
+        ("starting" 109
+         "token [ +CARG #1=\"starting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (3903 HD-CMP_U_C 2.44262 7 9
+       (336 to_c_prop@cm_vp_to_le 2.48409 7 8
+        ("to" 111
+         "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"45\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (3902 W_PERIOD_PLR -0.682634 8 9
+        (3901 V_N3S-BSE_ILR -0.680598 8 9
+         (405 rebound_v1@v_-_le 0 8 9
+          ("rebound." 115
+           "token [ +CARG \"rebound\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rebound.\" +FROM #1=\"48\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85309820000000003\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"56\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "freight") (N (N (N "rates")))))
+ (VP (V "are")
+  (VP (VP (V (V "bottoming")) (P "out"))
+   (VP-C (CONJ "and")
+    (VP (V (V "starting"))
+     (VP (COMP "to") (VP (VP (V "rebound.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ udef_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _freight_n_1<0:7>
+            LBL: h14
+            ARG0: x9 ]
+          [ _rate_n_of<8:13>
+            LBL: h8
+            ARG0: x6
+            ARG1: i15 ]
+          [ _bottom_v_out<18:27>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: x6 ]
+          [ _and_c<32:35>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h16
+            L-INDEX: e17
+            R-HNDL: h18
+            R-INDEX: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ] ]
+          [ _start_v_1<36:44>
+            LBL: h18
+            ARG0: e19
+            ARG1: h20 ]
+          [ _rebound_v_1<48:56>
+            LBL: h21
+            ARG0: e22 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h20 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:7>[BV x9]
+ x9:_freight_n_1<0:7>{x PERS 3, NUM sg, IND -}[]
+ x6:_rate_n_of<8:13>{x PERS 3, NUM pl}[]
+ e17:_bottom_v_out<18:27>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6]
+ e3:_and_c<32:35>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[L-HNDL e17, L-INDEX e17, R-HNDL e19, R-INDEX e19]
+ e19:_start_v_1<36:44>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG1 e22]
+ e22:_rebound_v_1<48:56>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:13> BV _rate_n_of<8:13>  
+  compound<0:13> ARG1 _rate_n_of<8:13>  
+  compound<0:13> ARG2 _freight_n_1<0:7>  
+  udef_q<0:7> BV _freight_n_1<0:7>  
+  _bottom_v_out<18:27> ARG1 _rate_n_of<8:13>  
+  _and_c<32:35> L-HNDL _bottom_v_out<18:27>  
+  _and_c<32:35> L-INDEX _bottom_v_out<18:27>  
+  _and_c<32:35> R-HNDL _start_v_1<36:44>  
+  _and_c<32:35> R-INDEX _start_v_1<36:44>  
+  _start_v_1<36:44> ARG1 _rebound_v_1<48:56>  
+  _rebound_v_1<48:56> ARG1 _rate_n_of<8:13>  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _freight_n_1<0:7> PERS 3  
+  _freight_n_1<0:7> NUM sg  
+  _freight_n_1<0:7> IND -  
+  _rate_n_of<8:13> PERS 3  
+  _rate_n_of<8:13> NUM pl  
+  _bottom_v_out<18:27> SF prop  
+  _bottom_v_out<18:27> TENSE pres  
+  _bottom_v_out<18:27> MOOD indicative  
+  _bottom_v_out<18:27> PROG +  
+  _bottom_v_out<18:27> PERF -  
+  _and_c<32:35> SF prop  
+  _and_c<32:35> TENSE pres  
+  _and_c<32:35> MOOD indicative  
+  _and_c<32:35> PROG +  
+  _and_c<32:35> PERF -  
+  _start_v_1<36:44> SF prop  
+  _start_v_1<36:44> TENSE untensed  
+  _start_v_1<36:44> MOOD indicative  
+  _start_v_1<36:44> PROG +  
+  _start_v_1<36:44> PERF -  
+  _rebound_v_1<48:56> SF prop-or-ques  
+  _rebound_v_1<48:56> TENSE untensed  
+  _rebound_v_1<48:56> MOOD indicative  
+  _rebound_v_1<48:56> PROG -  
+  _rebound_v_1<48:56> PERF -  
+}
+

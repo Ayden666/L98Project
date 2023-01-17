@@ -1,0 +1,169 @@
+;;;
+;;; Redwoods export of `wsj15a';
+;;; (wsun@wsun; 22-jan-2018 (23:55 h)).
+;;;
+
+[21505022] (1 of 1) {1} `Kyocera advanced 80 yen to 5,440.'
+
+[21505022:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Kyocera", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:16>, 1, "advanced", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <17:19>, 1, "80", 0, "null", "CD" 1.0)
+  (4, 3, 4, <20:23>, 1, "yen", 0, "null", "NN" 0.7328 "NNS" 0.2672)
+  (5, 4, 5, <24:26>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <27:32>, 1, "5,440", 0, "null", "CD" 1.0)
+  (7, 6, 7, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:7>, 1, "Kyocera", 0, "null")
+  (75, 0, 1, <0:7>, 1, "kyocera", 0, "null")
+  (81, 0, 1, <0:7>, 1, "kyocera", 0, "null")
+  (68, 1, 2, <8:16>, 1, "advanced", 0, "null")
+  (73, 1, 2, <8:16>, 1, "advanced", 0, "null", "VBD" 1.0)
+  (79, 1, 2, <8:16>, 1, "advanced", 0, "null")
+  (57, 2, 3, <17:19>, 1, "80", 0, "null")
+  (76, 2, 3, <17:19>, 1, "80", 0, "null")
+  (69, 3, 4, <20:23>, 1, "yen", 0, "null")
+  (72, 3, 4, <20:23>, 1, "yen", 0, "null", "NN" 0.7328)
+  (74, 3, 4, <20:23>, 1, "yen", 0, "null", "NNS" 0.2672)
+  (80, 3, 4, <20:23>, 1, "yen", 0, "null")
+  (66, 4, 5, <24:26>, 1, "to", 0, "null")
+  (78, 4, 5, <24:26>, 1, "to", 0, "null")
+  (60, 5, 6, <27:33>, 1, "5,440.", 0, "null")
+  (77, 5, 6, <27:33>, 1, "5,440.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2065 SB-HD_MC_C 11.1258 0 6
+  (2048 HDN_BNP-PN_C 0.489307 0 1
+   (2047 N_SG_ILR 0.538263 0 1
+    (83 kyocera_n1@n_-_pn_le 0 0 1
+     ("kyocera" 75
+      "token [ +CARG \"Kyocera\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"kyocera\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2064 ^HD-AJ_INT-UNSL_C 10.149 1 6
+   (2063 ^HD-CMP_U_C 5.13887 1 4
+    (2062 ^V_PST_OLR -0.2373 1 2
+     (100 advance_v1@v_np_noger_le -0.557288 1 2
+      ("advanced" 68
+       "token [ +CARG #1=\"advanced\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2053 HDN_BNP_C 4.97651 2 4
+     (2052 NUM-N_MNP_C 3.45213 2 4
+      (204 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+       ("80" 57
+        "token [ +CARG #1=\"80\" +CLASS card_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (2051 ^N_PL_OLR 1.11999 3 4
+       (208 yen_n2@n_-_c-meas-nb_le 0.196976 3 4
+        ("yen" 69
+         "token [ +CARG #1=\"yen\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.73275979999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (2059 HD-CMP_U_C 3.87632 4 6
+    (241 to@p_np_i-nnm_le -1.63041 4 5
+     ("to" 66
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2058 HDN_BNP-NUM_C 4.01481 5 6
+     (2057 HDN_NP-NUM_C 3.49617 5 6
+      (2056 W_PERIOD_PLR 2.19869 5 6
+       (296 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("5,440." 60
+         "token [ +CARG \"5,440\" +CLASS card_ne +FORM \"5,440.\" +FROM \"27\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (N "kyocera")))
+ (VP (VP (V (V "advanced")) (NP (N (ADJ "80") (N (N "yen")))))
+  (PP (P "to") (NP (N (ADJ (ADJ "5,440.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Kyocera" ]
+          [ _advance_v_1<8:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<17:23>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<17:19>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "80" ]
+          [ _yen_n_2<20:23>
+            LBL: h13
+            ARG0: x9 ]
+          [ _to_p<24:26>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<27:33>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<27:33>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "5,440" ] >
+   HCONS: < h18 QEQ h20 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Kyocera"){x PERS 3, NUM sg, IND +}[]
+ e3:_advance_v_1<8:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<17:23>[BV x9]
+ e14:card<17:19>("80"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_yen_n_2<20:23>{x PERS 3, NUM pl, IND +}[]
+ e15:_to_p<24:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<27:33>[BV x16]
+ x16:card<27:33>("5,440"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Kyocera)  
+  _advance_v_1<8:16> ARG1 named<0:7>(Kyocera)  
+  _advance_v_1<8:16> ARG2 _yen_n_2<20:23>  
+  udef_q<17:23> BV _yen_n_2<20:23>  
+  card<17:19>(80) ARG1 _yen_n_2<20:23>  
+  _to_p<24:26> ARG1 _advance_v_1<8:16>  
+  _to_p<24:26> ARG2 card<27:33>(5,440)  
+  number_q<27:33> BV card<27:33>(5,440)  
+  named<0:7>(Kyocera) PERS 3  
+  named<0:7>(Kyocera) NUM sg  
+  named<0:7>(Kyocera) IND +  
+  _advance_v_1<8:16> SF prop  
+  _advance_v_1<8:16> TENSE past  
+  _advance_v_1<8:16> MOOD indicative  
+  _advance_v_1<8:16> PROG -  
+  _advance_v_1<8:16> PERF -  
+  card<17:19>(80) SF prop  
+  card<17:19>(80) TENSE untensed  
+  card<17:19>(80) MOOD indicative  
+  card<17:19>(80) PROG -  
+  card<17:19>(80) PERF -  
+  _yen_n_2<20:23> PERS 3  
+  _yen_n_2<20:23> NUM pl  
+  _yen_n_2<20:23> IND +  
+  _to_p<24:26> SF prop  
+  _to_p<24:26> TENSE untensed  
+  _to_p<24:26> MOOD indicative  
+  _to_p<24:26> PROG -  
+  _to_p<24:26> PERF -  
+  card<27:33>(5,440) PERS 3  
+  card<27:33>(5,440) NUM sg  
+}
+

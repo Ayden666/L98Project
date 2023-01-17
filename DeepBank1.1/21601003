@@ -1,0 +1,320 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:53 h)).
+;;;
+
+[21601003] (1 of 1) {1} `Amex short interest climbed 3% to 53,496,665 shares from 51,911,566 shares.'
+
+[21601003:3] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Amex", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:10>, 1, "short", 0, "null", "JJ" 0.9452 "RB" 0.0548)
+  (3, 2, 3, <11:19>, 1, "interest", 0, "null", "NN" 1.0)
+  (4, 3, 4, <20:27>, 1, "climbed", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <28:29>, 1, "3", 0, "null", "CD" 1.0)
+  (6, 5, 6, <29:30>, 1, "%", 0, "null", "NN" 1.0)
+  (7, 6, 7, <31:33>, 1, "to", 0, "null", "TO" 1.0)
+  (8, 7, 8, <34:44>, 1, "53,496,665", 0, "null", "CD" 1.0)
+  (9, 8, 9, <45:51>, 1, "shares", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <52:56>, 1, "from", 0, "null", "IN" 1.0)
+  (11, 10, 11, <57:67>, 1, "51,911,566", 0, "null", "CD" 1.0)
+  (12, 11, 12, <68:74>, 1, "shares", 0, "null", "NNS" 1.0)
+  (13, 12, 13, <74:75>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (133, 0, 1, <0:4>, 1, "Amex", 0, "null")
+  (139, 0, 1, <0:4>, 1, "amex", 0, "null")
+  (151, 0, 1, <0:4>, 1, "amex", 0, "null")
+  (131, 1, 2, <5:10>, 1, "short", 0, "null")
+  (134, 1, 2, <5:10>, 1, "short", 0, "null", "JJ" 0.9452)
+  (150, 1, 2, <5:10>, 1, "short", 0, "null")
+  (124, 2, 3, <11:19>, 1, "interest", 0, "null")
+  (136, 2, 3, <11:19>, 1, "interest", 0, "null", "NN" 1.0)
+  (146, 2, 3, <11:19>, 1, "interest", 0, "null")
+  (126, 3, 4, <20:27>, 1, "climbed", 0, "null")
+  (137, 3, 4, <20:27>, 1, "climbed", 0, "null", "VBD" 1.0)
+  (147, 3, 4, <20:27>, 1, "climbed", 0, "null")
+  (107, 4, 5, <28:29>, 1, "3", 0, "null")
+  (140, 4, 5, <28:29>, 1, "3", 0, "null")
+  (128, 5, 6, <29:30>, 1, "%", 0, "null")
+  (148, 5, 6, <29:30>, 1, "%", 0, "null")
+  (118, 6, 7, <31:33>, 1, "to", 0, "null")
+  (143, 6, 7, <31:33>, 1, "to", 0, "null")
+  (108, 7, 8, <34:44>, 1, "53,496,665", 0, "null")
+  (141, 7, 8, <34:44>, 1, "53,496,665", 0, "null")
+  (120, 8, 9, <45:51>, 1, "shares", 0, "null")
+  (135, 8, 9, <45:51>, 1, "shares", 0, "null", "NNS" 1.0)
+  (144, 8, 9, <45:51>, 1, "shares", 0, "null")
+  (122, 9, 10, <52:56>, 1, "from", 0, "null")
+  (145, 9, 10, <52:56>, 1, "from", 0, "null")
+  (109, 10, 11, <57:67>, 1, "51,911,566", 0, "null")
+  (142, 10, 11, <57:67>, 1, "51,911,566", 0, "null")
+  (130, 11, 12, <68:75>, 1, "shares.", 0, "null")
+  (138, 11, 12, <68:75>, 1, "shares.", 0, "null", "NNS" 1.0)
+  (149, 11, 12, <68:75>, 1, "shares.", 0, "null")
+>
+
+(ROOT_STRICT
+ (15940 SB-HD_MC_C 18.6413 0 12
+  (15907 HDN_BNP_C 2.45471 0 3
+   (15906 NP-HDN_CPD_C 3.17801 0 3
+    (15901 HDN_BNP-PN_C -0.210996 0 1
+     (153 american_express_n2@n_-_pn_le 0 0 1
+      ("amex" 139
+       "token [ +CARG \"Amex\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"amex\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (15905 ^AJ-HDN_NORM_C 2.60261 1 3
+     (15902 J_ATT_DLR 2.21436 1 2
+      (155 short_a1@aj_pp_i-er_le 0.558636 1 2
+       ("short" 131
+        "token [ +CARG #1=\"short\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94517980000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (15904 ^HDN_OPTCMP_C 0.261763 2 3
+      (15903 N_MS-CNT_ILR 0.803036 2 3
+       (169 interest_n1@n_pp_mc-in_le 0.271755 2 3
+        ("interest" 124
+         "token [ +CARG #1=\"interest\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (15939 ^HD-AJ_INT-UNSL_C 15.3465 3 12
+   (15914 ^HD-AJ_INT-UNSL_C 8.82255 3 6
+    (15909 ^HD_OPTCMP_C 3.10783 3 4
+     (15908 V_PST_OLR 1.61727 3 4
+      (188 climb_v2@v_pp*_dir_le 1.02191 3 4
+       ("climbed" 126
+        "token [ +CARG #1=\"climbed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (15913 NP_ADV-MNP_C 3.90517 4 6
+     (15912 HDN_BNP_C 5.47408 4 6
+      (15911 NUM-N_MNP_C 3.9497 4 6
+       (335 generic_card_ne@aj_-_i-crd-gen_le 0.137004 4 5
+        ("3" 107
+         "token [ +CARG #1=\"3\" +CLASS card_or_dom_ne +FORM #1 +FROM \"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (15910 ^N_PL_OLR 1.65072 5 6
+        (342 percent_char_n1@n_-_c-meas-spr_le 1.28059 5 6
+         ("%" 128
+          "token [ +CARG #1=\"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (15938 HD-AJ_INT-UNSL_C 7.01692 6 12
+    (15918 ^HD-CMP_U_C 3.17293 6 9
+     (371 to@p_np_i-nnm_le -1.63041 6 7
+      ("to" 118
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (15917 HDN_BNP_C 4.34687 7 9
+      (15916 NUM-N_MNP_C 2.55084 7 9
+       (425 generic_card_ne@aj_-_i-crd-gen_le 0 7 8
+        ("53,496,665" 108
+         "token [ +CARG #1=\"53,496,665\" +CLASS card_ne +FORM #1 +FROM \"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (15915 ^N_PL_OLR 1.19401 8 9
+        (428 share_n2@n_-_c-meas-nb_le 0.270994 8 9
+         ("shares" 120
+          "token [ +CARG #1=\"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"45\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+    (15924 HD-CMP_U_C 3.61905 9 12
+     (452 from@p_np_i_le -0.572251 9 10
+      ("from" 122
+       "token [ +CARG #1=\"from\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"52\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"56\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (15923 HDN_BNP_C 3.84287 10 12
+      (15922 NUM-N_MNP_C 2.04684 10 12
+       (470 generic_card_ne@aj_-_i-crd-gen_le 0 10 11
+        ("51,911,566" 109
+         "token [ +CARG #1=\"51,911,566\" +CLASS card_ne +FORM #1 +FROM \"57\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"67\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (15921 ^W_PERIOD_PLR 1.14792 11 12
+        (15920 N_PL_OLR 0.601066 11 12
+         (473 share_n2@n_-_c-meas-nb_le 0.737088 11 12
+          ("shares." 130
+           "token [ +CARG \"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shares.\" +FROM #1=\"68\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"75\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (NP (N (NP (N "amex")) (N (AP (ADJ "short")) (N (N (N "interest"))))))
+ (VP (VP (VP (V (V "climbed"))) (PP (NP (N (ADJ "3") (N (N "%"))))))
+  (PP (PP (P "to") (NP (N (ADJ "53,496,665") (N (N "shares")))))
+   (PP (P "from") (NP (N (ADJ "51,911,566") (N (N (N "shares.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:19>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "American_Express" ]
+          [ _short_a_of<5:10>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: i16 ]
+          [ _interest_n_in<11:19>
+            LBL: h8
+            ARG0: x6
+            ARG1: i17 ]
+          [ _climb_v_1<20:27>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<28:30>
+            LBL: h2
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x19 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<28:30>
+            LBL: h20
+            ARG0: x19
+            RSTR: h21
+            BODY: h22 ]
+          [ card<28:29>
+            LBL: h23
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x19
+            CARG: "3" ]
+          [ _percent_n_of<29:30>
+            LBL: h23
+            ARG0: x19 ]
+          [ _to_p<31:33>
+            LBL: h2
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x26 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<34:51>
+            LBL: h27
+            ARG0: x26
+            RSTR: h28
+            BODY: h29 ]
+          [ card<34:44>
+            LBL: h30
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x26
+            CARG: "53,496,665" ]
+          [ _share_n_of<45:51>
+            LBL: h30
+            ARG0: x26 ]
+          [ _from_p<52:56>
+            LBL: h2
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e25
+            ARG2: x33 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<57:75>
+            LBL: h34
+            ARG0: x33
+            RSTR: h35
+            BODY: h36 ]
+          [ card<57:67>
+            LBL: h37
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x33
+            CARG: "51,911,566" ]
+          [ _share_n_of<68:75>
+            LBL: h37
+            ARG0: x33 ] >
+   HCONS: < h35 QEQ h37 h28 QEQ h30 h21 QEQ h23 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:19>[BV x6]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("American_Express"){x IND +}[]
+ e15:_short_a_of<5:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_interest_n_in<11:19>{x PERS 3, NUM sg}[]
+ e3:_climb_v_1-fn.Change_position_on_a_scale<20:27>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e18:loc_nonsp<28:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x19]
+ _3:udef_q<28:30>[BV x19]
+ e24:card<28:29>("3"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x19]
+ x19:_percent_n_of<29:30>{x PERS 3, NUM pl, IND +}[]
+ e25:_to_p<31:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x26]
+ _4:udef_q<34:51>[BV x26]
+ e31:card<34:44>("53,496,665"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x26]
+ x26:_share_n_of<45:51>{x PERS 3, NUM pl, IND +}[]
+ e32:_from_p<52:56>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e25, ARG2 x33]
+ _5:udef_q<57:75>[BV x33]
+ e38:card<57:67>("51,911,566"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x33]
+ x33:_share_n_of<68:75>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:19> BV _interest_n_in<11:19>  
+  compound<0:19> ARG1 _interest_n_in<11:19>  
+  compound<0:19> ARG2 named<0:4>(American_Express)  
+  proper_q<0:4> BV named<0:4>(American_Express)  
+  _short_a_of<5:10> ARG1 _interest_n_in<11:19>  
+  _climb_v_1<20:27> ARG1 _interest_n_in<11:19>  
+  loc_nonsp<28:30> ARG1 _climb_v_1<20:27>  
+  loc_nonsp<28:30> ARG2 _percent_n_of<29:30>  
+  udef_q<28:30> BV _percent_n_of<29:30>  
+  card<28:29>(3) ARG1 _percent_n_of<29:30>  
+  _to_p<31:33> ARG1 _climb_v_1<20:27>  
+  _to_p<31:33> ARG2 _share_n_of<45:51>  
+  udef_q<34:51> BV _share_n_of<45:51>  
+  card<34:44>(53,496,665) ARG1 _share_n_of<45:51>  
+  _from_p<52:56> ARG1 _to_p<31:33>  
+  _from_p<52:56> ARG2 _share_n_of<68:75>  
+  udef_q<57:75> BV _share_n_of<68:75>  
+  card<57:67>(51,911,566) ARG1 _share_n_of<68:75>  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  named<0:4>(American_Express) IND +  
+  _short_a_of<5:10> SF prop  
+  _short_a_of<5:10> TENSE untensed  
+  _short_a_of<5:10> MOOD indicative  
+  _short_a_of<5:10> PROG -  
+  _short_a_of<5:10> PERF -  
+  _interest_n_in<11:19> PERS 3  
+  _interest_n_in<11:19> NUM sg  
+  _climb_v_1<20:27> SF prop  
+  _climb_v_1<20:27> TENSE past  
+  _climb_v_1<20:27> MOOD indicative  
+  _climb_v_1<20:27> PROG -  
+  _climb_v_1<20:27> PERF -  
+  loc_nonsp<28:30> SF prop  
+  loc_nonsp<28:30> TENSE untensed  
+  loc_nonsp<28:30> MOOD indicative  
+  loc_nonsp<28:30> PROG -  
+  loc_nonsp<28:30> PERF -  
+  card<28:29>(3) SF prop  
+  card<28:29>(3) TENSE untensed  
+  card<28:29>(3) MOOD indicative  
+  card<28:29>(3) PROG -  
+  card<28:29>(3) PERF -  
+  _percent_n_of<29:30> PERS 3  
+  _percent_n_of<29:30> NUM pl  
+  _percent_n_of<29:30> IND +  
+  _to_p<31:33> SF prop  
+  _to_p<31:33> TENSE untensed  
+  _to_p<31:33> MOOD indicative  
+  _to_p<31:33> PROG -  
+  _to_p<31:33> PERF -  
+  card<34:44>(53,496,665) SF prop  
+  card<34:44>(53,496,665) TENSE untensed  
+  card<34:44>(53,496,665) MOOD indicative  
+  card<34:44>(53,496,665) PROG -  
+  card<34:44>(53,496,665) PERF -  
+  _share_n_of<45:51> PERS 3  
+  _share_n_of<45:51> NUM pl  
+  _share_n_of<45:51> IND +  
+  _from_p<52:56> SF prop  
+  _from_p<52:56> TENSE untensed  
+  _from_p<52:56> MOOD indicative  
+  _from_p<52:56> PROG -  
+  _from_p<52:56> PERF -  
+  card<57:67>(51,911,566) SF prop  
+  card<57:67>(51,911,566) TENSE untensed  
+  card<57:67>(51,911,566) MOOD indicative  
+  card<57:67>(51,911,566) PROG -  
+  card<57:67>(51,911,566) PERF -  
+  _share_n_of<68:75> PERS 3  
+  _share_n_of<68:75> NUM pl  
+  _share_n_of<68:75> IND +  
+}
+

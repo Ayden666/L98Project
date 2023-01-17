@@ -1,0 +1,143 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (11:52 h)).
+;;;
+
+[20200002] (1 of 1) {1} `Ms. Haag plays Elianti.'
+
+[20200002:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Ms.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:8>, 1, "Haag", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:14>, 1, "plays", 0, "null", "VBZ" 0.948 "NNS" 0.052)
+  (4, 3, 4, <15:22>, 1, "Elianti", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:3>, 1, "Ms.", 0, "null")
+  (67, 0, 1, <0:3>, 1, "ms.", 0, "null")
+  (72, 0, 1, <0:3>, 1, "ms.", 0, "null")
+  (49, 1, 2, <4:8>, 1, "Haag", 0, "null")
+  (64, 1, 2, <4:8>, 1, "Haag", 0, "null", "NNP" 1.0)
+  (66, 1, 2, <4:8>, 1, "haag", 0, "null")
+  (69, 1, 2, <4:8>, 1, "haag", 0, "null")
+  (60, 2, 3, <9:14>, 1, "plays", 0, "null")
+  (63, 2, 3, <9:14>, 1, "plays", 0, "null", "VBZ" 0.948)
+  (71, 2, 3, <9:14>, 1, "plays", 0, "null")
+  (51, 3, 4, <15:23>, 1, "Elianti.", 0, "null")
+  (65, 3, 4, <15:23>, 1, "Elianti.", 0, "null", "NNP" 1.0)
+  (68, 3, 4, <15:23>, 1, "elianti.", 0, "null")
+  (70, 3, 4, <15:23>, 1, "elianti.", 0, "null")
+>
+
+(ROOT_STRICT
+ (396 SB-HD_MC_C 4.85024 0 4
+  (390 HDN_BNP-PN_C 3.97856 0 2
+   (389 NP-HDN_TTL-CPD_C 3.29263 0 2
+    (387 N_SG_ILR 2.14571 0 1
+     (92 ms_n2@n_-_c-nochd_le 0.626621 0 1
+      ("ms." 67
+       "token [ +CARG \"Ms.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"ms.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (388 ^N_SG_ILR -0.259177 1 2
+     (101 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Haag" 49
+       "token [ +CARG #1=\"Haag\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (395 ^HD-CMP_U_C -0.145382 2 4
+   (391 ^V_3S-FIN_OLR 0.391518 2 3
+    (116 play_v1@v_np*_le 0 2 3
+     ("plays" 60
+      "token [ +CARG #1=\"plays\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94801679999999999\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (394 HDN_BNP-PN_C -0.143777 3 4
+    (393 W_PERIOD_PLR 0.217529 3 4
+     (392 N_SG_ILR -0.215389 3 4
+      (130 generic_proper_ne@n_-_pn-gen_le 0 3 4
+       ("Elianti." 51
+        "token [ +CARG \"Elianti\" +CLASS proper_ne +FORM \"Elianti.\" +FROM \"15\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (NP (N (N (N "ms.")) (N (N "Haag"))))
+ (VP (V (V "plays")) (NP (N (N (N "Elianti."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:8>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _ms_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Haag" ]
+          [ _play_v_1<9:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<15:23>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ named<15:23>
+            LBL: h19
+            ARG0: x15
+            CARG: "Elianti" ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:8>[BV x6]
+ e10:compound<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_ms_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:8>("Haag"){x PERS 3, NUM sg, IND +}[]
+ e3:_play_v_1<9:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:proper_q<15:23>[BV x15]
+ x15:named<15:23>("Elianti"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:8> BV named<4:8>(Haag)  
+  compound<0:8> ARG1 named<4:8>(Haag)  
+  compound<0:8> ARG2 _ms_n_1<0:3>  
+  udef_q<0:3> BV _ms_n_1<0:3>  
+  _play_v_1<9:14> ARG1 named<4:8>(Haag)  
+  _play_v_1<9:14> ARG2 named<15:23>(Elianti)  
+  proper_q<15:23> BV named<15:23>(Elianti)  
+  compound<0:8> SF prop  
+  compound<0:8> TENSE untensed  
+  compound<0:8> MOOD indicative  
+  compound<0:8> PROG -  
+  compound<0:8> PERF -  
+  _ms_n_1<0:3> PERS 3  
+  _ms_n_1<0:3> NUM sg  
+  _ms_n_1<0:3> IND +  
+  named<4:8>(Haag) PERS 3  
+  named<4:8>(Haag) NUM sg  
+  named<4:8>(Haag) IND +  
+  _play_v_1<9:14> SF prop  
+  _play_v_1<9:14> TENSE pres  
+  _play_v_1<9:14> MOOD indicative  
+  _play_v_1<9:14> PROG -  
+  _play_v_1<9:14> PERF -  
+  named<15:23>(Elianti) PERS 3  
+  named<15:23>(Elianti) NUM sg  
+  named<15:23>(Elianti) IND +  
+}
+

@@ -1,0 +1,144 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:40 h)).
+;;;
+
+[21274025] (1 of 1) {1} `How was the West won?'
+
+[21274025:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "How", 0, "null", "WRB" 1.0)
+  (2, 1, 2, <4:7>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <8:11>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <12:16>, 1, "West", 0, "null", "NNP" 0.4963 "JJ" 0.3734 "NN" 0.1303)
+  (5, 4, 5, <17:20>, 1, "won", 0, "null", "VBD" 0.5531 "NN" 0.3789 "VBN" 0.0342 "NNS" 0.0338)
+  (6, 5, 6, <20:21>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:3>, 1, "how", 0, "null")
+  (90, 0, 1, <0:3>, 1, "how", 0, "null")
+  (71, 1, 2, <4:7>, 1, "was", 0, "null")
+  (81, 1, 2, <4:7>, 1, "was", 0, "null", "VBD" 1.0)
+  (86, 1, 2, <4:7>, 1, "was", 0, "null")
+  (73, 2, 3, <8:11>, 1, "the", 0, "null")
+  (87, 2, 3, <8:11>, 1, "the", 0, "null")
+  (56, 3, 4, <12:16>, 1, "West", 0, "null")
+  (79, 3, 4, <12:16>, 1, "West", 0, "null", "JJ" 0.3734)
+  (82, 3, 4, <12:16>, 1, "West", 0, "null", "NN" 0.1303)
+  (84, 3, 4, <12:16>, 1, "west", 0, "null")
+  (85, 3, 4, <12:16>, 1, "west", 0, "null")
+  (75, 4, 5, <17:21>, 1, "won?", 0, "null")
+  (78, 4, 5, <17:21>, 1, "won?", 0, "null", "VBD" 0.5531)
+  (80, 4, 5, <17:21>, 1, "won?", 0, "null", "NN" 0.3789)
+  (88, 4, 5, <17:21>, 1, "won?", 0, "null")
+>
+
+(ROOT_STRICT
+ (1137 FLR-HD_WH-MC_C 6.04124 0 5
+  (92 how_adv@pp_-_i-wh_le 0.270653 0 1
+   ("how" 83
+    "token [ +CARG \"How\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"how\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (1136 ^HD-CMP_U_C 5.31905 1 5
+   (1131 ^HD-CMP_U_C 4.55599 1 4
+    (1128 ^V_AUX-SB-INV_DLR 1.22876 1 2
+     (104 be_c_was@v_prd_was_le 0.699345 1 2
+      ("was" 71
+       "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1130 SP-HD_N_C 2.81257 2 4
+     (135 the_1@d_-_the_le 1.07131 2 3
+      ("the" 73
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1129 ^N_SG_ILR 1.27 3 4
+      (160 generic_proper_ne@n_-_pn-gen_le -0.067453 3 4
+       ("West" 56
+        "token [ +CARG #1=\"West\" +CLASS proper_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.49632850000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (1135 HD_XAJ-INT-VP_C -0.116558 4 5
+    (1134 HD_OPTCMP_C -0.353442 4 5
+     (1133 W_QMARK_PLR -0.353442 4 5
+      (1132 V_PAS_ODLR -0.353442 4 5
+       (208 win_v1@v_np*_le 0 4 5
+        ("won?" 75
+         "token [ +CARG \"won\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"won?\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55311480000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (PP "how")
+ (S/PP (V/PP (V/PP (V/PP "was")) (NP (DET "the") (N (N "West"))))
+  (VP/PP (VP (V (V (V "won?")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unspec_manner<0:3>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x4 ]
+          [ which_q<0:3>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ manner<0:3>
+            LBL: h9
+            ARG0: x4 ]
+          [ _the_q<8:11>
+            LBL: h10
+            ARG0: x12 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h13
+            BODY: h11 ]
+          [ named<12:16>
+            LBL: h14
+            ARG0: x12
+            CARG: "West" ]
+          [ _win_v_1<17:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x12 ]
+          [ parg_d<17:21>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x12 ] >
+   HCONS: < h13 QEQ h14 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e5:unspec_manner<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x4]
+ _1:which_q<0:3>[BV x4]
+ x4:manner<0:3>{x}[]
+ _2:_the_q<8:11>[BV x12]
+ x12:named<12:16>("West"){x PERS 3, NUM sg, IND +}[]
+ e3:_win_v_1<17:21>{e SF ques, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x12]
+ e16:parg_d<17:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x12]
+}
+
+{
+  unspec_manner<0:3> ARG1 _win_v_1<17:21>  
+  unspec_manner<0:3> ARG2 manner<0:3>  
+  which_q<0:3> BV manner<0:3>  
+  _the_q<8:11> BV named<12:16>(West)  
+  _win_v_1<17:21> ARG2 named<12:16>(West)  
+  parg_d<17:21> ARG1 _win_v_1<17:21>  
+  parg_d<17:21> ARG2 named<12:16>(West)  
+  unspec_manner<0:3> SF prop  
+  unspec_manner<0:3> TENSE untensed  
+  unspec_manner<0:3> MOOD indicative  
+  unspec_manner<0:3> PROG -  
+  unspec_manner<0:3> PERF -  
+  named<12:16>(West) PERS 3  
+  named<12:16>(West) NUM sg  
+  named<12:16>(West) IND +  
+  _win_v_1<17:21> SF ques  
+  _win_v_1<17:21> TENSE past  
+  _win_v_1<17:21> MOOD indicative  
+  _win_v_1<17:21> PROG -  
+  _win_v_1<17:21> PERF -  
+  parg_d<17:21> SF prop  
+  parg_d<17:21> TENSE untensed  
+  parg_d<17:21> MOOD indicative  
+  parg_d<17:21> PROG -  
+  parg_d<17:21> PERF -  
+}
+

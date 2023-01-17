@@ -1,0 +1,199 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:08 h)).
+;;;
+
+[21327014] (1 of 1) {1} `She made money, but spent more.'
+
+[21327014:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "She", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <4:8>, 1, "made", 0, "null", "VBD" 0.8124 "VBN" 0.1876)
+  (3, 2, 3, <9:14>, 1, "money", 0, "null", "NN" 1.0)
+  (4, 3, 4, <14:15>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <16:19>, 1, "but", 0, "null", "CC" 1.0)
+  (6, 5, 6, <20:25>, 1, "spent", 0, "null", "VBD" 0.8779 "VBN" 0.1221)
+  (7, 6, 7, <26:30>, 1, "more", 0, "null", "JJR" 0.6959 "RBR" 0.3041)
+  (8, 7, 8, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (99, 0, 1, <0:3>, 1, "she", 0, "null")
+  (105, 0, 1, <0:3>, 1, "she", 0, "null")
+  (87, 1, 2, <4:8>, 1, "made", 0, "null")
+  (93, 1, 2, <4:8>, 1, "made", 0, "null", "VBD" 0.8124)
+  (97, 1, 2, <4:8>, 1, "made", 0, "null", "VBN" 0.1876)
+  (102, 1, 2, <4:8>, 1, "made", 0, "null")
+  (86, 2, 3, <9:15>, 1, "money,", 0, "null")
+  (96, 2, 3, <9:15>, 1, "money,", 0, "null", "NN" 1.0)
+  (101, 2, 3, <9:15>, 1, "money,", 0, "null")
+  (84, 3, 4, <16:19>, 1, "but", 0, "null")
+  (100, 3, 4, <16:19>, 1, "but", 0, "null")
+  (89, 4, 5, <20:25>, 1, "spent", 0, "null")
+  (94, 4, 5, <20:25>, 1, "spent", 0, "null", "VBD" 0.8779)
+  (98, 4, 5, <20:25>, 1, "spent", 0, "null", "VBN" 0.1221)
+  (103, 4, 5, <20:25>, 1, "spent", 0, "null")
+  (91, 5, 6, <26:31>, 1, "more.", 0, "null")
+  (95, 5, 6, <26:31>, 1, "more.", 0, "null", "JJR" 0.6959)
+  (104, 5, 6, <26:31>, 1, "more.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2697 SB-HD_MC_C 9.73678 0 6
+  (2683 HDN_BNP-QNT_C 0.403264 0 1
+   (106 she@n_-_pr-she_le 0.159776 0 1
+    ("she" 99
+     "token [ +CARG \"She\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"she\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (2696 ^VP-VP_CRD-FIN-T_C 8.51015 1 6
+   (2688 HD-CMP_U_C 3.56679 1 3
+    (2684 ^V_PST_OLR 1.91627 1 2
+     (162 make_v1@v_np_noarg3_le 1.22312 1 2
+      ("made" 87
+       "token [ +CARG #1=\"made\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81239799999999995\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2687 HDN_BNP_C 0.241063 2 3
+     (2686 W_COMMA_PLR 0.605852 2 3
+      (2685 N_MS-CNT_ILR 0.254791 2 3
+       (318 money_n1@n_-_mc_le 0 2 3
+        ("money," 86
+         "token [ +CARG \"money\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"money,\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (2695 ^MRK-NH_EVNT_C 3.78107 3 6
+    (331 but_conj@c_xp_but_le 1.4912 3 4
+     ("but" 84
+      "token [ +CARG #1=\"but\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2694 HD-CMP_U_C 0.419269 4 6
+     (2689 ^V_PST_OLR -0.228179 4 5
+      (349 spend_v1@v_np*_le -0.427406 4 5
+       ("spent" 89
+        "token [ +CARG #1=\"spent\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87793670000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2693 HDN_BNP-QNT_C 0.360633 5 6
+      (2692 NUM_PRT-NC_C 1.72212 5 6
+       (2691 HD_OPTCMP_C 0.996623 5 6
+        (2690 W_PERIOD_PLR 0.790901 5 6
+         (382 more_adj@aj_pp_i-more_le 0.209782 5 6
+          ("more." 91
+           "token [ +CARG \"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"more.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69592810000000005\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (NP "she"))
+ (VP (VP (V (V "made")) (NP (N (N (N "money,")))))
+  (VP-C (CONJ "but")
+   (VP (V (V "spent")) (NP (N (ADJ (ADJ (ADJ "more.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: F PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _make_v_1<4:8>
+            LBL: h9
+            ARG0: e11 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x12 [ x PERS: 3 NUM: SG ]
+            ARG3: u10 ]
+          [ udef_q<9:15>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ _money_n_1<9:15>
+            LBL: h16
+            ARG0: x12 ]
+          [ _but_c<16:19>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h9
+            L-INDEX: e11
+            R-HNDL: h18
+            R-INDEX: e17 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _spend_v_1<20:25>
+            LBL: h18
+            ARG0: e17
+            ARG1: x5
+            ARG2: x19 ]
+          [ generic_entity<26:31>
+            LBL: h20
+            ARG0: x19 ]
+          [ udef_q<26:31>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ much-many_a<26:31>
+            LBL: h20
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x19 ]
+          [ comp<26:31>
+            LBL: h20
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e24
+            ARG2: u25 ] >
+   HCONS: < h22 QEQ h20 h14 QEQ h16 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND f, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e11:_make_v_1<4:8>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x12]
+ _2:udef_q<9:15>[BV x12]
+ x12:_money_n_1<9:15>{x PERS 3, NUM sg}[]
+ e3:_but_c<16:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[L-HNDL e11, L-INDEX e11, R-HNDL e17, R-INDEX e17]
+ e17:_spend_v_1<20:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x19]
+ x19:generic_entity<26:31>{x}[]
+ _3:udef_q<26:31>[BV x19]
+ e24:much-many_a<26:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x19]
+ e26:comp<26:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e24]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _make_v_1<4:8> ARG1 pron<0:3>  
+  _make_v_1<4:8> ARG2 _money_n_1<9:15>  
+  udef_q<9:15> BV _money_n_1<9:15>  
+  _but_c<16:19> L-HNDL _make_v_1<4:8>  
+  _but_c<16:19> L-INDEX _make_v_1<4:8>  
+  _but_c<16:19> R-HNDL _spend_v_1<20:25>  
+  _but_c<16:19> R-INDEX _spend_v_1<20:25>  
+  _spend_v_1<20:25> ARG1 pron<0:3>  
+  _spend_v_1<20:25> ARG2 generic_entity<26:31>  
+  udef_q<26:31> BV generic_entity<26:31>  
+  much-many_a<26:31> ARG1 generic_entity<26:31>  
+  comp<26:31> ARG1 much-many_a<26:31>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND f  
+  pron<0:3> PT std  
+  _make_v_1<4:8> SF prop  
+  _make_v_1<4:8> TENSE past  
+  _make_v_1<4:8> MOOD indicative  
+  _make_v_1<4:8> PROG -  
+  _make_v_1<4:8> PERF -  
+  _money_n_1<9:15> PERS 3  
+  _money_n_1<9:15> NUM sg  
+  _but_c<16:19> SF prop  
+  _but_c<16:19> TENSE past  
+  _but_c<16:19> MOOD indicative  
+  _but_c<16:19> PROG -  
+  _but_c<16:19> PERF -  
+  _spend_v_1<20:25> SF prop  
+  _spend_v_1<20:25> TENSE past  
+  _spend_v_1<20:25> MOOD indicative  
+  _spend_v_1<20:25> PROG -  
+  _spend_v_1<20:25> PERF -  
+  much-many_a<26:31> SF prop  
+  much-many_a<26:31> TENSE untensed  
+  much-many_a<26:31> MOOD indicative  
+  much-many_a<26:31> PROG -  
+  much-many_a<26:31> PERF -  
+  comp<26:31> SF prop  
+  comp<26:31> TENSE untensed  
+  comp<26:31> MOOD indicative  
+  comp<26:31> PROG -  
+  comp<26:31> PERF -  
+}
+

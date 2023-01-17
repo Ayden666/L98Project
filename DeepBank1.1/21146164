@@ -1,0 +1,114 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146164] (1 of 1) {1} `Mr. Niciporuk sits.'
+
+[21146164:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:13>, 1, "Niciporuk", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:18>, 1, "sits", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <18:19>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (50, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (53, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (38, 1, 2, <4:13>, 1, "Niciporuk", 0, "null")
+  (47, 1, 2, <4:13>, 1, "Niciporuk", 0, "null", "NNP" 1.0)
+  (49, 1, 2, <4:13>, 1, "niciporuk", 0, "null")
+  (51, 1, 2, <4:13>, 1, "niciporuk", 0, "null")
+  (45, 2, 3, <14:19>, 1, "sits.", 0, "null")
+  (48, 2, 3, <14:19>, 1, "sits.", 0, "null", "VBZ" 1.0)
+  (52, 2, 3, <14:19>, 1, "sits.", 0, "null")
+>
+
+(ROOT_STRICT
+ (185 SB-HD_MC_C 3.02055 0 3
+  (182 HDN_BNP-PN_C 3.86187 0 2
+   (181 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (179 N_SG_ILR 2.02901 0 1
+     (61 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 50
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (180 ^N_SG_ILR -0.259177 1 2
+     (64 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Niciporuk" 38
+       "token [ +CARG #1=\"Niciporuk\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (184 ^W_PERIOD_PLR -0.856509 2 3
+   (183 V_3S-FIN_OLR 0.115433 2 3
+    (73 sit_v1@v_-_unacc_le 0 2 3
+     ("sits." 45
+      "token [ +CARG \"sits\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"sits.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Niciporuk")))) (VP (VP (V "sits."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:13>
+            LBL: h8
+            ARG0: x6
+            CARG: "Niciporuk" ]
+          [ _sit_v_1<14:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:13>("Niciporuk"){x PERS 3, NUM sg, IND +}[]
+ e3:_sit_v_1<14:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:13> BV named<4:13>(Niciporuk)  
+  compound<0:13> ARG1 named<4:13>(Niciporuk)  
+  compound<0:13> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _sit_v_1<14:19> ARG1 named<4:13>(Niciporuk)  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:13>(Niciporuk) PERS 3  
+  named<4:13>(Niciporuk) NUM sg  
+  named<4:13>(Niciporuk) IND +  
+  _sit_v_1<14:19> SF prop  
+  _sit_v_1<14:19> TENSE pres  
+  _sit_v_1<14:19> MOOD indicative  
+  _sit_v_1<14:19> PROG -  
+  _sit_v_1<14:19> PERF -  
+}
+

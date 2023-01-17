@@ -1,0 +1,114 @@
+;;;
+;;; Redwoods export of `wsj09b';
+;;; (wsun@wsun; 22-jan-2018 (18:39 h)).
+;;;
+
+[20955006] (1 of 1) {1} `It won't happen again.'
+
+[20955006:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:5>, 1, "wo", 0, "null", "MD" 1.0)
+  (3, 2, 3, <5:8>, 1, "n’t", 0, "null", "RB" 0.4305 "NN" 0.3069 "VB" 0.2364 "JJS" 0.0261)
+  (4, 3, 4, <9:15>, 1, "happen", 0, "null", "VB" 0.9867 "VBP" 0.0133)
+  (5, 4, 5, <16:21>, 1, "again", 0, "null", "RB" 1.0)
+  (6, 5, 6, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:2>, 1, "it", 0, "null")
+  (68, 0, 1, <0:2>, 1, "it", 0, "null")
+  (57, 1, 2, <3:8>, 1, "won’t", 0, "null")
+  (65, 1, 2, <3:8>, 1, "won’t", 0, "null")
+  (60, 2, 3, <9:15>, 1, "happen", 0, "null")
+  (62, 2, 3, <9:15>, 1, "happen", 0, "null", "VB" 0.9867)
+  (67, 2, 3, <9:15>, 1, "happen", 0, "null")
+  (59, 3, 4, <16:22>, 1, "again.", 0, "null")
+  (63, 3, 4, <16:22>, 1, "again.", 0, "null", "RB" 1.0)
+  (66, 3, 4, <16:22>, 1, "again.", 0, "null")
+>
+
+(ROOT_STRICT
+ (351 SB-HD_MC_C 3.57433 0 4
+  (346 HDN_BNP-QNT_C 0.430464 0 1
+   (70 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 64
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (350 ^HD-CMP_U_C 1.87451 1 4
+   (84 will_aux_neg_3_u@v_vp_will-n_le -0.028258 1 2
+    ("won’t" 57
+     "token [ +CARG #1=\"won’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (349 HD-AJ_INT-UNSL_C 1.89011 2 4
+    (347 ^V_N3S-BSE_ILR 0.201583 2 3
+     (88 happen_v1@v_-_unacc_le 0 2 3
+      ("happen" 60
+       "token [ +CARG #1=\"happen\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98671149999999996\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (348 W_PERIOD_PLR 1.31625 3 4
+     (94 again_adv1@av_-_i-vp_le 0 3 4
+      ("again." 59
+       "token [ +CARG \"again\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"again.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "it"))
+ (VP (V "won’t") (VP (VP (V "happen")) (ADV (ADV "again.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<3:8>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _happen_v_1<9:15>
+            LBL: h11
+            ARG0: e3
+            ARG1: x5 ]
+          [ _again_a_1<16:22>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e10:neg<3:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_happen_v_1-fn.Event<9:15>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e12:_again_a_1<16:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  neg<3:8> ARG1 _happen_v_1<9:15>  
+  _happen_v_1<9:15> ARG1 pron<0:2>  
+  _again_a_1<16:22> ARG1 _happen_v_1<9:15>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  neg<3:8> SF prop  
+  neg<3:8> TENSE untensed  
+  neg<3:8> MOOD indicative  
+  neg<3:8> PROG -  
+  neg<3:8> PERF -  
+  _happen_v_1<9:15> SF prop  
+  _happen_v_1<9:15> TENSE fut  
+  _happen_v_1<9:15> MOOD indicative  
+  _happen_v_1<9:15> PROG -  
+  _happen_v_1<9:15> PERF -  
+  _again_a_1<16:22> SF prop  
+  _again_a_1<16:22> TENSE untensed  
+  _again_a_1<16:22> MOOD indicative  
+  _again_a_1<16:22> PROG -  
+  _again_a_1<16:22> PERF -  
+}
+

@@ -1,0 +1,89 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:33 h)).
+;;;
+
+[21574085] (1 of 1) {1} `Well, not yet.'
+
+[21574085:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Well", 0, "null", "RB" 0.8435 "UH" 0.1407 "NNP" 0.0157)
+  (2, 1, 2, <4:5>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <6:9>, 1, "not", 0, "null", "RB" 1.0)
+  (4, 3, 4, <10:13>, 1, "yet", 0, "null", "RB" 1.0)
+  (5, 4, 5, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (58, 0, 1, <0:5>, 1, "Well,", 0, "null", "RB" 0.8435)
+  (61, 0, 1, <0:5>, 1, "well,", 0, "null")
+  (64, 0, 1, <0:5>, 1, "well,", 0, "null")
+  (53, 1, 2, <6:9>, 1, "not", 0, "null")
+  (59, 1, 2, <6:9>, 1, "not", 0, "null", "RB" 1.0)
+  (62, 1, 2, <6:9>, 1, "not", 0, "null")
+  (55, 2, 3, <10:14>, 1, "yet.", 0, "null")
+  (60, 2, 3, <10:14>, 1, "yet.", 0, "null", "RB" 1.0)
+  (63, 2, 3, <10:14>, 1, "yet.", 0, "null")
+>
+
+(ROOT_FRAG
+ (454 AJ-HD_SCP_C 2.85858 0 3
+  (451 W_COMMA_PLR 2.85858 0 1
+   (83 well_s_adv@av_-_s-cp-mc-pr_le 0 0 1
+    ("well," 61
+     "token [ +CARG \"Well\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"well,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84353100000000003\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (453 ^R_SCP-FRG_C 0 1 3
+   (452 W_PERIOD_PLR 0 1 3
+    (290 not_yet_adv1@av_-_s-not_le 0 1 3
+     ("not yet." 53
+      "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      55
+      "token [ +CARG \"yet\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"yet.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (ADV (ADV "well,")) (XP (ADV (ADV "not yet."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _well_a_1<0:5>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ unknown<6:14>
+            LBL: h6
+            ARG0: e3
+            ARG: u7 ]
+          [ _not+yet_a_1<6:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ] >
+   HCONS: < h9 QEQ h6 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e5:
+ e5:_well_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e10]
+ e3:unknown<6:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e10:_not+yet_a_1<6:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _well_a_1<0:5> ARG1 _not+yet_a_1<6:14>  
+  _not+yet_a_1<6:14> ARG1 unknown<6:14>  
+  _well_a_1<0:5> SF prop  
+  _well_a_1<0:5> TENSE untensed  
+  _well_a_1<0:5> MOOD indicative  
+  _well_a_1<0:5> PROG -  
+  _well_a_1<0:5> PERF -  
+  unknown<6:14> SF prop  
+  unknown<6:14> TENSE untensed  
+  unknown<6:14> MOOD indicative  
+  unknown<6:14> PROG -  
+  unknown<6:14> PERF -  
+  _not+yet_a_1<6:14> SF prop  
+  _not+yet_a_1<6:14> TENSE untensed  
+  _not+yet_a_1<6:14> MOOD indicative  
+  _not+yet_a_1<6:14> PROG -  
+  _not+yet_a_1<6:14> PERF -  
+}
+

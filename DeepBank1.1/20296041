@@ -1,0 +1,135 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:49 h)).
+;;;
+
+[20296041] (1 of 1) {1} `They did me some good.'
+
+[20296041:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:8>, 1, "did", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <9:11>, 1, "me", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <12:16>, 1, "some", 0, "null", "DT" 0.7203 "RB" 0.2797)
+  (5, 4, 5, <17:21>, 1, "good", 0, "null", "JJ" 0.888 "NN" 0.112)
+  (6, 5, 6, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:4>, 1, "they", 0, "null")
+  (79, 0, 1, <0:4>, 1, "they", 0, "null")
+  (63, 1, 2, <5:8>, 1, "did", 0, "null")
+  (71, 1, 2, <5:8>, 1, "did", 0, "null", "VBD" 1.0)
+  (75, 1, 2, <5:8>, 1, "did", 0, "null")
+  (65, 2, 3, <9:11>, 1, "me", 0, "null")
+  (76, 2, 3, <9:11>, 1, "me", 0, "null")
+  (66, 3, 4, <12:16>, 1, "some", 0, "null")
+  (72, 3, 4, <12:16>, 1, "some", 0, "null", "RB" 0.2797)
+  (77, 3, 4, <12:16>, 1, "some", 0, "null")
+  (68, 4, 5, <17:22>, 1, "good.", 0, "null")
+  (70, 4, 5, <17:22>, 1, "good.", 0, "null", "JJ" 0.888)
+  (73, 4, 5, <17:22>, 1, "good.", 0, "null", "NN" 0.112)
+  (78, 4, 5, <17:22>, 1, "good.", 0, "null")
+>
+
+(ROOT_STRICT
+ (544 SB-HD_MC_C 3.90953 0 5
+  (536 HDN_BNP-QNT_C 1.15641 0 1
+   (80 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 74
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (543 ^HD-CMP_U_C 1.48376 1 5
+   (539 ^HD-CMP_U_C -0.836219 1 3
+    (537 ^V_PST_OLR -1.84011 1 2
+     (110 do_v4@v_np-np_only_le -0.729847 1 2
+      ("did" 63
+       "token [ +CARG #1=\"did\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (538 HDN_BNP-QNT_C -0.047645 2 3
+     (134 me@n_-_pr-me_le -0.186909 2 3
+      ("me" 65
+       "token [ +CARG #1=\"me\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (542 SP-HD_N_C 2.09718 3 5
+    (135 some@d_-_prt-div_le 0.513897 3 4
+     ("some" 66
+      "token [ +CARG #1=\"some\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72029799999999999\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (541 ^W_PERIOD_PLR 0.282279 4 5
+     (540 N_MS_ILR -0.345052 4 5
+      (148 good_n1@n_-_m-nocnh_le 0 4 5
+       ("good." 68
+        "token [ +CARG \"good\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"good.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88801399999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "they"))
+ (VP (V (V (V "did")) (NP (NP "me")))
+  (NP (DET "some") (N (N (N "good."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _do_v_1<5:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            ARG3: x9 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pron<9:11>
+            LBL: h11
+            ARG0: x9 ]
+          [ pronoun_q<9:11>
+            LBL: h12
+            ARG0: x9
+            RSTR: h13
+            BODY: h14 ]
+          [ _some_q<12:16>
+            LBL: h15
+            ARG0: x10
+            RSTR: h16
+            BODY: h17 ]
+          [ _good_n_1<17:22>
+            LBL: h18
+            ARG0: x10 ] >
+   HCONS: < h16 QEQ h18 h13 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_do_v_1<5:8>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10, ARG3 x9]
+ x9:pron<9:11>{x PERS 1, NUM sg, PT std}[]
+ _2:pronoun_q<9:11>[BV x9]
+ _3:_some_q<12:16>[BV x10]
+ x10:_good_n_1<17:22>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _do_v_1<5:8> ARG1 pron<0:4>  
+  _do_v_1<5:8> ARG2 _good_n_1<17:22>  
+  _do_v_1<5:8> ARG3 pron<9:11>  
+  pronoun_q<9:11> BV pron<9:11>  
+  _some_q<12:16> BV _good_n_1<17:22>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _do_v_1<5:8> SF prop  
+  _do_v_1<5:8> TENSE past  
+  _do_v_1<5:8> MOOD indicative  
+  _do_v_1<5:8> PROG -  
+  _do_v_1<5:8> PERF -  
+  pron<9:11> PERS 1  
+  pron<9:11> NUM sg  
+  pron<9:11> PT std  
+  _good_n_1<17:22> PERS 3  
+  _good_n_1<17:22> NUM sg  
+  _good_n_1<17:22> GEND n  
+  _good_n_1<17:22> IND -  
+}
+

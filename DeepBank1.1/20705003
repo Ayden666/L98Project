@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:46 h)).
+;;;
+
+[20705003] (1 of 1) {1} `Terms weren't disclosed.'
+
+[20705003:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Terms", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <6:10>, 1, "were", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <10:13>, 1, "n’t", 0, "null", "RB" 0.3572 "NN" 0.2501 "VBN" 0.1492 "JJ" 0.0946 "VB" 0.0607 "VBP" 0.0559 "JJS" 0.0159 "VBD" 0.0103 "RBS" 0.0061)
+  (4, 3, 4, <14:23>, 1, "disclosed", 0, "null", "VBN" 0.7681 "VBD" 0.2319)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:5>, 1, "Terms", 0, "null", "NNS" 1.0)
+  (55, 0, 1, <0:5>, 1, "terms", 0, "null")
+  (58, 0, 1, <0:5>, 1, "terms", 0, "null")
+  (48, 1, 2, <6:13>, 1, "weren’t", 0, "null")
+  (53, 1, 2, <6:13>, 1, "weren’t", 0, "null", "VBD" 1.0)
+  (56, 1, 2, <6:13>, 1, "weren’t", 0, "null")
+  (49, 2, 3, <14:24>, 1, "disclosed.", 0, "null")
+  (51, 2, 3, <14:24>, 1, "disclosed.", 0, "null", "VBN" 0.7681)
+  (54, 2, 3, <14:24>, 1, "disclosed.", 0, "null", "VBD" 0.2319)
+  (57, 2, 3, <14:24>, 1, "disclosed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (781 SB-HD_MC_C 3.07358 0 3
+  (775 HDN_BNP_C 0.390435 0 1
+   (774 HDN_OPTCMP_C 0.10844 0 1
+    (773 N_PL_OLR 0.531364 0 1
+     (69 term_n1@n_pp_c-of_le 0.0126078 0 1
+      ("terms" 55
+       "token [ +CARG \"Terms\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"terms\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (780 ^HD-CMP_U_C 1.16724 1 3
+   (94 be_c_were_neg_3_u@v_prd_wre-n_le 0.39706 1 2
+    ("weren’t" 48
+     "token [ +CARG #1=\"weren’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (779 HD_OPTCMP_C 0.55611 2 3
+    (778 HD_OPTCMP_C 1.23222 2 3
+     (777 W_PERIOD_PLR 0.256666 2 3
+      (776 V_PAS_ODLR 0.219307 2 3
+       (118 disclose_v1@v_np-pp*_to_le 0 2 3
+        ("disclosed." 49
+         "token [ +CARG \"disclosed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"disclosed.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.76808620000000005\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "terms"))))
+ (VP (V "weren’t") (VP (V (V (V (V "disclosed.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _term_n_of<0:5>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ neg<6:13>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h10 ]
+          [ _disclose_v_to<14:24>
+            LBL: h12
+            ARG0: e3
+            ARG1: i13
+            ARG2: x6
+            ARG3: i14 ]
+          [ parg_d<14:24>
+            LBL: h12
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h10 QEQ h12 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e11:
+ _1:udef_q<0:5>[BV x6]
+ x6:_term_n_of<0:5>{x PERS 3, NUM pl, IND +}[]
+ e11:neg<6:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_disclose_v_to-fn.Reveal_secret<14:24>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2-fn.Information x6]
+ e15:parg_d<14:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:5> BV _term_n_of<0:5>  
+  neg<6:13> ARG1 _disclose_v_to<14:24>  
+  _disclose_v_to<14:24> ARG2 _term_n_of<0:5>  
+  parg_d<14:24> ARG1 _disclose_v_to<14:24>  
+  parg_d<14:24> ARG2 _term_n_of<0:5>  
+  _term_n_of<0:5> PERS 3  
+  _term_n_of<0:5> NUM pl  
+  _term_n_of<0:5> IND +  
+  neg<6:13> SF prop  
+  neg<6:13> TENSE untensed  
+  neg<6:13> MOOD indicative  
+  neg<6:13> PROG -  
+  neg<6:13> PERF -  
+  _disclose_v_to<14:24> SF prop  
+  _disclose_v_to<14:24> TENSE past  
+  _disclose_v_to<14:24> MOOD indicative  
+  _disclose_v_to<14:24> PROG -  
+  _disclose_v_to<14:24> PERF -  
+  parg_d<14:24> SF prop  
+  parg_d<14:24> TENSE untensed  
+  parg_d<14:24> MOOD indicative  
+  parg_d<14:24> PROG -  
+  parg_d<14:24> PERF -  
+}
+

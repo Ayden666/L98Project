@@ -1,0 +1,83 @@
+;;;
+;;; Redwoods export of `wsj15b';
+;;; (wsun@wsun; 23-jan-2018 (00:13 h)).
+;;;
+
+[21540027] (1 of 1) {1} `Stocks:'
+
+[21540027:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Stocks", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <6:7>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (23, 0, 1, <0:6>, 1, "Stocks", 0, "null", "NNS" 1.0)
+  (24, 0, 1, <0:6>, 1, "stocks", 0, "null")
+  (26, 0, 1, <0:6>, 1, "stocks", 0, "null")
+  (22, 1, 2, <6:7>, 1, ":", 0, "null")
+  (25, 1, 2, <6:7>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (135 NP_FRG_C 1.42843 0 2
+  (134 HDN_BNP_C 1.63285 0 2
+   (133 HDN-AJ_REDREL_C 1.72824 0 2
+    (132 ^N_PL_OLR 0.907256 0 1
+     (34 stock_n1@n_-_mc_le 0.570261 0 1
+      ("stocks" 24
+       "token [ +CARG \"Stocks\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"stocks\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (63 colon_namely_pp@pp_-_i-cln_le -0.0322658 1 2
+     (":" 22
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (N "stocks")) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:7>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _stock_n_1<0:6>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<6:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:7>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:7>[BV x4]
+ x4:_stock_n_1<0:6>{x PERS 3, NUM pl}[]
+ e9:_colon_p_namely<6:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:7> ARG _stock_n_1<0:6>  
+  udef_q<0:7> BV _stock_n_1<0:6>  
+  _colon_p_namely<6:7> ARG1 _stock_n_1<0:6>  
+  unknown<0:7> SF prop-or-ques  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _stock_n_1<0:6> PERS 3  
+  _stock_n_1<0:6> NUM pl  
+  _colon_p_namely<6:7> SF prop  
+  _colon_p_namely<6:7> TENSE untensed  
+  _colon_p_namely<6:7> MOOD indicative  
+  _colon_p_namely<6:7> PROG -  
+  _colon_p_namely<6:7> PERF -  
+}
+

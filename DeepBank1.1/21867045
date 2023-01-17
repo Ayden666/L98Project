@@ -1,0 +1,142 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:36 h)).
+;;;
+
+[21867045] (1 of 1) {1} `Aegon N.V. (Netherlands) --'
+
+[21867045:2] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Aegon", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:10>, 1, "N.V.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:12>, 1, "(", 0, "null", "(" 1.0)
+  (4, 3, 4, <12:23>, 1, "Netherlands", 0, "null", "NNP" 0.9134 "NNPS" 0.0866)
+  (5, 4, 5, <23:24>, 1, ")", 0, "null", ")" 1.0)
+  (6, 5, 6, <25:27>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (73, 0, 1, <0:5>, 1, "Aegon", 0, "null")
+  (76, 0, 1, <0:5>, 1, "aegon", 0, "null")
+  (82, 0, 1, <0:5>, 1, "aegon", 0, "null")
+  (58, 1, 2, <6:10>, 1, "N.V.", 0, "null")
+  (75, 1, 2, <6:10>, 1, "N.V.", 0, "null", "NNP" 1.0)
+  (77, 1, 2, <6:10>, 1, "n.v.", 0, "null")
+  (79, 1, 2, <6:10>, 1, "n.v.", 0, "null")
+  (62, 2, 3, <11:24>, 1, "(Netherlands)", 0, "null")
+  (74, 2, 3, <11:24>, 1, "(Netherlands)", 0, "null", "NNP" 0.9134)
+  (78, 2, 3, <11:24>, 1, "(netherlands)", 0, "null")
+  (80, 2, 3, <11:24>, 1, "(netherlands)", 0, "null")
+  (70, 3, 4, <25:27>, 1, "–", 0, "null")
+  (81, 3, 4, <25:27>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (604 NP_FRG_C 5.01386 0 4
+  (603 HDN-N_PRNTH_C 4.87209 0 4
+   (602 ^HDN_BNP-PN_C 1.45136 0 2
+    (601 HDN-AJ_REDREL_C 0.865437 0 2
+     (584 ^N_SG_ILR -0.386912 0 1
+      (85 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Aegon" 73
+        "token [ +CARG #1=\"Aegon\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (95 nv_post_ttl_2@n_-_tt-post-npt_le 0 1 2
+      ("n.v." 77
+       "token [ +CARG \"N.V.\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"n.v.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (593 HD-PCT_C 3.13881 2 4
+    (592 ^W_LPAREN_PLR 1.11353 2 3
+     (591 W_RPAREN_PLR 1.07275 2 3
+      (590 N_SG_ILR 0.11766 2 3
+       (124 netherlands_n1@n_-_c-nm_le 0 2 3
+        ("(netherlands)" 78
+         "token [ +CARG \"Netherlands\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(netherlands)\" +FROM \"11\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91337840000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"12\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (133 s_dbl_dash_pct@pt_-_s-dash_le 1.48236 3 4
+     ("–" 70
+      "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP (NP (N (N (N "Aegon")) (N "n.v.")))
+  (N (N (N (N (N "(netherlands)")))) (PNCT "–"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:27>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ parenthetical<0:27>
+            LBL: h2
+            ARG0: i6
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<11:27>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ proper_q<0:10>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ named<0:5>
+            LBL: h13
+            ARG0: x4
+            CARG: "Aegon" ]
+          [ _nv_n_1<6:10>
+            LBL: h14
+            ARG0: x15 [ x IND: + ] ]
+          [ udef_q<6:10>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<6:10>
+            LBL: h13
+            ARG0: i19
+            ARG1: x4
+            ARG2: x15 ]
+          [ named_n<11:24>
+            LBL: h20
+            ARG0: x5
+            CARG: "Netherlands" ] >
+   HCONS: < h17 QEQ h14 h11 QEQ h13 h8 QEQ h20 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:27>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ i6:parenthetical<0:27>{i}[ARG1 x4, ARG2 x5]
+ _1:udef_q<11:27>[BV x5]
+ _2:proper_q<0:10>[BV x4]
+ x4:named<0:5>("Aegon"){x PERS 3, NUM sg, IND +}[]
+ x15:_nv_n_1<6:10>{x IND +}[]
+ _3:udef_q<6:10>[BV x15]
+ i19:compound<6:10>{i}[ARG1 x4, ARG2 x15]
+ x5:named_n<11:24>("Netherlands"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:27> ARG named<0:5>(Aegon)  
+  parenthetical<0:27> ARG1 named<0:5>(Aegon)  
+  parenthetical<0:27> ARG2 named_n<11:24>(Netherlands)  
+  udef_q<11:27> BV named_n<11:24>(Netherlands)  
+  proper_q<0:10> BV named<0:5>(Aegon)  
+  udef_q<6:10> BV _nv_n_1<6:10>  
+  compound<6:10> ARG1 named<0:5>(Aegon)  
+  compound<6:10> ARG2 _nv_n_1<6:10>  
+  unknown<0:27> SF prop-or-ques  
+  unknown<0:27> TENSE untensed  
+  unknown<0:27> MOOD indicative  
+  unknown<0:27> PROG -  
+  unknown<0:27> PERF -  
+  named<0:5>(Aegon) PERS 3  
+  named<0:5>(Aegon) NUM sg  
+  named<0:5>(Aegon) IND +  
+  _nv_n_1<6:10> IND +  
+  named_n<11:24>(Netherlands) PERS 3  
+  named_n<11:24>(Netherlands) NUM sg  
+  named_n<11:24>(Netherlands) IND +  
+}
+

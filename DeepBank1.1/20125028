@@ -1,0 +1,146 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:12 h)).
+;;;
+
+[20125028] (1 of 1) {1} `Heiwado Co. (Japan) --'
+
+[20125028:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Heiwado", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:11>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:13>, 1, "(", 0, "null", "(" 1.0)
+  (4, 3, 4, <13:18>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <18:19>, 1, ")", 0, "null", ")" 1.0)
+  (6, 5, 6, <20:22>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (71, 0, 1, <0:7>, 1, "Heiwado", 0, "null")
+  (75, 0, 1, <0:7>, 1, "heiwado", 0, "null")
+  (80, 0, 1, <0:7>, 1, "heiwado", 0, "null")
+  (58, 1, 2, <8:11>, 1, "Co.", 0, "null")
+  (72, 1, 2, <8:11>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (74, 1, 2, <8:11>, 1, "co.", 0, "null")
+  (77, 1, 2, <8:11>, 1, "co.", 0, "null")
+  (62, 2, 3, <12:19>, 1, "(Japan)", 0, "null")
+  (73, 2, 3, <12:19>, 1, "(Japan)", 0, "null", "NNP" 1.0)
+  (76, 2, 3, <12:19>, 1, "(japan)", 0, "null")
+  (78, 2, 3, <12:19>, 1, "(japan)", 0, "null")
+  (68, 3, 4, <20:22>, 1, "–", 0, "null")
+  (79, 3, 4, <20:22>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (481 NP_FRG_C 5.50675 0 4
+  (480 HDN-N_PRNTH_C 5.36498 0 4
+   (475 ^HDN_BNP-PN_C 2.79187 0 2
+    (474 HDN-AJ_REDREL_C 2.20595 0 2
+     (471 ^N_SG_ILR -0.748959 0 1
+      (83 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Heiwado" 71
+        "token [ +CARG #1=\"Heiwado\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (473 W_PERIOD_PLR 2.36284 1 2
+      (472 N_SG_ILR 1.30395 1 2
+       (94 co_post_ttl@n_-_tt-post_le 1.97728 1 2
+        ("co." 74
+         "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (479 HD-PCT_C 2.29119 2 4
+    (478 ^W_LPAREN_PLR 0.26591 2 3
+     (477 W_RPAREN_PLR 0.225132 2 3
+      (476 N_SG_ILR -0.729962 2 3
+       (126 japan_n1@n_-_pn_le 0 2 3
+        ("(japan)" 76
+         "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(japan)\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"13\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (133 s_dbl_dash_pct@pt_-_s-dash_le 1.48236 3 4
+     ("–" 68
+      "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP (NP (N (N (N "Heiwado")) (N (N (N "co.")))))
+  (N (N (N (N (N "(japan)")))) (PNCT "–"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ parenthetical<0:22>
+            LBL: h2
+            ARG0: i6
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<12:22>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ proper_q<0:11>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ named<0:7>
+            LBL: h13
+            ARG0: x4
+            CARG: "Heiwado" ]
+          [ _company_n_1<8:11>
+            LBL: h14
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<8:11>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<8:11>
+            LBL: h13
+            ARG0: i19
+            ARG1: x4
+            ARG2: x15 ]
+          [ named<12:19>
+            LBL: h20
+            ARG0: x5
+            CARG: "Japan" ] >
+   HCONS: < h17 QEQ h14 h11 QEQ h13 h8 QEQ h20 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ i6:parenthetical<0:22>{i}[ARG1 x4, ARG2 x5]
+ _1:udef_q<12:22>[BV x5]
+ _2:proper_q<0:11>[BV x4]
+ x4:named<0:7>("Heiwado"){x PERS 3, NUM sg, IND +}[]
+ x15:_company_n_1<8:11>{x PERS 3, NUM sg, IND +}[]
+ _3:udef_q<8:11>[BV x15]
+ i19:compound<8:11>{i}[ARG1 x4, ARG2 x15]
+ x5:named<12:19>("Japan"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:22> ARG named<0:7>(Heiwado)  
+  parenthetical<0:22> ARG1 named<0:7>(Heiwado)  
+  parenthetical<0:22> ARG2 named<12:19>(Japan)  
+  udef_q<12:22> BV named<12:19>(Japan)  
+  proper_q<0:11> BV named<0:7>(Heiwado)  
+  udef_q<8:11> BV _company_n_1<8:11>  
+  compound<8:11> ARG1 named<0:7>(Heiwado)  
+  compound<8:11> ARG2 _company_n_1<8:11>  
+  unknown<0:22> SF prop-or-ques  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  named<0:7>(Heiwado) PERS 3  
+  named<0:7>(Heiwado) NUM sg  
+  named<0:7>(Heiwado) IND +  
+  _company_n_1<8:11> PERS 3  
+  _company_n_1<8:11> NUM sg  
+  _company_n_1<8:11> IND +  
+  named<12:19>(Japan) PERS 3  
+  named<12:19>(Japan) NUM sg  
+  named<12:19>(Japan) IND +  
+}
+

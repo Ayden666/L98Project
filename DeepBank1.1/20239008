@@ -1,0 +1,97 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:13 h)).
+;;;
+
+[20239008] (1 of 1) {1} `In France??!!"'
+
+[20239008:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "In", 0, "null", "IN" 0.9792 "NNP" 0.0208)
+  (2, 1, 2, <3:9>, 1, "France", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:10>, 1, "?", 0, "null", "." 1.0)
+  (4, 3, 4, <10:11>, 1, "?", 0, "null", "." 1.0)
+  (5, 4, 5, <11:12>, 1, "!", 0, "null", "." 1.0)
+  (6, 5, 6, <12:13>, 1, "!", 0, "null", "." 1.0)
+  (7, 6, 7, <13:14>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (84, 0, 1, <0:2>, 1, "in", 0, "null")
+  (87, 0, 1, <0:2>, 1, "in", 0, "null")
+  (75, 1, 2, <3:14>, 1, "France??!!”", 0, "null")
+  (82, 1, 2, <3:14>, 1, "France??!!”", 0, "null", "NNP" 1.0)
+  (83, 1, 2, <3:14>, 1, "france??!!”", 0, "null")
+  (85, 1, 2, <3:14>, 1, "france??!!”", 0, "null")
+>
+
+(ROOT_FRAG
+ (309 PP_FRG_C -1.93085 0 2
+  (308 HD-CMP_U_C -0.682928 0 2
+   (107 in@p_np_i-reg_le -0.506063 0 1
+    ("in" 84
+     "token [ +CARG \"In\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"in\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97919239999999996\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (307 HDN_BNP-PN_C -0.374983 1 2
+    (306 W_DQRIGHT_PLR -0.418865 1 2
+     (305 W_QMARK-BANG_PLR -0.418865 1 2
+      (304 W_QMARK-BANG_PLR -0.418865 1 2
+       (303 W_QQMARK_PLR -0.418865 1 2
+        (302 W_QMARK_PLR -0.418865 1 2
+         (301 N_SG_ILR -0.6713 1 2
+          (186 france_n1@n_-_pn_le 0 1 2
+           ("france??!!”" 83
+            "token [ +CARG \"France\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"france??!!”\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(XP (PP (P "in") (NP (N (N (N (N (N (N (N "france??!!”"))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _in_p<0:2>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:14>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ named<3:14>
+            LBL: h10
+            ARG0: x6
+            CARG: "France" ] >
+   HCONS: < h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_in_p<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:proper_q<3:14>[BV x6]
+ x6:named<3:14>("France"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _in_p<0:2> ARG1 unknown<0:14>  
+  _in_p<0:2> ARG2 named<3:14>(France)  
+  proper_q<3:14> BV named<3:14>(France)  
+  unknown<0:14> SF ques  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  _in_p<0:2> SF prop  
+  _in_p<0:2> TENSE untensed  
+  _in_p<0:2> MOOD indicative  
+  _in_p<0:2> PROG -  
+  _in_p<0:2> PERF -  
+  named<3:14>(France) PERS 3  
+  named<3:14>(France) NUM sg  
+  named<3:14>(France) IND +  
+}
+

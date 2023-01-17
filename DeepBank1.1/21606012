@@ -1,0 +1,166 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (01:03 h)).
+;;;
+
+[21606012] (1 of 1) {1} `Western Digital doesn't make the monitors.'
+
+[21606012:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Western", 0, "null", "NNP" 0.9821 "JJ" 0.0179)
+  (2, 1, 2, <8:15>, 1, "Digital", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <16:20>, 1, "does", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <20:23>, 1, "n’t", 0, "null", "RB" 0.5476 "JJ" 0.2492 "NN" 0.1178 "VBN" 0.0512 "VB" 0.0222 "JJS" 0.012)
+  (5, 4, 5, <24:28>, 1, "make", 0, "null", "VB" 0.9355 "VBP" 0.0645)
+  (6, 5, 6, <29:32>, 1, "the", 0, "null", "DT" 1.0)
+  (7, 6, 7, <33:41>, 1, "monitors", 0, "null", "NNS" 0.9692 "VBZ" 0.0308)
+  (8, 7, 8, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (90, 0, 1, <0:7>, 1, "Western", 0, "null")
+  (96, 0, 1, <0:7>, 1, "western", 0, "null")
+  (102, 0, 1, <0:7>, 1, "western", 0, "null")
+  (70, 1, 2, <8:15>, 1, "Digital", 0, "null")
+  (93, 1, 2, <8:15>, 1, "Digital", 0, "null", "NNP" 1.0)
+  (95, 1, 2, <8:15>, 1, "digital", 0, "null")
+  (97, 1, 2, <8:15>, 1, "digital", 0, "null")
+  (83, 2, 3, <16:23>, 1, "doesn’t", 0, "null")
+  (94, 2, 3, <16:23>, 1, "doesn’t", 0, "null", "VBZ" 1.0)
+  (99, 2, 3, <16:23>, 1, "doesn’t", 0, "null")
+  (86, 3, 4, <24:28>, 1, "make", 0, "null")
+  (91, 3, 4, <24:28>, 1, "make", 0, "null", "VB" 0.9355)
+  (100, 3, 4, <24:28>, 1, "make", 0, "null")
+  (81, 4, 5, <29:32>, 1, "the", 0, "null")
+  (98, 4, 5, <29:32>, 1, "the", 0, "null")
+  (88, 5, 6, <33:42>, 1, "monitors.", 0, "null")
+  (92, 5, 6, <33:42>, 1, "monitors.", 0, "null", "NNS" 0.9692)
+  (101, 5, 6, <33:42>, 1, "monitors.", 0, "null")
+>
+
+(ROOT_STRICT
+ (790 SB-HD_MC_C 8.71047 0 6
+  (789 HDN_BNP_C 1.22904 0 2
+   (788 NP-HDN_CPD_C 1.95234 0 2
+    (786 HDN_BNP-PN_C 0.485114 0 1
+     (104 generic_proper_ne@n_-_pn-gen_le 0.924276 0 1
+      ("Western" 90
+       "token [ +CARG #1=\"Western\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9820719\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (787 ^N_MS-CNT_ILR 0.778333 1 2
+     (115 digital_n1@n_-_mc-nocnh_le 0.171027 1 2
+      ("digital" 95
+       "token [ +CARG \"Digital\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"digital\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (784 ^HD-CMP_U_C 5.96553 2 6
+   (116 does1_neg_3_u@v_vp_does-n_le 1.01912 2 3
+    ("doesn’t" 83
+     "token [ +CARG #1=\"doesn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (783 HD-CMP_U_C 3.98494 3 6
+    (779 ^V_N3S-BSE_ILR 0.736324 3 4
+     (132 make_v1@v_np_noarg3_le 0.654159 3 4
+      ("make" 86
+       "token [ +CARG #1=\"make\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93552849999999999\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (782 SP-HD_N_C 2.32711 4 6
+     (155 the_1@d_-_the_le 1.07131 4 5
+      ("the" 81
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (781 ^W_PERIOD_PLR 0.261218 5 6
+      (780 N_PL_OLR 0.342144 5 6
+       (180 monitor_n1@n_-_c_le 0 5 6
+        ("monitors." 88
+         "token [ +CARG \"monitors\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"monitors.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96921789999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (NP (N "Western")) (N (N "digital"))))
+ (VP (V "doesn’t")
+  (VP (V (V "make")) (NP (DET "the") (N (N (N "monitors.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "Western" ]
+          [ _digital_n_1<8:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<16:23>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _make_v_1<24:28>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6
+            ARG2: x19 [ x PERS: 3 NUM: PL IND: + ]
+            ARG3: u18 ]
+          [ _the_q<29:32>
+            LBL: h20
+            ARG0: x19
+            RSTR: h22
+            BODY: h21 ]
+          [ _monitor_n_1<33:42>
+            LBL: h23
+            ARG0: x19 ] >
+   HCONS: < h22 QEQ h23 h15 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:udef_q<0:15>[BV x6]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:7>[BV x9]
+ x9:named<0:7>("Western"){x IND +}[]
+ x6:_digital_n_1<8:15>{x PERS 3, NUM sg}[]
+ e16:neg<16:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_make_v_1<24:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x19]
+ _3:_the_q<29:32>[BV x19]
+ x19:_monitor_n_1<33:42>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:15> BV _digital_n_1<8:15>  
+  compound<0:15> ARG1 _digital_n_1<8:15>  
+  compound<0:15> ARG2 named<0:7>(Western)  
+  proper_q<0:7> BV named<0:7>(Western)  
+  neg<16:23> ARG1 _make_v_1<24:28>  
+  _make_v_1<24:28> ARG1 _digital_n_1<8:15>  
+  _make_v_1<24:28> ARG2 _monitor_n_1<33:42>  
+  _the_q<29:32> BV _monitor_n_1<33:42>  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  named<0:7>(Western) IND +  
+  _digital_n_1<8:15> PERS 3  
+  _digital_n_1<8:15> NUM sg  
+  neg<16:23> SF prop  
+  neg<16:23> TENSE untensed  
+  neg<16:23> MOOD indicative  
+  neg<16:23> PROG -  
+  neg<16:23> PERF -  
+  _make_v_1<24:28> SF prop  
+  _make_v_1<24:28> TENSE pres  
+  _make_v_1<24:28> MOOD indicative  
+  _make_v_1<24:28> PROG -  
+  _make_v_1<24:28> PERF -  
+  _monitor_n_1<33:42> PERS 3  
+  _monitor_n_1<33:42> NUM pl  
+  _monitor_n_1<33:42> IND +  
+}
+

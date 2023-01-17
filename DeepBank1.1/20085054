@@ -1,0 +1,70 @@
+;;;
+;;; Redwoods export of `wsj00d';
+;;; (wsun@wsun; 22-jan-2018 (10:49 h)).
+;;;
+
+[20085054] (1 of 1) {1} `IRAs.'
+
+[20085054:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "IRAs", 0, "null", "NNS" 0.8969 "NNPS" 0.1031)
+  (2, 1, 2, <4:5>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:5>, 1, "IRAs.", 0, "null")
+  (27, 0, 1, <0:5>, 1, "IRAs.", 0, "null", "NNS" 0.8969)
+  (28, 0, 1, <0:5>, 1, "IRAs.", 0, "null", "NNPS" 0.1031)
+  (29, 0, 1, <0:5>, 1, "iras.", 0, "null")
+  (30, 0, 1, <0:5>, 1, "iras.", 0, "null")
+>
+
+(ROOT_FRAG
+ (71 NP_FRG_C -1.31984 0 1
+  (70 HDN_BNP_C -1.11543 0 1
+   (69 W_PERIOD_PLR 0.0501812 0 1
+    (68 N_PL_OLR 0.398682 0 1
+     (42 ira_n2@n_-_c_le 0 0 1
+      ("iras." 29
+       "token [ +CARG \"IRAs\" +CLASS alphabetic [ +CASE capitalized+mixed +INITIAL + ] +FORM \"iras.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89690749999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N (N "iras.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:5>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _ira_n_1<0:5>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:5>[BV x4]
+ x4:_ira_n_1<0:5>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:5> ARG _ira_n_1<0:5>  
+  udef_q<0:5> BV _ira_n_1<0:5>  
+  unknown<0:5> SF prop  
+  unknown<0:5> TENSE untensed  
+  unknown<0:5> MOOD indicative  
+  unknown<0:5> PROG -  
+  unknown<0:5> PERF -  
+  _ira_n_1<0:5> PERS 3  
+  _ira_n_1<0:5> NUM pl  
+  _ira_n_1<0:5> IND +  
+}
+

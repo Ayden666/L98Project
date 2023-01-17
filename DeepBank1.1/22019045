@@ -1,0 +1,186 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:03 h)).
+;;;
+
+[22019045] (1 of 1) {1} `A&W Brands lost 1/4 to 27.'
+
+[22019045:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "A&W", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:10>, 1, "Brands", 0, "null", "NNP" 0.7503 "NNPS" 0.2497)
+  (3, 2, 3, <11:15>, 1, "lost", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <16:19>, 1, "1/4", 0, "null", "CD" 1.0)
+  (5, 4, 5, <20:22>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <23:25>, 1, "27", 0, "null", "CD" 1.0)
+  (7, 6, 7, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (78, 0, 1, <0:3>, 1, "A&W", 0, "null", "NNP" 1.0)
+  (80, 0, 1, <0:3>, 1, "a&w", 0, "null")
+  (88, 0, 1, <0:3>, 1, "a&w", 0, "null")
+  (64, 1, 2, <4:10>, 1, "Brands", 0, "null")
+  (76, 1, 2, <4:10>, 1, "Brands", 0, "null", "NNP" 0.7503)
+  (79, 1, 2, <4:10>, 1, "Brands", 0, "null", "NNPS" 0.2497)
+  (81, 1, 2, <4:10>, 1, "brands", 0, "null")
+  (83, 1, 2, <4:10>, 1, "brands", 0, "null")
+  (71, 2, 3, <11:15>, 1, "lost", 0, "null")
+  (77, 2, 3, <11:15>, 1, "lost", 0, "null", "VBD" 1.0)
+  (86, 2, 3, <11:15>, 1, "lost", 0, "null")
+  (59, 3, 4, <16:19>, 1, "1/4", 0, "null")
+  (60, 3, 4, <16:19>, 1, "1/4", 0, "null")
+  (82, 3, 4, <16:19>, 1, "1/4", 0, "null")
+  (69, 4, 5, <20:22>, 1, "to", 0, "null")
+  (85, 4, 5, <20:22>, 1, "to", 0, "null")
+  (65, 5, 6, <23:26>, 1, "27.", 0, "null")
+  (84, 5, 6, <23:26>, 1, "27.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3205 SB-HD_MC_C 14.7297 0 6
+  (3195 HDN_BNP-PN_C 3.03814 0 2
+   (3194 NP-HDN_NME-CPD_C 2.49843 0 2
+    (3192 HDN_BNP-PN_C 1.3241 0 1
+     (3191 N_SG_ILR 0.57167 0 1
+      (89 genericname@n_-_pn-unk_le 0 0 1
+       ("A&W" 78
+        "token [ +CARG #1=\"A&W\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_a&w/NNP_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNP\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (3193 ^N_SG_ILR -0.143257 1 2
+     (92 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Brands" 64
+       "token [ +CARG #1=\"Brands\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75034529999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (3204 ^HD-AJ_INT-UNSL_C 11.2041 2 6
+   (3199 ^HD-CMP_U_C 6.19389 2 4
+    (3196 ^V_PST_OLR 3.27719 2 3
+     (128 lose_v1@v_np*_le 2.12199 2 3
+      ("lost" 71
+       "token [ +CARG #1=\"lost\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3198 HDN_BNP-NUM_C 1.67381 3 4
+     (3197 HDN_NP-NUM_C 1.15516 3 4
+      (151 generic_fract_ne@aj_-_i-frct-gen_le 0 3 4
+       ("1/4" 60
+        "token [ +CARG #1=\"1/4\" +CLASS frct_ne +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (3203 HD-CMP_U_C 3.87632 4 6
+    (176 to@p_np_i-nnm_le -0.649111 4 5
+     ("to" 69
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3202 HDN_BNP-NUM_C 4.01481 5 6
+     (3201 HDN_NP-NUM_C 3.49617 5 6
+      (3200 W_PERIOD_PLR 2.19869 5 6
+       (231 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("27." 65
+         "token [ +CARG \"27\" +CLASS card_or_dom_ne +FORM \"27.\" +FROM \"23\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (NP (N (N "A&W"))) (N (N "Brands"))))
+ (VP (VP (V (V "lost")) (NP (N (ADJ "1/4"))))
+  (PP (P "to") (NP (N (ADJ (ADJ "27.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:3>
+            LBL: h14
+            ARG0: x9
+            CARG: "A&W" ]
+          [ named<4:10>
+            LBL: h8
+            ARG0: x6
+            CARG: "Brands" ]
+          [ _lose_v_1<11:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<16:19>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ fraction<16:19>
+            LBL: h19
+            ARG0: i21
+            ARG1: i20
+            CARG: "1/4" ]
+          [ _to_p<20:22>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<23:26>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<23:26>
+            LBL: h27
+            ARG0: x23
+            ARG1: i28
+            CARG: "27" ] >
+   HCONS: < h25 QEQ h27 h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:10>[BV x6]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:3>[BV x9]
+ x9:named<0:3>("A&W"){x PERS 3, NUM sg, IND +}[]
+ x6:named<4:10>("Brands"){x PERS 3, NUM sg, IND +}[]
+ e3:_lose_v_1<11:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ _3:number_q<16:19>[]
+ i21:fraction<16:19>("1/4"){i}[]
+ e22:_to_p<20:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:number_q<23:26>[BV x23]
+ x23:card<23:26>("27"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:10> BV named<4:10>(Brands)  
+  compound<0:10> ARG1 named<4:10>(Brands)  
+  compound<0:10> ARG2 named<0:3>(A&W)  
+  proper_q<0:3> BV named<0:3>(A&W)  
+  _lose_v_1<11:15> ARG1 named<4:10>(Brands)  
+  _to_p<20:22> ARG1 _lose_v_1<11:15>  
+  _to_p<20:22> ARG2 card<23:26>(27)  
+  number_q<23:26> BV card<23:26>(27)  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:3>(A&W) PERS 3  
+  named<0:3>(A&W) NUM sg  
+  named<0:3>(A&W) IND +  
+  named<4:10>(Brands) PERS 3  
+  named<4:10>(Brands) NUM sg  
+  named<4:10>(Brands) IND +  
+  _lose_v_1<11:15> SF prop  
+  _lose_v_1<11:15> TENSE past  
+  _lose_v_1<11:15> MOOD indicative  
+  _lose_v_1<11:15> PROG -  
+  _lose_v_1<11:15> PERF -  
+  _to_p<20:22> SF prop  
+  _to_p<20:22> TENSE untensed  
+  _to_p<20:22> MOOD indicative  
+  _to_p<20:22> PROG -  
+  _to_p<20:22> PERF -  
+  card<23:26>(27) PERS 3  
+  card<23:26>(27) NUM sg  
+}
+

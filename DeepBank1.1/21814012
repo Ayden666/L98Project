@@ -1,0 +1,142 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (03:01 h)).
+;;;
+
+[21814012] (1 of 1) {1} `National Taxpayers Union'
+
+[21814012:10] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "National", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:18>, 1, "Taxpayers", 0, "null", "NNPS" 0.6855 "NNP" 0.3145)
+  (3, 2, 3, <19:24>, 1, "Union", 0, "null", "NNP" 1.0)
+>
+
+<
+  (40, 0, 1, <0:8>, 1, "National", 0, "null")
+  (45, 0, 1, <0:8>, 1, "national", 0, "null")
+  (49, 0, 1, <0:8>, 1, "national", 0, "null")
+  (30, 1, 2, <9:18>, 1, "Taxpayers", 0, "null")
+  (41, 1, 2, <9:18>, 1, "Taxpayers", 0, "null", "NNPS" 0.6855)
+  (43, 1, 2, <9:18>, 1, "Taxpayers", 0, "null", "NNP" 0.3145)
+  (46, 1, 2, <9:18>, 1, "taxpayers", 0, "null")
+  (47, 1, 2, <9:18>, 1, "taxpayers", 0, "null")
+  (31, 2, 3, <19:24>, 1, "Union", 0, "null")
+  (42, 2, 3, <19:24>, 1, "Union", 0, "null", "NNP" 1.0)
+  (44, 2, 3, <19:24>, 1, "union", 0, "null")
+  (48, 2, 3, <19:24>, 1, "union", 0, "null")
+>
+
+(ROOT_FRAG
+ (407 NP_FRG_C -2.75046 0 3
+  (406 HDN_BNP_C -2.54605 0 3
+   (405 NP-HDN_CPD_C -0.829448 0 3
+    (404 HDN_BNP-PN_C 0.199395 0 1
+     (52 generic_proper_ne@n_-_pn-gen_le 0.638557 0 1
+      ("National" 40
+       "token [ +CARG #1=\"National\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (396 ^NP-HDN_CPD_C -1.16599 1 3
+     (395 HDN_BNP-PN_C -0.3474 1 2
+      (57 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Taxpayers" 30
+        "token [ +CARG #1=\"Taxpayers\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68546039999999997\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (372 ^HDN_OPTCMP_C -0.109096 2 3
+      (371 N_MS-CNT_ILR 0.164054 2 3
+       (78 union_n1@n_pp_mc-of_le -0.329211 2 3
+        ("union" 44
+         "token [ +CARG \"Union\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"union\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (NP
+  (N (NP (N "National")) (N (NP (N "Taxpayers")) (N (N (N "union")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:24>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:24>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:24>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "National" ]
+          [ compound<9:24>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<9:18>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<9:18>
+            LBL: h20
+            ARG0: x15
+            CARG: "Taxpayers" ]
+          [ _union_n_of<19:24>
+            LBL: h8
+            ARG0: x4
+            ARG1: i21 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:24>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:24>[BV x4]
+ e10:compound<0:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("National"){x IND +}[]
+ e16:compound<9:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x15]
+ _3:proper_q<9:18>[BV x15]
+ x15:named<9:18>("Taxpayers"){x IND +}[]
+ x4:_union_n_of<19:24>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:24> ARG _union_n_of<19:24>  
+  udef_q<0:24> BV _union_n_of<19:24>  
+  compound<0:24> ARG1 _union_n_of<19:24>  
+  compound<0:24> ARG2 named<0:8>(National)  
+  proper_q<0:8> BV named<0:8>(National)  
+  compound<9:24> ARG1 _union_n_of<19:24>  
+  compound<9:24> ARG2 named<9:18>(Taxpayers)  
+  proper_q<9:18> BV named<9:18>(Taxpayers)  
+  unknown<0:24> SF prop-or-ques  
+  unknown<0:24> TENSE untensed  
+  unknown<0:24> MOOD indicative  
+  unknown<0:24> PROG -  
+  unknown<0:24> PERF -  
+  compound<0:24> SF prop  
+  compound<0:24> TENSE untensed  
+  compound<0:24> MOOD indicative  
+  compound<0:24> PROG -  
+  compound<0:24> PERF -  
+  named<0:8>(National) IND +  
+  compound<9:24> SF prop  
+  compound<9:24> TENSE untensed  
+  compound<9:24> MOOD indicative  
+  compound<9:24> PROG -  
+  compound<9:24> PERF -  
+  named<9:18>(Taxpayers) IND +  
+  _union_n_of<19:24> PERS 3  
+  _union_n_of<19:24> NUM sg  
+}
+

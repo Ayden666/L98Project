@@ -1,0 +1,222 @@
+;;;
+;;; Redwoods export of `wsj05b';
+;;; (wsun@wsun; 22-jan-2018 (15:15 h)).
+;;;
+
+[20557018] (1 of 1) {1} `Nestle S.A. is based in Vevey, Switzerland.'
+
+[20557018:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Nestle", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:11>, 1, "S.A.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:20>, 1, "based", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <21:23>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <24:29>, 1, "Vevey", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <29:30>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <31:42>, 1, "Switzerland", 0, "null", "NNP" 0.985 "NN" 0.015)
+  (9, 8, 9, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (108, 0, 1, <0:6>, 1, "Nestle", 0, "null")
+  (114, 0, 1, <0:6>, 1, "nestle", 0, "null")
+  (124, 0, 1, <0:6>, 1, "nestle", 0, "null")
+  (87, 1, 2, <7:11>, 1, "S.A.", 0, "null")
+  (110, 1, 2, <7:11>, 1, "S.A.", 0, "null", "NNP" 1.0)
+  (115, 1, 2, <7:11>, 1, "s.a.", 0, "null")
+  (118, 1, 2, <7:11>, 1, "s.a.", 0, "null")
+  (99, 2, 3, <12:14>, 1, "is", 0, "null")
+  (111, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (121, 2, 3, <12:14>, 1, "is", 0, "null")
+  (101, 3, 4, <15:20>, 1, "based", 0, "null")
+  (112, 3, 4, <15:20>, 1, "based", 0, "null", "VBN" 1.0)
+  (122, 3, 4, <15:20>, 1, "based", 0, "null")
+  (103, 4, 5, <21:23>, 1, "in", 0, "null")
+  (123, 4, 5, <21:23>, 1, "in", 0, "null")
+  (89, 5, 6, <24:30>, 1, "Vevey,", 0, "null")
+  (113, 5, 6, <24:30>, 1, "Vevey,", 0, "null", "NNP" 1.0)
+  (116, 5, 6, <24:30>, 1, "vevey,", 0, "null")
+  (119, 5, 6, <24:30>, 1, "vevey,", 0, "null")
+  (91, 6, 7, <31:43>, 1, "Switzerland.", 0, "null")
+  (109, 6, 7, <31:43>, 1, "Switzerland.", 0, "null", "NNP" 0.985)
+  (117, 6, 7, <31:43>, 1, "switzerland.", 0, "null")
+  (120, 6, 7, <31:43>, 1, "switzerland.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2355 SB-HD_MC_C 11.4349 0 7
+  (2354 HDN_BNP-PN_C 1.82663 0 2
+   (2353 HDN-AJ_REDREL_C 1.18921 0 2
+    (2335 ^N_SG_ILR -0.386912 0 1
+     (128 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Nestle" 108
+       "token [ +CARG #1=\"Nestle\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (140 s_a_post_ttl_1@n_-_tt-post-npt_le 0 1 2
+     ("s.a." 115
+      "token [ +CARG \"S.A.\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"s.a.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2351 ^HD-CMP_U_C 8.59118 2 7
+   (182 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 99
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2350 HD-CMP_U_C 6.49697 3 7
+    (2341 ^HD_OPTCMP_C 2.86532 3 4
+     (2340 V_PAS_ODLR 2.58747 3 4
+      (286 base_v1@v_np-pp_prop_le 1.80963 3 4
+       ("based" 101
+        "token [ +CARG #1=\"based\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2349 HD-CMP_U_C 2.21133 4 7
+     (406 in@p_np_i-reg_le -0.360807 4 5
+      ("in" 103
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2348 HDN_BNP-PN_C 2.60186 5 7
+      (2347 NP-HDN_CTY-CPD_C 2.11291 5 7
+       (2344 HDN_BNP-PN_C 0.710257 5 6
+        (2343 W_COMMA_PLR -0.118892 5 6
+         (2342 N_SG_ILR -0.461604 5 6
+          (447 generic_proper_ne@n_-_pn-gen_le 0 5 6
+           ("Vevey," 89
+            "token [ +CARG \"Vevey\" +CLASS proper_ne +FORM \"Vevey,\" +FROM \"24\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+       (2346 ^W_PERIOD_PLR 0.186499 6 7
+        (2345 N_SG_ILR -0.429343 6 7
+         (467 switzerland_n1@n_-_pn_le 0 6 7
+          ("switzerland." 117
+           "token [ +CARG \"Switzerland\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"switzerland.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98503640000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "Nestle")) (N "s.a.")))
+ (VP (V "is")
+  (VP (V (V (V "based")))
+   (PP (P "in")
+    (NP (N (NP (N (N (N "Vevey,")))) (N (N (N "switzerland.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Nestle" ]
+          [ _s+a_n_1<7:11>
+            LBL: h9
+            ARG0: x10 [ x IND: + ] ]
+          [ udef_q<7:11>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<7:11>
+            LBL: h8
+            ARG0: i14
+            ARG1: x6
+            ARG2: x10 ]
+          [ _base_v_1<15:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x6
+            ARG3: h16 ]
+          [ parg_d<15:20>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _in_p<21:23>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<24:43>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ compound<24:43>
+            LBL: h24
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<24:30>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ named<24:30>
+            LBL: h30
+            ARG0: x25
+            CARG: "Vevey" ]
+          [ named<31:43>
+            LBL: h24
+            ARG0: x20
+            CARG: "Switzerland" ] >
+   HCONS: < h28 QEQ h30 h22 QEQ h24 h16 QEQ h18 h12 QEQ h9 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ x6:named<0:6>("Nestle"){x PERS 3, NUM sg, IND +}[]
+ x10:_s+a_n_1<7:11>{x IND +}[]
+ _2:udef_q<7:11>[BV x10]
+ i14:compound<7:11>{i}[ARG1 x6, ARG2 x10]
+ e3:_base_v_1<15:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6, ARG3 e19]
+ e17:parg_d<15:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e19:_in_p<21:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x20]
+ _3:proper_q<24:43>[BV x20]
+ e26:compound<24:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x25]
+ _4:proper_q<24:30>[BV x25]
+ x25:named<24:30>("Vevey"){x PERS 3, NUM sg, IND +}[]
+ x20:named<31:43>("Switzerland"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<0:6>(Nestle)  
+  udef_q<7:11> BV _s+a_n_1<7:11>  
+  compound<7:11> ARG1 named<0:6>(Nestle)  
+  compound<7:11> ARG2 _s+a_n_1<7:11>  
+  _base_v_1<15:20> ARG2 named<0:6>(Nestle)  
+  _base_v_1<15:20> ARG3 _in_p<21:23>  
+  parg_d<15:20> ARG1 _base_v_1<15:20>  
+  parg_d<15:20> ARG2 named<0:6>(Nestle)  
+  _in_p<21:23> ARG1 named<0:6>(Nestle)  
+  _in_p<21:23> ARG2 named<31:43>(Switzerland)  
+  proper_q<24:43> BV named<31:43>(Switzerland)  
+  compound<24:43> ARG1 named<31:43>(Switzerland)  
+  compound<24:43> ARG2 named<24:30>(Vevey)  
+  proper_q<24:30> BV named<24:30>(Vevey)  
+  named<0:6>(Nestle) PERS 3  
+  named<0:6>(Nestle) NUM sg  
+  named<0:6>(Nestle) IND +  
+  _s+a_n_1<7:11> IND +  
+  _base_v_1<15:20> SF prop  
+  _base_v_1<15:20> TENSE pres  
+  _base_v_1<15:20> MOOD indicative  
+  _base_v_1<15:20> PROG -  
+  _base_v_1<15:20> PERF -  
+  parg_d<15:20> SF prop  
+  parg_d<15:20> TENSE untensed  
+  parg_d<15:20> MOOD indicative  
+  parg_d<15:20> PROG -  
+  parg_d<15:20> PERF -  
+  _in_p<21:23> SF prop  
+  _in_p<21:23> TENSE untensed  
+  _in_p<21:23> MOOD indicative  
+  _in_p<21:23> PROG -  
+  _in_p<21:23> PERF -  
+  compound<24:43> SF prop  
+  compound<24:43> TENSE untensed  
+  compound<24:43> MOOD indicative  
+  compound<24:43> PROG -  
+  compound<24:43> PERF -  
+  named<24:30>(Vevey) PERS 3  
+  named<24:30>(Vevey) NUM sg  
+  named<24:30>(Vevey) IND +  
+  named<31:43>(Switzerland) PERS 3  
+  named<31:43>(Switzerland) NUM sg  
+  named<31:43>(Switzerland) IND +  
+}
+

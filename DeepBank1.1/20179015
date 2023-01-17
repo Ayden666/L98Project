@@ -1,0 +1,165 @@
+;;;
+;;; Redwoods export of `wsj01d';
+;;; (wsun@wsun; 22-jan-2018 (11:41 h)).
+;;;
+
+[20179015] (1 of 1) {1} `Columbia won't comment on all the speculation.'
+
+[20179015:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Columbia", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:11>, 1, "wo", 0, "null", "MD" 1.0)
+  (3, 2, 3, <11:14>, 1, "n’t", 0, "null", "VB" 0.4643 "RB" 0.2279 "NN" 0.2136 "JJS" 0.0751 "JJ" 0.0191)
+  (4, 3, 4, <15:22>, 1, "comment", 0, "null", "VB" 0.726 "NN" 0.274)
+  (5, 4, 5, <23:25>, 1, "on", 0, "null", "IN" 0.9607 "RP" 0.0393)
+  (6, 5, 6, <26:29>, 1, "all", 0, "null", "PDT" 0.954 "DT" 0.046)
+  (7, 6, 7, <30:33>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <34:45>, 1, "speculation", 0, "null", "NN" 1.0)
+  (9, 8, 9, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (99, 0, 1, <0:8>, 1, "Columbia", 0, "null")
+  (103, 0, 1, <0:8>, 1, "columbia", 0, "null")
+  (110, 0, 1, <0:8>, 1, "columbia", 0, "null")
+  (90, 1, 2, <9:14>, 1, "won’t", 0, "null")
+  (105, 1, 2, <9:14>, 1, "won’t", 0, "null")
+  (93, 2, 3, <15:22>, 1, "comment", 0, "null")
+  (100, 2, 3, <15:22>, 1, "comment", 0, "null", "VB" 0.726)
+  (102, 2, 3, <15:22>, 1, "comment", 0, "null", "NN" 0.274)
+  (107, 2, 3, <15:22>, 1, "comment", 0, "null")
+  (95, 3, 4, <23:25>, 1, "on", 0, "null")
+  (108, 3, 4, <23:25>, 1, "on", 0, "null")
+  (97, 4, 5, <26:29>, 1, "all", 0, "null")
+  (109, 4, 5, <26:29>, 1, "all", 0, "null")
+  (88, 5, 6, <30:33>, 1, "the", 0, "null")
+  (104, 5, 6, <30:33>, 1, "the", 0, "null")
+  (92, 6, 7, <34:46>, 1, "speculation.", 0, "null")
+  (101, 6, 7, <34:46>, 1, "speculation.", 0, "null", "NN" 1.0)
+  (106, 6, 7, <34:46>, 1, "speculation.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1036 SB-HD_MC_C 9.99173 0 7
+  (1025 HDN_BNP-PN_C 0.644915 0 1
+   (1024 N_SG_ILR 0.693871 0 1
+    (112 columbia_n1@n_-_pn_le 0.155608 0 1
+     ("columbia" 103
+      "token [ +CARG \"Columbia\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"columbia\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1035 ^HD-CMP_U_C 8.32977 1 7
+   (113 will_aux_neg_3_u@v_vp_will-n_le 0.106304 1 2
+    ("won’t" 90
+     "token [ +CARG #1=\"won’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1034 HD-CMP_U_C 7.56006 2 7
+    (1026 ^V_N3S-BSE_ILR 1.2346 2 3
+     (116 comment_v1@v_pp_e_le 0.637656 2 3
+      ("comment" 93
+       "token [ +CARG #1=\"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72595480000000001\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1033 HD-CMP_U_C 5.0283 3 7
+     (143 on_prtcl@p_np_ptcl_le 1.54582 3 4
+      ("on" 95
+       "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9606557\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1032 HDN_BNP-QNT_C 2.70907 4 7
+      (1031 HD-CMP_U_C 2.22379 4 7
+       (178 all_pn@n_np_mc-a_le -0.143985 4 5
+        ("all" 97
+         "token [ +CARG #1=\"all\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95397120000000002\" +TAG \"PDT\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1030 SP-HD_N_C 1.60042 5 7
+        (244 the_1@d_-_the_le 1.07131 5 6
+         ("the" 88
+          "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (1029 ^HDN_OPTCMP_C 0.793472 6 7
+         (1028 W_PERIOD_PLR 0.463164 6 7
+          (1027 N_MS-CNT_ILR 0.190494 6 7
+           (269 speculation_n1@n_pp_mc_le 0 6 7
+            ("speculation." 92
+             "token [ +CARG \"speculation\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"speculation.\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S (NP (N (N "columbia")))
+ (VP (V "won’t")
+  (VP (V (V "comment"))
+   (PP (P "on")
+    (NP
+     (N (N "all") (NP (DET "the") (N (N (N (N "speculation.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Columbia" ]
+          [ neg<9:14>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _comment_v_on<15:22>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6
+            ARG2: x12 [ x PERS: 3 NUM: SG ] ]
+          [ part_of<26:29>
+            LBL: h13
+            ARG0: x12
+            ARG1: x14 [ x PERS: 3 NUM: SG ] ]
+          [ _all_q<26:29>
+            LBL: h15
+            ARG0: x12
+            RSTR: h16
+            BODY: h17 ]
+          [ _the_q<30:33>
+            LBL: h18
+            ARG0: x14
+            RSTR: h20
+            BODY: h19 ]
+          [ _speculation_n_about<34:46>
+            LBL: h21
+            ARG0: x14
+            ARG1: i22 ] >
+   HCONS: < h20 QEQ h21 h16 QEQ h13 h9 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:proper_q<0:8>[BV x6]
+ x6:named<0:8>("Columbia"){x PERS 3, NUM sg, IND +}[]
+ e10:neg<9:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_comment_v_on<15:22>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x12]
+ x12:part_of<26:29>{x PERS 3, NUM sg}[ARG1 x14]
+ _2:_all_q<26:29>[BV x12]
+ _3:_the_q<30:33>[BV x14]
+ x14:_speculation_n_about<34:46>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:8> BV named<0:8>(Columbia)  
+  neg<9:14> ARG1 _comment_v_on<15:22>  
+  _comment_v_on<15:22> ARG1 named<0:8>(Columbia)  
+  _comment_v_on<15:22> ARG2 part_of<26:29>  
+  part_of<26:29> ARG1 _speculation_n_about<34:46>  
+  _all_q<26:29> BV part_of<26:29>  
+  _the_q<30:33> BV _speculation_n_about<34:46>  
+  named<0:8>(Columbia) PERS 3  
+  named<0:8>(Columbia) NUM sg  
+  named<0:8>(Columbia) IND +  
+  neg<9:14> SF prop  
+  neg<9:14> TENSE untensed  
+  neg<9:14> MOOD indicative  
+  neg<9:14> PROG -  
+  neg<9:14> PERF -  
+  _comment_v_on<15:22> SF prop  
+  _comment_v_on<15:22> TENSE fut  
+  _comment_v_on<15:22> MOOD indicative  
+  _comment_v_on<15:22> PROG -  
+  _comment_v_on<15:22> PERF -  
+  part_of<26:29> PERS 3  
+  part_of<26:29> NUM sg  
+  _speculation_n_about<34:46> PERS 3  
+  _speculation_n_about<34:46> NUM sg  
+}
+

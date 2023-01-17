@@ -1,0 +1,205 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:07 h)).
+;;;
+
+[21001041] (1 of 1) {1} `Guarantee by Industrial Bank of Japan.'
+
+[21001041:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Guarantee", 0, "null", "NN" 0.9879 "NNP" 0.0121)
+  (2, 1, 2, <10:12>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <13:23>, 1, "Industrial", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <24:28>, 1, "Bank", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <29:31>, 1, "of", 0, "null", "IN" 1.0)
+  (6, 5, 6, <32:37>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (86, 0, 1, <0:9>, 1, "Guarantee", 0, "null")
+  (93, 0, 1, <0:9>, 1, "guarantee", 0, "null")
+  (99, 0, 1, <0:9>, 1, "guarantee", 0, "null")
+  (79, 1, 2, <10:12>, 1, "by", 0, "null")
+  (97, 1, 2, <10:12>, 1, "by", 0, "null")
+  (67, 2, 3, <13:23>, 1, "Industrial", 0, "null")
+  (87, 2, 3, <13:23>, 1, "Industrial", 0, "null", "NNP" 1.0)
+  (90, 2, 3, <13:23>, 1, "industrial", 0, "null")
+  (94, 2, 3, <13:23>, 1, "industrial", 0, "null")
+  (68, 3, 4, <24:28>, 1, "Bank", 0, "null")
+  (88, 3, 4, <24:28>, 1, "Bank", 0, "null", "NNP" 1.0)
+  (91, 3, 4, <24:28>, 1, "bank", 0, "null")
+  (95, 3, 4, <24:28>, 1, "bank", 0, "null")
+  (81, 4, 5, <29:31>, 1, "of", 0, "null")
+  (98, 4, 5, <29:31>, 1, "of", 0, "null")
+  (71, 5, 6, <32:38>, 1, "Japan.", 0, "null")
+  (89, 5, 6, <32:38>, 1, "Japan.", 0, "null", "NNP" 1.0)
+  (92, 5, 6, <32:38>, 1, "japan.", 0, "null")
+  (96, 5, 6, <32:38>, 1, "japan.", 0, "null")
+>
+
+(ROOT_FRAG
+ (1340 NP_NB-FRG_C 4.75374 0 6
+  (1339 HDN-AJ_REDREL_C 5.83697 0 6
+   (1327 ^HDN_OPTCMP_C 0.375982 0 1
+    (1326 N_SG_ILR 0.582733 0 1
+     (105 guarantee_n2@n_pp_c-of_le 0 0 1
+      ("guarantee" 93
+       "token [ +CARG \"Guarantee\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"guarantee\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98787789999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1338 HD-CMP_U_C 5.37478 1 6
+    (119 by_p@p_np_i-dgsp_le 0.224576 1 2
+     ("by" 79
+      "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1337 HDN_BNP-PN_C 4.32275 2 6
+     (1336 HDN-AJ_REDREL_C 4.24856 2 6
+      (1331 ^NP-HDN_NME-CPD_C 2.54929 2 4
+       (1329 HDN_BNP-PN_C 0.078607 2 3
+        (1328 N_SG_ILR -0.386912 2 3
+         (140 generic_proper_ne@n_-_pn-gen_le 0 2 3
+          ("Industrial" 67
+           "token [ +CARG #1=\"Industrial\" +CLASS proper_ne +FORM #1 +FROM \"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (1330 ^N_SG_ILR 1.10888 3 4
+        (145 generic_proper_ne@n_-_pn-gen_le 0.909837 3 4
+         ("Bank" 68
+          "token [ +CARG #1=\"Bank\" +CLASS proper_ne +FORM #1 +FROM \"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1335 HD-CMP_U_C 1.96983 4 6
+       (182 of_poss@p_np_i-nm-poss_le -0.152822 4 5
+        ("of" 81
+         "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1334 HDN_BNP-PN_C 0.173109 5 6
+        (1333 W_PERIOD_PLR -0.39127 5 6
+         (1332 N_SG_ILR -0.824189 5 6
+          (270 japan_n1@n_-_pn_le 0 5 6
+           ("japan." 92
+            "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japan.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(XP
+ (N (N (N (N "guarantee")))
+  (PP (P "by")
+   (NP
+    (N (N (NP (N (N "Industrial"))) (N (N "Bank")))
+     (PP (P "of") (NP (N (N (N "japan."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:38>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:38>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _guarantee_n_of<0:9>
+            LBL: h8
+            ARG0: x4
+            ARG1: i9 ]
+          [ _by_p<10:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:38>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<13:28>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:23>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ named<13:23>
+            LBL: h21
+            ARG0: x16
+            CARG: "Industrial" ]
+          [ named<24:28>
+            LBL: h15
+            ARG0: x11
+            CARG: "Bank" ]
+          [ _of_p<29:31>
+            LBL: h15
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x23 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<32:38>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ named<32:38>
+            LBL: h27
+            ARG0: x23
+            CARG: "Japan" ] >
+   HCONS: < h25 QEQ h27 h19 QEQ h21 h13 QEQ h15 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:38>[BV x4]
+ x4:_guarantee_n_of<0:9>{x PERS 3, NUM sg, IND +}[]
+ e10:_by_p<10:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x11]
+ _2:proper_q<13:38>[BV x11]
+ e17:compound<13:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x16]
+ _3:proper_q<13:23>[BV x16]
+ x16:named<13:23>("Industrial"){x PERS 3, NUM sg, IND +}[]
+ x11:named<24:28>("Bank"){x PERS 3, NUM sg, IND +}[]
+ e22:_of_p<29:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x23]
+ _4:proper_q<32:38>[BV x23]
+ x23:named<32:38>("Japan"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:38> ARG _guarantee_n_of<0:9>  
+  udef_q<0:38> BV _guarantee_n_of<0:9>  
+  _by_p<10:12> ARG1 _guarantee_n_of<0:9>  
+  _by_p<10:12> ARG2 named<24:28>(Bank)  
+  proper_q<13:38> BV named<24:28>(Bank)  
+  compound<13:28> ARG1 named<24:28>(Bank)  
+  compound<13:28> ARG2 named<13:23>(Industrial)  
+  proper_q<13:23> BV named<13:23>(Industrial)  
+  _of_p<29:31> ARG1 named<24:28>(Bank)  
+  _of_p<29:31> ARG2 named<32:38>(Japan)  
+  proper_q<32:38> BV named<32:38>(Japan)  
+  unknown<0:38> SF prop  
+  unknown<0:38> TENSE untensed  
+  unknown<0:38> MOOD indicative  
+  unknown<0:38> PROG -  
+  unknown<0:38> PERF -  
+  _guarantee_n_of<0:9> PERS 3  
+  _guarantee_n_of<0:9> NUM sg  
+  _guarantee_n_of<0:9> IND +  
+  _by_p<10:12> SF prop  
+  _by_p<10:12> TENSE untensed  
+  _by_p<10:12> MOOD indicative  
+  _by_p<10:12> PROG -  
+  _by_p<10:12> PERF -  
+  compound<13:28> SF prop  
+  compound<13:28> TENSE untensed  
+  compound<13:28> MOOD indicative  
+  compound<13:28> PROG -  
+  compound<13:28> PERF -  
+  named<13:23>(Industrial) PERS 3  
+  named<13:23>(Industrial) NUM sg  
+  named<13:23>(Industrial) IND +  
+  named<24:28>(Bank) PERS 3  
+  named<24:28>(Bank) NUM sg  
+  named<24:28>(Bank) IND +  
+  _of_p<29:31> SF prop  
+  _of_p<29:31> TENSE untensed  
+  _of_p<29:31> MOOD indicative  
+  _of_p<29:31> PROG -  
+  _of_p<29:31> PERF -  
+  named<32:38>(Japan) PERS 3  
+  named<32:38>(Japan) NUM sg  
+  named<32:38>(Japan) IND +  
+}
+

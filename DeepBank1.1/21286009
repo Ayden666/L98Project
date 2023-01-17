@@ -1,0 +1,101 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:47 h)).
+;;;
+
+[21286009] (1 of 1) {1} `No one can say.'
+
+[21286009:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "No", 0, "null", "DT" 0.9816 "RB" 0.0184)
+  (2, 1, 2, <3:6>, 1, "one", 0, "null", "NN" 0.7778 "CD" 0.1554 "PRP" 0.0668)
+  (3, 2, 3, <7:10>, 1, "can", 0, "null", "MD" 1.0)
+  (4, 3, 4, <11:14>, 1, "say", 0, "null", "VB" 1.0)
+  (5, 4, 5, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:2>, 1, "no", 0, "null")
+  (68, 0, 1, <0:2>, 1, "no", 0, "null")
+  (59, 1, 2, <3:6>, 1, "one", 0, "null")
+  (61, 1, 2, <3:6>, 1, "one", 0, "null", "NN" 0.7778)
+  (62, 1, 2, <3:6>, 1, "one", 0, "null", "CD" 0.1554)
+  (67, 1, 2, <3:6>, 1, "one", 0, "null")
+  (54, 2, 3, <7:10>, 1, "can", 0, "null")
+  (65, 2, 3, <7:10>, 1, "can", 0, "null")
+  (56, 3, 4, <11:15>, 1, "say.", 0, "null")
+  (63, 3, 4, <11:15>, 1, "say.", 0, "null", "VB" 1.0)
+  (66, 3, 4, <11:15>, 1, "say.", 0, "null")
+>
+
+(ROOT_STRICT
+ (761 SB-HD_MC_C 5.22108 0 4
+  (756 HDN_BNP-QNT_C 2.98377 0 2
+   (755 HDN_OPTCMP_C 2.895 0 2
+    (189 no_one@n_-_pr_le 1.33676 0 2
+     ("no one" 64
+      "token [ +CARG \"No\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"no\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98160749999999997\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      59
+      "token [ +CARG #1=\"one\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77780000000000005\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (760 ^HD-CMP_U_C 0.967956 2 4
+   (138 can_aux_pos@v_vp_mdl-p_le 2.02918 2 3
+    ("can" 54
+     "token [ +CARG #1=\"can\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (759 HD_OPTCMP_C -1.22795 3 4
+    (758 W_PERIOD_PLR -1.37938 3 4
+     (757 V_N3S-BSE_ILR -0.478615 3 4
+      (156 say_v1@v_np*_le 0.15974 3 4
+       ("say." 56
+        "token [ +CARG \"say\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"say.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "no one"))) (VP (V "can") (VP (V (V (V "say."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ person<0:6>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ _no_q<0:6>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _can_v_modal<7:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: h9 ]
+          [ _say_v_1<11:15>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: p12 ] >
+   HCONS: < h9 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:person<0:6>{x PERS 3, NUM sg}[]
+ _1:_no_q<0:6>[BV x5]
+ e3:_can_v_modal<7:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e11]
+ e11:_say_v_1<11:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  _no_q<0:6> BV person<0:6>  
+  _can_v_modal<7:10> ARG1 _say_v_1<11:15>  
+  _say_v_1<11:15> ARG1 person<0:6>  
+  person<0:6> PERS 3  
+  person<0:6> NUM sg  
+  _can_v_modal<7:10> SF prop  
+  _can_v_modal<7:10> TENSE pres  
+  _can_v_modal<7:10> MOOD indicative  
+  _can_v_modal<7:10> PROG -  
+  _can_v_modal<7:10> PERF -  
+  _say_v_1<11:15> SF prop  
+  _say_v_1<11:15> TENSE untensed  
+  _say_v_1<11:15> MOOD indicative  
+  _say_v_1<11:15> PROG -  
+  _say_v_1<11:15> PERF -  
+}
+

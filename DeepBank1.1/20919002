@@ -1,0 +1,115 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:19 h)).
+;;;
+
+[20919002] (1 of 1) {1} `The company is being acquired.'
+
+[20919002:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "company", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:20>, 1, "being", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <21:29>, 1, "acquired", 0, "null", "VBN" 0.9586 "VBD" 0.0414)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:3>, 1, "the", 0, "null")
+  (77, 0, 1, <0:3>, 1, "the", 0, "null")
+  (61, 1, 2, <4:11>, 1, "company", 0, "null")
+  (69, 1, 2, <4:11>, 1, "company", 0, "null", "NN" 1.0)
+  (73, 1, 2, <4:11>, 1, "company", 0, "null")
+  (63, 2, 3, <12:14>, 1, "is", 0, "null")
+  (70, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (74, 2, 3, <12:14>, 1, "is", 0, "null")
+  (65, 3, 4, <15:20>, 1, "being", 0, "null")
+  (71, 3, 4, <15:20>, 1, "being", 0, "null", "VBG" 1.0)
+  (75, 3, 4, <15:20>, 1, "being", 0, "null")
+  (66, 4, 5, <21:30>, 1, "acquired.", 0, "null")
+  (68, 4, 5, <21:30>, 1, "acquired.", 0, "null", "VBN" 0.9586)
+  (76, 4, 5, <21:30>, 1, "acquired.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1055 SB-HD_MC_C 10.1698 0 5
+  (1049 SP-HD_N_C 3.19296 0 2
+   (90 the_1@d_-_the_le 1.13181 0 1
+    ("the" 72
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1048 ^HDN_OPTCMP_C 1.60996 1 2
+    (1047 N_MS-CNT_ILR 1.69776 1 2
+     (115 company_n1@n_pp_mc-of_le 0.954973 1 2
+      ("company" 61
+       "token [ +CARG #1=\"company\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1054 ^HD-CMP_U_C 5.0223 2 5
+   (159 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 63
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1053 HD-CMP_U_C 2.92808 3 5
+    (258 be_c_being@v_prd_being_le 1.64671 3 4
+     ("being" 65
+      "token [ +CARG #1=\"being\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1052 HD_OPTCMP_C 1.2186 4 5
+     (1051 W_PERIOD_PLR 0.621276 4 5
+      (1050 V_PAS_ODLR 0.295437 4 5
+       (294 acquire_v1@v_np_le 0 4 5
+        ("acquired." 66
+         "token [ +CARG \"acquired\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"acquired.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95861130000000006\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N (N "company"))))
+ (VP (V "is") (VP (V "being") (VP (V (V (V "acquired.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _company_n_of<4:11>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _acquire_v_1<21:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: i10
+            ARG2: x6 ]
+          [ parg_d<21:30>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_company_n_of<4:11>{x PERS 3, NUM sg}[]
+ e3:_acquire_v_1-fn.Getting<21:30>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG2-fn.Theme x6]
+ e11:parg_d<21:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  _the_q<0:3> BV _company_n_of<4:11>  
+  _acquire_v_1<21:30> ARG2 _company_n_of<4:11>  
+  parg_d<21:30> ARG1 _acquire_v_1<21:30>  
+  parg_d<21:30> ARG2 _company_n_of<4:11>  
+  _company_n_of<4:11> PERS 3  
+  _company_n_of<4:11> NUM sg  
+  _acquire_v_1<21:30> SF prop  
+  _acquire_v_1<21:30> TENSE pres  
+  _acquire_v_1<21:30> MOOD indicative  
+  _acquire_v_1<21:30> PROG +  
+  _acquire_v_1<21:30> PERF -  
+  parg_d<21:30> SF prop  
+  parg_d<21:30> TENSE untensed  
+  parg_d<21:30> MOOD indicative  
+  parg_d<21:30> PROG -  
+  parg_d<21:30> PERF -  
+}
+

@@ -1,0 +1,100 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146146] (1 of 1) {1} `That's politics.'
+
+[21146146:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.9231 "IN" 0.0617 "WDT" 0.0152)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "JJ" 0.404 "NN" 0.3021 "NNS" 0.2573 "VBZ" 0.0238 "CD" 0.0127)
+  (3, 2, 3, <7:15>, 1, "politics", 0, "null", "NNS" 0.9737 "NN" 0.0263)
+  (4, 3, 4, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:4>, 1, "that", 0, "null")
+  (64, 0, 1, <0:4>, 1, "that", 0, "null")
+  (53, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (59, 1, 2, <4:6>, 1, "’s", 0, "null", "NN" 0.3021)
+  (60, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.2573)
+  (62, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (54, 2, 3, <7:16>, 1, "politics.", 0, "null")
+  (58, 2, 3, <7:16>, 1, "politics.", 0, "null", "NNS" 0.9737)
+  (63, 2, 3, <7:16>, 1, "politics.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (490 SB-HD_MC_C -1.60166 0 3
+  (486 HDN_BNP-QNT_C -0.199308 0 1
+   (485 HDN_OPTCMP_C -0.288082 0 1
+    (80 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 61
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92306719999999998\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (489 ^HD-CMP_U_C -2.6717 1 3
+   (106 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+    ("’s" 53
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.40402290000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (488 HDN_BNP_C -1.39053 2 3
+    (487 W_PERIOD_PLR -0.129281 2 3
+     (315 politics_n1@n_-_c-pl-ifl_le 0 2 3
+      ("politics." 54
+       "token [ +CARG \"politics\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"politics.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97370020000000002\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "that"))) (VP (V "’s") (NP (N (N "politics.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<7:16>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _politics_n_1<7:16>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<7:16>[BV x9]
+ x9:_politics_n_1<7:16>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  _be_v_id<4:6> ARG1 generic_entity<0:4>  
+  _be_v_id<4:6> ARG2 _politics_n_1<7:16>  
+  udef_q<7:16> BV _politics_n_1<7:16>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  _politics_n_1<7:16> PERS 3  
+  _politics_n_1<7:16> NUM pl  
+  _politics_n_1<7:16> IND +  
+}
+

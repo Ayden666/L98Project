@@ -1,0 +1,111 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:36 h)).
+;;;
+
+[20280044] (1 of 1) {1} `But there are limits.'
+
+[20280044:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:9>, 1, "there", 0, "null", "EX" 1.0)
+  (3, 2, 3, <10:13>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <14:20>, 1, "limits", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:3>, 1, "but", 0, "null")
+  (61, 0, 1, <0:3>, 1, "but", 0, "null")
+  (50, 1, 2, <4:9>, 1, "there", 0, "null")
+  (58, 1, 2, <4:9>, 1, "there", 0, "null")
+  (52, 2, 3, <10:13>, 1, "are", 0, "null")
+  (55, 2, 3, <10:13>, 1, "are", 0, "null", "VBP" 1.0)
+  (59, 2, 3, <10:13>, 1, "are", 0, "null")
+  (54, 3, 4, <14:21>, 1, "limits.", 0, "null")
+  (56, 3, 4, <14:21>, 1, "limits.", 0, "null", "NNS" 1.0)
+  (60, 3, 4, <14:21>, 1, "limits.", 0, "null")
+>
+
+(ROOT_STRICT
+ (512 CL_CNJ-FRG_C 5.34808 0 4
+  (511 MRK-NH_CL_C 4.47819 0 4
+   (64 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 57
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (510 SB-HD_MC_C 2.06555 1 4
+    (78 there_expl@n_-_pr-there-x_le 1.27809 1 2
+     ("there" 50
+      "token [ +CARG #1=\"there\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"EX\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (509 ^HD_OPTCMP_C 0.617167 2 4
+     (508 HD-CMP_U_C -0.938582 2 4
+      (85 be_th_cop_are@v_np-xp_are_le 0.590737 2 3
+       ("are" 52
+        "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (507 HDN_BNP_C -1.7869 3 4
+       (506 HDN_OPTCMP_C -0.848432 3 4
+        (505 W_PERIOD_PLR -0.707583 3 4
+         (504 N_PL_OLR -0.073435 3 4
+          (89 limit_n1@n_pp_c-of_le 0 3 4
+           ("limits." 54
+            "token [ +CARG \"limits\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"limits.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP-X "there") (VP (V (V "are") (NP (N (N (N (N "limits."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _be_v_there<10:13>
+            LBL: h8
+            ARG0: e4
+            ARG1: x9 [ x PERS: 3 NUM: PL GEND: N IND: + ] ]
+          [ udef_q<14:21>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _limit_n_of<14:21>
+            LBL: h13
+            ARG0: x9
+            ARG1: i14 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ e4:_be_v_there<10:13>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ _1:udef_q<14:21>[BV x9]
+ x9:_limit_n_of<14:21>{x PERS 3, NUM pl, GEND n, IND +}[]
+}
+
+{
+  _but_c<0:3> R-HNDL _be_v_there<10:13>  
+  _but_c<0:3> R-INDEX _be_v_there<10:13>  
+  _be_v_there<10:13> ARG1 _limit_n_of<14:21>  
+  udef_q<14:21> BV _limit_n_of<14:21>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _be_v_there<10:13> SF prop  
+  _be_v_there<10:13> TENSE pres  
+  _be_v_there<10:13> MOOD indicative  
+  _be_v_there<10:13> PROG -  
+  _be_v_there<10:13> PERF -  
+  _limit_n_of<14:21> PERS 3  
+  _limit_n_of<14:21> NUM pl  
+  _limit_n_of<14:21> GEND n  
+  _limit_n_of<14:21> IND +  
+}
+

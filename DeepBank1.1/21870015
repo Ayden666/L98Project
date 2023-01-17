@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:38 h)).
+;;;
+
+[21870015] (1 of 1) {1} `Few telephone lines snapped.'
+
+[21870015:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Few", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <4:13>, 1, "telephone", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:19>, 1, "lines", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <20:27>, 1, "snapped", 0, "null", "VBD" 0.8271 "VBN" 0.1496 "JJ" 0.0234)
+  (5, 4, 5, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:3>, 1, "Few", 0, "null", "JJ" 1.0)
+  (64, 0, 1, <0:3>, 1, "few", 0, "null")
+  (68, 0, 1, <0:3>, 1, "few", 0, "null")
+  (54, 1, 2, <4:13>, 1, "telephone", 0, "null")
+  (62, 1, 2, <4:13>, 1, "telephone", 0, "null", "NN" 1.0)
+  (65, 1, 2, <4:13>, 1, "telephone", 0, "null")
+  (56, 2, 3, <14:19>, 1, "lines", 0, "null")
+  (63, 2, 3, <14:19>, 1, "lines", 0, "null", "NNS" 1.0)
+  (66, 2, 3, <14:19>, 1, "lines", 0, "null")
+  (57, 3, 4, <20:28>, 1, "snapped.", 0, "null")
+  (59, 3, 4, <20:28>, 1, "snapped.", 0, "null", "VBD" 0.8271)
+  (60, 3, 4, <20:28>, 1, "snapped.", 0, "null", "VBN" 0.1496)
+  (67, 3, 4, <20:28>, 1, "snapped.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1425 SB-HD_MC_C 3.63338 0 4
+  (1421 HDN_BNP_C 3.2152 0 3
+   (1420 AJ-HDN_NORM_C 2.4807 0 3
+    (74 few_a1@aj_-_i-many_le 0.263284 0 1
+     ("few" 64
+      "token [ +CARG \"Few\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"few\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1419 ^N-HDN_CPD_C 1.51515 1 3
+     (94 telephone_n1@n_-_c-ns_le 0.57651 1 2
+      ("telephone" 54
+       "token [ +CARG #1=\"telephone\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1418 ^N_PL_OLR 0.090588 2 3
+      (107 line_n1@n_-_c-ed-ns_le 0.024499 2 3
+       ("lines" 56
+        "token [ +CARG #1=\"lines\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1424 ^HD_OPTCMP_C 0.438642 3 4
+   (1423 W_PERIOD_PLR 0.134653 3 4
+    (1422 V_PST_OLR -0.555709 3 4
+     (247 snap_v1@v_np*_le 0 3 4
+      ("snapped." 57
+       "token [ +CARG \"snapped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"snapped.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82705410000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (ADJ "few") (N (N "telephone") (N (N "lines")))))
+ (VP (V (V (V "snapped.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:19>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ little-few_a<0:3>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ compound<4:19>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x IND: + ] ]
+          [ udef_q<4:13>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _telephone_n_1<4:13>
+            LBL: h15
+            ARG0: x10 ]
+          [ _line_n_of<14:19>
+            LBL: h8
+            ARG0: x6 ]
+          [ _snap_v_1<20:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p16 ] >
+   HCONS: < h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:19>[BV x6]
+ e9:little-few_a<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:compound<4:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<4:13>[BV x10]
+ x10:_telephone_n_1<4:13>{x IND +}[]
+ x6:_line_n_of<14:19>{x PERS 3, NUM pl, IND +}[]
+ e3:_snap_v_1<20:28>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:19> BV _line_n_of<14:19>  
+  little-few_a<0:3> ARG1 _line_n_of<14:19>  
+  compound<4:19> ARG1 _line_n_of<14:19>  
+  compound<4:19> ARG2 _telephone_n_1<4:13>  
+  udef_q<4:13> BV _telephone_n_1<4:13>  
+  _snap_v_1<20:28> ARG1 _line_n_of<14:19>  
+  little-few_a<0:3> SF prop  
+  little-few_a<0:3> TENSE untensed  
+  little-few_a<0:3> MOOD indicative  
+  little-few_a<0:3> PROG -  
+  little-few_a<0:3> PERF -  
+  compound<4:19> SF prop  
+  compound<4:19> TENSE untensed  
+  compound<4:19> MOOD indicative  
+  compound<4:19> PROG -  
+  compound<4:19> PERF -  
+  _telephone_n_1<4:13> IND +  
+  _line_n_of<14:19> PERS 3  
+  _line_n_of<14:19> NUM pl  
+  _line_n_of<14:19> IND +  
+  _snap_v_1<20:28> SF prop  
+  _snap_v_1<20:28> TENSE past  
+  _snap_v_1<20:28> MOOD indicative  
+  _snap_v_1<20:28> PROG -  
+  _snap_v_1<20:28> PERF -  
+}
+

@@ -1,0 +1,160 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:17 h)).
+;;;
+
+[20451003] (1 of 1) {1} `Mazda makes the Tracer for Ford.'
+
+[20451003:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Mazda", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:11>, 1, "makes", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <12:15>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <16:22>, 1, "Tracer", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <23:26>, 1, "for", 0, "null", "IN" 1.0)
+  (6, 5, 6, <27:31>, 1, "Ford", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (82, 0, 1, <0:5>, 1, "Mazda", 0, "null")
+  (87, 0, 1, <0:5>, 1, "mazda", 0, "null")
+  (94, 0, 1, <0:5>, 1, "mazda", 0, "null")
+  (75, 1, 2, <6:11>, 1, "makes", 0, "null")
+  (84, 1, 2, <6:11>, 1, "makes", 0, "null", "VBZ" 1.0)
+  (91, 1, 2, <6:11>, 1, "makes", 0, "null")
+  (77, 2, 3, <12:15>, 1, "the", 0, "null")
+  (92, 2, 3, <12:15>, 1, "the", 0, "null")
+  (66, 3, 4, <16:22>, 1, "Tracer", 0, "null")
+  (83, 3, 4, <16:22>, 1, "Tracer", 0, "null", "NNP" 1.0)
+  (86, 3, 4, <16:22>, 1, "tracer", 0, "null")
+  (89, 3, 4, <16:22>, 1, "tracer", 0, "null")
+  (79, 4, 5, <23:26>, 1, "for", 0, "null")
+  (93, 4, 5, <23:26>, 1, "for", 0, "null")
+  (69, 5, 6, <27:32>, 1, "Ford.", 0, "null")
+  (85, 5, 6, <27:32>, 1, "Ford.", 0, "null", "NNP" 1.0)
+  (88, 5, 6, <27:32>, 1, "ford.", 0, "null")
+  (90, 5, 6, <27:32>, 1, "ford.", 0, "null")
+>
+
+(ROOT_STRICT
+ (743 SB-HD_MC_C 3.98245 0 6
+  (729 HDN_BNP-PN_C -1.0285 0 1
+   (728 N_SG_ILR -0.979548 0 1
+    (97 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Mazda" 82
+      "token [ +CARG #1=\"Mazda\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (742 ^HD-AJ_INT-UNSL_C 4.52345 1 6
+   (741 ^HD-CMP_U_C 4.23633 1 4
+    (730 ^V_3S-FIN_OLR 1.15161 1 2
+     (137 make_v1@v_np_noarg3_le 1.36195 1 2
+      ("makes" 75
+       "token [ +CARG #1=\"makes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (740 SP-HD_N_C 1.45698 2 4
+     (167 the_1@d_-_the_le 1.07131 2 3
+      ("the" 77
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (731 ^N_SG_ILR 0.236638 3 4
+      (192 generic_proper_ne@n_-_pn-gen_le 0 3 4
+       ("Tracer" 66
+        "token [ +CARG #1=\"Tracer\" +CLASS proper_ne +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (735 HD-CMP_U_C 1.56553 4 6
+    (198 for@p_np_i_le 0.405869 4 5
+     ("for" 79
+      "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (734 HDN_BNP-PN_C 0.173109 5 6
+     (733 W_PERIOD_PLR -0.39127 5 6
+      (732 N_SG_ILR -0.824189 5 6
+       (218 ford_n1@n_-_pn_le 0 5 6
+        ("ford." 88
+         "token [ +CARG \"Ford\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"ford.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "Mazda")))
+ (VP (VP (V (V "makes")) (NP (DET "the") (N (N "Tracer"))))
+  (PP (P "for") (NP (N (N (N "ford.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Mazda" ]
+          [ _make_v_1<6:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ]
+            ARG3: u9 ]
+          [ _the_q<12:15>
+            LBL: h11
+            ARG0: x10
+            RSTR: h13
+            BODY: h12 ]
+          [ named<16:22>
+            LBL: h14
+            ARG0: x10
+            CARG: "Tracer" ]
+          [ _for_p<23:26>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<27:32>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ named<27:32>
+            LBL: h20
+            ARG0: x16
+            CARG: "Ford" ] >
+   HCONS: < h18 QEQ h20 h13 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Mazda"){x PERS 3, NUM sg, IND +}[]
+ e3:_make_v_1-fn.Manufacturing<6:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Manufacturer x6, ARG2-fn.Product x10]
+ _2:_the_q<12:15>[BV x10]
+ x10:named<16:22>("Tracer"){x PERS 3, NUM sg, IND +}[]
+ e15:_for_p<23:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:proper_q<27:32>[BV x16]
+ x16:named<27:32>("Ford"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Mazda)  
+  _make_v_1<6:11> ARG1 named<0:5>(Mazda)  
+  _make_v_1<6:11> ARG2 named<16:22>(Tracer)  
+  _the_q<12:15> BV named<16:22>(Tracer)  
+  _for_p<23:26> ARG1 _make_v_1<6:11>  
+  _for_p<23:26> ARG2 named<27:32>(Ford)  
+  proper_q<27:32> BV named<27:32>(Ford)  
+  named<0:5>(Mazda) PERS 3  
+  named<0:5>(Mazda) NUM sg  
+  named<0:5>(Mazda) IND +  
+  _make_v_1<6:11> SF prop  
+  _make_v_1<6:11> TENSE pres  
+  _make_v_1<6:11> MOOD indicative  
+  _make_v_1<6:11> PROG -  
+  _make_v_1<6:11> PERF -  
+  named<16:22>(Tracer) PERS 3  
+  named<16:22>(Tracer) NUM sg  
+  named<16:22>(Tracer) IND +  
+  _for_p<23:26> SF prop  
+  _for_p<23:26> TENSE untensed  
+  _for_p<23:26> MOOD indicative  
+  _for_p<23:26> PROG -  
+  _for_p<23:26> PERF -  
+  named<27:32>(Ford) PERS 3  
+  named<27:32>(Ford) NUM sg  
+  named<27:32>(Ford) IND +  
+}
+

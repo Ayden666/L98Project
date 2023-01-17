@@ -1,0 +1,230 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:40 h)).
+;;;
+
+[21274028] (1 of 1) {1} `Suntory distributes Brown-Forman bourbons in Japan.'
+
+[21274028:3] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Suntory", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:19>, 1, "distributes", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <20:32>, 1, "Brown-Forman", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <33:41>, 1, "bourbons", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <42:44>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <45:50>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <50:51>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (93, 0, 1, <0:7>, 1, "Suntory", 0, "null")
+  (101, 0, 1, <0:7>, 1, "suntory", 0, "null")
+  (109, 0, 1, <0:7>, 1, "suntory", 0, "null")
+  (86, 1, 2, <8:19>, 1, "distributes", 0, "null")
+  (96, 1, 2, <8:19>, 1, "distributes", 0, "null", "VBZ" 1.0)
+  (106, 1, 2, <8:19>, 1, "distributes", 0, "null")
+  (76, 2, 3, <20:32>, 1, "Brown-", 0, "null")
+  (95, 2, 3, <20:32>, 1, "Brown-", 0, "null", "NN" 1.0)
+  (100, 2, 3, <20:32>, 1, "brown-", 0, "null")
+  (104, 2, 3, <20:32>, 1, "brown-", 0, "null")
+  (75, 3, 4, <20:32>, 1, "Forman", 0, "null")
+  (94, 3, 4, <20:32>, 1, "Forman", 0, "null", "NNP" 1.0)
+  (99, 3, 4, <20:32>, 1, "forman", 0, "null")
+  (103, 3, 4, <20:32>, 1, "forman", 0, "null")
+  (88, 4, 5, <33:41>, 1, "bourbons", 0, "null")
+  (97, 4, 5, <33:41>, 1, "bourbons", 0, "null", "NNS" 1.0)
+  (107, 4, 5, <33:41>, 1, "bourbons", 0, "null")
+  (90, 5, 6, <42:44>, 1, "in", 0, "null")
+  (108, 5, 6, <42:44>, 1, "in", 0, "null")
+  (78, 6, 7, <45:51>, 1, "Japan.", 0, "null")
+  (98, 6, 7, <45:51>, 1, "Japan.", 0, "null", "NNP" 1.0)
+  (102, 6, 7, <45:51>, 1, "japan.", 0, "null")
+  (105, 6, 7, <45:51>, 1, "japan.", 0, "null")
+>
+
+(ROOT_STRICT
+ (763 SB-HD_MC_C 1.19824 0 7
+  (721 HDN_BNP-PN_C -1.0285 0 1
+   (720 N_SG_ILR -0.979548 0 1
+    (111 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Suntory" 93
+      "token [ +CARG #1=\"Suntory\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (762 ^HD-AJ_INT-UNSL_C 1.73925 1 7
+   (761 ^HD-CMP_U_C 2.04832 1 5
+    (722 ^V_3S-FIN_OLR 0.198464 1 2
+     (116 distribute_v2@v_np_le 0 1 2
+      ("distributes" 86
+       "token [ +CARG #1=\"distributes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (760 HDN_BNP_C 1.13966 2 5
+     (731 NP-HDN_CPD_C 1.10682 2 5
+      (729 HDN_BNP-PN_C 1.12663 2 4
+       (728 XP_BRCK-PR_C 1.46059 2 4
+        (726 NP-HDN_NME-CPD_C 1.89385 2 4
+         (725 HDN_BNP-PN_C 1.00524 2 3
+          (724 W_HYPHEN_PLR 0.527522 2 3
+           (723 N_SG_ILR -0.025765 2 3
+            (132 brown_n1@n_-_pn_le 0 2 3
+             ("brown-" 100
+              "token [ +CARG \"Brown-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"brown-\" +FROM \"20\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))))
+         (137 generic_proper_ne@n_-_pn-gen_le 0 3 4
+          ("Forman" 75
+           "token [ +CARG #1=\"Forman\" +CLASS proper_ne +FORM #1 +FROM \"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW + ] ]")))))
+      (730 ^N_PL_OLR 0.373418 4 5
+       (139 bourbon_n1@n_-_mc_le 0 4 5
+        ("bourbons" 88
+         "token [ +CARG #1=\"bourbons\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (735 HD-CMP_U_C 1.03323 5 7
+    (169 in@p_np_i-reg_le 0.354487 5 6
+     ("in" 90
+      "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (734 HDN_BNP-PN_C 0.173109 6 7
+     (733 W_PERIOD_PLR -0.39127 6 7
+      (732 N_SG_ILR -0.824189 6 7
+       (216 japan_n1@n_-_pn_le 0 6 7
+        ("japan." 102
+         "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japan.\" +FROM #1=\"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "Suntory")))
+ (VP
+  (VP (V (V "distributes"))
+   (NP
+    (N (NP (N (N (NP (N (N (N "brown-")))) (N "Forman"))))
+     (N (N "bourbons")))))
+  (PP (P "in") (NP (N (N (N "japan.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Suntory" ]
+          [ _distribute_v_to<8:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<20:41>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<20:41>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x IND: + ] ]
+          [ proper_q<20:32>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<20:32>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x14
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<20:32>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ named<20:32>
+            LBL: h25
+            ARG0: x20
+            CARG: "Brown" ]
+          [ named<20:32>
+            LBL: h19
+            ARG0: x14
+            CARG: "Forman" ]
+          [ _bourbon_n_1<33:41>
+            LBL: h13
+            ARG0: x9 ]
+          [ _in_p<42:44>
+            LBL: h2
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x27 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<45:51>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ named<45:51>
+            LBL: h31
+            ARG0: x27
+            CARG: "Japan" ] >
+   HCONS: < h29 QEQ h31 h23 QEQ h25 h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Suntory"){x PERS 3, NUM sg, IND +}[]
+ e3:_distribute_v_to-fn.Dispersal<8:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x6, ARG2-fn.Theme x9]
+ _2:udef_q<20:41>[BV x9]
+ e15:compound<20:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<20:32>[BV x14]
+ e21:compound<20:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14, ARG2 x20]
+ _4:proper_q<20:32>[BV x20]
+ x20:named<20:32>("Brown"){x PERS 3, NUM sg, IND +}[]
+ x14:named<20:32>("Forman"){x IND +}[]
+ x9:_bourbon_n_1<33:41>{x PERS 3, NUM pl}[]
+ e26:_in_p<42:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x27]
+ _5:proper_q<45:51>[BV x27]
+ x27:named<45:51>("Japan"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Suntory)  
+  _distribute_v_to<8:19> ARG1 named<0:7>(Suntory)  
+  _distribute_v_to<8:19> ARG2 _bourbon_n_1<33:41>  
+  udef_q<20:41> BV _bourbon_n_1<33:41>  
+  compound<20:41> ARG1 _bourbon_n_1<33:41>  
+  compound<20:41> ARG2 named<20:32>(Forman)  
+  proper_q<20:32> BV named<20:32>(Forman)  
+  compound<20:32> ARG1 named<20:32>(Forman)  
+  compound<20:32> ARG2 named<20:32>(Brown)  
+  proper_q<20:32> BV named<20:32>(Brown)  
+  _in_p<42:44> ARG1 _distribute_v_to<8:19>  
+  _in_p<42:44> ARG2 named<45:51>(Japan)  
+  proper_q<45:51> BV named<45:51>(Japan)  
+  named<0:7>(Suntory) PERS 3  
+  named<0:7>(Suntory) NUM sg  
+  named<0:7>(Suntory) IND +  
+  _distribute_v_to<8:19> SF prop  
+  _distribute_v_to<8:19> TENSE pres  
+  _distribute_v_to<8:19> MOOD indicative  
+  _distribute_v_to<8:19> PROG -  
+  _distribute_v_to<8:19> PERF -  
+  compound<20:41> SF prop  
+  compound<20:41> TENSE untensed  
+  compound<20:41> MOOD indicative  
+  compound<20:41> PROG -  
+  compound<20:41> PERF -  
+  compound<20:32> SF prop  
+  compound<20:32> TENSE untensed  
+  compound<20:32> MOOD indicative  
+  compound<20:32> PROG -  
+  compound<20:32> PERF -  
+  named<20:32>(Brown) PERS 3  
+  named<20:32>(Brown) NUM sg  
+  named<20:32>(Brown) IND +  
+  named<20:32>(Forman) IND +  
+  _bourbon_n_1<33:41> PERS 3  
+  _bourbon_n_1<33:41> NUM pl  
+  _in_p<42:44> SF prop  
+  _in_p<42:44> TENSE untensed  
+  _in_p<42:44> MOOD indicative  
+  _in_p<42:44> PROG -  
+  _in_p<42:44> PERF -  
+  named<45:51>(Japan) PERS 3  
+  named<45:51>(Japan) NUM sg  
+  named<45:51>(Japan) IND +  
+}
+

@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:24 h)).
+;;;
+
+[20680011] (1 of 1) {1} `z-Not available.'
+
+[20680011:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "z", 0, "null", "SYM" 1.0)
+  (2, 1, 2, <1:2>, 1, "-", 0, "null", ":" 1.0)
+  (3, 2, 3, <2:5>, 1, "Not", 0, "null", "RB" 1.0)
+  (4, 3, 4, <6:15>, 1, "available", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:1>, 1, "z", 0, "null")
+  (58, 0, 1, <0:1>, 1, "z", 0, "null", "SYM" 1.0)
+  (62, 0, 1, <0:1>, 1, "z", 0, "null")
+  (54, 1, 2, <1:2>, 1, "-", 0, "null")
+  (63, 1, 2, <1:2>, 1, "-", 0, "null")
+  (47, 2, 3, <2:5>, 1, "Not", 0, "null")
+  (57, 2, 3, <2:5>, 1, "Not", 0, "null", "RB" 1.0)
+  (60, 2, 3, <2:5>, 1, "not", 0, "null")
+  (61, 2, 3, <2:5>, 1, "not", 0, "null")
+  (56, 3, 4, <6:16>, 1, "available.", 0, "null")
+  (59, 3, 4, <6:16>, 1, "available.", 0, "null", "JJ" 1.0)
+  (64, 3, 4, <6:16>, 1, "available.", 0, "null")
+>
+
+(ROOT_FRAG
+ (501 NP_FRG_C 0.26968 0 4
+  (500 HDN_BNP-PN_C 1.41619 0 4
+   (499 HDN-AJ_REDREL-PR_C -0.00244086 0 4
+    (496 ^HD-PCT_C 0.352874 0 2
+     (495 ^N_SG_ILR -0.223321 0 1
+      (69 z_lower_np1@n_-_pn_le 0 0 1
+       ("z" 52
+        "token [ +CARG #1=\"z\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"SYM\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (79 hyphen_punct_right@pt_-_hyphn-rgt_le 0.035279 1 2
+      ("-" 54
+       "token [ +CARG #1=\"-\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"1\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (498 AJ-HD_SCP-XP_C -0.355315 2 4
+     (128 not_prdp@av_-_s-not-prdp_le -0.387053 2 3
+      ("not" 60
+       "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"not\" +FROM #1=\"2\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (497 ^W_PERIOD_PLR -0.22224 3 4
+      (185 available_a2@aj_-_i-prd_le 0 3 4
+       ("available." 56
+        "token [ +CARG \"available\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"available.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP
+ (NP
+  (N (N (N (N "z")) (PNCT "-"))
+   (AP (ADV "not") (AP (AP "available."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:16>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:1>
+            LBL: h8
+            ARG0: x4
+            CARG: "Z" ]
+          [ neg<2:5>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _available_a_1<6:16>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h9 QEQ h11 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:16>[BV x4]
+ x4:named<0:1>("Z"){x PERS 3, NUM sg, IND +}[]
+ e10:neg<2:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_available_a_1<6:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:16> ARG named<0:1>(Z)  
+  proper_q<0:16> BV named<0:1>(Z)  
+  neg<2:5> ARG1 _available_a_1<6:16>  
+  _available_a_1<6:16> ARG1 named<0:1>(Z)  
+  unknown<0:16> SF prop  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  named<0:1>(Z) PERS 3  
+  named<0:1>(Z) NUM sg  
+  named<0:1>(Z) IND +  
+  neg<2:5> SF prop  
+  neg<2:5> TENSE untensed  
+  neg<2:5> MOOD indicative  
+  neg<2:5> PROG -  
+  neg<2:5> PERF -  
+  _available_a_1<6:16> SF prop  
+  _available_a_1<6:16> TENSE untensed  
+  _available_a_1<6:16> MOOD indicative  
+  _available_a_1<6:16> PROG -  
+  _available_a_1<6:16> PERF -  
+}
+

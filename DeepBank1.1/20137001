@@ -1,0 +1,338 @@
+;;;
+;;; Redwoods export of `wsj01c';
+;;; (wsun@wsun; 22-jan-2018 (11:19 h)).
+;;;
+
+[20137001] (1 of 1) {1} `Tokyo stocks edged up Wednesday in relatively active but unfocused trading.'
+
+[20137001:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Tokyo", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:12>, 1, "stocks", 0, "null", "NNS" 0.9722 "RB" 0.0278)
+  (3, 2, 3, <13:18>, 1, "edged", 0, "null", "VBD" 0.9613 "VBN" 0.0387)
+  (4, 3, 4, <19:21>, 1, "up", 0, "null", "RP" 0.5497 "IN" 0.3524 "RB" 0.0979)
+  (5, 4, 5, <22:31>, 1, "Wednesday", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <32:34>, 1, "in", 0, "null", "IN" 1.0)
+  (7, 6, 7, <35:45>, 1, "relatively", 0, "null", "RB" 1.0)
+  (8, 7, 8, <46:52>, 1, "active", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <53:56>, 1, "but", 0, "null", "CC" 1.0)
+  (10, 9, 10, <57:66>, 1, "unfocused", 0, "null", "JJ" 1.0)
+  (11, 10, 11, <67:74>, 1, "trading", 0, "null", "NN" 1.0)
+  (12, 11, 12, <74:75>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (142, 0, 1, <0:5>, 1, "Tokyo", 0, "null")
+  (151, 0, 1, <0:5>, 1, "tokyo", 0, "null")
+  (162, 0, 1, <0:5>, 1, "tokyo", 0, "null")
+  (136, 1, 2, <6:12>, 1, "stocks", 0, "null")
+  (143, 1, 2, <6:12>, 1, "stocks", 0, "null", "NNS" 0.9722)
+  (159, 1, 2, <6:12>, 1, "stocks", 0, "null")
+  (138, 2, 3, <13:18>, 1, "edged", 0, "null")
+  (144, 2, 3, <13:18>, 1, "edged", 0, "null", "VBD" 0.9613)
+  (160, 2, 3, <13:18>, 1, "edged", 0, "null")
+  (140, 3, 4, <19:21>, 1, "up", 0, "null")
+  (161, 3, 4, <19:21>, 1, "up", 0, "null")
+  (110, 4, 5, <22:31>, 1, "Wednesday", 0, "null")
+  (145, 4, 5, <22:31>, 1, "Wednesday", 0, "null", "NNP" 1.0)
+  (150, 4, 5, <22:31>, 1, "wednesday", 0, "null")
+  (152, 4, 5, <22:31>, 1, "wednesday", 0, "null")
+  (125, 5, 6, <32:34>, 1, "in", 0, "null")
+  (153, 5, 6, <32:34>, 1, "in", 0, "null")
+  (127, 6, 7, <35:45>, 1, "relatively", 0, "null")
+  (146, 6, 7, <35:45>, 1, "relatively", 0, "null", "RB" 1.0)
+  (154, 6, 7, <35:45>, 1, "relatively", 0, "null")
+  (129, 7, 8, <46:52>, 1, "active", 0, "null")
+  (147, 7, 8, <46:52>, 1, "active", 0, "null", "JJ" 1.0)
+  (155, 7, 8, <46:52>, 1, "active", 0, "null")
+  (131, 8, 9, <53:56>, 1, "but", 0, "null")
+  (156, 8, 9, <53:56>, 1, "but", 0, "null")
+  (133, 9, 10, <57:66>, 1, "unfocused", 0, "null")
+  (148, 9, 10, <57:66>, 1, "unfocused", 0, "null", "JJ" 1.0)
+  (157, 9, 10, <57:66>, 1, "unfocused", 0, "null")
+  (135, 10, 11, <67:75>, 1, "trading.", 0, "null")
+  (149, 10, 11, <67:75>, 1, "trading.", 0, "null", "NN" 1.0)
+  (158, 10, 11, <67:75>, 1, "trading.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5456 SB-HD_MC_C 5.01094 0 11
+  (5435 HDN_BNP_C -0.509656 0 2
+   (5434 NP-HDN_CPD_C 0.213644 0 2
+    (5432 HDN_BNP-PN_C -0.281376 0 1
+     (165 tokyo_n1@n_-_pn_le 0.244346 0 1
+      ("tokyo" 151
+       "token [ +CARG \"Tokyo\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"tokyo\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (5433 ^N_PL_OLR 0.610211 1 2
+     (168 stock_n1@n_-_mc_le 0.817312 1 2
+      ("stocks" 136
+       "token [ +CARG #1=\"stocks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97221299999999999\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (5455 ^HD-AJ_INT-UNSL_C 4.68049 2 11
+   (5441 ^HD-AJ_INT-UNSL_C 4.55589 2 5
+    (5437 ^HD-CMP_U_C 3.34928 2 4
+     (5436 ^V_PST_OLR 1.42637 2 3
+      (222 edge_v2@v_pp*_dir_le 0 2 3
+       ("edged" 138
+        "token [ +CARG #1=\"edged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96125210000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (455 up_adv1@pp_-_i_le -0.299449 3 4
+      ("up" 140
+       "token [ +CARG #1=\"up\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54968170000000005\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (5440 NP_ADV_C 0.816091 4 5
+     (5439 HDN_BNP-PN_C 0.525134 4 5
+      (5438 N_SG_ILR 0.51773 4 5
+       (547 wednesday_n1@n_-_c-dow_le 0 4 5
+        ("wednesday" 150
+         "token [ +CARG \"Wednesday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"wednesday\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (5454 HD-CMP_U_C -1.43377 5 11
+    (568 in@p_np_i-reg_le -0.783763 5 6
+     ("in" 125
+      "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (5453 HDN_BNP_C -1.10737 6 11
+     (5452 AJ-HDN_NORM_C -1.46619 6 11
+      (5447 J-J_CRD-ATT-T_C -0.490484 6 10
+       (5442 SP-HD_HC_C -0.185418 6 8
+        (610 relatively_deg@av_-_dg_le 0 6 7
+         ("relatively" 127
+          "token [ +CARG #1=\"relatively\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (615 active_a1@aj_-_i_le 0 7 8
+         ("active" 129
+          "token [ +CARG #1=\"active\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"46\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (5446 ^MRK-NH_EVNT_C -0.314001 8 10
+        (619 but_conj@c_xp_but_le 0.965379 8 9
+         ("but" 131
+          "token [ +CARG #1=\"but\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"53\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"56\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (5445 V_J-NB-PAS-TR_DLR -1.36628 9 10
+         (5444 V_V-UN_DLR -1.13252 9 10
+          (5443 V_PAS_ODLR -0.457275 9 10
+           (646 focus_v1@v_np_noger_le 0 9 10
+            ("unfocused" 133
+             "token [ +CARG #1=\"unfocused\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"57\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"66\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+      (5451 ^HDN_OPTCMP_C -1.40066 10 11
+       (5450 W_PERIOD_PLR -1.43919 10 11
+        (5449 V_NGER-TR_DLR -0.944484 10 11
+         (5448 V_PRP_OLR 0.0669338 10 11
+          (770 trade_v1@v_np*_le 0.23816 10 11
+           ("trading." 135
+            "token [ +CARG \"trading\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"trading.\" +FROM #1=\"67\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"75\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (NP (N "tokyo")) (N (N "stocks"))))
+ (VP (VP (VP (V (V "edged")) (PP "up")) (PP (NP (N (N "wednesday")))))
+  (PP (P "in")
+   (NP
+    (N
+     (AP (AP (ADV "relatively") (AP "active"))
+      (AP (CONJ "but") (AP (V (V (V "unfocused"))))))
+     (N (N (N (V (V "trading."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Tokyo" ]
+          [ _stock_n_1<6:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _edge_v_1<13:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _up_p_dir<19:21>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ loc_nonsp<22:31>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<22:31>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ dofw<22:31>
+            LBL: h21
+            ARG0: x17
+            CARG: "Wed" ]
+          [ _in_p<32:34>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<35:75>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ _relatively_x_deg<35:45>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _active_a_1<46:52>
+            LBL: h27
+            ARG0: e29
+            ARG1: x23 ]
+          [ _but_c<53:56>
+            LBL: h30
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            L-HNDL: h27
+            L-INDEX: e29
+            R-HNDL: h32
+            R-INDEX: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _focus_v_cause-on<57:66>
+            LBL: h32
+            ARG0: e33
+            ARG1: i34
+            ARG2: x23 ]
+          [ parg_d<57:66>
+            LBL: h32
+            ARG0: e35 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e33
+            ARG2: x23 ]
+          [ _un-_a_rvrs<57:66>
+            LBL: h32
+            ARG0: i36
+            ARG1: e33 ]
+          [ _trade_v_1<67:75>
+            LBL: h37
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i40
+            ARG2: p39 ]
+          [ nominalization<67:75>
+            LBL: h30
+            ARG0: x23
+            ARG1: h37 ] >
+   HCONS: < h25 QEQ h30 h19 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Tokyo"){x IND +}[]
+ x6:_stock_n_1<6:12>{x PERS 3, NUM pl}[]
+ e3:_edge_v_1<13:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_up_p_dir<19:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e16:loc_nonsp<22:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ _3:proper_q<22:31>[BV x17]
+ x17:dofw<22:31>("Wed"){x PERS 3, NUM sg, IND +}[]
+ e22:_in_p<32:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:udef_q<35:75>[BV x23]
+ e28:_relatively_x_deg<35:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e29]
+ e29:_active_a_1<46:52>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+ e31:_but_c<53:56>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[L-HNDL e29, L-INDEX e29, R-HNDL e33, R-INDEX e33]
+ e33:_focus_v_cause-on<57:66>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x23]
+ e35:parg_d<57:66>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e33, ARG2 x23]
+ i36:_un-_a_rvrs<57:66>{i}[ARG1 e33]
+ e38:_trade_v_1<67:75>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x23:nominalization<67:75>{x PERS 3, NUM sg, GEND n}[ARG1 e38]
+}
+
+{
+  udef_q<0:12> BV _stock_n_1<6:12>  
+  compound<0:12> ARG1 _stock_n_1<6:12>  
+  compound<0:12> ARG2 named<0:5>(Tokyo)  
+  proper_q<0:5> BV named<0:5>(Tokyo)  
+  _edge_v_1<13:18> ARG1 _stock_n_1<6:12>  
+  _up_p_dir<19:21> ARG1 _edge_v_1<13:18>  
+  loc_nonsp<22:31> ARG1 _edge_v_1<13:18>  
+  loc_nonsp<22:31> ARG2 dofw<22:31>(Wed)  
+  proper_q<22:31> BV dofw<22:31>(Wed)  
+  _in_p<32:34> ARG1 _edge_v_1<13:18>  
+  _in_p<32:34> ARG2 nominalization<67:75>  
+  udef_q<35:75> BV nominalization<67:75>  
+  _relatively_x_deg<35:45> ARG1 _active_a_1<46:52>  
+  _active_a_1<46:52> ARG1 nominalization<67:75>  
+  _but_c<53:56> L-HNDL _active_a_1<46:52>  
+  _but_c<53:56> L-INDEX _active_a_1<46:52>  
+  _but_c<53:56> R-HNDL _focus_v_cause-on<57:66>  
+  _but_c<53:56> R-INDEX _focus_v_cause-on<57:66>  
+  _focus_v_cause-on<57:66> ARG2 nominalization<67:75>  
+  parg_d<57:66> ARG1 _focus_v_cause-on<57:66>  
+  parg_d<57:66> ARG2 nominalization<67:75>  
+  _un-_a_rvrs<57:66> ARG1 _focus_v_cause-on<57:66>  
+  nominalization<67:75> ARG1 _trade_v_1<67:75>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:5>(Tokyo) IND +  
+  _stock_n_1<6:12> PERS 3  
+  _stock_n_1<6:12> NUM pl  
+  _edge_v_1<13:18> SF prop  
+  _edge_v_1<13:18> TENSE past  
+  _edge_v_1<13:18> MOOD indicative  
+  _edge_v_1<13:18> PROG -  
+  _edge_v_1<13:18> PERF -  
+  _up_p_dir<19:21> SF prop  
+  _up_p_dir<19:21> TENSE untensed  
+  _up_p_dir<19:21> MOOD indicative  
+  _up_p_dir<19:21> PROG -  
+  _up_p_dir<19:21> PERF -  
+  loc_nonsp<22:31> SF prop  
+  loc_nonsp<22:31> TENSE untensed  
+  loc_nonsp<22:31> MOOD indicative  
+  loc_nonsp<22:31> PROG -  
+  loc_nonsp<22:31> PERF -  
+  dofw<22:31>(Wed) PERS 3  
+  dofw<22:31>(Wed) NUM sg  
+  dofw<22:31>(Wed) IND +  
+  _in_p<32:34> SF prop  
+  _in_p<32:34> TENSE untensed  
+  _in_p<32:34> MOOD indicative  
+  _in_p<32:34> PROG -  
+  _in_p<32:34> PERF -  
+  _relatively_x_deg<35:45> SF prop  
+  _relatively_x_deg<35:45> TENSE untensed  
+  _relatively_x_deg<35:45> MOOD indicative  
+  _relatively_x_deg<35:45> PROG -  
+  _relatively_x_deg<35:45> PERF -  
+  _active_a_1<46:52> SF prop  
+  _active_a_1<46:52> TENSE untensed  
+  _active_a_1<46:52> MOOD indicative  
+  _active_a_1<46:52> PROG -  
+  _active_a_1<46:52> PERF -  
+  _but_c<53:56> SF prop  
+  _but_c<53:56> TENSE untensed  
+  _but_c<53:56> MOOD indicative  
+  _but_c<53:56> PROG -  
+  _but_c<53:56> PERF -  
+  _focus_v_cause-on<57:66> SF prop  
+  _focus_v_cause-on<57:66> TENSE untensed  
+  _focus_v_cause-on<57:66> MOOD indicative  
+  _focus_v_cause-on<57:66> PROG -  
+  _focus_v_cause-on<57:66> PERF -  
+  parg_d<57:66> SF prop  
+  parg_d<57:66> TENSE untensed  
+  parg_d<57:66> MOOD indicative  
+  parg_d<57:66> PROG -  
+  parg_d<57:66> PERF -  
+  _trade_v_1<67:75> SF prop  
+  _trade_v_1<67:75> TENSE untensed  
+  _trade_v_1<67:75> MOOD indicative  
+  _trade_v_1<67:75> PROG +  
+  _trade_v_1<67:75> PERF -  
+  nominalization<67:75> PERS 3  
+  nominalization<67:75> NUM sg  
+  nominalization<67:75> GEND n  
+}
+

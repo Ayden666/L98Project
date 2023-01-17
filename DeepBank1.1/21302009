@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:53 h)).
+;;;
+
+[21302009] (1 of 1) {1} `"It needs more discipline.'
+
+[21302009:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:9>, 1, "needs", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <10:14>, 1, "more", 0, "null", "JJR" 0.9337 "RBR" 0.0663)
+  (5, 4, 5, <15:25>, 1, "discipline", 0, "null", "NN" 1.0)
+  (6, 5, 6, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (74, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (60, 1, 2, <4:9>, 1, "needs", 0, "null")
+  (68, 1, 2, <4:9>, 1, "needs", 0, "null", "VBZ" 1.0)
+  (71, 1, 2, <4:9>, 1, "needs", 0, "null")
+  (65, 2, 3, <10:14>, 1, "more", 0, "null")
+  (67, 2, 3, <10:14>, 1, "more", 0, "null", "JJR" 0.9337)
+  (73, 2, 3, <10:14>, 1, "more", 0, "null")
+  (64, 3, 4, <15:26>, 1, "discipline.", 0, "null")
+  (69, 3, 4, <15:26>, 1, "discipline.", 0, "null", "NN" 1.0)
+  (72, 3, 4, <15:26>, 1, "discipline.", 0, "null")
+>
+
+(ROOT_STRICT
+ (491 SB-HD_MC_C 3.73702 0 4
+  (483 HDN_BNP-QNT_C -0.56328 0 1
+   (482 W_DQLEFT_PLR 0.072519 0 1
+    (76 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 70
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (490 ^HD-CMP_U_C 3.03095 1 4
+   (484 ^V_3S-FIN_OLR 1.82669 1 2
+    (106 need_v1@v_np_le 1.62823 1 2
+     ("needs" 60
+      "token [ +CARG #1=\"needs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (489 HDN_BNP_C 0.59779 2 4
+    (488 AJ-HDN_NORM_C 0.332985 2 4
+     (485 HD_OPTCMP_C 0.134609 2 3
+      (121 more_adj@aj_pp_i-more_le -0.26603 2 3
+       ("more" 65
+        "token [ +CARG #1=\"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93371230000000005\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (487 ^W_PERIOD_PLR 0.628393 3 4
+      (486 N_MS-CNT_ILR 0.310782 3 4
+       (165 discipline_n1@n_-_mc_le 0 3 4
+        ("discipline." 64
+         "token [ +CARG \"discipline\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"discipline.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP (NP "“it")))
+ (VP (V (V "needs"))
+  (NP (N (ADJ (ADJ "more")) (N (N (N "discipline.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _need_v_1<4:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<10:26>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ much-many_a<10:14>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ comp<10:14>
+            LBL: h13
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e14
+            ARG2: u15 ]
+          [ _discipline_n_1<15:26>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_need_v_1-fn.Needing<4:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Pivot x5, ARG2-fn.Theme x9]
+ _2:udef_q<10:26>[BV x9]
+ e14:much-many_a<10:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e16:comp<10:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ x9:_discipline_n_1<15:26>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _need_v_1<4:9> ARG1 pron<0:3>  
+  _need_v_1<4:9> ARG2 _discipline_n_1<15:26>  
+  udef_q<10:26> BV _discipline_n_1<15:26>  
+  much-many_a<10:14> ARG1 _discipline_n_1<15:26>  
+  comp<10:14> ARG1 much-many_a<10:14>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _need_v_1<4:9> SF prop  
+  _need_v_1<4:9> TENSE pres  
+  _need_v_1<4:9> MOOD indicative  
+  _need_v_1<4:9> PROG -  
+  _need_v_1<4:9> PERF -  
+  much-many_a<10:14> SF prop  
+  much-many_a<10:14> TENSE untensed  
+  much-many_a<10:14> MOOD indicative  
+  much-many_a<10:14> PROG -  
+  much-many_a<10:14> PERF -  
+  comp<10:14> SF prop  
+  comp<10:14> TENSE untensed  
+  comp<10:14> MOOD indicative  
+  comp<10:14> PROG -  
+  comp<10:14> PERF -  
+  _discipline_n_1<15:26> PERS 3  
+  _discipline_n_1<15:26> NUM sg  
+}
+

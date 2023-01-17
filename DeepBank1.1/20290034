@@ -1,0 +1,75 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:45 h)).
+;;;
+
+[20290034] (1 of 1) {1} `He dies.'
+
+[20290034:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:7>, 1, "dies", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <7:8>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (34, 0, 1, <0:2>, 1, "he", 0, "null")
+  (36, 0, 1, <0:2>, 1, "he", 0, "null")
+  (32, 1, 2, <3:8>, 1, "dies.", 0, "null")
+  (33, 1, 2, <3:8>, 1, "dies.", 0, "null", "VBZ" 1.0)
+  (35, 1, 2, <3:8>, 1, "dies.", 0, "null")
+>
+
+(ROOT_STRICT
+ (135 SB-HD_MC_C 0.78722 0 2
+  (132 HDN_BNP-QNT_C 1.50958 0 1
+   (37 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 34
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (134 ^W_PERIOD_PLR -0.856509 1 2
+   (133 V_3S-FIN_OLR 0.115433 1 2
+    (56 die_v1@v_-_unacc_le 0 1 2
+     ("dies." 32
+      "token [ +CARG \"dies\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"dies.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP "he")) (VP (VP (V "dies."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _die_v_1<3:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_die_v_1-fn.Death<3:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _die_v_1<3:8> ARG1 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _die_v_1<3:8> SF prop  
+  _die_v_1<3:8> TENSE pres  
+  _die_v_1<3:8> MOOD indicative  
+  _die_v_1<3:8> PROG -  
+  _die_v_1<3:8> PERF -  
+}
+

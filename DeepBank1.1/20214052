@@ -1,0 +1,83 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:00 h)).
+;;;
+
+[20214052] (1 of 1) {1} `Most are trim.'
+
+[20214052:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Most", 0, "null", "JJS" 0.9688 "RBS" 0.0312)
+  (2, 1, 2, <5:8>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <9:13>, 1, "trim", 0, "null", "JJ" 0.8803 "VB" 0.1197)
+  (4, 3, 4, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (48, 0, 1, <0:4>, 1, "Most", 0, "null", "JJS" 0.9688)
+  (52, 0, 1, <0:4>, 1, "most", 0, "null")
+  (55, 0, 1, <0:4>, 1, "most", 0, "null")
+  (43, 1, 2, <5:8>, 1, "are", 0, "null")
+  (50, 1, 2, <5:8>, 1, "are", 0, "null", "VBP" 1.0)
+  (53, 1, 2, <5:8>, 1, "are", 0, "null")
+  (46, 2, 3, <9:14>, 1, "trim.", 0, "null")
+  (49, 2, 3, <9:14>, 1, "trim.", 0, "null", "JJ" 0.8803)
+  (51, 2, 3, <9:14>, 1, "trim.", 0, "null", "VB" 0.1197)
+  (54, 2, 3, <9:14>, 1, "trim.", 0, "null")
+>
+
+(ROOT_STRICT
+ (383 SB-HD_MC_C 3.60062 0 3
+  (380 HDN_BNP-QNT_C 0.525722 0 1
+   (379 DET_PRT-NOCMP_DLR 0.250937 0 1
+    (65 most_det@d_-_prt-plm_le 0.447543 0 1
+     ("most" 52
+      "token [ +CARG \"Most\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"most\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96883260000000004\" +TAG \"JJS\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (382 ^HD-CMP_U_C 1.80555 1 3
+   (81 be_c_are@v_prd_are_le 1.27762 1 2
+    ("are" 43
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (381 W_PERIOD_PLR 0.612486 2 3
+    (88 trim_a1@aj_-_i_le 0 2 3
+     ("trim." 46
+      "token [ +CARG \"trim\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"trim.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88034950000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (DET "most"))) (VP (V "are") (AP (AP "trim."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _most_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ generic_entity<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ _trim_a_1<9:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_most_q<0:4>[BV x6]
+ x6:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ e3:_trim_a_1<9:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _most_q<0:4> BV generic_entity<0:4>  
+  _trim_a_1<9:14> ARG1 generic_entity<0:4>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  _trim_a_1<9:14> SF prop  
+  _trim_a_1<9:14> TENSE pres  
+  _trim_a_1<9:14> MOOD indicative  
+  _trim_a_1<9:14> PROG -  
+  _trim_a_1<9:14> PERF -  
+}
+

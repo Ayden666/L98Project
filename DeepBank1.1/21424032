@@ -1,0 +1,155 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (23:06 h)).
+;;;
+
+[21424032] (1 of 1) {1} `Back to Somalia:'
+
+[21424032:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Back", 0, "null", "RB" 0.9374 "JJ" 0.0376 "NNP" 0.025)
+  (2, 1, 2, <5:7>, 1, "to", 0, "null", "TO" 1.0)
+  (3, 2, 3, <8:15>, 1, "Somalia", 0, "null", "NNP" 0.8058 "NN" 0.1942)
+  (4, 3, 4, <15:16>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (53, 0, 1, <0:4>, 1, "Back", 0, "null", "RB" 0.9374)
+  (56, 0, 1, <0:4>, 1, "back", 0, "null")
+  (60, 0, 1, <0:4>, 1, "back", 0, "null")
+  (46, 1, 2, <5:7>, 1, "to", 0, "null")
+  (58, 1, 2, <5:7>, 1, "to", 0, "null")
+  (38, 2, 3, <8:15>, 1, "Somalia", 0, "null")
+  (54, 2, 3, <8:15>, 1, "Somalia", 0, "null", "NN" 0.1942)
+  (55, 2, 3, <8:15>, 1, "somalia", 0, "null")
+  (57, 2, 3, <8:15>, 1, "somalia", 0, "null")
+  (48, 3, 4, <15:16>, 1, ":", 0, "null")
+  (59, 3, 4, <15:16>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (512 PP_FRG_C 0.408253 0 4
+  (511 NP_ADV_C 1.59305 0 4
+   (510 HDN_BNP-QNT_C 1.81 0 4
+    (509 HDN-AJ_REDREL_C 1.68581 0 4
+     (508 ^HDN-AJ_REDREL_C 1.17077 0 3
+      (68 back_nom@n_-_ad-loc_le -0.441314 0 1
+       ("back" 56
+        "token [ +CARG \"Back\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"back\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93741699999999994\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (504 HD-CMP_U_C 0.562652 1 3
+       (125 to_nmod@p_np_i-nm-no-tm_le -0.97 1 2
+        ("to" 46
+         "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (503 HDN_BNP-PN_C -0.047187 2 3
+        (502 N_SG_ILR 0.233474 2 3
+         (172 somalia_n1@n_-_pn_le 0 2 3
+          ("somalia" 55
+           "token [ +CARG \"Somalia\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"somalia\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80576510000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+     (182 colon_namely_pp@pp_-_i-cln_le 0.295857 3 4
+      (":" 48
+       "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (PP
+  (NP
+   (N (N (N "back") (PP (P "to") (NP (N (N "somalia"))))) (PP ":")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ loc_nonsp<0:16>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG ] ]
+          [ place_n<0:4>
+            LBL: h7
+            ARG0: x6 ]
+          [ def_implicit_q<0:4>
+            LBL: h8
+            ARG0: x6
+            RSTR: h9
+            BODY: h10 ]
+          [ _back_p<0:4>
+            LBL: h7
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _to_p<5:7>
+            LBL: h7
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:15>
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ named<8:15>
+            LBL: h17
+            ARG0: x13
+            CARG: "Somalia" ]
+          [ _colon_p_namely<15:16>
+            LBL: h7
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h15 QEQ h17 h9 QEQ h7 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:loc_nonsp<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ x6:place_n<0:4>{x PERS 3, NUM sg}[]
+ _1:def_implicit_q<0:4>[BV x6]
+ e11:_back_p<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e12:_to_p<5:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x13]
+ _2:proper_q<8:15>[BV x13]
+ x13:named<8:15>("Somalia"){x PERS 3, NUM sg, IND +}[]
+ e18:_colon_p_namely<15:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  loc_nonsp<0:16> ARG1 unknown<0:16>  
+  loc_nonsp<0:16> ARG2 place_n<0:4>  
+  def_implicit_q<0:4> BV place_n<0:4>  
+  _back_p<0:4> ARG1 place_n<0:4>  
+  _to_p<5:7> ARG1 place_n<0:4>  
+  _to_p<5:7> ARG2 named<8:15>(Somalia)  
+  proper_q<8:15> BV named<8:15>(Somalia)  
+  _colon_p_namely<15:16> ARG1 place_n<0:4>  
+  unknown<0:16> SF prop-or-ques  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  loc_nonsp<0:16> SF prop  
+  loc_nonsp<0:16> TENSE untensed  
+  loc_nonsp<0:16> MOOD indicative  
+  loc_nonsp<0:16> PROG -  
+  loc_nonsp<0:16> PERF -  
+  place_n<0:4> PERS 3  
+  place_n<0:4> NUM sg  
+  _back_p<0:4> SF prop  
+  _back_p<0:4> TENSE untensed  
+  _back_p<0:4> MOOD indicative  
+  _back_p<0:4> PROG -  
+  _back_p<0:4> PERF -  
+  _to_p<5:7> SF prop  
+  _to_p<5:7> TENSE untensed  
+  _to_p<5:7> MOOD indicative  
+  _to_p<5:7> PROG -  
+  _to_p<5:7> PERF -  
+  named<8:15>(Somalia) PERS 3  
+  named<8:15>(Somalia) NUM sg  
+  named<8:15>(Somalia) IND +  
+  _colon_p_namely<15:16> SF prop  
+  _colon_p_namely<15:16> TENSE untensed  
+  _colon_p_namely<15:16> MOOD indicative  
+  _colon_p_namely<15:16> PROG -  
+  _colon_p_namely<15:16> PERF -  
+}
+

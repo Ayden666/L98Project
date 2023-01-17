@@ -1,0 +1,180 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:18 h)).
+;;;
+
+[20916005] (1 of 1) {1} `Inventories fell 0.3% in August.'
+
+[20916005:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Inventories", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <12:16>, 1, "fell", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <17:20>, 1, "0.3", 0, "null", "CD" 1.0)
+  (4, 3, 4, <20:21>, 1, "%", 0, "null", "NN" 1.0)
+  (5, 4, 5, <22:24>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <25:31>, 1, "August", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (76, 0, 1, <0:11>, 1, "Inventories", 0, "null", "NNS" 1.0)
+  (79, 0, 1, <0:11>, 1, "inventories", 0, "null")
+  (86, 0, 1, <0:11>, 1, "inventories", 0, "null")
+  (71, 1, 2, <12:16>, 1, "fell", 0, "null")
+  (77, 1, 2, <12:16>, 1, "fell", 0, "null", "VBD" 1.0)
+  (84, 1, 2, <12:16>, 1, "fell", 0, "null")
+  (60, 2, 3, <17:20>, 1, "0.3", 0, "null")
+  (81, 2, 3, <17:20>, 1, "0.3", 0, "null")
+  (73, 3, 4, <20:21>, 1, "%", 0, "null")
+  (85, 3, 4, <20:21>, 1, "%", 0, "null")
+  (69, 4, 5, <22:24>, 1, "in", 0, "null")
+  (83, 4, 5, <22:24>, 1, "in", 0, "null")
+  (65, 5, 6, <25:32>, 1, "August.", 0, "null")
+  (78, 5, 6, <25:32>, 1, "August.", 0, "null", "NNP" 1.0)
+  (80, 5, 6, <25:32>, 1, "august.", 0, "null")
+  (82, 5, 6, <25:32>, 1, "august.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1002 SB-HD_MC_C 14.8963 0 6
+  (989 HDN_BNP_C -1.06943 0 1
+   (988 N_PL_OLR -0.493422 0 1
+    (99 inventory_n1@n_-_mc_le 0 0 1
+     ("inventories" 79
+      "token [ +CARG \"Inventories\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"inventories\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1001 ^HD-AJ_INT-UNSL_C 15.1256 1 6
+   (996 ^HD-AJ_INT-UNSL_C 10.4701 1 4
+    (991 ^HD_OPTCMP_C 3.79136 1 2
+     (990 V_PST_OLR 2.3008 1 2
+      (115 fall_v1@v_pp_unacc_le 0.574647 1 2
+       ("fell" 71
+        "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (995 NP_ADV-MNP_C 5.4957 2 4
+     (994 HDN_BNP_C 7.0646 2 4
+      (993 NUM-N_MNP_C 5.54022 2 4
+       (123 generic_decimal_ne@aj_-_i-one-gen_le 0 2 3
+        ("0.3" 60
+         "token [ +CARG #1=\"0.3\" +CLASS card_or_decimal_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (992 ^N_SG_ILR 3.27487 3 4
+        (127 percent_char_n1@n_-_c-meas-spr_le 1.82427 3 4
+         ("%" 73
+          "token [ +CARG #1=\"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (1000 HD-CMP_U_C 3.0971 4 6
+    (158 in_temp@p_np_i-tmp_le 1.24586 4 5
+     ("in" 69
+      "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (999 HDN_BNP-PN_C 0.087994 5 6
+     (998 W_PERIOD_PLR 0.167951 5 6
+      (997 N_SG_ILR -0.264967 5 6
+       (201 august@n_-_c-month_le 0 5 6
+        ("august." 80
+         "token [ +CARG \"August\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"august.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "inventories")))
+ (VP (VP (VP (V (V "fell"))) (PP (NP (N (ADJ "0.3") (N (N "%"))))))
+  (PP (P "in") (NP (N (N (N "august.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _inventory_n_1<0:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _fall_v_1<12:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<17:21>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<17:21>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ card<17:20>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            CARG: "1" ]
+          [ _percent_n_of<20:21>
+            LBL: h14
+            ARG0: x10 ]
+          [ _in_p_temp<22:24>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<25:32>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ mofy<25:32>
+            LBL: h21
+            ARG0: x17
+            CARG: "Aug" ] >
+   HCONS: < h19 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:11>[BV x6]
+ x6:_inventory_n_1<0:11>{x PERS 3, NUM pl}[]
+ e3:_fall_v_1-fn.Change_position_on_a_scale<12:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<17:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:udef_q<17:21>[BV x10]
+ e15:card<17:20>("1"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_percent_n_of<20:21>{x PERS 3, NUM sg, IND +}[]
+ e16:_in_p_temp<22:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ _3:proper_q<25:32>[BV x17]
+ x17:mofy<25:32>("Aug"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:11> BV _inventory_n_1<0:11>  
+  _fall_v_1<12:16> ARG1 _inventory_n_1<0:11>  
+  loc_nonsp<17:21> ARG1 _fall_v_1<12:16>  
+  loc_nonsp<17:21> ARG2 _percent_n_of<20:21>  
+  udef_q<17:21> BV _percent_n_of<20:21>  
+  card<17:20>(1) ARG1 _percent_n_of<20:21>  
+  _in_p_temp<22:24> ARG1 _fall_v_1<12:16>  
+  _in_p_temp<22:24> ARG2 mofy<25:32>(Aug)  
+  proper_q<25:32> BV mofy<25:32>(Aug)  
+  _inventory_n_1<0:11> PERS 3  
+  _inventory_n_1<0:11> NUM pl  
+  _fall_v_1<12:16> SF prop  
+  _fall_v_1<12:16> TENSE past  
+  _fall_v_1<12:16> MOOD indicative  
+  _fall_v_1<12:16> PROG -  
+  _fall_v_1<12:16> PERF -  
+  loc_nonsp<17:21> SF prop  
+  loc_nonsp<17:21> TENSE untensed  
+  loc_nonsp<17:21> MOOD indicative  
+  loc_nonsp<17:21> PROG -  
+  loc_nonsp<17:21> PERF -  
+  card<17:20>(1) SF prop  
+  card<17:20>(1) TENSE untensed  
+  card<17:20>(1) MOOD indicative  
+  card<17:20>(1) PROG -  
+  card<17:20>(1) PERF -  
+  _percent_n_of<20:21> PERS 3  
+  _percent_n_of<20:21> NUM sg  
+  _percent_n_of<20:21> IND +  
+  _in_p_temp<22:24> SF prop  
+  _in_p_temp<22:24> TENSE untensed  
+  _in_p_temp<22:24> MOOD indicative  
+  _in_p_temp<22:24> PROG -  
+  _in_p_temp<22:24> PERF -  
+  mofy<25:32>(Aug) PERS 3  
+  mofy<25:32>(Aug) NUM sg  
+  mofy<25:32>(Aug) IND +  
+}
+

@@ -1,0 +1,101 @@
+;;;
+;;; Redwoods export of `wsj16e';
+;;; (wsun@wsun; 23-jan-2018 (01:47 h)).
+;;;
+
+[21682037] (1 of 1) {1} `MINOR MEMOS:'
+
+[21682037:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "MINOR", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <6:11>, 1, "MEMOS", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <11:12>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:5>, 1, "MINOR", 0, "null")
+  (39, 0, 1, <0:5>, 1, "MINOR", 0, "null", "JJ" 1.0)
+  (41, 0, 1, <0:5>, 1, "minor", 0, "null")
+  (43, 0, 1, <0:5>, 1, "minor", 0, "null")
+  (30, 1, 2, <6:11>, 1, "MEMOS", 0, "null")
+  (38, 1, 2, <6:11>, 1, "MEMOS", 0, "null", "NNS" 1.0)
+  (40, 1, 2, <6:11>, 1, "memos", 0, "null")
+  (42, 1, 2, <6:11>, 1, "memos", 0, "null")
+  (37, 2, 3, <11:12>, 1, ":", 0, "null")
+  (44, 2, 3, <11:12>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (278 NP-AJ_RORP-FRG_C 2.33569 0 3
+  (277 ^HDN_BNP_C 1.63321 0 2
+   (276 AJ-HDN_NORM_C 0.653356 0 2
+    (49 minor_a1@aj_-_i_le 0 0 1
+     ("minor" 41
+      "token [ +CARG \"MINOR\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"minor\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (52 generic_pl_noun@n_-_c-pl-unk_le 0 1 2
+     ("MEMOS" 38
+      "token [ +CARG #1=\"MEMOS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_memos/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (66 colon_namely_pp@pp_-_i-cln_le -0.0285323 2 3
+   (":" 37
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (AP "minor") (N "MEMOS"))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:12>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:11>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _minor_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _memos/nns_u_unknown<6:11>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<11:12>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i10 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:11>[BV x4]
+ e9:_minor_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_memos/nns_u_unknown<6:11>{x PERS 3, NUM pl}[]
+ e11:_colon_p_namely<11:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:12> ARG _memos/nns_u_unknown<6:11>  
+  udef_q<0:11> BV _memos/nns_u_unknown<6:11>  
+  _minor_a_1<0:5> ARG1 _memos/nns_u_unknown<6:11>  
+  unknown<0:12> SF prop  
+  unknown<0:12> TENSE untensed  
+  unknown<0:12> MOOD indicative  
+  unknown<0:12> PROG -  
+  unknown<0:12> PERF -  
+  _minor_a_1<0:5> SF prop  
+  _minor_a_1<0:5> TENSE untensed  
+  _minor_a_1<0:5> MOOD indicative  
+  _minor_a_1<0:5> PROG -  
+  _minor_a_1<0:5> PERF -  
+  _memos/nns_u_unknown<6:11> PERS 3  
+  _memos/nns_u_unknown<6:11> NUM pl  
+  _colon_p_namely<11:12> SF prop  
+  _colon_p_namely<11:12> TENSE untensed  
+  _colon_p_namely<11:12> MOOD indicative  
+  _colon_p_namely<11:12> PROG -  
+  _colon_p_namely<11:12> PERF -  
+}
+

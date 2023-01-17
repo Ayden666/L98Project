@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778131] (1 of 1) {1} `FIG:'
+
+[21778131:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "FIG", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <3:4>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (20, 0, 1, <0:3>, 1, "FIG", 0, "null")
+  (25, 0, 1, <0:3>, 1, "FIG", 0, "null", "NNP" 1.0)
+  (26, 0, 1, <0:3>, 1, "fig", 0, "null")
+  (27, 0, 1, <0:3>, 1, "fig", 0, "null")
+  (24, 1, 2, <3:4>, 1, ":", 0, "null")
+  (28, 1, 2, <3:4>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (104 NP-AJ_RORP-FRG_C -2.13308 0 2
+  (103 ^HDN_BNP-PN_C -1.89673 0 1
+   (102 N_SG_ILR -1.13677 0 1
+    (30 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("FIG" 20
+      "token [ +CARG #1=\"FIG\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (44 colon_namely_pp@pp_-_i-cln_le 0.0128037 1 2
+   (":" 24
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (N "FIG"))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:3>
+            LBL: h8
+            ARG0: x4
+            CARG: "FIG" ]
+          [ _colon_p_namely<3:4>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i9 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:3>[BV x4]
+ x4:named<0:3>("FIG"){x PERS 3, NUM sg, IND +}[]
+ e10:_colon_p_namely<3:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:4> ARG named<0:3>(FIG)  
+  proper_q<0:3> BV named<0:3>(FIG)  
+  unknown<0:4> SF prop  
+  unknown<0:4> TENSE untensed  
+  unknown<0:4> MOOD indicative  
+  unknown<0:4> PROG -  
+  unknown<0:4> PERF -  
+  named<0:3>(FIG) PERS 3  
+  named<0:3>(FIG) NUM sg  
+  named<0:3>(FIG) IND +  
+  _colon_p_namely<3:4> SF prop  
+  _colon_p_namely<3:4> TENSE untensed  
+  _colon_p_namely<3:4> MOOD indicative  
+  _colon_p_namely<3:4> PROG -  
+  _colon_p_namely<3:4> PERF -  
+}
+

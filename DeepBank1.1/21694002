@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj16f';
+;;; (wsun@wsun; 23-jan-2018 (01:54 h)).
+;;;
+
+[21694002] (1 of 1) {1} `But the dollar was mixed.'
+
+[21694002:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <8:14>, 1, "dollar", 0, "null", "NN" 1.0)
+  (4, 3, 4, <15:18>, 1, "was", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <19:24>, 1, "mixed", 0, "null", "VBN" 0.6984 "JJ" 0.3016)
+  (6, 5, 6, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:3>, 1, "but", 0, "null")
+  (77, 0, 1, <0:3>, 1, "but", 0, "null")
+  (61, 1, 2, <4:7>, 1, "the", 0, "null")
+  (73, 1, 2, <4:7>, 1, "the", 0, "null")
+  (63, 2, 3, <8:14>, 1, "dollar", 0, "null")
+  (69, 2, 3, <8:14>, 1, "dollar", 0, "null", "NN" 1.0)
+  (74, 2, 3, <8:14>, 1, "dollar", 0, "null")
+  (65, 3, 4, <15:18>, 1, "was", 0, "null")
+  (70, 3, 4, <15:18>, 1, "was", 0, "null", "VBD" 1.0)
+  (75, 3, 4, <15:18>, 1, "was", 0, "null")
+  (66, 4, 5, <19:25>, 1, "mixed.", 0, "null")
+  (68, 4, 5, <19:25>, 1, "mixed.", 0, "null", "VBN" 0.6984)
+  (71, 4, 5, <19:25>, 1, "mixed.", 0, "null", "JJ" 0.3016)
+  (76, 4, 5, <19:25>, 1, "mixed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1010 CL_CNJ-FRG_C 9.68536 0 5
+  (1009 MRK-NH_CL_C 8.81548 0 5
+   (80 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 72
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1008 SB-HD_MC_C 6.40283 1 5
+    (1003 SP-HD_N_C 2.26686 1 3
+     (106 the_1@d_-_the_le 1.13181 1 2
+      ("the" 61
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1002 ^N_SG_ILR 0.269794 2 3
+      (133 dollar_n1@n_-_c-meas-nb_le 0.566797 2 3
+       ("dollar" 63
+        "token [ +CARG #1=\"dollar\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1007 ^HD-CMP_U_C 2.90755 3 5
+     (146 be_c_was@v_prd_was_le 2.0009 3 4
+      ("was" 65
+       "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1006 HD_OPTCMP_C 0.285111 4 5
+      (1005 W_PERIOD_PLR 0.133685 4 5
+       (1004 V_PAS_ODLR -0.192154 4 5
+        (175 mix_v1@v_np*_le 0 4 5
+         ("mixed." 66
+          "token [ +CARG \"mixed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"mixed.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.6984013\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "the") (N (N "dollar")))
+   (VP (V "was") (VP (V (V (V "mixed."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _the_q<4:7>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h11
+            BODY: h9 ]
+          [ _dollar_n_1<8:14>
+            LBL: h12
+            ARG0: x10 ]
+          [ _mix_v_1<19:25>
+            LBL: h13
+            ARG0: e4
+            ARG1: i14
+            ARG2: x10 ]
+          [ parg_d<19:25>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e4
+            ARG2: x10 ] >
+   HCONS: < h11 QEQ h12 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_the_q<4:7>[BV x10]
+ x10:_dollar_n_1<8:14>{x PERS 3, NUM sg, IND +}[]
+ e4:_mix_v_1-fn.Cause_to_amalgamate<19:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2-fn.Part_1 x10]
+ e15:parg_d<19:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4, ARG2 x10]
+}
+
+{
+  _but_c<0:3> R-HNDL _mix_v_1<19:25>  
+  _but_c<0:3> R-INDEX _mix_v_1<19:25>  
+  _the_q<4:7> BV _dollar_n_1<8:14>  
+  _mix_v_1<19:25> ARG2 _dollar_n_1<8:14>  
+  parg_d<19:25> ARG1 _mix_v_1<19:25>  
+  parg_d<19:25> ARG2 _dollar_n_1<8:14>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _dollar_n_1<8:14> PERS 3  
+  _dollar_n_1<8:14> NUM sg  
+  _dollar_n_1<8:14> IND +  
+  _mix_v_1<19:25> SF prop  
+  _mix_v_1<19:25> TENSE past  
+  _mix_v_1<19:25> MOOD indicative  
+  _mix_v_1<19:25> PROG -  
+  _mix_v_1<19:25> PERF -  
+  parg_d<19:25> SF prop  
+  parg_d<19:25> TENSE untensed  
+  parg_d<19:25> MOOD indicative  
+  parg_d<19:25> PROG -  
+  parg_d<19:25> PERF -  
+}
+

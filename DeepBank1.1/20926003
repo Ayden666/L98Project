@@ -1,0 +1,160 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:23 h)).
+;;;
+
+[20926003] (1 of 1) {1} `It has three U.S. branches.'
+
+[20926003:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:6>, 1, "has", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <7:12>, 1, "three", 0, "null", "CD" 1.0)
+  (4, 3, 4, <13:17>, 1, "U.S.", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <18:26>, 1, "branches", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:2>, 1, "it", 0, "null")
+  (79, 0, 1, <0:2>, 1, "it", 0, "null")
+  (63, 1, 2, <3:6>, 1, "has", 0, "null")
+  (69, 1, 2, <3:6>, 1, "has", 0, "null", "VBZ" 1.0)
+  (75, 1, 2, <3:6>, 1, "has", 0, "null")
+  (65, 2, 3, <7:12>, 1, "three", 0, "null")
+  (70, 2, 3, <7:12>, 1, "three", 0, "null", "CD" 1.0)
+  (76, 2, 3, <7:12>, 1, "three", 0, "null")
+  (56, 3, 4, <13:17>, 1, "U.S.", 0, "null")
+  (68, 3, 4, <13:17>, 1, "U.S.", 0, "null", "NNP" 1.0)
+  (73, 3, 4, <13:17>, 1, "u.s.", 0, "null")
+  (74, 3, 4, <13:17>, 1, "u.s.", 0, "null")
+  (67, 4, 5, <18:27>, 1, "branches.", 0, "null")
+  (71, 4, 5, <18:27>, 1, "branches.", 0, "null", "NNS" 1.0)
+  (77, 4, 5, <18:27>, 1, "branches.", 0, "null")
+>
+
+(ROOT_STRICT
+ (976 SB-HD_MC_C 6.14627 0 5
+  (967 HDN_BNP-QNT_C 0.430464 0 1
+   (81 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 72
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (975 ^HD-CMP_U_C 4.44646 1 5
+   (968 ^V_3S-FIN_OLR 1.21973 1 2
+    (115 have-poss@v_np_poss_le 0.528051 1 2
+     ("has" 63
+      "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (974 SP-HD_N_C 2.2886 2 5
+    (969 NUM_DET_C 0.372195 2 3
+     (195 three@aj_-_i-crd-one_le -0.300109 2 3
+      ("three" 65
+       "token [ +CARG #1=\"three\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (973 ^N-HDN_CPD_C 1.94616 3 5
+     (220 us_n5@n_-_c-nm-pd_le 0.465461 3 4
+      ("u.s." 73
+       "token [ +CARG \"U.S.\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"u.s.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (972 ^HDN_OPTCMP_C -0.0565591 4 5
+      (971 W_PERIOD_PLR -0.070491 4 5
+       (970 N_PL_OLR -0.073435 4 5
+        (225 branch_n1@n_pp_c-of_le 0 4 5
+         ("branches." 67
+          "token [ +CARG \"branches\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"branches.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (NP "it"))
+ (VP (V (V "has"))
+  (NP (DET (ADJ "three")) (N (N "u.s.") (N (N (N (N "branches."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _have_v_1<3:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<7:12>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<7:12>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "3" ]
+          [ compound<13:27>
+            LBL: h13
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ udef_q<13:17>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named_n<13:17>
+            LBL: h20
+            ARG0: x15
+            CARG: "US" ]
+          [ _branch_n_of<18:27>
+            LBL: h13
+            ARG0: x9
+            ARG1: i21 ] >
+   HCONS: < h18 QEQ h20 h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_have_v_1<3:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<7:12>[BV x9]
+ e14:card<7:12>("3"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e16:compound<13:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<13:17>[BV x15]
+ x15:named_n<13:17>("US"){x IND +}[]
+ x9:_branch_n_of<18:27>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _have_v_1<3:6> ARG1 pron<0:2>  
+  _have_v_1<3:6> ARG2 _branch_n_of<18:27>  
+  udef_q<7:12> BV _branch_n_of<18:27>  
+  card<7:12>(3) ARG1 _branch_n_of<18:27>  
+  compound<13:27> ARG1 _branch_n_of<18:27>  
+  compound<13:27> ARG2 named_n<13:17>(US)  
+  udef_q<13:17> BV named_n<13:17>(US)  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _have_v_1<3:6> SF prop  
+  _have_v_1<3:6> TENSE pres  
+  _have_v_1<3:6> MOOD indicative  
+  _have_v_1<3:6> PROG -  
+  _have_v_1<3:6> PERF -  
+  card<7:12>(3) SF prop  
+  card<7:12>(3) TENSE untensed  
+  card<7:12>(3) MOOD indicative  
+  card<7:12>(3) PROG -  
+  card<7:12>(3) PERF -  
+  compound<13:27> SF prop  
+  compound<13:27> TENSE untensed  
+  compound<13:27> MOOD indicative  
+  compound<13:27> PROG -  
+  compound<13:27> PERF -  
+  named_n<13:17>(US) IND +  
+  _branch_n_of<18:27> PERS 3  
+  _branch_n_of<18:27> NUM pl  
+  _branch_n_of<18:27> IND +  
+}
+

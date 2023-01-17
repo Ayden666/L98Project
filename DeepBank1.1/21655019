@@ -1,0 +1,90 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:32 h)).
+;;;
+
+[21655019] (1 of 1) {1} `"With pleasure.'
+
+[21655019:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "With", 0, "null", "IN" 1.0)
+  (3, 2, 3, <6:14>, 1, "pleasure", 0, "null", "NN" 1.0)
+  (4, 3, 4, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (44, 0, 1, <0:5>, 1, "“with", 0, "null")
+  (46, 0, 1, <0:5>, 1, "“with", 0, "null")
+  (42, 1, 2, <6:15>, 1, "pleasure.", 0, "null")
+  (43, 1, 2, <6:15>, 1, "pleasure.", 0, "null", "NN" 1.0)
+  (45, 1, 2, <6:15>, 1, "pleasure.", 0, "null")
+>
+
+(ROOT_FRAG
+ (130 PP_FRG_C -2.63384 0 2
+  (129 HD-CMP_U_C -1.38591 0 2
+   (124 ^W_DQLEFT_PLR -0.772039 0 1
+    (56 with_p@p_np_i_le 0 0 1
+     ("“with" 44
+      "token [ +CARG \"With\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“with\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (128 HDN_BNP_C -0.827201 1 2
+    (127 HDN_OPTCMP_C -0.080892 1 2
+     (126 W_PERIOD_PLR 0.0599575 1 2
+      (125 N_MS-CNT_ILR 0.238056 1 2
+       (71 pleasure_n1@n_pp_mc-of-ns_le 0 1 2
+        ("pleasure." 42
+         "token [ +CARG \"pleasure\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pleasure.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (PP (P (P "“with")) (NP (N (N (N (N "pleasure.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _with_p<0:5>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<6:15>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ _pleasure_n_of<6:15>
+            LBL: h10
+            ARG0: x6
+            ARG1: i11 ] >
+   HCONS: < h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_with_p<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:udef_q<6:15>[BV x6]
+ x6:_pleasure_n_of<6:15>{x PERS 3, NUM sg}[]
+}
+
+{
+  _with_p<0:5> ARG1 unknown<0:15>  
+  _with_p<0:5> ARG2 _pleasure_n_of<6:15>  
+  udef_q<6:15> BV _pleasure_n_of<6:15>  
+  unknown<0:15> SF prop  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  _with_p<0:5> SF prop  
+  _with_p<0:5> TENSE untensed  
+  _with_p<0:5> MOOD indicative  
+  _with_p<0:5> PROG -  
+  _with_p<0:5> PERF -  
+  _pleasure_n_of<6:15> PERS 3  
+  _pleasure_n_of<6:15> NUM sg  
+}
+

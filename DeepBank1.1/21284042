@@ -1,0 +1,111 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:45 h)).
+;;;
+
+[21284042] (1 of 1) {1} `-- Global reciprocity.'
+
+[21284042:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:9>, 1, "Global", 0, "null", "JJ" 0.8993 "NNP" 0.1007)
+  (3, 2, 3, <10:21>, 1, "reciprocity", 0, "null", "NN" 1.0)
+  (4, 3, 4, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (41, 0, 1, <0:2>, 1, "–", 0, "null")
+  (50, 0, 1, <0:2>, 1, "–", 0, "null")
+  (46, 1, 2, <3:9>, 1, "Global", 0, "null")
+  (47, 1, 2, <3:9>, 1, "Global", 0, "null", "JJ" 0.8993)
+  (49, 1, 2, <3:9>, 1, "global", 0, "null")
+  (52, 1, 2, <3:9>, 1, "global", 0, "null")
+  (43, 2, 3, <10:22>, 1, "reciprocity.", 0, "null")
+  (48, 2, 3, <10:22>, 1, "reciprocity.", 0, "null", "NN" 1.0)
+  (51, 2, 3, <10:22>, 1, "reciprocity.", 0, "null")
+>
+
+(ROOT_FRAG
+ (210 AJ-HD_SCP-XP_C 2.11855 0 3
+  (54 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 41
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (209 ^NP_FRG_C 1.22954 1 3
+   (208 HDN_BNP_C 0.532095 1 3
+    (207 AJ-HDN_NORM_C 0.532414 1 3
+     (64 global_a1@aj_-_i_le 0 1 2
+      ("global" 49
+       "token [ +CARG \"Global\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"global\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89931649999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (206 ^W_PERIOD_PLR -0.28444 2 3
+      (205 N_MS-CNT_ILR -0.602051 2 3
+       (69 generic_mass_count_noun@n_-_mc-unk_le 0 2 3
+        ("reciprocity." 48
+         "token [ +CARG \"reciprocity\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"reciprocity.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED \"_reciprocity/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "–") (XP (NP (N (AP "global") (N (N (N "reciprocity.")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:22>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<3:22>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ _global_a_1<3:9>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8 ]
+          [ _reciprocity/nn_u_unknown<10:22>
+            LBL: h12
+            ARG0: x8 ] >
+   HCONS: < h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:udef_q<3:22>[BV x8]
+ e13:_global_a_1<3:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ x8:_reciprocity/nn_u_unknown<10:22>{x PERS 3, NUM sg}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:22>  
+  discourse<0:2> R-INDEX unknown<3:22>  
+  unknown<3:22> ARG _reciprocity/nn_u_unknown<10:22>  
+  udef_q<3:22> BV _reciprocity/nn_u_unknown<10:22>  
+  _global_a_1<3:9> ARG1 _reciprocity/nn_u_unknown<10:22>  
+  unknown<3:22> SF prop  
+  unknown<3:22> TENSE untensed  
+  unknown<3:22> MOOD indicative  
+  unknown<3:22> PROG -  
+  unknown<3:22> PERF -  
+  _global_a_1<3:9> SF prop  
+  _global_a_1<3:9> TENSE untensed  
+  _global_a_1<3:9> MOOD indicative  
+  _global_a_1<3:9> PROG -  
+  _global_a_1<3:9> PERF -  
+  _reciprocity/nn_u_unknown<10:22> PERS 3  
+  _reciprocity/nn_u_unknown<10:22> NUM sg  
+}
+

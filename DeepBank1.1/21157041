@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:35 h)).
+;;;
+
+[21157041] (1 of 1) {1} `He received $50,085.'
+
+[21157041:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:11>, 1, "received", 0, "null", "VBD" 0.9893 "VBN" 0.0107)
+  (3, 2, 3, <12:13>, 1, "$", 0, "null", "$" 1.0)
+  (4, 3, 4, <13:19>, 1, "50,085", 0, "null", "CD" 1.0)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:2>, 1, "he", 0, "null")
+  (58, 0, 1, <0:2>, 1, "he", 0, "null")
+  (51, 1, 2, <3:11>, 1, "received", 0, "null")
+  (53, 1, 2, <3:11>, 1, "received", 0, "null", "VBD" 0.9893)
+  (57, 1, 2, <3:11>, 1, "received", 0, "null")
+  (50, 2, 3, <12:13>, 1, "$", 0, "null")
+  (56, 2, 3, <12:13>, 1, "$", 0, "null")
+  (44, 3, 4, <13:20>, 1, "50,085.", 0, "null")
+  (55, 3, 4, <13:20>, 1, "50,085.", 0, "null")
+>
+
+(ROOT_STRICT
+ (424 SB-HD_MC_C 8.68497 0 4
+  (417 HDN_BNP-QNT_C 1.50958 0 1
+   (59 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 54
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (423 ^HD-CMP_U_C 5.90605 1 4
+   (418 ^V_PST_OLR 0.813379 1 2
+    (84 receive_v1@v_np*_le 0.506603 1 2
+     ("received" 51
+      "token [ +CARG #1=\"received\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98926119999999995\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (422 HDN_BNP_C 4.17249 2 4
+    (421 N-NUM_MNP_C 3.97694 2 4
+     (419 ^N_PL-CUR_ILR 1.21255 2 3
+      (174 dollarsign_n1@n_-_c-cur_le -0.27486 2 3
+       ("$" 50
+        "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (420 W_PERIOD_PLR 1.05902 3 4
+      (177 generic_card_ne@aj_-_i-crd-gen_le 0 3 4
+       ("50,085." 44
+        "token [ +CARG \"50,085\" +CLASS card_ne +FORM \"50,085.\" +FROM \"13\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (NP (NP "he"))
+ (VP (V (V "received")) (NP (N (N (N "$")) (ADJ (ADJ "50,085."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _receive_v_1<3:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:20>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _dollar_n_1<12:13>
+            LBL: h13
+            ARG0: x9 ]
+          [ card<13:20>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "50,085" ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_receive_v_1<3:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<12:20>[BV x9]
+ x9:_dollar_n_1<12:13>{x PERS 3, NUM pl, IND +}[]
+ e14:card<13:20>("50,085"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _receive_v_1<3:11> ARG1 pron<0:2>  
+  _receive_v_1<3:11> ARG2 _dollar_n_1<12:13>  
+  udef_q<12:20> BV _dollar_n_1<12:13>  
+  card<13:20>(50,085) ARG1 _dollar_n_1<12:13>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _receive_v_1<3:11> SF prop  
+  _receive_v_1<3:11> TENSE past  
+  _receive_v_1<3:11> MOOD indicative  
+  _receive_v_1<3:11> PROG -  
+  _receive_v_1<3:11> PERF -  
+  _dollar_n_1<12:13> PERS 3  
+  _dollar_n_1<12:13> NUM pl  
+  _dollar_n_1<12:13> IND +  
+  card<13:20>(50,085) SF prop  
+  card<13:20>(50,085) TENSE untensed  
+  card<13:20>(50,085) MOOD indicative  
+  card<13:20>(50,085) PROG -  
+  card<13:20>(50,085) PERF -  
+}
+

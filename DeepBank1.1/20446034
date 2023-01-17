@@ -1,0 +1,187 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:14 h)).
+;;;
+
+[20446034] (1 of 1) {1} `Wrong on all counts, Miss Fraser.'
+
+[20446034:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Wrong", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <6:8>, 1, "on", 0, "null", "IN" 1.0)
+  (3, 2, 3, <9:12>, 1, "all", 0, "null", "DT" 0.9898 "PDT" 0.0102)
+  (4, 3, 4, <13:19>, 1, "counts", 0, "null", "NNS" 0.9228 "VBZ" 0.0772)
+  (5, 4, 5, <19:20>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <21:25>, 1, "Miss", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <26:32>, 1, "Fraser", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (98, 0, 1, <0:5>, 1, "Wrong", 0, "null", "JJ" 1.0)
+  (101, 0, 1, <0:5>, 1, "wrong", 0, "null")
+  (109, 0, 1, <0:5>, 1, "wrong", 0, "null")
+  (89, 1, 2, <6:8>, 1, "on", 0, "null")
+  (105, 1, 2, <6:8>, 1, "on", 0, "null")
+  (92, 2, 3, <9:12>, 1, "all", 0, "null")
+  (106, 2, 3, <9:12>, 1, "all", 0, "null")
+  (94, 3, 4, <13:20>, 1, "counts,", 0, "null")
+  (96, 3, 4, <13:20>, 1, "counts,", 0, "null", "NNS" 0.9228)
+  (107, 3, 4, <13:20>, 1, "counts,", 0, "null")
+  (75, 4, 5, <21:25>, 1, "Miss", 0, "null")
+  (97, 4, 5, <21:25>, 1, "Miss", 0, "null", "NNP" 1.0)
+  (100, 4, 5, <21:25>, 1, "miss", 0, "null")
+  (103, 4, 5, <21:25>, 1, "miss", 0, "null")
+  (79, 5, 6, <26:33>, 1, "Fraser.", 0, "null")
+  (99, 5, 6, <26:33>, 1, "Fraser.", 0, "null", "NNP" 1.0)
+  (102, 5, 6, <26:33>, 1, "fraser.", 0, "null")
+  (104, 5, 6, <26:33>, 1, "fraser.", 0, "null")
+>
+
+(ROOT_FRAG
+ (1605 J-AJ_FRG_C 0.834622 0 6
+  (1592 ^HD-AJ_INT-UNSL_C 3.12394 0 4
+   (113 wrong_a2@aj_-_i_le 0 0 1
+    ("wrong" 101
+     "token [ +CARG \"Wrong\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"wrong\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1591 HD-CMP_U_C 1.99459 1 4
+    (136 on@p_np_i-reg_le 0.12973 1 2
+     ("on" 89
+      "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1590 SP-HD_N_C 1.24137 2 4
+     (166 all@d_-_prt-plm_le 0.191161 2 3
+      ("all" 92
+       "token [ +CARG #1=\"all\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98978429999999995\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1589 ^W_COMMA_PLR 0.863813 3 4
+      (1588 N_PL_OLR 0.215301 3 4
+       (234 count_n1@n_-_c_le 0 3 4
+        ("counts," 94
+         "token [ +CARG \"counts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"counts,\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92278470000000001\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (1604 NP_VOC-POST_C -2.28932 4 6
+   (1603 HDN_BNP-PN_C -1.43825 4 6
+    (1602 NP-HDN_TTL-CPD_C -0.784199 4 6
+     (1601 N_SG_ILR -1.07354 4 5
+      (304 miss_n1@n_-_c_le 0 4 5
+       ("miss" 100
+        "token [ +CARG \"Miss\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"miss\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1596 ^W_PERIOD_PLR -0.0750314 5 6
+      (1595 N_SG_ILR -0.629626 5 6
+       (329 fraser_n1@n_-_pn_le 0 5 6
+        ("fraser." 102
+         "token [ +CARG \"Fraser\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"fraser.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (AP (AP "wrong") (PP (P "on") (NP (DET "all") (N (N (N "counts,"))))))
+ (ADV (NP (N (N (N "miss")) (N (N (N "fraser.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:33>
+            LBL: h4
+            ARG0: e3
+            ARG: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _wrong_a_with<0:5>
+            LBL: h4
+            ARG0: e5
+            ARG1: p6 ]
+          [ _on_p<6:8>
+            LBL: h4
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e5
+            ARG2: x8 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _all_q<9:12>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ _count_n_1<13:20>
+            LBL: h12
+            ARG0: x8 ]
+          [ addressee<21:33>
+            LBL: h4
+            ARG0: i14
+            ARG1: x13 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: e3 ]
+          [ proper_q<21:33>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<21:33>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<21:25>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ _miss_n_1<21:25>
+            LBL: h24
+            ARG0: x19 ]
+          [ named<26:33>
+            LBL: h18
+            ARG0: x13
+            CARG: "Fraser" ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h10 QEQ h12 h1 QEQ u > ]
+
+{e3:
+ e3:unknown<0:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG e5]
+ e5:_wrong_a_with<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_on_p<6:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5, ARG2 x8]
+ _1:_all_q<9:12>[BV x8]
+ x8:_count_n_1<13:20>{x PERS 3, NUM pl, IND +}[]
+ i14:addressee<21:33>{i}[ARG1 x13, ARG2 e3]
+ _2:proper_q<21:33>[BV x13]
+ e20:compound<21:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x19]
+ _3:udef_q<21:25>[BV x19]
+ x19:_miss_n_1<21:25>{x PERS 3, NUM sg, IND +}[]
+ x13:named<26:33>("Fraser"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:33> ARG _wrong_a_with<0:5>  
+  _on_p<6:8> ARG1 _wrong_a_with<0:5>  
+  _on_p<6:8> ARG2 _count_n_1<13:20>  
+  _all_q<9:12> BV _count_n_1<13:20>  
+  addressee<21:33> ARG1 named<26:33>(Fraser)  
+  addressee<21:33> ARG2 unknown<0:33>  
+  proper_q<21:33> BV named<26:33>(Fraser)  
+  compound<21:33> ARG1 named<26:33>(Fraser)  
+  compound<21:33> ARG2 _miss_n_1<21:25>  
+  udef_q<21:25> BV _miss_n_1<21:25>  
+  unknown<0:33> SF prop  
+  unknown<0:33> TENSE untensed  
+  unknown<0:33> MOOD indicative  
+  unknown<0:33> PROG -  
+  unknown<0:33> PERF -  
+  _wrong_a_with<0:5> SF prop  
+  _wrong_a_with<0:5> TENSE untensed  
+  _wrong_a_with<0:5> MOOD indicative  
+  _wrong_a_with<0:5> PROG -  
+  _wrong_a_with<0:5> PERF -  
+  _on_p<6:8> SF prop  
+  _on_p<6:8> TENSE untensed  
+  _on_p<6:8> MOOD indicative  
+  _on_p<6:8> PROG -  
+  _on_p<6:8> PERF -  
+  _count_n_1<13:20> PERS 3  
+  _count_n_1<13:20> NUM pl  
+  _count_n_1<13:20> IND +  
+  compound<21:33> SF prop  
+  compound<21:33> TENSE untensed  
+  compound<21:33> MOOD indicative  
+  compound<21:33> PROG -  
+  compound<21:33> PERF -  
+  _miss_n_1<21:25> PERS 3  
+  _miss_n_1<21:25> NUM sg  
+  _miss_n_1<21:25> IND +  
+  named<26:33>(Fraser) PERS 3  
+  named<26:33>(Fraser) NUM sg  
+  named<26:33>(Fraser) IND +  
+}
+

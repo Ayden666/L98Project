@@ -1,0 +1,149 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:13 h)).
+;;;
+
+[21120017] (1 of 1) {1} `The Japanese government doesn't allow this.'
+
+[21120017:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:12>, 1, "Japanese", 0, "null", "JJ" 0.9169 "NNP" 0.0831)
+  (3, 2, 3, <13:23>, 1, "government", 0, "null", "NN" 1.0)
+  (4, 3, 4, <24:28>, 1, "does", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <28:31>, 1, "n’t", 0, "null", "RB" 0.5453 "JJ" 0.2855 "NN" 0.097 "VBN" 0.0428 "VB" 0.0208 "JJS" 0.0086)
+  (6, 5, 6, <32:37>, 1, "allow", 0, "null", "VB" 0.9548 "VBP" 0.0452)
+  (7, 6, 7, <38:42>, 1, "this", 0, "null", "DT" 1.0)
+  (8, 7, 8, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:3>, 1, "the", 0, "null")
+  (100, 0, 1, <0:3>, 1, "the", 0, "null")
+  (70, 1, 2, <4:12>, 1, "Japanese", 0, "null")
+  (88, 1, 2, <4:12>, 1, "Japanese", 0, "null", "JJ" 0.9169)
+  (93, 1, 2, <4:12>, 1, "japanese", 0, "null")
+  (94, 1, 2, <4:12>, 1, "japanese", 0, "null")
+  (79, 2, 3, <13:23>, 1, "government", 0, "null")
+  (90, 2, 3, <13:23>, 1, "government", 0, "null", "NN" 1.0)
+  (95, 2, 3, <13:23>, 1, "government", 0, "null")
+  (81, 3, 4, <24:31>, 1, "doesn’t", 0, "null")
+  (91, 3, 4, <24:31>, 1, "doesn’t", 0, "null", "VBZ" 1.0)
+  (96, 3, 4, <24:31>, 1, "doesn’t", 0, "null")
+  (86, 4, 5, <32:37>, 1, "allow", 0, "null")
+  (89, 4, 5, <32:37>, 1, "allow", 0, "null", "VB" 0.9548)
+  (98, 4, 5, <32:37>, 1, "allow", 0, "null")
+  (83, 5, 6, <38:43>, 1, "this.", 0, "null")
+  (97, 5, 6, <38:43>, 1, "this.", 0, "null")
+>
+
+(ROOT_STRICT
+ (705 SB-HD_MC_C 7.72666 0 6
+  (698 SP-HD_N_C 4.39986 0 3
+   (113 the_1@d_-_the_le 0.244361 0 1
+    ("the" 92
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (697 ^AJ-HDN_NORM_C 2.23852 1 3
+    (140 japanese_a1@aj_-_i_le 0.574024 1 2
+     ("japanese" 93
+      "token [ +CARG \"Japanese\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japanese\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91685190000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (696 ^HDN_OPTCMP_C 0.159625 2 3
+     (695 N_MS-CNT_ILR 0.758405 2 3
+      (148 government_n1@n_pp_mc-of_le 0.21377 2 3
+       ("government" 79
+        "token [ +CARG #1=\"government\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (704 ^HD-CMP_U_C 1.37228 3 6
+   (150 does1_neg_3_u@v_vp_does-n_le 1.01912 3 4
+    ("doesn’t" 81
+     "token [ +CARG #1=\"doesn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (703 HD-CMP_U_C -0.608314 4 6
+    (699 ^V_N3S-BSE_ILR 0.0690526 4 5
+     (154 allow_v2@v_np_le 0.435368 4 5
+      ("allow" 86
+       "token [ +CARG #1=\"allow\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95478470000000004\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (702 HDN_BNP-QNT_C -1.02963 5 6
+     (701 HDN_OPTCMP_C 0.251038 5 6
+      (700 W_PERIOD_PLR 0 5 6
+       (163 this_deix@n_-_pr-dei-sg_le 0 5 6
+        ("this." 83
+         "token [ +CARG \"this\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"this.\" +FROM #1=\"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (AP "japanese") (N (N (N "government")))))
+ (VP (V "doesn’t") (VP (V (V "allow")) (NP (N (N (N "this.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _japanese_a_1<4:12>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _government_n_of<13:23>
+            LBL: h8
+            ARG0: x6
+            ARG1: i10 ]
+          [ neg<24:31>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h11 ]
+          [ _allow_v_1<32:37>
+            LBL: h13
+            ARG0: e3
+            ARG1: x6
+            ARG2: x14 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ generic_entity<38:43>
+            LBL: h15
+            ARG0: x14 ]
+          [ _this_q_dem<38:43>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ] >
+   HCONS: < h17 QEQ h15 h11 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e12:
+ _1:_the_q<0:3>[BV x6]
+ e9:_japanese_a_1<4:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_government_n_of<13:23>{x PERS 3, NUM sg}[]
+ e12:neg<24:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_allow_v_1<32:37>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x14]
+ x14:generic_entity<38:43>{x PERS 3, NUM sg, GEND n}[]
+ _2:_this_q_dem<38:43>[BV x14]
+}
+
+{
+  _the_q<0:3> BV _government_n_of<13:23>  
+  _japanese_a_1<4:12> ARG1 _government_n_of<13:23>  
+  neg<24:31> ARG1 _allow_v_1<32:37>  
+  _allow_v_1<32:37> ARG1 _government_n_of<13:23>  
+  _allow_v_1<32:37> ARG2 generic_entity<38:43>  
+  _this_q_dem<38:43> BV generic_entity<38:43>  
+  _japanese_a_1<4:12> SF prop  
+  _japanese_a_1<4:12> TENSE untensed  
+  _japanese_a_1<4:12> MOOD indicative  
+  _japanese_a_1<4:12> PROG -  
+  _japanese_a_1<4:12> PERF -  
+  _government_n_of<13:23> PERS 3  
+  _government_n_of<13:23> NUM sg  
+  neg<24:31> SF prop  
+  neg<24:31> TENSE untensed  
+  neg<24:31> MOOD indicative  
+  neg<24:31> PROG -  
+  neg<24:31> PERF -  
+  _allow_v_1<32:37> SF prop  
+  _allow_v_1<32:37> TENSE pres  
+  _allow_v_1<32:37> MOOD indicative  
+  _allow_v_1<32:37> PROG -  
+  _allow_v_1<32:37> PERF -  
+  generic_entity<38:43> PERS 3  
+  generic_entity<38:43> NUM sg  
+  generic_entity<38:43> GEND n  
+}
+

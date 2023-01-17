@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:00 h)).
+;;;
+
+[22013102] (1 of 1) {1} `The Pentagon foiled the plan.'
+
+[22013102:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 0.9849 "NNP" 0.0151)
+  (2, 1, 2, <4:12>, 1, "Pentagon", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:19>, 1, "foiled", 0, "null", "VBD" 0.9511 "VBN" 0.0295 "JJ" 0.0193)
+  (4, 3, 4, <20:23>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <24:28>, 1, "plan", 0, "null", "NN" 1.0)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (78, 0, 1, <0:3>, 1, "the", 0, "null")
+  (84, 0, 1, <0:3>, 1, "the", 0, "null")
+  (56, 1, 2, <4:12>, 1, "Pentagon", 0, "null")
+  (75, 1, 2, <4:12>, 1, "Pentagon", 0, "null", "NNP" 1.0)
+  (77, 1, 2, <4:12>, 1, "pentagon", 0, "null")
+  (79, 1, 2, <4:12>, 1, "pentagon", 0, "null")
+  (72, 2, 3, <13:19>, 1, "foiled", 0, "null")
+  (74, 2, 3, <13:19>, 1, "foiled", 0, "null", "VBD" 0.9511)
+  (82, 2, 3, <13:19>, 1, "foiled", 0, "null")
+  (67, 3, 4, <20:23>, 1, "the", 0, "null")
+  (80, 3, 4, <20:23>, 1, "the", 0, "null")
+  (69, 4, 5, <24:29>, 1, "plan.", 0, "null")
+  (76, 4, 5, <24:29>, 1, "plan.", 0, "null", "NN" 1.0)
+  (81, 4, 5, <24:29>, 1, "plan.", 0, "null")
+>
+
+(ROOT_STRICT
+ (551 SB-HD_MC_C 9.27825 0 5
+  (545 SP-HD_N_C 4.15158 0 2
+   (97 the_1@d_-_the_le 0.418922 0 1
+    ("the" 78
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98488430000000005\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (544 ^N_SG_ILR 2.06552 1 2
+    (122 generic_proper_ne@n_-_pn-gen_le 1.68173 1 2
+     ("Pentagon" 56
+      "token [ +CARG #1=\"Pentagon\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (550 ^HD-CMP_U_C 3.17216 2 5
+   (546 ^V_PST_OLR 0.107619 2 3
+    (129 foil_v1@v_np_le 0 2 3
+     ("foiled" 72
+      "token [ +CARG #1=\"foiled\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95114529999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (549 SP-HD_N_C 2.05564 3 5
+    (228 the_1@d_-_the_le 1.07131 3 4
+     ("the" 67
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (548 ^W_PERIOD_PLR 0.21333 4 5
+     (547 N_SG_ILR -0.286945 4 5
+      (254 plan_n1@n_-_c-ns_le 0 4 5
+       ("plan." 69
+        "token [ +CARG \"plan\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"plan.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "the") (N (N "Pentagon")))
+ (VP (V (V "foiled")) (NP (DET "the") (N (N (N "plan."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ named<4:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "Pentagon" ]
+          [ _foil_v_1<13:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<20:23>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _plan_n_1<24:29>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:named<4:12>("Pentagon"){x PERS 3, NUM sg, IND +}[]
+ e3:_foil_v_1<13:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_the_q<20:23>[BV x9]
+ x9:_plan_n_1<24:29>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _the_q<0:3> BV named<4:12>(Pentagon)  
+  _foil_v_1<13:19> ARG1 named<4:12>(Pentagon)  
+  _foil_v_1<13:19> ARG2 _plan_n_1<24:29>  
+  _the_q<20:23> BV _plan_n_1<24:29>  
+  named<4:12>(Pentagon) PERS 3  
+  named<4:12>(Pentagon) NUM sg  
+  named<4:12>(Pentagon) IND +  
+  _foil_v_1<13:19> SF prop  
+  _foil_v_1<13:19> TENSE past  
+  _foil_v_1<13:19> MOOD indicative  
+  _foil_v_1<13:19> PROG -  
+  _foil_v_1<13:19> PERF -  
+  _plan_n_1<24:29> PERS 3  
+  _plan_n_1<24:29> NUM sg  
+  _plan_n_1<24:29> IND +  
+}
+

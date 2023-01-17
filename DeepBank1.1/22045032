@@ -1,0 +1,177 @@
+;;;
+;;; Redwoods export of `wsj20c';
+;;; (wsun@wsun; 23-jan-2018 (05:19 h)).
+;;;
+
+[22045032] (1 of 1) {1} `Heating oil prices also rose.'
+
+[22045032:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Heating", 0, "null", "NN" 0.6529 "VBG" 0.3471)
+  (2, 1, 2, <8:11>, 1, "oil", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:18>, 1, "prices", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <19:23>, 1, "also", 0, "null", "RB" 1.0)
+  (5, 4, 5, <24:28>, 1, "rose", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:7>, 1, "Heating", 0, "null", "VBG" 0.3471)
+  (73, 0, 1, <0:7>, 1, "heating", 0, "null")
+  (78, 0, 1, <0:7>, 1, "heating", 0, "null")
+  (59, 1, 2, <8:11>, 1, "oil", 0, "null")
+  (68, 1, 2, <8:11>, 1, "oil", 0, "null", "NN" 1.0)
+  (74, 1, 2, <8:11>, 1, "oil", 0, "null")
+  (61, 2, 3, <12:18>, 1, "prices", 0, "null")
+  (69, 2, 3, <12:18>, 1, "prices", 0, "null", "NNS" 1.0)
+  (75, 2, 3, <12:18>, 1, "prices", 0, "null")
+  (63, 3, 4, <19:23>, 1, "also", 0, "null")
+  (70, 3, 4, <19:23>, 1, "also", 0, "null", "RB" 1.0)
+  (76, 3, 4, <19:23>, 1, "also", 0, "null")
+  (65, 4, 5, <24:29>, 1, "rose.", 0, "null")
+  (71, 4, 5, <24:29>, 1, "rose.", 0, "null", "VBD" 1.0)
+  (77, 4, 5, <24:29>, 1, "rose.", 0, "null")
+>
+
+(ROOT_STRICT
+ (809 SB-HD_MC_C 5.15313 0 5
+  (808 HDN_BNP_C 1.85511 0 3
+   (807 N-HDN_CPD_C 1.23437 0 3
+    (806 N-HDN_CPD_C 0.0815755 0 2
+     (805 V_NGER-INTR_DLR -1.41369 0 1
+      (794 V_PRP_OLR -0.722178 0 1
+       (88 heat_v2@v_-_unacc_le 0 0 1
+        ("heating" 73
+         "token [ +CARG \"Heating\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"heating\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65288100000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (93 oil_n1@n_-_mc_le -0.29287 1 2
+      ("oil" 59
+       "token [ +CARG #1=\"oil\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (796 ^N_PL_OLR 0.695244 2 3
+     (96 price_n1@n_-_mc-ed_le 0.382246 2 3
+      ("prices" 61
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (803 ^AJ-HD_SCP-XP_C 2.42694 3 5
+   (111 also_adv1@av_-_s-vp-x_le -0.228093 3 4
+    ("also" 63
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (802 ^HD_OPTCMP_C 0.940356 4 5
+    (801 W_PERIOD_PLR 1.11537 4 5
+     (800 V_PST_OLR 0.778807 4 5
+      (130 rise_v2@v_pp_unacc_le 0 4 5
+       ("rose." 65
+        "token [ +CARG \"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rose.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N (VP (V "heating"))) (N "oil")) (N (N "prices"))))
+ (VP (ADV "also") (VP (V (V (V "rose."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:18>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:11>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<0:7>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _heat_v_1<0:7>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i22 ]
+          [ nominalization<0:7>
+            LBL: h23
+            ARG0: x15
+            ARG1: h20 ]
+          [ _oil_n_1<8:11>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<12:18>
+            LBL: h8
+            ARG0: x6 ]
+          [ _also_a_1<19:23>
+            LBL: h2
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h25 ]
+          [ _rise_v_1<24:29>
+            LBL: h26
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h25 QEQ h26 h18 QEQ h23 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e24:
+ _1:udef_q<0:18>[BV x6]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:11>[BV x9]
+ e16:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:7>[BV x15]
+ e21:_heat_v_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x15:nominalization<0:7>{x PERS 3, NUM sg, GEND n}[ARG1 e21]
+ x9:_oil_n_1<8:11>{x}[]
+ x6:_price_n_of<12:18>{x PERS 3, NUM pl}[]
+ e24:_also_a_1<19:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_rise_v_1-fn.Change_position_on_a_scale<24:29>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:18> BV _price_n_of<12:18>  
+  compound<0:18> ARG1 _price_n_of<12:18>  
+  compound<0:18> ARG2 _oil_n_1<8:11>  
+  udef_q<0:11> BV _oil_n_1<8:11>  
+  compound<0:11> ARG1 _oil_n_1<8:11>  
+  compound<0:11> ARG2 nominalization<0:7>  
+  udef_q<0:7> BV nominalization<0:7>  
+  nominalization<0:7> ARG1 _heat_v_1<0:7>  
+  _also_a_1<19:23> ARG1 _rise_v_1<24:29>  
+  _rise_v_1<24:29> ARG1 _price_n_of<12:18>  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _heat_v_1<0:7> SF prop  
+  _heat_v_1<0:7> TENSE untensed  
+  _heat_v_1<0:7> MOOD indicative  
+  _heat_v_1<0:7> PROG +  
+  _heat_v_1<0:7> PERF -  
+  nominalization<0:7> PERS 3  
+  nominalization<0:7> NUM sg  
+  nominalization<0:7> GEND n  
+  _price_n_of<12:18> PERS 3  
+  _price_n_of<12:18> NUM pl  
+  _also_a_1<19:23> SF prop  
+  _also_a_1<19:23> TENSE untensed  
+  _also_a_1<19:23> MOOD indicative  
+  _also_a_1<19:23> PROG -  
+  _also_a_1<19:23> PERF -  
+  _rise_v_1<24:29> SF prop  
+  _rise_v_1<24:29> TENSE past  
+  _rise_v_1<24:29> MOOD indicative  
+  _rise_v_1<24:29> PROG -  
+  _rise_v_1<24:29> PERF -  
+}
+

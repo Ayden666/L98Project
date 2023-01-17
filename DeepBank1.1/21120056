@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:13 h)).
+;;;
+
+[21120056] (1 of 1) {1} `And so on.'
+
+[21120056:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:6>, 1, "so", 0, "null", "RB" 0.9713 "IN" 0.0287)
+  (3, 2, 3, <7:9>, 1, "on", 0, "null", "IN" 0.8069 "RB" 0.1295 "RP" 0.0636)
+  (4, 3, 4, <9:10>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:3>, 1, "and", 0, "null")
+  (55, 0, 1, <0:3>, 1, "and", 0, "null")
+  (46, 1, 2, <4:6>, 1, "so", 0, "null")
+  (50, 1, 2, <4:6>, 1, "so", 0, "null", "RB" 0.9713)
+  (53, 1, 2, <4:6>, 1, "so", 0, "null")
+  (48, 2, 3, <7:10>, 1, "on.", 0, "null")
+  (51, 2, 3, <7:10>, 1, "on.", 0, "null", "RB" 0.1295)
+  (54, 2, 3, <7:10>, 1, "on.", 0, "null")
+>
+
+(ROOT_FRAG
+ (337 J_FRG_C -0.710873 0 3
+  (336 MRK-NH_EVNT_C -0.212769 0 3
+   (59 and_conj@c_xp_and_le 0.086357 0 1
+    ("and" 52
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (335 HD-AJ_INT-UNSL_C -0.905677 1 3
+    (82 so_a1@aj_-_i-prd-ndpt_le 0.120455 1 2
+     ("so" 46
+      "token [ +CARG #1=\"so\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97129089999999996\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (334 W_PERIOD_PLR -1.02613 2 3
+     (134 on_adv@pp_-_i-nnm_le 0 2 3
+      ("on." 48
+       "token [ +CARG \"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"on.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8069248\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (AP (CONJ "and") (AP (AP "so") (PP (PP "on.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: i4 ]
+          [ _and_c<0:3>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            L-HNDL: u8
+            L-INDEX: i9
+            R-HNDL: h6
+            R-INDEX: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _so_a_true<4:6>
+            LBL: h6
+            ARG0: e5
+            ARG1: i4 ]
+          [ _on_p_dir<7:10>
+            LBL: h6
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e5 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_and_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e5, R-INDEX e5]
+ e5:_so_a_true<4:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e10:_on_p_dir<7:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5]
+}
+
+{
+  _and_c<0:3> R-HNDL _so_a_true<4:6>  
+  _and_c<0:3> R-INDEX _so_a_true<4:6>  
+  _on_p_dir<7:10> ARG1 _so_a_true<4:6>  
+  unknown<0:10> SF prop  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _and_c<0:3> SF prop  
+  _and_c<0:3> TENSE untensed  
+  _and_c<0:3> MOOD indicative  
+  _and_c<0:3> PROG -  
+  _and_c<0:3> PERF -  
+  _so_a_true<4:6> SF prop  
+  _so_a_true<4:6> TENSE untensed  
+  _so_a_true<4:6> MOOD indicative  
+  _so_a_true<4:6> PROG -  
+  _so_a_true<4:6> PERF -  
+  _on_p_dir<7:10> SF prop  
+  _on_p_dir<7:10> TENSE untensed  
+  _on_p_dir<7:10> MOOD indicative  
+  _on_p_dir<7:10> PROG -  
+  _on_p_dir<7:10> PERF -  
+}
+

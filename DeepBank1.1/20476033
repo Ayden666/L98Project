@@ -1,0 +1,131 @@
+;;;
+;;; Redwoods export of `wsj04e';
+;;; (wsun@wsun; 22-jan-2018 (14:32 h)).
+;;;
+
+[20476033] (1 of 1) {1} `Fees 1 3/4.'
+
+[20476033:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Fees", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <5:6>, 1, "1", 0, "null", "CD" 1.0)
+  (3, 2, 3, <7:10>, 1, "3/4", 0, "null", "CD" 1.0)
+  (4, 3, 4, <10:11>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:4>, 1, "Fees", 0, "null", "NNS" 1.0)
+  (48, 0, 1, <0:4>, 1, "fees", 0, "null")
+  (52, 0, 1, <0:4>, 1, "fees", 0, "null")
+  (45, 1, 2, <5:6>, 1, "1", 0, "null")
+  (47, 1, 2, <5:6>, 1, "1", 0, "null", "CD" 1.0)
+  (51, 1, 2, <5:6>, 1, "1", 0, "null")
+  (40, 2, 3, <7:11>, 1, "3/4.", 0, "null")
+  (41, 2, 3, <7:11>, 1, "3/4.", 0, "null")
+  (49, 2, 3, <7:11>, 1, "3/4.", 0, "null")
+  (50, 2, 3, <7:11>, 1, "3/4.", 0, "null")
+>
+
+(ROOT_FRAG
+ (383 NP-AJ_RORP-FRG_C -0.882814 0 3
+  (370 ^HDN_BNP_C -0.840187 0 1
+   (369 N_PL_OLR 0.0461319 0 1
+    (58 fee_n1@n_-_c_le -0.186912 0 1
+     ("fees" 48
+      "token [ +CARG \"Fees\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"fees\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (382 NP_ADV-MNP_C 0.283712 1 3
+   (381 HDN_BNP-NUM_C 0.670457 1 3
+    (380 HDN_NP-NUM_C 0.916226 1 3
+     (379 XP_BRCK-PR_C -0.08988 1 3
+      (378 HD-CMP_U_C 0 1 3
+       (65 one_c_dgt_adj@aj_np_i-crd-nsp_le 0 1 2
+        ("1" 45
+         "token [ +CARG #1=\"1\" +CLASS numeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW - ] ]"))
+       (373 W_PERIOD_PLR 0 2 3
+        (86 generic_fract_ne@aj_-_i-frct-gen_le 0 2 3
+         ("3/4." 41
+          "token [ +CARG \"3/4\" +CLASS frct_ne +FORM \"3/4.\" +FROM \"7\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))))
+
+(XP (NP (N (N "fees")))
+ (PP (NP (N (ADJ (ADJ (ADJ "1") (ADJ (ADJ "3/4."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _fee_n_1<0:4>
+            LBL: h8
+            ARG0: x4 ]
+          [ loc_nonsp<5:11>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i11
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<5:11>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ card<5:6>
+            LBL: h15
+            ARG0: x10
+            ARG1: i16
+            CARG: "1" ]
+          [ plus<5:6>
+            LBL: h17
+            ARG0: i19
+            ARG1: i16
+            ARG2: h15
+            ARG3: h18 ]
+          [ fraction<7:11>
+            LBL: h18
+            ARG0: i20
+            ARG1: i16
+            CARG: "3/4" ] >
+   HCONS: < h13 QEQ h17 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:4>[BV x4]
+ x4:_fee_n_1<0:4>{x PERS 3, NUM pl, IND +}[]
+ e9:loc_nonsp<5:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x10]
+ _2:number_q<5:11>[BV x10]
+ x10:card<5:6>("1"){x PERS 3, NUM sg}[]
+ i19:plus<5:6>{i}[ARG2 x10, ARG3 i20]
+ i20:fraction<7:11>("3/4"){i}[]
+}
+
+{
+  unknown<0:11> ARG _fee_n_1<0:4>  
+  udef_q<0:4> BV _fee_n_1<0:4>  
+  loc_nonsp<5:11> ARG2 card<5:6>(1)  
+  number_q<5:11> BV card<5:6>(1)  
+  plus<5:6> ARG2 card<5:6>(1)  
+  plus<5:6> ARG3 fraction<7:11>(3/4)  
+  unknown<0:11> SF prop  
+  unknown<0:11> TENSE untensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  _fee_n_1<0:4> PERS 3  
+  _fee_n_1<0:4> NUM pl  
+  _fee_n_1<0:4> IND +  
+  loc_nonsp<5:11> SF prop  
+  loc_nonsp<5:11> TENSE untensed  
+  loc_nonsp<5:11> MOOD indicative  
+  loc_nonsp<5:11> PROG -  
+  loc_nonsp<5:11> PERF -  
+  card<5:6>(1) PERS 3  
+  card<5:6>(1) NUM sg  
+}
+

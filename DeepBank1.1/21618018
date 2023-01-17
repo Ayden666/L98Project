@@ -1,0 +1,99 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:09 h)).
+;;;
+
+[21618018] (1 of 1) {1} `I saw neither.'
+
+[21618018:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:5>, 1, "saw", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <6:13>, 1, "neither", 0, "null", "RB" 0.6615 "DT" 0.3088 "CC" 0.0297)
+  (4, 3, 4, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (38, 0, 1, <0:1>, 1, "I", 0, "null")
+  (52, 0, 1, <0:1>, 1, "i", 0, "null")
+  (53, 0, 1, <0:1>, 1, "i", 0, "null")
+  (47, 1, 2, <2:5>, 1, "saw", 0, "null")
+  (51, 1, 2, <2:5>, 1, "saw", 0, "null", "VBD" 1.0)
+  (54, 1, 2, <2:5>, 1, "saw", 0, "null")
+  (48, 2, 3, <6:14>, 1, "neither.", 0, "null")
+  (50, 2, 3, <6:14>, 1, "neither.", 0, "null", "RB" 0.6615)
+  (55, 2, 3, <6:14>, 1, "neither.", 0, "null")
+>
+
+(ROOT_STRICT
+ (404 SB-HD_MC_C 1.73621 0 3
+  (398 HDN_BNP-QNT_C 1.98216 0 1
+   (62 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 52
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (403 ^HD-CMP_U_C -1.51529 1 3
+   (399 ^V_PST_OLR 0.244916 1 2
+    (107 see_v1@v_np_le 0.137297 1 2
+     ("saw" 47
+      "token [ +CARG #1=\"saw\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (402 HDN_BNP-QNT_C -1.46469 2 3
+    (401 W_PERIOD_PLR -1.51056 2 3
+     (400 DET_PRT-NOCMP_DLR -1.15643 2 3
+      (148 neither_det@d_-_prt-sg_le 0 2 3
+       ("neither." 48
+        "token [ +CARG \"neither\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"neither.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66147040000000001\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "i")) (VP (V (V "saw")) (NP (N (N (DET "neither."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _see_v_1<2:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 ] ]
+          [ _neither_q<6:14>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ generic_entity<6:14>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e3:_see_v_1-fn.Perception_experience<2:5>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Perceiver_passive x5, ARG2-fn.Phenomenon x9]
+ _2:_neither_q<6:14>[BV x9]
+ x9:generic_entity<6:14>{x PERS 3}[]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  _see_v_1<2:5> ARG1 pron<0:1>  
+  _see_v_1<2:5> ARG2 generic_entity<6:14>  
+  _neither_q<6:14> BV generic_entity<6:14>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  _see_v_1<2:5> SF prop  
+  _see_v_1<2:5> TENSE past  
+  _see_v_1<2:5> MOOD indicative  
+  _see_v_1<2:5> PROG -  
+  _see_v_1<2:5> PERF -  
+  generic_entity<6:14> PERS 3  
+}
+

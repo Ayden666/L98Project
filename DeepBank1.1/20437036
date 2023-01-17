@@ -1,0 +1,82 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (14:01 h)).
+;;;
+
+[20437036] (1 of 1) {1} `COFFEE:'
+
+[20437036:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "COFFEE", 0, "null", "NN" 1.0)
+  (2, 1, 2, <6:7>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (20, 0, 1, <0:6>, 1, "COFFEE", 0, "null")
+  (25, 0, 1, <0:6>, 1, "COFFEE", 0, "null", "NN" 1.0)
+  (26, 0, 1, <0:6>, 1, "coffee", 0, "null")
+  (27, 0, 1, <0:6>, 1, "coffee", 0, "null")
+  (24, 1, 2, <6:7>, 1, ":", 0, "null")
+  (28, 1, 2, <6:7>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (111 NP-AJ_RORP-FRG_C 0.273173 0 2
+  (110 ^HDN_BNP_C -0.429306 0 1
+   (109 N_MS-CNT_ILR 0.287621 0 1
+    (32 coffee_n1@n_-_mc_le 0 0 1
+     ("coffee" 26
+      "token [ +CARG \"COFFEE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"coffee\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (42 colon_namely_pp@pp_-_i-cln_le 0.0128037 1 2
+   (":" 24
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (N "coffee"))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:6>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _coffee_n_1<0:6>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<6:7>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i9 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:6>[BV x4]
+ x4:_coffee_n_1<0:6>{x PERS 3, NUM sg}[]
+ e10:_colon_p_namely<6:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:7> ARG _coffee_n_1<0:6>  
+  udef_q<0:6> BV _coffee_n_1<0:6>  
+  unknown<0:7> SF prop  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _coffee_n_1<0:6> PERS 3  
+  _coffee_n_1<0:6> NUM sg  
+  _colon_p_namely<6:7> SF prop  
+  _colon_p_namely<6:7> TENSE untensed  
+  _colon_p_namely<6:7> MOOD indicative  
+  _colon_p_namely<6:7> PROG -  
+  _colon_p_namely<6:7> PERF -  
+}
+

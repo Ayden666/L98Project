@@ -1,0 +1,156 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:46 h)).
+;;;
+
+[20704021] (1 of 1) {1} `Guarantee by Credit Lyonnais.'
+
+[20704021:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Guarantee", 0, "null", "NN" 0.9878 "NNP" 0.0122)
+  (2, 1, 2, <10:12>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <13:19>, 1, "Credit", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <20:28>, 1, "Lyonnais", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:9>, 1, "Guarantee", 0, "null")
+  (67, 0, 1, <0:9>, 1, "guarantee", 0, "null")
+  (71, 0, 1, <0:9>, 1, "guarantee", 0, "null")
+  (57, 1, 2, <10:12>, 1, "by", 0, "null")
+  (70, 1, 2, <10:12>, 1, "by", 0, "null")
+  (48, 2, 3, <13:19>, 1, "Credit", 0, "null")
+  (63, 2, 3, <13:19>, 1, "Credit", 0, "null", "NNP" 1.0)
+  (65, 2, 3, <13:19>, 1, "credit", 0, "null")
+  (68, 2, 3, <13:19>, 1, "credit", 0, "null")
+  (51, 3, 4, <20:29>, 1, "Lyonnais.", 0, "null")
+  (64, 3, 4, <20:29>, 1, "Lyonnais.", 0, "null", "NNP" 1.0)
+  (66, 3, 4, <20:29>, 1, "lyonnais.", 0, "null")
+  (69, 3, 4, <20:29>, 1, "lyonnais.", 0, "null")
+>
+
+(ROOT_FRAG
+ (607 NP_NB-FRG_C 3.19913 0 4
+  (606 HDN-AJ_REDREL_C 4.28236 0 4
+   (598 ^HDN_OPTCMP_C 0.375982 0 1
+    (597 N_SG_ILR 0.582733 0 1
+     (76 guarantee_n2@n_pp_c-of_le 0 0 1
+      ("guarantee" 67
+       "token [ +CARG \"Guarantee\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"guarantee\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98784269999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (605 HD-CMP_U_C 3.82017 1 4
+    (90 by_p@p_np_i-dgsp_le 0.377462 1 2
+     ("by" 57
+      "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (604 HDN_BNP-PN_C 2.76814 2 4
+     (603 NP-HDN_NME-CPD_C 2.58866 2 4
+      (600 HDN_BNP-PN_C 0.702341 2 3
+       (599 N_SG_ILR -0.0500942 2 3
+        (111 generic_proper_ne@n_-_pn-gen_le 0.336818 2 3
+         ("Credit" 48
+          "token [ +CARG #1=\"Credit\" +CLASS proper_ne +FORM #1 +FROM \"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (602 ^W_PERIOD_PLR 1.02066 3 4
+       (601 N_SG_ILR 0.466069 3 4
+        (121 generic_proper_ne@n_-_pn-gen_le 0 3 4
+         ("Lyonnais." 51
+          "token [ +CARG \"Lyonnais\" +CLASS proper_ne +FORM \"Lyonnais.\" +FROM \"20\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(XP
+ (N (N (N (N "guarantee")))
+  (PP (P "by") (NP (N (NP (N (N "Credit"))) (N (N (N "Lyonnais."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:29>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:29>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _guarantee_n_of<0:9>
+            LBL: h8
+            ARG0: x4
+            ARG1: i9 ]
+          [ _by_p<10:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:29>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<13:29>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:19>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ named<13:19>
+            LBL: h21
+            ARG0: x16
+            CARG: "Credit" ]
+          [ named<20:29>
+            LBL: h15
+            ARG0: x11
+            CARG: "Lyonnais" ] >
+   HCONS: < h19 QEQ h21 h13 QEQ h15 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:29>[BV x4]
+ x4:_guarantee_n_of<0:9>{x PERS 3, NUM sg, IND +}[]
+ e10:_by_p<10:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x11]
+ _2:proper_q<13:29>[BV x11]
+ e17:compound<13:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x16]
+ _3:proper_q<13:19>[BV x16]
+ x16:named<13:19>("Credit"){x PERS 3, NUM sg, IND +}[]
+ x11:named<20:29>("Lyonnais"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:29> ARG _guarantee_n_of<0:9>  
+  udef_q<0:29> BV _guarantee_n_of<0:9>  
+  _by_p<10:12> ARG1 _guarantee_n_of<0:9>  
+  _by_p<10:12> ARG2 named<20:29>(Lyonnais)  
+  proper_q<13:29> BV named<20:29>(Lyonnais)  
+  compound<13:29> ARG1 named<20:29>(Lyonnais)  
+  compound<13:29> ARG2 named<13:19>(Credit)  
+  proper_q<13:19> BV named<13:19>(Credit)  
+  unknown<0:29> SF prop  
+  unknown<0:29> TENSE untensed  
+  unknown<0:29> MOOD indicative  
+  unknown<0:29> PROG -  
+  unknown<0:29> PERF -  
+  _guarantee_n_of<0:9> PERS 3  
+  _guarantee_n_of<0:9> NUM sg  
+  _guarantee_n_of<0:9> IND +  
+  _by_p<10:12> SF prop  
+  _by_p<10:12> TENSE untensed  
+  _by_p<10:12> MOOD indicative  
+  _by_p<10:12> PROG -  
+  _by_p<10:12> PERF -  
+  compound<13:29> SF prop  
+  compound<13:29> TENSE untensed  
+  compound<13:29> MOOD indicative  
+  compound<13:29> PROG -  
+  compound<13:29> PERF -  
+  named<13:19>(Credit) PERS 3  
+  named<13:19>(Credit) NUM sg  
+  named<13:19>(Credit) IND +  
+  named<20:29>(Lyonnais) PERS 3  
+  named<20:29>(Lyonnais) NUM sg  
+  named<20:29>(Lyonnais) IND +  
+}
+

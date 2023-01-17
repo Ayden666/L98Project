@@ -1,0 +1,176 @@
+;;;
+;;; Redwoods export of `wsj15a';
+;;; (wsun@wsun; 22-jan-2018 (23:55 h)).
+;;;
+
+[21505023] (1 of 1) {1} `Fanuc gained 100 to 7,580.'
+
+[21505023:3] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Fanuc", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:12>, 1, "gained", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <13:16>, 1, "100", 0, "null", "CD" 1.0)
+  (4, 3, 4, <17:19>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <20:25>, 1, "7,580", 0, "null", "CD" 1.0)
+  (6, 5, 6, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (58, 0, 1, <0:5>, 1, "Fanuc", 0, "null")
+  (60, 0, 1, <0:5>, 1, "fanuc", 0, "null")
+  (65, 0, 1, <0:5>, 1, "fanuc", 0, "null")
+  (57, 1, 2, <6:12>, 1, "gained", 0, "null")
+  (59, 1, 2, <6:12>, 1, "gained", 0, "null", "VBD" 1.0)
+  (64, 1, 2, <6:12>, 1, "gained", 0, "null")
+  (48, 2, 3, <13:16>, 1, "100", 0, "null")
+  (61, 2, 3, <13:16>, 1, "100", 0, "null")
+  (55, 3, 4, <17:19>, 1, "to", 0, "null")
+  (63, 3, 4, <17:19>, 1, "to", 0, "null")
+  (51, 4, 5, <20:26>, 1, "7,580.", 0, "null")
+  (62, 4, 5, <20:26>, 1, "7,580.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1026 SB-HD_MC_C 5.39923 0 5
+  (1000 HDN_BNP-PN_C -1.0285 0 1
+   (999 N_SG_ILR -0.979548 0 1
+    (66 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Fanuc" 58
+      "token [ +CARG #1=\"Fanuc\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1025 ^HD-CMP_U_C 5.41068 1 5
+   (1001 ^V_PST_OLR 1.93042 1 2
+    (73 gain_v1@v_np*_le 0.775218 1 2
+     ("gained" 57
+      "token [ +CARG #1=\"gained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1024 HDN_BNP_C 3.40851 2 5
+    (1023 SP-HD_HC_C 3.76442 2 5
+     (1003 HDN_BNP-NUM_C 0.921897 2 3
+      (1002 HDN_NP-NUM_C 0.403255 2 3
+       (168 generic_card_ne@aj_-_i-crd-gen_le 0.358174 2 3
+        ("100" 48
+         "token [ +CARG #1=\"100\" +CLASS card_or_year_ne +FORM #1 +FROM \"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (1022 ^HD-CMP_U_C 2.26674 3 5
+      (215 x_to_y_np_sg_to@n_np_x-to-y-sg_le -1.21585 3 4
+       ("to" 55
+        "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1007 HDN_BNP-NUM_C 4.01481 4 5
+       (1006 HDN_NP-NUM_C 3.49617 4 5
+        (1005 W_PERIOD_PLR 2.19869 4 5
+         (249 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+          ("7,580." 51
+           "token [ +CARG \"7,580\" +CLASS card_ne +FORM \"7,580.\" +FROM \"20\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(S (NP (N (N "Fanuc")))
+ (VP (V (V "gained"))
+  (NP
+   (N (NP (N (ADJ "100")))
+    (N (N "to") (NP (N (ADJ (ADJ "7,580.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Fanuc" ]
+          [ _gain_v_1<6:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<13:26>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ number_q<13:16>
+            LBL: h13
+            ARG0: x15 [ x PERS: 3 NUM: SG ]
+            RSTR: h14
+            BODY: h16 ]
+          [ card<13:16>
+            LBL: h17
+            ARG0: x15
+            ARG1: i18
+            CARG: "100" ]
+          [ interval<17:19>
+            LBL: h19
+            ARG0: x9 ]
+          [ interval_p_start<17:19>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 ]
+          [ interval_p_end<17:19>
+            LBL: h19
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x21 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<20:26>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ card<20:26>
+            LBL: h26
+            ARG0: x21
+            ARG1: i27
+            CARG: "7,580" ] >
+   HCONS: < h24 QEQ h26 h14 QEQ h17 h11 QEQ h19 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Fanuc"){x PERS 3, NUM sg, IND +}[]
+ e3:_gain_v_1-fn.Change_position_on_a_scale<6:12>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2-fn.Item x9]
+ _2:udef_q<13:26>[BV x9]
+ _3:number_q<13:16>[BV x15]
+ x15:card<13:16>("100"){x PERS 3, NUM sg}[]
+ x9:interval<17:19>{x}[]
+ e20:interval_p_start<17:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ e22:interval_p_end<17:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x21]
+ _4:number_q<20:26>[BV x21]
+ x21:card<20:26>("7,580"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Fanuc)  
+  _gain_v_1<6:12> ARG1 named<0:5>(Fanuc)  
+  _gain_v_1<6:12> ARG2 interval<17:19>  
+  udef_q<13:26> BV interval<17:19>  
+  number_q<13:16> BV card<13:16>(100)  
+  interval_p_start<17:19> ARG1 interval<17:19>  
+  interval_p_start<17:19> ARG2 card<13:16>(100)  
+  interval_p_end<17:19> ARG1 interval<17:19>  
+  interval_p_end<17:19> ARG2 card<20:26>(7,580)  
+  number_q<20:26> BV card<20:26>(7,580)  
+  named<0:5>(Fanuc) PERS 3  
+  named<0:5>(Fanuc) NUM sg  
+  named<0:5>(Fanuc) IND +  
+  _gain_v_1<6:12> SF prop  
+  _gain_v_1<6:12> TENSE past  
+  _gain_v_1<6:12> MOOD indicative  
+  _gain_v_1<6:12> PROG -  
+  _gain_v_1<6:12> PERF -  
+  card<13:16>(100) PERS 3  
+  card<13:16>(100) NUM sg  
+  interval_p_start<17:19> SF prop  
+  interval_p_start<17:19> TENSE untensed  
+  interval_p_start<17:19> MOOD indicative  
+  interval_p_start<17:19> PROG -  
+  interval_p_start<17:19> PERF -  
+  interval_p_end<17:19> SF prop  
+  interval_p_end<17:19> TENSE untensed  
+  interval_p_end<17:19> MOOD indicative  
+  interval_p_end<17:19> PROG -  
+  interval_p_end<17:19> PERF -  
+  card<20:26>(7,580) PERS 3  
+  card<20:26>(7,580) NUM sg  
+}
+

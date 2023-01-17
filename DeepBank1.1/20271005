@@ -1,0 +1,150 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:30 h)).
+;;;
+
+[20271005] (1 of 1) {1} `Beatrice Co. --'
+
+[20271005:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Beatrice", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:12>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:15>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (36, 0, 1, <0:8>, 1, "Beatrice", 0, "null")
+  (39, 0, 1, <0:8>, 1, "beatrice", 0, "null")
+  (42, 0, 1, <0:8>, 1, "beatrice", 0, "null")
+  (29, 1, 2, <9:12>, 1, "Co.", 0, "null")
+  (37, 1, 2, <9:12>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (38, 1, 2, <9:12>, 1, "co.", 0, "null")
+  (40, 1, 2, <9:12>, 1, "co.", 0, "null")
+  (35, 2, 3, <13:15>, 1, "–", 0, "null")
+  (41, 2, 3, <13:15>, 1, "–", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (242 CL-CL_RUNON_C 1.06803 0 3
+  (240 NP_FRG_C 0.862053 0 2
+   (239 HDN_BNP-PN_C 2.15468 0 2
+    (238 HDN-AJ_REDREL_C 2.00718 0 2
+     (235 ^N_SG_ILR -0.814993 0 1
+      (45 beatrice_n1@n_-_pn_le 0 0 1
+       ("beatrice" 39
+        "token [ +CARG \"Beatrice\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"beatrice\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (237 W_PERIOD_PLR 2.36284 1 2
+      (236 N_SG_ILR 1.30395 1 2
+       (56 co_post_ttl@n_-_tt-post_le 1.97728 1 2
+        ("co." 38
+         "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (241 ^R_DSC-FRG_C 0.205977 2 3
+   (76 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.205977 2 3
+    ("–" 35
+     "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (XP (NP (N (N (N "beatrice")) (N (N (N "co.")))))) (S (ADV "–")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:15>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:12>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:12>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ named<0:8>
+            LBL: h13
+            ARG0: x9
+            CARG: "Beatrice" ]
+          [ _company_n_1<9:12>
+            LBL: h14
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<9:12>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<9:12>
+            LBL: h13
+            ARG0: i19
+            ARG1: x9
+            ARG2: x15 ]
+          [ unknown<13:15>
+            LBL: h20
+            ARG0: e6
+            ARG: u21 ]
+          [ excl<13:15>
+            LBL: h22
+            ARG0: i23
+            CARG: "s-dash" ]
+          [ discourse<13:15>
+            LBL: h24
+            ARG0: i27
+            L-HNDL: h22
+            L-INDEX: i23
+            R-HNDL: h26
+            R-INDEX: i25 ] >
+   HCONS: < h17 QEQ h14 h11 QEQ h13 h5 QEQ h24 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:15>{e SF prop-or-ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL i27, R-INDEX e6]
+ e7:unknown<0:12>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:proper_q<0:12>[BV x9]
+ x9:named<0:8>("Beatrice"){x PERS 3, NUM sg, IND +}[]
+ x15:_company_n_1<9:12>{x PERS 3, NUM sg, IND +}[]
+ _2:udef_q<9:12>[BV x15]
+ i19:compound<9:12>{i}[ARG1 x9, ARG2 x15]
+ e6:unknown<13:15>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i23:excl<13:15>("s-dash"){i}[]
+ i27:discourse<13:15>{i}[L-HNDL i23, L-INDEX i23]
+}
+
+{
+  implicit_conj<0:15> L-HNDL unknown<0:12>  
+  implicit_conj<0:15> L-INDEX unknown<0:12>  
+  implicit_conj<0:15> R-HNDL discourse<13:15>  
+  implicit_conj<0:15> R-INDEX unknown<13:15>  
+  unknown<0:12> ARG named<0:8>(Beatrice)  
+  proper_q<0:12> BV named<0:8>(Beatrice)  
+  udef_q<9:12> BV _company_n_1<9:12>  
+  compound<9:12> ARG1 named<0:8>(Beatrice)  
+  compound<9:12> ARG2 _company_n_1<9:12>  
+  discourse<13:15> L-HNDL excl<13:15>(s-dash)  
+  discourse<13:15> L-INDEX excl<13:15>(s-dash)  
+  implicit_conj<0:15> SF prop-or-ques  
+  implicit_conj<0:15> TENSE tensed  
+  implicit_conj<0:15> MOOD indicative  
+  implicit_conj<0:15> PROG -  
+  implicit_conj<0:15> PERF -  
+  unknown<0:12> SF prop  
+  unknown<0:12> TENSE tensed  
+  unknown<0:12> MOOD indicative  
+  unknown<0:12> PROG -  
+  unknown<0:12> PERF -  
+  named<0:8>(Beatrice) PERS 3  
+  named<0:8>(Beatrice) NUM sg  
+  named<0:8>(Beatrice) IND +  
+  _company_n_1<9:12> PERS 3  
+  _company_n_1<9:12> NUM sg  
+  _company_n_1<9:12> IND +  
+  unknown<13:15> SF prop-or-ques  
+  unknown<13:15> TENSE untensed  
+  unknown<13:15> MOOD indicative  
+  unknown<13:15> PROG -  
+  unknown<13:15> PERF -  
+}
+

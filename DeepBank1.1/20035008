@@ -1,0 +1,124 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:15 h)).
+;;;
+
+[20035008] (1 of 1) {1} `The U.S.S.R. belongs to neither organization.'
+
+[20035008:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 0.9887 "NNP" 0.0113)
+  (2, 1, 2, <4:12>, 1, "U.S.S.R.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:20>, 1, "belongs", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <21:23>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <24:31>, 1, "neither", 0, "null", "DT" 0.9745 "CC" 0.0255)
+  (6, 5, 6, <32:44>, 1, "organization", 0, "null", "NN" 1.0)
+  (7, 6, 7, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (87, 0, 1, <0:3>, 1, "the", 0, "null")
+  (94, 0, 1, <0:3>, 1, "the", 0, "null")
+  (65, 1, 2, <4:12>, 1, "U.S.S.R.", 0, "null")
+  (83, 1, 2, <4:12>, 1, "U.S.S.R.", 0, "null", "NNP" 1.0)
+  (86, 1, 2, <4:12>, 1, "u.s.s.r.", 0, "null")
+  (88, 1, 2, <4:12>, 1, "u.s.s.r.", 0, "null")
+  (74, 2, 3, <13:20>, 1, "belongs", 0, "null")
+  (84, 2, 3, <13:20>, 1, "belongs", 0, "null", "VBZ" 1.0)
+  (89, 2, 3, <13:20>, 1, "belongs", 0, "null")
+  (76, 3, 4, <21:23>, 1, "to", 0, "null")
+  (90, 3, 4, <21:23>, 1, "to", 0, "null")
+  (81, 4, 5, <24:31>, 1, "neither", 0, "null")
+  (92, 4, 5, <24:31>, 1, "neither", 0, "null")
+  (78, 5, 6, <32:45>, 1, "organization.", 0, "null")
+  (85, 5, 6, <32:45>, 1, "organization.", 0, "null", "NN" 1.0)
+  (91, 5, 6, <32:45>, 1, "organization.", 0, "null")
+>
+
+(ROOT_STRICT
+ (649 SB-HD_MC_C 7.24415 0 6
+  (642 SP-HD_N_C 2.46985 0 2
+   (107 the_1@d_-_the_le 1.13181 0 1
+    ("the" 87
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98867240000000001\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (641 ^N_SG_ILR 0.383789 1 2
+    (133 generic_proper_ne@n_-_pn-gen_le 0 1 2
+     ("U.S.S.R." 65
+      "token [ +CARG #1=\"U.S.S.R.\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (648 ^HD-CMP_U_C 2.81978 2 6
+   (643 ^V_3S-FIN_OLR 0.703372 2 3
+    (143 belong_v1@v_pp_e_le 0 2 3
+     ("belongs" 74
+      "token [ +CARG #1=\"belongs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (647 HD-CMP_U_C 0.917592 3 6
+    (188 to_prtcl@p_np_ptcl_le 0.017699 3 4
+     ("to" 76
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (646 SP-HD_N_C -0.577642 4 6
+     (232 neither_det@d_-_prt-sg_le -0.368153 4 5
+      ("neither" 81
+       "token [ +CARG #1=\"neither\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97452360000000005\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (645 ^W_PERIOD_PLR 0.353022 5 6
+      (644 N_MS-CNT_ILR 0.175793 5 6
+       (233 organization_n1@n_-_mc_le 0 5 6
+        ("organization." 78
+         "token [ +CARG \"organization\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"organization.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N "U.S.S.R.")))
+ (VP (V (V "belongs"))
+  (PP (P "to") (NP (DET "neither") (N (N (N "organization.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ named<4:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "U.S.S.R." ]
+          [ _belong_v_to<13:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _neither_q<24:31>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _organization_n_1<32:45>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:named<4:12>("U.S.S.R."){x PERS 3, NUM sg, IND +}[]
+ e3:_belong_v_to<13:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_neither_q<24:31>[BV x9]
+ x9:_organization_n_1<32:45>{x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV named<4:12>(U.S.S.R.)  
+  _belong_v_to<13:20> ARG1 named<4:12>(U.S.S.R.)  
+  _belong_v_to<13:20> ARG2 _organization_n_1<32:45>  
+  _neither_q<24:31> BV _organization_n_1<32:45>  
+  named<4:12>(U.S.S.R.) PERS 3  
+  named<4:12>(U.S.S.R.) NUM sg  
+  named<4:12>(U.S.S.R.) IND +  
+  _belong_v_to<13:20> SF prop  
+  _belong_v_to<13:20> TENSE pres  
+  _belong_v_to<13:20> MOOD indicative  
+  _belong_v_to<13:20> PROG -  
+  _belong_v_to<13:20> PERF -  
+  _organization_n_1<32:45> PERS 3  
+  _organization_n_1<32:45> NUM sg  
+}
+

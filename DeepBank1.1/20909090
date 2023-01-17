@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:14 h)).
+;;;
+
+[20909090] (1 of 1) {1} `Some become pseudo-lobbyists.'
+
+[20909090:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Some", 0, "null", "DT" 0.9441 "RB" 0.0559)
+  (2, 1, 2, <5:11>, 1, "become", 0, "null", "VBN" 0.6406 "VB" 0.3264 "VBP" 0.0329)
+  (3, 2, 3, <12:28>, 1, "pseudo-lobbyists", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:4>, 1, "some", 0, "null")
+  (67, 0, 1, <0:4>, 1, "some", 0, "null")
+  (57, 1, 2, <5:11>, 1, "become", 0, "null")
+  (59, 1, 2, <5:11>, 1, "become", 0, "null", "VBN" 0.6406)
+  (60, 1, 2, <5:11>, 1, "become", 0, "null", "VB" 0.3264)
+  (66, 1, 2, <5:11>, 1, "become", 0, "null")
+  (52, 2, 3, <12:28>, 1, "pseudo-", 0, "null")
+  (61, 2, 3, <12:28>, 1, "pseudo-", 0, "null", "NN" 1.0)
+  (64, 2, 3, <12:28>, 1, "pseudo-", 0, "null")
+  (54, 3, 4, <12:29>, 1, "lobbyists.", 0, "null")
+  (62, 3, 4, <12:29>, 1, "lobbyists.", 0, "null", "NNS" 1.0)
+  (65, 3, 4, <12:29>, 1, "lobbyists.", 0, "null")
+>
+
+(ROOT_STRICT
+ (309 SB-HD_MC_C 4.25598 0 4
+  (301 HDN_BNP-QNT_C 1.18608 0 1
+   (300 DET_PRT-NOCMP_DLR 0.911298 0 1
+    (68 some@d_-_prt-div_le 0.513897 0 1
+     ("some" 63
+      "token [ +CARG \"Some\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"some\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.944106\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (308 ^HD-CMP_U_C 1.80055 1 4
+   (302 ^V_N3S-BSE_ILR 0.386958 1 2
+    (74 become_v2@v_np_id_le 0.241909 1 2
+     ("become" 57
+      "token [ +CARG #1=\"become\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.64062660000000005\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (307 HDN_BNP_C 0.355772 2 4
+    (306 XP_BRCK-PR_C 0.324838 2 4
+     (305 AJ-HDN_NORM_C 1.44845 2 4
+      (303 W_HYPHEN_PLR 0.482685 2 3
+       (92 pseudo_isect@aj_-_i-att-nsp_le 0 2 3
+        ("pseudo-" 52
+         "token [ +CARG #1=\"pseudo-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (304 ^W_PERIOD_PLR 0.96577 3 4
+       (103 generic_pl_noun@n_-_c-pl-unk_le 0 3 4
+        ("lobbyists." 62
+         "token [ +CARG \"lobbyists\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"lobbyists.\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED \"_lobbyists/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #2=\"1\" +TAG #3=\"NNS\" ] +PRBS *cons* [ FIRST #2 REST *null* ] +TAGS *cons* [ FIRST #3 REST *null* ] ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW + ] ]")))))))))
+
+(S (NP (N (DET "some")))
+ (VP (V (V "become"))
+  (NP (N (N (AP (AP "pseudo-")) (N (N "lobbyists.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _some_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ generic_entity<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ _become_v_id<5:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<12:29>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _pseudo_a_1<12:28>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _lobbyists/nns_u_unknown<12:29>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_some_q<0:4>[BV x6]
+ x6:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ e3:_become_v_id<5:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<12:29>[BV x9]
+ e14:_pseudo_a_1<12:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_lobbyists/nns_u_unknown<12:29>{x PERS 3, NUM pl}[]
+}
+
+{
+  _some_q<0:4> BV generic_entity<0:4>  
+  _become_v_id<5:11> ARG1 generic_entity<0:4>  
+  _become_v_id<5:11> ARG2 _lobbyists/nns_u_unknown<12:29>  
+  udef_q<12:29> BV _lobbyists/nns_u_unknown<12:29>  
+  _pseudo_a_1<12:28> ARG1 _lobbyists/nns_u_unknown<12:29>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  _become_v_id<5:11> SF prop  
+  _become_v_id<5:11> TENSE pres  
+  _become_v_id<5:11> MOOD indicative  
+  _become_v_id<5:11> PROG -  
+  _become_v_id<5:11> PERF -  
+  _pseudo_a_1<12:28> SF prop  
+  _pseudo_a_1<12:28> TENSE untensed  
+  _pseudo_a_1<12:28> MOOD indicative  
+  _pseudo_a_1<12:28> PROG -  
+  _pseudo_a_1<12:28> PERF -  
+  _lobbyists/nns_u_unknown<12:29> PERS 3  
+  _lobbyists/nns_u_unknown<12:29> NUM pl  
+}
+

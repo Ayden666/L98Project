@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj01d';
+;;; (wsun@wsun; 22-jan-2018 (11:45 h)).
+;;;
+
+[20186035] (1 of 1) {1} `"Feeding Frenzy" does provide a few clues.'
+
+[20186035:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:8>, 1, "Feeding", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:15>, 1, "Frenzy", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:16>, 1, "”", 0, "null", "''" 1.0)
+  (5, 4, 5, <17:21>, 1, "does", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <22:29>, 1, "provide", 0, "null", "VB" 0.9785 "VBP" 0.0215)
+  (7, 6, 7, <30:31>, 1, "a", 0, "null", "DT" 1.0)
+  (8, 7, 8, <32:35>, 1, "few", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <36:41>, 1, "clues", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (113, 0, 1, <0:8>, 1, "“Feeding", 0, "null")
+  (119, 0, 1, <0:8>, 1, "“feeding", 0, "null")
+  (127, 0, 1, <0:8>, 1, "“feeding", 0, "null")
+  (95, 1, 2, <9:16>, 1, "Frenzy”", 0, "null")
+  (117, 1, 2, <9:16>, 1, "Frenzy”", 0, "null", "NNP" 1.0)
+  (120, 1, 2, <9:16>, 1, "frenzy”", 0, "null")
+  (121, 1, 2, <9:16>, 1, "frenzy”", 0, "null")
+  (100, 2, 3, <17:21>, 1, "does", 0, "null")
+  (115, 2, 3, <17:21>, 1, "does", 0, "null", "VBZ" 1.0)
+  (122, 2, 3, <17:21>, 1, "does", 0, "null")
+  (111, 3, 4, <22:29>, 1, "provide", 0, "null")
+  (114, 3, 4, <22:29>, 1, "provide", 0, "null", "VB" 0.9785)
+  (126, 3, 4, <22:29>, 1, "provide", 0, "null")
+  (102, 4, 5, <30:31>, 1, "a", 0, "null")
+  (123, 4, 5, <30:31>, 1, "a", 0, "null")
+  (104, 5, 6, <32:35>, 1, "few", 0, "null")
+  (116, 5, 6, <32:35>, 1, "few", 0, "null", "JJ" 1.0)
+  (124, 5, 6, <32:35>, 1, "few", 0, "null")
+  (110, 6, 7, <36:42>, 1, "clues.", 0, "null")
+  (118, 6, 7, <36:42>, 1, "clues.", 0, "null", "NNS" 1.0)
+  (125, 6, 7, <36:42>, 1, "clues.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2618 SB-HD_MC_C 3.44884 0 7
+  (2617 HDN_BNP_C 0.0864342 0 2
+   (2616 AJ-HDN_NORM_C -0.648066 0 2
+    (2613 W_DQLEFT_PLR -0.710517 0 1
+     (2612 V_J-NB-INTR_DLR -0.710517 0 1
+      (2611 V_PRP_OLR -0.69643 0 1
+       (144 feed_v3@v_-_le 0 0 1
+        ("“feeding" 119
+         "token [ +CARG \"Feeding\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“feeding\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (2615 ^W_DQRIGHT_PLR -0.875372 1 2
+     (2614 N_MS-CNT_ILR -0.285347 1 2
+      (160 frenzy_n1@n_-_mc_le 0 1 2
+       ("frenzy”" 120
+        "token [ +CARG \"Frenzy\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"frenzy”\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (2609 ^HD-CMP_U_C 1.84649 2 7
+   (211 does1_pos@v_vp_does_le 1.19735 2 3
+    ("does" 100
+     "token [ +CARG #1=\"does\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2608 HD-CMP_U_C 0.179719 3 7
+    (2603 ^V_N3S-BSE_ILR 0.424964 3 4
+     (250 provide_v1@v_np*_le 0.206128 3 4
+      ("provide" 111
+       "token [ +CARG #1=\"provide\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97847899999999999\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2607 HDN_BNP_C -0.818907 4 7
+     (2606 AJ-HDN_NORM_C -1.14956 4 7
+      (386 a_few_a1@aj_-_i-svrl_le 0.41861 4 6
+       ("a few" 102
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+        104
+        "token [ +CARG #1=\"few\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2605 ^W_PERIOD_PLR -0.902154 6 7
+       (2604 N_PL_OLR -0.37782 6 7
+        (369 clue_n1@n_-_mc_le 0 6 7
+         ("clues." 110
+          "token [ +CARG \"clues\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"clues.\" +FROM #1=\"36\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (AP (AP (VP (V "“feeding")))) (N (N (N "frenzy”")))))
+ (VP (V "does")
+  (VP (V (V "provide")) (NP (N (ADJ "a few") (N (N (N "clues."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _feed_v_2<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: x6 ]
+          [ _frenzy_n_1<9:16>
+            LBL: h8
+            ARG0: x6 ]
+          [ _provide_v_1<22:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<30:42>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _a+few_a_1<30:35>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _clue_n_1<36:42>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:16>[BV x6]
+ e9:_feed_v_2<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG1 x6]
+ x6:_frenzy_n_1<9:16>{x PERS 3, NUM sg}[]
+ e3:_provide_v_1-fn.Supply<22:29>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x6, ARG2-fn.Theme x10]
+ _2:udef_q<30:42>[BV x10]
+ e15:_a+few_a_1<30:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_clue_n_1<36:42>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:16> BV _frenzy_n_1<9:16>  
+  _feed_v_2<0:8> ARG1 _frenzy_n_1<9:16>  
+  _provide_v_1<22:29> ARG1 _frenzy_n_1<9:16>  
+  _provide_v_1<22:29> ARG2 _clue_n_1<36:42>  
+  udef_q<30:42> BV _clue_n_1<36:42>  
+  _a+few_a_1<30:35> ARG1 _clue_n_1<36:42>  
+  _feed_v_2<0:8> SF prop  
+  _feed_v_2<0:8> TENSE untensed  
+  _feed_v_2<0:8> MOOD indicative  
+  _feed_v_2<0:8> PROG +  
+  _feed_v_2<0:8> PERF -  
+  _frenzy_n_1<9:16> PERS 3  
+  _frenzy_n_1<9:16> NUM sg  
+  _provide_v_1<22:29> SF prop  
+  _provide_v_1<22:29> TENSE pres  
+  _provide_v_1<22:29> MOOD indicative  
+  _provide_v_1<22:29> PROG -  
+  _provide_v_1<22:29> PERF -  
+  _a+few_a_1<30:35> SF prop  
+  _a+few_a_1<30:35> TENSE untensed  
+  _a+few_a_1<30:35> MOOD indicative  
+  _a+few_a_1<30:35> PROG -  
+  _a+few_a_1<30:35> PERF -  
+  _clue_n_1<36:42> PERS 3  
+  _clue_n_1<36:42> NUM pl  
+  _clue_n_1<36:42> IND +  
+}
+

@@ -1,0 +1,75 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:05 h)).
+;;;
+
+[21105001] (1 of 1) {1} `CHICAGO -'
+
+[21105001:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "CHICAGO", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:9>, 1, "-", 0, "null", ":" 1.0)
+>
+
+<
+  (20, 0, 1, <0:7>, 1, "CHICAGO", 0, "null")
+  (25, 0, 1, <0:7>, 1, "CHICAGO", 0, "null", "NNP" 1.0)
+  (26, 0, 1, <0:7>, 1, "chicago", 0, "null")
+  (27, 0, 1, <0:7>, 1, "chicago", 0, "null")
+  (24, 1, 2, <8:9>, 1, "-", 0, "null")
+  (28, 1, 2, <8:9>, 1, "-", 0, "null")
+>
+
+(ROOT_FRAG
+ (73 NP_FRG_C -0.114822 0 2
+  (72 HDN_BNP-PN_C 1.03169 0 2
+   (71 HD-PCT_C 1.35065 0 2
+    (70 ^N_SG_ILR -0.306339 0 1
+     (32 chicago_n1@n_-_pn_le -0.128781 0 1
+      ("chicago" 26
+       "token [ +CARG \"CHICAGO\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"chicago\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (37 s_dash_pct@pt_-_s-dash_le 0.43917 1 2
+     ("-" 24
+      "token [ +CARG #1=\"-\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (N "chicago")) (PNCT "-"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x4
+            CARG: "Chicago" ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:9>[BV x4]
+ x4:named<0:7>("Chicago"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:9> ARG named<0:7>(Chicago)  
+  proper_q<0:9> BV named<0:7>(Chicago)  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  named<0:7>(Chicago) PERS 3  
+  named<0:7>(Chicago) NUM sg  
+  named<0:7>(Chicago) IND +  
+}
+

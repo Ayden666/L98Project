@@ -1,0 +1,153 @@
+;;;
+;;; Redwoods export of `wsj14d';
+;;; (wsun@wsun; 22-jan-2018 (23:44 h)).
+;;;
+
+[21487004] (1 of 1) {1} `It seeks unspecified money damages.'
+
+[21487004:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:8>, 1, "seeks", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <9:20>, 1, "unspecified", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <21:26>, 1, "money", 0, "null", "NN" 1.0)
+  (5, 4, 5, <27:34>, 1, "damages", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:2>, 1, "it", 0, "null")
+  (75, 0, 1, <0:2>, 1, "it", 0, "null")
+  (59, 1, 2, <3:8>, 1, "seeks", 0, "null")
+  (66, 1, 2, <3:8>, 1, "seeks", 0, "null", "VBZ" 1.0)
+  (71, 1, 2, <3:8>, 1, "seeks", 0, "null")
+  (61, 2, 3, <9:20>, 1, "unspecified", 0, "null")
+  (67, 2, 3, <9:20>, 1, "unspecified", 0, "null", "JJ" 1.0)
+  (72, 2, 3, <9:20>, 1, "unspecified", 0, "null")
+  (63, 3, 4, <21:26>, 1, "money", 0, "null")
+  (68, 3, 4, <21:26>, 1, "money", 0, "null", "NN" 1.0)
+  (73, 3, 4, <21:26>, 1, "money", 0, "null")
+  (65, 4, 5, <27:35>, 1, "damages.", 0, "null")
+  (69, 4, 5, <27:35>, 1, "damages.", 0, "null", "NNS" 1.0)
+  (74, 4, 5, <27:35>, 1, "damages.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1008 SB-HD_MC_C 5.30146 0 5
+  (1001 HDN_BNP-QNT_C 0.430464 0 1
+   (77 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 70
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1007 ^HD-CMP_U_C 3.60165 1 5
+   (1002 ^V_3S-FIN_OLR 0.198464 1 2
+    (106 seek_v1@v_np_le 0 1 2
+     ("seeks" 59
+      "token [ +CARG #1=\"seeks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1006 HDN_BNP_C 2.79671 2 5
+    (1005 AJ-HDN_NORM_C 2.53191 2 5
+     (183 unspecified_a1@aj_-_i_le 0 2 3
+      ("unspecified" 61
+       "token [ +CARG #1=\"unspecified\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1004 ^N-HDN_CPD_C 1.47671 3 5
+      (302 money_n1@n_-_mc_le 0.074414 3 4
+       ("money" 63
+        "token [ +CARG #1=\"money\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1003 ^W_PERIOD_PLR 0.0114136 4 5
+       (310 damages_n1@n_-_c-pl-ifl_le 0 4 5
+        ("damages." 65
+         "token [ +CARG \"damages\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"damages.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "it"))
+ (VP (V (V "seeks"))
+  (NP (N (AP "unspecified") (N (N "money") (N (N "damages.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _seek_v_1<3:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<9:35>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _unspecified_a_1<9:20>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ compound<21:35>
+            LBL: h13
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 ]
+          [ udef_q<21:26>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _money_n_1<21:26>
+            LBL: h20
+            ARG0: x15 ]
+          [ _damages_n_1<27:35>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h18 QEQ h20 h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_seek_v_1<3:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<9:35>[BV x9]
+ e14:_unspecified_a_1<9:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e16:compound<21:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<21:26>[BV x15]
+ x15:_money_n_1<21:26>{x}[]
+ x9:_damages_n_1<27:35>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _seek_v_1<3:8> ARG1 pron<0:2>  
+  _seek_v_1<3:8> ARG2 _damages_n_1<27:35>  
+  udef_q<9:35> BV _damages_n_1<27:35>  
+  _unspecified_a_1<9:20> ARG1 _damages_n_1<27:35>  
+  compound<21:35> ARG1 _damages_n_1<27:35>  
+  compound<21:35> ARG2 _money_n_1<21:26>  
+  udef_q<21:26> BV _money_n_1<21:26>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _seek_v_1<3:8> SF prop  
+  _seek_v_1<3:8> TENSE pres  
+  _seek_v_1<3:8> MOOD indicative  
+  _seek_v_1<3:8> PROG -  
+  _seek_v_1<3:8> PERF -  
+  _unspecified_a_1<9:20> SF prop  
+  _unspecified_a_1<9:20> TENSE untensed  
+  _unspecified_a_1<9:20> MOOD indicative  
+  _unspecified_a_1<9:20> PROG -  
+  _unspecified_a_1<9:20> PERF -  
+  compound<21:35> SF prop  
+  compound<21:35> TENSE untensed  
+  compound<21:35> MOOD indicative  
+  compound<21:35> PROG -  
+  compound<21:35> PERF -  
+  _damages_n_1<27:35> PERS 3  
+  _damages_n_1<27:35> NUM pl  
+  _damages_n_1<27:35> IND +  
+}
+

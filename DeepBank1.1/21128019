@@ -1,0 +1,224 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:18 h)).
+;;;
+
+[21128019] (1 of 1) {1} `The Delicious hegemony won't end anytime soon.'
+
+[21128019:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:13>, 1, "Delicious", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:22>, 1, "hegemony", 0, "null", "NN" 1.0)
+  (4, 3, 4, <23:25>, 1, "wo", 0, "null", "MD" 1.0)
+  (5, 4, 5, <25:28>, 1, "n’t", 0, "null", "VB" 0.6111 "NN" 0.1759 "RB" 0.168 "JJ" 0.0281 "JJS" 0.0169)
+  (6, 5, 6, <29:32>, 1, "end", 0, "null", "NN" 0.492 "VB" 0.4804 "VBP" 0.0276)
+  (7, 6, 7, <33:40>, 1, "anytime", 0, "null", "RB" 1.0)
+  (8, 7, 8, <41:45>, 1, "soon", 0, "null", "RB" 1.0)
+  (9, 8, 9, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (106, 0, 1, <0:3>, 1, "the", 0, "null")
+  (114, 0, 1, <0:3>, 1, "the", 0, "null")
+  (79, 1, 2, <4:13>, 1, "Delicious", 0, "null")
+  (101, 1, 2, <4:13>, 1, "Delicious", 0, "null", "NNP" 1.0)
+  (105, 1, 2, <4:13>, 1, "delicious", 0, "null")
+  (107, 1, 2, <4:13>, 1, "delicious", 0, "null")
+  (90, 2, 3, <14:22>, 1, "hegemony", 0, "null")
+  (102, 2, 3, <14:22>, 1, "hegemony", 0, "null", "NN" 1.0)
+  (108, 2, 3, <14:22>, 1, "hegemony", 0, "null")
+  (94, 3, 4, <23:28>, 1, "won’t", 0, "null")
+  (110, 3, 4, <23:28>, 1, "won’t", 0, "null")
+  (97, 4, 5, <29:32>, 1, "end", 0, "null")
+  (99, 4, 5, <29:32>, 1, "end", 0, "null", "NN" 0.492)
+  (100, 4, 5, <29:32>, 1, "end", 0, "null", "VB" 0.4804)
+  (112, 4, 5, <29:32>, 1, "end", 0, "null")
+  (92, 5, 6, <33:40>, 1, "anytime", 0, "null")
+  (103, 5, 6, <33:40>, 1, "anytime", 0, "null", "RB" 1.0)
+  (109, 5, 6, <33:40>, 1, "anytime", 0, "null")
+  (96, 6, 7, <41:46>, 1, "soon.", 0, "null")
+  (104, 6, 7, <41:46>, 1, "soon.", 0, "null", "RB" 1.0)
+  (111, 6, 7, <41:46>, 1, "soon.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1219 SB-HD_MC_C 6.68268 0 7
+  (1208 SP-HD_N_C 2.25453 0 3
+   (127 the_1@d_-_the_le -0.121681 0 1
+    ("the" 106
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1207 ^NP-HDN_CPD_C 0.480607 1 3
+    (1205 HDN_BNP-PN_C -0.050883 1 2
+     (154 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Delicious" 79
+       "token [ +CARG #1=\"Delicious\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (1206 ^N_MS-CNT_ILR -0.168692 2 3
+     (167 generic_mass_count_noun@n_-_mc-unk_le 0 2 3
+      ("hegemony" 102
+       "token [ +CARG #1=\"hegemony\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_hegemony/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1218 ^HD-CMP_U_C 2.47363 3 7
+   (168 will_aux_neg_3_u@v_vp_will-n_le 0.505649 3 4
+    ("won’t" 94
+     "token [ +CARG #1=\"won’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1217 HD-AJ_INT-UNSL_C 2.48923 4 7
+    (1209 ^V_N3S-BSE_ILR 0.388391 4 5
+     (179 end_v1@v_-_unacc_le 0.186808 4 5
+      ("end" 97
+       "token [ +CARG #1=\"end\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.4920022\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1216 NP_ADV_C 1.56239 5 7
+     (1215 HDN_BNP-QNT_C 1.47011 5 7
+      (1214 HDN-AJ_REDREL_C 1.24502 5 7
+       (1210 ^HDN_OPTCMP_C 1.04857 5 6
+        (231 anytime_n1@n_-_pr-ad_le 0 5 6
+         ("anytime" 92
+          "token [ +CARG #1=\"anytime\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (1213 NP_ADV_C 0.417788 6 7
+        (1212 HDN_BNP-QNT_C 0.680882 6 7
+         (1211 W_PERIOD_PLR 0 6 7
+          (233 soon_adv1@n_-_ad-gr-nm_le 0 6 7
+           ("soon." 96
+            "token [ +CARG \"soon\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"soon.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (DET "the") (N (NP (N "Delicious")) (N (N "hegemony"))))
+ (VP (V "won’t")
+  (VP (VP (V "end"))
+   (PP (NP (N (N (N "anytime")) (PP (NP (N (N "soon."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<4:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<4:13>
+            LBL: h14
+            ARG0: x9
+            CARG: "Delicious" ]
+          [ _hegemony/nn_u_unknown<14:22>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<23:28>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _end_v_1<29:32>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<33:46>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x19 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<33:40>
+            LBL: h20
+            ARG0: x19 ]
+          [ _any_q<33:40>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ loc_nonsp<41:46>
+            LBL: h20
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x19
+            ARG2: x25 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<41:46>
+            LBL: h26
+            ARG0: x25 ]
+          [ def_implicit_q<41:46>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ _soon_p<41:46>
+            LBL: h26
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x25 ] >
+   HCONS: < h28 QEQ h26 h22 QEQ h20 h15 QEQ h17 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<4:13>[BV x9]
+ x9:named<4:13>("Delicious"){x IND +}[]
+ x6:_hegemony/nn_u_unknown<14:22>{x PERS 3, NUM sg}[]
+ e16:neg<23:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_end_v_1-fn.Cause_to_end<29:32>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e18:loc_nonsp<33:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x19]
+ x19:time_n<33:40>{x PERS 3, NUM sg}[]
+ _3:_any_q<33:40>[BV x19]
+ e24:loc_nonsp<41:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x19, ARG2 x25]
+ x25:time_n<41:46>{x PERS 3, NUM sg}[]
+ _4:def_implicit_q<41:46>[BV x25]
+ e30:_soon_p<41:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x25]
+}
+
+{
+  _the_q<0:3> BV _hegemony/nn_u_unknown<14:22>  
+  compound<4:22> ARG1 _hegemony/nn_u_unknown<14:22>  
+  compound<4:22> ARG2 named<4:13>(Delicious)  
+  proper_q<4:13> BV named<4:13>(Delicious)  
+  neg<23:28> ARG1 _end_v_1<29:32>  
+  _end_v_1<29:32> ARG1 _hegemony/nn_u_unknown<14:22>  
+  loc_nonsp<33:46> ARG1 _end_v_1<29:32>  
+  loc_nonsp<33:46> ARG2 time_n<33:40>  
+  _any_q<33:40> BV time_n<33:40>  
+  loc_nonsp<41:46> ARG1 time_n<33:40>  
+  loc_nonsp<41:46> ARG2 time_n<41:46>  
+  def_implicit_q<41:46> BV time_n<41:46>  
+  _soon_p<41:46> ARG1 time_n<41:46>  
+  compound<4:22> SF prop  
+  compound<4:22> TENSE untensed  
+  compound<4:22> MOOD indicative  
+  compound<4:22> PROG -  
+  compound<4:22> PERF -  
+  named<4:13>(Delicious) IND +  
+  _hegemony/nn_u_unknown<14:22> PERS 3  
+  _hegemony/nn_u_unknown<14:22> NUM sg  
+  neg<23:28> SF prop  
+  neg<23:28> TENSE untensed  
+  neg<23:28> MOOD indicative  
+  neg<23:28> PROG -  
+  neg<23:28> PERF -  
+  _end_v_1<29:32> SF prop  
+  _end_v_1<29:32> TENSE fut  
+  _end_v_1<29:32> MOOD indicative  
+  _end_v_1<29:32> PROG -  
+  _end_v_1<29:32> PERF -  
+  loc_nonsp<33:46> SF prop  
+  loc_nonsp<33:46> TENSE untensed  
+  loc_nonsp<33:46> MOOD indicative  
+  loc_nonsp<33:46> PROG -  
+  loc_nonsp<33:46> PERF -  
+  time_n<33:40> PERS 3  
+  time_n<33:40> NUM sg  
+  loc_nonsp<41:46> SF prop  
+  loc_nonsp<41:46> TENSE untensed  
+  loc_nonsp<41:46> MOOD indicative  
+  loc_nonsp<41:46> PROG -  
+  loc_nonsp<41:46> PERF -  
+  time_n<41:46> PERS 3  
+  time_n<41:46> NUM sg  
+  _soon_p<41:46> SF prop  
+  _soon_p<41:46> TENSE untensed  
+  _soon_p<41:46> MOOD indicative  
+  _soon_p<41:46> PROG -  
+  _soon_p<41:46> PERF -  
+}
+

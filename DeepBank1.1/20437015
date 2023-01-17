@@ -1,0 +1,205 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (14:01 h)).
+;;;
+
+[20437015] (1 of 1) {1} `Recently, Japan has been buying copper elsewhere.'
+
+[20437015:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Recently", 0, "null", "RB" 1.0)
+  (2, 1, 2, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <10:15>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <16:19>, 1, "has", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <20:24>, 1, "been", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <25:31>, 1, "buying", 0, "null", "VBG" 0.8988 "NN" 0.1012)
+  (7, 6, 7, <32:38>, 1, "copper", 0, "null", "NN" 1.0)
+  (8, 7, 8, <39:48>, 1, "elsewhere", 0, "null", "RB" 0.966 "NN" 0.034)
+  (9, 8, 9, <48:49>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:9>, 1, "Recently,", 0, "null", "RB" 1.0)
+  (112, 0, 1, <0:9>, 1, "recently,", 0, "null")
+  (120, 0, 1, <0:9>, 1, "recently,", 0, "null")
+  (83, 1, 2, <10:15>, 1, "Japan", 0, "null")
+  (106, 1, 2, <10:15>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (111, 1, 2, <10:15>, 1, "japan", 0, "null")
+  (113, 1, 2, <10:15>, 1, "japan", 0, "null")
+  (93, 2, 3, <16:19>, 1, "has", 0, "null")
+  (107, 2, 3, <16:19>, 1, "has", 0, "null", "VBZ" 1.0)
+  (114, 2, 3, <16:19>, 1, "has", 0, "null")
+  (95, 3, 4, <20:24>, 1, "been", 0, "null")
+  (108, 3, 4, <20:24>, 1, "been", 0, "null", "VBN" 1.0)
+  (115, 3, 4, <20:24>, 1, "been", 0, "null")
+  (100, 4, 5, <25:31>, 1, "buying", 0, "null")
+  (104, 4, 5, <25:31>, 1, "buying", 0, "null", "VBG" 0.8988)
+  (117, 4, 5, <25:31>, 1, "buying", 0, "null")
+  (97, 5, 6, <32:38>, 1, "copper", 0, "null")
+  (109, 5, 6, <32:38>, 1, "copper", 0, "null", "NN" 1.0)
+  (116, 5, 6, <32:38>, 1, "copper", 0, "null")
+  (102, 6, 7, <39:49>, 1, "elsewhere.", 0, "null")
+  (105, 6, 7, <39:49>, 1, "elsewhere.", 0, "null", "RB" 0.966)
+  (118, 6, 7, <39:49>, 1, "elsewhere.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1721 FLR-HD_NWH_C 12.589 0 7
+  (1706 W_COMMA_PLR 0.299293 0 1
+   (128 recently_adv1@av_-_i-vp_le 0 0 1
+    ("recently," 112
+     "token [ +CARG \"Recently\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"recently,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1720 ^SB-HD_NMC_C 11.4709 1 7
+   (1708 HDN_BNP-PN_C 0.795412 1 2
+    (1707 N_SG_ILR 0.787768 1 2
+     (142 japan_n1@n_-_pn_le 0.481601 1 2
+      ("japan" 111
+       "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japan\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1719 ^HD-CMP_U_C 9.86683 2 7
+    (161 has_aux@v_vp_has_le 3.10804 2 3
+     ("has" 93
+      "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1718 HD-CMP_U_C 6.55284 3 7
+     (242 be_c_been@v_prd_been_le 1.91796 3 4
+      ("been" 95
+       "token [ +CARG #1=\"been\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1717 HD-AJ_INT-UNSL_C 3.37251 4 7
+      (1713 ^HD_XAJ-INT-VP_C 1.96328 4 6
+       (1712 HD-CMP_U_C 1.36621 4 6
+        (1709 ^V_PRP_OLR 0.56028 4 5
+         (257 buy_v1@v_np*_le 0.394318 4 5
+          ("buying" 100
+           "token [ +CARG #1=\"buying\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8987948\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (1711 HDN_BNP_C -0.220798 5 6
+         (1710 N_MS-CNT_ILR 0.852369 5 6
+          (272 copper_n1@n_-_mc_le 0.76783 5 6
+           ("copper" 97
+            "token [ +CARG #1=\"copper\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+      (1716 NP_ADV_C 0.556071 6 7
+       (1715 HDN_BNP-QNT_C 0.46379 6 7
+        (1714 W_PERIOD_PLR 0 6 7
+         (275 elsewhere_nom@n_-_ad-pl_le 0 6 7
+          ("elsewhere." 102
+           "token [ +CARG \"elsewhere\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"elsewhere.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96600710000000001\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (ADV (ADV "recently,"))
+ (S/ADV (NP (N (N "japan")))
+  (VP/ADV (V/ADV "has")
+   (VP/ADV (V/ADV "been")
+    (VP/ADV (VP/ADV (VP (V (V "buying")) (NP (N (N "copper")))))
+     (PP (NP (N (N "elsewhere.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: + ]
+   RELS: <
+          [ focus_d<0:49>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: i4 ]
+          [ _recent_a_1<0:9>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ proper_q<10:15>
+            LBL: h7
+            ARG0: x9 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h8
+            BODY: h10 ]
+          [ named<10:15>
+            LBL: h11
+            ARG0: x9
+            CARG: "Japan" ]
+          [ _buy_v_1<25:31>
+            LBL: h2
+            ARG0: e3
+            ARG1: x9
+            ARG2: x12 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<32:38>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ _copper_n_1<32:38>
+            LBL: h16
+            ARG0: x12 ]
+          [ loc_nonsp<39:49>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 [ x PERS: 3 NUM: SG ] ]
+          [ place_n<39:49>
+            LBL: h19
+            ARG0: x18 ]
+          [ def_implicit_q<39:49>
+            LBL: h20
+            ARG0: x18
+            RSTR: h21
+            BODY: h22 ]
+          [ _elsewhere_a_1<39:49>
+            LBL: h19
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18 ] >
+   HCONS: < h21 QEQ h19 h14 QEQ h16 h8 QEQ h11 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e6:_recent_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<10:15>[BV x9]
+ x9:named<10:15>("Japan"){x PERS 3, NUM sg, IND +}[]
+ e3:_buy_v_1-fn.Commerce_buy<25:31>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF +}[ARG1-fn.Buyer x9, ARG2-fn.Goods x12]
+ _2:udef_q<32:38>[BV x12]
+ x12:_copper_n_1<32:38>{x PERS 3, NUM sg}[]
+ e17:loc_nonsp<39:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ x18:place_n<39:49>{x PERS 3, NUM sg}[]
+ _3:def_implicit_q<39:49>[BV x18]
+ e23:_elsewhere_a_1<39:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18]
+}
+
+{
+  focus_d<0:49> ARG1 _buy_v_1<25:31>  
+  _recent_a_1<0:9> ARG1 _buy_v_1<25:31>  
+  proper_q<10:15> BV named<10:15>(Japan)  
+  _buy_v_1<25:31> ARG1 named<10:15>(Japan)  
+  _buy_v_1<25:31> ARG2 _copper_n_1<32:38>  
+  udef_q<32:38> BV _copper_n_1<32:38>  
+  loc_nonsp<39:49> ARG1 _buy_v_1<25:31>  
+  loc_nonsp<39:49> ARG2 place_n<39:49>  
+  def_implicit_q<39:49> BV place_n<39:49>  
+  _elsewhere_a_1<39:49> ARG1 place_n<39:49>  
+  focus_d<0:49> SF prop  
+  focus_d<0:49> TENSE untensed  
+  focus_d<0:49> MOOD indicative  
+  focus_d<0:49> PROG -  
+  focus_d<0:49> PERF -  
+  _recent_a_1<0:9> SF prop  
+  _recent_a_1<0:9> TENSE untensed  
+  _recent_a_1<0:9> MOOD indicative  
+  _recent_a_1<0:9> PROG -  
+  _recent_a_1<0:9> PERF -  
+  named<10:15>(Japan) PERS 3  
+  named<10:15>(Japan) NUM sg  
+  named<10:15>(Japan) IND +  
+  _buy_v_1<25:31> SF prop  
+  _buy_v_1<25:31> TENSE pres  
+  _buy_v_1<25:31> MOOD indicative  
+  _buy_v_1<25:31> PROG +  
+  _buy_v_1<25:31> PERF +  
+  _copper_n_1<32:38> PERS 3  
+  _copper_n_1<32:38> NUM sg  
+  loc_nonsp<39:49> SF prop  
+  loc_nonsp<39:49> TENSE untensed  
+  loc_nonsp<39:49> MOOD indicative  
+  loc_nonsp<39:49> PROG -  
+  loc_nonsp<39:49> PERF -  
+  place_n<39:49> PERS 3  
+  place_n<39:49> NUM sg  
+  _elsewhere_a_1<39:49> SF prop  
+  _elsewhere_a_1<39:49> TENSE untensed  
+  _elsewhere_a_1<39:49> MOOD indicative  
+  _elsewhere_a_1<39:49> PROG -  
+  _elsewhere_a_1<39:49> PERF -  
+}
+

@@ -1,0 +1,231 @@
+;;;
+;;; Redwoods export of `wsj15a';
+;;; (wsun@wsun; 22-jan-2018 (23:58 h)).
+;;;
+
+[21512007] (1 of 1) {1} `Most are expected to fall below previous-month levels.'
+
+[21512007:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Most", 0, "null", "JJS" 0.9659 "RBS" 0.0341)
+  (2, 1, 2, <5:8>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <9:17>, 1, "expected", 0, "null", "VBN" 0.9818 "JJ" 0.0182)
+  (4, 3, 4, <18:20>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <21:25>, 1, "fall", 0, "null", "VB" 0.9657 "NN" 0.0343)
+  (6, 5, 6, <26:31>, 1, "below", 0, "null", "IN" 0.9358 "RB" 0.0642)
+  (7, 6, 7, <32:46>, 1, "previous-month", 0, "null", "JJ" 1.0)
+  (8, 7, 8, <47:53>, 1, "levels", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <53:54>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (116, 0, 1, <0:4>, 1, "Most", 0, "null", "JJS" 0.9659)
+  (123, 0, 1, <0:4>, 1, "most", 0, "null")
+  (132, 0, 1, <0:4>, 1, "most", 0, "null")
+  (99, 1, 2, <5:8>, 1, "are", 0, "null")
+  (119, 1, 2, <5:8>, 1, "are", 0, "null", "VBP" 1.0)
+  (124, 1, 2, <5:8>, 1, "are", 0, "null")
+  (110, 2, 3, <9:17>, 1, "expected", 0, "null")
+  (117, 2, 3, <9:17>, 1, "expected", 0, "null", "VBN" 0.9818)
+  (129, 2, 3, <9:17>, 1, "expected", 0, "null")
+  (101, 3, 4, <18:20>, 1, "to", 0, "null")
+  (125, 3, 4, <18:20>, 1, "to", 0, "null")
+  (112, 4, 5, <21:25>, 1, "fall", 0, "null")
+  (118, 4, 5, <21:25>, 1, "fall", 0, "null", "VB" 0.9657)
+  (130, 4, 5, <21:25>, 1, "fall", 0, "null")
+  (114, 5, 6, <26:31>, 1, "below", 0, "null")
+  (131, 5, 6, <26:31>, 1, "below", 0, "null")
+  (105, 6, 7, <32:46>, 1, "previous-", 0, "null")
+  (121, 6, 7, <32:46>, 1, "previous-", 0, "null", "NN" 1.0)
+  (127, 6, 7, <32:46>, 1, "previous-", 0, "null")
+  (103, 7, 8, <32:46>, 1, "month", 0, "null")
+  (120, 7, 8, <32:46>, 1, "month", 0, "null", "JJ" 1.0)
+  (126, 7, 8, <32:46>, 1, "month", 0, "null")
+  (107, 8, 9, <47:54>, 1, "levels.", 0, "null")
+  (122, 8, 9, <47:54>, 1, "levels.", 0, "null", "NNS" 1.0)
+  (128, 8, 9, <47:54>, 1, "levels.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4114 SB-HD_MC_C 14.2833 0 9
+  (4092 HDN_BNP-QNT_C 0.525722 0 1
+   (4091 DET_PRT-NOCMP_DLR 0.250937 0 1
+    (142 most_det@d_-_prt-plm_le 0.447543 0 1
+     ("most" 123
+      "token [ +CARG \"Most\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"most\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96588300000000005\" +TAG \"JJS\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (4113 ^HD-CMP_U_C 12.4882 1 9
+   (158 be_c_are@v_prd_are_le 1.27762 1 2
+    ("are" 99
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (4112 HD-CMP_U_C 10.7564 2 9
+    (4094 ^HD_OPTCMP_C 2.17691 2 3
+     (4093 V_PAS_ODLR 1.89907 2 3
+      (182 expect_v3@v_np-vp_sor_le 1.32584 2 3
+       ("expected" 110
+        "token [ +CARG #1=\"expected\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98182320000000001\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (4111 HD-CMP_U_C 7.15922 3 9
+     (336 to_c_prop@cm_vp_to_le 2.48409 3 4
+      ("to" 101
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (4110 HD-AJ_INT-UNSL_C 3.70023 4 9
+      (4109 ^HD_OPTCMP_C 0.828001 4 5
+       (4095 V_N3S-BSE_ILR -0.079624 4 5
+        (396 fall_v1@v_pp_unacc_le 0.763527 4 5
+         ("fall" 112
+          "token [ +CARG #1=\"fall\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96565909999999999\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (4103 HD-CMP_U_C 2.60977 5 9
+       (399 below@p_np_i-reg_le 1.16614 5 6
+        ("below" 114
+         "token [ +CARG #1=\"below\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93575719999999996\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (4102 HDN_BNP_C 1.30444 6 9
+        (4101 N-HDN_CPD_C 1.6934 6 9
+         (4098 XP_BRCK-PR_C 1.37219 6 8
+          (4097 AJ-HDN_NORM_C 0.555367 6 8
+           (4096 W_HYPHEN_PLR 0.165272 6 7
+            (403 previous_a1@aj_-_i_le 0 6 7
+             ("previous-" 105
+              "token [ +CARG #1=\"previous-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+           (428 month_n1@n_-_c-nday_le -0.213056 7 8
+            ("month" 103
+             "token [ +CARG #1=\"month\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+         (4100 ^W_PERIOD_PLR 0.164979 8 9
+          (4099 N_PL_OLR 0.634532 8 9
+           (444 level_n1@n_-_c_le 0 8 9
+            ("levels." 107
+             "token [ +CARG \"levels\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"levels.\" +FROM #1=\"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S (NP (N (DET "most")))
+ (VP (V "are")
+  (VP (V (V (V "expected")))
+   (VP (COMP "to")
+    (VP (VP (V (V "fall")))
+     (PP (P "below")
+      (NP
+       (N (N (N (AP (AP "previous-")) (N "month")))
+        (N (N (N "levels.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _most_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ generic_entity<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ _expect_v_1<9:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: i9
+            ARG2: h10 ]
+          [ parg_d<9:17>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _fall_v_1<21:25>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _below_p<26:31>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e13
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<32:54>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<32:54>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x20 [ x IND: + ] ]
+          [ udef_q<32:46>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ _previous_a_1<32:46>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20 ]
+          [ _month_n_1<32:46>
+            LBL: h25
+            ARG0: x20 ]
+          [ _level_n_1<47:54>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h23 QEQ h25 h17 QEQ h19 h10 QEQ h12 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_most_q<0:4>[BV x6]
+ x6:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ e3:_expect_v_1<9:17>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 e13]
+ e11:parg_d<9:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e13:_fall_v_1<21:25>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e14:_below_p<26:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e13, ARG2 x15]
+ _2:udef_q<32:54>[BV x15]
+ e21:compound<32:54>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x20]
+ _3:udef_q<32:46>[BV x20]
+ e26:_previous_a_1<32:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20]
+ x20:_month_n_1<32:46>{x IND +}[]
+ x15:_level_n_1<47:54>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _most_q<0:4> BV generic_entity<0:4>  
+  _expect_v_1<9:17> ARG2 _fall_v_1<21:25>  
+  parg_d<9:17> ARG1 _expect_v_1<9:17>  
+  parg_d<9:17> ARG2 generic_entity<0:4>  
+  _fall_v_1<21:25> ARG1 generic_entity<0:4>  
+  _below_p<26:31> ARG1 _fall_v_1<21:25>  
+  _below_p<26:31> ARG2 _level_n_1<47:54>  
+  udef_q<32:54> BV _level_n_1<47:54>  
+  compound<32:54> ARG1 _level_n_1<47:54>  
+  compound<32:54> ARG2 _month_n_1<32:46>  
+  udef_q<32:46> BV _month_n_1<32:46>  
+  _previous_a_1<32:46> ARG1 _month_n_1<32:46>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  _expect_v_1<9:17> SF prop  
+  _expect_v_1<9:17> TENSE pres  
+  _expect_v_1<9:17> MOOD indicative  
+  _expect_v_1<9:17> PROG -  
+  _expect_v_1<9:17> PERF -  
+  parg_d<9:17> SF prop  
+  parg_d<9:17> TENSE untensed  
+  parg_d<9:17> MOOD indicative  
+  parg_d<9:17> PROG -  
+  parg_d<9:17> PERF -  
+  _fall_v_1<21:25> SF prop-or-ques  
+  _fall_v_1<21:25> TENSE untensed  
+  _fall_v_1<21:25> MOOD indicative  
+  _fall_v_1<21:25> PROG -  
+  _fall_v_1<21:25> PERF -  
+  _below_p<26:31> SF prop  
+  _below_p<26:31> TENSE untensed  
+  _below_p<26:31> MOOD indicative  
+  _below_p<26:31> PROG -  
+  _below_p<26:31> PERF -  
+  compound<32:54> SF prop  
+  compound<32:54> TENSE untensed  
+  compound<32:54> MOOD indicative  
+  compound<32:54> PROG -  
+  compound<32:54> PERF -  
+  _previous_a_1<32:46> SF prop  
+  _previous_a_1<32:46> TENSE untensed  
+  _previous_a_1<32:46> MOOD indicative  
+  _previous_a_1<32:46> PROG -  
+  _previous_a_1<32:46> PERF -  
+  _month_n_1<32:46> IND +  
+  _level_n_1<47:54> PERS 3  
+  _level_n_1<47:54> NUM pl  
+  _level_n_1<47:54> IND +  
+}
+

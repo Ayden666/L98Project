@@ -1,0 +1,190 @@
+;;;
+;;; Redwoods export of `wsj20d';
+;;; (wsun@wsun; 23-jan-2018 (05:39 h)).
+;;;
+
+[22067005] (1 of 1) {1} `Its contract expires Dec. 1.'
+
+[22067005:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Its", 0, "null", "PRP$" 1.0)
+  (2, 1, 2, <4:12>, 1, "contract", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:20>, 1, "expires", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <21:25>, 1, "Dec.", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <26:27>, 1, "1", 0, "null", "CD" 1.0)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:3>, 1, "its", 0, "null")
+  (79, 0, 1, <0:3>, 1, "its", 0, "null")
+  (63, 1, 2, <4:12>, 1, "contract", 0, "null")
+  (69, 1, 2, <4:12>, 1, "contract", 0, "null", "NN" 1.0)
+  (75, 1, 2, <4:12>, 1, "contract", 0, "null")
+  (65, 2, 3, <13:20>, 1, "expires", 0, "null")
+  (70, 2, 3, <13:20>, 1, "expires", 0, "null", "VBZ" 1.0)
+  (76, 2, 3, <13:20>, 1, "expires", 0, "null")
+  (56, 3, 4, <21:25>, 1, "Dec.", 0, "null")
+  (68, 3, 4, <21:25>, 1, "Dec.", 0, "null", "NNP" 1.0)
+  (72, 3, 4, <21:25>, 1, "dec.", 0, "null")
+  (74, 3, 4, <21:25>, 1, "dec.", 0, "null")
+  (67, 4, 5, <26:28>, 1, "1.", 0, "null")
+  (71, 4, 5, <26:28>, 1, "1.", 0, "null", "CD" 1.0)
+  (77, 4, 5, <26:28>, 1, "1.", 0, "null")
+>
+
+(ROOT_STRICT
+ (493 SB-HD_MC_C 7.71043 0 5
+  (484 SP-HD_N_C 0.773975 0 2
+   (100 its_poss@d_-_poss-its_le 0.460132 0 1
+    ("its" 73
+     "token [ +CARG \"Its\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"its\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (483 ^N_SG_ILR 0.737235 1 2
+    (122 contract_n1@n_-_c_le 0.681942 1 2
+     ("contract" 63
+      "token [ +CARG #1=\"contract\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (492 ^HD-AJ_INT-UNSL_C 5.90426 2 5
+   (485 ^V_3S-FIN_OLR 0.893231 2 3
+    (138 expire_v1@v_-_unacc_le 0 2 3
+     ("expires" 65
+      "token [ +CARG #1=\"expires\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (491 NP_ADV_C 4.62669 3 5
+    (490 SP-HD_HC_C 4.42875 3 5
+     (487 N_DET-MNTH_DLR 2.92781 3 4
+      (486 N_SG_ILR 1.3431 3 4
+       (155 december_abb_n3@n_-_c-month_le 0.139974 3 4
+        ("dec." 72
+         "token [ +CARG \"Dec.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"dec.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (489 ^W_PERIOD_PLR 0.896831 4 5
+      (488 N_SG_ILR -0.21752 4 5
+       (161 one_digit_day@n_-_pn-dom-card_le -0.160353 4 5
+        ("1." 67
+         "token [ +CARG \"1\" +CLASS numeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"1.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "its") (N (N "contract")))
+ (VP (VP (V "expires"))
+  (PP (NP (DET (N (N "dec."))) (N (N (N "1.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ def_explicit_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ poss<0:3>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ pron<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ _contract_n_1<4:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _expire_v_1<13:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<21:28>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG GEND: N IND: + ] ]
+          [ mofy<21:25>
+            LBL: h17
+            ARG0: x18 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Dec" ]
+          [ def_explicit_q<21:25>
+            LBL: h19
+            ARG0: x16
+            RSTR: h20
+            BODY: h21 ]
+          [ of_p<21:25>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x18 ]
+          [ def_implicit_q<21:25>
+            LBL: h24
+            ARG0: x18
+            RSTR: h25
+            BODY: h26 ]
+          [ dofm<26:28>
+            LBL: h22
+            ARG0: x16
+            CARG: "1" ] >
+   HCONS: < h25 QEQ h17 h20 QEQ h22 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:def_explicit_q<0:3>[BV x6]
+ e10:poss<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:pronoun_q<0:3>[BV x9]
+ x9:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ x6:_contract_n_1<4:12>{x PERS 3, NUM sg, IND +}[]
+ e3:_expire_v_1-fn.Death<13:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<21:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ x18:mofy<21:25>("Dec"){x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<21:25>[BV x16]
+ e23:of_p<21:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x18]
+ _4:def_implicit_q<21:25>[BV x18]
+ x16:dofm<26:28>("1"){x PERS 3, NUM sg, GEND n, IND +}[]
+}
+
+{
+  def_explicit_q<0:3> BV _contract_n_1<4:12>  
+  poss<0:3> ARG1 _contract_n_1<4:12>  
+  poss<0:3> ARG2 pron<0:3>  
+  pronoun_q<0:3> BV pron<0:3>  
+  _expire_v_1<13:20> ARG1 _contract_n_1<4:12>  
+  loc_nonsp<21:28> ARG1 _expire_v_1<13:20>  
+  loc_nonsp<21:28> ARG2 dofm<26:28>(1)  
+  def_explicit_q<21:25> BV dofm<26:28>(1)  
+  of_p<21:25> ARG1 dofm<26:28>(1)  
+  of_p<21:25> ARG2 mofy<21:25>(Dec)  
+  def_implicit_q<21:25> BV mofy<21:25>(Dec)  
+  poss<0:3> SF prop  
+  poss<0:3> TENSE untensed  
+  poss<0:3> MOOD indicative  
+  poss<0:3> PROG -  
+  poss<0:3> PERF -  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _contract_n_1<4:12> PERS 3  
+  _contract_n_1<4:12> NUM sg  
+  _contract_n_1<4:12> IND +  
+  _expire_v_1<13:20> SF prop  
+  _expire_v_1<13:20> TENSE pres  
+  _expire_v_1<13:20> MOOD indicative  
+  _expire_v_1<13:20> PROG -  
+  _expire_v_1<13:20> PERF -  
+  loc_nonsp<21:28> SF prop  
+  loc_nonsp<21:28> TENSE untensed  
+  loc_nonsp<21:28> MOOD indicative  
+  loc_nonsp<21:28> PROG -  
+  loc_nonsp<21:28> PERF -  
+  mofy<21:25>(Dec) PERS 3  
+  mofy<21:25>(Dec) NUM sg  
+  mofy<21:25>(Dec) IND +  
+  of_p<21:25> SF prop  
+  of_p<21:25> TENSE untensed  
+  of_p<21:25> MOOD indicative  
+  of_p<21:25> PROG -  
+  of_p<21:25> PERF -  
+  dofm<26:28>(1) PERS 3  
+  dofm<26:28>(1) NUM sg  
+  dofm<26:28>(1) GEND n  
+  dofm<26:28>(1) IND +  
+}
+

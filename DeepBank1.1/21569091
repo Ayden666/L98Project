@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:30 h)).
+;;;
+
+[21569091] (1 of 1) {1} `*For in-state students'
+
+[21569091:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "*For", 0, "null", "JJ" 0.5611 "NNP" 0.4048 "JJR" 0.0138 "NN" 0.0137 "VB" 0.0066)
+  (2, 1, 2, <5:13>, 1, "in-state", 0, "null", "JJ" 1.0)
+  (3, 2, 3, <14:22>, 1, "students", 0, "null", "NNS" 1.0)
+>
+
+<
+  (51, 0, 1, <0:4>, 1, "*For", 0, "null", "JJ" 0.5611)
+  (52, 0, 1, <0:4>, 1, "*For", 0, "null", "NNP" 0.4048)
+  (56, 0, 1, <0:4>, 1, "*for", 0, "null")
+  (60, 0, 1, <0:4>, 1, "*for", 0, "null")
+  (48, 1, 2, <5:13>, 1, "in-", 0, "null")
+  (55, 1, 2, <5:13>, 1, "in-", 0, "null", "NN" 1.0)
+  (59, 1, 2, <5:13>, 1, "in-", 0, "null")
+  (46, 2, 3, <5:13>, 1, "state", 0, "null")
+  (54, 2, 3, <5:13>, 1, "state", 0, "null", "JJ" 1.0)
+  (58, 2, 3, <5:13>, 1, "state", 0, "null")
+  (44, 3, 4, <14:22>, 1, "students", 0, "null")
+  (53, 3, 4, <14:22>, 1, "students", 0, "null", "NNS" 1.0)
+  (57, 3, 4, <14:22>, 1, "students", 0, "null")
+>
+
+(ROOT_FRAG
+ (417 PP_FRG_C 1.2897 0 4
+  (416 HD-CMP_U_C 2.53763 0 4
+   (410 ^W_ASTERISK-PRE_PLR 0 0 1
+    (71 for@p_np_i_le 0 0 1
+     ("*for" 56
+      "token [ +CARG \"*For\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"*for\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56112799999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (415 HDN_BNP_C 2.53763 1 4
+    (414 AJ-HDN_NORM_C 2.18957 1 4
+     (411 XP_BRCK-PR_C 1.61099 1 3
+      (215 in_state_a1@aj_-_i-att_le 0 1 3
+       ("in- state" 48
+        "token [ +CARG #1=\"in-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"
+        46
+        "token [ +CARG #1=\"state\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))
+     (413 ^HDN_OPTCMP_C 0.124981 3 4
+      (412 N_PL_OLR 0.448905 3 4
+       (204 student_n1@n_pp_c-of_le 0 3 4
+        ("students" 44
+         "token [ +CARG #1=\"students\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (PP (P (P "*for"))
+  (NP (N (AP (AP "in- state")) (N (N (N "students")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _for_p<0:4>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<5:22>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ _in-state_a_1<5:13>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _student_n_of<14:22>
+            LBL: h10
+            ARG0: x6
+            ARG1: i12 ] >
+   HCONS: < h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_for_p<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:udef_q<5:22>[BV x6]
+ e11:_in-state_a_1<5:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_student_n_of<14:22>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _for_p<0:4> ARG1 unknown<0:22>  
+  _for_p<0:4> ARG2 _student_n_of<14:22>  
+  udef_q<5:22> BV _student_n_of<14:22>  
+  _in-state_a_1<5:13> ARG1 _student_n_of<14:22>  
+  unknown<0:22> SF prop-or-ques  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  _for_p<0:4> SF prop  
+  _for_p<0:4> TENSE untensed  
+  _for_p<0:4> MOOD indicative  
+  _for_p<0:4> PROG -  
+  _for_p<0:4> PERF -  
+  _in-state_a_1<5:13> SF prop  
+  _in-state_a_1<5:13> TENSE untensed  
+  _in-state_a_1<5:13> MOOD indicative  
+  _in-state_a_1<5:13> PROG -  
+  _in-state_a_1<5:13> PERF -  
+  _student_n_of<14:22> PERS 3  
+  _student_n_of<14:22> NUM pl  
+  _student_n_of<14:22> IND +  
+}
+

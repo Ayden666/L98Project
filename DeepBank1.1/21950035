@@ -1,0 +1,130 @@
+;;;
+;;; Redwoods export of `wsj19c';
+;;; (wsun@wsun; 23-jan-2018 (04:24 h)).
+;;;
+
+[21950035] (1 of 1) {1} `Guaranteed by Redland PLC.'
+
+[21950035:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "VBN" 0.9595 "JJ" 0.0405)
+  (2, 1, 2, <11:13>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <14:21>, 1, "Redland", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <22:25>, 1, "PLC", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "VBN" 0.9595)
+  (67, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (71, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (57, 1, 2, <11:13>, 1, "by", 0, "null")
+  (70, 1, 2, <11:13>, 1, "by", 0, "null")
+  (48, 2, 3, <14:21>, 1, "Redland", 0, "null")
+  (63, 2, 3, <14:21>, 1, "Redland", 0, "null", "NNP" 1.0)
+  (65, 2, 3, <14:21>, 1, "redland", 0, "null")
+  (68, 2, 3, <14:21>, 1, "redland", 0, "null")
+  (51, 3, 4, <22:26>, 1, "PLC.", 0, "null")
+  (64, 3, 4, <22:26>, 1, "PLC.", 0, "null", "NNP" 1.0)
+  (66, 3, 4, <22:26>, 1, "plc.", 0, "null")
+  (69, 3, 4, <22:26>, 1, "plc.", 0, "null")
+>
+
+(ROOT_FRAG
+ (1233 VP_NFIN-FRG_C 5.81544 0 4
+  (1232 HD-CMP_U_C 7.56898 0 4
+   (1226 ^V_PAS_ODLR 0.32998 0 1
+    (163 guarantee_v3@v_np_le 0 0 1
+     ("guaranteed" 67
+      "token [ +CARG \"Guaranteed\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"guaranteed\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95954839999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1231 HD-CMP_U_C 6.07736 1 4
+    (262 by_pass_p@p_np_ptcl_le 1.83114 1 2
+     ("by" 57
+      "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1230 HDN_BNP-PN_C 3.13281 2 4
+     (1229 HDN-AJ_REDREL_C 3.10098 2 4
+      (1227 ^N_SG_ILR -0.748959 2 3
+       (282 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("Redland" 48
+         "token [ +CARG #1=\"Redland\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (1228 W_PERIOD_PLR 2.81639 3 4
+       (294 plc_post_ttl@n_-_tt-post-npt_le 0 3 4
+        ("plc." 66
+         "token [ +CARG \"PLC\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"plc.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (VP (V (V "guaranteed"))
+  (PP (P "by") (NP (N (N (N "Redland")) (N (N "plc.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _guarantee_v_1<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: i4 ]
+          [ parg_d<0:10>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: i4 ]
+          [ proper_q<14:26>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ named<14:21>
+            LBL: h10
+            ARG0: x5
+            CARG: "Redland" ]
+          [ _plc_n_1<22:26>
+            LBL: h11
+            ARG0: x12 [ x IND: + ] ]
+          [ udef_q<22:26>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ compound<22:26>
+            LBL: h10
+            ARG0: i16
+            ARG1: x5
+            ARG2: x12 ] >
+   HCONS: < h14 QEQ h11 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:_guarantee_v_1<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e6:parg_d<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<14:26>[BV x5]
+ x5:named<14:21>("Redland"){x PERS 3, NUM sg, IND +}[]
+ x12:_plc_n_1<22:26>{x IND +}[]
+ _2:udef_q<22:26>[BV x12]
+ i16:compound<22:26>{i}[ARG1 x5, ARG2 x12]
+}
+
+{
+  _guarantee_v_1<0:10> ARG1 named<14:21>(Redland)  
+  parg_d<0:10> ARG1 _guarantee_v_1<0:10>  
+  proper_q<14:26> BV named<14:21>(Redland)  
+  udef_q<22:26> BV _plc_n_1<22:26>  
+  compound<22:26> ARG1 named<14:21>(Redland)  
+  compound<22:26> ARG2 _plc_n_1<22:26>  
+  _guarantee_v_1<0:10> SF prop  
+  _guarantee_v_1<0:10> TENSE untensed  
+  _guarantee_v_1<0:10> MOOD indicative  
+  _guarantee_v_1<0:10> PROG -  
+  _guarantee_v_1<0:10> PERF -  
+  parg_d<0:10> SF prop  
+  parg_d<0:10> TENSE untensed  
+  parg_d<0:10> MOOD indicative  
+  parg_d<0:10> PROG -  
+  parg_d<0:10> PERF -  
+  named<14:21>(Redland) PERS 3  
+  named<14:21>(Redland) NUM sg  
+  named<14:21>(Redland) IND +  
+  _plc_n_1<22:26> IND +  
+}
+

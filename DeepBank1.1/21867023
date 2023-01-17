@@ -1,0 +1,186 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:36 h)).
+;;;
+
+[21867023] (1 of 1) {1} `Indian Oil Corp. (India) --'
+
+[21867023:11] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Indian", 0, "null", "NNP" 0.925 "JJ" 0.075)
+  (2, 1, 2, <7:10>, 1, "Oil", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:16>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <17:18>, 1, "(", 0, "null", "(" 1.0)
+  (5, 4, 5, <18:23>, 1, "India", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <23:24>, 1, ")", 0, "null", ")" 1.0)
+  (7, 6, 7, <25:27>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (86, 0, 1, <0:6>, 1, "Indian", 0, "null")
+  (93, 0, 1, <0:6>, 1, "indian", 0, "null")
+  (98, 0, 1, <0:6>, 1, "indian", 0, "null")
+  (67, 1, 2, <7:10>, 1, "Oil", 0, "null")
+  (87, 1, 2, <7:10>, 1, "Oil", 0, "null", "NNP" 1.0)
+  (90, 1, 2, <7:10>, 1, "oil", 0, "null")
+  (94, 1, 2, <7:10>, 1, "oil", 0, "null")
+  (69, 2, 3, <11:16>, 1, "Corp.", 0, "null")
+  (88, 2, 3, <11:16>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (91, 2, 3, <11:16>, 1, "corp.", 0, "null")
+  (95, 2, 3, <11:16>, 1, "corp.", 0, "null")
+  (73, 3, 4, <17:24>, 1, "(India)", 0, "null")
+  (89, 3, 4, <17:24>, 1, "(India)", 0, "null", "NNP" 1.0)
+  (92, 3, 4, <17:24>, 1, "(india)", 0, "null")
+  (96, 3, 4, <17:24>, 1, "(india)", 0, "null")
+  (81, 4, 5, <25:27>, 1, "–", 0, "null")
+  (97, 4, 5, <25:27>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (1069 NP_NB-FRG_C 1.1432 0 5
+  (1068 HDN-N_PRNTH_C 1.1432 0 5
+   (1067 ^NP-HDN_CPD_C -0.859279 0 3
+    (1066 HDN_BNP-PN_C -1.67827 0 2
+     (1065 NP-HDN_TTL-CPD_C -0.98398 0 2
+      (1039 N_SG_ILR -1.50538 0 1
+       (104 indian_n1@n_-_c-nocnh_le 0 0 1
+        ("indian" 93
+         "token [ +CARG \"Indian\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"indian\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92498329999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (106 generic_proper_ne@n_-_pn-gen_le 0.234774 1 2
+       ("Oil" 67
+        "token [ +CARG #1=\"Oil\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (1021 ^N_SG_ILR 0.538589 2 3
+     (119 corp_abb_n1@n_-_c_le 0.478912 2 3
+      ("corp." 91
+       "token [ +CARG \"Corp.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1017 HD-PCT_C 2.29119 3 5
+    (1016 ^W_LPAREN_PLR 0.26591 3 4
+     (1015 W_RPAREN_PLR 0.225132 3 4
+      (1014 N_SG_ILR -0.729962 3 4
+       (136 india_n1@n_-_pn_le 0 3 4
+        ("(india)" 92
+         "token [ +CARG \"India\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(india)\" +FROM \"17\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"18\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (143 s_dbl_dash_pct@pt_-_s-dash_le 1.48236 4 5
+     ("–" 81
+      "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (N (N (NP (N (N (N "indian")) (N "Oil"))) (N (N "corp.")))
+  (N (N (N (N (N "(india)")))) (PNCT "–"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:27>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:27>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ parenthetical<0:27>
+            LBL: h8
+            ARG0: i10
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<17:27>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<0:10>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x14
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:6>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ _indian_n_1<0:6>
+            LBL: h25
+            ARG0: x20 ]
+          [ named<7:10>
+            LBL: h19
+            ARG0: x14
+            CARG: "Oil" ]
+          [ _corporation_n_1<11:16>
+            LBL: h8
+            ARG0: x4 ]
+          [ named<17:24>
+            LBL: h26
+            ARG0: x9
+            CARG: "India" ] >
+   HCONS: < h23 QEQ h25 h17 QEQ h19 h12 QEQ h26 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:27>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:27>[BV x4]
+ i10:parenthetical<0:27>{i}[ARG1 x4, ARG2 x9]
+ _2:udef_q<17:27>[BV x9]
+ e15:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x14]
+ _3:proper_q<0:10>[BV x14]
+ e21:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14, ARG2 x20]
+ _4:udef_q<0:6>[BV x20]
+ x20:_indian_n_1<0:6>{x PERS 3, NUM sg, IND +}[]
+ x14:named<7:10>("Oil"){x PERS 3, NUM sg, IND +}[]
+ x4:_corporation_n_1<11:16>{x PERS 3, NUM sg, IND +}[]
+ x9:named<17:24>("India"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:27> ARG _corporation_n_1<11:16>  
+  udef_q<0:27> BV _corporation_n_1<11:16>  
+  parenthetical<0:27> ARG1 _corporation_n_1<11:16>  
+  parenthetical<0:27> ARG2 named<17:24>(India)  
+  udef_q<17:27> BV named<17:24>(India)  
+  compound<0:16> ARG1 _corporation_n_1<11:16>  
+  compound<0:16> ARG2 named<7:10>(Oil)  
+  proper_q<0:10> BV named<7:10>(Oil)  
+  compound<0:10> ARG1 named<7:10>(Oil)  
+  compound<0:10> ARG2 _indian_n_1<0:6>  
+  udef_q<0:6> BV _indian_n_1<0:6>  
+  unknown<0:27> SF prop-or-ques  
+  unknown<0:27> TENSE untensed  
+  unknown<0:27> MOOD indicative  
+  unknown<0:27> PROG -  
+  unknown<0:27> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  _indian_n_1<0:6> PERS 3  
+  _indian_n_1<0:6> NUM sg  
+  _indian_n_1<0:6> IND +  
+  named<7:10>(Oil) PERS 3  
+  named<7:10>(Oil) NUM sg  
+  named<7:10>(Oil) IND +  
+  _corporation_n_1<11:16> PERS 3  
+  _corporation_n_1<11:16> NUM sg  
+  _corporation_n_1<11:16> IND +  
+  named<17:24>(India) PERS 3  
+  named<17:24>(India) NUM sg  
+  named<17:24>(India) IND +  
+}
+

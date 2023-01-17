@@ -1,0 +1,278 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:13 h)).
+;;;
+
+[22132004] (1 of 1) {1} `Dow Jones is the publisher of The Wall Street Journal.'
+
+[22132004:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Dow", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:16>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <17:26>, 1, "publisher", 0, "null", "NN" 1.0)
+  (6, 5, 6, <27:29>, 1, "of", 0, "null", "IN" 1.0)
+  (7, 6, 7, <30:33>, 1, "The", 0, "null", "DT" 1.0)
+  (8, 7, 8, <34:38>, 1, "Wall", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <39:45>, 1, "Street", 0, "null", "NNP" 1.0)
+  (10, 9, 10, <46:53>, 1, "Journal", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <53:54>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (122, 0, 1, <0:3>, 1, "Dow", 0, "null")
+  (133, 0, 1, <0:3>, 1, "dow", 0, "null")
+  (144, 0, 1, <0:3>, 1, "dow", 0, "null")
+  (100, 1, 2, <4:9>, 1, "Jones", 0, "null")
+  (123, 1, 2, <4:9>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (129, 1, 2, <4:9>, 1, "jones", 0, "null")
+  (135, 1, 2, <4:9>, 1, "jones", 0, "null")
+  (114, 2, 3, <10:12>, 1, "is", 0, "null")
+  (127, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (140, 2, 3, <10:12>, 1, "is", 0, "null")
+  (116, 3, 4, <13:16>, 1, "the", 0, "null")
+  (141, 3, 4, <13:16>, 1, "the", 0, "null")
+  (118, 4, 5, <17:26>, 1, "publisher", 0, "null")
+  (128, 4, 5, <17:26>, 1, "publisher", 0, "null", "NN" 1.0)
+  (142, 4, 5, <17:26>, 1, "publisher", 0, "null")
+  (120, 5, 6, <27:29>, 1, "of", 0, "null")
+  (143, 5, 6, <27:29>, 1, "of", 0, "null")
+  (104, 6, 7, <30:33>, 1, "The", 0, "null")
+  (132, 6, 7, <30:33>, 1, "the", 0, "null")
+  (138, 6, 7, <30:33>, 1, "the", 0, "null")
+  (101, 7, 8, <34:38>, 1, "Wall", 0, "null")
+  (124, 7, 8, <34:38>, 1, "Wall", 0, "null", "NNP" 1.0)
+  (130, 7, 8, <34:38>, 1, "wall", 0, "null")
+  (136, 7, 8, <34:38>, 1, "wall", 0, "null")
+  (102, 8, 9, <39:45>, 1, "Street", 0, "null")
+  (125, 8, 9, <39:45>, 1, "Street", 0, "null", "NNP" 1.0)
+  (131, 8, 9, <39:45>, 1, "street", 0, "null")
+  (137, 8, 9, <39:45>, 1, "street", 0, "null")
+  (106, 9, 10, <46:54>, 1, "Journal.", 0, "null")
+  (126, 9, 10, <46:54>, 1, "Journal.", 0, "null", "NNP" 1.0)
+  (134, 9, 10, <46:54>, 1, "journal.", 0, "null")
+  (139, 9, 10, <46:54>, 1, "journal.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1550 SB-HD_MC_C 19.4002 0 10
+  (1533 HDN_BNP-PN_C 2.96236 0 2
+   (1532 XP_BRCK-PR_C 2.74575 0 2
+    (1531 NP-HDN_NME-CPD_C 2.53545 0 2
+     (1529 HDN_BNP-PN_C 1.36259 0 1
+      (1528 N_SG_ILR -0.166294 0 1
+       (151 dow_n1@n_-_pn_le 0 0 1
+        ("dow" 133
+         "token [ +CARG \"Dow\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"dow\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +RB bracket_null +UW - ] ]"))))
+     (1530 ^N_SG_ILR 0.157581 1 2
+      (164 jones_n1@n_-_pn_le 0.4764 1 2
+       ("jones" 129
+        "token [ +CARG \"Jones\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"jones\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +UW - ] ]"))))))
+  (1549 ^HD-CMP_U_C 15.4208 2 10
+   (208 be_id_is@v_np_is_le 0.159389 2 3
+    ("is" 114
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1548 SP-HD_N_C 14.5066 3 10
+    (304 the_1@d_-_the_le 0.137426 3 4
+     ("the" 116
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1547 ^HD-CMP_U_C 12.43 4 10
+     (1534 ^N_SG_ILR 0.864115 4 5
+      (329 publisher_n1@n_pp_c-of_le 0 4 5
+       ("publisher" 118
+        "token [ +CARG #1=\"publisher\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1546 HD-CMP_U_C 10.1328 5 10
+      (368 of_prtcl@p_np_ptcl-of_le 1.04356 5 6
+       ("of" 120
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1545 SP-HD_N_C 8.30083 6 10
+       (458 the_1@d_-_the_le 1.07131 6 7
+        ("the" 132
+         "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"the\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1544 ^XP_BRCK-PR_C 6.68845 7 10
+        (1543 NP-HDN_NME-CPD_C 6.34201 7 10
+         (1540 HDN_BNP-PN_C 4.78249 7 9
+          (1539 XP_BRCK-PR_C 4.39705 7 9
+           (1538 NP-HDN_NME-CPD_C 4.50497 7 9
+            (1536 HDN_BNP-PN_C 3.0841 7 8
+             (1535 N_SG_ILR 1.55521 7 8
+              (487 wall_n1@n_-_pn_le -0.148142 7 8
+               ("wall" 130
+                "token [ +CARG \"Wall\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"wall\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] ] +RB bracket_null +UW - ] ]"))))
+            (1537 ^N_SG_ILR 0.405595 8 9
+             (493 generic_proper_ne@n_-_pn-gen_le 0.272509 8 9
+              ("Street" 102
+               "token [ +CARG #1=\"Street\" +CLASS proper_ne +FORM #1 +FROM \"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +UW + ] ]"))))))
+         (1542 ^W_PERIOD_PLR 0.956001 9 10
+          (1541 N_SG_ILR 0.466069 9 10
+           (497 generic_proper_ne@n_-_pn-gen_le 0 9 10
+            ("Journal." 106
+             "token [ +CARG \"Journal\" +CLASS proper_ne +FORM \"Journal.\" +FROM \"46\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +UW + ] ]")))))))))))))
+
+(S (NP (N (N (NP (N (N "dow"))) (N (N "jones")))))
+ (VP (V "is")
+  (NP (DET "the")
+   (N (N (N "publisher"))
+    (PP (P "of")
+     (NP (DET "the")
+      (N
+       (N (NP (N (N (NP (N (N "wall"))) (N (N "Street")))))
+        (N (N (N "Journal.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:3>
+            LBL: h14
+            ARG0: x9
+            CARG: "Dow" ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Jones" ]
+          [ _be_v_id<10:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<13:16>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _publisher_n_1<17:26>
+            LBL: h19
+            ARG0: x15
+            ARG1: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<30:33>
+            LBL: h21
+            ARG0: x20
+            RSTR: h23
+            BODY: h22 ]
+          [ compound<34:54>
+            LBL: h24
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<34:45>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ compound<34:45>
+            LBL: h30
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x25
+            ARG2: x31 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<34:38>
+            LBL: h33
+            ARG0: x31
+            RSTR: h34
+            BODY: h35 ]
+          [ named<34:38>
+            LBL: h36
+            ARG0: x31
+            CARG: "Wall" ]
+          [ named<39:45>
+            LBL: h30
+            ARG0: x25
+            CARG: "Street" ]
+          [ named<46:54>
+            LBL: h24
+            ARG0: x20
+            CARG: "Journal" ] >
+   HCONS: < h34 QEQ h36 h28 QEQ h30 h23 QEQ h24 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:3>[BV x9]
+ x9:named<0:3>("Dow"){x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Jones"){x PERS 3, NUM sg, IND +}[]
+ e3:_be_v_id<10:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_the_q<13:16>[BV x15]
+ x15:_publisher_n_1<17:26>{x PERS 3, NUM sg, IND +}[ARG1 x20]
+ _4:_the_q<30:33>[BV x20]
+ e26:compound<34:54>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x25]
+ _5:proper_q<34:45>[BV x25]
+ e32:compound<34:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x25, ARG2 x31]
+ _6:proper_q<34:38>[BV x31]
+ x31:named<34:38>("Wall"){x PERS 3, NUM sg, IND +}[]
+ x25:named<39:45>("Street"){x PERS 3, NUM sg, IND +}[]
+ x20:named<46:54>("Journal"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Jones)  
+  compound<0:9> ARG1 named<4:9>(Jones)  
+  compound<0:9> ARG2 named<0:3>(Dow)  
+  proper_q<0:3> BV named<0:3>(Dow)  
+  _be_v_id<10:12> ARG1 named<4:9>(Jones)  
+  _be_v_id<10:12> ARG2 _publisher_n_1<17:26>  
+  _the_q<13:16> BV _publisher_n_1<17:26>  
+  _publisher_n_1<17:26> ARG1 named<46:54>(Journal)  
+  _the_q<30:33> BV named<46:54>(Journal)  
+  compound<34:54> ARG1 named<46:54>(Journal)  
+  compound<34:54> ARG2 named<39:45>(Street)  
+  proper_q<34:45> BV named<39:45>(Street)  
+  compound<34:45> ARG1 named<39:45>(Street)  
+  compound<34:45> ARG2 named<34:38>(Wall)  
+  proper_q<34:38> BV named<34:38>(Wall)  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:3>(Dow) PERS 3  
+  named<0:3>(Dow) NUM sg  
+  named<0:3>(Dow) IND +  
+  named<4:9>(Jones) PERS 3  
+  named<4:9>(Jones) NUM sg  
+  named<4:9>(Jones) IND +  
+  _be_v_id<10:12> SF prop  
+  _be_v_id<10:12> TENSE pres  
+  _be_v_id<10:12> MOOD indicative  
+  _be_v_id<10:12> PROG -  
+  _be_v_id<10:12> PERF -  
+  _publisher_n_1<17:26> PERS 3  
+  _publisher_n_1<17:26> NUM sg  
+  _publisher_n_1<17:26> IND +  
+  compound<34:54> SF prop  
+  compound<34:54> TENSE untensed  
+  compound<34:54> MOOD indicative  
+  compound<34:54> PROG -  
+  compound<34:54> PERF -  
+  compound<34:45> SF prop  
+  compound<34:45> TENSE untensed  
+  compound<34:45> MOOD indicative  
+  compound<34:45> PROG -  
+  compound<34:45> PERF -  
+  named<34:38>(Wall) PERS 3  
+  named<34:38>(Wall) NUM sg  
+  named<34:38>(Wall) IND +  
+  named<39:45>(Street) PERS 3  
+  named<39:45>(Street) NUM sg  
+  named<39:45>(Street) IND +  
+  named<46:54>(Journal) PERS 3  
+  named<46:54>(Journal) NUM sg  
+  named<46:54>(Journal) IND +  
+}
+

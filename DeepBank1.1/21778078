@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778078] (1 of 1) {1} `I'm just numb.'
+
+[21778078:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <1:3>, 1, "’m", 0, "null", "VBP" 0.7979 "NN" 0.1047 "VB" 0.0693 "RB" 0.0187 "JJ" 0.0094)
+  (3, 2, 3, <4:8>, 1, "just", 0, "null", "RB" 1.0)
+  (4, 3, 4, <9:13>, 1, "numb", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:1>, 1, "I", 0, "null")
+  (69, 0, 1, <0:1>, 1, "i", 0, "null")
+  (70, 0, 1, <0:1>, 1, "i", 0, "null")
+  (63, 1, 2, <1:3>, 1, "’m", 0, "null")
+  (65, 1, 2, <1:3>, 1, "’m", 0, "null", "VBP" 0.7979)
+  (66, 1, 2, <1:3>, 1, "’m", 0, "null", "NN" 0.1047)
+  (73, 1, 2, <1:3>, 1, "’m", 0, "null")
+  (60, 2, 3, <4:8>, 1, "just", 0, "null")
+  (67, 2, 3, <4:8>, 1, "just", 0, "null", "RB" 1.0)
+  (71, 2, 3, <4:8>, 1, "just", 0, "null")
+  (62, 3, 4, <9:14>, 1, "numb.", 0, "null")
+  (68, 3, 4, <9:14>, 1, "numb.", 0, "null", "JJ" 1.0)
+  (72, 3, 4, <9:14>, 1, "numb.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (388 SB-HD_MC_C 5.03751 0 4
+  (384 HDN_BNP-QNT_C 1.98216 0 1
+   (80 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 69
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (387 ^HD-CMP_U_C 1.78601 1 4
+   (109 be_c_am_cx_3@v_prd_am-cx_le 0.708436 1 2
+    ("’m" 63
+     "token [ +CARG #1=\"’m\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"1\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.79793440000000004\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (386 SP-HD_HC_C 0.716869 2 4
+    (115 just_deg@av_-_dg-jomv_le 0.16083 2 3
+     ("just" 60
+      "token [ +CARG #1=\"just\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (385 ^W_PERIOD_PLR 0.396613 3 4
+     (124 numb_a1@aj_-_i_le 0 3 4
+      ("numb." 62
+       "token [ +CARG \"numb\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"numb.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "i")) (VP (V "’m") (AP (ADV "just") (AP (AP "numb.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _just_x_deg<4:8>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _numb_a_1<9:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e9:_just_x_deg<4:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_numb_a_1<9:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  _just_x_deg<4:8> ARG1 _numb_a_1<9:14>  
+  _numb_a_1<9:14> ARG1 pron<0:1>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  _just_x_deg<4:8> SF prop  
+  _just_x_deg<4:8> TENSE untensed  
+  _just_x_deg<4:8> MOOD indicative  
+  _just_x_deg<4:8> PROG -  
+  _just_x_deg<4:8> PERF -  
+  _numb_a_1<9:14> SF prop  
+  _numb_a_1<9:14> TENSE pres  
+  _numb_a_1<9:14> MOOD indicative  
+  _numb_a_1<9:14> PROG -  
+  _numb_a_1<9:14> PERF -  
+}
+

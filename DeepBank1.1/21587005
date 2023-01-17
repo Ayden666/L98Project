@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:45 h)).
+;;;
+
+[21587005] (1 of 1) {1} `The cafeteria remains closed.'
+
+[21587005:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:13>, 1, "cafeteria", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:21>, 1, "remains", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <22:28>, 1, "closed", 0, "null", "VBN" 0.823 "JJ" 0.1045 "VBD" 0.0724)
+  (5, 4, 5, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:3>, 1, "the", 0, "null")
+  (67, 0, 1, <0:3>, 1, "the", 0, "null")
+  (54, 1, 2, <4:13>, 1, "cafeteria", 0, "null")
+  (61, 1, 2, <4:13>, 1, "cafeteria", 0, "null", "NN" 1.0)
+  (64, 1, 2, <4:13>, 1, "cafeteria", 0, "null")
+  (56, 2, 3, <14:21>, 1, "remains", 0, "null")
+  (62, 2, 3, <14:21>, 1, "remains", 0, "null", "VBZ" 1.0)
+  (65, 2, 3, <14:21>, 1, "remains", 0, "null")
+  (57, 3, 4, <22:29>, 1, "closed.", 0, "null")
+  (59, 3, 4, <22:29>, 1, "closed.", 0, "null", "VBN" 0.823)
+  (60, 3, 4, <22:29>, 1, "closed.", 0, "null", "JJ" 0.1045)
+  (66, 3, 4, <22:29>, 1, "closed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1261 SB-HD_MC_C 6.22454 0 4
+  (1257 SP-HD_N_C 2.14135 0 2
+   (80 the_1@d_-_the_le 0.244361 0 1
+    ("the" 63
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1256 ^N_SG_ILR 0.055293 1 2
+    (105 cafeteria_n1@n_-_c_le 0 1 2
+     ("cafeteria" 54
+      "token [ +CARG #1=\"cafeteria\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1260 ^HD-CMP_U_C 2.12868 2 4
+   (1258 ^V_3S-FIN_OLR 0.9505 2 3
+    (121 remain_v4@v_prd_seq_le 1.42362 2 3
+     ("remains" 56
+      "token [ +CARG #1=\"remains\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1259 W_PERIOD_PLR 0.612486 3 4
+    (295 closed_isect@aj_-_i_le 0 3 4
+     ("closed." 57
+      "token [ +CARG \"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"closed.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82304540000000004\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "the") (N (N "cafeteria")))
+ (VP (V (V "remains")) (AP (AP "closed."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _cafeteria_n_1<4:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _remain_v_1<14:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h9 ]
+          [ _closed_a_1<22:29>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h9 QEQ h10 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_cafeteria_n_1<4:13>{x PERS 3, NUM sg, IND +}[]
+ e3:_remain_v_1-fn.State_continue<14:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2-fn.Theme e11]
+ e11:_closed_a_1<22:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _cafeteria_n_1<4:13>  
+  _remain_v_1<14:21> ARG1 _cafeteria_n_1<4:13>  
+  _remain_v_1<14:21> ARG2 _closed_a_1<22:29>  
+  _closed_a_1<22:29> ARG1 _cafeteria_n_1<4:13>  
+  _cafeteria_n_1<4:13> PERS 3  
+  _cafeteria_n_1<4:13> NUM sg  
+  _cafeteria_n_1<4:13> IND +  
+  _remain_v_1<14:21> SF prop  
+  _remain_v_1<14:21> TENSE pres  
+  _remain_v_1<14:21> MOOD indicative  
+  _remain_v_1<14:21> PROG -  
+  _remain_v_1<14:21> PERF -  
+  _closed_a_1<22:29> SF prop  
+  _closed_a_1<22:29> TENSE untensed  
+  _closed_a_1<22:29> MOOD indicative  
+  _closed_a_1<22:29> PROG -  
+  _closed_a_1<22:29> PERF -  
+}
+

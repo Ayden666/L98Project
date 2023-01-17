@@ -1,0 +1,171 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:27 h)).
+;;;
+
+[21755023] (1 of 1) {1} `Bonds: Excludes bond funds.'
+
+[21755023:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Bonds", 0, "null", "NNS" 0.7816 "NNPS" 0.1898 "NNP" 0.0286)
+  (2, 1, 2, <5:6>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <7:15>, 1, "Excludes", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <16:20>, 1, "bond", 0, "null", "NN" 1.0)
+  (5, 4, 5, <21:26>, 1, "funds", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:5>, 1, "Bonds", 0, "null", "NNS" 0.7816)
+  (73, 0, 1, <0:5>, 1, "Bonds", 0, "null", "NNPS" 0.1898)
+  (78, 0, 1, <0:5>, 1, "bonds", 0, "null")
+  (83, 0, 1, <0:5>, 1, "bonds", 0, "null")
+  (67, 1, 2, <5:6>, 1, ":", 0, "null")
+  (81, 1, 2, <5:6>, 1, ":", 0, "null")
+  (56, 2, 3, <7:15>, 1, "Excludes", 0, "null")
+  (74, 2, 3, <7:15>, 1, "Excludes", 0, "null", "NNS" 1.0)
+  (77, 2, 3, <7:15>, 1, "excludes", 0, "null")
+  (79, 2, 3, <7:15>, 1, "excludes", 0, "null")
+  (65, 3, 4, <16:20>, 1, "bond", 0, "null")
+  (75, 3, 4, <16:20>, 1, "bond", 0, "null", "NN" 1.0)
+  (80, 3, 4, <16:20>, 1, "bond", 0, "null")
+  (69, 4, 5, <21:27>, 1, "funds.", 0, "null")
+  (76, 4, 5, <21:27>, 1, "funds.", 0, "null", "NNS" 1.0)
+  (82, 4, 5, <21:27>, 1, "funds.", 0, "null")
+>
+
+(ROOT_INFFRAG
+ (755 VP_FIN-FRG_C 2.04319 0 5
+  (754 V-V_CRD-FIN-NCJ_C 2.08149 0 5
+   (749 HD-AJ_INT-UNSL_C 1.09496 0 2
+    (748 ^HD_OPTCMP_C 0.507226 0 1
+     (747 V_3S-FIN_OLR 0.163598 0 1
+      (99 bond_v1@v_np*_le 0.614587 0 1
+       ("bonds" 78
+        "token [ +CARG \"Bonds\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"bonds\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.78161659999999999\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (112 colon_namely_pp@pp_-_i-cln_le 0.338554 1 2
+     (":" 67
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (753 ^HD-CMP_U_C 0.977336 2 5
+    (750 ^V_3S-FIN_OLR 0.036516 2 3
+     (152 exclude_v1@v_np_le 0 2 3
+      ("excludes" 77
+       "token [ +CARG \"Excludes\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"excludes\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (752 HDN_BNP_C 0.654968 3 5
+     (751 N-HDN_CPD_C 0.8468 3 5
+      (156 bond_n2@n_-_c_le 0.335577 3 4
+       ("bond" 65
+        "token [ +CARG #1=\"bond\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (742 ^W_PERIOD_PLR 0.164979 4 5
+       (741 N_PL_OLR 0.634532 4 5
+        (159 fund_n1@n_-_c_le 0 4 5
+         ("funds." 69
+          "token [ +CARG \"funds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"funds.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP
+ (VP (VP (VP (V (V "bonds"))) (PP ":"))
+  (VP (V (V "excludes")) (NP (N (N "bond") (N (N (N "funds."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:27>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h7
+            L-INDEX: e6 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h4
+            R-INDEX: e5 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _bond_v_1<0:5>
+            LBL: h7
+            ARG0: e6
+            ARG1: i9
+            ARG2: p8 ]
+          [ _colon_p_namely<5:6>
+            LBL: h7
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e6 ]
+          [ _exclude_v_1<7:15>
+            LBL: h4
+            ARG0: e5
+            ARG1: i9
+            ARG2: x11 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<16:27>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<16:27>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x16 [ x IND: + ] ]
+          [ udef_q<16:20>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _bond_n_1<16:20>
+            LBL: h21
+            ARG0: x16 ]
+          [ _fund_n_1<21:27>
+            LBL: h15
+            ARG0: x11 ] >
+   HCONS: < h19 QEQ h21 h13 QEQ h15 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:27>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[L-HNDL e6, L-INDEX e6, R-HNDL e5, R-INDEX e5]
+ e6:_bond_v_1<0:5>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[]
+ e10:_colon_p_namely<5:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e6]
+ e5:_exclude_v_1<7:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x11]
+ _1:udef_q<16:27>[BV x11]
+ e17:compound<16:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x16]
+ _2:udef_q<16:20>[BV x16]
+ x16:_bond_n_1<16:20>{x IND +}[]
+ x11:_fund_n_1<21:27>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  implicit_conj<0:27> L-HNDL _bond_v_1<0:5>  
+  implicit_conj<0:27> L-INDEX _bond_v_1<0:5>  
+  implicit_conj<0:27> R-HNDL _exclude_v_1<7:15>  
+  implicit_conj<0:27> R-INDEX _exclude_v_1<7:15>  
+  _colon_p_namely<5:6> ARG1 _bond_v_1<0:5>  
+  _exclude_v_1<7:15> ARG2 _fund_n_1<21:27>  
+  udef_q<16:27> BV _fund_n_1<21:27>  
+  compound<16:27> ARG1 _fund_n_1<21:27>  
+  compound<16:27> ARG2 _bond_n_1<16:20>  
+  udef_q<16:20> BV _bond_n_1<16:20>  
+  implicit_conj<0:27> SF prop  
+  implicit_conj<0:27> TENSE pres  
+  implicit_conj<0:27> MOOD indicative  
+  implicit_conj<0:27> PROG -  
+  implicit_conj<0:27> PERF -  
+  _bond_v_1<0:5> SF prop  
+  _bond_v_1<0:5> TENSE pres  
+  _bond_v_1<0:5> MOOD indicative  
+  _bond_v_1<0:5> PROG -  
+  _bond_v_1<0:5> PERF -  
+  _colon_p_namely<5:6> SF prop  
+  _colon_p_namely<5:6> TENSE untensed  
+  _colon_p_namely<5:6> MOOD indicative  
+  _colon_p_namely<5:6> PROG -  
+  _colon_p_namely<5:6> PERF -  
+  _exclude_v_1<7:15> SF prop  
+  _exclude_v_1<7:15> TENSE pres  
+  _exclude_v_1<7:15> MOOD indicative  
+  _exclude_v_1<7:15> PROG -  
+  _exclude_v_1<7:15> PERF -  
+  compound<16:27> SF prop  
+  compound<16:27> TENSE untensed  
+  compound<16:27> MOOD indicative  
+  compound<16:27> PROG -  
+  compound<16:27> PERF -  
+  _bond_n_1<16:20> IND +  
+  _fund_n_1<21:27> PERS 3  
+  _fund_n_1<21:27> NUM pl  
+  _fund_n_1<21:27> IND +  
+}
+

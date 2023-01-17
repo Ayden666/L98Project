@@ -1,0 +1,140 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146136] (1 of 1) {1} `Everyone around me lives well.'
+
+[21146136:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Everyone", 0, "null", "NN" 1.0)
+  (2, 1, 2, <9:15>, 1, "around", 0, "null", "IN" 1.0)
+  (3, 2, 3, <16:18>, 1, "me", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <19:24>, 1, "lives", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <25:29>, 1, "well", 0, "null", "RB" 0.9652 "UH" 0.0348)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:8>, 1, "Everyone", 0, "null")
+  (71, 0, 1, <0:8>, 1, "everyone", 0, "null")
+  (76, 0, 1, <0:8>, 1, "everyone", 0, "null")
+  (61, 1, 2, <9:15>, 1, "around", 0, "null")
+  (72, 1, 2, <9:15>, 1, "around", 0, "null")
+  (63, 2, 3, <16:18>, 1, "me", 0, "null")
+  (73, 2, 3, <16:18>, 1, "me", 0, "null")
+  (65, 3, 4, <19:24>, 1, "lives", 0, "null")
+  (70, 3, 4, <19:24>, 1, "lives", 0, "null", "VBZ" 1.0)
+  (74, 3, 4, <19:24>, 1, "lives", 0, "null")
+  (66, 4, 5, <25:30>, 1, "well.", 0, "null")
+  (69, 4, 5, <25:30>, 1, "well.", 0, "null", "RB" 0.9652)
+  (75, 4, 5, <25:30>, 1, "well.", 0, "null")
+>
+
+(ROOT_STRICT
+ (525 SB-HD_MC_C 0.70141 0 5
+  (524 HDN_BNP-PN_C -1.17319 0 3
+   (523 HDN-AJ_REDREL_C -1.81061 0 3
+    (522 ^N_SG_ILR -0.748959 0 1
+     (77 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Everyone" 68
+       "token [ +CARG #1=\"Everyone\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (514 HD-CMP_U_C 0.0372105 1 3
+     (80 around@p_np_i_le 0.329924 1 2
+      ("around" 61
+       "token [ +CARG #1=\"around\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (513 HDN_BNP-QNT_C -0.373818 2 3
+      (98 me@n_-_pr-me_le -0.186909 2 3
+       ("me" 63
+        "token [ +CARG #1=\"me\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (520 ^HD-AJ_INT-UNSL_C 1.3871 3 5
+   (518 ^HD_OPTCMP_C 0.917855 3 4
+    (517 V_3S-FIN_OLR 0.50054 3 4
+     (120 live_v2@v_pp*_dir_le 0 3 4
+      ("lives" 65
+       "token [ +CARG #1=\"lives\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (519 W_PERIOD_PLR -0.0409761 4 5
+    (149 well@av_-_i-vp-po_le -0.100884 4 5
+     ("well." 66
+      "token [ +CARG \"well\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"well.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96515399999999996\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N (N "Everyone")) (PP (P "around") (NP (NP "me")))))
+ (VP (VP (V (V "lives"))) (ADV (ADV "well."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:18>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Everyone" ]
+          [ _around_p<9:15>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pron<16:18>
+            LBL: h11
+            ARG0: x10 ]
+          [ pronoun_q<16:18>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _live_v_1<19:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _well_a_1<25:30>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h13 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:18>[BV x6]
+ x6:named<0:8>("Everyone"){x PERS 3, NUM sg, IND +}[]
+ e9:_around_p<9:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ x10:pron<16:18>{x PERS 1, NUM sg, PT std}[]
+ _2:pronoun_q<16:18>[BV x10]
+ e3:_live_v_1<19:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_well_a_1<25:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:18> BV named<0:8>(Everyone)  
+  _around_p<9:15> ARG1 named<0:8>(Everyone)  
+  _around_p<9:15> ARG2 pron<16:18>  
+  pronoun_q<16:18> BV pron<16:18>  
+  _live_v_1<19:24> ARG1 named<0:8>(Everyone)  
+  _well_a_1<25:30> ARG1 _live_v_1<19:24>  
+  named<0:8>(Everyone) PERS 3  
+  named<0:8>(Everyone) NUM sg  
+  named<0:8>(Everyone) IND +  
+  _around_p<9:15> SF prop  
+  _around_p<9:15> TENSE untensed  
+  _around_p<9:15> MOOD indicative  
+  _around_p<9:15> PROG -  
+  _around_p<9:15> PERF -  
+  pron<16:18> PERS 1  
+  pron<16:18> NUM sg  
+  pron<16:18> PT std  
+  _live_v_1<19:24> SF prop  
+  _live_v_1<19:24> TENSE pres  
+  _live_v_1<19:24> MOOD indicative  
+  _live_v_1<19:24> PROG -  
+  _live_v_1<19:24> PERF -  
+  _well_a_1<25:30> SF prop  
+  _well_a_1<25:30> TENSE untensed  
+  _well_a_1<25:30> MOOD indicative  
+  _well_a_1<25:30> PROG -  
+  _well_a_1<25:30> PERF -  
+}
+

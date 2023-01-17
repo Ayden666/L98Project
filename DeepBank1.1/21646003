@@ -1,0 +1,253 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:27 h)).
+;;;
+
+[21646003] (1 of 1) {1} `Retail sales are plummeting, while consumer prices still are rising.'
+
+[21646003:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Retail", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <7:12>, 1, "sales", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <17:27>, 1, "plummeting", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <27:28>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <29:34>, 1, "while", 0, "null", "IN" 0.9864 "NN" 0.0136)
+  (7, 6, 7, <35:43>, 1, "consumer", 0, "null", "NN" 1.0)
+  (8, 7, 8, <44:50>, 1, "prices", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <51:56>, 1, "still", 0, "null", "RB" 1.0)
+  (10, 9, 10, <57:60>, 1, "are", 0, "null", "VBP" 1.0)
+  (11, 10, 11, <61:67>, 1, "rising", 0, "null", "VBG" 0.9898 "JJ" 0.0102)
+  (12, 11, 12, <67:68>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (136, 0, 1, <0:6>, 1, "Retail", 0, "null", "JJ" 1.0)
+  (144, 0, 1, <0:6>, 1, "retail", 0, "null")
+  (154, 0, 1, <0:6>, 1, "retail", 0, "null")
+  (118, 1, 2, <7:12>, 1, "sales", 0, "null")
+  (137, 1, 2, <7:12>, 1, "sales", 0, "null", "NNS" 1.0)
+  (145, 1, 2, <7:12>, 1, "sales", 0, "null")
+  (120, 2, 3, <13:16>, 1, "are", 0, "null")
+  (138, 2, 3, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (146, 2, 3, <13:16>, 1, "are", 0, "null")
+  (130, 3, 4, <17:28>, 1, "plummeting,", 0, "null")
+  (143, 3, 4, <17:28>, 1, "plummeting,", 0, "null", "VBG" 1.0)
+  (151, 3, 4, <17:28>, 1, "plummeting,", 0, "null")
+  (131, 4, 5, <29:34>, 1, "while", 0, "null")
+  (152, 4, 5, <29:34>, 1, "while", 0, "null")
+  (122, 5, 6, <35:43>, 1, "consumer", 0, "null")
+  (139, 5, 6, <35:43>, 1, "consumer", 0, "null", "NN" 1.0)
+  (147, 5, 6, <35:43>, 1, "consumer", 0, "null")
+  (124, 6, 7, <44:50>, 1, "prices", 0, "null")
+  (140, 6, 7, <44:50>, 1, "prices", 0, "null", "NNS" 1.0)
+  (148, 6, 7, <44:50>, 1, "prices", 0, "null")
+  (126, 7, 8, <51:56>, 1, "still", 0, "null")
+  (141, 7, 8, <51:56>, 1, "still", 0, "null", "RB" 1.0)
+  (149, 7, 8, <51:56>, 1, "still", 0, "null")
+  (128, 8, 9, <57:60>, 1, "are", 0, "null")
+  (142, 8, 9, <57:60>, 1, "are", 0, "null", "VBP" 1.0)
+  (150, 8, 9, <57:60>, 1, "are", 0, "null")
+  (133, 9, 10, <61:68>, 1, "rising.", 0, "null")
+  (135, 9, 10, <61:68>, 1, "rising.", 0, "null", "VBG" 0.9898)
+  (153, 9, 10, <61:68>, 1, "rising.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2110 HD-AJ_SCP-PR_C 14.9664 0 10
+  (2098 ^SB-HD_MC_C 4.38396 0 4
+   (2094 HDN_BNP_C 3.09411 0 2
+    (2093 N-HDN_CPD_C 2.22317 0 2
+     (156 retail_n1@n_-_m_le -0.296209 0 1
+      ("retail" 144
+       "token [ +CARG \"Retail\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"retail\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2092 ^HDN_OPTCMP_C 1.13169 1 2
+      (2091 N_PL_OLR 0.891033 1 2
+       (164 sale_n1@n_pp_mc-of_le 0.418011 1 2
+        ("sales" 118
+         "token [ +CARG #1=\"sales\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (2097 ^HD-CMP_U_C 0.240996 2 4
+    (202 be_c_are@v_prd_are_le 1.30737 2 3
+     ("are" 120
+      "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2096 W_COMMA_PLR -1.0775 3 4
+     (2095 V_PRP_OLR -0.858183 3 4
+      (209 plummet_v1@v_-_le 0 3 4
+       ("plummeting," 130
+        "token [ +CARG \"plummeting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"plummeting,\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (2109 HD-CMP_U_C 9.48065 4 10
+   (239 while@p_cp_s_le 1.10776 4 5
+    ("while" 131
+     "token [ +CARG #1=\"while\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98643760000000003\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2108 SB-HD_NMC_C 6.00246 5 10
+    (2102 HDN_BNP_C 2.05639 5 7
+     (2101 N-HDN_CPD_C 2.25622 5 7
+      (2099 HDN_OPTCMP_C 1.13851 5 6
+       (251 consumer_n1@n_pp_c-of_le 1.20978 5 6
+        ("consumer" 122
+         "token [ +CARG #1=\"consumer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (2100 ^N_PL_OLR 1.04317 6 7
+       (253 price_n1@n_-_mc-ed_le 0.382246 6 7
+        ("prices" 124
+         "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (2107 ^AJ-HD_INT_C 3.99521 7 10
+     (269 still_adv1@av_-_i-vp-x_le 1.84245 7 8
+      ("still" 126
+       "token [ +CARG #1=\"still\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"51\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"56\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2106 ^HD-CMP_U_C 0.84141 8 10
+      (278 be_c_are@v_prd_are_le 1.19624 8 9
+       ("are" 128
+        "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"57\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"60\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2105 HD_OPTCMP_C -0.09743 9 10
+       (2104 W_PERIOD_PLR -0.750144 9 10
+        (2103 V_PRP_OLR -0.159782 9 10
+         (288 rise_v2@v_pp_unacc_le 0 9 10
+          ("rising." 133
+           "token [ +CARG \"rising\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rising.\" +FROM #1=\"61\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98981949999999996\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"68\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (S (NP (N (N "retail") (N (N (N "sales")))))
+  (VP (V "are") (VP (VP (V "plummeting,")))))
+ (PP (P "while")
+  (S (NP (N (N (N "consumer")) (N (N "prices"))))
+   (VP (ADV "still") (VP (V "are") (VP (V (V (V "rising.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _retail_n_1<0:6>
+            LBL: h14
+            ARG0: x9 ]
+          [ _sale_n_of<7:12>
+            LBL: h8
+            ARG0: x6
+            ARG1: i15 ]
+          [ _plummet_v_1<17:28>
+            LBL: h16
+            ARG0: e3
+            ARG1: x6 ]
+          [ _while_x<29:34>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h18
+            ARG2: h19 ]
+          [ udef_q<35:50>
+            LBL: h20
+            ARG0: x22 [ x PERS: 3 NUM: PL ]
+            RSTR: h21
+            BODY: h23 ]
+          [ compound<35:50>
+            LBL: h24
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x25 [ x IND: + ] ]
+          [ udef_q<35:43>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ _consumer_n_of<35:43>
+            LBL: h30
+            ARG0: x25
+            ARG1: i31 ]
+          [ _price_n_of<44:50>
+            LBL: h24
+            ARG0: x22 ]
+          [ _still_a_1<51:56>
+            LBL: h32
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e34 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ] ]
+          [ _rise_v_1<61:68>
+            LBL: h32
+            ARG0: e34
+            ARG1: x22 ] >
+   HCONS: < h28 QEQ h30 h21 QEQ h24 h19 QEQ h32 h18 QEQ h16 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e17:
+ _1:udef_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:6>[BV x9]
+ x9:_retail_n_1<0:6>{x PERS 3, NUM sg, IND -}[]
+ x6:_sale_n_of<7:12>{x PERS 3, NUM pl}[]
+ e3:_plummet_v_1-fn.Change_position_on_a_scale<17:28>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6]
+ e17:_while_x<29:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e34]
+ _3:udef_q<35:50>[BV x22]
+ e26:compound<35:50>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x25]
+ _4:udef_q<35:43>[BV x25]
+ x25:_consumer_n_of<35:43>{x IND +}[]
+ x22:_price_n_of<44:50>{x PERS 3, NUM pl}[]
+ e33:_still_a_1<51:56>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e34]
+ e34:_rise_v_1<61:68>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x22]
+}
+
+{
+  udef_q<0:12> BV _sale_n_of<7:12>  
+  compound<0:12> ARG1 _sale_n_of<7:12>  
+  compound<0:12> ARG2 _retail_n_1<0:6>  
+  udef_q<0:6> BV _retail_n_1<0:6>  
+  _plummet_v_1<17:28> ARG1 _sale_n_of<7:12>  
+  _while_x<29:34> ARG1 _plummet_v_1<17:28>  
+  _while_x<29:34> ARG2 _rise_v_1<61:68>  
+  udef_q<35:50> BV _price_n_of<44:50>  
+  compound<35:50> ARG1 _price_n_of<44:50>  
+  compound<35:50> ARG2 _consumer_n_of<35:43>  
+  udef_q<35:43> BV _consumer_n_of<35:43>  
+  _still_a_1<51:56> ARG1 _rise_v_1<61:68>  
+  _rise_v_1<61:68> ARG1 _price_n_of<44:50>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _retail_n_1<0:6> PERS 3  
+  _retail_n_1<0:6> NUM sg  
+  _retail_n_1<0:6> IND -  
+  _sale_n_of<7:12> PERS 3  
+  _sale_n_of<7:12> NUM pl  
+  _plummet_v_1<17:28> SF prop  
+  _plummet_v_1<17:28> TENSE pres  
+  _plummet_v_1<17:28> MOOD indicative  
+  _plummet_v_1<17:28> PROG +  
+  _plummet_v_1<17:28> PERF -  
+  _while_x<29:34> SF prop  
+  _while_x<29:34> TENSE untensed  
+  _while_x<29:34> MOOD indicative  
+  _while_x<29:34> PROG -  
+  _while_x<29:34> PERF -  
+  compound<35:50> SF prop  
+  compound<35:50> TENSE untensed  
+  compound<35:50> MOOD indicative  
+  compound<35:50> PROG -  
+  compound<35:50> PERF -  
+  _consumer_n_of<35:43> IND +  
+  _price_n_of<44:50> PERS 3  
+  _price_n_of<44:50> NUM pl  
+  _still_a_1<51:56> SF prop  
+  _still_a_1<51:56> TENSE untensed  
+  _still_a_1<51:56> MOOD indicative  
+  _still_a_1<51:56> PROG -  
+  _still_a_1<51:56> PERF -  
+  _rise_v_1<61:68> SF prop  
+  _rise_v_1<61:68> TENSE pres  
+  _rise_v_1<61:68> MOOD indicative  
+  _rise_v_1<61:68> PROG +  
+  _rise_v_1<61:68> PERF -  
+}
+

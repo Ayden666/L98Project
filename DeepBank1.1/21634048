@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:20 h)).
+;;;
+
+[21634048] (1 of 1) {1} `He lived with her.'
+
+[21634048:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:8>, 1, "lived", 0, "null", "VBD" 0.9687 "VBN" 0.0313)
+  (3, 2, 3, <9:13>, 1, "with", 0, "null", "IN" 1.0)
+  (4, 3, 4, <14:17>, 1, "her", 0, "null", "PRP" 0.7162 "PRP$" 0.2838)
+  (5, 4, 5, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:2>, 1, "he", 0, "null")
+  (64, 0, 1, <0:2>, 1, "he", 0, "null")
+  (55, 1, 2, <3:8>, 1, "lived", 0, "null")
+  (59, 1, 2, <3:8>, 1, "lived", 0, "null", "VBD" 0.9687)
+  (62, 1, 2, <3:8>, 1, "lived", 0, "null")
+  (54, 2, 3, <9:13>, 1, "with", 0, "null")
+  (61, 2, 3, <9:13>, 1, "with", 0, "null")
+  (57, 3, 4, <14:18>, 1, "her.", 0, "null")
+  (63, 3, 4, <14:18>, 1, "her.", 0, "null")
+>
+
+(ROOT_STRICT
+ (645 SB-HD_MC_C 4.68834 0 4
+  (638 HDN_BNP-QNT_C 1.50958 0 1
+   (65 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 60
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (644 ^HD-AJ_INT-UNSL_C 2.59925 1 4
+   (640 ^HD_OPTCMP_C 1.47389 1 2
+    (639 V_PST_OLR 0.595361 1 2
+     (111 live_v2@v_pp*_dir_le 0 1 2
+      ("lived" 55
+       "token [ +CARG #1=\"lived\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96865820000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (643 HD-CMP_U_C -0.186905 2 4
+    (247 with_p@p_np_i_le -0.61379 2 3
+     ("with" 54
+      "token [ +CARG #1=\"with\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (642 HDN_BNP-QNT_C -0.122667 3 4
+     (641 W_PERIOD_PLR 0 3 4
+      (261 her@n_-_pr-her_le 0 3 4
+       ("her." 57
+        "token [ +CARG \"her\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"her.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.71619270000000002\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "he"))
+ (VP (VP (V (V "lived"))) (PP (P "with") (NP (NP (NP "her."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _live_v_1<3:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ]
+          [ _with_p<9:13>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG GEND: F PT: STD ] ]
+          [ pron<14:18>
+            LBL: h11
+            ARG0: x10 ]
+          [ pronoun_q<14:18>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ] >
+   HCONS: < h13 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_live_v_1<3:8>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e9:_with_p<9:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ x10:pron<14:18>{x PERS 3, NUM sg, GEND f, PT std}[]
+ _2:pronoun_q<14:18>[BV x10]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _live_v_1<3:8> ARG1 pron<0:2>  
+  _with_p<9:13> ARG1 _live_v_1<3:8>  
+  _with_p<9:13> ARG2 pron<14:18>  
+  pronoun_q<14:18> BV pron<14:18>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _live_v_1<3:8> SF prop  
+  _live_v_1<3:8> TENSE past  
+  _live_v_1<3:8> MOOD indicative  
+  _live_v_1<3:8> PROG -  
+  _live_v_1<3:8> PERF -  
+  _with_p<9:13> SF prop  
+  _with_p<9:13> TENSE untensed  
+  _with_p<9:13> MOOD indicative  
+  _with_p<9:13> PROG -  
+  _with_p<9:13> PERF -  
+  pron<14:18> PERS 3  
+  pron<14:18> NUM sg  
+  pron<14:18> GEND f  
+  pron<14:18> PT std  
+}
+

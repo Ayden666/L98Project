@@ -1,0 +1,289 @@
+;;;
+;;; Redwoods export of `wsj17a';
+;;; (wsun@wsun; 23-jan-2018 (02:10 h)).
+;;;
+
+[21723026] (1 of 1) {1} `Steel shares fell back after advancing for three days.'
+
+[21723026:3] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Steel", 0, "null", "NNP" 0.9432 "NN" 0.0568)
+  (2, 1, 2, <6:12>, 1, "shares", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <13:17>, 1, "fell", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <18:22>, 1, "back", 0, "null", "RB" 0.7295 "RP" 0.2389 "JJ" 0.0172 "NN" 0.0145)
+  (5, 4, 5, <23:28>, 1, "after", 0, "null", "IN" 0.9855 "RB" 0.0145)
+  (6, 5, 6, <29:38>, 1, "advancing", 0, "null", "VBG" 1.0)
+  (7, 6, 7, <39:42>, 1, "for", 0, "null", "IN" 1.0)
+  (8, 7, 8, <43:48>, 1, "three", 0, "null", "CD" 1.0)
+  (9, 8, 9, <49:53>, 1, "days", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <53:54>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (120, 0, 1, <0:5>, 1, "Steel", 0, "null")
+  (127, 0, 1, <0:5>, 1, "steel", 0, "null")
+  (136, 0, 1, <0:5>, 1, "steel", 0, "null")
+  (103, 1, 2, <6:12>, 1, "shares", 0, "null")
+  (122, 1, 2, <6:12>, 1, "shares", 0, "null", "NNS" 1.0)
+  (128, 1, 2, <6:12>, 1, "shares", 0, "null")
+  (105, 2, 3, <13:17>, 1, "fell", 0, "null")
+  (123, 2, 3, <13:17>, 1, "fell", 0, "null", "VBD" 1.0)
+  (129, 2, 3, <13:17>, 1, "fell", 0, "null")
+  (116, 3, 4, <18:22>, 1, "back", 0, "null")
+  (121, 3, 4, <18:22>, 1, "back", 0, "null", "RB" 0.7295)
+  (134, 3, 4, <18:22>, 1, "back", 0, "null")
+  (117, 4, 5, <23:28>, 1, "after", 0, "null")
+  (135, 4, 5, <23:28>, 1, "after", 0, "null")
+  (107, 5, 6, <29:38>, 1, "advancing", 0, "null")
+  (124, 5, 6, <29:38>, 1, "advancing", 0, "null", "VBG" 1.0)
+  (130, 5, 6, <29:38>, 1, "advancing", 0, "null")
+  (109, 6, 7, <39:42>, 1, "for", 0, "null")
+  (131, 6, 7, <39:42>, 1, "for", 0, "null")
+  (111, 7, 8, <43:48>, 1, "three", 0, "null")
+  (125, 7, 8, <43:48>, 1, "three", 0, "null", "CD" 1.0)
+  (132, 7, 8, <43:48>, 1, "three", 0, "null")
+  (113, 8, 9, <49:54>, 1, "days.", 0, "null")
+  (126, 8, 9, <49:54>, 1, "days.", 0, "null", "NNS" 1.0)
+  (133, 8, 9, <49:54>, 1, "days.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3331 SB-HD_MC_C 13.8794 0 9
+  (3300 HDN_BNP_C 2.10826 0 2
+   (3299 N-HDN_CPD_C 1.48752 0 2
+    (138 steel_n1@n_-_m_le -0.66108 0 1
+     ("steel" 127
+      "token [ +CARG \"Steel\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"steel\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9431543\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3298 ^N_PL_OLR 0.96869 1 2
+     (142 share_n2@n_-_c-meas-nb_le 1.13759 1 2
+      ("shares" 103
+       "token [ +CARG #1=\"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (3330 ^HD-AJ_INT-UNSL_C 10.9311 2 9
+   (3329 ^HD-CMP_U_C 3.58587 2 4
+    (3301 ^V_PST_OLR 2.3008 2 3
+     (169 fall_v1@v_pp_unacc_le 0.574647 2 3
+      ("fell" 105
+       "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3304 NP_ADV_C -0.243315 3 4
+     (3303 HDN_BNP-QNT_C -0.0783166 3 4
+      (182 back_nom@n_-_ad-loc_le 1.62938 3 4
+       ("back" 116
+        "token [ +CARG #1=\"back\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72947700000000004\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (3317 HD-CMP_U_C 6.21135 4 9
+    (219 after_p@p_np_i_le -0.553654 4 5
+     ("after" 117
+      "token [ +CARG #1=\"after\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98554819999999999\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3316 HDN_BNP-VGER_C 4.93824 5 9
+     (3315 VP_NP-GER_C 4.97825 5 9
+      (3314 HD-AJ_INT-UNSL_C 5.14849 5 9
+       (3307 ^HD_OPTCMP_C 0.426205 5 6
+        (3306 V_PRP_OLR 0.015907 5 6
+         (232 advance_v3@v_pp*_dir_le 0 5 6
+          ("advancing" 107
+           "token [ +CARG #1=\"advancing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (3313 HD-CMP_U_C 3.67167 6 9
+        (246 for@p_np_i_le -0.733244 6 7
+         ("for" 109
+          "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (3312 HDN_BNP_C 3.77424 7 9
+         (3311 NUM-N_MNP_C 1.97821 7 9
+          (261 three@aj_-_i-crd-one_le -0.332753 7 8
+           ("three" 111
+            "token [ +CARG #1=\"three\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+          (3310 ^HDN_OPTCMP_C 0.60448 8 9
+           (3309 W_PERIOD_PLR 0.195961 8 9
+            (3308 N_PL_OLR 0 8 9
+             (281 day_n@n_pp_c-day_le 0 8 9
+              ("days." 113
+               "token [ +CARG \"days\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"days.\" +FROM #1=\"49\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))))
+
+(S (NP (N (N "steel") (N (N "shares"))))
+ (VP (VP (V (V "fell")) (PP (NP (N "back"))))
+  (PP (P "after")
+   (NP
+    (N
+     (VP (VP (V (V "advancing")))
+      (PP (P "for")
+       (NP (N (ADJ "three") (N (N (N (N "days.")))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _steel_n_1<0:5>
+            LBL: h14
+            ARG0: x9 ]
+          [ _share_n_of<6:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _fall_v_1<13:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<18:22>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ place_n<18:22>
+            LBL: h17
+            ARG0: x16 ]
+          [ def_implicit_q<18:22>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _back_p<18:22>
+            LBL: h17
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16 ]
+          [ _after_p<23:28>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<29:54>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ nominalization<29:54>
+            LBL: h27
+            ARG0: x23
+            ARG1: h28 ]
+          [ _advance_v_1<29:38>
+            LBL: h28
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i30 ]
+          [ _for_p<39:42>
+            LBL: h28
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e29
+            ARG2: x32 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<43:54>
+            LBL: h33
+            ARG0: x32
+            RSTR: h34
+            BODY: h35 ]
+          [ card<43:48>
+            LBL: h36
+            ARG0: e37 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x32
+            CARG: "3" ]
+          [ _day_n_of<49:54>
+            LBL: h36
+            ARG0: x32
+            ARG1: i38 ] >
+   HCONS: < h34 QEQ h36 h25 QEQ h27 h19 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:5>[BV x9]
+ x9:_steel_n_1<0:5>{x PERS 3, NUM sg, IND -}[]
+ x6:_share_n_of<6:12>{x PERS 3, NUM pl, IND +}[]
+ e3:_fall_v_1<13:17>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<18:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ x16:place_n<18:22>{x PERS 3, NUM sg}[]
+ _3:def_implicit_q<18:22>[BV x16]
+ e21:_back_p<18:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16]
+ e22:_after_p<23:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:udef_q<29:54>[BV x23]
+ x23:nominalization<29:54>{x PERS 3, NUM sg, GEND n}[ARG1 e29]
+ e29:_advance_v_1<29:38>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ e31:_for_p<39:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e29, ARG2 x32]
+ _5:udef_q<43:54>[BV x32]
+ e37:card<43:48>("3"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x32]
+ x32:_day_n_of<49:54>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:12> BV _share_n_of<6:12>  
+  compound<0:12> ARG1 _share_n_of<6:12>  
+  compound<0:12> ARG2 _steel_n_1<0:5>  
+  udef_q<0:5> BV _steel_n_1<0:5>  
+  _fall_v_1<13:17> ARG1 _share_n_of<6:12>  
+  loc_nonsp<18:22> ARG1 _fall_v_1<13:17>  
+  loc_nonsp<18:22> ARG2 place_n<18:22>  
+  def_implicit_q<18:22> BV place_n<18:22>  
+  _back_p<18:22> ARG1 place_n<18:22>  
+  _after_p<23:28> ARG1 _fall_v_1<13:17>  
+  _after_p<23:28> ARG2 nominalization<29:54>  
+  udef_q<29:54> BV nominalization<29:54>  
+  nominalization<29:54> ARG1 _advance_v_1<29:38>  
+  _for_p<39:42> ARG1 _advance_v_1<29:38>  
+  _for_p<39:42> ARG2 _day_n_of<49:54>  
+  udef_q<43:54> BV _day_n_of<49:54>  
+  card<43:48>(3) ARG1 _day_n_of<49:54>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _steel_n_1<0:5> PERS 3  
+  _steel_n_1<0:5> NUM sg  
+  _steel_n_1<0:5> IND -  
+  _share_n_of<6:12> PERS 3  
+  _share_n_of<6:12> NUM pl  
+  _share_n_of<6:12> IND +  
+  _fall_v_1<13:17> SF prop  
+  _fall_v_1<13:17> TENSE past  
+  _fall_v_1<13:17> MOOD indicative  
+  _fall_v_1<13:17> PROG -  
+  _fall_v_1<13:17> PERF -  
+  loc_nonsp<18:22> SF prop  
+  loc_nonsp<18:22> TENSE untensed  
+  loc_nonsp<18:22> MOOD indicative  
+  loc_nonsp<18:22> PROG -  
+  loc_nonsp<18:22> PERF -  
+  place_n<18:22> PERS 3  
+  place_n<18:22> NUM sg  
+  _back_p<18:22> SF prop  
+  _back_p<18:22> TENSE untensed  
+  _back_p<18:22> MOOD indicative  
+  _back_p<18:22> PROG -  
+  _back_p<18:22> PERF -  
+  _after_p<23:28> SF prop  
+  _after_p<23:28> TENSE untensed  
+  _after_p<23:28> MOOD indicative  
+  _after_p<23:28> PROG -  
+  _after_p<23:28> PERF -  
+  nominalization<29:54> PERS 3  
+  nominalization<29:54> NUM sg  
+  nominalization<29:54> GEND n  
+  _advance_v_1<29:38> SF prop  
+  _advance_v_1<29:38> TENSE untensed  
+  _advance_v_1<29:38> MOOD indicative  
+  _advance_v_1<29:38> PROG +  
+  _advance_v_1<29:38> PERF -  
+  _for_p<39:42> SF prop  
+  _for_p<39:42> TENSE untensed  
+  _for_p<39:42> MOOD indicative  
+  _for_p<39:42> PROG -  
+  _for_p<39:42> PERF -  
+  card<43:48>(3) SF prop  
+  card<43:48>(3) TENSE untensed  
+  card<43:48>(3) MOOD indicative  
+  card<43:48>(3) PROG -  
+  card<43:48>(3) PERF -  
+  _day_n_of<49:54> PERS 3  
+  _day_n_of<49:54> NUM pl  
+  _day_n_of<49:54> IND +  
+}
+

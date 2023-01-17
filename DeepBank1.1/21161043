@@ -1,0 +1,262 @@
+;;;
+;;; Redwoods export of `wsj11d';
+;;; (wsun@wsun; 22-jan-2018 (20:38 h)).
+;;;
+
+[21161043] (1 of 1) {1} `An S&P rating of double-A-plus has already been confirmed.'
+
+[21161043:6] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "An", 0, "null", "DT" 1.0)
+  (2, 1, 2, <3:6>, 1, "S&P", 0, "null", "NNP" 0.9299 "NN" 0.0701)
+  (3, 2, 3, <7:13>, 1, "rating", 0, "null", "NN" 1.0)
+  (4, 3, 4, <14:16>, 1, "of", 0, "null", "IN" 1.0)
+  (5, 4, 5, <17:30>, 1, "double-A-plus", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <31:34>, 1, "has", 0, "null", "VBZ" 1.0)
+  (7, 6, 7, <35:42>, 1, "already", 0, "null", "RB" 1.0)
+  (8, 7, 8, <43:47>, 1, "been", 0, "null", "VBN" 1.0)
+  (9, 8, 9, <48:57>, 1, "confirmed", 0, "null", "VBN" 0.9511 "VBD" 0.0489)
+  (10, 9, 10, <57:58>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (144, 0, 1, <0:2>, 1, "an", 0, "null")
+  (156, 0, 1, <0:2>, 1, "an", 0, "null")
+  (134, 1, 2, <3:6>, 1, "S&P", 0, "null", "NNP" 0.9299)
+  (145, 1, 2, <3:6>, 1, "s&p", 0, "null")
+  (155, 1, 2, <3:6>, 1, "s&p", 0, "null")
+  (117, 2, 3, <7:13>, 1, "rating", 0, "null")
+  (137, 2, 3, <7:13>, 1, "rating", 0, "null", "NN" 1.0)
+  (147, 2, 3, <7:13>, 1, "rating", 0, "null")
+  (119, 3, 4, <14:16>, 1, "of", 0, "null")
+  (148, 3, 4, <14:16>, 1, "of", 0, "null")
+  (129, 4, 5, <17:30>, 1, "double-", 0, "null")
+  (142, 4, 5, <17:30>, 1, "double-", 0, "null", "NN" 1.0)
+  (153, 4, 5, <17:30>, 1, "double-", 0, "null")
+  (106, 5, 6, <17:30>, 1, "A-", 0, "null")
+  (136, 5, 6, <17:30>, 1, "A-", 0, "null", "NN" 1.0)
+  (143, 5, 6, <17:30>, 1, "a-", 0, "null")
+  (146, 5, 6, <17:30>, 1, "a-", 0, "null")
+  (127, 6, 7, <17:30>, 1, "plus", 0, "null")
+  (141, 6, 7, <17:30>, 1, "plus", 0, "null", "JJ" 1.0)
+  (152, 6, 7, <17:30>, 1, "plus", 0, "null")
+  (121, 7, 8, <31:34>, 1, "has", 0, "null")
+  (138, 7, 8, <31:34>, 1, "has", 0, "null", "VBZ" 1.0)
+  (149, 7, 8, <31:34>, 1, "has", 0, "null")
+  (123, 8, 9, <35:42>, 1, "already", 0, "null")
+  (139, 8, 9, <35:42>, 1, "already", 0, "null", "RB" 1.0)
+  (150, 8, 9, <35:42>, 1, "already", 0, "null")
+  (125, 9, 10, <43:47>, 1, "been", 0, "null")
+  (140, 9, 10, <43:47>, 1, "been", 0, "null", "VBN" 1.0)
+  (151, 9, 10, <43:47>, 1, "been", 0, "null")
+  (132, 10, 11, <48:58>, 1, "confirmed.", 0, "null")
+  (135, 10, 11, <48:58>, 1, "confirmed.", 0, "null", "VBN" 0.9511)
+  (154, 10, 11, <48:58>, 1, "confirmed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (6797 SB-HD_MC_C 10.2773 0 11
+  (6796 SP-HD_N_C 0.290885 0 7
+   (160 an_det@d_-_sg-nmd-an_le 0.779304 0 1
+    ("an" 144
+     "token [ +CARG \"An\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"an\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (6795 ^HD-CMP_U_C -1.48394 1 7
+    (6772 ^NP-HDN_CPD_C -1.30691 1 3
+     (6732 HDN_BNP-PN_C -0.136842 1 2
+      (181 genericname@n_-_pn-unk_le 0 1 2
+       ("S&P" 134
+        "token [ +CARG #1=\"S&P\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_s&p/NNP_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"0.92994710000000003\" +TAG #5=\"NNP\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (6771 ^V_NGER-TR_DLR -1.17006 2 3
+      (6770 V_PRP_OLR -0.603295 2 3
+       (191 rate_v1@v_np_le -0.093758 2 3
+        ("rating" 117
+         "token [ +CARG #1=\"rating\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (6794 HD-CMP_U_C -1.14791 3 7
+     (245 of_prtcl@p_np_ptcl-of_le 1.04356 3 4
+      ("of" 119
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (6793 HDN_BNP_C -2.8393 4 7
+      (6792 XP_BRCK-PR_C -2.62977 4 7
+       (6768 AJ-HDN_NORM_C -1.30264 4 7
+        (6761 W_HYPHEN_PLR 0.368784 4 5
+         (322 double_a1@aj_-_i_le 0 4 5
+          ("double-" 129
+           "token [ +CARG #1=\"double-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+        (6767 ^NUM-N_MNP_C -1.67142 5 7
+         (6765 W_HYPHEN_PLR 0 5 6
+          (349 a_one_adj@aj_-_i-one-nmd_le 0 5 6
+           ("a-" 143
+            "token [ +CARG \"A-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"a-\" +FROM \"17\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"5\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (6766 ^N_SG_ILR -1.3382 6 7
+          (427 plus_n1@n_-_c-meas_le -0.0638212 6 7
+           ("plus" 127
+            "token [ +CARG #1=\"plus\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))))))
+  (6753 ^HD-CMP_U_C 8.03191 7 11
+   (460 has_aux@v_vp_has_le 3.10804 7 8
+    ("has" 121
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (6752 AJ-HD_INT_C 5.41464 8 11
+    (541 already_adv1@av_-_i-vp-x_le 1.36092 8 9
+     ("already" 123
+      "token [ +CARG #1=\"already\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (6751 ^HD-CMP_U_C 2.24271 9 11
+     (546 be_c_been@v_prd_been_le 1.11208 9 10
+      ("been" 125
+       "token [ +CARG #1=\"been\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (6750 HD_OPTCMP_C 0.786398 10 11
+      (6749 W_PERIOD_PLR 0.133685 10 11
+       (6748 V_PAS_ODLR -0.192154 10 11
+        (567 confirm_v1@v_np*_le 0 10 11
+         ("confirmed." 132
+          "token [ +CARG \"confirmed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"confirmed.\" +FROM #1=\"48\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95108029999999999\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"58\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (NP (DET "an")
+  (N (N (NP (N "S&P")) (N (V (V "rating"))))
+   (PP (P "of")
+    (NP
+     (N
+      (N (AP (AP "double-")) (N (ADJ (ADJ "a-")) (N (N "plus")))))))))
+ (VP (V "has")
+  (VP (ADV "already") (VP (V "been") (VP (V (V (V "confirmed."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ _a_q<0:2>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<3:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<3:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<3:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "S&P" ]
+          [ _rate_v_1<7:13>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i18
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ nominalization<7:13>
+            LBL: h8
+            ARG0: x6
+            ARG1: h15 ]
+          [ udef_q<17:30>
+            LBL: h19
+            ARG0: x17
+            RSTR: h20
+            BODY: h21 ]
+          [ _double_a_1<17:30>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17 ]
+          [ card<17:30>
+            LBL: h22
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            CARG: "1" ]
+          [ _plus_n_1<17:30>
+            LBL: h22
+            ARG0: x17 ]
+          [ _already_a_1<35:42>
+            LBL: h2
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _confirm_v_as<48:58>
+            LBL: h2
+            ARG0: e3
+            ARG1: i26
+            ARG2: x6 ]
+          [ parg_d<48:58>
+            LBL: h2
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h20 QEQ h22 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_a_q<0:2>[BV x6]
+ e10:compound<3:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<3:6>[BV x9]
+ x9:named<3:6>("S&P"){x IND +}[]
+ e16:_rate_v_1<7:13>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x17]
+ x6:nominalization<7:13>{x PERS 3, NUM sg, GEND n}[ARG1 e16]
+ _3:udef_q<17:30>[BV x17]
+ e23:_double_a_1<17:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+ e24:card<17:30>("1"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+ x17:_plus_n_1<17:30>{x PERS 3, NUM sg, IND +}[]
+ e25:_already_a_1<35:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_confirm_v_as<48:58>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG2 x6]
+ e27:parg_d<48:58>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  _a_q<0:2> BV nominalization<7:13>  
+  compound<3:13> ARG1 nominalization<7:13>  
+  compound<3:13> ARG2 named<3:6>(S&P)  
+  proper_q<3:6> BV named<3:6>(S&P)  
+  _rate_v_1<7:13> ARG2 _plus_n_1<17:30>  
+  nominalization<7:13> ARG1 _rate_v_1<7:13>  
+  udef_q<17:30> BV _plus_n_1<17:30>  
+  _double_a_1<17:30> ARG1 _plus_n_1<17:30>  
+  card<17:30>(1) ARG1 _plus_n_1<17:30>  
+  _already_a_1<35:42> ARG1 _confirm_v_as<48:58>  
+  _confirm_v_as<48:58> ARG2 nominalization<7:13>  
+  parg_d<48:58> ARG1 _confirm_v_as<48:58>  
+  parg_d<48:58> ARG2 nominalization<7:13>  
+  compound<3:13> SF prop  
+  compound<3:13> TENSE untensed  
+  compound<3:13> MOOD indicative  
+  compound<3:13> PROG -  
+  compound<3:13> PERF -  
+  named<3:6>(S&P) IND +  
+  _rate_v_1<7:13> SF prop  
+  _rate_v_1<7:13> TENSE untensed  
+  _rate_v_1<7:13> MOOD indicative  
+  _rate_v_1<7:13> PROG +  
+  _rate_v_1<7:13> PERF -  
+  nominalization<7:13> PERS 3  
+  nominalization<7:13> NUM sg  
+  nominalization<7:13> GEND n  
+  _double_a_1<17:30> SF prop  
+  _double_a_1<17:30> TENSE untensed  
+  _double_a_1<17:30> MOOD indicative  
+  _double_a_1<17:30> PROG -  
+  _double_a_1<17:30> PERF -  
+  card<17:30>(1) SF prop  
+  card<17:30>(1) TENSE untensed  
+  card<17:30>(1) MOOD indicative  
+  card<17:30>(1) PROG -  
+  card<17:30>(1) PERF -  
+  _plus_n_1<17:30> PERS 3  
+  _plus_n_1<17:30> NUM sg  
+  _plus_n_1<17:30> IND +  
+  _already_a_1<35:42> SF prop  
+  _already_a_1<35:42> TENSE untensed  
+  _already_a_1<35:42> MOOD indicative  
+  _already_a_1<35:42> PROG -  
+  _already_a_1<35:42> PERF -  
+  _confirm_v_as<48:58> SF prop  
+  _confirm_v_as<48:58> TENSE pres  
+  _confirm_v_as<48:58> MOOD indicative  
+  _confirm_v_as<48:58> PROG -  
+  _confirm_v_as<48:58> PERF +  
+  parg_d<48:58> SF prop  
+  parg_d<48:58> TENSE untensed  
+  parg_d<48:58> MOOD indicative  
+  parg_d<48:58> PROG -  
+  parg_d<48:58> PERF -  
+}
+

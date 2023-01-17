@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:25 h)).
+;;;
+
+[20466013] (1 of 1) {1} `Still, caution is advisable.'
+
+[20466013:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Still", 0, "null", "RB" 1.0)
+  (2, 1, 2, <5:6>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <7:14>, 1, "caution", 0, "null", "NN" 0.7969 "VBP" 0.2031)
+  (4, 3, 4, <15:17>, 1, "is", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <18:27>, 1, "advisable", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:6>, 1, "Still,", 0, "null", "RB" 1.0)
+  (72, 0, 1, <0:6>, 1, "still,", 0, "null")
+  (76, 0, 1, <0:6>, 1, "still,", 0, "null")
+  (65, 1, 2, <7:14>, 1, "caution", 0, "null")
+  (67, 1, 2, <7:14>, 1, "caution", 0, "null", "NN" 0.7969)
+  (71, 1, 2, <7:14>, 1, "caution", 0, "null", "VBP" 0.2031)
+  (75, 1, 2, <7:14>, 1, "caution", 0, "null")
+  (60, 2, 3, <15:17>, 1, "is", 0, "null")
+  (68, 2, 3, <15:17>, 1, "is", 0, "null", "VBZ" 1.0)
+  (73, 2, 3, <15:17>, 1, "is", 0, "null")
+  (64, 3, 4, <18:28>, 1, "advisable.", 0, "null")
+  (70, 3, 4, <18:28>, 1, "advisable.", 0, "null", "JJ" 1.0)
+  (74, 3, 4, <18:28>, 1, "advisable.", 0, "null")
+>
+
+(ROOT_STRICT
+ (813 AJ-HD_SCP_C 6.39214 0 4
+  (807 W_COMMA_PLR 2.7835 0 1
+   (84 still_adv2@av_-_s-cp-pr_le 0.730995 0 1
+    ("still," 72
+     "token [ +CARG \"Still\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"still,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (812 ^SB-HD_MC_C 2.22808 1 4
+   (809 HDN_BNP_C -0.787966 1 2
+    (808 N_MS-CNT_ILR 0.115822 1 2
+     (104 caution_n1@n_-_mc_le 0 1 2
+      ("caution" 65
+       "token [ +CARG #1=\"caution\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.79687969999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (811 ^HD-CMP_U_C 2.03687 2 4
+    (150 be_c_is@v_prd_is_le 0.262573 2 3
+     ("is" 60
+      "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (810 W_PERIOD_PLR 0.612486 3 4
+     (236 advisable_a1@aj_-_i_le 0 3 4
+      ("advisable." 64
+       "token [ +CARG \"advisable\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"advisable.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (ADV (ADV "still,"))
+ (S (NP (N (N "caution"))) (VP (V "is") (AP (AP "advisable.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _still_a_disc<0:6>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ udef_q<7:14>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h9 ]
+          [ _caution_n_1<7:14>
+            LBL: h10
+            ARG0: x8 ]
+          [ _advisable_a_1<18:28>
+            LBL: h11
+            ARG0: e3
+            ARG1: x8 ] >
+   HCONS: < h7 QEQ h10 h4 QEQ h11 h1 QEQ h2 > ]
+
+{e5:
+ e5:_still_a_disc<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:udef_q<7:14>[BV x8]
+ x8:_caution_n_1<7:14>{x PERS 3, NUM sg}[]
+ e3:_advisable_a_1<18:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+}
+
+{
+  _still_a_disc<0:6> ARG1 _advisable_a_1<18:28>  
+  udef_q<7:14> BV _caution_n_1<7:14>  
+  _advisable_a_1<18:28> ARG1 _caution_n_1<7:14>  
+  _still_a_disc<0:6> SF prop  
+  _still_a_disc<0:6> TENSE untensed  
+  _still_a_disc<0:6> MOOD indicative  
+  _still_a_disc<0:6> PROG -  
+  _still_a_disc<0:6> PERF -  
+  _caution_n_1<7:14> PERS 3  
+  _caution_n_1<7:14> NUM sg  
+  _advisable_a_1<18:28> SF prop  
+  _advisable_a_1<18:28> TENSE pres  
+  _advisable_a_1<18:28> MOOD indicative  
+  _advisable_a_1<18:28> PROG -  
+  _advisable_a_1<18:28> PERF -  
+}
+

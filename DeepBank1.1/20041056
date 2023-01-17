@@ -1,0 +1,139 @@
+;;;
+;;; Redwoods export of `wsj00b';
+;;; (wsun@wsun; 22-jan-2018 (10:24 h)).
+;;;
+
+[20041056] (1 of 1) {1} `"Consider Jim Courter."'
+
+[20041056:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:9>, 1, "Consider", 0, "null", "VB" 1.0)
+  (3, 2, 3, <10:13>, 1, "Jim", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <14:21>, 1, "Courter", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+  (6, 5, 6, <22:23>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (71, 0, 1, <0:9>, 1, "“Consider", 0, "null", "VB" 1.0)
+  (74, 0, 1, <0:9>, 1, "“consider", 0, "null")
+  (79, 0, 1, <0:9>, 1, "“consider", 0, "null")
+  (57, 1, 2, <10:13>, 1, "Jim", 0, "null")
+  (70, 1, 2, <10:13>, 1, "Jim", 0, "null", "NNP" 1.0)
+  (73, 1, 2, <10:13>, 1, "jim", 0, "null")
+  (76, 1, 2, <10:13>, 1, "jim", 0, "null")
+  (63, 2, 3, <14:23>, 1, "Courter.”", 0, "null")
+  (72, 2, 3, <14:23>, 1, "Courter.”", 0, "null", "NNP" 1.0)
+  (75, 2, 3, <14:23>, 1, "courter.”", 0, "null")
+  (77, 2, 3, <14:23>, 1, "courter.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (443 HD_IMP_C 4.10663 0 3
+  (442 HD-CMP_U_C 4.01331 0 3
+   (434 ^W_DQLEFT_PLR 0.217946 0 1
+    (433 V_N3S-BSE_ILR -0.104449 0 1
+     (88 consider_v5@v_np*_le 0 0 1
+      ("“consider" 74
+       "token [ +CARG \"Consider\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“consider\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (441 HDN_BNP-PN_C 3.93509 1 3
+    (440 NP-HDN_NME-CPD_C 4.70771 1 3
+     (436 HDN_BNP-PN_C 0.586141 1 2
+      (435 N_SG_ILR -0.166294 1 2
+       (95 jim@n_-_pn_le 0 1 2
+        ("jim" 73
+         "token [ +CARG \"Jim\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"jim\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (439 ^W_DQRIGHT_PLR 2.14165 2 3
+      (438 W_PERIOD_PLR 0.178745 2 3
+       (437 N_SG_ILR -0.422994 2 3
+        (96 generic_proper_ne@n_-_pn-gen_le 0 2 3
+         ("Courter.”" 63
+          "token [ +CARG \"Courter\" +CLASS proper_ne +FORM \"Courter.”\" +FROM \"14\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S
+ (VP (V (V (V "“consider")))
+  (NP (N (NP (N (N "jim"))) (N (N (N (N "Courter.”"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:23>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:23>
+            LBL: h8
+            ARG0: x6 ]
+          [ _consider_v_1<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<10:23>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<10:23>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<10:13>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<10:13>
+            LBL: h19
+            ARG0: x14
+            CARG: "Jim" ]
+          [ named<14:23>
+            LBL: h13
+            ARG0: x9
+            CARG: "Courter" ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:23>[BV x6]
+ x6:pron<0:23>{x PERS 2, PT zero}[]
+ e3:_consider_v_1<0:9>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<10:23>[BV x9]
+ e15:compound<10:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<10:13>[BV x14]
+ x14:named<10:13>("Jim"){x PERS 3, NUM sg, IND +}[]
+ x9:named<14:23>("Courter"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:23> BV pron<0:23>  
+  _consider_v_1<0:9> ARG1 pron<0:23>  
+  _consider_v_1<0:9> ARG2 named<14:23>(Courter)  
+  proper_q<10:23> BV named<14:23>(Courter)  
+  compound<10:23> ARG1 named<14:23>(Courter)  
+  compound<10:23> ARG2 named<10:13>(Jim)  
+  proper_q<10:13> BV named<10:13>(Jim)  
+  pron<0:23> PERS 2  
+  pron<0:23> PT zero  
+  _consider_v_1<0:9> SF comm  
+  _consider_v_1<0:9> TENSE pres  
+  _consider_v_1<0:9> MOOD indicative  
+  _consider_v_1<0:9> PROG -  
+  _consider_v_1<0:9> PERF -  
+  compound<10:23> SF prop  
+  compound<10:23> TENSE untensed  
+  compound<10:23> MOOD indicative  
+  compound<10:23> PROG -  
+  compound<10:23> PERF -  
+  named<10:13>(Jim) PERS 3  
+  named<10:13>(Jim) NUM sg  
+  named<10:13>(Jim) IND +  
+  named<14:23>(Courter) PERS 3  
+  named<14:23>(Courter) NUM sg  
+  named<14:23>(Courter) IND +  
+}
+

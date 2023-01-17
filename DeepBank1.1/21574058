@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:33 h)).
+;;;
+
+[21574058] (1 of 1) {1} `Not likely, I think.'
+
+[21574058:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:10>, 1, "likely", 0, "null", "JJ" 0.6813 "RB" 0.3187)
+  (3, 2, 3, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <12:13>, 1, "I", 0, "null", "PRP" 1.0)
+  (5, 4, 5, <14:19>, 1, "think", 0, "null", "VBP" 0.9812 "VB" 0.0188)
+  (6, 5, 6, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (75, 0, 1, <0:3>, 1, "not", 0, "null")
+  (80, 0, 1, <0:3>, 1, "not", 0, "null")
+  (67, 1, 2, <4:11>, 1, "likely,", 0, "null")
+  (71, 1, 2, <4:11>, 1, "likely,", 0, "null", "JJ" 0.6813)
+  (74, 1, 2, <4:11>, 1, "likely,", 0, "null", "RB" 0.3187)
+  (78, 1, 2, <4:11>, 1, "likely,", 0, "null")
+  (56, 2, 3, <12:13>, 1, "I", 0, "null")
+  (76, 2, 3, <12:13>, 1, "i", 0, "null")
+  (77, 2, 3, <12:13>, 1, "i", 0, "null")
+  (69, 3, 4, <14:20>, 1, "think.", 0, "null")
+  (72, 3, 4, <14:20>, 1, "think.", 0, "null", "VBP" 0.9812)
+  (79, 3, 4, <14:20>, 1, "think.", 0, "null")
+>
+
+(ROOT_STRICT
+ (694 AJ-HD_SCP_C 3.07726 0 4
+  (688 J_SBRD-PRE_C 0.56778 0 2
+   (687 AJ-HD_SCP-XP_C 0.56778 0 2
+    (122 not_prdp@av_-_s-not-prdp_le -0.348433 0 1
+     ("not" 75
+      "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (686 ^W_COMMA_PLR 0.916213 1 2
+     (178 likely_a1@aj_-_i_le 0 1 2
+      ("likely," 67
+       "token [ +CARG \"likely\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"likely,\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68125970000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (693 ^SB-HD_MC_C 1.98328 2 4
+   (689 HDN_BNP-QNT_C 2.45613 2 3
+    (223 i@n_-_pr-i_le 1.12391 2 3
+     ("i" 76
+      "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL - ] +FORM \"i\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (692 ^HD_OPTCMP_C -0.804471 3 4
+    (691 W_PERIOD_PLR -0.91576 3 4
+     (690 V_N3S-BSE_ILR -0.0590402 3 4
+      (260 think_v3@v_np*_ntr_le 0 3 4
+       ("think." 69
+        "token [ +CARG \"think\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"think.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98124929999999999\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (PP (AP (ADV "not") (AP (AP "likely,"))))
+ (S (NP (NP "i")) (VP (V (V (V "think."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ subord<0:11>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h5
+            ARG2: h4 ]
+          [ neg<0:3>
+            LBL: h7
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h8 ]
+          [ _likely_a_1<4:11>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i11 ]
+          [ pron<12:13>
+            LBL: h13
+            ARG0: x14 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<12:13>
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ _think_v_1<14:20>
+            LBL: h18
+            ARG0: e3
+            ARG1: x14
+            ARG2: i19 ] >
+   HCONS: < h16 QEQ h13 h8 QEQ h10 h4 QEQ h7 h5 QEQ h18 h1 QEQ h2 > ]
+
+{e6:
+ e6:subord<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e9]
+ e9:neg<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_likely_a_1<4:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ x14:pron<12:13>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<12:13>[BV x14]
+ e3:_think_v_1<14:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x14]
+}
+
+{
+  subord<0:11> ARG1 _think_v_1<14:20>  
+  subord<0:11> ARG2 neg<0:3>  
+  neg<0:3> ARG1 _likely_a_1<4:11>  
+  pronoun_q<12:13> BV pron<12:13>  
+  _think_v_1<14:20> ARG1 pron<12:13>  
+  subord<0:11> SF prop  
+  subord<0:11> TENSE untensed  
+  subord<0:11> MOOD indicative  
+  subord<0:11> PROG -  
+  subord<0:11> PERF -  
+  neg<0:3> SF prop  
+  neg<0:3> TENSE untensed  
+  neg<0:3> MOOD indicative  
+  neg<0:3> PROG -  
+  neg<0:3> PERF -  
+  _likely_a_1<4:11> SF prop  
+  _likely_a_1<4:11> TENSE untensed  
+  _likely_a_1<4:11> MOOD indicative  
+  _likely_a_1<4:11> PROG -  
+  _likely_a_1<4:11> PERF -  
+  pron<12:13> PERS 1  
+  pron<12:13> NUM sg  
+  pron<12:13> PT std  
+  _think_v_1<14:20> SF prop  
+  _think_v_1<14:20> TENSE pres  
+  _think_v_1<14:20> MOOD indicative  
+  _think_v_1<14:20> PROG -  
+  _think_v_1<14:20> PERF -  
+}
+

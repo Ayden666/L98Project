@@ -1,0 +1,92 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:19 h)).
+;;;
+
+[21130006] (1 of 1) {1} `That suit is pending.'
+
+[21130006:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:9>, 1, "suit", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:20>, 1, "pending", 0, "null", "VBG" 0.9595 "JJ" 0.0405)
+  (5, 4, 5, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:4>, 1, "that", 0, "null")
+  (64, 0, 1, <0:4>, 1, "that", 0, "null")
+  (52, 1, 2, <5:9>, 1, "suit", 0, "null")
+  (58, 1, 2, <5:9>, 1, "suit", 0, "null", "NN" 1.0)
+  (61, 1, 2, <5:9>, 1, "suit", 0, "null")
+  (54, 2, 3, <10:12>, 1, "is", 0, "null")
+  (59, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (62, 2, 3, <10:12>, 1, "is", 0, "null")
+  (55, 3, 4, <13:21>, 1, "pending.", 0, "null")
+  (57, 3, 4, <13:21>, 1, "pending.", 0, "null", "VBG" 0.9595)
+  (63, 3, 4, <13:21>, 1, "pending.", 0, "null")
+>
+
+(ROOT_STRICT
+ (626 SB-HD_MC_C 4.7933 0 4
+  (623 SP-HD_N_C 1.40178 0 2
+   (81 that_det@d_-_sgm_le -0.419828 0 1
+    ("that" 60
+     "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (622 ^HDN_OPTCMP_C 1.06734 1 2
+    (621 N_SG_ILR 1.1543 1 2
+     (98 suit_n1@n_pp_c-of_le 0.0823956 1 2
+      ("suit" 52
+       "token [ +CARG #1=\"suit\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (625 ^HD-CMP_U_C 1.437 2 4
+   (145 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 54
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (624 W_PERIOD_PLR 0.012616 3 4
+    (234 pending_a2@aj_-_i-prd_le 0 3 4
+     ("pending." 55
+      "token [ +CARG \"pending\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pending.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95948659999999997\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "that") (N (N (N "suit"))))
+ (VP (V "is") (AP (AP "pending."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _that_q_dem<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _suit_n_of<5:9>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _pending_a_1<13:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_that_q_dem<0:4>[BV x6]
+ x6:_suit_n_of<5:9>{x PERS 3, NUM sg, IND +}[]
+ e3:_pending_a_1<13:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _that_q_dem<0:4> BV _suit_n_of<5:9>  
+  _pending_a_1<13:21> ARG1 _suit_n_of<5:9>  
+  _suit_n_of<5:9> PERS 3  
+  _suit_n_of<5:9> NUM sg  
+  _suit_n_of<5:9> IND +  
+  _pending_a_1<13:21> SF prop  
+  _pending_a_1<13:21> TENSE pres  
+  _pending_a_1<13:21> MOOD indicative  
+  _pending_a_1<13:21> PROG -  
+  _pending_a_1<13:21> PERF -  
+}
+

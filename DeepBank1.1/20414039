@@ -1,0 +1,99 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:48 h)).
+;;;
+
+[20414039] (1 of 1) {1} `NO, YOU WORK!'
+
+[20414039:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "NO", 0, "null", "RB" 0.7017 "UH" 0.281 "DT" 0.0173)
+  (2, 1, 2, <2:3>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <4:7>, 1, "YOU", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <8:12>, 1, "WORK", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <12:13>, 1, "!", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:3>, 1, "NO,", 0, "null")
+  (66, 0, 1, <0:3>, 1, "NO,", 0, "null", "RB" 0.7017)
+  (70, 0, 1, <0:3>, 1, "no,", 0, "null")
+  (72, 0, 1, <0:3>, 1, "no,", 0, "null")
+  (49, 1, 2, <4:7>, 1, "YOU", 0, "null")
+  (68, 1, 2, <4:7>, 1, "you", 0, "null")
+  (71, 1, 2, <4:7>, 1, "you", 0, "null")
+  (55, 2, 3, <8:13>, 1, "WORK!", 0, "null")
+  (67, 2, 3, <8:13>, 1, "WORK!", 0, "null", "VBP" 1.0)
+  (69, 2, 3, <8:13>, 1, "work!", 0, "null")
+  (73, 2, 3, <8:13>, 1, "work!", 0, "null")
+>
+
+(ROOT_STRICT
+ (486 AJ-HD_SCP_C 5.96189 0 3
+  (480 W_COMMA_PLR 2.85858 0 1
+   (88 no_disc_root@av_-_s-cp-mc-pr_le 0 0 1
+    ("no," 70
+     "token [ +CARG \"NO\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"no,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.70174000000000003\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (485 ^SB-HD_MC_C 1.72275 1 3
+   (481 HDN_BNP-QNT_C 1.59568 1 2
+    (117 you@n_-_pr-you_le 0.644596 1 2
+     ("you" 68
+      "token [ +CARG \"YOU\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"you\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (484 ^HD_OPTCMP_C -0.204554 2 3
+    (483 W_BANG_PLR -0.204554 2 3
+     (482 V_N3S-BSE_ILR -0.204554 2 3
+      (168 work_v1@v_np*_le 0 2 3
+       ("work!" 69
+        "token [ +CARG \"WORK\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"work!\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (ADV (ADV "no,")) (S (NP (NP "you")) (VP (V (V (V "work!"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _no_a_1<0:3>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ pron<4:7>
+            LBL: h6
+            ARG0: x7 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<4:7>
+            LBL: h8
+            ARG0: x7
+            RSTR: h9
+            BODY: h10 ]
+          [ _work_v_1<8:13>
+            LBL: h11
+            ARG0: e3
+            ARG1: x7
+            ARG2: p12 ] >
+   HCONS: < h9 QEQ h6 h4 QEQ h11 h1 QEQ h2 > ]
+
+{e5:
+ e5:_no_a_1<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ x7:pron<4:7>{x PERS 2, PT std}[]
+ _1:pronoun_q<4:7>[BV x7]
+ e3:_work_v_1<8:13>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x7]
+}
+
+{
+  _no_a_1<0:3> ARG1 _work_v_1<8:13>  
+  pronoun_q<4:7> BV pron<4:7>  
+  _work_v_1<8:13> ARG1 pron<4:7>  
+  _no_a_1<0:3> SF prop  
+  _no_a_1<0:3> TENSE untensed  
+  _no_a_1<0:3> MOOD indicative  
+  _no_a_1<0:3> PROG -  
+  _no_a_1<0:3> PERF -  
+  pron<4:7> PERS 2  
+  pron<4:7> PT std  
+  _work_v_1<8:13> SF prop  
+  _work_v_1<8:13> TENSE pres  
+  _work_v_1<8:13> MOOD indicative  
+  _work_v_1<8:13> PROG -  
+  _work_v_1<8:13> PERF -  
+}
+

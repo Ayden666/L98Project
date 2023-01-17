@@ -1,0 +1,119 @@
+;;;
+;;; Redwoods export of `wsj14d';
+;;; (wsun@wsun; 22-jan-2018 (23:39 h)).
+;;;
+
+[21478005] (1 of 1) {1} `That individual wasn't identified.'
+
+[21478005:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:15>, 1, "individual", 0, "null", "NN" 0.9051 "JJ" 0.0949)
+  (3, 2, 3, <16:19>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <19:22>, 1, "n’t", 0, "null", "RB" 0.3644 "NN" 0.1935 "VBN" 0.1822 "JJ" 0.0801 "VB" 0.08 "VBP" 0.0725 "JJS" 0.0147 "VBD" 0.0127)
+  (5, 4, 5, <23:33>, 1, "identified", 0, "null", "VBN" 0.8844 "VBD" 0.1156)
+  (6, 5, 6, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:4>, 1, "that", 0, "null")
+  (72, 0, 1, <0:4>, 1, "that", 0, "null")
+  (60, 1, 2, <5:15>, 1, "individual", 0, "null")
+  (64, 1, 2, <5:15>, 1, "individual", 0, "null", "NN" 0.9051)
+  (70, 1, 2, <5:15>, 1, "individual", 0, "null")
+  (59, 2, 3, <16:22>, 1, "wasn’t", 0, "null")
+  (66, 2, 3, <16:22>, 1, "wasn’t", 0, "null", "VBD" 1.0)
+  (69, 2, 3, <16:22>, 1, "wasn’t", 0, "null")
+  (62, 3, 4, <23:34>, 1, "identified.", 0, "null")
+  (65, 3, 4, <23:34>, 1, "identified.", 0, "null", "VBN" 0.8844)
+  (67, 3, 4, <23:34>, 1, "identified.", 0, "null", "VBD" 0.1156)
+  (71, 3, 4, <23:34>, 1, "identified.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1018 SB-HD_MC_C 3.37872 0 4
+  (1013 SP-HD_N_C -0.711023 0 2
+   (89 that_det@d_-_sgm_le -0.419828 0 1
+    ("that" 68
+     "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1012 ^N_SG_ILR -0.513161 1 2
+    (105 individual_n1@n_-_c-nocnh_le 0.158152 1 2
+     ("individual" 60
+      "token [ +CARG #1=\"individual\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90505829999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1017 ^HD-CMP_U_C 2.13522 2 4
+   (107 be_c_was_neg_3_u@v_prd_was-n_le 1.25887 2 3
+    ("wasn’t" 59
+     "token [ +CARG #1=\"wasn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1016 HD_OPTCMP_C 0.772703 3 4
+    (1015 W_PERIOD_PLR 0.621276 3 4
+     (1014 V_PAS_ODLR 0.295437 3 4
+      (152 identify_v1@v_np_le 0 3 4
+       ("identified." 62
+        "token [ +CARG \"identified\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"identified.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88441139999999996\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "that") (N (N "individual")))
+ (VP (V "wasn’t") (VP (V (V (V "identified."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _that_q_dem<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _individual_n_1<5:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<16:22>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _identify_v_1<23:34>
+            LBL: h11
+            ARG0: e3
+            ARG1: i12
+            ARG2: x6 ]
+          [ parg_d<23:34>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:_that_q_dem<0:4>[BV x6]
+ x6:_individual_n_1<5:15>{x PERS 3, NUM sg, IND +}[]
+ e10:neg<16:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_identify_v_1<23:34>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e13:parg_d<23:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  _that_q_dem<0:4> BV _individual_n_1<5:15>  
+  neg<16:22> ARG1 _identify_v_1<23:34>  
+  _identify_v_1<23:34> ARG2 _individual_n_1<5:15>  
+  parg_d<23:34> ARG1 _identify_v_1<23:34>  
+  parg_d<23:34> ARG2 _individual_n_1<5:15>  
+  _individual_n_1<5:15> PERS 3  
+  _individual_n_1<5:15> NUM sg  
+  _individual_n_1<5:15> IND +  
+  neg<16:22> SF prop  
+  neg<16:22> TENSE untensed  
+  neg<16:22> MOOD indicative  
+  neg<16:22> PROG -  
+  neg<16:22> PERF -  
+  _identify_v_1<23:34> SF prop  
+  _identify_v_1<23:34> TENSE past  
+  _identify_v_1<23:34> MOOD indicative  
+  _identify_v_1<23:34> PROG -  
+  _identify_v_1<23:34> PERF -  
+  parg_d<23:34> SF prop  
+  parg_d<23:34> TENSE untensed  
+  parg_d<23:34> MOOD indicative  
+  parg_d<23:34> PROG -  
+  parg_d<23:34> PERF -  
+}
+

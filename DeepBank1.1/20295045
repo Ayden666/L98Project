@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:48 h)).
+;;;
+
+[20295045] (1 of 1) {1} `Cotton Inc. Campaign'
+
+[20295045:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Cotton", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:11>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:20>, 1, "Campaign", 0, "null", "NNP" 0.9487 "NN" 0.0513)
+>
+
+<
+  (40, 0, 1, <0:6>, 1, "Cotton", 0, "null")
+  (44, 0, 1, <0:6>, 1, "cotton", 0, "null")
+  (48, 0, 1, <0:6>, 1, "cotton", 0, "null")
+  (31, 1, 2, <7:11>, 1, "Inc.", 0, "null")
+  (42, 1, 2, <7:11>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (43, 1, 2, <7:11>, 1, "inc.", 0, "null")
+  (47, 1, 2, <7:11>, 1, "inc.", 0, "null")
+  (30, 2, 3, <12:20>, 1, "Campaign", 0, "null")
+  (41, 2, 3, <12:20>, 1, "Campaign", 0, "null", "NNP" 0.9487)
+  (45, 2, 3, <12:20>, 1, "campaign", 0, "null")
+  (46, 2, 3, <12:20>, 1, "campaign", 0, "null")
+>
+
+(ROOT_FRAG
+ (285 NP_NB-FRG_C 2.16197 0 3
+  (284 N-HDN_CPD_C 3.07901 0 3
+   (282 NP-HDN_CPD_C 2.62775 0 2
+    (281 HDN_BNP-PN_C -0.132944 0 1
+     (51 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Cotton" 40
+       "token [ +CARG #1=\"Cotton\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (65 inc_cmpd_n1@n_-_c-cpd_le -0.506495 1 2
+     ("inc." 43
+      "token [ +CARG \"Inc.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"inc.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (283 ^N_SG_ILR 0.499547 2 3
+    (70 campaign_n1@n_-_c_le 0 2 3
+     ("campaign" 45
+      "token [ +CARG \"Campaign\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"campaign\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94872730000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (N (N (NP (N "Cotton")) (N "inc.")) (N (N "campaign"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:20>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:20>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:20>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:11>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:6>
+            LBL: h20
+            ARG0: x15
+            CARG: "Cotton" ]
+          [ _inc_n_1<7:11>
+            LBL: h14
+            ARG0: x9 ]
+          [ _campaign_n_1<12:20>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:20>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:20>[BV x4]
+ e10:compound<0:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:11>[BV x9]
+ e16:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:6>[BV x15]
+ x15:named<0:6>("Cotton"){x IND +}[]
+ x9:_inc_n_1<7:11>{x PERS 3, NUM sg, IND +}[]
+ x4:_campaign_n_1<12:20>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:20> ARG _campaign_n_1<12:20>  
+  udef_q<0:20> BV _campaign_n_1<12:20>  
+  compound<0:20> ARG1 _campaign_n_1<12:20>  
+  compound<0:20> ARG2 _inc_n_1<7:11>  
+  udef_q<0:11> BV _inc_n_1<7:11>  
+  compound<0:11> ARG1 _inc_n_1<7:11>  
+  compound<0:11> ARG2 named<0:6>(Cotton)  
+  proper_q<0:6> BV named<0:6>(Cotton)  
+  unknown<0:20> SF prop-or-ques  
+  unknown<0:20> TENSE untensed  
+  unknown<0:20> MOOD indicative  
+  unknown<0:20> PROG -  
+  unknown<0:20> PERF -  
+  compound<0:20> SF prop  
+  compound<0:20> TENSE untensed  
+  compound<0:20> MOOD indicative  
+  compound<0:20> PROG -  
+  compound<0:20> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:6>(Cotton) IND +  
+  _inc_n_1<7:11> PERS 3  
+  _inc_n_1<7:11> NUM sg  
+  _inc_n_1<7:11> IND +  
+  _campaign_n_1<12:20> PERS 3  
+  _campaign_n_1<12:20> NUM sg  
+  _campaign_n_1<12:20> IND +  
+}
+

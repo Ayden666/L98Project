@@ -1,0 +1,303 @@
+;;;
+;;; Redwoods export of `wsj01d';
+;;; (wsun@wsun; 22-jan-2018 (11:33 h)).
+;;;
+
+[20162023] (1 of 1) {1} `Mr. Trump withdrew a $120-a-share bid last month.'
+
+[20162023:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Trump", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:18>, 1, "withdrew", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <19:20>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <21:22>, 1, "$", 0, "null", "$" 1.0)
+  (6, 5, 6, <22:33>, 1, "120-a-share", 0, "null", "JJ" 1.0)
+  (7, 6, 7, <34:37>, 1, "bid", 0, "null", "NN" 1.0)
+  (8, 7, 8, <38:42>, 1, "last", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <43:48>, 1, "month", 0, "null", "NN" 1.0)
+  (10, 9, 10, <48:49>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (131, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (140, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (152, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (107, 1, 2, <4:9>, 1, "Trump", 0, "null")
+  (132, 1, 2, <4:9>, 1, "Trump", 0, "null", "NNP" 1.0)
+  (139, 1, 2, <4:9>, 1, "trump", 0, "null")
+  (142, 1, 2, <4:9>, 1, "trump", 0, "null")
+  (124, 2, 3, <10:18>, 1, "withdrew", 0, "null")
+  (137, 2, 3, <10:18>, 1, "withdrew", 0, "null", "VBD" 1.0)
+  (148, 2, 3, <10:18>, 1, "withdrew", 0, "null")
+  (126, 3, 4, <19:20>, 1, "a", 0, "null")
+  (149, 3, 4, <19:20>, 1, "a", 0, "null")
+  (128, 4, 5, <21:22>, 1, "$", 0, "null")
+  (150, 4, 5, <21:22>, 1, "$", 0, "null")
+  (109, 5, 6, <22:33>, 1, "120-", 0, "null")
+  (143, 5, 6, <22:33>, 1, "120-", 0, "null")
+  (105, 5, 8, <22:33>, 1, "120-a-share", 0, "null")
+  (141, 5, 8, <22:33>, 1, "120-a-share", 0, "null")
+  (122, 6, 7, <22:33>, 1, "a-", 0, "null")
+  (136, 6, 7, <22:33>, 1, "a-", 0, "null", "NN" 1.0)
+  (147, 6, 7, <22:33>, 1, "a-", 0, "null")
+  (120, 7, 8, <22:33>, 1, "share", 0, "null")
+  (135, 7, 8, <22:33>, 1, "share", 0, "null", "JJ" 1.0)
+  (146, 7, 8, <22:33>, 1, "share", 0, "null")
+  (116, 8, 9, <34:37>, 1, "bid", 0, "null")
+  (133, 8, 9, <34:37>, 1, "bid", 0, "null", "NN" 1.0)
+  (144, 8, 9, <34:37>, 1, "bid", 0, "null")
+  (118, 9, 10, <38:42>, 1, "last", 0, "null")
+  (134, 9, 10, <38:42>, 1, "last", 0, "null", "JJ" 1.0)
+  (145, 9, 10, <38:42>, 1, "last", 0, "null")
+  (130, 10, 11, <43:49>, 1, "month.", 0, "null")
+  (138, 10, 11, <43:49>, 1, "month.", 0, "null", "NN" 1.0)
+  (151, 10, 11, <43:49>, 1, "month.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2922 SB-HD_MC_C 18.5801 0 11
+  (2897 HDN_BNP-PN_C 4.02279 0 2
+   (2896 NP-HDN_TTL-CPD_C 3.33685 0 2
+    (2894 N_SG_ILR 2.02901 0 1
+     (160 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 140
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2895 ^N_SG_ILR -0.0982517 1 2
+     (166 trump_n2@n_-_pn_le 0 1 2
+      ("trump" 139
+       "token [ +CARG \"Trump\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"trump\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2921 ^HD-AJ_INT-UNSL_C 14.0698 2 11
+   (2920 ^HD-CMP_U_C 9.75085 2 9
+    (2898 ^V_PST_OLR 0.306776 2 3
+     (169 withdraw_v1@v_np*_le 0 2 3
+      ("withdrew" 124
+       "token [ +CARG #1=\"withdrew\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2919 SP-HD_N_C 7.02774 3 9
+     (179 a_det@d_-_sg-nmd_le -0.667877 3 4
+      ("a" 126
+       "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2918 ^AJ-HDN_NORM_C 6.29477 4 9
+      (2907 XP_BRCK-PR_C 5.37145 4 8
+       (2906 SP-HD_HC_C 4.21856 4 8
+        (2902 HDN_BNP_C 3.01941 4 6
+         (2901 N-NUM_MNP_C 2.03182 4 6
+          (2899 ^N_PL-CUR_ILR 1.21255 4 5
+           (252 dollarsign_n1@n_-_c-cur_le -0.146552 4 5
+            ("$" 128
+             "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM \"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+          (2900 W_HYPHEN_PLR 0.593265 5 6
+           (256 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+            ("120-" 109
+             "token [ +CARG #1=\"120-\" +CLASS card_ne +FORM #1 +FROM \"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+        (2905 ^HD-CMP_U_C 1.311 6 8
+         (2903 ^W_HYPHEN_PLR 0 6 7
+          (273 a_prenom_n1@p_nb_pre-meas_le 0 6 7
+           ("a-" 122
+            "token [ +CARG #1=\"a-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (2904 N_SG_ILR 1.311 7 8
+          (379 share_n2@n_-_c-meas-nb_le -0.433175 7 8
+           ("share" 120
+            "token [ +CARG #1=\"share\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))
+      (2908 ^N_SG_ILR 1.73447 8 9
+       (384 bid_n1@n_-_c_le 0.310133 8 9
+        ("bid" 116
+         "token [ +CARG #1=\"bid\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (2912 NP_ADV_C 3.98407 9 11
+    (2911 SP-HD_N_C 4.39332 9 11
+     (449 last_det@d_-_last_le 2.80435 9 10
+      ("last" 118
+       "token [ +CARG #1=\"last\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2910 ^W_PERIOD_PLR 0.294671 10 11
+      (2909 N_SG_ILR -0.874926 10 11
+       (458 month_n1@n_-_c-nday_le 0 10 11
+        ("month." 130
+         "token [ +CARG \"month\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"month.\" +FROM #1=\"43\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "trump"))))
+ (VP
+  (VP (V (V "withdrew"))
+   (NP (DET "a")
+    (N
+     (PP
+      (PP (NP (N (N (N "$")) (ADJ (ADJ "120-"))))
+       (PP (P (P "a-")) (N (N "share")))))
+     (N (N "bid")))))
+  (PP (NP (DET "last") (N (N (N "month.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Trump" ]
+          [ _withdraw_v_1<10:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<19:20>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ udef_q<21:33>
+            LBL: h19
+            ARG0: x21 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h20
+            BODY: h22 ]
+          [ _dollar_n_1<21:22>
+            LBL: h23
+            ARG0: x21 ]
+          [ card<22:33>
+            LBL: h23
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            CARG: "120-" ]
+          [ _a_p_per<22:33>
+            LBL: h23
+            ARG0: i26
+            ARG1: x21
+            ARG2: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ compound<22:33>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x21 ]
+          [ udef_q<22:33>
+            LBL: h29
+            ARG0: x25
+            RSTR: h30
+            BODY: h31 ]
+          [ _share_n_of<22:33>
+            LBL: h32
+            ARG0: x25 ]
+          [ _bid_n_1<34:37>
+            LBL: h27
+            ARG0: x15 ]
+          [ loc_nonsp<38:49>
+            LBL: h2
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x34 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ def_implicit_q<38:42>
+            LBL: h35
+            ARG0: x34
+            RSTR: h36
+            BODY: h37 ]
+          [ _last_a_1<38:42>
+            LBL: h38
+            ARG0: i39
+            ARG1: x34 ]
+          [ _month_n_1<43:49>
+            LBL: h38
+            ARG0: x34 ] >
+   HCONS: < h36 QEQ h38 h30 QEQ h32 h20 QEQ h23 h18 QEQ h27 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Trump"){x PERS 3, NUM sg, IND +}[]
+ e3:_withdraw_v_1<10:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_a_q<19:20>[BV x15]
+ _4:udef_q<21:33>[BV x21]
+ x21:_dollar_n_1<21:22>{x PERS 3, NUM pl, IND +}[]
+ e24:card<22:33>("120-"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21]
+ i26:_a_p_per<22:33>{i}[ARG1 x21, ARG2 x25]
+ e28:compound<22:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x21]
+ _5:udef_q<22:33>[BV x25]
+ x25:_share_n_of<22:33>{x PERS 3, NUM sg, IND +}[]
+ x15:_bid_n_1<34:37>{x PERS 3, NUM sg, IND +}[]
+ e33:loc_nonsp<38:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x34]
+ _6:def_implicit_q<38:42>[BV x34]
+ i39:_last_a_1<38:42>{i}[ARG1 x34]
+ x34:_month_n_1<43:49>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Trump)  
+  compound<0:9> ARG1 named<4:9>(Trump)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _withdraw_v_1<10:18> ARG1 named<4:9>(Trump)  
+  _withdraw_v_1<10:18> ARG2 _bid_n_1<34:37>  
+  _a_q<19:20> BV _bid_n_1<34:37>  
+  udef_q<21:33> BV _dollar_n_1<21:22>  
+  card<22:33>(120-) ARG1 _dollar_n_1<21:22>  
+  _a_p_per<22:33> ARG1 _dollar_n_1<21:22>  
+  _a_p_per<22:33> ARG2 _share_n_of<22:33>  
+  compound<22:33> ARG1 _bid_n_1<34:37>  
+  compound<22:33> ARG2 _dollar_n_1<21:22>  
+  udef_q<22:33> BV _share_n_of<22:33>  
+  loc_nonsp<38:49> ARG1 _withdraw_v_1<10:18>  
+  loc_nonsp<38:49> ARG2 _month_n_1<43:49>  
+  def_implicit_q<38:42> BV _month_n_1<43:49>  
+  _last_a_1<38:42> ARG1 _month_n_1<43:49>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Trump) PERS 3  
+  named<4:9>(Trump) NUM sg  
+  named<4:9>(Trump) IND +  
+  _withdraw_v_1<10:18> SF prop  
+  _withdraw_v_1<10:18> TENSE past  
+  _withdraw_v_1<10:18> MOOD indicative  
+  _withdraw_v_1<10:18> PROG -  
+  _withdraw_v_1<10:18> PERF -  
+  _dollar_n_1<21:22> PERS 3  
+  _dollar_n_1<21:22> NUM pl  
+  _dollar_n_1<21:22> IND +  
+  card<22:33>(120-) SF prop  
+  card<22:33>(120-) TENSE untensed  
+  card<22:33>(120-) MOOD indicative  
+  card<22:33>(120-) PROG -  
+  card<22:33>(120-) PERF -  
+  compound<22:33> SF prop  
+  compound<22:33> TENSE untensed  
+  compound<22:33> MOOD indicative  
+  compound<22:33> PROG -  
+  compound<22:33> PERF -  
+  _share_n_of<22:33> PERS 3  
+  _share_n_of<22:33> NUM sg  
+  _share_n_of<22:33> IND +  
+  _bid_n_1<34:37> PERS 3  
+  _bid_n_1<34:37> NUM sg  
+  _bid_n_1<34:37> IND +  
+  loc_nonsp<38:49> SF prop  
+  loc_nonsp<38:49> TENSE untensed  
+  loc_nonsp<38:49> MOOD indicative  
+  loc_nonsp<38:49> PROG -  
+  loc_nonsp<38:49> PERF -  
+  _month_n_1<43:49> PERS 3  
+  _month_n_1<43:49> NUM sg  
+  _month_n_1<43:49> IND +  
+}
+

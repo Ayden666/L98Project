@@ -1,0 +1,78 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:59 h)).
+;;;
+
+[20633061] (1 of 1) {1} `"No way.'
+
+[20633061:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "No", 0, "null", "DT" 0.967 "UH" 0.033)
+  (3, 2, 3, <4:7>, 1, "way", 0, "null", "NN" 1.0)
+  (4, 3, 4, <7:8>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:3>, 1, "“no", 0, "null")
+  (48, 0, 1, <0:3>, 1, "“no", 0, "null")
+  (42, 1, 2, <4:8>, 1, "way.", 0, "null")
+  (45, 1, 2, <4:8>, 1, "way.", 0, "null", "NN" 1.0)
+  (47, 1, 2, <4:8>, 1, "way.", 0, "null")
+>
+
+(ROOT_FRAG
+ (174 NP_FRG_C -0.06222 0 2
+  (173 SP-HD_N_C 0.944688 0 2
+   (169 W_DQLEFT_PLR 0 0 1
+    (49 no_det@d_-_no_le 0 0 1
+     ("“no" 46
+      "token [ +CARG \"No\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“no\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96700989999999998\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (172 ^HDN_OPTCMP_C 1.05282 1 2
+    (171 W_PERIOD_PLR 0.775723 1 2
+     (170 N_SG_ILR 0.141687 1 2
+      (71 way_n1@n_pp_c-mod-of_le 0 1 2
+       ("way." 42
+        "token [ +CARG \"way\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"way.\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (DET (DET "“no")) (N (N (N (N "way."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:8>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _no_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ _way_n_of<4:8>
+            LBL: h8
+            ARG0: x4
+            ARG1: i9 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:_no_q<0:3>[BV x4]
+ x4:_way_n_of<4:8>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:8> ARG _way_n_of<4:8>  
+  _no_q<0:3> BV _way_n_of<4:8>  
+  unknown<0:8> SF prop  
+  unknown<0:8> TENSE untensed  
+  unknown<0:8> MOOD indicative  
+  unknown<0:8> PROG -  
+  unknown<0:8> PERF -  
+  _way_n_of<4:8> PERS 3  
+  _way_n_of<4:8> NUM sg  
+  _way_n_of<4:8> IND +  
+}
+

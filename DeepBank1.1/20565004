@@ -1,0 +1,274 @@
+;;;
+;;; Redwoods export of `wsj05c';
+;;; (wsun@wsun; 22-jan-2018 (15:20 h)).
+;;;
+
+[20565004] (1 of 1) {1} `Hewlett-Packard is based in Palo Alto, Calif.'
+
+[20565004:0] (active)
+
+<
+  (1, 0, 1, <0:15>, 1, "Hewlett-Packard", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <16:18>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <19:24>, 1, "based", 0, "null", "VBN" 1.0)
+  (4, 3, 4, <25:27>, 1, "in", 0, "null", "IN" 1.0)
+  (5, 4, 5, <28:32>, 1, "Palo", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <33:37>, 1, "Alto", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <37:38>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <39:44>, 1, "Calif", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (117, 0, 1, <0:15>, 1, "Hewlett-", 0, "null")
+  (126, 0, 1, <0:15>, 1, "hewlett-", 0, "null")
+  (136, 0, 1, <0:15>, 1, "hewlett-", 0, "null")
+  (96, 1, 2, <0:15>, 1, "Packard", 0, "null")
+  (119, 1, 2, <0:15>, 1, "Packard", 0, "null", "NNP" 1.0)
+  (125, 1, 2, <0:15>, 1, "packard", 0, "null")
+  (130, 1, 2, <0:15>, 1, "packard", 0, "null")
+  (112, 2, 3, <16:18>, 1, "is", 0, "null")
+  (121, 2, 3, <16:18>, 1, "is", 0, "null", "VBZ" 1.0)
+  (135, 2, 3, <16:18>, 1, "is", 0, "null")
+  (108, 3, 4, <19:24>, 1, "based", 0, "null")
+  (120, 3, 4, <19:24>, 1, "based", 0, "null", "VBN" 1.0)
+  (133, 3, 4, <19:24>, 1, "based", 0, "null")
+  (110, 4, 5, <25:27>, 1, "in", 0, "null")
+  (134, 4, 5, <25:27>, 1, "in", 0, "null")
+  (93, 5, 6, <28:32>, 1, "Palo", 0, "null")
+  (118, 5, 6, <28:32>, 1, "Palo", 0, "null", "NNP" 1.0)
+  (124, 5, 6, <28:32>, 1, "palo", 0, "null")
+  (129, 5, 6, <28:32>, 1, "palo", 0, "null")
+  (98, 6, 7, <33:38>, 1, "Alto,", 0, "null")
+  (122, 6, 7, <33:38>, 1, "Alto,", 0, "null", "NNP" 1.0)
+  (127, 6, 7, <33:38>, 1, "alto,", 0, "null")
+  (131, 6, 7, <33:38>, 1, "alto,", 0, "null")
+  (100, 7, 8, <39:45>, 1, "Calif.", 0, "null")
+  (123, 7, 8, <39:45>, 1, "Calif.", 0, "null", "NNP" 1.0)
+  (128, 7, 8, <39:45>, 1, "calif.", 0, "null")
+  (132, 7, 8, <39:45>, 1, "calif.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2837 SB-HD_MC_C 14.0415 0 8
+  (2821 HDN_BNP-PN_C 1.42466 0 2
+   (2820 XP_BRCK-PR_C 1.20805 0 2
+    (2819 NP-HDN_NME-CPD_C 0.997753 0 2
+     (2817 HDN_BNP-PN_C 0.301291 0 1
+      (2816 W_HYPHEN_PLR 0.307186 0 1
+       (2815 N_SG_ILR -0.246101 0 1
+        (140 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Hewlett-" 117
+          "token [ +CARG #1=\"Hewlett-\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW + ] ]")))))
+     (2818 ^N_SG_ILR -0.318819 1 2
+      (147 packard_n1@n_-_pn_le 0 1 2
+       ("packard" 125
+        "token [ +CARG \"Packard\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"packard\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))
+  (2836 ^HD-CMP_U_C 11.5998 2 8
+   (187 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 112
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2835 HD-CMP_U_C 9.50555 3 8
+    (2823 ^HD_OPTCMP_C 2.86532 3 4
+     (2822 V_PAS_ODLR 2.58747 3 4
+      (291 base_v1@v_np-pp_prop_le 1.80963 3 4
+       ("based" 108
+        "token [ +CARG #1=\"based\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2834 HD-CMP_U_C 5.21992 4 8
+     (411 in@p_np_i-reg_le -0.360807 4 5
+      ("in" 110
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2833 HDN_BNP-PN_C 5.61045 5 8
+      (2832 NP-HDN_CTY-CPD_C 5.12149 5 8
+       (2829 HDN_BNP-PN_C 3.71885 5 7
+        (2828 NP-HDN_NME-CPD_C 3.25666 5 7
+         (2825 HDN_BNP-PN_C 0.365523 5 6
+          (2824 N_SG_ILR -0.386912 5 6
+           (452 generic_proper_ne@n_-_pn-gen_le 0 5 6
+            ("Palo" 93
+             "token [ +CARG #1=\"Palo\" +CLASS proper_ne +FORM #1 +FROM \"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+         (2827 ^W_COMMA_PLR 1.57253 6 7
+          (2826 N_SG_ILR 0.501186 6 7
+           (454 generic_proper_ne@n_-_pn-gen_le 0 6 7
+            ("Alto," 98
+             "token [ +CARG \"Alto\" +CLASS proper_ne +FORM \"Alto,\" +FROM \"33\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+       (2831 ^W_PERIOD_PLR 0.186499 7 8
+        (2830 N_SG_ILR -0.429343 7 8
+         (474 california_n3@n_-_pn_le 0 7 8
+          ("calif." 128
+           "token [ +CARG \"Calif\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"calif.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (NP (N (N (N "Hewlett-")))) (N (N "packard")))))
+ (VP (V "is")
+  (VP (V (V (V "based")))
+   (PP (P "in")
+    (NP
+     (N (NP (N (NP (N (N "Palo"))) (N (N (N "Alto,")))))
+      (N (N (N "calif.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:15>
+            LBL: h14
+            ARG0: x9
+            CARG: "Hewlett-" ]
+          [ named<0:15>
+            LBL: h8
+            ARG0: x6
+            CARG: "Packard" ]
+          [ _base_v_1<19:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x6
+            ARG3: h16 ]
+          [ parg_d<19:24>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _in_p<25:27>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<28:45>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ compound<28:45>
+            LBL: h24
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<28:38>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ compound<28:38>
+            LBL: h30
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x25
+            ARG2: x31 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<28:32>
+            LBL: h33
+            ARG0: x31
+            RSTR: h34
+            BODY: h35 ]
+          [ named<28:32>
+            LBL: h36
+            ARG0: x31
+            CARG: "Palo" ]
+          [ named<33:38>
+            LBL: h30
+            ARG0: x25
+            CARG: "Alto" ]
+          [ named<39:45>
+            LBL: h24
+            ARG0: x20
+            CARG: "California" ] >
+   HCONS: < h34 QEQ h36 h28 QEQ h30 h22 QEQ h24 h16 QEQ h18 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:15>[BV x6]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:15>[BV x9]
+ x9:named<0:15>("Hewlett-"){x PERS 3, NUM sg, IND +}[]
+ x6:named<0:15>("Packard"){x PERS 3, NUM sg, IND +}[]
+ e3:_base_v_1<19:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6, ARG3 e19]
+ e17:parg_d<19:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e19:_in_p<25:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x20]
+ _3:proper_q<28:45>[BV x20]
+ e26:compound<28:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x25]
+ _4:proper_q<28:38>[BV x25]
+ e32:compound<28:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x25, ARG2 x31]
+ _5:proper_q<28:32>[BV x31]
+ x31:named<28:32>("Palo"){x PERS 3, NUM sg, IND +}[]
+ x25:named<33:38>("Alto"){x PERS 3, NUM sg, IND +}[]
+ x20:named<39:45>("California"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:15> BV named<0:15>(Packard)  
+  compound<0:15> ARG1 named<0:15>(Packard)  
+  compound<0:15> ARG2 named<0:15>(Hewlett-)  
+  proper_q<0:15> BV named<0:15>(Hewlett-)  
+  _base_v_1<19:24> ARG2 named<0:15>(Packard)  
+  _base_v_1<19:24> ARG3 _in_p<25:27>  
+  parg_d<19:24> ARG1 _base_v_1<19:24>  
+  parg_d<19:24> ARG2 named<0:15>(Packard)  
+  _in_p<25:27> ARG1 named<0:15>(Packard)  
+  _in_p<25:27> ARG2 named<39:45>(California)  
+  proper_q<28:45> BV named<39:45>(California)  
+  compound<28:45> ARG1 named<39:45>(California)  
+  compound<28:45> ARG2 named<33:38>(Alto)  
+  proper_q<28:38> BV named<33:38>(Alto)  
+  compound<28:38> ARG1 named<33:38>(Alto)  
+  compound<28:38> ARG2 named<28:32>(Palo)  
+  proper_q<28:32> BV named<28:32>(Palo)  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  named<0:15>(Hewlett-) PERS 3  
+  named<0:15>(Hewlett-) NUM sg  
+  named<0:15>(Hewlett-) IND +  
+  named<0:15>(Packard) PERS 3  
+  named<0:15>(Packard) NUM sg  
+  named<0:15>(Packard) IND +  
+  _base_v_1<19:24> SF prop  
+  _base_v_1<19:24> TENSE pres  
+  _base_v_1<19:24> MOOD indicative  
+  _base_v_1<19:24> PROG -  
+  _base_v_1<19:24> PERF -  
+  parg_d<19:24> SF prop  
+  parg_d<19:24> TENSE untensed  
+  parg_d<19:24> MOOD indicative  
+  parg_d<19:24> PROG -  
+  parg_d<19:24> PERF -  
+  _in_p<25:27> SF prop  
+  _in_p<25:27> TENSE untensed  
+  _in_p<25:27> MOOD indicative  
+  _in_p<25:27> PROG -  
+  _in_p<25:27> PERF -  
+  compound<28:45> SF prop  
+  compound<28:45> TENSE untensed  
+  compound<28:45> MOOD indicative  
+  compound<28:45> PROG -  
+  compound<28:45> PERF -  
+  compound<28:38> SF prop  
+  compound<28:38> TENSE untensed  
+  compound<28:38> MOOD indicative  
+  compound<28:38> PROG -  
+  compound<28:38> PERF -  
+  named<28:32>(Palo) PERS 3  
+  named<28:32>(Palo) NUM sg  
+  named<28:32>(Palo) IND +  
+  named<33:38>(Alto) PERS 3  
+  named<33:38>(Alto) NUM sg  
+  named<33:38>(Alto) IND +  
+  named<39:45>(California) PERS 3  
+  named<39:45>(California) NUM sg  
+  named<39:45>(California) IND +  
+}
+

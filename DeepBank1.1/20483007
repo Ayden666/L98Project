@@ -1,0 +1,168 @@
+;;;
+;;; Redwoods export of `wsj04e';
+;;; (wsun@wsun; 22-jan-2018 (14:35 h)).
+;;;
+
+[20483007] (1 of 1) {1} `Mr. Green couldn't be reached.'
+
+[20483007:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Green", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:15>, 1, "could", 0, "null", "MD" 1.0)
+  (4, 3, 4, <15:18>, 1, "n’t", 0, "null", "NN" 0.4308 "RB" 0.3396 "VB" 0.1446 "JJS" 0.085)
+  (5, 4, 5, <19:21>, 1, "be", 0, "null", "VB" 1.0)
+  (6, 5, 6, <22:29>, 1, "reached", 0, "null", "VBN" 1.0)
+  (7, 6, 7, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (78, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (83, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (61, 1, 2, <4:9>, 1, "Green", 0, "null")
+  (74, 1, 2, <4:9>, 1, "Green", 0, "null", "NNP" 1.0)
+  (77, 1, 2, <4:9>, 1, "green", 0, "null")
+  (79, 1, 2, <4:9>, 1, "green", 0, "null")
+  (70, 2, 3, <10:18>, 1, "couldn’t", 0, "null")
+  (81, 2, 3, <10:18>, 1, "couldn’t", 0, "null")
+  (68, 3, 4, <19:21>, 1, "be", 0, "null")
+  (75, 3, 4, <19:21>, 1, "be", 0, "null", "VB" 1.0)
+  (80, 3, 4, <19:21>, 1, "be", 0, "null")
+  (72, 4, 5, <22:30>, 1, "reached.", 0, "null")
+  (76, 4, 5, <22:30>, 1, "reached.", 0, "null", "VBN" 1.0)
+  (82, 4, 5, <22:30>, 1, "reached.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1144 SB-HD_MC_C 10.7159 0 5
+  (1138 HDN_BNP-PN_C 4.02279 0 2
+   (1137 NP-HDN_TTL-CPD_C 3.33685 0 2
+    (1135 N_SG_ILR 2.02901 0 1
+     (91 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 78
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1136 ^N_SG_ILR -0.0982517 1 2
+     (97 green_n3@n_-_pn_le 0 1 2
+      ("green" 77
+       "token [ +CARG \"Green\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"green\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1143 ^HD-CMP_U_C 5.67603 2 5
+   (100 could_aux_neg_3_u@v_vp_mdl-n-pst_le 1.21324 2 3
+    ("couldn’t" 70
+     "token [ +CARG #1=\"couldn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1142 HD-CMP_U_C 3.23593 3 5
+    (102 be_c_be@v_prd_be_le 1.93526 3 4
+     ("be" 68
+      "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1141 HD_OPTCMP_C 0.731012 4 5
+     (1140 W_PERIOD_PLR 0.133685 4 5
+      (1139 V_PAS_ODLR -0.192154 4 5
+       (133 reach_v1@v_np*_le 0 4 5
+        ("reached." 72
+         "token [ +CARG \"reached\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"reached.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "green"))))
+ (VP (V "couldn’t") (VP (V "be") (VP (V (V (V "reached.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Green" ]
+          [ neg<10:18>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _can_v_modal<10:18>
+            LBL: h17
+            ARG0: e3
+            ARG1: h18 ]
+          [ _reach_v_1<22:30>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i21
+            ARG2: x6 ]
+          [ parg_d<22:30>
+            LBL: h19
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x6 ] >
+   HCONS: < h15 QEQ h17 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Green"){x PERS 3, NUM sg, IND +}[]
+ e16:neg<10:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_can_v_modal<10:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e20:_reach_v_1<22:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e22:parg_d<22:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x6]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Green)  
+  compound<0:9> ARG1 named<4:9>(Green)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  neg<10:18> ARG1 _can_v_modal<10:18>  
+  _can_v_modal<10:18> ARG1 _reach_v_1<22:30>  
+  _reach_v_1<22:30> ARG2 named<4:9>(Green)  
+  parg_d<22:30> ARG1 _reach_v_1<22:30>  
+  parg_d<22:30> ARG2 named<4:9>(Green)  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Green) PERS 3  
+  named<4:9>(Green) NUM sg  
+  named<4:9>(Green) IND +  
+  neg<10:18> SF prop  
+  neg<10:18> TENSE untensed  
+  neg<10:18> MOOD indicative  
+  neg<10:18> PROG -  
+  neg<10:18> PERF -  
+  _can_v_modal<10:18> SF prop  
+  _can_v_modal<10:18> TENSE past  
+  _can_v_modal<10:18> MOOD indicative  
+  _can_v_modal<10:18> PROG -  
+  _can_v_modal<10:18> PERF -  
+  _reach_v_1<22:30> SF prop  
+  _reach_v_1<22:30> TENSE untensed  
+  _reach_v_1<22:30> MOOD indicative  
+  _reach_v_1<22:30> PROG -  
+  _reach_v_1<22:30> PERF -  
+  parg_d<22:30> SF prop  
+  parg_d<22:30> TENSE untensed  
+  parg_d<22:30> MOOD indicative  
+  parg_d<22:30> PROG -  
+  parg_d<22:30> PERF -  
+}
+

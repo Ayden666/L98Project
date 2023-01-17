@@ -1,0 +1,152 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:37 h)).
+;;;
+
+[20687027] (1 of 1) {1} `Little Rock, Ark.'
+
+[20687027:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Little", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:11>, 1, "Rock", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:12>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <13:16>, 1, "Ark", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:6>, 1, "Little", 0, "null")
+  (63, 0, 1, <0:6>, 1, "little", 0, "null")
+  (68, 0, 1, <0:6>, 1, "little", 0, "null")
+  (51, 1, 2, <7:12>, 1, "Rock,", 0, "null")
+  (61, 1, 2, <7:12>, 1, "Rock,", 0, "null", "NNP" 1.0)
+  (64, 1, 2, <7:12>, 1, "rock,", 0, "null")
+  (66, 1, 2, <7:12>, 1, "rock,", 0, "null")
+  (53, 2, 3, <13:17>, 1, "Ark.", 0, "null")
+  (62, 2, 3, <13:17>, 1, "Ark.", 0, "null", "NNP" 1.0)
+  (65, 2, 3, <13:17>, 1, "ark.", 0, "null")
+  (67, 2, 3, <13:17>, 1, "ark.", 0, "null")
+>
+
+(ROOT_FRAG
+ (706 NP_FRG_C 2.67094 0 3
+  (705 HDN_BNP-PN_C 3.81745 0 3
+   (704 NP-HDN_CTY-CPD_C 5.09391 0 3
+    (701 HDN_BNP-PN_C 3.71885 0 2
+     (700 NP-HDN_NME-CPD_C 3.25666 0 2
+      (697 HDN_BNP-PN_C 0.365523 0 1
+       (696 N_SG_ILR -0.386912 0 1
+        (71 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Little" 60
+          "token [ +CARG #1=\"Little\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (699 ^W_COMMA_PLR 1.57253 1 2
+       (698 N_SG_ILR 0.501186 1 2
+        (85 generic_proper_ne@n_-_pn-gen_le 0 1 2
+         ("Rock," 51
+          "token [ +CARG \"Rock\" +CLASS proper_ne +FORM \"Rock,\" +FROM \"7\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+    (703 ^W_PERIOD_PLR 1.24389 2 3
+     (702 N_SG_ILR 0.628043 2 3
+      (121 arkansas_n4@n_-_pn-abb_le 0 2 3
+       ("ark." 65
+        "token [ +CARG \"Ark\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"ark.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP
+ (NP
+  (N (NP (N (NP (N (N "Little"))) (N (N (N "Rock,")))))
+   (N (N (N "ark."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:12>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:12>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:6>
+            LBL: h20
+            ARG0: x15
+            CARG: "Little" ]
+          [ named<7:12>
+            LBL: h14
+            ARG0: x9
+            CARG: "Rock" ]
+          [ named<13:17>
+            LBL: h8
+            ARG0: x4
+            CARG: "Arkansas" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:17>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:12>[BV x9]
+ e16:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:6>[BV x15]
+ x15:named<0:6>("Little"){x PERS 3, NUM sg, IND +}[]
+ x9:named<7:12>("Rock"){x PERS 3, NUM sg, IND +}[]
+ x4:named<13:17>("Arkansas"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:17> ARG named<13:17>(Arkansas)  
+  proper_q<0:17> BV named<13:17>(Arkansas)  
+  compound<0:17> ARG1 named<13:17>(Arkansas)  
+  compound<0:17> ARG2 named<7:12>(Rock)  
+  proper_q<0:12> BV named<7:12>(Rock)  
+  compound<0:12> ARG1 named<7:12>(Rock)  
+  compound<0:12> ARG2 named<0:6>(Little)  
+  proper_q<0:6> BV named<0:6>(Little)  
+  unknown<0:17> SF prop  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:6>(Little) PERS 3  
+  named<0:6>(Little) NUM sg  
+  named<0:6>(Little) IND +  
+  named<7:12>(Rock) PERS 3  
+  named<7:12>(Rock) NUM sg  
+  named<7:12>(Rock) IND +  
+  named<13:17>(Arkansas) PERS 3  
+  named<13:17>(Arkansas) NUM sg  
+  named<13:17>(Arkansas) IND +  
+}
+

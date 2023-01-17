@@ -1,0 +1,225 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:35 h)).
+;;;
+
+[20684004] (1 of 1) {1} `Its Houston work force now totals 230.'
+
+[20684004:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Its", 0, "null", "PRP$" 1.0)
+  (2, 1, 2, <4:11>, 1, "Houston", 0, "null", "NNP" 0.8973 "JJ" 0.1027)
+  (3, 2, 3, <12:16>, 1, "work", 0, "null", "NN" 0.9815 "VB" 0.0185)
+  (4, 3, 4, <17:22>, 1, "force", 0, "null", "NN" 0.951 "VB" 0.0268 "VBP" 0.0222)
+  (5, 4, 5, <23:26>, 1, "now", 0, "null", "RB" 1.0)
+  (6, 5, 6, <27:33>, 1, "totals", 0, "null", "VBZ" 0.9865 "NNS" 0.0135)
+  (7, 6, 7, <34:37>, 1, "230", 0, "null", "CD" 1.0)
+  (8, 7, 8, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (102, 0, 1, <0:3>, 1, "its", 0, "null")
+  (111, 0, 1, <0:3>, 1, "its", 0, "null")
+  (72, 1, 2, <4:11>, 1, "Houston", 0, "null")
+  (96, 1, 2, <4:11>, 1, "Houston", 0, "null", "NNP" 0.8973)
+  (101, 1, 2, <4:11>, 1, "Houston", 0, "null", "JJ" 0.1027)
+  (103, 1, 2, <4:11>, 1, "houston", 0, "null")
+  (104, 1, 2, <4:11>, 1, "houston", 0, "null")
+  (90, 2, 3, <12:16>, 1, "work", 0, "null")
+  (97, 2, 3, <12:16>, 1, "work", 0, "null", "NN" 0.9815)
+  (107, 2, 3, <12:16>, 1, "work", 0, "null")
+  (92, 3, 4, <17:22>, 1, "force", 0, "null")
+  (98, 3, 4, <17:22>, 1, "force", 0, "null", "NN" 0.951)
+  (108, 3, 4, <17:22>, 1, "force", 0, "null")
+  (87, 4, 5, <23:26>, 1, "now", 0, "null")
+  (100, 4, 5, <23:26>, 1, "now", 0, "null", "RB" 1.0)
+  (106, 4, 5, <23:26>, 1, "now", 0, "null")
+  (93, 5, 6, <27:33>, 1, "totals", 0, "null")
+  (99, 5, 6, <27:33>, 1, "totals", 0, "null", "VBZ" 0.9865)
+  (109, 5, 6, <27:33>, 1, "totals", 0, "null")
+  (73, 6, 7, <34:38>, 1, "230.", 0, "null")
+  (105, 6, 7, <34:38>, 1, "230.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1693 SB-HD_MC_C 11.3482 0 7
+  (1679 SP-HD_N_C 3.12494 0 4
+   (132 its_poss@d_-_poss-its_le -0.00768797 0 1
+    ("its" 102
+     "token [ +CARG \"Its\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"its\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1678 ^NP-HDN_CPD_C 2.29879 1 4
+    (1675 HDN_BNP-PN_C -0.138307 1 2
+     (154 houston_n1@n_-_pn_le 0 1 2
+      ("houston" 103
+       "token [ +CARG \"Houston\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"houston\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89726810000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1677 ^N-HDN_CPD_C 2.44522 2 4
+     (158 work_n1@n_-_mc_le 0.835473 2 3
+      ("work" 90
+       "token [ +CARG #1=\"work\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98153170000000001\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1676 ^N_MS-CNT_ILR 0.977647 3 4
+      (169 force_n1@n_-_mc_le 0.497867 3 4
+       ("force" 92
+        "token [ +CARG #1=\"force\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95103349999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1692 ^AJ-HD_INT_C 6.61721 4 7
+   (176 now_adv2@av_-_i-vp-pr_le 1.88979 4 5
+    ("now" 87
+     "token [ +CARG #1=\"now\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1691 ^HD-CMP_U_C 3.53732 5 7
+    (1680 ^V_3S-FIN_OLR 7.541e-4 5 6
+     (195 total_v1@v_np_ntr_le 0 5 6
+      ("totals" 93
+       "token [ +CARG #1=\"totals\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98649920000000002\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1690 HDN_BNP-NUM_C 3.37898 6 7
+     (1689 HDN_NP-NUM_C 3.49617 6 7
+      (1688 W_PERIOD_PLR 2.19869 6 7
+       (206 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+        ("230." 73
+         "token [ +CARG \"230\" +CLASS card_or_year_ne +FORM \"230.\" +FROM \"34\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S
+ (NP (DET "its") (N (NP (N "houston")) (N (N "work") (N (N "force")))))
+ (VP (ADV "now") (VP (V (V "totals")) (NP (N (ADJ (ADJ "230.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ def_explicit_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ poss<0:3>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ pron<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ compound<4:22>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<4:11>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<4:11>
+            LBL: h20
+            ARG0: x15
+            CARG: "Houston" ]
+          [ compound<12:22>
+            LBL: h8
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x21 ]
+          [ udef_q<12:16>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ _work_n_1<12:16>
+            LBL: h26
+            ARG0: x21 ]
+          [ _force_n_1<17:22>
+            LBL: h8
+            ARG0: x6 ]
+          [ _now_a_1<23:26>
+            LBL: h2
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _total_v_1<27:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x28 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<34:38>
+            LBL: h29
+            ARG0: x28
+            RSTR: h30
+            BODY: h31 ]
+          [ card<34:38>
+            LBL: h32
+            ARG0: x28
+            ARG1: i33
+            CARG: "230" ] >
+   HCONS: < h30 QEQ h32 h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:def_explicit_q<0:3>[BV x6]
+ e10:poss<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:pronoun_q<0:3>[BV x9]
+ x9:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ e16:compound<4:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:proper_q<4:11>[BV x15]
+ x15:named<4:11>("Houston"){x IND +}[]
+ e22:compound<12:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x21]
+ _4:udef_q<12:16>[BV x21]
+ x21:_work_n_1<12:16>{x}[]
+ x6:_force_n_1<17:22>{x PERS 3, NUM sg}[]
+ e27:_now_a_1<23:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_total_v_1-fn.Amounting_to<27:33>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2-fn.Attribute x28]
+ _5:number_q<34:38>[BV x28]
+ x28:card<34:38>("230"){x PERS 3, NUM sg}[]
+}
+
+{
+  def_explicit_q<0:3> BV _force_n_1<17:22>  
+  poss<0:3> ARG1 _force_n_1<17:22>  
+  poss<0:3> ARG2 pron<0:3>  
+  pronoun_q<0:3> BV pron<0:3>  
+  compound<4:22> ARG1 _force_n_1<17:22>  
+  compound<4:22> ARG2 named<4:11>(Houston)  
+  proper_q<4:11> BV named<4:11>(Houston)  
+  compound<12:22> ARG1 _force_n_1<17:22>  
+  compound<12:22> ARG2 _work_n_1<12:16>  
+  udef_q<12:16> BV _work_n_1<12:16>  
+  _now_a_1<23:26> ARG1 _total_v_1<27:33>  
+  _total_v_1<27:33> ARG1 _force_n_1<17:22>  
+  _total_v_1<27:33> ARG2 card<34:38>(230)  
+  number_q<34:38> BV card<34:38>(230)  
+  poss<0:3> SF prop  
+  poss<0:3> TENSE untensed  
+  poss<0:3> MOOD indicative  
+  poss<0:3> PROG -  
+  poss<0:3> PERF -  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  compound<4:22> SF prop  
+  compound<4:22> TENSE untensed  
+  compound<4:22> MOOD indicative  
+  compound<4:22> PROG -  
+  compound<4:22> PERF -  
+  named<4:11>(Houston) IND +  
+  compound<12:22> SF prop  
+  compound<12:22> TENSE untensed  
+  compound<12:22> MOOD indicative  
+  compound<12:22> PROG -  
+  compound<12:22> PERF -  
+  _force_n_1<17:22> PERS 3  
+  _force_n_1<17:22> NUM sg  
+  _now_a_1<23:26> SF prop  
+  _now_a_1<23:26> TENSE untensed  
+  _now_a_1<23:26> MOOD indicative  
+  _now_a_1<23:26> PROG -  
+  _now_a_1<23:26> PERF -  
+  _total_v_1<27:33> SF prop  
+  _total_v_1<27:33> TENSE pres  
+  _total_v_1<27:33> MOOD indicative  
+  _total_v_1<27:33> PROG -  
+  _total_v_1<27:33> PERF -  
+  card<34:38>(230) PERS 3  
+  card<34:38>(230) NUM sg  
+}
+

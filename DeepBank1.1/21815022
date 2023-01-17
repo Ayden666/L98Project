@@ -1,0 +1,160 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (03:02 h)).
+;;;
+
+[21815022] (1 of 1) {1} `The Census Bureau also said:'
+
+[21815022:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "Census", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:17>, 1, "Bureau", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <18:22>, 1, "also", 0, "null", "RB" 1.0)
+  (5, 4, 5, <23:27>, 1, "said", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <27:28>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (77, 0, 1, <0:3>, 1, "the", 0, "null")
+  (85, 0, 1, <0:3>, 1, "the", 0, "null")
+  (57, 1, 2, <4:10>, 1, "Census", 0, "null")
+  (71, 1, 2, <4:10>, 1, "Census", 0, "null", "NNP" 1.0)
+  (75, 1, 2, <4:10>, 1, "census", 0, "null")
+  (78, 1, 2, <4:10>, 1, "census", 0, "null")
+  (58, 2, 3, <11:17>, 1, "Bureau", 0, "null")
+  (72, 2, 3, <11:17>, 1, "Bureau", 0, "null", "NNP" 1.0)
+  (76, 2, 3, <11:17>, 1, "bureau", 0, "null")
+  (79, 2, 3, <11:17>, 1, "bureau", 0, "null")
+  (66, 3, 4, <18:22>, 1, "also", 0, "null")
+  (73, 3, 4, <18:22>, 1, "also", 0, "null", "RB" 1.0)
+  (80, 3, 4, <18:22>, 1, "also", 0, "null")
+  (68, 4, 5, <23:27>, 1, "said", 0, "null")
+  (74, 4, 5, <23:27>, 1, "said", 0, "null", "VBD" 1.0)
+  (81, 4, 5, <23:27>, 1, "said", 0, "null")
+  (70, 5, 6, <27:28>, 1, ":", 0, "null")
+  (82, 5, 6, <27:28>, 1, ":", 0, "null")
+>
+
+(ROOT_STRICT
+ (2050 SB-HD_MC_C 8.58425 0 6
+  (2041 SP-HD_N_C 5.10452 0 3
+   (98 the_1@d_-_the_le -0.121681 0 1
+    ("the" 77
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2040 ^NP-HDN_NME-CPD_C 2.42951 1 3
+    (2038 HDN_BNP-PN_C 0.600065 1 2
+     (2037 N_SG_ILR -0.386912 1 2
+      (125 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Census" 57
+        "token [ +CARG #1=\"Census\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (2039 ^N_SG_ILR 0.764581 2 3
+     (138 generic_proper_ne@n_-_pn-gen_le 0.518362 2 3
+      ("Bureau" 58
+       "token [ +CARG #1=\"Bureau\" +CLASS proper_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2049 ^AJ-HD_SCP-XP_C 2.00299 3 6
+   (141 also_adv1@av_-_s-vp-x_le -0.0583193 3 4
+    ("also" 66
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2048 ^HD-CMP_U_C 0.0225721 4 6
+    (2047 ^V_PST_OLR -0.429331 4 5
+     (195 say_v3@v_pp_arg_le -0.336275 4 5
+      ("said" 68
+       "token [ +CARG #1=\"said\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (403 colon_namely_pp@pp_-_i-cln_le -0.0322658 5 6
+     (":" 70
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "the") (N (NP (N (N "Census"))) (N (N "Bureau"))))
+ (VP (ADV "also") (VP (V (V "said")) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<4:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<4:10>
+            LBL: h14
+            ARG0: x9
+            CARG: "Census" ]
+          [ named<11:17>
+            LBL: h8
+            ARG0: x6
+            CARG: "Bureau" ]
+          [ _also_a_1<18:22>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h16 ]
+          [ _say_v_loc<23:27>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6
+            ARG2: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _colon_p_namely<27:28>
+            LBL: h17
+            ARG0: e18
+            ARG1: i19 ] >
+   HCONS: < h16 QEQ h17 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e15:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<4:10>[BV x9]
+ x9:named<4:10>("Census"){x PERS 3, NUM sg, IND +}[]
+ x6:named<11:17>("Bureau"){x PERS 3, NUM sg, IND +}[]
+ e15:_also_a_1<18:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e18]
+ e3:_say_v_loc<23:27>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e18]
+ e18:_colon_p_namely<27:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  _the_q<0:3> BV named<11:17>(Bureau)  
+  compound<4:17> ARG1 named<11:17>(Bureau)  
+  compound<4:17> ARG2 named<4:10>(Census)  
+  proper_q<4:10> BV named<4:10>(Census)  
+  _also_a_1<18:22> ARG1 _colon_p_namely<27:28>  
+  _say_v_loc<23:27> ARG1 named<11:17>(Bureau)  
+  _say_v_loc<23:27> ARG2 _colon_p_namely<27:28>  
+  compound<4:17> SF prop  
+  compound<4:17> TENSE untensed  
+  compound<4:17> MOOD indicative  
+  compound<4:17> PROG -  
+  compound<4:17> PERF -  
+  named<4:10>(Census) PERS 3  
+  named<4:10>(Census) NUM sg  
+  named<4:10>(Census) IND +  
+  named<11:17>(Bureau) PERS 3  
+  named<11:17>(Bureau) NUM sg  
+  named<11:17>(Bureau) IND +  
+  _also_a_1<18:22> SF prop  
+  _also_a_1<18:22> TENSE untensed  
+  _also_a_1<18:22> MOOD indicative  
+  _also_a_1<18:22> PROG -  
+  _also_a_1<18:22> PERF -  
+  _say_v_loc<23:27> SF prop  
+  _say_v_loc<23:27> TENSE past  
+  _say_v_loc<23:27> MOOD indicative  
+  _say_v_loc<23:27> PROG -  
+  _say_v_loc<23:27> PERF -  
+  _colon_p_namely<27:28> SF prop  
+  _colon_p_namely<27:28> TENSE untensed  
+  _colon_p_namely<27:28> MOOD indicative  
+  _colon_p_namely<27:28> PROG -  
+  _colon_p_namely<27:28> PERF -  
+}
+

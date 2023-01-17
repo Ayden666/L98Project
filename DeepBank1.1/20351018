@@ -1,0 +1,103 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:25 h)).
+;;;
+
+[20351018] (1 of 1) {1} `Corporate bonds were unchanged.'
+
+[20351018:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Corporate", 0, "null", "JJ" 0.956 "NNP" 0.044)
+  (2, 1, 2, <10:15>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <16:20>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <21:30>, 1, "unchanged", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:9>, 1, "Corporate", 0, "null", "JJ" 0.956)
+  (61, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (65, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (50, 1, 2, <10:15>, 1, "bonds", 0, "null")
+  (58, 1, 2, <10:15>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (62, 1, 2, <10:15>, 1, "bonds", 0, "null")
+  (52, 2, 3, <16:20>, 1, "were", 0, "null")
+  (59, 2, 3, <16:20>, 1, "were", 0, "null", "VBD" 1.0)
+  (63, 2, 3, <16:20>, 1, "were", 0, "null")
+  (54, 3, 4, <21:31>, 1, "unchanged.", 0, "null")
+  (60, 3, 4, <21:31>, 1, "unchanged.", 0, "null", "JJ" 1.0)
+  (64, 3, 4, <21:31>, 1, "unchanged.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1209 SB-HD_MC_C 6.25045 0 4
+  (1206 HDN_BNP_C 2.19609 0 2
+   (1205 AJ-HDN_NORM_C 1.46159 0 2
+    (67 corporate_isect@aj_-_i_le 0 0 1
+     ("corporate" 61
+      "token [ +CARG \"Corporate\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"corporate\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95602699999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1204 ^N_PL_OLR 0.533702 1 2
+     (68 bond_n2@n_-_c_le 0.552559 1 2
+      ("bonds" 50
+       "token [ +CARG #1=\"bonds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1208 ^HD-CMP_U_C 2.53846 2 4
+   (81 be_c_were@v_prd_wre_le 0.222297 2 3
+    ("were" 52
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1207 W_PERIOD_PLR 0.864056 3 4
+    (207 unchanged_a1@aj_-_i_le 0.25157 3 4
+     ("unchanged." 54
+      "token [ +CARG \"unchanged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"unchanged.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (AP "corporate") (N (N "bonds"))))
+ (VP (V "were") (AP (AP "unchanged."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _corporate_a_1<0:9>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _bond_n_1<10:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _unchanged_a_1<21:31>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:15>[BV x6]
+ e9:_corporate_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_bond_n_1<10:15>{x PERS 3, NUM pl, IND +}[]
+ e3:_unchanged_a_1<21:31>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:15> BV _bond_n_1<10:15>  
+  _corporate_a_1<0:9> ARG1 _bond_n_1<10:15>  
+  _unchanged_a_1<21:31> ARG1 _bond_n_1<10:15>  
+  _corporate_a_1<0:9> SF prop  
+  _corporate_a_1<0:9> TENSE untensed  
+  _corporate_a_1<0:9> MOOD indicative  
+  _corporate_a_1<0:9> PROG -  
+  _corporate_a_1<0:9> PERF -  
+  _bond_n_1<10:15> PERS 3  
+  _bond_n_1<10:15> NUM pl  
+  _bond_n_1<10:15> IND +  
+  _unchanged_a_1<21:31> SF prop  
+  _unchanged_a_1<21:31> TENSE past  
+  _unchanged_a_1<21:31> MOOD indicative  
+  _unchanged_a_1<21:31> PROG -  
+  _unchanged_a_1<21:31> PERF -  
+}
+

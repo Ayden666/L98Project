@@ -1,0 +1,135 @@
+;;;
+;;; Redwoods export of `wsj20c';
+;;; (wsun@wsun; 23-jan-2018 (05:19 h)).
+;;;
+
+[22045043] (1 of 1) {1} `LIVESTOCK AND MEATS:'
+
+[22045043:11] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "LIVESTOCK", 0, "null", "NNP" 0.9514 "NN" 0.0486)
+  (2, 1, 2, <10:13>, 1, "AND", 0, "null", "CC" 0.8763 "NNP" 0.1237)
+  (3, 2, 3, <14:19>, 1, "MEATS", 0, "null", "NNPS" 0.9362 "NNS" 0.0638)
+  (4, 3, 4, <19:20>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (42, 0, 1, <0:9>, 1, "LIVESTOCK", 0, "null")
+  (58, 0, 1, <0:9>, 1, "LIVESTOCK", 0, "null", "NNP" 0.9514)
+  (62, 0, 1, <0:9>, 1, "livestock", 0, "null")
+  (65, 0, 1, <0:9>, 1, "livestock", 0, "null")
+  (40, 1, 2, <10:13>, 1, "AND", 0, "null")
+  (59, 1, 2, <10:13>, 1, "AND", 0, "null", "NNP" 0.1237)
+  (60, 1, 2, <10:13>, 1, "and", 0, "null")
+  (63, 1, 2, <10:13>, 1, "and", 0, "null")
+  (41, 2, 3, <14:19>, 1, "MEATS", 0, "null")
+  (57, 2, 3, <14:19>, 1, "MEATS", 0, "null", "NNPS" 0.9362)
+  (61, 2, 3, <14:19>, 1, "meats", 0, "null")
+  (64, 2, 3, <14:19>, 1, "meats", 0, "null")
+  (50, 3, 4, <19:20>, 1, ":", 0, "null")
+  (66, 3, 4, <19:20>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (728 NP_FRG_C 0.385787 0 4
+  (727 HDN_BNP_C 0.5902 0 4
+   (726 HDN-AJ_REDREL_C 0.685596 0 4
+    (725 ^N-N_CRD-DIV-T_C 0.347043 0 3
+     (670 N_MS-CNT_ILR -0.14807 0 1
+      (72 livestock_n1@n_-_mc_le 0 0 1
+       ("livestock" 62
+        "token [ +CARG \"LIVESTOCK\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"livestock\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95138979999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (720 ^MRK-NH_N_C -0.415614 1 3
+      (81 and_conj@c_xp_and_le -0.668842 1 2
+       ("and" 60
+        "token [ +CARG \"AND\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"and\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8763398\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (687 N_PL_OLR 0.373418 2 3
+       (99 meat_n1@n_-_mc_le 0 2 3
+        ("meats" 61
+         "token [ +CARG \"MEATS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"meats\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93615510000000002\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (114 colon_namely_pp@pp_-_i-cln_le -0.0322658 3 4
+     (":" 50
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP
+  (N (N (N (N "livestock")) (N (CONJ "and") (N (N "meats"))))
+   (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:20>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 ] ]
+          [ udef_q<0:20>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ udef_q<0:9>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG ]
+            RSTR: h9
+            BODY: h11 ]
+          [ _livestock_n_1<0:9>
+            LBL: h12
+            ARG0: x10 ]
+          [ udef_q<10:19>
+            LBL: h13
+            ARG0: x14 [ x PERS: 3 NUM: PL ]
+            RSTR: h15
+            BODY: h16 ]
+          [ _and_c<10:13>
+            LBL: h17
+            ARG0: x4
+            L-INDEX: x10
+            R-INDEX: x14 ]
+          [ _meat_n_1<14:19>
+            LBL: h18
+            ARG0: x14 ]
+          [ _colon_p_namely<19:20>
+            LBL: h17
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h15 QEQ h18 h9 QEQ h12 h6 QEQ h17 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:20>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:20>[BV x4]
+ _2:udef_q<0:9>[BV x10]
+ x10:_livestock_n_1<0:9>{x PERS 3, NUM sg}[]
+ _3:udef_q<10:19>[BV x14]
+ x4:_and_c<10:13>{x PERS 3}[L-INDEX x10, R-INDEX x14]
+ x14:_meat_n_1<14:19>{x PERS 3, NUM pl}[]
+ e19:_colon_p_namely<19:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:20> ARG _and_c<10:13>  
+  udef_q<0:20> BV _and_c<10:13>  
+  udef_q<0:9> BV _livestock_n_1<0:9>  
+  udef_q<10:19> BV _meat_n_1<14:19>  
+  _and_c<10:13> L-INDEX _livestock_n_1<0:9>  
+  _and_c<10:13> R-INDEX _meat_n_1<14:19>  
+  _colon_p_namely<19:20> ARG1 _and_c<10:13>  
+  unknown<0:20> SF prop-or-ques  
+  unknown<0:20> TENSE untensed  
+  unknown<0:20> MOOD indicative  
+  unknown<0:20> PROG -  
+  unknown<0:20> PERF -  
+  _livestock_n_1<0:9> PERS 3  
+  _livestock_n_1<0:9> NUM sg  
+  _and_c<10:13> PERS 3  
+  _meat_n_1<14:19> PERS 3  
+  _meat_n_1<14:19> NUM pl  
+  _colon_p_namely<19:20> SF prop  
+  _colon_p_namely<19:20> TENSE untensed  
+  _colon_p_namely<19:20> MOOD indicative  
+  _colon_p_namely<19:20> PROG -  
+  _colon_p_namely<19:20> PERF -  
+}
+

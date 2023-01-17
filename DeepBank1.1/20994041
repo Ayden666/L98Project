@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:04 h)).
+;;;
+
+[20994041] (1 of 1) {1} `Will the investments pay off?'
+
+[20994041:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Will", 0, "null", "MD" 0.6933 "NNP" 0.3067)
+  (2, 1, 2, <5:8>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <9:20>, 1, "investments", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <21:24>, 1, "pay", 0, "null", "VBP" 0.5285 "VB" 0.4533 "NN" 0.0182)
+  (5, 4, 5, <25:28>, 1, "off", 0, "null", "RP" 0.8228 "RB" 0.1409 "IN" 0.0222 "JJ" 0.0141)
+  (6, 5, 6, <28:29>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (78, 0, 1, <0:4>, 1, "Will", 0, "null")
+  (83, 0, 1, <0:4>, 1, "will", 0, "null")
+  (88, 0, 1, <0:4>, 1, "will", 0, "null")
+  (69, 1, 2, <5:8>, 1, "the", 0, "null")
+  (84, 1, 2, <5:8>, 1, "the", 0, "null")
+  (71, 2, 3, <9:20>, 1, "investments", 0, "null")
+  (82, 2, 3, <9:20>, 1, "investments", 0, "null", "NNS" 1.0)
+  (85, 2, 3, <9:20>, 1, "investments", 0, "null")
+  (74, 3, 4, <21:24>, 1, "pay", 0, "null")
+  (79, 3, 4, <21:24>, 1, "pay", 0, "null", "VBP" 0.5285)
+  (80, 3, 4, <21:24>, 1, "pay", 0, "null", "VB" 0.4533)
+  (86, 3, 4, <21:24>, 1, "pay", 0, "null")
+  (75, 4, 5, <25:29>, 1, "off?", 0, "null")
+  (81, 4, 5, <25:29>, 1, "off?", 0, "null", "RB" 0.1409)
+  (87, 4, 5, <25:29>, 1, "off?", 0, "null")
+>
+
+(ROOT_STRICT
+ (999 HD_YESNO_C 2.74219 0 5
+  (998 HD-CMP_U_C 2.76279 0 5
+   (994 ^HD-CMP_U_C 1.79456 0 3
+    (991 ^V_AUX-SB-INV_DLR 0.576771 0 1
+     (96 will_aux_pos@v_vp_will-p_le 0.576771 0 1
+      ("will" 83
+       "token [ +CARG \"Will\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"will\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69325919999999996\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (993 SP-HD_N_C 0.681225 1 3
+     (118 the_1@d_-_the_le 1.07131 1 2
+      ("the" 69
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (992 ^N_PL_OLR -0.098621 2 3
+      (143 investment_n1@n_-_mc-ns_le 0 2 3
+       ("investments" 71
+        "token [ +CARG #1=\"investments\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (997 HD-CMP_U_C -0.039873 3 5
+    (995 ^V_N3S-BSE_ILR -0.039873 3 4
+     (157 pay_off_v2@v_p_le 0 3 4
+      ("pay" 74
+       "token [ +CARG #1=\"pay\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.52851959999999998\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (996 W_QMARK_PLR 0 4 5
+     (196 off_prtcl@p_np_ptcl_le 0 4 5
+      ("off?" 75
+       "token [ +CARG \"off\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"off?\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82276329999999998\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S
+ (S (V (V (V "will")) (NP (DET "the") (N (N "investments"))))
+  (VP (V (V "pay")) (P (P "off?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<5:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _investment_n_1<9:20>
+            LBL: h8
+            ARG0: x6 ]
+          [ _pay_v_off<21:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<5:8>[BV x6]
+ x6:_investment_n_1<9:20>{x PERS 3, NUM pl}[]
+ e3:_pay_v_off<21:24>{e SF ques, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<5:8> BV _investment_n_1<9:20>  
+  _pay_v_off<21:24> ARG1 _investment_n_1<9:20>  
+  _investment_n_1<9:20> PERS 3  
+  _investment_n_1<9:20> NUM pl  
+  _pay_v_off<21:24> SF ques  
+  _pay_v_off<21:24> TENSE fut  
+  _pay_v_off<21:24> MOOD indicative  
+  _pay_v_off<21:24> PROG -  
+  _pay_v_off<21:24> PERF -  
+}
+

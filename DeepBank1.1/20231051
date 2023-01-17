@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:09 h)).
+;;;
+
+[20231051] (1 of 1) {1} `Taipei was closed for a holiday.'
+
+[20231051:2] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Taipei", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:10>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <11:17>, 1, "closed", 0, "null", "VBN" 0.8981 "VBD" 0.0718 "JJ" 0.0301)
+  (4, 3, 4, <18:21>, 1, "for", 0, "null", "IN" 1.0)
+  (5, 4, 5, <22:23>, 1, "a", 0, "null", "DT" 1.0)
+  (6, 5, 6, <24:31>, 1, "holiday", 0, "null", "NN" 1.0)
+  (7, 6, 7, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:6>, 1, "Taipei", 0, "null")
+  (85, 0, 1, <0:6>, 1, "taipei", 0, "null")
+  (91, 0, 1, <0:6>, 1, "taipei", 0, "null")
+  (72, 1, 2, <7:10>, 1, "was", 0, "null")
+  (83, 1, 2, <7:10>, 1, "was", 0, "null", "VBD" 1.0)
+  (86, 1, 2, <7:10>, 1, "was", 0, "null")
+  (79, 2, 3, <11:17>, 1, "closed", 0, "null")
+  (82, 2, 3, <11:17>, 1, "closed", 0, "null", "VBN" 0.8981)
+  (90, 2, 3, <11:17>, 1, "closed", 0, "null")
+  (74, 3, 4, <18:21>, 1, "for", 0, "null")
+  (87, 3, 4, <18:21>, 1, "for", 0, "null")
+  (76, 4, 5, <22:23>, 1, "a", 0, "null")
+  (88, 4, 5, <22:23>, 1, "a", 0, "null")
+  (78, 5, 6, <24:32>, 1, "holiday.", 0, "null")
+  (84, 5, 6, <24:32>, 1, "holiday.", 0, "null", "NN" 1.0)
+  (89, 5, 6, <24:32>, 1, "holiday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1627 SB-HD_MC_C 3.99276 0 6
+  (1609 HDN_BNP-PN_C -1.0285 0 1
+   (1608 N_SG_ILR -0.979548 0 1
+    (92 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Taipei" 81
+      "token [ +CARG #1=\"Taipei\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1626 ^HD-CMP_U_C 4.00421 1 6
+   (97 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 72
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1625 HD-AJ_INT-UNSL_C 1.98737 2 6
+    (269 closed_isect@aj_-_i_le 0.430634 2 3
+     ("closed" 79
+      "token [ +CARG #1=\"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89807769999999998\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1624 HD-CMP_U_C -0.0143701 3 6
+     (348 for@p_np_i_le -0.354773 3 4
+      ("for" 74
+       "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1623 SP-HD_N_C -0.327906 4 6
+      (366 a_det@d_-_sg-nmd_le -0.667877 4 5
+       ("a" 76
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1611 ^W_PERIOD_PLR 0.824823 5 6
+       (1610 N_SG_ILR 0 5 6
+        (440 holiday_n1@n_-_c-day_le 0 5 6
+         ("holiday." 78
+          "token [ +CARG \"holiday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"holiday.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N "Taipei")))
+ (VP (V "was")
+  (AP (AP "closed")
+   (PP (P "for") (NP (DET "a") (N (N (N "holiday."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Taipei" ]
+          [ _closed_a_1<11:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _for_p<18:21>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<22:23>
+            LBL: h11
+            ARG0: x10
+            RSTR: h13
+            BODY: h12 ]
+          [ _holiday_n_1<24:32>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h13 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Taipei"){x PERS 3, NUM sg, IND +}[]
+ e3:_closed_a_1<11:17>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:_for_p<18:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:_a_q<22:23>[BV x10]
+ x10:_holiday_n_1<24:32>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Taipei)  
+  _closed_a_1<11:17> ARG1 named<0:6>(Taipei)  
+  _for_p<18:21> ARG1 _closed_a_1<11:17>  
+  _for_p<18:21> ARG2 _holiday_n_1<24:32>  
+  _a_q<22:23> BV _holiday_n_1<24:32>  
+  named<0:6>(Taipei) PERS 3  
+  named<0:6>(Taipei) NUM sg  
+  named<0:6>(Taipei) IND +  
+  _closed_a_1<11:17> SF prop  
+  _closed_a_1<11:17> TENSE past  
+  _closed_a_1<11:17> MOOD indicative  
+  _closed_a_1<11:17> PROG -  
+  _closed_a_1<11:17> PERF -  
+  _for_p<18:21> SF prop  
+  _for_p<18:21> TENSE untensed  
+  _for_p<18:21> MOOD indicative  
+  _for_p<18:21> PROG -  
+  _for_p<18:21> PERF -  
+  _holiday_n_1<24:32> PERS 3  
+  _holiday_n_1<24:32> NUM sg  
+  _holiday_n_1<24:32> IND +  
+}
+

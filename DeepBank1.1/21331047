@@ -1,0 +1,272 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:14 h)).
+;;;
+
+[21331047] (1 of 1) {1} `Mr. Donohoo is scheduled to be sentenced Dec. 11.'
+
+[21331047:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Donohoo", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:24>, 1, "scheduled", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <25:27>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <28:30>, 1, "be", 0, "null", "VB" 1.0)
+  (7, 6, 7, <31:40>, 1, "sentenced", 0, "null", "VBN" 1.0)
+  (8, 7, 8, <41:45>, 1, "Dec.", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <46:48>, 1, "11", 0, "null", "CD" 1.0)
+  (10, 9, 10, <48:49>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (119, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (128, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (92, 1, 2, <4:11>, 1, "Donohoo", 0, "null")
+  (112, 1, 2, <4:11>, 1, "Donohoo", 0, "null", "NNP" 1.0)
+  (118, 1, 2, <4:11>, 1, "donohoo", 0, "null")
+  (121, 1, 2, <4:11>, 1, "donohoo", 0, "null")
+  (101, 2, 3, <12:14>, 1, "is", 0, "null")
+  (113, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (123, 2, 3, <12:14>, 1, "is", 0, "null")
+  (103, 3, 4, <15:24>, 1, "scheduled", 0, "null")
+  (114, 3, 4, <15:24>, 1, "scheduled", 0, "null", "VBN" 1.0)
+  (124, 3, 4, <15:24>, 1, "scheduled", 0, "null")
+  (105, 4, 5, <25:27>, 1, "to", 0, "null")
+  (125, 4, 5, <25:27>, 1, "to", 0, "null")
+  (107, 5, 6, <28:30>, 1, "be", 0, "null")
+  (115, 5, 6, <28:30>, 1, "be", 0, "null", "VB" 1.0)
+  (126, 5, 6, <28:30>, 1, "be", 0, "null")
+  (109, 6, 7, <31:40>, 1, "sentenced", 0, "null")
+  (116, 6, 7, <31:40>, 1, "sentenced", 0, "null", "VBN" 1.0)
+  (127, 6, 7, <31:40>, 1, "sentenced", 0, "null")
+  (91, 7, 8, <41:45>, 1, "Dec.", 0, "null")
+  (111, 7, 8, <41:45>, 1, "Dec.", 0, "null", "NNP" 1.0)
+  (117, 7, 8, <41:45>, 1, "dec.", 0, "null")
+  (120, 7, 8, <41:45>, 1, "dec.", 0, "null")
+  (93, 8, 9, <46:49>, 1, "11.", 0, "null")
+  (122, 8, 9, <46:49>, 1, "11.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4529 SB-HD_MC_C 23.2885 0 9
+  (4513 HDN_BNP-PN_C 3.86187 0 2
+   (4512 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (4510 N_SG_ILR 2.02901 0 1
+     (137 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 119
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (4511 ^N_SG_ILR -0.259177 1 2
+     (140 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Donohoo" 92
+       "token [ +CARG #1=\"Donohoo\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (4528 ^HD-CMP_U_C 18.4096 2 9
+   (181 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 101
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (4527 HD-CMP_U_C 16.3154 3 9
+    (4515 ^HD_OPTCMP_C -0.193836 3 4
+     (4514 V_PAS_ODLR -0.471679 3 4
+      (292 schedule_v2@v_np-vp_oeq_le -0.0553426 3 4
+       ("scheduled" 103
+        "token [ +CARG #1=\"scheduled\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (4526 HD-CMP_U_C 15.0889 4 9
+     (429 to_c_prop@cm_vp_to_le 2.48409 4 5
+      ("to" 105
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (4525 HD-CMP_U_C 11.3465 5 9
+      (481 be_c_be@v_prd_be_le 1.93526 5 6
+       ("be" 107
+        "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (4524 HD-AJ_INT-UNSL_C 8.26563 6 9
+       (4517 ^HD_OPTCMP_C 0.332001 6 7
+        (4516 V_PAS_ODLR -0.649181 6 7
+         (519 sentence_v1@v_np_le 0 6 7
+          ("sentenced" 109
+           "token [ +CARG #1=\"sentenced\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (4523 NP_ADV_C 6.81075 7 9
+        (4522 SP-HD_HC_C 6.75505 7 9
+         (4519 N_DET-MNTH_DLR 2.92781 7 8
+          (4518 N_SG_ILR 1.3431 7 8
+           (634 december_abb_n3@n_-_c-month_le 0.139974 7 8
+            ("dec." 117
+             "token [ +CARG \"Dec.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"dec.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+         (4521 ^W_PERIOD_PLR 3.22313 8 9
+          (4520 N_SG_ILR 2.10878 8 9
+           (644 generic_dom_card_ne@n_-_pn-dom-gen_le 0 8 9
+            ("11." 93
+             "token [ +CARG \"11\" +CLASS card_or_dom_ne +FORM \"11.\" +FROM \"46\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Donohoo"))))
+ (VP (V "is")
+  (VP (V (V (V "scheduled")))
+   (VP (COMP "to")
+    (VP (V "be")
+     (VP (VP (V (V "sentenced")))
+      (PP (NP (DET (N (N "dec."))) (N (N (N "11.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Donohoo" ]
+          [ _schedule_v_1<15:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: i16
+            ARG2: x6
+            ARG3: h15 ]
+          [ parg_d<15:24>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _sentence_v_to<31:40>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i20
+            ARG2: x6 ]
+          [ parg_d<31:40>
+            LBL: h18
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e19
+            ARG2: x6 ]
+          [ loc_nonsp<41:49>
+            LBL: h18
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e19
+            ARG2: x23 [ x PERS: 3 NUM: SG GEND: N IND: + ] ]
+          [ mofy<41:45>
+            LBL: h24
+            ARG0: x25 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Dec" ]
+          [ def_explicit_q<41:45>
+            LBL: h26
+            ARG0: x23
+            RSTR: h27
+            BODY: h28 ]
+          [ of_p<41:45>
+            LBL: h29
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            ARG2: x25 ]
+          [ def_implicit_q<41:45>
+            LBL: h31
+            ARG0: x25
+            RSTR: h32
+            BODY: h33 ]
+          [ dofm<46:49>
+            LBL: h29
+            ARG0: x23
+            CARG: "11" ] >
+   HCONS: < h32 QEQ h24 h27 QEQ h29 h15 QEQ h18 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Donohoo"){x PERS 3, NUM sg, IND +}[]
+ e3:_schedule_v_1<15:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6, ARG3 e19]
+ e17:parg_d<15:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e19:_sentence_v_to<31:40>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e21:parg_d<31:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e19, ARG2 x6]
+ e22:loc_nonsp<41:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e19, ARG2 x23]
+ x25:mofy<41:45>("Dec"){x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<41:45>[BV x23]
+ e30:of_p<41:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23, ARG2 x25]
+ _4:def_implicit_q<41:45>[BV x25]
+ x23:dofm<46:49>("11"){x PERS 3, NUM sg, GEND n, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Donohoo)  
+  compound<0:11> ARG1 named<4:11>(Donohoo)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _schedule_v_1<15:24> ARG2 named<4:11>(Donohoo)  
+  _schedule_v_1<15:24> ARG3 _sentence_v_to<31:40>  
+  parg_d<15:24> ARG1 _schedule_v_1<15:24>  
+  parg_d<15:24> ARG2 named<4:11>(Donohoo)  
+  _sentence_v_to<31:40> ARG2 named<4:11>(Donohoo)  
+  parg_d<31:40> ARG1 _sentence_v_to<31:40>  
+  parg_d<31:40> ARG2 named<4:11>(Donohoo)  
+  loc_nonsp<41:49> ARG1 _sentence_v_to<31:40>  
+  loc_nonsp<41:49> ARG2 dofm<46:49>(11)  
+  def_explicit_q<41:45> BV dofm<46:49>(11)  
+  of_p<41:45> ARG1 dofm<46:49>(11)  
+  of_p<41:45> ARG2 mofy<41:45>(Dec)  
+  def_implicit_q<41:45> BV mofy<41:45>(Dec)  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Donohoo) PERS 3  
+  named<4:11>(Donohoo) NUM sg  
+  named<4:11>(Donohoo) IND +  
+  _schedule_v_1<15:24> SF prop  
+  _schedule_v_1<15:24> TENSE pres  
+  _schedule_v_1<15:24> MOOD indicative  
+  _schedule_v_1<15:24> PROG -  
+  _schedule_v_1<15:24> PERF -  
+  parg_d<15:24> SF prop  
+  parg_d<15:24> TENSE untensed  
+  parg_d<15:24> MOOD indicative  
+  parg_d<15:24> PROG -  
+  parg_d<15:24> PERF -  
+  _sentence_v_to<31:40> SF prop-or-ques  
+  _sentence_v_to<31:40> TENSE untensed  
+  _sentence_v_to<31:40> MOOD indicative  
+  _sentence_v_to<31:40> PROG -  
+  _sentence_v_to<31:40> PERF -  
+  parg_d<31:40> SF prop  
+  parg_d<31:40> TENSE untensed  
+  parg_d<31:40> MOOD indicative  
+  parg_d<31:40> PROG -  
+  parg_d<31:40> PERF -  
+  loc_nonsp<41:49> SF prop  
+  loc_nonsp<41:49> TENSE untensed  
+  loc_nonsp<41:49> MOOD indicative  
+  loc_nonsp<41:49> PROG -  
+  loc_nonsp<41:49> PERF -  
+  mofy<41:45>(Dec) PERS 3  
+  mofy<41:45>(Dec) NUM sg  
+  mofy<41:45>(Dec) IND +  
+  of_p<41:45> SF prop  
+  of_p<41:45> TENSE untensed  
+  of_p<41:45> MOOD indicative  
+  of_p<41:45> PROG -  
+  of_p<41:45> PERF -  
+  dofm<46:49>(11) PERS 3  
+  dofm<46:49>(11) NUM sg  
+  dofm<46:49>(11) GEND n  
+  dofm<46:49>(11) IND +  
+}
+

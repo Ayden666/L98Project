@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:18 h)).
+;;;
+
+[20453048] (1 of 1) {1} `TV GUIDE:'
+
+[20453048:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "TV", 0, "null", "NNP" 0.9549 "NN" 0.0451)
+  (2, 1, 2, <3:8>, 1, "GUIDE", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:9>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:2>, 1, "TV", 0, "null")
+  (40, 0, 1, <0:2>, 1, "TV", 0, "null", "NNP" 0.9549)
+  (43, 0, 1, <0:2>, 1, "tv", 0, "null")
+  (45, 0, 1, <0:2>, 1, "tv", 0, "null")
+  (30, 1, 2, <3:8>, 1, "GUIDE", 0, "null")
+  (41, 1, 2, <3:8>, 1, "GUIDE", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <3:8>, 1, "guide", 0, "null")
+  (44, 1, 2, <3:8>, 1, "guide", 0, "null")
+  (37, 2, 3, <8:9>, 1, ":", 0, "null")
+  (46, 2, 3, <8:9>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (312 NP_NB-FRG_C 0.866403 0 3
+  (311 HDN-AJ_REDREL_C 1.94963 0 3
+   (310 ^N-HDN_CPD_C 2.40162 0 2
+    (51 tv_n1@n_-_mc_le 0.094127 0 1
+     ("tv" 43
+      "token [ +CARG \"TV\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"tv\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95486459999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (309 ^N_SG_ILR 0.772046 1 2
+     (54 guide_n@n_-_c_le 0 1 2
+      ("guide" 42
+       "token [ +CARG \"GUIDE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"guide\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (66 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+    (":" 37
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (N (N (N "tv") (N (N "guide"))) (PP ":")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:8>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 ]
+          [ udef_q<0:2>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _tv_n_1<0:2>
+            LBL: h14
+            ARG0: x9 ]
+          [ _guide_n_1<3:8>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<8:9>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:9>[BV x4]
+ e10:compound<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:2>[BV x9]
+ x9:_tv_n_1<0:2>{x}[]
+ x4:_guide_n_1<3:8>{x PERS 3, NUM sg, IND +}[]
+ e15:_colon_p_namely<8:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:9> ARG _guide_n_1<3:8>  
+  udef_q<0:9> BV _guide_n_1<3:8>  
+  compound<0:8> ARG1 _guide_n_1<3:8>  
+  compound<0:8> ARG2 _tv_n_1<0:2>  
+  udef_q<0:2> BV _tv_n_1<0:2>  
+  _colon_p_namely<8:9> ARG1 _guide_n_1<3:8>  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  compound<0:8> SF prop  
+  compound<0:8> TENSE untensed  
+  compound<0:8> MOOD indicative  
+  compound<0:8> PROG -  
+  compound<0:8> PERF -  
+  _guide_n_1<3:8> PERS 3  
+  _guide_n_1<3:8> NUM sg  
+  _guide_n_1<3:8> IND +  
+  _colon_p_namely<8:9> SF prop  
+  _colon_p_namely<8:9> TENSE untensed  
+  _colon_p_namely<8:9> MOOD indicative  
+  _colon_p_namely<8:9> PROG -  
+  _colon_p_namely<8:9> PERF -  
+}
+

@@ -1,0 +1,155 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:22 h)).
+;;;
+
+[20749034] (1 of 1) {1} `-- Sophomore football player.'
+
+[20749034:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:12>, 1, "Sophomore", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:21>, 1, "football", 0, "null", "NN" 1.0)
+  (4, 3, 4, <22:28>, 1, "player", 0, "null", "NN" 1.0)
+  (5, 4, 5, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:2>, 1, "–", 0, "null")
+  (60, 0, 1, <0:2>, 1, "–", 0, "null")
+  (55, 1, 2, <3:12>, 1, "Sophomore", 0, "null")
+  (58, 1, 2, <3:12>, 1, "sophomore", 0, "null")
+  (62, 1, 2, <3:12>, 1, "sophomore", 0, "null")
+  (50, 2, 3, <13:21>, 1, "football", 0, "null")
+  (56, 2, 3, <13:21>, 1, "football", 0, "null", "NN" 1.0)
+  (59, 2, 3, <13:21>, 1, "football", 0, "null")
+  (54, 3, 4, <22:29>, 1, "player.", 0, "null")
+  (57, 3, 4, <22:29>, 1, "player.", 0, "null", "NN" 1.0)
+  (61, 3, 4, <22:29>, 1, "player.", 0, "null")
+>
+
+(ROOT_FRAG
+ (318 PP_FRG_C 0.176631 0 4
+  (317 HD-CMP_U_C 1.42455 0 4
+   (63 dash_nbar_ndash@p_nb_i-nm_le -0.251886 0 1
+    ("–" 52
+     "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (316 N-HDN_CPD_C 2.30428 1 4
+    (73 sophomore_n1@n_-_c_le 0 1 2
+     ("sophomore" 58
+      "token [ +CARG \"Sophomore\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sophomore\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (315 ^N-HDN_CPD_C 2.2097 2 4
+     (74 football_n1@n_-_mc_le 0 2 3
+      ("football" 50
+       "token [ +CARG #1=\"football\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (314 ^HDN_OPTCMP_C 1.41632 3 4
+      (313 W_PERIOD_PLR 1.25002 3 4
+       (312 N_SG_ILR 0.704929 3 4
+        (76 player_n1@n_pp_c-of_le 0 3 4
+         ("player." 54
+          "token [ +CARG \"player\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"player.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP
+ (PP (P "–")
+  (N (N "sophomore") (N (N "football") (N (N (N (N "player."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:29>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _dashpnct_p<0:2>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:2>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<3:29>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x11 [ x IND: + ] ]
+          [ udef_q<3:12>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _sophomore_n_1<3:12>
+            LBL: h16
+            ARG0: x11 ]
+          [ compound<13:29>
+            LBL: h10
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x17 ]
+          [ udef_q<13:21>
+            LBL: h19
+            ARG0: x17
+            RSTR: h20
+            BODY: h21 ]
+          [ _football_n_1<13:21>
+            LBL: h22
+            ARG0: x17 ]
+          [ _player_n_of<22:29>
+            LBL: h10
+            ARG0: x6
+            ARG1: i23 ] >
+   HCONS: < h20 QEQ h22 h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_dashpnct_p<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:udef_q<0:2>[BV x6]
+ e12:compound<3:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x11]
+ _2:udef_q<3:12>[BV x11]
+ x11:_sophomore_n_1<3:12>{x IND +}[]
+ e18:compound<13:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x17]
+ _3:udef_q<13:21>[BV x17]
+ x17:_football_n_1<13:21>{x}[]
+ x6:_player_n_of<22:29>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _dashpnct_p<0:2> ARG1 unknown<0:29>  
+  _dashpnct_p<0:2> ARG2 _player_n_of<22:29>  
+  udef_q<0:2> BV _player_n_of<22:29>  
+  compound<3:29> ARG1 _player_n_of<22:29>  
+  compound<3:29> ARG2 _sophomore_n_1<3:12>  
+  udef_q<3:12> BV _sophomore_n_1<3:12>  
+  compound<13:29> ARG1 _player_n_of<22:29>  
+  compound<13:29> ARG2 _football_n_1<13:21>  
+  udef_q<13:21> BV _football_n_1<13:21>  
+  unknown<0:29> SF prop  
+  unknown<0:29> TENSE untensed  
+  unknown<0:29> MOOD indicative  
+  unknown<0:29> PROG -  
+  unknown<0:29> PERF -  
+  _dashpnct_p<0:2> SF prop  
+  _dashpnct_p<0:2> TENSE untensed  
+  _dashpnct_p<0:2> MOOD indicative  
+  _dashpnct_p<0:2> PROG -  
+  _dashpnct_p<0:2> PERF -  
+  compound<3:29> SF prop  
+  compound<3:29> TENSE untensed  
+  compound<3:29> MOOD indicative  
+  compound<3:29> PROG -  
+  compound<3:29> PERF -  
+  _sophomore_n_1<3:12> IND +  
+  compound<13:29> SF prop  
+  compound<13:29> TENSE untensed  
+  compound<13:29> MOOD indicative  
+  compound<13:29> PROG -  
+  compound<13:29> PERF -  
+  _player_n_of<22:29> PERS 3  
+  _player_n_of<22:29> NUM sg  
+  _player_n_of<22:29> IND +  
+}
+

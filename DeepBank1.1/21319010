@@ -1,0 +1,112 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:03 h)).
+;;;
+
+[21319010] (1 of 1) {1} `That idea may have backfired.'
+
+[21319010:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:9>, 1, "idea", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:13>, 1, "may", 0, "null", "MD" 1.0)
+  (4, 3, 4, <14:18>, 1, "have", 0, "null", "VB" 1.0)
+  (5, 4, 5, <19:28>, 1, "backfired", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:4>, 1, "that", 0, "null")
+  (74, 0, 1, <0:4>, 1, "that", 0, "null")
+  (59, 1, 2, <5:9>, 1, "idea", 0, "null")
+  (66, 1, 2, <5:9>, 1, "idea", 0, "null", "NN" 1.0)
+  (70, 1, 2, <5:9>, 1, "idea", 0, "null")
+  (61, 2, 3, <10:13>, 1, "may", 0, "null")
+  (71, 2, 3, <10:13>, 1, "may", 0, "null")
+  (63, 3, 4, <14:18>, 1, "have", 0, "null")
+  (67, 3, 4, <14:18>, 1, "have", 0, "null", "VB" 1.0)
+  (72, 3, 4, <14:18>, 1, "have", 0, "null")
+  (65, 4, 5, <19:29>, 1, "backfired.", 0, "null")
+  (68, 4, 5, <19:29>, 1, "backfired.", 0, "null", "VBN" 1.0)
+  (73, 4, 5, <19:29>, 1, "backfired.", 0, "null")
+>
+
+(ROOT_STRICT
+ (801 SB-HD_MC_C 8.61946 0 5
+  (796 SP-HD_N_C 1.50839 0 2
+   (91 that_det@d_-_sgm_le -0.419828 0 1
+    ("that" 69
+     "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (795 ^HDN_OPTCMP_C 1.17394 1 2
+    (794 N_SG_ILR 1.26091 1 2
+     (106 idea_n1@n_pp_c-ns-of_le 0.710879 1 2
+      ("idea" 59
+       "token [ +CARG #1=\"idea\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (800 ^HD-CMP_U_C 5.15656 2 5
+   (114 may_aux_pos@v_vp_mdl-p_le 1.73139 2 3
+    ("may" 61
+     "token [ +CARG #1=\"may\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (799 HD-CMP_U_C 2.77703 3 5
+    (120 have_bse_aux@v_vp_have-bse_le 2.38705 3 4
+     ("have" 63
+      "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (798 HD_OPTCMP_C 0.597328 4 5
+     (797 W_PERIOD_PLR 0 4 5
+      (195 generic_trans_verb_psp@v_np*_psp-unk_le 0 4 5
+       ("backfired." 68
+        "token [ +CARG \"backfired\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"backfired.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED \"_backfired/VBN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"VBN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (NP (DET "that") (N (N (N "idea"))))
+ (VP (V "may") (VP (V "have") (VP (V (V "backfired."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _that_q_dem<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _idea_n_of<5:9>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _may_v_modal<10:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: h10 ]
+          [ _backfired/vbn_u_unknown<19:29>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: + ]
+            ARG1: x6
+            ARG2: p13 ] >
+   HCONS: < h10 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_that_q_dem<0:4>[BV x6]
+ x6:_idea_n_of<5:9>{x PERS 3, NUM sg, IND +}[]
+ e3:_may_v_modal<10:13>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_backfired/vbn_u_unknown<19:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF +}[ARG1 x6]
+}
+
+{
+  _that_q_dem<0:4> BV _idea_n_of<5:9>  
+  _may_v_modal<10:13> ARG1 _backfired/vbn_u_unknown<19:29>  
+  _backfired/vbn_u_unknown<19:29> ARG1 _idea_n_of<5:9>  
+  _idea_n_of<5:9> PERS 3  
+  _idea_n_of<5:9> NUM sg  
+  _idea_n_of<5:9> IND +  
+  _may_v_modal<10:13> SF prop  
+  _may_v_modal<10:13> TENSE pres  
+  _may_v_modal<10:13> MOOD indicative  
+  _may_v_modal<10:13> PROG -  
+  _may_v_modal<10:13> PERF -  
+  _backfired/vbn_u_unknown<19:29> SF prop  
+  _backfired/vbn_u_unknown<19:29> TENSE untensed  
+  _backfired/vbn_u_unknown<19:29> MOOD indicative  
+  _backfired/vbn_u_unknown<19:29> PROG -  
+  _backfired/vbn_u_unknown<19:29> PERF +  
+}
+

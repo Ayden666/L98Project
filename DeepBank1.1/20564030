@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj05c';
+;;; (wsun@wsun; 22-jan-2018 (15:20 h)).
+;;;
+
+[20564030] (1 of 1) {1} `"I bought from willing shareholders."'
+
+[20564030:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:2>, 1, "I", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:9>, 1, "bought", 0, "null", "VBD" 0.9611 "VBN" 0.0389)
+  (4, 3, 4, <10:14>, 1, "from", 0, "null", "IN" 1.0)
+  (5, 4, 5, <15:22>, 1, "willing", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <23:35>, 1, "shareholders", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <35:36>, 1, ".", 0, "null", "." 1.0)
+  (8, 7, 8, <36:37>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (76, 0, 1, <0:2>, 1, "“I", 0, "null")
+  (94, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (95, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (89, 1, 2, <3:9>, 1, "bought", 0, "null")
+  (91, 1, 2, <3:9>, 1, "bought", 0, "null", "VBD" 0.9611)
+  (99, 1, 2, <3:9>, 1, "bought", 0, "null")
+  (82, 2, 3, <10:14>, 1, "from", 0, "null")
+  (96, 2, 3, <10:14>, 1, "from", 0, "null")
+  (84, 3, 4, <15:22>, 1, "willing", 0, "null")
+  (92, 3, 4, <15:22>, 1, "willing", 0, "null", "JJ" 1.0)
+  (97, 3, 4, <15:22>, 1, "willing", 0, "null")
+  (88, 4, 5, <23:37>, 1, "shareholders.”", 0, "null")
+  (93, 4, 5, <23:37>, 1, "shareholders.”", 0, "null", "NNS" 1.0)
+  (98, 4, 5, <23:37>, 1, "shareholders.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (1193 SB-HD_MC_C 5.80242 0 5
+  (1183 HDN_BNP-QNT_C -0.0561766 0 1
+   (1182 W_DQLEFT_PLR 0.579622 0 1
+    (108 i@n_-_pr-i_le 0.336087 0 1
+     ("“i" 94
+      "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"“i\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1192 ^HD-AJ_INT-UNSL_C 5.27908 1 5
+   (1185 ^HD_OPTCMP_C 0.336343 1 2
+    (1184 V_PST_OLR -0.542186 1 2
+     (155 buy_v1@v_np*_le -0.105658 1 2
+      ("bought" 89
+       "token [ +CARG #1=\"bought\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96106689999999995\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1191 HD-CMP_U_C 3.63047 2 5
+    (223 from@p_np_i_le -0.427614 2 3
+     ("from" 82
+      "token [ +CARG #1=\"from\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1190 HDN_BNP_C 3.85429 3 5
+     (1189 AJ-HDN_NORM_C 3.49546 3 5
+      (254 willing_a1@aj_-_i_le 0.0337461 3 4
+       ("willing" 84
+        "token [ +CARG #1=\"willing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1188 ^W_DQRIGHT_PLR 2.38921 4 5
+       (1187 W_PERIOD_PLR 0.249414 4 5
+        (1186 N_PL_OLR 0.445673 4 5
+         (276 shareholder_n1@n_-_c_le 0 4 5
+          ("shareholders.”" 88
+           "token [ +CARG \"shareholders\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shareholders.”\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (NP (NP "“i")))
+ (VP (VP (V (V "bought")))
+  (PP (P "from")
+   (NP (N (AP "willing") (N (N (N (N "shareholders.”")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _buy_v_1<3:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: p9 ]
+          [ _from_p<10:14>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x11 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<15:37>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ _willing_a_1<15:22>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11 ]
+          [ _shareholder_n_1<23:37>
+            LBL: h15
+            ARG0: x11 ] >
+   HCONS: < h13 QEQ h15 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_buy_v_1-fn.Commerce_buy<3:9>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Buyer x5]
+ e10:_from_p<10:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x11]
+ _2:udef_q<15:37>[BV x11]
+ e16:_willing_a_1<15:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+ x11:_shareholder_n_1<23:37>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _buy_v_1<3:9> ARG1 pron<0:2>  
+  _from_p<10:14> ARG1 _buy_v_1<3:9>  
+  _from_p<10:14> ARG2 _shareholder_n_1<23:37>  
+  udef_q<15:37> BV _shareholder_n_1<23:37>  
+  _willing_a_1<15:22> ARG1 _shareholder_n_1<23:37>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM sg  
+  pron<0:2> PT std  
+  _buy_v_1<3:9> SF prop  
+  _buy_v_1<3:9> TENSE past  
+  _buy_v_1<3:9> MOOD indicative  
+  _buy_v_1<3:9> PROG -  
+  _buy_v_1<3:9> PERF -  
+  _from_p<10:14> SF prop  
+  _from_p<10:14> TENSE untensed  
+  _from_p<10:14> MOOD indicative  
+  _from_p<10:14> PROG -  
+  _from_p<10:14> PERF -  
+  _willing_a_1<15:22> SF prop  
+  _willing_a_1<15:22> TENSE untensed  
+  _willing_a_1<15:22> MOOD indicative  
+  _willing_a_1<15:22> PROG -  
+  _willing_a_1<15:22> PERF -  
+  _shareholder_n_1<23:37> PERS 3  
+  _shareholder_n_1<23:37> NUM pl  
+  _shareholder_n_1<23:37> IND +  
+}
+

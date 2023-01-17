@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:44 h)).
+;;;
+
+[21282007] (1 of 1) {1} `That lawsuit is still pending.'
+
+[21282007:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:12>, 1, "lawsuit", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:21>, 1, "still", 0, "null", "RB" 1.0)
+  (5, 4, 5, <22:29>, 1, "pending", 0, "null", "VBG" 0.8938 "JJ" 0.1062)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:4>, 1, "that", 0, "null")
+  (78, 0, 1, <0:4>, 1, "that", 0, "null")
+  (61, 1, 2, <5:12>, 1, "lawsuit", 0, "null")
+  (69, 1, 2, <5:12>, 1, "lawsuit", 0, "null", "NN" 1.0)
+  (74, 1, 2, <5:12>, 1, "lawsuit", 0, "null")
+  (63, 2, 3, <13:15>, 1, "is", 0, "null")
+  (70, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (75, 2, 3, <13:15>, 1, "is", 0, "null")
+  (65, 3, 4, <16:21>, 1, "still", 0, "null")
+  (71, 3, 4, <16:21>, 1, "still", 0, "null", "RB" 1.0)
+  (76, 3, 4, <16:21>, 1, "still", 0, "null")
+  (66, 4, 5, <22:30>, 1, "pending.", 0, "null")
+  (68, 4, 5, <22:30>, 1, "pending.", 0, "null", "VBG" 0.8938)
+  (72, 4, 5, <22:30>, 1, "pending.", 0, "null", "JJ" 0.1062)
+  (77, 4, 5, <22:30>, 1, "pending.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1118 SB-HD_MC_C 6.60336 0 5
+  (1114 SP-HD_N_C 0.631841 0 2
+   (95 that_det@d_-_sgm_le -0.419828 0 1
+    ("that" 73
+     "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1113 ^N_MS-CNT_ILR 0.178311 1 2
+    (110 generic_mass_count_noun@n_-_mc-unk_le 0 1 2
+     ("lawsuit" 69
+      "token [ +CARG #1=\"lawsuit\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_lawsuit/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1117 ^HD-CMP_U_C 4.01701 2 5
+   (150 be_c_is@v_prd_is_le 0.262573 2 3
+    ("is" 63
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1116 AJ-HD_INT_C 1.58279 3 5
+    (239 still_adv3@av_-_i-ap-pp_le 1.80503 3 4
+     ("still" 65
+      "token [ +CARG #1=\"still\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1115 ^W_PERIOD_PLR -0.22224 4 5
+     (249 pending_a2@aj_-_i-prd_le 0 4 5
+      ("pending." 66
+       "token [ +CARG \"pending\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pending.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8938313\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET "that") (N (N "lawsuit")))
+ (VP (V "is") (AP (ADV "still") (AP (AP "pending.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _that_q_dem<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _lawsuit/nn_u_unknown<5:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _still_a_1<16:21>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _pending_a_1<22:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_that_q_dem<0:4>[BV x6]
+ x6:_lawsuit/nn_u_unknown<5:12>{x PERS 3, NUM sg}[]
+ e9:_still_a_1<16:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_pending_a_1<22:30>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _that_q_dem<0:4> BV _lawsuit/nn_u_unknown<5:12>  
+  _still_a_1<16:21> ARG1 _pending_a_1<22:30>  
+  _pending_a_1<22:30> ARG1 _lawsuit/nn_u_unknown<5:12>  
+  _lawsuit/nn_u_unknown<5:12> PERS 3  
+  _lawsuit/nn_u_unknown<5:12> NUM sg  
+  _still_a_1<16:21> SF prop  
+  _still_a_1<16:21> TENSE untensed  
+  _still_a_1<16:21> MOOD indicative  
+  _still_a_1<16:21> PROG -  
+  _still_a_1<16:21> PERF -  
+  _pending_a_1<22:30> SF prop  
+  _pending_a_1<22:30> TENSE pres  
+  _pending_a_1<22:30> MOOD indicative  
+  _pending_a_1<22:30> PROG -  
+  _pending_a_1<22:30> PERF -  
+}
+

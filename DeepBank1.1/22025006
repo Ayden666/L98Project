@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:07 h)).
+;;;
+
+[22025006] (1 of 1) {1} `He declined to elaborate.'
+
+[22025006:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:11>, 1, "declined", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <12:14>, 1, "to", 0, "null", "TO" 1.0)
+  (4, 3, 4, <15:24>, 1, "elaborate", 0, "null", "VB" 1.0)
+  (5, 4, 5, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:2>, 1, "he", 0, "null")
+  (61, 0, 1, <0:2>, 1, "he", 0, "null")
+  (50, 1, 2, <3:11>, 1, "declined", 0, "null")
+  (55, 1, 2, <3:11>, 1, "declined", 0, "null", "VBD" 1.0)
+  (58, 1, 2, <3:11>, 1, "declined", 0, "null")
+  (52, 2, 3, <12:14>, 1, "to", 0, "null")
+  (59, 2, 3, <12:14>, 1, "to", 0, "null")
+  (54, 3, 4, <15:25>, 1, "elaborate.", 0, "null")
+  (56, 3, 4, <15:25>, 1, "elaborate.", 0, "null", "VB" 1.0)
+  (60, 3, 4, <15:25>, 1, "elaborate.", 0, "null")
+>
+
+(ROOT_STRICT
+ (669 SB-HD_MC_C 7.83983 0 4
+  (662 HDN_BNP-QNT_C 1.50958 0 1
+   (62 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 57
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (668 ^HD-CMP_U_C 5.0609 1 4
+   (663 ^V_PST_OLR 2.50099 1 2
+    (90 decline_v2@v_vp_seq_le 1.27984 1 2
+     ("declined" 50
+      "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (667 HD-CMP_U_C 1.64368 2 4
+    (200 to_c_prop@cm_vp_to_le 2.48409 2 3
+     ("to" 52
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (666 HD_OPTCMP_C -0.941788 3 4
+     (665 W_PERIOD_PLR -1.53912 3 4
+      (664 V_N3S-BSE_ILR -0.638355 3 4
+       (254 elaborate_v1@v_np*_le 0 3 4
+        ("elaborate." 54
+         "token [ +CARG \"elaborate\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"elaborate.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "he"))
+ (VP (V (V "declined")) (VP (COMP "to") (VP (V (V (V "elaborate.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _decline_v_1<3:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: h9 ]
+          [ _elaborate_v_1<15:25>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: p12 ] >
+   HCONS: < h9 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_decline_v_1<3:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 e11]
+ e11:_elaborate_v_1<15:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _decline_v_1<3:11> ARG1 pron<0:2>  
+  _decline_v_1<3:11> ARG2 _elaborate_v_1<15:25>  
+  _elaborate_v_1<15:25> ARG1 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _decline_v_1<3:11> SF prop  
+  _decline_v_1<3:11> TENSE past  
+  _decline_v_1<3:11> MOOD indicative  
+  _decline_v_1<3:11> PROG -  
+  _decline_v_1<3:11> PERF -  
+  _elaborate_v_1<15:25> SF prop  
+  _elaborate_v_1<15:25> TENSE untensed  
+  _elaborate_v_1<15:25> MOOD indicative  
+  _elaborate_v_1<15:25> PROG -  
+  _elaborate_v_1<15:25> PERF -  
+}
+

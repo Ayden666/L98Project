@@ -1,0 +1,83 @@
+;;;
+;;; Redwoods export of `wsj00c';
+;;; (wsun@wsun; 22-jan-2018 (10:35 h)).
+;;;
+
+[20060018] (1 of 1) {1} `There wasn't."'
+
+[20060018:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "There", 0, "null", "EX" 1.0)
+  (2, 1, 2, <6:9>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <9:12>, 1, "n’t", 0, "null", "JJ" 0.6918 "NN" 0.2541 "RB" 0.0272 "VB" 0.0101 "JJR" 0.0094 "VBN" 0.0075)
+  (4, 3, 4, <12:13>, 1, ".", 0, "null", "." 1.0)
+  (5, 4, 5, <13:14>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (49, 0, 1, <0:5>, 1, "there", 0, "null")
+  (51, 0, 1, <0:5>, 1, "there", 0, "null")
+  (47, 1, 2, <6:14>, 1, "wasn’t.”", 0, "null")
+  (48, 1, 2, <6:14>, 1, "wasn’t.”", 0, "null", "VBD" 1.0)
+  (50, 1, 2, <6:14>, 1, "wasn’t.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (329 SB-HD_MC_C 3.55049 0 2
+  (52 there_expl@n_-_pr-there-x_le 1.4946 0 1
+   ("there" 49
+    "token [ +CARG \"There\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"there\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"EX\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (328 ^W_DQRIGHT_PLR 2.05589 1 2
+   (327 W_PERIOD_PLR 0 1 2
+    (326 V_AUX-ELL-XPL_DLR 0 1 2
+     (62 be_th_cop_was_neg_3_u@v_np-xp_was-n_le 0 1 2
+      ("wasn’t.”" 47
+       "token [ +CARG \"wasn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"wasn’t.”\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP-X "there") (VP (VP (VP (V "wasn’t.”")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _be_v_there<6:14>
+            LBL: h4
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ neg<6:14>
+            LBL: h2
+            ARG0: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h7 ]
+          [ ellipsis_expl<6:14>
+            LBL: h4
+            ARG0: e6
+            ARG1: u9 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e8:
+ e5:_be_v_there<6:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e6]
+ e8:neg<6:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e6]
+ e6:ellipsis_expl<6:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  _be_v_there<6:14> ARG1 ellipsis_expl<6:14>  
+  neg<6:14> ARG1 ellipsis_expl<6:14>  
+  _be_v_there<6:14> SF prop  
+  _be_v_there<6:14> TENSE untensed  
+  _be_v_there<6:14> MOOD indicative  
+  _be_v_there<6:14> PROG -  
+  _be_v_there<6:14> PERF -  
+  neg<6:14> SF prop  
+  neg<6:14> TENSE untensed  
+  neg<6:14> MOOD indicative  
+  neg<6:14> PROG -  
+  neg<6:14> PERF -  
+  ellipsis_expl<6:14> SF prop  
+  ellipsis_expl<6:14> TENSE untensed  
+  ellipsis_expl<6:14> MOOD indicative  
+  ellipsis_expl<6:14> PROG -  
+  ellipsis_expl<6:14> PERF -  
+}
+

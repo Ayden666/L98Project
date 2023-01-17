@@ -1,0 +1,174 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:13 h)).
+;;;
+
+[21120005] (1 of 1) {1} `When industries were weak, it protected them.'
+
+[21120005:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "When", 0, "null", "WRB" 1.0)
+  (2, 1, 2, <5:15>, 1, "industries", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <16:20>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <21:25>, 1, "weak", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <25:26>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <27:29>, 1, "it", 0, "null", "PRP" 1.0)
+  (7, 6, 7, <30:39>, 1, "protected", 0, "null", "VBD" 0.9803 "VBN" 0.0197)
+  (8, 7, 8, <40:44>, 1, "them", 0, "null", "PRP" 1.0)
+  (9, 8, 9, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (104, 0, 1, <0:4>, 1, "when", 0, "null")
+  (111, 0, 1, <0:4>, 1, "when", 0, "null")
+  (89, 1, 2, <5:15>, 1, "industries", 0, "null")
+  (101, 1, 2, <5:15>, 1, "industries", 0, "null", "NNS" 1.0)
+  (105, 1, 2, <5:15>, 1, "industries", 0, "null")
+  (91, 2, 3, <16:20>, 1, "were", 0, "null")
+  (102, 2, 3, <16:20>, 1, "were", 0, "null", "VBD" 1.0)
+  (106, 2, 3, <16:20>, 1, "were", 0, "null")
+  (95, 3, 4, <21:26>, 1, "weak,", 0, "null")
+  (103, 3, 4, <21:26>, 1, "weak,", 0, "null", "JJ" 1.0)
+  (108, 3, 4, <21:26>, 1, "weak,", 0, "null")
+  (93, 4, 5, <27:29>, 1, "it", 0, "null")
+  (107, 4, 5, <27:29>, 1, "it", 0, "null")
+  (98, 5, 6, <30:39>, 1, "protected", 0, "null")
+  (100, 5, 6, <30:39>, 1, "protected", 0, "null", "VBD" 0.9803)
+  (110, 5, 6, <30:39>, 1, "protected", 0, "null")
+  (97, 6, 7, <40:45>, 1, "them.", 0, "null")
+  (109, 6, 7, <40:45>, 1, "them.", 0, "null")
+>
+
+(ROOT_STRICT
+ (998 AJ-HD_SCP_C 8.05359 0 7
+  (991 HD-CMP_U_C 5.16306 0 4
+   (118 when_subord@p_cp_s_le 1.05829 0 1
+    ("when" 104
+     "token [ +CARG \"When\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"when\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (990 SB-HD_NMC_C 1.66618 1 4
+    (987 HDN_BNP_C -0.921574 1 2
+     (986 N_PL_OLR -0.287764 1 2
+      (123 industry_n1@n_-_mc_le -0.157425 1 2
+       ("industries" 89
+        "token [ +CARG #1=\"industries\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (989 ^HD-CMP_U_C 2.12436 2 4
+     (140 be_c_were@v_prd_wre_le 0.222297 2 3
+      ("were" 91
+       "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (988 W_COMMA_PLR 0.476552 3 4
+      (157 weak_a1@aj_-_i-er_le 0 3 4
+       ("weak," 95
+        "token [ +CARG \"weak\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"weak,\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (997 ^SB-HD_MC_C 1.82326 4 7
+   (992 HDN_BNP-QNT_C 0.388197 4 5
+    (177 it2@n_-_pr-it_le -0.123119 4 5
+     ("it" 93
+      "token [ +CARG #1=\"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (996 ^HD-CMP_U_C 0.261841 5 7
+    (993 ^V_PST_OLR 0.306776 5 6
+     (194 protect_v1@v_np*_le 0 5 6
+      ("protected" 98
+       "token [ +CARG #1=\"protected\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98025189999999995\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (995 HDN_BNP-QNT_C 0.045872 6 7
+     (994 W_PERIOD_PLR 0 6 7
+      (301 them@n_-_pr-them_le 0 6 7
+       ("them." 97
+        "token [ +CARG \"them\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"them.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (PP (P "when")
+  (S (NP (N (N "industries"))) (VP (V "were") (AP (AP "weak,")))))
+ (S (NP (NP "it")) (VP (V (V "protected")) (NP (NP (NP "them."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _when_x_subord<0:4>
+            LBL: h2
+            ARG0: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h5
+            ARG2: h6 ]
+          [ udef_q<5:15>
+            LBL: h7
+            ARG0: x9 [ x PERS: 3 NUM: PL ]
+            RSTR: h8
+            BODY: h10 ]
+          [ _industry_n_1<5:15>
+            LBL: h11
+            ARG0: x9 ]
+          [ _weak_a_1<21:26>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ pron<27:29>
+            LBL: h14
+            ARG0: x15 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<27:29>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _protect_v_1<30:39>
+            LBL: h19
+            ARG0: e3
+            ARG1: x15
+            ARG2: x20 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pron<40:45>
+            LBL: h21
+            ARG0: x20 ]
+          [ pronoun_q<40:45>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ] >
+   HCONS: < h23 QEQ h21 h17 QEQ h14 h8 QEQ h11 h6 QEQ h12 h5 QEQ h19 h1 QEQ h2 > ]
+
+{e4:
+ e4:_when_x_subord<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e13]
+ _1:udef_q<5:15>[BV x9]
+ x9:_industry_n_1<5:15>{x PERS 3, NUM pl}[]
+ e13:_weak_a_1<21:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x15:pron<27:29>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<27:29>[BV x15]
+ e3:_protect_v_1<30:39>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x20]
+ x20:pron<40:45>{x PERS 3, NUM pl, PT std}[]
+ _3:pronoun_q<40:45>[BV x20]
+}
+
+{
+  _when_x_subord<0:4> ARG1 _protect_v_1<30:39>  
+  _when_x_subord<0:4> ARG2 _weak_a_1<21:26>  
+  udef_q<5:15> BV _industry_n_1<5:15>  
+  _weak_a_1<21:26> ARG1 _industry_n_1<5:15>  
+  pronoun_q<27:29> BV pron<27:29>  
+  _protect_v_1<30:39> ARG1 pron<27:29>  
+  _protect_v_1<30:39> ARG2 pron<40:45>  
+  pronoun_q<40:45> BV pron<40:45>  
+  _when_x_subord<0:4> SF prop  
+  _when_x_subord<0:4> TENSE untensed  
+  _when_x_subord<0:4> MOOD indicative  
+  _when_x_subord<0:4> PROG -  
+  _when_x_subord<0:4> PERF -  
+  _industry_n_1<5:15> PERS 3  
+  _industry_n_1<5:15> NUM pl  
+  _weak_a_1<21:26> SF prop  
+  _weak_a_1<21:26> TENSE past  
+  _weak_a_1<21:26> MOOD indicative  
+  _weak_a_1<21:26> PROG -  
+  _weak_a_1<21:26> PERF -  
+  pron<27:29> PERS 3  
+  pron<27:29> NUM sg  
+  pron<27:29> GEND n  
+  pron<27:29> PT std  
+  _protect_v_1<30:39> SF prop  
+  _protect_v_1<30:39> TENSE past  
+  _protect_v_1<30:39> MOOD indicative  
+  _protect_v_1<30:39> PROG -  
+  _protect_v_1<30:39> PERF -  
+  pron<40:45> PERS 3  
+  pron<40:45> NUM pl  
+  pron<40:45> PT std  
+}
+

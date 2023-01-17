@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:15 h)).
+;;;
+
+[20911017] (1 of 1) {1} `Michael Smith'
+
+[20911017:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Michael", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:13>, 1, "Smith", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:7>, 1, "Michael", 0, "null")
+  (28, 0, 1, <0:7>, 1, "michael", 0, "null")
+  (30, 0, 1, <0:7>, 1, "michael", 0, "null")
+  (20, 1, 2, <8:13>, 1, "Smith", 0, "null")
+  (26, 1, 2, <8:13>, 1, "Smith", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <8:13>, 1, "smith", 0, "null")
+  (29, 1, 2, <8:13>, 1, "smith", 0, "null")
+>
+
+(ROOT_FRAG
+ (82 NP_FRG_C -0.324478 0 2
+  (81 HDN_BNP-PN_C 0.822034 0 2
+   (80 NP-HDN_NME-CPD_C 0.861341 0 2
+    (78 HDN_BNP-PN_C 1.12961 0 1
+     (77 N_SG_ILR 0.377173 0 1
+      (33 michael_n1@n_-_pn_le 0.543467 0 1
+       ("michael" 28
+        "token [ +CARG \"Michael\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"michael\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (79 ^N_SG_ILR -0.602862 1 2
+     (36 smith@n_-_pn_le 0 1 2
+      ("smith" 27
+       "token [ +CARG \"Smith\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"smith\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (NP (N (N "michael"))) (N (N "smith")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:13>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "Michael" ]
+          [ named<8:13>
+            LBL: h8
+            ARG0: x4
+            CARG: "Smith" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:13>[BV x4]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:7>[BV x9]
+ x9:named<0:7>("Michael"){x PERS 3, NUM sg, IND +}[]
+ x4:named<8:13>("Smith"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:13> ARG named<8:13>(Smith)  
+  proper_q<0:13> BV named<8:13>(Smith)  
+  compound<0:13> ARG1 named<8:13>(Smith)  
+  compound<0:13> ARG2 named<0:7>(Michael)  
+  proper_q<0:7> BV named<0:7>(Michael)  
+  unknown<0:13> SF prop-or-ques  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:7>(Michael) PERS 3  
+  named<0:7>(Michael) NUM sg  
+  named<0:7>(Michael) IND +  
+  named<8:13>(Smith) PERS 3  
+  named<8:13>(Smith) NUM sg  
+  named<8:13>(Smith) IND +  
+}
+

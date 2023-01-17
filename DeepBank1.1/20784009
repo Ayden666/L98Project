@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj07d';
+;;; (wsun@wsun; 22-jan-2018 (17:48 h)).
+;;;
+
+[20784009] (1 of 1) {1} `Meanwhile, Dallas welcomed the move.'
+
+[20784009:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Meanwhile", 0, "null", "RB" 1.0)
+  (2, 1, 2, <9:10>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <11:17>, 1, "Dallas", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <18:26>, 1, "welcomed", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <27:30>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <31:35>, 1, "move", 0, "null", "NN" 0.9896 "VB" 0.0104)
+  (7, 6, 7, <35:36>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:10>, 1, "Meanwhile,", 0, "null", "RB" 1.0)
+  (85, 0, 1, <0:10>, 1, "meanwhile,", 0, "null")
+  (91, 0, 1, <0:10>, 1, "meanwhile,", 0, "null")
+  (65, 1, 2, <11:17>, 1, "Dallas", 0, "null")
+  (81, 1, 2, <11:17>, 1, "Dallas", 0, "null", "NNP" 1.0)
+  (84, 1, 2, <11:17>, 1, "dallas", 0, "null")
+  (86, 1, 2, <11:17>, 1, "dallas", 0, "null")
+  (73, 2, 3, <18:26>, 1, "welcomed", 0, "null")
+  (82, 2, 3, <18:26>, 1, "welcomed", 0, "null", "VBD" 1.0)
+  (87, 2, 3, <18:26>, 1, "welcomed", 0, "null")
+  (75, 3, 4, <27:30>, 1, "the", 0, "null")
+  (88, 3, 4, <27:30>, 1, "the", 0, "null")
+  (78, 4, 5, <31:36>, 1, "move.", 0, "null")
+  (80, 4, 5, <31:36>, 1, "move.", 0, "null", "NN" 0.9896)
+  (89, 4, 5, <31:36>, 1, "move.", 0, "null")
+>
+
+(ROOT_STRICT
+ (595 FLR-HD_NWH_C 7.10366 0 5
+  (585 W_COMMA_PLR 0.209886 0 1
+   (98 meanwhile_adv1@pp_-_i_le 0 0 1
+    ("meanwhile," 85
+     "token [ +CARG \"Meanwhile\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"meanwhile,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (594 ^SB-HD_NMC_C 6.07493 1 5
+   (587 HDN_BNP-PN_C 0.313811 1 2
+    (586 N_SG_ILR 0.306167 1 2
+     (119 dallas_n1@n_-_pn_le 0 1 2
+      ("dallas" 84
+       "token [ +CARG \"Dallas\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"dallas\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (593 ^HD_XAJ-INT-VP_C 5.07808 2 5
+    (592 HD-CMP_U_C 3.40265 2 5
+     (588 ^V_PST_OLR -0.091389 2 3
+      (137 welcome_v1@v_np_le 0 2 3
+       ("welcomed" 73
+        "token [ +CARG #1=\"welcomed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (591 SP-HD_N_C 2.63373 3 5
+      (234 the_1@d_-_the_le 1.07131 3 4
+       ("the" 75
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (590 ^W_PERIOD_PLR 0.933196 4 5
+       (589 N_SG_ILR 0.432921 4 5
+        (265 move_n1@n_-_c_le 0 4 5
+         ("move." 78
+          "token [ +CARG \"move\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"move.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98963409999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (PP (PP "meanwhile,"))
+ (S/PP (NP (N (N "dallas")))
+  (VP/PP (VP (V (V "welcomed")) (NP (DET "the") (N (N (N "move."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:36>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _meanwhile_p<0:10>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3 ]
+          [ proper_q<11:17>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h9 ]
+          [ named<11:17>
+            LBL: h10
+            ARG0: x8
+            CARG: "Dallas" ]
+          [ _welcome_v_1<18:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x8
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<27:30>
+            LBL: h12
+            ARG0: x11
+            RSTR: h14
+            BODY: h13 ]
+          [ _move_n_1<31:36>
+            LBL: h15
+            ARG0: x11 ] >
+   HCONS: < h14 QEQ h15 h7 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_meanwhile_p<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<11:17>[BV x8]
+ x8:named<11:17>("Dallas"){x PERS 3, NUM sg, IND +}[]
+ e3:_welcome_v_1<18:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x11]
+ _2:_the_q<27:30>[BV x11]
+ x11:_move_n_1<31:36>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  focus_d<0:36> ARG1 _welcome_v_1<18:26>  
+  focus_d<0:36> ARG2 _meanwhile_p<0:10>  
+  _meanwhile_p<0:10> ARG1 _welcome_v_1<18:26>  
+  proper_q<11:17> BV named<11:17>(Dallas)  
+  _welcome_v_1<18:26> ARG1 named<11:17>(Dallas)  
+  _welcome_v_1<18:26> ARG2 _move_n_1<31:36>  
+  _the_q<27:30> BV _move_n_1<31:36>  
+  focus_d<0:36> SF prop  
+  focus_d<0:36> TENSE untensed  
+  focus_d<0:36> MOOD indicative  
+  focus_d<0:36> PROG -  
+  focus_d<0:36> PERF -  
+  _meanwhile_p<0:10> SF prop  
+  _meanwhile_p<0:10> TENSE untensed  
+  _meanwhile_p<0:10> MOOD indicative  
+  _meanwhile_p<0:10> PROG -  
+  _meanwhile_p<0:10> PERF -  
+  named<11:17>(Dallas) PERS 3  
+  named<11:17>(Dallas) NUM sg  
+  named<11:17>(Dallas) IND +  
+  _welcome_v_1<18:26> SF prop  
+  _welcome_v_1<18:26> TENSE past  
+  _welcome_v_1<18:26> MOOD indicative  
+  _welcome_v_1<18:26> PROG -  
+  _welcome_v_1<18:26> PERF -  
+  _move_n_1<31:36> PERS 3  
+  _move_n_1<31:36> NUM sg  
+  _move_n_1<31:36> IND +  
+}
+

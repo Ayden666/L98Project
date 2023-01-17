@@ -1,0 +1,101 @@
+;;;
+;;; Redwoods export of `wsj19a';
+;;; (wsun@wsun; 23-jan-2018 (04:09 h)).
+;;;
+
+[21927007] (1 of 1) {1} `I doubt that.'
+
+[21927007:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:7>, 1, "doubt", 0, "null", "VBP" 0.6995 "NN" 0.2569 "VB" 0.0436)
+  (3, 2, 3, <8:12>, 1, "that", 0, "null", "IN" 0.7626 "DT" 0.1456 "RB" 0.057 "WDT" 0.0347)
+  (4, 3, 4, <12:13>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (38, 0, 1, <0:1>, 1, "I", 0, "null")
+  (58, 0, 1, <0:1>, 1, "i", 0, "null")
+  (59, 0, 1, <0:1>, 1, "i", 0, "null")
+  (52, 1, 2, <2:7>, 1, "doubt", 0, "null")
+  (56, 1, 2, <2:7>, 1, "doubt", 0, "null", "VBP" 0.6995)
+  (57, 1, 2, <2:7>, 1, "doubt", 0, "null", "NN" 0.2569)
+  (60, 1, 2, <2:7>, 1, "doubt", 0, "null")
+  (53, 2, 3, <8:13>, 1, "that.", 0, "null")
+  (61, 2, 3, <8:13>, 1, "that.", 0, "null")
+>
+
+(ROOT_STRICT
+ (282 SB-HD_MC_C 1.88792 0 3
+  (276 HDN_BNP-QNT_C 1.98216 0 1
+   (68 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 58
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (281 ^HD-CMP_U_C -1.36358 1 3
+   (277 ^V_N3S-BSE_ILR -0.329965 1 2
+    (99 doubt_v1@v_np_le 0 1 2
+     ("doubt" 52
+      "token [ +CARG #1=\"doubt\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69953489999999996\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (280 HDN_BNP-QNT_C -0.734038 2 3
+    (279 HDN_OPTCMP_C 0.251038 2 3
+     (278 W_PERIOD_PLR 0 2 3
+      (126 that_deix@n_-_pr-dei-sg_le 0 2 3
+       ("that." 53
+        "token [ +CARG \"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"that.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.76262649999999998\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "i")) (VP (V (V "doubt")) (NP (N (N (N "that."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _doubt_v_1<2:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ generic_entity<8:13>
+            LBL: h10
+            ARG0: x9 ]
+          [ _that_q_dem<8:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ] >
+   HCONS: < h12 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e3:_doubt_v_1-fn.Certainty<2:7>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Cognizer x5, ARG2-fn.Content x9]
+ x9:generic_entity<8:13>{x PERS 3, NUM sg, GEND n}[]
+ _2:_that_q_dem<8:13>[BV x9]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  _doubt_v_1<2:7> ARG1 pron<0:1>  
+  _doubt_v_1<2:7> ARG2 generic_entity<8:13>  
+  _that_q_dem<8:13> BV generic_entity<8:13>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  _doubt_v_1<2:7> SF prop  
+  _doubt_v_1<2:7> TENSE pres  
+  _doubt_v_1<2:7> MOOD indicative  
+  _doubt_v_1<2:7> PROG -  
+  _doubt_v_1<2:7> PERF -  
+  generic_entity<8:13> PERS 3  
+  generic_entity<8:13> NUM sg  
+  generic_entity<8:13> GEND n  
+}
+

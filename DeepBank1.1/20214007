@@ -1,0 +1,62 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:00 h)).
+;;;
+
+[20214007] (1 of 1) {1} `Perhaps.'
+
+[20214007:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Perhaps", 0, "null", "RB" 1.0)
+  (2, 1, 2, <7:8>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:8>, 1, "Perhaps.", 0, "null", "RB" 1.0)
+  (23, 0, 1, <0:8>, 1, "perhaps.", 0, "null")
+  (24, 0, 1, <0:8>, 1, "perhaps.", 0, "null")
+>
+
+(ROOT_FRAG
+ (66 R_SCP-FRG_C 0 0 1
+  (65 W_PERIOD_PLR 0 0 1
+   (35 perhaps_adv2@av_-_s-cp-nsp-pr_le 0 0 1
+    ("perhaps." 23
+     "token [ +CARG \"Perhaps\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"perhaps.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (ADV (ADV "perhaps.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:8>
+            LBL: h4
+            ARG0: e3
+            ARG: u5 ]
+          [ _perhaps_a_1<0:8>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h6 ] >
+   HCONS: < h6 QEQ h4 h1 QEQ h2 > ]
+
+{e7:
+ e3:unknown<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_perhaps_a_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _perhaps_a_1<0:8> ARG1 unknown<0:8>  
+  unknown<0:8> SF prop  
+  unknown<0:8> TENSE untensed  
+  unknown<0:8> MOOD indicative  
+  unknown<0:8> PROG -  
+  unknown<0:8> PERF -  
+  _perhaps_a_1<0:8> SF prop  
+  _perhaps_a_1<0:8> TENSE untensed  
+  _perhaps_a_1<0:8> MOOD indicative  
+  _perhaps_a_1<0:8> PROG -  
+  _perhaps_a_1<0:8> PERF -  
+}
+

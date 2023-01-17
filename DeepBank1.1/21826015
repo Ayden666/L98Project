@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:09 h)).
+;;;
+
+[21826015] (1 of 1) {1} `Not so.'
+
+[21826015:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:6>, 1, "so", 0, "null", "RB" 0.9869 "IN" 0.0131)
+  (3, 2, 3, <6:7>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (36, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (37, 0, 1, <0:3>, 1, "not", 0, "null")
+  (39, 0, 1, <0:3>, 1, "not", 0, "null")
+  (33, 1, 2, <4:7>, 1, "so.", 0, "null")
+  (35, 1, 2, <4:7>, 1, "so.", 0, "null", "RB" 0.9869)
+  (38, 1, 2, <4:7>, 1, "so.", 0, "null")
+>
+
+(ROOT_FRAG
+ (295 R_SCP-FRG_C -0.526219 0 2
+  (294 MRK-NH_EVNT_C -0.526219 0 2
+   (76 not_conj_event@c_xp_not-ev_le -0.526219 0 1
+    ("not" 37
+     "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (293 W_PERIOD_PLR 0 1 2
+    (145 so_adv1@av_-_s-cp-pr_le 0 1 2
+     ("so." 33
+      "token [ +CARG \"so\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"so.\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98687499999999995\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (ADV-C (CONJ "not") (ADV (ADV "so."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h4
+            ARG0: e3
+            ARG: u5 ]
+          [ _not_c<0:3>
+            LBL: h2
+            ARG0: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            L-HNDL: u9
+            L-INDEX: i10
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _so_a_thus<4:7>
+            LBL: h7
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h11 ] >
+   HCONS: < h11 QEQ h4 h1 QEQ h2 > ]
+
+{e8:
+ e3:unknown<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e8:_not_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e12]
+ e12:_so_a_thus<4:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _not_c<0:3> R-HNDL _so_a_thus<4:7>  
+  _so_a_thus<4:7> ARG1 unknown<0:7>  
+  unknown<0:7> SF prop  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _not_c<0:3> SF prop  
+  _not_c<0:3> TENSE untensed  
+  _not_c<0:3> MOOD indicative  
+  _not_c<0:3> PROG -  
+  _not_c<0:3> PERF -  
+  _so_a_thus<4:7> SF prop  
+  _so_a_thus<4:7> TENSE untensed  
+  _so_a_thus<4:7> MOOD indicative  
+  _so_a_thus<4:7> PROG -  
+  _so_a_thus<4:7> PERF -  
+}
+

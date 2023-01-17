@@ -1,0 +1,158 @@
+;;;
+;;; Redwoods export of `wsj14e';
+;;; (wsun@wsun; 22-jan-2018 (23:51 h)).
+;;;
+
+[21499007] (1 of 1) {1} `Federal child care (quack).'
+
+[21499007:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Federal", 0, "null", "NNP" 0.8799 "JJ" 0.1201)
+  (2, 1, 2, <8:13>, 1, "child", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:18>, 1, "care", 0, "null", "NN" 1.0)
+  (4, 3, 4, <19:20>, 1, "(", 0, "null", "(" 1.0)
+  (5, 4, 5, <20:25>, 1, "quack", 0, "null", "UH" 1.0)
+  (6, 5, 6, <25:26>, 1, ")", 0, "null", ")" 1.0)
+  (7, 6, 7, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (77, 0, 1, <0:7>, 1, "Federal", 0, "null")
+  (80, 0, 1, <0:7>, 1, "Federal", 0, "null", "JJ" 0.1201)
+  (81, 0, 1, <0:7>, 1, "federal", 0, "null")
+  (85, 0, 1, <0:7>, 1, "federal", 0, "null")
+  (70, 1, 2, <8:13>, 1, "child", 0, "null")
+  (78, 1, 2, <8:13>, 1, "child", 0, "null", "NN" 1.0)
+  (82, 1, 2, <8:13>, 1, "child", 0, "null")
+  (72, 2, 3, <14:18>, 1, "care", 0, "null")
+  (79, 2, 3, <14:18>, 1, "care", 0, "null", "NN" 1.0)
+  (83, 2, 3, <14:18>, 1, "care", 0, "null")
+  (74, 3, 4, <19:27>, 1, "(quack).", 0, "null")
+  (84, 3, 4, <19:27>, 1, "(quack).", 0, "null")
+>
+
+(ROOT_FRAG
+ (650 NP_FRG_C 2.76982 0 4
+  (649 HDN-N_PRNTH_C 2.62805 0 4
+   (644 ^HDN_BNP_C 0.0343008 0 3
+    (643 AJ-HDN_NORM_C 0.150759 0 3
+     (88 federal_a1@aj_-_i_le -0.0219749 0 1
+      ("federal" 81
+       "token [ +CARG \"Federal\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"federal\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87987029999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (642 ^N-HDN_CPD_C -0.658174 1 3
+      (89 child_n1@n_-_c_le 0 1 2
+       ("child" 70
+        "token [ +CARG #1=\"child\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (641 ^N_MS_ILR -0.77803 2 3
+       (96 care_n1@n_-_m_le -0.319643 2 3
+        ("care" 72
+         "token [ +CARG #1=\"care\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (648 W_LPAREN_PLR 2.04803 3 4
+    (647 W_PERIOD_PLR 2.04803 3 4
+     (646 W_RPAREN_PLR 1.3712 3 4
+      (645 N_SG_ILR -0.230708 3 4
+       (104 quack_n1@n_-_c_le 0 3 4
+        ("(quack)." 74
+         "token [ +CARG \"quack\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"(quack).\" +FROM \"19\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"20\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (NP (NP (N (AP "federal") (N (N "child") (N (N "care")))))
+  (N (N (N (N (N "(quack).")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:27>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ parenthetical<0:27>
+            LBL: h2
+            ARG0: i6
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<19:27>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ udef_q<0:18>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ _federal_a_1<0:7>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ compound<8:18>
+            LBL: h13
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x15 [ x IND: + ] ]
+          [ udef_q<8:13>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _child_n_1<8:13>
+            LBL: h20
+            ARG0: x15 ]
+          [ _care_n_1<14:18>
+            LBL: h13
+            ARG0: x4 ]
+          [ _quack_n_1<19:27>
+            LBL: h21
+            ARG0: x5 ] >
+   HCONS: < h18 QEQ h20 h11 QEQ h13 h8 QEQ h21 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ i6:parenthetical<0:27>{i}[ARG1 x4, ARG2 x5]
+ _1:udef_q<19:27>[BV x5]
+ _2:udef_q<0:18>[BV x4]
+ e14:_federal_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ e16:compound<8:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x15]
+ _3:udef_q<8:13>[BV x15]
+ x15:_child_n_1<8:13>{x IND +}[]
+ x4:_care_n_1<14:18>{x PERS 3, NUM sg, GEND n, IND -}[]
+ x5:_quack_n_1<19:27>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:27> ARG _care_n_1<14:18>  
+  parenthetical<0:27> ARG1 _care_n_1<14:18>  
+  parenthetical<0:27> ARG2 _quack_n_1<19:27>  
+  udef_q<19:27> BV _quack_n_1<19:27>  
+  udef_q<0:18> BV _care_n_1<14:18>  
+  _federal_a_1<0:7> ARG1 _care_n_1<14:18>  
+  compound<8:18> ARG1 _care_n_1<14:18>  
+  compound<8:18> ARG2 _child_n_1<8:13>  
+  udef_q<8:13> BV _child_n_1<8:13>  
+  unknown<0:27> SF prop  
+  unknown<0:27> TENSE untensed  
+  unknown<0:27> MOOD indicative  
+  unknown<0:27> PROG -  
+  unknown<0:27> PERF -  
+  _federal_a_1<0:7> SF prop  
+  _federal_a_1<0:7> TENSE untensed  
+  _federal_a_1<0:7> MOOD indicative  
+  _federal_a_1<0:7> PROG -  
+  _federal_a_1<0:7> PERF -  
+  compound<8:18> SF prop  
+  compound<8:18> TENSE untensed  
+  compound<8:18> MOOD indicative  
+  compound<8:18> PROG -  
+  compound<8:18> PERF -  
+  _child_n_1<8:13> IND +  
+  _care_n_1<14:18> PERS 3  
+  _care_n_1<14:18> NUM sg  
+  _care_n_1<14:18> GEND n  
+  _care_n_1<14:18> IND -  
+  _quack_n_1<19:27> PERS 3  
+  _quack_n_1<19:27> NUM sg  
+  _quack_n_1<19:27> IND +  
+}
+

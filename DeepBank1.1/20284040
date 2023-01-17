@@ -1,0 +1,163 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:41 h)).
+;;;
+
+[20284040] (1 of 1) {1} `NEW JERSEY MERGER:'
+
+[20284040:3] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "NEW", 0, "null", "NNP" 0.8536 "JJ" 0.1464)
+  (2, 1, 2, <4:10>, 1, "JERSEY", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:17>, 1, "MERGER", 0, "null", "NN" 1.0)
+  (4, 3, 4, <17:18>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (42, 0, 1, <0:3>, 1, "NEW", 0, "null")
+  (53, 0, 1, <0:3>, 1, "NEW", 0, "null", "NNP" 0.8536)
+  (56, 0, 1, <0:3>, 1, "NEW", 0, "null", "JJ" 0.1464)
+  (59, 0, 1, <0:3>, 1, "new", 0, "null")
+  (62, 0, 1, <0:3>, 1, "new", 0, "null")
+  (40, 1, 2, <4:10>, 1, "JERSEY", 0, "null")
+  (54, 1, 2, <4:10>, 1, "JERSEY", 0, "null", "NNP" 1.0)
+  (57, 1, 2, <4:10>, 1, "jersey", 0, "null")
+  (60, 1, 2, <4:10>, 1, "jersey", 0, "null")
+  (41, 2, 3, <11:17>, 1, "MERGER", 0, "null")
+  (55, 2, 3, <11:17>, 1, "MERGER", 0, "null", "NN" 1.0)
+  (58, 2, 3, <11:17>, 1, "merger", 0, "null")
+  (61, 2, 3, <11:17>, 1, "merger", 0, "null")
+  (50, 3, 4, <17:18>, 1, ":", 0, "null")
+  (63, 3, 4, <17:18>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (657 NP_FRG_C 1.63584 0 4
+  (656 HDN_BNP_C 1.84025 0 4
+   (655 HDN-AJ_REDREL_C 1.93565 0 4
+    (654 ^NP-HDN_CPD_C 1.33433 0 3
+     (653 HDN_BNP-PN_C 1.26961 0 2
+      (652 NP-HDN_NME-CPD_C 0.86882 0 2
+       (651 HDN_BNP-PN_C 0.365523 0 1
+        (650 N_SG_ILR -0.386912 0 1
+         (67 generic_proper_ne@n_-_pn-gen_le 0 0 1
+          ("NEW" 42
+           "token [ +CARG #1=\"NEW\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85357150000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (77 jersey_n1@n_-_pn_le 0 1 2
+        ("jersey" 57
+         "token [ +CARG \"JERSEY\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"jersey\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (633 ^N_MS-CNT_ILR 0.305292 2 3
+      (81 merger_n1@n_-_mc_le 0.191272 2 3
+       ("merger" 58
+        "token [ +CARG \"MERGER\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"merger\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (91 colon_namely_pp@pp_-_i-cln_le -0.196315 3 4
+     (":" 50
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP
+  (N (N (NP (N (NP (N (N "NEW"))) (N "jersey"))) (N (N "merger")))
+   (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:10>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:3>
+            LBL: h20
+            ARG0: x15
+            CARG: "NEW" ]
+          [ named<4:10>
+            LBL: h14
+            ARG0: x9
+            CARG: "Jersey" ]
+          [ _merger_n_1<11:17>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<17:18>
+            LBL: h8
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:18>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:10>[BV x9]
+ e16:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:3>[BV x15]
+ x15:named<0:3>("NEW"){x PERS 3, NUM sg, IND +}[]
+ x9:named<4:10>("Jersey"){x IND +}[]
+ x4:_merger_n_1<11:17>{x PERS 3, NUM sg}[]
+ e21:_colon_p_namely<17:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:18> ARG _merger_n_1<11:17>  
+  udef_q<0:18> BV _merger_n_1<11:17>  
+  compound<0:17> ARG1 _merger_n_1<11:17>  
+  compound<0:17> ARG2 named<4:10>(Jersey)  
+  proper_q<0:10> BV named<4:10>(Jersey)  
+  compound<0:10> ARG1 named<4:10>(Jersey)  
+  compound<0:10> ARG2 named<0:3>(NEW)  
+  proper_q<0:3> BV named<0:3>(NEW)  
+  _colon_p_namely<17:18> ARG1 _merger_n_1<11:17>  
+  unknown<0:18> SF prop-or-ques  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:3>(NEW) PERS 3  
+  named<0:3>(NEW) NUM sg  
+  named<0:3>(NEW) IND +  
+  named<4:10>(Jersey) IND +  
+  _merger_n_1<11:17> PERS 3  
+  _merger_n_1<11:17> NUM sg  
+  _colon_p_namely<17:18> SF prop  
+  _colon_p_namely<17:18> TENSE untensed  
+  _colon_p_namely<17:18> MOOD indicative  
+  _colon_p_namely<17:18> PROG -  
+  _colon_p_namely<17:18> PERF -  
+}
+

@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (11:01 h)).
+;;;
+
+[20108011] (1 of 1) {1} `And it was stupid.'
+
+[20108011:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:6>, 1, "it", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <7:10>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <11:17>, 1, "stupid", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:3>, 1, "and", 0, "null")
+  (61, 0, 1, <0:3>, 1, "and", 0, "null")
+  (50, 1, 2, <4:6>, 1, "it", 0, "null")
+  (58, 1, 2, <4:6>, 1, "it", 0, "null")
+  (52, 2, 3, <7:10>, 1, "was", 0, "null")
+  (55, 2, 3, <7:10>, 1, "was", 0, "null", "VBD" 1.0)
+  (59, 2, 3, <7:10>, 1, "was", 0, "null")
+  (54, 3, 4, <11:18>, 1, "stupid.", 0, "null")
+  (56, 3, 4, <11:18>, 1, "stupid.", 0, "null", "JJ" 1.0)
+  (60, 3, 4, <11:18>, 1, "stupid.", 0, "null")
+>
+
+(ROOT_STRICT
+ (566 CL_CNJ-FRG_C 4.55362 0 4
+  (565 MRK-NH_CL_C 3.68373 0 4
+   (65 and_conj@c_xp_and_le -0.28157 0 1
+    ("and" 57
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (564 SB-HD_MC_C 3.77654 1 4
+    (561 HDN_BNP-QNT_C 0.147637 1 2
+     (82 it2@n_-_pr-it_le -0.123119 1 2
+      ("it" 50
+       "token [ +CARG #1=\"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (563 ^HD-CMP_U_C 2.76557 2 4
+     (100 be_c_was@v_prd_was_le 2.0009 2 3
+      ("was" 52
+       "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (562 W_PERIOD_PLR 0.612486 3 4
+      (119 stupid_a1@aj_-_i_le 0 3 4
+       ("stupid." 54
+        "token [ +CARG \"stupid\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"stupid.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S (CONJ "and") (S (NP (NP "it")) (VP (V "was") (AP (AP "stupid."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _and_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ pron<4:6>
+            LBL: h8
+            ARG0: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<4:6>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _stupid_a_1<11:18>
+            LBL: h13
+            ARG0: e4
+            ARG1: x9 ] >
+   HCONS: < h11 QEQ h8 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_and_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ x9:pron<4:6>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<4:6>[BV x9]
+ e4:_stupid_a_1<11:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  _and_c<0:3> R-HNDL _stupid_a_1<11:18>  
+  _and_c<0:3> R-INDEX _stupid_a_1<11:18>  
+  pronoun_q<4:6> BV pron<4:6>  
+  _stupid_a_1<11:18> ARG1 pron<4:6>  
+  _and_c<0:3> SF prop  
+  _and_c<0:3> TENSE untensed  
+  _and_c<0:3> MOOD indicative  
+  _and_c<0:3> PROG -  
+  _and_c<0:3> PERF -  
+  pron<4:6> PERS 3  
+  pron<4:6> NUM sg  
+  pron<4:6> GEND n  
+  pron<4:6> PT std  
+  _stupid_a_1<11:18> SF prop  
+  _stupid_a_1<11:18> TENSE past  
+  _stupid_a_1<11:18> MOOD indicative  
+  _stupid_a_1<11:18> PROG -  
+  _stupid_a_1<11:18> PERF -  
+}
+

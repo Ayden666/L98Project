@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:57 h)).
+;;;
+
+[20725120] (1 of 1) {1} `Price: $4.50).'
+
+[20725120:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Price", 0, "null", "NNP" 0.9656 "NN" 0.0344)
+  (2, 1, 2, <5:6>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <7:8>, 1, "$", 0, "null", "$" 1.0)
+  (4, 3, 4, <8:12>, 1, "4.50", 0, "null", "CD" 1.0)
+  (5, 4, 5, <12:13>, 1, ")", 0, "null", ")" 1.0)
+  (6, 5, 6, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:5>, 1, "Price", 0, "null")
+  (64, 0, 1, <0:5>, 1, "price", 0, "null")
+  (68, 0, 1, <0:5>, 1, "price", 0, "null")
+  (58, 1, 2, <5:6>, 1, ":", 0, "null")
+  (66, 1, 2, <5:6>, 1, ":", 0, "null")
+  (60, 2, 3, <7:8>, 1, "$", 0, "null")
+  (67, 2, 3, <7:8>, 1, "$", 0, "null")
+  (54, 3, 4, <8:14>, 1, "4.50).", 0, "null")
+  (65, 3, 4, <8:14>, 1, "4.50).", 0, "null")
+>
+
+(ROOT_STRICT
+ (627 SB-HD_MC_C 5.9626 0 4
+  (620 HDN_BNP_C -0.541413 0 1
+   (619 N_MS-CNT_ILR -0.341337 0 1
+    (70 price_n1@n_-_mc-ed_le -0.174328 0 1
+     ("price" 64
+      "token [ +CARG \"Price\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"price\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96560639999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (626 ^HD-CMP_U_C 4.9881 1 4
+   (77 colon_copula_v@v_np_colon_le 0.879077 1 2
+    (":" 58
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (625 HDN_BNP_C 4.29988 2 4
+    (624 N-NUM_MNP_C 4.10433 2 4
+     (621 ^N_PL-CUR_ILR 1.21255 2 3
+      (110 dollarsign_n1@n_-_c-cur_le -0.27486 2 3
+       ("$" 60
+        "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (623 W_PERIOD_PLR 1.18641 3 4
+      (622 W_RPAREN_PLR 0.509581 3 4
+       (114 generic_card_ne@aj_-_i-crd-gen_le 0 3 4
+        ("4.50)." 54
+         "token [ +CARG \"4.50\" +CLASS card_or_time_or_proper_ne +FORM \"4.50).\" +FROM \"8\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (N "price")))
+ (VP (V ":") (NP (N (N (N "$")) (ADJ (ADJ (ADJ "4.50).")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _price_n_of<0:5>
+            LBL: h8
+            ARG0: x6 ]
+          [ _colon_v_id<5:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<7:14>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _dollar_n_1<7:8>
+            LBL: h13
+            ARG0: x9 ]
+          [ card<8:14>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "4.50" ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:5>[BV x6]
+ x6:_price_n_of<0:5>{x PERS 3, NUM sg}[]
+ e3:_colon_v_id<5:6>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<7:14>[BV x9]
+ x9:_dollar_n_1<7:8>{x PERS 3, NUM pl, IND +}[]
+ e14:card<8:14>("4.50"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  udef_q<0:5> BV _price_n_of<0:5>  
+  _colon_v_id<5:6> ARG1 _price_n_of<0:5>  
+  _colon_v_id<5:6> ARG2 _dollar_n_1<7:8>  
+  udef_q<7:14> BV _dollar_n_1<7:8>  
+  card<8:14>(4.50) ARG1 _dollar_n_1<7:8>  
+  _price_n_of<0:5> PERS 3  
+  _price_n_of<0:5> NUM sg  
+  _colon_v_id<5:6> SF prop  
+  _colon_v_id<5:6> TENSE tensed  
+  _colon_v_id<5:6> MOOD indicative  
+  _colon_v_id<5:6> PROG -  
+  _colon_v_id<5:6> PERF -  
+  _dollar_n_1<7:8> PERS 3  
+  _dollar_n_1<7:8> NUM pl  
+  _dollar_n_1<7:8> IND +  
+  card<8:14>(4.50) SF prop  
+  card<8:14>(4.50) TENSE untensed  
+  card<8:14>(4.50) MOOD indicative  
+  card<8:14>(4.50) PROG -  
+  card<8:14>(4.50) PERF -  
+}
+

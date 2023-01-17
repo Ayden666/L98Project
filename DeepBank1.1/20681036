@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:33 h)).
+;;;
+
+[20681036] (1 of 1) {1} `Maybe, maybe not.'
+
+[20681036:2] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Maybe", 0, "null", "RB" 1.0)
+  (2, 1, 2, <5:6>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <7:12>, 1, "maybe", 0, "null", "RB" 1.0)
+  (4, 3, 4, <13:16>, 1, "not", 0, "null", "RB" 1.0)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:6>, 1, "Maybe,", 0, "null", "RB" 1.0)
+  (57, 0, 1, <0:6>, 1, "maybe,", 0, "null")
+  (60, 0, 1, <0:6>, 1, "maybe,", 0, "null")
+  (49, 1, 2, <7:12>, 1, "maybe", 0, "null")
+  (54, 1, 2, <7:12>, 1, "maybe", 0, "null", "RB" 1.0)
+  (58, 1, 2, <7:12>, 1, "maybe", 0, "null")
+  (53, 2, 3, <13:17>, 1, "not.", 0, "null")
+  (56, 2, 3, <13:17>, 1, "not.", 0, "null", "RB" 1.0)
+  (59, 2, 3, <13:17>, 1, "not.", 0, "null")
+>
+
+(ROOT_FRAG
+ (335 AJ-HD_SCP_C 3.71672 0 3
+  (324 W_COMMA_PLR 2.3495 0 1
+   (66 maybe_adv1@av_-_s-cp-nsp-pr_le 0 0 1
+    ("maybe," 57
+     "token [ +CARG \"Maybe\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"maybe,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (334 ^AJ-HD_SCP_C 0.746319 1 3
+   (78 maybe_adv1@av_-_s-cp-nsp-pr_le 0.173619 1 2
+    ("maybe" 49
+     "token [ +CARG #1=\"maybe\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (333 ^R_SCP-FRG_C 0 2 3
+    (332 W_PERIOD_PLR 0 2 3
+     (116 not@av_-_s-not_le 0 2 3
+      ("not." 53
+       "token [ +CARG \"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"not.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (ADV (ADV "maybe,")) (XP (ADV "maybe") (XP (ADV (ADV "not.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _maybe_a_1<0:6>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ _maybe_a_1<7:12>
+            LBL: h6
+            ARG0: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h7 ]
+          [ unknown<13:17>
+            LBL: h9
+            ARG0: e3
+            ARG: u10 ]
+          [ neg<13:17>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h12 ] >
+   HCONS: < h12 QEQ h9 h7 QEQ h11 h4 QEQ h6 h1 QEQ h2 > ]
+
+{e5:
+ e5:_maybe_a_1<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e8]
+ e8:_maybe_a_1<7:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e13]
+ e3:unknown<13:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e13:neg<13:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _maybe_a_1<0:6> ARG1 _maybe_a_1<7:12>  
+  _maybe_a_1<7:12> ARG1 neg<13:17>  
+  neg<13:17> ARG1 unknown<13:17>  
+  _maybe_a_1<0:6> SF prop  
+  _maybe_a_1<0:6> TENSE untensed  
+  _maybe_a_1<0:6> MOOD indicative  
+  _maybe_a_1<0:6> PROG -  
+  _maybe_a_1<0:6> PERF -  
+  _maybe_a_1<7:12> SF prop  
+  _maybe_a_1<7:12> TENSE untensed  
+  _maybe_a_1<7:12> MOOD indicative  
+  _maybe_a_1<7:12> PROG -  
+  _maybe_a_1<7:12> PERF -  
+  unknown<13:17> SF prop  
+  unknown<13:17> TENSE untensed  
+  unknown<13:17> MOOD indicative  
+  unknown<13:17> PROG -  
+  unknown<13:17> PERF -  
+  neg<13:17> SF prop  
+  neg<13:17> TENSE untensed  
+  neg<13:17> MOOD indicative  
+  neg<13:17> PROG -  
+  neg<13:17> PERF -  
+}
+

@@ -1,0 +1,146 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:13 h)).
+;;;
+
+[21935033] (1 of 1) {1} `N. Joseph Potts'
+
+[21935033:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "N.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <3:9>, 1, "Joseph", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:15>, 1, "Potts", 0, "null", "NNP" 1.0)
+>
+
+<
+  (38, 0, 1, <0:2>, 1, "N.", 0, "null")
+  (43, 0, 1, <0:2>, 1, "n.", 0, "null")
+  (46, 0, 1, <0:2>, 1, "n.", 0, "null")
+  (31, 1, 2, <3:9>, 1, "Joseph", 0, "null")
+  (40, 1, 2, <3:9>, 1, "Joseph", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <3:9>, 1, "joseph", 0, "null")
+  (45, 1, 2, <3:9>, 1, "joseph", 0, "null")
+  (30, 2, 3, <10:15>, 1, "Potts", 0, "null")
+  (39, 2, 3, <10:15>, 1, "Potts", 0, "null", "NNP" 1.0)
+  (41, 2, 3, <10:15>, 1, "potts", 0, "null")
+  (44, 2, 3, <10:15>, 1, "potts", 0, "null")
+>
+
+(ROOT_FRAG
+ (260 NP_FRG_C 0.852607 0 3
+  (259 HDN_BNP-PN_C 1.99912 0 3
+   (258 NP-HDN_NME-CPD_C 2.03843 0 3
+    (256 HDN_BNP-PN_C 1.84709 0 2
+     (255 NP-HDN_NME-CPD_C 1.49917 0 2
+      (253 HDN_BNP-PN_C 0.586141 0 1
+       (252 N_SG_ILR -0.166294 0 1
+        (54 n_period_np1@n_-_pn_le 0 0 1
+         ("n." 43
+          "token [ +CARG \"N.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"n.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (254 ^N_SG_ILR -0.602862 1 2
+       (61 joseph_n1@n_-_pn_le 0 1 2
+        ("joseph" 42
+         "token [ +CARG \"Joseph\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"joseph\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (257 ^N_SG_ILR -0.143257 2 3
+     (64 generic_proper_ne@n_-_pn-gen_le 0 2 3
+      ("Potts" 30
+       "token [ +CARG #1=\"Potts\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP
+ (NP (N (NP (N (NP (N (N "n."))) (N (N "joseph")))) (N (N "Potts")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:9>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:2>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:2>
+            LBL: h20
+            ARG0: x15
+            CARG: "N" ]
+          [ named<3:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Joseph" ]
+          [ named<10:15>
+            LBL: h8
+            ARG0: x4
+            CARG: "Potts" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:15>[BV x4]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ e16:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:2>[BV x15]
+ x15:named<0:2>("N"){x PERS 3, NUM sg, IND +}[]
+ x9:named<3:9>("Joseph"){x PERS 3, NUM sg, IND +}[]
+ x4:named<10:15>("Potts"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:15> ARG named<10:15>(Potts)  
+  proper_q<0:15> BV named<10:15>(Potts)  
+  compound<0:15> ARG1 named<10:15>(Potts)  
+  compound<0:15> ARG2 named<3:9>(Joseph)  
+  proper_q<0:9> BV named<3:9>(Joseph)  
+  compound<0:9> ARG1 named<3:9>(Joseph)  
+  compound<0:9> ARG2 named<0:2>(N)  
+  proper_q<0:2> BV named<0:2>(N)  
+  unknown<0:15> SF prop-or-ques  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:2>(N) PERS 3  
+  named<0:2>(N) NUM sg  
+  named<0:2>(N) IND +  
+  named<3:9>(Joseph) PERS 3  
+  named<3:9>(Joseph) NUM sg  
+  named<3:9>(Joseph) IND +  
+  named<10:15>(Potts) PERS 3  
+  named<10:15>(Potts) NUM sg  
+  named<10:15>(Potts) IND +  
+}
+

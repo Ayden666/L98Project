@@ -1,0 +1,90 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:01 h)).
+;;;
+
+[20989010] (1 of 1) {1} `Why the revolt?'
+
+[20989010:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Why", 0, "null", "WRB" 1.0)
+  (2, 1, 2, <4:7>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <8:14>, 1, "revolt", 0, "null", "NN" 1.0)
+  (4, 3, 4, <14:15>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (45, 0, 1, <0:3>, 1, "why", 0, "null")
+  (48, 0, 1, <0:3>, 1, "why", 0, "null")
+  (41, 1, 2, <4:7>, 1, "the", 0, "null")
+  (46, 1, 2, <4:7>, 1, "the", 0, "null")
+  (43, 2, 3, <8:15>, 1, "revolt?", 0, "null")
+  (44, 2, 3, <8:15>, 1, "revolt?", 0, "null", "NN" 1.0)
+  (47, 2, 3, <8:15>, 1, "revolt?", 0, "null")
+>
+
+(ROOT_STRICT
+ (193 HD-CMP_U_C 0.756997 0 3
+  (53 why_n_or_p@x_xp_howabt-n-p_le 0 0 1
+   ("why" 45
+    "token [ +CARG \"Why\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"why\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (192 SP-HD_N_C 0.756997 1 3
+   (68 the_1@d_-_the_le 1.07131 1 2
+    ("the" 41
+     "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (191 ^W_QMARK_PLR -0.314316 2 3
+    (190 N_MS-CNT_ILR -0.314316 2 3
+     (93 revolt_n1@n_-_mc_le 0 2 3
+      ("revolt?" 43
+       "token [ +CARG \"revolt\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"revolt?\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (V "why") (NP (DET "the") (N (N (N "revolt?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_verb<0:3>
+            LBL: h4
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _why_x<0:3>
+            LBL: h2
+            ARG0: e3
+            ARG1: h7
+            ARG2: x6 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<4:7>
+            LBL: h8
+            ARG0: x6
+            RSTR: h10
+            BODY: h9 ]
+          [ _revolt_n_1<8:15>
+            LBL: h11
+            ARG0: x6 ] >
+   HCONS: < h10 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ e5:generic_verb<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e3:_why_x<0:3>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5, ARG2 x6]
+ _1:_the_q<4:7>[BV x6]
+ x6:_revolt_n_1<8:15>{x PERS 3, NUM sg}[]
+}
+
+{
+  _why_x<0:3> ARG1 generic_verb<0:3>  
+  _why_x<0:3> ARG2 _revolt_n_1<8:15>  
+  _the_q<4:7> BV _revolt_n_1<8:15>  
+  generic_verb<0:3> SF prop  
+  generic_verb<0:3> TENSE untensed  
+  generic_verb<0:3> MOOD indicative  
+  generic_verb<0:3> PROG -  
+  generic_verb<0:3> PERF -  
+  _why_x<0:3> SF ques  
+  _why_x<0:3> TENSE untensed  
+  _why_x<0:3> MOOD indicative  
+  _why_x<0:3> PROG -  
+  _why_x<0:3> PERF -  
+  _revolt_n_1<8:15> PERS 3  
+  _revolt_n_1<8:15> NUM sg  
+}
+

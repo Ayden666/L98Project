@@ -1,0 +1,97 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:48 h)).
+;;;
+
+[20414043] (1 of 1) {1} `Some even study.'
+
+[20414043:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Some", 0, "null", "DT" 0.9731 "RB" 0.0269)
+  (2, 1, 2, <5:9>, 1, "even", 0, "null", "JJ" 0.6633 "RB" 0.3367)
+  (3, 2, 3, <10:15>, 1, "study", 0, "null", "NN" 0.899 "VB" 0.101)
+  (4, 3, 4, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:4>, 1, "some", 0, "null")
+  (57, 0, 1, <0:4>, 1, "some", 0, "null")
+  (46, 1, 2, <5:9>, 1, "even", 0, "null")
+  (50, 1, 2, <5:9>, 1, "even", 0, "null", "JJ" 0.6633)
+  (52, 1, 2, <5:9>, 1, "even", 0, "null", "RB" 0.3367)
+  (55, 1, 2, <5:9>, 1, "even", 0, "null")
+  (48, 2, 3, <10:16>, 1, "study.", 0, "null")
+  (51, 2, 3, <10:16>, 1, "study.", 0, "null", "NN" 0.899)
+  (53, 2, 3, <10:16>, 1, "study.", 0, "null", "VB" 0.101)
+  (56, 2, 3, <10:16>, 1, "study.", 0, "null")
+>
+
+(ROOT_STRICT
+ (288 SB-HD_MC_C 2.69458 0 3
+  (283 HDN_BNP-QNT_C 1.18608 0 1
+   (282 DET_PRT-NOCMP_DLR 0.911298 0 1
+    (58 some@d_-_prt-div_le 0.862126 0 1
+     ("some" 54
+      "token [ +CARG \"Some\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"some\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97310490000000005\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (287 ^AJ-HD_INT_C 0.748153 1 3
+   (63 even_adv1@av_-_i-vp-x_le 1.13971 1 2
+    ("even" 46
+     "token [ +CARG #1=\"even\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66330679999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (286 ^HD_OPTCMP_C -0.767113 2 3
+    (285 W_PERIOD_PLR -1.48338 2 3
+     (284 V_N3S-BSE_ILR -0.638355 2 3
+      (78 study_v1@v_np*_le 0 2 3
+       ("study." 48
+        "token [ +CARG \"study\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"study.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89899300000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (DET "some"))) (VP (ADV "even") (VP (V (V (V "study."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _some_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ generic_entity<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ _even_a_1<5:9>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _study_v_1<10:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p10 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_some_q<0:4>[BV x6]
+ x6:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ e9:_even_a_1<5:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_study_v_1<10:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _some_q<0:4> BV generic_entity<0:4>  
+  _even_a_1<5:9> ARG1 _study_v_1<10:16>  
+  _study_v_1<10:16> ARG1 generic_entity<0:4>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  _even_a_1<5:9> SF prop  
+  _even_a_1<5:9> TENSE untensed  
+  _even_a_1<5:9> MOOD indicative  
+  _even_a_1<5:9> PROG -  
+  _even_a_1<5:9> PERF -  
+  _study_v_1<10:16> SF prop  
+  _study_v_1<10:16> TENSE pres  
+  _study_v_1<10:16> MOOD indicative  
+  _study_v_1<10:16> PROG -  
+  _study_v_1<10:16> PERF -  
+}
+

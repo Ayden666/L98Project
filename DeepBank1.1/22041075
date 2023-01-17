@@ -1,0 +1,173 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:16 h)).
+;;;
+
+[22041075] (1 of 1) {1} `His recommendation was rejected by the government.'
+
+[22041075:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "His", 0, "null", "PRP$" 1.0)
+  (2, 1, 2, <4:18>, 1, "recommendation", 0, "null", "NN" 1.0)
+  (3, 2, 3, <19:22>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <23:31>, 1, "rejected", 0, "null", "VBN" 0.9861 "VBD" 0.0139)
+  (5, 4, 5, <32:34>, 1, "by", 0, "null", "IN" 1.0)
+  (6, 5, 6, <35:38>, 1, "the", 0, "null", "DT" 1.0)
+  (7, 6, 7, <39:49>, 1, "government", 0, "null", "NN" 1.0)
+  (8, 7, 8, <49:50>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (94, 0, 1, <0:3>, 1, "his", 0, "null")
+  (101, 0, 1, <0:3>, 1, "his", 0, "null")
+  (79, 1, 2, <4:18>, 1, "recommendation", 0, "null")
+  (91, 1, 2, <4:18>, 1, "recommendation", 0, "null", "NN" 1.0)
+  (95, 1, 2, <4:18>, 1, "recommendation", 0, "null")
+  (81, 2, 3, <19:22>, 1, "was", 0, "null")
+  (92, 2, 3, <19:22>, 1, "was", 0, "null", "VBD" 1.0)
+  (96, 2, 3, <19:22>, 1, "was", 0, "null")
+  (88, 3, 4, <23:31>, 1, "rejected", 0, "null")
+  (90, 3, 4, <23:31>, 1, "rejected", 0, "null", "VBN" 0.9861)
+  (100, 3, 4, <23:31>, 1, "rejected", 0, "null")
+  (83, 4, 5, <32:34>, 1, "by", 0, "null")
+  (97, 4, 5, <32:34>, 1, "by", 0, "null")
+  (85, 5, 6, <35:38>, 1, "the", 0, "null")
+  (98, 5, 6, <35:38>, 1, "the", 0, "null")
+  (87, 6, 7, <39:50>, 1, "government.", 0, "null")
+  (93, 6, 7, <39:50>, 1, "government.", 0, "null", "NN" 1.0)
+  (99, 6, 7, <39:50>, 1, "government.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1272 SB-HD_MC_C 12.5029 0 7
+  (1263 SP-HD_N_C 1.02223 0 2
+   (112 his_poss@d_-_poss-his_le 1.43283 0 1
+    ("his" 94
+     "token [ +CARG \"His\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"his\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1262 ^N_MS-CNT_ILR -0.341783 1 2
+    (120 recommendation_n1@n_-_mc_le 0 1 2
+     ("recommendation" 79
+      "token [ +CARG #1=\"recommendation\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1271 ^HD-CMP_U_C 9.52614 2 7
+   (130 be_c_was@v_prd_was_le 2.0009 2 3
+    ("was" 81
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1270 HD-CMP_U_C 7.41863 3 7
+    (1264 ^V_PAS_ODLR 0.707742 3 4
+     (159 reject_v1@v_np_le -0.0197732 3 4
+      ("rejected" 88
+       "token [ +CARG #1=\"rejected\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98611439999999995\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1269 HD-CMP_U_C 5.0319 4 7
+     (311 by_pass_p@p_np_ptcl_le 1.83114 4 5
+      ("by" 83
+       "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1268 SP-HD_N_C 1.83917 5 7
+      (343 the_1@d_-_the_le 1.07131 5 6
+       ("the" 85
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1267 ^HDN_OPTCMP_C 0.196827 6 7
+       (1266 W_PERIOD_PLR -0.133481 6 7
+        (1265 N_MS-CNT_ILR -0.406151 6 7
+         (368 government_n1@n_pp_mc-of_le 0 6 7
+          ("government." 87
+           "token [ +CARG \"government\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"government.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (DET "his") (N (N "recommendation")))
+ (VP (V "was")
+  (VP (V (V "rejected"))
+   (PP (P "by") (NP (DET "the") (N (N (N (N "government.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ def_explicit_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ poss<0:3>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ pron<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ _recommendation_n_1<4:18>
+            LBL: h8
+            ARG0: x6 ]
+          [ _reject_v_as<23:31>
+            LBL: h2
+            ARG0: e3
+            ARG1: x15 [ x PERS: 3 NUM: SG ]
+            ARG2: x6 ]
+          [ parg_d<23:31>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _the_q<35:38>
+            LBL: h17
+            ARG0: x15
+            RSTR: h19
+            BODY: h18 ]
+          [ _government_n_of<39:50>
+            LBL: h20
+            ARG0: x15
+            ARG1: i21 ] >
+   HCONS: < h19 QEQ h20 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:def_explicit_q<0:3>[BV x6]
+ e10:poss<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:pronoun_q<0:3>[BV x9]
+ x9:pron<0:3>{x PERS 3, NUM sg, GEND m, PT std}[]
+ x6:_recommendation_n_1<4:18>{x PERS 3, NUM sg}[]
+ e3:_reject_v_as<23:31>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x6]
+ e16:parg_d<23:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _3:_the_q<35:38>[BV x15]
+ x15:_government_n_of<39:50>{x PERS 3, NUM sg}[]
+}
+
+{
+  def_explicit_q<0:3> BV _recommendation_n_1<4:18>  
+  poss<0:3> ARG1 _recommendation_n_1<4:18>  
+  poss<0:3> ARG2 pron<0:3>  
+  pronoun_q<0:3> BV pron<0:3>  
+  _reject_v_as<23:31> ARG1 _government_n_of<39:50>  
+  _reject_v_as<23:31> ARG2 _recommendation_n_1<4:18>  
+  parg_d<23:31> ARG1 _reject_v_as<23:31>  
+  parg_d<23:31> ARG2 _recommendation_n_1<4:18>  
+  _the_q<35:38> BV _government_n_of<39:50>  
+  poss<0:3> SF prop  
+  poss<0:3> TENSE untensed  
+  poss<0:3> MOOD indicative  
+  poss<0:3> PROG -  
+  poss<0:3> PERF -  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND m  
+  pron<0:3> PT std  
+  _recommendation_n_1<4:18> PERS 3  
+  _recommendation_n_1<4:18> NUM sg  
+  _reject_v_as<23:31> SF prop  
+  _reject_v_as<23:31> TENSE past  
+  _reject_v_as<23:31> MOOD indicative  
+  _reject_v_as<23:31> PROG -  
+  _reject_v_as<23:31> PERF -  
+  parg_d<23:31> SF prop  
+  parg_d<23:31> TENSE untensed  
+  parg_d<23:31> MOOD indicative  
+  parg_d<23:31> PROG -  
+  parg_d<23:31> PERF -  
+  _government_n_of<39:50> PERS 3  
+  _government_n_of<39:50> NUM sg  
+}
+

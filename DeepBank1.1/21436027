@@ -1,0 +1,153 @@
+;;;
+;;; Redwoods export of `wsj14b';
+;;; (wsun@wsun; 22-jan-2018 (23:15 h)).
+;;;
+
+[21436027] (1 of 1) {1} `Security costs are also quite high.'
+
+[21436027:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Security", 0, "null", "NNP" 0.8912 "NN" 0.1088)
+  (2, 1, 2, <9:14>, 1, "costs", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <15:18>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <19:23>, 1, "also", 0, "null", "RB" 1.0)
+  (5, 4, 5, <24:29>, 1, "quite", 0, "null", "RB" 1.0)
+  (6, 5, 6, <30:34>, 1, "high", 0, "null", "JJ" 0.9517 "RB" 0.0483)
+  (7, 6, 7, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:8>, 1, "Security", 0, "null")
+  (87, 0, 1, <0:8>, 1, "security", 0, "null")
+  (93, 0, 1, <0:8>, 1, "security", 0, "null")
+  (70, 1, 2, <9:14>, 1, "costs", 0, "null")
+  (83, 1, 2, <9:14>, 1, "costs", 0, "null", "NNS" 1.0)
+  (88, 1, 2, <9:14>, 1, "costs", 0, "null")
+  (72, 2, 3, <15:18>, 1, "are", 0, "null")
+  (84, 2, 3, <15:18>, 1, "are", 0, "null", "VBP" 1.0)
+  (89, 2, 3, <15:18>, 1, "are", 0, "null")
+  (74, 3, 4, <19:23>, 1, "also", 0, "null")
+  (85, 3, 4, <19:23>, 1, "also", 0, "null", "RB" 1.0)
+  (90, 3, 4, <19:23>, 1, "also", 0, "null")
+  (76, 4, 5, <24:29>, 1, "quite", 0, "null")
+  (86, 4, 5, <24:29>, 1, "quite", 0, "null", "RB" 1.0)
+  (91, 4, 5, <24:29>, 1, "quite", 0, "null")
+  (79, 5, 6, <30:35>, 1, "high.", 0, "null")
+  (82, 5, 6, <30:35>, 1, "high.", 0, "null", "JJ" 0.9517)
+  (92, 5, 6, <30:35>, 1, "high.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1202 SB-HD_MC_C 6.94915 0 6
+  (1197 HDN_BNP_C 1.25888 0 2
+   (1196 N-HDN_CPD_C 0.638134 0 2
+    (95 security_n1@n_-_mc_le -0.852445 0 1
+     ("security" 87
+      "token [ +CARG \"Security\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"security\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89120809999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1195 ^N_PL_OLR 0.848659 1 2
+     (98 cost_n1@n_-_mc_le 0.31264 1 2
+      ("costs" 70
+       "token [ +CARG #1=\"costs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1201 ^HD-CMP_U_C 4.17436 2 6
+   (119 be_c_are@v_prd_are_le -0.108813 2 3
+    ("are" 72
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1200 AJ-HD_SCP-XP_C 1.89905 3 6
+    (126 also_adv1@av_-_s-vp-x_le -0.0123147 3 4
+     ("also" 74
+      "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1199 ^SP-HD_HC_C 1.12693 4 6
+     (146 quite_deg@av_-_dg-jomv_le 0.160975 4 5
+      ("quite" 76
+       "token [ +CARG #1=\"quite\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1198 ^W_PERIOD_PLR 0.806532 5 6
+      (152 high_a1@aj_-_i-er_le 0 5 6
+       ("high." 79
+        "token [ +CARG \"high\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"high.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95166499999999998\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "security") (N (N "costs"))))
+ (VP (V "are") (AP (ADV "also") (AP (ADV "quite") (AP (AP "high."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _security_n_1<0:8>
+            LBL: h14
+            ARG0: x9 ]
+          [ _cost_n_1<9:14>
+            LBL: h8
+            ARG0: x6 ]
+          [ _also_a_1<19:23>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h16 ]
+          [ _quite_x<24:29>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _high_a_1<30:35>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h16 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e15:
+ _1:udef_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_security_n_1<0:8>{x}[]
+ x6:_cost_n_1<9:14>{x PERS 3, NUM pl}[]
+ e15:_also_a_1<19:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e18:_quite_x<24:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_high_a_1<30:35>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:14> BV _cost_n_1<9:14>  
+  compound<0:14> ARG1 _cost_n_1<9:14>  
+  compound<0:14> ARG2 _security_n_1<0:8>  
+  udef_q<0:8> BV _security_n_1<0:8>  
+  _also_a_1<19:23> ARG1 _high_a_1<30:35>  
+  _quite_x<24:29> ARG1 _high_a_1<30:35>  
+  _high_a_1<30:35> ARG1 _cost_n_1<9:14>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _cost_n_1<9:14> PERS 3  
+  _cost_n_1<9:14> NUM pl  
+  _also_a_1<19:23> SF prop  
+  _also_a_1<19:23> TENSE untensed  
+  _also_a_1<19:23> MOOD indicative  
+  _also_a_1<19:23> PROG -  
+  _also_a_1<19:23> PERF -  
+  _quite_x<24:29> SF prop  
+  _quite_x<24:29> TENSE untensed  
+  _quite_x<24:29> MOOD indicative  
+  _quite_x<24:29> PROG -  
+  _quite_x<24:29> PERF -  
+  _high_a_1<30:35> SF prop  
+  _high_a_1<30:35> TENSE pres  
+  _high_a_1<30:35> MOOD indicative  
+  _high_a_1<30:35> PROG -  
+  _high_a_1<30:35> PERF -  
+}
+

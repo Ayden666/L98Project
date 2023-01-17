@@ -1,0 +1,234 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:11 h)).
+;;;
+
+[21620003] (1 of 1) {1} `Mr. Glazer couldn't immediately be reached to comment.'
+
+[21620003:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:10>, 1, "Glazer", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:16>, 1, "could", 0, "null", "MD" 1.0)
+  (4, 3, 4, <16:19>, 1, "n’t", 0, "null", "VB" 0.9508 "RB" 0.0279 "NN" 0.0213)
+  (5, 4, 5, <20:31>, 1, "immediately", 0, "null", "RB" 1.0)
+  (6, 5, 6, <32:34>, 1, "be", 0, "null", "VB" 1.0)
+  (7, 6, 7, <35:42>, 1, "reached", 0, "null", "VBN" 0.9866 "VBD" 0.0134)
+  (8, 7, 8, <43:45>, 1, "to", 0, "null", "TO" 1.0)
+  (9, 8, 9, <46:53>, 1, "comment", 0, "null", "VB" 0.956 "NN" 0.044)
+  (10, 9, 10, <53:54>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (117, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (125, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (88, 1, 2, <4:10>, 1, "Glazer", 0, "null")
+  (113, 1, 2, <4:10>, 1, "Glazer", 0, "null", "NNP" 1.0)
+  (116, 1, 2, <4:10>, 1, "glazer", 0, "null")
+  (118, 1, 2, <4:10>, 1, "glazer", 0, "null")
+  (105, 2, 3, <11:19>, 1, "couldn’t", 0, "null")
+  (122, 2, 3, <11:19>, 1, "couldn’t", 0, "null")
+  (99, 3, 4, <20:31>, 1, "immediately", 0, "null")
+  (114, 3, 4, <20:31>, 1, "immediately", 0, "null", "RB" 1.0)
+  (119, 3, 4, <20:31>, 1, "immediately", 0, "null")
+  (101, 4, 5, <32:34>, 1, "be", 0, "null")
+  (115, 4, 5, <32:34>, 1, "be", 0, "null", "VB" 1.0)
+  (120, 4, 5, <32:34>, 1, "be", 0, "null")
+  (106, 5, 6, <35:42>, 1, "reached", 0, "null")
+  (111, 5, 6, <35:42>, 1, "reached", 0, "null", "VBN" 0.9866)
+  (123, 5, 6, <35:42>, 1, "reached", 0, "null")
+  (103, 6, 7, <43:45>, 1, "to", 0, "null")
+  (121, 6, 7, <43:45>, 1, "to", 0, "null")
+  (108, 7, 8, <46:54>, 1, "comment.", 0, "null")
+  (112, 7, 8, <46:54>, 1, "comment.", 0, "null", "VB" 0.956)
+  (124, 7, 8, <46:54>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2897 SB-HD_MC_C 9.36699 0 8
+  (2876 HDN_BNP-PN_C 3.86187 0 2
+   (2875 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (2873 N_SG_ILR 2.02901 0 1
+     (133 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 117
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2874 ^N_SG_ILR -0.259177 1 2
+     (136 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Glazer" 88
+       "token [ +CARG #1=\"Glazer\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2896 ^HD-CMP_U_C 4.48807 2 8
+   (139 could_aux_neg_3b_u@v_vp_mdl-n_le -0.468996 2 3
+    ("couldn’t" 105
+     "token [ +CARG #1=\"couldn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2885 AJ-HD_INT_C 4.95707 3 8
+    (140 immediately_adv1@av_-_i-vp_le -0.432086 3 4
+     ("immediately" 99
+      "token [ +CARG #1=\"immediately\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2884 ^HD-CMP_U_C 2.67372 4 8
+     (143 be_c_be@v_prd_be_le 1.64894 4 5
+      ("be" 101
+       "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2883 HD-AJ_INT-UNSL_C 0.274331 5 8
+      (2878 ^HD_OPTCMP_C 0.785766 5 6
+       (2877 V_PAS_ODLR -0.195416 5 6
+        (173 reach_v1@v_np*_le 0.104992 5 6
+         ("reached" 106
+          "token [ +CARG #1=\"reached\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98659870000000005\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (2882 HD-CMP_U_C -2.39479 6 8
+       (312 to@p_np_i-nnm_le -1.63041 6 7
+        ("to" 103
+         "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2881 HDN_BNP_C -0.655232 7 8
+        (2880 W_PERIOD_PLR 0.126809 7 8
+         (2879 N_MS-CNT_ILR -0.0740774 7 8
+          (365 comment_n1@n_-_mc-ns_le -0.0931044 7 8
+           ("comment." 108
+            "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95596380000000003\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Glazer"))))
+ (VP (V "couldn’t")
+  (VP (ADV "immediately")
+   (VP (V "be")
+    (VP (VP (V (V "reached")))
+     (PP (P "to") (NP (N (N (N "comment."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:10>
+            LBL: h8
+            ARG0: x6
+            CARG: "Glazer" ]
+          [ neg<11:19>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _could_v_modal<11:19>
+            LBL: h17
+            ARG0: e3
+            ARG1: h18 ]
+          [ _immediate_a_1<20:31>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _reach_v_1<35:42>
+            LBL: h19
+            ARG0: e21
+            ARG1: i22
+            ARG2: x6 ]
+          [ parg_d<35:42>
+            LBL: h19
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e21
+            ARG2: x6 ]
+          [ _to_p<43:45>
+            LBL: h19
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e21
+            ARG2: x25 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<46:54>
+            LBL: h26
+            ARG0: x25
+            RSTR: h27
+            BODY: h28 ]
+          [ _comment_n_1<46:54>
+            LBL: h29
+            ARG0: x25 ] >
+   HCONS: < h27 QEQ h29 h15 QEQ h17 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:proper_q<0:10>[BV x6]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:10>("Glazer"){x PERS 3, NUM sg, IND +}[]
+ e16:neg<11:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_could_v_modal<11:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e21]
+ e20:_immediate_a_1<20:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e21]
+ e21:_reach_v_1<35:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e23:parg_d<35:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e21, ARG2 x6]
+ e24:_to_p<43:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e21, ARG2 x25]
+ _3:udef_q<46:54>[BV x25]
+ x25:_comment_n_1<46:54>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:10> BV named<4:10>(Glazer)  
+  compound<0:10> ARG1 named<4:10>(Glazer)  
+  compound<0:10> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  neg<11:19> ARG1 _could_v_modal<11:19>  
+  _could_v_modal<11:19> ARG1 _reach_v_1<35:42>  
+  _immediate_a_1<20:31> ARG1 _reach_v_1<35:42>  
+  _reach_v_1<35:42> ARG2 named<4:10>(Glazer)  
+  parg_d<35:42> ARG1 _reach_v_1<35:42>  
+  parg_d<35:42> ARG2 named<4:10>(Glazer)  
+  _to_p<43:45> ARG1 _reach_v_1<35:42>  
+  _to_p<43:45> ARG2 _comment_n_1<46:54>  
+  udef_q<46:54> BV _comment_n_1<46:54>  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:10>(Glazer) PERS 3  
+  named<4:10>(Glazer) NUM sg  
+  named<4:10>(Glazer) IND +  
+  neg<11:19> SF prop  
+  neg<11:19> TENSE untensed  
+  neg<11:19> MOOD indicative  
+  neg<11:19> PROG -  
+  neg<11:19> PERF -  
+  _could_v_modal<11:19> SF prop  
+  _could_v_modal<11:19> TENSE pres  
+  _could_v_modal<11:19> MOOD indicative  
+  _could_v_modal<11:19> PROG -  
+  _could_v_modal<11:19> PERF -  
+  _immediate_a_1<20:31> SF prop  
+  _immediate_a_1<20:31> TENSE untensed  
+  _immediate_a_1<20:31> MOOD indicative  
+  _immediate_a_1<20:31> PROG -  
+  _immediate_a_1<20:31> PERF -  
+  _reach_v_1<35:42> SF prop  
+  _reach_v_1<35:42> TENSE untensed  
+  _reach_v_1<35:42> MOOD indicative  
+  _reach_v_1<35:42> PROG -  
+  _reach_v_1<35:42> PERF -  
+  parg_d<35:42> SF prop  
+  parg_d<35:42> TENSE untensed  
+  parg_d<35:42> MOOD indicative  
+  parg_d<35:42> PROG -  
+  parg_d<35:42> PERF -  
+  _to_p<43:45> SF prop  
+  _to_p<43:45> TENSE untensed  
+  _to_p<43:45> MOOD indicative  
+  _to_p<43:45> PROG -  
+  _to_p<43:45> PERF -  
+  _comment_n_1<46:54> PERS 3  
+  _comment_n_1<46:54> NUM sg  
+}
+

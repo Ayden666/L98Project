@@ -1,0 +1,126 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:23 h)).
+;;;
+
+[21137027] (1 of 1) {1} `Birmingham, Ala.:'
+
+[21137027:1] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Birmingham", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <12:16>, 1, "Ala.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <16:17>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (46, 0, 1, <0:11>, 1, "Birmingham,", 0, "null")
+  (49, 0, 1, <0:11>, 1, "birmingham,", 0, "null")
+  (52, 0, 1, <0:11>, 1, "birmingham,", 0, "null")
+  (38, 1, 2, <12:16>, 1, "Ala.", 0, "null")
+  (47, 1, 2, <12:16>, 1, "Ala.", 0, "null", "NNP" 1.0)
+  (48, 1, 2, <12:16>, 1, "ala.", 0, "null")
+  (50, 1, 2, <12:16>, 1, "ala.", 0, "null")
+  (43, 2, 3, <16:17>, 1, ":", 0, "null")
+  (51, 2, 3, <16:17>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (252 NP_FRG_C 1.44634 0 3
+  (251 HDN_BNP-PN_C 2.59285 0 3
+   (250 HDN-AJ_REDREL_C 2.784 0 3
+    (249 ^NP-HDN_CTY-CPD_C 2.77119 0 2
+     (242 HDN_BNP-PN_C 0.562716 0 1
+      (241 W_COMMA_PLR -0.266433 0 1
+       (240 N_SG_ILR -0.609145 0 1
+        (59 birmingham_n1@n_-_pn_le 0 0 1
+         ("birmingham," 49
+          "token [ +CARG \"Birmingham\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"birmingham,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (248 ^N_SG_ILR 0.247913 1 2
+      (73 alabama_n3@n_-_pn-abb_le 0 1 2
+       ("ala." 48
+        "token [ +CARG \"Ala.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"ala.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (84 colon_namely_pp@pp_-_i-cln_le -0.0322658 2 3
+     (":" 43
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (NP (N (N (N "birmingham,")))) (N (N "ala."))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "Birmingham" ]
+          [ named<12:16>
+            LBL: h8
+            ARG0: x4
+            CARG: "Alabama" ]
+          [ _colon_p_namely<16:17>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:17>[BV x4]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:11>[BV x9]
+ x9:named<0:11>("Birmingham"){x PERS 3, NUM sg, IND +}[]
+ x4:named<12:16>("Alabama"){x PERS 3, NUM sg, IND +}[]
+ e15:_colon_p_namely<16:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:17> ARG named<12:16>(Alabama)  
+  proper_q<0:17> BV named<12:16>(Alabama)  
+  compound<0:16> ARG1 named<12:16>(Alabama)  
+  compound<0:16> ARG2 named<0:11>(Birmingham)  
+  proper_q<0:11> BV named<0:11>(Birmingham)  
+  _colon_p_namely<16:17> ARG1 named<12:16>(Alabama)  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:11>(Birmingham) PERS 3  
+  named<0:11>(Birmingham) NUM sg  
+  named<0:11>(Birmingham) IND +  
+  named<12:16>(Alabama) PERS 3  
+  named<12:16>(Alabama) NUM sg  
+  named<12:16>(Alabama) IND +  
+  _colon_p_namely<16:17> SF prop  
+  _colon_p_namely<16:17> TENSE untensed  
+  _colon_p_namely<16:17> MOOD indicative  
+  _colon_p_namely<16:17> PROG -  
+  _colon_p_namely<16:17> PERF -  
+}
+

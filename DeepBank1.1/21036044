@@ -1,0 +1,215 @@
+;;;
+;;; Redwoods export of `wsj10b';
+;;; (wsun@wsun; 22-jan-2018 (19:27 h)).
+;;;
+
+[21036044] (1 of 1) {1} `Kellogg dropped 1 3/4 to 73 1/4.'
+
+[21036044:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Kellogg", 0, "null", "NNP" 0.9822 "NN" 0.0178)
+  (2, 1, 2, <8:15>, 1, "dropped", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <16:17>, 1, "1", 0, "null", "CD" 1.0)
+  (4, 3, 4, <18:21>, 1, "3/4", 0, "null", "CD" 1.0)
+  (5, 4, 5, <22:24>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <25:27>, 1, "73", 0, "null", "CD" 1.0)
+  (7, 6, 7, <28:31>, 1, "1/4", 0, "null", "CD" 1.0)
+  (8, 7, 8, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (89, 0, 1, <0:7>, 1, "Kellogg", 0, "null")
+  (92, 0, 1, <0:7>, 1, "kellogg", 0, "null")
+  (101, 0, 1, <0:7>, 1, "kellogg", 0, "null")
+  (84, 1, 2, <8:15>, 1, "dropped", 0, "null")
+  (90, 1, 2, <8:15>, 1, "dropped", 0, "null", "VBD" 1.0)
+  (99, 1, 2, <8:15>, 1, "dropped", 0, "null")
+  (86, 2, 3, <16:17>, 1, "1", 0, "null")
+  (91, 2, 3, <16:17>, 1, "1", 0, "null", "CD" 1.0)
+  (100, 2, 3, <16:17>, 1, "1", 0, "null")
+  (70, 3, 4, <18:21>, 1, "3/4", 0, "null")
+  (76, 3, 4, <18:21>, 1, "3/4", 0, "null")
+  (93, 3, 4, <18:21>, 1, "3/4", 0, "null")
+  (95, 3, 4, <18:21>, 1, "3/4", 0, "null")
+  (82, 4, 5, <22:24>, 1, "to", 0, "null")
+  (98, 4, 5, <22:24>, 1, "to", 0, "null")
+  (73, 5, 6, <25:27>, 1, "73", 0, "null")
+  (94, 5, 6, <25:27>, 1, "73", 0, "null")
+  (77, 6, 7, <28:32>, 1, "1/4.", 0, "null")
+  (78, 6, 7, <28:32>, 1, "1/4.", 0, "null")
+  (96, 6, 7, <28:32>, 1, "1/4.", 0, "null")
+  (97, 6, 7, <28:32>, 1, "1/4.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2431 SB-HD_MC_C 7.99156 0 7
+  (2415 HDN_BNP-PN_C -1.0285 0 1
+   (2414 N_SG_ILR -0.979548 0 1
+    (102 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Kellogg" 89
+      "token [ +CARG #1=\"Kellogg\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98216999999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (2430 ^HD-AJ_INT-UNSL_C 8.53257 1 7
+   (2423 ^HD-AJ_INT-UNSL_C 5.83315 1 4
+    (2417 ^HD_OPTCMP_C 4.77772 1 2
+     (2416 V_PST_OLR 3.28717 1 2
+      (126 drop_v2@v_pp_unacc_le 1.56102 1 2
+       ("dropped" 84
+        "token [ +CARG #1=\"dropped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2422 NP_ADV-MNP_C -0.12766 2 4
+     (2421 HDN_BNP-NUM_C 0.611876 2 4
+      (2420 HDN_NP-NUM_C 1.02293 2 4
+       (2419 XP_BRCK-PR_C 0.016823 2 4
+        (2418 HD-CMP_U_C 0.106703 2 4
+         (366 one_c_dgt_adj@aj_np_i-crd-nsp_le 0 2 3
+          ("1" 86
+           "token [ +CARG #1=\"1\" +CLASS numeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW - ] ]"))
+         (385 generic_fract_ne@aj_-_i-frct-gen_le 0 3 4
+          ("3/4" 76
+           "token [ +CARG #1=\"3/4\" +CLASS frct_ne +FORM #1 +FROM \"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))
+   (2429 HD-CMP_U_C 1.14104 4 7
+    (410 to@p_np_i-nnm_le -1.63041 4 5
+     ("to" 82
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2428 HDN_BNP-NUM_C 1.27952 5 7
+     (2427 HDN_NP-NUM_C 0.760882 5 7
+      (2426 XP_BRCK-PR_C 0.077226 5 7
+       (2425 HD-CMP_U_C 0.167106 5 7
+        (463 generic_card_np_ne@aj_np_i-crd-gen_le 0 5 6
+         ("73" 73
+          "token [ +CARG #1=\"73\" +CLASS card_ne +FORM #1 +FROM \"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (2424 W_PERIOD_PLR 0 6 7
+         (468 generic_fract_ne@aj_-_i-frct-gen_le 0 6 7
+          ("1/4." 78
+           "token [ +CARG \"1/4\" +CLASS frct_ne +FORM \"1/4.\" +FROM \"28\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S (NP (N (N "Kellogg")))
+ (VP
+  (VP (VP (V (V "dropped")))
+   (PP (NP (N (ADJ (ADJ (ADJ "1") (ADJ "3/4")))))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "73") (ADJ (ADJ "1/4.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Kellogg" ]
+          [ _drop_v_1<8:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<16:21>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<16:21>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ card<16:17>
+            LBL: h14
+            ARG0: x10
+            ARG1: i15
+            CARG: "1" ]
+          [ plus<16:17>
+            LBL: h16
+            ARG0: i18
+            ARG1: i15
+            ARG2: h14
+            ARG3: h17 ]
+          [ fraction<18:21>
+            LBL: h17
+            ARG0: i19
+            ARG1: i15
+            CARG: "3/4" ]
+          [ _to_p<22:24>
+            LBL: h2
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x21 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<25:32>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ card<25:27>
+            LBL: h25
+            ARG0: x21
+            ARG1: i26
+            CARG: "73" ]
+          [ plus<25:27>
+            LBL: h27
+            ARG0: i29
+            ARG1: i26
+            ARG2: h25
+            ARG3: h28 ]
+          [ fraction<28:32>
+            LBL: h28
+            ARG0: i30
+            ARG1: i26
+            CARG: "1/4" ] >
+   HCONS: < h23 QEQ h27 h12 QEQ h16 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Kellogg"){x PERS 3, NUM sg, IND +}[]
+ e3:_drop_v_1<8:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<16:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:number_q<16:21>[BV x10]
+ x10:card<16:17>("1"){x PERS 3, NUM sg}[]
+ i18:plus<16:17>{i}[ARG2 x10, ARG3 i19]
+ i19:fraction<18:21>("3/4"){i}[]
+ e20:_to_p<22:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x21]
+ _3:number_q<25:32>[BV x21]
+ x21:card<25:27>("73"){x PERS 3, NUM sg}[]
+ i29:plus<25:27>{i}[ARG2 x21, ARG3 i30]
+ i30:fraction<28:32>("1/4"){i}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Kellogg)  
+  _drop_v_1<8:15> ARG1 named<0:7>(Kellogg)  
+  loc_nonsp<16:21> ARG1 _drop_v_1<8:15>  
+  loc_nonsp<16:21> ARG2 card<16:17>(1)  
+  number_q<16:21> BV card<16:17>(1)  
+  plus<16:17> ARG2 card<16:17>(1)  
+  plus<16:17> ARG3 fraction<18:21>(3/4)  
+  _to_p<22:24> ARG1 _drop_v_1<8:15>  
+  _to_p<22:24> ARG2 card<25:27>(73)  
+  number_q<25:32> BV card<25:27>(73)  
+  plus<25:27> ARG2 card<25:27>(73)  
+  plus<25:27> ARG3 fraction<28:32>(1/4)  
+  named<0:7>(Kellogg) PERS 3  
+  named<0:7>(Kellogg) NUM sg  
+  named<0:7>(Kellogg) IND +  
+  _drop_v_1<8:15> SF prop  
+  _drop_v_1<8:15> TENSE past  
+  _drop_v_1<8:15> MOOD indicative  
+  _drop_v_1<8:15> PROG -  
+  _drop_v_1<8:15> PERF -  
+  loc_nonsp<16:21> SF prop  
+  loc_nonsp<16:21> TENSE untensed  
+  loc_nonsp<16:21> MOOD indicative  
+  loc_nonsp<16:21> PROG -  
+  loc_nonsp<16:21> PERF -  
+  card<16:17>(1) PERS 3  
+  card<16:17>(1) NUM sg  
+  _to_p<22:24> SF prop  
+  _to_p<22:24> TENSE untensed  
+  _to_p<22:24> MOOD indicative  
+  _to_p<22:24> PROG -  
+  _to_p<22:24> PERF -  
+  card<25:27>(73) PERS 3  
+  card<25:27>(73) NUM sg  
+}
+

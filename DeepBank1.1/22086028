@@ -1,0 +1,154 @@
+;;;
+;;; Redwoods export of `wsj20d';
+;;; (wsun@wsun; 23-jan-2018 (05:49 h)).
+;;;
+
+[22086028] (1 of 1) {1} `"Ford wants {Jaguar} very much."'
+
+[22086028:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "Ford", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <6:11>, 1, "wants", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <12:13>, 1, "{", 0, "null", "(" 1.0)
+  (5, 4, 5, <13:19>, 1, "Jaguar", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <19:20>, 1, "}", 0, "null", ")" 1.0)
+  (7, 6, 7, <21:25>, 1, "very", 0, "null", "RB" 1.0)
+  (8, 7, 8, <26:30>, 1, "much", 0, "null", "RB" 0.6449 "JJ" 0.3551)
+  (9, 8, 9, <30:31>, 1, ".", 0, "null", "." 1.0)
+  (10, 9, 10, <31:32>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (112, 0, 1, <0:5>, 1, "“Ford", 0, "null")
+  (118, 0, 1, <0:5>, 1, "“ford", 0, "null")
+  (124, 0, 1, <0:5>, 1, "“ford", 0, "null")
+  (103, 1, 2, <6:11>, 1, "wants", 0, "null")
+  (114, 1, 2, <6:11>, 1, "wants", 0, "null", "VBZ" 1.0)
+  (121, 1, 2, <6:11>, 1, "wants", 0, "null")
+  (97, 2, 3, <12:20>, 1, "{Jaguar}", 0, "null")
+  (116, 2, 3, <12:20>, 1, "{Jaguar}", 0, "null", "NNP" 1.0)
+  (119, 2, 3, <12:20>, 1, "{jaguar}", 0, "null")
+  (120, 2, 3, <12:20>, 1, "{jaguar}", 0, "null")
+  (105, 3, 4, <21:25>, 1, "very", 0, "null")
+  (115, 3, 4, <21:25>, 1, "very", 0, "null", "RB" 1.0)
+  (122, 3, 4, <21:25>, 1, "very", 0, "null")
+  (110, 4, 5, <26:32>, 1, "much.”", 0, "null")
+  (113, 4, 5, <26:32>, 1, "much.”", 0, "null", "RB" 0.6449)
+  (117, 4, 5, <26:32>, 1, "much.”", 0, "null", "JJ" 0.3551)
+  (123, 4, 5, <26:32>, 1, "much.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (741 SB-HD_MC_C 3.79008 0 5
+  (730 HDN_BNP-PN_C -1.60715 0 1
+   (729 W_DQLEFT_PLR -0.698402 0 1
+    (728 N_SG_ILR -0.137273 0 1
+     (129 ford_n1@n_-_pn_le 0 0 1
+      ("“ford" 118
+       "token [ +CARG \"Ford\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“ford\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (740 ^HD-AJ_INT-UNSL_C 4.90974 1 5
+   (736 ^HD-CMP_U_C 0.67731 1 3
+    (731 ^V_3S-FIN_OLR 0.353959 1 2
+     (156 want_v1@v_np_ntr_le 0.170936 1 2
+      ("wants" 103
+       "token [ +CARG #1=\"wants\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (735 HDN_BNP-PN_C -0.471142 2 3
+     (734 W_LBRACK_PLR -0.471142 2 3
+      (733 W_RBRACK_PLR -0.471142 2 3
+       (732 N_SG_ILR -0.6713 2 3
+        (187 jaguar_n1@n_-_pn_le 0 2 3
+         ("{jaguar}" 119
+          "token [ +CARG \"Jaguar\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"{jaguar}\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"13\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (739 SP-HD_HC_C 3.46173 3 5
+    (193 very@av_-_dg-v_le 0.773351 3 4
+     ("very" 105
+      "token [ +CARG #1=\"very\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (738 ^W_DQRIGHT_PLR 2.15155 4 5
+     (737 W_PERIOD_PLR 0 4 5
+      (199 much_adv@av_-_i-vp-only_le 0 4 5
+       ("much.”" 110
+        "token [ +CARG \"much\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"much.”\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.64493060000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "“ford"))))
+ (VP (VP (V (V "wants")) (NP (N (N (N (N "{jaguar}"))))))
+  (ADV (ADV "very") (ADV (ADV (ADV "much.”"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Ford" ]
+          [ _want_v_1<6:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<12:20>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ named<12:20>
+            LBL: h13
+            ARG0: x9
+            CARG: "Jaguar" ]
+          [ _very_x_deg<21:25>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _much_a_1<26:32>
+            LBL: h2
+            ARG0: e15
+            ARG1: e3 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Ford"){x PERS 3, NUM sg, IND +}[]
+ e3:_want_v_1<6:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<12:20>[BV x9]
+ x9:named<12:20>("Jaguar"){x PERS 3, NUM sg, IND +}[]
+ e14:_very_x_deg<21:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e15]
+ e15:_much_a_1<26:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Ford)  
+  _want_v_1<6:11> ARG1 named<0:5>(Ford)  
+  _want_v_1<6:11> ARG2 named<12:20>(Jaguar)  
+  proper_q<12:20> BV named<12:20>(Jaguar)  
+  _very_x_deg<21:25> ARG1 _much_a_1<26:32>  
+  _much_a_1<26:32> ARG1 _want_v_1<6:11>  
+  named<0:5>(Ford) PERS 3  
+  named<0:5>(Ford) NUM sg  
+  named<0:5>(Ford) IND +  
+  _want_v_1<6:11> SF prop  
+  _want_v_1<6:11> TENSE pres  
+  _want_v_1<6:11> MOOD indicative  
+  _want_v_1<6:11> PROG -  
+  _want_v_1<6:11> PERF -  
+  named<12:20>(Jaguar) PERS 3  
+  named<12:20>(Jaguar) NUM sg  
+  named<12:20>(Jaguar) IND +  
+  _very_x_deg<21:25> SF prop  
+  _very_x_deg<21:25> TENSE untensed  
+  _very_x_deg<21:25> MOOD indicative  
+  _very_x_deg<21:25> PROG -  
+  _very_x_deg<21:25> PERF -  
+  _much_a_1<26:32> SF prop  
+  _much_a_1<26:32> TENSE untensed  
+  _much_a_1<26:32> MOOD indicative  
+  _much_a_1<26:32> PROG -  
+  _much_a_1<26:32> PERF -  
+}
+

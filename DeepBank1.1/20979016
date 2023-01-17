@@ -1,0 +1,262 @@
+;;;
+;;; Redwoods export of `wsj09c';
+;;; (wsun@wsun; 22-jan-2018 (18:55 h)).
+;;;
+
+[20979016] (1 of 1) {1} `Mr. Evans couldn't be reached yesterday for comment.'
+
+[20979016:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Evans", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:15>, 1, "could", 0, "null", "MD" 1.0)
+  (4, 3, 4, <15:18>, 1, "n’t", 0, "null", "NN" 0.4305 "RB" 0.3383 "VB" 0.1473 "JJS" 0.0839)
+  (5, 4, 5, <19:21>, 1, "be", 0, "null", "VB" 1.0)
+  (6, 5, 6, <22:29>, 1, "reached", 0, "null", "VBN" 0.9611 "VBD" 0.0389)
+  (7, 6, 7, <30:39>, 1, "yesterday", 0, "null", "NN" 0.8806 "RB" 0.1194)
+  (8, 7, 8, <40:43>, 1, "for", 0, "null", "IN" 1.0)
+  (9, 8, 9, <44:51>, 1, "comment", 0, "null", "NN" 0.9184 "VB" 0.0816)
+  (10, 9, 10, <51:52>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (112, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (120, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (128, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (88, 1, 2, <4:9>, 1, "Evans", 0, "null")
+  (116, 1, 2, <4:9>, 1, "Evans", 0, "null", "NNP" 1.0)
+  (119, 1, 2, <4:9>, 1, "evans", 0, "null")
+  (121, 1, 2, <4:9>, 1, "evans", 0, "null")
+  (105, 2, 3, <10:18>, 1, "couldn’t", 0, "null")
+  (124, 2, 3, <10:18>, 1, "couldn’t", 0, "null")
+  (101, 3, 4, <19:21>, 1, "be", 0, "null")
+  (117, 3, 4, <19:21>, 1, "be", 0, "null", "VB" 1.0)
+  (122, 3, 4, <19:21>, 1, "be", 0, "null")
+  (106, 4, 5, <22:29>, 1, "reached", 0, "null")
+  (113, 4, 5, <22:29>, 1, "reached", 0, "null", "VBN" 0.9611)
+  (125, 4, 5, <22:29>, 1, "reached", 0, "null")
+  (108, 5, 6, <30:39>, 1, "yesterday", 0, "null")
+  (114, 5, 6, <30:39>, 1, "yesterday", 0, "null", "NN" 0.8806)
+  (118, 5, 6, <30:39>, 1, "yesterday", 0, "null", "RB" 0.1194)
+  (126, 5, 6, <30:39>, 1, "yesterday", 0, "null")
+  (103, 6, 7, <40:43>, 1, "for", 0, "null")
+  (123, 6, 7, <40:43>, 1, "for", 0, "null")
+  (110, 7, 8, <44:52>, 1, "comment.", 0, "null")
+  (115, 7, 8, <44:52>, 1, "comment.", 0, "null", "NN" 0.9184)
+  (127, 7, 8, <44:52>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1942 SB-HD_MC_C 16.7001 0 8
+  (1929 HDN_BNP-PN_C 4.02279 0 2
+   (1928 NP-HDN_TTL-CPD_C 3.33685 0 2
+    (1926 N_SG_ILR 2.02901 0 1
+     (136 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 120
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1927 ^N_SG_ILR -0.0982517 1 2
+     (153 evans_n1@n_-_pn_le 0 1 2
+      ("evans" 119
+       "token [ +CARG \"Evans\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"evans\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1941 ^HD-CMP_U_C 11.6602 2 8
+   (156 could_aux_neg_3_u@v_vp_mdl-n-pst_le 1.21324 2 3
+    ("couldn’t" 105
+     "token [ +CARG #1=\"couldn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1940 HD-CMP_U_C 9.22012 3 8
+    (158 be_c_be@v_prd_be_le 1.93526 3 4
+     ("be" 101
+      "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1939 HD-AJ_INT-UNSL_C 6.30532 4 8
+     (1934 ^HD-AJ_INT-UNSL_C 5.02701 4 6
+      (1931 ^HD_OPTCMP_C 0.878995 4 5
+       (1930 V_PAS_ODLR -0.195416 4 5
+        (188 reach_v1@v_np*_le 0.104992 4 5
+         ("reached" 106
+          "token [ +CARG #1=\"reached\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96108099999999996\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (1933 NP_ADV_C 2.80958 5 6
+       (1932 HDN_BNP-QNT_C 2.97458 5 6
+        (304 yesterday_np@n_-_ad-time_le -0.073771 5 6
+         ("yesterday" 108
+          "token [ +CARG #1=\"yesterday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8806235\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (1938 HD-CMP_U_C -0.653379 6 8
+      (311 for@p_np_i_le -0.354773 6 7
+       ("for" 103
+        "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1937 HDN_BNP_C -0.655232 7 8
+       (1936 W_PERIOD_PLR 0.126809 7 8
+        (1935 N_MS-CNT_ILR -0.0740774 7 8
+         (325 comment_n1@n_-_mc-ns_le -0.0931044 7 8
+          ("comment." 110
+           "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91840390000000005\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "evans"))))
+ (VP (V "couldn’t")
+  (VP (V "be")
+   (VP (VP (VP (V (V "reached"))) (PP (NP (N "yesterday"))))
+    (PP (P "for") (NP (N (N (N "comment.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Evans" ]
+          [ neg<10:18>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _can_v_modal<10:18>
+            LBL: h17
+            ARG0: e3
+            ARG1: h18 ]
+          [ _reach_v_1<22:29>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i21
+            ARG2: x6 ]
+          [ parg_d<22:29>
+            LBL: h19
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x6 ]
+          [ loc_nonsp<30:39>
+            LBL: h19
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x24 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<30:39>
+            LBL: h25
+            ARG0: x24 ]
+          [ def_implicit_q<30:39>
+            LBL: h26
+            ARG0: x24
+            RSTR: h27
+            BODY: h28 ]
+          [ _yesterday_a_1<30:39>
+            LBL: h25
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x24 ]
+          [ _for_p<40:43>
+            LBL: h19
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x31 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<44:52>
+            LBL: h32
+            ARG0: x31
+            RSTR: h33
+            BODY: h34 ]
+          [ _comment_n_1<44:52>
+            LBL: h35
+            ARG0: x31 ] >
+   HCONS: < h33 QEQ h35 h27 QEQ h25 h15 QEQ h17 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Evans"){x PERS 3, NUM sg, IND +}[]
+ e16:neg<10:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_can_v_modal<10:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e20:_reach_v_1<22:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e22:parg_d<22:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x6]
+ e23:loc_nonsp<30:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x24]
+ x24:time_n<30:39>{x PERS 3, NUM sg}[]
+ _3:def_implicit_q<30:39>[BV x24]
+ e29:_yesterday_a_1<30:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x24]
+ e30:_for_p<40:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x31]
+ _4:udef_q<44:52>[BV x31]
+ x31:_comment_n_1<44:52>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Evans)  
+  compound<0:9> ARG1 named<4:9>(Evans)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  neg<10:18> ARG1 _can_v_modal<10:18>  
+  _can_v_modal<10:18> ARG1 _reach_v_1<22:29>  
+  _reach_v_1<22:29> ARG2 named<4:9>(Evans)  
+  parg_d<22:29> ARG1 _reach_v_1<22:29>  
+  parg_d<22:29> ARG2 named<4:9>(Evans)  
+  loc_nonsp<30:39> ARG1 _reach_v_1<22:29>  
+  loc_nonsp<30:39> ARG2 time_n<30:39>  
+  def_implicit_q<30:39> BV time_n<30:39>  
+  _yesterday_a_1<30:39> ARG1 time_n<30:39>  
+  _for_p<40:43> ARG1 _reach_v_1<22:29>  
+  _for_p<40:43> ARG2 _comment_n_1<44:52>  
+  udef_q<44:52> BV _comment_n_1<44:52>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Evans) PERS 3  
+  named<4:9>(Evans) NUM sg  
+  named<4:9>(Evans) IND +  
+  neg<10:18> SF prop  
+  neg<10:18> TENSE untensed  
+  neg<10:18> MOOD indicative  
+  neg<10:18> PROG -  
+  neg<10:18> PERF -  
+  _can_v_modal<10:18> SF prop  
+  _can_v_modal<10:18> TENSE past  
+  _can_v_modal<10:18> MOOD indicative  
+  _can_v_modal<10:18> PROG -  
+  _can_v_modal<10:18> PERF -  
+  _reach_v_1<22:29> SF prop  
+  _reach_v_1<22:29> TENSE untensed  
+  _reach_v_1<22:29> MOOD indicative  
+  _reach_v_1<22:29> PROG -  
+  _reach_v_1<22:29> PERF -  
+  parg_d<22:29> SF prop  
+  parg_d<22:29> TENSE untensed  
+  parg_d<22:29> MOOD indicative  
+  parg_d<22:29> PROG -  
+  parg_d<22:29> PERF -  
+  loc_nonsp<30:39> SF prop  
+  loc_nonsp<30:39> TENSE untensed  
+  loc_nonsp<30:39> MOOD indicative  
+  loc_nonsp<30:39> PROG -  
+  loc_nonsp<30:39> PERF -  
+  time_n<30:39> PERS 3  
+  time_n<30:39> NUM sg  
+  _yesterday_a_1<30:39> SF prop  
+  _yesterday_a_1<30:39> TENSE untensed  
+  _yesterday_a_1<30:39> MOOD indicative  
+  _yesterday_a_1<30:39> PROG -  
+  _yesterday_a_1<30:39> PERF -  
+  _for_p<40:43> SF prop  
+  _for_p<40:43> TENSE untensed  
+  _for_p<40:43> MOOD indicative  
+  _for_p<40:43> PROG -  
+  _for_p<40:43> PERF -  
+  _comment_n_1<44:52> PERS 3  
+  _comment_n_1<44:52> NUM sg  
+}
+

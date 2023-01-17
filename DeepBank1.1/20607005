@@ -1,0 +1,235 @@
+;;;
+;;; Redwoods export of `wsj06a';
+;;; (wsun@wsun; 22-jan-2018 (15:44 h)).
+;;;
+
+[20607005] (1 of 1) {1} `El Paso owns and operates a petroleum refinery.'
+
+[20607005:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "El", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <3:7>, 1, "Paso", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:12>, 1, "owns", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:16>, 1, "and", 0, "null", "CC" 1.0)
+  (5, 4, 5, <17:25>, 1, "operates", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <26:27>, 1, "a", 0, "null", "DT" 1.0)
+  (7, 6, 7, <28:37>, 1, "petroleum", 0, "null", "NN" 1.0)
+  (8, 7, 8, <38:46>, 1, "refinery", 0, "null", "NN" 1.0)
+  (9, 8, 9, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (101, 0, 1, <0:2>, 1, "El", 0, "null")
+  (108, 0, 1, <0:2>, 1, "el", 0, "null")
+  (116, 0, 1, <0:2>, 1, "el", 0, "null")
+  (83, 1, 2, <3:7>, 1, "Paso", 0, "null")
+  (102, 1, 2, <3:7>, 1, "Paso", 0, "null", "NNP" 1.0)
+  (107, 1, 2, <3:7>, 1, "paso", 0, "null")
+  (109, 1, 2, <3:7>, 1, "paso", 0, "null")
+  (90, 2, 3, <8:12>, 1, "owns", 0, "null")
+  (103, 2, 3, <8:12>, 1, "owns", 0, "null", "VBZ" 1.0)
+  (110, 2, 3, <8:12>, 1, "owns", 0, "null")
+  (92, 3, 4, <13:16>, 1, "and", 0, "null")
+  (111, 3, 4, <13:16>, 1, "and", 0, "null")
+  (94, 4, 5, <17:25>, 1, "operates", 0, "null")
+  (104, 4, 5, <17:25>, 1, "operates", 0, "null", "VBZ" 1.0)
+  (112, 4, 5, <17:25>, 1, "operates", 0, "null")
+  (96, 5, 6, <26:27>, 1, "a", 0, "null")
+  (113, 5, 6, <26:27>, 1, "a", 0, "null")
+  (98, 6, 7, <28:37>, 1, "petroleum", 0, "null")
+  (105, 6, 7, <28:37>, 1, "petroleum", 0, "null", "NN" 1.0)
+  (114, 6, 7, <28:37>, 1, "petroleum", 0, "null")
+  (100, 7, 8, <38:47>, 1, "refinery.", 0, "null")
+  (106, 7, 8, <38:47>, 1, "refinery.", 0, "null", "NN" 1.0)
+  (115, 7, 8, <38:47>, 1, "refinery.", 0, "null")
+>
+
+(ROOT_STRICT
+ (582 SB-HD_MC_C 5.54697 0 8
+  (570 HDN_BNP-PN_C 2.30018 0 2
+   (569 NP-HDN_NME-CPD_C 1.76046 0 2
+    (567 HDN_BNP-PN_C 0.586141 0 1
+     (566 N_SG_ILR -0.166294 0 1
+      (120 el_n2@n_-_pn_le 0 0 1
+       ("el" 108
+        "token [ +CARG \"El\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"el\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (568 ^N_SG_ILR -0.143257 1 2
+     (121 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Paso" 83
+       "token [ +CARG #1=\"Paso\" +CLASS proper_ne +FORM #1 +FROM \"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (581 ^HD-HD_RNR_C 2.97897 2 8
+   (576 ^VP-VP_CRD-FIN-T_C 1.28564 2 5
+    (572 HD_XCMP_C -0.0868815 2 3
+     (571 V_3S-FIN_OLR -0.48654 2 3
+      (125 own_v1@v_np_le 0 2 3
+       ("owns" 90
+        "token [ +CARG #1=\"owns\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (575 ^MRK-NH_EVNT_C -0.102206 3 5
+     (134 and_conj@c_xp_and_le -0.371606 3 4
+      ("and" 92
+       "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (574 HD_XCMP_C -0.010405 4 5
+      (573 V_3S-FIN_OLR -0.222259 4 5
+       (152 operate_v1@v_np*_le 0 4 5
+        ("operates" 94
+         "token [ +CARG #1=\"operates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (580 SP-HD_N_C 0.822582 5 8
+    (165 a_det@d_-_sg-nmd_le -0.810429 5 6
+     ("a" 96
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (579 ^N-HDN_CPD_C 1.63936 6 8
+     (238 petroleum_n1@n_-_m_le 0.232768 6 7
+      ("petroleum" 98
+       "token [ +CARG #1=\"petroleum\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (578 ^W_PERIOD_PLR 1.26226 7 8
+      (577 N_SG_ILR 0.837064 7 8
+       (241 refinery_n1@n_-_c_le 0 7 8
+        ("refinery." 100
+         "token [ +CARG \"refinery\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"refinery.\" +FROM #1=\"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (NP (N (N "el"))) (N (N "Paso"))))
+ (VP
+  (VP/NP (VP/NP (V/NP (V/NP "owns")))
+   (VP-C/NP (CONJ "and") (VP/NP (V/NP (V/NP "operates")))))
+  (NP (DET "a") (N (N "petroleum") (N (N (N "refinery.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:7>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:2>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:2>
+            LBL: h14
+            ARG0: x9
+            CARG: "EL" ]
+          [ named<3:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Paso" ]
+          [ _own_v_1<8:12>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _and_c<13:16>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h15
+            L-INDEX: e16
+            R-HNDL: h19
+            R-INDEX: e18 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _operate_v_1<17:25>
+            LBL: h19
+            ARG0: e18
+            ARG1: x6
+            ARG2: x17 ]
+          [ _a_q<26:27>
+            LBL: h20
+            ARG0: x17
+            RSTR: h22
+            BODY: h21 ]
+          [ compound<28:47>
+            LBL: h23
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            ARG2: x24 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<28:37>
+            LBL: h26
+            ARG0: x24
+            RSTR: h27
+            BODY: h28 ]
+          [ _petroleum_n_1<28:37>
+            LBL: h29
+            ARG0: x24 ]
+          [ _refinery_n_1<38:47>
+            LBL: h23
+            ARG0: x17 ] >
+   HCONS: < h27 QEQ h29 h22 QEQ h23 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ e10:compound<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:2>[BV x9]
+ x9:named<0:2>("EL"){x PERS 3, NUM sg, IND +}[]
+ x6:named<3:7>("Paso"){x PERS 3, NUM sg, IND +}[]
+ e16:_own_v_1<8:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x17]
+ e3:_and_c<13:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[L-HNDL e16, L-INDEX e16, R-HNDL e18, R-INDEX e18]
+ e18:_operate_v_1<17:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x17]
+ _3:_a_q<26:27>[BV x17]
+ e25:compound<28:47>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17, ARG2 x24]
+ _4:udef_q<28:37>[BV x24]
+ x24:_petroleum_n_1<28:37>{x PERS 3, NUM sg, IND -}[]
+ x17:_refinery_n_1<38:47>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:7> BV named<3:7>(Paso)  
+  compound<0:7> ARG1 named<3:7>(Paso)  
+  compound<0:7> ARG2 named<0:2>(EL)  
+  proper_q<0:2> BV named<0:2>(EL)  
+  _own_v_1<8:12> ARG1 named<3:7>(Paso)  
+  _own_v_1<8:12> ARG2 _refinery_n_1<38:47>  
+  _and_c<13:16> L-HNDL _own_v_1<8:12>  
+  _and_c<13:16> L-INDEX _own_v_1<8:12>  
+  _and_c<13:16> R-HNDL _operate_v_1<17:25>  
+  _and_c<13:16> R-INDEX _operate_v_1<17:25>  
+  _operate_v_1<17:25> ARG1 named<3:7>(Paso)  
+  _operate_v_1<17:25> ARG2 _refinery_n_1<38:47>  
+  _a_q<26:27> BV _refinery_n_1<38:47>  
+  compound<28:47> ARG1 _refinery_n_1<38:47>  
+  compound<28:47> ARG2 _petroleum_n_1<28:37>  
+  udef_q<28:37> BV _petroleum_n_1<28:37>  
+  compound<0:7> SF prop  
+  compound<0:7> TENSE untensed  
+  compound<0:7> MOOD indicative  
+  compound<0:7> PROG -  
+  compound<0:7> PERF -  
+  named<0:2>(EL) PERS 3  
+  named<0:2>(EL) NUM sg  
+  named<0:2>(EL) IND +  
+  named<3:7>(Paso) PERS 3  
+  named<3:7>(Paso) NUM sg  
+  named<3:7>(Paso) IND +  
+  _own_v_1<8:12> SF prop  
+  _own_v_1<8:12> TENSE pres  
+  _own_v_1<8:12> MOOD indicative  
+  _own_v_1<8:12> PROG -  
+  _own_v_1<8:12> PERF -  
+  _and_c<13:16> SF prop  
+  _and_c<13:16> TENSE pres  
+  _and_c<13:16> MOOD indicative  
+  _and_c<13:16> PROG -  
+  _and_c<13:16> PERF -  
+  _operate_v_1<17:25> SF prop  
+  _operate_v_1<17:25> TENSE pres  
+  _operate_v_1<17:25> MOOD indicative  
+  _operate_v_1<17:25> PROG -  
+  _operate_v_1<17:25> PERF -  
+  compound<28:47> SF prop  
+  compound<28:47> TENSE untensed  
+  compound<28:47> MOOD indicative  
+  compound<28:47> PROG -  
+  compound<28:47> PERF -  
+  _petroleum_n_1<28:37> PERS 3  
+  _petroleum_n_1<28:37> NUM sg  
+  _petroleum_n_1<28:37> IND -  
+  _refinery_n_1<38:47> PERS 3  
+  _refinery_n_1<38:47> NUM sg  
+  _refinery_n_1<38:47> IND +  
+}
+

@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (03:01 h)).
+;;;
+
+[21814010] (1 of 1) {1} `Marshall Y. Taylor'
+
+[21814010:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Marshall", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:11>, 1, "Y.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:18>, 1, "Taylor", 0, "null", "NNP" 1.0)
+>
+
+<
+  (38, 0, 1, <0:8>, 1, "Marshall", 0, "null")
+  (43, 0, 1, <0:8>, 1, "marshall", 0, "null")
+  (46, 0, 1, <0:8>, 1, "marshall", 0, "null")
+  (31, 1, 2, <9:11>, 1, "Y.", 0, "null")
+  (40, 1, 2, <9:11>, 1, "Y.", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <9:11>, 1, "y.", 0, "null")
+  (45, 1, 2, <9:11>, 1, "y.", 0, "null")
+  (30, 2, 3, <12:18>, 1, "Taylor", 0, "null")
+  (39, 2, 3, <12:18>, 1, "Taylor", 0, "null", "NNP" 1.0)
+  (41, 2, 3, <12:18>, 1, "taylor", 0, "null")
+  (44, 2, 3, <12:18>, 1, "taylor", 0, "null")
+>
+
+(ROOT_FRAG
+ (285 NP_FRG_C 0.393003 0 3
+  (284 HDN_BNP-PN_C 1.53951 0 3
+   (283 NP-HDN_NME-CPD_C 1.57882 0 3
+    (282 HDN_BNP-PN_C 1.84709 0 2
+     (281 NP-HDN_NME-CPD_C 1.49917 0 2
+      (280 HDN_BNP-PN_C 0.586141 0 1
+       (279 N_SG_ILR -0.166294 0 1
+        (50 marshall_n1@n_-_pn_le 0 0 1
+         ("marshall" 43
+          "token [ +CARG \"Marshall\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"marshall\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (272 ^N_SG_ILR -0.166294 1 2
+       (63 y_period_np1@n_-_pn_le 0 1 2
+        ("y." 42
+         "token [ +CARG \"Y.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"y.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (274 ^N_SG_ILR 0.147131 2 3
+     (69 taylor_n1@n_-_pn_le 0 2 3
+      ("taylor" 41
+       "token [ +CARG \"Taylor\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"taylor\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (NP
+  (N (NP (N (NP (N (N "marshall"))) (N (N "y.")))) (N (N "taylor")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:11>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:8>
+            LBL: h20
+            ARG0: x15
+            CARG: "Marshall" ]
+          [ named<9:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "Y" ]
+          [ named<12:18>
+            LBL: h8
+            ARG0: x4
+            CARG: "Taylor" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:18>[BV x4]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:11>[BV x9]
+ e16:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:8>[BV x15]
+ x15:named<0:8>("Marshall"){x PERS 3, NUM sg, IND +}[]
+ x9:named<9:11>("Y"){x PERS 3, NUM sg, IND +}[]
+ x4:named<12:18>("Taylor"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:18> ARG named<12:18>(Taylor)  
+  proper_q<0:18> BV named<12:18>(Taylor)  
+  compound<0:18> ARG1 named<12:18>(Taylor)  
+  compound<0:18> ARG2 named<9:11>(Y)  
+  proper_q<0:11> BV named<9:11>(Y)  
+  compound<0:11> ARG1 named<9:11>(Y)  
+  compound<0:11> ARG2 named<0:8>(Marshall)  
+  proper_q<0:8> BV named<0:8>(Marshall)  
+  unknown<0:18> SF prop-or-ques  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:8>(Marshall) PERS 3  
+  named<0:8>(Marshall) NUM sg  
+  named<0:8>(Marshall) IND +  
+  named<9:11>(Y) PERS 3  
+  named<9:11>(Y) NUM sg  
+  named<9:11>(Y) IND +  
+  named<12:18>(Taylor) PERS 3  
+  named<12:18>(Taylor) NUM sg  
+  named<12:18>(Taylor) IND +  
+}
+

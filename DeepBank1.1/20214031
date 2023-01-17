@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:00 h)).
+;;;
+
+[20214031] (1 of 1) {1} `"My fastball is good.'
+
+[20214031:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "My", 0, "null", "PRP$" 1.0)
+  (3, 2, 3, <4:12>, 1, "fastball", 0, "null", "NN" 1.0)
+  (4, 3, 4, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <16:20>, 1, "good", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:3>, 1, "“my", 0, "null")
+  (72, 0, 1, <0:3>, 1, "“my", 0, "null")
+  (58, 1, 2, <4:12>, 1, "fastball", 0, "null")
+  (65, 1, 2, <4:12>, 1, "fastball", 0, "null", "NN" 1.0)
+  (69, 1, 2, <4:12>, 1, "fastball", 0, "null")
+  (60, 2, 3, <13:15>, 1, "is", 0, "null")
+  (66, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (70, 2, 3, <13:15>, 1, "is", 0, "null")
+  (64, 3, 4, <16:21>, 1, "good.", 0, "null")
+  (67, 3, 4, <16:21>, 1, "good.", 0, "null", "JJ" 1.0)
+  (71, 3, 4, <16:21>, 1, "good.", 0, "null")
+>
+
+(ROOT_STRICT
+ (640 SB-HD_MC_C 4.02235 0 4
+  (636 SP-HD_N_C -0.111732 0 2
+   (634 W_DQLEFT_PLR 0 0 1
+    (73 my@d_-_poss-my_le 0 0 1
+     ("“my" 68
+      "token [ +CARG \"My\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“my\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (635 ^N_MS-CNT_ILR 0.178311 1 2
+    (81 generic_mass_count_noun@n_-_mc-unk_le 0 1 2
+     ("fastball" 65
+      "token [ +CARG #1=\"fastball\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_fastball/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (639 ^HD-CMP_U_C 2.17957 2 4
+   (121 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 60
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (638 HD_OPTCMP_C 0.674011 3 4
+    (637 W_PERIOD_PLR 0.522584 3 4
+     (210 good_a2@aj_pp_i-er_le 0 3 4
+      ("good." 64
+       "token [ +CARG \"good\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"good.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET (DET "“my")) (N (N "fastball")))
+ (VP (V "is") (AP (ADJ (ADJ "good.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ def_explicit_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ poss<0:3>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ pron<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ _fastball/nn_u_unknown<4:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _good_a_at-for-of<16:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i15 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:def_explicit_q<0:3>[BV x6]
+ e10:poss<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:pronoun_q<0:3>[BV x9]
+ x9:pron<0:3>{x PERS 1, NUM sg, PT std}[]
+ x6:_fastball/nn_u_unknown<4:12>{x PERS 3, NUM sg}[]
+ e3:_good_a_at-for-of<16:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  def_explicit_q<0:3> BV _fastball/nn_u_unknown<4:12>  
+  poss<0:3> ARG1 _fastball/nn_u_unknown<4:12>  
+  poss<0:3> ARG2 pron<0:3>  
+  pronoun_q<0:3> BV pron<0:3>  
+  _good_a_at-for-of<16:21> ARG1 _fastball/nn_u_unknown<4:12>  
+  poss<0:3> SF prop  
+  poss<0:3> TENSE untensed  
+  poss<0:3> MOOD indicative  
+  poss<0:3> PROG -  
+  poss<0:3> PERF -  
+  pron<0:3> PERS 1  
+  pron<0:3> NUM sg  
+  pron<0:3> PT std  
+  _fastball/nn_u_unknown<4:12> PERS 3  
+  _fastball/nn_u_unknown<4:12> NUM sg  
+  _good_a_at-for-of<16:21> SF prop  
+  _good_a_at-for-of<16:21> TENSE pres  
+  _good_a_at-for-of<16:21> MOOD indicative  
+  _good_a_at-for-of<16:21> PROG -  
+  _good_a_at-for-of<16:21> PERF -  
+}
+

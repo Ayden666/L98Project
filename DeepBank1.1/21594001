@@ -1,0 +1,275 @@
+;;;
+;;; Redwoods export of `wsj15e';
+;;; (wsun@wsun; 23-jan-2018 (00:49 h)).
+;;;
+
+[21594001] (1 of 1) {1} `Health-care companies should get healthier in the third quarter.'
+
+[21594001:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Health-care", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <12:21>, 1, "companies", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <22:28>, 1, "should", 0, "null", "MD" 1.0)
+  (4, 3, 4, <29:32>, 1, "get", 0, "null", "VB" 1.0)
+  (5, 4, 5, <33:42>, 1, "healthier", 0, "null", "JJR" 0.7185 "RBR" 0.2815)
+  (6, 5, 6, <43:45>, 1, "in", 0, "null", "IN" 1.0)
+  (7, 6, 7, <46:49>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <50:55>, 1, "third", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <56:63>, 1, "quarter", 0, "null", "NN" 1.0)
+  (10, 9, 10, <63:64>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (121, 0, 1, <0:11>, 1, "Health-", 0, "null")
+  (128, 0, 1, <0:11>, 1, "health-", 0, "null")
+  (138, 0, 1, <0:11>, 1, "health-", 0, "null")
+  (116, 1, 2, <0:11>, 1, "care", 0, "null")
+  (126, 1, 2, <0:11>, 1, "care", 0, "null", "JJ" 1.0)
+  (135, 1, 2, <0:11>, 1, "care", 0, "null")
+  (114, 2, 3, <12:21>, 1, "companies", 0, "null")
+  (125, 2, 3, <12:21>, 1, "companies", 0, "null", "NNS" 1.0)
+  (134, 2, 3, <12:21>, 1, "companies", 0, "null")
+  (104, 3, 4, <22:28>, 1, "should", 0, "null")
+  (129, 3, 4, <22:28>, 1, "should", 0, "null")
+  (106, 4, 5, <29:32>, 1, "get", 0, "null")
+  (123, 4, 5, <29:32>, 1, "get", 0, "null", "VB" 1.0)
+  (130, 4, 5, <29:32>, 1, "get", 0, "null")
+  (119, 5, 6, <33:42>, 1, "healthier", 0, "null")
+  (122, 5, 6, <33:42>, 1, "healthier", 0, "null", "JJR" 0.7185)
+  (137, 5, 6, <33:42>, 1, "healthier", 0, "null")
+  (108, 6, 7, <43:45>, 1, "in", 0, "null")
+  (131, 6, 7, <43:45>, 1, "in", 0, "null")
+  (110, 7, 8, <46:49>, 1, "the", 0, "null")
+  (132, 7, 8, <46:49>, 1, "the", 0, "null")
+  (112, 8, 9, <50:55>, 1, "third", 0, "null")
+  (124, 8, 9, <50:55>, 1, "third", 0, "null", "JJ" 1.0)
+  (133, 8, 9, <50:55>, 1, "third", 0, "null")
+  (118, 9, 10, <56:64>, 1, "quarter.", 0, "null")
+  (127, 9, 10, <56:64>, 1, "quarter.", 0, "null", "NN" 1.0)
+  (136, 9, 10, <56:64>, 1, "quarter.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2041 SB-HD_MC_C 16.6477 0 10
+  (2030 HDN_BNP_C 3.08964 0 3
+   (2029 N-HDN_CPD_C 2.4689 0 3
+    (2026 XP_BRCK-PR_C 1.01481 0 2
+     (2025 N-HDN_CPD_C 0.773776 0 2
+      (2024 W_HYPHEN_PLR 1.28368 0 1
+       (142 health_n1@n_-_m_le 0 0 1
+        ("health-" 128
+         "token [ +CARG \"Health-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"health-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (147 care_n1@n_-_m_le -0.319643 1 2
+       ("care" 116
+        "token [ +CARG #1=\"care\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+    (2028 ^HDN_OPTCMP_C 0.935816 2 3
+     (2027 N_PL_OLR 0.695159 2 3
+      (155 company_n1@n_pp_mc-of_le 0.222137 2 3
+       ("companies" 114
+        "token [ +CARG #1=\"companies\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (2040 ^HD-CMP_U_C 12.0422 3 10
+   (178 should_aux_pos@v_vp_mdl-p-sv_le 0.744518 3 4
+    ("should" 104
+     "token [ +CARG #1=\"should\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2039 HD-AJ_INT-UNSL_C 10.5817 4 10
+    (2033 ^HD-CMP_U_C 3.14769 4 6
+     (2031 ^V_N3S-BSE_ILR 1.53686 4 5
+      (192 get_prd_v1@v_prd_seq_le 1.42477 4 5
+       ("get" 106
+        "token [ +CARG #1=\"get\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2032 HD_OPTCMP_C 1.04763 5 6
+      (203 healthier_a1@aj_pp_i-cmp_le 0 5 6
+       ("healthier" 119
+        "token [ +CARG #1=\"healthier\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.71850349999999996\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2038 HD-CMP_U_C 6.21533 6 10
+     (228 in_temp@p_np_i-tmp_le 0.095244 6 7
+      ("in" 108
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2037 SP-HD_N_C 4.68848 7 10
+      (277 the_1@d_-_the_le 1.00477 7 8
+       ("the" 110
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"46\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2036 ^AJ-HDN_NORM_C 2.66958 8 10
+       (302 third@aj_-_i-ord-one_le -0.227326 8 9
+        ("third" 112
+         "token [ +CARG #1=\"third\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"50\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2035 ^W_PERIOD_PLR 2.28015 9 10
+        (2034 N_SG_ILR 2.03716 9 10
+         (320 quarter_n3@n_-_c-nday_le 1.61729 9 10
+          ("quarter." 118
+           "token [ +CARG \"quarter\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"quarter.\" +FROM #1=\"56\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"64\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (NP (N (N (N (N (N "health-")) (N "care"))) (N (N (N "companies")))))
+ (VP (V "should")
+  (VP (VP (V (V "get")) (AP (ADJ "healthier")))
+   (PP (P "in")
+    (NP (DET "the") (N (ADJ "third") (N (N (N "quarter.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:21>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:21>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:11>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:11>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _health_n_1<0:11>
+            LBL: h20
+            ARG0: x15 ]
+          [ _care_n_1<0:11>
+            LBL: h14
+            ARG0: x9 ]
+          [ _company_n_of<12:21>
+            LBL: h8
+            ARG0: x6
+            ARG1: i21 ]
+          [ _should_v_modal<22:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: h22 ]
+          [ _get_v_state<29:32>
+            LBL: h23
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: h25 ]
+          [ _healthy_a_1<33:42>
+            LBL: h26
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ comp<33:42>
+            LBL: h26
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e27
+            ARG2: u28 ]
+          [ _in_p_temp<43:45>
+            LBL: h23
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e24
+            ARG2: x31 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<46:49>
+            LBL: h32
+            ARG0: x31
+            RSTR: h34
+            BODY: h33 ]
+          [ ord<50:55>
+            LBL: h35
+            ARG0: e36 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x31
+            CARG: "3" ]
+          [ _quarter_n_temp<56:64>
+            LBL: h35
+            ARG0: x31 ] >
+   HCONS: < h34 QEQ h35 h25 QEQ h26 h22 QEQ h23 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:21>[BV x6]
+ e10:compound<0:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:11>[BV x9]
+ e16:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:11>[BV x15]
+ x15:_health_n_1<0:11>{x PERS 3, NUM sg, IND -}[]
+ x9:_care_n_1<0:11>{x PERS 3, NUM sg, IND -}[]
+ x6:_company_n_of<12:21>{x PERS 3, NUM pl}[]
+ e3:_should_v_modal<22:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e24]
+ e24:_get_v_state<29:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e27]
+ e27:_healthy_a_1<33:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e29:comp<33:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e27]
+ e30:_in_p_temp<43:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e24, ARG2 x31]
+ _4:_the_q<46:49>[BV x31]
+ e36:ord<50:55>("3"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x31]
+ x31:_quarter_n_temp<56:64>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:21> BV _company_n_of<12:21>  
+  compound<0:21> ARG1 _company_n_of<12:21>  
+  compound<0:21> ARG2 _care_n_1<0:11>  
+  udef_q<0:11> BV _care_n_1<0:11>  
+  compound<0:11> ARG1 _care_n_1<0:11>  
+  compound<0:11> ARG2 _health_n_1<0:11>  
+  udef_q<0:11> BV _health_n_1<0:11>  
+  _should_v_modal<22:28> ARG1 _get_v_state<29:32>  
+  _get_v_state<29:32> ARG1 _company_n_of<12:21>  
+  _get_v_state<29:32> ARG2 _healthy_a_1<33:42>  
+  _healthy_a_1<33:42> ARG1 _company_n_of<12:21>  
+  comp<33:42> ARG1 _healthy_a_1<33:42>  
+  _in_p_temp<43:45> ARG1 _get_v_state<29:32>  
+  _in_p_temp<43:45> ARG2 _quarter_n_temp<56:64>  
+  _the_q<46:49> BV _quarter_n_temp<56:64>  
+  ord<50:55>(3) ARG1 _quarter_n_temp<56:64>  
+  compound<0:21> SF prop  
+  compound<0:21> TENSE untensed  
+  compound<0:21> MOOD indicative  
+  compound<0:21> PROG -  
+  compound<0:21> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _health_n_1<0:11> PERS 3  
+  _health_n_1<0:11> NUM sg  
+  _health_n_1<0:11> IND -  
+  _care_n_1<0:11> PERS 3  
+  _care_n_1<0:11> NUM sg  
+  _care_n_1<0:11> IND -  
+  _company_n_of<12:21> PERS 3  
+  _company_n_of<12:21> NUM pl  
+  _should_v_modal<22:28> SF prop  
+  _should_v_modal<22:28> TENSE pres  
+  _should_v_modal<22:28> MOOD indicative  
+  _should_v_modal<22:28> PROG -  
+  _should_v_modal<22:28> PERF -  
+  _get_v_state<29:32> SF prop  
+  _get_v_state<29:32> TENSE untensed  
+  _get_v_state<29:32> MOOD indicative  
+  _get_v_state<29:32> PROG -  
+  _get_v_state<29:32> PERF -  
+  _healthy_a_1<33:42> SF prop  
+  _healthy_a_1<33:42> TENSE untensed  
+  _healthy_a_1<33:42> MOOD indicative  
+  _healthy_a_1<33:42> PROG -  
+  _healthy_a_1<33:42> PERF -  
+  comp<33:42> SF prop  
+  comp<33:42> TENSE untensed  
+  comp<33:42> MOOD indicative  
+  comp<33:42> PROG -  
+  comp<33:42> PERF -  
+  _in_p_temp<43:45> SF prop  
+  _in_p_temp<43:45> TENSE untensed  
+  _in_p_temp<43:45> MOOD indicative  
+  _in_p_temp<43:45> PROG -  
+  _in_p_temp<43:45> PERF -  
+  ord<50:55>(3) SF prop  
+  ord<50:55>(3) TENSE untensed  
+  ord<50:55>(3) MOOD indicative  
+  ord<50:55>(3) PROG -  
+  ord<50:55>(3) PERF -  
+  _quarter_n_temp<56:64> PERS 3  
+  _quarter_n_temp<56:64> NUM sg  
+  _quarter_n_temp<56:64> IND +  
+}
+

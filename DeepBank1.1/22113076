@@ -1,0 +1,218 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:04 h)).
+;;;
+
+[22113076] (1 of 1) {1} `He owns 43% of CenTrust's shares.'
+
+[22113076:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:7>, 1, "owns", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <8:10>, 1, "43", 0, "null", "CD" 1.0)
+  (4, 3, 4, <10:11>, 1, "%", 0, "null", "NN" 1.0)
+  (5, 4, 5, <12:14>, 1, "of", 0, "null", "IN" 1.0)
+  (6, 5, 6, <15:23>, 1, "CenTrust", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <23:25>, 1, "’s", 0, "null", "NNS" 0.55 "JJ" 0.207 "VBZ" 0.1243 "NN" 0.1058 "CD" 0.0129)
+  (8, 7, 8, <26:32>, 1, "shares", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (112, 0, 1, <0:2>, 1, "he", 0, "null")
+  (122, 0, 1, <0:2>, 1, "he", 0, "null")
+  (98, 1, 2, <3:7>, 1, "owns", 0, "null")
+  (110, 1, 2, <3:7>, 1, "owns", 0, "null", "VBZ" 1.0)
+  (117, 1, 2, <3:7>, 1, "owns", 0, "null")
+  (77, 2, 3, <8:10>, 1, "43", 0, "null")
+  (114, 2, 3, <8:10>, 1, "43", 0, "null")
+  (100, 3, 4, <10:11>, 1, "%", 0, "null")
+  (118, 3, 4, <10:11>, 1, "%", 0, "null")
+  (96, 4, 5, <12:14>, 1, "of", 0, "null")
+  (116, 4, 5, <12:14>, 1, "of", 0, "null")
+  (81, 5, 6, <15:23>, 1, "CenTrust", 0, "null")
+  (109, 5, 6, <15:23>, 1, "CenTrust", 0, "null", "NNP" 1.0)
+  (113, 5, 6, <15:23>, 1, "centrust", 0, "null")
+  (115, 5, 6, <15:23>, 1, "centrust", 0, "null")
+  (103, 6, 7, <23:25>, 1, "’s", 0, "null")
+  (105, 6, 7, <23:25>, 1, "’s", 0, "null", "NNS" 0.55)
+  (106, 6, 7, <23:25>, 1, "’s", 0, "null", "JJ" 0.207)
+  (107, 6, 7, <23:25>, 1, "’s", 0, "null", "VBZ" 0.1243)
+  (108, 6, 7, <23:25>, 1, "’s", 0, "null", "NN" 0.1058)
+  (120, 6, 7, <23:25>, 1, "’s", 0, "null")
+  (102, 7, 8, <26:33>, 1, "shares.", 0, "null")
+  (111, 7, 8, <26:33>, 1, "shares.", 0, "null", "NNS" 1.0)
+  (119, 7, 8, <26:33>, 1, "shares.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1789 SB-HD_MC_C 10.5358 0 8
+  (1775 HDN_BNP-QNT_C 1.50958 0 1
+   (123 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 112
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1788 ^HD-CMP_U_C 7.7569 1 8
+   (1776 ^V_3S-FIN_OLR 0.27887 1 2
+    (138 own_v1@v_np_le 0.0804062 1 2
+     ("owns" 98
+      "token [ +CARG #1=\"owns\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1787 HDN_BNP_C 6.87156 2 8
+    (1786 HDN-AJ_REDREL_C 7.61212 2 8
+     (1778 ^NUM-N_MNP_C 3.60644 2 4
+      (145 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+       ("43" 77
+        "token [ +CARG #1=\"43\" +CLASS card_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (1777 ^N_PL_OLR 1.56359 3 4
+       (149 percent_char_n1@n_-_c-meas-spr_le 1.28059 3 4
+        ("%" 100
+         "token [ +CARG #1=\"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1785 HD-CMP_U_C 2.3432 4 8
+      (186 of_poss@p_np_i-nm-poss_le -0.152822 4 5
+       ("of" 96
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1784 SP-HD_N_C 2.13627 5 8
+       (1781 SP-HD_HC_C 2.4212 5 7
+        (1780 HDN_BNP-PN_C 0.09912 5 6
+         (1779 N_SG_ILR -0.515712 5 6
+          (268 generic_proper_ne@n_-_pn-gen_le 0 5 6
+           ("CenTrust" 81
+            "token [ +CARG #1=\"CenTrust\" +CLASS proper_ne +FORM #1 +FROM \"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+        (273 apostrophe_s_12_lex@n_-_cl-poss_le -0.602847 6 7
+         ("’s" 103
+          "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55001199999999995\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (1783 ^W_PERIOD_PLR 0.0324238 7 8
+        (1782 N_PL_OLR 0.11335 7 8
+         (585 share_n2@n_-_c-meas-nb_le 0.737088 7 8
+          ("shares." 102
+           "token [ +CARG \"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shares.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (NP "he"))
+ (VP (V (V "owns"))
+  (NP
+   (N (N (ADJ "43") (N (N "%")))
+    (PP (P "of")
+     (NP (DET (NP (N (N "CenTrust"))) (DET "’s"))
+      (N (N (N "shares.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _own_v_1<3:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<8:33>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<8:10>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "43" ]
+          [ _percent_n_of<10:11>
+            LBL: h13
+            ARG0: x9 ]
+          [ _of_p<12:14>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x16 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ proper_q<15:23>
+            LBL: h17
+            ARG0: x19 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h18
+            BODY: h20 ]
+          [ named<15:23>
+            LBL: h21
+            ARG0: x19
+            CARG: "CenTrust" ]
+          [ def_explicit_q<23:25>
+            LBL: h22
+            ARG0: x16
+            RSTR: h23
+            BODY: h24 ]
+          [ poss<23:25>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x19 ]
+          [ _share_n_of<26:33>
+            LBL: h25
+            ARG0: x16 ] >
+   HCONS: < h23 QEQ h25 h18 QEQ h21 h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_own_v_1<3:7>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<8:33>[BV x9]
+ e14:card<8:10>("43"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_percent_n_of<10:11>{x PERS 3, NUM pl, IND +}[]
+ e15:_of_p<12:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x16]
+ _3:proper_q<15:23>[BV x19]
+ x19:named<15:23>("CenTrust"){x PERS 3, NUM sg, IND +}[]
+ _4:def_explicit_q<23:25>[BV x16]
+ e26:poss<23:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x19]
+ x16:_share_n_of<26:33>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _own_v_1<3:7> ARG1 pron<0:2>  
+  _own_v_1<3:7> ARG2 _percent_n_of<10:11>  
+  udef_q<8:33> BV _percent_n_of<10:11>  
+  card<8:10>(43) ARG1 _percent_n_of<10:11>  
+  _of_p<12:14> ARG1 _percent_n_of<10:11>  
+  _of_p<12:14> ARG2 _share_n_of<26:33>  
+  proper_q<15:23> BV named<15:23>(CenTrust)  
+  def_explicit_q<23:25> BV _share_n_of<26:33>  
+  poss<23:25> ARG1 _share_n_of<26:33>  
+  poss<23:25> ARG2 named<15:23>(CenTrust)  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _own_v_1<3:7> SF prop  
+  _own_v_1<3:7> TENSE pres  
+  _own_v_1<3:7> MOOD indicative  
+  _own_v_1<3:7> PROG -  
+  _own_v_1<3:7> PERF -  
+  card<8:10>(43) SF prop  
+  card<8:10>(43) TENSE untensed  
+  card<8:10>(43) MOOD indicative  
+  card<8:10>(43) PROG -  
+  card<8:10>(43) PERF -  
+  _percent_n_of<10:11> PERS 3  
+  _percent_n_of<10:11> NUM pl  
+  _percent_n_of<10:11> IND +  
+  _of_p<12:14> SF prop  
+  _of_p<12:14> TENSE untensed  
+  _of_p<12:14> MOOD indicative  
+  _of_p<12:14> PROG -  
+  _of_p<12:14> PERF -  
+  named<15:23>(CenTrust) PERS 3  
+  named<15:23>(CenTrust) NUM sg  
+  named<15:23>(CenTrust) IND +  
+  poss<23:25> SF prop  
+  poss<23:25> TENSE untensed  
+  poss<23:25> MOOD indicative  
+  poss<23:25> PROG -  
+  poss<23:25> PERF -  
+  _share_n_of<26:33> PERS 3  
+  _share_n_of<26:33> NUM pl  
+  _share_n_of<26:33> IND +  
+}
+

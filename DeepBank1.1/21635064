@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:21 h)).
+;;;
+
+[21635064] (1 of 1) {1} `That also isn't easy.'
+
+[21635064:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.5417 "WDT" 0.4245 "IN" 0.0337)
+  (2, 1, 2, <5:9>, 1, "also", 0, "null", "RB" 1.0)
+  (3, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <12:15>, 1, "n’t", 0, "null", "JJ" 0.3016 "RB" 0.2584 "NN" 0.2545 "VBN" 0.0798 "VB" 0.0683 "JJS" 0.0248 "VBP" 0.0058 "VBD" 0.0036 "IN" 0.0031)
+  (5, 4, 5, <16:20>, 1, "easy", 0, "null", "JJ" 0.7772 "RB" 0.2228)
+  (6, 5, 6, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:4>, 1, "that", 0, "null")
+  (74, 0, 1, <0:4>, 1, "that", 0, "null")
+  (59, 1, 2, <5:9>, 1, "also", 0, "null")
+  (67, 1, 2, <5:9>, 1, "also", 0, "null", "RB" 1.0)
+  (71, 1, 2, <5:9>, 1, "also", 0, "null")
+  (61, 2, 3, <10:15>, 1, "isn’t", 0, "null")
+  (68, 2, 3, <10:15>, 1, "isn’t", 0, "null", "VBZ" 1.0)
+  (72, 2, 3, <10:15>, 1, "isn’t", 0, "null")
+  (63, 3, 4, <16:21>, 1, "easy.", 0, "null")
+  (66, 3, 4, <16:21>, 1, "easy.", 0, "null", "JJ" 0.7772)
+  (69, 3, 4, <16:21>, 1, "easy.", 0, "null", "RB" 0.2228)
+  (73, 3, 4, <16:21>, 1, "easy.", 0, "null")
+>
+
+(ROOT_STRICT
+ (499 SB-HD_MC_C 4.04526 0 4
+  (494 HDN_BNP-QNT_C -0.199308 0 1
+   (493 HDN_OPTCMP_C -0.288082 0 1
+    (90 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 70
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54173819999999995\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (498 ^AJ-HD_SCP-XP_C 3.17784 1 4
+   (106 also_adv1@av_-_s-vp-x_le 0.554212 1 2
+    ("also" 59
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (497 ^HD-CMP_U_C 1.19742 2 4
+    (123 be_c_is_neg_3_u@v_prd_is-n_le 0.782421 2 3
+     ("isn’t" 61
+      "token [ +CARG #1=\"isn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (496 HD_OPTCMP_C 0.778999 3 4
+     (495 W_PERIOD_PLR 0.522584 3 4
+      (129 easy_a1@aj_pp_i-er_le 0 3 4
+       ("easy." 63
+        "token [ +CARG \"easy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"easy.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77724139999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "that")))
+ (VP (ADV "also") (VP (V "isn’t") (AP (ADJ (ADJ "easy."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _also_a_1<5:9>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h10 ]
+          [ neg<10:15>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h12 ]
+          [ _easy_a_for<16:21>
+            LBL: h14
+            ARG0: e3
+            ARG1: x5
+            ARG2: i15 ] >
+   HCONS: < h12 QEQ h14 h10 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e9:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e9:_also_a_1<5:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e13]
+ e13:neg<10:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_easy_a_for<16:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  _also_a_1<5:9> ARG1 neg<10:15>  
+  neg<10:15> ARG1 _easy_a_for<16:21>  
+  _easy_a_for<16:21> ARG1 generic_entity<0:4>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _also_a_1<5:9> SF prop  
+  _also_a_1<5:9> TENSE untensed  
+  _also_a_1<5:9> MOOD indicative  
+  _also_a_1<5:9> PROG -  
+  _also_a_1<5:9> PERF -  
+  neg<10:15> SF prop  
+  neg<10:15> TENSE untensed  
+  neg<10:15> MOOD indicative  
+  neg<10:15> PROG -  
+  neg<10:15> PERF -  
+  _easy_a_for<16:21> SF prop  
+  _easy_a_for<16:21> TENSE pres  
+  _easy_a_for<16:21> MOOD indicative  
+  _easy_a_for<16:21> PROG -  
+  _easy_a_for<16:21> PERF -  
+}
+

@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj19a';
+;;; (wsun@wsun; 23-jan-2018 (04:09 h)).
+;;;
+
+[21927015] (1 of 1) {1} `I add two others.'
+
+[21927015:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:5>, 1, "add", 0, "null", "VBP" 0.699 "VB" 0.301)
+  (3, 2, 3, <6:9>, 1, "two", 0, "null", "CD" 1.0)
+  (4, 3, 4, <10:16>, 1, "others", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:1>, 1, "I", 0, "null")
+  (63, 0, 1, <0:1>, 1, "i", 0, "null")
+  (64, 0, 1, <0:1>, 1, "i", 0, "null")
+  (57, 1, 2, <2:5>, 1, "add", 0, "null")
+  (59, 1, 2, <2:5>, 1, "add", 0, "null", "VBP" 0.699)
+  (62, 1, 2, <2:5>, 1, "add", 0, "null", "VB" 0.301)
+  (67, 1, 2, <2:5>, 1, "add", 0, "null")
+  (54, 2, 3, <6:9>, 1, "two", 0, "null")
+  (60, 2, 3, <6:9>, 1, "two", 0, "null", "CD" 1.0)
+  (65, 2, 3, <6:9>, 1, "two", 0, "null")
+  (56, 3, 4, <10:17>, 1, "others.", 0, "null")
+  (61, 3, 4, <10:17>, 1, "others.", 0, "null", "NNS" 1.0)
+  (66, 3, 4, <10:17>, 1, "others.", 0, "null")
+>
+
+(ROOT_STRICT
+ (474 SB-HD_MC_C 3.61899 0 4
+  (467 HDN_BNP-QNT_C 1.98216 0 1
+   (74 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 63
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (473 ^HD-CMP_U_C 0.367483 1 4
+   (468 ^V_N3S-BSE_ILR -0.826142 1 2
+    (109 add_v1@v_np*_le -0.825369 1 2
+     ("add" 57
+      "token [ +CARG #1=\"add\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69904160000000004\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (472 SP-HD_N_C 0.395806 2 4
+    (469 NUM_DET_C 0.99852 2 3
+     (117 two@aj_-_i-crd-one_le 0.756972 2 3
+      ("two" 54
+       "token [ +CARG #1=\"two\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (471 ^W_PERIOD_PLR -0.0809262 3 4
+     (470 N_PL_OLR 0 3 4
+      (134 other_n1@n_-_c-nocpd_le 0 3 4
+       ("others." 56
+        "token [ +CARG \"others\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"others.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "i"))
+ (VP (V (V "add")) (NP (DET (ADJ "two")) (N (N (N "others."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _add_v_to<2:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<6:9>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<6:9>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "2" ]
+          [ _other_n_1<10:17>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e3:_add_v_to-fn.Statement<2:5>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x5, ARG2-fn.Patient x9]
+ _2:udef_q<6:9>[BV x9]
+ e14:card<6:9>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_other_n_1<10:17>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  _add_v_to<2:5> ARG1 pron<0:1>  
+  _add_v_to<2:5> ARG2 _other_n_1<10:17>  
+  udef_q<6:9> BV _other_n_1<10:17>  
+  card<6:9>(2) ARG1 _other_n_1<10:17>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  _add_v_to<2:5> SF prop  
+  _add_v_to<2:5> TENSE pres  
+  _add_v_to<2:5> MOOD indicative  
+  _add_v_to<2:5> PROG -  
+  _add_v_to<2:5> PERF -  
+  card<6:9>(2) SF prop  
+  card<6:9>(2) TENSE untensed  
+  card<6:9>(2) MOOD indicative  
+  card<6:9>(2) PROG -  
+  card<6:9>(2) PERF -  
+  _other_n_1<10:17> PERS 3  
+  _other_n_1<10:17> NUM pl  
+  _other_n_1<10:17> IND +  
+}
+

@@ -1,0 +1,171 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:45 h)).
+;;;
+
+[20409070] (1 of 1) {1} `There are die-hard bodies, of course.'
+
+[20409070:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "There", 0, "null", "EX" 1.0)
+  (2, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <10:18>, 1, "die-hard", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <19:25>, 1, "bodies", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <25:26>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <27:29>, 1, "of", 0, "null", "IN" 1.0)
+  (7, 6, 7, <30:36>, 1, "course", 0, "null", "NN" 1.0)
+  (8, 7, 8, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (101, 0, 1, <0:5>, 1, "there", 0, "null")
+  (108, 0, 1, <0:5>, 1, "there", 0, "null")
+  (85, 1, 2, <6:9>, 1, "are", 0, "null")
+  (96, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (102, 1, 2, <6:9>, 1, "are", 0, "null")
+  (91, 2, 3, <10:18>, 1, "die-", 0, "null")
+  (98, 2, 3, <10:18>, 1, "die-", 0, "null", "NN" 1.0)
+  (105, 2, 3, <10:18>, 1, "die-", 0, "null")
+  (89, 3, 4, <10:18>, 1, "hard", 0, "null")
+  (97, 3, 4, <10:18>, 1, "hard", 0, "null", "JJ" 1.0)
+  (104, 3, 4, <10:18>, 1, "hard", 0, "null")
+  (93, 4, 5, <19:26>, 1, "bodies,", 0, "null")
+  (99, 4, 5, <19:26>, 1, "bodies,", 0, "null", "NNS" 1.0)
+  (106, 4, 5, <19:26>, 1, "bodies,", 0, "null")
+  (87, 5, 6, <27:29>, 1, "of", 0, "null")
+  (103, 5, 6, <27:29>, 1, "of", 0, "null")
+  (95, 6, 7, <30:37>, 1, "course.", 0, "null")
+  (100, 6, 7, <30:37>, 1, "course.", 0, "null", "NN" 1.0)
+  (107, 6, 7, <30:37>, 1, "course.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1029 HD-AJ_SCP-PR_C 8.616 0 7
+  (1027 ^SB-HD_MC_C 6.99271 0 5
+   (109 there_expl@n_-_pr-there-x_le 1.4946 0 1
+    ("there" 101
+     "token [ +CARG \"There\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"there\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"EX\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1026 ^HD_OPTCMP_C 5.35541 1 5
+    (1025 HD-CMP_U_C 3.48617 1 5
+     (116 be_th_cop_are@v_np-xp_are_le 0.590737 1 2
+      ("are" 85
+       "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1024 HDN_BNP_C 2.63785 2 5
+      (1023 AJ-HDN_NORM_C 2.54004 2 5
+       (1020 XP_BRCK-PR_C 0.155845 2 4
+        (1019 N-J_J-T-CPD_C -0.268974 2 4
+         (1018 W_HYPHEN_PLR 0.276915 2 3
+          (120 die_n1@n_-_c_le 0 2 3
+           ("die-" 91
+            "token [ +CARG #1=\"die-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+         (130 hard_a1@aj_pp_i-er_le -0.545889 3 4
+          ("hard" 89
+           "token [ +CARG #1=\"hard\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+       (1022 ^W_COMMA_PLR 1.56314 4 5
+        (1021 N_PL_OLR 1.05316 4 5
+         (146 body_n1@n_-_c-ed_le 0 4 5
+          ("bodies," 93
+           "token [ +CARG \"bodies\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"bodies,\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+  (1028 W_PERIOD_PLR 0 5 7
+   (326 of_course_root@av_-_s-cp_le 0 5 7
+    ("of course." 87
+     "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+     95
+     "token [ +CARG \"course\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"course.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S
+ (S (NP-X "there")
+  (VP
+   (V (V "are")
+    (NP
+     (N (AP (AP (N (N "die-")) (ADJ "hard")))
+      (N (N (N "bodies,"))))))))
+ (ADV (ADV "of course.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _be_v_there<6:9>
+            LBL: h4
+            ARG0: e3
+            ARG1: x5 [ x PERS: 3 NUM: PL GEND: N IND: + ] ]
+          [ udef_q<10:26>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ compound<10:18>
+            LBL: h9
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x11 [ x IND: + ] ]
+          [ udef_q<10:18>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _die_n_1<10:18>
+            LBL: h16
+            ARG0: x11 ]
+          [ _hard_a_for<10:18>
+            LBL: h9
+            ARG0: e10
+            ARG1: x5
+            ARG2: i17 ]
+          [ _body_n_1<19:26>
+            LBL: h9
+            ARG0: x5 ]
+          [ _of+course_a_1<27:37>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h18 ] >
+   HCONS: < h18 QEQ h4 h14 QEQ h16 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e19:
+ e3:_be_v_there<6:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ _1:udef_q<10:26>[BV x5]
+ e12:compound<10:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e10, ARG2 x11]
+ _2:udef_q<10:18>[BV x11]
+ x11:_die_n_1<10:18>{x IND +}[]
+ e10:_hard_a_for<10:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ x5:_body_n_1<19:26>{x PERS 3, NUM pl, GEND n, IND +}[]
+ e19:_of+course_a_1<27:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _be_v_there<6:9> ARG1 _body_n_1<19:26>  
+  udef_q<10:26> BV _body_n_1<19:26>  
+  compound<10:18> ARG1 _hard_a_for<10:18>  
+  compound<10:18> ARG2 _die_n_1<10:18>  
+  udef_q<10:18> BV _die_n_1<10:18>  
+  _hard_a_for<10:18> ARG1 _body_n_1<19:26>  
+  _of+course_a_1<27:37> ARG1 _be_v_there<6:9>  
+  _be_v_there<6:9> SF prop  
+  _be_v_there<6:9> TENSE pres  
+  _be_v_there<6:9> MOOD indicative  
+  _be_v_there<6:9> PROG -  
+  _be_v_there<6:9> PERF -  
+  compound<10:18> SF prop  
+  compound<10:18> TENSE untensed  
+  compound<10:18> MOOD indicative  
+  compound<10:18> PROG -  
+  compound<10:18> PERF -  
+  _die_n_1<10:18> IND +  
+  _hard_a_for<10:18> SF prop  
+  _hard_a_for<10:18> TENSE untensed  
+  _hard_a_for<10:18> MOOD indicative  
+  _hard_a_for<10:18> PROG -  
+  _hard_a_for<10:18> PERF -  
+  _body_n_1<19:26> PERS 3  
+  _body_n_1<19:26> NUM pl  
+  _body_n_1<19:26> GEND n  
+  _body_n_1<19:26> IND +  
+  _of+course_a_1<27:37> SF prop  
+  _of+course_a_1<27:37> TENSE untensed  
+  _of+course_a_1<27:37> MOOD indicative  
+  _of+course_a_1<27:37> PROG -  
+  _of+course_a_1<27:37> PERF -  
+}
+

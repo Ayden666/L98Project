@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:13 h)).
+;;;
+
+[21935027] (1 of 1) {1} `Galax, Va.'
+
+[21935027:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Galax", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:6>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <7:9>, 1, "Va", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <9:10>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:6>, 1, "Galax,", 0, "null")
+  (48, 0, 1, <0:6>, 1, "galax,", 0, "null")
+  (51, 0, 1, <0:6>, 1, "galax,", 0, "null")
+  (41, 1, 2, <7:10>, 1, "Va.", 0, "null")
+  (47, 1, 2, <7:10>, 1, "Va.", 0, "null", "NNP" 1.0)
+  (49, 1, 2, <7:10>, 1, "va.", 0, "null")
+  (50, 1, 2, <7:10>, 1, "va.", 0, "null")
+>
+
+(ROOT_FRAG
+ (153 NP_FRG_C -0.337652 0 2
+  (152 HDN_BNP-PN_C 0.80886 0 2
+   (151 NP-HDN_CTY-CPD_C 2.08532 0 2
+    (148 HDN_BNP-PN_C 0.710257 0 1
+     (147 W_COMMA_PLR -0.118892 0 1
+      (146 N_SG_ILR -0.461604 0 1
+       (53 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Galax," 46
+         "token [ +CARG \"Galax\" +CLASS proper_ne +FORM \"Galax,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (150 ^W_PERIOD_PLR 1.24389 1 2
+     (149 N_SG_ILR 0.628043 1 2
+      (68 virginia_n2@n_-_pn-abb_le 0 1 2
+       ("va." 49
+        "token [ +CARG \"Va\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"va.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (N (NP (N (N (N "Galax,")))) (N (N (N "va."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Galax" ]
+          [ named<7:10>
+            LBL: h8
+            ARG0: x4
+            CARG: "Virginia" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:10>[BV x4]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Galax"){x PERS 3, NUM sg, IND +}[]
+ x4:named<7:10>("Virginia"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:10> ARG named<7:10>(Virginia)  
+  proper_q<0:10> BV named<7:10>(Virginia)  
+  compound<0:10> ARG1 named<7:10>(Virginia)  
+  compound<0:10> ARG2 named<0:6>(Galax)  
+  proper_q<0:6> BV named<0:6>(Galax)  
+  unknown<0:10> SF prop  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:6>(Galax) PERS 3  
+  named<0:6>(Galax) NUM sg  
+  named<0:6>(Galax) IND +  
+  named<7:10>(Virginia) PERS 3  
+  named<7:10>(Virginia) NUM sg  
+  named<7:10>(Virginia) IND +  
+}
+

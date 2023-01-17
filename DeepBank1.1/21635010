@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:20 h)).
+;;;
+
+[21635010] (1 of 1) {1} `Well, think twice.'
+
+[21635010:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Well", 0, "null", "RB" 0.8991 "UH" 0.0869 "NNP" 0.014)
+  (2, 1, 2, <4:5>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <6:11>, 1, "think", 0, "null", "VBP" 0.8006 "VB" 0.1994)
+  (4, 3, 4, <12:17>, 1, "twice", 0, "null", "RB" 0.969 "JJ" 0.031)
+  (5, 4, 5, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:5>, 1, "Well,", 0, "null", "RB" 0.8991)
+  (66, 0, 1, <0:5>, 1, "well,", 0, "null")
+  (69, 0, 1, <0:5>, 1, "well,", 0, "null")
+  (56, 1, 2, <6:11>, 1, "think", 0, "null")
+  (62, 1, 2, <6:11>, 1, "think", 0, "null", "VBP" 0.8006)
+  (65, 1, 2, <6:11>, 1, "think", 0, "null", "VB" 0.1994)
+  (67, 1, 2, <6:11>, 1, "think", 0, "null")
+  (59, 2, 3, <12:18>, 1, "twice.", 0, "null")
+  (64, 2, 3, <12:18>, 1, "twice.", 0, "null", "RB" 0.969)
+  (68, 2, 3, <12:18>, 1, "twice.", 0, "null")
+>
+
+(ROOT_STRICT
+ (438 AJ-HD_SCP_C 3.33746 0 3
+  (432 W_COMMA_PLR 2.85858 0 1
+   (88 well_s_adv@av_-_s-cp-mc-pr_le 0 0 1
+    ("well," 66
+     "token [ +CARG \"Well\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"well,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89910970000000001\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (437 ^HD_IMP_C 0.203418 1 3
+   (436 HD-AJ_INT-UNSL_C 0.719628 1 3
+    (434 ^HD_OPTCMP_C -0.192776 1 2
+     (433 V_N3S-BSE_ILR -0.495741 1 2
+      (135 think_v3@v_np*_ntr_le 0.0335702 1 2
+       ("think" 56
+        "token [ +CARG #1=\"think\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80055140000000002\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (435 W_PERIOD_PLR 0.819844 2 3
+     (145 twice_adv1@av_-_i-vp_le 0 2 3
+      ("twice." 59
+       "token [ +CARG \"twice\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"twice.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96899829999999998\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (ADV (ADV "well,"))
+ (S (VP (VP (V (V "think"))) (ADV (ADV "twice.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _well_a_1<0:5>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ pronoun_q<6:18>
+            LBL: h6
+            ARG0: x8 [ x PERS: 2 PT: ZERO ]
+            RSTR: h7
+            BODY: h9 ]
+          [ pron<6:18>
+            LBL: h10
+            ARG0: x8 ]
+          [ _think_v_1<6:11>
+            LBL: h11
+            ARG0: e3
+            ARG1: x8
+            ARG2: i12 ]
+          [ _twice_a_1<12:18>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h7 QEQ h10 h4 QEQ h11 h1 QEQ h2 > ]
+
+{e5:
+ e5:_well_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:pronoun_q<6:18>[BV x8]
+ x8:pron<6:18>{x PERS 2, PT zero}[]
+ e3:_think_v_1<6:11>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ e13:_twice_a_1<12:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _well_a_1<0:5> ARG1 _think_v_1<6:11>  
+  pronoun_q<6:18> BV pron<6:18>  
+  _think_v_1<6:11> ARG1 pron<6:18>  
+  _twice_a_1<12:18> ARG1 _think_v_1<6:11>  
+  _well_a_1<0:5> SF prop  
+  _well_a_1<0:5> TENSE untensed  
+  _well_a_1<0:5> MOOD indicative  
+  _well_a_1<0:5> PROG -  
+  _well_a_1<0:5> PERF -  
+  pron<6:18> PERS 2  
+  pron<6:18> PT zero  
+  _think_v_1<6:11> SF comm  
+  _think_v_1<6:11> TENSE pres  
+  _think_v_1<6:11> MOOD indicative  
+  _think_v_1<6:11> PROG -  
+  _think_v_1<6:11> PERF -  
+  _twice_a_1<12:18> SF prop  
+  _twice_a_1<12:18> TENSE untensed  
+  _twice_a_1<12:18> MOOD indicative  
+  _twice_a_1<12:18> PROG -  
+  _twice_a_1<12:18> PERF -  
+}
+

@@ -1,0 +1,157 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (13:58 h)).
+;;;
+
+[20430005] (1 of 1) {1} `The walls shook; the building rocked.'
+
+[20430005:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "walls", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <10:15>, 1, "shook", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <15:16>, 1, ";", 0, "null", ":" 1.0)
+  (5, 4, 5, <17:20>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <21:29>, 1, "building", 0, "null", "NN" 0.9371 "VBG" 0.0629)
+  (7, 6, 7, <30:36>, 1, "rocked", 0, "null", "VBD" 0.6975 "VBN" 0.3025)
+  (8, 7, 8, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (96, 0, 1, <0:3>, 1, "the", 0, "null")
+  (102, 0, 1, <0:3>, 1, "the", 0, "null")
+  (82, 1, 2, <4:9>, 1, "walls", 0, "null")
+  (93, 1, 2, <4:9>, 1, "walls", 0, "null", "NNS" 1.0)
+  (97, 1, 2, <4:9>, 1, "walls", 0, "null")
+  (86, 2, 3, <10:16>, 1, "shook;", 0, "null")
+  (94, 2, 3, <10:16>, 1, "shook;", 0, "null", "VBD" 1.0)
+  (99, 2, 3, <10:16>, 1, "shook;", 0, "null")
+  (84, 3, 4, <17:20>, 1, "the", 0, "null")
+  (98, 3, 4, <17:20>, 1, "the", 0, "null")
+  (87, 4, 5, <21:29>, 1, "building", 0, "null")
+  (91, 4, 5, <21:29>, 1, "building", 0, "null", "NN" 0.9371)
+  (100, 4, 5, <21:29>, 1, "building", 0, "null")
+  (89, 5, 6, <30:37>, 1, "rocked.", 0, "null")
+  (92, 5, 6, <30:37>, 1, "rocked.", 0, "null", "VBD" 0.6975)
+  (95, 5, 6, <30:37>, 1, "rocked.", 0, "null", "VBN" 0.3025)
+  (101, 5, 6, <30:37>, 1, "rocked.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1190 CL-CL_RUNON_C 5.41863 0 6
+  (1183 SB-HD_MC_C 2.22501 0 3
+   (1179 SP-HD_N_C 2.38357 0 2
+    (115 the_1@d_-_the_le 1.13181 0 1
+     ("the" 96
+      "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1178 ^N_PL_OLR 0.789909 1 2
+     (144 wall_n3@n_-_c-ed_le 0 1 2
+      ("walls" 82
+       "token [ +CARG #1=\"walls\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1182 ^HD_OPTCMP_C 0.243821 2 3
+    (1181 W_SEMICOL_PLR -0.0706632 2 3
+     (1180 V_PST_OLR -0.0706632 2 3
+      (180 shake_v1@v_np*_le 0 2 3
+       ("shook;" 86
+        "token [ +CARG \"shook\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shook;\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1189 ^SB-HD_MC_C 2.97786 3 6
+   (1185 SP-HD_N_C 2.9535 3 5
+    (206 the_1@d_-_the_le 0.244361 3 4
+     ("the" 84
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1184 ^N_SG_ILR 1.18432 4 5
+     (243 building_n1@n_-_c_le 1.12903 4 5
+      ("building" 87
+       "token [ +CARG #1=\"building\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93709370000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1188 ^HD_OPTCMP_C 0.426738 5 6
+    (1187 W_PERIOD_PLR 0.134653 5 6
+     (1186 V_PST_OLR -0.555709 5 6
+      (262 rock_v1@v_np*_le 0 5 6
+       ("rocked." 89
+        "token [ +CARG \"rocked\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rocked.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69752789999999998\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (S (NP (DET "the") (N (N "walls"))) (VP (V (V (V "shook;")))))
+ (S (NP (DET "the") (N (N "building"))) (VP (V (V (V "rocked."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:37>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _the_q<0:3>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h11
+            BODY: h9 ]
+          [ _wall_n_of<4:9>
+            LBL: h12
+            ARG0: x10 ]
+          [ _shake_v_1<10:16>
+            LBL: h13
+            ARG0: e7
+            ARG1: x10
+            ARG2: p14 ]
+          [ _the_q<17:20>
+            LBL: h15
+            ARG0: x17 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h18
+            BODY: h16 ]
+          [ _building_n_1<21:29>
+            LBL: h19
+            ARG0: x17 ]
+          [ _rock_v_1<30:37>
+            LBL: h20
+            ARG0: e6
+            ARG1: x17
+            ARG2: p21 ] >
+   HCONS: < h18 QEQ h19 h11 QEQ h12 h5 QEQ h20 h4 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:37>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL e6, R-INDEX e6]
+ _1:_the_q<0:3>[BV x10]
+ x10:_wall_n_of<4:9>{x PERS 3, NUM pl, IND +}[]
+ e7:_shake_v_1<10:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ _2:_the_q<17:20>[BV x17]
+ x17:_building_n_1<21:29>{x PERS 3, NUM sg, IND +}[]
+ e6:_rock_v_1<30:37>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+}
+
+{
+  implicit_conj<0:37> L-HNDL _shake_v_1<10:16>  
+  implicit_conj<0:37> L-INDEX _shake_v_1<10:16>  
+  implicit_conj<0:37> R-HNDL _rock_v_1<30:37>  
+  implicit_conj<0:37> R-INDEX _rock_v_1<30:37>  
+  _the_q<0:3> BV _wall_n_of<4:9>  
+  _shake_v_1<10:16> ARG1 _wall_n_of<4:9>  
+  _the_q<17:20> BV _building_n_1<21:29>  
+  _rock_v_1<30:37> ARG1 _building_n_1<21:29>  
+  implicit_conj<0:37> SF prop  
+  implicit_conj<0:37> TENSE past  
+  implicit_conj<0:37> MOOD indicative  
+  implicit_conj<0:37> PROG -  
+  implicit_conj<0:37> PERF -  
+  _wall_n_of<4:9> PERS 3  
+  _wall_n_of<4:9> NUM pl  
+  _wall_n_of<4:9> IND +  
+  _shake_v_1<10:16> SF prop  
+  _shake_v_1<10:16> TENSE past  
+  _shake_v_1<10:16> MOOD indicative  
+  _shake_v_1<10:16> PROG -  
+  _shake_v_1<10:16> PERF -  
+  _building_n_1<21:29> PERS 3  
+  _building_n_1<21:29> NUM sg  
+  _building_n_1<21:29> IND +  
+  _rock_v_1<30:37> SF prop  
+  _rock_v_1<30:37> TENSE past  
+  _rock_v_1<30:37> MOOD indicative  
+  _rock_v_1<30:37> PROG -  
+  _rock_v_1<30:37> PERF -  
+}
+

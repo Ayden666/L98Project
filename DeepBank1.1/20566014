@@ -1,0 +1,79 @@
+;;;
+;;; Redwoods export of `wsj05c';
+;;; (wsun@wsun; 22-jan-2018 (15:20 h)).
+;;;
+
+[20566014] (1 of 1) {1} `Analysts agreed.'
+
+[20566014:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Analysts", 0, "null", "NNS" 0.9785 "NNP" 0.0215)
+  (2, 1, 2, <9:15>, 1, "agreed", 0, "null", "VBD" 0.8722 "VBN" 0.1278)
+  (3, 2, 3, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (37, 0, 1, <0:8>, 1, "Analysts", 0, "null", "NNS" 0.9785)
+  (40, 0, 1, <0:8>, 1, "analysts", 0, "null")
+  (42, 0, 1, <0:8>, 1, "analysts", 0, "null")
+  (35, 1, 2, <9:16>, 1, "agreed.", 0, "null")
+  (38, 1, 2, <9:16>, 1, "agreed.", 0, "null", "VBD" 0.8722)
+  (39, 1, 2, <9:16>, 1, "agreed.", 0, "null", "VBN" 0.1278)
+  (41, 1, 2, <9:16>, 1, "agreed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (577 SB-HD_MC_C 0.276795 0 2
+  (572 HDN_BNP_C 0.106085 0 1
+   (571 N_PL_OLR 0.682091 0 1
+    (48 analyst_n1@n_-_c_le 0.183624 0 1
+     ("analysts" 40
+      "token [ +CARG \"Analysts\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"analysts\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97847189999999995\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (576 ^HD_OPTCMP_C 0.191168 1 2
+   (575 HD_OPTCMP_C 1.15963 1 2
+    (574 W_PERIOD_PLR 0.435573 1 2
+     (573 V_PST_OLR 0.275113 1 2
+      (74 agree_v2@v_pp*-pp*_le 0 1 2
+       ("agreed." 35
+        "token [ +CARG \"agreed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"agreed.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87221660000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "analysts"))) (VP (V (V (V (V "agreed."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _analyst_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _agree_v_on<9:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:8>[BV x6]
+ x6:_analyst_n_1<0:8>{x PERS 3, NUM pl, IND +}[]
+ e3:_agree_v_on<9:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:8> BV _analyst_n_1<0:8>  
+  _agree_v_on<9:16> ARG1 _analyst_n_1<0:8>  
+  _analyst_n_1<0:8> PERS 3  
+  _analyst_n_1<0:8> NUM pl  
+  _analyst_n_1<0:8> IND +  
+  _agree_v_on<9:16> SF prop  
+  _agree_v_on<9:16> TENSE past  
+  _agree_v_on<9:16> MOOD indicative  
+  _agree_v_on<9:16> PROG -  
+  _agree_v_on<9:16> PERF -  
+}
+

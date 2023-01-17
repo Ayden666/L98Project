@@ -1,0 +1,300 @@
+;;;
+;;; Redwoods export of `wsj14d';
+;;; (wsun@wsun; 22-jan-2018 (23:42 h)).
+;;;
+
+[21482011] (1 of 1) {1} `Chemex Pharmaceuticals Inc. -- 1,200,000 units, via PaineWebber.'
+
+[21482011:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Chemex", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:22>, 1, "Pharmaceuticals", 0, "null", "NNP" 0.6179 "NNPS" 0.3821)
+  (3, 2, 3, <23:27>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <28:30>, 1, "–", 0, "null", ":" 1.0)
+  (5, 4, 5, <31:40>, 1, "1,200,000", 0, "null", "CD" 1.0)
+  (6, 5, 6, <41:46>, 1, "units", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <46:47>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <48:51>, 1, "via", 0, "null", "IN" 1.0)
+  (9, 8, 9, <52:63>, 1, "PaineWebber", 0, "null", "NNP" 0.978 "NN" 0.022)
+  (10, 9, 10, <63:64>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (116, 0, 1, <0:6>, 1, "Chemex", 0, "null")
+  (123, 0, 1, <0:6>, 1, "chemex", 0, "null")
+  (133, 0, 1, <0:6>, 1, "chemex", 0, "null")
+  (92, 1, 2, <7:22>, 1, "Pharmaceuticals", 0, "null")
+  (117, 1, 2, <7:22>, 1, "Pharmaceuticals", 0, "null", "NNP" 0.6179)
+  (121, 1, 2, <7:22>, 1, "Pharmaceuticals", 0, "null", "NNPS" 0.3821)
+  (124, 1, 2, <7:22>, 1, "pharmaceuticals", 0, "null")
+  (127, 1, 2, <7:22>, 1, "pharmaceuticals", 0, "null")
+  (93, 2, 3, <23:27>, 1, "Inc.", 0, "null")
+  (119, 2, 3, <23:27>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (122, 2, 3, <23:27>, 1, "inc.", 0, "null")
+  (128, 2, 3, <23:27>, 1, "inc.", 0, "null")
+  (109, 3, 4, <28:30>, 1, "–", 0, "null")
+  (131, 3, 4, <28:30>, 1, "–", 0, "null")
+  (88, 4, 5, <31:40>, 1, "1,200,000", 0, "null")
+  (126, 4, 5, <31:40>, 1, "1,200,000", 0, "null")
+  (111, 5, 6, <41:47>, 1, "units,", 0, "null")
+  (120, 5, 6, <41:47>, 1, "units,", 0, "null", "NNS" 1.0)
+  (132, 5, 6, <41:47>, 1, "units,", 0, "null")
+  (107, 6, 7, <48:51>, 1, "via", 0, "null")
+  (130, 6, 7, <48:51>, 1, "via", 0, "null")
+  (97, 7, 8, <52:64>, 1, "PaineWebber.", 0, "null")
+  (118, 7, 8, <52:64>, 1, "PaineWebber.", 0, "null", "NNP" 0.978)
+  (125, 7, 8, <52:64>, 1, "painewebber.", 0, "null")
+  (129, 7, 8, <52:64>, 1, "painewebber.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1454 CL-CL_RUNON_C 12.0314 0 8
+  (1442 NP_FRG_C 3.77094 0 3
+   (1441 HDN_BNP-PN_C 5.06357 0 3
+    (1440 HDN-AJ_REDREL_C 4.91606 0 3
+     (1437 ^NP-HDN_NME-CPD_C 1.63945 0 2
+      (1435 HDN_BNP-PN_C 0.078607 0 1
+       (1434 N_SG_ILR -0.386912 0 1
+        (137 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Chemex" 116
+          "token [ +CARG #1=\"Chemex\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1436 ^N_SG_ILR 0.199039 1 2
+       (140 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Pharmaceuticals" 92
+         "token [ +CARG #1=\"Pharmaceuticals\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61787559999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (1439 W_PERIOD_PLR 2.66678 2 3
+      (1438 N_SG_ILR 1.60789 2 3
+       (168 inc_post_ttl@n_-_tt-post_le 2.28122 2 3
+        ("inc." 122
+         "token [ +CARG \"Inc.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"inc.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (1453 ^AJ-HD_SCP-XP_C 8.21473 3 8
+   (174 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.290182 3 4
+    ("–" 109
+     "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1452 ^NP_FRG_C 7.45412 4 8
+    (1451 HDN_BNP_C 6.59239 4 8
+     (1450 HDN-AJ_REDREL-PR_C 6.2309 4 8
+      (1445 ^NUM-N_MNP_C 3.31748 4 6
+       (183 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+        ("1,200,000" 88
+         "token [ +CARG #1=\"1,200,000\" +CLASS card_ne +FORM #1 +FROM \"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (1444 ^W_COMMA_PLR 1.65898 5 6
+        (1443 N_PL_OLR 0.101864 5 6
+         (210 unit_n2@n_-_c-meas-nb_le 0 5 6
+          ("units," 111
+           "token [ +CARG \"units\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"units,\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+      (1449 HD-CMP_U_C 1.60473 6 8
+       (281 via@p_np_i-reg_le 0.582409 6 7
+        ("via" 107
+         "token [ +CARG #1=\"via\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"48\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1448 HDN_BNP-PN_C 0.302316 7 8
+        (1447 W_PERIOD_PLR 0.217529 7 8
+         (1446 N_SG_ILR -0.215389 7 8
+          (283 generic_proper_ne@n_-_pn-gen_le 0 7 8
+           ("PaineWebber." 97
+            "token [ +CARG \"PaineWebber\" +CLASS proper_ne +FORM \"PaineWebber.\" +FROM \"52\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97796050000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"64\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))))
+
+(S
+ (XP
+  (NP
+   (N (N (NP (N (N "Chemex"))) (N (N "Pharmaceuticals")))
+    (N (N (N "inc."))))))
+ (XP (ADV "–")
+  (XP
+   (NP
+    (N (N (ADJ "1,200,000") (N (N (N "units,"))))
+     (PP (P "via") (NP (N (N (N "PaineWebber."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:64>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:27>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:27>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<0:22>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<0:6>
+            LBL: h19
+            ARG0: x14
+            CARG: "Chemex" ]
+          [ named<7:22>
+            LBL: h13
+            ARG0: x9
+            CARG: "Pharmaceuticals" ]
+          [ _inc_n_1<23:27>
+            LBL: h20
+            ARG0: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<23:27>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<23:27>
+            LBL: h13
+            ARG0: i25
+            ARG1: x9
+            ARG2: x21 ]
+          [ excl<28:30>
+            LBL: h26
+            ARG0: i27
+            CARG: "s-dash" ]
+          [ discourse<28:30>
+            LBL: h28
+            ARG0: e6
+            L-HNDL: h26
+            L-INDEX: i27
+            R-HNDL: h30
+            R-INDEX: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<31:64>
+            LBL: h30
+            ARG0: e29
+            ARG: x31 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<31:64>
+            LBL: h32
+            ARG0: x31
+            RSTR: h33
+            BODY: h34 ]
+          [ card<31:40>
+            LBL: h35
+            ARG0: e36 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x31
+            CARG: "1,200,000" ]
+          [ _unit_n_2<41:47>
+            LBL: h35
+            ARG0: x31 ]
+          [ _via_p<48:51>
+            LBL: h35
+            ARG0: e37 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x31
+            ARG2: x38 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<52:64>
+            LBL: h39
+            ARG0: x38
+            RSTR: h40
+            BODY: h41 ]
+          [ named<52:64>
+            LBL: h42
+            ARG0: x38
+            CARG: "PaineWebber" ] >
+   HCONS: < h40 QEQ h42 h33 QEQ h35 h23 QEQ h20 h17 QEQ h19 h11 QEQ h13 h5 QEQ h28 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:64>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL e6, R-INDEX e6]
+ e7:unknown<0:27>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:proper_q<0:27>[BV x9]
+ e15:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _2:proper_q<0:6>[BV x14]
+ x14:named<0:6>("Chemex"){x PERS 3, NUM sg, IND +}[]
+ x9:named<7:22>("Pharmaceuticals"){x PERS 3, NUM sg, IND +}[]
+ x21:_inc_n_1<23:27>{x PERS 3, NUM sg, IND +}[]
+ _3:udef_q<23:27>[BV x21]
+ i25:compound<23:27>{i}[ARG1 x9, ARG2 x21]
+ i27:excl<28:30>("s-dash"){i}[]
+ e6:discourse<28:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[L-HNDL i27, L-INDEX i27, R-HNDL e29, R-INDEX e29]
+ e29:unknown<31:64>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x31]
+ _4:udef_q<31:64>[BV x31]
+ e36:card<31:40>("1,200,000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x31]
+ x31:_unit_n_2<41:47>{x PERS 3, NUM pl, IND +}[]
+ e37:_via_p<48:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x31, ARG2 x38]
+ _5:proper_q<52:64>[BV x38]
+ x38:named<52:64>("PaineWebber"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  implicit_conj<0:64> L-HNDL unknown<0:27>  
+  implicit_conj<0:64> L-INDEX unknown<0:27>  
+  implicit_conj<0:64> R-HNDL discourse<28:30>  
+  implicit_conj<0:64> R-INDEX discourse<28:30>  
+  unknown<0:27> ARG named<7:22>(Pharmaceuticals)  
+  proper_q<0:27> BV named<7:22>(Pharmaceuticals)  
+  compound<0:22> ARG1 named<7:22>(Pharmaceuticals)  
+  compound<0:22> ARG2 named<0:6>(Chemex)  
+  proper_q<0:6> BV named<0:6>(Chemex)  
+  udef_q<23:27> BV _inc_n_1<23:27>  
+  compound<23:27> ARG1 named<7:22>(Pharmaceuticals)  
+  compound<23:27> ARG2 _inc_n_1<23:27>  
+  discourse<28:30> L-HNDL excl<28:30>(s-dash)  
+  discourse<28:30> L-INDEX excl<28:30>(s-dash)  
+  discourse<28:30> R-HNDL unknown<31:64>  
+  discourse<28:30> R-INDEX unknown<31:64>  
+  unknown<31:64> ARG _unit_n_2<41:47>  
+  udef_q<31:64> BV _unit_n_2<41:47>  
+  card<31:40>(1,200,000) ARG1 _unit_n_2<41:47>  
+  _via_p<48:51> ARG1 _unit_n_2<41:47>  
+  _via_p<48:51> ARG2 named<52:64>(PaineWebber)  
+  proper_q<52:64> BV named<52:64>(PaineWebber)  
+  implicit_conj<0:64> SF prop  
+  implicit_conj<0:64> TENSE tensed  
+  implicit_conj<0:64> MOOD indicative  
+  implicit_conj<0:64> PROG -  
+  implicit_conj<0:64> PERF -  
+  unknown<0:27> SF prop  
+  unknown<0:27> TENSE tensed  
+  unknown<0:27> MOOD indicative  
+  unknown<0:27> PROG -  
+  unknown<0:27> PERF -  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  named<0:6>(Chemex) PERS 3  
+  named<0:6>(Chemex) NUM sg  
+  named<0:6>(Chemex) IND +  
+  named<7:22>(Pharmaceuticals) PERS 3  
+  named<7:22>(Pharmaceuticals) NUM sg  
+  named<7:22>(Pharmaceuticals) IND +  
+  _inc_n_1<23:27> PERS 3  
+  _inc_n_1<23:27> NUM sg  
+  _inc_n_1<23:27> IND +  
+  discourse<28:30> SF prop  
+  discourse<28:30> TENSE untensed  
+  discourse<28:30> MOOD indicative  
+  discourse<28:30> PROG -  
+  discourse<28:30> PERF -  
+  unknown<31:64> SF prop  
+  unknown<31:64> TENSE untensed  
+  unknown<31:64> MOOD indicative  
+  unknown<31:64> PROG -  
+  unknown<31:64> PERF -  
+  card<31:40>(1,200,000) SF prop  
+  card<31:40>(1,200,000) TENSE untensed  
+  card<31:40>(1,200,000) MOOD indicative  
+  card<31:40>(1,200,000) PROG -  
+  card<31:40>(1,200,000) PERF -  
+  _unit_n_2<41:47> PERS 3  
+  _unit_n_2<41:47> NUM pl  
+  _unit_n_2<41:47> IND +  
+  _via_p<48:51> SF prop  
+  _via_p<48:51> TENSE untensed  
+  _via_p<48:51> MOOD indicative  
+  _via_p<48:51> PROG -  
+  _via_p<48:51> PERF -  
+  named<52:64>(PaineWebber) PERS 3  
+  named<52:64>(PaineWebber) NUM sg  
+  named<52:64>(PaineWebber) IND +  
+}
+

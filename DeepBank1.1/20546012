@@ -1,0 +1,294 @@
+;;;
+;;; Redwoods export of `wsj05b';
+;;; (wsun@wsun; 22-jan-2018 (15:08 h)).
+;;;
+
+[20546012] (1 of 1) {1} `Hells Angels was formed in 1948 and incorporated in 1966.'
+
+[20546012:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Hells", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:12>, 1, "Angels", 0, "null", "NNPS" 0.7373 "NNP" 0.2627)
+  (3, 2, 3, <13:16>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:23>, 1, "formed", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <24:26>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <27:31>, 1, "1948", 0, "null", "CD" 1.0)
+  (7, 6, 7, <32:35>, 1, "and", 0, "null", "CC" 1.0)
+  (8, 7, 8, <36:48>, 1, "incorporated", 0, "null", "VBN" 0.8761 "VBD" 0.0883 "JJ" 0.0356)
+  (9, 8, 9, <49:51>, 1, "in", 0, "null", "IN" 1.0)
+  (10, 9, 10, <52:56>, 1, "1966", 0, "null", "CD" 1.0)
+  (11, 10, 11, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (121, 0, 1, <0:5>, 1, "Hells", 0, "null")
+  (127, 0, 1, <0:5>, 1, "hells", 0, "null")
+  (138, 0, 1, <0:5>, 1, "hells", 0, "null")
+  (97, 1, 2, <6:12>, 1, "Angels", 0, "null")
+  (122, 1, 2, <6:12>, 1, "Angels", 0, "null", "NNPS" 0.7373)
+  (126, 1, 2, <6:12>, 1, "Angels", 0, "null", "NNP" 0.2627)
+  (128, 1, 2, <6:12>, 1, "angels", 0, "null")
+  (130, 1, 2, <6:12>, 1, "angels", 0, "null")
+  (112, 2, 3, <13:16>, 1, "was", 0, "null")
+  (124, 2, 3, <13:16>, 1, "was", 0, "null", "VBD" 1.0)
+  (134, 2, 3, <13:16>, 1, "was", 0, "null")
+  (114, 3, 4, <17:23>, 1, "formed", 0, "null")
+  (125, 3, 4, <17:23>, 1, "formed", 0, "null", "VBN" 1.0)
+  (135, 3, 4, <17:23>, 1, "formed", 0, "null")
+  (116, 4, 5, <24:26>, 1, "in", 0, "null")
+  (136, 4, 5, <24:26>, 1, "in", 0, "null")
+  (94, 5, 6, <27:31>, 1, "1948", 0, "null")
+  (129, 5, 6, <27:31>, 1, "1948", 0, "null")
+  (108, 6, 7, <32:35>, 1, "and", 0, "null")
+  (132, 6, 7, <32:35>, 1, "and", 0, "null")
+  (119, 7, 8, <36:48>, 1, "incorporated", 0, "null")
+  (123, 7, 8, <36:48>, 1, "incorporated", 0, "null", "VBN" 0.8761)
+  (137, 7, 8, <36:48>, 1, "incorporated", 0, "null")
+  (110, 8, 9, <49:51>, 1, "in", 0, "null")
+  (133, 8, 9, <49:51>, 1, "in", 0, "null")
+  (98, 9, 10, <52:57>, 1, "1966.", 0, "null")
+  (131, 9, 10, <52:57>, 1, "1966.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5070 SB-HD_MC_C 16.1126 0 10
+  (5051 HDN_BNP-PN_C -1.86566 0 2
+   (5050 NP-HDN_NME-CPD_C -2.40537 0 2
+    (5048 HDN_BNP_C -2.39004 0 1
+     (5047 N_PL_OLR -1.19173 0 1
+      (146 hell_n2@n_-_pn_le 0 0 1
+       ("hells" 127
+        "token [ +CARG \"Hells\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"hells\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (5049 ^N_SG_ILR -0.143257 1 2
+     (159 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Angels" 97
+       "token [ +CARG #1=\"Angels\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.73734960000000005\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (5069 ^HD-CMP_U_C 16.9612 2 10
+   (182 be_c_was@v_prd_was_le 1.85482 2 3
+    ("was" 112
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (5068 VPPR-VPPR_CRD-T_C 14.6489 3 10
+    (5058 HD-AJ_INT-UNSL_C 4.77713 3 6
+     (5053 ^HD_OPTCMP_C 0.42492 3 4
+      (5052 V_PAS_ODLR -0.374169 3 4
+       (213 form_v1@v_np_noger_le 0 3 4
+        ("formed" 114
+         "token [ +CARG #1=\"formed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (5057 HD-CMP_U_C 2.5944 4 6
+      (352 in_temp@p_np_i-tmp_le 0.0547582 4 5
+       ("in" 116
+        "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (5056 HDN_BNP-PN_C -0.182296 5 6
+       (5055 HDN_OPTCMP_C -1.26286 5 6
+        (5054 N_SG_ILR -0.482358 5 6
+         (391 generic_year_ne@n_-_pn-yoc-gen_le 0 5 6
+          ("1948" 94
+           "token [ +CARG #1=\"1948\" +CLASS card_or_year_ne +FORM #1 +FROM \"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+    (5067 ^MRK-NH_EVNT_C 9.43075 6 10
+     (395 and_conj@c_xp_and_le -0.0075885 6 7
+      ("and" 108
+       "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (5066 HD-AJ_INT-UNSL_C 8.58814 7 10
+      (5060 ^HD_OPTCMP_C 0.199545 7 8
+       (5059 V_PAS_ODLR -0.300408 7 8
+        (426 incorporate_v1@v_np*_le 0 7 8
+         ("incorporated" 119
+          "token [ +CARG #1=\"incorporated\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87608370000000002\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (5065 HD-CMP_U_C 7.0593 8 10
+       (545 in_temp@p_np_i-tmp_le 0.0547582 8 9
+        ("in" 110
+         "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"49\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (5064 HDN_BNP-PN_C 3.9744 9 10
+        (5063 HDN_OPTCMP_C 2.89384 9 10
+         (5062 W_PERIOD_PLR 2.12637 9 10
+          (5061 N_SG_ILR 1.40701 9 10
+           (586 generic_year_ne@n_-_pn-yoc-gen_le 0 9 10
+            ("1966." 98
+             "token [ +CARG \"1966\" +CLASS card_or_year_ne +FORM \"1966.\" +FROM \"52\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))))
+
+(S (NP (N (NP (N (N "hells"))) (N (N "Angels"))))
+ (VP (V "was")
+  (VP (VP (VP (V (V "formed"))) (PP (P "in") (NP (N (N (N "1948"))))))
+   (VP-C (CONJ "and")
+    (VP (VP (V (V "incorporated")))
+     (PP (P "in") (NP (N (N (N (N "1966.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Hell" ]
+          [ named<6:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "Angels" ]
+          [ _form_v_cause<17:23>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i17
+            ARG2: x6 ]
+          [ parg_d<17:23>
+            LBL: h15
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: x6 ]
+          [ _in_p_temp<24:26>
+            LBL: h15
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<27:31>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ yofc<27:31>
+            LBL: h24
+            ARG0: x20
+            CARG: "1948" ]
+          [ _and_c<32:35>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h15
+            L-INDEX: e16
+            R-HNDL: h25
+            R-INDEX: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _incorporate_v_1<36:48>
+            LBL: h25
+            ARG0: e26
+            ARG1: i27
+            ARG2: x6 ]
+          [ parg_d<36:48>
+            LBL: h25
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e26
+            ARG2: x6 ]
+          [ _in_p_temp<49:51>
+            LBL: h25
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e26
+            ARG2: x30 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<52:57>
+            LBL: h31
+            ARG0: x30
+            RSTR: h32
+            BODY: h33 ]
+          [ yofc<52:57>
+            LBL: h34
+            ARG0: x30
+            CARG: "1966" ] >
+   HCONS: < h32 QEQ h34 h22 QEQ h24 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:5>[BV x9]
+ x9:named<0:5>("Hell"){x PERS 3, NUM pl, IND +}[]
+ x6:named<6:12>("Angels"){x PERS 3, NUM sg, IND +}[]
+ e16:_form_v_cause<17:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e18:parg_d<17:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 x6]
+ e19:_in_p_temp<24:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 x20]
+ _3:proper_q<27:31>[BV x20]
+ x20:yofc<27:31>("1948"){x PERS 3, NUM sg, IND +}[]
+ e3:_and_c<32:35>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[L-HNDL e16, L-INDEX e16, R-HNDL e26, R-INDEX e26]
+ e26:_incorporate_v_1<36:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e28:parg_d<36:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e26, ARG2 x6]
+ e29:_in_p_temp<49:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e26, ARG2 x30]
+ _4:proper_q<52:57>[BV x30]
+ x30:yofc<52:57>("1966"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:12> BV named<6:12>(Angels)  
+  compound<0:12> ARG1 named<6:12>(Angels)  
+  compound<0:12> ARG2 named<0:5>(Hell)  
+  udef_q<0:5> BV named<0:5>(Hell)  
+  _form_v_cause<17:23> ARG2 named<6:12>(Angels)  
+  parg_d<17:23> ARG1 _form_v_cause<17:23>  
+  parg_d<17:23> ARG2 named<6:12>(Angels)  
+  _in_p_temp<24:26> ARG1 _form_v_cause<17:23>  
+  _in_p_temp<24:26> ARG2 yofc<27:31>(1948)  
+  proper_q<27:31> BV yofc<27:31>(1948)  
+  _and_c<32:35> L-HNDL _form_v_cause<17:23>  
+  _and_c<32:35> L-INDEX _form_v_cause<17:23>  
+  _and_c<32:35> R-HNDL _incorporate_v_1<36:48>  
+  _and_c<32:35> R-INDEX _incorporate_v_1<36:48>  
+  _incorporate_v_1<36:48> ARG2 named<6:12>(Angels)  
+  parg_d<36:48> ARG1 _incorporate_v_1<36:48>  
+  parg_d<36:48> ARG2 named<6:12>(Angels)  
+  _in_p_temp<49:51> ARG1 _incorporate_v_1<36:48>  
+  _in_p_temp<49:51> ARG2 yofc<52:57>(1966)  
+  proper_q<52:57> BV yofc<52:57>(1966)  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:5>(Hell) PERS 3  
+  named<0:5>(Hell) NUM pl  
+  named<0:5>(Hell) IND +  
+  named<6:12>(Angels) PERS 3  
+  named<6:12>(Angels) NUM sg  
+  named<6:12>(Angels) IND +  
+  _form_v_cause<17:23> SF prop  
+  _form_v_cause<17:23> TENSE past  
+  _form_v_cause<17:23> MOOD indicative  
+  _form_v_cause<17:23> PROG -  
+  _form_v_cause<17:23> PERF -  
+  parg_d<17:23> SF prop  
+  parg_d<17:23> TENSE untensed  
+  parg_d<17:23> MOOD indicative  
+  parg_d<17:23> PROG -  
+  parg_d<17:23> PERF -  
+  _in_p_temp<24:26> SF prop  
+  _in_p_temp<24:26> TENSE untensed  
+  _in_p_temp<24:26> MOOD indicative  
+  _in_p_temp<24:26> PROG -  
+  _in_p_temp<24:26> PERF -  
+  yofc<27:31>(1948) PERS 3  
+  yofc<27:31>(1948) NUM sg  
+  yofc<27:31>(1948) IND +  
+  _and_c<32:35> SF prop  
+  _and_c<32:35> TENSE past  
+  _and_c<32:35> MOOD indicative  
+  _and_c<32:35> PROG -  
+  _and_c<32:35> PERF -  
+  _incorporate_v_1<36:48> SF prop  
+  _incorporate_v_1<36:48> TENSE untensed  
+  _incorporate_v_1<36:48> MOOD indicative  
+  _incorporate_v_1<36:48> PROG -  
+  _incorporate_v_1<36:48> PERF -  
+  parg_d<36:48> SF prop  
+  parg_d<36:48> TENSE untensed  
+  parg_d<36:48> MOOD indicative  
+  parg_d<36:48> PROG -  
+  parg_d<36:48> PERF -  
+  _in_p_temp<49:51> SF prop  
+  _in_p_temp<49:51> TENSE untensed  
+  _in_p_temp<49:51> MOOD indicative  
+  _in_p_temp<49:51> PROG -  
+  _in_p_temp<49:51> PERF -  
+  yofc<52:57>(1966) PERS 3  
+  yofc<52:57>(1966) NUM sg  
+  yofc<52:57>(1966) IND +  
+}
+

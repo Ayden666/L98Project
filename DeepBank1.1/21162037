@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj11d';
+;;; (wsun@wsun; 22-jan-2018 (20:38 h)).
+;;;
+
+[21162037] (1 of 1) {1} `EMPLOYEE MANUALS:'
+
+[21162037:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "EMPLOYEE", 0, "null", "NN" 1.0)
+  (2, 1, 2, <9:16>, 1, "MANUALS", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <16:17>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:8>, 1, "EMPLOYEE", 0, "null")
+  (39, 0, 1, <0:8>, 1, "EMPLOYEE", 0, "null", "NN" 1.0)
+  (41, 0, 1, <0:8>, 1, "employee", 0, "null")
+  (43, 0, 1, <0:8>, 1, "employee", 0, "null")
+  (30, 1, 2, <9:16>, 1, "MANUALS", 0, "null")
+  (38, 1, 2, <9:16>, 1, "MANUALS", 0, "null", "NNS" 1.0)
+  (40, 1, 2, <9:16>, 1, "manuals", 0, "null")
+  (42, 1, 2, <9:16>, 1, "manuals", 0, "null")
+  (37, 2, 3, <16:17>, 1, ":", 0, "null")
+  (44, 2, 3, <16:17>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (295 NP_FRG_C 1.07494 0 3
+  (294 HDN_BNP_C 1.27935 0 3
+   (293 HDN-AJ_REDREL_C 1.37475 0 3
+    (290 ^N-HDN_CPD_C 1.06132 0 2
+     (287 HDN_OPTCMP_C -0.071274 0 1
+      (49 employee_n1@n_pp_c-of_le 0 0 1
+       ("employee" 41
+        "token [ +CARG \"EMPLOYEE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"employee\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (289 ^HDN_OPTCMP_C 0.679729 1 2
+      (288 N_PL_OLR 0.439071 1 2
+       (53 manual_n1@n_pp_c-of_le 0 1 2
+        ("manuals" 40
+         "token [ +CARG \"MANUALS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"manuals\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (77 colon_namely_pp@pp_-_i-cln_le -0.196315 2 3
+     (":" 37
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (N (N "employee")) (N (N (N "manuals")))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _employee_n_of<0:8>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ _manual_n_of<9:16>
+            LBL: h8
+            ARG0: x4
+            ARG1: i16 ]
+          [ _colon_p_namely<16:17>
+            LBL: h8
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:17>[BV x4]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_employee_n_of<0:8>{x IND +}[]
+ x4:_manual_n_of<9:16>{x PERS 3, NUM pl, IND +}[]
+ e17:_colon_p_namely<16:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:17> ARG _manual_n_of<9:16>  
+  udef_q<0:17> BV _manual_n_of<9:16>  
+  compound<0:16> ARG1 _manual_n_of<9:16>  
+  compound<0:16> ARG2 _employee_n_of<0:8>  
+  udef_q<0:8> BV _employee_n_of<0:8>  
+  _colon_p_namely<16:17> ARG1 _manual_n_of<9:16>  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  _employee_n_of<0:8> IND +  
+  _manual_n_of<9:16> PERS 3  
+  _manual_n_of<9:16> NUM pl  
+  _manual_n_of<9:16> IND +  
+  _colon_p_namely<16:17> SF prop  
+  _colon_p_namely<16:17> TENSE untensed  
+  _colon_p_namely<16:17> MOOD indicative  
+  _colon_p_namely<16:17> PROG -  
+  _colon_p_namely<16:17> PERF -  
+}
+

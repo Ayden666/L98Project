@@ -1,0 +1,145 @@
+;;;
+;;; Redwoods export of `wsj00c';
+;;; (wsun@wsun; 22-jan-2018 (10:33 h)).
+;;;
+
+[20056005] (1 of 1) {1} `Guaranteed minimum 6%.'
+
+[20056005:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "JJ" 0.6552 "VBN" 0.3448)
+  (2, 1, 2, <11:18>, 1, "minimum", 0, "null", "JJ" 0.8332 "NN" 0.1668)
+  (3, 2, 3, <19:20>, 1, "6", 0, "null", "CD" 1.0)
+  (4, 3, 4, <20:21>, 1, "%", 0, "null", "NN" 1.0)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "JJ" 0.6552)
+  (57, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "VBN" 0.3448)
+  (59, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (63, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (53, 1, 2, <11:18>, 1, "minimum", 0, "null")
+  (56, 1, 2, <11:18>, 1, "minimum", 0, "null", "JJ" 0.8332)
+  (58, 1, 2, <11:18>, 1, "minimum", 0, "null", "NN" 0.1668)
+  (62, 1, 2, <11:18>, 1, "minimum", 0, "null")
+  (41, 2, 3, <19:20>, 1, "6", 0, "null")
+  (60, 2, 3, <19:20>, 1, "6", 0, "null")
+  (50, 3, 4, <20:22>, 1, "%.", 0, "null")
+  (61, 3, 4, <20:22>, 1, "%.", 0, "null")
+>
+
+(ROOT_FRAG
+ (1404 NP_FRG_C 1.84767 0 4
+  (1403 HDN_BNP_C 2.05208 0 4
+   (1402 AJ-HDN_ADJN_C 1.73636 0 4
+    (1397 V_J-NB-PAS-TR_DLR -0.845587 0 1
+     (1396 V_PAS_ODLR -0.336956 0 1
+      (190 guarantee_v3@v_np_le 0 0 1
+       ("guaranteed" 59
+        "token [ +CARG \"Guaranteed\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"guaranteed\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65517080000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1401 ^AJ-HDN_NORM_C 2.16451 1 4
+     (283 minimum_a1@aj_-_i_le 0 1 2
+      ("minimum" 53
+       "token [ +CARG #1=\"minimum\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83317779999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1400 ^NUM-N_MNP_C 1.7269 2 4
+      (288 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+       ("6" 41
+        "token [ +CARG #1=\"6\" +CLASS card_or_dom_ne +FORM #1 +FROM \"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (1399 ^W_PERIOD_PLR 1.14521 3 4
+       (1398 N_PL_OLR 0.482577 3 4
+        (292 percent_char_n1@n_-_c-meas-spr_le 0.328883 3 4
+         ("%." 50
+          "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP
+ (NP
+  (N (AP (V (V "guaranteed")))
+   (N (AP "minimum") (N (ADJ "6") (N (N (N "%."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:22>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _guarantee_v_1<0:10>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i10
+            ARG2: x4 ]
+          [ parg_d<0:10>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: x4 ]
+          [ _minimum_a_1<11:18>
+            LBL: h8
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ card<19:20>
+            LBL: h8
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            CARG: "6" ]
+          [ _percent_n_of<20:22>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:22>[BV x4]
+ e9:_guarantee_v_1<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x4]
+ e11:parg_d<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x4]
+ e12:_minimum_a_1<11:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ e13:card<19:20>("6"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_percent_n_of<20:22>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:22> ARG _percent_n_of<20:22>  
+  udef_q<0:22> BV _percent_n_of<20:22>  
+  _guarantee_v_1<0:10> ARG2 _percent_n_of<20:22>  
+  parg_d<0:10> ARG1 _guarantee_v_1<0:10>  
+  parg_d<0:10> ARG2 _percent_n_of<20:22>  
+  _minimum_a_1<11:18> ARG1 _percent_n_of<20:22>  
+  card<19:20>(6) ARG1 _percent_n_of<20:22>  
+  unknown<0:22> SF prop  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  _guarantee_v_1<0:10> SF prop  
+  _guarantee_v_1<0:10> TENSE untensed  
+  _guarantee_v_1<0:10> MOOD indicative  
+  _guarantee_v_1<0:10> PROG -  
+  _guarantee_v_1<0:10> PERF -  
+  parg_d<0:10> SF prop  
+  parg_d<0:10> TENSE untensed  
+  parg_d<0:10> MOOD indicative  
+  parg_d<0:10> PROG -  
+  parg_d<0:10> PERF -  
+  _minimum_a_1<11:18> SF prop  
+  _minimum_a_1<11:18> TENSE untensed  
+  _minimum_a_1<11:18> MOOD indicative  
+  _minimum_a_1<11:18> PROG -  
+  _minimum_a_1<11:18> PERF -  
+  card<19:20>(6) SF prop  
+  card<19:20>(6) TENSE untensed  
+  card<19:20>(6) MOOD indicative  
+  card<19:20>(6) PROG -  
+  card<19:20>(6) PERF -  
+  _percent_n_of<20:22> PERS 3  
+  _percent_n_of<20:22> NUM pl  
+  _percent_n_of<20:22> IND +  
+}
+

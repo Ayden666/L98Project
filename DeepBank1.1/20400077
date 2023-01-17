@@ -1,0 +1,86 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:40 h)).
+;;;
+
+[20400077] (1 of 1) {1} `Municipal Issues'
+
+[20400077:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Municipal", 0, "null", "JJ" 0.8537 "NNP" 0.1463)
+  (2, 1, 2, <10:16>, 1, "Issues", 0, "null", "NNS" 0.8591 "NNP" 0.0707 "NNPS" 0.0702)
+>
+
+<
+  (31, 0, 1, <0:9>, 1, "Municipal", 0, "null")
+  (33, 0, 1, <0:9>, 1, "Municipal", 0, "null", "JJ" 0.8537)
+  (35, 0, 1, <0:9>, 1, "municipal", 0, "null")
+  (37, 0, 1, <0:9>, 1, "municipal", 0, "null")
+  (20, 1, 2, <10:16>, 1, "Issues", 0, "null")
+  (32, 1, 2, <10:16>, 1, "Issues", 0, "null", "NNS" 0.8591)
+  (34, 1, 2, <10:16>, 1, "issues", 0, "null")
+  (36, 1, 2, <10:16>, 1, "issues", 0, "null")
+>
+
+(ROOT_FRAG
+ (193 NP_FRG_C 2.10018 0 2
+  (192 HDN_BNP_C 2.30459 0 2
+   (191 AJ-HDN_NORM_C 2.43994 0 2
+    (41 municipal_a1@aj_-_i_le 0.0333577 0 1
+     ("municipal" 35
+      "token [ +CARG \"Municipal\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"municipal\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85365570000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (190 ^N_PL_OLR 1.35587 1 2
+     (52 issue_n1@n_-_mc-ns_le 1.33923 1 2
+      ("issues" 34
+       "token [ +CARG \"Issues\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"issues\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85911340000000003\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (AP "municipal") (N (N "issues")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:16>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _municipal_a_1<0:9>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _issue_n_1<10:16>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:16>[BV x4]
+ e9:_municipal_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_issue_n_1<10:16>{x PERS 3, NUM pl}[]
+}
+
+{
+  unknown<0:16> ARG _issue_n_1<10:16>  
+  udef_q<0:16> BV _issue_n_1<10:16>  
+  _municipal_a_1<0:9> ARG1 _issue_n_1<10:16>  
+  unknown<0:16> SF prop-or-ques  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  _municipal_a_1<0:9> SF prop  
+  _municipal_a_1<0:9> TENSE untensed  
+  _municipal_a_1<0:9> MOOD indicative  
+  _municipal_a_1<0:9> PROG -  
+  _municipal_a_1<0:9> PERF -  
+  _issue_n_1<10:16> PERS 3  
+  _issue_n_1<10:16> NUM pl  
+}
+

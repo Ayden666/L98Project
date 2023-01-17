@@ -1,0 +1,173 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:20 h)).
+;;;
+
+[20253008] (1 of 1) {1} `The company has been manufacturing carpet since 1967.'
+
+[20253008:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "company", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:20>, 1, "been", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <21:34>, 1, "manufacturing", 0, "null", "VBG" 0.7761 "NN" 0.2239)
+  (6, 5, 6, <35:41>, 1, "carpet", 0, "null", "NN" 1.0)
+  (7, 6, 7, <42:47>, 1, "since", 0, "null", "IN" 1.0)
+  (8, 7, 8, <48:52>, 1, "1967", 0, "null", "CD" 1.0)
+  (9, 8, 9, <52:53>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (102, 0, 1, <0:3>, 1, "the", 0, "null")
+  (110, 0, 1, <0:3>, 1, "the", 0, "null")
+  (86, 1, 2, <4:11>, 1, "company", 0, "null")
+  (98, 1, 2, <4:11>, 1, "company", 0, "null", "NN" 1.0)
+  (104, 1, 2, <4:11>, 1, "company", 0, "null")
+  (88, 2, 3, <12:15>, 1, "has", 0, "null")
+  (99, 2, 3, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (105, 2, 3, <12:15>, 1, "has", 0, "null")
+  (90, 3, 4, <16:20>, 1, "been", 0, "null")
+  (100, 3, 4, <16:20>, 1, "been", 0, "null", "VBN" 1.0)
+  (106, 3, 4, <16:20>, 1, "been", 0, "null")
+  (95, 4, 5, <21:34>, 1, "manufacturing", 0, "null")
+  (97, 4, 5, <21:34>, 1, "manufacturing", 0, "null", "VBG" 0.7761)
+  (109, 4, 5, <21:34>, 1, "manufacturing", 0, "null")
+  (92, 5, 6, <35:41>, 1, "carpet", 0, "null")
+  (101, 5, 6, <35:41>, 1, "carpet", 0, "null", "NN" 1.0)
+  (107, 5, 6, <35:41>, 1, "carpet", 0, "null")
+  (94, 6, 7, <42:47>, 1, "since", 0, "null")
+  (108, 6, 7, <42:47>, 1, "since", 0, "null")
+  (80, 7, 8, <48:53>, 1, "1967.", 0, "null")
+  (103, 7, 8, <48:53>, 1, "1967.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2196 SB-HD_MC_C 20.6072 0 8
+  (2183 SP-HD_N_C 3.19296 0 2
+   (123 the_1@d_-_the_le 1.13181 0 1
+    ("the" 102
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2182 ^HDN_OPTCMP_C 1.60996 1 2
+    (2181 N_MS-CNT_ILR 1.69776 1 2
+     (148 company_n1@n_pp_mc-of_le 0.954973 1 2
+      ("company" 86
+       "token [ +CARG #1=\"company\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2195 ^HD-CMP_U_C 15.4597 2 8
+   (171 has_aux@v_vp_has_le 2.86674 2 3
+    ("has" 88
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2194 HD-CMP_U_C 11.9269 3 8
+    (252 be_c_been@v_prd_been_le 1.91796 3 4
+     ("been" 90
+      "token [ +CARG #1=\"been\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2193 HD-AJ_INT-UNSL_C 9.10767 4 8
+     (2187 ^HD-CMP_U_C 0.516453 4 6
+      (2184 ^V_PRP_OLR -0.212928 4 5
+       (262 manufacture_v1@v_np*_le -0.85949 4 5
+        ("manufacturing" 95
+         "token [ +CARG #1=\"manufacturing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7760532\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (2186 HDN_BNP_C -0.591022 5 6
+       (2185 N_MS-CNT_ILR 0.084539 5 6
+        (271 carpet_n1@n_-_mc_le 0 5 6
+         ("carpet" 92
+          "token [ +CARG #1=\"carpet\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (2192 HD-CMP_U_C 7.15825 6 8
+      (277 since@p_np_i-ngap_le 1.02522 6 7
+       ("since" 94
+        "token [ +CARG #1=\"since\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2191 HDN_BNP-PN_C 3.9744 7 8
+       (2190 HDN_OPTCMP_C 2.89384 7 8
+        (2189 W_PERIOD_PLR 2.12637 7 8
+         (2188 N_SG_ILR 1.40701 7 8
+          (287 generic_year_ne@n_-_pn-yoc-gen_le 0 7 8
+           ("1967." 80
+            "token [ +CARG \"1967\" +CLASS card_or_year_ne +FORM \"1967.\" +FROM \"48\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))))
+
+(S (NP (DET "the") (N (N (N "company"))))
+ (VP (V "has")
+  (VP (V "been")
+   (VP (VP (V (V "manufacturing")) (NP (N (N "carpet"))))
+    (PP (P "since") (NP (N (N (N (N "1967."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: + ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _company_n_of<4:11>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _manufacture_v_1<21:34>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<35:41>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _carpet_n_1<35:41>
+            LBL: h14
+            ARG0: x10 ]
+          [ _since_p<42:47>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<48:53>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ yofc<48:53>
+            LBL: h20
+            ARG0: x16
+            CARG: "1967" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_company_n_of<4:11>{x PERS 3, NUM sg}[]
+ e3:_manufacture_v_1<21:34>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF +}[ARG1 x6, ARG2 x10]
+ _2:udef_q<35:41>[BV x10]
+ x10:_carpet_n_1<35:41>{x PERS 3, NUM sg}[]
+ e15:_since_p<42:47>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:proper_q<48:53>[BV x16]
+ x16:yofc<48:53>("1967"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _the_q<0:3> BV _company_n_of<4:11>  
+  _manufacture_v_1<21:34> ARG1 _company_n_of<4:11>  
+  _manufacture_v_1<21:34> ARG2 _carpet_n_1<35:41>  
+  udef_q<35:41> BV _carpet_n_1<35:41>  
+  _since_p<42:47> ARG1 _manufacture_v_1<21:34>  
+  _since_p<42:47> ARG2 yofc<48:53>(1967)  
+  proper_q<48:53> BV yofc<48:53>(1967)  
+  _company_n_of<4:11> PERS 3  
+  _company_n_of<4:11> NUM sg  
+  _manufacture_v_1<21:34> SF prop  
+  _manufacture_v_1<21:34> TENSE pres  
+  _manufacture_v_1<21:34> MOOD indicative  
+  _manufacture_v_1<21:34> PROG +  
+  _manufacture_v_1<21:34> PERF +  
+  _carpet_n_1<35:41> PERS 3  
+  _carpet_n_1<35:41> NUM sg  
+  _since_p<42:47> SF prop  
+  _since_p<42:47> TENSE untensed  
+  _since_p<42:47> MOOD indicative  
+  _since_p<42:47> PROG -  
+  _since_p<42:47> PERF -  
+  yofc<48:53>(1967) PERS 3  
+  yofc<48:53>(1967) NUM sg  
+  yofc<48:53>(1967) IND +  
+}
+

@@ -1,0 +1,93 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:28 h)).
+;;;
+
+[21146019] (1 of 1) {1} `They still are.'
+
+[21146019:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:10>, 1, "still", 0, "null", "RB" 1.0)
+  (3, 2, 3, <11:14>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:4>, 1, "they", 0, "null")
+  (49, 0, 1, <0:4>, 1, "they", 0, "null")
+  (41, 1, 2, <5:10>, 1, "still", 0, "null")
+  (44, 1, 2, <5:10>, 1, "still", 0, "null", "RB" 1.0)
+  (47, 1, 2, <5:10>, 1, "still", 0, "null")
+  (43, 2, 3, <11:15>, 1, "are.", 0, "null")
+  (45, 2, 3, <11:15>, 1, "are.", 0, "null", "VBP" 1.0)
+  (48, 2, 3, <11:15>, 1, "are.", 0, "null")
+>
+
+(ROOT_STRICT
+ (319 SB-HD_MC_C 3.17709 0 3
+  (315 HDN_BNP-QNT_C 1.15641 0 1
+   (50 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 46
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (318 ^AJ-HD_INT_C 1.26033 1 3
+   (66 still_adv1@av_-_i-vp-x_le 2.22543 1 2
+    ("still" 41
+     "token [ +CARG #1=\"still\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (317 ^W_PERIOD_PLR -0.965097 2 3
+    (316 V_AUX-ELL-REF_DLR -0.83519 2 3
+     (75 be_c_are@v_prd_are_le 0 2 3
+      ("are." 43
+       "token [ +CARG \"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"are.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "they")) (VP (ADV "still") (VP (VP (V "are.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _still_a_1<5:10>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ ellipsis_ref<11:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e9:_still_a_1<5:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:ellipsis_ref<11:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _still_a_1<5:10> ARG1 ellipsis_ref<11:15>  
+  ellipsis_ref<11:15> ARG1 pron<0:4>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _still_a_1<5:10> SF prop  
+  _still_a_1<5:10> TENSE untensed  
+  _still_a_1<5:10> MOOD indicative  
+  _still_a_1<5:10> PROG -  
+  _still_a_1<5:10> PERF -  
+  ellipsis_ref<11:15> SF prop  
+  ellipsis_ref<11:15> TENSE pres  
+  ellipsis_ref<11:15> MOOD indicative  
+  ellipsis_ref<11:15> PROG -  
+  ellipsis_ref<11:15> PERF -  
+}
+

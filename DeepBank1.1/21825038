@@ -1,0 +1,251 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:08 h)).
+;;;
+
+[21825038] (1 of 1) {1} `Two election commission members opposed the matching plans.'
+
+[21825038:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Two", 0, "null", "CD" 1.0)
+  (2, 1, 2, <4:12>, 1, "election", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:23>, 1, "commission", 0, "null", "NN" 1.0)
+  (4, 3, 4, <24:31>, 1, "members", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <32:39>, 1, "opposed", 0, "null", "VBD" 0.808 "VBN" 0.192)
+  (6, 5, 6, <40:43>, 1, "the", 0, "null", "DT" 1.0)
+  (7, 6, 7, <44:52>, 1, "matching", 0, "null", "JJ" 0.5594 "NN" 0.2437 "VBG" 0.1969)
+  (8, 7, 8, <53:58>, 1, "plans", 0, "null", "NNS" 0.9115 "VBZ" 0.0885)
+  (9, 8, 9, <58:59>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:3>, 1, "Two", 0, "null", "CD" 1.0)
+  (116, 0, 1, <0:3>, 1, "two", 0, "null")
+  (124, 0, 1, <0:3>, 1, "two", 0, "null")
+  (94, 1, 2, <4:12>, 1, "election", 0, "null")
+  (111, 1, 2, <4:12>, 1, "election", 0, "null", "NN" 1.0)
+  (117, 1, 2, <4:12>, 1, "election", 0, "null")
+  (96, 2, 3, <13:23>, 1, "commission", 0, "null")
+  (112, 2, 3, <13:23>, 1, "commission", 0, "null", "NN" 1.0)
+  (118, 2, 3, <13:23>, 1, "commission", 0, "null")
+  (98, 3, 4, <24:31>, 1, "members", 0, "null")
+  (113, 3, 4, <24:31>, 1, "members", 0, "null", "NNS" 1.0)
+  (119, 3, 4, <24:31>, 1, "members", 0, "null")
+  (101, 4, 5, <32:39>, 1, "opposed", 0, "null")
+  (107, 4, 5, <32:39>, 1, "opposed", 0, "null", "VBD" 0.808)
+  (114, 4, 5, <32:39>, 1, "opposed", 0, "null", "VBN" 0.192)
+  (121, 4, 5, <32:39>, 1, "opposed", 0, "null")
+  (100, 5, 6, <40:43>, 1, "the", 0, "null")
+  (120, 5, 6, <40:43>, 1, "the", 0, "null")
+  (103, 6, 7, <44:52>, 1, "matching", 0, "null")
+  (108, 6, 7, <44:52>, 1, "matching", 0, "null", "JJ" 0.5594)
+  (115, 6, 7, <44:52>, 1, "matching", 0, "null", "VBG" 0.1969)
+  (122, 6, 7, <44:52>, 1, "matching", 0, "null")
+  (104, 7, 8, <53:59>, 1, "plans.", 0, "null")
+  (109, 7, 8, <53:59>, 1, "plans.", 0, "null", "NNS" 0.9115)
+  (123, 7, 8, <53:59>, 1, "plans.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1847 SB-HD_MC_C 6.28 0 8
+  (1833 SP-HD_N_C 3.14497 0 4
+   (1827 NUM_DET_C 0.885191 0 1
+    (130 two@aj_-_i-crd-one_le 0.175566 0 1
+     ("two" 116
+      "token [ +CARG \"Two\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"two\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1832 ^N-HDN_CPD_C 2.22666 1 4
+    (1830 N-HDN_CPD_C 1.14989 1 3
+     (1828 HDN_OPTCMP_C 0.421469 1 2
+      (138 election_n1@n_pp_mc-of_le 0 1 2
+       ("election" 94
+        "token [ +CARG #1=\"election\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1829 ^HDN_OPTCMP_C 0.390077 2 3
+      (141 commission_n1@n_pp_mc-of_le -0.784331 2 3
+       ("commission" 96
+        "token [ +CARG #1=\"commission\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1831 ^N_PL_OLR 1.08178 3 4
+     (147 member_n1@n_-_c-ed_le 0.507842 3 4
+      ("members" 98
+       "token [ +CARG #1=\"members\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1846 ^HD-CMP_U_C 1.18052 4 8
+   (1834 ^V_PST_OLR 0.168615 4 5
+    (171 oppose_v1@v_np_le 0.0609964 4 5
+     ("opposed" 101
+      "token [ +CARG #1=\"opposed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80799719999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1845 SP-HD_N_C 0.00300245 5 8
+    (311 the_1@d_-_the_le 1.00477 5 6
+     ("the" 100
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1844 ^N-HDN_CPD_C -0.552216 6 8
+     (1843 V_NGER-INTR_DLR -1.30045 6 7
+      (1835 V_PRP_OLR -0.722178 6 7
+       (342 match_v2@v_-_unacc_le 0 6 7
+        ("matching" 103
+         "token [ +CARG #1=\"matching\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55936509999999995\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1838 ^W_PERIOD_PLR -0.645909 7 8
+      (1837 N_PL_OLR -0.264495 7 8
+       (359 plan_n1@n_-_c-ns_le 0 7 8
+        ("plans." 104
+         "token [ +CARG \"plans\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"plans.\" +FROM #1=\"53\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91147279999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"59\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP (DET (ADJ "two"))
+  (N (N (N (N "election")) (N (N "commission"))) (N (N "members"))))
+ (VP (V (V "opposed"))
+  (NP (DET "the") (N (N (VP (V "matching"))) (N (N (N "plans.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h6
+            BODY: h7 ]
+          [ card<0:3>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            CARG: "2" ]
+          [ compound<4:31>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x10 ]
+          [ udef_q<4:23>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<4:23>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x16 ]
+          [ udef_q<4:12>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _election_n_of-for<4:12>
+            LBL: h21
+            ARG0: x16
+            ARG1: i22 ]
+          [ _commission_n_of<13:23>
+            LBL: h15
+            ARG0: x10
+            ARG1: i23 ]
+          [ _member_n_of<24:31>
+            LBL: h8
+            ARG0: x5 ]
+          [ _oppose_v_1<32:39>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x24 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _the_q<40:43>
+            LBL: h25
+            ARG0: x24
+            RSTR: h27
+            BODY: h26 ]
+          [ compound<44:59>
+            LBL: h28
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x24
+            ARG2: x29 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<44:52>
+            LBL: h31
+            ARG0: x29
+            RSTR: h32
+            BODY: h33 ]
+          [ _match_v_1<44:52>
+            LBL: h34
+            ARG0: e35 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i36 ]
+          [ nominalization<44:52>
+            LBL: h37
+            ARG0: x29
+            ARG1: h34 ]
+          [ _plan_n_1<53:59>
+            LBL: h28
+            ARG0: x24 ] >
+   HCONS: < h32 QEQ h37 h27 QEQ h28 h19 QEQ h21 h13 QEQ h15 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:3>[BV x5]
+ e9:card<0:3>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e11:compound<4:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ _2:udef_q<4:23>[BV x10]
+ e17:compound<4:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x16]
+ _3:udef_q<4:12>[BV x16]
+ x16:_election_n_of-for<4:12>{x}[]
+ x10:_commission_n_of<13:23>{x}[]
+ x5:_member_n_of<24:31>{x PERS 3, NUM pl, IND +}[]
+ e3:_oppose_v_1<32:39>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x24]
+ _4:_the_q<40:43>[BV x24]
+ e30:compound<44:59>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x24, ARG2 x29]
+ _5:udef_q<44:52>[BV x29]
+ e35:_match_v_1<44:52>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x29:nominalization<44:52>{x PERS 3, NUM sg, GEND n}[ARG1 e35]
+ x24:_plan_n_1<53:59>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:3> BV _member_n_of<24:31>  
+  card<0:3>(2) ARG1 _member_n_of<24:31>  
+  compound<4:31> ARG1 _member_n_of<24:31>  
+  compound<4:31> ARG2 _commission_n_of<13:23>  
+  udef_q<4:23> BV _commission_n_of<13:23>  
+  compound<4:23> ARG1 _commission_n_of<13:23>  
+  compound<4:23> ARG2 _election_n_of-for<4:12>  
+  udef_q<4:12> BV _election_n_of-for<4:12>  
+  _oppose_v_1<32:39> ARG1 _member_n_of<24:31>  
+  _oppose_v_1<32:39> ARG2 _plan_n_1<53:59>  
+  _the_q<40:43> BV _plan_n_1<53:59>  
+  compound<44:59> ARG1 _plan_n_1<53:59>  
+  compound<44:59> ARG2 nominalization<44:52>  
+  udef_q<44:52> BV nominalization<44:52>  
+  nominalization<44:52> ARG1 _match_v_1<44:52>  
+  card<0:3>(2) SF prop  
+  card<0:3>(2) TENSE untensed  
+  card<0:3>(2) MOOD indicative  
+  card<0:3>(2) PROG -  
+  card<0:3>(2) PERF -  
+  compound<4:31> SF prop  
+  compound<4:31> TENSE untensed  
+  compound<4:31> MOOD indicative  
+  compound<4:31> PROG -  
+  compound<4:31> PERF -  
+  compound<4:23> SF prop  
+  compound<4:23> TENSE untensed  
+  compound<4:23> MOOD indicative  
+  compound<4:23> PROG -  
+  compound<4:23> PERF -  
+  _member_n_of<24:31> PERS 3  
+  _member_n_of<24:31> NUM pl  
+  _member_n_of<24:31> IND +  
+  _oppose_v_1<32:39> SF prop  
+  _oppose_v_1<32:39> TENSE past  
+  _oppose_v_1<32:39> MOOD indicative  
+  _oppose_v_1<32:39> PROG -  
+  _oppose_v_1<32:39> PERF -  
+  compound<44:59> SF prop  
+  compound<44:59> TENSE untensed  
+  compound<44:59> MOOD indicative  
+  compound<44:59> PROG -  
+  compound<44:59> PERF -  
+  _match_v_1<44:52> SF prop  
+  _match_v_1<44:52> TENSE untensed  
+  _match_v_1<44:52> MOOD indicative  
+  _match_v_1<44:52> PROG +  
+  _match_v_1<44:52> PERF -  
+  nominalization<44:52> PERS 3  
+  nominalization<44:52> NUM sg  
+  nominalization<44:52> GEND n  
+  _plan_n_1<53:59> PERS 3  
+  _plan_n_1<53:59> NUM pl  
+  _plan_n_1<53:59> IND +  
+}
+

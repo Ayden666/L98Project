@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:22 h)).
+;;;
+
+[21844047] (1 of 1) {1} `Earthquake's Damage'
+
+[21844047:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Earthquake", 0, "null", "NN" 0.836 "NNP" 0.164)
+  (2, 1, 2, <10:12>, 1, "’s", 0, "null", "NNS" 0.571 "JJ" 0.1796 "VBZ" 0.132 "NN" 0.0938 "IN" 0.0236)
+  (3, 2, 3, <13:19>, 1, "Damage", 0, "null", "NN" 1.0)
+>
+
+<
+  (46, 0, 1, <0:10>, 1, "Earthquake", 0, "null")
+  (52, 0, 1, <0:10>, 1, "earthquake", 0, "null")
+  (55, 0, 1, <0:10>, 1, "earthquake", 0, "null")
+  (44, 1, 2, <10:12>, 1, "’s", 0, "null")
+  (47, 1, 2, <10:12>, 1, "’s", 0, "null", "NNS" 0.571)
+  (48, 1, 2, <10:12>, 1, "’s", 0, "null", "JJ" 0.1796)
+  (49, 1, 2, <10:12>, 1, "’s", 0, "null", "VBZ" 0.132)
+  (54, 1, 2, <10:12>, 1, "’s", 0, "null")
+  (29, 2, 3, <13:19>, 1, "Damage", 0, "null")
+  (50, 2, 3, <13:19>, 1, "Damage", 0, "null", "NN" 1.0)
+  (51, 2, 3, <13:19>, 1, "damage", 0, "null")
+  (53, 2, 3, <13:19>, 1, "damage", 0, "null")
+>
+
+(ROOT_FRAG
+ (556 NP_FRG_C -0.327297 0 3
+  (555 SP-HD_N_C 0.679611 0 3
+   (552 SP-HD_HC_C 0.875835 0 2
+    (551 HDN_BNP-PN_C 0.09912 0 1
+     (550 N_SG_ILR -0.515712 0 1
+      (57 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Earthquake" 46
+        "token [ +CARG #1=\"Earthquake\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83600319999999995\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (62 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 1 2
+     ("’s" 44
+      "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.57098939999999998\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (554 ^HDN_OPTCMP_C -0.16607 2 3
+    (553 N_MS_ILR 0.242312 2 3
+     (323 damage_n1@n_pp_m_le 0.486387 2 3
+      ("damage" 51
+       "token [ +CARG \"Damage\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"damage\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (NP (DET (NP (N (N "Earthquake"))) (DET "’s")) (N (N (N "damage")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ proper_q<0:10>
+            LBL: h5
+            ARG0: x7 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h6
+            BODY: h8 ]
+          [ named<0:10>
+            LBL: h9
+            ARG0: x7
+            CARG: "Earthquake" ]
+          [ def_explicit_q<10:12>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ poss<10:12>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x7 ]
+          [ _damage_n_to<13:19>
+            LBL: h13
+            ARG0: x4
+            ARG1: i15 ] >
+   HCONS: < h11 QEQ h13 h6 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:10>[BV x7]
+ x7:named<0:10>("Earthquake"){x PERS 3, NUM sg, IND +}[]
+ _2:def_explicit_q<10:12>[BV x4]
+ e14:poss<10:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x7]
+ x4:_damage_n_to<13:19>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  unknown<0:19> ARG _damage_n_to<13:19>  
+  proper_q<0:10> BV named<0:10>(Earthquake)  
+  def_explicit_q<10:12> BV _damage_n_to<13:19>  
+  poss<10:12> ARG1 _damage_n_to<13:19>  
+  poss<10:12> ARG2 named<0:10>(Earthquake)  
+  unknown<0:19> SF prop-or-ques  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  named<0:10>(Earthquake) PERS 3  
+  named<0:10>(Earthquake) NUM sg  
+  named<0:10>(Earthquake) IND +  
+  poss<10:12> SF prop  
+  poss<10:12> TENSE untensed  
+  poss<10:12> MOOD indicative  
+  poss<10:12> PROG -  
+  poss<10:12> PERF -  
+  _damage_n_to<13:19> PERS 3  
+  _damage_n_to<13:19> NUM sg  
+  _damage_n_to<13:19> GEND n  
+  _damage_n_to<13:19> IND -  
+}
+

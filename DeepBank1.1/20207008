@@ -1,0 +1,264 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (11:56 h)).
+;;;
+
+[20207008] (1 of 1) {1} `He believes in what he plays, and he plays superbly.'
+
+[20207008:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:11>, 1, "believes", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <12:14>, 1, "in", 0, "null", "IN" 0.9459 "RP" 0.0375 "RB" 0.0166)
+  (4, 3, 4, <15:19>, 1, "what", 0, "null", "WP" 0.949 "WDT" 0.051)
+  (5, 4, 5, <20:22>, 1, "he", 0, "null", "PRP" 1.0)
+  (6, 5, 6, <23:28>, 1, "plays", 0, "null", "VBZ" 0.9603 "NNS" 0.0397)
+  (7, 6, 7, <28:29>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <30:33>, 1, "and", 0, "null", "CC" 1.0)
+  (9, 8, 9, <34:36>, 1, "he", 0, "null", "PRP" 1.0)
+  (10, 9, 10, <37:42>, 1, "plays", 0, "null", "VBZ" 1.0)
+  (11, 10, 11, <43:51>, 1, "superbly", 0, "null", "RB" 1.0)
+  (12, 11, 12, <51:52>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (143, 0, 1, <0:2>, 1, "he", 0, "null")
+  (153, 0, 1, <0:2>, 1, "he", 0, "null")
+  (122, 1, 2, <3:11>, 1, "believes", 0, "null")
+  (140, 1, 2, <3:11>, 1, "believes", 0, "null", "VBZ" 1.0)
+  (144, 1, 2, <3:11>, 1, "believes", 0, "null")
+  (133, 2, 3, <12:14>, 1, "in", 0, "null")
+  (150, 2, 3, <12:14>, 1, "in", 0, "null")
+  (134, 3, 4, <15:19>, 1, "what", 0, "null")
+  (151, 3, 4, <15:19>, 1, "what", 0, "null")
+  (124, 4, 5, <20:22>, 1, "he", 0, "null")
+  (145, 4, 5, <20:22>, 1, "he", 0, "null")
+  (136, 5, 6, <23:29>, 1, "plays,", 0, "null")
+  (139, 5, 6, <23:29>, 1, "plays,", 0, "null", "VBZ" 0.9603)
+  (152, 5, 6, <23:29>, 1, "plays,", 0, "null")
+  (126, 6, 7, <30:33>, 1, "and", 0, "null")
+  (146, 6, 7, <30:33>, 1, "and", 0, "null")
+  (128, 7, 8, <34:36>, 1, "he", 0, "null")
+  (147, 7, 8, <34:36>, 1, "he", 0, "null")
+  (130, 8, 9, <37:42>, 1, "plays", 0, "null")
+  (141, 8, 9, <37:42>, 1, "plays", 0, "null", "VBZ" 1.0)
+  (148, 8, 9, <37:42>, 1, "plays", 0, "null")
+  (132, 9, 10, <43:52>, 1, "superbly.", 0, "null")
+  (142, 9, 10, <43:52>, 1, "superbly.", 0, "null", "RB" 1.0)
+  (149, 9, 10, <43:52>, 1, "superbly.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1723 CL-CL_CRD-T_C 11.4821 0 10
+  (1715 SB-HD_MC_C 8.20824 0 6
+   (1702 HDN_BNP-QNT_C 0.806804 0 1
+    (154 he@n_-_pr-he_le 0.589291 0 1
+     ("he" 143
+      "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1714 ^HD-CMP_U_C 6.67182 1 6
+    (1703 ^V_3S-FIN_OLR 0.703372 1 2
+     (175 believe_in_v1@v_pp_e_le 0 1 2
+      ("believes" 122
+       "token [ +CARG #1=\"believes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1713 HD-CMP_U_C 4.81567 2 6
+     (220 in_prtcl@p_np_ptcl_le 0.145478 2 3
+      ("in" 133
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94586130000000002\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1712 CL_NP-WH_C 3.45448 3 6
+      (1711 FLR-HD_WH-NMC-FIN_C 3.68504 3 6
+       (1705 HDN_BNP-QNT_C 1.32343 3 4
+        (1704 HDN_OPTCMP_C 1.70476 3 4
+         (263 what1@n_-_pr-wh_le 0.858054 3 4
+          ("what" 134
+           "token [ +CARG #1=\"what\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94902719999999996\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (1710 ^SB-HD_NMC_C 1.5085 4 6
+        (1706 HDN_BNP-QNT_C 0.115656 4 5
+         (275 he@n_-_pr-he_le 0.151439 4 5
+          ("he" 124
+           "token [ +CARG #1=\"he\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (1709 ^HD_XCMP_C 1.17206 5 6
+         (1708 W_COMMA_PLR -0.0508512 5 6
+          (1707 V_3S-FIN_OLR -0.590507 5 6
+           (309 play_v1@v_np*_le 0 5 6
+            ("plays," 136
+             "token [ +CARG \"plays\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"plays,\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96030450000000001\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+  (1722 ^MRK-NH_CL_C 2.56611 6 10
+   (352 and_conj@c_xp_and_le -0.677699 6 7
+    ("and" 126
+     "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1721 SB-HD_MC_C 2.61839 7 10
+    (1716 HDN_BNP-QNT_C 1.35919 7 8
+     (368 he@n_-_pr-he_le 0.589291 7 8
+      ("he" 128
+       "token [ +CARG #1=\"he\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1720 ^HD-AJ_INT-UNSL_C 0.79581 8 10
+     (1718 ^HD_OPTCMP_C -0.0336744 8 9
+      (1717 V_3S-FIN_OLR -0.450989 8 9
+       (394 play_v1@v_np*_le 0 8 9
+        ("plays" 130
+         "token [ +CARG #1=\"plays\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1719 W_PERIOD_PLR 0.601349 9 10
+      (408 superbly_adv1@av_-_i-vp_le 0 9 10
+       ("superbly." 132
+        "token [ +CARG \"superbly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"superbly.\" +FROM #1=\"43\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S (NP (NP "he"))
+  (VP (V (V "believes"))
+   (PP (P "in")
+    (NP
+     (S (NP (N (N "what")))
+      (S/NP (NP (NP "he")) (VP/NP (V/NP (V/NP (V/NP "plays,"))))))))))
+ (S (CONJ "and")
+  (S (NP (NP "he")) (VP (VP (V (V "plays"))) (ADV (ADV "superbly."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _believe_v_in<3:11>
+            LBL: h9
+            ARG0: e10 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x11 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<15:29>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ nominalization<15:29>
+            LBL: h15
+            ARG0: x11
+            ARG1: h16 ]
+          [ thing<15:19>
+            LBL: h17
+            ARG0: x18 ]
+          [ which_q<15:19>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ pron<20:22>
+            LBL: h22
+            ARG0: x23 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<20:22>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ _play_v_1<23:29>
+            LBL: h16
+            ARG0: e27 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            ARG2: x18 ]
+          [ _and_c<30:33>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h28
+            L-INDEX: e10
+            R-HNDL: h29
+            R-INDEX: e30 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ pron<34:36>
+            LBL: h31
+            ARG0: x32 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<34:36>
+            LBL: h33
+            ARG0: x32
+            RSTR: h34
+            BODY: h35 ]
+          [ _play_v_1<37:42>
+            LBL: h36
+            ARG0: e30
+            ARG1: x32
+            ARG2: p37 ]
+          [ _superb_a_1<43:52>
+            LBL: h36
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e30 ] >
+   HCONS: < h34 QEQ h31 h29 QEQ h36 h25 QEQ h22 h20 QEQ h17 h13 QEQ h15 h7 QEQ h4 h28 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e10:_believe_v_in-fn.Religious_belief<3:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x11]
+ _2:udef_q<15:29>[BV x11]
+ x11:nominalization<15:29>{x PERS 3, NUM sg}[ARG1 e27]
+ x18:thing<15:19>{x}[]
+ _3:which_q<15:19>[BV x18]
+ x23:pron<20:22>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _4:pronoun_q<20:22>[BV x23]
+ e27:_play_v_1<23:29>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x23, ARG2 x18]
+ e3:_and_c<30:33>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[L-HNDL e10, L-INDEX e10, R-HNDL e30, R-INDEX e30]
+ x32:pron<34:36>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _5:pronoun_q<34:36>[BV x32]
+ e30:_play_v_1<37:42>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x32]
+ e38:_superb_a_1<43:52>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e30]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _believe_v_in<3:11> ARG1 pron<0:2>  
+  _believe_v_in<3:11> ARG2 nominalization<15:29>  
+  udef_q<15:29> BV nominalization<15:29>  
+  nominalization<15:29> ARG1 _play_v_1<23:29>  
+  which_q<15:19> BV thing<15:19>  
+  pronoun_q<20:22> BV pron<20:22>  
+  _play_v_1<23:29> ARG1 pron<20:22>  
+  _play_v_1<23:29> ARG2 thing<15:19>  
+  _and_c<30:33> L-HNDL _believe_v_in<3:11>  
+  _and_c<30:33> L-INDEX _believe_v_in<3:11>  
+  _and_c<30:33> R-HNDL _play_v_1<37:42>  
+  _and_c<30:33> R-INDEX _play_v_1<37:42>  
+  pronoun_q<34:36> BV pron<34:36>  
+  _play_v_1<37:42> ARG1 pron<34:36>  
+  _superb_a_1<43:52> ARG1 _play_v_1<37:42>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _believe_v_in<3:11> SF prop  
+  _believe_v_in<3:11> TENSE pres  
+  _believe_v_in<3:11> MOOD indicative  
+  _believe_v_in<3:11> PROG -  
+  _believe_v_in<3:11> PERF -  
+  nominalization<15:29> PERS 3  
+  nominalization<15:29> NUM sg  
+  pron<20:22> PERS 3  
+  pron<20:22> NUM sg  
+  pron<20:22> GEND m  
+  pron<20:22> PT std  
+  _play_v_1<23:29> SF ques  
+  _play_v_1<23:29> TENSE pres  
+  _play_v_1<23:29> MOOD indicative  
+  _play_v_1<23:29> PROG -  
+  _play_v_1<23:29> PERF -  
+  _and_c<30:33> SF prop  
+  _and_c<30:33> TENSE pres  
+  _and_c<30:33> MOOD indicative  
+  _and_c<30:33> PROG -  
+  _and_c<30:33> PERF -  
+  pron<34:36> PERS 3  
+  pron<34:36> NUM sg  
+  pron<34:36> GEND m  
+  pron<34:36> PT std  
+  _play_v_1<37:42> SF prop  
+  _play_v_1<37:42> TENSE pres  
+  _play_v_1<37:42> MOOD indicative  
+  _play_v_1<37:42> PROG -  
+  _play_v_1<37:42> PERF -  
+  _superb_a_1<43:52> SF prop  
+  _superb_a_1<43:52> TENSE untensed  
+  _superb_a_1<43:52> MOOD indicative  
+  _superb_a_1<43:52> PROG -  
+  _superb_a_1<43:52> PERF -  
+}
+

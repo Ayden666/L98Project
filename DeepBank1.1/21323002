@@ -1,0 +1,68 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:05 h)).
+;;;
+
+[21323002] (1 of 1) {1} `damn!'
+
+[21323002:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "damn", 0, "null", "RB" 0.4619 "UH" 0.3058 "NN" 0.1746 "JJ" 0.0577)
+  (2, 1, 2, <4:5>, 1, "!", 0, "null", "." 1.0)
+>
+
+<
+  (26, 0, 1, <0:5>, 1, "damn!", 0, "null")
+  (28, 0, 1, <0:5>, 1, "damn!", 0, "null", "RB" 0.4619)
+  (29, 0, 1, <0:5>, 1, "damn!", 0, "null", "NN" 0.1746)
+  (30, 0, 1, <0:5>, 1, "damn!", 0, "null")
+>
+
+(ROOT_FRAG
+ (92 NP_NB-FRG_C -0.230708 0 1
+  (91 W_BANG_PLR -0.230708 0 1
+   (90 N_SG_ILR -0.230708 0 1
+    (38 damn_n1@n_-_c_le 0 0 1
+     ("damn!" 26
+      "token [ +CARG \"damn\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM \"damn!\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.4619489\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (N (N (N "damn!"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:5>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _damn_n_1<0:5>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:5>[BV x4]
+ x4:_damn_n_1<0:5>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:5> ARG _damn_n_1<0:5>  
+  udef_q<0:5> BV _damn_n_1<0:5>  
+  unknown<0:5> SF prop  
+  unknown<0:5> TENSE untensed  
+  unknown<0:5> MOOD indicative  
+  unknown<0:5> PROG -  
+  unknown<0:5> PERF -  
+  _damn_n_1<0:5> PERS 3  
+  _damn_n_1<0:5> NUM sg  
+  _damn_n_1<0:5> IND +  
+}
+

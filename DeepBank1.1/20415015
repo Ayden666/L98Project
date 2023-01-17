@@ -1,0 +1,154 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:49 h)).
+;;;
+
+[20415015] (1 of 1) {1} `Capital flight is reported to be strong.'
+
+[20415015:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Capital", 0, "null", "NNP" 0.9429 "NN" 0.0571)
+  (2, 1, 2, <8:14>, 1, "flight", 0, "null", "NN" 1.0)
+  (3, 2, 3, <15:17>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <18:26>, 1, "reported", 0, "null", "VBN" 0.9512 "VBD" 0.0488)
+  (5, 4, 5, <27:29>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <30:32>, 1, "be", 0, "null", "VB" 1.0)
+  (7, 6, 7, <33:39>, 1, "strong", 0, "null", "JJ" 0.9841 "RB" 0.0159)
+  (8, 7, 8, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (94, 0, 1, <0:7>, 1, "Capital", 0, "null")
+  (100, 0, 1, <0:7>, 1, "capital", 0, "null")
+  (107, 0, 1, <0:7>, 1, "capital", 0, "null")
+  (81, 1, 2, <8:14>, 1, "flight", 0, "null")
+  (97, 1, 2, <8:14>, 1, "flight", 0, "null", "NN" 1.0)
+  (101, 1, 2, <8:14>, 1, "flight", 0, "null")
+  (83, 2, 3, <15:17>, 1, "is", 0, "null")
+  (98, 2, 3, <15:17>, 1, "is", 0, "null", "VBZ" 1.0)
+  (102, 2, 3, <15:17>, 1, "is", 0, "null")
+  (90, 3, 4, <18:26>, 1, "reported", 0, "null")
+  (95, 3, 4, <18:26>, 1, "reported", 0, "null", "VBN" 0.9512)
+  (105, 3, 4, <18:26>, 1, "reported", 0, "null")
+  (85, 4, 5, <27:29>, 1, "to", 0, "null")
+  (103, 4, 5, <27:29>, 1, "to", 0, "null")
+  (87, 5, 6, <30:32>, 1, "be", 0, "null")
+  (99, 5, 6, <30:32>, 1, "be", 0, "null", "VB" 1.0)
+  (104, 5, 6, <30:32>, 1, "be", 0, "null")
+  (92, 6, 7, <33:40>, 1, "strong.", 0, "null")
+  (96, 6, 7, <33:40>, 1, "strong.", 0, "null", "JJ" 0.9841)
+  (106, 6, 7, <33:40>, 1, "strong.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2993 SB-HD_MC_C 12.3389 0 7
+  (2992 HDN_BNP_C 0.238741 0 2
+   (2991 AJ-HDN_NORM_C -0.495759 0 2
+    (109 capital_a1@aj_-_i_le -0.374186 0 1
+     ("capital" 100
+      "token [ +CARG \"Capital\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"capital\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94287209999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2980 ^N_MS-CNT_ILR 0.181651 1 2
+     (111 flight_n1@n_-_mc_le 0 1 2
+      ("flight" 81
+       "token [ +CARG #1=\"flight\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2989 ^HD-CMP_U_C 10.5842 2 7
+   (158 be_c_is@v_prd_is_le 1.47611 2 3
+    ("is" 83
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2988 HD-CMP_U_C 8.49001 3 7
+    (2984 ^HD_OPTCMP_C 0.851069 3 4
+     (2983 V_PAS_ODLR 0.573226 3 4
+      (283 report_v8@v_np-vp_sor_le 0 3 4
+       ("reported" 90
+        "token [ +CARG #1=\"reported\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95121679999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2987 HD-CMP_U_C 6.21862 4 7
+     (515 to_c_prop@cm_vp_to_le 0.685248 4 5
+      ("to" 85
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2986 HD-CMP_U_C 2.47626 5 7
+      (567 be_c_be@v_prd_be_le -0.276299 5 6
+       ("be" 87
+        "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2985 W_PERIOD_PLR 0.754058 6 7
+       (587 strong_a1@aj_-_i-er_le 0 6 7
+        ("strong." 92
+         "token [ +CARG \"strong\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"strong.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98412900000000003\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (AP "capital") (N (N "flight"))))
+ (VP (V "is")
+  (VP (V (V (V "reported")))
+   (VP (COMP "to") (VP (V "be") (AP (AP "strong.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _capital_a_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _flight_n_1<8:14>
+            LBL: h8
+            ARG0: x6 ]
+          [ _report_v_to<18:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: i10
+            ARG2: h11 ]
+          [ parg_d<18:26>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _strong_a_1<33:40>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:14>[BV x6]
+ e9:_capital_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_flight_n_1<8:14>{x PERS 3, NUM sg}[]
+ e3:_report_v_to-fn.Statement<18:26>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2-fn.Message e14]
+ e12:parg_d<18:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e14:_strong_a_1<33:40>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:14> BV _flight_n_1<8:14>  
+  _capital_a_1<0:7> ARG1 _flight_n_1<8:14>  
+  _report_v_to<18:26> ARG2 _strong_a_1<33:40>  
+  parg_d<18:26> ARG1 _report_v_to<18:26>  
+  parg_d<18:26> ARG2 _flight_n_1<8:14>  
+  _strong_a_1<33:40> ARG1 _flight_n_1<8:14>  
+  _capital_a_1<0:7> SF prop  
+  _capital_a_1<0:7> TENSE untensed  
+  _capital_a_1<0:7> MOOD indicative  
+  _capital_a_1<0:7> PROG -  
+  _capital_a_1<0:7> PERF -  
+  _flight_n_1<8:14> PERS 3  
+  _flight_n_1<8:14> NUM sg  
+  _report_v_to<18:26> SF prop  
+  _report_v_to<18:26> TENSE pres  
+  _report_v_to<18:26> MOOD indicative  
+  _report_v_to<18:26> PROG -  
+  _report_v_to<18:26> PERF -  
+  parg_d<18:26> SF prop  
+  parg_d<18:26> TENSE untensed  
+  parg_d<18:26> MOOD indicative  
+  parg_d<18:26> PROG -  
+  parg_d<18:26> PERF -  
+  _strong_a_1<33:40> SF prop-or-ques  
+  _strong_a_1<33:40> TENSE untensed  
+  _strong_a_1<33:40> MOOD indicative  
+  _strong_a_1<33:40> PROG -  
+  _strong_a_1<33:40> PERF -  
+}
+

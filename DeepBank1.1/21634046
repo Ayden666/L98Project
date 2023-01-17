@@ -1,0 +1,163 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:20 h)).
+;;;
+
+[21634046] (1 of 1) {1} `Barbra Streisand made him famous.'
+
+[21634046:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Barbra", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:16>, 1, "Streisand", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <17:21>, 1, "made", 0, "null", "VBD" 0.9879 "VBN" 0.0121)
+  (4, 3, 4, <22:25>, 1, "him", 0, "null", "PRP" 1.0)
+  (5, 4, 5, <26:32>, 1, "famous", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:6>, 1, "Barbra", 0, "null")
+  (75, 0, 1, <0:6>, 1, "barbra", 0, "null")
+  (80, 0, 1, <0:6>, 1, "barbra", 0, "null")
+  (56, 1, 2, <7:16>, 1, "Streisand", 0, "null")
+  (72, 1, 2, <7:16>, 1, "Streisand", 0, "null", "NNP" 1.0)
+  (74, 1, 2, <7:16>, 1, "streisand", 0, "null")
+  (76, 1, 2, <7:16>, 1, "streisand", 0, "null")
+  (68, 2, 3, <17:21>, 1, "made", 0, "null")
+  (71, 2, 3, <17:21>, 1, "made", 0, "null", "VBD" 0.9879)
+  (79, 2, 3, <17:21>, 1, "made", 0, "null")
+  (65, 3, 4, <22:25>, 1, "him", 0, "null")
+  (77, 3, 4, <22:25>, 1, "him", 0, "null")
+  (67, 4, 5, <26:33>, 1, "famous.", 0, "null")
+  (73, 4, 5, <26:33>, 1, "famous.", 0, "null", "JJ" 1.0)
+  (78, 4, 5, <26:33>, 1, "famous.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1195 SB-HD_MC_C 7.3483 0 5
+  (1188 HDN_BNP-PN_C 2.07956 0 2
+   (1187 NP-HDN_NME-CPD_C 1.53984 0 2
+    (1185 HDN_BNP-PN_C 0.365523 0 1
+     (1184 N_SG_ILR -0.386912 0 1
+      (82 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Barbra" 70
+        "token [ +CARG #1=\"Barbra\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (1186 ^N_SG_ILR -0.143257 1 2
+     (83 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Streisand" 56
+       "token [ +CARG #1=\"Streisand\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1194 ^HD-CMP_U_C 4.25169 2 5
+   (1191 ^HD-CMP_U_C 2.8517 2 4
+    (1189 ^V_PST_OLR 0.552502 2 3
+     (129 make_v4@v_np-prd_sor_le 1.02061 2 3
+      ("made" 68
+       "token [ +CARG #1=\"made\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9878576\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1190 HDN_BNP-QNT_C 1.24766 3 4
+     (261 him@n_-_pr-him_le 0.298524 3 4
+      ("him" 65
+       "token [ +CARG #1=\"him\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1193 HD_OPTCMP_C 0.658328 4 5
+    (1192 W_PERIOD_PLR 0.506901 4 5
+     (265 famous_a1@aj_pp_i_le 0 4 5
+      ("famous." 67
+       "token [ +CARG \"famous\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"famous.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (NP (N (N "Barbra"))) (N (N "Streisand"))))
+ (VP (V (V (V "made")) (NP (NP "him"))) (AP (ADJ (ADJ "famous.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Barbra" ]
+          [ named<7:16>
+            LBL: h8
+            ARG0: x6
+            CARG: "Streisand" ]
+          [ _make_v_cause<17:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h15 ]
+          [ pron<22:25>
+            LBL: h16
+            ARG0: x17 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<22:25>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ _famous_a_for<26:33>
+            LBL: h21
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            ARG2: i23 ] >
+   HCONS: < h19 QEQ h16 h15 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Barbra"){x PERS 3, NUM sg, IND +}[]
+ x6:named<7:16>("Streisand"){x PERS 3, NUM sg, IND +}[]
+ e3:_make_v_cause<17:21>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e22]
+ x17:pron<22:25>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _3:pronoun_q<22:25>[BV x17]
+ e22:_famous_a_for<26:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+}
+
+{
+  proper_q<0:16> BV named<7:16>(Streisand)  
+  compound<0:16> ARG1 named<7:16>(Streisand)  
+  compound<0:16> ARG2 named<0:6>(Barbra)  
+  proper_q<0:6> BV named<0:6>(Barbra)  
+  _make_v_cause<17:21> ARG1 named<7:16>(Streisand)  
+  _make_v_cause<17:21> ARG2 _famous_a_for<26:33>  
+  pronoun_q<22:25> BV pron<22:25>  
+  _famous_a_for<26:33> ARG1 pron<22:25>  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:6>(Barbra) PERS 3  
+  named<0:6>(Barbra) NUM sg  
+  named<0:6>(Barbra) IND +  
+  named<7:16>(Streisand) PERS 3  
+  named<7:16>(Streisand) NUM sg  
+  named<7:16>(Streisand) IND +  
+  _make_v_cause<17:21> SF prop  
+  _make_v_cause<17:21> TENSE past  
+  _make_v_cause<17:21> MOOD indicative  
+  _make_v_cause<17:21> PROG -  
+  _make_v_cause<17:21> PERF -  
+  pron<22:25> PERS 3  
+  pron<22:25> NUM sg  
+  pron<22:25> GEND m  
+  pron<22:25> PT std  
+  _famous_a_for<26:33> SF prop  
+  _famous_a_for<26:33> TENSE untensed  
+  _famous_a_for<26:33> MOOD indicative  
+  _famous_a_for<26:33> PROG -  
+  _famous_a_for<26:33> PERF -  
+}
+

@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:39 h)).
+;;;
+
+[21376019] (1 of 1) {1} `Liza said hello to me."'
+
+[21376019:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Liza", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:9>, 1, "said", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <10:15>, 1, "hello", 0, "null", "UH" 1.0)
+  (4, 3, 4, <16:18>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <19:21>, 1, "me", 0, "null", "PRP" 1.0)
+  (6, 5, 6, <21:22>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <22:23>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (76, 0, 1, <0:4>, 1, "Liza", 0, "null")
+  (78, 0, 1, <0:4>, 1, "liza", 0, "null")
+  (83, 0, 1, <0:4>, 1, "liza", 0, "null")
+  (69, 1, 2, <5:9>, 1, "said", 0, "null")
+  (77, 1, 2, <5:9>, 1, "said", 0, "null", "VBD" 1.0)
+  (79, 1, 2, <5:9>, 1, "said", 0, "null")
+  (71, 2, 3, <10:15>, 1, "hello", 0, "null")
+  (80, 2, 3, <10:15>, 1, "hello", 0, "null")
+  (73, 3, 4, <16:18>, 1, "to", 0, "null")
+  (81, 3, 4, <16:18>, 1, "to", 0, "null")
+  (75, 4, 5, <19:23>, 1, "me.”", 0, "null")
+  (82, 4, 5, <19:23>, 1, "me.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (1054 SB-HD_MC_C 3.83705 0 5
+  (1044 HDN_BNP-PN_C 0.489307 0 1
+   (1043 N_SG_ILR 0.538263 0 1
+    (85 liza_n1@n_-_pn_le 0 0 1
+     ("liza" 78
+      "token [ +CARG \"Liza\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"liza\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1053 ^HD-AJ_INT-UNSL_C 2.86024 1 5
+   (1048 ^HD-CMP_U_C 0.631779 1 3
+    (1045 ^V_PST_OLR 0.289646 1 2
+     (121 say_v1@v_np*_le -0.865559 1 2
+      ("said" 69
+       "token [ +CARG #1=\"said\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1047 HDN_BNP_C -0.591022 2 3
+     (1046 N_MS-CNT_ILR 0.084539 2 3
+      (322 hello_n1@n_-_mc_le 0 2 3
+       ("hello" 71
+        "token [ +CARG #1=\"hello\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (1052 HD-CMP_U_C 1.09462 3 5
+    (349 to@p_np_i-nnm_le -1.63041 3 4
+     ("to" 73
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1051 HDN_BNP-QNT_C 2.70996 4 5
+     (1050 W_DQRIGHT_PLR 2.25607 4 5
+      (1049 W_PERIOD_PLR 0 4 5
+       (402 me@n_-_pr-me_le 0 4 5
+        ("me.”" 75
+         "token [ +CARG \"me\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"me.”\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "liza")))
+ (VP (VP (V (V "said")) (NP (N (N "hello"))))
+  (PP (P "to") (NP (NP (NP (NP "me.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:4>
+            LBL: h8
+            ARG0: x6
+            CARG: "Liza" ]
+          [ _say_v_1<5:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<10:15>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _hello_n_1<10:15>
+            LBL: h13
+            ARG0: x9 ]
+          [ _to_p<16:18>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x15 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pron<19:23>
+            LBL: h16
+            ARG0: x15 ]
+          [ pronoun_q<19:23>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ] >
+   HCONS: < h18 QEQ h16 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:4>[BV x6]
+ x6:named<0:4>("Liza"){x PERS 3, NUM sg, IND +}[]
+ e3:_say_v_1<5:9>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<10:15>[BV x9]
+ x9:_hello_n_1<10:15>{x PERS 3, NUM sg}[]
+ e14:_to_p<16:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x15]
+ x15:pron<19:23>{x PERS 1, NUM sg, PT std}[]
+ _3:pronoun_q<19:23>[BV x15]
+}
+
+{
+  proper_q<0:4> BV named<0:4>(Liza)  
+  _say_v_1<5:9> ARG1 named<0:4>(Liza)  
+  _say_v_1<5:9> ARG2 _hello_n_1<10:15>  
+  udef_q<10:15> BV _hello_n_1<10:15>  
+  _to_p<16:18> ARG1 _say_v_1<5:9>  
+  _to_p<16:18> ARG2 pron<19:23>  
+  pronoun_q<19:23> BV pron<19:23>  
+  named<0:4>(Liza) PERS 3  
+  named<0:4>(Liza) NUM sg  
+  named<0:4>(Liza) IND +  
+  _say_v_1<5:9> SF prop  
+  _say_v_1<5:9> TENSE past  
+  _say_v_1<5:9> MOOD indicative  
+  _say_v_1<5:9> PROG -  
+  _say_v_1<5:9> PERF -  
+  _hello_n_1<10:15> PERS 3  
+  _hello_n_1<10:15> NUM sg  
+  _to_p<16:18> SF prop  
+  _to_p<16:18> TENSE untensed  
+  _to_p<16:18> MOOD indicative  
+  _to_p<16:18> PROG -  
+  _to_p<16:18> PERF -  
+  pron<19:23> PERS 1  
+  pron<19:23> NUM sg  
+  pron<19:23> PT std  
+}
+

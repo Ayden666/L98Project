@@ -1,0 +1,151 @@
+;;;
+;;; Redwoods export of `wsj10d';
+;;; (wsun@wsun; 22-jan-2018 (19:50 h)).
+;;;
+
+[21078004] (1 of 1) {1} `"But that partner isn't Fiat."'
+
+[21078004:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:4>, 1, "But", 0, "null", "CC" 1.0)
+  (3, 2, 3, <5:9>, 1, "that", 0, "null", "DT" 0.7718 "IN" 0.1948 "WDT" 0.0334)
+  (4, 3, 4, <10:17>, 1, "partner", 0, "null", "NN" 1.0)
+  (5, 4, 5, <18:20>, 1, "is", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <20:23>, 1, "n’t", 0, "null", "JJ" 0.6557 "NN" 0.1724 "VBN" 0.0523 "JJS" 0.0286 "RB" 0.0282 "VB" 0.0267 "NNP" 0.0256 "IN" 0.0104)
+  (7, 6, 7, <24:28>, 1, "Fiat", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <28:29>, 1, ".", 0, "null", "." 1.0)
+  (9, 8, 9, <29:30>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (102, 0, 1, <0:4>, 1, "“but", 0, "null")
+  (109, 0, 1, <0:4>, 1, "“but", 0, "null")
+  (97, 1, 2, <5:9>, 1, "that", 0, "null")
+  (107, 1, 2, <5:9>, 1, "that", 0, "null")
+  (90, 2, 3, <10:17>, 1, "partner", 0, "null")
+  (99, 2, 3, <10:17>, 1, "partner", 0, "null", "NN" 1.0)
+  (105, 2, 3, <10:17>, 1, "partner", 0, "null")
+  (92, 3, 4, <18:23>, 1, "isn’t", 0, "null")
+  (100, 3, 4, <18:23>, 1, "isn’t", 0, "null", "VBZ" 1.0)
+  (106, 3, 4, <18:23>, 1, "isn’t", 0, "null")
+  (84, 4, 5, <24:30>, 1, "Fiat.”", 0, "null")
+  (101, 4, 5, <24:30>, 1, "Fiat.”", 0, "null", "NNP" 1.0)
+  (103, 4, 5, <24:30>, 1, "fiat.”", 0, "null")
+  (104, 4, 5, <24:30>, 1, "fiat.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (716 CL_CNJ-FRG_C 5.86336 0 5
+  (715 MRK-NH_CL_C 4.99348 0 5
+   (706 ^W_DQLEFT_PLR 1.14555 0 1
+    (112 but_conj@c_xp_but_le 0.5611 0 1
+     ("“but" 102
+      "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“but\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (714 SB-HD_MC_C 3.70104 1 5
+    (708 SP-HD_N_C -0.142569 1 3
+     (144 that_det@d_-_sgm_le -0.419828 1 2
+      ("that" 97
+       "token [ +CARG #1=\"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77179900000000001\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (707 ^N_SG_ILR 0.055293 2 3
+      (159 partner_n1@n_-_c_le 0 2 3
+       ("partner" 90
+        "token [ +CARG #1=\"partner\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (713 ^HD-CMP_U_C 2.61519 3 5
+     (166 be_id_is_neg_3_u@v_np_is-n_le 0.540592 3 4
+      ("isn’t" 92
+       "token [ +CARG #1=\"isn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (712 HDN_BNP-PN_C 2.0746 4 5
+      (711 W_DQRIGHT_PLR 2.03072 4 5
+       (710 W_PERIOD_PLR 0.04995 4 5
+        (709 N_SG_ILR -0.422994 4 5
+         (171 generic_proper_ne@n_-_pn-gen_le 0 4 5
+          ("Fiat.”" 84
+           "token [ +CARG \"Fiat\" +CLASS proper_ne +FORM \"Fiat.”\" +FROM \"24\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(S
+ (S (CONJ (CONJ "“but"))
+  (S (NP (DET "that") (N (N "partner")))
+   (VP (V "isn’t") (NP (N (N (N (N "Fiat.”")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:4>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _that_q_dem<5:9>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h11
+            BODY: h9 ]
+          [ _partner_n_1<10:17>
+            LBL: h12
+            ARG0: x10 ]
+          [ _be_v_id<18:23>
+            LBL: h13
+            ARG0: e4
+            ARG1: x10
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ neg<18:23>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h16 ]
+          [ proper_q<24:30>
+            LBL: h18
+            ARG0: x14
+            RSTR: h19
+            BODY: h20 ]
+          [ named<24:30>
+            LBL: h21
+            ARG0: x14
+            CARG: "Fiat" ] >
+   HCONS: < h19 QEQ h21 h16 QEQ h13 h11 QEQ h12 h5 QEQ h15 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e17, R-INDEX e4]
+ _1:_that_q_dem<5:9>[BV x10]
+ x10:_partner_n_1<10:17>{x PERS 3, NUM sg, IND +}[]
+ e4:_be_v_id<18:23>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x14]
+ e17:neg<18:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4]
+ _2:proper_q<24:30>[BV x14]
+ x14:named<24:30>("Fiat"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _but_c<0:4> R-HNDL neg<18:23>  
+  _but_c<0:4> R-INDEX _be_v_id<18:23>  
+  _that_q_dem<5:9> BV _partner_n_1<10:17>  
+  _be_v_id<18:23> ARG1 _partner_n_1<10:17>  
+  _be_v_id<18:23> ARG2 named<24:30>(Fiat)  
+  neg<18:23> ARG1 _be_v_id<18:23>  
+  proper_q<24:30> BV named<24:30>(Fiat)  
+  _but_c<0:4> SF prop  
+  _but_c<0:4> TENSE untensed  
+  _but_c<0:4> MOOD indicative  
+  _but_c<0:4> PROG -  
+  _but_c<0:4> PERF -  
+  _partner_n_1<10:17> PERS 3  
+  _partner_n_1<10:17> NUM sg  
+  _partner_n_1<10:17> IND +  
+  _be_v_id<18:23> SF prop  
+  _be_v_id<18:23> TENSE pres  
+  _be_v_id<18:23> MOOD indicative  
+  _be_v_id<18:23> PROG -  
+  _be_v_id<18:23> PERF -  
+  neg<18:23> SF prop  
+  neg<18:23> TENSE untensed  
+  neg<18:23> MOOD indicative  
+  neg<18:23> PROG -  
+  neg<18:23> PERF -  
+  named<24:30>(Fiat) PERS 3  
+  named<24:30>(Fiat) NUM sg  
+  named<24:30>(Fiat) IND +  
+}
+

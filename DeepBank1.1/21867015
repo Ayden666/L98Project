@@ -1,0 +1,130 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:36 h)).
+;;;
+
+[21867015] (1 of 1) {1} `Pricing details weren't available.'
+
+[21867015:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Pricing", 0, "null", "NN" 1.0)
+  (2, 1, 2, <8:15>, 1, "details", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <16:20>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <20:23>, 1, "n’t", 0, "null", "JJ" 0.3871 "RB" 0.2849 "NN" 0.1467 "VBN" 0.0656 "VB" 0.064 "JJS" 0.0332 "VBP" 0.0069 "VBD" 0.0067 "RBS" 0.0047)
+  (5, 4, 5, <24:33>, 1, "available", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:7>, 1, "Pricing", 0, "null")
+  (64, 0, 1, <0:7>, 1, "pricing", 0, "null")
+  (68, 0, 1, <0:7>, 1, "pricing", 0, "null")
+  (55, 1, 2, <8:15>, 1, "details", 0, "null")
+  (61, 1, 2, <8:15>, 1, "details", 0, "null", "NNS" 1.0)
+  (65, 1, 2, <8:15>, 1, "details", 0, "null")
+  (57, 2, 3, <16:23>, 1, "weren’t", 0, "null")
+  (62, 2, 3, <16:23>, 1, "weren’t", 0, "null", "VBD" 1.0)
+  (66, 2, 3, <16:23>, 1, "weren’t", 0, "null")
+  (59, 3, 4, <24:34>, 1, "available.", 0, "null")
+  (63, 3, 4, <24:34>, 1, "available.", 0, "null", "JJ" 1.0)
+  (67, 3, 4, <24:34>, 1, "available.", 0, "null")
+>
+
+(ROOT_STRICT
+ (714 SB-HD_MC_C 4.46643 0 4
+  (711 HDN_BNP_C 2.54084 0 2
+   (710 N-HDN_CPD_C 1.9201 0 2
+    (79 pricing_n1@n_-_m_le 0.189763 0 1
+     ("pricing" 64
+      "token [ +CARG \"Pricing\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"pricing\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (709 ^N_PL_OLR 0.536019 1 2
+     (82 detail_n1@n_-_mc_le 0 1 2
+      ("details" 55
+       "token [ +CARG #1=\"details\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (713 ^HD-CMP_U_C 0.409676 2 4
+   (99 be_c_were_neg_3_u@v_prd_wre-n_le 0.39706 2 3
+    ("weren’t" 57
+     "token [ +CARG #1=\"weren’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (712 W_PERIOD_PLR 0.012616 3 4
+    (109 available_a2@aj_-_i-prd_le 0 3 4
+     ("available." 59
+      "token [ +CARG \"available\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"available.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N "pricing") (N (N "details"))))
+ (VP (V "weren’t") (AP (AP "available."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _pricing_n_1<0:7>
+            LBL: h14
+            ARG0: x9 ]
+          [ _detail_n_1<8:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<16:23>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _available_a_1<24:34>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h15 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:udef_q<0:15>[BV x6]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:7>[BV x9]
+ x9:_pricing_n_1<0:7>{x PERS 3, NUM sg, IND -}[]
+ x6:_detail_n_1<8:15>{x PERS 3, NUM pl}[]
+ e16:neg<16:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_available_a_1<24:34>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:15> BV _detail_n_1<8:15>  
+  compound<0:15> ARG1 _detail_n_1<8:15>  
+  compound<0:15> ARG2 _pricing_n_1<0:7>  
+  udef_q<0:7> BV _pricing_n_1<0:7>  
+  neg<16:23> ARG1 _available_a_1<24:34>  
+  _available_a_1<24:34> ARG1 _detail_n_1<8:15>  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  _pricing_n_1<0:7> PERS 3  
+  _pricing_n_1<0:7> NUM sg  
+  _pricing_n_1<0:7> IND -  
+  _detail_n_1<8:15> PERS 3  
+  _detail_n_1<8:15> NUM pl  
+  neg<16:23> SF prop  
+  neg<16:23> TENSE untensed  
+  neg<16:23> MOOD indicative  
+  neg<16:23> PROG -  
+  neg<16:23> PERF -  
+  _available_a_1<24:34> SF prop  
+  _available_a_1<24:34> TENSE past  
+  _available_a_1<24:34> MOOD indicative  
+  _available_a_1<24:34> PROG -  
+  _available_a_1<24:34> PERF -  
+}
+

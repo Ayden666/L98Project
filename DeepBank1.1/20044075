@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj00b';
+;;; (wsun@wsun; 22-jan-2018 (10:26 h)).
+;;;
+
+[20044075] (1 of 1) {1} `Pressures began to build.'
+
+[20044075:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Pressures", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <10:15>, 1, "began", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <16:18>, 1, "to", 0, "null", "TO" 1.0)
+  (4, 3, 4, <19:24>, 1, "build", 0, "null", "VB" 1.0)
+  (5, 4, 5, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:9>, 1, "Pressures", 0, "null", "NNS" 1.0)
+  (58, 0, 1, <0:9>, 1, "pressures", 0, "null")
+  (62, 0, 1, <0:9>, 1, "pressures", 0, "null")
+  (50, 1, 2, <10:15>, 1, "began", 0, "null")
+  (56, 1, 2, <10:15>, 1, "began", 0, "null", "VBD" 1.0)
+  (59, 1, 2, <10:15>, 1, "began", 0, "null")
+  (52, 2, 3, <16:18>, 1, "to", 0, "null")
+  (60, 2, 3, <16:18>, 1, "to", 0, "null")
+  (54, 3, 4, <19:25>, 1, "build.", 0, "null")
+  (57, 3, 4, <19:25>, 1, "build.", 0, "null", "VB" 1.0)
+  (61, 3, 4, <19:25>, 1, "build.", 0, "null")
+>
+
+(ROOT_STRICT
+ (512 SB-HD_MC_C 3.78202 0 4
+  (505 HDN_BNP_C -1.06943 0 1
+   (504 N_PL_OLR -0.493422 0 1
+    (68 pressure_n1@n_-_mc_le 0 0 1
+     ("pressures" 58
+      "token [ +CARG \"Pressures\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"pressures\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (511 ^HD-CMP_U_C 3.33554 1 4
+   (506 ^V_PST_OLR 0.77563 1 2
+    (85 begin_v3@v_vp_ssr_le 0 1 2
+     ("began" 50
+      "token [ +CARG #1=\"began\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (510 HD-CMP_U_C 1.64368 2 4
+    (117 to_c_prop@cm_vp_to_le 2.48409 2 3
+     ("to" 52
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (509 HD_OPTCMP_C -0.941788 3 4
+     (508 W_PERIOD_PLR -1.53912 3 4
+      (507 V_N3S-BSE_ILR -0.638355 3 4
+       (176 build_v1@v_np*_le 0 3 4
+        ("build." 54
+         "token [ +CARG \"build\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"build.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "pressures")))
+ (VP (V (V "began")) (VP (COMP "to") (VP (V (V (V "build.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _pressure_n_1<0:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _begin_v_1<10:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: h9 ]
+          [ _build_v_1<19:25>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: p12 ] >
+   HCONS: < h9 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:9>[BV x6]
+ x6:_pressure_n_1<0:9>{x PERS 3, NUM pl}[]
+ e3:_begin_v_1-fn.Process_start<10:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 e11]
+ e11:_build_v_1<19:25>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:9> BV _pressure_n_1<0:9>  
+  _begin_v_1<10:15> ARG1 _build_v_1<19:25>  
+  _build_v_1<19:25> ARG1 _pressure_n_1<0:9>  
+  _pressure_n_1<0:9> PERS 3  
+  _pressure_n_1<0:9> NUM pl  
+  _begin_v_1<10:15> SF prop  
+  _begin_v_1<10:15> TENSE past  
+  _begin_v_1<10:15> MOOD indicative  
+  _begin_v_1<10:15> PROG -  
+  _begin_v_1<10:15> PERF -  
+  _build_v_1<19:25> SF prop-or-ques  
+  _build_v_1<19:25> TENSE untensed  
+  _build_v_1<19:25> MOOD indicative  
+  _build_v_1<19:25> PROG -  
+  _build_v_1<19:25> PERF -  
+}
+

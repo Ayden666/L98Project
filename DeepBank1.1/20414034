@@ -1,0 +1,115 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:48 h)).
+;;;
+
+[20414034] (1 of 1) {1} `FIRST TEACH THYSELF.'
+
+[20414034:2] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "FIRST", 0, "null", "RB" 0.8628 "NNP" 0.111 "CD" 0.0262)
+  (2, 1, 2, <6:11>, 1, "TEACH", 0, "null", "VB" 1.0)
+  (3, 2, 3, <12:19>, 1, "THYSELF", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (42, 0, 1, <0:5>, 1, "FIRST", 0, "null")
+  (55, 0, 1, <0:5>, 1, "FIRST", 0, "null", "RB" 0.8628)
+  (56, 0, 1, <0:5>, 1, "FIRST", 0, "null", "NNP" 0.111)
+  (60, 0, 1, <0:5>, 1, "first", 0, "null")
+  (62, 0, 1, <0:5>, 1, "first", 0, "null")
+  (40, 1, 2, <6:11>, 1, "TEACH", 0, "null")
+  (57, 1, 2, <6:11>, 1, "TEACH", 0, "null", "VB" 1.0)
+  (58, 1, 2, <6:11>, 1, "teach", 0, "null")
+  (61, 1, 2, <6:11>, 1, "teach", 0, "null")
+  (44, 2, 3, <12:20>, 1, "THYSELF.", 0, "null")
+  (59, 2, 3, <12:20>, 1, "thyself.", 0, "null")
+  (63, 2, 3, <12:20>, 1, "thyself.", 0, "null")
+>
+
+(ROOT_STRICT
+ (447 HD_IMP_C 0.781769 0 3
+  (446 AJ-HD_INT_C 0.855124 0 3
+   (74 first_adv1@av_-_i-vp_le -0.637527 0 1
+    ("first" 60
+     "token [ +CARG \"FIRST\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"first\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86280239999999997\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (445 ^HD-CMP_U_C 0.494888 1 3
+    (443 ^V_N3S-BSE_ILR 0.26417 1 2
+     (92 teach_v1@v_np*_le 0 1 2
+      ("teach" 58
+       "token [ +CARG \"TEACH\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"teach\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (444 HDN_BNP-PN_C 0.140773 2 3
+     (434 W_PERIOD_PLR 1.02066 2 3
+      (433 N_SG_ILR 0.466069 2 3
+       (96 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("THYSELF." 44
+         "token [ +CARG \"THYSELF\" +CLASS proper_ne +FORM \"THYSELF.\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (VP (ADV "first") (VP (V (V "teach")) (NP (N (N (N "THYSELF.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:20>
+            LBL: h8
+            ARG0: x6 ]
+          [ _first_a_1<0:5>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _teach_v_1<6:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<12:20>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ named<12:20>
+            LBL: h14
+            ARG0: x10
+            CARG: "THYSELF" ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:20>[BV x6]
+ x6:pron<0:20>{x PERS 2, PT zero}[]
+ e9:_first_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_teach_v_1-fn.Education_teaching<6:11>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x6, ARG2 x10]
+ _2:proper_q<12:20>[BV x10]
+ x10:named<12:20>("THYSELF"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:20> BV pron<0:20>  
+  _first_a_1<0:5> ARG1 _teach_v_1<6:11>  
+  _teach_v_1<6:11> ARG1 pron<0:20>  
+  _teach_v_1<6:11> ARG2 named<12:20>(THYSELF)  
+  proper_q<12:20> BV named<12:20>(THYSELF)  
+  pron<0:20> PERS 2  
+  pron<0:20> PT zero  
+  _first_a_1<0:5> SF prop  
+  _first_a_1<0:5> TENSE untensed  
+  _first_a_1<0:5> MOOD indicative  
+  _first_a_1<0:5> PROG -  
+  _first_a_1<0:5> PERF -  
+  _teach_v_1<6:11> SF comm  
+  _teach_v_1<6:11> TENSE pres  
+  _teach_v_1<6:11> MOOD indicative  
+  _teach_v_1<6:11> PROG -  
+  _teach_v_1<6:11> PERF -  
+  named<12:20>(THYSELF) PERS 3  
+  named<12:20>(THYSELF) NUM sg  
+  named<12:20>(THYSELF) IND +  
+}
+

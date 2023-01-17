@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:57 h)).
+;;;
+
+[20725030] (1 of 1) {1} `Corporate planners can plan again.'
+
+[20725030:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Corporate", 0, "null", "JJ" 0.9773 "NNP" 0.0227)
+  (2, 1, 2, <10:18>, 1, "planners", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <19:22>, 1, "can", 0, "null", "MD" 1.0)
+  (4, 3, 4, <23:27>, 1, "plan", 0, "null", "VB" 0.8068 "NN" 0.1932)
+  (5, 4, 5, <28:33>, 1, "again", 0, "null", "RB" 1.0)
+  (6, 5, 6, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:9>, 1, "Corporate", 0, "null", "JJ" 0.9773)
+  (75, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (80, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (61, 1, 2, <10:18>, 1, "planners", 0, "null")
+  (72, 1, 2, <10:18>, 1, "planners", 0, "null", "NNS" 1.0)
+  (76, 1, 2, <10:18>, 1, "planners", 0, "null")
+  (63, 2, 3, <19:22>, 1, "can", 0, "null")
+  (77, 2, 3, <19:22>, 1, "can", 0, "null")
+  (68, 3, 4, <23:27>, 1, "plan", 0, "null")
+  (71, 3, 4, <23:27>, 1, "plan", 0, "null", "VB" 0.8068)
+  (74, 3, 4, <23:27>, 1, "plan", 0, "null", "NN" 0.1932)
+  (79, 3, 4, <23:27>, 1, "plan", 0, "null")
+  (65, 4, 5, <28:34>, 1, "again.", 0, "null")
+  (73, 4, 5, <28:34>, 1, "again.", 0, "null", "RB" 1.0)
+  (78, 4, 5, <28:34>, 1, "again.", 0, "null")
+>
+
+(ROOT_STRICT
+ (537 SB-HD_MC_C 6.92893 0 5
+  (531 HDN_BNP_C 1.64353 0 2
+   (530 AJ-HDN_NORM_C 0.909027 0 2
+    (82 corporate_isect@aj_-_i_le 0.334608 0 1
+     ("corporate" 75
+      "token [ +CARG \"Corporate\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"corporate\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97728499999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (529 ^N_PL_OLR -0.0188574 1 2
+     (83 planner_n1@n_-_c_le 0 1 2
+      ("planners" 61
+       "token [ +CARG #1=\"planners\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (536 ^HD-CMP_U_C 3.76949 2 5
+   (94 can_aux_pos@v_vp_mdl-p_le 1.50103 2 3
+    ("can" 63
+     "token [ +CARG #1=\"can\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (535 HD-AJ_INT-UNSL_C 1.56117 3 5
+    (533 ^HD_OPTCMP_C 0.29851 3 4
+     (532 V_N3S-BSE_ILR 0.127747 3 4
+      (101 plan_v1@v_np*_le 0.548952 3 4
+       ("plan" 68
+        "token [ +CARG #1=\"plan\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80678479999999997\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (534 W_PERIOD_PLR 1.31625 4 5
+     (107 again_adv1@av_-_i-vp_le 0 4 5
+      ("again." 65
+       "token [ +CARG \"again\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"again.\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (AP "corporate") (N (N "planners"))))
+ (VP (V "can") (VP (VP (V (V "plan"))) (ADV (ADV "again.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:18>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _corporate_a_1<0:9>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _planner_n_1<10:18>
+            LBL: h8
+            ARG0: x6 ]
+          [ _can_v_modal<19:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: h10 ]
+          [ _plan_v_1<23:27>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: p13 ]
+          [ _again_a_1<28:34>
+            LBL: h11
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e12 ] >
+   HCONS: < h10 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:18>[BV x6]
+ e9:_corporate_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_planner_n_1<10:18>{x PERS 3, NUM pl, IND +}[]
+ e3:_can_v_modal<19:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_plan_v_1-fn.Purpose<23:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x6]
+ e14:_again_a_1<28:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+}
+
+{
+  udef_q<0:18> BV _planner_n_1<10:18>  
+  _corporate_a_1<0:9> ARG1 _planner_n_1<10:18>  
+  _can_v_modal<19:22> ARG1 _plan_v_1<23:27>  
+  _plan_v_1<23:27> ARG1 _planner_n_1<10:18>  
+  _again_a_1<28:34> ARG1 _plan_v_1<23:27>  
+  _corporate_a_1<0:9> SF prop  
+  _corporate_a_1<0:9> TENSE untensed  
+  _corporate_a_1<0:9> MOOD indicative  
+  _corporate_a_1<0:9> PROG -  
+  _corporate_a_1<0:9> PERF -  
+  _planner_n_1<10:18> PERS 3  
+  _planner_n_1<10:18> NUM pl  
+  _planner_n_1<10:18> IND +  
+  _can_v_modal<19:22> SF prop  
+  _can_v_modal<19:22> TENSE pres  
+  _can_v_modal<19:22> MOOD indicative  
+  _can_v_modal<19:22> PROG -  
+  _can_v_modal<19:22> PERF -  
+  _plan_v_1<23:27> SF prop  
+  _plan_v_1<23:27> TENSE untensed  
+  _plan_v_1<23:27> MOOD indicative  
+  _plan_v_1<23:27> PROG -  
+  _plan_v_1<23:27> PERF -  
+  _again_a_1<28:34> SF prop  
+  _again_a_1<28:34> TENSE untensed  
+  _again_a_1<28:34> MOOD indicative  
+  _again_a_1<28:34> PROG -  
+  _again_a_1<28:34> PERF -  
+}
+

@@ -1,0 +1,162 @@
+;;;
+;;; Redwoods export of `wsj20c';
+;;; (wsun@wsun; 23-jan-2018 (05:20 h)).
+;;;
+
+[22048026] (1 of 1) {1} `PRISON-SHOP BLUES:'
+
+[22048026:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "PRISON-SHOP", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <12:17>, 1, "BLUES", 0, "null", "NNPS" 1.0)
+  (3, 2, 3, <17:18>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (40, 0, 1, <0:11>, 1, "PRISON-", 0, "null")
+  (51, 0, 1, <0:11>, 1, "PRISON-", 0, "null", "NN" 1.0)
+  (54, 0, 1, <0:11>, 1, "prison-", 0, "null")
+  (57, 0, 1, <0:11>, 1, "prison-", 0, "null")
+  (39, 1, 2, <0:11>, 1, "SHOP", 0, "null")
+  (50, 1, 2, <0:11>, 1, "SHOP", 0, "null", "NNP" 1.0)
+  (53, 1, 2, <0:11>, 1, "shop", 0, "null")
+  (56, 1, 2, <0:11>, 1, "shop", 0, "null")
+  (38, 2, 3, <12:17>, 1, "BLUES", 0, "null")
+  (49, 2, 3, <12:17>, 1, "BLUES", 0, "null", "NNPS" 1.0)
+  (52, 2, 3, <12:17>, 1, "blues", 0, "null")
+  (55, 2, 3, <12:17>, 1, "blues", 0, "null")
+  (48, 3, 4, <17:18>, 1, ":", 0, "null")
+  (58, 3, 4, <17:18>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (430 NP_FRG_C 0.650702 0 4
+  (429 HDN_BNP-PN_C 1.79721 0 4
+   (428 HDN-AJ_REDREL_C 1.98836 0 4
+    (427 ^NP-HDN_TTL-CPD_C 0.787372 0 3
+     (425 XP_BRCK-PR_C 1.27965 0 2
+      (424 N-HDN_CPD_C 1.72317 0 2
+       (421 W_HYPHEN_PLR 1.01005 0 1
+        (66 prison_n1@n_-_mc_le 0 0 1
+         ("prison-" 54
+          "token [ +CARG \"PRISON-\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL + ] +FORM \"prison-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+       (423 ^HDN_OPTCMP_C 0.674746 1 2
+        (422 N_SG_ILR 1.26412 1 2
+         (75 shop_n1@n_pp_c-of_le 0 1 2
+          ("shop" 53
+           "token [ +CARG \"SHOP\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"shop\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))
+     (426 ^N_SG_ILR -0.547932 2 3
+      (78 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("BLUES" 38
+        "token [ +CARG #1=\"BLUES\" +CLASS proper_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (95 colon_namely_pp@pp_-_i-cln_le -0.0322658 3 4
+     (":" 48
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP
+  (N (N (N (N (N (N "prison-")) (N (N (N "shop"))))) (N (N "BLUES")))
+   (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:11>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 ]
+          [ udef_q<0:11>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _prison_n_1<0:11>
+            LBL: h20
+            ARG0: x15 ]
+          [ _shop_n_of<0:11>
+            LBL: h14
+            ARG0: x9
+            ARG1: i21 ]
+          [ named<12:17>
+            LBL: h8
+            ARG0: x4
+            CARG: "BLUES" ]
+          [ _colon_p_namely<17:18>
+            LBL: h8
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:18>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:11>[BV x9]
+ e16:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:11>[BV x15]
+ x15:_prison_n_1<0:11>{x}[]
+ x9:_shop_n_of<0:11>{x PERS 3, NUM sg, IND +}[]
+ x4:named<12:17>("BLUES"){x PERS 3, NUM sg, IND +}[]
+ e22:_colon_p_namely<17:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:18> ARG named<12:17>(BLUES)  
+  proper_q<0:18> BV named<12:17>(BLUES)  
+  compound<0:17> ARG1 named<12:17>(BLUES)  
+  compound<0:17> ARG2 _shop_n_of<0:11>  
+  udef_q<0:11> BV _shop_n_of<0:11>  
+  compound<0:11> ARG1 _shop_n_of<0:11>  
+  compound<0:11> ARG2 _prison_n_1<0:11>  
+  udef_q<0:11> BV _prison_n_1<0:11>  
+  _colon_p_namely<17:18> ARG1 named<12:17>(BLUES)  
+  unknown<0:18> SF prop-or-ques  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _shop_n_of<0:11> PERS 3  
+  _shop_n_of<0:11> NUM sg  
+  _shop_n_of<0:11> IND +  
+  named<12:17>(BLUES) PERS 3  
+  named<12:17>(BLUES) NUM sg  
+  named<12:17>(BLUES) IND +  
+  _colon_p_namely<17:18> SF prop  
+  _colon_p_namely<17:18> TENSE untensed  
+  _colon_p_namely<17:18> MOOD indicative  
+  _colon_p_namely<17:18> PROG -  
+  _colon_p_namely<17:18> PERF -  
+}
+

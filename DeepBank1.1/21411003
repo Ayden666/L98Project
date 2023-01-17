@@ -1,0 +1,141 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (22:59 h)).
+;;;
+
+[21411003] (1 of 1) {1} `Mr. Jones takes heart.'
+
+[21411003:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:15>, 1, "takes", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:21>, 1, "heart", 0, "null", "NN" 0.9308 "RB" 0.0692)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (64, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (68, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (47, 1, 2, <4:9>, 1, "Jones", 0, "null")
+  (61, 1, 2, <4:9>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (63, 1, 2, <4:9>, 1, "jones", 0, "null")
+  (65, 1, 2, <4:9>, 1, "jones", 0, "null")
+  (56, 2, 3, <10:15>, 1, "takes", 0, "null")
+  (62, 2, 3, <10:15>, 1, "takes", 0, "null", "VBZ" 1.0)
+  (66, 2, 3, <10:15>, 1, "takes", 0, "null")
+  (57, 3, 4, <16:22>, 1, "heart.", 0, "null")
+  (60, 3, 4, <16:22>, 1, "heart.", 0, "null", "NN" 0.9308)
+  (67, 3, 4, <16:22>, 1, "heart.", 0, "null")
+>
+
+(ROOT_STRICT
+ (602 SB-HD_MC_C 4.01435 0 4
+  (588 HDN_BNP-PN_C 4.24197 0 2
+   (587 NP-HDN_TTL-CPD_C 3.55604 0 2
+    (585 N_SG_ILR 2.02901 0 1
+     (76 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 64
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (586 ^N_SG_ILR 0.120932 1 2
+     (91 jones_n1@n_-_pn_le 0.219184 1 2
+      ("jones" 63
+       "token [ +CARG \"Jones\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"jones\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (601 ^HD-CMP_U_C -1.24468 2 4
+   (593 ^V_3S-FIN_OLR 0.390002 2 3
+    (155 take_v1_i@v_nb_idm_le 0.951596 2 3
+     ("takes" 56
+      "token [ +CARG #1=\"takes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (598 HDN_BNP-SG-NOMOD_C -1.71949 3 4
+    (597 W_PERIOD_PLR -1.14761 3 4
+     (596 N_SG_ILR -1.0527 3 4
+      (181 heart_n1_i@n_-_c-br-idm_le 0 3 4
+       ("heart." 57
+        "token [ +CARG \"heart\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"heart.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93075439999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "jones"))))
+ (VP (V (V "takes")) (NP (N (N (N "heart."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Jones" ]
+          [ _take_v_of-i<10:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ idiom_q_i<16:22>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _heart_n_i<16:22>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Jones"){x PERS 3, NUM sg, IND +}[]
+ e3:_take_v_of-i<10:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:idiom_q_i<16:22>[BV x15]
+ x15:_heart_n_i<16:22>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Jones)  
+  compound<0:9> ARG1 named<4:9>(Jones)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _take_v_of-i<10:15> ARG1 named<4:9>(Jones)  
+  _take_v_of-i<10:15> ARG2 _heart_n_i<16:22>  
+  idiom_q_i<16:22> BV _heart_n_i<16:22>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Jones) PERS 3  
+  named<4:9>(Jones) NUM sg  
+  named<4:9>(Jones) IND +  
+  _take_v_of-i<10:15> SF prop  
+  _take_v_of-i<10:15> TENSE pres  
+  _take_v_of-i<10:15> MOOD indicative  
+  _take_v_of-i<10:15> PROG -  
+  _take_v_of-i<10:15> PERF -  
+  _heart_n_i<16:22> PERS 3  
+  _heart_n_i<16:22> NUM sg  
+  _heart_n_i<16:22> IND +  
+}
+

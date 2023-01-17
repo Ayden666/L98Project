@@ -1,0 +1,87 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:30 h)).
+;;;
+
+[21569048] (1 of 1) {1} `"That's crazy."'
+
+[21569048:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "That", 0, "null", "DT" 0.9735 "WDT" 0.0159 "IN" 0.0106)
+  (3, 2, 3, <5:7>, 1, "’s", 0, "null", "VBZ" 0.5215 "NNS" 0.4064 "JJ" 0.0421 "NN" 0.0211 "RB" 0.0089)
+  (4, 3, 4, <8:13>, 1, "crazy", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <13:14>, 1, ".", 0, "null", "." 1.0)
+  (6, 5, 6, <14:15>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (79, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (82, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (72, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (76, 1, 2, <5:7>, 1, "’s", 0, "null", "VBZ" 0.5215)
+  (77, 1, 2, <5:7>, 1, "’s", 0, "null", "NNS" 0.4064)
+  (81, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (71, 2, 3, <8:15>, 1, "crazy.”", 0, "null")
+  (78, 2, 3, <8:15>, 1, "crazy.”", 0, "null", "JJ" 1.0)
+  (80, 2, 3, <8:15>, 1, "crazy.”", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (529 SB-HD_MC_C 4.81283 0 3
+  (525 HDN_BNP-QNT_C 0.970318 0 1
+   (524 HDN_OPTCMP_C 0.881544 0 1
+    (523 W_DQLEFT_PLR 0.534835 0 1
+     (98 that_deix@n_-_pr-dei-sg_le 0.171311 0 1
+      ("“that" 79
+       "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“that\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97353920000000005\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (528 ^HD-CMP_U_C 2.57316 1 3
+   (125 be_c_is_cx_3@v_prd_is-cx_le 0.106447 1 2
+    ("’s" 72
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.52151789999999998\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (527 W_DQRIGHT_PLR 2.46671 2 3
+    (526 W_PERIOD_PLR 0.434361 2 3
+     (327 crazy_a1@aj_-_i-er_le 0 2 3
+      ("crazy.”" 71
+       "token [ +CARG \"crazy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"crazy.”\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N "“that")))) (VP (V "’s") (AP (AP (AP "crazy.”")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _crazy_a_1<8:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:5>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:5>[BV x5]
+ e3:_crazy_a_1<8:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  _that_q_dem<0:5> BV generic_entity<0:5>  
+  _crazy_a_1<8:15> ARG1 generic_entity<0:5>  
+  generic_entity<0:5> PERS 3  
+  generic_entity<0:5> NUM sg  
+  generic_entity<0:5> GEND n  
+  _crazy_a_1<8:15> SF prop  
+  _crazy_a_1<8:15> TENSE pres  
+  _crazy_a_1<8:15> MOOD indicative  
+  _crazy_a_1<8:15> PROG -  
+  _crazy_a_1<8:15> PERF -  
+}
+

@@ -1,0 +1,186 @@
+;;;
+;;; Redwoods export of `wsj19c';
+;;; (wsun@wsun; 23-jan-2018 (04:30 h)).
+;;;
+
+[21957042] (1 of 1) {1} `Merchant banks were stronger across the board.'
+
+[21957042:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Merchant", 0, "null", "NN" 1.0)
+  (2, 1, 2, <9:14>, 1, "banks", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <15:19>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <20:28>, 1, "stronger", 0, "null", "JJR" 0.99 "RBR" 0.01)
+  (5, 4, 5, <29:35>, 1, "across", 0, "null", "IN" 1.0)
+  (6, 5, 6, <36:39>, 1, "the", 0, "null", "DT" 1.0)
+  (7, 6, 7, <40:45>, 1, "board", 0, "null", "NN" 1.0)
+  (8, 7, 8, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (90, 0, 1, <0:8>, 1, "Merchant", 0, "null")
+  (95, 0, 1, <0:8>, 1, "merchant", 0, "null")
+  (102, 0, 1, <0:8>, 1, "merchant", 0, "null")
+  (79, 1, 2, <9:14>, 1, "banks", 0, "null")
+  (92, 1, 2, <9:14>, 1, "banks", 0, "null", "NNS" 1.0)
+  (96, 1, 2, <9:14>, 1, "banks", 0, "null")
+  (81, 2, 3, <15:19>, 1, "were", 0, "null")
+  (93, 2, 3, <15:19>, 1, "were", 0, "null", "VBD" 1.0)
+  (97, 2, 3, <15:19>, 1, "were", 0, "null")
+  (88, 3, 4, <20:28>, 1, "stronger", 0, "null")
+  (91, 3, 4, <20:28>, 1, "stronger", 0, "null", "JJR" 0.99)
+  (101, 3, 4, <20:28>, 1, "stronger", 0, "null")
+  (83, 4, 5, <29:35>, 1, "across", 0, "null")
+  (98, 4, 5, <29:35>, 1, "across", 0, "null")
+  (85, 5, 6, <36:39>, 1, "the", 0, "null")
+  (99, 5, 6, <36:39>, 1, "the", 0, "null")
+  (87, 6, 7, <40:46>, 1, "board.", 0, "null")
+  (94, 6, 7, <40:46>, 1, "board.", 0, "null", "NN" 1.0)
+  (100, 6, 7, <40:46>, 1, "board.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1126 SB-HD_MC_C 9.09552 0 7
+  (1117 HDN_BNP_C 1.68639 0 2
+   (1116 N-HDN_CPD_C 1.06565 0 2
+    (1113 HDN_OPTCMP_C -0.071274 0 1
+     (104 merchant_n1@n_pp_c-of_le 0 0 1
+      ("merchant" 95
+       "token [ +CARG \"Merchant\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"merchant\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1115 ^HDN_OPTCMP_C 0.525657 1 2
+     (1114 N_PL_OLR 0.285 1 2
+      (105 bank_n1@n_pp_mc-of-lhc_le 0.402565 1 2
+       ("banks" 79
+        "token [ +CARG #1=\"banks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1125 ^HD-CMP_U_C 5.89321 2 7
+   (120 be_c_were@v_prd_wre_le 1.45048 2 3
+    ("were" 81
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1124 HD-AJ_INT-UNSL_C 3.83613 3 7
+    (1118 ^HD_OPTCMP_C 0.161872 3 4
+     (131 stronger_a1@aj_pp_i-cmp_le 0 3 4
+      ("stronger" 88
+       "token [ +CARG #1=\"stronger\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98998109999999995\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1123 HD-CMP_U_C 2.35514 4 7
+     (133 across@p_np_i-reg_le -0.177554 4 5
+      ("across" 83
+       "token [ +CARG #1=\"across\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1122 SP-HD_N_C 1.9094 5 7
+      (149 the_1@d_-_the_le 1.07131 5 6
+       ("the" 85
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1121 ^HDN_OPTCMP_C 0.597542 6 7
+       (1120 W_PERIOD_PLR 0.267234 6 7
+        (1119 N_MS-CNT_ILR -0.0054358 6 7
+         (176 board_n1@n_pp_mc-of-lhc_le 0 6 7
+          ("board." 87
+           "token [ +CARG \"board\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"board.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "merchant")) (N (N (N "banks")))))
+ (VP (V "were")
+  (AP (AP (ADJ "stronger"))
+   (PP (P "across") (NP (DET "the") (N (N (N (N "board.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _merchant_n_of<0:8>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ _bank_n_of<9:14>
+            LBL: h8
+            ARG0: x6
+            ARG1: i16 ]
+          [ _strong_a_1<20:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ comp<20:28>
+            LBL: h2
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: u17 ]
+          [ _across_p<29:35>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x20 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<36:39>
+            LBL: h21
+            ARG0: x20
+            RSTR: h23
+            BODY: h22 ]
+          [ _board_n_of<40:46>
+            LBL: h24
+            ARG0: x20
+            ARG1: i25 ] >
+   HCONS: < h23 QEQ h24 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_merchant_n_of<0:8>{x IND +}[]
+ x6:_bank_n_of<9:14>{x PERS 3, NUM pl}[]
+ e3:_strong_a_1<20:28>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e18:comp<20:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e19:_across_p<29:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x20]
+ _3:_the_q<36:39>[BV x20]
+ x20:_board_n_of<40:46>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:14> BV _bank_n_of<9:14>  
+  compound<0:14> ARG1 _bank_n_of<9:14>  
+  compound<0:14> ARG2 _merchant_n_of<0:8>  
+  udef_q<0:8> BV _merchant_n_of<0:8>  
+  _strong_a_1<20:28> ARG1 _bank_n_of<9:14>  
+  comp<20:28> ARG1 _strong_a_1<20:28>  
+  _across_p<29:35> ARG1 _strong_a_1<20:28>  
+  _across_p<29:35> ARG2 _board_n_of<40:46>  
+  _the_q<36:39> BV _board_n_of<40:46>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _merchant_n_of<0:8> IND +  
+  _bank_n_of<9:14> PERS 3  
+  _bank_n_of<9:14> NUM pl  
+  _strong_a_1<20:28> SF prop  
+  _strong_a_1<20:28> TENSE past  
+  _strong_a_1<20:28> MOOD indicative  
+  _strong_a_1<20:28> PROG -  
+  _strong_a_1<20:28> PERF -  
+  comp<20:28> SF prop  
+  comp<20:28> TENSE untensed  
+  comp<20:28> MOOD indicative  
+  comp<20:28> PROG -  
+  comp<20:28> PERF -  
+  _across_p<29:35> SF prop  
+  _across_p<29:35> TENSE untensed  
+  _across_p<29:35> MOOD indicative  
+  _across_p<29:35> PROG -  
+  _across_p<29:35> PERF -  
+  _board_n_of<40:46> PERS 3  
+  _board_n_of<40:46> NUM sg  
+}
+

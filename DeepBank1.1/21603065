@@ -1,0 +1,77 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:54 h)).
+;;;
+
+[21603065] (1 of 1) {1} `The `Billionaire''
+
+[21603065:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:5>, 1, "‘", 0, "null", "``" 1.0)
+  (3, 2, 3, <5:16>, 1, "Billionaire", 0, "null", "NN" 1.0)
+  (4, 3, 4, <16:17>, 1, "’", 0, "null", "''" 0.8121 "POS" 0.1879)
+>
+
+<
+  (48, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 0, 1, <0:3>, 1, "the", 0, "null")
+  (42, 1, 2, <4:17>, 1, "‘Billionaire’", 0, "null")
+  (47, 1, 2, <4:17>, 1, "‘Billionaire’", 0, "null", "NN" 1.0)
+  (49, 1, 2, <4:17>, 1, "‘billionaire’", 0, "null")
+  (50, 1, 2, <4:17>, 1, "‘billionaire’", 0, "null")
+>
+
+(ROOT_FRAG
+ (199 NP_FRG_C -1.41809 0 2
+  (198 SP-HD_N_C -0.411183 0 2
+   (65 the_1@d_-_the_le 0.244361 0 1
+    ("the" 48
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (197 ^W_SQLEFT_PLR -0.655544 1 2
+    (196 W_SQRIGHT_PLR -0.655544 1 2
+     (195 N_SG_ILR -0.230708 1 2
+      (102 billionaire_n1@n_-_c_le 0 1 2
+       ("‘billionaire’" 49
+        "token [ +CARG \"Billionaire\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"‘billionaire’\" +FROM \"4\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"5\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (DET "the") (N (N (N (N "‘billionaire’"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ _billionaire_n_1<4:17>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:_the_q<0:3>[BV x4]
+ x4:_billionaire_n_1<4:17>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:17> ARG _billionaire_n_1<4:17>  
+  _the_q<0:3> BV _billionaire_n_1<4:17>  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  _billionaire_n_1<4:17> PERS 3  
+  _billionaire_n_1<4:17> NUM sg  
+  _billionaire_n_1<4:17> IND +  
+}
+

@@ -1,0 +1,187 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (11:06 h)).
+;;;
+
+[20116006] (1 of 1) {1} `Neither company would disclose the program's cost.'
+
+[20116006:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Neither", 0, "null", "DT" 0.97 "CC" 0.03)
+  (2, 1, 2, <8:15>, 1, "company", 0, "null", "NN" 1.0)
+  (3, 2, 3, <16:21>, 1, "would", 0, "null", "MD" 1.0)
+  (4, 3, 4, <22:30>, 1, "disclose", 0, "null", "VB" 1.0)
+  (5, 4, 5, <31:34>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <35:42>, 1, "program", 0, "null", "NN" 1.0)
+  (7, 6, 7, <42:44>, 1, "’s", 0, "null", "NNS" 0.5276 "VBZ" 0.2716 "NN" 0.1034 "JJ" 0.0975)
+  (8, 7, 8, <45:49>, 1, "cost", 0, "null", "NN" 0.7432 "VBD" 0.0924 "VBN" 0.0794 "VBP" 0.0479 "VB" 0.037)
+  (9, 8, 9, <49:50>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (122, 0, 1, <0:7>, 1, "neither", 0, "null")
+  (130, 0, 1, <0:7>, 1, "neither", 0, "null")
+  (100, 1, 2, <8:15>, 1, "company", 0, "null")
+  (119, 1, 2, <8:15>, 1, "company", 0, "null", "NN" 1.0)
+  (123, 1, 2, <8:15>, 1, "company", 0, "null")
+  (102, 2, 3, <16:21>, 1, "would", 0, "null")
+  (124, 2, 3, <16:21>, 1, "would", 0, "null")
+  (104, 3, 4, <22:30>, 1, "disclose", 0, "null")
+  (120, 3, 4, <22:30>, 1, "disclose", 0, "null", "VB" 1.0)
+  (125, 3, 4, <22:30>, 1, "disclose", 0, "null")
+  (106, 4, 5, <31:34>, 1, "the", 0, "null")
+  (126, 4, 5, <31:34>, 1, "the", 0, "null")
+  (108, 5, 6, <35:42>, 1, "program", 0, "null")
+  (121, 5, 6, <35:42>, 1, "program", 0, "null", "NN" 1.0)
+  (127, 5, 6, <35:42>, 1, "program", 0, "null")
+  (111, 6, 7, <42:44>, 1, "’s", 0, "null")
+  (115, 6, 7, <42:44>, 1, "’s", 0, "null", "NNS" 0.5276)
+  (117, 6, 7, <42:44>, 1, "’s", 0, "null", "VBZ" 0.2716)
+  (118, 6, 7, <42:44>, 1, "’s", 0, "null", "NN" 0.1034)
+  (128, 6, 7, <42:44>, 1, "’s", 0, "null")
+  (112, 7, 8, <45:50>, 1, "cost.", 0, "null")
+  (116, 7, 8, <45:50>, 1, "cost.", 0, "null", "NN" 0.7432)
+  (129, 7, 8, <45:50>, 1, "cost.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1628 SB-HD_MC_C 12.3219 0 8
+  (1616 SP-HD_N_C 1.62961 0 2
+   (133 neither_det@d_-_prt-sg_le -0.256101 0 1
+    ("neither" 122
+     "token [ +CARG \"Neither\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"neither\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97000030000000004\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1615 ^HDN_OPTCMP_C 1.60996 1 2
+    (1614 N_MS-CNT_ILR 1.69776 1 2
+     (134 company_n1@n_pp_mc-of_le 0.954973 1 2
+      ("company" 100
+       "token [ +CARG #1=\"company\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1627 ^HD-CMP_U_C 8.73778 2 8
+   (139 would_aux_pos@v_vp_mdl-p-unsp_le 1.41237 2 3
+    ("would" 102
+     "token [ +CARG #1=\"would\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1626 HD_OPTCMP_C 7.9787 3 8
+    (1625 HD-CMP_U_C 6.66358 3 8
+     (1617 ^V_N3S-BSE_ILR 0.921553 3 4
+      (140 disclose_v1@v_np-pp*_to_le 0 3 4
+       ("disclose" 104
+        "token [ +CARG #1=\"disclose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1624 SP-HD_N_C 5.51624 4 8
+      (1621 SP-HD_HC_C 5.96934 4 7
+       (1620 SP-HD_N_C 4.67949 4 6
+        (155 the_1@d_-_the_le 1.41893 4 5
+         ("the" 106
+          "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (1619 ^HDN_OPTCMP_C 1.82982 5 6
+         (1618 N_SG_ILR 1.0357 5 6
+          (180 program_n1@n_pp_c-of_le -0.0362082 5 6
+           ("program" 108
+            "token [ +CARG #1=\"program\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+       (187 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 6 7
+        ("’s" 111
+         "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.52756959999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1623 ^W_PERIOD_PLR 0.353022 7 8
+       (1622 N_MS-CNT_ILR 0.175793 7 8
+        (467 cost_n1@n_-_mc_le 0 7 8
+         ("cost." 112
+          "token [ +CARG \"cost\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cost.\" +FROM #1=\"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.74322290000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (DET "neither") (N (N (N "company"))))
+ (VP (V "would")
+  (VP
+   (V (V (V "disclose"))
+    (NP (DET (NP (DET "the") (N (N (N "program")))) (DET "’s"))
+     (N (N (N "cost."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _neither_q<0:7>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ]
+            RSTR: h6
+            BODY: h7 ]
+          [ _company_n_of<8:15>
+            LBL: h8
+            ARG0: x5
+            ARG1: i9 ]
+          [ _would_v_modal<16:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: h10 ]
+          [ _disclose_v_to<22:30>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x13 [ x PERS: 3 NUM: SG ]
+            ARG3: i14 ]
+          [ _the_q<31:34>
+            LBL: h15
+            ARG0: x17 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h18
+            BODY: h16 ]
+          [ _program_n_of<35:42>
+            LBL: h19
+            ARG0: x17
+            ARG1: i20 ]
+          [ def_explicit_q<42:44>
+            LBL: h21
+            ARG0: x13
+            RSTR: h22
+            BODY: h23 ]
+          [ poss<42:44>
+            LBL: h24
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x17 ]
+          [ _cost_n_1<45:50>
+            LBL: h24
+            ARG0: x13 ] >
+   HCONS: < h22 QEQ h24 h18 QEQ h19 h10 QEQ h11 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_neither_q<0:7>[BV x5]
+ x5:_company_n_of<8:15>{x PERS 3, NUM sg}[]
+ e3:_would_v_modal<16:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_disclose_v_to-fn.Reveal_secret<22:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x5, ARG2-fn.Information x13]
+ _2:_the_q<31:34>[BV x17]
+ x17:_program_n_of<35:42>{x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<42:44>[BV x13]
+ e25:poss<42:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x17]
+ x13:_cost_n_1<45:50>{x PERS 3, NUM sg}[]
+}
+
+{
+  _neither_q<0:7> BV _company_n_of<8:15>  
+  _would_v_modal<16:21> ARG1 _disclose_v_to<22:30>  
+  _disclose_v_to<22:30> ARG1 _company_n_of<8:15>  
+  _disclose_v_to<22:30> ARG2 _cost_n_1<45:50>  
+  _the_q<31:34> BV _program_n_of<35:42>  
+  def_explicit_q<42:44> BV _cost_n_1<45:50>  
+  poss<42:44> ARG1 _cost_n_1<45:50>  
+  poss<42:44> ARG2 _program_n_of<35:42>  
+  _company_n_of<8:15> PERS 3  
+  _company_n_of<8:15> NUM sg  
+  _would_v_modal<16:21> SF prop  
+  _would_v_modal<16:21> TENSE pres  
+  _would_v_modal<16:21> MOOD indicative  
+  _would_v_modal<16:21> PROG -  
+  _would_v_modal<16:21> PERF -  
+  _disclose_v_to<22:30> SF prop  
+  _disclose_v_to<22:30> TENSE untensed  
+  _disclose_v_to<22:30> MOOD indicative  
+  _disclose_v_to<22:30> PROG -  
+  _disclose_v_to<22:30> PERF -  
+  _program_n_of<35:42> PERS 3  
+  _program_n_of<35:42> NUM sg  
+  _program_n_of<35:42> IND +  
+  poss<42:44> SF prop  
+  poss<42:44> TENSE untensed  
+  poss<42:44> MOOD indicative  
+  poss<42:44> PROG -  
+  poss<42:44> PERF -  
+  _cost_n_1<45:50> PERS 3  
+  _cost_n_1<45:50> NUM sg  
+}
+

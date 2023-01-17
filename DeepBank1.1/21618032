@@ -1,0 +1,160 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:10 h)).
+;;;
+
+[21618032] (1 of 1) {1} `"Pieces of Candlestick," they said.'
+
+[21618032:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:7>, 1, "Pieces", 0, "null", "NNS" 0.5003 "NNP" 0.4997)
+  (3, 2, 3, <8:10>, 1, "of", 0, "null", "IN" 1.0)
+  (4, 3, 4, <11:22>, 1, "Candlestick", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <22:23>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <23:24>, 1, "”", 0, "null", "''" 1.0)
+  (7, 6, 7, <25:29>, 1, "they", 0, "null", "PRP" 1.0)
+  (8, 7, 8, <30:34>, 1, "said", 0, "null", "VBD" 1.0)
+  (9, 8, 9, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (102, 0, 1, <0:7>, 1, "“Pieces", 0, "null")
+  (103, 0, 1, <0:7>, 1, "“Pieces", 0, "null", "NNS" 0.5003)
+  (107, 0, 1, <0:7>, 1, "“pieces", 0, "null")
+  (112, 0, 1, <0:7>, 1, "“pieces", 0, "null")
+  (93, 1, 2, <8:10>, 1, "of", 0, "null")
+  (109, 1, 2, <8:10>, 1, "of", 0, "null")
+  (88, 2, 3, <11:24>, 1, "Candlestick,”", 0, "null")
+  (104, 2, 3, <11:24>, 1, "Candlestick,”", 0, "null", "NNP" 1.0)
+  (106, 2, 3, <11:24>, 1, "candlestick,”", 0, "null")
+  (108, 2, 3, <11:24>, 1, "candlestick,”", 0, "null")
+  (95, 3, 4, <25:29>, 1, "they", 0, "null")
+  (110, 3, 4, <25:29>, 1, "they", 0, "null")
+  (99, 4, 5, <30:35>, 1, "said.", 0, "null")
+  (105, 4, 5, <30:35>, 1, "said.", 0, "null", "VBD" 1.0)
+  (111, 4, 5, <30:35>, 1, "said.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1178 FLR-HD_NWH_C 8.21457 0 5
+  (1172 HDN_BNP_C 5.4328 0 3
+   (1171 HD-CMP_U_C 5.59931 0 3
+    (1165 ^W_DQLEFT_PLR 0.728648 0 1
+     (1164 N_PL_OLR 0.43479 0 1
+      (132 piece_n1@n_pp_c-of_le 0 0 1
+       ("“pieces" 107
+        "token [ +CARG \"Pieces\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“pieces\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.50032730000000003\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1170 HD-CMP_U_C 3.95277 1 3
+     (185 of_prtcl@p_np_ptcl-of_le 1.04356 1 2
+      ("of" 93
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1169 HDN_BNP-PN_C 2.80194 2 3
+      (1168 W_DQRIGHT_PLR 2.91651 2 3
+       (1167 W_COMMA_PLR 0.656256 2 3
+        (1166 N_SG_ILR -0.157445 2 3
+         (262 generic_proper_ne@n_-_pn-gen_le 0 2 3
+          ("Candlestick,”" 88
+           "token [ +CARG \"Candlestick\" +CLASS proper_ne +FORM \"Candlestick,”\" +FROM \"11\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+  (1177 ^SB-HD_NMC_C 2.89152 3 5
+   (1173 HDN_BNP-QNT_C 1.61184 3 4
+    (282 they@n_-_pr-they_le 0.980748 3 4
+     ("they" 95
+      "token [ +CARG #1=\"they\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1176 ^HD_XCMP_C 0.381469 4 5
+    (1175 W_PERIOD_PLR -0.428266 4 5
+     (1174 V_PST_OLR 0.0291931 4 5
+      (333 say_v1@v_np*_le 0.164023 4 5
+       ("said." 99
+        "token [ +CARG \"said\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"said.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (N (N (N "“pieces")))
+   (PP (P "of") (NP (N (N (N (N "Candlestick,”"))))))))
+ (S/NP (NP (NP "they")) (VP/NP (V/NP (V/NP (V/NP "said."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:35>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:24>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ _piece_n_of<0:7>
+            LBL: h9
+            ARG0: x4
+            ARG1: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<11:24>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ named<11:24>
+            LBL: h14
+            ARG0: x10
+            CARG: "Candlestick" ]
+          [ pron<25:29>
+            LBL: h15
+            ARG0: x16 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<25:29>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ _say_v_1<30:35>
+            LBL: h2
+            ARG0: e3
+            ARG1: x16
+            ARG2: x4 ] >
+   HCONS: < h18 QEQ h15 h12 QEQ h14 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x4]
+ _1:udef_q<0:24>[BV x4]
+ x4:_piece_n_of<0:7>{x PERS 3, NUM pl, IND +}[ARG1 x10]
+ _2:proper_q<11:24>[BV x10]
+ x10:named<11:24>("Candlestick"){x PERS 3, NUM sg, IND +}[]
+ x16:pron<25:29>{x PERS 3, NUM pl, PT std}[]
+ _3:pronoun_q<25:29>[BV x16]
+ e3:_say_v_1<30:35>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x4]
+}
+
+{
+  focus_d<0:35> ARG1 _say_v_1<30:35>  
+  focus_d<0:35> ARG2 _piece_n_of<0:7>  
+  udef_q<0:24> BV _piece_n_of<0:7>  
+  _piece_n_of<0:7> ARG1 named<11:24>(Candlestick)  
+  proper_q<11:24> BV named<11:24>(Candlestick)  
+  pronoun_q<25:29> BV pron<25:29>  
+  _say_v_1<30:35> ARG1 pron<25:29>  
+  _say_v_1<30:35> ARG2 _piece_n_of<0:7>  
+  focus_d<0:35> SF prop  
+  focus_d<0:35> TENSE untensed  
+  focus_d<0:35> MOOD indicative  
+  focus_d<0:35> PROG -  
+  focus_d<0:35> PERF -  
+  _piece_n_of<0:7> PERS 3  
+  _piece_n_of<0:7> NUM pl  
+  _piece_n_of<0:7> IND +  
+  named<11:24>(Candlestick) PERS 3  
+  named<11:24>(Candlestick) NUM sg  
+  named<11:24>(Candlestick) IND +  
+  pron<25:29> PERS 3  
+  pron<25:29> NUM pl  
+  pron<25:29> PT std  
+  _say_v_1<30:35> SF prop  
+  _say_v_1<30:35> TENSE past  
+  _say_v_1<30:35> MOOD indicative  
+  _say_v_1<30:35> PROG -  
+  _say_v_1<30:35> PERF -  
+}
+

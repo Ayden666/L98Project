@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (11:02 h)).
+;;;
+
+[20109045] (1 of 1) {1} `"We play to win.'
+
+[20109045:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "We", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:8>, 1, "play", 0, "null", "VBP" 0.96 "VB" 0.04)
+  (4, 3, 4, <9:11>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <12:15>, 1, "win", 0, "null", "VB" 1.0)
+  (6, 5, 6, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:3>, 1, "“we", 0, "null")
+  (73, 0, 1, <0:3>, 1, "“we", 0, "null")
+  (65, 1, 2, <4:8>, 1, "play", 0, "null")
+  (67, 1, 2, <4:8>, 1, "play", 0, "null", "VBP" 0.96)
+  (72, 1, 2, <4:8>, 1, "play", 0, "null")
+  (60, 2, 3, <9:11>, 1, "to", 0, "null")
+  (70, 2, 3, <9:11>, 1, "to", 0, "null")
+  (64, 3, 4, <12:16>, 1, "win.", 0, "null")
+  (68, 3, 4, <12:16>, 1, "win.", 0, "null", "VB" 1.0)
+  (71, 3, 4, <12:16>, 1, "win.", 0, "null")
+>
+
+(ROOT_STRICT
+ (560 SB-HD_MC_C 0.233111 0 4
+  (547 HDN_BNP-QNT_C -0.329839 0 1
+   (546 W_DQLEFT_PLR 0.30596 0 1
+    (74 we@n_-_pr-we_le 0.105132 0 1
+     ("“we" 69
+      "token [ +CARG \"We\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“we\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (559 ^HD-AJ_SCP_C 0.411409 1 4
+   (557 ^HD_OPTCMP_C 0.119167 1 2
+    (556 V_N3S-BSE_ILR -0.699026 1 2
+     (97 play_v1@v_np*_le 0.601478 1 2
+      ("play" 65
+       "token [ +CARG #1=\"play\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95997500000000002\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (558 HD-CMP_U_C 0.0945153 2 4
+    (139 to_subord@p_vp_bse_le 0.648662 2 3
+     ("to" 60
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (551 HD_OPTCMP_C -0.442933 3 4
+     (550 W_PERIOD_PLR -1.53912 3 4
+      (549 V_N3S-BSE_ILR -0.638355 3 4
+       (194 win_v1@v_np*_le 0 3 4
+        ("win." 64
+         "token [ +CARG \"win\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"win.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP (NP "“we")))
+ (VP (VP (V (V "play"))) (PP (P "to") (VP (V (V (V "win.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _play_v_1<4:8>
+            LBL: h9
+            ARG0: e3
+            ARG1: x5
+            ARG2: p10 ]
+          [ _in+order+to_x<9:11>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h13
+            ARG2: h11 ]
+          [ _win_v_1<12:16>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: p16 ] >
+   HCONS: < h11 QEQ h14 h13 QEQ h9 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e12:
+ x5:pron<0:3>{x PERS 1, NUM pl, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_play_v_1<4:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e12:_in+order+to_x<9:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e15]
+ e15:_win_v_1<12:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _play_v_1<4:8> ARG1 pron<0:3>  
+  _in+order+to_x<9:11> ARG1 _play_v_1<4:8>  
+  _in+order+to_x<9:11> ARG2 _win_v_1<12:16>  
+  _win_v_1<12:16> ARG1 pron<0:3>  
+  pron<0:3> PERS 1  
+  pron<0:3> NUM pl  
+  pron<0:3> PT std  
+  _play_v_1<4:8> SF prop  
+  _play_v_1<4:8> TENSE pres  
+  _play_v_1<4:8> MOOD indicative  
+  _play_v_1<4:8> PROG -  
+  _play_v_1<4:8> PERF -  
+  _in+order+to_x<9:11> SF prop  
+  _in+order+to_x<9:11> TENSE untensed  
+  _in+order+to_x<9:11> MOOD indicative  
+  _in+order+to_x<9:11> PROG -  
+  _in+order+to_x<9:11> PERF -  
+  _win_v_1<12:16> SF prop  
+  _win_v_1<12:16> TENSE untensed  
+  _win_v_1<12:16> MOOD indicative  
+  _win_v_1<12:16> PROG -  
+  _win_v_1<12:16> PERF -  
+}
+

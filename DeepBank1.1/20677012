@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:22 h)).
+;;;
+
+[20677012] (1 of 1) {1} `Whittle has met some resistance.'
+
+[20677012:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Whittle", 0, "null", "NNP" 0.9193 "NN" 0.0807)
+  (2, 1, 2, <8:11>, 1, "has", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <12:15>, 1, "met", 0, "null", "VBN" 0.9276 "VBD" 0.0724)
+  (4, 3, 4, <16:20>, 1, "some", 0, "null", "DT" 1.0)
+  (5, 4, 5, <21:31>, 1, "resistance", 0, "null", "NN" 1.0)
+  (6, 5, 6, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:7>, 1, "Whittle", 0, "null")
+  (74, 0, 1, <0:7>, 1, "whittle", 0, "null")
+  (79, 0, 1, <0:7>, 1, "whittle", 0, "null")
+  (61, 1, 2, <8:11>, 1, "has", 0, "null")
+  (72, 1, 2, <8:11>, 1, "has", 0, "null", "VBZ" 1.0)
+  (75, 1, 2, <8:11>, 1, "has", 0, "null")
+  (68, 2, 3, <12:15>, 1, "met", 0, "null")
+  (71, 2, 3, <12:15>, 1, "met", 0, "null", "VBN" 0.9276)
+  (78, 2, 3, <12:15>, 1, "met", 0, "null")
+  (63, 3, 4, <16:20>, 1, "some", 0, "null")
+  (76, 3, 4, <16:20>, 1, "some", 0, "null")
+  (65, 4, 5, <21:32>, 1, "resistance.", 0, "null")
+  (73, 4, 5, <21:32>, 1, "resistance.", 0, "null", "NN" 1.0)
+  (77, 4, 5, <21:32>, 1, "resistance.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1018 SB-HD_MC_C 7.33688 0 5
+  (1011 HDN_BNP-PN_C -1.0285 0 1
+   (1010 N_SG_ILR -0.979548 0 1
+    (80 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Whittle" 70
+      "token [ +CARG #1=\"Whittle\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91934550000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1017 ^HD-CMP_U_C 7.34833 1 5
+   (99 has_aux@v_vp_has_le 2.86674 1 2
+    ("has" 61
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1016 HD-CMP_U_C 3.81551 2 5
+    (1012 ^V_PSP_OLR 0.7754 2 3
+     (183 meet_v1@v_np*_le 0.304393 2 3
+      ("met" 68
+       "token [ +CARG #1=\"met\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92764259999999998\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1015 SP-HD_N_C 2.16793 3 5
+     (219 some@d_-_prt-div_le 1.33928 3 4
+      ("some" 63
+       "token [ +CARG #1=\"some\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1014 ^W_PERIOD_PLR 0.353022 4 5
+      (1013 N_MS-CNT_ILR 0.175793 4 5
+       (224 resistance_n2@n_-_mc_le 0 4 5
+        ("resistance." 65
+         "token [ +CARG \"resistance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"resistance.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "Whittle")))
+ (VP (V "has")
+  (VP (V (V "met")) (NP (DET "some") (N (N (N "resistance.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Whittle" ]
+          [ _meet_v_1<12:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _some_q<16:20>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _resistance_n_to<21:32>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Whittle"){x PERS 3, NUM sg, IND +}[]
+ e3:_meet_v_1<12:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x6, ARG2 x9]
+ _2:_some_q<16:20>[BV x9]
+ x9:_resistance_n_to<21:32>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Whittle)  
+  _meet_v_1<12:15> ARG1 named<0:7>(Whittle)  
+  _meet_v_1<12:15> ARG2 _resistance_n_to<21:32>  
+  _some_q<16:20> BV _resistance_n_to<21:32>  
+  named<0:7>(Whittle) PERS 3  
+  named<0:7>(Whittle) NUM sg  
+  named<0:7>(Whittle) IND +  
+  _meet_v_1<12:15> SF prop  
+  _meet_v_1<12:15> TENSE pres  
+  _meet_v_1<12:15> MOOD indicative  
+  _meet_v_1<12:15> PROG -  
+  _meet_v_1<12:15> PERF +  
+  _resistance_n_to<21:32> PERS 3  
+  _resistance_n_to<21:32> NUM sg  
+}
+

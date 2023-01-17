@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:03 h)).
+;;;
+
+[21208010] (1 of 1) {1} `"People are fearful and sensitive.'
+
+[21208010:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:7>, 1, "People", 0, "null", "NNS" 0.9748 "NNPS" 0.0252)
+  (3, 2, 3, <8:11>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <12:19>, 1, "fearful", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <20:23>, 1, "and", 0, "null", "CC" 1.0)
+  (6, 5, 6, <24:33>, 1, "sensitive", 0, "null", "JJ" 1.0)
+  (7, 6, 7, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (78, 0, 1, <0:7>, 1, "“People", 0, "null", "NNS" 0.9748)
+  (82, 0, 1, <0:7>, 1, "“people", 0, "null")
+  (87, 0, 1, <0:7>, 1, "“people", 0, "null")
+  (69, 1, 2, <8:11>, 1, "are", 0, "null")
+  (79, 1, 2, <8:11>, 1, "are", 0, "null", "VBP" 1.0)
+  (83, 1, 2, <8:11>, 1, "are", 0, "null")
+  (71, 2, 3, <12:19>, 1, "fearful", 0, "null")
+  (80, 2, 3, <12:19>, 1, "fearful", 0, "null", "JJ" 1.0)
+  (84, 2, 3, <12:19>, 1, "fearful", 0, "null")
+  (73, 3, 4, <20:23>, 1, "and", 0, "null")
+  (85, 3, 4, <20:23>, 1, "and", 0, "null")
+  (75, 4, 5, <24:34>, 1, "sensitive.", 0, "null")
+  (81, 4, 5, <24:34>, 1, "sensitive.", 0, "null", "JJ" 1.0)
+  (86, 4, 5, <24:34>, 1, "sensitive.", 0, "null")
+>
+
+(ROOT_STRICT
+ (502 SB-HD_MC_C 5.27005 0 5
+  (495 HDN_BNP_C 1.11763 0 1
+   (494 HDN_OPTCMP_C 0.835634 0 1
+    (493 W_DQLEFT_PLR 0.847663 0 1
+     (492 N_PL_OLR 0.553805 0 1
+      (94 people_n1@n_pp_c-pl_le 0 0 1
+       ("“people" 82
+        "token [ +CARG \"People\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“people\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97480869999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (501 ^HD-CMP_U_C 2.63652 1 5
+   (99 be_c_are@v_prd_are_le 1.27762 1 2
+    ("are" 69
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (500 J-J_CRD-PRD-T_C 1.31691 2 5
+    (496 HD_OPTCMP_C -0.012064 2 3
+     (106 fearful_a1@aj_pp_i_le 0 2 3
+      ("fearful" 71
+       "token [ +CARG #1=\"fearful\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (499 ^MRK-NH_EVNT_C 0.93357 3 5
+     (112 and_conj@c_xp_and_le 0.573527 3 4
+      ("and" 73
+       "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (498 HD_OPTCMP_C 0.3379 4 5
+      (497 W_PERIOD_PLR 0.234888 4 5
+       (129 sensitive_a1@aj_pp_i_le 0 4 5
+        ("sensitive." 75
+         "token [ +CARG \"sensitive\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"sensitive.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N (N "“people")))))
+ (VP (V "are")
+  (PRDP (AP (ADJ "fearful"))
+   (AP (CONJ "and") (AP (ADJ (ADJ "sensitive.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _people_n_of<0:7>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _fearful_a_of<12:19>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: i12 ]
+          [ _and_c<20:23>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h10
+            L-INDEX: e11
+            R-HNDL: h13
+            R-INDEX: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _sensitive_a_to<24:34>
+            LBL: h13
+            ARG0: e14
+            ARG1: x6
+            ARG2: i15 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:7>[BV x6]
+ x6:_people_n_of<0:7>{x PERS 3, NUM pl, IND +}[]
+ e11:_fearful_a_of<12:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e3:_and_c<20:23>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[L-HNDL e11, L-INDEX e11, R-HNDL e14, R-INDEX e14]
+ e14:_sensitive_a_to<24:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:7> BV _people_n_of<0:7>  
+  _fearful_a_of<12:19> ARG1 _people_n_of<0:7>  
+  _and_c<20:23> L-HNDL _fearful_a_of<12:19>  
+  _and_c<20:23> L-INDEX _fearful_a_of<12:19>  
+  _and_c<20:23> R-HNDL _sensitive_a_to<24:34>  
+  _and_c<20:23> R-INDEX _sensitive_a_to<24:34>  
+  _sensitive_a_to<24:34> ARG1 _people_n_of<0:7>  
+  _people_n_of<0:7> PERS 3  
+  _people_n_of<0:7> NUM pl  
+  _people_n_of<0:7> IND +  
+  _fearful_a_of<12:19> SF prop  
+  _fearful_a_of<12:19> TENSE pres  
+  _fearful_a_of<12:19> MOOD indicative  
+  _fearful_a_of<12:19> PROG -  
+  _fearful_a_of<12:19> PERF -  
+  _and_c<20:23> SF prop  
+  _and_c<20:23> TENSE pres  
+  _and_c<20:23> MOOD indicative  
+  _and_c<20:23> PROG -  
+  _and_c<20:23> PERF -  
+  _sensitive_a_to<24:34> SF prop  
+  _sensitive_a_to<24:34> TENSE untensed  
+  _sensitive_a_to<24:34> MOOD indicative  
+  _sensitive_a_to<24:34> PROG -  
+  _sensitive_a_to<24:34> PERF -  
+}
+

@@ -1,0 +1,149 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:38 h)).
+;;;
+
+[21055007] (1 of 1) {1} `Big financial stocks carried the day.'
+
+[21055007:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Big", 0, "null", "JJ" 0.8586 "NNP" 0.1414)
+  (2, 1, 2, <4:13>, 1, "financial", 0, "null", "JJ" 1.0)
+  (3, 2, 3, <14:20>, 1, "stocks", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <21:28>, 1, "carried", 0, "null", "VBD" 0.9164 "VBN" 0.0836)
+  (5, 4, 5, <29:32>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <33:36>, 1, "day", 0, "null", "NN" 1.0)
+  (7, 6, 7, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:3>, 1, "Big", 0, "null")
+  (82, 0, 1, <0:3>, 1, "Big", 0, "null", "JJ" 0.8586)
+  (87, 0, 1, <0:3>, 1, "big", 0, "null")
+  (93, 0, 1, <0:3>, 1, "big", 0, "null")
+  (70, 1, 2, <4:13>, 1, "financial", 0, "null")
+  (84, 1, 2, <4:13>, 1, "financial", 0, "null", "JJ" 1.0)
+  (88, 1, 2, <4:13>, 1, "financial", 0, "null")
+  (72, 2, 3, <14:20>, 1, "stocks", 0, "null")
+  (85, 2, 3, <14:20>, 1, "stocks", 0, "null", "NNS" 1.0)
+  (89, 2, 3, <14:20>, 1, "stocks", 0, "null")
+  (79, 3, 4, <21:28>, 1, "carried", 0, "null")
+  (83, 3, 4, <21:28>, 1, "carried", 0, "null", "VBD" 0.9164)
+  (92, 3, 4, <21:28>, 1, "carried", 0, "null")
+  (74, 4, 5, <29:32>, 1, "the", 0, "null")
+  (90, 4, 5, <29:32>, 1, "the", 0, "null")
+  (76, 5, 6, <33:37>, 1, "day.", 0, "null")
+  (86, 5, 6, <33:37>, 1, "day.", 0, "null", "NN" 1.0)
+  (91, 5, 6, <33:37>, 1, "day.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1163 SB-HD_MC_C 7.84131 0 6
+  (1156 HDN_BNP_C 2.61087 0 3
+   (1155 AJ-HDN_ADJN_C 1.86208 0 3
+    (96 big_a1@aj_-_i-er_le -0.674123 0 1
+     ("big" 87
+      "token [ +CARG \"Big\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"big\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85858159999999994\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1154 ^AJ-HDN_NORM_C 2.03571 1 3
+     (97 financial_a1@aj_-_i_le -1.24055 1 2
+      ("financial" 70
+       "token [ +CARG #1=\"financial\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1153 ^N_PL_OLR 1.03279 2 3
+      (101 stock_n1@n_-_mc_le 1.25411 2 3
+       ("stocks" 72
+        "token [ +CARG #1=\"stocks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1162 ^HD-CMP_U_C 3.71454 3 6
+   (1157 ^V_PST_OLR 0.107619 3 4
+    (171 carry_v1@v_np_le 0 3 4
+     ("carried" 79
+      "token [ +CARG #1=\"carried\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9164487\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1161 SP-HD_N_C 2.59802 4 6
+    (332 the_1@d_-_the_le 1.07131 4 5
+     ("the" 74
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1160 ^HDN_OPTCMP_C 1.17519 5 6
+     (1159 W_PERIOD_PLR 0.844884 5 6
+      (1158 N_SG_ILR 0.210848 5 6
+       (364 day_n@n_pp_c-day_le 0 5 6
+        ("day." 76
+         "token [ +CARG \"day\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"day.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (AP "big") (N (AP "financial") (N (N "stocks")))))
+ (VP (V (V "carried")) (NP (DET "the") (N (N (N (N "day.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _big_a_1<0:3>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _financial_a_1<4:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _stock_n_1<14:20>
+            LBL: h8
+            ARG0: x6 ]
+          [ _carry_v_1<21:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<29:32>
+            LBL: h12
+            ARG0: x11
+            RSTR: h14
+            BODY: h13 ]
+          [ _day_n_of<33:37>
+            LBL: h15
+            ARG0: x11
+            ARG1: i16 ] >
+   HCONS: < h14 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:20>[BV x6]
+ e9:_big_a_1<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_financial_a_1<4:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_stock_n_1<14:20>{x PERS 3, NUM pl}[]
+ e3:_carry_v_1<21:28>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x11]
+ _2:_the_q<29:32>[BV x11]
+ x11:_day_n_of<33:37>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:20> BV _stock_n_1<14:20>  
+  _big_a_1<0:3> ARG1 _stock_n_1<14:20>  
+  _financial_a_1<4:13> ARG1 _stock_n_1<14:20>  
+  _carry_v_1<21:28> ARG1 _stock_n_1<14:20>  
+  _carry_v_1<21:28> ARG2 _day_n_of<33:37>  
+  _the_q<29:32> BV _day_n_of<33:37>  
+  _big_a_1<0:3> SF prop  
+  _big_a_1<0:3> TENSE untensed  
+  _big_a_1<0:3> MOOD indicative  
+  _big_a_1<0:3> PROG -  
+  _big_a_1<0:3> PERF -  
+  _financial_a_1<4:13> SF prop  
+  _financial_a_1<4:13> TENSE untensed  
+  _financial_a_1<4:13> MOOD indicative  
+  _financial_a_1<4:13> PROG -  
+  _financial_a_1<4:13> PERF -  
+  _stock_n_1<14:20> PERS 3  
+  _stock_n_1<14:20> NUM pl  
+  _carry_v_1<21:28> SF prop  
+  _carry_v_1<21:28> TENSE past  
+  _carry_v_1<21:28> MOOD indicative  
+  _carry_v_1<21:28> PROG -  
+  _carry_v_1<21:28> PERF -  
+  _day_n_of<33:37> PERS 3  
+  _day_n_of<33:37> NUM sg  
+  _day_n_of<33:37> IND +  
+}
+

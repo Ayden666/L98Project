@@ -1,0 +1,184 @@
+;;;
+;;; Redwoods export of `wsj20d';
+;;; (wsun@wsun; 23-jan-2018 (05:36 h)).
+;;;
+
+[22061057] (1 of 1) {1} `Dravo rose 5/8 to 16 1/8.'
+
+[22061057:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Dravo", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:10>, 1, "rose", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <11:14>, 1, "5/8", 0, "null", "CD" 1.0)
+  (4, 3, 4, <15:17>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <18:20>, 1, "16", 0, "null", "CD" 1.0)
+  (6, 5, 6, <21:24>, 1, "1/8", 0, "null", "CD" 1.0)
+  (7, 6, 7, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:5>, 1, "Dravo", 0, "null")
+  (76, 0, 1, <0:5>, 1, "dravo", 0, "null")
+  (83, 0, 1, <0:5>, 1, "dravo", 0, "null")
+  (73, 1, 2, <6:10>, 1, "rose", 0, "null")
+  (75, 1, 2, <6:10>, 1, "rose", 0, "null", "VBD" 1.0)
+  (82, 1, 2, <6:10>, 1, "rose", 0, "null")
+  (60, 2, 3, <11:14>, 1, "5/8", 0, "null")
+  (62, 2, 3, <11:14>, 1, "5/8", 0, "null")
+  (77, 2, 3, <11:14>, 1, "5/8", 0, "null")
+  (71, 3, 4, <15:17>, 1, "to", 0, "null")
+  (81, 3, 4, <15:17>, 1, "to", 0, "null")
+  (64, 4, 5, <18:20>, 1, "16", 0, "null")
+  (78, 4, 5, <18:20>, 1, "16", 0, "null")
+  (66, 5, 6, <21:25>, 1, "1/8.", 0, "null")
+  (67, 5, 6, <21:25>, 1, "1/8.", 0, "null")
+  (79, 5, 6, <21:25>, 1, "1/8.", 0, "null")
+  (80, 5, 6, <21:25>, 1, "1/8.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1636 SB-HD_MC_C 8.42984 0 6
+  (1622 HDN_BNP-PN_C -1.0285 0 1
+   (1621 N_SG_ILR -0.979548 0 1
+    (84 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Dravo" 74
+      "token [ +CARG #1=\"Dravo\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1635 ^HD-AJ_INT-UNSL_C 8.97085 1 6
+   (1628 ^HD-AJ_INT-UNSL_C 6.27143 1 3
+    (1624 ^HD_OPTCMP_C 5.0218 1 2
+     (1623 V_PST_OLR 3.53124 1 2
+      (87 rise_v2@v_pp_unacc_le 1.80509 1 2
+       ("rose" 73
+        "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1627 NP_ADV-MNP_C 0.0665469 2 3
+     (1626 HDN_BNP-NUM_C 0.806083 2 3
+      (1625 HDN_NP-NUM_C 1.21714 2 3
+       (96 generic_fract_ne@aj_-_i-frct-gen_le 0 2 3
+        ("5/8" 62
+         "token [ +CARG #1=\"5/8\" +CLASS frct_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (1634 HD-CMP_U_C 1.14104 3 6
+    (121 to@p_np_i-nnm_le -1.63041 3 4
+     ("to" 71
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1633 HDN_BNP-NUM_C 1.27952 4 6
+     (1632 HDN_NP-NUM_C 0.760882 4 6
+      (1631 XP_BRCK-PR_C 0.077226 4 6
+       (1630 HD-CMP_U_C 0.167106 4 6
+        (174 generic_card_np_ne@aj_np_i-crd-gen_le 0 4 5
+         ("16" 64
+          "token [ +CARG #1=\"16\" +CLASS card_ne +FORM #1 +FROM \"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (1629 W_PERIOD_PLR 0 5 6
+         (179 generic_fract_ne@aj_-_i-frct-gen_le 0 5 6
+          ("1/8." 67
+           "token [ +CARG \"1/8\" +CLASS frct_ne +FORM \"1/8.\" +FROM \"21\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S (NP (N (N "Dravo")))
+ (VP (VP (VP (V (V "rose"))) (PP (NP (N (ADJ "5/8")))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "16") (ADJ (ADJ "1/8.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Dravo" ]
+          [ _rise_v_1<6:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<11:14>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<11:14>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ fraction<11:14>
+            LBL: h14
+            ARG0: i16
+            ARG1: i15
+            CARG: "5/8" ]
+          [ _to_p<15:17>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<18:25>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ card<18:20>
+            LBL: h22
+            ARG0: x18
+            ARG1: i23
+            CARG: "16" ]
+          [ plus<18:20>
+            LBL: h24
+            ARG0: i26
+            ARG1: i23
+            ARG2: h22
+            ARG3: h25 ]
+          [ fraction<21:25>
+            LBL: h25
+            ARG0: i27
+            ARG1: i23
+            CARG: "1/8" ] >
+   HCONS: < h20 QEQ h24 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Dravo"){x PERS 3, NUM sg, IND +}[]
+ e3:_rise_v_1<6:10>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<11:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _2:number_q<11:14>[]
+ i16:fraction<11:14>("5/8"){i}[]
+ e17:_to_p<15:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ _3:number_q<18:25>[BV x18]
+ x18:card<18:20>("16"){x PERS 3, NUM sg}[]
+ i26:plus<18:20>{i}[ARG2 x18, ARG3 i27]
+ i27:fraction<21:25>("1/8"){i}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Dravo)  
+  _rise_v_1<6:10> ARG1 named<0:5>(Dravo)  
+  loc_nonsp<11:14> ARG1 _rise_v_1<6:10>  
+  _to_p<15:17> ARG1 _rise_v_1<6:10>  
+  _to_p<15:17> ARG2 card<18:20>(16)  
+  number_q<18:25> BV card<18:20>(16)  
+  plus<18:20> ARG2 card<18:20>(16)  
+  plus<18:20> ARG3 fraction<21:25>(1/8)  
+  named<0:5>(Dravo) PERS 3  
+  named<0:5>(Dravo) NUM sg  
+  named<0:5>(Dravo) IND +  
+  _rise_v_1<6:10> SF prop  
+  _rise_v_1<6:10> TENSE past  
+  _rise_v_1<6:10> MOOD indicative  
+  _rise_v_1<6:10> PROG -  
+  _rise_v_1<6:10> PERF -  
+  loc_nonsp<11:14> SF prop  
+  loc_nonsp<11:14> TENSE untensed  
+  loc_nonsp<11:14> MOOD indicative  
+  loc_nonsp<11:14> PROG -  
+  loc_nonsp<11:14> PERF -  
+  _to_p<15:17> SF prop  
+  _to_p<15:17> TENSE untensed  
+  _to_p<15:17> MOOD indicative  
+  _to_p<15:17> PROG -  
+  _to_p<15:17> PERF -  
+  card<18:20>(16) PERS 3  
+  card<18:20>(16) NUM sg  
+}
+

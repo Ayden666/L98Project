@@ -1,0 +1,61 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:31 h)).
+;;;
+
+[22165001] (1 of 1) {1} `literally.'
+
+[22165001:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "literally", 0, "null", "RB" 1.0)
+  (2, 1, 2, <9:10>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (21, 0, 1, <0:10>, 1, "literally.", 0, "null")
+  (22, 0, 1, <0:10>, 1, "literally.", 0, "null", "RB" 1.0)
+  (23, 0, 1, <0:10>, 1, "literally.", 0, "null")
+>
+
+(ROOT_FRAG
+ (46 R_INT-FRG_C 0.387537 0 1
+  (45 W_PERIOD_PLR 0.387537 0 1
+   (24 literally_adv1@av_-_i-vp_le 0 0 1
+    ("literally." 21
+     "token [ +CARG \"literally\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM \"literally.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (ADV (ADV "literally.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _literal_a_1<0:10>
+            LBL: h5
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e6:_literal_a_1<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:10> SF prop  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _literal_a_1<0:10> SF prop  
+  _literal_a_1<0:10> TENSE untensed  
+  _literal_a_1<0:10> MOOD indicative  
+  _literal_a_1<0:10> PROG -  
+  _literal_a_1<0:10> PERF -  
+}
+

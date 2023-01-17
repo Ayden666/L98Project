@@ -1,0 +1,130 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:25 h)).
+;;;
+
+[21643036] (1 of 1) {1} `How would I file?'
+
+[21643036:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "How", 0, "null", "WRB" 1.0)
+  (2, 1, 2, <4:9>, 1, "would", 0, "null", "MD" 1.0)
+  (3, 2, 3, <10:11>, 1, "I", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <12:16>, 1, "file", 0, "null", "VB" 0.9865 "VBP" 0.0135)
+  (5, 4, 5, <16:17>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:3>, 1, "how", 0, "null")
+  (65, 0, 1, <0:3>, 1, "how", 0, "null")
+  (56, 1, 2, <4:9>, 1, "would", 0, "null")
+  (63, 1, 2, <4:9>, 1, "would", 0, "null")
+  (47, 2, 3, <10:11>, 1, "I", 0, "null")
+  (61, 2, 3, <10:11>, 1, "i", 0, "null")
+  (62, 2, 3, <10:11>, 1, "i", 0, "null")
+  (57, 3, 4, <12:17>, 1, "file?", 0, "null")
+  (59, 3, 4, <12:17>, 1, "file?", 0, "null", "VB" 0.9865)
+  (64, 3, 4, <12:17>, 1, "file?", 0, "null")
+>
+
+(ROOT_STRICT
+ (299 FLR-HD_WH-MC_C 4.34721 0 4
+  (68 how_adv@pp_-_i-wh_le 0.270653 0 1
+   ("how" 60
+    "token [ +CARG \"How\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"how\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (298 ^HD-CMP_U_C 3.62502 1 4
+   (293 ^HD-CMP_U_C 2.71307 1 3
+    (291 ^V_AUX-SB-INV_DLR 0.149176 1 2
+     (76 would_aux_pos@v_vp_mdl-p-unsp_le 0.149176 1 2
+      ("would" 56
+       "token [ +CARG #1=\"would\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (292 HDN_BNP-QNT_C 1.11799 2 3
+     (82 i@n_-_pr-i_le 0.729722 2 3
+      ("i" 61
+       "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL - ] +FORM \"i\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (297 HD_XAJ-INT-VP_C 0.03233 3 4
+    (296 HD_OPTCMP_C -0.204554 3 4
+     (295 W_QMARK_PLR -0.204554 3 4
+      (294 V_N3S-BSE_ILR -0.204554 3 4
+       (114 file_v1@v_np*_le 0 3 4
+        ("file?" 57
+         "token [ +CARG \"file\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"file?\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98649169999999997\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (PP "how")
+ (S/PP (V/PP (V/PP (V/PP "would")) (NP (NP "i")))
+  (VP/PP (VP (V (V (V "file?")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unspec_manner<0:3>
+            LBL: h4
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x5 ]
+          [ which_q<0:3>
+            LBL: h8
+            ARG0: x5
+            RSTR: h9
+            BODY: h10 ]
+          [ manner<0:3>
+            LBL: h11
+            ARG0: x5 ]
+          [ _would_v_modal<4:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: h12 ]
+          [ pron<10:11>
+            LBL: h13
+            ARG0: x14 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<10:11>
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ _file_v_1<12:17>
+            LBL: h4
+            ARG0: e6
+            ARG1: x14
+            ARG2: p18 ] >
+   HCONS: < h16 QEQ h13 h12 QEQ h4 h9 QEQ h11 h1 QEQ h2 > ]
+
+{e3:
+ e7:unspec_manner<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e6, ARG2 x5]
+ _1:which_q<0:3>[BV x5]
+ x5:manner<0:3>{x}[]
+ e3:_would_v_modal<4:9>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e6]
+ x14:pron<10:11>{x PERS 1, NUM sg, PT std}[]
+ _2:pronoun_q<10:11>[BV x14]
+ e6:_file_v_1<12:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14]
+}
+
+{
+  unspec_manner<0:3> ARG1 _file_v_1<12:17>  
+  unspec_manner<0:3> ARG2 manner<0:3>  
+  which_q<0:3> BV manner<0:3>  
+  _would_v_modal<4:9> ARG1 _file_v_1<12:17>  
+  pronoun_q<10:11> BV pron<10:11>  
+  _file_v_1<12:17> ARG1 pron<10:11>  
+  unspec_manner<0:3> SF prop  
+  unspec_manner<0:3> TENSE untensed  
+  unspec_manner<0:3> MOOD indicative  
+  unspec_manner<0:3> PROG -  
+  unspec_manner<0:3> PERF -  
+  _would_v_modal<4:9> SF ques  
+  _would_v_modal<4:9> TENSE pres  
+  _would_v_modal<4:9> MOOD indicative  
+  _would_v_modal<4:9> PROG -  
+  _would_v_modal<4:9> PERF -  
+  pron<10:11> PERS 1  
+  pron<10:11> NUM sg  
+  pron<10:11> PT std  
+  _file_v_1<12:17> SF prop  
+  _file_v_1<12:17> TENSE untensed  
+  _file_v_1<12:17> MOOD indicative  
+  _file_v_1<12:17> PROG -  
+  _file_v_1<12:17> PERF -  
+}
+

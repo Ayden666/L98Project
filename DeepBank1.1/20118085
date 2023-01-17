@@ -1,0 +1,160 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:08 h)).
+;;;
+
+[20118085] (1 of 1) {1} `"Do you make sweatshirts or sparkplugs?'
+
+[20118085:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "Do", 0, "null", "VBP" 0.7502 "VB" 0.2498)
+  (3, 2, 3, <4:7>, 1, "you", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <8:12>, 1, "make", 0, "null", "VB" 0.5455 "VBP" 0.4545)
+  (5, 4, 5, <13:24>, 1, "sweatshirts", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <25:27>, 1, "or", 0, "null", "CC" 1.0)
+  (7, 6, 7, <28:38>, 1, "sparkplugs", 0, "null", "NNS" 1.0)
+  (8, 7, 8, <38:39>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:3>, 1, "“Do", 0, "null", "VBP" 0.7502)
+  (96, 0, 1, <0:3>, 1, "“Do", 0, "null", "VB" 0.2498)
+  (97, 0, 1, <0:3>, 1, "“do", 0, "null")
+  (103, 0, 1, <0:3>, 1, "“do", 0, "null")
+  (80, 1, 2, <4:7>, 1, "you", 0, "null")
+  (98, 1, 2, <4:7>, 1, "you", 0, "null")
+  (87, 2, 3, <8:12>, 1, "make", 0, "null")
+  (91, 2, 3, <8:12>, 1, "make", 0, "null", "VB" 0.5455)
+  (95, 2, 3, <8:12>, 1, "make", 0, "null", "VBP" 0.4545)
+  (102, 2, 3, <8:12>, 1, "make", 0, "null")
+  (82, 3, 4, <13:24>, 1, "sweatshirts", 0, "null")
+  (93, 3, 4, <13:24>, 1, "sweatshirts", 0, "null", "NNS" 1.0)
+  (99, 3, 4, <13:24>, 1, "sweatshirts", 0, "null")
+  (84, 4, 5, <25:27>, 1, "or", 0, "null")
+  (100, 4, 5, <25:27>, 1, "or", 0, "null")
+  (86, 5, 6, <28:39>, 1, "sparkplugs?", 0, "null")
+  (94, 5, 6, <28:39>, 1, "sparkplugs?", 0, "null", "NNS" 1.0)
+  (101, 5, 6, <28:39>, 1, "sparkplugs?", 0, "null")
+>
+
+(ROOT_STRICT
+ (877 HD_YESNO_C 4.04751 0 6
+  (876 HD-CMP_U_C 4.06812 0 6
+   (868 ^HD-CMP_U_C 0.829626 0 2
+    (866 ^W_DQLEFT_PLR 0 0 1
+     (865 V_AUX-SB-INV_DLR 0 0 1
+      (112 do1_pos@v_vp_do-f_le 0 0 1
+       ("“do" 97
+        "token [ +CARG \"Do\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“do\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75020050000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (867 HDN_BNP-QNT_C 0.337309 1 2
+     (144 you@n_-_pr-you_le 0.163445 1 2
+      ("you" 80
+       "token [ +CARG #1=\"you\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (875 HD-CMP_U_C 2.23039 2 6
+    (869 ^V_N3S-BSE_ILR 0.736324 2 3
+     (177 make_v1@v_np_noarg3_le 0.654159 2 3
+      ("make" 87
+       "token [ +CARG #1=\"make\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54553609999999997\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (874 NP-NP_CRD-T_C 0.988015 3 6
+     (870 HDN_BNP_C 0.055886 3 4
+      (193 generic_pl_noun@n_-_c-pl-unk_le 0 3 4
+       ("sweatshirts" 93
+        "token [ +CARG #1=\"sweatshirts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED \"_sweatshirts/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (873 ^MRK-NH_NOM_C -0.486278 4 6
+      (201 or_conj_1@c_xp_or_le -0.656855 4 5
+       ("or" 84
+        "token [ +CARG #1=\"or\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (872 HDN_BNP_C 0.331673 5 6
+       (871 W_QMARK_PLR 0 5 6
+        (220 generic_pl_noun@n_-_c-pl-unk_le 0 5 6
+         ("sparkplugs?" 94
+          "token [ +CARG \"sparkplugs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"sparkplugs?\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED \"_sparkplugs/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NNS\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S
+ (S (V (V (V (V "“do"))) (NP (NP "you")))
+  (VP (V (V "make"))
+   (NP (NP (N "sweatshirts"))
+    (NP-CJ (CONJ "or") (NP (N (N "sparkplugs?"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<4:7>
+            LBL: h4
+            ARG0: x5 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<4:7>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _make_v_1<8:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10
+            ARG3: u9 ]
+          [ udef_q<13:39>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ udef_q<13:24>
+            LBL: h14
+            ARG0: x16 [ x PERS: 3 NUM: PL ]
+            RSTR: h15
+            BODY: h17 ]
+          [ _sweatshirts/nns_u_unknown<13:24>
+            LBL: h18
+            ARG0: x16 ]
+          [ _or_c<25:27>
+            LBL: h19
+            ARG0: x10
+            L-INDEX: x16
+            R-INDEX: x20 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<28:39>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ _sparkplugs/nns_u_unknown<28:39>
+            LBL: h24
+            ARG0: x20 ] >
+   HCONS: < h22 QEQ h24 h15 QEQ h18 h12 QEQ h19 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<4:7>{x PERS 2, PT std}[]
+ _1:pronoun_q<4:7>[BV x5]
+ e3:_make_v_1<8:12>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ _2:udef_q<13:39>[BV x10]
+ _3:udef_q<13:24>[BV x16]
+ x16:_sweatshirts/nns_u_unknown<13:24>{x PERS 3, NUM pl}[]
+ x10:_or_c<25:27>{x}[L-INDEX x16, R-INDEX x20]
+ _4:udef_q<28:39>[BV x20]
+ x20:_sparkplugs/nns_u_unknown<28:39>{x PERS 3, NUM pl}[]
+}
+
+{
+  pronoun_q<4:7> BV pron<4:7>  
+  _make_v_1<8:12> ARG1 pron<4:7>  
+  _make_v_1<8:12> ARG2 _or_c<25:27>  
+  udef_q<13:39> BV _or_c<25:27>  
+  udef_q<13:24> BV _sweatshirts/nns_u_unknown<13:24>  
+  _or_c<25:27> L-INDEX _sweatshirts/nns_u_unknown<13:24>  
+  _or_c<25:27> R-INDEX _sparkplugs/nns_u_unknown<28:39>  
+  udef_q<28:39> BV _sparkplugs/nns_u_unknown<28:39>  
+  pron<4:7> PERS 2  
+  pron<4:7> PT std  
+  _make_v_1<8:12> SF ques  
+  _make_v_1<8:12> TENSE pres  
+  _make_v_1<8:12> MOOD indicative  
+  _make_v_1<8:12> PROG -  
+  _make_v_1<8:12> PERF -  
+  _sweatshirts/nns_u_unknown<13:24> PERS 3  
+  _sweatshirts/nns_u_unknown<13:24> NUM pl  
+  _sparkplugs/nns_u_unknown<28:39> PERS 3  
+  _sparkplugs/nns_u_unknown<28:39> NUM pl  
+}
+

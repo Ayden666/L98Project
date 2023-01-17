@@ -1,0 +1,180 @@
+;;;
+;;; Redwoods export of `wsj01c';
+;;; (wsun@wsun; 22-jan-2018 (11:19 h)).
+;;;
+
+[20137002] (1 of 1) {1} `London shares finished moderately higher.'
+
+[20137002:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "London", 0, "null", "NNP" 0.8991 "JJ" 0.1009)
+  (2, 1, 2, <7:13>, 1, "shares", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:22>, 1, "finished", 0, "null", "VBD" 0.9856 "VBN" 0.0144)
+  (4, 3, 4, <23:33>, 1, "moderately", 0, "null", "RB" 1.0)
+  (5, 4, 5, <34:40>, 1, "higher", 0, "null", "JJR" 0.8648 "RBR" 0.1352)
+  (6, 5, 6, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:6>, 1, "London", 0, "null")
+  (77, 0, 1, <0:6>, 1, "London", 0, "null", "JJ" 0.1009)
+  (78, 0, 1, <0:6>, 1, "london", 0, "null")
+  (83, 0, 1, <0:6>, 1, "london", 0, "null")
+  (63, 1, 2, <7:13>, 1, "shares", 0, "null")
+  (75, 1, 2, <7:13>, 1, "shares", 0, "null", "NNS" 1.0)
+  (79, 1, 2, <7:13>, 1, "shares", 0, "null")
+  (68, 2, 3, <14:22>, 1, "finished", 0, "null")
+  (73, 2, 3, <14:22>, 1, "finished", 0, "null", "VBD" 0.9856)
+  (81, 2, 3, <14:22>, 1, "finished", 0, "null")
+  (65, 3, 4, <23:33>, 1, "moderately", 0, "null")
+  (76, 3, 4, <23:33>, 1, "moderately", 0, "null", "RB" 1.0)
+  (80, 3, 4, <23:33>, 1, "moderately", 0, "null")
+  (70, 4, 5, <34:41>, 1, "higher.", 0, "null")
+  (74, 4, 5, <34:41>, 1, "higher.", 0, "null", "JJR" 0.8648)
+  (82, 4, 5, <34:41>, 1, "higher.", 0, "null")
+>
+
+(ROOT_STRICT
+ (920 SB-HD_MC_C 6.65597 0 5
+  (912 HDN_BNP_C 2.31302 0 2
+   (911 NP-HDN_CPD_C 3.03632 0 2
+    (909 HDN_BNP-PN_C 0.788282 0 1
+     (92 london_n1@n_-_pn_le -0.542746 0 1
+      ("london" 78
+       "token [ +CARG \"London\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"london\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89909209999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (910 ^N_PL_OLR 2.36323 1 2
+     (101 share_n2@n_-_c-meas-nb_le 1.68208 1 2
+      ("shares" 63
+       "token [ +CARG #1=\"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (919 ^HD-AJ_SCP_C 4.0746 2 5
+   (914 ^HD_OPTCMP_C 2.21342 2 3
+    (913 V_PST_OLR 1.53175 2 3
+     (132 finish_v1@v_np*_le 1.98314 2 3
+      ("finished" 68
+       "token [ +CARG #1=\"finished\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98558219999999996\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (918 VP_SBRD-PRD-AJ_C 2.03234 3 5
+    (917 AJ-HD_INT_C 2.13666 3 5
+     (256 moderately@av_-_i-vp_le 0 3 4
+      ("moderately" 65
+       "token [ +CARG #1=\"moderately\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (916 ^HD_OPTCMP_C 1.14394 4 5
+      (915 W_PERIOD_PLR 0.639689 4 5
+       (258 higher_a1@aj_pp_i-cmp_le 0 4 5
+        ("higher." 70
+         "token [ +CARG \"higher\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"higher.\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86478569999999999\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (NP (N "london")) (N (N "shares"))))
+ (VP (VP (V (V "finished")))
+  (PP (AP (ADV "moderately") (AP (ADJ (ADJ "higher.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "London" ]
+          [ _share_n_of<7:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _finish_v_1<14:22>
+            LBL: h15
+            ARG0: e3
+            ARG1: x6
+            ARG2: p16 ]
+          [ subord<23:41>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h18
+            ARG2: h17 ]
+          [ _moderate_a_1<23:33>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _high_a_1<34:41>
+            LBL: h20
+            ARG0: e22
+            ARG1: i23 ]
+          [ comp<34:41>
+            LBL: h20
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e22
+            ARG2: u24 ] >
+   HCONS: < h17 QEQ h20 h18 QEQ h15 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e19:
+ _1:udef_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("London"){x IND +}[]
+ x6:_share_n_of<7:13>{x PERS 3, NUM pl, IND +}[]
+ e3:_finish_v_1<14:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e19:subord<23:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e22]
+ e21:_moderate_a_1<23:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e22]
+ e22:_high_a_1<34:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e25:comp<34:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e22]
+}
+
+{
+  udef_q<0:13> BV _share_n_of<7:13>  
+  compound<0:13> ARG1 _share_n_of<7:13>  
+  compound<0:13> ARG2 named<0:6>(London)  
+  proper_q<0:6> BV named<0:6>(London)  
+  _finish_v_1<14:22> ARG1 _share_n_of<7:13>  
+  subord<23:41> ARG1 _finish_v_1<14:22>  
+  subord<23:41> ARG2 _high_a_1<34:41>  
+  _moderate_a_1<23:33> ARG1 _high_a_1<34:41>  
+  comp<34:41> ARG1 _high_a_1<34:41>  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:6>(London) IND +  
+  _share_n_of<7:13> PERS 3  
+  _share_n_of<7:13> NUM pl  
+  _share_n_of<7:13> IND +  
+  _finish_v_1<14:22> SF prop  
+  _finish_v_1<14:22> TENSE past  
+  _finish_v_1<14:22> MOOD indicative  
+  _finish_v_1<14:22> PROG -  
+  _finish_v_1<14:22> PERF -  
+  subord<23:41> SF prop  
+  subord<23:41> TENSE untensed  
+  subord<23:41> MOOD indicative  
+  subord<23:41> PROG -  
+  subord<23:41> PERF -  
+  _moderate_a_1<23:33> SF prop  
+  _moderate_a_1<23:33> TENSE untensed  
+  _moderate_a_1<23:33> MOOD indicative  
+  _moderate_a_1<23:33> PROG -  
+  _moderate_a_1<23:33> PERF -  
+  _high_a_1<34:41> SF prop  
+  _high_a_1<34:41> TENSE untensed  
+  _high_a_1<34:41> MOOD indicative  
+  _high_a_1<34:41> PROG -  
+  _high_a_1<34:41> PERF -  
+  comp<34:41> SF prop  
+  comp<34:41> TENSE untensed  
+  comp<34:41> MOOD indicative  
+  comp<34:41> PROG -  
+  comp<34:41> PERF -  
+}
+

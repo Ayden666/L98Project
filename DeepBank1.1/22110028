@@ -1,0 +1,141 @@
+;;;
+;;; Redwoods export of `wsj21a';
+;;; (wsun@wsun; 23-jan-2018 (06:01 h)).
+;;;
+
+[22110028] (1 of 1) {1} `It adds something to the market.'
+
+[22110028:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:7>, 1, "adds", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <8:17>, 1, "something", 0, "null", "NN" 1.0)
+  (4, 3, 4, <18:20>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <21:24>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <25:31>, 1, "market", 0, "null", "NN" 1.0)
+  (7, 6, 7, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (80, 0, 1, <0:2>, 1, "it", 0, "null")
+  (86, 0, 1, <0:2>, 1, "it", 0, "null")
+  (68, 1, 2, <3:7>, 1, "adds", 0, "null")
+  (77, 1, 2, <3:7>, 1, "adds", 0, "null", "VBZ" 1.0)
+  (81, 1, 2, <3:7>, 1, "adds", 0, "null")
+  (70, 2, 3, <8:17>, 1, "something", 0, "null")
+  (78, 2, 3, <8:17>, 1, "something", 0, "null", "NN" 1.0)
+  (82, 2, 3, <8:17>, 1, "something", 0, "null")
+  (72, 3, 4, <18:20>, 1, "to", 0, "null")
+  (83, 3, 4, <18:20>, 1, "to", 0, "null")
+  (74, 4, 5, <21:24>, 1, "the", 0, "null")
+  (84, 4, 5, <21:24>, 1, "the", 0, "null")
+  (76, 5, 6, <25:32>, 1, "market.", 0, "null")
+  (79, 5, 6, <25:32>, 1, "market.", 0, "null", "NN" 1.0)
+  (85, 5, 6, <25:32>, 1, "market.", 0, "null")
+>
+
+(ROOT_STRICT
+ (734 SB-HD_MC_C 6.01921 0 6
+  (724 HDN_BNP-QNT_C 0.430464 0 1
+   (88 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 80
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (733 ^HD-CMP_U_C 4.31939 1 6
+   (728 ^HD-CMP_U_C -0.862666 1 3
+    (725 ^V_3S-FIN_OLR 0 1 2
+     (113 add_to_v1@v_np*-pp_to_le 0 1 2
+      ("adds" 68
+       "token [ +CARG #1=\"adds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (727 HDN_BNP-QNT_C -1.4831 2 3
+     (726 HDN_OPTCMP_C -0.202429 2 3
+      (130 something@n_-_pr_le -1.15683 2 3
+       ("something" 70
+        "token [ +CARG #1=\"something\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (732 HD-CMP_U_C 4.47153 3 6
+    (177 to_prtcl@p_np_ptcl_le 0.017699 3 4
+     ("to" 72
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (731 SP-HD_N_C 2.9763 4 6
+     (231 the_1@d_-_the_le 1.07131 4 5
+      ("the" 74
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (730 ^W_PERIOD_PLR 0.910402 5 6
+      (729 N_SG_ILR 0.410128 5 6
+       (270 market_n1@n_-_c_le -0.0227933 5 6
+        ("market." 76
+         "token [ +CARG \"market\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"market.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "it"))
+ (VP (V (V (V "adds")) (NP (N (N "something"))))
+  (PP (P "to") (NP (DET "the") (N (N (N "market.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _add_v_to<3:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ]
+            ARG3: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ thing<8:17>
+            LBL: h11
+            ARG0: x9 ]
+          [ _some_q<8:17>
+            LBL: h12
+            ARG0: x9
+            RSTR: h13
+            BODY: h14 ]
+          [ _the_q<21:24>
+            LBL: h15
+            ARG0: x10
+            RSTR: h17
+            BODY: h16 ]
+          [ _market_n_1<25:32>
+            LBL: h18
+            ARG0: x10 ] >
+   HCONS: < h17 QEQ h18 h13 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_add_v_to-fn.Statement<3:7>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x5, ARG2-fn.Patient x9, ARG3-fn.Co-Patient x10]
+ x9:thing<8:17>{x PERS 3, NUM sg}[]
+ _2:_some_q<8:17>[BV x9]
+ _3:_the_q<21:24>[BV x10]
+ x10:_market_n_1<25:32>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _add_v_to<3:7> ARG1 pron<0:2>  
+  _add_v_to<3:7> ARG2 thing<8:17>  
+  _add_v_to<3:7> ARG3 _market_n_1<25:32>  
+  _some_q<8:17> BV thing<8:17>  
+  _the_q<21:24> BV _market_n_1<25:32>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _add_v_to<3:7> SF prop  
+  _add_v_to<3:7> TENSE pres  
+  _add_v_to<3:7> MOOD indicative  
+  _add_v_to<3:7> PROG -  
+  _add_v_to<3:7> PERF -  
+  thing<8:17> PERS 3  
+  thing<8:17> NUM sg  
+  _market_n_1<25:32> PERS 3  
+  _market_n_1<25:32> NUM sg  
+  _market_n_1<25:32> IND +  
+}
+

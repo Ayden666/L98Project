@@ -1,0 +1,244 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:09 h)).
+;;;
+
+[20120008] (1 of 1) {1} `Mr. McGuigan cites three completed efforts in Oklahoma.'
+
+[20120008:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:12>, 1, "McGuigan", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:18>, 1, "cites", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <19:24>, 1, "three", 0, "null", "CD" 1.0)
+  (5, 4, 5, <25:34>, 1, "completed", 0, "null", "VBN" 0.9139 "VBD" 0.0446 "JJ" 0.0415)
+  (6, 5, 6, <35:42>, 1, "efforts", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <43:45>, 1, "in", 0, "null", "IN" 1.0)
+  (8, 7, 8, <46:54>, 1, "Oklahoma", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <54:55>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (108, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (115, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (125, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (85, 1, 2, <4:12>, 1, "McGuigan", 0, "null")
+  (110, 1, 2, <4:12>, 1, "McGuigan", 0, "null", "NNP" 1.0)
+  (116, 1, 2, <4:12>, 1, "mcguigan", 0, "null")
+  (118, 1, 2, <4:12>, 1, "mcguigan", 0, "null")
+  (97, 2, 3, <13:18>, 1, "cites", 0, "null")
+  (111, 2, 3, <13:18>, 1, "cites", 0, "null", "VBZ" 1.0)
+  (120, 2, 3, <13:18>, 1, "cites", 0, "null")
+  (99, 3, 4, <19:24>, 1, "three", 0, "null")
+  (112, 3, 4, <19:24>, 1, "three", 0, "null", "CD" 1.0)
+  (121, 3, 4, <19:24>, 1, "three", 0, "null")
+  (106, 4, 5, <25:34>, 1, "completed", 0, "null")
+  (109, 4, 5, <25:34>, 1, "completed", 0, "null", "VBN" 0.9139)
+  (124, 4, 5, <25:34>, 1, "completed", 0, "null")
+  (101, 5, 6, <35:42>, 1, "efforts", 0, "null")
+  (113, 5, 6, <35:42>, 1, "efforts", 0, "null", "NNS" 1.0)
+  (122, 5, 6, <35:42>, 1, "efforts", 0, "null")
+  (103, 6, 7, <43:45>, 1, "in", 0, "null")
+  (123, 6, 7, <43:45>, 1, "in", 0, "null")
+  (87, 7, 8, <46:55>, 1, "Oklahoma.", 0, "null")
+  (114, 7, 8, <46:55>, 1, "Oklahoma.", 0, "null", "NNP" 1.0)
+  (117, 7, 8, <46:55>, 1, "oklahoma.", 0, "null")
+  (119, 7, 8, <46:55>, 1, "oklahoma.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1722 SB-HD_MC_C 9.18875 0 8
+  (1708 HDN_BNP-PN_C 3.86187 0 2
+   (1707 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (1705 N_SG_ILR 2.02901 0 1
+     (134 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 115
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1706 ^N_SG_ILR -0.259177 1 2
+     (137 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("McGuigan" 85
+       "token [ +CARG #1=\"McGuigan\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1721 ^HD-CMP_U_C 4.30983 2 8
+   (1709 ^V_3S-FIN_OLR 0.198464 2 3
+    (149 cite_v4@v_np_le 0 2 3
+     ("cites" 97
+      "token [ +CARG #1=\"cites\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1720 SP-HD_N_C 3.17325 3 8
+    (1710 NUM_DET_C 0.372195 3 4
+     (159 three@aj_-_i-crd-one_le -0.332753 3 4
+      ("three" 99
+       "token [ +CARG #1=\"three\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1719 ^AJ-HDN_NORM_C 1.73517 4 8
+     (1712 V_J-NB-PAS-TR_DLR -0.573946 4 5
+      (1711 V_PAS_ODLR -0.227737 4 5
+       (190 complete_v1@v_np_le 0.250864 4 5
+        ("completed" 106
+         "token [ +CARG #1=\"completed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91391639999999996\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1718 ^HDN-AJ_REDREL_C 2.00185 5 8
+      (1713 ^N_PL_OLR -0.101167 5 6
+       (291 effort_n1@n_-_mc_le -0.664417 5 6
+        ("efforts" 101
+         "token [ +CARG #1=\"efforts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1717 HD-CMP_U_C 1.33304 6 8
+       (323 in@p_np_i-reg_le 0.354487 6 7
+        ("in" 103
+         "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1716 HDN_BNP-PN_C 0.173109 7 8
+        (1715 W_PERIOD_PLR -0.39127 7 8
+         (1714 N_SG_ILR -0.824189 7 8
+          (370 oklahoma_n1@n_-_pn_le 0 7 8
+           ("oklahoma." 117
+            "token [ +CARG \"Oklahoma\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"oklahoma.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "McGuigan"))))
+ (VP (V (V "cites"))
+  (NP (DET (ADJ "three"))
+   (N (AP (V (V "completed")))
+    (N (N (N "efforts")) (PP (P "in") (NP (N (N (N "oklahoma."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "McGuigan" ]
+          [ _cite_v_for<13:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<19:24>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ card<19:24>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            CARG: "3" ]
+          [ _complete_v_2<25:34>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i22
+            ARG2: x15 ]
+          [ parg_d<25:34>
+            LBL: h19
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e21
+            ARG2: x15 ]
+          [ _effort_n_1<35:42>
+            LBL: h19
+            ARG0: x15 ]
+          [ _in_p<43:45>
+            LBL: h19
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<46:55>
+            LBL: h26
+            ARG0: x25
+            RSTR: h27
+            BODY: h28 ]
+          [ named<46:55>
+            LBL: h29
+            ARG0: x25
+            CARG: "Oklahoma" ] >
+   HCONS: < h27 QEQ h29 h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:12>("McGuigan"){x PERS 3, NUM sg, IND +}[]
+ e3:_cite_v_for<13:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:udef_q<19:24>[BV x15]
+ e20:card<19:24>("3"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ e21:_complete_v_2-fn.Activity_finish<25:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2-fn.Theme x15]
+ e23:parg_d<25:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e21, ARG2 x15]
+ x15:_effort_n_1<35:42>{x PERS 3, NUM pl}[]
+ e24:_in_p<43:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x25]
+ _4:proper_q<46:55>[BV x25]
+ x25:named<46:55>("Oklahoma"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:12> BV named<4:12>(McGuigan)  
+  compound<0:12> ARG1 named<4:12>(McGuigan)  
+  compound<0:12> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _cite_v_for<13:18> ARG1 named<4:12>(McGuigan)  
+  _cite_v_for<13:18> ARG2 _effort_n_1<35:42>  
+  udef_q<19:24> BV _effort_n_1<35:42>  
+  card<19:24>(3) ARG1 _effort_n_1<35:42>  
+  _complete_v_2<25:34> ARG2 _effort_n_1<35:42>  
+  parg_d<25:34> ARG1 _complete_v_2<25:34>  
+  parg_d<25:34> ARG2 _effort_n_1<35:42>  
+  _in_p<43:45> ARG1 _effort_n_1<35:42>  
+  _in_p<43:45> ARG2 named<46:55>(Oklahoma)  
+  proper_q<46:55> BV named<46:55>(Oklahoma)  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:12>(McGuigan) PERS 3  
+  named<4:12>(McGuigan) NUM sg  
+  named<4:12>(McGuigan) IND +  
+  _cite_v_for<13:18> SF prop  
+  _cite_v_for<13:18> TENSE pres  
+  _cite_v_for<13:18> MOOD indicative  
+  _cite_v_for<13:18> PROG -  
+  _cite_v_for<13:18> PERF -  
+  card<19:24>(3) SF prop  
+  card<19:24>(3) TENSE untensed  
+  card<19:24>(3) MOOD indicative  
+  card<19:24>(3) PROG -  
+  card<19:24>(3) PERF -  
+  _complete_v_2<25:34> SF prop  
+  _complete_v_2<25:34> TENSE untensed  
+  _complete_v_2<25:34> MOOD indicative  
+  _complete_v_2<25:34> PROG -  
+  _complete_v_2<25:34> PERF -  
+  parg_d<25:34> SF prop  
+  parg_d<25:34> TENSE untensed  
+  parg_d<25:34> MOOD indicative  
+  parg_d<25:34> PROG -  
+  parg_d<25:34> PERF -  
+  _effort_n_1<35:42> PERS 3  
+  _effort_n_1<35:42> NUM pl  
+  _in_p<43:45> SF prop  
+  _in_p<43:45> TENSE untensed  
+  _in_p<43:45> MOOD indicative  
+  _in_p<43:45> PROG -  
+  _in_p<43:45> PERF -  
+  named<46:55>(Oklahoma) PERS 3  
+  named<46:55>(Oklahoma) NUM sg  
+  named<46:55>(Oklahoma) IND +  
+}
+

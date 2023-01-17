@@ -1,0 +1,71 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:43 h)).
+;;;
+
+[20286061] (1 of 1) {1} `Why?'
+
+[20286061:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Why", 0, "null", "WRB" 1.0)
+  (2, 1, 2, <3:4>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:4>, 1, "why?", 0, "null")
+  (23, 0, 1, <0:4>, 1, "why?", 0, "null")
+>
+
+(ROOT_FRAG
+ (62 NP_FRG_C 0 0 1
+  (61 W_QMARK_PLR 0 0 1
+   (30 why_vp_2@x_-_why_le 0 0 1
+    ("why?" 22
+     "token [ +CARG \"Why\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"why?\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (NP (NP "why?")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG: e4 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ generic_verb<0:4>
+            LBL: h5
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _why_x<0:4>
+            LBL: h2
+            ARG0: e4
+            ARG1: h7 ] >
+   HCONS: < h7 QEQ h5 h1 QEQ h2 > ]
+
+{e4:
+ e3:unknown<0:4>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG e4]
+ e6:generic_verb<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e4:_why_x<0:4>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e6]
+}
+
+{
+  unknown<0:4> ARG _why_x<0:4>  
+  _why_x<0:4> ARG1 generic_verb<0:4>  
+  unknown<0:4> SF ques  
+  unknown<0:4> TENSE untensed  
+  unknown<0:4> MOOD indicative  
+  unknown<0:4> PROG -  
+  unknown<0:4> PERF -  
+  generic_verb<0:4> SF prop  
+  generic_verb<0:4> TENSE untensed  
+  generic_verb<0:4> MOOD indicative  
+  generic_verb<0:4> PROG -  
+  generic_verb<0:4> PERF -  
+  _why_x<0:4> SF prop-or-ques  
+  _why_x<0:4> TENSE untensed  
+  _why_x<0:4> MOOD indicative  
+  _why_x<0:4> PROG -  
+  _why_x<0:4> PERF -  
+}
+

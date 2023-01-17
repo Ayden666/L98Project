@@ -1,0 +1,73 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:54 h)).
+;;;
+
+[21603048] (1 of 1) {1} `The Editor'
+
+[21603048:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "Editor", 0, "null", "NNP" 0.6403 "NN" 0.3597)
+>
+
+<
+  (28, 0, 1, <0:3>, 1, "the", 0, "null")
+  (32, 0, 1, <0:3>, 1, "the", 0, "null")
+  (20, 1, 2, <4:10>, 1, "Editor", 0, "null")
+  (27, 1, 2, <4:10>, 1, "Editor", 0, "null", "NN" 0.3597)
+  (29, 1, 2, <4:10>, 1, "editor", 0, "null")
+  (30, 1, 2, <4:10>, 1, "editor", 0, "null")
+>
+
+(ROOT_FRAG
+ (127 NP_FRG_C -0.617326 0 2
+  (126 SP-HD_N_C 0.389582 0 2
+   (45 the_1@d_-_the_le 0.244361 0 1
+    ("the" 28
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (125 ^N_SG_ILR -0.128684 1 2
+    (72 editor_n1@n_-_c_le 0 1 2
+     ("editor" 29
+      "token [ +CARG \"Editor\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"editor\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.64033770000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (DET "the") (N (N "editor"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ _editor_n_1<4:10>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:_the_q<0:3>[BV x4]
+ x4:_editor_n_1<4:10>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:10> ARG _editor_n_1<4:10>  
+  _the_q<0:3> BV _editor_n_1<4:10>  
+  unknown<0:10> SF prop-or-ques  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _editor_n_1<4:10> PERS 3  
+  _editor_n_1<4:10> NUM sg  
+  _editor_n_1<4:10> IND +  
+}
+

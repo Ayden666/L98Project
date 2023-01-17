@@ -1,0 +1,191 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:17 h)).
+;;;
+
+[21937038] (1 of 1) {1} `Intel also added 3/8 to 33 7/8.'
+
+[21937038:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Intel", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:10>, 1, "also", 0, "null", "RB" 1.0)
+  (3, 2, 3, <11:16>, 1, "added", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:20>, 1, "3/8", 0, "null", "CD" 1.0)
+  (5, 4, 5, <21:23>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <24:26>, 1, "33", 0, "null", "CD" 1.0)
+  (7, 6, 7, <27:30>, 1, "7/8", 0, "null", "CD" 1.0)
+  (8, 7, 8, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (85, 0, 1, <0:5>, 1, "Intel", 0, "null")
+  (88, 0, 1, <0:5>, 1, "intel", 0, "null")
+  (96, 0, 1, <0:5>, 1, "intel", 0, "null")
+  (82, 1, 2, <6:10>, 1, "also", 0, "null")
+  (86, 1, 2, <6:10>, 1, "also", 0, "null", "RB" 1.0)
+  (94, 1, 2, <6:10>, 1, "also", 0, "null")
+  (84, 2, 3, <11:16>, 1, "added", 0, "null")
+  (87, 2, 3, <11:16>, 1, "added", 0, "null", "VBD" 1.0)
+  (95, 2, 3, <11:16>, 1, "added", 0, "null")
+  (69, 3, 4, <17:20>, 1, "3/8", 0, "null")
+  (71, 3, 4, <17:20>, 1, "3/8", 0, "null")
+  (89, 3, 4, <17:20>, 1, "3/8", 0, "null")
+  (80, 4, 5, <21:23>, 1, "to", 0, "null")
+  (93, 4, 5, <21:23>, 1, "to", 0, "null")
+  (73, 5, 6, <24:26>, 1, "33", 0, "null")
+  (90, 5, 6, <24:26>, 1, "33", 0, "null")
+  (75, 6, 7, <27:31>, 1, "7/8.", 0, "null")
+  (76, 6, 7, <27:31>, 1, "7/8.", 0, "null")
+  (91, 6, 7, <27:31>, 1, "7/8.", 0, "null")
+  (92, 6, 7, <27:31>, 1, "7/8.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2599 SB-HD_MC_C 8.11226 0 7
+  (2586 HDN_BNP-PN_C 0.489307 0 1
+   (2585 N_SG_ILR 0.538263 0 1
+    (98 intel_n1@n_-_pn_le 0 0 1
+     ("intel" 88
+      "token [ +CARG \"Intel\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"intel\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2598 ^AJ-HD_SCP-XP_C 6.90009 1 7
+   (99 also_adv1@av_-_s-vp-x_le 0.554212 1 2
+    ("also" 82
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2597 ^HD-AJ_INT-UNSL_C 6.06848 2 7
+    (2590 ^HD-CMP_U_C 4.21306 2 4
+     (2587 ^V_PST_OLR 1.41946 2 3
+      (131 add_v1@v_np*_le 0.264258 2 3
+       ("added" 84
+        "token [ +CARG #1=\"added\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2589 HDN_BNP-NUM_C 1.67381 3 4
+      (2588 HDN_NP-NUM_C 1.15516 3 4
+       (263 generic_fract_ne@aj_-_i-frct-gen_le 0 3 4
+        ("3/8" 71
+         "token [ +CARG #1=\"3/8\" +CLASS frct_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (2596 HD-CMP_U_C 0.960376 4 7
+     (288 to@p_np_i-nnm_le -1.63041 4 5
+      ("to" 80
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2595 HDN_BNP-NUM_C 1.27952 5 7
+      (2594 HDN_NP-NUM_C 0.760882 5 7
+       (2593 XP_BRCK-PR_C 0.077226 5 7
+        (2592 HD-CMP_U_C 0.167106 5 7
+         (341 generic_card_np_ne@aj_np_i-crd-gen_le 0 5 6
+          ("33" 73
+           "token [ +CARG #1=\"33\" +CLASS card_ne +FORM #1 +FROM \"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+         (2591 W_PERIOD_PLR 0 6 7
+          (346 generic_fract_ne@aj_-_i-frct-gen_le 0 6 7
+           ("7/8." 76
+            "token [ +CARG \"7/8\" +CLASS frct_ne +FORM \"7/8.\" +FROM \"27\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))))))
+
+(S (NP (N (N "intel")))
+ (VP (ADV "also")
+  (VP (VP (V (V "added")) (NP (N (ADJ "3/8"))))
+   (PP (P "to") (NP (N (ADJ (ADJ (ADJ "33") (ADJ (ADJ "7/8."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Intel" ]
+          [ _also_a_1<6:10>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h10 ]
+          [ _add_v_to<11:16>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6
+            ARG2: x12 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<17:20>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ fraction<17:20>
+            LBL: h16
+            ARG0: i18
+            ARG1: i17
+            CARG: "3/8" ]
+          [ _to_p<21:23>
+            LBL: h11
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x20 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<24:31>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ card<24:26>
+            LBL: h24
+            ARG0: x20
+            ARG1: i25
+            CARG: "33" ]
+          [ plus<24:26>
+            LBL: h26
+            ARG0: i28
+            ARG1: i25
+            ARG2: h24
+            ARG3: h27 ]
+          [ fraction<27:31>
+            LBL: h27
+            ARG0: i29
+            ARG1: i25
+            CARG: "7/8" ] >
+   HCONS: < h22 QEQ h26 h14 QEQ h16 h10 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e9:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Intel"){x PERS 3, NUM sg, IND +}[]
+ e9:_also_a_1<6:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_add_v_to<11:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ _2:number_q<17:20>[]
+ i18:fraction<17:20>("3/8"){i}[]
+ e19:_to_p<21:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x20]
+ _3:number_q<24:31>[BV x20]
+ x20:card<24:26>("33"){x PERS 3, NUM sg}[]
+ i28:plus<24:26>{i}[ARG2 x20, ARG3 i29]
+ i29:fraction<27:31>("7/8"){i}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Intel)  
+  _also_a_1<6:10> ARG1 _add_v_to<11:16>  
+  _add_v_to<11:16> ARG1 named<0:5>(Intel)  
+  _to_p<21:23> ARG1 _add_v_to<11:16>  
+  _to_p<21:23> ARG2 card<24:26>(33)  
+  number_q<24:31> BV card<24:26>(33)  
+  plus<24:26> ARG2 card<24:26>(33)  
+  plus<24:26> ARG3 fraction<27:31>(7/8)  
+  named<0:5>(Intel) PERS 3  
+  named<0:5>(Intel) NUM sg  
+  named<0:5>(Intel) IND +  
+  _also_a_1<6:10> SF prop  
+  _also_a_1<6:10> TENSE untensed  
+  _also_a_1<6:10> MOOD indicative  
+  _also_a_1<6:10> PROG -  
+  _also_a_1<6:10> PERF -  
+  _add_v_to<11:16> SF prop  
+  _add_v_to<11:16> TENSE past  
+  _add_v_to<11:16> MOOD indicative  
+  _add_v_to<11:16> PROG -  
+  _add_v_to<11:16> PERF -  
+  _to_p<21:23> SF prop  
+  _to_p<21:23> TENSE untensed  
+  _to_p<21:23> MOOD indicative  
+  _to_p<21:23> PROG -  
+  _to_p<21:23> PERF -  
+  card<24:26>(33) PERS 3  
+  card<24:26>(33) NUM sg  
+}
+

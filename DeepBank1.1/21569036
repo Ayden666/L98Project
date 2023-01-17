@@ -1,0 +1,92 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:30 h)).
+;;;
+
+[21569036] (1 of 1) {1} `The figures are shocking.'
+
+[21569036:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "figures", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <12:15>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <16:24>, 1, "shocking", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (58, 0, 1, <0:3>, 1, "the", 0, "null")
+  (62, 0, 1, <0:3>, 1, "the", 0, "null")
+  (50, 1, 2, <4:11>, 1, "figures", 0, "null")
+  (55, 1, 2, <4:11>, 1, "figures", 0, "null", "NNS" 1.0)
+  (59, 1, 2, <4:11>, 1, "figures", 0, "null")
+  (52, 2, 3, <12:15>, 1, "are", 0, "null")
+  (56, 2, 3, <12:15>, 1, "are", 0, "null", "VBP" 1.0)
+  (60, 2, 3, <12:15>, 1, "are", 0, "null")
+  (54, 3, 4, <16:25>, 1, "shocking.", 0, "null")
+  (57, 3, 4, <16:25>, 1, "shocking.", 0, "null", "JJ" 1.0)
+  (61, 3, 4, <16:25>, 1, "shocking.", 0, "null")
+>
+
+(ROOT_STRICT
+ (546 SB-HD_MC_C 5.15871 0 4
+  (541 SP-HD_N_C 2.31539 0 2
+   (75 the_1@d_-_the_le 1.13181 0 1
+    ("the" 58
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (540 ^N_PL_OLR 0.492214 1 2
+    (104 figure_n1@n_-_mc_le 0.539128 1 2
+     ("figures" 50
+      "token [ +CARG #1=\"figures\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (545 ^HD-CMP_U_C 0.888804 2 4
+   (129 be_c_are@v_prd_are_le 1.27762 2 3
+    ("are" 52
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (544 HD_OPTCMP_C -1.19706 3 4
+    (543 W_PERIOD_PLR -1.34849 3 4
+     (542 V_PRP_OLR -0.758124 3 4
+      (137 shock_v1@v_np*_le 0 3 4
+       ("shocking." 54
+        "token [ +CARG \"shocking\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shocking.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "the") (N (N "figures")))
+ (VP (V "are") (VP (V (V (V "shocking."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _figure_n_1<4:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _shock_v_1<16:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_figure_n_1<4:11>{x PERS 3, NUM pl}[]
+ e3:_shock_v_1<16:25>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _figure_n_1<4:11>  
+  _shock_v_1<16:25> ARG1 _figure_n_1<4:11>  
+  _figure_n_1<4:11> PERS 3  
+  _figure_n_1<4:11> NUM pl  
+  _shock_v_1<16:25> SF prop  
+  _shock_v_1<16:25> TENSE pres  
+  _shock_v_1<16:25> MOOD indicative  
+  _shock_v_1<16:25> PROG +  
+  _shock_v_1<16:25> PERF -  
+}
+

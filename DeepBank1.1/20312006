@@ -1,0 +1,166 @@
+;;;
+;;; Redwoods export of `wsj03a';
+;;; (wsun@wsun; 22-jan-2018 (13:02 h)).
+;;;
+
+[20312006] (1 of 1) {1} `Rodeo applause: broncs cheer.'
+
+[20312006:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Rodeo", 0, "null", "NN" 0.5059 "NNP" 0.4941)
+  (2, 1, 2, <6:14>, 1, "applause", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:15>, 1, ":", 0, "null", ":" 1.0)
+  (4, 3, 4, <16:22>, 1, "broncs", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <23:28>, 1, "cheer", 0, "null", "NN" 0.9137 "VB" 0.0863)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:5>, 1, "Rodeo", 0, "null")
+  (74, 0, 1, <0:5>, 1, "rodeo", 0, "null")
+  (79, 0, 1, <0:5>, 1, "rodeo", 0, "null")
+  (61, 1, 2, <6:14>, 1, "applause", 0, "null")
+  (72, 1, 2, <6:14>, 1, "applause", 0, "null", "NN" 1.0)
+  (75, 1, 2, <6:14>, 1, "applause", 0, "null")
+  (65, 2, 3, <14:15>, 1, ":", 0, "null")
+  (77, 2, 3, <14:15>, 1, ":", 0, "null")
+  (63, 3, 4, <16:22>, 1, "broncs", 0, "null")
+  (73, 3, 4, <16:22>, 1, "broncs", 0, "null", "NNS" 1.0)
+  (76, 3, 4, <16:22>, 1, "broncs", 0, "null")
+  (68, 4, 5, <23:29>, 1, "cheer.", 0, "null")
+  (71, 4, 5, <23:29>, 1, "cheer.", 0, "null", "NN" 0.9137)
+  (78, 4, 5, <23:29>, 1, "cheer.", 0, "null")
+>
+
+(ROOT_FRAG
+ (548 NP-AJ_FRG_C -0.205713 0 5
+  (541 ^HDN_BNP_C -1.00266 0 2
+   (540 N-HDN_CPD_C -0.366071 0 2
+    (81 rodeo_n1@n_-_c_le 0 0 1
+     ("rodeo" 74
+      "token [ +CARG \"Rodeo\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"rodeo\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.50585029999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (539 ^N_MS_ILR -0.363808 1 2
+     (83 applause_n1@n_-_m_le 0 1 2
+      ("applause" 61
+       "token [ +CARG #1=\"applause\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (547 HD-CMP_U_C 0.628707 2 5
+   (96 colon_subord@p_cp_s-cln_le 2.13702 2 3
+    (":" 65
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (546 SB-HD_MC_C -1.10953 3 5
+    (542 HDN_BNP_C -0.032043 3 4
+     (126 generic_pl_noun@n_-_c-pl-unk_le 0 3 4
+      ("broncs" 73
+       "token [ +CARG #1=\"broncs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED \"_broncs/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (545 ^HD_OPTCMP_C -1.14327 4 5
+     (544 W_PERIOD_PLR -1.49508 4 5
+      (543 V_N3S-BSE_ILR -0.638355 4 5
+       (135 cheer_v1@v_np*_le 0 4 5
+        ("cheer." 68
+         "token [ +CARG \"cheer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cheer.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91373579999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (NP (N (N "rodeo") (N (N "applause"))))
+ (PP (P ":") (S (NP (N "broncs")) (VP (V (V (V "cheer.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:29>
+            LBL: h4
+            ARG0: e3
+            ARG: x5 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<0:14>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ compound<0:14>
+            LBL: h9
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x10 [ x IND: + ] ]
+          [ udef_q<0:5>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _rodeo_n_1<0:5>
+            LBL: h15
+            ARG0: x10 ]
+          [ _applause_n_1<6:14>
+            LBL: h9
+            ARG0: x5 ]
+          [ _colon_p_namely<14:15>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h18
+            ARG2: h19 ]
+          [ udef_q<16:22>
+            LBL: h20
+            ARG0: x22 [ x PERS: 3 NUM: PL ]
+            RSTR: h21
+            BODY: h23 ]
+          [ _broncs/nns_u_unknown<16:22>
+            LBL: h24
+            ARG0: x22 ]
+          [ _cheer_v_1<23:29>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: p27 ] >
+   HCONS: < h21 QEQ h24 h19 QEQ h25 h18 QEQ h4 h13 QEQ h15 h7 QEQ h9 h1 QEQ u > ]
+
+{e3:
+ e3:unknown<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x5]
+ _1:udef_q<0:14>[BV x5]
+ e11:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ _2:udef_q<0:5>[BV x10]
+ x10:_rodeo_n_1<0:5>{x IND +}[]
+ x5:_applause_n_1<6:14>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e17:_colon_p_namely<14:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e26]
+ _3:udef_q<16:22>[BV x22]
+ x22:_broncs/nns_u_unknown<16:22>{x PERS 3, NUM pl}[]
+ e26:_cheer_v_1<23:29>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x22]
+}
+
+{
+  unknown<0:29> ARG _applause_n_1<6:14>  
+  udef_q<0:14> BV _applause_n_1<6:14>  
+  compound<0:14> ARG1 _applause_n_1<6:14>  
+  compound<0:14> ARG2 _rodeo_n_1<0:5>  
+  udef_q<0:5> BV _rodeo_n_1<0:5>  
+  _colon_p_namely<14:15> ARG1 unknown<0:29>  
+  _colon_p_namely<14:15> ARG2 _cheer_v_1<23:29>  
+  udef_q<16:22> BV _broncs/nns_u_unknown<16:22>  
+  _cheer_v_1<23:29> ARG1 _broncs/nns_u_unknown<16:22>  
+  unknown<0:29> SF prop  
+  unknown<0:29> TENSE untensed  
+  unknown<0:29> MOOD indicative  
+  unknown<0:29> PROG -  
+  unknown<0:29> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _rodeo_n_1<0:5> IND +  
+  _applause_n_1<6:14> PERS 3  
+  _applause_n_1<6:14> NUM sg  
+  _applause_n_1<6:14> GEND n  
+  _applause_n_1<6:14> IND -  
+  _colon_p_namely<14:15> SF prop  
+  _colon_p_namely<14:15> TENSE untensed  
+  _colon_p_namely<14:15> MOOD indicative  
+  _colon_p_namely<14:15> PROG -  
+  _colon_p_namely<14:15> PERF -  
+  _broncs/nns_u_unknown<16:22> PERS 3  
+  _broncs/nns_u_unknown<16:22> NUM pl  
+  _cheer_v_1<23:29> SF prop  
+  _cheer_v_1<23:29> TENSE pres  
+  _cheer_v_1<23:29> MOOD indicative  
+  _cheer_v_1<23:29> PROG -  
+  _cheer_v_1<23:29> PERF -  
+}
+

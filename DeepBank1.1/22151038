@@ -1,0 +1,124 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:24 h)).
+;;;
+
+[22151038] (1 of 1) {1} `Jamaica costs 504 punts.'
+
+[22151038:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Jamaica", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:13>, 1, "costs", 0, "null", "NNS" 0.6033 "VBZ" 0.3967)
+  (3, 2, 3, <14:17>, 1, "504", 0, "null", "CD" 1.0)
+  (4, 3, 4, <18:23>, 1, "punts", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:7>, 1, "Jamaica", 0, "null")
+  (57, 0, 1, <0:7>, 1, "jamaica", 0, "null")
+  (61, 0, 1, <0:7>, 1, "jamaica", 0, "null")
+  (51, 1, 2, <8:13>, 1, "costs", 0, "null")
+  (54, 1, 2, <8:13>, 1, "costs", 0, "null", "NNS" 0.6033)
+  (56, 1, 2, <8:13>, 1, "costs", 0, "null", "VBZ" 0.3967)
+  (60, 1, 2, <8:13>, 1, "costs", 0, "null")
+  (42, 2, 3, <14:17>, 1, "504", 0, "null")
+  (58, 2, 3, <14:17>, 1, "504", 0, "null")
+  (50, 3, 4, <18:24>, 1, "punts.", 0, "null")
+  (55, 3, 4, <18:24>, 1, "punts.", 0, "null", "NNS" 1.0)
+  (59, 3, 4, <18:24>, 1, "punts.", 0, "null")
+>
+
+(ROOT_STRICT
+ (838 SB-HD_MC_C 3.07789 0 4
+  (825 HDN_BNP-PN_C 0.489307 0 1
+   (824 N_SG_ILR 0.538263 0 1
+    (63 jamaica_n1@n_-_pn_le 0 0 1
+     ("jamaica" 57
+      "token [ +CARG \"Jamaica\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"jamaica\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (837 ^HD-CMP_U_C 1.57153 1 4
+   (826 ^V_3S-FIN_OLR 0.672138 1 2
+    (73 cost_v2@v_np*_ntr_le 0.455133 1 2
+     ("costs" 51
+      "token [ +CARG #1=\"costs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.60326159999999995\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (836 SP-HD_N_C -0.03873 2 4
+    (833 NUM_DET_C 0.221839 2 3
+     (91 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+      ("504" 42
+       "token [ +CARG #1=\"504\" +CLASS card_or_year_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (835 ^W_PERIOD_PLR 0.261218 3 4
+     (834 N_PL_OLR 0.342144 3 4
+      (93 punt_n1@n_-_c_le 0 3 4
+       ("punts." 50
+        "token [ +CARG \"punts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"punts.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "jamaica")))
+ (VP (V (V "costs")) (NP (DET (ADJ "504")) (N (N (N "punts."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Jamaica" ]
+          [ _cost_v_1<8:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<14:17>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<14:17>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "504" ]
+          [ _punt_n_1<18:24>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Jamaica"){x PERS 3, NUM sg, IND +}[]
+ e3:_cost_v_1-fn.Expensiveness<8:13>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2-fn.Goods x9]
+ _2:udef_q<14:17>[BV x9]
+ e14:card<14:17>("504"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_punt_n_1<18:24>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Jamaica)  
+  _cost_v_1<8:13> ARG1 named<0:7>(Jamaica)  
+  _cost_v_1<8:13> ARG2 _punt_n_1<18:24>  
+  udef_q<14:17> BV _punt_n_1<18:24>  
+  card<14:17>(504) ARG1 _punt_n_1<18:24>  
+  named<0:7>(Jamaica) PERS 3  
+  named<0:7>(Jamaica) NUM sg  
+  named<0:7>(Jamaica) IND +  
+  _cost_v_1<8:13> SF prop  
+  _cost_v_1<8:13> TENSE pres  
+  _cost_v_1<8:13> MOOD indicative  
+  _cost_v_1<8:13> PROG -  
+  _cost_v_1<8:13> PERF -  
+  card<14:17>(504) SF prop  
+  card<14:17>(504) TENSE untensed  
+  card<14:17>(504) MOOD indicative  
+  card<14:17>(504) PROG -  
+  card<14:17>(504) PERF -  
+  _punt_n_1<18:24> PERS 3  
+  _punt_n_1<18:24> NUM pl  
+  _punt_n_1<18:24> IND +  
+}
+

@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778074] (1 of 1) {1} `Duck swarms.'
+
+[21778074:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Duck", 0, "null", "NN" 0.7085 "NNP" 0.2915)
+  (2, 1, 2, <5:11>, 1, "swarms", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <11:12>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (35, 0, 1, <0:4>, 1, "Duck", 0, "null")
+  (37, 0, 1, <0:4>, 1, "duck", 0, "null")
+  (39, 0, 1, <0:4>, 1, "duck", 0, "null")
+  (32, 1, 2, <5:12>, 1, "swarms.", 0, "null")
+  (36, 1, 2, <5:12>, 1, "swarms.", 0, "null", "NNS" 1.0)
+  (38, 1, 2, <5:12>, 1, "swarms.", 0, "null")
+>
+
+(ROOT_FRAG
+ (177 NP_FRG_C 0.487066 0 2
+  (176 HDN_BNP_C 0.691479 0 2
+   (175 N-HDN_CPD_C 0.775463 0 2
+    (41 duck_n1@n_-_mc_le 0 0 1
+     ("duck" 37
+      "token [ +CARG \"Duck\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"duck\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.70849879999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (174 ^HDN_OPTCMP_C 0.0079313 1 2
+     (173 W_PERIOD_PLR -0.070491 1 2
+      (172 N_PL_OLR -0.073435 1 2
+       (44 swarm_n1@n_pp_c-of_le 0 1 2
+        ("swarms." 32
+         "token [ +CARG \"swarms\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"swarms.\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (NP (N (N "duck") (N (N (N (N "swarms.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:12>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:12>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 ]
+          [ udef_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _duck_n_1<0:4>
+            LBL: h14
+            ARG0: x9 ]
+          [ _swarm_n_of<5:12>
+            LBL: h8
+            ARG0: x4
+            ARG1: i15 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:12>[BV x4]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:4>[BV x9]
+ x9:_duck_n_1<0:4>{x}[]
+ x4:_swarm_n_of<5:12>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:12> ARG _swarm_n_of<5:12>  
+  udef_q<0:12> BV _swarm_n_of<5:12>  
+  compound<0:12> ARG1 _swarm_n_of<5:12>  
+  compound<0:12> ARG2 _duck_n_1<0:4>  
+  udef_q<0:4> BV _duck_n_1<0:4>  
+  unknown<0:12> SF prop  
+  unknown<0:12> TENSE untensed  
+  unknown<0:12> MOOD indicative  
+  unknown<0:12> PROG -  
+  unknown<0:12> PERF -  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _swarm_n_of<5:12> PERS 3  
+  _swarm_n_of<5:12> NUM pl  
+  _swarm_n_of<5:12> IND +  
+}
+

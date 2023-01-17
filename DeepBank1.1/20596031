@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj05e';
+;;; (wsun@wsun; 22-jan-2018 (15:38 h)).
+;;;
+
+[20596031] (1 of 1) {1} `What is that point?'
+
+[20596031:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "What", 0, "null", "WP" 0.9774 "WDT" 0.0226)
+  (2, 1, 2, <5:7>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <8:12>, 1, "that", 0, "null", "DT" 0.5782 "IN" 0.3771 "WDT" 0.0448)
+  (4, 3, 4, <13:18>, 1, "point", 0, "null", "NN" 1.0)
+  (5, 4, 5, <18:19>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:4>, 1, "what", 0, "null")
+  (67, 0, 1, <0:4>, 1, "what", 0, "null")
+  (54, 1, 2, <5:7>, 1, "is", 0, "null")
+  (61, 1, 2, <5:7>, 1, "is", 0, "null", "VBZ" 1.0)
+  (64, 1, 2, <5:7>, 1, "is", 0, "null")
+  (59, 2, 3, <8:12>, 1, "that", 0, "null")
+  (66, 2, 3, <8:12>, 1, "that", 0, "null")
+  (56, 3, 4, <13:19>, 1, "point?", 0, "null")
+  (62, 3, 4, <13:19>, 1, "point?", 0, "null", "NN" 1.0)
+  (65, 3, 4, <13:19>, 1, "point?", 0, "null")
+>
+
+(ROOT_STRICT
+ (806 FLR-HD_WH-MC-SB_C 2.06637 0 4
+  (800 HDN_BNP-QNT_C 0.512834 0 1
+   (799 HDN_OPTCMP_C 1.16635 0 1
+    (73 what1@n_-_pr-wh_le 0.858054 0 1
+     ("what" 63
+      "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"what\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97744249999999999\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (805 ^HD_XSB-FIN_C 1.32083 1 4
+   (804 HD-CMP_U_C 0.835144 1 4
+    (126 be_id_is@v_np_is_le 0.185566 1 2
+     ("is" 54
+      "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (803 SP-HD_N_C 0.303555 2 4
+     (226 that_det@d_-_sgm_le -0.478774 2 3
+      ("that" 59
+       "token [ +CARG #1=\"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.57816619999999996\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (802 ^W_QMARK_PLR 0.782329 3 4
+      (801 N_SG_ILR 0.529894 3 4
+       (250 point_n2@n_-_c-ed-ns_le 0 3 4
+        ("point?" 56
+         "token [ +CARG \"point\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"point?\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "what")))
+ (S/NP (VP/NP (V/NP "is") (NP (DET "that") (N (N (N "point?")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ thing<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ which_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<5:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _that_q_dem<8:12>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _point_n_of<13:19>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:4>{x PERS 3, NUM sg}[]
+ _1:which_q<0:4>[BV x5]
+ e3:_be_v_id<5:7>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_that_q_dem<8:12>[BV x9]
+ x9:_point_n_of<13:19>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  which_q<0:4> BV thing<0:4>  
+  _be_v_id<5:7> ARG1 thing<0:4>  
+  _be_v_id<5:7> ARG2 _point_n_of<13:19>  
+  _that_q_dem<8:12> BV _point_n_of<13:19>  
+  thing<0:4> PERS 3  
+  thing<0:4> NUM sg  
+  _be_v_id<5:7> SF ques  
+  _be_v_id<5:7> TENSE pres  
+  _be_v_id<5:7> MOOD indicative  
+  _be_v_id<5:7> PROG -  
+  _be_v_id<5:7> PERF -  
+  _point_n_of<13:19> PERS 3  
+  _point_n_of<13:19> NUM sg  
+  _point_n_of<13:19> IND +  
+}
+

@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:18 h)).
+;;;
+
+[20453033] (1 of 1) {1} `"Barry felt very committed.'
+
+[20453033:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:6>, 1, "Barry", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <7:11>, 1, "felt", 0, "null", "VBD" 0.989 "VBN" 0.011)
+  (4, 3, 4, <12:16>, 1, "very", 0, "null", "RB" 1.0)
+  (5, 4, 5, <17:26>, 1, "committed", 0, "null", "VBN" 0.8903 "JJ" 0.1001 "VBD" 0.0096)
+  (6, 5, 6, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:6>, 1, "“Barry", 0, "null")
+  (76, 0, 1, <0:6>, 1, "“barry", 0, "null")
+  (80, 0, 1, <0:6>, 1, "“barry", 0, "null")
+  (67, 1, 2, <7:11>, 1, "felt", 0, "null")
+  (72, 1, 2, <7:11>, 1, "felt", 0, "null", "VBD" 0.989)
+  (78, 1, 2, <7:11>, 1, "felt", 0, "null")
+  (64, 2, 3, <12:16>, 1, "very", 0, "null")
+  (75, 2, 3, <12:16>, 1, "very", 0, "null", "RB" 1.0)
+  (77, 2, 3, <12:16>, 1, "very", 0, "null")
+  (69, 3, 4, <17:27>, 1, "committed.", 0, "null")
+  (73, 3, 4, <17:27>, 1, "committed.", 0, "null", "VBN" 0.8903)
+  (74, 3, 4, <17:27>, 1, "committed.", 0, "null", "JJ" 0.1001)
+  (79, 3, 4, <17:27>, 1, "committed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1200 SB-HD_MC_C 2.2221 0 4
+  (1194 HDN_BNP-PN_C -1.60715 0 1
+   (1193 W_DQLEFT_PLR -0.698402 0 1
+    (1192 N_SG_ILR -0.137273 0 1
+     (84 barry_n1@n_-_pn_le 0 0 1
+      ("“barry" 76
+       "token [ +CARG \"Barry\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“barry\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1199 ^HD_OPTCMP_C 4.22239 1 4
+   (1198 HD-CMP_U_C 2.4346 1 4
+    (1195 ^V_PST_OLR 0 1 2
+     (103 feel_v4@v_ap-pp_about_le 0 1 2
+      ("felt" 67
+       "token [ +CARG #1=\"felt\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98897930000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1197 SP-HD_HC_C 2.15591 2 4
+     (156 very@av_-_dg-v_le 1.06286 2 3
+      ("very" 64
+       "token [ +CARG #1=\"very\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1196 ^W_PERIOD_PLR 0.396613 3 4
+      (213 committed_a1@aj_-_i_le 0 3 4
+       ("committed." 69
+        "token [ +CARG \"committed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"committed.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89033099999999998\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "“barry"))))
+ (VP (V (V (V "felt")) (AP (ADV "very") (AP (AP "committed."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Barry" ]
+          [ _feel_v_seem-about<7:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h10
+            ARG3: i9 ]
+          [ _very_x_deg<12:16>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _committed_a_1<17:27>
+            LBL: h11
+            ARG0: e13
+            ARG1: x6 ] >
+   HCONS: < h10 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Barry"){x PERS 3, NUM sg, IND +}[]
+ e3:_feel_v_seem-about-fn.Feeling<7:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Experiencer x6, ARG2-fn.Stimulus e13]
+ e12:_very_x_deg<12:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e13]
+ e13:_committed_a_1<17:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Barry)  
+  _feel_v_seem-about<7:11> ARG1 named<0:6>(Barry)  
+  _feel_v_seem-about<7:11> ARG2 _committed_a_1<17:27>  
+  _very_x_deg<12:16> ARG1 _committed_a_1<17:27>  
+  _committed_a_1<17:27> ARG1 named<0:6>(Barry)  
+  named<0:6>(Barry) PERS 3  
+  named<0:6>(Barry) NUM sg  
+  named<0:6>(Barry) IND +  
+  _feel_v_seem-about<7:11> SF prop  
+  _feel_v_seem-about<7:11> TENSE past  
+  _feel_v_seem-about<7:11> MOOD indicative  
+  _feel_v_seem-about<7:11> PROG -  
+  _feel_v_seem-about<7:11> PERF -  
+  _very_x_deg<12:16> SF prop  
+  _very_x_deg<12:16> TENSE untensed  
+  _very_x_deg<12:16> MOOD indicative  
+  _very_x_deg<12:16> PROG -  
+  _very_x_deg<12:16> PERF -  
+  _committed_a_1<17:27> SF prop  
+  _committed_a_1<17:27> TENSE untensed  
+  _committed_a_1<17:27> MOOD indicative  
+  _committed_a_1<17:27> PROG -  
+  _committed_a_1<17:27> PERF -  
+}
+

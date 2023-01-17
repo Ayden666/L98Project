@@ -1,0 +1,115 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (13:57 h)).
+;;;
+
+[20430002] (1 of 1) {1} `Not even an earthquake.'
+
+[20430002:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:8>, 1, "even", 0, "null", "RB" 0.9677 "VB" 0.0323)
+  (3, 2, 3, <9:11>, 1, "an", 0, "null", "DT" 1.0)
+  (4, 3, 4, <12:22>, 1, "earthquake", 0, "null", "NN" 1.0)
+  (5, 4, 5, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (58, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (60, 0, 1, <0:3>, 1, "not", 0, "null")
+  (64, 0, 1, <0:3>, 1, "not", 0, "null")
+  (55, 1, 2, <4:8>, 1, "even", 0, "null")
+  (57, 1, 2, <4:8>, 1, "even", 0, "null", "RB" 0.9677)
+  (63, 1, 2, <4:8>, 1, "even", 0, "null")
+  (52, 2, 3, <9:11>, 1, "an", 0, "null")
+  (61, 2, 3, <9:11>, 1, "an", 0, "null")
+  (54, 3, 4, <12:23>, 1, "earthquake.", 0, "null")
+  (59, 3, 4, <12:23>, 1, "earthquake.", 0, "null", "NN" 1.0)
+  (62, 3, 4, <12:23>, 1, "earthquake.", 0, "null")
+>
+
+(ROOT_FRAG
+ (422 AJ-NP_INT-FRG_C 1.93561 0 4
+  (418 ^MRK-NH_EVNT_C 0.048336 0 2
+   (101 not_conj_event@c_xp_not-ev_le -0.526219 0 1
+    ("not" 60
+     "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (162 even_adv1@av_-_i-vp-x_le 0.574555 1 2
+    ("even" 55
+     "token [ +CARG #1=\"even\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96773200000000004\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (421 SP-HD_N_C 2.09378 2 4
+   (177 an_det@d_-_sg-nmd-an_le -0.028573 2 3
+    ("an" 52
+     "token [ +CARG #1=\"an\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (420 ^W_PERIOD_PLR 0.755785 3 4
+    (419 N_SG_ILR 0.432921 3 4
+     (198 earthquake_n1@n_-_c_le 0 3 4
+      ("earthquake." 54
+       "token [ +CARG \"earthquake\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"earthquake.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (ADV-C (CONJ "not") (ADV "even"))
+ (NP (DET "an") (N (N (N "earthquake.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:23>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _not_c<0:3>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            L-HNDL: u7
+            L-INDEX: i8
+            R-HNDL: h2
+            R-INDEX: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _even_a_1<4:8>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _a_q<9:11>
+            LBL: h10
+            ARG0: x4
+            RSTR: h12
+            BODY: h11 ]
+          [ _earthquake_n_1<12:23>
+            LBL: h13
+            ARG0: x4 ] >
+   HCONS: < h12 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:23>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ e6:_not_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e3]
+ e9:_even_a_1<4:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:_a_q<9:11>[BV x4]
+ x4:_earthquake_n_1<12:23>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:23> ARG _earthquake_n_1<12:23>  
+  _not_c<0:3> R-HNDL unknown<0:23>  
+  _even_a_1<4:8> ARG1 unknown<0:23>  
+  _a_q<9:11> BV _earthquake_n_1<12:23>  
+  unknown<0:23> SF prop-or-ques  
+  unknown<0:23> TENSE untensed  
+  unknown<0:23> MOOD indicative  
+  unknown<0:23> PROG -  
+  unknown<0:23> PERF -  
+  _not_c<0:3> SF prop  
+  _not_c<0:3> TENSE untensed  
+  _not_c<0:3> MOOD indicative  
+  _not_c<0:3> PROG -  
+  _not_c<0:3> PERF -  
+  _even_a_1<4:8> SF prop  
+  _even_a_1<4:8> TENSE untensed  
+  _even_a_1<4:8> MOOD indicative  
+  _even_a_1<4:8> PROG -  
+  _even_a_1<4:8> PERF -  
+  _earthquake_n_1<12:23> PERS 3  
+  _earthquake_n_1<12:23> NUM sg  
+  _earthquake_n_1<12:23> IND +  
+}
+

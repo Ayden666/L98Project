@@ -1,0 +1,167 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:16 h)).
+;;;
+
+[22041051] (1 of 1) {1} `March 24, 1986:'
+
+[22041051:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "March", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:8>, 1, "24", 0, "null", "CD" 1.0)
+  (3, 2, 3, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <10:14>, 1, "1986", 0, "null", "CD" 1.0)
+  (5, 4, 5, <14:15>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (47, 0, 1, <0:5>, 1, "March", 0, "null")
+  (48, 0, 1, <0:5>, 1, "march", 0, "null")
+  (52, 0, 1, <0:5>, 1, "march", 0, "null")
+  (42, 1, 2, <6:9>, 1, "24,", 0, "null")
+  (50, 1, 2, <6:9>, 1, "24,", 0, "null")
+  (39, 2, 3, <10:14>, 1, "1986", 0, "null")
+  (49, 2, 3, <10:14>, 1, "1986", 0, "null")
+  (46, 3, 4, <14:15>, 1, ":", 0, "null")
+  (51, 3, 4, <14:15>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (974 NP_FRG_C 10.0963 0 4
+  (973 HDN-AJ_REDREL_C 9.79687 0 4
+   (972 ^SP-HD_HC_C 8.93449 0 3
+    (964 N_DET-MNTH_DLR 3.0543 0 1
+     (963 N_SG_ILR 1.16988 0 1
+      (54 march@n_-_c-month_le -0.0332469 0 1
+       ("march" 48
+        "token [ +CARG \"March\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"march\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (971 ^HDN-AJ_REDREL-PR_C 5.81764 1 3
+     (966 ^W_COMMA_PLR 2.01473 1 2
+      (965 N_SG_ILR 1.30559 1 2
+       (71 generic_dom_card_ne@n_-_pn-dom-gen_le 0 1 2
+        ("24," 42
+         "token [ +CARG \"24\" +CLASS card_or_dom_ne +FORM \"24,\" +FROM \"6\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (970 NP_ADV-YR_C 2.52066 2 3
+      (969 HDN_BNP-PN_C 1.10666 2 3
+       (968 HDN_OPTCMP_C -0.184256 2 3
+        (967 N_SG_ILR 0.198774 2 3
+         (80 generic_year_ne@n_-_pn-yoc-gen_le 0.681132 2 3
+          ("1986" 39
+           "token [ +CARG #1=\"1986\" +CLASS card_or_year_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+   (90 colon_namely_pp@pp_-_i-cln_le 0.352905 3 4
+    (":" 46
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP
+ (NP
+  (NP (DET (N (N "march")))
+   (N (N (N (N "24,"))) (PP (NP (N (N (N "1986")))))))
+  (PP ":")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG GEND: N IND: + ] ]
+          [ mofy<0:5>
+            LBL: h5
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Mar" ]
+          [ def_explicit_q<0:5>
+            LBL: h7
+            ARG0: x4
+            RSTR: h8
+            BODY: h9 ]
+          [ of_p<0:5>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x6 ]
+          [ def_implicit_q<0:5>
+            LBL: h11
+            ARG0: x6
+            RSTR: h12
+            BODY: h13 ]
+          [ dofm<6:9>
+            LBL: h2
+            ARG0: x4
+            CARG: "24" ]
+          [ loc_nonsp<10:14>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<10:14>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ yofc<10:14>
+            LBL: h19
+            ARG0: x15
+            CARG: "1986" ]
+          [ _colon_p_namely<14:15>
+            LBL: h2
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h5 h8 QEQ h2 h1 QEQ h2 > ]
+
+{x4:
+ e3:unknown<0:15>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ x6:mofy<0:5>("Mar"){x PERS 3, NUM sg, IND +}[]
+ _1:def_explicit_q<0:5>[BV x4]
+ e10:of_p<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x6]
+ _2:def_implicit_q<0:5>[BV x6]
+ x4:dofm<6:9>("24"){x PERS 3, NUM sg, GEND n, IND +}[]
+ e14:loc_nonsp<10:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x15]
+ _3:proper_q<10:14>[BV x15]
+ x15:yofc<10:14>("1986"){x PERS 3, NUM sg, IND +}[]
+ e20:_colon_p_namely<14:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:15> ARG dofm<6:9>(24)  
+  def_explicit_q<0:5> BV dofm<6:9>(24)  
+  of_p<0:5> ARG1 dofm<6:9>(24)  
+  of_p<0:5> ARG2 mofy<0:5>(Mar)  
+  def_implicit_q<0:5> BV mofy<0:5>(Mar)  
+  loc_nonsp<10:14> ARG1 dofm<6:9>(24)  
+  loc_nonsp<10:14> ARG2 yofc<10:14>(1986)  
+  proper_q<10:14> BV yofc<10:14>(1986)  
+  _colon_p_namely<14:15> ARG1 dofm<6:9>(24)  
+  unknown<0:15> SF prop-or-ques  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  mofy<0:5>(Mar) PERS 3  
+  mofy<0:5>(Mar) NUM sg  
+  mofy<0:5>(Mar) IND +  
+  of_p<0:5> SF prop  
+  of_p<0:5> TENSE untensed  
+  of_p<0:5> MOOD indicative  
+  of_p<0:5> PROG -  
+  of_p<0:5> PERF -  
+  dofm<6:9>(24) PERS 3  
+  dofm<6:9>(24) NUM sg  
+  dofm<6:9>(24) GEND n  
+  dofm<6:9>(24) IND +  
+  loc_nonsp<10:14> SF prop  
+  loc_nonsp<10:14> TENSE untensed  
+  loc_nonsp<10:14> MOOD indicative  
+  loc_nonsp<10:14> PROG -  
+  loc_nonsp<10:14> PERF -  
+  yofc<10:14>(1986) PERS 3  
+  yofc<10:14>(1986) NUM sg  
+  yofc<10:14>(1986) IND +  
+  _colon_p_namely<14:15> SF prop  
+  _colon_p_namely<14:15> TENSE untensed  
+  _colon_p_namely<14:15> MOOD indicative  
+  _colon_p_namely<14:15> PROG -  
+  _colon_p_namely<14:15> PERF -  
+}
+

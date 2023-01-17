@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj03b';
+;;; (wsun@wsun; 22-jan-2018 (13:13 h)).
+;;;
+
+[20331028] (1 of 1) {1} `Some analysts remain bullish.'
+
+[20331028:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Some", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:13>, 1, "analysts", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:20>, 1, "remain", 0, "null", "VBP" 0.9697 "VB" 0.0303)
+  (4, 3, 4, <21:28>, 1, "bullish", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:4>, 1, "some", 0, "null")
+  (64, 0, 1, <0:4>, 1, "some", 0, "null")
+  (52, 1, 2, <5:13>, 1, "analysts", 0, "null")
+  (58, 1, 2, <5:13>, 1, "analysts", 0, "null", "NNS" 1.0)
+  (61, 1, 2, <5:13>, 1, "analysts", 0, "null")
+  (55, 2, 3, <14:20>, 1, "remain", 0, "null")
+  (57, 2, 3, <14:20>, 1, "remain", 0, "null", "VBP" 0.9697)
+  (63, 2, 3, <14:20>, 1, "remain", 0, "null")
+  (54, 3, 4, <21:29>, 1, "bullish.", 0, "null")
+  (59, 3, 4, <21:29>, 1, "bullish.", 0, "null", "JJ" 1.0)
+  (62, 3, 4, <21:29>, 1, "bullish.", 0, "null")
+>
+
+(ROOT_STRICT
+ (402 SB-HD_MC_C 5.29819 0 4
+  (398 SP-HD_N_C 1.79053 0 2
+   (65 some@d_-_prt-div_le 0.513897 0 1
+    ("some" 60
+     "token [ +CARG \"Some\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"some\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (397 ^N_PL_OLR 0.114908 1 2
+    (69 analyst_n1@n_-_c_le -0.169801 1 2
+     ("analysts" 52
+      "token [ +CARG #1=\"analysts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (401 ^HD-CMP_U_C 1.55314 2 4
+   (399 ^V_N3S-BSE_ILR 0.906117 2 3
+    (93 remain_v4@v_prd_seq_le 1.38787 2 3
+     ("remain" 55
+      "token [ +CARG #1=\"remain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96965060000000003\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (400 W_PERIOD_PLR -0.0965441 3 4
+    (109 generic_adj@aj_-_i-unk_le 0 3 4
+     ("bullish." 59
+      "token [ +CARG \"bullish\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"bullish.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED \"_bullish/JJ_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"JJ\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+
+(S (NP (DET "some") (N (N "analysts")))
+ (VP (V (V "remain")) (AP (AP "bullish."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _some_q<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h6
+            BODY: h7 ]
+          [ _analyst_n_1<5:13>
+            LBL: h8
+            ARG0: x5 ]
+          [ _remain_v_1<14:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: h9 ]
+          [ _bullish/jj_u_unknown<21:29>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 ] >
+   HCONS: < h9 QEQ h10 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_some_q<0:4>[BV x5]
+ x5:_analyst_n_1<5:13>{x PERS 3, NUM pl, IND +}[]
+ e3:_remain_v_1<14:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 e11]
+ e11:_bullish/jj_u_unknown<21:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  _some_q<0:4> BV _analyst_n_1<5:13>  
+  _remain_v_1<14:20> ARG1 _analyst_n_1<5:13>  
+  _remain_v_1<14:20> ARG2 _bullish/jj_u_unknown<21:29>  
+  _bullish/jj_u_unknown<21:29> ARG1 _analyst_n_1<5:13>  
+  _analyst_n_1<5:13> PERS 3  
+  _analyst_n_1<5:13> NUM pl  
+  _analyst_n_1<5:13> IND +  
+  _remain_v_1<14:20> SF prop  
+  _remain_v_1<14:20> TENSE pres  
+  _remain_v_1<14:20> MOOD indicative  
+  _remain_v_1<14:20> PROG -  
+  _remain_v_1<14:20> PERF -  
+  _bullish/jj_u_unknown<21:29> SF prop  
+  _bullish/jj_u_unknown<21:29> TENSE untensed  
+  _bullish/jj_u_unknown<21:29> MOOD indicative  
+  _bullish/jj_u_unknown<21:29> PROG -  
+  _bullish/jj_u_unknown<21:29> PERF -  
+}
+

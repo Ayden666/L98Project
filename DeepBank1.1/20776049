@@ -1,0 +1,124 @@
+;;;
+;;; Redwoods export of `wsj07d';
+;;; (wsun@wsun; 22-jan-2018 (17:44 h)).
+;;;
+
+[20776049] (1 of 1) {1} `Not a great deal.'
+
+[20776049:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:5>, 1, "a", 0, "null", "DT" 1.0)
+  (3, 2, 3, <6:11>, 1, "great", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <12:16>, 1, "deal", 0, "null", "NN" 1.0)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (58, 0, 1, <0:3>, 1, "not", 0, "null")
+  (62, 0, 1, <0:3>, 1, "not", 0, "null")
+  (50, 1, 2, <4:5>, 1, "a", 0, "null")
+  (59, 1, 2, <4:5>, 1, "a", 0, "null")
+  (52, 2, 3, <6:11>, 1, "great", 0, "null")
+  (56, 2, 3, <6:11>, 1, "great", 0, "null", "JJ" 1.0)
+  (60, 2, 3, <6:11>, 1, "great", 0, "null")
+  (54, 3, 4, <12:17>, 1, "deal.", 0, "null")
+  (57, 3, 4, <12:17>, 1, "deal.", 0, "null", "NN" 1.0)
+  (61, 3, 4, <12:17>, 1, "deal.", 0, "null")
+>
+
+(ROOT_FRAG
+ (560 NP_CNJ-FRG_C 1.15582 0 4
+  (559 MRK-NH_NOM_C 1.32466 0 4
+   (98 not_conj@c_xp_not_le 0.177128 0 1
+    ("not" 58
+     "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (558 SP-HD_N_C 0.918197 1 4
+    (163 a_det@d_-_sg-nmd_le -0.491517 1 2
+     ("a" 50
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (557 ^AJ-HDN_NORM_C 0.648658 2 4
+     (240 great_adj@aj_-_i-er_le -0.477429 2 3
+      ("great" 52
+       "token [ +CARG #1=\"great\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (556 ^W_PERIOD_PLR 0.922408 3 4
+      (555 N_MS-CNT_ILR 0.310782 3 4
+       (252 deal_n1@n_-_mc_le 0 3 4
+        ("deal." 54
+         "token [ +CARG \"deal\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"deal.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP-CJ (CONJ "not")
+  (NP (DET "a") (N (AP "great") (N (N (N "deal.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ generic_entity<0:17>
+            LBL: h8
+            ARG0: x4 ]
+          [ _not_c<0:3>
+            LBL: h2
+            ARG0: x4
+            L-INDEX: i10
+            R-INDEX: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<4:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h13
+            BODY: h12 ]
+          [ _great_a_for<6:11>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _deal_n_1<12:17>
+            LBL: h14
+            ARG0: x9 ] >
+   HCONS: < h13 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:17>[BV x4]
+ x4:generic_entity<0:17>{x PERS 3, NUM sg}[]
+ _3:_not_c<0:3>{x PERS 3, NUM sg}[R-INDEX x9]
+ _2:_a_q<4:5>[BV x9]
+ e15:_great_a_for<6:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_deal_n_1<12:17>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:17> ARG generic_entity<0:17>  
+  udef_q<0:17> BV generic_entity<0:17>  
+  _not_c<0:3> R-INDEX _deal_n_1<12:17>  
+  _a_q<4:5> BV _deal_n_1<12:17>  
+  _great_a_for<6:11> ARG1 _deal_n_1<12:17>  
+  unknown<0:17> SF prop  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  generic_entity<0:17> PERS 3  
+  generic_entity<0:17> NUM sg  
+  _not_c<0:3> PERS 3  
+  _not_c<0:3> NUM sg  
+  _great_a_for<6:11> SF prop  
+  _great_a_for<6:11> TENSE untensed  
+  _great_a_for<6:11> MOOD indicative  
+  _great_a_for<6:11> PROG -  
+  _great_a_for<6:11> PERF -  
+  _deal_n_1<12:17> PERS 3  
+  _deal_n_1<12:17> NUM sg  
+}
+

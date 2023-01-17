@@ -1,0 +1,140 @@
+;;;
+;;; Redwoods export of `wsj07d';
+;;; (wsun@wsun; 22-jan-2018 (17:43 h)).
+;;;
+
+[20775013] (1 of 1) {1} `e-Estimated.'
+
+[20775013:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "e", 0, "null", "SYM" 0.8789 "LS" 0.1211)
+  (2, 1, 2, <1:2>, 1, "-", 0, "null", ":" 1.0)
+  (3, 2, 3, <2:11>, 1, "Estimated", 0, "null", "VBN" 0.9227 "JJ" 0.0773)
+  (4, 3, 4, <11:12>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:1>, 1, "e", 0, "null")
+  (51, 0, 1, <0:1>, 1, "e", 0, "null", "SYM" 0.8789)
+  (53, 0, 1, <0:1>, 1, "e", 0, "null", "LS" 0.1211)
+  (57, 0, 1, <0:1>, 1, "e", 0, "null")
+  (46, 1, 2, <1:2>, 1, "-", 0, "null")
+  (56, 1, 2, <1:2>, 1, "-", 0, "null")
+  (40, 2, 3, <2:12>, 1, "Estimated.", 0, "null")
+  (52, 2, 3, <2:12>, 1, "Estimated.", 0, "null", "VBN" 0.9227)
+  (54, 2, 3, <2:12>, 1, "estimated.", 0, "null")
+  (55, 2, 3, <2:12>, 1, "estimated.", 0, "null")
+>
+
+(ROOT_STRICT
+ (683 CL-CL_RUNON_C 0.457046 0 3
+  (678 NP_FRG_C 0.451183 0 2
+   (677 HDN_BNP-PN_C 1.74381 0 2
+    (676 HD-PCT_C 1.47943 0 2
+     (675 ^N_SG_ILR -0.177559 0 1
+      (59 e_lower_np1@n_-_pn_le 0 0 1
+       ("e" 47
+        "token [ +CARG #1=\"e\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87889839999999997\" +TAG \"SYM\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (92 s_dash_pct@pt_-_s-dash_le 0.43917 1 2
+      ("-" 46
+       "token [ +CARG #1=\"-\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"1\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (682 ^J_FRG_C 0.017005 2 3
+   (681 W_PERIOD_PLR 0.177593 2 3
+    (680 V_J-NB-PAS-TR_DLR -0.178476 2 3
+     (679 V_PAS_ODLR -0.164094 2 3
+      (225 estimate_v4@v_np_le 0 2 3
+       ("estimated." 54
+        "token [ +CARG \"Estimated\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"estimated.\" +FROM #1=\"2\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92269080000000003\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (XP (NP (N (N (N "e")) (PNCT "-"))))
+ (XP (AP (AP (V (V "estimated."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:12>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:2>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:2>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ named<0:1>
+            LBL: h13
+            ARG0: x9
+            CARG: "E" ]
+          [ unknown<2:12>
+            LBL: h14
+            ARG0: e6
+            ARG: i15 ]
+          [ _estimate_v_at<2:12>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i17
+            ARG2: i15 ]
+          [ parg_d<2:12>
+            LBL: h14
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: i15 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h14 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:12>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL e6, R-INDEX e6]
+ e7:unknown<0:2>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:proper_q<0:2>[BV x9]
+ x9:named<0:1>("E"){x PERS 3, NUM sg, IND +}[]
+ e6:unknown<2:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e16:_estimate_v_at<2:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e18:parg_d<2:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16]
+}
+
+{
+  implicit_conj<0:12> L-HNDL unknown<0:2>  
+  implicit_conj<0:12> L-INDEX unknown<0:2>  
+  implicit_conj<0:12> R-HNDL unknown<2:12>  
+  implicit_conj<0:12> R-INDEX unknown<2:12>  
+  unknown<0:2> ARG named<0:1>(E)  
+  proper_q<0:2> BV named<0:1>(E)  
+  parg_d<2:12> ARG1 _estimate_v_at<2:12>  
+  implicit_conj<0:12> SF prop  
+  implicit_conj<0:12> TENSE tensed  
+  implicit_conj<0:12> MOOD indicative  
+  implicit_conj<0:12> PROG -  
+  implicit_conj<0:12> PERF -  
+  unknown<0:2> SF prop  
+  unknown<0:2> TENSE tensed  
+  unknown<0:2> MOOD indicative  
+  unknown<0:2> PROG -  
+  unknown<0:2> PERF -  
+  named<0:1>(E) PERS 3  
+  named<0:1>(E) NUM sg  
+  named<0:1>(E) IND +  
+  unknown<2:12> SF prop  
+  unknown<2:12> TENSE untensed  
+  unknown<2:12> MOOD indicative  
+  unknown<2:12> PROG -  
+  unknown<2:12> PERF -  
+  _estimate_v_at<2:12> SF prop  
+  _estimate_v_at<2:12> TENSE untensed  
+  _estimate_v_at<2:12> MOOD indicative  
+  _estimate_v_at<2:12> PROG -  
+  _estimate_v_at<2:12> PERF -  
+  parg_d<2:12> SF prop  
+  parg_d<2:12> TENSE untensed  
+  parg_d<2:12> MOOD indicative  
+  parg_d<2:12> PROG -  
+  parg_d<2:12> PERF -  
+}
+

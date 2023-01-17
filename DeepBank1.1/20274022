@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:32 h)).
+;;;
+
+[20274022] (1 of 1) {1} `Second, they are liquid.'
+
+[20274022:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Second", 0, "null", "RB" 0.6798 "LS" 0.1782 "NNP" 0.0839 "JJ" 0.0582)
+  (2, 1, 2, <6:7>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <8:12>, 1, "they", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <17:23>, 1, "liquid", 0, "null", "JJ" 0.919 "NN" 0.081)
+  (6, 5, 6, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:7>, 1, "Second,", 0, "null", "RB" 0.6798)
+  (75, 0, 1, <0:7>, 1, "Second,", 0, "null", "LS" 0.1782)
+  (77, 0, 1, <0:7>, 1, "second,", 0, "null")
+  (81, 0, 1, <0:7>, 1, "second,", 0, "null")
+  (66, 1, 2, <8:12>, 1, "they", 0, "null")
+  (78, 1, 2, <8:12>, 1, "they", 0, "null")
+  (68, 2, 3, <13:16>, 1, "are", 0, "null")
+  (76, 2, 3, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (79, 2, 3, <13:16>, 1, "are", 0, "null")
+  (70, 3, 4, <17:24>, 1, "liquid.", 0, "null")
+  (74, 3, 4, <17:24>, 1, "liquid.", 0, "null", "JJ" 0.919)
+  (80, 3, 4, <17:24>, 1, "liquid.", 0, "null")
+>
+
+(ROOT_STRICT
+ (572 AJ-HD_SCP_C 8.0112 0 4
+  (567 W_COMMA_PLR 2.05251 0 1
+   (90 second_adv1@av_-_s-cp-pr_le 0 0 1
+    ("second," 77
+     "token [ +CARG \"Second\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"second,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67975200000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (571 ^SB-HD_MC_C 4.57813 1 4
+   (568 HDN_BNP-QNT_C 1.59936 1 2
+    (113 they@n_-_pr-they_le 0.818341 1 2
+     ("they" 66
+      "token [ +CARG #1=\"they\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (570 ^HD-CMP_U_C 1.80555 2 4
+    (128 be_c_are@v_prd_are_le 1.27762 2 3
+     ("are" 68
+      "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (569 W_PERIOD_PLR 0.612486 3 4
+     (135 liquid_a1@aj_-_i_le 0 3 4
+      ("liquid." 70
+       "token [ +CARG \"liquid\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"liquid.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91896580000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (ADV (ADV "second,"))
+ (S (NP (NP "they")) (VP (V "are") (AP (AP "liquid.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _second_a_1<0:7>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ pron<8:12>
+            LBL: h6
+            ARG0: x7 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<8:12>
+            LBL: h8
+            ARG0: x7
+            RSTR: h9
+            BODY: h10 ]
+          [ _liquid_a_1<17:24>
+            LBL: h11
+            ARG0: e3
+            ARG1: x7 ] >
+   HCONS: < h9 QEQ h6 h4 QEQ h11 h1 QEQ h2 > ]
+
+{e5:
+ e5:_second_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ x7:pron<8:12>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<8:12>[BV x7]
+ e3:_liquid_a_1<17:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x7]
+}
+
+{
+  _second_a_1<0:7> ARG1 _liquid_a_1<17:24>  
+  pronoun_q<8:12> BV pron<8:12>  
+  _liquid_a_1<17:24> ARG1 pron<8:12>  
+  _second_a_1<0:7> SF prop  
+  _second_a_1<0:7> TENSE untensed  
+  _second_a_1<0:7> MOOD indicative  
+  _second_a_1<0:7> PROG -  
+  _second_a_1<0:7> PERF -  
+  pron<8:12> PERS 3  
+  pron<8:12> NUM pl  
+  pron<8:12> PT std  
+  _liquid_a_1<17:24> SF prop  
+  _liquid_a_1<17:24> TENSE pres  
+  _liquid_a_1<17:24> MOOD indicative  
+  _liquid_a_1<17:24> PROG -  
+  _liquid_a_1<17:24> PERF -  
+}
+

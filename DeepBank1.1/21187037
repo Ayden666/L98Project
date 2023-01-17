@@ -1,0 +1,156 @@
+;;;
+;;; Redwoods export of `wsj11e';
+;;; (wsun@wsun; 22-jan-2018 (20:52 h)).
+;;;
+
+[21187037] (1 of 1) {1} `It jumped 7.5 Monday.'
+
+[21187037:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:9>, 1, "jumped", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <10:13>, 1, "7.5", 0, "null", "CD" 1.0)
+  (4, 3, 4, <14:20>, 1, "Monday", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (56, 0, 1, <0:2>, 1, "it", 0, "null")
+  (62, 0, 1, <0:2>, 1, "it", 0, "null")
+  (51, 1, 2, <3:9>, 1, "jumped", 0, "null")
+  (54, 1, 2, <3:9>, 1, "jumped", 0, "null", "VBD" 1.0)
+  (60, 1, 2, <3:9>, 1, "jumped", 0, "null")
+  (43, 2, 3, <10:13>, 1, "7.5", 0, "null")
+  (58, 2, 3, <10:13>, 1, "7.5", 0, "null")
+  (47, 3, 4, <14:21>, 1, "Monday.", 0, "null")
+  (55, 3, 4, <14:21>, 1, "Monday.", 0, "null", "NNP" 1.0)
+  (57, 3, 4, <14:21>, 1, "monday.", 0, "null")
+  (59, 3, 4, <14:21>, 1, "monday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (796 SB-HD_MC_C 6.02909 0 4
+  (784 HDN_BNP-QNT_C 0.430464 0 1
+   (64 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 56
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (795 ^HD-AJ_INT-UNSL_C 5.01911 1 4
+   (790 ^HD-AJ_INT-UNSL_C 3.65837 1 3
+    (786 ^HD_OPTCMP_C 3.90945 1 2
+     (785 V_PST_OLR 2.41889 1 2
+      (88 jump_v2@v_pp*_dir_le 1.82353 1 2
+       ("jumped" 51
+        "token [ +CARG #1=\"jumped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (789 NP_ADV-MNP_C -1.43417 2 3
+     (788 HDN_BNP-NUM_C -0.69463 2 3
+      (787 HDN_NP-NUM_C -0.283576 2 3
+       (197 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+        ("7.5" 43
+         "token [ +CARG #1=\"7.5\" +CLASS card_or_proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (794 NP_ADV_C 1.145 3 4
+    (793 HDN_BNP-PN_C 0.703688 3 4
+     (792 W_PERIOD_PLR 0.346801 3 4
+      (791 N_SG_ILR -0.367837 3 4
+       (206 monday_n1@n_-_c-dow_le 0 3 4
+        ("monday." 57
+         "token [ +CARG \"Monday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"monday.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "it"))
+ (VP (VP (VP (V (V "jumped"))) (PP (NP (N (ADJ "7.5")))))
+  (PP (NP (N (N (N "monday.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _jump_v_1<3:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ]
+          [ loc_nonsp<10:13>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<10:13>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ card<10:13>
+            LBL: h14
+            ARG0: x10
+            ARG1: i15
+            CARG: "7.5" ]
+          [ loc_nonsp<14:21>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<14:21>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ dofw<14:21>
+            LBL: h21
+            ARG0: x17
+            CARG: "Mon" ] >
+   HCONS: < h19 QEQ h21 h12 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_jump_v_1-fn.Change_position_on_a_scale<3:9>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e9:loc_nonsp<10:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:number_q<10:13>[BV x10]
+ x10:card<10:13>("7.5"){x PERS 3, NUM sg}[]
+ e16:loc_nonsp<14:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ _3:proper_q<14:21>[BV x17]
+ x17:dofw<14:21>("Mon"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _jump_v_1<3:9> ARG1 pron<0:2>  
+  loc_nonsp<10:13> ARG1 _jump_v_1<3:9>  
+  loc_nonsp<10:13> ARG2 card<10:13>(7.5)  
+  number_q<10:13> BV card<10:13>(7.5)  
+  loc_nonsp<14:21> ARG1 _jump_v_1<3:9>  
+  loc_nonsp<14:21> ARG2 dofw<14:21>(Mon)  
+  proper_q<14:21> BV dofw<14:21>(Mon)  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _jump_v_1<3:9> SF prop  
+  _jump_v_1<3:9> TENSE past  
+  _jump_v_1<3:9> MOOD indicative  
+  _jump_v_1<3:9> PROG -  
+  _jump_v_1<3:9> PERF -  
+  loc_nonsp<10:13> SF prop  
+  loc_nonsp<10:13> TENSE untensed  
+  loc_nonsp<10:13> MOOD indicative  
+  loc_nonsp<10:13> PROG -  
+  loc_nonsp<10:13> PERF -  
+  card<10:13>(7.5) PERS 3  
+  card<10:13>(7.5) NUM sg  
+  loc_nonsp<14:21> SF prop  
+  loc_nonsp<14:21> TENSE untensed  
+  loc_nonsp<14:21> MOOD indicative  
+  loc_nonsp<14:21> PROG -  
+  loc_nonsp<14:21> PERF -  
+  dofw<14:21>(Mon) PERS 3  
+  dofw<14:21>(Mon) NUM sg  
+  dofw<14:21>(Mon) IND +  
+}
+

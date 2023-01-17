@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:53 h)).
+;;;
+
+[21601025] (1 of 1) {1} `Bolar has denied any wrongdoing.'
+
+[21601025:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Bolar", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:9>, 1, "has", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <10:16>, 1, "denied", 0, "null", "VBN" 0.9303 "VBD" 0.0697)
+  (4, 3, 4, <17:20>, 1, "any", 0, "null", "DT" 1.0)
+  (5, 4, 5, <21:31>, 1, "wrongdoing", 0, "null", "NN" 1.0)
+  (6, 5, 6, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:5>, 1, "Bolar", 0, "null")
+  (72, 0, 1, <0:5>, 1, "bolar", 0, "null")
+  (77, 0, 1, <0:5>, 1, "bolar", 0, "null")
+  (61, 1, 2, <6:9>, 1, "has", 0, "null")
+  (70, 1, 2, <6:9>, 1, "has", 0, "null", "VBZ" 1.0)
+  (73, 1, 2, <6:9>, 1, "has", 0, "null")
+  (66, 2, 3, <10:16>, 1, "denied", 0, "null")
+  (69, 2, 3, <10:16>, 1, "denied", 0, "null", "VBN" 0.9303)
+  (76, 2, 3, <10:16>, 1, "denied", 0, "null")
+  (63, 3, 4, <17:20>, 1, "any", 0, "null")
+  (74, 3, 4, <17:20>, 1, "any", 0, "null")
+  (65, 4, 5, <21:32>, 1, "wrongdoing.", 0, "null")
+  (71, 4, 5, <21:32>, 1, "wrongdoing.", 0, "null", "NN" 1.0)
+  (75, 4, 5, <21:32>, 1, "wrongdoing.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1373 SB-HD_MC_C 4.92669 0 5
+  (1366 HDN_BNP-PN_C -1.0285 0 1
+   (1365 N_SG_ILR -0.979548 0 1
+    (78 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Bolar" 68
+      "token [ +CARG #1=\"Bolar\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1372 ^HD-CMP_U_C 4.93814 1 5
+   (97 has_aux@v_vp_has_le 2.86674 1 2
+    ("has" 61
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1371 HD-CMP_U_C 1.40531 2 5
+    (1367 ^V_PSP_OLR 0.832067 2 3
+     (196 deny_v1@v_np_le 0.163617 2 3
+      ("denied" 66
+       "token [ +CARG #1=\"denied\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93032599999999999\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1370 SP-HD_N_C -0.298935 3 5
+     (361 any_det@d_-_prt_le -1.00802 3 4
+      ("any" 63
+       "token [ +CARG #1=\"any\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1369 ^W_PERIOD_PLR -0.67872 4 5
+      (1368 N_MS-CNT_ILR -0.855949 4 5
+       (373 generic_mass_count_noun@n_-_mc-unk_le 0 4 5
+        ("wrongdoing." 71
+         "token [ +CARG \"wrongdoing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"wrongdoing.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED \"_wrongdoing/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (N "Bolar")))
+ (VP (V "has")
+  (VP (V (V "denied")) (NP (DET "any") (N (N (N "wrongdoing.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Bolar" ]
+          [ _deny_v_to<10:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _any_q<17:20>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _wrongdoing/nn_u_unknown<21:32>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Bolar"){x PERS 3, NUM sg, IND +}[]
+ e3:_deny_v_to-fn.Statement<10:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1-fn.Speaker x6, ARG2-fn.Message x9]
+ _2:_any_q<17:20>[BV x9]
+ x9:_wrongdoing/nn_u_unknown<21:32>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Bolar)  
+  _deny_v_to<10:16> ARG1 named<0:5>(Bolar)  
+  _deny_v_to<10:16> ARG2 _wrongdoing/nn_u_unknown<21:32>  
+  _any_q<17:20> BV _wrongdoing/nn_u_unknown<21:32>  
+  named<0:5>(Bolar) PERS 3  
+  named<0:5>(Bolar) NUM sg  
+  named<0:5>(Bolar) IND +  
+  _deny_v_to<10:16> SF prop  
+  _deny_v_to<10:16> TENSE pres  
+  _deny_v_to<10:16> MOOD indicative  
+  _deny_v_to<10:16> PROG -  
+  _deny_v_to<10:16> PERF +  
+  _wrongdoing/nn_u_unknown<21:32> PERS 3  
+  _wrongdoing/nn_u_unknown<21:32> NUM sg  
+}
+

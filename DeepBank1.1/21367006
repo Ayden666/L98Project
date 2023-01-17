@@ -1,0 +1,131 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:33 h)).
+;;;
+
+[21367006] (1 of 1) {1} `But I loved turbans.")'
+
+[21367006:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:5>, 1, "I", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <6:11>, 1, "loved", 0, "null", "VBD" 0.9845 "VBN" 0.0155)
+  (4, 3, 4, <12:19>, 1, "turbans", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+  (6, 5, 6, <20:22>, 1, "”", 0, "null", "''" 1.0)
+  (7, 6, 7, <20:22>, 1, ")", 0, "null", ")" 1.0)
+>
+
+<
+  (81, 0, 1, <0:3>, 1, "but", 0, "null")
+  (86, 0, 1, <0:3>, 1, "but", 0, "null")
+  (65, 1, 2, <4:5>, 1, "I", 0, "null")
+  (82, 1, 2, <4:5>, 1, "i", 0, "null")
+  (83, 1, 2, <4:5>, 1, "i", 0, "null")
+  (77, 2, 3, <6:11>, 1, "loved", 0, "null")
+  (79, 2, 3, <6:11>, 1, "loved", 0, "null", "VBD" 0.9845)
+  (85, 2, 3, <6:11>, 1, "loved", 0, "null")
+  (76, 3, 4, <12:22>, 1, "turbans.”)", 0, "null")
+  (80, 3, 4, <12:22>, 1, "turbans.”)", 0, "null", "NNS" 1.0)
+  (84, 3, 4, <12:22>, 1, "turbans.”)", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (605 CL_CNJ-FRG_C 9.58627 0 4
+  (604 MRK-NH_CL_C 8.71638 0 4
+   (90 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 81
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (603 SB-HD_MC_C 6.30374 1 4
+    (595 HDN_BNP-QNT_C 1.4984 1 2
+     (109 i@n_-_pr-i_le 1.12391 1 2
+      ("i" 82
+       "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL - ] +FORM \"i\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (602 ^HD-CMP_U_C 3.942 2 4
+     (596 ^V_PST_OLR 0.306776 2 3
+      (155 love_v1@v_np*_le 0 2 3
+       ("loved" 77
+        "token [ +CARG #1=\"loved\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98454160000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (601 HDN_BNP_C 2.6205 3 4
+      (600 W_RPAREN_PLR 2.32754 3 4
+       (599 W_DQRIGHT_PLR 2.32754 3 4
+        (598 W_PERIOD_PLR 0.271652 3 4
+         (597 N_PL_OLR 0.445673 3 4
+          (262 turban_n1@n_-_c_le 0 3 4
+           ("turbans.”)" 76
+            "token [ +CARG \"turbans\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"turbans.”)\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (NP "i"))
+   (VP (V (V "loved")) (NP (N (N (N (N (N "turbans.”)"))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ pron<4:5>
+            LBL: h8
+            ARG0: x9 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<4:5>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _love_v_1<6:11>
+            LBL: h13
+            ARG0: e4
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:22>
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ _turban_n_1<12:22>
+            LBL: h18
+            ARG0: x14 ] >
+   HCONS: < h16 QEQ h18 h11 QEQ h8 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ x9:pron<4:5>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<4:5>[BV x9]
+ e4:_love_v_1<6:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _2:udef_q<12:22>[BV x14]
+ x14:_turban_n_1<12:22>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _but_c<0:3> R-HNDL _love_v_1<6:11>  
+  _but_c<0:3> R-INDEX _love_v_1<6:11>  
+  pronoun_q<4:5> BV pron<4:5>  
+  _love_v_1<6:11> ARG1 pron<4:5>  
+  _love_v_1<6:11> ARG2 _turban_n_1<12:22>  
+  udef_q<12:22> BV _turban_n_1<12:22>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  pron<4:5> PERS 1  
+  pron<4:5> NUM sg  
+  pron<4:5> PT std  
+  _love_v_1<6:11> SF prop  
+  _love_v_1<6:11> TENSE past  
+  _love_v_1<6:11> MOOD indicative  
+  _love_v_1<6:11> PROG -  
+  _love_v_1<6:11> PERF -  
+  _turban_n_1<12:22> PERS 3  
+  _turban_n_1<12:22> NUM pl  
+  _turban_n_1<12:22> IND +  
+}
+

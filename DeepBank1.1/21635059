@@ -1,0 +1,70 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:21 h)).
+;;;
+
+[21635059] (1 of 1) {1} `It isn't.'
+
+[21635059:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:5>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <5:8>, 1, "n’t", 0, "null", "JJ" 0.6832 "NN" 0.2471 "VBN" 0.0256 "RB" 0.0234 "JJS" 0.0207)
+  (4, 3, 4, <8:9>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (39, 0, 1, <0:2>, 1, "it", 0, "null")
+  (41, 0, 1, <0:2>, 1, "it", 0, "null")
+  (37, 1, 2, <3:9>, 1, "isn’t.", 0, "null")
+  (38, 1, 2, <3:9>, 1, "isn’t.", 0, "null", "VBZ" 1.0)
+  (40, 1, 2, <3:9>, 1, "isn’t.", 0, "null")
+>
+
+(ROOT_STRICT
+ (175 SB-HD_MC_C 1.02238 0 2
+  (42 it@n_-_pr-it-x_le 1.03696 0 1
+   ("it" 39
+    "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (174 ^W_PERIOD_PLR -0.0145816 1 2
+   (173 V_AUX-ELL-XPL_DLR -0.0145816 1 2
+    (57 be_c_is_neg_3_u@v_prd_is-n_le 0 1 2
+     ("isn’t." 37
+      "token [ +CARG \"isn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"isn’t.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP-X "it") (VP (VP (V "isn’t."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ neg<3:9>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ ellipsis_expl<3:9>
+            LBL: h6
+            ARG0: e3
+            ARG1: u7 ] >
+   HCONS: < h4 QEQ h6 h1 QEQ h2 > ]
+
+{e5:
+ e5:neg<3:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:ellipsis_expl<3:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  neg<3:9> ARG1 ellipsis_expl<3:9>  
+  neg<3:9> SF prop  
+  neg<3:9> TENSE untensed  
+  neg<3:9> MOOD indicative  
+  neg<3:9> PROG -  
+  neg<3:9> PERF -  
+  ellipsis_expl<3:9> SF prop  
+  ellipsis_expl<3:9> TENSE pres  
+  ellipsis_expl<3:9> MOOD indicative  
+  ellipsis_expl<3:9> PROG -  
+  ellipsis_expl<3:9> PERF -  
+}
+

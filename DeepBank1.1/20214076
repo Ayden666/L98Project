@@ -1,0 +1,122 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:00 h)).
+;;;
+
+[20214076] (1 of 1) {1} `But he isn't worried.'
+
+[20214076:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:6>, 1, "he", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <7:9>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <9:12>, 1, "n’t", 0, "null", "RB" 0.4615 "VBN" 0.158 "NN" 0.102 "JJ" 0.0975 "VB" 0.0694 "JJS" 0.0652 "VBP" 0.0463)
+  (5, 4, 5, <13:20>, 1, "worried", 0, "null", "VBN" 0.7773 "JJ" 0.1936 "VBD" 0.0291)
+  (6, 5, 6, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (67, 0, 1, <0:3>, 1, "but", 0, "null")
+  (71, 0, 1, <0:3>, 1, "but", 0, "null")
+  (59, 1, 2, <4:6>, 1, "he", 0, "null")
+  (68, 1, 2, <4:6>, 1, "he", 0, "null")
+  (61, 2, 3, <7:12>, 1, "isn’t", 0, "null")
+  (66, 2, 3, <7:12>, 1, "isn’t", 0, "null", "VBZ" 1.0)
+  (69, 2, 3, <7:12>, 1, "isn’t", 0, "null")
+  (62, 3, 4, <13:21>, 1, "worried.", 0, "null")
+  (64, 3, 4, <13:21>, 1, "worried.", 0, "null", "VBN" 0.7773)
+  (65, 3, 4, <13:21>, 1, "worried.", 0, "null", "JJ" 0.1936)
+  (70, 3, 4, <13:21>, 1, "worried.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1090 CL_CNJ-FRG_C 6.99957 0 4
+  (1089 MRK-NH_CL_C 6.12968 0 4
+   (74 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 67
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1088 SB-HD_MC_C 3.71704 1 4
+    (1084 HDN_BNP-QNT_C 1.35919 1 2
+     (88 he@n_-_pr-he_le 0.589291 1 2
+      ("he" 59
+       "token [ +CARG #1=\"he\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1087 ^HD-CMP_U_C 1.49452 2 4
+     (101 be_c_is_neg_3_u@v_prd_is-n_le 1.21425 2 3
+      ("isn’t" 61
+       "token [ +CARG #1=\"isn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1086 HD_OPTCMP_C 0.658328 3 4
+      (1085 W_PERIOD_PLR 0.506901 3 4
+       (126 worried_isect@aj_pp_i_le 0 3 4
+        ("worried." 62
+         "token [ +CARG \"worried\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"worried.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77732860000000004\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (NP "he")) (VP (V "isn’t") (AP (ADJ (ADJ "worried.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ pron<4:6>
+            LBL: h8
+            ARG0: x9 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<4:6>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ neg<7:12>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h14 ]
+          [ _worried_a_about<13:21>
+            LBL: h16
+            ARG0: e4
+            ARG1: x9
+            ARG2: i17 ] >
+   HCONS: < h14 QEQ h16 h11 QEQ h8 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e15, R-INDEX e4]
+ x9:pron<4:6>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<4:6>[BV x9]
+ e15:neg<7:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4]
+ e4:_worried_a_about<13:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  _but_c<0:3> R-HNDL neg<7:12>  
+  _but_c<0:3> R-INDEX _worried_a_about<13:21>  
+  pronoun_q<4:6> BV pron<4:6>  
+  neg<7:12> ARG1 _worried_a_about<13:21>  
+  _worried_a_about<13:21> ARG1 pron<4:6>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  pron<4:6> PERS 3  
+  pron<4:6> NUM sg  
+  pron<4:6> GEND m  
+  pron<4:6> PT std  
+  neg<7:12> SF prop  
+  neg<7:12> TENSE untensed  
+  neg<7:12> MOOD indicative  
+  neg<7:12> PROG -  
+  neg<7:12> PERF -  
+  _worried_a_about<13:21> SF prop  
+  _worried_a_about<13:21> TENSE pres  
+  _worried_a_about<13:21> MOOD indicative  
+  _worried_a_about<13:21> PROG -  
+  _worried_a_about<13:21> PERF -  
+}
+

@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (11:05 h)).
+;;;
+
+[20113020] (1 of 1) {1} `Many lost their farms.'
+
+[20113020:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Many", 0, "null", "JJ" 0.9727 "RB" 0.0273)
+  (2, 1, 2, <5:9>, 1, "lost", 0, "null", "VBD" 0.7285 "VBN" 0.1829 "JJ" 0.0886)
+  (3, 2, 3, <10:15>, 1, "their", 0, "null", "PRP$" 1.0)
+  (4, 3, 4, <16:21>, 1, "farms", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:4>, 1, "Many", 0, "null", "JJ" 0.9727)
+  (65, 0, 1, <0:4>, 1, "many", 0, "null")
+  (69, 0, 1, <0:4>, 1, "many", 0, "null")
+  (59, 1, 2, <5:9>, 1, "lost", 0, "null")
+  (62, 1, 2, <5:9>, 1, "lost", 0, "null", "VBD" 0.7285)
+  (63, 1, 2, <5:9>, 1, "lost", 0, "null", "VBN" 0.1829)
+  (68, 1, 2, <5:9>, 1, "lost", 0, "null")
+  (54, 2, 3, <10:15>, 1, "their", 0, "null")
+  (66, 2, 3, <10:15>, 1, "their", 0, "null")
+  (56, 3, 4, <16:22>, 1, "farms.", 0, "null")
+  (64, 3, 4, <16:22>, 1, "farms.", 0, "null", "NNS" 1.0)
+  (67, 3, 4, <16:22>, 1, "farms.", 0, "null")
+>
+
+(ROOT_STRICT
+ (436 SB-HD_MC_C 5.04703 0 4
+  (430 HDN_BNP-QNT_C -0.905673 0 1
+   (429 NUM_PRT-NC_C -0.16271 0 1
+    (73 many_a1@aj_-_i-many_le 0.0576749 0 1
+     ("many" 65
+      "token [ +CARG \"Many\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"many\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97270210000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (435 ^HD-CMP_U_C 4.68335 1 4
+   (431 ^V_PST_OLR 2.42876 1 2
+    (101 lose_v1@v_np*_le 2.12199 1 2
+     ("lost" 59
+      "token [ +CARG #1=\"lost\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72849079999999999\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (434 SP-HD_N_C 1.24569 2 4
+    (134 their@d_-_poss-their_le 0.750129 2 3
+     ("their" 54
+      "token [ +CARG #1=\"their\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (433 ^W_PERIOD_PLR 0.261218 3 4
+     (432 N_PL_OLR 0.342144 3 4
+      (139 farm_n1@n_-_c_le 0 3 4
+       ("farms." 56
+        "token [ +CARG \"farms\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"farms.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (ADJ "many")))
+ (VP (V (V "lost")) (NP (DET "their") (N (N (N "farms."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ much-many_a<0:4>
+            LBL: h4
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 ]
+          [ _lose_v_1<5:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ def_explicit_q<10:15>
+            LBL: h11
+            ARG0: x10
+            RSTR: h13
+            BODY: h12 ]
+          [ poss<10:15>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x15 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<10:15>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ pron<10:15>
+            LBL: h20
+            ARG0: x15 ]
+          [ _farm_n_1<16:22>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h18 QEQ h20 h13 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ _1:udef_q<0:4>[BV x5]
+ e9:much-many_a<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e3:_lose_v_1<5:9>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ _2:def_explicit_q<10:15>[BV x10]
+ e16:poss<10:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x15]
+ _3:pronoun_q<10:15>[BV x15]
+ x15:pron<10:15>{x PERS 3, NUM pl, PT std}[]
+ x10:_farm_n_1<16:22>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:4> BV generic_entity<0:4>  
+  much-many_a<0:4> ARG1 generic_entity<0:4>  
+  _lose_v_1<5:9> ARG1 generic_entity<0:4>  
+  _lose_v_1<5:9> ARG2 _farm_n_1<16:22>  
+  def_explicit_q<10:15> BV _farm_n_1<16:22>  
+  poss<10:15> ARG1 _farm_n_1<16:22>  
+  poss<10:15> ARG2 pron<10:15>  
+  pronoun_q<10:15> BV pron<10:15>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  much-many_a<0:4> SF prop  
+  much-many_a<0:4> TENSE untensed  
+  much-many_a<0:4> MOOD indicative  
+  much-many_a<0:4> PROG -  
+  much-many_a<0:4> PERF -  
+  _lose_v_1<5:9> SF prop  
+  _lose_v_1<5:9> TENSE past  
+  _lose_v_1<5:9> MOOD indicative  
+  _lose_v_1<5:9> PROG -  
+  _lose_v_1<5:9> PERF -  
+  poss<10:15> SF prop  
+  poss<10:15> TENSE untensed  
+  poss<10:15> MOOD indicative  
+  poss<10:15> PROG -  
+  poss<10:15> PERF -  
+  pron<10:15> PERS 3  
+  pron<10:15> NUM pl  
+  pron<10:15> PT std  
+  _farm_n_1<16:22> PERS 3  
+  _farm_n_1<16:22> NUM pl  
+  _farm_n_1<16:22> IND +  
+}
+

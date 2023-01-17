@@ -1,0 +1,125 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:02 h)).
+;;;
+
+[21317069] (1 of 1) {1} `DIET COKE:'
+
+[21317069:4] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "DIET", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:9>, 1, "COKE", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:10>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:4>, 1, "DIET", 0, "null")
+  (39, 0, 1, <0:4>, 1, "DIET", 0, "null", "NNP" 1.0)
+  (41, 0, 1, <0:4>, 1, "diet", 0, "null")
+  (43, 0, 1, <0:4>, 1, "diet", 0, "null")
+  (30, 1, 2, <5:9>, 1, "COKE", 0, "null")
+  (38, 1, 2, <5:9>, 1, "COKE", 0, "null", "NNP" 1.0)
+  (40, 1, 2, <5:9>, 1, "coke", 0, "null")
+  (42, 1, 2, <5:9>, 1, "coke", 0, "null")
+  (37, 2, 3, <9:10>, 1, ":", 0, "null")
+  (44, 2, 3, <9:10>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (313 NP_FRG_C -1.87345 0 3
+  (312 HDN_BNP-PN_C -0.72694 0 3
+   (311 HDN-AJ_REDREL_C -0.535797 0 3
+    (300 ^NP-HDN_NME-CPD_C 0.655063 0 2
+     (298 HDN_BNP-PN_C 0.365523 0 1
+      (297 N_SG_ILR -0.386912 0 1
+       (47 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("DIET" 31
+         "token [ +CARG #1=\"DIET\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (299 ^N_SG_ILR -0.143257 1 2
+      (51 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("COKE" 30
+        "token [ +CARG #1=\"COKE\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (63 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+     (":" 37
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (NP (N (N "DIET"))) (N (N "COKE"))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "DIET" ]
+          [ named<5:9>
+            LBL: h8
+            ARG0: x4
+            CARG: "COKE" ]
+          [ _colon_p_namely<9:10>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:10>[BV x4]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("DIET"){x PERS 3, NUM sg, IND +}[]
+ x4:named<5:9>("COKE"){x PERS 3, NUM sg, IND +}[]
+ e15:_colon_p_namely<9:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:10> ARG named<5:9>(COKE)  
+  proper_q<0:10> BV named<5:9>(COKE)  
+  compound<0:9> ARG1 named<5:9>(COKE)  
+  compound<0:9> ARG2 named<0:4>(DIET)  
+  proper_q<0:4> BV named<0:4>(DIET)  
+  _colon_p_namely<9:10> ARG1 named<5:9>(COKE)  
+  unknown<0:10> SF prop-or-ques  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:4>(DIET) PERS 3  
+  named<0:4>(DIET) NUM sg  
+  named<0:4>(DIET) IND +  
+  named<5:9>(COKE) PERS 3  
+  named<5:9>(COKE) NUM sg  
+  named<5:9>(COKE) IND +  
+  _colon_p_namely<9:10> SF prop  
+  _colon_p_namely<9:10> TENSE untensed  
+  _colon_p_namely<9:10> MOOD indicative  
+  _colon_p_namely<9:10> PROG -  
+  _colon_p_namely<9:10> PERF -  
+}
+

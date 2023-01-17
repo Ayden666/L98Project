@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:09 h)).
+;;;
+
+[22124030] (1 of 1) {1} `There are still bulls out there.'
+
+[22124030:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "There", 0, "null", "EX" 1.0)
+  (2, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <10:15>, 1, "still", 0, "null", "RB" 1.0)
+  (4, 3, 4, <16:21>, 1, "bulls", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <22:25>, 1, "out", 0, "null", "RP" 0.5449 "IN" 0.2778 "RB" 0.1773)
+  (6, 5, 6, <26:31>, 1, "there", 0, "null", "RB" 0.8313 "EX" 0.1687)
+  (7, 6, 7, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (88, 0, 1, <0:5>, 1, "there", 0, "null")
+  (94, 0, 1, <0:5>, 1, "there", 0, "null")
+  (74, 1, 2, <6:9>, 1, "are", 0, "null")
+  (84, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (89, 1, 2, <6:9>, 1, "are", 0, "null")
+  (76, 2, 3, <10:15>, 1, "still", 0, "null")
+  (85, 2, 3, <10:15>, 1, "still", 0, "null", "RB" 1.0)
+  (90, 2, 3, <10:15>, 1, "still", 0, "null")
+  (78, 3, 4, <16:21>, 1, "bulls", 0, "null")
+  (86, 3, 4, <16:21>, 1, "bulls", 0, "null", "NNS" 1.0)
+  (91, 3, 4, <16:21>, 1, "bulls", 0, "null")
+  (79, 4, 5, <22:25>, 1, "out", 0, "null")
+  (87, 4, 5, <22:25>, 1, "out", 0, "null", "RB" 0.1773)
+  (92, 4, 5, <22:25>, 1, "out", 0, "null")
+  (80, 5, 6, <26:32>, 1, "there.", 0, "null")
+  (83, 5, 6, <26:32>, 1, "there.", 0, "null", "RB" 0.8313)
+  (93, 5, 6, <26:32>, 1, "there.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1640 SB-HD_MC_C 5.2069 0 6
+  (95 there_expl@n_-_pr-there-x_le 1.4946 0 1
+   ("there" 88
+    "token [ +CARG \"There\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"there\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"EX\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (1639 ^HD_OPTCMP_C 3.37055 1 6
+   (1638 HD-CMP_U_C 1.58277 1 6
+    (1631 ^HD-CMP_U_C 1.34514 1 3
+     (1630 ^V_AUX-ADVADD_DLR 0.550978 1 2
+      (102 be_th_cop_are@v_np-xp_are_le 0.590737 1 2
+       ("are" 74
+        "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (105 still_adv1@av_-_i-vp-x_le 1.68018 2 3
+      ("still" 76
+       "token [ +CARG #1=\"still\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1637 HDN_BNP_C -0.231947 3 6
+     (1636 HDN-AJ_REDREL_C 0.388769 3 6
+      (1632 ^N_PL_OLR -0.0329458 3 4
+       (114 bull_n1@n_-_c_le 0 3 4
+        ("bulls" 78
+         "token [ +CARG #1=\"bulls\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1635 HD-CMP_U_C -0.148007 4 6
+       (138 out_p@p_np_i-nm-no-tm_le 0.0683409 4 5
+        ("out" 79
+         "token [ +CARG #1=\"out\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54490269999999996\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1634 HDN_BNP-QNT_C 0.447248 5 6
+        (1633 W_PERIOD_PLR 0 5 6
+         (220 there_nom@n_-_ad-acc_le 0 5 6
+          ("there." 80
+           "token [ +CARG \"there\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"there.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8312773\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP-X "there")
+ (VP
+  (V (V (V (V "are")) (ADV "still"))
+   (NP (N (N (N "bulls")) (PP (P "out") (NP (N (N "there.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _be_v_there<6:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x4 [ x PERS: 3 NUM: PL GEND: N IND: + ] ]
+          [ _still_a_1<10:15>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ udef_q<16:32>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ _bull_n_1<16:21>
+            LBL: h9
+            ARG0: x4 ]
+          [ _out_p<22:25>
+            LBL: h9
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x11 [ x PERS: 3 NUM: SG ] ]
+          [ place_n<26:32>
+            LBL: h12
+            ARG0: x11 ]
+          [ def_implicit_q<26:32>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _there_a_1<26:32>
+            LBL: h12
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11 ] >
+   HCONS: < h14 QEQ h12 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e3:_be_v_there<6:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ e5:_still_a_1<10:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:udef_q<16:32>[BV x4]
+ x4:_bull_n_1<16:21>{x PERS 3, NUM pl, GEND n, IND +}[]
+ e10:_out_p<22:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x11]
+ x11:place_n<26:32>{x PERS 3, NUM sg}[]
+ _2:def_implicit_q<26:32>[BV x11]
+ e16:_there_a_1<26:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+}
+
+{
+  _be_v_there<6:9> ARG1 _bull_n_1<16:21>  
+  _still_a_1<10:15> ARG1 _be_v_there<6:9>  
+  udef_q<16:32> BV _bull_n_1<16:21>  
+  _out_p<22:25> ARG1 _bull_n_1<16:21>  
+  _out_p<22:25> ARG2 place_n<26:32>  
+  def_implicit_q<26:32> BV place_n<26:32>  
+  _there_a_1<26:32> ARG1 place_n<26:32>  
+  _be_v_there<6:9> SF prop  
+  _be_v_there<6:9> TENSE pres  
+  _be_v_there<6:9> MOOD indicative  
+  _be_v_there<6:9> PROG -  
+  _be_v_there<6:9> PERF -  
+  _still_a_1<10:15> SF prop  
+  _still_a_1<10:15> TENSE untensed  
+  _still_a_1<10:15> MOOD indicative  
+  _still_a_1<10:15> PROG -  
+  _still_a_1<10:15> PERF -  
+  _bull_n_1<16:21> PERS 3  
+  _bull_n_1<16:21> NUM pl  
+  _bull_n_1<16:21> GEND n  
+  _bull_n_1<16:21> IND +  
+  _out_p<22:25> SF prop  
+  _out_p<22:25> TENSE untensed  
+  _out_p<22:25> MOOD indicative  
+  _out_p<22:25> PROG -  
+  _out_p<22:25> PERF -  
+  place_n<26:32> PERS 3  
+  place_n<26:32> NUM sg  
+  _there_a_1<26:32> SF prop  
+  _there_a_1<26:32> TENSE untensed  
+  _there_a_1<26:32> MOOD indicative  
+  _there_a_1<26:32> PROG -  
+  _there_a_1<26:32> PERF -  
+}
+

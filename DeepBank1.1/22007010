@@ -1,0 +1,239 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (04:57 h)).
+;;;
+
+[22007010] (1 of 1) {1} `The drug was introduced in West Germany this year.'
+
+[22007010:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:8>, 1, "drug", 0, "null", "NN" 1.0)
+  (3, 2, 3, <9:12>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <13:23>, 1, "introduced", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <24:26>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <27:31>, 1, "West", 0, "null", "NNP" 0.9565 "JJ" 0.0435)
+  (7, 6, 7, <32:39>, 1, "Germany", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <40:44>, 1, "this", 0, "null", "DT" 1.0)
+  (9, 8, 9, <45:49>, 1, "year", 0, "null", "NN" 1.0)
+  (10, 9, 10, <49:50>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (123, 0, 1, <0:3>, 1, "the", 0, "null")
+  (135, 0, 1, <0:3>, 1, "the", 0, "null")
+  (103, 1, 2, <4:8>, 1, "drug", 0, "null")
+  (118, 1, 2, <4:8>, 1, "drug", 0, "null", "NN" 1.0)
+  (127, 1, 2, <4:8>, 1, "drug", 0, "null")
+  (105, 2, 3, <9:12>, 1, "was", 0, "null")
+  (119, 2, 3, <9:12>, 1, "was", 0, "null", "VBD" 1.0)
+  (128, 2, 3, <9:12>, 1, "was", 0, "null")
+  (107, 3, 4, <13:23>, 1, "introduced", 0, "null")
+  (120, 3, 4, <13:23>, 1, "introduced", 0, "null", "VBN" 1.0)
+  (129, 3, 4, <13:23>, 1, "introduced", 0, "null")
+  (109, 4, 5, <24:26>, 1, "in", 0, "null")
+  (130, 4, 5, <24:26>, 1, "in", 0, "null")
+  (93, 5, 6, <27:31>, 1, "West", 0, "null")
+  (116, 5, 6, <27:31>, 1, "West", 0, "null", "NNP" 0.9565)
+  (124, 5, 6, <27:31>, 1, "west", 0, "null")
+  (125, 5, 6, <27:31>, 1, "west", 0, "null")
+  (94, 6, 7, <32:39>, 1, "Germany", 0, "null")
+  (117, 6, 7, <32:39>, 1, "Germany", 0, "null", "NNP" 1.0)
+  (122, 6, 7, <32:39>, 1, "germany", 0, "null")
+  (126, 6, 7, <32:39>, 1, "germany", 0, "null")
+  (111, 7, 8, <40:44>, 1, "this", 0, "null")
+  (131, 7, 8, <40:44>, 1, "this", 0, "null")
+  (113, 8, 9, <45:50>, 1, "year.", 0, "null")
+  (121, 8, 9, <45:50>, 1, "year.", 0, "null", "NN" 1.0)
+  (132, 8, 9, <45:50>, 1, "year.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1734 SB-HD_MC_C 14.0968 0 9
+  (1718 SP-HD_N_C 2.22553 0 2
+   (148 the_1@d_-_the_le 1.13181 0 1
+    ("the" 123
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1717 ^N_SG_ILR 0.139466 1 2
+    (185 drug_n1@n_-_c_le 0.084173 1 2
+     ("drug" 103
+      "token [ +CARG #1=\"drug\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1733 ^HD-CMP_U_C 9.91681 2 9
+   (195 be_c_was@v_prd_was_le 2.0009 2 3
+    ("was" 105
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1732 HD-AJ_INT-UNSL_C 7.89996 3 9
+    (1727 ^HD-AJ_INT-UNSL_C 3.2803 3 7
+     (1720 ^HD_OPTCMP_C 0.543108 3 4
+      (1719 V_PAS_ODLR -0.531303 3 4
+       (230 introduce_v2@v_np_le 0.117878 3 4
+        ("introduced" 107
+         "token [ +CARG #1=\"introduced\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1726 HD-CMP_U_C 1.1898 4 7
+      (343 in@p_np_i-reg_le -0.179868 4 5
+       ("in" 109
+        "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1725 HDN_BNP-PN_C 1.72007 5 7
+       (1724 NP-HDN_NME-CPD_C 1.753 5 7
+        (1722 HDN_BNP-PN_C 1.1297 5 6
+         (1721 N_SG_ILR 0.377264 5 6
+          (384 generic_proper_ne@n_-_pn-gen_le 0.764176 5 6
+           ("West" 93
+            "token [ +CARG #1=\"West\" +CLASS proper_ne +FORM #1 +FROM \"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95651750000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+        (1723 ^N_SG_ILR -0.604833 6 7
+         (418 germany_n1@n_-_pn_le -0.00197139 6 7
+          ("germany" 122
+           "token [ +CARG \"Germany\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"germany\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+    (1731 NP_ADV_C 3.97588 7 9
+     (1730 SP-HD_N_C 3.66508 7 9
+      (424 this_det@d_-_sgm_le 1.98483 7 8
+       ("this" 111
+        "token [ +CARG #1=\"this\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1729 ^W_PERIOD_PLR 1.15861 8 9
+       (1728 N_SG_ILR -0.010982 8 9
+        (430 year_n1@n_-_c-year_le 0 8 9
+         ("year." 113
+          "token [ +CARG \"year\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"year.\" +FROM #1=\"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (DET "the") (N (N "drug")))
+ (VP (V "was")
+  (VP
+   (VP (VP (V (V "introduced")))
+    (PP (P "in") (NP (N (NP (N (N "West"))) (N (N "germany"))))))
+   (PP (NP (DET "this") (N (N (N "year."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _drug_n_1<4:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _introduce_v_to<13:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: i9
+            ARG2: x6 ]
+          [ parg_d<13:23>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _in_p<24:26>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x12 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<27:39>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ compound<27:39>
+            LBL: h16
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x12
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<27:31>
+            LBL: h19
+            ARG0: x17
+            RSTR: h20
+            BODY: h21 ]
+          [ named<27:31>
+            LBL: h22
+            ARG0: x17
+            CARG: "West" ]
+          [ named<32:39>
+            LBL: h16
+            ARG0: x12
+            CARG: "Germany" ]
+          [ loc_nonsp<40:50>
+            LBL: h2
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x24 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _this_q_dem<40:44>
+            LBL: h25
+            ARG0: x24
+            RSTR: h27
+            BODY: h26 ]
+          [ _year_n_1<45:50>
+            LBL: h28
+            ARG0: x24 ] >
+   HCONS: < h27 QEQ h28 h20 QEQ h22 h14 QEQ h16 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_drug_n_1<4:8>{x PERS 3, NUM sg, IND +}[]
+ e3:_introduce_v_to<13:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e10:parg_d<13:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e11:_in_p<24:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x12]
+ _2:proper_q<27:39>[BV x12]
+ e18:compound<27:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x12, ARG2 x17]
+ _3:proper_q<27:31>[BV x17]
+ x17:named<27:31>("West"){x PERS 3, NUM sg, IND +}[]
+ x12:named<32:39>("Germany"){x PERS 3, NUM sg, IND +}[]
+ e23:loc_nonsp<40:50>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x24]
+ _4:_this_q_dem<40:44>[BV x24]
+ x24:_year_n_1<45:50>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _the_q<0:3> BV _drug_n_1<4:8>  
+  _introduce_v_to<13:23> ARG2 _drug_n_1<4:8>  
+  parg_d<13:23> ARG1 _introduce_v_to<13:23>  
+  parg_d<13:23> ARG2 _drug_n_1<4:8>  
+  _in_p<24:26> ARG1 _introduce_v_to<13:23>  
+  _in_p<24:26> ARG2 named<32:39>(Germany)  
+  proper_q<27:39> BV named<32:39>(Germany)  
+  compound<27:39> ARG1 named<32:39>(Germany)  
+  compound<27:39> ARG2 named<27:31>(West)  
+  proper_q<27:31> BV named<27:31>(West)  
+  loc_nonsp<40:50> ARG1 _introduce_v_to<13:23>  
+  loc_nonsp<40:50> ARG2 _year_n_1<45:50>  
+  _this_q_dem<40:44> BV _year_n_1<45:50>  
+  _drug_n_1<4:8> PERS 3  
+  _drug_n_1<4:8> NUM sg  
+  _drug_n_1<4:8> IND +  
+  _introduce_v_to<13:23> SF prop  
+  _introduce_v_to<13:23> TENSE past  
+  _introduce_v_to<13:23> MOOD indicative  
+  _introduce_v_to<13:23> PROG -  
+  _introduce_v_to<13:23> PERF -  
+  parg_d<13:23> SF prop  
+  parg_d<13:23> TENSE untensed  
+  parg_d<13:23> MOOD indicative  
+  parg_d<13:23> PROG -  
+  parg_d<13:23> PERF -  
+  _in_p<24:26> SF prop  
+  _in_p<24:26> TENSE untensed  
+  _in_p<24:26> MOOD indicative  
+  _in_p<24:26> PROG -  
+  _in_p<24:26> PERF -  
+  compound<27:39> SF prop  
+  compound<27:39> TENSE untensed  
+  compound<27:39> MOOD indicative  
+  compound<27:39> PROG -  
+  compound<27:39> PERF -  
+  named<27:31>(West) PERS 3  
+  named<27:31>(West) NUM sg  
+  named<27:31>(West) IND +  
+  named<32:39>(Germany) PERS 3  
+  named<32:39>(Germany) NUM sg  
+  named<32:39>(Germany) IND +  
+  loc_nonsp<40:50> SF prop  
+  loc_nonsp<40:50> TENSE untensed  
+  loc_nonsp<40:50> MOOD indicative  
+  loc_nonsp<40:50> PROG -  
+  loc_nonsp<40:50> PERF -  
+  _year_n_1<45:50> PERS 3  
+  _year_n_1<45:50> NUM sg  
+  _year_n_1<45:50> IND +  
+}
+

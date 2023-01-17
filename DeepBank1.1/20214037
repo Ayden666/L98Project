@@ -1,0 +1,81 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:00 h)).
+;;;
+
+[20214037] (1 of 1) {1} `"I tried."'
+
+[20214037:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:2>, 1, "I", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:8>, 1, "tried", 0, "null", "VBD" 0.9809 "VBN" 0.0191)
+  (4, 3, 4, <8:9>, 1, ".", 0, "null", "." 1.0)
+  (5, 4, 5, <9:10>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (49, 0, 1, <0:2>, 1, "“I", 0, "null")
+  (59, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (60, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (56, 1, 2, <3:10>, 1, "tried.”", 0, "null")
+  (58, 1, 2, <3:10>, 1, "tried.”", 0, "null", "VBD" 0.9809)
+  (61, 1, 2, <3:10>, 1, "tried.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (508 SB-HD_MC_C 1.39015 0 2
+  (503 HDN_BNP-QNT_C -0.0561766 0 1
+   (502 W_DQLEFT_PLR 0.579622 0 1
+    (70 i@n_-_pr-i_le 0.336087 0 1
+     ("“i" 59
+      "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"“i\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (507 ^HD_OPTCMP_C 1.47085 1 2
+   (506 W_DQRIGHT_PLR 1.58857 1 2
+    (505 W_PERIOD_PLR -0.581006 1 2
+     (504 V_PST_OLR -0.293805 1 2
+      (136 try_v1@v_np*_le 0 1 2
+       ("tried.”" 56
+        "token [ +CARG \"tried\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"tried.”\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98092820000000003\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP (NP "“i"))) (VP (V (V (V (V "tried.”"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _try_v_1<3:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_try_v_1<3:10>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _try_v_1<3:10> ARG1 pron<0:2>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM sg  
+  pron<0:2> PT std  
+  _try_v_1<3:10> SF prop  
+  _try_v_1<3:10> TENSE past  
+  _try_v_1<3:10> MOOD indicative  
+  _try_v_1<3:10> PROG -  
+  _try_v_1<3:10> PERF -  
+}
+

@@ -1,0 +1,165 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:17 h)).
+;;;
+
+[21737013] (1 of 1) {1} `(The 1989 price: $250,000.)'
+
+[21737013:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "(", 0, "null", "(" 1.0)
+  (2, 1, 2, <1:4>, 1, "The", 0, "null", "DT" 1.0)
+  (3, 2, 3, <5:9>, 1, "1989", 0, "null", "CD" 1.0)
+  (4, 3, 4, <10:15>, 1, "price", 0, "null", "NN" 1.0)
+  (5, 4, 5, <15:16>, 1, ":", 0, "null", ":" 1.0)
+  (6, 5, 6, <17:18>, 1, "$", 0, "null", "$" 1.0)
+  (7, 6, 7, <18:25>, 1, "250,000", 0, "null", "CD" 1.0)
+  (8, 7, 8, <25:26>, 1, ".", 0, "null", "." 1.0)
+  (9, 8, 9, <26:27>, 1, ")", 0, "null", ")" 1.0)
+>
+
+<
+  (90, 0, 1, <0:4>, 1, "(the", 0, "null")
+  (96, 0, 1, <0:4>, 1, "(the", 0, "null")
+  (71, 1, 2, <5:9>, 1, "1989", 0, "null")
+  (91, 1, 2, <5:9>, 1, "1989", 0, "null")
+  (82, 2, 3, <10:15>, 1, "price", 0, "null")
+  (89, 2, 3, <10:15>, 1, "price", 0, "null", "NN" 1.0)
+  (93, 2, 3, <10:15>, 1, "price", 0, "null")
+  (84, 3, 4, <15:16>, 1, ":", 0, "null")
+  (94, 3, 4, <15:16>, 1, ":", 0, "null")
+  (86, 4, 5, <17:18>, 1, "$", 0, "null")
+  (95, 4, 5, <17:18>, 1, "$", 0, "null")
+  (80, 5, 6, <18:27>, 1, "250,000.)", 0, "null")
+  (92, 5, 6, <18:27>, 1, "250,000.)", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (784 SB-HD_MC_C 7.9099 0 6
+  (777 SP-HD_N_C 1.77005 0 3
+   (772 W_LPAREN_PLR 0 0 1
+    (109 the_1@d_-_the_le 0 0 1
+     ("(the" 90
+      "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"(the\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (776 ^NP-HDN_CPD_C 1.77005 1 3
+    (774 HDN_BNP-PN_C 1.67317 1 2
+     (773 HDN_OPTCMP_C 0.804081 1 2
+      (138 generic_year_ne@n_-_pn-yoc-gen_le 2.0062 1 2
+       ("1989" 71
+        "token [ +CARG #1=\"1989\" +CLASS card_or_year_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (775 ^N_MS-CNT_ILR -0.603305 2 3
+     (139 price_n1@n_-_mc-ed_le 0.0184219 2 3
+      ("price" 82
+       "token [ +CARG #1=\"price\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (783 ^HD-CMP_U_C 4.18534 3 6
+   (147 colon_copula_v@v_np_colon_le 0.879077 3 4
+    (":" 84
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (782 HDN_BNP_C 3.49711 4 6
+    (781 N-NUM_MNP_C 3.30156 4 6
+     (778 ^N_PL-CUR_ILR 1.21255 4 5
+      (180 dollarsign_n1@n_-_c-cur_le -0.27486 4 5
+       ("$" 86
+        "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (780 W_RPAREN_PLR 2.08901 5 6
+      (779 W_PERIOD_PLR 1.01515 5 6
+       (184 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("250,000.)" 80
+         "token [ +CARG \"250,000\" +CLASS card_ne +FORM \"250,000.)\" +FROM \"18\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (DET (DET "(the")) (N (NP (N (N "1989"))) (N (N "price"))))
+ (VP (V ":") (NP (N (N (N "$")) (ADJ (ADJ (ADJ "250,000.)")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<5:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<5:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ yofc<5:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "1989" ]
+          [ _price_n_of<10:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _colon_v_id<15:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<17:27>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _dollar_n_1<17:18>
+            LBL: h19
+            ARG0: x15 ]
+          [ card<18:27>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            CARG: "250,000" ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:4>[BV x6]
+ e10:compound<5:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<5:9>[BV x9]
+ x9:yofc<5:9>("1989"){x PERS 3, NUM sg, IND +}[]
+ x6:_price_n_of<10:15>{x PERS 3, NUM sg}[]
+ e3:_colon_v_id<15:16>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:udef_q<17:27>[BV x15]
+ x15:_dollar_n_1<17:18>{x PERS 3, NUM pl, IND +}[]
+ e20:card<18:27>("250,000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+}
+
+{
+  _the_q<0:4> BV _price_n_of<10:15>  
+  compound<5:15> ARG1 _price_n_of<10:15>  
+  compound<5:15> ARG2 yofc<5:9>(1989)  
+  proper_q<5:9> BV yofc<5:9>(1989)  
+  _colon_v_id<15:16> ARG1 _price_n_of<10:15>  
+  _colon_v_id<15:16> ARG2 _dollar_n_1<17:18>  
+  udef_q<17:27> BV _dollar_n_1<17:18>  
+  card<18:27>(250,000) ARG1 _dollar_n_1<17:18>  
+  compound<5:15> SF prop  
+  compound<5:15> TENSE untensed  
+  compound<5:15> MOOD indicative  
+  compound<5:15> PROG -  
+  compound<5:15> PERF -  
+  yofc<5:9>(1989) PERS 3  
+  yofc<5:9>(1989) NUM sg  
+  yofc<5:9>(1989) IND +  
+  _price_n_of<10:15> PERS 3  
+  _price_n_of<10:15> NUM sg  
+  _colon_v_id<15:16> SF prop  
+  _colon_v_id<15:16> TENSE tensed  
+  _colon_v_id<15:16> MOOD indicative  
+  _colon_v_id<15:16> PROG -  
+  _colon_v_id<15:16> PERF -  
+  _dollar_n_1<17:18> PERS 3  
+  _dollar_n_1<17:18> NUM pl  
+  _dollar_n_1<17:18> IND +  
+  card<18:27>(250,000) SF prop  
+  card<18:27>(250,000) TENSE untensed  
+  card<18:27>(250,000) MOOD indicative  
+  card<18:27>(250,000) PROG -  
+  card<18:27>(250,000) PERF -  
+}
+

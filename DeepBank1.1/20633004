@@ -1,0 +1,86 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:58 h)).
+;;;
+
+[20633004] (1 of 1) {1} `I'm OK."'
+
+[20633004:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <1:3>, 1, "’m", 0, "null", "VBP" 0.6669 "VB" 0.1679 "NN" 0.0878 "RB" 0.0547 "JJ" 0.0227)
+  (3, 2, 3, <4:6>, 1, "OK", 0, "null", "JJ" 0.8671 "UH" 0.1329)
+  (4, 3, 4, <6:7>, 1, ".", 0, "null", "." 1.0)
+  (5, 4, 5, <7:8>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (49, 0, 1, <0:1>, 1, "I", 0, "null")
+  (73, 0, 1, <0:1>, 1, "i", 0, "null")
+  (75, 0, 1, <0:1>, 1, "i", 0, "null")
+  (66, 1, 2, <1:3>, 1, "’m", 0, "null")
+  (70, 1, 2, <1:3>, 1, "’m", 0, "null", "VBP" 0.6669)
+  (72, 1, 2, <1:3>, 1, "’m", 0, "null", "VB" 0.1679)
+  (77, 1, 2, <1:3>, 1, "’m", 0, "null")
+  (53, 2, 3, <4:8>, 1, "OK.”", 0, "null")
+  (71, 2, 3, <4:8>, 1, "OK.”", 0, "null", "JJ" 0.8671)
+  (74, 2, 3, <4:8>, 1, "ok.”", 0, "null")
+  (76, 2, 3, <4:8>, 1, "ok.”", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (347 SB-HD_MC_C 7.00555 0 3
+  (343 HDN_BNP-QNT_C 1.98216 0 1
+   (85 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 73
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (346 ^HD-CMP_U_C 3.75404 1 3
+   (114 be_c_am_cx_3@v_prd_am-cx_le 1.06914 1 2
+    ("’m" 66
+     "token [ +CARG #1=\"’m\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"1\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66688309999999995\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (345 W_DQRIGHT_PLR 2.68491 2 3
+    (344 W_PERIOD_PLR 0.652557 2 3
+     (128 ok_a1@aj_-_i_le 0 2 3
+      ("ok.”" 74
+       "token [ +CARG \"OK\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"ok.”\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86706179999999999\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "i")) (VP (V "’m") (AP (AP (AP "ok.”")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _okay_a_accept<4:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e3:_okay_a_accept<4:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  _okay_a_accept<4:8> ARG1 pron<0:1>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  _okay_a_accept<4:8> SF prop  
+  _okay_a_accept<4:8> TENSE pres  
+  _okay_a_accept<4:8> MOOD indicative  
+  _okay_a_accept<4:8> PROG -  
+  _okay_a_accept<4:8> PERF -  
+}
+

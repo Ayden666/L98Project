@@ -1,0 +1,150 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:48 h)).
+;;;
+
+[20414002] (1 of 1) {1} `But survivors earn more.'
+
+[20414002:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:13>, 1, "survivors", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:18>, 1, "earn", 0, "null", "VBP" 0.7805 "VB" 0.2195)
+  (4, 3, 4, <19:23>, 1, "more", 0, "null", "JJR" 0.5618 "RBR" 0.4382)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:3>, 1, "but", 0, "null")
+  (67, 0, 1, <0:3>, 1, "but", 0, "null")
+  (54, 1, 2, <4:13>, 1, "survivors", 0, "null")
+  (61, 1, 2, <4:13>, 1, "survivors", 0, "null", "NNS" 1.0)
+  (64, 1, 2, <4:13>, 1, "survivors", 0, "null")
+  (55, 2, 3, <14:18>, 1, "earn", 0, "null")
+  (59, 2, 3, <14:18>, 1, "earn", 0, "null", "VBP" 0.7805)
+  (62, 2, 3, <14:18>, 1, "earn", 0, "null", "VB" 0.2195)
+  (65, 2, 3, <14:18>, 1, "earn", 0, "null")
+  (57, 3, 4, <19:24>, 1, "more.", 0, "null")
+  (60, 3, 4, <19:24>, 1, "more.", 0, "null", "JJR" 0.5618)
+  (66, 3, 4, <19:24>, 1, "more.", 0, "null")
+>
+
+(ROOT_STRICT
+ (389 CL_CNJ-FRG_C 4.02703 0 4
+  (388 MRK-NH_CL_C 3.15715 0 4
+   (70 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 63
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (387 SB-HD_MC_C 0.744505 1 4
+    (380 HDN_BNP_C -0.254677 1 2
+     (379 N_PL_OLR 0.498467 1 2
+      (84 survivor_n1@n_-_c_le 0 1 2
+       ("survivors" 54
+        "token [ +CARG #1=\"survivors\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (386 ^HD-CMP_U_C 0.392779 2 4
+     (381 ^V_N3S-BSE_ILR -0.329965 2 3
+      (97 earn_v1@v_np_le 0 2 3
+       ("earn" 55
+        "token [ +CARG #1=\"earn\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.78047109999999997\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (385 HDN_BNP-QNT_C 0.713049 3 4
+      (384 NUM_PRT-NC_C 1.72212 3 4
+       (383 HD_OPTCMP_C 0.996623 3 4
+        (382 W_PERIOD_PLR 0.790901 3 4
+         (105 more_adj@aj_pp_i-more_le 0.209782 3 4
+          ("more." 57
+           "token [ +CARG \"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"more.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.5618322\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (N (N "survivors")))
+   (VP (V (V "earn")) (NP (N (ADJ (ADJ (ADJ "more.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ udef_q<4:13>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h9
+            BODY: h11 ]
+          [ _survivor_n_1<4:13>
+            LBL: h12
+            ARG0: x10 ]
+          [ _earn_v_1<14:18>
+            LBL: h13
+            ARG0: e4
+            ARG1: x10
+            ARG2: x14 ]
+          [ generic_entity<19:24>
+            LBL: h15
+            ARG0: x14 ]
+          [ udef_q<19:24>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ much-many_a<19:24>
+            LBL: h15
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x14 ]
+          [ comp<19:24>
+            LBL: h15
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e19
+            ARG2: u20 ] >
+   HCONS: < h17 QEQ h15 h9 QEQ h12 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:udef_q<4:13>[BV x10]
+ x10:_survivor_n_1<4:13>{x PERS 3, NUM pl, IND +}[]
+ e4:_earn_v_1<14:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x14]
+ x14:generic_entity<19:24>{x}[]
+ _2:udef_q<19:24>[BV x14]
+ e19:much-many_a<19:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14]
+ e21:comp<19:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e19]
+}
+
+{
+  _but_c<0:3> R-HNDL _earn_v_1<14:18>  
+  _but_c<0:3> R-INDEX _earn_v_1<14:18>  
+  udef_q<4:13> BV _survivor_n_1<4:13>  
+  _earn_v_1<14:18> ARG1 _survivor_n_1<4:13>  
+  _earn_v_1<14:18> ARG2 generic_entity<19:24>  
+  udef_q<19:24> BV generic_entity<19:24>  
+  much-many_a<19:24> ARG1 generic_entity<19:24>  
+  comp<19:24> ARG1 much-many_a<19:24>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _survivor_n_1<4:13> PERS 3  
+  _survivor_n_1<4:13> NUM pl  
+  _survivor_n_1<4:13> IND +  
+  _earn_v_1<14:18> SF prop  
+  _earn_v_1<14:18> TENSE pres  
+  _earn_v_1<14:18> MOOD indicative  
+  _earn_v_1<14:18> PROG -  
+  _earn_v_1<14:18> PERF -  
+  much-many_a<19:24> SF prop  
+  much-many_a<19:24> TENSE untensed  
+  much-many_a<19:24> MOOD indicative  
+  much-many_a<19:24> PROG -  
+  much-many_a<19:24> PERF -  
+  comp<19:24> SF prop  
+  comp<19:24> TENSE untensed  
+  comp<19:24> MOOD indicative  
+  comp<19:24> PROG -  
+  comp<19:24> PERF -  
+}
+

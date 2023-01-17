@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:26 h)).
+;;;
+
+[21143016] (1 of 1) {1} `It's not enough.'
+
+[21143016:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9769 "NNS" 0.0117 "VBP" 0.0113)
+  (3, 2, 3, <5:8>, 1, "not", 0, "null", "RB" 1.0)
+  (4, 3, 4, <9:15>, 1, "enough", 0, "null", "RB" 0.5878 "JJ" 0.4122)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (65, 0, 1, <0:2>, 1, "it", 0, "null")
+  (69, 0, 1, <0:2>, 1, "it", 0, "null")
+  (57, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (61, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9769)
+  (67, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (56, 2, 3, <5:8>, 1, "not", 0, "null")
+  (63, 2, 3, <5:8>, 1, "not", 0, "null", "RB" 1.0)
+  (66, 2, 3, <5:8>, 1, "not", 0, "null")
+  (58, 3, 4, <9:16>, 1, "enough.", 0, "null")
+  (62, 3, 4, <9:16>, 1, "enough.", 0, "null", "RB" 0.5878)
+  (64, 3, 4, <9:16>, 1, "enough.", 0, "null", "JJ" 0.4122)
+  (68, 3, 4, <9:16>, 1, "enough.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (847 SB-HD_MC_C 2.79336 0 4
+  (840 HDN_BNP-QNT_C 0.430464 0 1
+   (71 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 65
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (846 ^HD-CMP_U_C 1.09354 1 4
+   (842 ^HD-CMP_U_C 1.45339 1 3
+    (841 ^V_AUX-ADVADD_DLR -0.374317 1 2
+     (95 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+      ("’s" 57
+       "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9769407\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (278 not@av_-_s-not_le 1.00376 2 3
+     ("not" 56
+      "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (845 HDN_BNP-QNT_C -0.699029 3 4
+    (844 W_PERIOD_PLR -0.744901 3 4
+     (843 DET_PRT-NOCMP_DLR -0.390768 3 4
+      (387 enough_det@d_-_prt-plm_le 0 3 4
+       ("enough." 58
+        "token [ +CARG \"enough\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"enough.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58776479999999998\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "it"))
+ (VP (V (V (V "’s")) (ADV "not")) (NP (N (N (DET "enough."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<2:4>
+            LBL: h9
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10 [ x PERS: 3 ] ]
+          [ neg<5:8>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h11 ]
+          [ _enough_q<9:16>
+            LBL: h13
+            ARG0: x10
+            RSTR: h14
+            BODY: h15 ]
+          [ generic_entity<9:16>
+            LBL: h16
+            ARG0: x10 ] >
+   HCONS: < h14 QEQ h16 h11 QEQ h9 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e12:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_be_v_id<2:4>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ e12:neg<5:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _2:_enough_q<9:16>[BV x10]
+ x10:generic_entity<9:16>{x PERS 3}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _be_v_id<2:4> ARG1 pron<0:2>  
+  _be_v_id<2:4> ARG2 generic_entity<9:16>  
+  neg<5:8> ARG1 _be_v_id<2:4>  
+  _enough_q<9:16> BV generic_entity<9:16>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _be_v_id<2:4> SF prop  
+  _be_v_id<2:4> TENSE pres  
+  _be_v_id<2:4> MOOD indicative  
+  _be_v_id<2:4> PROG -  
+  _be_v_id<2:4> PERF -  
+  neg<5:8> SF prop  
+  neg<5:8> TENSE untensed  
+  neg<5:8> MOOD indicative  
+  neg<5:8> PROG -  
+  neg<5:8> PERF -  
+  generic_entity<9:16> PERS 3  
+}
+

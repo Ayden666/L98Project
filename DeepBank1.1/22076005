@@ -1,0 +1,216 @@
+;;;
+;;; Redwoods export of `wsj20d';
+;;; (wsun@wsun; 23-jan-2018 (05:44 h)).
+;;;
+
+[22076005] (1 of 1) {1} `Lee Dirks & Associates is to sell the chains.'
+
+[22076005:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Lee", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Dirks", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:11>, 1, "&", 0, "null", "CC" 1.0)
+  (4, 3, 4, <12:22>, 1, "Associates", 0, "null", "NNP" 0.5365 "NNPS" 0.4635)
+  (5, 4, 5, <23:25>, 1, "is", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <26:28>, 1, "to", 0, "null", "TO" 1.0)
+  (7, 6, 7, <29:33>, 1, "sell", 0, "null", "VB" 1.0)
+  (8, 7, 8, <34:37>, 1, "the", 0, "null", "DT" 1.0)
+  (9, 8, 9, <38:44>, 1, "chains", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (116, 0, 1, <0:3>, 1, "Lee", 0, "null")
+  (124, 0, 1, <0:3>, 1, "lee", 0, "null")
+  (134, 0, 1, <0:3>, 1, "lee", 0, "null")
+  (93, 1, 2, <4:9>, 1, "Dirks", 0, "null")
+  (118, 1, 2, <4:9>, 1, "Dirks", 0, "null", "NNP" 1.0)
+  (123, 1, 2, <4:9>, 1, "dirks", 0, "null")
+  (126, 1, 2, <4:9>, 1, "dirks", 0, "null")
+  (111, 2, 3, <10:11>, 1, "&", 0, "null")
+  (132, 2, 3, <10:11>, 1, "&", 0, "null")
+  (94, 3, 4, <12:22>, 1, "Associates", 0, "null")
+  (117, 3, 4, <12:22>, 1, "Associates", 0, "null", "NNP" 0.5365)
+  (122, 3, 4, <12:22>, 1, "Associates", 0, "null", "NNPS" 0.4635)
+  (125, 3, 4, <12:22>, 1, "associates", 0, "null")
+  (127, 3, 4, <12:22>, 1, "associates", 0, "null")
+  (103, 4, 5, <23:25>, 1, "is", 0, "null")
+  (119, 4, 5, <23:25>, 1, "is", 0, "null", "VBZ" 1.0)
+  (128, 4, 5, <23:25>, 1, "is", 0, "null")
+  (105, 5, 6, <26:28>, 1, "to", 0, "null")
+  (129, 5, 6, <26:28>, 1, "to", 0, "null")
+  (107, 6, 7, <29:33>, 1, "sell", 0, "null")
+  (120, 6, 7, <29:33>, 1, "sell", 0, "null", "VB" 1.0)
+  (130, 6, 7, <29:33>, 1, "sell", 0, "null")
+  (109, 7, 8, <34:37>, 1, "the", 0, "null")
+  (131, 7, 8, <34:37>, 1, "the", 0, "null")
+  (113, 8, 9, <38:45>, 1, "chains.", 0, "null")
+  (121, 8, 9, <38:45>, 1, "chains.", 0, "null", "NNS" 1.0)
+  (133, 8, 9, <38:45>, 1, "chains.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2637 SB-HD_MC_C 13.6655 0 9
+  (2627 HDN_BNP-PN_C 5.1002 0 4
+   (2626 HDN-AJ_REDREL_C 4.46278 0 4
+    (2625 ^NP-HDN_NME-CPD_C 1.86007 0 2
+     (2623 HDN_BNP-PN_C 0.299225 0 1
+      (2622 N_SG_ILR -0.166294 0 1
+       (138 lee@n_-_pn_le 0 0 1
+        ("lee" 124
+         "token [ +CARG \"Lee\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"lee\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (2624 ^N_SG_ILR 0.199039 1 2
+      (141 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Dirks" 93
+        "token [ +CARG #1=\"Dirks\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (452 and_assoc_post_ttl@n_-_tt-post-npt_le 0 2 4
+     ("& associates" 111
+      "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      125
+      "token [ +CARG \"Associates\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"associates\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.53646150000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2636 ^HD-CMP_U_C 7.54827 4 9
+   (224 be_c_is@v_prd_is_le -0.106761 4 5
+    ("is" 103
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2635 CL_RC-INF-NWH-SB_C 5.08304 5 9
+    (2634 HD-CMP_U_C 4.21594 5 9
+     (335 to_c_prop@cm_vp_to_le 0.648718 5 6
+      ("to" 105
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2633 HD-CMP_U_C 2.70837 6 9
+      (2628 ^V_N3S-BSE_ILR 0.274689 6 7
+       (392 sell_v3@v_np*_le 0.055853 6 7
+        ("sell" 107
+         "token [ +CARG #1=\"sell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (2632 SP-HD_N_C 1.93548 7 9
+       (406 the_1@d_-_the_le 1.07131 7 8
+        ("the" 109
+         "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2631 ^HDN_OPTCMP_C 0.293144 8 9
+        (2630 W_PERIOD_PLR -0.037164 8 9
+         (2629 N_PL_OLR -0.073435 8 9
+          (431 chain_n@n_pp_c-of_le 0 8 9
+           ("chains." 113
+            "token [ +CARG \"chains\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"chains.\" +FROM #1=\"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (NP (N (N "lee"))) (N (N "Dirks"))) (N "& associates")))
+ (VP (V "is")
+  (S
+   (VP (COMP "to")
+    (VP (V (V "sell")) (NP (DET "the") (N (N (N (N "chains."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:22>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:3>
+            LBL: h14
+            ARG0: x9
+            CARG: "Lee" ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Dirks" ]
+          [ _and+associates_n_1<10:22>
+            LBL: h15
+            ARG0: x16 [ x IND: + ] ]
+          [ udef_q<10:22>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ compound<10:22>
+            LBL: h8
+            ARG0: i20
+            ARG1: x6
+            ARG2: x16 ]
+          [ eventuality<26:45>
+            LBL: h2
+            ARG0: e3
+            ARG1: h21 ]
+          [ _sell_v_1<29:33>
+            LBL: h21
+            ARG0: e22 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x23 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _the_q<34:37>
+            LBL: h24
+            ARG0: x23
+            RSTR: h26
+            BODY: h25 ]
+          [ _chain_n_of<38:45>
+            LBL: h27
+            ARG0: x23
+            ARG1: i28 ] >
+   HCONS: < h26 QEQ h27 h18 QEQ h15 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:22>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:3>[BV x9]
+ x9:named<0:3>("Lee"){x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Dirks"){x PERS 3, NUM sg, IND +}[]
+ x16:_and+associates_n_1<10:22>{x IND +}[]
+ _3:udef_q<10:22>[BV x16]
+ i20:compound<10:22>{i}[ARG1 x6, ARG2 x16]
+ e3:eventuality<26:45>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e22]
+ e22:_sell_v_1-fn.Commerce_sell<29:33>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Seller x6, ARG2-fn.Goods x23]
+ _4:_the_q<34:37>[BV x23]
+ x23:_chain_n_of<38:45>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:22> BV named<4:9>(Dirks)  
+  compound<0:9> ARG1 named<4:9>(Dirks)  
+  compound<0:9> ARG2 named<0:3>(Lee)  
+  proper_q<0:3> BV named<0:3>(Lee)  
+  udef_q<10:22> BV _and+associates_n_1<10:22>  
+  compound<10:22> ARG1 named<4:9>(Dirks)  
+  compound<10:22> ARG2 _and+associates_n_1<10:22>  
+  eventuality<26:45> ARG1 _sell_v_1<29:33>  
+  _sell_v_1<29:33> ARG1 named<4:9>(Dirks)  
+  _sell_v_1<29:33> ARG2 _chain_n_of<38:45>  
+  _the_q<34:37> BV _chain_n_of<38:45>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:3>(Lee) PERS 3  
+  named<0:3>(Lee) NUM sg  
+  named<0:3>(Lee) IND +  
+  named<4:9>(Dirks) PERS 3  
+  named<4:9>(Dirks) NUM sg  
+  named<4:9>(Dirks) IND +  
+  _and+associates_n_1<10:22> IND +  
+  eventuality<26:45> SF prop  
+  eventuality<26:45> TENSE pres  
+  eventuality<26:45> MOOD indicative  
+  eventuality<26:45> PROG -  
+  eventuality<26:45> PERF -  
+  _sell_v_1<29:33> SF prop-or-ques  
+  _sell_v_1<29:33> TENSE untensed  
+  _sell_v_1<29:33> MOOD indicative  
+  _sell_v_1<29:33> PROG -  
+  _sell_v_1<29:33> PERF -  
+  _chain_n_of<38:45> PERS 3  
+  _chain_n_of<38:45> NUM pl  
+  _chain_n_of<38:45> IND +  
+}
+

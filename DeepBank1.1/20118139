@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:08 h)).
+;;;
+
+[20118139] (1 of 1) {1} `Reducing volatility.'
+
+[20118139:3] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Reducing", 0, "null", "VBG" 1.0)
+  (2, 1, 2, <9:19>, 1, "volatility", 0, "null", "NN" 1.0)
+  (3, 2, 3, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:8>, 1, "Reducing", 0, "null", "VBG" 1.0)
+  (35, 0, 1, <0:8>, 1, "reducing", 0, "null")
+  (37, 0, 1, <0:8>, 1, "reducing", 0, "null")
+  (32, 1, 2, <9:20>, 1, "volatility.", 0, "null")
+  (34, 1, 2, <9:20>, 1, "volatility.", 0, "null", "NN" 1.0)
+  (36, 1, 2, <9:20>, 1, "volatility.", 0, "null")
+>
+
+(ROOT_FRAG
+ (173 NP_FRG_C -1.7088 0 2
+  (172 HDN_BNP-VGER_C -1.13281 0 2
+   (171 VP_NP-GER_C 0.021156 0 2
+    (170 HD-CMP_U_C 0.327108 0 2
+     (156 ^V_PRP_OLR 0.25203 0 1
+      (45 reduce_v1@v_np*_le 0 0 1
+       ("reducing" 35
+        "token [ +CARG \"Reducing\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"reducing\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (169 HDN_BNP_C -0.264215 1 2
+      (160 W_PERIOD_PLR 0.784596 1 2
+       (159 N_MS-CNT_ILR 0.214285 1 2
+        (50 volatility_n1@n_-_mc_le 0 1 2
+         ("volatility." 32
+          "token [ +CARG \"volatility\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"volatility.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP (NP (N (VP (V (V "reducing")) (NP (N (N (N "volatility."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:20>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<0:20>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ nominalization<0:20>
+            LBL: h8
+            ARG0: x4
+            ARG1: h9 ]
+          [ _reduce_v_1<0:8>
+            LBL: h9
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i12
+            ARG2: x11 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<9:20>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _volatility_n_1<9:20>
+            LBL: h16
+            ARG0: x11 ] >
+   HCONS: < h14 QEQ h16 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:20>[BV x4]
+ x4:nominalization<0:20>{x PERS 3, NUM sg, GEND n}[ARG1 e10]
+ e10:_reduce_v_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x11]
+ _2:udef_q<9:20>[BV x11]
+ x11:_volatility_n_1<9:20>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:20> ARG nominalization<0:20>  
+  udef_q<0:20> BV nominalization<0:20>  
+  nominalization<0:20> ARG1 _reduce_v_1<0:8>  
+  _reduce_v_1<0:8> ARG2 _volatility_n_1<9:20>  
+  udef_q<9:20> BV _volatility_n_1<9:20>  
+  unknown<0:20> SF prop  
+  unknown<0:20> TENSE untensed  
+  unknown<0:20> MOOD indicative  
+  unknown<0:20> PROG -  
+  unknown<0:20> PERF -  
+  nominalization<0:20> PERS 3  
+  nominalization<0:20> NUM sg  
+  nominalization<0:20> GEND n  
+  _reduce_v_1<0:8> SF prop  
+  _reduce_v_1<0:8> TENSE untensed  
+  _reduce_v_1<0:8> MOOD indicative  
+  _reduce_v_1<0:8> PROG +  
+  _reduce_v_1<0:8> PERF -  
+  _volatility_n_1<9:20> PERS 3  
+  _volatility_n_1<9:20> NUM sg  
+}
+

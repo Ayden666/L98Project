@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:31 h)).
+;;;
+
+[21364006] (1 of 1) {1} `The dollar also declined.'
+
+[21364006:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "dollar", 0, "null", "NN" 1.0)
+  (3, 2, 3, <11:15>, 1, "also", 0, "null", "RB" 1.0)
+  (4, 3, 4, <16:24>, 1, "declined", 0, "null", "VBD" 0.9009 "VBN" 0.0991)
+  (5, 4, 5, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:3>, 1, "the", 0, "null")
+  (64, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 1, 2, <4:10>, 1, "dollar", 0, "null")
+  (58, 1, 2, <4:10>, 1, "dollar", 0, "null", "NN" 1.0)
+  (61, 1, 2, <4:10>, 1, "dollar", 0, "null")
+  (54, 2, 3, <11:15>, 1, "also", 0, "null")
+  (59, 2, 3, <11:15>, 1, "also", 0, "null", "RB" 1.0)
+  (62, 2, 3, <11:15>, 1, "also", 0, "null")
+  (55, 3, 4, <16:25>, 1, "declined.", 0, "null")
+  (57, 3, 4, <16:25>, 1, "declined.", 0, "null", "VBD" 0.9009)
+  (63, 3, 4, <16:25>, 1, "declined.", 0, "null")
+>
+
+(ROOT_STRICT
+ (433 SB-HD_MC_C 4.92501 0 4
+  (428 SP-HD_N_C 2.35585 0 2
+   (77 the_1@d_-_the_le 0.244361 0 1
+    ("the" 60
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (427 ^N_SG_ILR 0.269794 1 2
+    (104 dollar_n1@n_-_c-meas-nb_le 0.566797 1 2
+     ("dollar" 52
+      "token [ +CARG #1=\"dollar\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (432 ^AJ-HD_SCP-XP_C 1.09242 2 4
+   (113 also_adv1@av_-_s-vp-x_le -0.0583193 2 3
+    ("also" 54
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (431 ^HD_OPTCMP_C -0.39416 3 4
+    (430 W_PERIOD_PLR -0.21915 3 4
+     (429 V_PST_OLR -0.555709 3 4
+      (144 decline_v1@v_np*_le 0 3 4
+       ("declined." 55
+        "token [ +CARG \"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"declined.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90093540000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "the") (N (N "dollar")))
+ (VP (ADV "also") (VP (V (V (V "declined."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _dollar_n_1<4:10>
+            LBL: h8
+            ARG0: x6 ]
+          [ _also_a_1<11:15>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h10 ]
+          [ _decline_v_1<16:25>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6
+            ARG2: p12 ] >
+   HCONS: < h10 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e9:
+ _1:_the_q<0:3>[BV x6]
+ x6:_dollar_n_1<4:10>{x PERS 3, NUM sg, IND +}[]
+ e9:_also_a_1<11:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_decline_v_1<16:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _dollar_n_1<4:10>  
+  _also_a_1<11:15> ARG1 _decline_v_1<16:25>  
+  _decline_v_1<16:25> ARG1 _dollar_n_1<4:10>  
+  _dollar_n_1<4:10> PERS 3  
+  _dollar_n_1<4:10> NUM sg  
+  _dollar_n_1<4:10> IND +  
+  _also_a_1<11:15> SF prop  
+  _also_a_1<11:15> TENSE untensed  
+  _also_a_1<11:15> MOOD indicative  
+  _also_a_1<11:15> PROG -  
+  _also_a_1<11:15> PERF -  
+  _decline_v_1<16:25> SF prop  
+  _decline_v_1<16:25> TENSE past  
+  _decline_v_1<16:25> MOOD indicative  
+  _decline_v_1<16:25> PROG -  
+  _decline_v_1<16:25> PERF -  
+}
+

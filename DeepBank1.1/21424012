@@ -1,0 +1,191 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (23:06 h)).
+;;;
+
+[21424012] (1 of 1) {1} `Mr. Barre's rule is crumbling fast.'
+
+[21424012:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Barre", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:11>, 1, "’s", 0, "null", "NNS" 0.4403 "VBZ" 0.2244 "JJ" 0.2224 "NN" 0.1129)
+  (4, 3, 4, <12:16>, 1, "rule", 0, "null", "NN" 0.9858 "VB" 0.0142)
+  (5, 4, 5, <17:19>, 1, "is", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <20:29>, 1, "crumbling", 0, "null", "VBG" 1.0)
+  (7, 6, 7, <30:34>, 1, "fast", 0, "null", "RB" 0.9065 "JJ" 0.0935)
+  (8, 7, 8, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (100, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (111, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (118, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (74, 1, 2, <4:9>, 1, "Barre", 0, "null")
+  (106, 1, 2, <4:9>, 1, "Barre", 0, "null", "NNP" 1.0)
+  (110, 1, 2, <4:9>, 1, "barre", 0, "null")
+  (112, 1, 2, <4:9>, 1, "barre", 0, "null")
+  (96, 2, 3, <9:11>, 1, "’s", 0, "null")
+  (102, 2, 3, <9:11>, 1, "’s", 0, "null", "NNS" 0.4403)
+  (104, 2, 3, <9:11>, 1, "’s", 0, "null", "VBZ" 0.2244)
+  (105, 2, 3, <9:11>, 1, "’s", 0, "null", "JJ" 0.2224)
+  (109, 2, 3, <9:11>, 1, "’s", 0, "null", "NN" 0.1129)
+  (116, 2, 3, <9:11>, 1, "’s", 0, "null")
+  (94, 3, 4, <12:16>, 1, "rule", 0, "null")
+  (101, 3, 4, <12:16>, 1, "rule", 0, "null", "NN" 0.9858)
+  (115, 3, 4, <12:16>, 1, "rule", 0, "null")
+  (91, 4, 5, <17:19>, 1, "is", 0, "null")
+  (107, 4, 5, <17:19>, 1, "is", 0, "null", "VBZ" 1.0)
+  (113, 4, 5, <17:19>, 1, "is", 0, "null")
+  (93, 5, 6, <20:29>, 1, "crumbling", 0, "null")
+  (108, 5, 6, <20:29>, 1, "crumbling", 0, "null", "VBG" 1.0)
+  (114, 5, 6, <20:29>, 1, "crumbling", 0, "null")
+  (97, 6, 7, <30:35>, 1, "fast.", 0, "null")
+  (103, 6, 7, <30:35>, 1, "fast.", 0, "null", "RB" 0.9065)
+  (117, 6, 7, <30:35>, 1, "fast.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2304 SB-HD_MC_C 10.2153 0 7
+  (2298 SP-HD_N_C 5.31351 0 4
+   (2296 SP-HD_HC_C 5.22991 0 3
+    (2295 HDN_BNP-PN_C 3.33949 0 2
+     (2294 NP-HDN_TTL-CPD_C 2.78986 0 2
+      (2292 N_SG_ILR 2.02901 0 1
+       (126 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+        ("mr." 111
+         "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (2293 ^N_SG_ILR -0.259177 1 2
+       (129 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Barre" 74
+         "token [ +CARG #1=\"Barre\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (134 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 2 3
+     ("’s" 96
+      "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.4402874\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2297 ^N_MS-CNT_ILR 0.25907 3 4
+    (444 rule_n1@n_-_mc-ns_le -0.0675255 3 4
+     ("rule" 94
+      "token [ +CARG #1=\"rule\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98579720000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2303 ^HD-CMP_U_C 2.94724 4 7
+   (492 be_c_is@v_prd_is_le 1.47611 4 5
+    ("is" 91
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2302 HD-AJ_INT-UNSL_C 1.27887 5 7
+    (2300 ^HD_OPTCMP_C 1.12554 5 6
+     (2299 V_PRP_OLR 0.271595 5 6
+      (581 crumble_v2@v_pp_unacc_le 0 5 6
+       ("crumbling" 93
+        "token [ +CARG #1=\"crumbling\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2301 W_PERIOD_PLR 0.20692 6 7
+     (590 fast@av_-_i-vp-po_le 0 6 7
+      ("fast." 97
+       "token [ +CARG \"fast\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"fast.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90652060000000001\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S
+ (NP (DET (NP (N (N (N "mr.")) (N (N "Barre")))) (DET "’s"))
+  (N (N "rule")))
+ (VP (V "is") (VP (VP (V (V "crumbling"))) (ADV (ADV "fast.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Barre" ]
+          [ def_explicit_q<9:11>
+            LBL: h15
+            ARG0: x17 [ x PERS: 3 NUM: SG ]
+            RSTR: h16
+            BODY: h18 ]
+          [ poss<9:11>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            ARG2: x6 ]
+          [ _rule_n_of<12:16>
+            LBL: h19
+            ARG0: x17 ]
+          [ _crumble_v_1<20:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x17 ]
+          [ _fast_a_1<30:35>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h16 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Barre"){x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<9:11>[BV x17]
+ e20:poss<9:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17, ARG2 x6]
+ x17:_rule_n_of<12:16>{x PERS 3, NUM sg}[]
+ e3:_crumble_v_1<20:29>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x17]
+ e21:_fast_a_1<30:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Barre)  
+  compound<0:9> ARG1 named<4:9>(Barre)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  def_explicit_q<9:11> BV _rule_n_of<12:16>  
+  poss<9:11> ARG1 _rule_n_of<12:16>  
+  poss<9:11> ARG2 named<4:9>(Barre)  
+  _crumble_v_1<20:29> ARG1 _rule_n_of<12:16>  
+  _fast_a_1<30:35> ARG1 _crumble_v_1<20:29>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Barre) PERS 3  
+  named<4:9>(Barre) NUM sg  
+  named<4:9>(Barre) IND +  
+  poss<9:11> SF prop  
+  poss<9:11> TENSE untensed  
+  poss<9:11> MOOD indicative  
+  poss<9:11> PROG -  
+  poss<9:11> PERF -  
+  _rule_n_of<12:16> PERS 3  
+  _rule_n_of<12:16> NUM sg  
+  _crumble_v_1<20:29> SF prop  
+  _crumble_v_1<20:29> TENSE pres  
+  _crumble_v_1<20:29> MOOD indicative  
+  _crumble_v_1<20:29> PROG +  
+  _crumble_v_1<20:29> PERF -  
+  _fast_a_1<30:35> SF prop  
+  _fast_a_1<30:35> TENSE untensed  
+  _fast_a_1<30:35> MOOD indicative  
+  _fast_a_1<30:35> PROG -  
+  _fast_a_1<30:35> PERF -  
+}
+

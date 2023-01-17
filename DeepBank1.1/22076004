@@ -1,0 +1,138 @@
+;;;
+;;; Redwoods export of `wsj20d';
+;;; (wsun@wsun; 23-jan-2018 (05:44 h)).
+;;;
+
+[22076004] (1 of 1) {1} `It wouldn't discuss a price.'
+
+[22076004:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:8>, 1, "would", 0, "null", "MD" 1.0)
+  (3, 2, 3, <8:11>, 1, "n’t", 0, "null", "RB" 0.4039 "VB" 0.3607 "NN" 0.2127 "JJS" 0.0227)
+  (4, 3, 4, <12:19>, 1, "discuss", 0, "null", "VB" 1.0)
+  (5, 4, 5, <20:21>, 1, "a", 0, "null", "DT" 1.0)
+  (6, 5, 6, <22:27>, 1, "price", 0, "null", "NN" 1.0)
+  (7, 6, 7, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:2>, 1, "it", 0, "null")
+  (78, 0, 1, <0:2>, 1, "it", 0, "null")
+  (68, 1, 2, <3:11>, 1, "wouldn’t", 0, "null")
+  (76, 1, 2, <3:11>, 1, "wouldn’t", 0, "null")
+  (64, 2, 3, <12:19>, 1, "discuss", 0, "null")
+  (71, 2, 3, <12:19>, 1, "discuss", 0, "null", "VB" 1.0)
+  (74, 2, 3, <12:19>, 1, "discuss", 0, "null")
+  (66, 3, 4, <20:21>, 1, "a", 0, "null")
+  (75, 3, 4, <20:21>, 1, "a", 0, "null")
+  (70, 4, 5, <22:28>, 1, "price.", 0, "null")
+  (72, 4, 5, <22:28>, 1, "price.", 0, "null", "NN" 1.0)
+  (77, 4, 5, <22:28>, 1, "price.", 0, "null")
+>
+
+(ROOT_STRICT
+ (400 SB-HD_MC_C 3.03729 0 5
+  (393 HDN_BNP-QNT_C 0.430464 0 1
+   (80 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 73
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (399 ^HD-CMP_U_C 1.33748 1 5
+   (94 would_aux_neg_3_u@v_vp_mdl-n_le -0.150355 1 2
+    ("wouldn’t" 68
+     "token [ +CARG #1=\"wouldn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (398 HD-CMP_U_C 0.504223 2 5
+    (394 ^V_N3S-BSE_ILR 0.218836 2 3
+     (95 discuss_v1@v_np*_le 0 2 3
+      ("discuss" 64
+       "token [ +CARG #1=\"discuss\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (397 SP-HD_N_C -0.636111 3 5
+     (102 a_det@d_-_sg-nmd_le -0.667877 3 4
+      ("a" 66
+       "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (396 ^W_PERIOD_PLR 0.0680164 4 5
+      (395 N_MS-CNT_ILR -0.109212 4 5
+       (175 price_n1@n_-_mc-ed_le 0 4 5
+        ("price." 70
+         "token [ +CARG \"price\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"price.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "it"))
+ (VP (V "wouldn’t")
+  (VP (V (V "discuss")) (NP (DET "a") (N (N (N "price.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<3:11>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _would_v_modal<3:11>
+            LBL: h11
+            ARG0: e3
+            ARG1: h12 ]
+          [ _discuss_v_1<12:19>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<20:21>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _price_n_of<22:28>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h18 QEQ h19 h9 QEQ h11 h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e10:neg<3:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_would_v_modal<3:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:_discuss_v_1<12:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x15]
+ _2:_a_q<20:21>[BV x15]
+ x15:_price_n_of<22:28>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  neg<3:11> ARG1 _would_v_modal<3:11>  
+  _would_v_modal<3:11> ARG1 _discuss_v_1<12:19>  
+  _discuss_v_1<12:19> ARG1 pron<0:2>  
+  _discuss_v_1<12:19> ARG2 _price_n_of<22:28>  
+  _a_q<20:21> BV _price_n_of<22:28>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  neg<3:11> SF prop  
+  neg<3:11> TENSE untensed  
+  neg<3:11> MOOD indicative  
+  neg<3:11> PROG -  
+  neg<3:11> PERF -  
+  _would_v_modal<3:11> SF prop  
+  _would_v_modal<3:11> TENSE pres  
+  _would_v_modal<3:11> MOOD indicative  
+  _would_v_modal<3:11> PROG -  
+  _would_v_modal<3:11> PERF -  
+  _discuss_v_1<12:19> SF prop  
+  _discuss_v_1<12:19> TENSE untensed  
+  _discuss_v_1<12:19> MOOD indicative  
+  _discuss_v_1<12:19> PROG -  
+  _discuss_v_1<12:19> PERF -  
+  _price_n_of<22:28> PERS 3  
+  _price_n_of<22:28> NUM sg  
+}
+

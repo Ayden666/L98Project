@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:14 h)).
+;;;
+
+[21935044] (1 of 1) {1} `Marietta, Ga.'
+
+[21935044:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Marietta", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <10:12>, 1, "Ga", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <12:13>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:9>, 1, "Marietta,", 0, "null")
+  (48, 0, 1, <0:9>, 1, "marietta,", 0, "null")
+  (51, 0, 1, <0:9>, 1, "marietta,", 0, "null")
+  (41, 1, 2, <10:13>, 1, "Ga.", 0, "null")
+  (47, 1, 2, <10:13>, 1, "Ga.", 0, "null", "NNP" 1.0)
+  (49, 1, 2, <10:13>, 1, "ga.", 0, "null")
+  (50, 1, 2, <10:13>, 1, "ga.", 0, "null")
+>
+
+(ROOT_FRAG
+ (153 NP_FRG_C -0.337652 0 2
+  (152 HDN_BNP-PN_C 0.80886 0 2
+   (151 NP-HDN_CTY-CPD_C 2.08532 0 2
+    (148 HDN_BNP-PN_C 0.710257 0 1
+     (147 W_COMMA_PLR -0.118892 0 1
+      (146 N_SG_ILR -0.461604 0 1
+       (53 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Marietta," 46
+         "token [ +CARG \"Marietta\" +CLASS proper_ne +FORM \"Marietta,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (150 ^W_PERIOD_PLR 1.24389 1 2
+     (149 N_SG_ILR 0.628043 1 2
+      (68 georgia_n2@n_-_pn-abb_le 0 1 2
+       ("ga." 49
+        "token [ +CARG \"Ga\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"ga.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (N (NP (N (N (N "Marietta,")))) (N (N (N "ga."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:13>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Marietta" ]
+          [ named<10:13>
+            LBL: h8
+            ARG0: x4
+            CARG: "Georgia" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:13>[BV x4]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ x9:named<0:9>("Marietta"){x PERS 3, NUM sg, IND +}[]
+ x4:named<10:13>("Georgia"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:13> ARG named<10:13>(Georgia)  
+  proper_q<0:13> BV named<10:13>(Georgia)  
+  compound<0:13> ARG1 named<10:13>(Georgia)  
+  compound<0:13> ARG2 named<0:9>(Marietta)  
+  proper_q<0:9> BV named<0:9>(Marietta)  
+  unknown<0:13> SF prop  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:9>(Marietta) PERS 3  
+  named<0:9>(Marietta) NUM sg  
+  named<0:9>(Marietta) IND +  
+  named<10:13>(Georgia) PERS 3  
+  named<10:13>(Georgia) NUM sg  
+  named<10:13>(Georgia) IND +  
+}
+

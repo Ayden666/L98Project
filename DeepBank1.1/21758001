@@ -1,0 +1,148 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:28 h)).
+;;;
+
+[21758001] (1 of 1) {1} `Past Due Impasse'
+
+[21758001:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Past", 0, "null", "NNP" 0.5853 "JJ" 0.4147)
+  (2, 1, 2, <5:8>, 1, "Due", 0, "null", "NNP" 0.5902 "JJ" 0.4098)
+  (3, 2, 3, <9:16>, 1, "Impasse", 0, "null", "NNP" 1.0)
+>
+
+<
+  (42, 0, 1, <0:4>, 1, "Past", 0, "null")
+  (46, 0, 1, <0:4>, 1, "Past", 0, "null", "JJ" 0.4147)
+  (49, 0, 1, <0:4>, 1, "past", 0, "null")
+  (52, 0, 1, <0:4>, 1, "past", 0, "null")
+  (30, 1, 2, <5:8>, 1, "Due", 0, "null")
+  (43, 1, 2, <5:8>, 1, "Due", 0, "null", "NNP" 0.5902)
+  (45, 1, 2, <5:8>, 1, "Due", 0, "null", "JJ" 0.4098)
+  (48, 1, 2, <5:8>, 1, "due", 0, "null")
+  (50, 1, 2, <5:8>, 1, "due", 0, "null")
+  (31, 2, 3, <9:16>, 1, "Impasse", 0, "null")
+  (44, 2, 3, <9:16>, 1, "Impasse", 0, "null", "NNP" 1.0)
+  (47, 2, 3, <9:16>, 1, "impasse", 0, "null")
+  (51, 2, 3, <9:16>, 1, "impasse", 0, "null")
+>
+
+(ROOT_FRAG
+ (335 NP_FRG_C 1.09159 0 3
+  (334 HDN_BNP-PN_C 2.23811 0 3
+   (333 NP-HDN_NME-CPD_C 2.27741 0 3
+    (331 HDN_BNP-PN_C 2.08608 0 2
+     (330 NP-HDN_NME-CPD_C 1.73816 0 2
+      (328 HDN_BNP-PN_C 0.365523 0 1
+       (327 N_SG_ILR -0.386912 0 1
+        (55 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Past" 42
+          "token [ +CARG #1=\"Past\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58525579999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (329 ^N_SG_ILR -0.143257 1 2
+       (65 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Due" 30
+         "token [ +CARG #1=\"Due\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.59015969999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (332 ^N_SG_ILR -0.143257 2 3
+     (73 generic_proper_ne@n_-_pn-gen_le 0 2 3
+      ("Impasse" 31
+       "token [ +CARG #1=\"Impasse\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP
+ (NP (N (NP (N (NP (N (N "Past"))) (N (N "Due")))) (N (N "Impasse")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:16>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:8>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:4>
+            LBL: h20
+            ARG0: x15
+            CARG: "Past" ]
+          [ named<5:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Due" ]
+          [ named<9:16>
+            LBL: h8
+            ARG0: x4
+            CARG: "Impasse" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:16>[BV x4]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ e16:compound<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:4>[BV x15]
+ x15:named<0:4>("Past"){x PERS 3, NUM sg, IND +}[]
+ x9:named<5:8>("Due"){x PERS 3, NUM sg, IND +}[]
+ x4:named<9:16>("Impasse"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:16> ARG named<9:16>(Impasse)  
+  proper_q<0:16> BV named<9:16>(Impasse)  
+  compound<0:16> ARG1 named<9:16>(Impasse)  
+  compound<0:16> ARG2 named<5:8>(Due)  
+  proper_q<0:8> BV named<5:8>(Due)  
+  compound<0:8> ARG1 named<5:8>(Due)  
+  compound<0:8> ARG2 named<0:4>(Past)  
+  proper_q<0:4> BV named<0:4>(Past)  
+  unknown<0:16> SF prop-or-ques  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  compound<0:8> SF prop  
+  compound<0:8> TENSE untensed  
+  compound<0:8> MOOD indicative  
+  compound<0:8> PROG -  
+  compound<0:8> PERF -  
+  named<0:4>(Past) PERS 3  
+  named<0:4>(Past) NUM sg  
+  named<0:4>(Past) IND +  
+  named<5:8>(Due) PERS 3  
+  named<5:8>(Due) NUM sg  
+  named<5:8>(Due) IND +  
+  named<9:16>(Impasse) PERS 3  
+  named<9:16>(Impasse) NUM sg  
+  named<9:16>(Impasse) IND +  
+}
+

@@ -1,0 +1,135 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:33 h)).
+;;;
+
+[20367018] (1 of 1) {1} `That's my challenge.'
+
+[20367018:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.8056 "WDT" 0.1554 "IN" 0.0389)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.4171 "NNS" 0.3102 "NN" 0.1928 "JJ" 0.0534 "VB" 0.0177 "IN" 0.0089)
+  (3, 2, 3, <7:9>, 1, "my", 0, "null", "PRP$" 1.0)
+  (4, 3, 4, <10:19>, 1, "challenge", 0, "null", "NN" 1.0)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:4>, 1, "that", 0, "null")
+  (77, 0, 1, <0:4>, 1, "that", 0, "null")
+  (66, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (69, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.4171)
+  (70, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.3102)
+  (71, 1, 2, <4:6>, 1, "’s", 0, "null", "NN" 0.1928)
+  (76, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (62, 2, 3, <7:9>, 1, "my", 0, "null")
+  (74, 2, 3, <7:9>, 1, "my", 0, "null")
+  (64, 3, 4, <10:20>, 1, "challenge.", 0, "null")
+  (72, 3, 4, <10:20>, 1, "challenge.", 0, "null", "NN" 1.0)
+  (75, 3, 4, <10:20>, 1, "challenge.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (620 SB-HD_MC_C 1.6688 0 4
+  (615 HDN_BNP-QNT_C -0.199308 0 1
+   (614 HDN_OPTCMP_C -0.288082 0 1
+    (93 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 73
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80560710000000002\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (619 ^HD-CMP_U_C 0.598759 1 4
+   (119 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+    ("’s" 66
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.41707139999999998\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (618 SP-HD_N_C 0.989951 2 4
+    (371 my@d_-_poss-my_le 0.530248 2 3
+     ("my" 62
+      "token [ +CARG #1=\"my\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (617 ^W_PERIOD_PLR 0.459703 3 4
+     (616 N_MS-CNT_ILR 0.282475 3 4
+      (377 challenge_n1@n_-_mc-ns_le 0 3 4
+       ("challenge." 64
+        "token [ +CARG \"challenge\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"challenge.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "that")))
+ (VP (V "’s") (NP (DET "my") (N (N (N "challenge."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ def_explicit_q<7:9>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ poss<7:9>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<7:9>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ pron<7:9>
+            LBL: h19
+            ARG0: x14 ]
+          [ _challenge_n_1<10:20>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:def_explicit_q<7:9>[BV x9]
+ e15:poss<7:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:pronoun_q<7:9>[BV x14]
+ x14:pron<7:9>{x PERS 1, NUM sg, PT std}[]
+ x9:_challenge_n_1<10:20>{x PERS 3, NUM sg}[]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  _be_v_id<4:6> ARG1 generic_entity<0:4>  
+  _be_v_id<4:6> ARG2 _challenge_n_1<10:20>  
+  def_explicit_q<7:9> BV _challenge_n_1<10:20>  
+  poss<7:9> ARG1 _challenge_n_1<10:20>  
+  poss<7:9> ARG2 pron<7:9>  
+  pronoun_q<7:9> BV pron<7:9>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  poss<7:9> SF prop  
+  poss<7:9> TENSE untensed  
+  poss<7:9> MOOD indicative  
+  poss<7:9> PROG -  
+  poss<7:9> PERF -  
+  pron<7:9> PERS 1  
+  pron<7:9> NUM sg  
+  pron<7:9> PT std  
+  _challenge_n_1<10:20> PERS 3  
+  _challenge_n_1<10:20> NUM sg  
+}
+

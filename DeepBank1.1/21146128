@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146128] (1 of 1) {1} `He packs pork.'
+
+[21146128:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:8>, 1, "packs", 0, "null", "VBZ" 0.9617 "NNS" 0.0383)
+  (3, 2, 3, <9:13>, 1, "pork", 0, "null", "NN" 1.0)
+  (4, 3, 4, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (48, 0, 1, <0:2>, 1, "he", 0, "null")
+  (51, 0, 1, <0:2>, 1, "he", 0, "null")
+  (44, 1, 2, <3:8>, 1, "packs", 0, "null")
+  (46, 1, 2, <3:8>, 1, "packs", 0, "null", "VBZ" 0.9617)
+  (50, 1, 2, <3:8>, 1, "packs", 0, "null")
+  (43, 2, 3, <9:14>, 1, "pork.", 0, "null")
+  (47, 2, 3, <9:14>, 1, "pork.", 0, "null", "NN" 1.0)
+  (49, 2, 3, <9:14>, 1, "pork.", 0, "null")
+>
+
+(ROOT_STRICT
+ (217 SB-HD_MC_C 3.06807 0 3
+  (211 HDN_BNP-QNT_C 1.50958 0 1
+   (52 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 48
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (216 ^HD-CMP_U_C 0.289142 1 3
+   (212 ^V_3S-FIN_OLR 0.391518 1 2
+    (77 pack_v1@v_np*_le 0 1 2
+     ("packs" 44
+      "token [ +CARG #1=\"packs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96165560000000005\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (215 HDN_BNP_C -0.708843 2 3
+    (214 W_PERIOD_PLR 0.552406 2 3
+     (213 N_MS_ILR -0.150183 2 3
+      (96 pork_n1@n_-_m_le 0 2 3
+       ("pork." 43
+        "token [ +CARG \"pork\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pork.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "he")) (VP (V (V "packs")) (NP (N (N (N "pork."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _pack_v_1<3:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<9:14>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _pork_n_1<9:14>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_pack_v_1<3:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<9:14>[BV x9]
+ x9:_pork_n_1<9:14>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _pack_v_1<3:8> ARG1 pron<0:2>  
+  _pack_v_1<3:8> ARG2 _pork_n_1<9:14>  
+  udef_q<9:14> BV _pork_n_1<9:14>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _pack_v_1<3:8> SF prop  
+  _pack_v_1<3:8> TENSE pres  
+  _pack_v_1<3:8> MOOD indicative  
+  _pack_v_1<3:8> PROG -  
+  _pack_v_1<3:8> PERF -  
+  _pork_n_1<9:14> PERS 3  
+  _pork_n_1<9:14> NUM sg  
+  _pork_n_1<9:14> GEND n  
+  _pork_n_1<9:14> IND -  
+}
+

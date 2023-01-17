@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:35 h)).
+;;;
+
+[21368041] (1 of 1) {1} `"It's truly entrepreneurial.'
+
+[21368041:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:5>, 1, "’s", 0, "null", "VBZ" 0.9768 "VBP" 0.0232)
+  (4, 3, 4, <6:11>, 1, "truly", 0, "null", "RB" 1.0)
+  (5, 4, 5, <12:27>, 1, "entrepreneurial", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (74, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (65, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (67, 1, 2, <3:5>, 1, "’s", 0, "null", "VBZ" 0.9768)
+  (73, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (60, 2, 3, <6:11>, 1, "truly", 0, "null")
+  (68, 2, 3, <6:11>, 1, "truly", 0, "null", "RB" 1.0)
+  (71, 2, 3, <6:11>, 1, "truly", 0, "null")
+  (64, 3, 4, <12:28>, 1, "entrepreneurial.", 0, "null")
+  (69, 3, 4, <12:28>, 1, "entrepreneurial.", 0, "null", "JJ" 1.0)
+  (72, 3, 4, <12:28>, 1, "entrepreneurial.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (511 SB-HD_MC_C 2.21429 0 4
+  (507 HDN_BNP-QNT_C -0.56328 0 1
+   (506 W_DQLEFT_PLR 0.072519 0 1
+    (76 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 70
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (510 ^HD-CMP_U_C 1.50822 1 4
+   (101 be_c_is_cx_3@v_prd_is-cx_le -1.11458 1 2
+    ("’s" 65
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97676240000000003\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (509 AJ-HD_INT_C 0.78504 2 4
+    (252 truly@av_-_i-vp_le 0 2 3
+     ("truly" 60
+      "token [ +CARG #1=\"truly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (508 ^W_PERIOD_PLR 0 3 4
+     (258 generic_adj@aj_-_i-unk_le 0 3 4
+      ("entrepreneurial." 69
+       "token [ +CARG \"entrepreneurial\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"entrepreneurial.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED \"_entrepreneurial/JJ_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"JJ\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(S (NP (NP (NP "“it")))
+ (VP (V "’s") (AP (ADV "truly") (AP (AP "entrepreneurial.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _true_a_of<6:11>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _entrepreneurial/jj_u_unknown<12:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e9:_true_a_of<6:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_entrepreneurial/jj_u_unknown<12:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _true_a_of<6:11> ARG1 _entrepreneurial/jj_u_unknown<12:28>  
+  _entrepreneurial/jj_u_unknown<12:28> ARG1 pron<0:3>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _true_a_of<6:11> SF prop  
+  _true_a_of<6:11> TENSE untensed  
+  _true_a_of<6:11> MOOD indicative  
+  _true_a_of<6:11> PROG -  
+  _true_a_of<6:11> PERF -  
+  _entrepreneurial/jj_u_unknown<12:28> SF prop  
+  _entrepreneurial/jj_u_unknown<12:28> TENSE pres  
+  _entrepreneurial/jj_u_unknown<12:28> MOOD indicative  
+  _entrepreneurial/jj_u_unknown<12:28> PROG -  
+  _entrepreneurial/jj_u_unknown<12:28> PERF -  
+}
+

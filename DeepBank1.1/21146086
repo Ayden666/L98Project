@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146086] (1 of 1) {1} `Good for nothing.'
+
+[21146086:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Good", 0, "null", "JJ" 0.828 "NNP" 0.172)
+  (2, 1, 2, <5:8>, 1, "for", 0, "null", "IN" 1.0)
+  (3, 2, 3, <9:16>, 1, "nothing", 0, "null", "NN" 1.0)
+  (4, 3, 4, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:4>, 1, "Good", 0, "null")
+  (47, 0, 1, <0:4>, 1, "Good", 0, "null", "JJ" 0.828)
+  (49, 0, 1, <0:4>, 1, "good", 0, "null")
+  (52, 0, 1, <0:4>, 1, "good", 0, "null")
+  (41, 1, 2, <5:8>, 1, "for", 0, "null")
+  (50, 1, 2, <5:8>, 1, "for", 0, "null")
+  (43, 2, 3, <9:17>, 1, "nothing.", 0, "null")
+  (48, 2, 3, <9:17>, 1, "nothing.", 0, "null", "NN" 1.0)
+  (51, 2, 3, <9:17>, 1, "nothing.", 0, "null")
+>
+
+(ROOT_FRAG
+ (275 J_FRG_C 0.277276 0 3
+  (274 HD-AJ_INT-UNSL_C 0.475483 0 3
+   (269 ^HD_OPTCMP_C 0.430726 0 1
+    (58 good_a2@aj_pp_i-er_le 0.269758 0 1
+     ("good" 49
+      "token [ +CARG \"Good\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"good\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82800810000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (273 HD-CMP_U_C -1.07225 1 3
+    (75 for@p_np_i_le -0.354773 1 2
+     ("for" 41
+      "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (272 HDN_BNP-QNT_C -0.911756 2 3
+     (271 HDN_OPTCMP_C 0.251038 2 3
+      (270 W_PERIOD_PLR 0 2 3
+       (91 nothing@n_-_pr_le 0 2 3
+        ("nothing." 43
+         "token [ +CARG \"nothing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"nothing.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (AP (AP (ADJ "good")) (PP (P "for") (NP (N (N (N "nothing.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: p4 ]
+          [ _good_a_at-for-of<0:4>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: p4
+            ARG2: i6 ]
+          [ _for_p<5:8>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e5
+            ARG2: x8 [ x PERS: 3 NUM: SG ] ]
+          [ thing<9:17>
+            LBL: h9
+            ARG0: x8 ]
+          [ _no_q<9:17>
+            LBL: h10
+            ARG0: x8
+            RSTR: h11
+            BODY: h12 ] >
+   HCONS: < h11 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_good_a_at-for-of<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_for_p<5:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5, ARG2 x8]
+ x8:thing<9:17>{x PERS 3, NUM sg}[]
+ _1:_no_q<9:17>[BV x8]
+}
+
+{
+  _for_p<5:8> ARG1 _good_a_at-for-of<0:4>  
+  _for_p<5:8> ARG2 thing<9:17>  
+  _no_q<9:17> BV thing<9:17>  
+  unknown<0:17> SF prop  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  _good_a_at-for-of<0:4> SF prop  
+  _good_a_at-for-of<0:4> TENSE untensed  
+  _good_a_at-for-of<0:4> MOOD indicative  
+  _good_a_at-for-of<0:4> PROG -  
+  _good_a_at-for-of<0:4> PERF -  
+  _for_p<5:8> SF prop  
+  _for_p<5:8> TENSE untensed  
+  _for_p<5:8> MOOD indicative  
+  _for_p<5:8> PROG -  
+  _for_p<5:8> PERF -  
+  thing<9:17> PERS 3  
+  thing<9:17> NUM sg  
+}
+

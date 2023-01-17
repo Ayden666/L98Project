@@ -1,0 +1,95 @@
+;;;
+;;; Redwoods export of `wsj21a';
+;;; (wsun@wsun; 23-jan-2018 (06:02 h)).
+;;;
+
+[22111024] (1 of 1) {1} `Both were right.'
+
+[22111024:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Both", 0, "null", "DT" 0.92 "CC" 0.08)
+  (2, 1, 2, <5:9>, 1, "were", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <10:15>, 1, "right", 0, "null", "RB" 0.5855 "JJ" 0.2768 "NN" 0.1376)
+  (4, 3, 4, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:4>, 1, "both", 0, "null")
+  (57, 0, 1, <0:4>, 1, "both", 0, "null")
+  (45, 1, 2, <5:9>, 1, "were", 0, "null")
+  (52, 1, 2, <5:9>, 1, "were", 0, "null", "VBD" 1.0)
+  (55, 1, 2, <5:9>, 1, "were", 0, "null")
+  (48, 2, 3, <10:16>, 1, "right.", 0, "null")
+  (50, 2, 3, <10:16>, 1, "right.", 0, "null", "RB" 0.5855)
+  (51, 2, 3, <10:16>, 1, "right.", 0, "null", "JJ" 0.2768)
+  (53, 2, 3, <10:16>, 1, "right.", 0, "null", "NN" 0.1376)
+  (56, 2, 3, <10:16>, 1, "right.", 0, "null")
+>
+
+(ROOT_STRICT
+ (899 SB-HD_MC_C 3.3806 0 3
+  (896 HDN_BNP-QNT_C -0.175635 0 1
+   (895 DET_PRT-NOCMP_DLR -0.45042 0 1
+    (58 both@d_-_prt-pl-both_le -0.356122 0 1
+     ("both" 54
+      "token [ +CARG \"Both\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"both\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92001100000000002\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (898 ^HD-CMP_U_C 2.28689 1 3
+   (66 be_c_were@v_prd_wre_le 0.002299 1 2
+    ("were" 45
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (897 W_PERIOD_PLR 0.612486 2 3
+    (90 right_a1@aj_-_i_le 0 2 3
+     ("right." 48
+      "token [ +CARG \"right\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"right.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58554269999999997\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (DET "both"))) (VP (V "were") (AP (AP "right."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _both_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ card<0:4>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            CARG: "2" ]
+          [ generic_entity<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ _right_a_1<10:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_both_q<0:4>[BV x6]
+ e9:card<0:4>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ e3:_right_a_1<10:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _both_q<0:4> BV generic_entity<0:4>  
+  card<0:4>(2) ARG1 generic_entity<0:4>  
+  _right_a_1<10:16> ARG1 generic_entity<0:4>  
+  card<0:4>(2) SF prop  
+  card<0:4>(2) TENSE untensed  
+  card<0:4>(2) MOOD indicative  
+  card<0:4>(2) PROG -  
+  card<0:4>(2) PERF -  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  _right_a_1<10:16> SF prop  
+  _right_a_1<10:16> TENSE past  
+  _right_a_1<10:16> MOOD indicative  
+  _right_a_1<10:16> PROG -  
+  _right_a_1<10:16> PERF -  
+}
+

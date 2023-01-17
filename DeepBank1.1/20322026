@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj03a';
+;;; (wsun@wsun; 22-jan-2018 (13:08 h)).
+;;;
+
+[20322026] (1 of 1) {1} `Bond prices rose.'
+
+[20322026:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Bond", 0, "null", "NNP" 0.6318 "NN" 0.3682)
+  (2, 1, 2, <5:11>, 1, "prices", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <12:16>, 1, "rose", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:4>, 1, "Bond", 0, "null")
+  (49, 0, 1, <0:4>, 1, "bond", 0, "null")
+  (52, 0, 1, <0:4>, 1, "bond", 0, "null")
+  (41, 1, 2, <5:11>, 1, "prices", 0, "null")
+  (47, 1, 2, <5:11>, 1, "prices", 0, "null", "NNS" 1.0)
+  (50, 1, 2, <5:11>, 1, "prices", 0, "null")
+  (43, 2, 3, <12:17>, 1, "rose.", 0, "null")
+  (48, 2, 3, <12:17>, 1, "rose.", 0, "null", "VBD" 1.0)
+  (51, 2, 3, <12:17>, 1, "rose.", 0, "null")
+>
+
+(ROOT_STRICT
+ (320 SB-HD_MC_C 4.51856 0 3
+  (316 HDN_BNP_C 2.76586 0 2
+   (315 N-HDN_CPD_C 2.14511 0 2
+    (54 bond_n2@n_-_c_le 0.946834 0 1
+     ("bond" 49
+      "token [ +CARG \"Bond\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"bond\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.63181069999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (314 ^N_PL_OLR 1.04317 1 2
+     (56 price_n1@n_-_mc-ed_le 0.382246 1 2
+      ("prices" 41
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (319 ^HD_OPTCMP_C 1.77316 2 3
+   (318 W_PERIOD_PLR 1.46917 2 3
+    (317 V_PST_OLR 0.778807 2 3
+     (73 rise_v2@v_pp_unacc_le 0 2 3
+      ("rose." 43
+       "token [ +CARG \"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rose.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "bond") (N (N "prices")))) (VP (V (V (V "rose.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _bond_n_1<0:4>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<5:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _rise_v_1<12:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:4>[BV x9]
+ x9:_bond_n_1<0:4>{x IND +}[]
+ x6:_price_n_of<5:11>{x PERS 3, NUM pl}[]
+ e3:_rise_v_1<12:17>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:11> BV _price_n_of<5:11>  
+  compound<0:11> ARG1 _price_n_of<5:11>  
+  compound<0:11> ARG2 _bond_n_1<0:4>  
+  udef_q<0:4> BV _bond_n_1<0:4>  
+  _rise_v_1<12:17> ARG1 _price_n_of<5:11>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _bond_n_1<0:4> IND +  
+  _price_n_of<5:11> PERS 3  
+  _price_n_of<5:11> NUM pl  
+  _rise_v_1<12:17> SF prop  
+  _rise_v_1<12:17> TENSE past  
+  _rise_v_1<12:17> MOOD indicative  
+  _rise_v_1<12:17> PROG -  
+  _rise_v_1<12:17> PERF -  
+}
+

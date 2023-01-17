@@ -1,0 +1,86 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:02 h)).
+;;;
+
+[22017029] (1 of 1) {1} `White Females'
+
+[22017029:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "White", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:13>, 1, "Females", 0, "null", "NNPS" 1.0)
+>
+
+<
+  (25, 0, 1, <0:5>, 1, "White", 0, "null")
+  (28, 0, 1, <0:5>, 1, "white", 0, "null")
+  (30, 0, 1, <0:5>, 1, "white", 0, "null")
+  (20, 1, 2, <6:13>, 1, "Females", 0, "null")
+  (26, 1, 2, <6:13>, 1, "Females", 0, "null", "NNPS" 1.0)
+  (27, 1, 2, <6:13>, 1, "females", 0, "null")
+  (29, 1, 2, <6:13>, 1, "females", 0, "null")
+>
+
+(ROOT_FRAG
+ (187 NP_FRG_C 2.36959 0 2
+  (186 HDN_BNP_C 2.574 0 2
+   (185 AJ-HDN_NORM_C 2.70936 0 2
+    (33 white_a1@aj_-_i-color-er_le 0.855886 0 1
+     ("white" 28
+      "token [ +CARG \"White\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"white\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (184 ^N_PL_OLR 0.824737 1 2
+     (47 female_n1@n_-_c-nocnh_le 0 1 2
+      ("females" 27
+       "token [ +CARG \"Females\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"females\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (AP "white") (N (N "females")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:13>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _white_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _female_n_1<6:13>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:13>[BV x4]
+ e9:_white_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_female_n_1<6:13>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:13> ARG _female_n_1<6:13>  
+  udef_q<0:13> BV _female_n_1<6:13>  
+  _white_a_1<0:5> ARG1 _female_n_1<6:13>  
+  unknown<0:13> SF prop-or-ques  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  _white_a_1<0:5> SF prop  
+  _white_a_1<0:5> TENSE untensed  
+  _white_a_1<0:5> MOOD indicative  
+  _white_a_1<0:5> PROG -  
+  _white_a_1<0:5> PERF -  
+  _female_n_1<6:13> PERS 3  
+  _female_n_1<6:13> NUM pl  
+  _female_n_1<6:13> IND +  
+}
+

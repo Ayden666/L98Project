@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:12 h)).
+;;;
+
+[20742025] (1 of 1) {1} `"It isn't investing."'
+
+[20742025:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:6>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <6:9>, 1, "n’t", 0, "null", "JJ" 0.702 "NN" 0.1406 "RB" 0.0819 "VBN" 0.0394 "VB" 0.0218 "JJS" 0.0144)
+  (5, 4, 5, <10:19>, 1, "investing", 0, "null", "NN" 0.7221 "VBG" 0.2688 "JJ" 0.0091)
+  (6, 5, 6, <19:20>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <20:21>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (75, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (78, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (68, 1, 2, <4:9>, 1, "isn’t", 0, "null")
+  (74, 1, 2, <4:9>, 1, "isn’t", 0, "null", "VBZ" 1.0)
+  (76, 1, 2, <4:9>, 1, "isn’t", 0, "null")
+  (71, 2, 3, <10:21>, 1, "investing.”", 0, "null")
+  (73, 2, 3, <10:21>, 1, "investing.”", 0, "null", "VBG" 0.2688)
+  (77, 2, 3, <10:21>, 1, "investing.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (480 SB-HD_MC_C 1.61514 0 3
+  (467 HDN_BNP-QNT_C -0.56328 0 1
+   (466 W_DQLEFT_PLR 0.072519 0 1
+    (80 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 75
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (479 ^HD-CMP_U_C 0.909066 1 3
+   (97 be_id_is_neg_3_u@v_np_is-n_le 0.540592 1 2
+    ("isn’t" 68
+     "token [ +CARG #1=\"isn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (478 HDN_BNP_C 0.317685 2 3
+    (477 HDN_OPTCMP_C 0.98525 2 3
+     (476 W_DQRIGHT_PLR 1.42558 2 3
+      (475 W_PERIOD_PLR -0.800832 2 3
+       (474 V_NGER-TR_DLR -0.759839 2 3
+        (468 V_PRP_OLR -0.746025 2 3
+         (104 invest_v3@v_np*_le 0 2 3
+          ("investing.”" 71
+           "token [ +CARG \"investing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"investing.”\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7221495\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (NP (NP "“it")))
+ (VP (V "isn’t") (NP (N (N (N (N (V (V "investing.”")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:9>
+            LBL: h9
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ neg<4:9>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h11 ]
+          [ udef_q<10:21>
+            LBL: h13
+            ARG0: x10
+            RSTR: h14
+            BODY: h15 ]
+          [ _invest_v_1<10:21>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i19
+            ARG2: p18 ]
+          [ nominalization<10:21>
+            LBL: h20
+            ARG0: x10
+            ARG1: h16 ] >
+   HCONS: < h14 QEQ h20 h11 QEQ h9 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e12:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_be_v_id<4:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ e12:neg<4:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _2:udef_q<10:21>[BV x10]
+ e17:_invest_v_1<10:21>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x10:nominalization<10:21>{x PERS 3, NUM sg, GEND n}[ARG1 e17]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _be_v_id<4:9> ARG1 pron<0:3>  
+  _be_v_id<4:9> ARG2 nominalization<10:21>  
+  neg<4:9> ARG1 _be_v_id<4:9>  
+  udef_q<10:21> BV nominalization<10:21>  
+  nominalization<10:21> ARG1 _invest_v_1<10:21>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _be_v_id<4:9> SF prop  
+  _be_v_id<4:9> TENSE pres  
+  _be_v_id<4:9> MOOD indicative  
+  _be_v_id<4:9> PROG -  
+  _be_v_id<4:9> PERF -  
+  neg<4:9> SF prop  
+  neg<4:9> TENSE untensed  
+  neg<4:9> MOOD indicative  
+  neg<4:9> PROG -  
+  neg<4:9> PERF -  
+  _invest_v_1<10:21> SF prop  
+  _invest_v_1<10:21> TENSE untensed  
+  _invest_v_1<10:21> MOOD indicative  
+  _invest_v_1<10:21> PROG +  
+  _invest_v_1<10:21> PERF -  
+  nominalization<10:21> PERS 3  
+  nominalization<10:21> NUM sg  
+  nominalization<10:21> GEND n  
+}
+

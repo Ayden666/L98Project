@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:52 h)).
+;;;
+
+[21600055] (1 of 1) {1} `TILT FUNDS:'
+
+[21600055:3] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "TILT", 0, "null", "NN" 1.0)
+  (2, 1, 2, <5:10>, 1, "FUNDS", 0, "null", "NNS" 0.9595 "NNPS" 0.0268 "NNP" 0.0137)
+  (3, 2, 3, <10:11>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:4>, 1, "TILT", 0, "null")
+  (43, 0, 1, <0:4>, 1, "TILT", 0, "null", "NN" 1.0)
+  (44, 0, 1, <0:4>, 1, "tilt", 0, "null")
+  (47, 0, 1, <0:4>, 1, "tilt", 0, "null")
+  (30, 1, 2, <5:10>, 1, "FUNDS", 0, "null")
+  (42, 1, 2, <5:10>, 1, "FUNDS", 0, "null", "NNS" 0.9595)
+  (45, 1, 2, <5:10>, 1, "funds", 0, "null")
+  (46, 1, 2, <5:10>, 1, "funds", 0, "null")
+  (39, 2, 3, <10:11>, 1, ":", 0, "null")
+  (48, 2, 3, <10:11>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (361 NP_FRG_C 0.351807 0 3
+  (360 HDN_BNP_C 0.556221 0 3
+   (359 HDN-AJ_REDREL_C 0.651617 0 3
+    (358 ^NP-HDN_CPD_C 0.050296 0 2
+     (357 HDN_BNP-PN_C -0.366383 0 1
+      (51 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("TILT" 31
+        "token [ +CARG #1=\"TILT\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (345 ^N_PL_OLR 2.09876 1 2
+      (58 fund_n1@n_-_c_le 1.76475 1 2
+       ("funds" 45
+        "token [ +CARG \"FUNDS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"funds\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95950559999999996\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (76 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+     (":" 39
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (NP (N "TILT")) (N (N "funds"))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:11>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "TILT" ]
+          [ _fund_n_1<5:10>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<10:11>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:11>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:11>[BV x4]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("TILT"){x IND +}[]
+ x4:_fund_n_1<5:10>{x PERS 3, NUM pl, IND +}[]
+ e15:_colon_p_namely<10:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:11> ARG _fund_n_1<5:10>  
+  udef_q<0:11> BV _fund_n_1<5:10>  
+  compound<0:10> ARG1 _fund_n_1<5:10>  
+  compound<0:10> ARG2 named<0:4>(TILT)  
+  proper_q<0:4> BV named<0:4>(TILT)  
+  _colon_p_namely<10:11> ARG1 _fund_n_1<5:10>  
+  unknown<0:11> SF prop-or-ques  
+  unknown<0:11> TENSE untensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:4>(TILT) IND +  
+  _fund_n_1<5:10> PERS 3  
+  _fund_n_1<5:10> NUM pl  
+  _fund_n_1<5:10> IND +  
+  _colon_p_namely<10:11> SF prop  
+  _colon_p_namely<10:11> TENSE untensed  
+  _colon_p_namely<10:11> MOOD indicative  
+  _colon_p_namely<10:11> PROG -  
+  _colon_p_namely<10:11> PERF -  
+}
+

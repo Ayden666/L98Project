@@ -1,0 +1,134 @@
+;;;
+;;; Redwoods export of `wsj20d';
+;;; (wsun@wsun; 23-jan-2018 (05:49 h)).
+;;;
+
+[22086042] (1 of 1) {1} `Business: Luxury cars'
+
+[22086042:4] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Business", 0, "null", "NNP" 0.7794 "NN" 0.2206)
+  (2, 1, 2, <8:9>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <10:16>, 1, "Luxury", 0, "null", "NN" 1.0)
+  (4, 3, 4, <17:21>, 1, "cars", 0, "null", "NNS" 1.0)
+>
+
+<
+  (49, 0, 1, <0:8>, 1, "Business", 0, "null")
+  (53, 0, 1, <0:8>, 1, "business", 0, "null")
+  (57, 0, 1, <0:8>, 1, "business", 0, "null")
+  (46, 1, 2, <8:9>, 1, ":", 0, "null")
+  (56, 1, 2, <8:9>, 1, ":", 0, "null")
+  (38, 2, 3, <10:16>, 1, "Luxury", 0, "null")
+  (50, 2, 3, <10:16>, 1, "Luxury", 0, "null", "NN" 1.0)
+  (52, 2, 3, <10:16>, 1, "luxury", 0, "null")
+  (54, 2, 3, <10:16>, 1, "luxury", 0, "null")
+  (44, 3, 4, <17:21>, 1, "cars", 0, "null")
+  (51, 3, 4, <17:21>, 1, "cars", 0, "null", "NNS" 1.0)
+  (55, 3, 4, <17:21>, 1, "cars", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (417 SB-HD_MC_C -0.0637491 0 4
+  (416 HDN_BNP-PN_C -1.36729 0 1
+   (415 N_SG_ILR -1.31834 0 1
+    (59 generic_proper_ne@n_-_pn-gen_le -0.338788 0 1
+     ("Business" 49
+      "token [ +CARG #1=\"Business\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77942619999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (404 ^HD-CMP_U_C 0.28649 1 4
+   (65 colon_copula_v@v_np_colon_le 0.879077 1 2
+    (":" 46
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (403 HDN_BNP_C -0.401732 2 4
+    (402 N-HDN_CPD_C 0.0073764 2 4
+     (100 luxury_n@n_-_c_le 0 2 3
+      ("luxury" 52
+       "token [ +CARG \"Luxury\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"luxury\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (401 ^N_PL_OLR 0.334017 3 4
+      (101 car_n1@n_-_c_le 0 3 4
+       ("cars" 44
+        "token [ +CARG #1=\"cars\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "Business")))
+ (VP (V ":") (NP (N (N "luxury") (N (N "cars"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Business" ]
+          [ _colon_v_id<8:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<10:21>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<10:21>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x IND: + ] ]
+          [ udef_q<10:16>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ _luxury_n_1<10:16>
+            LBL: h19
+            ARG0: x14 ]
+          [ _car_n_1<17:21>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:8>[BV x6]
+ x6:named<0:8>("Business"){x PERS 3, NUM sg, IND +}[]
+ e3:_colon_v_id<8:9>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<10:21>[BV x9]
+ e15:compound<10:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:udef_q<10:16>[BV x14]
+ x14:_luxury_n_1<10:16>{x IND +}[]
+ x9:_car_n_1<17:21>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:8> BV named<0:8>(Business)  
+  _colon_v_id<8:9> ARG1 named<0:8>(Business)  
+  _colon_v_id<8:9> ARG2 _car_n_1<17:21>  
+  udef_q<10:21> BV _car_n_1<17:21>  
+  compound<10:21> ARG1 _car_n_1<17:21>  
+  compound<10:21> ARG2 _luxury_n_1<10:16>  
+  udef_q<10:16> BV _luxury_n_1<10:16>  
+  named<0:8>(Business) PERS 3  
+  named<0:8>(Business) NUM sg  
+  named<0:8>(Business) IND +  
+  _colon_v_id<8:9> SF prop  
+  _colon_v_id<8:9> TENSE tensed  
+  _colon_v_id<8:9> MOOD indicative  
+  _colon_v_id<8:9> PROG -  
+  _colon_v_id<8:9> PERF -  
+  compound<10:21> SF prop  
+  compound<10:21> TENSE untensed  
+  compound<10:21> MOOD indicative  
+  compound<10:21> PROG -  
+  compound<10:21> PERF -  
+  _luxury_n_1<10:16> IND +  
+  _car_n_1<17:21> PERS 3  
+  _car_n_1<17:21> NUM pl  
+  _car_n_1<17:21> IND +  
+}
+

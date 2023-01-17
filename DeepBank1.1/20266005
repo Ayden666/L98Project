@@ -1,0 +1,67 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:27 h)).
+;;;
+
+[20266005] (1 of 1) {1} `President'
+
+[20266005:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "President", 0, "null", "NNP" 0.9844 "NN" 0.0156)
+>
+
+<
+  (14, 0, 1, <0:9>, 1, "President", 0, "null")
+  (15, 0, 1, <0:9>, 1, "president", 0, "null")
+  (16, 0, 1, <0:9>, 1, "president", 0, "null")
+>
+
+(ROOT_FRAG
+ (37 NP_NB-FRG_C 1.33848 0 1
+  (36 HDN_OPTCMP_C 1.33848 0 1
+   (35 N_SG_ILR 1.68788 0 1
+    (19 president_n1@n_pp_c-of_le 0.825475 0 1
+     ("president" 15
+      "token [ +CARG \"President\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"president\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98438829999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (N (N (N "president"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _president_n_of<0:9>
+            LBL: h8
+            ARG0: x4
+            ARG1: i9 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:9>[BV x4]
+ x4:_president_n_of<0:9>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:9> ARG _president_n_of<0:9>  
+  udef_q<0:9> BV _president_n_of<0:9>  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  _president_n_of<0:9> PERS 3  
+  _president_n_of<0:9> NUM sg  
+  _president_n_of<0:9> IND +  
+}
+

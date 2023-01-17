@@ -1,0 +1,111 @@
+;;;
+;;; Redwoods export of `wsj14d';
+;;; (wsun@wsun; 22-jan-2018 (23:37 h)).
+;;;
+
+[21473003] (1 of 1) {1} `What now?'
+
+[21473003:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "What", 0, "null", "WP" 0.9868 "WDT" 0.0132)
+  (2, 1, 2, <5:8>, 1, "now", 0, "null", "RB" 1.0)
+  (3, 2, 3, <8:9>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (36, 0, 1, <0:4>, 1, "what", 0, "null")
+  (38, 0, 1, <0:4>, 1, "what", 0, "null")
+  (32, 1, 2, <5:9>, 1, "now?", 0, "null")
+  (35, 1, 2, <5:9>, 1, "now?", 0, "null", "RB" 1.0)
+  (37, 1, 2, <5:9>, 1, "now?", 0, "null")
+>
+
+(ROOT_FRAG
+ (156 NP_FRG_C -2.1148 0 2
+  (155 HDN_BNP-QNT_C -1.00198 0 2
+   (154 HDN-AJ_REDREL_C -0.344475 0 2
+    (150 ^HDN_OPTCMP_C 0.230852 0 1
+     (44 what1@n_-_pr-wh_le 0.314303 0 1
+      ("what" 36
+       "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"what\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98681799999999997\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (153 NP_ADV_C -0.263094 1 2
+     (152 HDN_BNP-QNT_C 0 1 2
+      (151 W_QMARK_PLR 0 1 2
+       (57 now_adv@n_-_ad-time_le 0 1 2
+        ("now?" 32
+         "token [ +CARG \"now\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"now?\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (NP (N (N (N "what")) (PP (NP (N (N "now?")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 ]
+          [ thing<0:4>
+            LBL: h5
+            ARG0: x4 ]
+          [ which_q<0:4>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ loc_nonsp<5:9>
+            LBL: h9
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x11 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<5:9>
+            LBL: h12
+            ARG0: x11 ]
+          [ def_implicit_q<5:9>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _now_a_1<5:9>
+            LBL: h12
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11 ] >
+   HCONS: < h14 QEQ h12 h7 QEQ h5 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ x4:thing<0:4>{x}[]
+ _1:which_q<0:4>[BV x4]
+ e10:loc_nonsp<5:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x11]
+ x11:time_n<5:9>{x PERS 3, NUM sg}[]
+ _2:def_implicit_q<5:9>[BV x11]
+ e16:_now_a_1<5:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+}
+
+{
+  unknown<0:9> ARG thing<0:4>  
+  which_q<0:4> BV thing<0:4>  
+  loc_nonsp<5:9> ARG1 thing<0:4>  
+  loc_nonsp<5:9> ARG2 time_n<5:9>  
+  def_implicit_q<5:9> BV time_n<5:9>  
+  _now_a_1<5:9> ARG1 time_n<5:9>  
+  unknown<0:9> SF ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  loc_nonsp<5:9> SF prop  
+  loc_nonsp<5:9> TENSE untensed  
+  loc_nonsp<5:9> MOOD indicative  
+  loc_nonsp<5:9> PROG -  
+  loc_nonsp<5:9> PERF -  
+  time_n<5:9> PERS 3  
+  time_n<5:9> NUM sg  
+  _now_a_1<5:9> SF prop  
+  _now_a_1<5:9> TENSE untensed  
+  _now_a_1<5:9> MOOD indicative  
+  _now_a_1<5:9> PROG -  
+  _now_a_1<5:9> PERF -  
+}
+

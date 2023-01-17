@@ -1,0 +1,165 @@
+;;;
+;;; Redwoods export of `wsj10d';
+;;; (wsun@wsun; 22-jan-2018 (19:54 h)).
+;;;
+
+[21086004] (1 of 1) {1} `Conspicuous by its absence is California.'
+
+[21086004:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Conspicuous", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <12:14>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <15:18>, 1, "its", 0, "null", "PRP$" 1.0)
+  (4, 3, 4, <19:26>, 1, "absence", 0, "null", "NN" 1.0)
+  (5, 4, 5, <27:29>, 1, "is", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <30:40>, 1, "California", 0, "null", "NNP" 0.9772 "JJ" 0.0228)
+  (7, 6, 7, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:11>, 1, "Conspicuous", 0, "null", "JJ" 1.0)
+  (86, 0, 1, <0:11>, 1, "conspicuous", 0, "null")
+  (94, 0, 1, <0:11>, 1, "conspicuous", 0, "null")
+  (73, 1, 2, <12:14>, 1, "by", 0, "null")
+  (89, 1, 2, <12:14>, 1, "by", 0, "null")
+  (75, 2, 3, <15:18>, 1, "its", 0, "null")
+  (90, 2, 3, <15:18>, 1, "its", 0, "null")
+  (77, 3, 4, <19:26>, 1, "absence", 0, "null")
+  (84, 3, 4, <19:26>, 1, "absence", 0, "null", "NN" 1.0)
+  (91, 3, 4, <19:26>, 1, "absence", 0, "null")
+  (79, 4, 5, <27:29>, 1, "is", 0, "null")
+  (85, 4, 5, <27:29>, 1, "is", 0, "null", "VBZ" 1.0)
+  (92, 4, 5, <27:29>, 1, "is", 0, "null")
+  (67, 5, 6, <30:41>, 1, "California.", 0, "null")
+  (82, 5, 6, <30:41>, 1, "California.", 0, "null", "NNP" 0.9772)
+  (87, 5, 6, <30:41>, 1, "california.", 0, "null")
+  (88, 5, 6, <30:41>, 1, "california.", 0, "null")
+>
+
+(ROOT_STRICT
+ (715 SB-HD_MC_C 0.627058 0 6
+  (710 HD-AJ_INT-UNSL_C 0.911827 0 4
+   (102 conspicuous_a1@aj_-_i_le 0 0 1
+    ("conspicuous" 86
+     "token [ +CARG \"Conspicuous\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"conspicuous\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (709 HD-CMP_U_C -0.217523 1 4
+    (110 by_p@p_np_i-dgsp_le -0.145823 1 2
+     ("by" 73
+      "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (708 SP-HD_N_C 0.271899 2 4
+     (151 its_poss@d_-_poss-its_le 0.582112 2 3
+      ("its" 75
+       "token [ +CARG #1=\"its\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (707 ^N_MS-CNT_ILR -0.238866 3 4
+      (170 absence_n1@n_-_mc_le 0 3 4
+       ("absence" 77
+        "token [ +CARG #1=\"absence\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (714 ^HD-CMP_U_C -0.666205 4 6
+   (214 be_inv_is@v_np_locinv-is_le 0.0441834 4 5
+    ("is" 79
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (713 HDN_BNP-PN_C -0.752577 5 6
+    (712 W_PERIOD_PLR -0.39127 5 6
+     (711 N_SG_ILR -0.824189 5 6
+      (303 california_n1@n_-_pn_le 0 5 6
+       ("california." 87
+        "token [ +CARG \"California\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"california.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97717710000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (AP (AP "conspicuous")
+  (PP (P "by") (NP (DET "its") (N (N "absence")))))
+ (VP (V "is") (NP (N (N (N "california."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _conspicuous_a_1<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _by_p<12:14>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG ] ]
+          [ def_explicit_q<15:18>
+            LBL: h7
+            ARG0: x6
+            RSTR: h9
+            BODY: h8 ]
+          [ poss<15:18>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x11 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<15:18>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ pron<15:18>
+            LBL: h16
+            ARG0: x11 ]
+          [ _absence_n_1<19:26>
+            LBL: h10
+            ARG0: x6 ]
+          [ proper_q<30:41>
+            LBL: h17
+            ARG0: x4
+            RSTR: h18
+            BODY: h19 ]
+          [ named<30:41>
+            LBL: h20
+            ARG0: x4
+            CARG: "California" ] >
+   HCONS: < h18 QEQ h20 h14 QEQ h16 h9 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:_conspicuous_a_1<0:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ e5:_by_p<12:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:def_explicit_q<15:18>[BV x6]
+ e12:poss<15:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x11]
+ _2:pronoun_q<15:18>[BV x11]
+ x11:pron<15:18>{x PERS 3, NUM sg, GEND n, PT std}[]
+ x6:_absence_n_1<19:26>{x PERS 3, NUM sg}[]
+ _3:proper_q<30:41>[BV x4]
+ x4:named<30:41>("California"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _conspicuous_a_1<0:11> ARG1 named<30:41>(California)  
+  _by_p<12:14> ARG1 _conspicuous_a_1<0:11>  
+  _by_p<12:14> ARG2 _absence_n_1<19:26>  
+  def_explicit_q<15:18> BV _absence_n_1<19:26>  
+  poss<15:18> ARG1 _absence_n_1<19:26>  
+  poss<15:18> ARG2 pron<15:18>  
+  pronoun_q<15:18> BV pron<15:18>  
+  proper_q<30:41> BV named<30:41>(California)  
+  _conspicuous_a_1<0:11> SF prop  
+  _conspicuous_a_1<0:11> TENSE pres  
+  _conspicuous_a_1<0:11> MOOD indicative  
+  _conspicuous_a_1<0:11> PROG -  
+  _conspicuous_a_1<0:11> PERF -  
+  _by_p<12:14> SF prop  
+  _by_p<12:14> TENSE untensed  
+  _by_p<12:14> MOOD indicative  
+  _by_p<12:14> PROG -  
+  _by_p<12:14> PERF -  
+  poss<15:18> SF prop  
+  poss<15:18> TENSE untensed  
+  poss<15:18> MOOD indicative  
+  poss<15:18> PROG -  
+  poss<15:18> PERF -  
+  pron<15:18> PERS 3  
+  pron<15:18> NUM sg  
+  pron<15:18> GEND n  
+  pron<15:18> PT std  
+  _absence_n_1<19:26> PERS 3  
+  _absence_n_1<19:26> NUM sg  
+  named<30:41>(California) PERS 3  
+  named<30:41>(California) NUM sg  
+  named<30:41>(California) IND +  
+}
+

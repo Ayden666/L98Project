@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146066] (1 of 1) {1} `And they did try.'
+
+[21146066:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:8>, 1, "they", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <9:12>, 1, "did", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <13:16>, 1, "try", 0, "null", "VB" 0.8749 "NN" 0.0672 "VBP" 0.0579)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:3>, 1, "and", 0, "null")
+  (65, 0, 1, <0:3>, 1, "and", 0, "null")
+  (54, 1, 2, <4:8>, 1, "they", 0, "null")
+  (62, 1, 2, <4:8>, 1, "they", 0, "null")
+  (56, 2, 3, <9:12>, 1, "did", 0, "null")
+  (60, 2, 3, <9:12>, 1, "did", 0, "null", "VBD" 1.0)
+  (63, 2, 3, <9:12>, 1, "did", 0, "null")
+  (57, 3, 4, <13:17>, 1, "try.", 0, "null")
+  (59, 3, 4, <13:17>, 1, "try.", 0, "null", "VB" 0.8749)
+  (64, 3, 4, <13:17>, 1, "try.", 0, "null")
+>
+
+(ROOT_STRICT
+ (467 CL_CNJ-FRG_C 2.14384 0 4
+  (466 MRK-NH_CL_C 1.27395 0 4
+   (69 and_conj@c_xp_and_le -0.28157 0 1
+    ("and" 61
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (465 SB-HD_MC_C 1.36676 1 4
+    (460 HDN_BNP-QNT_C 1.58871 1 2
+     (85 they@n_-_pr-they_le 0.818341 1 2
+      ("they" 54
+       "token [ +CARG #1=\"they\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (464 ^HD-CMP_U_C -1.08529 2 4
+     (100 did1_pos@v_vp_did_le 0.302399 2 3
+      ("did" 56
+       "token [ +CARG #1=\"did\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (463 HD_OPTCMP_C -1.38769 3 4
+      (462 W_PERIOD_PLR -1.53912 3 4
+       (461 V_N3S-BSE_ILR -0.638355 3 4
+        (145 try_v1@v_np*_le 0 3 4
+         ("try." 57
+          "token [ +CARG \"try\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"try.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87488710000000003\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (S (CONJ "and")
+  (S (NP (NP "they")) (VP (V "did") (VP (V (V (V "try."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _and_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ pron<4:8>
+            LBL: h8
+            ARG0: x9 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<4:8>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _try_v_1<13:17>
+            LBL: h13
+            ARG0: e4
+            ARG1: x9
+            ARG2: p14 ] >
+   HCONS: < h11 QEQ h8 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_and_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ x9:pron<4:8>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<4:8>[BV x9]
+ e4:_try_v_1-fn.Attempt<13:17>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x9]
+}
+
+{
+  _and_c<0:3> R-HNDL _try_v_1<13:17>  
+  _and_c<0:3> R-INDEX _try_v_1<13:17>  
+  pronoun_q<4:8> BV pron<4:8>  
+  _try_v_1<13:17> ARG1 pron<4:8>  
+  _and_c<0:3> SF prop  
+  _and_c<0:3> TENSE untensed  
+  _and_c<0:3> MOOD indicative  
+  _and_c<0:3> PROG -  
+  _and_c<0:3> PERF -  
+  pron<4:8> PERS 3  
+  pron<4:8> NUM pl  
+  pron<4:8> PT std  
+  _try_v_1<13:17> SF prop  
+  _try_v_1<13:17> TENSE past  
+  _try_v_1<13:17> MOOD indicative  
+  _try_v_1<13:17> PROG -  
+  _try_v_1<13:17> PERF -  
+}
+

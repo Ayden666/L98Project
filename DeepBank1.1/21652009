@@ -1,0 +1,212 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:30 h)).
+;;;
+
+[21652009] (1 of 1) {1} `Analysts expect others to show a similar pattern.'
+
+[21652009:3] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Analysts", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <9:15>, 1, "expect", 0, "null", "VBP" 0.933 "VB" 0.0552 "IN" 0.0118)
+  (3, 2, 3, <16:22>, 1, "others", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <23:25>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <26:30>, 1, "show", 0, "null", "VB" 1.0)
+  (6, 5, 6, <31:32>, 1, "a", 0, "null", "DT" 1.0)
+  (7, 6, 7, <33:40>, 1, "similar", 0, "null", "JJ" 1.0)
+  (8, 7, 8, <41:48>, 1, "pattern", 0, "null", "NN" 1.0)
+  (9, 8, 9, <48:49>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (104, 0, 1, <0:8>, 1, "Analysts", 0, "null", "NNS" 1.0)
+  (109, 0, 1, <0:8>, 1, "analysts", 0, "null")
+  (117, 0, 1, <0:8>, 1, "analysts", 0, "null")
+  (101, 1, 2, <9:15>, 1, "expect", 0, "null")
+  (103, 1, 2, <9:15>, 1, "expect", 0, "null", "VBP" 0.933)
+  (116, 1, 2, <9:15>, 1, "expect", 0, "null")
+  (90, 2, 3, <16:22>, 1, "others", 0, "null")
+  (105, 2, 3, <16:22>, 1, "others", 0, "null", "NNS" 1.0)
+  (110, 2, 3, <16:22>, 1, "others", 0, "null")
+  (92, 3, 4, <23:25>, 1, "to", 0, "null")
+  (111, 3, 4, <23:25>, 1, "to", 0, "null")
+  (94, 4, 5, <26:30>, 1, "show", 0, "null")
+  (106, 4, 5, <26:30>, 1, "show", 0, "null", "VB" 1.0)
+  (112, 4, 5, <26:30>, 1, "show", 0, "null")
+  (96, 5, 6, <31:32>, 1, "a", 0, "null")
+  (113, 5, 6, <31:32>, 1, "a", 0, "null")
+  (98, 6, 7, <33:40>, 1, "similar", 0, "null")
+  (107, 6, 7, <33:40>, 1, "similar", 0, "null", "JJ" 1.0)
+  (114, 6, 7, <33:40>, 1, "similar", 0, "null")
+  (100, 7, 8, <41:49>, 1, "pattern.", 0, "null")
+  (108, 7, 8, <41:49>, 1, "pattern.", 0, "null", "NN" 1.0)
+  (115, 7, 8, <41:49>, 1, "pattern.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1810 SB-HD_MC_C 6.28998 0 8
+  (1781 HDN_BNP_C 0.106085 0 1
+   (1780 N_PL_OLR 0.682091 0 1
+    (123 analyst_n1@n_-_c_le 0.183624 0 1
+     ("analysts" 109
+      "token [ +CARG \"Analysts\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"analysts\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1809 ^HD-CMP_U_C 4.66799 1 8
+   (1796 ^V_N3S-BSE_ILR -0.0898182 1 2
+    (130 expect_v1@v_np*_le -0.233068 1 2
+     ("expect" 101
+      "token [ +CARG #1=\"expect\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93300179999999999\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1808 HDN_BNP_C 3.84401 2 8
+    (1807 HDN-AJ_RC_C 3.6326 2 8
+     (1783 ^N_PL_OLR 0.733354 2 3
+      (140 other_n1@n_-_c-nocpd_le 0.377673 2 3
+       ("others" 90
+        "token [ +CARG #1=\"others\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1806 CL_RC-INF-NWH-SB_C 3.05268 3 8
+      (1793 HD-CMP_U_C 6.58686 3 8
+       (196 to_c_prop@cm_vp_to_le 0.685248 3 4
+        ("to" 92
+         "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1792 HD-CMP_U_C 3.0794 4 8
+        (1786 ^V_N3S-BSE_ILR 1.28499 4 5
+         (256 show_v2@v_np*_le 1.06615 4 5
+          ("show" 94
+           "token [ +CARG #1=\"show\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (1791 SP-HD_N_C 1.08829 5 8
+         (269 a_det@d_-_sg-nmd_le -0.667877 5 6
+          ("a" 96
+           "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (1790 ^AJ-HDN_NORM_C 0.284765 6 8
+          (1787 HD_OPTCMP_C 0.183827 6 7
+           (342 similar_to_a1@aj_pp_i-cmp-dif_le 0.0822387 6 7
+            ("similar" 98
+             "token [ +CARG #1=\"similar\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+          (1789 ^W_PERIOD_PLR 0.922408 7 8
+           (1788 N_MS-CNT_ILR 0.310782 7 8
+            (344 pattern_n1@n_-_mc_le 0 7 8
+             ("pattern." 100
+              "token [ +CARG \"pattern\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pattern.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))))
+
+(S (NP (N (N "analysts")))
+ (VP (V (V "expect"))
+  (NP
+   (N (N (N "others"))
+    (S
+     (VP (COMP "to")
+      (VP (V (V "show"))
+       (NP (DET "a")
+        (N (AP (ADJ "similar")) (N (N (N "pattern."))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _analyst_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _expect_v_1<9:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<16:49>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _other_n_1<16:22>
+            LBL: h13
+            ARG0: x9 ]
+          [ eventuality<23:49>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _show_v_1<26:30>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x17 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<31:32>
+            LBL: h18
+            ARG0: x17
+            RSTR: h20
+            BODY: h19 ]
+          [ _similar_a_to<33:40>
+            LBL: h21
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17 ]
+          [ comp<33:40>
+            LBL: h21
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e22
+            ARG2: u23 ]
+          [ _pattern_n_1<41:49>
+            LBL: h21
+            ARG0: x17 ] >
+   HCONS: < h20 QEQ h21 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:8>[BV x6]
+ x6:_analyst_n_1<0:8>{x PERS 3, NUM pl, IND +}[]
+ e3:_expect_v_1<9:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<16:49>[BV x9]
+ x9:_other_n_1<16:22>{x PERS 3, NUM pl, IND +}[]
+ e14:eventuality<23:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16]
+ e16:_show_v_1<26:30>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x17]
+ _3:_a_q<31:32>[BV x17]
+ e22:_similar_a_to<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+ e24:comp<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e22]
+ x17:_pattern_n_1<41:49>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:8> BV _analyst_n_1<0:8>  
+  _expect_v_1<9:15> ARG1 _analyst_n_1<0:8>  
+  _expect_v_1<9:15> ARG2 _other_n_1<16:22>  
+  udef_q<16:49> BV _other_n_1<16:22>  
+  eventuality<23:49> ARG1 _show_v_1<26:30>  
+  _show_v_1<26:30> ARG1 _other_n_1<16:22>  
+  _show_v_1<26:30> ARG2 _pattern_n_1<41:49>  
+  _a_q<31:32> BV _pattern_n_1<41:49>  
+  _similar_a_to<33:40> ARG1 _pattern_n_1<41:49>  
+  comp<33:40> ARG1 _similar_a_to<33:40>  
+  _analyst_n_1<0:8> PERS 3  
+  _analyst_n_1<0:8> NUM pl  
+  _analyst_n_1<0:8> IND +  
+  _expect_v_1<9:15> SF prop  
+  _expect_v_1<9:15> TENSE pres  
+  _expect_v_1<9:15> MOOD indicative  
+  _expect_v_1<9:15> PROG -  
+  _expect_v_1<9:15> PERF -  
+  _other_n_1<16:22> PERS 3  
+  _other_n_1<16:22> NUM pl  
+  _other_n_1<16:22> IND +  
+  eventuality<23:49> SF prop  
+  eventuality<23:49> TENSE untensed  
+  eventuality<23:49> MOOD indicative  
+  eventuality<23:49> PROG -  
+  eventuality<23:49> PERF -  
+  _show_v_1<26:30> SF prop-or-ques  
+  _show_v_1<26:30> TENSE untensed  
+  _show_v_1<26:30> MOOD indicative  
+  _show_v_1<26:30> PROG -  
+  _show_v_1<26:30> PERF -  
+  _similar_a_to<33:40> SF prop  
+  _similar_a_to<33:40> TENSE untensed  
+  _similar_a_to<33:40> MOOD indicative  
+  _similar_a_to<33:40> PROG -  
+  _similar_a_to<33:40> PERF -  
+  comp<33:40> SF prop  
+  comp<33:40> TENSE untensed  
+  comp<33:40> MOOD indicative  
+  comp<33:40> PROG -  
+  comp<33:40> PERF -  
+  _pattern_n_1<41:49> PERS 3  
+  _pattern_n_1<41:49> NUM sg  
+}
+

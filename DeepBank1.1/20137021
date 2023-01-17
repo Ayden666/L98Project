@@ -1,0 +1,385 @@
+;;;
+;;; Redwoods export of `wsj01c';
+;;; (wsun@wsun; 22-jan-2018 (11:19 h)).
+;;;
+
+[20137021] (1 of 1) {1} `Showa Shell gained 20 to 1,570 and Mitsubishi Oil rose 50 to 1,500.'
+
+[20137021:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Showa", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:11>, 1, "Shell", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:18>, 1, "gained", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <19:21>, 1, "20", 0, "null", "CD" 1.0)
+  (5, 4, 5, <22:24>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <25:30>, 1, "1,570", 0, "null", "CD" 1.0)
+  (7, 6, 7, <31:34>, 1, "and", 0, "null", "CC" 1.0)
+  (8, 7, 8, <35:45>, 1, "Mitsubishi", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <46:49>, 1, "Oil", 0, "null", "NNP" 0.9745 "NN" 0.0255)
+  (10, 9, 10, <50:54>, 1, "rose", 0, "null", "VBD" 1.0)
+  (11, 10, 11, <55:57>, 1, "50", 0, "null", "CD" 1.0)
+  (12, 11, 12, <58:60>, 1, "to", 0, "null", "TO" 1.0)
+  (13, 12, 13, <61:66>, 1, "1,500", 0, "null", "CD" 1.0)
+  (14, 13, 14, <66:67>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (146, 0, 1, <0:5>, 1, "Showa", 0, "null")
+  (154, 0, 1, <0:5>, 1, "showa", 0, "null")
+  (168, 0, 1, <0:5>, 1, "showa", 0, "null")
+  (124, 1, 2, <6:11>, 1, "Shell", 0, "null")
+  (149, 1, 2, <6:11>, 1, "Shell", 0, "null", "NNP" 1.0)
+  (153, 1, 2, <6:11>, 1, "shell", 0, "null")
+  (161, 1, 2, <6:11>, 1, "shell", 0, "null")
+  (143, 2, 3, <12:18>, 1, "gained", 0, "null")
+  (151, 2, 3, <12:18>, 1, "gained", 0, "null", "VBD" 1.0)
+  (167, 2, 3, <12:18>, 1, "gained", 0, "null")
+  (117, 3, 4, <19:21>, 1, "20", 0, "null")
+  (156, 3, 4, <19:21>, 1, "20", 0, "null")
+  (135, 4, 5, <22:24>, 1, "to", 0, "null")
+  (163, 4, 5, <22:24>, 1, "to", 0, "null")
+  (119, 5, 6, <25:30>, 1, "1,570", 0, "null")
+  (158, 5, 6, <25:30>, 1, "1,570", 0, "null")
+  (137, 6, 7, <31:34>, 1, "and", 0, "null")
+  (164, 6, 7, <31:34>, 1, "and", 0, "null")
+  (122, 7, 8, <35:45>, 1, "Mitsubishi", 0, "null")
+  (148, 7, 8, <35:45>, 1, "Mitsubishi", 0, "null", "NNP" 1.0)
+  (152, 7, 8, <35:45>, 1, "mitsubishi", 0, "null")
+  (159, 7, 8, <35:45>, 1, "mitsubishi", 0, "null")
+  (123, 8, 9, <46:49>, 1, "Oil", 0, "null")
+  (147, 8, 9, <46:49>, 1, "Oil", 0, "null", "NNP" 0.9745)
+  (155, 8, 9, <46:49>, 1, "oil", 0, "null")
+  (160, 8, 9, <46:49>, 1, "oil", 0, "null")
+  (139, 9, 10, <50:54>, 1, "rose", 0, "null")
+  (150, 9, 10, <50:54>, 1, "rose", 0, "null", "VBD" 1.0)
+  (165, 9, 10, <50:54>, 1, "rose", 0, "null")
+  (118, 10, 11, <55:57>, 1, "50", 0, "null")
+  (157, 10, 11, <55:57>, 1, "50", 0, "null")
+  (141, 11, 12, <58:60>, 1, "to", 0, "null")
+  (166, 11, 12, <58:60>, 1, "to", 0, "null")
+  (125, 12, 13, <61:67>, 1, "1,500.", 0, "null")
+  (162, 12, 13, <61:67>, 1, "1,500.", 0, "null")
+>
+
+(ROOT_STRICT
+ (38733 CL-CL_CRD-T_C 20.5797 0 13
+  (38714 SB-HD_MC_C 6.78491 0 6
+   (38705 HDN_BNP-PN_C 2.08163 0 2
+    (38704 NP-HDN_NME-CPD_C 1.53984 0 2
+     (38702 HDN_BNP-PN_C 0.365523 0 1
+      (38701 N_SG_ILR -0.386912 0 1
+       (172 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Showa" 146
+         "token [ +CARG #1=\"Showa\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (38703 ^N_SG_ILR -0.143257 1 2
+      (173 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Shell" 124
+        "token [ +CARG #1=\"Shell\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (38713 ^HD-AJ_INT-UNSL_C 4.59825 2 6
+    (38709 ^HD-CMP_U_C 3.1993 2 4
+     (38706 ^V_PST_OLR 1.93042 2 3
+      (185 gain_v1@v_np*_le 0.775218 2 3
+       ("gained" 143
+        "token [ +CARG #1=\"gained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (38708 HDN_BNP-NUM_C 0.0259845 3 4
+      (38707 HDN_NP-NUM_C -0.492658 3 4
+       (280 generic_card_ne@aj_-_i-crd-gen_le -0.0766423 3 4
+        ("20" 117
+         "token [ +CARG #1=\"20\" +CLASS card_or_dom_ne +FORM #1 +FROM \"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (38712 HD-CMP_U_C 0.13396 4 6
+     (308 to@p_np_i-nnm_le -1.63041 4 5
+      ("to" 135
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (38711 HDN_BNP-NUM_C 0.272448 5 6
+      (38710 HDN_NP-NUM_C -0.246194 5 6
+       (362 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("1,570" 119
+         "token [ +CARG #1=\"1,570\" +CLASS card_ne +FORM #1 +FROM \"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+  (38732 ^MRK-NH_CL_C 13.087 6 13
+   (366 and_conj@c_xp_and_le -0.668842 6 7
+    ("and" 137
+     "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (38731 SB-HD_MC_C 13.1393 7 13
+    (38719 HDN_BNP-PN_C 2.28402 7 9
+     (38718 NP-HDN_NME-CPD_C 1.89502 7 9
+      (38716 HDN_BNP-PN_C 0.365523 7 8
+       (38715 N_SG_ILR -0.386912 7 8
+        (382 generic_proper_ne@n_-_pn-gen_le 0 7 8
+         ("Mitsubishi" 122
+          "token [ +CARG #1=\"Mitsubishi\" +CLASS proper_ne +FORM #1 +FROM \"35\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (38717 ^N_SG_ILR 0.211916 8 9
+       (384 generic_proper_ne@n_-_pn-gen_le 0.234774 8 9
+        ("Oil" 123
+         "token [ +CARG #1=\"Oil\" +CLASS proper_ne +FORM #1 +FROM \"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97445709999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (38730 ^HD-AJ_INT-UNSL_C 10.6205 9 13
+     (38725 ^HD-AJ_INT-UNSL_C 4.95486 9 11
+      (38721 ^HD_OPTCMP_C 5.0218 9 10
+       (38720 V_PST_OLR 3.53124 9 10
+        (390 rise_v2@v_pp_unacc_le 1.80509 9 10
+         ("rose" 139
+          "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"50\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (38724 NP_ADV-MNP_C -1.25003 10 11
+       (38723 HDN_BNP-NUM_C -0.510493 10 11
+        (38722 HDN_NP-NUM_C -0.0994401 10 11
+         (399 generic_card_ne@aj_-_i-crd-gen_le 0.184136 10 11
+          ("50" 118
+           "token [ +CARG #1=\"50\" +CLASS card_ne +FORM #1 +FROM \"55\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+     (38729 HD-CMP_U_C 3.87632 11 13
+      (424 to@p_np_i-nnm_le -1.63041 11 12
+       ("to" 141
+        "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"58\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"12\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"60\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (38728 HDN_BNP-NUM_C 4.01481 12 13
+       (38727 HDN_NP-NUM_C 3.49617 12 13
+        (38726 W_PERIOD_PLR 2.19869 12 13
+         (479 generic_card_ne@aj_-_i-crd-gen_le 0 12 13
+          ("1,500." 125
+           "token [ +CARG \"1,500\" +CLASS card_ne +FORM \"1,500.\" +FROM \"61\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"13\" REST *cons* [ FIRST \"14\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"67\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(S
+ (S (NP (N (NP (N (N "Showa"))) (N (N "Shell"))))
+  (VP (VP (V (V "gained")) (NP (N (ADJ "20"))))
+   (PP (P "to") (NP (N (ADJ "1,570"))))))
+ (S (CONJ "and")
+  (S (NP (N (NP (N (N "Mitsubishi"))) (N (N "Oil"))))
+   (VP (VP (VP (V (V "rose"))) (PP (NP (N (ADJ "50")))))
+    (PP (P "to") (NP (N (ADJ (ADJ "1,500.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Showa" ]
+          [ named<6:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Shell" ]
+          [ _gain_v_1<12:18>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x17 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<19:21>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ card<19:21>
+            LBL: h21
+            ARG0: x17
+            ARG1: i22
+            CARG: "20" ]
+          [ _to_p<22:24>
+            LBL: h15
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: x24 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<25:30>
+            LBL: h25
+            ARG0: x24
+            RSTR: h26
+            BODY: h27 ]
+          [ card<25:30>
+            LBL: h28
+            ARG0: x24
+            ARG1: i29
+            CARG: "1,570" ]
+          [ _and_c<31:34>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h30
+            L-INDEX: e16
+            R-HNDL: h31
+            R-INDEX: e32 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ proper_q<35:49>
+            LBL: h33
+            ARG0: x35 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h34
+            BODY: h36 ]
+          [ compound<35:49>
+            LBL: h37
+            ARG0: e39 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x35
+            ARG2: x38 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<35:45>
+            LBL: h40
+            ARG0: x38
+            RSTR: h41
+            BODY: h42 ]
+          [ named<35:45>
+            LBL: h43
+            ARG0: x38
+            CARG: "Mitsubishi" ]
+          [ named<46:49>
+            LBL: h37
+            ARG0: x35
+            CARG: "Oil" ]
+          [ _rise_v_1<50:54>
+            LBL: h44
+            ARG0: e32
+            ARG1: x35 ]
+          [ loc_nonsp<55:57>
+            LBL: h44
+            ARG0: e45 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e32
+            ARG2: x46 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<55:57>
+            LBL: h47
+            ARG0: x46
+            RSTR: h48
+            BODY: h49 ]
+          [ card<55:57>
+            LBL: h50
+            ARG0: x46
+            ARG1: i51
+            CARG: "50" ]
+          [ _to_p<58:60>
+            LBL: h44
+            ARG0: e52 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e32
+            ARG2: x53 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<61:67>
+            LBL: h54
+            ARG0: x53
+            RSTR: h55
+            BODY: h56 ]
+          [ card<61:67>
+            LBL: h57
+            ARG0: x53
+            ARG1: i58
+            CARG: "1,500" ] >
+   HCONS: < h55 QEQ h57 h48 QEQ h50 h41 QEQ h43 h34 QEQ h37 h31 QEQ h44 h26 QEQ h28 h19 QEQ h21 h12 QEQ h14 h5 QEQ h8 h30 QEQ h15 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Showa"){x PERS 3, NUM sg, IND +}[]
+ x6:named<6:11>("Shell"){x PERS 3, NUM sg, IND +}[]
+ e16:_gain_v_1<12:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x17]
+ _3:number_q<19:21>[BV x17]
+ x17:card<19:21>("20"){x PERS 3, NUM sg}[]
+ e23:_to_p<22:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 x24]
+ _4:number_q<25:30>[BV x24]
+ x24:card<25:30>("1,570"){x PERS 3, NUM sg}[]
+ e3:_and_c<31:34>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[L-HNDL e16, L-INDEX e16, R-HNDL e32, R-INDEX e32]
+ _5:proper_q<35:49>[BV x35]
+ e39:compound<35:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x35, ARG2 x38]
+ _6:proper_q<35:45>[BV x38]
+ x38:named<35:45>("Mitsubishi"){x PERS 3, NUM sg, IND +}[]
+ x35:named<46:49>("Oil"){x PERS 3, NUM sg, IND +}[]
+ e32:_rise_v_1<50:54>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x35]
+ e45:loc_nonsp<55:57>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e32, ARG2 x46]
+ _7:number_q<55:57>[BV x46]
+ x46:card<55:57>("50"){x PERS 3, NUM sg}[]
+ e52:_to_p<58:60>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e32, ARG2 x53]
+ _8:number_q<61:67>[BV x53]
+ x53:card<61:67>("1,500"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:11> BV named<6:11>(Shell)  
+  compound<0:11> ARG1 named<6:11>(Shell)  
+  compound<0:11> ARG2 named<0:5>(Showa)  
+  proper_q<0:5> BV named<0:5>(Showa)  
+  _gain_v_1<12:18> ARG1 named<6:11>(Shell)  
+  _gain_v_1<12:18> ARG2 card<19:21>(20)  
+  number_q<19:21> BV card<19:21>(20)  
+  _to_p<22:24> ARG1 _gain_v_1<12:18>  
+  _to_p<22:24> ARG2 card<25:30>(1,570)  
+  number_q<25:30> BV card<25:30>(1,570)  
+  _and_c<31:34> L-HNDL _gain_v_1<12:18>  
+  _and_c<31:34> L-INDEX _gain_v_1<12:18>  
+  _and_c<31:34> R-HNDL _rise_v_1<50:54>  
+  _and_c<31:34> R-INDEX _rise_v_1<50:54>  
+  proper_q<35:49> BV named<46:49>(Oil)  
+  compound<35:49> ARG1 named<46:49>(Oil)  
+  compound<35:49> ARG2 named<35:45>(Mitsubishi)  
+  proper_q<35:45> BV named<35:45>(Mitsubishi)  
+  _rise_v_1<50:54> ARG1 named<46:49>(Oil)  
+  loc_nonsp<55:57> ARG1 _rise_v_1<50:54>  
+  loc_nonsp<55:57> ARG2 card<55:57>(50)  
+  number_q<55:57> BV card<55:57>(50)  
+  _to_p<58:60> ARG1 _rise_v_1<50:54>  
+  _to_p<58:60> ARG2 card<61:67>(1,500)  
+  number_q<61:67> BV card<61:67>(1,500)  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:5>(Showa) PERS 3  
+  named<0:5>(Showa) NUM sg  
+  named<0:5>(Showa) IND +  
+  named<6:11>(Shell) PERS 3  
+  named<6:11>(Shell) NUM sg  
+  named<6:11>(Shell) IND +  
+  _gain_v_1<12:18> SF prop  
+  _gain_v_1<12:18> TENSE past  
+  _gain_v_1<12:18> MOOD indicative  
+  _gain_v_1<12:18> PROG -  
+  _gain_v_1<12:18> PERF -  
+  card<19:21>(20) PERS 3  
+  card<19:21>(20) NUM sg  
+  _to_p<22:24> SF prop  
+  _to_p<22:24> TENSE untensed  
+  _to_p<22:24> MOOD indicative  
+  _to_p<22:24> PROG -  
+  _to_p<22:24> PERF -  
+  card<25:30>(1,570) PERS 3  
+  card<25:30>(1,570) NUM sg  
+  _and_c<31:34> SF prop  
+  _and_c<31:34> TENSE past  
+  _and_c<31:34> MOOD indicative  
+  _and_c<31:34> PROG -  
+  _and_c<31:34> PERF -  
+  compound<35:49> SF prop  
+  compound<35:49> TENSE untensed  
+  compound<35:49> MOOD indicative  
+  compound<35:49> PROG -  
+  compound<35:49> PERF -  
+  named<35:45>(Mitsubishi) PERS 3  
+  named<35:45>(Mitsubishi) NUM sg  
+  named<35:45>(Mitsubishi) IND +  
+  named<46:49>(Oil) PERS 3  
+  named<46:49>(Oil) NUM sg  
+  named<46:49>(Oil) IND +  
+  _rise_v_1<50:54> SF prop  
+  _rise_v_1<50:54> TENSE past  
+  _rise_v_1<50:54> MOOD indicative  
+  _rise_v_1<50:54> PROG -  
+  _rise_v_1<50:54> PERF -  
+  loc_nonsp<55:57> SF prop  
+  loc_nonsp<55:57> TENSE untensed  
+  loc_nonsp<55:57> MOOD indicative  
+  loc_nonsp<55:57> PROG -  
+  loc_nonsp<55:57> PERF -  
+  card<55:57>(50) PERS 3  
+  card<55:57>(50) NUM sg  
+  _to_p<58:60> SF prop  
+  _to_p<58:60> TENSE untensed  
+  _to_p<58:60> MOOD indicative  
+  _to_p<58:60> PROG -  
+  _to_p<58:60> PERF -  
+  card<61:67>(1,500) PERS 3  
+  card<61:67>(1,500) NUM sg  
+}
+

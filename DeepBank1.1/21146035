@@ -1,0 +1,115 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:28 h)).
+;;;
+
+[21146035] (1 of 1) {1} `It won't be cheaper!'
+
+[21146035:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:5>, 1, "wo", 0, "null", "MD" 1.0)
+  (3, 2, 3, <5:8>, 1, "n’t", 0, "null", "RB" 0.4463 "VB" 0.3429 "NN" 0.1718 "JJS" 0.039)
+  (4, 3, 4, <9:11>, 1, "be", 0, "null", "VB" 1.0)
+  (5, 4, 5, <12:19>, 1, "cheaper", 0, "null", "JJR" 0.9503 "RBR" 0.0497)
+  (6, 5, 6, <19:20>, 1, "!", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:2>, 1, "it", 0, "null")
+  (68, 0, 1, <0:2>, 1, "it", 0, "null")
+  (59, 1, 2, <3:8>, 1, "won’t", 0, "null")
+  (66, 1, 2, <3:8>, 1, "won’t", 0, "null")
+  (57, 2, 3, <9:11>, 1, "be", 0, "null")
+  (63, 2, 3, <9:11>, 1, "be", 0, "null", "VB" 1.0)
+  (65, 2, 3, <9:11>, 1, "be", 0, "null")
+  (60, 3, 4, <12:20>, 1, "cheaper!", 0, "null")
+  (62, 3, 4, <12:20>, 1, "cheaper!", 0, "null", "JJR" 0.9503)
+  (67, 3, 4, <12:20>, 1, "cheaper!", 0, "null")
+>
+
+(ROOT_STRICT
+ (511 SB-HD_MC_C 4.97443 0 4
+  (506 HDN_BNP-QNT_C 0.430464 0 1
+   (70 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 64
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (510 ^HD-CMP_U_C 3.27462 1 4
+   (84 will_aux_neg_3_u@v_vp_will-n_le -0.028258 1 2
+    ("won’t" 59
+     "token [ +CARG #1=\"won’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (509 HD-CMP_U_C 2.50491 2 4
+    (85 be_c_be@v_prd_be_le -0.66931 2 3
+     ("be" 57
+      "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (508 HD_OPTCMP_C 0 3 4
+     (507 W_BANG_PLR 0 3 4
+      (105 cheaper@aj_pp_i-cmp_le 0 3 4
+       ("cheaper!" 60
+        "token [ +CARG \"cheaper\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cheaper!\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95034079999999999\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "it"))
+ (VP (V "won’t") (VP (V "be") (AP (ADJ (ADJ "cheaper!"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<3:8>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _cheap_a_1<12:20>
+            LBL: h11
+            ARG0: e3
+            ARG1: x5 ]
+          [ comp<12:20>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: u12 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e10:neg<3:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_cheap_a_1<12:20>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e13:comp<12:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  neg<3:8> ARG1 _cheap_a_1<12:20>  
+  _cheap_a_1<12:20> ARG1 pron<0:2>  
+  comp<12:20> ARG1 _cheap_a_1<12:20>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  neg<3:8> SF prop  
+  neg<3:8> TENSE untensed  
+  neg<3:8> MOOD indicative  
+  neg<3:8> PROG -  
+  neg<3:8> PERF -  
+  _cheap_a_1<12:20> SF prop  
+  _cheap_a_1<12:20> TENSE fut  
+  _cheap_a_1<12:20> MOOD indicative  
+  _cheap_a_1<12:20> PROG -  
+  _cheap_a_1<12:20> PERF -  
+  comp<12:20> SF prop  
+  comp<12:20> TENSE untensed  
+  comp<12:20> MOOD indicative  
+  comp<12:20> PROG -  
+  comp<12:20> PERF -  
+}
+

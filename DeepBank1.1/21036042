@@ -1,0 +1,239 @@
+;;;
+;;; Redwoods export of `wsj10b';
+;;; (wsun@wsun; 22-jan-2018 (19:27 h)).
+;;;
+
+[21036042] (1 of 1) {1} `General Mills gained 2 1/4 to 72 7/8.'
+
+[21036042:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "General", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:13>, 1, "Mills", 0, "null", "NNP" 0.848 "NNPS" 0.152)
+  (3, 2, 3, <14:20>, 1, "gained", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <21:22>, 1, "2", 0, "null", "CD" 1.0)
+  (5, 4, 5, <23:26>, 1, "1/4", 0, "null", "CD" 1.0)
+  (6, 5, 6, <27:29>, 1, "to", 0, "null", "TO" 1.0)
+  (7, 6, 7, <30:32>, 1, "72", 0, "null", "CD" 1.0)
+  (8, 7, 8, <33:36>, 1, "7/8", 0, "null", "CD" 1.0)
+  (9, 8, 9, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (98, 0, 1, <0:7>, 1, "General", 0, "null")
+  (102, 0, 1, <0:7>, 1, "general", 0, "null")
+  (113, 0, 1, <0:7>, 1, "general", 0, "null")
+  (81, 1, 2, <8:13>, 1, "Mills", 0, "null")
+  (99, 1, 2, <8:13>, 1, "Mills", 0, "null", "NNP" 0.848)
+  (101, 1, 2, <8:13>, 1, "Mills", 0, "null", "NNPS" 0.152)
+  (103, 1, 2, <8:13>, 1, "mills", 0, "null")
+  (105, 1, 2, <8:13>, 1, "mills", 0, "null")
+  (95, 2, 3, <14:20>, 1, "gained", 0, "null")
+  (100, 2, 3, <14:20>, 1, "gained", 0, "null", "VBD" 1.0)
+  (112, 2, 3, <14:20>, 1, "gained", 0, "null")
+  (82, 3, 4, <21:22>, 1, "2", 0, "null")
+  (106, 3, 4, <21:22>, 1, "2", 0, "null")
+  (78, 4, 5, <23:26>, 1, "1/4", 0, "null")
+  (83, 4, 5, <23:26>, 1, "1/4", 0, "null")
+  (104, 4, 5, <23:26>, 1, "1/4", 0, "null")
+  (107, 4, 5, <23:26>, 1, "1/4", 0, "null")
+  (93, 5, 6, <27:29>, 1, "to", 0, "null")
+  (111, 5, 6, <27:29>, 1, "to", 0, "null")
+  (84, 6, 7, <30:32>, 1, "72", 0, "null")
+  (108, 6, 7, <30:32>, 1, "72", 0, "null")
+  (86, 7, 8, <33:37>, 1, "7/8.", 0, "null")
+  (87, 7, 8, <33:37>, 1, "7/8.", 0, "null")
+  (109, 7, 8, <33:37>, 1, "7/8.", 0, "null")
+  (110, 7, 8, <33:37>, 1, "7/8.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2983 SB-HD_MC_C 10.7209 0 8
+  (2969 HDN_BNP-PN_C 3.89883 0 2
+   (2968 NP-HDN_NME-CPD_C 3.35911 0 2
+    (2966 HDN_BNP-PN_C 2.18479 0 1
+     (2965 N_SG_ILR 1.43235 0 1
+      (115 generic_proper_ne@n_-_pn-gen_le 0.23567 0 1
+       ("General" 98
+        "token [ +CARG #1=\"General\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (2967 ^N_SG_ILR -0.143257 1 2
+     (132 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Mills" 81
+       "token [ +CARG #1=\"Mills\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84800010000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2982 ^HD-AJ_INT-UNSL_C 6.33455 2 8
+   (2975 ^HD-CMP_U_C 4.05968 2 5
+    (2970 ^V_PST_OLR 1.93042 2 3
+     (159 gain_v1@v_np*_le 0.775218 2 3
+      ("gained" 95
+       "token [ +CARG #1=\"gained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2974 HDN_BNP-NUM_C 0.886363 3 5
+     (2973 HDN_NP-NUM_C 0.367721 3 5
+      (2972 XP_BRCK-PR_C -0.315935 3 5
+       (2971 HD-CMP_U_C -0.226055 3 5
+        (253 generic_card_np_ne@aj_np_i-crd-gen_le 0 3 4
+         ("2" 82
+          "token [ +CARG #1=\"2\" +CLASS card_ne +FORM #1 +FROM \"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (256 generic_fract_ne@aj_-_i-frct-gen_le 0 4 5
+         ("1/4" 83
+          "token [ +CARG #1=\"1/4\" +CLASS frct_ne +FORM #1 +FROM \"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))
+   (2981 HD-CMP_U_C 1.14104 5 8
+    (281 to@p_np_i-nnm_le -0.649111 5 6
+     ("to" 93
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2980 HDN_BNP-NUM_C 1.27952 6 8
+     (2979 HDN_NP-NUM_C 0.760882 6 8
+      (2978 XP_BRCK-PR_C 0.077226 6 8
+       (2977 HD-CMP_U_C 0.167106 6 8
+        (334 generic_card_np_ne@aj_np_i-crd-gen_le 0 6 7
+         ("72" 84
+          "token [ +CARG #1=\"72\" +CLASS card_ne +FORM #1 +FROM \"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (2976 W_PERIOD_PLR 0 7 8
+         (339 generic_fract_ne@aj_-_i-frct-gen_le 0 7 8
+          ("7/8." 87
+           "token [ +CARG \"7/8\" +CLASS frct_ne +FORM \"7/8.\" +FROM \"33\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S (NP (N (NP (N (N "General"))) (N (N "Mills"))))
+ (VP (VP (V (V "gained")) (NP (N (ADJ (ADJ (ADJ "2") (ADJ "1/4"))))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "72") (ADJ (ADJ "7/8.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "General" ]
+          [ named<8:13>
+            LBL: h8
+            ARG0: x6
+            CARG: "Mills" ]
+          [ _gain_v_1<14:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<21:26>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ card<21:22>
+            LBL: h19
+            ARG0: x15
+            ARG1: i20
+            CARG: "2" ]
+          [ plus<21:22>
+            LBL: h21
+            ARG0: i23
+            ARG1: i20
+            ARG2: h19
+            ARG3: h22 ]
+          [ fraction<23:26>
+            LBL: h22
+            ARG0: i24
+            ARG1: i20
+            CARG: "1/4" ]
+          [ _to_p<27:29>
+            LBL: h2
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x26 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<30:37>
+            LBL: h27
+            ARG0: x26
+            RSTR: h28
+            BODY: h29 ]
+          [ card<30:32>
+            LBL: h30
+            ARG0: x26
+            ARG1: i31
+            CARG: "72" ]
+          [ plus<30:32>
+            LBL: h32
+            ARG0: i34
+            ARG1: i31
+            ARG2: h30
+            ARG3: h33 ]
+          [ fraction<33:37>
+            LBL: h33
+            ARG0: i35
+            ARG1: i31
+            CARG: "7/8" ] >
+   HCONS: < h28 QEQ h32 h17 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:7>[BV x9]
+ x9:named<0:7>("General"){x PERS 3, NUM sg, IND +}[]
+ x6:named<8:13>("Mills"){x PERS 3, NUM sg, IND +}[]
+ e3:_gain_v_1<14:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:number_q<21:26>[BV x15]
+ x15:card<21:22>("2"){x PERS 3, NUM sg}[]
+ i23:plus<21:22>{i}[ARG2 x15, ARG3 i24]
+ i24:fraction<23:26>("1/4"){i}[]
+ e25:_to_p<27:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x26]
+ _4:number_q<30:37>[BV x26]
+ x26:card<30:32>("72"){x PERS 3, NUM sg}[]
+ i34:plus<30:32>{i}[ARG2 x26, ARG3 i35]
+ i35:fraction<33:37>("7/8"){i}[]
+}
+
+{
+  proper_q<0:13> BV named<8:13>(Mills)  
+  compound<0:13> ARG1 named<8:13>(Mills)  
+  compound<0:13> ARG2 named<0:7>(General)  
+  proper_q<0:7> BV named<0:7>(General)  
+  _gain_v_1<14:20> ARG1 named<8:13>(Mills)  
+  _gain_v_1<14:20> ARG2 card<21:22>(2)  
+  number_q<21:26> BV card<21:22>(2)  
+  plus<21:22> ARG2 card<21:22>(2)  
+  plus<21:22> ARG3 fraction<23:26>(1/4)  
+  _to_p<27:29> ARG1 _gain_v_1<14:20>  
+  _to_p<27:29> ARG2 card<30:32>(72)  
+  number_q<30:37> BV card<30:32>(72)  
+  plus<30:32> ARG2 card<30:32>(72)  
+  plus<30:32> ARG3 fraction<33:37>(7/8)  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:7>(General) PERS 3  
+  named<0:7>(General) NUM sg  
+  named<0:7>(General) IND +  
+  named<8:13>(Mills) PERS 3  
+  named<8:13>(Mills) NUM sg  
+  named<8:13>(Mills) IND +  
+  _gain_v_1<14:20> SF prop  
+  _gain_v_1<14:20> TENSE past  
+  _gain_v_1<14:20> MOOD indicative  
+  _gain_v_1<14:20> PROG -  
+  _gain_v_1<14:20> PERF -  
+  card<21:22>(2) PERS 3  
+  card<21:22>(2) NUM sg  
+  _to_p<27:29> SF prop  
+  _to_p<27:29> TENSE untensed  
+  _to_p<27:29> MOOD indicative  
+  _to_p<27:29> PROG -  
+  _to_p<27:29> PERF -  
+  card<30:32>(72) PERS 3  
+  card<30:32>(72) NUM sg  
+}
+

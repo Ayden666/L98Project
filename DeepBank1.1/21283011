@@ -1,0 +1,245 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:45 h)).
+;;;
+
+[21283011] (1 of 1) {1} `Sales of parts for cars and construction vehicles rose.'
+
+[21283011:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Sales", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <6:8>, 1, "of", 0, "null", "IN" 1.0)
+  (3, 2, 3, <9:14>, 1, "parts", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <15:18>, 1, "for", 0, "null", "IN" 1.0)
+  (5, 4, 5, <19:23>, 1, "cars", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <24:27>, 1, "and", 0, "null", "CC" 1.0)
+  (7, 6, 7, <28:40>, 1, "construction", 0, "null", "NN" 1.0)
+  (8, 7, 8, <41:49>, 1, "vehicles", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <50:54>, 1, "rose", 0, "null", "VBD" 1.0)
+  (10, 9, 10, <54:55>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:5>, 1, "Sales", 0, "null", "NNS" 1.0)
+  (116, 0, 1, <0:5>, 1, "sales", 0, "null")
+  (125, 0, 1, <0:5>, 1, "sales", 0, "null")
+  (95, 1, 2, <6:8>, 1, "of", 0, "null")
+  (117, 1, 2, <6:8>, 1, "of", 0, "null")
+  (97, 2, 3, <9:14>, 1, "parts", 0, "null")
+  (111, 2, 3, <9:14>, 1, "parts", 0, "null", "NNS" 1.0)
+  (118, 2, 3, <9:14>, 1, "parts", 0, "null")
+  (99, 3, 4, <15:18>, 1, "for", 0, "null")
+  (119, 3, 4, <15:18>, 1, "for", 0, "null")
+  (101, 4, 5, <19:23>, 1, "cars", 0, "null")
+  (112, 4, 5, <19:23>, 1, "cars", 0, "null", "NNS" 1.0)
+  (120, 4, 5, <19:23>, 1, "cars", 0, "null")
+  (103, 5, 6, <24:27>, 1, "and", 0, "null")
+  (121, 5, 6, <24:27>, 1, "and", 0, "null")
+  (105, 6, 7, <28:40>, 1, "construction", 0, "null")
+  (113, 6, 7, <28:40>, 1, "construction", 0, "null", "NN" 1.0)
+  (122, 6, 7, <28:40>, 1, "construction", 0, "null")
+  (107, 7, 8, <41:49>, 1, "vehicles", 0, "null")
+  (114, 7, 8, <41:49>, 1, "vehicles", 0, "null", "NNS" 1.0)
+  (123, 7, 8, <41:49>, 1, "vehicles", 0, "null")
+  (109, 8, 9, <50:55>, 1, "rose.", 0, "null")
+  (115, 8, 9, <50:55>, 1, "rose.", 0, "null", "VBD" 1.0)
+  (124, 8, 9, <50:55>, 1, "rose.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1529 SB-HD_MC_C 9.43429 0 9
+  (1525 HDN_BNP_C 7.68159 0 8
+   (1524 HD-CMP_U_C 7.74312 0 8
+    (1510 ^N_PL_OLR 1.38924 0 1
+     (137 sale_n1@n_pp_mc-of_le 1.21945 0 1
+      ("sales" 116
+       "token [ +CARG \"Sales\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sales\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1523 HD-CMP_U_C 4.86429 1 8
+     (197 of_prtcl@p_np_ptcl-of_le 1.04356 1 2
+      ("of" 95
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1522 HDN_BNP_C 3.23823 2 8
+      (1521 HDN-AJ_REDREL_C 3.78749 2 8
+       (1511 ^N_PL_OLR 0.867746 2 3
+        (279 part_n1@n_-_c-ns_le 0.113334 2 3
+         ("parts" 97
+          "token [ +CARG #1=\"parts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (1520 HD-CMP_U_C 2.35002 3 8
+        (322 for@p_np_i_le 0.405869 3 4
+         ("for" 99
+          "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (1519 NP-NP_CRD-T_C 0.950151 4 8
+         (1513 HDN_BNP_C -0.301952 4 5
+          (1512 N_PL_OLR 0.242886 4 5
+           (336 car_n1@n_-_c_le 0.110976 4 5
+            ("cars" 101
+             "token [ +CARG #1=\"cars\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+         (1518 ^MRK-NH_NOM_C -0.0757303 5 8
+          (350 and_conj@c_xp_and_le -0.868281 5 6
+           ("and" 103
+            "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+          (1517 HDN_BNP_C 0.83382 6 8
+           (1516 N-HDN_CPD_C 1.13271 6 8
+            (1514 HDN_OPTCMP_C 0.639873 6 7
+             (366 construction_n@n_pp_mc-of_le 0.276085 6 7
+              ("construction" 105
+               "token [ +CARG #1=\"construction\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+            (1515 ^N_PL_OLR 0.334017 7 8
+             (368 vehicle_n1@n_-_c_le 0 7 8
+              ("vehicles" 107
+               "token [ +CARG #1=\"vehicles\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"41\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+  (1528 ^HD_OPTCMP_C 1.77316 8 9
+   (1527 W_PERIOD_PLR 1.46917 8 9
+    (1526 V_PST_OLR 0.778807 8 9
+     (381 rise_v2@v_pp_unacc_le 0 8 9
+      ("rose." 109
+       "token [ +CARG \"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rose.\" +FROM #1=\"50\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S
+ (NP
+  (N (N (N "sales"))
+   (PP (P "of")
+    (NP
+     (N (N (N "parts"))
+      (PP (P "for")
+       (NP (NP (N (N "cars")))
+        (NP-CJ (CONJ "and")
+         (NP (N (N (N "construction")) (N (N "vehicles"))))))))))))
+ (VP (V (V (V "rose.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:49>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _sale_n_of<0:5>
+            LBL: h8
+            ARG0: x6
+            ARG1: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<9:49>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _part_n_1<9:14>
+            LBL: h13
+            ARG0: x9 ]
+          [ _for_p<15:18>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<19:49>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ udef_q<19:23>
+            LBL: h19
+            ARG0: x21 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h20
+            BODY: h22 ]
+          [ _car_n_1<19:23>
+            LBL: h23
+            ARG0: x21 ]
+          [ _and_c<24:27>
+            LBL: h24
+            ARG0: x15
+            L-INDEX: x21
+            R-INDEX: x25 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<28:49>
+            LBL: h26
+            ARG0: x25
+            RSTR: h27
+            BODY: h28 ]
+          [ compound<28:49>
+            LBL: h29
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x25
+            ARG2: x30 ]
+          [ udef_q<28:40>
+            LBL: h32
+            ARG0: x30
+            RSTR: h33
+            BODY: h34 ]
+          [ _construction_n_of<28:40>
+            LBL: h35
+            ARG0: x30
+            ARG1: i36 ]
+          [ _vehicle_n_1<41:49>
+            LBL: h29
+            ARG0: x25 ]
+          [ _rise_v_1<50:55>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h33 QEQ h35 h27 QEQ h29 h20 QEQ h23 h17 QEQ h24 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:49>[BV x6]
+ x6:_sale_n_of<0:5>{x PERS 3, NUM pl}[ARG1 x9]
+ _2:udef_q<9:49>[BV x9]
+ x9:_part_n_1<9:14>{x PERS 3, NUM pl, IND +}[]
+ e14:_for_p<15:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<19:49>[BV x15]
+ _4:udef_q<19:23>[BV x21]
+ x21:_car_n_1<19:23>{x PERS 3, NUM pl, IND +}[]
+ x15:_and_c<24:27>{x PERS 3, NUM pl}[L-INDEX x21, R-INDEX x25]
+ _5:udef_q<28:49>[BV x25]
+ e31:compound<28:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x25, ARG2 x30]
+ _6:udef_q<28:40>[BV x30]
+ x30:_construction_n_of<28:40>{x}[]
+ x25:_vehicle_n_1<41:49>{x PERS 3, NUM pl, IND +}[]
+ e3:_rise_v_1<50:55>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:49> BV _sale_n_of<0:5>  
+  _sale_n_of<0:5> ARG1 _part_n_1<9:14>  
+  udef_q<9:49> BV _part_n_1<9:14>  
+  _for_p<15:18> ARG1 _part_n_1<9:14>  
+  _for_p<15:18> ARG2 _and_c<24:27>  
+  udef_q<19:49> BV _and_c<24:27>  
+  udef_q<19:23> BV _car_n_1<19:23>  
+  _and_c<24:27> L-INDEX _car_n_1<19:23>  
+  _and_c<24:27> R-INDEX _vehicle_n_1<41:49>  
+  udef_q<28:49> BV _vehicle_n_1<41:49>  
+  compound<28:49> ARG1 _vehicle_n_1<41:49>  
+  compound<28:49> ARG2 _construction_n_of<28:40>  
+  udef_q<28:40> BV _construction_n_of<28:40>  
+  _rise_v_1<50:55> ARG1 _sale_n_of<0:5>  
+  _sale_n_of<0:5> PERS 3  
+  _sale_n_of<0:5> NUM pl  
+  _part_n_1<9:14> PERS 3  
+  _part_n_1<9:14> NUM pl  
+  _part_n_1<9:14> IND +  
+  _for_p<15:18> SF prop  
+  _for_p<15:18> TENSE untensed  
+  _for_p<15:18> MOOD indicative  
+  _for_p<15:18> PROG -  
+  _for_p<15:18> PERF -  
+  _car_n_1<19:23> PERS 3  
+  _car_n_1<19:23> NUM pl  
+  _car_n_1<19:23> IND +  
+  _and_c<24:27> PERS 3  
+  _and_c<24:27> NUM pl  
+  compound<28:49> SF prop  
+  compound<28:49> TENSE untensed  
+  compound<28:49> MOOD indicative  
+  compound<28:49> PROG -  
+  compound<28:49> PERF -  
+  _vehicle_n_1<41:49> PERS 3  
+  _vehicle_n_1<41:49> NUM pl  
+  _vehicle_n_1<41:49> IND +  
+  _rise_v_1<50:55> SF prop  
+  _rise_v_1<50:55> TENSE past  
+  _rise_v_1<50:55> MOOD indicative  
+  _rise_v_1<50:55> PROG -  
+  _rise_v_1<50:55> PERF -  
+}
+

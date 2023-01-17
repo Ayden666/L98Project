@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:52 h)).
+;;;
+
+[21600050] (1 of 1) {1} `MANAGER REPLICATION FUNDS:'
+
+[21600050:12] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "MANAGER", 0, "null", "NN" 1.0)
+  (2, 1, 2, <8:19>, 1, "REPLICATION", 0, "null", "NN" 1.0)
+  (3, 2, 3, <20:25>, 1, "FUNDS", 0, "null", "NNS" 0.9729 "NNPS" 0.0152 "NNP" 0.0119)
+  (4, 3, 4, <25:26>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (42, 0, 1, <0:7>, 1, "MANAGER", 0, "null")
+  (57, 0, 1, <0:7>, 1, "MANAGER", 0, "null", "NN" 1.0)
+  (59, 0, 1, <0:7>, 1, "manager", 0, "null")
+  (63, 0, 1, <0:7>, 1, "manager", 0, "null")
+  (40, 1, 2, <8:19>, 1, "REPLICATION", 0, "null")
+  (56, 1, 2, <8:19>, 1, "REPLICATION", 0, "null", "NN" 1.0)
+  (58, 1, 2, <8:19>, 1, "replication", 0, "null")
+  (61, 1, 2, <8:19>, 1, "replication", 0, "null")
+  (41, 2, 3, <20:25>, 1, "FUNDS", 0, "null")
+  (55, 2, 3, <20:25>, 1, "FUNDS", 0, "null", "NNS" 0.9729)
+  (60, 2, 3, <20:25>, 1, "funds", 0, "null")
+  (62, 2, 3, <20:25>, 1, "funds", 0, "null")
+  (52, 3, 4, <25:26>, 1, ":", 0, "null")
+  (64, 3, 4, <25:26>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (864 NP_FRG_C 0.464741 0 4
+  (863 HDN_BNP-PN_C 1.61125 0 4
+   (862 HDN-AJ_REDREL_C 1.8024 0 4
+    (861 ^NP-HDN_TTL-CPD_C 0.601411 0 3
+     (860 N-HDN_CPD_C 0.508169 0 2
+      (831 HDN_OPTCMP_C -0.225111 0 1
+       (70 manager_n1@n_pp_c-of_le 0.0650285 0 1
+        ("manager" 59
+         "token [ +CARG \"MANAGER\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"manager\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (859 ^N_MS-CNT_ILR 0.097443 1 2
+       (75 generic_mass_count_noun@n_-_mc-unk_le 0 1 2
+        ("REPLICATION" 56
+         "token [ +CARG #1=\"REPLICATION\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_replication/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (826 ^N_SG_ILR 0.061169 2 3
+      (78 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("FUNDS" 41
+        "token [ +CARG #1=\"FUNDS\" +CLASS proper_ne +FORM #1 +FROM \"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97286289999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (98 colon_namely_pp@pp_-_i-cln_le -0.0322658 3 4
+     (":" 52
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP
+  (N (N (N (N (N "manager")) (N (N "REPLICATION"))) (N (N "FUNDS")))
+   (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:26>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:26>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:25>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:19>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:19>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ udef_q<0:7>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _manager_n_of<0:7>
+            LBL: h20
+            ARG0: x15
+            ARG1: i21 ]
+          [ _replication/nn_u_unknown<8:19>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<20:25>
+            LBL: h8
+            ARG0: x4
+            CARG: "FUNDS" ]
+          [ _colon_p_namely<25:26>
+            LBL: h8
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:26>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:26>[BV x4]
+ e10:compound<0:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:19>[BV x9]
+ e16:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:7>[BV x15]
+ x15:_manager_n_of<0:7>{x IND +}[]
+ x9:_replication/nn_u_unknown<8:19>{x PERS 3, NUM sg}[]
+ x4:named<20:25>("FUNDS"){x PERS 3, NUM sg, IND +}[]
+ e22:_colon_p_namely<25:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:26> ARG named<20:25>(FUNDS)  
+  proper_q<0:26> BV named<20:25>(FUNDS)  
+  compound<0:25> ARG1 named<20:25>(FUNDS)  
+  compound<0:25> ARG2 _replication/nn_u_unknown<8:19>  
+  udef_q<0:19> BV _replication/nn_u_unknown<8:19>  
+  compound<0:19> ARG1 _replication/nn_u_unknown<8:19>  
+  compound<0:19> ARG2 _manager_n_of<0:7>  
+  udef_q<0:7> BV _manager_n_of<0:7>  
+  _colon_p_namely<25:26> ARG1 named<20:25>(FUNDS)  
+  unknown<0:26> SF prop-or-ques  
+  unknown<0:26> TENSE untensed  
+  unknown<0:26> MOOD indicative  
+  unknown<0:26> PROG -  
+  unknown<0:26> PERF -  
+  compound<0:25> SF prop  
+  compound<0:25> TENSE untensed  
+  compound<0:25> MOOD indicative  
+  compound<0:25> PROG -  
+  compound<0:25> PERF -  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  _manager_n_of<0:7> IND +  
+  _replication/nn_u_unknown<8:19> PERS 3  
+  _replication/nn_u_unknown<8:19> NUM sg  
+  named<20:25>(FUNDS) PERS 3  
+  named<20:25>(FUNDS) NUM sg  
+  named<20:25>(FUNDS) IND +  
+  _colon_p_namely<25:26> SF prop  
+  _colon_p_namely<25:26> TENSE untensed  
+  _colon_p_namely<25:26> MOOD indicative  
+  _colon_p_namely<25:26> PROG -  
+  _colon_p_namely<25:26> PERF -  
+}
+

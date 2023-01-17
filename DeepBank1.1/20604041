@@ -1,0 +1,148 @@
+;;;
+;;; Redwoods export of `wsj06a';
+;;; (wsun@wsun; 22-jan-2018 (15:43 h)).
+;;;
+
+[20604041] (1 of 1) {1} `Mr. Carpenter denies the speculation.'
+
+[20604041:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:13>, 1, "Carpenter", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:20>, 1, "denies", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <21:24>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <25:36>, 1, "speculation", 0, "null", "NN" 1.0)
+  (6, 5, 6, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (73, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (78, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (56, 1, 2, <4:13>, 1, "Carpenter", 0, "null")
+  (69, 1, 2, <4:13>, 1, "Carpenter", 0, "null", "NNP" 1.0)
+  (72, 1, 2, <4:13>, 1, "carpenter", 0, "null")
+  (74, 1, 2, <4:13>, 1, "carpenter", 0, "null")
+  (63, 2, 3, <14:20>, 1, "denies", 0, "null")
+  (70, 2, 3, <14:20>, 1, "denies", 0, "null", "VBZ" 1.0)
+  (75, 2, 3, <14:20>, 1, "denies", 0, "null")
+  (65, 3, 4, <21:24>, 1, "the", 0, "null")
+  (76, 3, 4, <21:24>, 1, "the", 0, "null")
+  (67, 4, 5, <25:37>, 1, "speculation.", 0, "null")
+  (71, 4, 5, <25:37>, 1, "speculation.", 0, "null", "NN" 1.0)
+  (77, 4, 5, <25:37>, 1, "speculation.", 0, "null")
+>
+
+(ROOT_STRICT
+ (424 SB-HD_MC_C 8.39273 0 5
+  (417 HDN_BNP-PN_C 4.02279 0 2
+   (416 NP-HDN_TTL-CPD_C 3.33685 0 2
+    (414 N_SG_ILR 2.02901 0 1
+     (86 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 73
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (415 ^N_SG_ILR -0.0982517 1 2
+     (91 carpenter_n1@n_-_pn_le 0 1 2
+      ("carpenter" 72
+       "token [ +CARG \"Carpenter\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"carpenter\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (423 ^HD-CMP_U_C 3.35288 2 5
+   (418 ^V_3S-FIN_OLR 0.198464 2 3
+    (101 deny_v1@v_np_le 0 2 3
+     ("denies" 63
+      "token [ +CARG #1=\"denies\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (422 SP-HD_N_C 2.2163 3 5
+    (132 the_1@d_-_the_le 1.07131 3 4
+     ("the" 65
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (421 ^HDN_OPTCMP_C 0.793472 4 5
+     (420 W_PERIOD_PLR 0.463164 4 5
+      (419 N_MS-CNT_ILR 0.190494 4 5
+       (157 speculation_n1@n_pp_mc_le 0 4 5
+        ("speculation." 67
+         "token [ +CARG \"speculation\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"speculation.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "carpenter"))))
+ (VP (V (V "denies")) (NP (DET "the") (N (N (N (N "speculation.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:13>
+            LBL: h8
+            ARG0: x6
+            CARG: "Carpenter" ]
+          [ _deny_v_to<14:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<21:24>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _speculation_n_about<25:37>
+            LBL: h19
+            ARG0: x15
+            ARG1: i20 ] >
+   HCONS: < h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:13>("Carpenter"){x PERS 3, NUM sg, IND +}[]
+ e3:_deny_v_to-fn.Statement<14:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x6, ARG2-fn.Message x15]
+ _3:_the_q<21:24>[BV x15]
+ x15:_speculation_n_about<25:37>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:13> BV named<4:13>(Carpenter)  
+  compound<0:13> ARG1 named<4:13>(Carpenter)  
+  compound<0:13> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _deny_v_to<14:20> ARG1 named<4:13>(Carpenter)  
+  _deny_v_to<14:20> ARG2 _speculation_n_about<25:37>  
+  _the_q<21:24> BV _speculation_n_about<25:37>  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:13>(Carpenter) PERS 3  
+  named<4:13>(Carpenter) NUM sg  
+  named<4:13>(Carpenter) IND +  
+  _deny_v_to<14:20> SF prop  
+  _deny_v_to<14:20> TENSE pres  
+  _deny_v_to<14:20> MOOD indicative  
+  _deny_v_to<14:20> PROG -  
+  _deny_v_to<14:20> PERF -  
+  _speculation_n_about<25:37> PERS 3  
+  _speculation_n_about<25:37> NUM sg  
+}
+

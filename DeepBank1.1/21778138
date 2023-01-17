@@ -1,0 +1,129 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778138] (1 of 1) {1} `Nausea seems a commonplace symptom.'
+
+[21778138:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Nausea", 0, "null", "NN" 1.0)
+  (2, 1, 2, <7:12>, 1, "seems", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <13:14>, 1, "a", 0, "null", "DT" 1.0)
+  (4, 3, 4, <15:26>, 1, "commonplace", 0, "null", "JJ" 0.8765 "NN" 0.1235)
+  (5, 4, 5, <27:34>, 1, "symptom", 0, "null", "NN" 1.0)
+  (6, 5, 6, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:6>, 1, "Nausea", 0, "null")
+  (73, 0, 1, <0:6>, 1, "nausea", 0, "null")
+  (78, 0, 1, <0:6>, 1, "nausea", 0, "null")
+  (61, 1, 2, <7:12>, 1, "seems", 0, "null")
+  (70, 1, 2, <7:12>, 1, "seems", 0, "null", "VBZ" 1.0)
+  (74, 1, 2, <7:12>, 1, "seems", 0, "null")
+  (63, 2, 3, <13:14>, 1, "a", 0, "null")
+  (75, 2, 3, <13:14>, 1, "a", 0, "null")
+  (66, 3, 4, <15:26>, 1, "commonplace", 0, "null")
+  (69, 3, 4, <15:26>, 1, "commonplace", 0, "null", "JJ" 0.8765)
+  (72, 3, 4, <15:26>, 1, "commonplace", 0, "null", "NN" 0.1235)
+  (77, 3, 4, <15:26>, 1, "commonplace", 0, "null")
+  (65, 4, 5, <27:35>, 1, "symptom.", 0, "null")
+  (71, 4, 5, <27:35>, 1, "symptom.", 0, "null", "NN" 1.0)
+  (76, 4, 5, <27:35>, 1, "symptom.", 0, "null")
+>
+
+(ROOT_STRICT
+ (392 SB-HD_MC_C 4.7321 0 5
+  (385 HDN_BNP_C -0.084254 0 1
+   (384 N_MS-CNT_ILR 0.115822 0 1
+    (80 nausea_n1@n_-_mc_le 0 0 1
+     ("nausea" 73
+      "token [ +CARG \"Nausea\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"nausea\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (391 ^HD-CMP_U_C 3.30044 1 5
+   (386 ^V_3S-FIN_OLR -0.015484 1 2
+    (93 seem_v6@v_np_le -0.213948 1 2
+     ("seems" 61
+      "token [ +CARG #1=\"seems\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (390 SP-HD_N_C 2.3778 2 5
+    (106 a_det@d_-_sg-nmd_le -0.667877 2 3
+     ("a" 63
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (389 ^AJ-HDN_NORM_C 1.41222 3 5
+     (179 commonplace_a1@aj_-_i_le 0 3 4
+      ("commonplace" 66
+       "token [ +CARG #1=\"commonplace\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87654080000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (388 ^W_PERIOD_PLR 0.666184 4 5
+      (387 N_SG_ILR 0.423199 4 5
+       (182 symptom_n1@n_-_c_le 0 4 5
+        ("symptom." 65
+         "token [ +CARG \"symptom\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"symptom.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "nausea")))
+ (VP (V (V "seems"))
+  (NP (DET "a") (N (AP "commonplace") (N (N (N "symptom.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _nausea_n_1<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _seem_v_1<7:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<13:14>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _commonplace_a_1<15:26>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _symptom_n_1<27:35>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_nausea_n_1<0:6>{x PERS 3, NUM sg}[]
+ e3:_seem_v_1<7:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_a_q<13:14>[BV x9]
+ e14:_commonplace_a_1<15:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_symptom_n_1<27:35>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:6> BV _nausea_n_1<0:6>  
+  _seem_v_1<7:12> ARG1 _nausea_n_1<0:6>  
+  _seem_v_1<7:12> ARG2 _symptom_n_1<27:35>  
+  _a_q<13:14> BV _symptom_n_1<27:35>  
+  _commonplace_a_1<15:26> ARG1 _symptom_n_1<27:35>  
+  _nausea_n_1<0:6> PERS 3  
+  _nausea_n_1<0:6> NUM sg  
+  _seem_v_1<7:12> SF prop  
+  _seem_v_1<7:12> TENSE pres  
+  _seem_v_1<7:12> MOOD indicative  
+  _seem_v_1<7:12> PROG -  
+  _seem_v_1<7:12> PERF -  
+  _commonplace_a_1<15:26> SF prop  
+  _commonplace_a_1<15:26> TENSE untensed  
+  _commonplace_a_1<15:26> MOOD indicative  
+  _commonplace_a_1<15:26> PROG -  
+  _commonplace_a_1<15:26> PERF -  
+  _symptom_n_1<27:35> PERS 3  
+  _symptom_n_1<27:35> NUM sg  
+  _symptom_n_1<27:35> IND +  
+}
+

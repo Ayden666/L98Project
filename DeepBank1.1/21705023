@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj17a';
+;;; (wsun@wsun; 23-jan-2018 (02:00 h)).
+;;;
+
+[21705023] (1 of 1) {1} `Her findings?'
+
+[21705023:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Her", 0, "null", "PRP$" 1.0)
+  (2, 1, 2, <4:12>, 1, "findings", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <12:13>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (34, 0, 1, <0:3>, 1, "her", 0, "null")
+  (36, 0, 1, <0:3>, 1, "her", 0, "null")
+  (32, 1, 2, <4:13>, 1, "findings?", 0, "null")
+  (33, 1, 2, <4:13>, 1, "findings?", 0, "null", "NNS" 1.0)
+  (35, 1, 2, <4:13>, 1, "findings?", 0, "null")
+>
+
+(ROOT_FRAG
+ (107 NP_FRG_C -0.966231 0 2
+  (106 SP-HD_N_C 0.0406768 0 2
+   (39 her_poss@d_-_poss-her_le -0.0329854 0 1
+    ("her" 34
+     "token [ +CARG \"Her\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"her\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (105 ^W_QMARK_PLR 0.0736622 1 2
+    (104 N_PL_OLR 0.0736622 1 2
+     (51 finding_n1@n_-_c_le 0 1 2
+      ("findings?" 32
+       "token [ +CARG \"findings\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"findings?\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (DET "her") (N (N (N "findings?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ def_explicit_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ poss<0:3>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: F PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ pron<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ _finding_n_1<4:13>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:def_explicit_q<0:3>[BV x4]
+ e10:poss<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:pronoun_q<0:3>[BV x9]
+ x9:pron<0:3>{x PERS 3, NUM sg, GEND f, PT std}[]
+ x4:_finding_n_1<4:13>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:13> ARG _finding_n_1<4:13>  
+  def_explicit_q<0:3> BV _finding_n_1<4:13>  
+  poss<0:3> ARG1 _finding_n_1<4:13>  
+  poss<0:3> ARG2 pron<0:3>  
+  pronoun_q<0:3> BV pron<0:3>  
+  unknown<0:13> SF ques  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  poss<0:3> SF prop  
+  poss<0:3> TENSE untensed  
+  poss<0:3> MOOD indicative  
+  poss<0:3> PROG -  
+  poss<0:3> PERF -  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND f  
+  pron<0:3> PT std  
+  _finding_n_1<4:13> PERS 3  
+  _finding_n_1<4:13> NUM pl  
+  _finding_n_1<4:13> IND +  
+}
+

@@ -1,0 +1,249 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:56 h)).
+;;;
+
+[20628008] (1 of 1) {1} `"Aerospace orders are very good," Mr. Cole says.'
+
+[20628008:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:10>, 1, "Aerospace", 0, "null", "NNP" 0.8029 "NN" 0.1971)
+  (3, 2, 3, <11:17>, 1, "orders", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <18:21>, 1, "are", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <22:26>, 1, "very", 0, "null", "RB" 1.0)
+  (6, 5, 6, <27:31>, 1, "good", 0, "null", "JJ" 1.0)
+  (7, 6, 7, <31:32>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <32:33>, 1, "”", 0, "null", "''" 1.0)
+  (9, 8, 9, <34:37>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (10, 9, 10, <38:42>, 1, "Cole", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <43:47>, 1, "says", 0, "null", "VBZ" 1.0)
+  (12, 11, 12, <47:48>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (135, 0, 1, <0:10>, 1, "“Aerospace", 0, "null")
+  (145, 0, 1, <0:10>, 1, "“aerospace", 0, "null")
+  (153, 0, 1, <0:10>, 1, "“aerospace", 0, "null")
+  (124, 1, 2, <11:17>, 1, "orders", 0, "null")
+  (138, 1, 2, <11:17>, 1, "orders", 0, "null", "NNS" 1.0)
+  (148, 1, 2, <11:17>, 1, "orders", 0, "null")
+  (126, 2, 3, <18:21>, 1, "are", 0, "null")
+  (139, 2, 3, <18:21>, 1, "are", 0, "null", "VBP" 1.0)
+  (149, 2, 3, <18:21>, 1, "are", 0, "null")
+  (128, 3, 4, <22:26>, 1, "very", 0, "null")
+  (140, 3, 4, <22:26>, 1, "very", 0, "null", "RB" 1.0)
+  (150, 3, 4, <22:26>, 1, "very", 0, "null")
+  (130, 4, 5, <27:33>, 1, "good,”", 0, "null")
+  (141, 4, 5, <27:33>, 1, "good,”", 0, "null", "JJ" 1.0)
+  (151, 4, 5, <27:33>, 1, "good,”", 0, "null")
+  (112, 5, 6, <34:37>, 1, "Mr.", 0, "null")
+  (137, 5, 6, <34:37>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (144, 5, 6, <34:37>, 1, "mr.", 0, "null")
+  (147, 5, 6, <34:37>, 1, "mr.", 0, "null")
+  (111, 6, 7, <38:42>, 1, "Cole", 0, "null")
+  (136, 6, 7, <38:42>, 1, "Cole", 0, "null", "NNP" 1.0)
+  (143, 6, 7, <38:42>, 1, "cole", 0, "null")
+  (146, 6, 7, <38:42>, 1, "cole", 0, "null")
+  (132, 7, 8, <43:48>, 1, "says.", 0, "null")
+  (142, 7, 8, <43:48>, 1, "says.", 0, "null", "VBZ" 1.0)
+  (152, 7, 8, <43:48>, 1, "says.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2167 FLR-HD_NWH_C 15.9217 0 8
+  (2157 SB-HD_NMC_C 9.2976 0 5
+   (2151 HDN_BNP_C 1.85017 0 2
+    (2150 N-HDN_CPD_C 1.87652 0 2
+     (2148 W_DQLEFT_PLR 0 0 1
+      (159 aerospace_n1@n_-_m_le 0 0 1
+       ("“aerospace" 145
+        "token [ +CARG \"Aerospace\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“aerospace\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80285960000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2149 ^N_PL_OLR 1.74531 1 2
+      (168 order_n1@n_-_mc-ns_le 1.69933 1 2
+       ("orders" 124
+        "token [ +CARG #1=\"orders\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (2156 ^HD-CMP_U_C 6.76405 2 5
+    (238 be_c_are@v_prd_are_le 1.30737 2 3
+     ("are" 126
+      "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2155 SP-HD_HC_C 5.18766 3 5
+     (245 very@av_-_dg-v_le 0.860531 3 4
+      ("very" 128
+       "token [ +CARG #1=\"very\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2154 ^HD_OPTCMP_C 3.5436 4 5
+      (2153 W_DQRIGHT_PLR 3.39907 4 5
+       (2152 W_COMMA_PLR 0.56639 4 5
+        (251 good_a2@aj_pp_i-er_le 0 4 5
+         ("good,”" 130
+          "token [ +CARG \"good\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"good,”\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+  (2166 ^SB-HD_NMC_C 4.84132 5 8
+   (2161 HDN_BNP-PN_C 3.18598 5 7
+    (2160 NP-HDN_TTL-CPD_C 2.8943 5 7
+     (2158 N_SG_ILR 2.02901 5 6
+      (310 mister_abb_n2@n_-_c-nochd_le 0.509922 5 6
+       ("mr." 144
+        "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"mr.\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2159 ^N_SG_ILR -0.259177 6 7
+      (313 generic_proper_ne@n_-_pn-gen_le 0 6 7
+       ("Cole" 111
+        "token [ +CARG #1=\"Cole\" +CLASS proper_ne +FORM #1 +FROM \"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (2165 ^HD_XCMP_C 1.31306 7 8
+    (2164 HD_OPTCMP_C 0.57709 7 8
+     (2163 W_PERIOD_PLR -0.262627 7 8
+      (2162 V_3S-FIN_OLR 0.722109 7 8
+       (351 say_v2@v_pp*-cp_fin-imp_le 0.172836 7 8
+        ("says." 132
+         "token [ +CARG \"says\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"says.\" +FROM #1=\"43\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (S (NP (N (N (N "“aerospace")) (N (N "orders"))))
+  (VP (V "are") (AP (ADV "very") (AP (ADJ (ADJ (ADJ "good,”")))))))
+ (S/S (NP (N (N (N "mr.")) (N (N "Cole"))))
+  (VP/S (V/S (V/S (V/S (V/S "says.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:48>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ udef_q<0:17>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: PL ]
+            RSTR: h7
+            BODY: h9 ]
+          [ compound<0:17>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:10>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _aerospace_n_1<0:10>
+            LBL: h16
+            ARG0: x11 ]
+          [ _order_n_of<11:17>
+            LBL: h10
+            ARG0: x8 ]
+          [ _very_x_deg<22:26>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e4 ]
+          [ _good_a_at-for-of<27:33>
+            LBL: h17
+            ARG0: e4
+            ARG1: x8
+            ARG2: i19 ]
+          [ proper_q<34:42>
+            LBL: h20
+            ARG0: x22 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h21
+            BODY: h23 ]
+          [ compound<34:42>
+            LBL: h24
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<34:37>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ _mister_n_1<34:37>
+            LBL: h30
+            ARG0: x25 ]
+          [ named<38:42>
+            LBL: h24
+            ARG0: x22
+            CARG: "Cole" ]
+          [ _say_v_to<43:48>
+            LBL: h2
+            ARG0: e3
+            ARG1: x22
+            ARG2: h32
+            ARG3: i31 ] >
+   HCONS: < h32 QEQ h17 h28 QEQ h30 h21 QEQ h24 h14 QEQ h16 h7 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ _1:udef_q<0:17>[BV x8]
+ e12:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x11]
+ _2:udef_q<0:10>[BV x11]
+ x11:_aerospace_n_1<0:10>{x PERS 3, NUM sg, IND -}[]
+ x8:_order_n_of<11:17>{x PERS 3, NUM pl}[]
+ e18:_very_x_deg<22:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4]
+ e4:_good_a_at-for-of<27:33>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ _3:proper_q<34:42>[BV x22]
+ e26:compound<34:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x25]
+ _4:udef_q<34:37>[BV x25]
+ x25:_mister_n_1<34:37>{x PERS 3, NUM sg, IND +}[]
+ x22:named<38:42>("Cole"){x PERS 3, NUM sg, IND +}[]
+ e3:_say_v_to<43:48>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 e4]
+}
+
+{
+  focus_d<0:48> ARG1 _say_v_to<43:48>  
+  focus_d<0:48> ARG2 _good_a_at-for-of<27:33>  
+  udef_q<0:17> BV _order_n_of<11:17>  
+  compound<0:17> ARG1 _order_n_of<11:17>  
+  compound<0:17> ARG2 _aerospace_n_1<0:10>  
+  udef_q<0:10> BV _aerospace_n_1<0:10>  
+  _very_x_deg<22:26> ARG1 _good_a_at-for-of<27:33>  
+  _good_a_at-for-of<27:33> ARG1 _order_n_of<11:17>  
+  proper_q<34:42> BV named<38:42>(Cole)  
+  compound<34:42> ARG1 named<38:42>(Cole)  
+  compound<34:42> ARG2 _mister_n_1<34:37>  
+  udef_q<34:37> BV _mister_n_1<34:37>  
+  _say_v_to<43:48> ARG1 named<38:42>(Cole)  
+  _say_v_to<43:48> ARG2 _good_a_at-for-of<27:33>  
+  focus_d<0:48> SF prop  
+  focus_d<0:48> TENSE untensed  
+  focus_d<0:48> MOOD indicative  
+  focus_d<0:48> PROG -  
+  focus_d<0:48> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  _aerospace_n_1<0:10> PERS 3  
+  _aerospace_n_1<0:10> NUM sg  
+  _aerospace_n_1<0:10> IND -  
+  _order_n_of<11:17> PERS 3  
+  _order_n_of<11:17> NUM pl  
+  _very_x_deg<22:26> SF prop  
+  _very_x_deg<22:26> TENSE untensed  
+  _very_x_deg<22:26> MOOD indicative  
+  _very_x_deg<22:26> PROG -  
+  _very_x_deg<22:26> PERF -  
+  _good_a_at-for-of<27:33> SF prop  
+  _good_a_at-for-of<27:33> TENSE pres  
+  _good_a_at-for-of<27:33> MOOD indicative  
+  _good_a_at-for-of<27:33> PROG -  
+  _good_a_at-for-of<27:33> PERF -  
+  compound<34:42> SF prop  
+  compound<34:42> TENSE untensed  
+  compound<34:42> MOOD indicative  
+  compound<34:42> PROG -  
+  compound<34:42> PERF -  
+  _mister_n_1<34:37> PERS 3  
+  _mister_n_1<34:37> NUM sg  
+  _mister_n_1<34:37> IND +  
+  named<38:42>(Cole) PERS 3  
+  named<38:42>(Cole) NUM sg  
+  named<38:42>(Cole) IND +  
+  _say_v_to<43:48> SF prop  
+  _say_v_to<43:48> TENSE pres  
+  _say_v_to<43:48> MOOD indicative  
+  _say_v_to<43:48> PROG -  
+  _say_v_to<43:48> PERF -  
+}
+

@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:41 h)).
+;;;
+
+[20283024] (1 of 1) {1} `NUCLEAR REACTOR FOR ISRAEL?'
+
+[20283024:3] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "NUCLEAR", 0, "null", "NN" 1.0)
+  (2, 1, 2, <8:15>, 1, "REACTOR", 0, "null", "NN" 1.0)
+  (3, 2, 3, <16:19>, 1, "FOR", 0, "null", "IN" 1.0)
+  (4, 3, 4, <20:26>, 1, "ISRAEL", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <26:27>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:7>, 1, "NUCLEAR", 0, "null")
+  (65, 0, 1, <0:7>, 1, "NUCLEAR", 0, "null", "NN" 1.0)
+  (69, 0, 1, <0:7>, 1, "nuclear", 0, "null")
+  (73, 0, 1, <0:7>, 1, "nuclear", 0, "null")
+  (50, 1, 2, <8:15>, 1, "REACTOR", 0, "null")
+  (64, 1, 2, <8:15>, 1, "REACTOR", 0, "null", "NN" 1.0)
+  (67, 1, 2, <8:15>, 1, "reactor", 0, "null")
+  (71, 1, 2, <8:15>, 1, "reactor", 0, "null")
+  (51, 2, 3, <16:19>, 1, "FOR", 0, "null")
+  (68, 2, 3, <16:19>, 1, "for", 0, "null")
+  (72, 2, 3, <16:19>, 1, "for", 0, "null")
+  (55, 3, 4, <20:27>, 1, "ISRAEL?", 0, "null")
+  (66, 3, 4, <20:27>, 1, "ISRAEL?", 0, "null", "NNP" 1.0)
+  (70, 3, 4, <20:27>, 1, "israel?", 0, "null")
+  (74, 3, 4, <20:27>, 1, "israel?", 0, "null")
+>
+
+(ROOT_FRAG
+ (548 NP-AJ_RORP-FRG_C 0.787768 0 4
+  (547 ^HDN_BNP-PN_C 0.85163 0 2
+   (546 AJ-HDN_NORM_C 0.714768 0 2
+    (81 nuclear_a1@aj_-_i_le 0 0 1
+     ("nuclear" 69
+      "token [ +CARG \"NUCLEAR\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"nuclear\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (522 ^N_SG_ILR -0.143257 1 2
+     (82 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("REACTOR" 50
+       "token [ +CARG #1=\"REACTOR\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (535 HD-CMP_U_C 0.957054 2 4
+   (93 for@p_np_i_le 0.405869 2 3
+    ("for" 68
+     "token [ +CARG \"FOR\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"for\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (534 HDN_BNP-PN_C -0.418865 3 4
+    (529 W_QMARK_PLR -0.418865 3 4
+     (528 N_SG_ILR -0.6713 3 4
+      (117 israel_n1@n_-_pn_le 0 3 4
+       ("israel?" 70
+        "token [ +CARG \"ISRAEL\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"israel?\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (N (AP "nuclear") (N (N "REACTOR"))))
+ (PP (P "for") (NP (N (N (N "israel?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:27>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _nuclear_a_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ named<8:15>
+            LBL: h8
+            ARG0: x4
+            CARG: "REACTOR" ]
+          [ _for_p<16:19>
+            LBL: h2
+            ARG0: e10 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u12
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<20:27>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ named<20:27>
+            LBL: h16
+            ARG0: x11
+            CARG: "Israel" ] >
+   HCONS: < h14 QEQ h16 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:15>[BV x4]
+ e9:_nuclear_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:named<8:15>("REACTOR"){x PERS 3, NUM sg, IND +}[]
+ e10:_for_p<16:19>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x11]
+ _2:proper_q<20:27>[BV x11]
+ x11:named<20:27>("Israel"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:27> ARG named<8:15>(REACTOR)  
+  proper_q<0:15> BV named<8:15>(REACTOR)  
+  _nuclear_a_1<0:7> ARG1 named<8:15>(REACTOR)  
+  _for_p<16:19> ARG2 named<20:27>(Israel)  
+  proper_q<20:27> BV named<20:27>(Israel)  
+  unknown<0:27> SF prop  
+  unknown<0:27> TENSE untensed  
+  unknown<0:27> MOOD indicative  
+  unknown<0:27> PROG -  
+  unknown<0:27> PERF -  
+  _nuclear_a_1<0:7> SF prop  
+  _nuclear_a_1<0:7> TENSE untensed  
+  _nuclear_a_1<0:7> MOOD indicative  
+  _nuclear_a_1<0:7> PROG -  
+  _nuclear_a_1<0:7> PERF -  
+  named<8:15>(REACTOR) PERS 3  
+  named<8:15>(REACTOR) NUM sg  
+  named<8:15>(REACTOR) IND +  
+  _for_p<16:19> SF ques  
+  _for_p<16:19> TENSE untensed  
+  _for_p<16:19> MOOD indicative  
+  _for_p<16:19> PROG -  
+  _for_p<16:19> PERF -  
+  named<20:27>(Israel) PERS 3  
+  named<20:27>(Israel) NUM sg  
+  named<20:27>(Israel) IND +  
+}
+

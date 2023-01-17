@@ -1,0 +1,65 @@
+;;;
+;;; Redwoods export of `wsj15b';
+;;; (wsun@wsun; 23-jan-2018 (00:21 h)).
+;;;
+
+[21554041] (1 of 1) {1} `Energy'
+
+[21554041:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Energy", 0, "null", "NNP" 0.8742 "NN" 0.1258)
+>
+
+<
+  (14, 0, 1, <0:6>, 1, "Energy", 0, "null")
+  (15, 0, 1, <0:6>, 1, "energy", 0, "null")
+  (16, 0, 1, <0:6>, 1, "energy", 0, "null")
+>
+
+(ROOT_FRAG
+ (30 NP_FRG_C -0.652851 0 1
+  (29 HDN_BNP_C -0.448437 0 1
+   (27 N_MS-CNT_ILR -0.523485 0 1
+    (18 energy_n1@n_-_mc_le -0.209169 0 1
+     ("energy" 15
+      "token [ +CARG \"Energy\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"energy\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87423249999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N "energy"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:6>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:6>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _energy_n_1<0:6>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:6>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:6>[BV x4]
+ x4:_energy_n_1<0:6>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:6> ARG _energy_n_1<0:6>  
+  udef_q<0:6> BV _energy_n_1<0:6>  
+  unknown<0:6> SF prop-or-ques  
+  unknown<0:6> TENSE untensed  
+  unknown<0:6> MOOD indicative  
+  unknown<0:6> PROG -  
+  unknown<0:6> PERF -  
+  _energy_n_1<0:6> PERS 3  
+  _energy_n_1<0:6> NUM sg  
+}
+

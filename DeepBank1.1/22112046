@@ -1,0 +1,138 @@
+;;;
+;;; Redwoods export of `wsj21a';
+;;; (wsun@wsun; 23-jan-2018 (06:02 h)).
+;;;
+
+[22112046] (1 of 1) {1} `(But who's counting.)'
+
+[22112046:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "(", 0, "null", "(" 1.0)
+  (2, 1, 2, <1:4>, 1, "But", 0, "null", "CC" 1.0)
+  (3, 2, 3, <5:8>, 1, "who", 0, "null", "WP" 1.0)
+  (4, 3, 4, <8:10>, 1, "’s", 0, "null", "VBZ" 0.9265 "NNS" 0.0735)
+  (5, 4, 5, <11:19>, 1, "counting", 0, "null", "VBG" 0.9626 "NN" 0.0374)
+  (6, 5, 6, <19:20>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <20:21>, 1, ")", 0, "null", ")" 1.0)
+>
+
+<
+  (81, 0, 1, <0:4>, 1, "(but", 0, "null")
+  (85, 0, 1, <0:4>, 1, "(but", 0, "null")
+  (72, 1, 2, <5:8>, 1, "who", 0, "null")
+  (82, 1, 2, <5:8>, 1, "who", 0, "null")
+  (75, 2, 3, <8:10>, 1, "’s", 0, "null")
+  (79, 2, 3, <8:10>, 1, "’s", 0, "null", "VBZ" 0.9265)
+  (83, 2, 3, <8:10>, 1, "’s", 0, "null")
+  (77, 3, 4, <11:21>, 1, "counting.)", 0, "null")
+  (80, 3, 4, <11:21>, 1, "counting.)", 0, "null", "VBG" 0.9626)
+  (84, 3, 4, <11:21>, 1, "counting.)", 0, "null")
+>
+
+(ROOT_INFFRAG
+ (775 PP_FRG_C -0.93195 0 4
+  (774 HD-CMP_U_C 0.315972 0 4
+   (764 ^W_LPAREN_PLR 0 0 1
+    (92 but_except_p@p_np_i-nsp-ngap_le 0 0 1
+     ("(but" 81
+      "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"(but\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (773 CL_NP-WH_C 0.315972 1 4
+    (772 FLR-HD_WH-NMC-FIN_C 0.904294 1 4
+     (766 HDN_BNP-QNT_C 0.128823 1 2
+      (765 HDN_OPTCMP_C 0.510152 1 2
+       (104 who1@n_-_pr-who_le 0.235349 1 2
+        ("who" 72
+         "token [ +CARG #1=\"who\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (771 ^HD_XSB-FIN_C 0.366322 2 4
+      (770 HD-CMP_U_C 0.0950556 2 4
+       (116 be_c_is_cx_3@v_prd_is-cx_le 0.0090707 2 3
+        ("’s" 75
+         "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.926481\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (769 W_RPAREN_PLR 0.0859849 3 4
+        (768 W_PERIOD_PLR -0.987875 3 4
+         (767 V_PRP_OLR -0.377572 3 4
+          (277 count_v1@v_-_unacc_le 0 3 4
+           ("counting.)" 77
+            "token [ +CARG \"counting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"counting.)\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96256940000000002\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(XP
+ (PP (P (P "(but"))
+  (NP
+   (S (NP (N (N "who")))
+    (S/NP (VP/NP (V/NP "’s") (VP (VP (VP (V "counting.)"))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:21>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _but_p_except<0:4>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<5:21>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ nominalization<5:21>
+            LBL: h10
+            ARG0: x6
+            ARG1: h11 ]
+          [ person<5:8>
+            LBL: h12
+            ARG0: x13 [ x PERS: 3 NUM: SG ] ]
+          [ which_q<5:8>
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ _count_v_1<11:21>
+            LBL: h11
+            ARG0: e17 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: x13 ] >
+   HCONS: < h15 QEQ h12 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_but_p_except<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:udef_q<5:21>[BV x6]
+ x6:nominalization<5:21>{x PERS 3, NUM sg}[ARG1 e17]
+ x13:person<5:8>{x PERS 3, NUM sg}[]
+ _2:which_q<5:8>[BV x13]
+ e17:_count_v_1<11:21>{e SF ques, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x13]
+}
+
+{
+  _but_p_except<0:4> ARG1 unknown<0:21>  
+  _but_p_except<0:4> ARG2 nominalization<5:21>  
+  udef_q<5:21> BV nominalization<5:21>  
+  nominalization<5:21> ARG1 _count_v_1<11:21>  
+  which_q<5:8> BV person<5:8>  
+  _count_v_1<11:21> ARG1 person<5:8>  
+  unknown<0:21> SF prop  
+  unknown<0:21> TENSE untensed  
+  unknown<0:21> MOOD indicative  
+  unknown<0:21> PROG -  
+  unknown<0:21> PERF -  
+  _but_p_except<0:4> SF prop  
+  _but_p_except<0:4> TENSE untensed  
+  _but_p_except<0:4> MOOD indicative  
+  _but_p_except<0:4> PROG -  
+  _but_p_except<0:4> PERF -  
+  nominalization<5:21> PERS 3  
+  nominalization<5:21> NUM sg  
+  person<5:8> PERS 3  
+  person<5:8> NUM sg  
+  _count_v_1<11:21> SF ques  
+  _count_v_1<11:21> TENSE pres  
+  _count_v_1<11:21> MOOD indicative  
+  _count_v_1<11:21> PROG +  
+  _count_v_1<11:21> PERF -  
+}
+

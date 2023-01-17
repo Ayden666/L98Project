@@ -1,0 +1,190 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:49 h)).
+;;;
+
+[20710003] (1 of 1) {1} `Vincent Jolivet Kenmore, Wash.'
+
+[20710003:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Vincent", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:15>, 1, "Jolivet", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <16:23>, 1, "Kenmore", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <23:24>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <25:29>, 1, "Wash", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:7>, 1, "Vincent", 0, "null")
+  (78, 0, 1, <0:7>, 1, "vincent", 0, "null")
+  (84, 0, 1, <0:7>, 1, "vincent", 0, "null")
+  (58, 1, 2, <8:15>, 1, "Jolivet", 0, "null")
+  (74, 1, 2, <8:15>, 1, "Jolivet", 0, "null", "NNP" 1.0)
+  (77, 1, 2, <8:15>, 1, "jolivet", 0, "null")
+  (81, 1, 2, <8:15>, 1, "jolivet", 0, "null")
+  (62, 2, 3, <16:24>, 1, "Kenmore,", 0, "null")
+  (75, 2, 3, <16:24>, 1, "Kenmore,", 0, "null", "NNP" 1.0)
+  (79, 2, 3, <16:24>, 1, "kenmore,", 0, "null")
+  (82, 2, 3, <16:24>, 1, "kenmore,", 0, "null")
+  (64, 3, 4, <25:30>, 1, "Wash.", 0, "null")
+  (76, 3, 4, <25:30>, 1, "Wash.", 0, "null", "NNP" 1.0)
+  (80, 3, 4, <25:30>, 1, "wash.", 0, "null")
+  (83, 3, 4, <25:30>, 1, "wash.", 0, "null")
+>
+
+(ROOT_FRAG
+ (599 NP_FRG_C 1.24742 0 4
+  (598 HDN_BNP-PN_C 2.39393 0 4
+   (597 NP-HDN_NME-CPD_C 2.43324 0 4
+    (586 HDN_BNP-PN_C 2.30669 0 2
+     (585 NP-HDN_NME-CPD_C 1.95878 0 2
+      (583 HDN_BNP-PN_C 0.586141 0 1
+       (582 N_SG_ILR -0.166294 0 1
+        (89 vincent_n1@n_-_pn_le 0 0 1
+         ("vincent" 78
+          "token [ +CARG \"Vincent\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"vincent\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (584 ^N_SG_ILR -0.143257 1 2
+       (90 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Jolivet" 58
+         "token [ +CARG #1=\"Jolivet\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (596 ^NP-HDN_CTY-CPD_C 0.564258 2 4
+     (595 HDN_BNP-PN_C 0.432634 2 3
+      (588 W_COMMA_PLR 0.320429 2 3
+       (587 N_SG_ILR -0.750918 2 3
+        (102 kenmore_n1@n_-_pn_le 0 2 3
+         ("kenmore," 79
+          "token [ +CARG \"Kenmore\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"kenmore,\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (591 ^N_SG_ILR 0.496727 3 4
+      (126 washington_n4@n_-_pn-abb_le 0 3 4
+       ("wash." 80
+        "token [ +CARG \"Wash\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"wash.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP
+ (NP
+  (N (NP (N (NP (N (N "vincent"))) (N (N "Jolivet"))))
+   (N (NP (N (N (N "kenmore,")))) (N (N "wash."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:30>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:30>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:30>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:15>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:7>
+            LBL: h20
+            ARG0: x15
+            CARG: "Vincent" ]
+          [ named<8:15>
+            LBL: h14
+            ARG0: x9
+            CARG: "Jolivet" ]
+          [ compound<16:30>
+            LBL: h8
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<16:24>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ named<16:24>
+            LBL: h26
+            ARG0: x21
+            CARG: "Kenmore" ]
+          [ named<25:30>
+            LBL: h8
+            ARG0: x4
+            CARG: "Washington" ] >
+   HCONS: < h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:30>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:30>[BV x4]
+ e10:compound<0:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:15>[BV x9]
+ e16:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:7>[BV x15]
+ x15:named<0:7>("Vincent"){x PERS 3, NUM sg, IND +}[]
+ x9:named<8:15>("Jolivet"){x PERS 3, NUM sg, IND +}[]
+ e22:compound<16:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x21]
+ _4:proper_q<16:24>[BV x21]
+ x21:named<16:24>("Kenmore"){x PERS 3, NUM sg, IND +}[]
+ x4:named<25:30>("Washington"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:30> ARG named<25:30>(Washington)  
+  proper_q<0:30> BV named<25:30>(Washington)  
+  compound<0:30> ARG1 named<25:30>(Washington)  
+  compound<0:30> ARG2 named<8:15>(Jolivet)  
+  proper_q<0:15> BV named<8:15>(Jolivet)  
+  compound<0:15> ARG1 named<8:15>(Jolivet)  
+  compound<0:15> ARG2 named<0:7>(Vincent)  
+  proper_q<0:7> BV named<0:7>(Vincent)  
+  compound<16:30> ARG1 named<25:30>(Washington)  
+  compound<16:30> ARG2 named<16:24>(Kenmore)  
+  proper_q<16:24> BV named<16:24>(Kenmore)  
+  unknown<0:30> SF prop-or-ques  
+  unknown<0:30> TENSE untensed  
+  unknown<0:30> MOOD indicative  
+  unknown<0:30> PROG -  
+  unknown<0:30> PERF -  
+  compound<0:30> SF prop  
+  compound<0:30> TENSE untensed  
+  compound<0:30> MOOD indicative  
+  compound<0:30> PROG -  
+  compound<0:30> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  named<0:7>(Vincent) PERS 3  
+  named<0:7>(Vincent) NUM sg  
+  named<0:7>(Vincent) IND +  
+  named<8:15>(Jolivet) PERS 3  
+  named<8:15>(Jolivet) NUM sg  
+  named<8:15>(Jolivet) IND +  
+  compound<16:30> SF prop  
+  compound<16:30> TENSE untensed  
+  compound<16:30> MOOD indicative  
+  compound<16:30> PROG -  
+  compound<16:30> PERF -  
+  named<16:24>(Kenmore) PERS 3  
+  named<16:24>(Kenmore) NUM sg  
+  named<16:24>(Kenmore) IND +  
+  named<25:30>(Washington) PERS 3  
+  named<25:30>(Washington) NUM sg  
+  named<25:30>(Washington) IND +  
+}
+

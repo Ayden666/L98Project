@@ -1,0 +1,86 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:34 h)).
+;;;
+
+[21367074] (1 of 1) {1} `They didn't.'
+
+[21367074:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:8>, 1, "did", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <8:11>, 1, "n’t", 0, "null", "JJ" 0.5674 "NN" 0.353 "VBN" 0.0385 "RB" 0.0246 "VB" 0.0165)
+  (4, 3, 4, <11:12>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (39, 0, 1, <0:4>, 1, "they", 0, "null")
+  (41, 0, 1, <0:4>, 1, "they", 0, "null")
+  (37, 1, 2, <5:12>, 1, "didn’t.", 0, "null")
+  (38, 1, 2, <5:12>, 1, "didn’t.", 0, "null", "VBD" 1.0)
+  (40, 1, 2, <5:12>, 1, "didn’t.", 0, "null")
+>
+
+(ROOT_STRICT
+ (104 SB-HD_MC_C 0.792622 0 2
+  (101 HDN_BNP-QNT_C 1.15641 0 1
+   (42 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 39
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (103 ^W_PERIOD_PLR -0.497943 1 2
+   (102 V_AUX-ELL-REF_DLR -0.0952226 1 2
+    (57 did1_neg_4_u@v_vp_did-n_le 0 1 2
+     ("didn’t." 37
+      "token [ +CARG \"didn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"didn’t.\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP "they")) (VP (VP (V "didn’t."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<5:12>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ ellipsis_ref<5:12>
+            LBL: h11
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e10:neg<5:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:ellipsis_ref<5:12>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  neg<5:12> ARG1 ellipsis_ref<5:12>  
+  ellipsis_ref<5:12> ARG1 pron<0:4>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  neg<5:12> SF prop  
+  neg<5:12> TENSE untensed  
+  neg<5:12> MOOD indicative  
+  neg<5:12> PROG -  
+  neg<5:12> PERF -  
+  ellipsis_ref<5:12> SF prop  
+  ellipsis_ref<5:12> TENSE past  
+  ellipsis_ref<5:12> MOOD indicative  
+  ellipsis_ref<5:12> PROG -  
+  ellipsis_ref<5:12> PERF -  
+}
+

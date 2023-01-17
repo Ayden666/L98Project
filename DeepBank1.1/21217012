@@ -1,0 +1,235 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:08 h)).
+;;;
+
+[21217012] (1 of 1) {1} `Excluding transportation items, orders rose 1.8%.'
+
+[21217012:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Excluding", 0, "null", "VBG" 0.9812 "NNP" 0.0188)
+  (2, 1, 2, <10:24>, 1, "transportation", 0, "null", "NN" 1.0)
+  (3, 2, 3, <25:30>, 1, "items", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <30:31>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <32:38>, 1, "orders", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <39:43>, 1, "rose", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <44:47>, 1, "1.8", 0, "null", "CD" 1.0)
+  (8, 7, 8, <47:48>, 1, "%", 0, "null", "NN" 1.0)
+  (9, 8, 9, <48:49>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (96, 0, 1, <0:9>, 1, "Excluding", 0, "null", "VBG" 0.9812)
+  (101, 0, 1, <0:9>, 1, "excluding", 0, "null")
+  (108, 0, 1, <0:9>, 1, "excluding", 0, "null")
+  (85, 1, 2, <10:24>, 1, "transportation", 0, "null")
+  (97, 1, 2, <10:24>, 1, "transportation", 0, "null", "NN" 1.0)
+  (103, 1, 2, <10:24>, 1, "transportation", 0, "null")
+  (93, 2, 3, <25:31>, 1, "items,", 0, "null")
+  (100, 2, 3, <25:31>, 1, "items,", 0, "null", "NNS" 1.0)
+  (107, 2, 3, <25:31>, 1, "items,", 0, "null")
+  (87, 3, 4, <32:38>, 1, "orders", 0, "null")
+  (98, 3, 4, <32:38>, 1, "orders", 0, "null", "NNS" 1.0)
+  (104, 3, 4, <32:38>, 1, "orders", 0, "null")
+  (89, 4, 5, <39:43>, 1, "rose", 0, "null")
+  (99, 4, 5, <39:43>, 1, "rose", 0, "null", "VBD" 1.0)
+  (105, 4, 5, <39:43>, 1, "rose", 0, "null")
+  (76, 5, 6, <44:47>, 1, "1.8", 0, "null")
+  (102, 5, 6, <44:47>, 1, "1.8", 0, "null")
+  (91, 6, 7, <47:49>, 1, "%.", 0, "null")
+  (106, 6, 7, <47:49>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2477 AJ-HD_SCP_C 9.01254 0 7
+  (2465 VP_SBRD-PRE_C 2.29275 0 3
+   (2464 HD-CMP_U_C 2.27752 0 3
+    (2458 ^V_PRP_OLR 0.423532 0 1
+     (115 exclude_v1@v_np_le 0 0 1
+      ("excluding" 101
+       "token [ +CARG \"Excluding\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"excluding\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98119259999999997\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2463 HDN_BNP_C 1.63875 1 3
+     (2462 N-HDN_CPD_C 1.89912 1 3
+      (119 transportation_n1@n_-_m_le -0.296943 1 2
+       ("transportation" 85
+        "token [ +CARG #1=\"transportation\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2461 ^HDN_OPTCMP_C 2.05652 2 3
+       (2460 W_COMMA_PLR 1.26347 2 3
+        (2459 N_PL_OLR 0.400205 2 3
+         (121 item_n1@n_pp_c-ns-of_le 0 2 3
+          ("items," 93
+           "token [ +CARG \"items\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"items,\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+  (2476 ^SB-HD_MC_C 5.87193 3 7
+   (2467 HDN_BNP_C -0.340157 3 4
+    (2466 N_PL_OLR 0.67802 3 4
+     (156 order_n1@n_-_mc-ns_le 1.25457 3 4
+      ("orders" 87
+       "token [ +CARG #1=\"orders\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (2475 ^HD-AJ_INT-UNSL_C 6.23394 4 7
+    (2469 ^HD_OPTCMP_C 4.40977 4 5
+     (2468 V_PST_OLR 3.53124 4 5
+      (228 rise_v2@v_pp_unacc_le 1.80509 4 5
+       ("rose" 89
+        "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2474 NP_ADV-MNP_C 1.84208 5 7
+     (2473 HDN_BNP_C 3.06546 5 7
+      (2472 NUM-N_MNP_C 1.54108 5 7
+       (237 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("1.8" 76
+         "token [ +CARG #1=\"1.8\" +CLASS card_or_proper_ne +FORM #1 +FROM \"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (2471 ^W_PERIOD_PLR 1.02943 6 7
+        (2470 N_PL_OLR 0.482577 6 7
+         (239 percent_char_n1@n_-_c-meas-spr_le 0.328883 6 7
+          ("%." 91
+           "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (PP
+  (VP (V (V "excluding"))
+   (NP (N (N "transportation") (N (N (N (N "items,"))))))))
+ (S (NP (N (N "orders")))
+  (VP (VP (V (V "rose"))) (PP (NP (N (ADJ "1.8") (N (N (N "%.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ subord<0:31>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h5
+            ARG2: h4 ]
+          [ _exclude_v_1<0:9>
+            LBL: h7
+            ARG0: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i10
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<10:31>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<10:31>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<10:24>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _transportation_n_1<10:24>
+            LBL: h20
+            ARG0: x15 ]
+          [ _item_n_of<25:31>
+            LBL: h14
+            ARG0: x9
+            ARG1: i21 ]
+          [ udef_q<32:38>
+            LBL: h22
+            ARG0: x24 [ x PERS: 3 NUM: PL ]
+            RSTR: h23
+            BODY: h25 ]
+          [ _order_n_of<32:38>
+            LBL: h26
+            ARG0: x24 ]
+          [ _rise_v_1<39:43>
+            LBL: h27
+            ARG0: e3
+            ARG1: x24 ]
+          [ loc_nonsp<44:49>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x29 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<44:49>
+            LBL: h30
+            ARG0: x29
+            RSTR: h31
+            BODY: h32 ]
+          [ card<44:47>
+            LBL: h33
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x29
+            CARG: "1.8" ]
+          [ _percent_n_of<47:49>
+            LBL: h33
+            ARG0: x29 ] >
+   HCONS: < h31 QEQ h33 h23 QEQ h26 h18 QEQ h20 h12 QEQ h14 h4 QEQ h7 h5 QEQ h27 h1 QEQ h2 > ]
+
+{e6:
+ e6:subord<0:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e8]
+ e8:_exclude_v_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x9]
+ _1:udef_q<10:31>[BV x9]
+ e16:compound<10:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _2:udef_q<10:24>[BV x15]
+ x15:_transportation_n_1<10:24>{x PERS 3, NUM sg, IND -}[]
+ x9:_item_n_of<25:31>{x PERS 3, NUM pl, IND +}[]
+ _3:udef_q<32:38>[BV x24]
+ x24:_order_n_of<32:38>{x PERS 3, NUM pl}[]
+ e3:_rise_v_1<39:43>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x24]
+ e28:loc_nonsp<44:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x29]
+ _4:udef_q<44:49>[BV x29]
+ e34:card<44:47>("1.8"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x29]
+ x29:_percent_n_of<47:49>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  subord<0:31> ARG1 _rise_v_1<39:43>  
+  subord<0:31> ARG2 _exclude_v_1<0:9>  
+  _exclude_v_1<0:9> ARG2 _item_n_of<25:31>  
+  udef_q<10:31> BV _item_n_of<25:31>  
+  compound<10:31> ARG1 _item_n_of<25:31>  
+  compound<10:31> ARG2 _transportation_n_1<10:24>  
+  udef_q<10:24> BV _transportation_n_1<10:24>  
+  udef_q<32:38> BV _order_n_of<32:38>  
+  _rise_v_1<39:43> ARG1 _order_n_of<32:38>  
+  loc_nonsp<44:49> ARG1 _rise_v_1<39:43>  
+  loc_nonsp<44:49> ARG2 _percent_n_of<47:49>  
+  udef_q<44:49> BV _percent_n_of<47:49>  
+  card<44:47>(1.8) ARG1 _percent_n_of<47:49>  
+  subord<0:31> SF prop  
+  subord<0:31> TENSE untensed  
+  subord<0:31> MOOD indicative  
+  subord<0:31> PROG -  
+  subord<0:31> PERF -  
+  _exclude_v_1<0:9> SF prop  
+  _exclude_v_1<0:9> TENSE untensed  
+  _exclude_v_1<0:9> MOOD indicative  
+  _exclude_v_1<0:9> PROG +  
+  _exclude_v_1<0:9> PERF -  
+  compound<10:31> SF prop  
+  compound<10:31> TENSE untensed  
+  compound<10:31> MOOD indicative  
+  compound<10:31> PROG -  
+  compound<10:31> PERF -  
+  _transportation_n_1<10:24> PERS 3  
+  _transportation_n_1<10:24> NUM sg  
+  _transportation_n_1<10:24> IND -  
+  _item_n_of<25:31> PERS 3  
+  _item_n_of<25:31> NUM pl  
+  _item_n_of<25:31> IND +  
+  _order_n_of<32:38> PERS 3  
+  _order_n_of<32:38> NUM pl  
+  _rise_v_1<39:43> SF prop  
+  _rise_v_1<39:43> TENSE past  
+  _rise_v_1<39:43> MOOD indicative  
+  _rise_v_1<39:43> PROG -  
+  _rise_v_1<39:43> PERF -  
+  loc_nonsp<44:49> SF prop  
+  loc_nonsp<44:49> TENSE untensed  
+  loc_nonsp<44:49> MOOD indicative  
+  loc_nonsp<44:49> PROG -  
+  loc_nonsp<44:49> PERF -  
+  card<44:47>(1.8) SF prop  
+  card<44:47>(1.8) TENSE untensed  
+  card<44:47>(1.8) MOOD indicative  
+  card<44:47>(1.8) PROG -  
+  card<44:47>(1.8) PERF -  
+  _percent_n_of<47:49> PERS 3  
+  _percent_n_of<47:49> NUM pl  
+  _percent_n_of<47:49> IND +  
+}
+

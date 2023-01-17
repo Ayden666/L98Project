@@ -1,0 +1,206 @@
+;;;
+;;; Redwoods export of `wsj13e';
+;;; (wsun@wsun; 22-jan-2018 (22:50 h)).
+;;;
+
+[21396008] (1 of 1) {1} `The Senate didn't vote on six lesser charges.'
+
+[21396008:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 0.9844 "NNP" 0.0156)
+  (2, 1, 2, <4:10>, 1, "Senate", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:14>, 1, "did", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <14:17>, 1, "n’t", 0, "null", "JJ" 0.742 "NN" 0.1551 "JJS" 0.044 "RB" 0.0268 "VB" 0.0195 "VBN" 0.0127)
+  (5, 4, 5, <18:22>, 1, "vote", 0, "null", "NN" 0.9434 "VB" 0.0566)
+  (6, 5, 6, <23:25>, 1, "on", 0, "null", "IN" 0.9753 "RP" 0.0247)
+  (7, 6, 7, <26:29>, 1, "six", 0, "null", "CD" 1.0)
+  (8, 7, 8, <30:36>, 1, "lesser", 0, "null", "JJR" 1.0)
+  (9, 8, 9, <37:44>, 1, "charges", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (119, 0, 1, <0:3>, 1, "the", 0, "null")
+  (128, 0, 1, <0:3>, 1, "the", 0, "null")
+  (88, 1, 2, <4:10>, 1, "Senate", 0, "null")
+  (113, 1, 2, <4:10>, 1, "Senate", 0, "null", "NNP" 1.0)
+  (118, 1, 2, <4:10>, 1, "senate", 0, "null")
+  (120, 1, 2, <4:10>, 1, "senate", 0, "null")
+  (103, 2, 3, <11:17>, 1, "didn’t", 0, "null")
+  (116, 2, 3, <11:17>, 1, "didn’t", 0, "null", "VBD" 1.0)
+  (123, 2, 3, <11:17>, 1, "didn’t", 0, "null")
+  (108, 3, 4, <18:22>, 1, "vote", 0, "null")
+  (112, 3, 4, <18:22>, 1, "vote", 0, "null", "NN" 0.9434)
+  (125, 3, 4, <18:22>, 1, "vote", 0, "null")
+  (110, 4, 5, <23:25>, 1, "on", 0, "null")
+  (126, 4, 5, <23:25>, 1, "on", 0, "null")
+  (99, 5, 6, <26:29>, 1, "six", 0, "null")
+  (114, 5, 6, <26:29>, 1, "six", 0, "null", "CD" 1.0)
+  (121, 5, 6, <26:29>, 1, "six", 0, "null")
+  (101, 6, 7, <30:36>, 1, "lesser", 0, "null")
+  (115, 6, 7, <30:36>, 1, "lesser", 0, "null", "JJR" 1.0)
+  (122, 6, 7, <30:36>, 1, "lesser", 0, "null")
+  (105, 7, 8, <37:45>, 1, "charges.", 0, "null")
+  (117, 7, 8, <37:45>, 1, "charges.", 0, "null", "NNS" 1.0)
+  (124, 7, 8, <37:45>, 1, "charges.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1371 SB-HD_MC_C 10.3764 0 8
+  (1359 SP-HD_N_C 2.43344 0 2
+   (141 the_1@d_-_the_le 1.13181 0 1
+    ("the" 119
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98443749999999997\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1358 ^N_SG_ILR 0.347381 1 2
+    (168 senate@n_-_c-nm_le -0.744371 1 2
+     ("senate" 118
+      "token [ +CARG \"Senate\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"senate\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1370 ^HD-CMP_U_C 5.98848 2 8
+   (169 did1_neg_4_u@v_vp_did-n_le 0.677188 2 3
+    ("didn’t" 103
+     "token [ +CARG #1=\"didn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1369 HD-AJ_INT-UNSL_C 4.67426 3 8
+    (1360 ^V_N3S-BSE_ILR 0.248496 3 4
+     (177 vote_v1@v_-_le 0.118365 3 4
+      ("vote" 108
+       "token [ +CARG #1=\"vote\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94344519999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1368 HD-CMP_U_C 3.34513 4 8
+     (203 on@p_np_i-reg_le 0.12973 4 5
+      ("on" 110
+       "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97534730000000003\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1367 SP-HD_N_C 2.44641 5 8
+      (1361 NUM_DET_C 0.665796 5 6
+       (231 six@aj_-_i-crd-one_le -0.0695617 5 6
+        ("six" 99
+         "token [ +CARG #1=\"six\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1366 ^AJ-HDN_NORM_C 0.834278 6 8
+       (1362 HD_OPTCMP_C 0.462302 6 7
+        (244 lesser_a1@aj_pp_i-cmp_le 0 6 7
+         ("lesser" 101
+          "token [ +CARG #1=\"lesser\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (1365 ^HDN_OPTCMP_C 0.184573 7 8
+        (1364 W_PERIOD_PLR 0.27223 7 8
+         (1363 N_PL_OLR 0.354498 7 8
+          (246 charge_n1@n_pp_mc-of_le 0 7 8
+           ("charges." 105
+            "token [ +CARG \"charges\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"charges.\" +FROM #1=\"37\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (DET "the") (N (N "senate")))
+ (VP (V "didn’t")
+  (VP (VP (V "vote"))
+   (PP (P "on")
+    (NP (DET (ADJ "six"))
+     (N (AP (ADJ "lesser")) (N (N (N (N "charges."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ named_n<4:10>
+            LBL: h8
+            ARG0: x6
+            CARG: "Senate" ]
+          [ neg<11:17>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _vote_v_1<18:22>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6 ]
+          [ _on_p<23:25>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x13 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<26:29>
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ card<26:29>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            CARG: "6" ]
+          [ _less_a_1<30:36>
+            LBL: h17
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13 ]
+          [ comp<30:36>
+            LBL: h17
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e19
+            ARG2: u20 ]
+          [ _charge_n_of<37:45>
+            LBL: h17
+            ARG0: x13
+            ARG1: i22 ] >
+   HCONS: < h15 QEQ h17 h9 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:_the_q<0:3>[BV x6]
+ x6:named_n<4:10>("Senate"){x PERS 3, NUM sg, IND +}[]
+ e10:neg<11:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_vote_v_1<18:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e12:_on_p<23:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x13]
+ _2:udef_q<26:29>[BV x13]
+ e18:card<26:29>("6"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13]
+ e19:_less_a_1<30:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13]
+ e21:comp<30:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e19]
+ x13:_charge_n_of<37:45>{x PERS 3, NUM pl}[]
+}
+
+{
+  _the_q<0:3> BV named_n<4:10>(Senate)  
+  neg<11:17> ARG1 _vote_v_1<18:22>  
+  _vote_v_1<18:22> ARG1 named_n<4:10>(Senate)  
+  _on_p<23:25> ARG1 _vote_v_1<18:22>  
+  _on_p<23:25> ARG2 _charge_n_of<37:45>  
+  udef_q<26:29> BV _charge_n_of<37:45>  
+  card<26:29>(6) ARG1 _charge_n_of<37:45>  
+  _less_a_1<30:36> ARG1 _charge_n_of<37:45>  
+  comp<30:36> ARG1 _less_a_1<30:36>  
+  named_n<4:10>(Senate) PERS 3  
+  named_n<4:10>(Senate) NUM sg  
+  named_n<4:10>(Senate) IND +  
+  neg<11:17> SF prop  
+  neg<11:17> TENSE untensed  
+  neg<11:17> MOOD indicative  
+  neg<11:17> PROG -  
+  neg<11:17> PERF -  
+  _vote_v_1<18:22> SF prop  
+  _vote_v_1<18:22> TENSE past  
+  _vote_v_1<18:22> MOOD indicative  
+  _vote_v_1<18:22> PROG -  
+  _vote_v_1<18:22> PERF -  
+  _on_p<23:25> SF prop  
+  _on_p<23:25> TENSE untensed  
+  _on_p<23:25> MOOD indicative  
+  _on_p<23:25> PROG -  
+  _on_p<23:25> PERF -  
+  card<26:29>(6) SF prop  
+  card<26:29>(6) TENSE untensed  
+  card<26:29>(6) MOOD indicative  
+  card<26:29>(6) PROG -  
+  card<26:29>(6) PERF -  
+  _less_a_1<30:36> SF prop  
+  _less_a_1<30:36> TENSE untensed  
+  _less_a_1<30:36> MOOD indicative  
+  _less_a_1<30:36> PROG -  
+  _less_a_1<30:36> PERF -  
+  comp<30:36> SF prop  
+  comp<30:36> TENSE untensed  
+  comp<30:36> MOOD indicative  
+  comp<30:36> PROG -  
+  comp<30:36> PERF -  
+  _charge_n_of<37:45> PERS 3  
+  _charge_n_of<37:45> NUM pl  
+}
+

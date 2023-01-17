@@ -1,0 +1,75 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:10 h)).
+;;;
+
+[21930031] (1 of 1) {1} `Markets --'
+
+[21930031:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Markets", 0, "null", "NNPS" 0.6912 "NNP" 0.1757 "NNS" 0.1331)
+  (2, 1, 2, <8:10>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (27, 0, 1, <0:7>, 1, "Markets", 0, "null")
+  (28, 0, 1, <0:7>, 1, "Markets", 0, "null", "NNPS" 0.6912)
+  (29, 0, 1, <0:7>, 1, "Markets", 0, "null", "NNS" 0.1331)
+  (30, 0, 1, <0:7>, 1, "markets", 0, "null")
+  (32, 0, 1, <0:7>, 1, "markets", 0, "null")
+  (24, 1, 2, <8:10>, 1, "–", 0, "null")
+  (31, 1, 2, <8:10>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (201 NP_FRG_C 1.81852 0 2
+  (200 HDN_BNP_C 2.02293 0 2
+   (199 HD-PCT_C 2.42083 0 2
+    (198 ^N_PL_OLR 1.22107 0 1
+     (62 market_n1@n_-_c_le 0.807978 0 1
+      ("markets" 30
+       "token [ +CARG \"Markets\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"markets\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69120499999999996\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (125 s_dbl_dash_pct@pt_-_s-dash_le 1.07452 1 2
+     ("–" 24
+      "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (N "markets")) (PNCT "–"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:10>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _market_n_1<0:7>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:10>[BV x4]
+ x4:_market_n_1<0:7>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:10> ARG _market_n_1<0:7>  
+  udef_q<0:10> BV _market_n_1<0:7>  
+  unknown<0:10> SF prop-or-ques  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _market_n_1<0:7> PERS 3  
+  _market_n_1<0:7> NUM pl  
+  _market_n_1<0:7> IND +  
+}
+

@@ -1,0 +1,68 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:24 h)).
+;;;
+
+[21643016] (1 of 1) {1} `Homerun=jonron.'
+
+[21643016:2] (active)
+
+<
+  (1, 0, 1, <0:14>, 1, "Homerun=jonron", 0, "null", "NNP" 0.8966 "NN" 0.1034)
+  (2, 1, 2, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (24, 0, 1, <0:15>, 1, "Homerun=jonron.", 0, "null", "NNP" 0.8966)
+  (25, 0, 1, <0:15>, 1, "Homerun=jonron.", 0, "null", "NN" 0.1034)
+  (26, 0, 1, <0:15>, 1, "homerun=jonron.", 0, "null")
+  (27, 0, 1, <0:15>, 1, "homerun=jonron.", 0, "null")
+>
+
+(ROOT_FRAG
+ (56 NP_FRG_C -1.95592 0 1
+  (55 HDN_BNP_C -1.75151 0 1
+   (49 W_PERIOD_PLR -0.426442 0 1
+    (48 N_MS-CNT_ILR -0.724921 0 1
+     (31 generic_mass_count_noun@n_-_mc-unk_le 0 0 1
+      ("Homerun=jonron." 25
+       "token [ +CARG \"Homerun=jonron\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"Homerun=jonron.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED \"_homerun=jonron/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB \"0.89656360000000002\" +TAG \"NNP\" ] +PRBS *cons* [ FIRST \"0.1034364\" REST *null* ] +TAGS *cons* [ FIRST \"NN\" REST *null* ] ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (N (N "Homerun=jonron.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _homerun=jonron/nn_u_unknown<0:15>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:15>[BV x4]
+ x4:_homerun=jonron/nn_u_unknown<0:15>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:15> ARG _homerun=jonron/nn_u_unknown<0:15>  
+  udef_q<0:15> BV _homerun=jonron/nn_u_unknown<0:15>  
+  unknown<0:15> SF prop  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  _homerun=jonron/nn_u_unknown<0:15> PERS 3  
+  _homerun=jonron/nn_u_unknown<0:15> NUM sg  
+}
+

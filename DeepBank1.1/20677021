@@ -1,0 +1,111 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:22 h)).
+;;;
+
+[20677021] (1 of 1) {1} `Advertisers are showing interest.'
+
+[20677021:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Advertisers", 0, "null", "NNS" 0.8516 "NNPS" 0.1368 "NNP" 0.0116)
+  (2, 1, 2, <12:15>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <16:23>, 1, "showing", 0, "null", "VBG" 0.9879 "NN" 0.0121)
+  (4, 3, 4, <24:32>, 1, "interest", 0, "null", "NN" 1.0)
+  (5, 4, 5, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:11>, 1, "Advertisers", 0, "null", "NNS" 0.8516)
+  (63, 0, 1, <0:11>, 1, "Advertisers", 0, "null", "NNPS" 0.1368)
+  (66, 0, 1, <0:11>, 1, "advertisers", 0, "null")
+  (70, 0, 1, <0:11>, 1, "advertisers", 0, "null")
+  (54, 1, 2, <12:15>, 1, "are", 0, "null")
+  (64, 1, 2, <12:15>, 1, "are", 0, "null", "VBP" 1.0)
+  (67, 1, 2, <12:15>, 1, "are", 0, "null")
+  (58, 2, 3, <16:23>, 1, "showing", 0, "null")
+  (62, 2, 3, <16:23>, 1, "showing", 0, "null", "VBG" 0.9879)
+  (69, 2, 3, <16:23>, 1, "showing", 0, "null")
+  (56, 3, 4, <24:33>, 1, "interest.", 0, "null")
+  (65, 3, 4, <24:33>, 1, "interest.", 0, "null", "NN" 1.0)
+  (68, 3, 4, <24:33>, 1, "interest.", 0, "null")
+>
+
+(ROOT_STRICT
+ (806 SB-HD_MC_C 5.62078 0 4
+  (798 HDN_BNP_C 0.311811 0 1
+   (73 generic_pl_noun@n_-_c-pl-unk_le 0 0 1
+    ("Advertisers" 61
+     "token [ +CARG #1=\"Advertisers\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_advertisers/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"0.85158739999999999\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+  (805 ^HD-CMP_U_C 3.79306 1 4
+   (85 be_c_are@v_prd_are_le 1.27762 1 2
+    ("are" 54
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (804 HD-CMP_U_C 2.06129 2 4
+    (799 ^V_PRP_OLR 1.0928 2 3
+     (100 show_v2@v_np*_le 0.92933 2 3
+      ("showing" 58
+       "token [ +CARG #1=\"showing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98792950000000002\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (803 HDN_BNP_C -0.239434 3 4
+     (802 HDN_OPTCMP_C 0.296324 3 4
+      (801 W_PERIOD_PLR 0.437174 3 4
+       (800 N_MS-CNT_ILR 0.615272 3 4
+        (122 interest_n1@n_pp_mc-in_le 0 3 4
+         ("interest." 56
+          "token [ +CARG \"interest\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"interest.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N "Advertisers"))
+ (VP (V "are") (VP (V (V "showing")) (NP (N (N (N (N "interest."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ udef_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _advertisers/nns_u_unknown<0:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _show_v_1<16:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<24:33>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _interest_n_in<24:33>
+            LBL: h13
+            ARG0: x9
+            ARG1: i14 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:11>[BV x6]
+ x6:_advertisers/nns_u_unknown<0:11>{x PERS 3, NUM pl}[]
+ e3:_show_v_1<16:23>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<24:33>[BV x9]
+ x9:_interest_n_in<24:33>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:11> BV _advertisers/nns_u_unknown<0:11>  
+  _show_v_1<16:23> ARG1 _advertisers/nns_u_unknown<0:11>  
+  _show_v_1<16:23> ARG2 _interest_n_in<24:33>  
+  udef_q<24:33> BV _interest_n_in<24:33>  
+  _advertisers/nns_u_unknown<0:11> PERS 3  
+  _advertisers/nns_u_unknown<0:11> NUM pl  
+  _show_v_1<16:23> SF prop  
+  _show_v_1<16:23> TENSE pres  
+  _show_v_1<16:23> MOOD indicative  
+  _show_v_1<16:23> PROG +  
+  _show_v_1<16:23> PERF -  
+  _interest_n_in<24:33> PERS 3  
+  _interest_n_in<24:33> NUM sg  
+}
+

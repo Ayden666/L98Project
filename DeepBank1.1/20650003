@@ -1,0 +1,214 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (16:07 h)).
+;;;
+
+[20650003] (1 of 1) {1} `The debentures are available through Goldman, Sachs & Co.'
+
+[20650003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:14>, 1, "debentures", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <15:18>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <19:28>, 1, "available", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <29:36>, 1, "through", 0, "null", "IN" 1.0)
+  (6, 5, 6, <37:44>, 1, "Goldman", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <44:45>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <46:51>, 1, "Sachs", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <52:53>, 1, "&", 0, "null", "CC" 1.0)
+  (10, 9, 10, <54:56>, 1, "Co", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (135, 0, 1, <0:3>, 1, "the", 0, "null")
+  (149, 0, 1, <0:3>, 1, "the", 0, "null")
+  (115, 1, 2, <4:14>, 1, "debentures", 0, "null")
+  (129, 1, 2, <4:14>, 1, "debentures", 0, "null", "NNS" 1.0)
+  (141, 1, 2, <4:14>, 1, "debentures", 0, "null")
+  (117, 2, 3, <15:18>, 1, "are", 0, "null")
+  (130, 2, 3, <15:18>, 1, "are", 0, "null", "VBP" 1.0)
+  (142, 2, 3, <15:18>, 1, "are", 0, "null")
+  (119, 3, 4, <19:28>, 1, "available", 0, "null")
+  (131, 3, 4, <19:28>, 1, "available", 0, "null", "JJ" 1.0)
+  (143, 3, 4, <19:28>, 1, "available", 0, "null")
+  (121, 4, 5, <29:36>, 1, "through", 0, "null")
+  (144, 4, 5, <29:36>, 1, "through", 0, "null")
+  (107, 5, 6, <37:45>, 1, "Goldman,", 0, "null")
+  (132, 5, 6, <37:45>, 1, "Goldman,", 0, "null", "NNP" 1.0)
+  (136, 5, 6, <37:45>, 1, "goldman,", 0, "null")
+  (139, 5, 6, <37:45>, 1, "goldman,", 0, "null")
+  (104, 6, 7, <46:51>, 1, "Sachs", 0, "null")
+  (128, 6, 7, <46:51>, 1, "Sachs", 0, "null", "NNP" 1.0)
+  (134, 6, 7, <46:51>, 1, "sachs", 0, "null")
+  (138, 6, 7, <46:51>, 1, "sachs", 0, "null")
+  (123, 7, 8, <52:53>, 1, "&", 0, "null")
+  (145, 7, 8, <52:53>, 1, "&", 0, "null")
+  (109, 8, 9, <54:57>, 1, "Co.", 0, "null")
+  (133, 8, 9, <54:57>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (137, 8, 9, <54:57>, 1, "co.", 0, "null")
+  (140, 8, 9, <54:57>, 1, "co.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2305 SB-HD_MC_C 13.7713 0 9
+  (2293 SP-HD_N_C 1.65676 0 2
+   (162 the_1@d_-_the_le 1.13181 0 1
+    ("the" 135
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (191 generic_pl_noun@n_-_c-pl-unk_le 0 1 2
+    ("debentures" 129
+     "token [ +CARG #1=\"debentures\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_debentures/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+  (2304 ^HD-CMP_U_C 10.16 2 9
+   (196 be_c_are@v_prd_are_le 1.27762 2 3
+    ("are" 117
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2303 HD-AJ_INT-UNSL_C 8.72971 3 9
+    (204 available_a2@aj_-_i-prd_le 1.24748 3 4
+     ("available" 119
+      "token [ +CARG #1=\"available\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2302 HD-CMP_U_C 6.90663 4 9
+     (209 through@p_np_i_le 0.701131 4 5
+      ("through" 121
+       "token [ +CARG #1=\"through\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2301 HDN_BNP-PN_C 5.97268 5 9
+      (2300 HDN-AJ_REDREL_C 6.27173 5 9
+       (2298 ^NP-HDN_CTY-CPD_C 2.07457 5 7
+        (2296 HDN_BNP-PN_C 1.21538 5 6
+         (2295 W_COMMA_PLR -0.118892 5 6
+          (2294 N_SG_ILR -0.461604 5 6
+           (216 generic_proper_ne@n_-_pn-gen_le 0 5 6
+            ("Goldman," 107
+             "token [ +CARG \"Goldman\" +CLASS proper_ne +FORM \"Goldman,\" +FROM \"37\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+        (2297 ^N_SG_ILR -0.59625 6 7
+         (232 generic_proper_ne@n_-_pn-gen_le -0.00591155 6 7
+          ("Sachs" 104
+           "token [ +CARG #1=\"Sachs\" +CLASS proper_ne +FORM #1 +FROM \"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (2299 W_PERIOD_PLR 3.52468 7 9
+        (275 and_co_post_ttl@n_-_tt-post-npt_le 0.708286 7 9
+         ("& co." 123
+          "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"52\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+          137
+          "token [ +CARG \"Co\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"54\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (DET "the") (N "debentures"))
+ (VP (V "are")
+  (AP (AP "available")
+   (PP (P "through")
+    (NP
+     (N (N (NP (N (N (N "Goldman,")))) (N (N "Sachs")))
+      (N (N "& co."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _debentures/nns_u_unknown<4:14>
+            LBL: h8
+            ARG0: x6 ]
+          [ _available_a_1<19:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _through_p<29:36>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<37:57>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<37:51>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<37:45>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<37:45>
+            LBL: h20
+            ARG0: x15
+            CARG: "Goldman" ]
+          [ named<46:51>
+            LBL: h14
+            ARG0: x10
+            CARG: "Sachs" ]
+          [ _and+company_n_1<52:57>
+            LBL: h21
+            ARG0: x22 [ x IND: + ] ]
+          [ udef_q<52:57>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ compound<52:57>
+            LBL: h14
+            ARG0: i26
+            ARG1: x10
+            ARG2: x22 ] >
+   HCONS: < h24 QEQ h21 h18 QEQ h20 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_debentures/nns_u_unknown<4:14>{x PERS 3, NUM pl}[]
+ e3:_available_a_1<19:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:_through_p<29:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:proper_q<37:57>[BV x10]
+ e16:compound<37:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x15]
+ _3:proper_q<37:45>[BV x15]
+ x15:named<37:45>("Goldman"){x PERS 3, NUM sg, IND +}[]
+ x10:named<46:51>("Sachs"){x PERS 3, NUM sg, IND +}[]
+ x22:_and+company_n_1<52:57>{x IND +}[]
+ _4:udef_q<52:57>[BV x22]
+ i26:compound<52:57>{i}[ARG1 x10, ARG2 x22]
+}
+
+{
+  _the_q<0:3> BV _debentures/nns_u_unknown<4:14>  
+  _available_a_1<19:28> ARG1 _debentures/nns_u_unknown<4:14>  
+  _through_p<29:36> ARG1 _available_a_1<19:28>  
+  _through_p<29:36> ARG2 named<46:51>(Sachs)  
+  proper_q<37:57> BV named<46:51>(Sachs)  
+  compound<37:51> ARG1 named<46:51>(Sachs)  
+  compound<37:51> ARG2 named<37:45>(Goldman)  
+  proper_q<37:45> BV named<37:45>(Goldman)  
+  udef_q<52:57> BV _and+company_n_1<52:57>  
+  compound<52:57> ARG1 named<46:51>(Sachs)  
+  compound<52:57> ARG2 _and+company_n_1<52:57>  
+  _debentures/nns_u_unknown<4:14> PERS 3  
+  _debentures/nns_u_unknown<4:14> NUM pl  
+  _available_a_1<19:28> SF prop  
+  _available_a_1<19:28> TENSE pres  
+  _available_a_1<19:28> MOOD indicative  
+  _available_a_1<19:28> PROG -  
+  _available_a_1<19:28> PERF -  
+  _through_p<29:36> SF prop  
+  _through_p<29:36> TENSE untensed  
+  _through_p<29:36> MOOD indicative  
+  _through_p<29:36> PROG -  
+  _through_p<29:36> PERF -  
+  compound<37:51> SF prop  
+  compound<37:51> TENSE untensed  
+  compound<37:51> MOOD indicative  
+  compound<37:51> PROG -  
+  compound<37:51> PERF -  
+  named<37:45>(Goldman) PERS 3  
+  named<37:45>(Goldman) NUM sg  
+  named<37:45>(Goldman) IND +  
+  named<46:51>(Sachs) PERS 3  
+  named<46:51>(Sachs) NUM sg  
+  named<46:51>(Sachs) IND +  
+  _and+company_n_1<52:57> IND +  
+}
+

@@ -1,0 +1,222 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (22:59 h)).
+;;;
+
+[21411053] (1 of 1) {1} `Mr. Jones is attacking the problem on several fronts.'
+
+[21411053:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:22>, 1, "attacking", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <23:26>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <27:34>, 1, "problem", 0, "null", "NN" 1.0)
+  (7, 6, 7, <35:37>, 1, "on", 0, "null", "IN" 1.0)
+  (8, 7, 8, <38:45>, 1, "several", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <46:52>, 1, "fronts", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <52:53>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (112, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (120, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (129, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (92, 1, 2, <4:9>, 1, "Jones", 0, "null")
+  (113, 1, 2, <4:9>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (119, 1, 2, <4:9>, 1, "jones", 0, "null")
+  (121, 1, 2, <4:9>, 1, "jones", 0, "null")
+  (99, 2, 3, <10:12>, 1, "is", 0, "null")
+  (114, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (122, 2, 3, <10:12>, 1, "is", 0, "null")
+  (101, 3, 4, <13:22>, 1, "attacking", 0, "null")
+  (115, 3, 4, <13:22>, 1, "attacking", 0, "null", "VBG" 1.0)
+  (123, 3, 4, <13:22>, 1, "attacking", 0, "null")
+  (103, 4, 5, <23:26>, 1, "the", 0, "null")
+  (124, 4, 5, <23:26>, 1, "the", 0, "null")
+  (105, 5, 6, <27:34>, 1, "problem", 0, "null")
+  (116, 5, 6, <27:34>, 1, "problem", 0, "null", "NN" 1.0)
+  (125, 5, 6, <27:34>, 1, "problem", 0, "null")
+  (107, 6, 7, <35:37>, 1, "on", 0, "null")
+  (126, 6, 7, <35:37>, 1, "on", 0, "null")
+  (109, 7, 8, <38:45>, 1, "several", 0, "null")
+  (117, 7, 8, <38:45>, 1, "several", 0, "null", "JJ" 1.0)
+  (127, 7, 8, <38:45>, 1, "several", 0, "null")
+  (111, 8, 9, <46:53>, 1, "fronts.", 0, "null")
+  (118, 8, 9, <46:53>, 1, "fronts.", 0, "null", "NNS" 1.0)
+  (128, 8, 9, <46:53>, 1, "fronts.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2169 SB-HD_MC_C 12.6672 0 9
+  (2151 HDN_BNP-PN_C 4.24197 0 2
+   (2150 NP-HDN_TTL-CPD_C 3.55604 0 2
+    (2148 N_SG_ILR 2.02901 0 1
+     (137 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 120
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2149 ^N_SG_ILR 0.120932 1 2
+     (152 jones_n1@n_-_pn_le 0.219184 1 2
+      ("jones" 119
+       "token [ +CARG \"Jones\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"jones\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2168 ^HD-CMP_U_C 7.40821 2 9
+   (194 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 99
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2167 HD-AJ_INT-UNSL_C 5.73983 3 9
+    (2166 ^HD-CMP_U_C 3.80903 3 6
+     (2152 ^V_PRP_OLR 0.163469 3 4
+      (281 attack_v1@v_np*_le 0 3 4
+       ("attacking" 101
+        "token [ +CARG #1=\"attacking\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2165 SP-HD_N_C 1.51448 4 6
+      (309 the_1@d_-_the_le 1.07131 4 5
+       ("the" 103
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2154 ^HDN_OPTCMP_C 0.88755 5 6
+       (2153 N_SG_ILR 0.750946 5 6
+        (334 problem_n1@n_pp_c-ns-of_le 0.00294303 5 6
+         ("problem" 105
+          "token [ +CARG #1=\"problem\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+    (2159 HD-CMP_U_C 1.67963 6 9
+     (354 on@p_np_i-reg_le 0.927967 6 7
+      ("on" 107
+       "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2158 HDN_BNP_C 0.557716 7 9
+      (2157 AJ-HDN_NORM_C 0.190113 7 9
+       (381 several_a1@aj_-_i-svrl_le 0.368523 7 8
+        ("several" 109
+         "token [ +CARG #1=\"several\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2156 ^W_PERIOD_PLR 0.19609 8 9
+        (2155 N_PL_OLR 0.720423 8 9
+         (388 front_n1@n_-_c-ed_le 0 8 9
+          ("fronts." 111
+           "token [ +CARG \"fronts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"fronts.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "jones"))))
+ (VP (V "is")
+  (VP (VP (V (V "attacking")) (NP (DET "the") (N (N (N "problem")))))
+   (PP (P "on") (NP (N (ADJ "several") (N (N (N "fronts.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Jones" ]
+          [ _attack_v_1<13:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<23:26>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _problem_n_of<27:34>
+            LBL: h19
+            ARG0: x15
+            ARG1: i20 ]
+          [ _on_p<35:37>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x22 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<38:53>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ _several_a_1<38:45>
+            LBL: h26
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22 ]
+          [ _front_n_1<46:53>
+            LBL: h26
+            ARG0: x22 ] >
+   HCONS: < h24 QEQ h26 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Jones"){x PERS 3, NUM sg, IND +}[]
+ e3:_attack_v_1<13:22>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_the_q<23:26>[BV x15]
+ x15:_problem_n_of<27:34>{x PERS 3, NUM sg, IND +}[]
+ e21:_on_p<35:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x22]
+ _4:udef_q<38:53>[BV x22]
+ e27:_several_a_1<38:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22]
+ x22:_front_n_1<46:53>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Jones)  
+  compound<0:9> ARG1 named<4:9>(Jones)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _attack_v_1<13:22> ARG1 named<4:9>(Jones)  
+  _attack_v_1<13:22> ARG2 _problem_n_of<27:34>  
+  _the_q<23:26> BV _problem_n_of<27:34>  
+  _on_p<35:37> ARG1 _attack_v_1<13:22>  
+  _on_p<35:37> ARG2 _front_n_1<46:53>  
+  udef_q<38:53> BV _front_n_1<46:53>  
+  _several_a_1<38:45> ARG1 _front_n_1<46:53>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Jones) PERS 3  
+  named<4:9>(Jones) NUM sg  
+  named<4:9>(Jones) IND +  
+  _attack_v_1<13:22> SF prop  
+  _attack_v_1<13:22> TENSE pres  
+  _attack_v_1<13:22> MOOD indicative  
+  _attack_v_1<13:22> PROG +  
+  _attack_v_1<13:22> PERF -  
+  _problem_n_of<27:34> PERS 3  
+  _problem_n_of<27:34> NUM sg  
+  _problem_n_of<27:34> IND +  
+  _on_p<35:37> SF prop  
+  _on_p<35:37> TENSE untensed  
+  _on_p<35:37> MOOD indicative  
+  _on_p<35:37> PROG -  
+  _on_p<35:37> PERF -  
+  _several_a_1<38:45> SF prop  
+  _several_a_1<38:45> TENSE untensed  
+  _several_a_1<38:45> MOOD indicative  
+  _several_a_1<38:45> PROG -  
+  _several_a_1<38:45> PERF -  
+  _front_n_1<46:53> PERS 3  
+  _front_n_1<46:53> NUM pl  
+  _front_n_1<46:53> IND +  
+}
+

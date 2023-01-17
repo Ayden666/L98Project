@@ -1,0 +1,103 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (04:57 h)).
+;;;
+
+[22007004] (1 of 1) {1} `Merck & Co.'
+
+[22007004:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Merck", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:7>, 1, "&", 0, "null", "CC" 1.0)
+  (3, 2, 3, <8:10>, 1, "Co", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <10:11>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:5>, 1, "Merck", 0, "null")
+  (49, 0, 1, <0:5>, 1, "merck", 0, "null")
+  (53, 0, 1, <0:5>, 1, "merck", 0, "null")
+  (44, 1, 2, <6:7>, 1, "&", 0, "null")
+  (52, 1, 2, <6:7>, 1, "&", 0, "null")
+  (40, 2, 3, <8:11>, 1, "Co.", 0, "null")
+  (48, 2, 3, <8:11>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (50, 2, 3, <8:11>, 1, "co.", 0, "null")
+  (51, 2, 3, <8:11>, 1, "co.", 0, "null")
+>
+
+(ROOT_FRAG
+ (187 NP_FRG_C 1.89739 0 3
+  (186 HDN_BNP-PN_C 3.0439 0 3
+   (185 HDN-AJ_REDREL_C 3.23505 0 3
+    (183 ^N_SG_ILR -0.748959 0 1
+     (55 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Merck" 47
+       "token [ +CARG #1=\"Merck\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (184 W_PERIOD_PLR 3.52468 1 3
+     (87 and_co_post_ttl@n_-_tt-post-npt_le 0.708286 1 3
+      ("& co." 44
+       "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+       50
+       "token [ +CARG \"Co\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N (N "Merck")) (N (N "& co.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x4
+            CARG: "Merck" ]
+          [ _and+company_n_1<6:11>
+            LBL: h9
+            ARG0: x10 [ x IND: + ] ]
+          [ udef_q<6:11>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<6:11>
+            LBL: h8
+            ARG0: i14
+            ARG1: x4
+            ARG2: x10 ] >
+   HCONS: < h12 QEQ h9 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:11>[BV x4]
+ x4:named<0:5>("Merck"){x PERS 3, NUM sg, IND +}[]
+ x10:_and+company_n_1<6:11>{x IND +}[]
+ _2:udef_q<6:11>[BV x10]
+ i14:compound<6:11>{i}[ARG1 x4, ARG2 x10]
+}
+
+{
+  unknown<0:11> ARG named<0:5>(Merck)  
+  proper_q<0:11> BV named<0:5>(Merck)  
+  udef_q<6:11> BV _and+company_n_1<6:11>  
+  compound<6:11> ARG1 named<0:5>(Merck)  
+  compound<6:11> ARG2 _and+company_n_1<6:11>  
+  unknown<0:11> SF prop  
+  unknown<0:11> TENSE untensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  named<0:5>(Merck) PERS 3  
+  named<0:5>(Merck) NUM sg  
+  named<0:5>(Merck) IND +  
+  _and+company_n_1<6:11> IND +  
+}
+

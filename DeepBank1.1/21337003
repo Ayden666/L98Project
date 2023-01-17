@@ -1,0 +1,253 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:17 h)).
+;;;
+
+[21337003] (1 of 1) {1} `In Tokyo, the Nikkei index added 99.14 to 35585.52.'
+
+[21337003:2] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "In", 0, "null", "IN" 0.97 "NNP" 0.03)
+  (2, 1, 2, <3:8>, 1, "Tokyo", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <10:13>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <14:20>, 1, "Nikkei", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <21:26>, 1, "index", 0, "null", "NN" 1.0)
+  (7, 6, 7, <27:32>, 1, "added", 0, "null", "VBD" 1.0)
+  (8, 7, 8, <33:38>, 1, "99.14", 0, "null", "CD" 1.0)
+  (9, 8, 9, <39:41>, 1, "to", 0, "null", "TO" 1.0)
+  (10, 9, 10, <42:50>, 1, "35585.52", 0, "null", "CD" 1.0)
+  (11, 10, 11, <50:51>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (125, 0, 1, <0:2>, 1, "in", 0, "null")
+  (136, 0, 1, <0:2>, 1, "in", 0, "null")
+  (102, 1, 2, <3:9>, 1, "Tokyo,", 0, "null")
+  (122, 1, 2, <3:9>, 1, "Tokyo,", 0, "null", "NNP" 1.0)
+  (124, 1, 2, <3:9>, 1, "tokyo,", 0, "null")
+  (129, 1, 2, <3:9>, 1, "tokyo,", 0, "null")
+  (110, 2, 3, <10:13>, 1, "the", 0, "null")
+  (131, 2, 3, <10:13>, 1, "the", 0, "null")
+  (99, 3, 4, <14:20>, 1, "Nikkei", 0, "null")
+  (119, 3, 4, <14:20>, 1, "Nikkei", 0, "null", "NNP" 1.0)
+  (123, 3, 4, <14:20>, 1, "nikkei", 0, "null")
+  (127, 3, 4, <14:20>, 1, "nikkei", 0, "null")
+  (112, 4, 5, <21:26>, 1, "index", 0, "null")
+  (120, 4, 5, <21:26>, 1, "index", 0, "null", "NN" 1.0)
+  (132, 4, 5, <21:26>, 1, "index", 0, "null")
+  (114, 5, 6, <27:32>, 1, "added", 0, "null")
+  (121, 5, 6, <27:32>, 1, "added", 0, "null", "VBD" 1.0)
+  (133, 5, 6, <27:32>, 1, "added", 0, "null")
+  (94, 6, 7, <33:38>, 1, "99.14", 0, "null")
+  (126, 6, 7, <33:38>, 1, "99.14", 0, "null")
+  (108, 7, 8, <39:41>, 1, "to", 0, "null")
+  (130, 7, 8, <39:41>, 1, "to", 0, "null")
+  (100, 8, 9, <42:51>, 1, "35585.52.", 0, "null")
+  (128, 8, 9, <42:51>, 1, "35585.52.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4016 FLR-HD_NWH_C 11.4068 0 9
+  (3986 HD-CMP_U_C 0.126729 0 2
+   (156 in@p_np_i-reg_le -0.506063 0 1
+    ("in" 125
+     "token [ +CARG \"In\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"in\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96999199999999997\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (3985 HDN_BNP-PN_C 0.618621 1 2
+    (3984 W_COMMA_PLR -0.132162 1 2
+     (3983 N_SG_ILR -0.609145 1 2
+      (207 tokyo_n1@n_-_pn_le 0 1 2
+       ("tokyo," 124
+        "token [ +CARG \"Tokyo\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"tokyo,\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (4015 ^SB-HD_NMC_C 9.84169 2 9
+   (3990 SP-HD_N_C 2.34068 2 5
+    (225 the_1@d_-_the_le 0.182564 2 3
+     ("the" 110
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3989 ^NP-HDN_CPD_C 0.977542 3 5
+     (3987 HDN_BNP-PN_C -0.050883 3 4
+      (250 generic_proper_ne@n_-_pn-gen_le 0 3 4
+       ("Nikkei" 99
+        "token [ +CARG #1=\"Nikkei\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (3988 ^N_SG_ILR 0.50682 4 5
+      (252 index_n1@n_-_c_le 0.220489 4 5
+       ("index" 112
+        "token [ +CARG #1=\"index\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (4014 ^HD-AJ_INT-UNSL_C 6.67958 5 9
+    (4012 ^HD_XAJ-INT-VP_C 1.6877 5 7
+     (4011 HD-CMP_U_C 0.61798 5 7
+      (4010 ^V_PST_OLR 0.656825 5 6
+       (270 add_v1@v_np*_le 0.264258 5 6
+        ("added" 114
+         "token [ +CARG #1=\"added\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (4004 HDN_BNP-NUM_C -0.726501 6 7
+       (4003 HDN_NP-NUM_C -0.246194 6 7
+        (402 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+         ("99.14" 94
+          "token [ +CARG #1=\"99.14\" +CLASS card_or_proper_ne +FORM #1 +FROM \"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+    (4013 HD-CMP_U_C 3.94112 7 9
+     (428 to@p_np_i-nnm_le -0.649111 7 8
+      ("to" 108
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3997 HDN_BNP-NUM_C 3.01586 8 9
+      (3996 HDN_NP-NUM_C 3.49617 8 9
+       (3995 W_PERIOD_PLR 2.19869 8 9
+        (483 generic_card_ne@aj_-_i-crd-gen_le 0 8 9
+         ("35585.52." 100
+          "token [ +CARG \"35585.52\" +CLASS card_or_proper_ne +FORM \"35585.52.\" +FROM \"42\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (PP (P "in") (NP (N (N (N "tokyo,")))))
+ (S/PP (NP (DET "the") (N (NP (N "Nikkei")) (N (N "index"))))
+  (VP/PP (VP/PP (VP (V (V "added")) (NP (N (ADJ "99.14")))))
+   (PP (P "to") (NP (N (ADJ (ADJ "35585.52."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:51>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _in_p_state<0:2>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:9>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ named<3:9>
+            LBL: h10
+            ARG0: x6
+            CARG: "Tokyo" ]
+          [ _the_q<10:13>
+            LBL: h11
+            ARG0: x13 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h14
+            BODY: h12 ]
+          [ compound<14:26>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x16 [ x IND: + ] ]
+          [ proper_q<14:20>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ named<14:20>
+            LBL: h21
+            ARG0: x16
+            CARG: "Nikkei" ]
+          [ _index_n_1<21:26>
+            LBL: h15
+            ARG0: x13 ]
+          [ _add_v_to<27:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: x13
+            ARG2: x22 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<33:38>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ card<33:38>
+            LBL: h26
+            ARG0: x22
+            ARG1: i27
+            CARG: "99.14" ]
+          [ _to_p<39:41>
+            LBL: h2
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x29 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<42:51>
+            LBL: h30
+            ARG0: x29
+            RSTR: h31
+            BODY: h32 ]
+          [ card<42:51>
+            LBL: h33
+            ARG0: x29
+            ARG1: i34
+            CARG: "35585.52" ] >
+   HCONS: < h31 QEQ h33 h24 QEQ h26 h19 QEQ h21 h14 QEQ h15 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_in_p_state<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:proper_q<3:9>[BV x6]
+ x6:named<3:9>("Tokyo"){x PERS 3, NUM sg, IND +}[]
+ _2:_the_q<10:13>[BV x13]
+ e17:compound<14:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x16]
+ _3:proper_q<14:20>[BV x16]
+ x16:named<14:20>("Nikkei"){x IND +}[]
+ x13:_index_n_1<21:26>{x PERS 3, NUM sg, IND +}[]
+ e3:_add_v_to<27:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x22]
+ _4:number_q<33:38>[BV x22]
+ x22:card<33:38>("99.14"){x PERS 3, NUM sg}[]
+ e28:_to_p<39:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x29]
+ _5:number_q<42:51>[BV x29]
+ x29:card<42:51>("35585.52"){x PERS 3, NUM sg}[]
+}
+
+{
+  focus_d<0:51> ARG1 _add_v_to<27:32>  
+  focus_d<0:51> ARG2 _in_p_state<0:2>  
+  _in_p_state<0:2> ARG1 _add_v_to<27:32>  
+  _in_p_state<0:2> ARG2 named<3:9>(Tokyo)  
+  proper_q<3:9> BV named<3:9>(Tokyo)  
+  _the_q<10:13> BV _index_n_1<21:26>  
+  compound<14:26> ARG1 _index_n_1<21:26>  
+  compound<14:26> ARG2 named<14:20>(Nikkei)  
+  proper_q<14:20> BV named<14:20>(Nikkei)  
+  _add_v_to<27:32> ARG1 _index_n_1<21:26>  
+  _add_v_to<27:32> ARG2 card<33:38>(99.14)  
+  number_q<33:38> BV card<33:38>(99.14)  
+  _to_p<39:41> ARG1 _add_v_to<27:32>  
+  _to_p<39:41> ARG2 card<42:51>(35585.52)  
+  number_q<42:51> BV card<42:51>(35585.52)  
+  focus_d<0:51> SF prop  
+  focus_d<0:51> TENSE untensed  
+  focus_d<0:51> MOOD indicative  
+  focus_d<0:51> PROG -  
+  focus_d<0:51> PERF -  
+  _in_p_state<0:2> SF prop  
+  _in_p_state<0:2> TENSE untensed  
+  _in_p_state<0:2> MOOD indicative  
+  _in_p_state<0:2> PROG -  
+  _in_p_state<0:2> PERF -  
+  named<3:9>(Tokyo) PERS 3  
+  named<3:9>(Tokyo) NUM sg  
+  named<3:9>(Tokyo) IND +  
+  compound<14:26> SF prop  
+  compound<14:26> TENSE untensed  
+  compound<14:26> MOOD indicative  
+  compound<14:26> PROG -  
+  compound<14:26> PERF -  
+  named<14:20>(Nikkei) IND +  
+  _index_n_1<21:26> PERS 3  
+  _index_n_1<21:26> NUM sg  
+  _index_n_1<21:26> IND +  
+  _add_v_to<27:32> SF prop  
+  _add_v_to<27:32> TENSE past  
+  _add_v_to<27:32> MOOD indicative  
+  _add_v_to<27:32> PROG -  
+  _add_v_to<27:32> PERF -  
+  card<33:38>(99.14) PERS 3  
+  card<33:38>(99.14) NUM sg  
+  _to_p<39:41> SF prop  
+  _to_p<39:41> TENSE untensed  
+  _to_p<39:41> MOOD indicative  
+  _to_p<39:41> PROG -  
+  _to_p<39:41> PERF -  
+  card<42:51>(35585.52) PERS 3  
+  card<42:51>(35585.52) NUM sg  
+}
+

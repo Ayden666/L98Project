@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:23 h)).
+;;;
+
+[20257033] (1 of 1) {1} `Finally, he got help.'
+
+[20257033:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Finally", 0, "null", "RB" 1.0)
+  (2, 1, 2, <7:8>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <9:11>, 1, "he", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <12:15>, 1, "got", 0, "null", "VBD" 0.9871 "VBP" 0.0129)
+  (5, 4, 5, <16:20>, 1, "help", 0, "null", "NN" 0.5299 "VB" 0.4628 "VBP" 0.0073)
+  (6, 5, 6, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:8>, 1, "Finally,", 0, "null", "RB" 1.0)
+  (75, 0, 1, <0:8>, 1, "finally,", 0, "null")
+  (79, 0, 1, <0:8>, 1, "finally,", 0, "null")
+  (64, 1, 2, <9:11>, 1, "he", 0, "null")
+  (76, 1, 2, <9:11>, 1, "he", 0, "null")
+  (67, 2, 3, <12:15>, 1, "got", 0, "null")
+  (71, 2, 3, <12:15>, 1, "got", 0, "null", "VBD" 0.9871)
+  (77, 2, 3, <12:15>, 1, "got", 0, "null")
+  (69, 3, 4, <16:21>, 1, "help.", 0, "null")
+  (72, 3, 4, <16:21>, 1, "help.", 0, "null", "NN" 0.5299)
+  (73, 3, 4, <16:21>, 1, "help.", 0, "null", "VB" 0.4628)
+  (78, 3, 4, <16:21>, 1, "help.", 0, "null")
+>
+
+(ROOT_STRICT
+ (843 FLR-HD_NWH_C 6.23444 0 4
+  (840 W_COMMA_PLR 1.16973 0 1
+   (87 finally_adv2@av_-_i-vp-po_le 0 0 1
+    ("finally," 75
+     "token [ +CARG \"Finally\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"finally,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (842 ^SB-HD_NMC_C 4.24587 1 4
+   (832 HDN_BNP-QNT_C 1.42543 1 2
+    (99 he@n_-_pr-he_le 0.589291 1 2
+     ("he" 64
+      "token [ +CARG #1=\"he\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (841 ^HD_XAJ-INT-VP_C 2.99706 2 4
+    (837 HD-CMP_U_C 0.38408 2 4
+     (833 ^V_PST_OLR 0.841044 2 3
+      (156 get_v2@v_np_ntr_le 0.624478 2 3
+       ("got" 67
+        "token [ +CARG #1=\"got\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98711590000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (836 HDN_BNP_C -0.81101 3 4
+      (835 W_PERIOD_PLR 0.45024 3 4
+       (834 N_MS-CNT_ILR 0.249354 3 4
+        (223 help_n1@n_-_mc_le 0 3 4
+         ("help." 69
+          "token [ +CARG \"help\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"help.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.52992760000000005\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (ADV (ADV "finally,"))
+ (S/ADV (NP (NP "he"))
+  (VP/ADV (VP (V (V "got")) (NP (N (N (N "help."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:21>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: i4 ]
+          [ _final_a_1<0:8>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ pron<9:11>
+            LBL: h7
+            ARG0: x8 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<9:11>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ _get_v_1<12:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x8
+            ARG2: x12 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<16:21>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ _help_n_1<16:21>
+            LBL: h16
+            ARG0: x12 ] >
+   HCONS: < h14 QEQ h16 h10 QEQ h7 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e6:_final_a_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ x8:pron<9:11>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<9:11>[BV x8]
+ e3:_get_v_1<12:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x12]
+ _2:udef_q<16:21>[BV x12]
+ x12:_help_n_1<16:21>{x PERS 3, NUM sg}[]
+}
+
+{
+  focus_d<0:21> ARG1 _get_v_1<12:15>  
+  _final_a_1<0:8> ARG1 _get_v_1<12:15>  
+  pronoun_q<9:11> BV pron<9:11>  
+  _get_v_1<12:15> ARG1 pron<9:11>  
+  _get_v_1<12:15> ARG2 _help_n_1<16:21>  
+  udef_q<16:21> BV _help_n_1<16:21>  
+  focus_d<0:21> SF prop  
+  focus_d<0:21> TENSE untensed  
+  focus_d<0:21> MOOD indicative  
+  focus_d<0:21> PROG -  
+  focus_d<0:21> PERF -  
+  _final_a_1<0:8> SF prop  
+  _final_a_1<0:8> TENSE untensed  
+  _final_a_1<0:8> MOOD indicative  
+  _final_a_1<0:8> PROG -  
+  _final_a_1<0:8> PERF -  
+  pron<9:11> PERS 3  
+  pron<9:11> NUM sg  
+  pron<9:11> GEND m  
+  pron<9:11> PT std  
+  _get_v_1<12:15> SF prop  
+  _get_v_1<12:15> TENSE past  
+  _get_v_1<12:15> MOOD indicative  
+  _get_v_1<12:15> PROG -  
+  _get_v_1<12:15> PERF -  
+  _help_n_1<16:21> PERS 3  
+  _help_n_1<16:21> NUM sg  
+}
+

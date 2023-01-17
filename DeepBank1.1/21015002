@@ -1,0 +1,238 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:15 h)).
+;;;
+
+[21015002] (1 of 1) {1} `Stocks rose in London, but fell again in Frankfurt.'
+
+[21015002:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Stocks", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <7:11>, 1, "rose", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <12:14>, 1, "in", 0, "null", "IN" 1.0)
+  (4, 3, 4, <15:21>, 1, "London", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <21:22>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <23:26>, 1, "but", 0, "null", "CC" 1.0)
+  (7, 6, 7, <27:31>, 1, "fell", 0, "null", "VBD" 1.0)
+  (8, 7, 8, <32:37>, 1, "again", 0, "null", "RB" 1.0)
+  (9, 8, 9, <38:40>, 1, "in", 0, "null", "IN" 1.0)
+  (10, 9, 10, <41:50>, 1, "Frankfurt", 0, "null", "NNP" 0.9844 "NN" 0.0156)
+  (11, 10, 11, <50:51>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (129, 0, 1, <0:6>, 1, "Stocks", 0, "null", "NNS" 1.0)
+  (134, 0, 1, <0:6>, 1, "stocks", 0, "null")
+  (146, 0, 1, <0:6>, 1, "stocks", 0, "null")
+  (113, 1, 2, <7:11>, 1, "rose", 0, "null")
+  (130, 1, 2, <7:11>, 1, "rose", 0, "null", "VBD" 1.0)
+  (139, 1, 2, <7:11>, 1, "rose", 0, "null")
+  (115, 2, 3, <12:14>, 1, "in", 0, "null")
+  (140, 2, 3, <12:14>, 1, "in", 0, "null")
+  (105, 3, 4, <15:22>, 1, "London,", 0, "null")
+  (133, 3, 4, <15:22>, 1, "London,", 0, "null", "NNP" 1.0)
+  (135, 3, 4, <15:22>, 1, "london,", 0, "null")
+  (137, 3, 4, <15:22>, 1, "london,", 0, "null")
+  (117, 4, 5, <23:26>, 1, "but", 0, "null")
+  (141, 4, 5, <23:26>, 1, "but", 0, "null")
+  (119, 5, 6, <27:31>, 1, "fell", 0, "null")
+  (131, 5, 6, <27:31>, 1, "fell", 0, "null", "VBD" 1.0)
+  (142, 5, 6, <27:31>, 1, "fell", 0, "null")
+  (121, 6, 7, <32:37>, 1, "again", 0, "null")
+  (132, 6, 7, <32:37>, 1, "again", 0, "null", "RB" 1.0)
+  (143, 6, 7, <32:37>, 1, "again", 0, "null")
+  (123, 7, 8, <38:40>, 1, "in", 0, "null")
+  (144, 7, 8, <38:40>, 1, "in", 0, "null")
+  (107, 8, 9, <41:51>, 1, "Frankfurt.", 0, "null")
+  (128, 8, 9, <41:51>, 1, "Frankfurt.", 0, "null", "NNP" 0.9844)
+  (136, 8, 9, <41:51>, 1, "frankfurt.", 0, "null")
+  (138, 8, 9, <41:51>, 1, "frankfurt.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2002 SB-HD_MC_C 14.0006 0 9
+  (1984 HDN_BNP_C 0.112632 0 1
+   (1983 N_PL_OLR 0.688638 0 1
+    (155 stock_n1@n_-_mc_le 1.18206 0 1
+     ("stocks" 134
+      "token [ +CARG \"Stocks\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"stocks\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2001 ^VP-VP_CRD-FIN-T_C 13.655 1 9
+   (1991 HD-AJ_INT-UNSL_C 6.32468 1 4
+    (1986 ^HD_OPTCMP_C 4.12133 1 2
+     (1985 V_PST_OLR 3.53124 1 2
+      (177 rise_v2@v_pp_unacc_le 1.80509 1 2
+       ("rose" 113
+        "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1990 HD-CMP_U_C 0.455086 2 4
+     (204 in@p_np_i-reg_le -0.179868 2 3
+      ("in" 115
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1989 HDN_BNP-PN_C 0.854505 3 4
+      (1988 W_COMMA_PLR -0.132162 3 4
+       (1987 N_SG_ILR -0.609145 3 4
+        (261 london_n1@n_-_pn_le 0 3 4
+         ("london," 135
+          "token [ +CARG \"London\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"london,\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (2000 ^MRK-NH_EVNT_C 6.91466 4 9
+    (287 but_conj@c_xp_but_le 1.4912 4 5
+     ("but" 117
+      "token [ +CARG #1=\"but\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1999 HD-AJ_INT-UNSL_C 4.26005 5 9
+     (1994 ^HD-AJ_INT-UNSL_C 3.90449 5 7
+      (1993 ^HD_OPTCMP_C 3.79136 5 6
+       (1992 V_PST_OLR 2.3008 5 6
+        (309 fall_v1@v_pp_unacc_le 0.574647 5 6
+         ("fell" 119
+          "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (319 again_adv1@av_-_i-vp_le 0.36087 6 7
+       ("again" 121
+        "token [ +CARG #1=\"again\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1998 HD-CMP_U_C -1.24493 7 9
+      (365 in@p_np_i-reg_le -0.783763 7 8
+       ("in" 123
+        "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1997 HDN_BNP-PN_C -0.471228 8 9
+       (1996 W_PERIOD_PLR -0.39127 8 9
+        (1995 N_SG_ILR -0.824189 8 9
+         (412 frankfurt_n1@n_-_pn_le 0 8 9
+          ("frankfurt." 136
+           "token [ +CARG \"Frankfurt\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"frankfurt.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98435030000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "stocks")))
+ (VP (VP (VP (V (V "rose"))) (PP (P "in") (NP (N (N (N "london,"))))))
+  (VP-C (CONJ "but")
+   (VP (VP (VP (V (V "fell"))) (ADV "again"))
+    (PP (P "in") (NP (N (N (N "frankfurt.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _stock_n_1<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _rise_v_1<7:11>
+            LBL: h9
+            ARG0: e10 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _in_p<12:14>
+            LBL: h9
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e10
+            ARG2: x12 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<15:22>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ named<15:22>
+            LBL: h16
+            ARG0: x12
+            CARG: "London" ]
+          [ _but_c<23:26>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h9
+            L-INDEX: e10
+            R-HNDL: h18
+            R-INDEX: e17 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _fall_v_1<27:31>
+            LBL: h18
+            ARG0: e17
+            ARG1: x6 ]
+          [ _again_a_1<32:37>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e17 ]
+          [ _in_p<38:40>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e17
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<41:51>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ named<41:51>
+            LBL: h25
+            ARG0: x21
+            CARG: "Frankfurt" ] >
+   HCONS: < h23 QEQ h25 h14 QEQ h16 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_stock_n_1<0:6>{x PERS 3, NUM pl}[]
+ e10:_rise_v_1<7:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:_in_p<12:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e10, ARG2 x12]
+ _2:proper_q<15:22>[BV x12]
+ x12:named<15:22>("London"){x PERS 3, NUM sg, IND +}[]
+ e3:_but_c<23:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[L-HNDL e10, L-INDEX e10, R-HNDL e17, R-INDEX e17]
+ e17:_fall_v_1<27:31>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e19:_again_a_1<32:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e17]
+ e20:_in_p<38:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e17, ARG2 x21]
+ _3:proper_q<41:51>[BV x21]
+ x21:named<41:51>("Frankfurt"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:6> BV _stock_n_1<0:6>  
+  _rise_v_1<7:11> ARG1 _stock_n_1<0:6>  
+  _in_p<12:14> ARG1 _rise_v_1<7:11>  
+  _in_p<12:14> ARG2 named<15:22>(London)  
+  proper_q<15:22> BV named<15:22>(London)  
+  _but_c<23:26> L-HNDL _rise_v_1<7:11>  
+  _but_c<23:26> L-INDEX _rise_v_1<7:11>  
+  _but_c<23:26> R-HNDL _fall_v_1<27:31>  
+  _but_c<23:26> R-INDEX _fall_v_1<27:31>  
+  _fall_v_1<27:31> ARG1 _stock_n_1<0:6>  
+  _again_a_1<32:37> ARG1 _fall_v_1<27:31>  
+  _in_p<38:40> ARG1 _fall_v_1<27:31>  
+  _in_p<38:40> ARG2 named<41:51>(Frankfurt)  
+  proper_q<41:51> BV named<41:51>(Frankfurt)  
+  _stock_n_1<0:6> PERS 3  
+  _stock_n_1<0:6> NUM pl  
+  _rise_v_1<7:11> SF prop  
+  _rise_v_1<7:11> TENSE past  
+  _rise_v_1<7:11> MOOD indicative  
+  _rise_v_1<7:11> PROG -  
+  _rise_v_1<7:11> PERF -  
+  _in_p<12:14> SF prop  
+  _in_p<12:14> TENSE untensed  
+  _in_p<12:14> MOOD indicative  
+  _in_p<12:14> PROG -  
+  _in_p<12:14> PERF -  
+  named<15:22>(London) PERS 3  
+  named<15:22>(London) NUM sg  
+  named<15:22>(London) IND +  
+  _but_c<23:26> SF prop  
+  _but_c<23:26> TENSE past  
+  _but_c<23:26> MOOD indicative  
+  _but_c<23:26> PROG -  
+  _but_c<23:26> PERF -  
+  _fall_v_1<27:31> SF prop  
+  _fall_v_1<27:31> TENSE past  
+  _fall_v_1<27:31> MOOD indicative  
+  _fall_v_1<27:31> PROG -  
+  _fall_v_1<27:31> PERF -  
+  _again_a_1<32:37> SF prop  
+  _again_a_1<32:37> TENSE untensed  
+  _again_a_1<32:37> MOOD indicative  
+  _again_a_1<32:37> PROG -  
+  _again_a_1<32:37> PERF -  
+  _in_p<38:40> SF prop  
+  _in_p<38:40> TENSE untensed  
+  _in_p<38:40> MOOD indicative  
+  _in_p<38:40> PROG -  
+  _in_p<38:40> PERF -  
+  named<41:51>(Frankfurt) PERS 3  
+  named<41:51>(Frankfurt) NUM sg  
+  named<41:51>(Frankfurt) IND +  
+}
+

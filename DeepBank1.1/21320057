@@ -1,0 +1,100 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:04 h)).
+;;;
+
+[21320057] (1 of 1) {1} `Futures rallied modestly.'
+
+[21320057:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Futures", 0, "null", "NNS" 0.4258 "NNP" 0.3604 "NNPS" 0.2137)
+  (2, 1, 2, <8:15>, 1, "rallied", 0, "null", "VBD" 0.9731 "VBN" 0.0269)
+  (3, 2, 3, <16:24>, 1, "modestly", 0, "null", "RB" 1.0)
+  (4, 3, 4, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (50, 0, 1, <0:7>, 1, "Futures", 0, "null")
+  (51, 0, 1, <0:7>, 1, "Futures", 0, "null", "NNS" 0.4258)
+  (54, 0, 1, <0:7>, 1, "Futures", 0, "null", "NNPS" 0.2137)
+  (55, 0, 1, <0:7>, 1, "futures", 0, "null")
+  (58, 0, 1, <0:7>, 1, "futures", 0, "null")
+  (47, 1, 2, <8:15>, 1, "rallied", 0, "null")
+  (52, 1, 2, <8:15>, 1, "rallied", 0, "null", "VBD" 0.9731)
+  (57, 1, 2, <8:15>, 1, "rallied", 0, "null")
+  (45, 2, 3, <16:25>, 1, "modestly.", 0, "null")
+  (53, 2, 3, <16:25>, 1, "modestly.", 0, "null", "RB" 1.0)
+  (56, 2, 3, <16:25>, 1, "modestly.", 0, "null")
+>
+
+(ROOT_STRICT
+ (496 SB-HD_MC_C 2.43056 0 3
+  (491 HDN_BNP_C 0.0368743 0 1
+   (490 N_PL_OLR 0.61288 0 1
+    (76 future_n1@n_-_c-nocnh_le 0.0935 0 1
+     ("futures" 55
+      "token [ +CARG \"Futures\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"futures\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.42582769999999998\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (495 ^HD-AJ_INT-UNSL_C 1.55358 1 3
+   (493 ^HD_OPTCMP_C 0.442001 1 2
+    (492 V_PST_OLR -0.436528 1 2
+     (107 rally_v1@v_np*_le 0 1 2
+      ("rallied" 47
+       "token [ +CARG #1=\"rallied\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97314529999999999\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (494 W_PERIOD_PLR 0.601349 2 3
+    (212 modestly_adv1@av_-_i-vp_le 0 2 3
+     ("modestly." 45
+      "token [ +CARG \"modestly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"modestly.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N "futures")))
+ (VP (VP (V (V "rallied"))) (ADV (ADV "modestly."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _future_n_1<0:7>
+            LBL: h8
+            ARG0: x6 ]
+          [ _rally_v_1<8:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ]
+          [ _modest_a_1<16:25>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:7>[BV x6]
+ x6:_future_n_1<0:7>{x PERS 3, NUM pl, IND +}[]
+ e3:_rally_v_1<8:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_modest_a_1<16:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  udef_q<0:7> BV _future_n_1<0:7>  
+  _rally_v_1<8:15> ARG1 _future_n_1<0:7>  
+  _modest_a_1<16:25> ARG1 _rally_v_1<8:15>  
+  _future_n_1<0:7> PERS 3  
+  _future_n_1<0:7> NUM pl  
+  _future_n_1<0:7> IND +  
+  _rally_v_1<8:15> SF prop  
+  _rally_v_1<8:15> TENSE past  
+  _rally_v_1<8:15> MOOD indicative  
+  _rally_v_1<8:15> PROG -  
+  _rally_v_1<8:15> PERF -  
+  _modest_a_1<16:25> SF prop  
+  _modest_a_1<16:25> TENSE untensed  
+  _modest_a_1<16:25> MOOD indicative  
+  _modest_a_1<16:25> PROG -  
+  _modest_a_1<16:25> PERF -  
+}
+

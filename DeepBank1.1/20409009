@@ -1,0 +1,178 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:45 h)).
+;;;
+
+[20409009] (1 of 1) {1} `Mr. Panelli has plenty of company.'
+
+[20409009:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Panelli", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:22>, 1, "plenty", 0, "null", "RB" 0.5216 "NN" 0.3959 "JJ" 0.0824)
+  (5, 4, 5, <23:25>, 1, "of", 0, "null", "IN" 1.0)
+  (6, 5, 6, <26:33>, 1, "company", 0, "null", "NN" 1.0)
+  (7, 6, 7, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (90, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (96, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (65, 1, 2, <4:11>, 1, "Panelli", 0, "null")
+  (86, 1, 2, <4:11>, 1, "Panelli", 0, "null", "NNP" 1.0)
+  (89, 1, 2, <4:11>, 1, "panelli", 0, "null")
+  (91, 1, 2, <4:11>, 1, "panelli", 0, "null")
+  (76, 2, 3, <12:15>, 1, "has", 0, "null")
+  (87, 2, 3, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (92, 2, 3, <12:15>, 1, "has", 0, "null")
+  (81, 3, 4, <16:22>, 1, "plenty", 0, "null")
+  (84, 3, 4, <16:22>, 1, "plenty", 0, "null", "RB" 0.5216)
+  (85, 3, 4, <16:22>, 1, "plenty", 0, "null", "NN" 0.3959)
+  (95, 3, 4, <16:22>, 1, "plenty", 0, "null")
+  (78, 4, 5, <23:25>, 1, "of", 0, "null")
+  (93, 4, 5, <23:25>, 1, "of", 0, "null")
+  (80, 5, 6, <26:34>, 1, "company.", 0, "null")
+  (88, 5, 6, <26:34>, 1, "company.", 0, "null", "NN" 1.0)
+  (94, 5, 6, <26:34>, 1, "company.", 0, "null")
+>
+
+(ROOT_STRICT
+ (906 SB-HD_MC_C 8.86948 0 6
+  (895 HDN_BNP-PN_C 3.86187 0 2
+   (894 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (892 N_SG_ILR 2.02901 0 1
+     (104 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 90
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (893 ^N_SG_ILR -0.259177 1 2
+     (107 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Panelli" 65
+       "token [ +CARG #1=\"Panelli\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (905 ^HD-CMP_U_C 3.99056 2 6
+   (896 ^V_3S-FIN_OLR 1.21973 2 3
+    (129 have-poss@v_np_poss_le 0.528051 2 3
+     ("has" 76
+      "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (904 HDN_BNP_C 2.16436 3 6
+    (903 HD-CMP_U_C 2.0914 3 6
+     (897 ^N_SG_ILR 0.778347 3 4
+      (209 plenty_n@n_pp_m-gr-of_le 0 3 4
+       ("plenty" 81
+        "token [ +CARG #1=\"plenty\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.52161610000000003\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (902 HD-CMP_U_C 0.365204 4 6
+      (250 of_prtcl@p_np_ptcl-of_le 1.04356 4 5
+       ("of" 78
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (901 HDN_BNP_C -1.26086 5 6
+       (900 HDN_OPTCMP_C -0.725099 5 6
+        (899 W_PERIOD_PLR -0.584249 5 6
+         (898 N_MS-CNT_ILR -0.406151 5 6
+          (327 company_n1@n_pp_mc-of_le 0 5 6
+           ("company." 80
+            "token [ +CARG \"company\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"company.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Panelli"))))
+ (VP (V (V "has"))
+  (NP
+   (N (N (N "plenty")) (PP (P "of") (NP (N (N (N (N "company."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Panelli" ]
+          [ _have_v_1<12:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<16:34>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _plenty_n_of<16:22>
+            LBL: h19
+            ARG0: x15
+            ARG1: x20 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<26:34>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ _company_n_of<26:34>
+            LBL: h24
+            ARG0: x20
+            ARG1: i25 ] >
+   HCONS: < h22 QEQ h24 h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Panelli"){x PERS 3, NUM sg, IND +}[]
+ e3:_have_v_1<12:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:udef_q<16:34>[BV x15]
+ x15:_plenty_n_of<16:22>{x PERS 3, NUM sg, IND +}[ARG1 x20]
+ _4:udef_q<26:34>[BV x20]
+ x20:_company_n_of<26:34>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Panelli)  
+  compound<0:11> ARG1 named<4:11>(Panelli)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _have_v_1<12:15> ARG1 named<4:11>(Panelli)  
+  _have_v_1<12:15> ARG2 _plenty_n_of<16:22>  
+  udef_q<16:34> BV _plenty_n_of<16:22>  
+  _plenty_n_of<16:22> ARG1 _company_n_of<26:34>  
+  udef_q<26:34> BV _company_n_of<26:34>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Panelli) PERS 3  
+  named<4:11>(Panelli) NUM sg  
+  named<4:11>(Panelli) IND +  
+  _have_v_1<12:15> SF prop  
+  _have_v_1<12:15> TENSE pres  
+  _have_v_1<12:15> MOOD indicative  
+  _have_v_1<12:15> PROG -  
+  _have_v_1<12:15> PERF -  
+  _plenty_n_of<16:22> PERS 3  
+  _plenty_n_of<16:22> NUM sg  
+  _plenty_n_of<16:22> IND +  
+  _company_n_of<26:34> PERS 3  
+  _company_n_of<26:34> NUM sg  
+}
+

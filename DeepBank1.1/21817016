@@ -1,0 +1,90 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (03:03 h)).
+;;;
+
+[21817016] (1 of 1) {1} `"Fly safely."'
+
+[21817016:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:4>, 1, "Fly", 0, "null", "VB" 1.0)
+  (3, 2, 3, <5:11>, 1, "safely", 0, "null", "RB" 1.0)
+  (4, 3, 4, <11:12>, 1, ".", 0, "null", "." 1.0)
+  (5, 4, 5, <12:13>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (53, 0, 1, <0:4>, 1, "“Fly", 0, "null", "VB" 1.0)
+  (55, 0, 1, <0:4>, 1, "“fly", 0, "null")
+  (57, 0, 1, <0:4>, 1, "“fly", 0, "null")
+  (52, 1, 2, <5:13>, 1, "safely.”", 0, "null")
+  (54, 1, 2, <5:13>, 1, "safely.”", 0, "null", "RB" 1.0)
+  (56, 1, 2, <5:13>, 1, "safely.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (203 HD_IMP_C 0.540479 0 2
+  (202 HD-AJ_INT-UNSL_C 0.905691 0 2
+   (199 ^HD_OPTCMP_C -1.1568 0 1
+    (198 W_DQLEFT_PLR -0.596011 0 1
+     (197 V_N3S-BSE_ILR -0.448105 0 1
+      (66 fly_v1@v_pp*_dir_le 0 0 1
+       ("“fly" 55
+        "token [ +CARG \"Fly\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“fly\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (201 W_DQRIGHT_PLR 2.15873 1 2
+    (200 W_PERIOD_PLR 0.372971 1 2
+     (73 safely_isect@av_-_i-vp-po_le 0 1 2
+      ("safely.”" 52
+       "token [ +CARG \"safely\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"safely.”\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (VP (VP (V (V (V "“fly")))) (ADV (ADV (ADV "safely.”")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _fly_v_1<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _safe_a_for<5:13>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:13>[BV x6]
+ x6:pron<0:13>{x PERS 2, PT zero}[]
+ e3:_fly_v_1<0:4>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:_safe_a_for<5:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  pronoun_q<0:13> BV pron<0:13>  
+  _fly_v_1<0:4> ARG1 pron<0:13>  
+  _safe_a_for<5:13> ARG1 _fly_v_1<0:4>  
+  pron<0:13> PERS 2  
+  pron<0:13> PT zero  
+  _fly_v_1<0:4> SF comm  
+  _fly_v_1<0:4> TENSE pres  
+  _fly_v_1<0:4> MOOD indicative  
+  _fly_v_1<0:4> PROG -  
+  _fly_v_1<0:4> PERF -  
+  _safe_a_for<5:13> SF prop  
+  _safe_a_for<5:13> TENSE untensed  
+  _safe_a_for<5:13> MOOD indicative  
+  _safe_a_for<5:13> PROG -  
+  _safe_a_for<5:13> PERF -  
+}
+

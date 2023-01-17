@@ -1,0 +1,127 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (10:57 h)).
+;;;
+
+[20100025] (1 of 1) {1} `They call it "photographic".'
+
+[20100025:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:9>, 1, "call", 0, "null", "VBP" 0.8843 "VB" 0.1157)
+  (3, 2, 3, <10:12>, 1, "it", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <13:14>, 1, "“", 0, "null", "``" 1.0)
+  (5, 4, 5, <14:26>, 1, "photographic", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <26:27>, 1, "”", 0, "null", "''" 1.0)
+  (7, 6, 7, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (80, 0, 1, <0:4>, 1, "they", 0, "null")
+  (84, 0, 1, <0:4>, 1, "they", 0, "null")
+  (75, 1, 2, <5:9>, 1, "call", 0, "null")
+  (77, 1, 2, <5:9>, 1, "call", 0, "null", "VBP" 0.8843)
+  (79, 1, 2, <5:9>, 1, "call", 0, "null", "VB" 0.1157)
+  (83, 1, 2, <5:9>, 1, "call", 0, "null")
+  (72, 2, 3, <10:12>, 1, "it", 0, "null")
+  (81, 2, 3, <10:12>, 1, "it", 0, "null")
+  (74, 3, 4, <13:28>, 1, "“photographic”.", 0, "null")
+  (78, 3, 4, <13:28>, 1, "“photographic”.", 0, "null", "JJ" 1.0)
+  (82, 3, 4, <13:28>, 1, "“photographic”.", 0, "null")
+>
+
+(ROOT_STRICT
+ (570 SB-HD_MC_C 1.98031 0 4
+  (562 HDN_BNP-QNT_C 1.15641 0 1
+   (85 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 80
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (569 ^HD-CMP_U_C -0.445452 1 4
+   (565 ^HD-CMP_U_C -0.42435 1 3
+    (563 ^V_N3S-BSE_ILR -0.358163 1 2
+     (118 call_v3@v_np-prd_oeq_le -0.0640803 1 2
+      ("call" 75
+       "token [ +CARG #1=\"call\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8843048\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (564 HDN_BNP-QNT_C -0.418448 2 3
+     (128 it2@n_-_pr-it_le -0.571118 2 3
+      ("it" 72
+       "token [ +CARG #1=\"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (568 W_DQLEFT_PLR -0.0926467 3 4
+    (567 W_PERIOD_PLR -0.0926467 3 4
+     (566 W_DQRIGHT_PLR -0.0926467 3 4
+      (142 photographic_a1@aj_-_i_le 0 3 4
+       ("“photographic”." 74
+        "token [ +CARG \"photographic\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"“photographic”.\" +FROM \"13\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"14\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "they"))
+ (VP (V (V (V "call")) (NP (NP "it")))
+  (AP (AP (AP (AP "“photographic”."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _call_v_1<5:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10 [ x PERS: 3 NUM: SG GEND: N PT: STD ]
+            ARG3: h9 ]
+          [ pron<10:12>
+            LBL: h11
+            ARG0: x10 ]
+          [ pronoun_q<10:12>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _photographic_a_1<13:28>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ] >
+   HCONS: < h13 QEQ h11 h9 QEQ h15 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_call_v_1-fn.Labeling<5:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x5, ARG2-fn.Theme x10, ARG3-fn.Result e16]
+ x10:pron<10:12>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<10:12>[BV x10]
+ e16:_photographic_a_1<13:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _call_v_1<5:9> ARG1 pron<0:4>  
+  _call_v_1<5:9> ARG2 pron<10:12>  
+  _call_v_1<5:9> ARG3 _photographic_a_1<13:28>  
+  pronoun_q<10:12> BV pron<10:12>  
+  _photographic_a_1<13:28> ARG1 pron<10:12>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _call_v_1<5:9> SF prop  
+  _call_v_1<5:9> TENSE pres  
+  _call_v_1<5:9> MOOD indicative  
+  _call_v_1<5:9> PROG -  
+  _call_v_1<5:9> PERF -  
+  pron<10:12> PERS 3  
+  pron<10:12> NUM sg  
+  pron<10:12> GEND n  
+  pron<10:12> PT std  
+  _photographic_a_1<13:28> SF prop  
+  _photographic_a_1<13:28> TENSE untensed  
+  _photographic_a_1<13:28> MOOD indicative  
+  _photographic_a_1<13:28> PROG -  
+  _photographic_a_1<13:28> PERF -  
+}
+

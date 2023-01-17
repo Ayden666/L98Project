@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj15b';
+;;; (wsun@wsun; 23-jan-2018 (00:17 h)).
+;;;
+
+[21547032] (1 of 1) {1} `The incident occurred Saturday night.'
+
+[21547032:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:12>, 1, "incident", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:21>, 1, "occurred", 0, "null", "VBD" 0.8428 "VBN" 0.1572)
+  (4, 3, 4, <22:30>, 1, "Saturday", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <31:36>, 1, "night", 0, "null", "NN" 1.0)
+  (6, 5, 6, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (76, 0, 1, <0:3>, 1, "the", 0, "null")
+  (82, 0, 1, <0:3>, 1, "the", 0, "null")
+  (65, 1, 2, <4:12>, 1, "incident", 0, "null")
+  (72, 1, 2, <4:12>, 1, "incident", 0, "null", "NN" 1.0)
+  (78, 1, 2, <4:12>, 1, "incident", 0, "null")
+  (68, 2, 3, <13:21>, 1, "occurred", 0, "null")
+  (70, 2, 3, <13:21>, 1, "occurred", 0, "null", "VBD" 0.8428)
+  (74, 2, 3, <13:21>, 1, "occurred", 0, "null", "VBN" 0.1572)
+  (80, 2, 3, <13:21>, 1, "occurred", 0, "null")
+  (56, 3, 4, <22:30>, 1, "Saturday", 0, "null")
+  (71, 3, 4, <22:30>, 1, "Saturday", 0, "null", "NNP" 1.0)
+  (75, 3, 4, <22:30>, 1, "saturday", 0, "null")
+  (77, 3, 4, <22:30>, 1, "saturday", 0, "null")
+  (67, 4, 5, <31:37>, 1, "night.", 0, "null")
+  (73, 4, 5, <31:37>, 1, "night.", 0, "null", "NN" 1.0)
+  (79, 4, 5, <31:37>, 1, "night.", 0, "null")
+>
+
+(ROOT_STRICT
+ (892 SB-HD_MC_C 3.9307 0 5
+  (883 SP-HD_N_C 2.14135 0 2
+   (95 the_1@d_-_the_le 1.13181 0 1
+    ("the" 76
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (882 ^N_SG_ILR 0.055293 1 2
+    (121 incident_n1@n_-_c_le 0 1 2
+     ("incident" 65
+      "token [ +CARG #1=\"incident\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (891 ^HD-AJ_INT-UNSL_C 0.757148 2 5
+   (884 ^V_PST_OLR 0.533943 2 3
+    (128 occur_v1@v_-_le 0 2 3
+     ("occurred" 68
+      "token [ +CARG #1=\"occurred\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84284669999999995\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (890 NP_ADV_C 0.0700473 3 5
+    (889 SP-HD_N_C 0.501213 3 5
+     (886 N_DET-WKDY_DLR -0.470713 3 4
+      (885 N_SG_ILR -0.833243 3 4
+       (345 saturday_n1@n_-_c-dow_le 0 3 4
+        ("saturday" 75
+         "token [ +CARG \"Saturday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"saturday\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (888 ^W_PERIOD_PLR 0.971926 4 5
+      (887 N_SG_ILR -0.19767 4 5
+       (350 night_nc_n1@n_-_c-dpt_le 0 4 5
+        ("night." 67
+         "token [ +CARG \"night\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"night.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N "incident")))
+ (VP (VP (V "occurred"))
+  (PP (NP (DET (N (N "saturday"))) (N (N (N "night.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _incident_n_1<4:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _occur_v_to<13:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<22:37>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ dofw<22:30>
+            LBL: h11
+            ARG0: x12 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Sat" ]
+          [ def_explicit_q<22:30>
+            LBL: h13
+            ARG0: x10
+            RSTR: h14
+            BODY: h15 ]
+          [ of_p<22:30>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x12 ]
+          [ def_implicit_q<22:30>
+            LBL: h18
+            ARG0: x12
+            RSTR: h19
+            BODY: h20 ]
+          [ _night_n_of<31:37>
+            LBL: h16
+            ARG0: x10 ] >
+   HCONS: < h19 QEQ h11 h14 QEQ h16 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_incident_n_1<4:12>{x PERS 3, NUM sg, IND +}[]
+ e3:_occur_v_to-fn.Event<13:21>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<22:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ x12:dofw<22:30>("Sat"){x PERS 3, NUM sg, IND +}[]
+ _2:def_explicit_q<22:30>[BV x10]
+ e17:of_p<22:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x12]
+ _3:def_implicit_q<22:30>[BV x12]
+ x10:_night_n_of<31:37>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _the_q<0:3> BV _incident_n_1<4:12>  
+  _occur_v_to<13:21> ARG1 _incident_n_1<4:12>  
+  loc_nonsp<22:37> ARG1 _occur_v_to<13:21>  
+  loc_nonsp<22:37> ARG2 _night_n_of<31:37>  
+  def_explicit_q<22:30> BV _night_n_of<31:37>  
+  of_p<22:30> ARG1 _night_n_of<31:37>  
+  of_p<22:30> ARG2 dofw<22:30>(Sat)  
+  def_implicit_q<22:30> BV dofw<22:30>(Sat)  
+  _incident_n_1<4:12> PERS 3  
+  _incident_n_1<4:12> NUM sg  
+  _incident_n_1<4:12> IND +  
+  _occur_v_to<13:21> SF prop  
+  _occur_v_to<13:21> TENSE past  
+  _occur_v_to<13:21> MOOD indicative  
+  _occur_v_to<13:21> PROG -  
+  _occur_v_to<13:21> PERF -  
+  loc_nonsp<22:37> SF prop  
+  loc_nonsp<22:37> TENSE untensed  
+  loc_nonsp<22:37> MOOD indicative  
+  loc_nonsp<22:37> PROG -  
+  loc_nonsp<22:37> PERF -  
+  dofw<22:30>(Sat) PERS 3  
+  dofw<22:30>(Sat) NUM sg  
+  dofw<22:30>(Sat) IND +  
+  of_p<22:30> SF prop  
+  of_p<22:30> TENSE untensed  
+  of_p<22:30> MOOD indicative  
+  of_p<22:30> PROG -  
+  of_p<22:30> PERF -  
+  _night_n_of<31:37> PERS 3  
+  _night_n_of<31:37> NUM sg  
+  _night_n_of<31:37> IND +  
+}
+

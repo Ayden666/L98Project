@@ -1,0 +1,179 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:21 h)).
+;;;
+
+[21635094] (1 of 1) {1} `Source: Securities Data Co.'
+
+[21635094:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Source", 0, "null", "NN" 0.9881 "NNP" 0.0119)
+  (2, 1, 2, <6:7>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <8:18>, 1, "Securities", 0, "null", "NNP" 0.8168 "NNPS" 0.1832)
+  (4, 3, 4, <19:23>, 1, "Data", 0, "null", "NNP" 0.6541 "NNPS" 0.3459)
+  (5, 4, 5, <24:26>, 1, "Co", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (79, 0, 1, <0:6>, 1, "Source", 0, "null")
+  (88, 0, 1, <0:6>, 1, "source", 0, "null")
+  (93, 0, 1, <0:6>, 1, "source", 0, "null")
+  (70, 1, 2, <6:7>, 1, ":", 0, "null")
+  (92, 1, 2, <6:7>, 1, ":", 0, "null")
+  (58, 2, 3, <8:18>, 1, "Securities", 0, "null")
+  (80, 2, 3, <8:18>, 1, "Securities", 0, "null", "NNP" 0.8168)
+  (83, 2, 3, <8:18>, 1, "Securities", 0, "null", "NNPS" 0.1832)
+  (86, 2, 3, <8:18>, 1, "securities", 0, "null")
+  (89, 2, 3, <8:18>, 1, "securities", 0, "null")
+  (59, 3, 4, <19:23>, 1, "Data", 0, "null")
+  (81, 3, 4, <19:23>, 1, "Data", 0, "null", "NNP" 0.6541)
+  (84, 3, 4, <19:23>, 1, "Data", 0, "null", "NNPS" 0.3459)
+  (87, 3, 4, <19:23>, 1, "data", 0, "null")
+  (90, 3, 4, <19:23>, 1, "data", 0, "null")
+  (62, 4, 5, <24:27>, 1, "Co.", 0, "null")
+  (82, 4, 5, <24:27>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (85, 4, 5, <24:27>, 1, "co.", 0, "null")
+  (91, 4, 5, <24:27>, 1, "co.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1258 SB-HD_MC_C 9.64191 0 5
+  (1248 HDN_BNP_C 0.441855 0 1
+   (1247 N_MS_ILR 0.724786 0 1
+    (99 source_n2@n_-_m-nocnh_le 0.156754 0 1
+     ("source" 88
+      "token [ +CARG \"Source\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"source\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98810529999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1257 ^HD-CMP_U_C 7.68415 1 5
+   (104 colon_copula_v@v_np_colon_le 0.879077 1 2
+    (":" 70
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1256 HDN_BNP-PN_C 7.04207 2 5
+    (1255 HDN-AJ_REDREL_C 7.00637 2 5
+     (1252 ^NP-HDN_NME-CPD_C 3.34109 2 4
+      (1250 HDN_BNP-PN_C 0.356306 2 3
+       (1249 N_SG_ILR -0.109213 2 3
+        (139 generic_proper_ne@n_-_pn-gen_le 0.258226 2 3
+         ("Securities" 58
+          "token [ +CARG #1=\"Securities\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81680810000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1251 ^N_SG_ILR 1.62297 3 4
+       (179 generic_proper_ne@n_-_pn-gen_le 0.416987 3 4
+        ("Data" 59
+         "token [ +CARG #1=\"Data\" +CLASS proper_ne +FORM #1 +FROM \"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65409700000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (1254 W_PERIOD_PLR 2.36284 4 5
+      (1253 N_SG_ILR 1.30395 4 5
+       (196 co_post_ttl@n_-_tt-post_le 1.97728 4 5
+        ("co." 85
+         "token [ +CARG \"Co\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "source")))
+ (VP (V ":")
+  (NP
+   (N (N (NP (N (N "Securities"))) (N (N "Data"))) (N (N (N "co.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _source_n_2<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _colon_v_id<6:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:27>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<8:23>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:18>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<8:18>
+            LBL: h19
+            ARG0: x14
+            CARG: "Securities" ]
+          [ named<19:23>
+            LBL: h13
+            ARG0: x9
+            CARG: "Data" ]
+          [ _company_n_1<24:27>
+            LBL: h20
+            ARG0: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<24:27>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<24:27>
+            LBL: h13
+            ARG0: i25
+            ARG1: x9
+            ARG2: x21 ] >
+   HCONS: < h23 QEQ h20 h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_source_n_2<0:6>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_colon_v_id<6:7>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<8:27>[BV x9]
+ e15:compound<8:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<8:18>[BV x14]
+ x14:named<8:18>("Securities"){x PERS 3, NUM sg, IND +}[]
+ x9:named<19:23>("Data"){x PERS 3, NUM sg, IND +}[]
+ x21:_company_n_1<24:27>{x PERS 3, NUM sg, IND +}[]
+ _4:udef_q<24:27>[BV x21]
+ i25:compound<24:27>{i}[ARG1 x9, ARG2 x21]
+}
+
+{
+  udef_q<0:6> BV _source_n_2<0:6>  
+  _colon_v_id<6:7> ARG1 _source_n_2<0:6>  
+  _colon_v_id<6:7> ARG2 named<19:23>(Data)  
+  proper_q<8:27> BV named<19:23>(Data)  
+  compound<8:23> ARG1 named<19:23>(Data)  
+  compound<8:23> ARG2 named<8:18>(Securities)  
+  proper_q<8:18> BV named<8:18>(Securities)  
+  udef_q<24:27> BV _company_n_1<24:27>  
+  compound<24:27> ARG1 named<19:23>(Data)  
+  compound<24:27> ARG2 _company_n_1<24:27>  
+  _source_n_2<0:6> PERS 3  
+  _source_n_2<0:6> NUM sg  
+  _source_n_2<0:6> GEND n  
+  _source_n_2<0:6> IND -  
+  _colon_v_id<6:7> SF prop  
+  _colon_v_id<6:7> TENSE tensed  
+  _colon_v_id<6:7> MOOD indicative  
+  _colon_v_id<6:7> PROG -  
+  _colon_v_id<6:7> PERF -  
+  compound<8:23> SF prop  
+  compound<8:23> TENSE untensed  
+  compound<8:23> MOOD indicative  
+  compound<8:23> PROG -  
+  compound<8:23> PERF -  
+  named<8:18>(Securities) PERS 3  
+  named<8:18>(Securities) NUM sg  
+  named<8:18>(Securities) IND +  
+  named<19:23>(Data) PERS 3  
+  named<19:23>(Data) NUM sg  
+  named<19:23>(Data) IND +  
+  _company_n_1<24:27> PERS 3  
+  _company_n_1<24:27> NUM sg  
+  _company_n_1<24:27> IND +  
+}
+

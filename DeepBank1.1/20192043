@@ -1,0 +1,242 @@
+;;;
+;;; Redwoods export of `wsj01d';
+;;; (wsun@wsun; 22-jan-2018 (11:48 h)).
+;;;
+
+[20192043] (1 of 1) {1} `Gasoline futures continued a sell-off that began Monday.'
+
+[20192043:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Gasoline", 0, "null", "NN" 1.0)
+  (2, 1, 2, <9:16>, 1, "futures", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <17:26>, 1, "continued", 0, "null", "VBD" 0.9459 "VBN" 0.0541)
+  (4, 3, 4, <27:28>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <29:37>, 1, "sell-off", 0, "null", "NN" 0.9886 "NNS" 0.0114)
+  (6, 5, 6, <38:42>, 1, "that", 0, "null", "WDT" 0.5675 "IN" 0.4203 "RB" 0.0122)
+  (7, 6, 7, <43:48>, 1, "began", 0, "null", "VBD" 1.0)
+  (8, 7, 8, <49:55>, 1, "Monday", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <55:56>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (119, 0, 1, <0:8>, 1, "Gasoline", 0, "null")
+  (126, 0, 1, <0:8>, 1, "gasoline", 0, "null")
+  (136, 0, 1, <0:8>, 1, "gasoline", 0, "null")
+  (104, 1, 2, <9:16>, 1, "futures", 0, "null")
+  (122, 1, 2, <9:16>, 1, "futures", 0, "null", "NNS" 1.0)
+  (129, 1, 2, <9:16>, 1, "futures", 0, "null")
+  (113, 2, 3, <17:26>, 1, "continued", 0, "null")
+  (120, 2, 3, <17:26>, 1, "continued", 0, "null", "VBD" 0.9459)
+  (133, 2, 3, <17:26>, 1, "continued", 0, "null")
+  (106, 3, 4, <27:28>, 1, "a", 0, "null")
+  (130, 3, 4, <27:28>, 1, "a", 0, "null")
+  (110, 4, 5, <29:37>, 1, "sell-", 0, "null")
+  (124, 4, 5, <29:37>, 1, "sell-", 0, "null", "NN" 1.0)
+  (132, 4, 5, <29:37>, 1, "sell-", 0, "null")
+  (116, 5, 6, <29:37>, 1, "off", 0, "null")
+  (121, 5, 6, <29:37>, 1, "off", 0, "null", "NN" 0.9886)
+  (135, 5, 6, <29:37>, 1, "off", 0, "null")
+  (115, 6, 7, <38:42>, 1, "that", 0, "null")
+  (134, 6, 7, <38:42>, 1, "that", 0, "null")
+  (108, 7, 8, <43:48>, 1, "began", 0, "null")
+  (123, 7, 8, <43:48>, 1, "began", 0, "null", "VBD" 1.0)
+  (131, 7, 8, <43:48>, 1, "began", 0, "null")
+  (92, 8, 9, <49:56>, 1, "Monday.", 0, "null")
+  (125, 8, 9, <49:56>, 1, "Monday.", 0, "null", "NNP" 1.0)
+  (127, 8, 9, <49:56>, 1, "monday.", 0, "null")
+  (128, 8, 9, <49:56>, 1, "monday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1866 SB-HD_MC_C 7.34288 0 9
+  (1848 HDN_BNP_C 1.30618 0 2
+   (1847 N-HDN_CPD_C 0.68544 0 2
+    (139 gasoline_n1@n_-_m_le 0 0 1
+     ("gasoline" 126
+      "token [ +CARG \"Gasoline\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"gasoline\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1846 ^N_PL_OLR -0.277944 1 2
+     (142 future_n1@n_-_c-nocnh_le -0.833913 1 2
+      ("futures" 104
+       "token [ +CARG #1=\"futures\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1865 ^HD-CMP_U_C 4.52079 2 9
+   (1849 ^V_PST_OLR -1.79985 2 3
+    (172 continue_v2@v_np_noger_le -0.415116 2 3
+     ("continued" 113
+      "token [ +CARG #1=\"continued\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94589690000000004\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1864 SP-HD_N_C 5.31174 3 9
+    (278 a_det@d_-_sg-nmd_le -0.667877 3 4
+     ("a" 106
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1863 ^HDN-AJ_RC_C 4.2316 4 9
+     (1851 ^XP_BRCK-PR_C 0.0998877 4 6
+      (1850 N_MS-CNT_ILR -0.149492 4 6
+       (562 sell_off_n1@n_-_mc_le 0 4 6
+        ("sell- off" 110
+         "token [ +CARG #1=\"sell-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"
+         116
+         "token [ +CARG #1=\"off\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9886144\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+     (1862 CL_RC-FIN-NWH_C 3.47964 6 9
+      (1861 SB-HD_NMC_C 4.4496 6 9
+       (1853 HDN_BNP-QNT_C 0.762367 6 7
+        (1852 HDN_OPTCMP_C -0.177263 6 7
+         (525 that_deix@n_-_pr-dei-sg_le -0.729557 6 7
+          ("that" 115
+           "token [ +CARG #1=\"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56747599999999998\" +TAG \"WDT\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (1860 ^HD-AJ_INT-UNSL_C 2.52555 7 9
+        (1855 ^HD_XCMP_C 0.103369 7 8
+         (1854 V_PST_OLR 0.455641 7 8
+          (541 begin_v2@v_np*_le -0.147833 7 8
+           ("began" 108
+            "token [ +CARG #1=\"began\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+        (1859 NP_ADV_C 1.43034 8 9
+         (1858 HDN_BNP-PN_C 0.703688 8 9
+          (1857 W_PERIOD_PLR 0.346801 8 9
+           (1856 N_SG_ILR -0.367837 8 9
+            (556 monday_n1@n_-_c-dow_le 0 8 9
+             ("monday." 127
+              "token [ +CARG \"Monday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"monday.\" +FROM #1=\"49\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"56\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))))
+
+(S (NP (N (N "gasoline") (N (N "futures"))))
+ (VP (V (V "continued"))
+  (NP (DET "a")
+   (N (N (N (N "sell- off")))
+    (S
+     (S/NP (NP (N (N "that")))
+      (VP/NP (VP/NP (V/NP (V/NP "began")))
+       (PP (NP (N (N (N "monday."))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _gasoline_n_1<0:8>
+            LBL: h14
+            ARG0: x9 ]
+          [ _future_n_1<9:16>
+            LBL: h8
+            ARG0: x6 ]
+          [ _continue_v_2<17:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<27:28>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _sell-off_n_1<29:37>
+            LBL: h19
+            ARG0: x15 ]
+          [ generic_entity<38:42>
+            LBL: h20
+            ARG0: x21 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<38:42>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ _begin_v_1<43:48>
+            LBL: h19
+            ARG0: e25 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: x15 ]
+          [ loc_nonsp<49:56>
+            LBL: h19
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e25
+            ARG2: x27 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<49:56>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ dofw<49:56>
+            LBL: h31
+            ARG0: x27
+            CARG: "Mon" ] >
+   HCONS: < h29 QEQ h31 h23 QEQ h20 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_gasoline_n_1<0:8>{x PERS 3, NUM sg, IND -}[]
+ x6:_future_n_1<9:16>{x PERS 3, NUM pl, IND +}[]
+ e3:_continue_v_2-fn.Process_continue<17:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_a_q<27:28>[BV x15]
+ x15:_sell-off_n_1<29:37>{x PERS 3, NUM sg}[]
+ x21:generic_entity<38:42>{x PERS 3, NUM sg, GEND n}[]
+ _4:_that_q_dem<38:42>[BV x21]
+ e25:_begin_v_1<43:48>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x21, ARG2 x15]
+ e26:loc_nonsp<49:56>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e25, ARG2 x27]
+ _5:proper_q<49:56>[BV x27]
+ x27:dofw<49:56>("Mon"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:16> BV _future_n_1<9:16>  
+  compound<0:16> ARG1 _future_n_1<9:16>  
+  compound<0:16> ARG2 _gasoline_n_1<0:8>  
+  udef_q<0:8> BV _gasoline_n_1<0:8>  
+  _continue_v_2<17:26> ARG1 _future_n_1<9:16>  
+  _continue_v_2<17:26> ARG2 _sell-off_n_1<29:37>  
+  _a_q<27:28> BV _sell-off_n_1<29:37>  
+  _that_q_dem<38:42> BV generic_entity<38:42>  
+  _begin_v_1<43:48> ARG1 generic_entity<38:42>  
+  _begin_v_1<43:48> ARG2 _sell-off_n_1<29:37>  
+  loc_nonsp<49:56> ARG1 _begin_v_1<43:48>  
+  loc_nonsp<49:56> ARG2 dofw<49:56>(Mon)  
+  proper_q<49:56> BV dofw<49:56>(Mon)  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  _gasoline_n_1<0:8> PERS 3  
+  _gasoline_n_1<0:8> NUM sg  
+  _gasoline_n_1<0:8> IND -  
+  _future_n_1<9:16> PERS 3  
+  _future_n_1<9:16> NUM pl  
+  _future_n_1<9:16> IND +  
+  _continue_v_2<17:26> SF prop  
+  _continue_v_2<17:26> TENSE past  
+  _continue_v_2<17:26> MOOD indicative  
+  _continue_v_2<17:26> PROG -  
+  _continue_v_2<17:26> PERF -  
+  _sell-off_n_1<29:37> PERS 3  
+  _sell-off_n_1<29:37> NUM sg  
+  generic_entity<38:42> PERS 3  
+  generic_entity<38:42> NUM sg  
+  generic_entity<38:42> GEND n  
+  _begin_v_1<43:48> SF prop  
+  _begin_v_1<43:48> TENSE past  
+  _begin_v_1<43:48> MOOD indicative  
+  _begin_v_1<43:48> PROG -  
+  _begin_v_1<43:48> PERF -  
+  loc_nonsp<49:56> SF prop  
+  loc_nonsp<49:56> TENSE untensed  
+  loc_nonsp<49:56> MOOD indicative  
+  loc_nonsp<49:56> PROG -  
+  loc_nonsp<49:56> PERF -  
+  dofw<49:56>(Mon) PERS 3  
+  dofw<49:56>(Mon) NUM sg  
+  dofw<49:56>(Mon) IND +  
+}
+

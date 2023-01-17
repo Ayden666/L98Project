@@ -1,0 +1,92 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:26 h)).
+;;;
+
+[20756034] (1 of 1) {1} `-- PRICES.'
+
+[20756034:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:9>, 1, "PRICES", 0, "null", "NN" 0.937 "NNS" 0.063)
+  (3, 2, 3, <9:10>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (35, 0, 1, <0:2>, 1, "–", 0, "null")
+  (41, 0, 1, <0:2>, 1, "–", 0, "null")
+  (31, 1, 2, <3:10>, 1, "PRICES.", 0, "null")
+  (38, 1, 2, <3:10>, 1, "PRICES.", 0, "null", "NN" 0.937)
+  (39, 1, 2, <3:10>, 1, "prices.", 0, "null")
+  (40, 1, 2, <3:10>, 1, "prices.", 0, "null")
+>
+
+(ROOT_FRAG
+ (148 AJ-HD_SCP-XP_C 0.409034 0 2
+  (44 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 35
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (147 ^NP_FRG_C -0.479981 1 2
+   (146 HDN_BNP_C -1.17742 1 2
+    (145 W_PERIOD_PLR -0.0118092 1 2
+     (144 N_PL_OLR 0.336692 1 2
+      (58 price_n1@n_-_mc-ed_le 0 1 2
+       ("prices." 39
+        "token [ +CARG \"PRICES\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"prices.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9369845\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (ADV "–") (XP (NP (N (N (N "prices."))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:10>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<3:10>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ _price_n_of<3:10>
+            LBL: h12
+            ARG0: x8 ] >
+   HCONS: < h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:udef_q<3:10>[BV x8]
+ x8:_price_n_of<3:10>{x PERS 3, NUM pl}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:10>  
+  discourse<0:2> R-INDEX unknown<3:10>  
+  unknown<3:10> ARG _price_n_of<3:10>  
+  udef_q<3:10> BV _price_n_of<3:10>  
+  unknown<3:10> SF prop  
+  unknown<3:10> TENSE untensed  
+  unknown<3:10> MOOD indicative  
+  unknown<3:10> PROG -  
+  unknown<3:10> PERF -  
+  _price_n_of<3:10> PERS 3  
+  _price_n_of<3:10> NUM pl  
+}
+

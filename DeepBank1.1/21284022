@@ -1,0 +1,119 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:45 h)).
+;;;
+
+[21284022] (1 of 1) {1} `The Russians are talking peace.'
+
+[21284022:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:12>, 1, "Russians", 0, "null", "NNPS" 1.0)
+  (3, 2, 3, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <17:24>, 1, "talking", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <25:30>, 1, "peace", 0, "null", "NN" 1.0)
+  (6, 5, 6, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:3>, 1, "the", 0, "null")
+  (79, 0, 1, <0:3>, 1, "the", 0, "null")
+  (56, 1, 2, <4:12>, 1, "Russians", 0, "null")
+  (68, 1, 2, <4:12>, 1, "Russians", 0, "null", "NNPS" 1.0)
+  (72, 1, 2, <4:12>, 1, "russians", 0, "null")
+  (74, 1, 2, <4:12>, 1, "russians", 0, "null")
+  (63, 2, 3, <13:16>, 1, "are", 0, "null")
+  (69, 2, 3, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (75, 2, 3, <13:16>, 1, "are", 0, "null")
+  (65, 3, 4, <17:24>, 1, "talking", 0, "null")
+  (70, 3, 4, <17:24>, 1, "talking", 0, "null", "VBG" 1.0)
+  (76, 3, 4, <17:24>, 1, "talking", 0, "null")
+  (67, 4, 5, <25:31>, 1, "peace.", 0, "null")
+  (71, 4, 5, <25:31>, 1, "peace.", 0, "null", "NN" 1.0)
+  (77, 4, 5, <25:31>, 1, "peace.", 0, "null")
+>
+
+(ROOT_STRICT
+ (907 SB-HD_MC_C 6.52719 0 5
+  (906 SP-HD_N_C 2.53308 0 2
+   (92 the_1@d_-_the_le 1.13181 0 1
+    ("the" 73
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (905 ^N_PL_OLR 0.709901 1 2
+    (129 russian_n2@n_-_c-nocnh_le 0 1 2
+     ("russians" 72
+      "token [ +CARG \"Russians\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"russians\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (903 ^HD-CMP_U_C 2.0396 2 5
+   (137 be_c_are@v_prd_are_le 1.27762 2 3
+    ("are" 63
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (902 HD-CMP_U_C 0.307824 3 5
+    (898 ^V_PRP_OLR -0.696745 3 4
+     (153 talk_v2@v_np_noger_le -0.371452 3 4
+      ("talking" 65
+       "token [ +CARG #1=\"talking\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (901 HDN_BNP_C -0.203352 4 5
+     (900 W_PERIOD_PLR 0.552406 4 5
+      (899 N_MS_ILR -0.150183 4 5
+       (163 peace_n1@n_-_m_le 0 4 5
+        ("peace." 67
+         "token [ +CARG \"peace\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"peace.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N "russians")))
+ (VP (V "are") (VP (V (V "talking")) (NP (N (N (N "peace.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _russian_n_1<4:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _talk_v_about<17:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<25:31>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _peace_n_1<25:31>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_russian_n_1<4:12>{x PERS 3, NUM pl, IND +}[]
+ e3:_talk_v_about<17:24>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<25:31>[BV x9]
+ x9:_peace_n_1<25:31>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  _the_q<0:3> BV _russian_n_1<4:12>  
+  _talk_v_about<17:24> ARG1 _russian_n_1<4:12>  
+  _talk_v_about<17:24> ARG2 _peace_n_1<25:31>  
+  udef_q<25:31> BV _peace_n_1<25:31>  
+  _russian_n_1<4:12> PERS 3  
+  _russian_n_1<4:12> NUM pl  
+  _russian_n_1<4:12> IND +  
+  _talk_v_about<17:24> SF prop  
+  _talk_v_about<17:24> TENSE pres  
+  _talk_v_about<17:24> MOOD indicative  
+  _talk_v_about<17:24> PROG +  
+  _talk_v_about<17:24> PERF -  
+  _peace_n_1<25:31> PERS 3  
+  _peace_n_1<25:31> NUM sg  
+  _peace_n_1<25:31> GEND n  
+  _peace_n_1<25:31> IND -  
+}
+

@@ -1,0 +1,143 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:15 h)).
+;;;
+
+[21123013] (1 of 1) {1} `"We are being over-magazined.'
+
+[21123013:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "We", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:7>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <8:13>, 1, "being", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <14:28>, 1, "over-magazined", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (78, 0, 1, <0:3>, 1, "“we", 0, "null")
+  (83, 0, 1, <0:3>, 1, "“we", 0, "null")
+  (65, 1, 2, <4:7>, 1, "are", 0, "null")
+  (74, 1, 2, <4:7>, 1, "are", 0, "null", "VBP" 1.0)
+  (79, 1, 2, <4:7>, 1, "are", 0, "null")
+  (67, 2, 3, <8:13>, 1, "being", 0, "null")
+  (75, 2, 3, <8:13>, 1, "being", 0, "null", "VBG" 1.0)
+  (80, 2, 3, <8:13>, 1, "being", 0, "null")
+  (69, 3, 4, <14:28>, 1, "over-", 0, "null")
+  (76, 3, 4, <14:28>, 1, "over-", 0, "null", "NN" 1.0)
+  (81, 3, 4, <14:28>, 1, "over-", 0, "null")
+  (73, 4, 5, <14:29>, 1, "magazined.", 0, "null")
+  (77, 4, 5, <14:29>, 1, "magazined.", 0, "null", "VBN" 1.0)
+  (82, 4, 5, <14:29>, 1, "magazined.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (836 SB-HD_MC_C 3.78356 0 5
+  (829 HDN_BNP-QNT_C -0.329839 0 1
+   (828 W_DQLEFT_PLR 0.30596 0 1
+    (84 we@n_-_pr-we_le 0.105132 0 1
+     ("“we" 78
+      "token [ +CARG \"We\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“we\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (835 ^HD-CMP_U_C 2.84404 1 5
+   (102 be_c_are@v_prd_are_le 1.27762 1 2
+    ("are" 65
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (834 HD-CMP_U_C 1.11227 2 5
+    (122 be_c_being@v_prd_being_le 1.64671 2 3
+     ("being" 67
+      "token [ +CARG #1=\"being\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (833 XP_BRCK-PR_C -0.534445 3 5
+     (832 N-V_J-CPD_C 0 3 5
+      (830 W_HYPHEN_PLR 0 3 4
+       (152 over_n1@n_-_c-ncmp-nttl_le 0 3 4
+        ("over-" 69
+         "token [ +CARG #1=\"over-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (831 ^W_PERIOD_PLR 0 4 5
+       (245 generic_trans_verb_pas@v_-_pas-unk_le 0 4 5
+        ("magazined." 77
+         "token [ +CARG \"magazined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"magazined.\" +FROM \"14\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] +PRED \"_magazined/VBN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #2=\"1\" +TAG #3=\"VBN\" ] +PRBS *cons* [ FIRST #2 REST *null* ] +TAGS *cons* [ FIRST #3 REST *null* ] ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW + ] ]")))))))))
+
+(S (NP (NP (NP "“we")))
+ (VP (V "are")
+  (VP (V "being") (AP (AP (N (N "over-")) (V (V "magazined.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ compound<14:29>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<14:28>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _over_n_1<14:28>
+            LBL: h14
+            ARG0: x9 ]
+          [ _magazined/vbn_u_unknown<14:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: u15
+            ARG2: x5 ]
+          [ parg_d<14:29>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x5 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 1, NUM pl, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e10:compound<14:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x9]
+ _2:udef_q<14:28>[BV x9]
+ x9:_over_n_1<14:28>{x PERS 3, NUM pl, IND +}[]
+ e3:_magazined/vbn_u_unknown<14:29>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG2 x5]
+ e16:parg_d<14:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x5]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  compound<14:29> ARG1 _magazined/vbn_u_unknown<14:29>  
+  compound<14:29> ARG2 _over_n_1<14:28>  
+  udef_q<14:28> BV _over_n_1<14:28>  
+  _magazined/vbn_u_unknown<14:29> ARG2 pron<0:3>  
+  parg_d<14:29> ARG1 _magazined/vbn_u_unknown<14:29>  
+  parg_d<14:29> ARG2 pron<0:3>  
+  pron<0:3> PERS 1  
+  pron<0:3> NUM pl  
+  pron<0:3> PT std  
+  compound<14:29> SF prop  
+  compound<14:29> TENSE untensed  
+  compound<14:29> MOOD indicative  
+  compound<14:29> PROG -  
+  compound<14:29> PERF -  
+  _over_n_1<14:28> PERS 3  
+  _over_n_1<14:28> NUM pl  
+  _over_n_1<14:28> IND +  
+  _magazined/vbn_u_unknown<14:29> SF prop  
+  _magazined/vbn_u_unknown<14:29> TENSE pres  
+  _magazined/vbn_u_unknown<14:29> MOOD indicative  
+  _magazined/vbn_u_unknown<14:29> PROG +  
+  _magazined/vbn_u_unknown<14:29> PERF -  
+  parg_d<14:29> SF prop  
+  parg_d<14:29> TENSE untensed  
+  parg_d<14:29> MOOD indicative  
+  parg_d<14:29> PROG -  
+  parg_d<14:29> PERF -  
+}
+

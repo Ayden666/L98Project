@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:13 h)).
+;;;
+
+[20445033] (1 of 1) {1} `Others analyze the data.'
+
+[20445033:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Others", 0, "null", "NNS" 0.982 "NNPS" 0.018)
+  (2, 1, 2, <7:14>, 1, "analyze", 0, "null", "VB" 0.5097 "VBP" 0.4903)
+  (3, 2, 3, <15:18>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <19:23>, 1, "data", 0, "null", "NNS" 0.6846 "NN" 0.3154)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:6>, 1, "Others", 0, "null", "NNS" 0.982)
+  (66, 0, 1, <0:6>, 1, "others", 0, "null")
+  (70, 0, 1, <0:6>, 1, "others", 0, "null")
+  (57, 1, 2, <7:14>, 1, "analyze", 0, "null")
+  (62, 1, 2, <7:14>, 1, "analyze", 0, "null", "VB" 0.5097)
+  (64, 1, 2, <7:14>, 1, "analyze", 0, "null", "VBP" 0.4903)
+  (68, 1, 2, <7:14>, 1, "analyze", 0, "null")
+  (54, 2, 3, <15:18>, 1, "the", 0, "null")
+  (67, 2, 3, <15:18>, 1, "the", 0, "null")
+  (59, 3, 4, <19:24>, 1, "data.", 0, "null")
+  (63, 3, 4, <19:24>, 1, "data.", 0, "null", "NNS" 0.6846)
+  (65, 3, 4, <19:24>, 1, "data.", 0, "null", "NN" 0.3154)
+  (69, 3, 4, <19:24>, 1, "data.", 0, "null")
+>
+
+(ROOT_STRICT
+ (268 SB-HD_MC_C 4.34991 0 4
+  (262 HDN_BNP_C 0.170819 0 1
+   (261 N_PL_OLR 0.746825 0 1
+    (80 other_n1@n_-_c-nocpd_le 0.377673 0 1
+     ("others" 66
+      "token [ +CARG \"Others\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"others\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98199210000000003\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (267 ^HD-CMP_U_C 2.66318 1 4
+   (263 ^V_N3S-BSE_ILR -0.329965 1 2
+    (100 analyze_v1@v_np_le 0 1 2
+     ("analyze" 57
+      "token [ +CARG #1=\"analyze\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.50965269999999996\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (266 SP-HD_N_C 2.19533 2 4
+    (115 the_1@d_-_the_le 1.07131 2 3
+     ("the" 54
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (265 ^W_PERIOD_PLR 0.353022 3 4
+     (264 N_MS-CNT_ILR 0.175793 3 4
+      (142 data_n1@n_-_mc_le 0 3 4
+       ("data." 59
+        "token [ +CARG \"data\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"data.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68460129999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "others")))
+ (VP (V (V "analyze")) (NP (DET "the") (N (N (N "data."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _other_n_1<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _analyze_v_1<7:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<15:18>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _data_n_1<19:24>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_other_n_1<0:6>{x PERS 3, NUM pl, IND +}[]
+ e3:_analyze_v_1-fn.Scrutiny<7:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Cognizer x6, ARG2-fn.Ground x9]
+ _2:_the_q<15:18>[BV x9]
+ x9:_data_n_1<19:24>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:6> BV _other_n_1<0:6>  
+  _analyze_v_1<7:14> ARG1 _other_n_1<0:6>  
+  _analyze_v_1<7:14> ARG2 _data_n_1<19:24>  
+  _the_q<15:18> BV _data_n_1<19:24>  
+  _other_n_1<0:6> PERS 3  
+  _other_n_1<0:6> NUM pl  
+  _other_n_1<0:6> IND +  
+  _analyze_v_1<7:14> SF prop  
+  _analyze_v_1<7:14> TENSE pres  
+  _analyze_v_1<7:14> MOOD indicative  
+  _analyze_v_1<7:14> PROG -  
+  _analyze_v_1<7:14> PERF -  
+  _data_n_1<19:24> PERS 3  
+  _data_n_1<19:24> NUM sg  
+}
+

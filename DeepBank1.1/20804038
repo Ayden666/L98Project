@@ -1,0 +1,130 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:00 h)).
+;;;
+
+[20804038] (1 of 1) {1} `Acting sometimes falls flat.'
+
+[20804038:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Acting", 0, "null", "NNP" 0.8914 "NN" 0.0797 "VBG" 0.0289)
+  (2, 1, 2, <7:16>, 1, "sometimes", 0, "null", "RB" 1.0)
+  (3, 2, 3, <17:22>, 1, "falls", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <23:27>, 1, "flat", 0, "null", "JJ" 0.9398 "RB" 0.0602)
+  (5, 4, 5, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:6>, 1, "Acting", 0, "null")
+  (65, 0, 1, <0:6>, 1, "acting", 0, "null")
+  (69, 0, 1, <0:6>, 1, "acting", 0, "null")
+  (54, 1, 2, <7:16>, 1, "sometimes", 0, "null")
+  (63, 1, 2, <7:16>, 1, "sometimes", 0, "null", "RB" 1.0)
+  (66, 1, 2, <7:16>, 1, "sometimes", 0, "null")
+  (56, 2, 3, <17:22>, 1, "falls", 0, "null")
+  (64, 2, 3, <17:22>, 1, "falls", 0, "null", "VBZ" 1.0)
+  (67, 2, 3, <17:22>, 1, "falls", 0, "null")
+  (58, 3, 4, <23:28>, 1, "flat.", 0, "null")
+  (62, 3, 4, <23:28>, 1, "flat.", 0, "null", "JJ" 0.9398)
+  (68, 3, 4, <23:28>, 1, "flat.", 0, "null")
+>
+
+(ROOT_STRICT
+ (634 SB-HD_MC_C 1.41539 0 4
+  (632 HDN_BNP_C -1.52075 0 1
+   (631 V_NGER-INTR_DLR -1.43746 0 1
+    (623 V_PRP_OLR -0.199203 0 1
+     (81 act_v1@v_-_le 0 0 1
+      ("acting" 65
+       "token [ +CARG \"Acting\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"acting\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89135180000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (633 ^AJ-HD_INT_C 1.36731 1 4
+   (95 sometimes_adv1@av_-_i-vp-j_le -0.00428015 1 2
+    ("sometimes" 54
+     "token [ +CARG #1=\"sometimes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (629 ^HD-CMP_U_C 1.46991 2 4
+    (627 ^V_3S-FIN_OLR 0.0518368 2 3
+     (121 fall_prd_v1@v_ap_seq_le 0 2 3
+      ("falls" 56
+       "token [ +CARG #1=\"falls\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (628 W_PERIOD_PLR 0.852384 3 4
+     (134 flat_a1@aj_-_i-er_le 0 3 4
+      ("flat." 58
+       "token [ +CARG \"flat\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"flat.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93979559999999995\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (VP (V "acting"))))
+ (VP (ADV "sometimes") (VP (V (V "falls")) (AP (AP "flat.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _act_v_1<0:6>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i10 ]
+          [ nominalization<0:6>
+            LBL: h11
+            ARG0: x6
+            ARG1: h8 ]
+          [ _sometimes_a_1<7:16>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _fall_v_state<17:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h13 ]
+          [ _flat_a_1<23:28>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h13 QEQ h14 h5 QEQ h11 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ e9:_act_v_1<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x6:nominalization<0:6>{x PERS 3, NUM sg, GEND n}[ARG1 e9]
+ e12:_sometimes_a_1<7:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_fall_v_state<17:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e15]
+ e15:_flat_a_1<23:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:6> BV nominalization<0:6>  
+  nominalization<0:6> ARG1 _act_v_1<0:6>  
+  _sometimes_a_1<7:16> ARG1 _fall_v_state<17:22>  
+  _fall_v_state<17:22> ARG1 nominalization<0:6>  
+  _fall_v_state<17:22> ARG2 _flat_a_1<23:28>  
+  _flat_a_1<23:28> ARG1 nominalization<0:6>  
+  _act_v_1<0:6> SF prop  
+  _act_v_1<0:6> TENSE untensed  
+  _act_v_1<0:6> MOOD indicative  
+  _act_v_1<0:6> PROG +  
+  _act_v_1<0:6> PERF -  
+  nominalization<0:6> PERS 3  
+  nominalization<0:6> NUM sg  
+  nominalization<0:6> GEND n  
+  _sometimes_a_1<7:16> SF prop  
+  _sometimes_a_1<7:16> TENSE untensed  
+  _sometimes_a_1<7:16> MOOD indicative  
+  _sometimes_a_1<7:16> PROG -  
+  _sometimes_a_1<7:16> PERF -  
+  _fall_v_state<17:22> SF prop  
+  _fall_v_state<17:22> TENSE pres  
+  _fall_v_state<17:22> MOOD indicative  
+  _fall_v_state<17:22> PROG -  
+  _fall_v_state<17:22> PERF -  
+  _flat_a_1<23:28> SF prop  
+  _flat_a_1<23:28> TENSE untensed  
+  _flat_a_1<23:28> MOOD indicative  
+  _flat_a_1<23:28> PROG -  
+  _flat_a_1<23:28> PERF -  
+}
+

@@ -1,0 +1,142 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:25 h)).
+;;;
+
+[20465035] (1 of 1) {1} `They have about seven candidates.'
+
+[20465035:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:9>, 1, "have", 0, "null", "VBP" 0.9604 "VB" 0.0396)
+  (3, 2, 3, <10:15>, 1, "about", 0, "null", "RB" 0.6182 "IN" 0.3818)
+  (4, 3, 4, <16:21>, 1, "seven", 0, "null", "CD" 1.0)
+  (5, 4, 5, <22:32>, 1, "candidates", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:4>, 1, "they", 0, "null")
+  (79, 0, 1, <0:4>, 1, "they", 0, "null")
+  (66, 1, 2, <5:9>, 1, "have", 0, "null")
+  (70, 1, 2, <5:9>, 1, "have", 0, "null", "VBP" 0.9604)
+  (77, 1, 2, <5:9>, 1, "have", 0, "null")
+  (68, 2, 3, <10:15>, 1, "about", 0, "null")
+  (71, 2, 3, <10:15>, 1, "about", 0, "null", "RB" 0.6182)
+  (78, 2, 3, <10:15>, 1, "about", 0, "null")
+  (63, 3, 4, <16:21>, 1, "seven", 0, "null")
+  (72, 3, 4, <16:21>, 1, "seven", 0, "null", "CD" 1.0)
+  (75, 3, 4, <16:21>, 1, "seven", 0, "null")
+  (65, 4, 5, <22:33>, 1, "candidates.", 0, "null")
+  (73, 4, 5, <22:33>, 1, "candidates.", 0, "null", "NNS" 1.0)
+  (76, 4, 5, <22:33>, 1, "candidates.", 0, "null")
+>
+
+(ROOT_STRICT
+ (995 SB-HD_MC_C 5.23384 0 5
+  (987 HDN_BNP-QNT_C 1.15641 0 1
+   (80 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 74
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (994 ^HD-CMP_U_C 2.80808 1 5
+   (988 ^V_N3S-BSE_ILR 0.710757 1 2
+    (95 have-poss@v_np_poss_le 0.632367 1 2
+     ("have" 66
+      "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96038959999999995\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (993 SP-HD_N_C 1.2995 2 5
+    (990 SP-HD_HC_C 2.07871 2 4
+     (120 about_deg@av_-_dg-jomv_le 0.449033 2 3
+      ("about" 68
+       "token [ +CARG #1=\"about\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61822880000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (989 ^NUM_DET_C 0.466047 3 4
+      (148 seven@aj_-_i-crd-one_le -0.519012 3 4
+       ("seven" 63
+        "token [ +CARG #1=\"seven\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (992 ^W_PERIOD_PLR 0.261218 4 5
+     (991 N_PL_OLR 0.342144 4 5
+      (161 candidate_n1@n_-_c_le 0 4 5
+       ("candidates." 65
+        "token [ +CARG \"candidates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"candidates.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "they"))
+ (VP (V (V "have"))
+  (NP (DET (ADV "about") (DET (ADJ "seven")))
+   (N (N (N "candidates."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _have_v_1<5:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _about_x_deg<10:15>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ udef_q<16:21>
+            LBL: h13
+            ARG0: x9
+            RSTR: h14
+            BODY: h15 ]
+          [ card<16:21>
+            LBL: h10
+            ARG0: e12
+            ARG1: x9
+            CARG: "7" ]
+          [ _candidate_n_1<22:33>
+            LBL: h10
+            ARG0: x9 ] >
+   HCONS: < h14 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_have_v_1<5:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ e11:_about_x_deg<10:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ _2:udef_q<16:21>[BV x9]
+ e12:card<16:21>("7"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_candidate_n_1<22:33>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _have_v_1<5:9> ARG1 pron<0:4>  
+  _have_v_1<5:9> ARG2 _candidate_n_1<22:33>  
+  _about_x_deg<10:15> ARG1 card<16:21>(7)  
+  udef_q<16:21> BV _candidate_n_1<22:33>  
+  card<16:21>(7) ARG1 _candidate_n_1<22:33>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _have_v_1<5:9> SF prop  
+  _have_v_1<5:9> TENSE pres  
+  _have_v_1<5:9> MOOD indicative  
+  _have_v_1<5:9> PROG -  
+  _have_v_1<5:9> PERF -  
+  _about_x_deg<10:15> SF prop  
+  _about_x_deg<10:15> TENSE untensed  
+  _about_x_deg<10:15> MOOD indicative  
+  _about_x_deg<10:15> PROG -  
+  _about_x_deg<10:15> PERF -  
+  card<16:21>(7) SF prop  
+  card<16:21>(7) TENSE untensed  
+  card<16:21>(7) MOOD indicative  
+  card<16:21>(7) PROG -  
+  card<16:21>(7) PERF -  
+  _candidate_n_1<22:33> PERS 3  
+  _candidate_n_1<22:33> NUM pl  
+  _candidate_n_1<22:33> IND +  
+}
+

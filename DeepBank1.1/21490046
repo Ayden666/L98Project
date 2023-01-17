@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj14e';
+;;; (wsun@wsun; 22-jan-2018 (23:46 h)).
+;;;
+
+[21490046] (1 of 1) {1} `Business: Airline'
+
+[21490046:5] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Business", 0, "null", "NNP" 0.8098 "NN" 0.1902)
+  (2, 1, 2, <8:9>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <10:17>, 1, "Airline", 0, "null", "NNP" 0.8097 "NN" 0.1903)
+>
+
+<
+  (40, 0, 1, <0:8>, 1, "Business", 0, "null")
+  (43, 0, 1, <0:8>, 1, "business", 0, "null")
+  (46, 0, 1, <0:8>, 1, "business", 0, "null")
+  (35, 1, 2, <8:9>, 1, ":", 0, "null")
+  (45, 1, 2, <8:9>, 1, ":", 0, "null")
+  (29, 2, 3, <10:17>, 1, "Airline", 0, "null")
+  (41, 2, 3, <10:17>, 1, "Airline", 0, "null", "NN" 0.1903)
+  (42, 2, 3, <10:17>, 1, "airline", 0, "null")
+  (44, 2, 3, <10:17>, 1, "airline", 0, "null")
+>
+
+(ROOT_FRAG
+ (269 NP-AJ_RORP-FRG_C -1.383 0 3
+  (253 ^HDN_BNP_C 0.24484 0 1
+   (252 N_MS-CNT_ILR 0.444916 0 1
+    (49 business_n1@n_-_mc_le 0.118499 0 1
+     ("business" 43
+      "token [ +CARG \"Business\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"business\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80981230000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (268 HD-CMP_U_C -1.1516 1 3
+   (57 colon_namely@p_np_i-nnm-ngap_le 0.025285 1 2
+    (":" 35
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (255 HDN_BNP-PN_C -1.53945 2 3
+    (254 N_SG_ILR -0.648737 2 3
+     (87 generic_proper_ne@n_-_pn-gen_le 0 2 3
+      ("Airline" 29
+       "token [ +CARG #1=\"Airline\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80971309999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (N "business"))) (PP (P ":") (NP (N (N "Airline")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:8>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _business_n_1<0:8>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<8:9>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u10
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<10:17>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ named<10:17>
+            LBL: h15
+            ARG0: x11
+            CARG: "Airline" ] >
+   HCONS: < h13 QEQ h15 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:8>[BV x4]
+ x4:_business_n_1<0:8>{x PERS 3, NUM sg}[]
+ e9:_colon_p_namely<8:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x11]
+ _2:proper_q<10:17>[BV x11]
+ x11:named<10:17>("Airline"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:17> ARG _business_n_1<0:8>  
+  udef_q<0:8> BV _business_n_1<0:8>  
+  _colon_p_namely<8:9> ARG2 named<10:17>(Airline)  
+  proper_q<10:17> BV named<10:17>(Airline)  
+  unknown<0:17> SF prop  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  _business_n_1<0:8> PERS 3  
+  _business_n_1<0:8> NUM sg  
+  _colon_p_namely<8:9> SF prop  
+  _colon_p_namely<8:9> TENSE untensed  
+  _colon_p_namely<8:9> MOOD indicative  
+  _colon_p_namely<8:9> PROG -  
+  _colon_p_namely<8:9> PERF -  
+  named<10:17>(Airline) PERS 3  
+  named<10:17>(Airline) NUM sg  
+  named<10:17>(Airline) IND +  
+}
+

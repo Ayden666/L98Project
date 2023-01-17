@@ -1,0 +1,146 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:25 h)).
+;;;
+
+[20465070] (1 of 1) {1} `They focused on chromosome 17.'
+
+[20465070:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:12>, 1, "focused", 0, "null", "VBD" 0.8535 "VBN" 0.1465)
+  (3, 2, 3, <13:15>, 1, "on", 0, "null", "IN" 0.971 "RP" 0.029)
+  (4, 3, 4, <16:26>, 1, "chromosome", 0, "null", "NN" 1.0)
+  (5, 4, 5, <27:29>, 1, "17", 0, "null", "CD" 1.0)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:4>, 1, "they", 0, "null")
+  (74, 0, 1, <0:4>, 1, "they", 0, "null")
+  (62, 1, 2, <5:12>, 1, "focused", 0, "null")
+  (66, 1, 2, <5:12>, 1, "focused", 0, "null", "VBD" 0.8535)
+  (68, 1, 2, <5:12>, 1, "focused", 0, "null", "VBN" 0.1465)
+  (72, 1, 2, <5:12>, 1, "focused", 0, "null")
+  (64, 2, 3, <13:15>, 1, "on", 0, "null")
+  (73, 2, 3, <13:15>, 1, "on", 0, "null")
+  (61, 3, 4, <16:26>, 1, "chromosome", 0, "null")
+  (67, 3, 4, <16:26>, 1, "chromosome", 0, "null", "NN" 1.0)
+  (71, 3, 4, <16:26>, 1, "chromosome", 0, "null")
+  (53, 4, 5, <27:30>, 1, "17.", 0, "null")
+  (70, 4, 5, <27:30>, 1, "17.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1115 SB-HD_MC_C 10.0313 0 5
+  (1106 HDN_BNP-QNT_C 1.15641 0 1
+   (75 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 69
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1114 ^HD-CMP_U_C 7.60559 1 5
+   (1107 ^V_PST_OLR 0.932244 1 2
+    (97 focus_on_v1@v_pp_e_le 0 1 2
+     ("focused" 62
+      "token [ +CARG #1=\"focused\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85347830000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1113 HD-CMP_U_C 5.75711 2 5
+    (286 on_prtcl@p_np_ptcl_le 1.54582 2 3
+     ("on" 64
+      "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97102219999999995\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1112 HDN_BNP-NUM_C 3.23606 3 5
+     (1111 NP-HDN_NUM-CPD_C 2.53597 3 5
+      (1108 N_SG_ILR -0.82783 3 4
+       (309 chromosome_n1@n_-_c_le 0 3 4
+        ("chromosome" 61
+         "token [ +CARG #1=\"chromosome\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1110 ^HDN_NP-NUM_C 2.67199 4 5
+       (1109 W_PERIOD_PLR 1.56023 4 5
+        (313 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+         ("17." 53
+          "token [ +CARG \"17\" +CLASS card_or_dom_ne +FORM \"17.\" +FROM \"27\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (NP (NP "they"))
+ (VP (V (V "focused"))
+  (PP (P "on") (NP (N (N (N "chromosome")) (N (ADJ (ADJ "17."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _focus_v_on<5:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<16:30>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<16:30>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<16:26>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ _chromosome_n_1<16:26>
+            LBL: h19
+            ARG0: x14 ]
+          [ card<27:30>
+            LBL: h13
+            ARG0: x9
+            ARG1: i20
+            CARG: "17" ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_focus_v_on-fn.Place_weight_on<5:12>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Experiencer x5, ARG2 x9]
+ _2:number_q<16:30>[BV x9]
+ e15:compound<16:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:udef_q<16:26>[BV x14]
+ x14:_chromosome_n_1<16:26>{x PERS 3, NUM sg, IND +}[]
+ x9:card<27:30>("17"){x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _focus_v_on<5:12> ARG1 pron<0:4>  
+  _focus_v_on<5:12> ARG2 card<27:30>(17)  
+  number_q<16:30> BV card<27:30>(17)  
+  compound<16:30> ARG1 card<27:30>(17)  
+  compound<16:30> ARG2 _chromosome_n_1<16:26>  
+  udef_q<16:26> BV _chromosome_n_1<16:26>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _focus_v_on<5:12> SF prop  
+  _focus_v_on<5:12> TENSE past  
+  _focus_v_on<5:12> MOOD indicative  
+  _focus_v_on<5:12> PROG -  
+  _focus_v_on<5:12> PERF -  
+  compound<16:30> SF prop  
+  compound<16:30> TENSE untensed  
+  compound<16:30> MOOD indicative  
+  compound<16:30> PROG -  
+  compound<16:30> PERF -  
+  _chromosome_n_1<16:26> PERS 3  
+  _chromosome_n_1<16:26> NUM sg  
+  _chromosome_n_1<16:26> IND +  
+  card<27:30>(17) PERS 3  
+  card<27:30>(17) NUM sg  
+}
+

@@ -1,0 +1,95 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:39 h)).
+;;;
+
+[21376035] (1 of 1) {1} `Take Cleveland.'
+
+[21376035:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Take", 0, "null", "VB" 0.9424 "VBP" 0.0576)
+  (2, 1, 2, <5:14>, 1, "Cleveland", 0, "null", "NNP" 0.9365 "NN" 0.0635)
+  (3, 2, 3, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (40, 0, 1, <0:4>, 1, "Take", 0, "null", "VB" 0.9424)
+  (42, 0, 1, <0:4>, 1, "take", 0, "null")
+  (45, 0, 1, <0:4>, 1, "take", 0, "null")
+  (31, 1, 2, <5:15>, 1, "Cleveland.", 0, "null")
+  (41, 1, 2, <5:15>, 1, "Cleveland.", 0, "null", "NNP" 0.9365)
+  (43, 1, 2, <5:15>, 1, "cleveland.", 0, "null")
+  (44, 1, 2, <5:15>, 1, "cleveland.", 0, "null")
+>
+
+(ROOT_STRICT
+ (251 HD_IMP_C 0.110453 0 2
+  (250 HD-CMP_U_C 0.0171372 0 2
+   (246 ^V_N3S-BSE_ILR 0.922563 0 1
+    (73 take_v1@v_np_noarg3_le 0.735783 0 1
+     ("take" 42
+      "token [ +CARG \"Take\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"take\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94241319999999995\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (249 HDN_BNP-PN_C -0.650006 1 2
+    (248 W_PERIOD_PLR -0.39127 1 2
+     (247 N_SG_ILR -0.824189 1 2
+      (90 cleveland_n1@n_-_pn_le 0 1 2
+       ("cleveland." 43
+        "token [ +CARG \"Cleveland\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"cleveland.\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93646220000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (VP (V (V "take")) (NP (N (N (N "cleveland."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _take_v_1<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ]
+            ARG3: u9 ]
+          [ proper_q<5:15>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ named<5:15>
+            LBL: h14
+            ARG0: x10
+            CARG: "Cleveland" ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:15>[BV x6]
+ x6:pron<0:15>{x PERS 2, PT zero}[]
+ e3:_take_v_1<0:4>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:proper_q<5:15>[BV x10]
+ x10:named<5:15>("Cleveland"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:15> BV pron<0:15>  
+  _take_v_1<0:4> ARG1 pron<0:15>  
+  _take_v_1<0:4> ARG2 named<5:15>(Cleveland)  
+  proper_q<5:15> BV named<5:15>(Cleveland)  
+  pron<0:15> PERS 2  
+  pron<0:15> PT zero  
+  _take_v_1<0:4> SF comm  
+  _take_v_1<0:4> TENSE pres  
+  _take_v_1<0:4> MOOD indicative  
+  _take_v_1<0:4> PROG -  
+  _take_v_1<0:4> PERF -  
+  named<5:15>(Cleveland) PERS 3  
+  named<5:15>(Cleveland) NUM sg  
+  named<5:15>(Cleveland) IND +  
+}
+

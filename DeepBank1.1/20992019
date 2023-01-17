@@ -1,0 +1,101 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:03 h)).
+;;;
+
+[20992019] (1 of 1) {1} `Executive Director'
+
+[20992019:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Executive", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:18>, 1, "Director", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:9>, 1, "Executive", 0, "null")
+  (28, 0, 1, <0:9>, 1, "executive", 0, "null")
+  (30, 0, 1, <0:9>, 1, "executive", 0, "null")
+  (20, 1, 2, <10:18>, 1, "Director", 0, "null")
+  (26, 1, 2, <10:18>, 1, "Director", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <10:18>, 1, "director", 0, "null")
+  (29, 1, 2, <10:18>, 1, "director", 0, "null")
+>
+
+(ROOT_FRAG
+ (136 NP_NB-FRG_C 2.55702 0 2
+  (135 N-HDN_CPD_C 3.47406 0 2
+   (33 executive_n1@n_-_c_le 0.584861 0 1
+    ("executive" 28
+     "token [ +CARG \"Executive\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"executive\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (134 ^HDN_OPTCMP_C 2.41952 1 2
+    (133 N_SG_ILR 2.32671 1 2
+     (37 director_n1@n_pp_c-of_le 1.06259 1 2
+      ("director" 27
+       "token [ +CARG \"Director\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"director\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (N (N "executive") (N (N (N "director")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _executive_n_1<0:9>
+            LBL: h14
+            ARG0: x9 ]
+          [ _director_n_of<10:18>
+            LBL: h8
+            ARG0: x4
+            ARG1: i15 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:18>[BV x4]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:9>[BV x9]
+ x9:_executive_n_1<0:9>{x IND +}[]
+ x4:_director_n_of<10:18>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:18> ARG _director_n_of<10:18>  
+  udef_q<0:18> BV _director_n_of<10:18>  
+  compound<0:18> ARG1 _director_n_of<10:18>  
+  compound<0:18> ARG2 _executive_n_1<0:9>  
+  udef_q<0:9> BV _executive_n_1<0:9>  
+  unknown<0:18> SF prop-or-ques  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  _executive_n_1<0:9> IND +  
+  _director_n_of<10:18> PERS 3  
+  _director_n_of<10:18> NUM sg  
+  _director_n_of<10:18> IND +  
+}
+

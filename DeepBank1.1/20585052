@@ -1,0 +1,184 @@
+;;;
+;;; Redwoods export of `wsj05d';
+;;; (wsun@wsun; 22-jan-2018 (15:32 h)).
+;;;
+
+[20585052] (1 of 1) {1} `Intel eased 1/8 to 31 7/8.'
+
+[20585052:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Intel", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:11>, 1, "eased", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <12:15>, 1, "1/8", 0, "null", "CD" 1.0)
+  (4, 3, 4, <16:18>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <19:21>, 1, "31", 0, "null", "CD" 1.0)
+  (6, 5, 6, <22:25>, 1, "7/8", 0, "null", "CD" 1.0)
+  (7, 6, 7, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:5>, 1, "Intel", 0, "null")
+  (76, 0, 1, <0:5>, 1, "intel", 0, "null")
+  (83, 0, 1, <0:5>, 1, "intel", 0, "null")
+  (73, 1, 2, <6:11>, 1, "eased", 0, "null")
+  (75, 1, 2, <6:11>, 1, "eased", 0, "null", "VBD" 1.0)
+  (82, 1, 2, <6:11>, 1, "eased", 0, "null")
+  (60, 2, 3, <12:15>, 1, "1/8", 0, "null")
+  (62, 2, 3, <12:15>, 1, "1/8", 0, "null")
+  (77, 2, 3, <12:15>, 1, "1/8", 0, "null")
+  (71, 3, 4, <16:18>, 1, "to", 0, "null")
+  (81, 3, 4, <16:18>, 1, "to", 0, "null")
+  (64, 4, 5, <19:21>, 1, "31", 0, "null")
+  (78, 4, 5, <19:21>, 1, "31", 0, "null")
+  (66, 5, 6, <22:26>, 1, "7/8.", 0, "null")
+  (67, 5, 6, <22:26>, 1, "7/8.", 0, "null")
+  (79, 5, 6, <22:26>, 1, "7/8.", 0, "null")
+  (80, 5, 6, <22:26>, 1, "7/8.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1508 SB-HD_MC_C 7.01177 0 6
+  (1494 HDN_BNP-PN_C 0.489307 0 1
+   (1493 N_SG_ILR 0.538263 0 1
+    (85 intel_n1@n_-_pn_le 0 0 1
+     ("intel" 76
+      "token [ +CARG \"Intel\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"intel\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1507 ^HD-AJ_INT-UNSL_C 6.03497 1 6
+   (1500 ^HD-AJ_INT-UNSL_C 3.33555 1 3
+    (1496 ^HD_OPTCMP_C 2.08592 1 2
+     (1495 V_PST_OLR 0.595361 1 2
+      (104 ease_v1@v_pp*_dir_le 0 1 2
+       ("eased" 73
+        "token [ +CARG #1=\"eased\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1499 NP_ADV-MNP_C 0.0665469 2 3
+     (1498 HDN_BNP-NUM_C 0.806083 2 3
+      (1497 HDN_NP-NUM_C 1.21714 2 3
+       (205 generic_fract_ne@aj_-_i-frct-gen_le 0 2 3
+        ("1/8" 62
+         "token [ +CARG #1=\"1/8\" +CLASS frct_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (1506 HD-CMP_U_C 1.14104 3 6
+    (230 to@p_np_i-nnm_le -1.63041 3 4
+     ("to" 71
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1505 HDN_BNP-NUM_C 1.27952 4 6
+     (1504 HDN_NP-NUM_C 0.760882 4 6
+      (1503 XP_BRCK-PR_C 0.077226 4 6
+       (1502 HD-CMP_U_C 0.167106 4 6
+        (283 generic_card_np_ne@aj_np_i-crd-gen_le 0 4 5
+         ("31" 64
+          "token [ +CARG #1=\"31\" +CLASS card_ne +FORM #1 +FROM \"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (1501 W_PERIOD_PLR 0 5 6
+         (288 generic_fract_ne@aj_-_i-frct-gen_le 0 5 6
+          ("7/8." 67
+           "token [ +CARG \"7/8\" +CLASS frct_ne +FORM \"7/8.\" +FROM \"22\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S (NP (N (N "intel")))
+ (VP (VP (VP (V (V "eased"))) (PP (NP (N (ADJ "1/8")))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "31") (ADJ (ADJ "7/8.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Intel" ]
+          [ _ease_v_1<6:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<12:15>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<12:15>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ fraction<12:15>
+            LBL: h14
+            ARG0: i16
+            ARG1: i15
+            CARG: "1/8" ]
+          [ _to_p<16:18>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<19:26>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ card<19:21>
+            LBL: h22
+            ARG0: x18
+            ARG1: i23
+            CARG: "31" ]
+          [ plus<19:21>
+            LBL: h24
+            ARG0: i26
+            ARG1: i23
+            ARG2: h22
+            ARG3: h25 ]
+          [ fraction<22:26>
+            LBL: h25
+            ARG0: i27
+            ARG1: i23
+            CARG: "7/8" ] >
+   HCONS: < h20 QEQ h24 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Intel"){x PERS 3, NUM sg, IND +}[]
+ e3:_ease_v_1<6:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<12:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _2:number_q<12:15>[]
+ i16:fraction<12:15>("1/8"){i}[]
+ e17:_to_p<16:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ _3:number_q<19:26>[BV x18]
+ x18:card<19:21>("31"){x PERS 3, NUM sg}[]
+ i26:plus<19:21>{i}[ARG2 x18, ARG3 i27]
+ i27:fraction<22:26>("7/8"){i}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Intel)  
+  _ease_v_1<6:11> ARG1 named<0:5>(Intel)  
+  loc_nonsp<12:15> ARG1 _ease_v_1<6:11>  
+  _to_p<16:18> ARG1 _ease_v_1<6:11>  
+  _to_p<16:18> ARG2 card<19:21>(31)  
+  number_q<19:26> BV card<19:21>(31)  
+  plus<19:21> ARG2 card<19:21>(31)  
+  plus<19:21> ARG3 fraction<22:26>(7/8)  
+  named<0:5>(Intel) PERS 3  
+  named<0:5>(Intel) NUM sg  
+  named<0:5>(Intel) IND +  
+  _ease_v_1<6:11> SF prop  
+  _ease_v_1<6:11> TENSE past  
+  _ease_v_1<6:11> MOOD indicative  
+  _ease_v_1<6:11> PROG -  
+  _ease_v_1<6:11> PERF -  
+  loc_nonsp<12:15> SF prop  
+  loc_nonsp<12:15> TENSE untensed  
+  loc_nonsp<12:15> MOOD indicative  
+  loc_nonsp<12:15> PROG -  
+  loc_nonsp<12:15> PERF -  
+  _to_p<16:18> SF prop  
+  _to_p<16:18> TENSE untensed  
+  _to_p<16:18> MOOD indicative  
+  _to_p<16:18> PROG -  
+  _to_p<16:18> PERF -  
+  card<19:21>(31) PERS 3  
+  card<19:21>(31) NUM sg  
+}
+

@@ -1,0 +1,177 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:13 h)).
+;;;
+
+[20445012] (1 of 1) {1} `"Productivity in Japanese offices is relatively low."'
+
+[20445012:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:13>, 1, "Productivity", 0, "null", "NN" 0.6517 "NNP" 0.3483)
+  (3, 2, 3, <14:16>, 1, "in", 0, "null", "IN" 1.0)
+  (4, 3, 4, <17:25>, 1, "Japanese", 0, "null", "JJ" 0.9843 "NNP" 0.0157)
+  (5, 4, 5, <26:33>, 1, "offices", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <34:36>, 1, "is", 0, "null", "VBZ" 1.0)
+  (7, 6, 7, <37:47>, 1, "relatively", 0, "null", "RB" 1.0)
+  (8, 7, 8, <48:51>, 1, "low", 0, "null", "JJ" 0.9393 "RB" 0.0607)
+  (9, 8, 9, <51:52>, 1, ".", 0, "null", "." 1.0)
+  (10, 9, 10, <52:53>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (116, 0, 1, <0:13>, 1, "“Productivity", 0, "null")
+  (123, 0, 1, <0:13>, 1, "“productivity", 0, "null")
+  (130, 0, 1, <0:13>, 1, "“productivity", 0, "null")
+  (103, 1, 2, <14:16>, 1, "in", 0, "null")
+  (125, 1, 2, <14:16>, 1, "in", 0, "null")
+  (92, 2, 3, <17:25>, 1, "Japanese", 0, "null")
+  (117, 2, 3, <17:25>, 1, "Japanese", 0, "null", "JJ" 0.9843)
+  (122, 2, 3, <17:25>, 1, "japanese", 0, "null")
+  (124, 2, 3, <17:25>, 1, "japanese", 0, "null")
+  (105, 3, 4, <26:33>, 1, "offices", 0, "null")
+  (119, 3, 4, <26:33>, 1, "offices", 0, "null", "NNS" 1.0)
+  (126, 3, 4, <26:33>, 1, "offices", 0, "null")
+  (107, 4, 5, <34:36>, 1, "is", 0, "null")
+  (120, 4, 5, <34:36>, 1, "is", 0, "null", "VBZ" 1.0)
+  (127, 4, 5, <34:36>, 1, "is", 0, "null")
+  (109, 5, 6, <37:47>, 1, "relatively", 0, "null")
+  (121, 5, 6, <37:47>, 1, "relatively", 0, "null", "RB" 1.0)
+  (128, 5, 6, <37:47>, 1, "relatively", 0, "null")
+  (114, 6, 7, <48:53>, 1, "low.”", 0, "null")
+  (118, 6, 7, <48:53>, 1, "low.”", 0, "null", "JJ" 0.9393)
+  (129, 6, 7, <48:53>, 1, "low.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (969 SB-HD_MC_C 10.1642 0 7
+  (963 HDN_BNP_C 4.24982 0 4
+   (962 HDN-AJ_REDREL_C 3.97844 0 4
+    (956 ^W_DQLEFT_PLR -0.191495 0 1
+     (955 N_MS-CNT_ILR -0.041554 0 1
+      (135 productivity_n1@n_-_mc_le 0 0 1
+       ("“productivity" 123
+        "token [ +CARG \"Productivity\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“productivity\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.6516516\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (961 HD-CMP_U_C 2.88076 1 4
+     (157 in@p_np_i-reg_le 0.354487 1 2
+      ("in" 103
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (960 HDN_BNP_C 1.95172 2 4
+      (959 AJ-HDN_NORM_C 1.58411 2 4
+       (200 japanese_a1@aj_-_i_le 0.565559 2 3
+        ("japanese" 122
+         "token [ +CARG \"Japanese\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japanese\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98428479999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (958 ^HDN_OPTCMP_C 0.124981 3 4
+        (957 N_PL_OLR 0.448905 3 4
+         (210 office1@n_pp_c-of_le 0 3 4
+          ("offices" 105
+           "token [ +CARG #1=\"offices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+  (968 ^HD-CMP_U_C 4.39851 4 7
+   (272 be_c_is@v_prd_is_le -0.539768 4 5
+    ("is" 107
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (967 SP-HD_HC_C 2.59607 5 7
+    (359 relatively_deg@av_-_dg_le 0 5 6
+     ("relatively" 109
+      "token [ +CARG #1=\"relatively\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (966 ^HD_OPTCMP_C 2.49572 6 7
+     (965 W_DQRIGHT_PLR 2.35119 6 7
+      (964 W_PERIOD_PLR 0.0174783 6 7
+       (365 low_a1@aj_pp_i-er_le 0 6 7
+        ("low.”" 114
+         "token [ +CARG \"low\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"low.”\" +FROM #1=\"48\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93928270000000003\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP
+  (N (N (N (N "“productivity")))
+   (PP (P "in") (NP (N (AP "japanese") (N (N (N "offices"))))))))
+ (VP (V "is") (AP (ADV "relatively") (AP (ADJ (ADJ (ADJ "low.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:33>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _productivity_n_1<0:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _in_p<14:16>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<17:33>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _japanese_a_1<17:25>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _office_n_of<26:33>
+            LBL: h14
+            ARG0: x10
+            ARG1: i16 ]
+          [ _relatively_x_deg<37:47>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _low_a_on<48:53>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i18 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:33>[BV x6]
+ x6:_productivity_n_1<0:13>{x PERS 3, NUM sg}[]
+ e9:_in_p<14:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<17:33>[BV x10]
+ e15:_japanese_a_1<17:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_office_n_of<26:33>{x PERS 3, NUM pl, IND +}[]
+ e17:_relatively_x_deg<37:47>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_low_a_on<48:53>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:33> BV _productivity_n_1<0:13>  
+  _in_p<14:16> ARG1 _productivity_n_1<0:13>  
+  _in_p<14:16> ARG2 _office_n_of<26:33>  
+  udef_q<17:33> BV _office_n_of<26:33>  
+  _japanese_a_1<17:25> ARG1 _office_n_of<26:33>  
+  _relatively_x_deg<37:47> ARG1 _low_a_on<48:53>  
+  _low_a_on<48:53> ARG1 _productivity_n_1<0:13>  
+  _productivity_n_1<0:13> PERS 3  
+  _productivity_n_1<0:13> NUM sg  
+  _in_p<14:16> SF prop  
+  _in_p<14:16> TENSE untensed  
+  _in_p<14:16> MOOD indicative  
+  _in_p<14:16> PROG -  
+  _in_p<14:16> PERF -  
+  _japanese_a_1<17:25> SF prop  
+  _japanese_a_1<17:25> TENSE untensed  
+  _japanese_a_1<17:25> MOOD indicative  
+  _japanese_a_1<17:25> PROG -  
+  _japanese_a_1<17:25> PERF -  
+  _office_n_of<26:33> PERS 3  
+  _office_n_of<26:33> NUM pl  
+  _office_n_of<26:33> IND +  
+  _relatively_x_deg<37:47> SF prop  
+  _relatively_x_deg<37:47> TENSE untensed  
+  _relatively_x_deg<37:47> MOOD indicative  
+  _relatively_x_deg<37:47> PROG -  
+  _relatively_x_deg<37:47> PERF -  
+  _low_a_on<48:53> SF prop  
+  _low_a_on<48:53> TENSE pres  
+  _low_a_on<48:53> MOOD indicative  
+  _low_a_on<48:53> PROG -  
+  _low_a_on<48:53> PERF -  
+}
+

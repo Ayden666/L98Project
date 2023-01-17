@@ -1,0 +1,199 @@
+;;;
+;;; Redwoods export of `wsj10b';
+;;; (wsun@wsun; 22-jan-2018 (19:23 h)).
+;;;
+
+[21028014] (1 of 1) {1} `Moody's changes affected the following issues:'
+
+[21028014:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Moody", 0, "null", "NNP" 0.8557 "JJ" 0.1348 "NN" 0.0096)
+  (2, 1, 2, <5:7>, 1, "’s", 0, "null", "NNS" 0.5557 "JJ" 0.1569 "NN" 0.1244 "VBZ" 0.1081 "RB" 0.046 "NNP" 0.0089)
+  (3, 2, 3, <8:15>, 1, "changes", 0, "null", "NNS" 0.6349 "VBZ" 0.3651)
+  (4, 3, 4, <16:24>, 1, "affected", 0, "null", "VBN" 0.5929 "VBD" 0.3987 "JJ" 0.0084)
+  (5, 4, 5, <25:28>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <29:38>, 1, "following", 0, "null", "JJ" 0.6158 "VBG" 0.3108 "NN" 0.0734)
+  (7, 6, 7, <39:45>, 1, "issues", 0, "null", "NNS" 1.0)
+  (8, 7, 8, <45:46>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (113, 0, 1, <0:5>, 1, "Moody", 0, "null")
+  (118, 0, 1, <0:5>, 1, "Moody", 0, "null", "JJ" 0.1348)
+  (126, 0, 1, <0:5>, 1, "moody", 0, "null")
+  (134, 0, 1, <0:5>, 1, "moody", 0, "null")
+  (108, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (117, 1, 2, <5:7>, 1, "’s", 0, "null", "NNS" 0.5557)
+  (121, 1, 2, <5:7>, 1, "’s", 0, "null", "JJ" 0.1569)
+  (122, 1, 2, <5:7>, 1, "’s", 0, "null", "NN" 0.1244)
+  (123, 1, 2, <5:7>, 1, "’s", 0, "null", "VBZ" 0.1081)
+  (133, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (104, 2, 3, <8:15>, 1, "changes", 0, "null")
+  (114, 2, 3, <8:15>, 1, "changes", 0, "null", "NNS" 0.6349)
+  (125, 2, 3, <8:15>, 1, "changes", 0, "null", "VBZ" 0.3651)
+  (130, 2, 3, <8:15>, 1, "changes", 0, "null")
+  (106, 3, 4, <16:24>, 1, "affected", 0, "null")
+  (115, 3, 4, <16:24>, 1, "affected", 0, "null", "VBN" 0.5929)
+  (119, 3, 4, <16:24>, 1, "affected", 0, "null", "VBD" 0.3987)
+  (131, 3, 4, <16:24>, 1, "affected", 0, "null")
+  (98, 4, 5, <25:28>, 1, "the", 0, "null")
+  (127, 4, 5, <25:28>, 1, "the", 0, "null")
+  (107, 5, 6, <29:38>, 1, "following", 0, "null")
+  (116, 5, 6, <29:38>, 1, "following", 0, "null", "JJ" 0.6158)
+  (120, 5, 6, <29:38>, 1, "following", 0, "null", "VBG" 0.3108)
+  (132, 5, 6, <29:38>, 1, "following", 0, "null")
+  (100, 6, 7, <39:45>, 1, "issues", 0, "null")
+  (124, 6, 7, <39:45>, 1, "issues", 0, "null", "NNS" 1.0)
+  (128, 6, 7, <39:45>, 1, "issues", 0, "null")
+  (102, 7, 8, <45:46>, 1, ":", 0, "null")
+  (129, 7, 8, <45:46>, 1, ":", 0, "null")
+>
+
+(ROOT_STRICT
+ (2500 SB-HD_MC_C 12.0521 0 8
+  (2493 SP-HD_N_C 2.27371 0 3
+   (2490 SP-HD_HC_C 1.46763 0 2
+    (2489 HDN_BNP-PN_C -0.422791 0 1
+     (2488 N_SG_ILR -1.03762 0 1
+      (135 generic_proper_ne@n_-_pn-gen_le -0.521911 0 1
+       ("Moody" 113
+        "token [ +CARG #1=\"Moody\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85568999999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (141 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 1 2
+     ("’s" 108
+      "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55569880000000005\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2492 ^HDN_OPTCMP_C 0.826821 2 3
+    (2491 N_PL_OLR 0.451567 2 3
+     (453 change_n1@n_pp_mc-of_le -0.0371 2 3
+      ("changes" 104
+       "token [ +CARG #1=\"changes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.63488690000000003\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2499 ^HD-AJ_INT-UNSL_C 8.74624 3 8
+   (2498 ^HD-CMP_U_C 6.21702 3 7
+    (2494 ^V_PST_OLR 0.508519 3 4
+     (504 affect_v1@v_np_le 0 3 4
+      ("affected" 106
+       "token [ +CARG #1=\"affected\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.59293229999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2497 SP-HD_N_C 4.14059 4 7
+     (667 the_1@d_-_the_le 1.00477 4 5
+      ("the" 98
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2496 ^AJ-HDN_NORM_C 2.12169 5 7
+      (702 following_a1@aj_-_i-att_le 0.181232 5 6
+       ("following" 107
+        "token [ +CARG #1=\"following\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61581430000000004\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2495 ^N_PL_OLR 0.943948 6 7
+       (724 issue_n1@n_-_mc-ns_le 1.33923 6 7
+        ("issues" 100
+         "token [ +CARG #1=\"issues\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (749 colon_namely_pp@pp_-_i-cln_le 0.862377 7 8
+    (":" 102
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"45\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (NP (DET (NP (N (N "Moody"))) (DET "’s")) (N (N (N "changes"))))
+ (VP
+  (VP (V (V "affected"))
+   (NP (DET "the") (N (AP "following") (N (N "issues")))))
+  (PP ":")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Moody" ]
+          [ def_explicit_q<5:7>
+            LBL: h9
+            ARG0: x11 [ x PERS: 3 NUM: PL ]
+            RSTR: h10
+            BODY: h12 ]
+          [ poss<5:7>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x6 ]
+          [ _change_n_of<8:15>
+            LBL: h13
+            ARG0: x11
+            ARG1: i15 ]
+          [ _affect_v_1<16:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x11
+            ARG2: x16 [ x PERS: 3 NUM: PL ] ]
+          [ _the_q<25:28>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ _following_a_1<29:38>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16 ]
+          [ _issue_n_1<39:45>
+            LBL: h20
+            ARG0: x16 ]
+          [ _colon_p_namely<45:46>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h19 QEQ h20 h10 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Moody"){x PERS 3, NUM sg, IND +}[]
+ _2:def_explicit_q<5:7>[BV x11]
+ e14:poss<5:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x6]
+ x11:_change_n_of<8:15>{x PERS 3, NUM pl}[]
+ e3:_affect_v_1<16:24>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x16]
+ _3:_the_q<25:28>[BV x16]
+ e21:_following_a_1<29:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16]
+ x16:_issue_n_1<39:45>{x PERS 3, NUM pl}[]
+ e22:_colon_p_namely<45:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Moody)  
+  def_explicit_q<5:7> BV _change_n_of<8:15>  
+  poss<5:7> ARG1 _change_n_of<8:15>  
+  poss<5:7> ARG2 named<0:5>(Moody)  
+  _affect_v_1<16:24> ARG1 _change_n_of<8:15>  
+  _affect_v_1<16:24> ARG2 _issue_n_1<39:45>  
+  _the_q<25:28> BV _issue_n_1<39:45>  
+  _following_a_1<29:38> ARG1 _issue_n_1<39:45>  
+  _colon_p_namely<45:46> ARG1 _affect_v_1<16:24>  
+  named<0:5>(Moody) PERS 3  
+  named<0:5>(Moody) NUM sg  
+  named<0:5>(Moody) IND +  
+  poss<5:7> SF prop  
+  poss<5:7> TENSE untensed  
+  poss<5:7> MOOD indicative  
+  poss<5:7> PROG -  
+  poss<5:7> PERF -  
+  _change_n_of<8:15> PERS 3  
+  _change_n_of<8:15> NUM pl  
+  _affect_v_1<16:24> SF prop  
+  _affect_v_1<16:24> TENSE past  
+  _affect_v_1<16:24> MOOD indicative  
+  _affect_v_1<16:24> PROG -  
+  _affect_v_1<16:24> PERF -  
+  _following_a_1<29:38> SF prop  
+  _following_a_1<29:38> TENSE untensed  
+  _following_a_1<29:38> MOOD indicative  
+  _following_a_1<29:38> PROG -  
+  _following_a_1<29:38> PERF -  
+  _issue_n_1<39:45> PERS 3  
+  _issue_n_1<39:45> NUM pl  
+  _colon_p_namely<45:46> SF prop  
+  _colon_p_namely<45:46> TENSE untensed  
+  _colon_p_namely<45:46> MOOD indicative  
+  _colon_p_namely<45:46> PROG -  
+  _colon_p_namely<45:46> PERF -  
+}
+

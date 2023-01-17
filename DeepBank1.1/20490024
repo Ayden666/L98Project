@@ -1,0 +1,126 @@
+;;;
+;;; Redwoods export of `wsj04e';
+;;; (wsun@wsun; 22-jan-2018 (14:39 h)).
+;;;
+
+[20490024] (1 of 1) {1} `All four demonstrators were arrested.'
+
+[20490024:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "All", 0, "null", "DT" 0.9549 "PDT" 0.0229 "RB" 0.0122 "NNP" 0.01)
+  (2, 1, 2, <4:8>, 1, "four", 0, "null", "CD" 1.0)
+  (3, 2, 3, <9:22>, 1, "demonstrators", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <23:27>, 1, "were", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <28:36>, 1, "arrested", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (76, 0, 1, <0:3>, 1, "all", 0, "null")
+  (81, 0, 1, <0:3>, 1, "all", 0, "null")
+  (63, 1, 2, <4:8>, 1, "four", 0, "null")
+  (72, 1, 2, <4:8>, 1, "four", 0, "null", "CD" 1.0)
+  (77, 1, 2, <4:8>, 1, "four", 0, "null")
+  (65, 2, 3, <9:22>, 1, "demonstrators", 0, "null")
+  (73, 2, 3, <9:22>, 1, "demonstrators", 0, "null", "NNS" 1.0)
+  (78, 2, 3, <9:22>, 1, "demonstrators", 0, "null")
+  (67, 3, 4, <23:27>, 1, "were", 0, "null")
+  (74, 3, 4, <23:27>, 1, "were", 0, "null", "VBD" 1.0)
+  (79, 3, 4, <23:27>, 1, "were", 0, "null")
+  (69, 4, 5, <28:37>, 1, "arrested.", 0, "null")
+  (75, 4, 5, <28:37>, 1, "arrested.", 0, "null", "VBN" 1.0)
+  (80, 4, 5, <28:37>, 1, "arrested.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1165 SB-HD_MC_C 4.52559 0 5
+  (1160 SP-HD_N_C 0.815545 0 3
+   (85 all@d_-_prt-plm_le 0.357615 0 1
+    ("all" 76
+     "token [ +CARG \"All\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"all\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95490010000000003\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1159 ^AJ-HDN_NORM_C 0.144811 1 3
+    (148 four@aj_-_i-crd-one_le 0.168084 1 2
+     ("four" 63
+      "token [ +CARG #1=\"four\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1158 ^N_PL_OLR 0.11594 2 3
+     (171 demonstrator_n1@n_-_c_le 0 2 3
+      ("demonstrators" 65
+       "token [ +CARG #1=\"demonstrators\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1164 ^HD-CMP_U_C 1.75553 3 5
+   (182 be_c_were@v_prd_wre_le 1.45048 3 4
+    ("were" 67
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1163 HD_OPTCMP_C 0.285111 4 5
+    (1162 W_PERIOD_PLR 0.133685 4 5
+     (1161 V_PAS_ODLR -0.192154 4 5
+      (202 arrest_v1@v_np*_le 0 4 5
+       ("arrested." 69
+        "token [ +CARG \"arrested\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"arrested.\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "all") (N (ADJ "four") (N (N "demonstrators"))))
+ (VP (V "were") (VP (V (V (V "arrested."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _all_q<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h6
+            BODY: h7 ]
+          [ card<4:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            CARG: "4" ]
+          [ _demonstrator_n_1<9:22>
+            LBL: h8
+            ARG0: x5 ]
+          [ _arrest_v_1<28:37>
+            LBL: h2
+            ARG0: e3
+            ARG1: i10
+            ARG2: x5 ]
+          [ parg_d<28:37>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x5 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_all_q<0:3>[BV x5]
+ e9:card<4:8>("4"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ x5:_demonstrator_n_1<9:22>{x PERS 3, NUM pl, IND +}[]
+ e3:_arrest_v_1<28:37>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x5]
+ e11:parg_d<28:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x5]
+}
+
+{
+  _all_q<0:3> BV _demonstrator_n_1<9:22>  
+  card<4:8>(4) ARG1 _demonstrator_n_1<9:22>  
+  _arrest_v_1<28:37> ARG2 _demonstrator_n_1<9:22>  
+  parg_d<28:37> ARG1 _arrest_v_1<28:37>  
+  parg_d<28:37> ARG2 _demonstrator_n_1<9:22>  
+  card<4:8>(4) SF prop  
+  card<4:8>(4) TENSE untensed  
+  card<4:8>(4) MOOD indicative  
+  card<4:8>(4) PROG -  
+  card<4:8>(4) PERF -  
+  _demonstrator_n_1<9:22> PERS 3  
+  _demonstrator_n_1<9:22> NUM pl  
+  _demonstrator_n_1<9:22> IND +  
+  _arrest_v_1<28:37> SF prop  
+  _arrest_v_1<28:37> TENSE past  
+  _arrest_v_1<28:37> MOOD indicative  
+  _arrest_v_1<28:37> PROG -  
+  _arrest_v_1<28:37> PERF -  
+  parg_d<28:37> SF prop  
+  parg_d<28:37> TENSE untensed  
+  parg_d<28:37> MOOD indicative  
+  parg_d<28:37> PROG -  
+  parg_d<28:37> PERF -  
+}
+

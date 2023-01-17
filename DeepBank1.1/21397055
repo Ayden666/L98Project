@@ -1,0 +1,122 @@
+;;;
+;;; Redwoods export of `wsj13e';
+;;; (wsun@wsun; 22-jan-2018 (22:51 h)).
+;;;
+
+[21397055] (1 of 1) {1} `That's not character.'
+
+[21397055:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.8758 "WDT" 0.0922 "IN" 0.032)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.4257 "VBZ" 0.3971 "NN" 0.1547 "JJ" 0.0225)
+  (3, 2, 3, <7:10>, 1, "not", 0, "null", "RB" 1.0)
+  (4, 3, 4, <11:20>, 1, "character", 0, "null", "NN" 1.0)
+  (5, 4, 5, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:4>, 1, "that", 0, "null")
+  (74, 0, 1, <0:4>, 1, "that", 0, "null")
+  (62, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (65, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.4257)
+  (66, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.3971)
+  (67, 1, 2, <4:6>, 1, "’s", 0, "null", "NN" 0.1547)
+  (73, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (58, 2, 3, <7:10>, 1, "not", 0, "null")
+  (68, 2, 3, <7:10>, 1, "not", 0, "null", "RB" 1.0)
+  (71, 2, 3, <7:10>, 1, "not", 0, "null")
+  (60, 3, 4, <11:21>, 1, "character.", 0, "null")
+  (69, 3, 4, <11:21>, 1, "character.", 0, "null", "NN" 1.0)
+  (72, 3, 4, <11:21>, 1, "character.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (848 SB-HD_MC_C 1.86957 0 4
+  (841 HDN_BNP-QNT_C -0.199308 0 1
+   (840 HDN_OPTCMP_C -0.288082 0 1
+    (90 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 70
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87578999999999996\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (847 ^HD-CMP_U_C 0.79953 1 4
+   (843 ^HD-CMP_U_C 1.45339 1 3
+    (842 ^V_AUX-ADVADD_DLR -0.374317 1 2
+     (116 be_id_is_cx_3@v_np_is-cx_le -0.670573 1 2
+      ("’s" 62
+       "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.42573719999999998\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (401 not@av_-_s-not_le 1.00376 2 3
+     ("not" 58
+      "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (846 HDN_BNP_C -0.81101 3 4
+    (845 W_PERIOD_PLR 0.45024 3 4
+     (844 N_MS-CNT_ILR 0.249354 3 4
+      (508 character_n1@n_-_mc_le 0 3 4
+       ("character." 60
+        "token [ +CARG \"character\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"character.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "that")))
+ (VP (V (V (V "’s")) (ADV "not")) (NP (N (N (N "character."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h9
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ neg<7:10>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h11 ]
+          [ udef_q<11:21>
+            LBL: h13
+            ARG0: x10
+            RSTR: h14
+            BODY: h15 ]
+          [ _character_n_1<11:21>
+            LBL: h16
+            ARG0: x10 ] >
+   HCONS: < h14 QEQ h16 h11 QEQ h9 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e12:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ e12:neg<7:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _2:udef_q<11:21>[BV x10]
+ x10:_character_n_1<11:21>{x PERS 3, NUM sg}[]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  _be_v_id<4:6> ARG1 generic_entity<0:4>  
+  _be_v_id<4:6> ARG2 _character_n_1<11:21>  
+  neg<7:10> ARG1 _be_v_id<4:6>  
+  udef_q<11:21> BV _character_n_1<11:21>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  neg<7:10> SF prop  
+  neg<7:10> TENSE untensed  
+  neg<7:10> MOOD indicative  
+  neg<7:10> PROG -  
+  neg<7:10> PERF -  
+  _character_n_1<11:21> PERS 3  
+  _character_n_1<11:21> NUM sg  
+}
+

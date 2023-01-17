@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:15 h)).
+;;;
+
+[20036014] (1 of 1) {1} `"I draw a blank."'
+
+[20036014:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:2>, 1, "I", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:7>, 1, "draw", 0, "null", "VBP" 0.8067 "VB" 0.1933)
+  (4, 3, 4, <8:9>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <10:15>, 1, "blank", 0, "null", "JJ" 0.684 "NN" 0.316)
+  (6, 5, 6, <15:16>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <16:17>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (67, 0, 1, <0:2>, 1, "“I", 0, "null")
+  (85, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (86, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (78, 1, 2, <3:7>, 1, "draw", 0, "null")
+  (82, 1, 2, <3:7>, 1, "draw", 0, "null", "VBP" 0.8067)
+  (83, 1, 2, <3:7>, 1, "draw", 0, "null", "VB" 0.1933)
+  (88, 1, 2, <3:7>, 1, "draw", 0, "null")
+  (75, 2, 3, <8:9>, 1, "a", 0, "null")
+  (87, 2, 3, <8:9>, 1, "a", 0, "null")
+  (80, 3, 4, <10:17>, 1, "blank.”", 0, "null")
+  (84, 3, 4, <10:17>, 1, "blank.”", 0, "null", "NN" 0.316)
+  (89, 3, 4, <10:17>, 1, "blank.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (496 SB-HD_MC_C 3.2971 0 4
+  (489 HDN_BNP-QNT_C -0.0561766 0 1
+   (488 W_DQLEFT_PLR 0.579622 0 1
+    (98 i@n_-_pr-i_le 0.336087 0 1
+     ("“i" 85
+      "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"“i\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (495 ^HD-CMP_U_C 2.08393 1 4
+   (490 ^V_N3S-BSE_ILR -7.733e-4 1 2
+    (142 draw_v1@v_np*_le 0 1 2
+     ("draw" 78
+      "token [ +CARG #1=\"draw\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80674710000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (494 SP-HD_N_C 1.28688 2 4
+    (150 a_det@d_-_sg-nmd_le -0.667877 2 3
+     ("a" 75
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (493 ^W_DQRIGHT_PLR 1.9052 3 4
+     (492 W_PERIOD_PLR 0.093263 3 4
+      (491 N_SG_ILR -0.027567 3 4
+       (224 blank_n1@n_-_c_le 0 3 4
+        ("blank.”" 80
+         "token [ +CARG \"blank\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"blank.”\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68400729999999998\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP (NP "“i")))
+ (VP (V (V "draw")) (NP (DET "a") (N (N (N (N "blank.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _draw_v_1<3:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<8:9>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _blank_n_1<10:17>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_draw_v_1-fn.Cause_motion<3:7>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x5, ARG2-fn.Theme x9]
+ _2:_a_q<8:9>[BV x9]
+ x9:_blank_n_1<10:17>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _draw_v_1<3:7> ARG1 pron<0:2>  
+  _draw_v_1<3:7> ARG2 _blank_n_1<10:17>  
+  _a_q<8:9> BV _blank_n_1<10:17>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM sg  
+  pron<0:2> PT std  
+  _draw_v_1<3:7> SF prop  
+  _draw_v_1<3:7> TENSE pres  
+  _draw_v_1<3:7> MOOD indicative  
+  _draw_v_1<3:7> PROG -  
+  _draw_v_1<3:7> PERF -  
+  _blank_n_1<10:17> PERS 3  
+  _blank_n_1<10:17> NUM sg  
+  _blank_n_1<10:17> IND +  
+}
+

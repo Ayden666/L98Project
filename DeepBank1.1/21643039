@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:25 h)).
+;;;
+
+[21643039] (1 of 1) {1} `The Stick didn't fall.'
+
+[21643039:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 0.9844 "NNP" 0.0156)
+  (2, 1, 2, <4:9>, 1, "Stick", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:13>, 1, "did", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <13:16>, 1, "n’t", 0, "null", "JJ" 0.7335 "NN" 0.1967 "JJS" 0.0282 "RB" 0.0183 "VB" 0.013 "VBN" 0.0102)
+  (5, 4, 5, <17:21>, 1, "fall", 0, "null", "NN" 0.9678 "VB" 0.0322)
+  (6, 5, 6, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "the", 0, "null")
+  (75, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 1, 2, <4:9>, 1, "Stick", 0, "null")
+  (67, 1, 2, <4:9>, 1, "Stick", 0, "null", "NNP" 1.0)
+  (69, 1, 2, <4:9>, 1, "stick", 0, "null")
+  (71, 1, 2, <4:9>, 1, "stick", 0, "null")
+  (61, 2, 3, <10:16>, 1, "didn’t", 0, "null")
+  (68, 2, 3, <10:16>, 1, "didn’t", 0, "null", "VBD" 1.0)
+  (72, 2, 3, <10:16>, 1, "didn’t", 0, "null")
+  (64, 3, 4, <17:22>, 1, "fall.", 0, "null")
+  (66, 3, 4, <17:22>, 1, "fall.", 0, "null", "NN" 0.9678)
+  (73, 3, 4, <17:22>, 1, "fall.", 0, "null")
+>
+
+(ROOT_STRICT
+ (418 SB-HD_MC_C 4.58094 0 4
+  (413 SP-HD_N_C 2.46985 0 2
+   (88 the_1@d_-_the_le 1.13181 0 1
+    ("the" 70
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98444259999999995\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (412 ^N_SG_ILR 0.383789 1 2
+    (113 generic_proper_ne@n_-_pn-gen_le 0 1 2
+     ("Stick" 52
+      "token [ +CARG #1=\"Stick\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (417 ^HD-CMP_U_C 0.156583 2 4
+   (128 did1_neg_4_u@v_vp_did-n_le 0.677188 2 3
+    ("didn’t" 61
+     "token [ +CARG #1=\"didn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (416 HD_OPTCMP_C -0.449226 3 4
+    (415 W_PERIOD_PLR -0.600653 3 4
+     (414 V_N3S-BSE_ILR 0.300108 3 4
+      (138 fall_v1@v_pp_unacc_le 0 3 4
+       ("fall." 64
+        "token [ +CARG \"fall\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"fall.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96775929999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "the") (N (N "Stick")))
+ (VP (V "didn’t") (VP (V (V (V "fall."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Stick" ]
+          [ neg<10:16>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _fall_v_1<17:22>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:_the_q<0:3>[BV x6]
+ x6:named<4:9>("Stick"){x PERS 3, NUM sg, IND +}[]
+ e10:neg<10:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_fall_v_1<17:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV named<4:9>(Stick)  
+  neg<10:16> ARG1 _fall_v_1<17:22>  
+  _fall_v_1<17:22> ARG1 named<4:9>(Stick)  
+  named<4:9>(Stick) PERS 3  
+  named<4:9>(Stick) NUM sg  
+  named<4:9>(Stick) IND +  
+  neg<10:16> SF prop  
+  neg<10:16> TENSE untensed  
+  neg<10:16> MOOD indicative  
+  neg<10:16> PROG -  
+  neg<10:16> PERF -  
+  _fall_v_1<17:22> SF prop  
+  _fall_v_1<17:22> TENSE past  
+  _fall_v_1<17:22> MOOD indicative  
+  _fall_v_1<17:22> PROG -  
+  _fall_v_1<17:22> PERF -  
+}
+

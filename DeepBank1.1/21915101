@@ -1,0 +1,207 @@
+;;;
+;;; Redwoods export of `wsj19a';
+;;; (wsun@wsun; 23-jan-2018 (04:02 h)).
+;;;
+
+[21915101] (1 of 1) {1} `Office closed yesterday at 4:30 p.m. EDT.'
+
+[21915101:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Office", 0, "null", "NNP" 0.9832 "NN" 0.0168)
+  (2, 1, 2, <7:13>, 1, "closed", 0, "null", "VBD" 0.9395 "JJ" 0.0459 "VBN" 0.0146)
+  (3, 2, 3, <14:23>, 1, "yesterday", 0, "null", "NN" 0.9456 "RB" 0.0544)
+  (4, 3, 4, <24:26>, 1, "at", 0, "null", "IN" 1.0)
+  (5, 4, 5, <27:31>, 1, "4:30", 0, "null", "CD" 1.0)
+  (6, 5, 6, <32:36>, 1, "p.m.", 0, "null", "NN" 0.6793 "RB" 0.3207)
+  (7, 6, 7, <37:40>, 1, "EDT", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (97, 0, 1, <0:6>, 1, "Office", 0, "null")
+  (104, 0, 1, <0:6>, 1, "office", 0, "null")
+  (111, 0, 1, <0:6>, 1, "office", 0, "null")
+  (93, 1, 2, <7:13>, 1, "closed", 0, "null")
+  (99, 1, 2, <7:13>, 1, "closed", 0, "null", "VBD" 0.9395)
+  (109, 1, 2, <7:13>, 1, "closed", 0, "null")
+  (94, 2, 3, <14:23>, 1, "yesterday", 0, "null")
+  (100, 2, 3, <14:23>, 1, "yesterday", 0, "null", "NN" 0.9456)
+  (110, 2, 3, <14:23>, 1, "yesterday", 0, "null")
+  (86, 3, 4, <24:26>, 1, "at", 0, "null")
+  (107, 3, 4, <24:26>, 1, "at", 0, "null")
+  (70, 4, 5, <27:31>, 1, "4:30", 0, "null")
+  (105, 4, 5, <27:31>, 1, "4:30", 0, "null")
+  (91, 5, 6, <32:36>, 1, "p.m.", 0, "null")
+  (98, 5, 6, <32:36>, 1, "p.m.", 0, "null", "NN" 0.6793)
+  (102, 5, 6, <32:36>, 1, "p.m.", 0, "null", "RB" 0.3207)
+  (108, 5, 6, <32:36>, 1, "p.m.", 0, "null")
+  (74, 6, 7, <37:41>, 1, "EDT.", 0, "null")
+  (101, 6, 7, <37:41>, 1, "EDT.", 0, "null", "NNP" 1.0)
+  (103, 6, 7, <37:41>, 1, "edt.", 0, "null")
+  (106, 6, 7, <37:41>, 1, "edt.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2141 SB-HD_MC_C 9.08266 0 7
+  (2130 HDN_BNP-PN_C -0.371568 0 1
+   (2129 N_SG_ILR -0.322612 0 1
+    (113 generic_proper_ne@n_-_pn-gen_le 0.31869 0 1
+     ("Office" 97
+      "token [ +CARG #1=\"Office\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98319789999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (2140 ^HD-AJ_INT-UNSL_C 8.96673 1 7
+   (2134 ^HD-AJ_INT-UNSL_C 6.81703 1 3
+    (2131 ^V_PST_OLR 4.23633 1 2
+     (159 close_v2@v_-_unacc_le 2.18116 1 2
+      ("closed" 93
+       "token [ +CARG #1=\"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93948290000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2133 NP_ADV_C 2.80958 2 3
+     (2132 HDN_BNP-QNT_C 2.97458 2 3
+      (330 yesterday_np@n_-_ad-time_le -0.073771 2 3
+       ("yesterday" 94
+        "token [ +CARG #1=\"yesterday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9456097\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (2139 HD-CMP_U_C 0.591326 3 7
+    (334 at_temp@p_np_i-tmp_le 0.654796 3 4
+     ("at" 86
+      "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2138 HD-CMP_U_C -0.06347 4 7
+     (2136 ^HD-CMP_U_C -0.270823 4 6
+      (2135 ^HDN_OPTCMP_C -0.155212 4 5
+       (335 generic_time_noun_ne@n_np_pn-hour-gen_le 0 4 5
+        ("4:30" 70
+         "token [ +CARG #1=\"4:30\" +CLASS meas_or_time_ne +FORM #1 +FROM \"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (339 pm_temp@x_-_am-pm_le 0.0728807 5 6
+       ("p.m." 91
+        "token [ +CARG #1=\"p.m.\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67925780000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2137 W_PERIOD_PLR 0 6 7
+      (353 edt_pp1@pp_-_i-nm-tm_le 0 6 7
+       ("edt." 103
+        "token [ +CARG \"EDT\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"edt.\" +FROM #1=\"37\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "Office")))
+ (VP (VP (VP (V "closed")) (PP (NP (N "yesterday"))))
+  (PP (P "at")
+   (NP (NP (NP (NP "4:30")) (XP "p.m.")) (PP (PP "edt."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Office" ]
+          [ _close_v_1<7:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<14:23>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<14:23>
+            LBL: h11
+            ARG0: x10 ]
+          [ def_implicit_q<14:23>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _yesterday_a_1<14:23>
+            LBL: h11
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _at_p_temp<24:26>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG ] ]
+          [ numbered_hour<27:31>
+            LBL: h18
+            ARG0: x17
+            ARG1: u19
+            ARG2: i20
+            CARG: "4:30" ]
+          [ def_implicit_q<27:31>
+            LBL: h21
+            ARG0: x17
+            RSTR: h22
+            BODY: h23 ]
+          [ _pm_x<32:36>
+            LBL: h18
+            ARG0: i20
+            CARG: "pm_time" ]
+          [ timezone_p<37:41>
+            LBL: h18
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            CARG: "EDT" ] >
+   HCONS: < h22 QEQ h18 h13 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Office"){x PERS 3, NUM sg, IND +}[]
+ e3:_close_v_1<7:13>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:loc_nonsp<14:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ x10:time_n<14:23>{x PERS 3, NUM sg}[]
+ _2:def_implicit_q<14:23>[BV x10]
+ e15:_yesterday_a_1<14:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ e16:_at_p_temp<24:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ x17:numbered_hour<27:31>("4:30"){x PERS 3, NUM sg}[ARG2 i20]
+ _3:def_implicit_q<27:31>[BV x17]
+ i20:_pm_x<32:36>("pm_time"){i}[]
+ e24:timezone_p<37:41>("EDT"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Office)  
+  _close_v_1<7:13> ARG1 named<0:6>(Office)  
+  loc_nonsp<14:23> ARG1 _close_v_1<7:13>  
+  loc_nonsp<14:23> ARG2 time_n<14:23>  
+  def_implicit_q<14:23> BV time_n<14:23>  
+  _yesterday_a_1<14:23> ARG1 time_n<14:23>  
+  _at_p_temp<24:26> ARG1 _close_v_1<7:13>  
+  _at_p_temp<24:26> ARG2 numbered_hour<27:31>(4:30)  
+  numbered_hour<27:31>(4:30) ARG2 _pm_x<32:36>(pm_time)  
+  def_implicit_q<27:31> BV numbered_hour<27:31>(4:30)  
+  timezone_p<37:41>(EDT) ARG1 numbered_hour<27:31>(4:30)  
+  named<0:6>(Office) PERS 3  
+  named<0:6>(Office) NUM sg  
+  named<0:6>(Office) IND +  
+  _close_v_1<7:13> SF prop  
+  _close_v_1<7:13> TENSE past  
+  _close_v_1<7:13> MOOD indicative  
+  _close_v_1<7:13> PROG -  
+  _close_v_1<7:13> PERF -  
+  loc_nonsp<14:23> SF prop  
+  loc_nonsp<14:23> TENSE untensed  
+  loc_nonsp<14:23> MOOD indicative  
+  loc_nonsp<14:23> PROG -  
+  loc_nonsp<14:23> PERF -  
+  time_n<14:23> PERS 3  
+  time_n<14:23> NUM sg  
+  _yesterday_a_1<14:23> SF prop  
+  _yesterday_a_1<14:23> TENSE untensed  
+  _yesterday_a_1<14:23> MOOD indicative  
+  _yesterday_a_1<14:23> PROG -  
+  _yesterday_a_1<14:23> PERF -  
+  _at_p_temp<24:26> SF prop  
+  _at_p_temp<24:26> TENSE untensed  
+  _at_p_temp<24:26> MOOD indicative  
+  _at_p_temp<24:26> PROG -  
+  _at_p_temp<24:26> PERF -  
+  numbered_hour<27:31>(4:30) PERS 3  
+  numbered_hour<27:31>(4:30) NUM sg  
+  timezone_p<37:41>(EDT) SF prop  
+  timezone_p<37:41>(EDT) TENSE untensed  
+  timezone_p<37:41>(EDT) MOOD indicative  
+  timezone_p<37:41>(EDT) PROG -  
+  timezone_p<37:41>(EDT) PERF -  
+}
+

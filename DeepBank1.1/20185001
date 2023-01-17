@@ -1,0 +1,265 @@
+;;;
+;;; Redwoods export of `wsj01d';
+;;; (wsun@wsun; 22-jan-2018 (11:44 h)).
+;;;
+
+[20185001] (1 of 1) {1} `INTER-TEL Inc. (Chandler, Ariz.) --'
+
+[20185001:4] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "INTER-TEL", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:14>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:16>, 1, "(", 0, "null", "(" 1.0)
+  (4, 3, 4, <16:24>, 1, "Chandler", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <24:25>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <26:31>, 1, "Ariz.", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <31:32>, 1, ")", 0, "null", ")" 1.0)
+  (8, 7, 8, <33:35>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (89, 0, 1, <0:9>, 1, "INTER-", 0, "null")
+  (110, 0, 1, <0:9>, 1, "INTER-", 0, "null", "NN" 1.0)
+  (115, 0, 1, <0:9>, 1, "inter-", 0, "null")
+  (120, 0, 1, <0:9>, 1, "inter-", 0, "null")
+  (88, 1, 2, <0:9>, 1, "TEL", 0, "null")
+  (109, 1, 2, <0:9>, 1, "TEL", 0, "null", "NNP" 1.0)
+  (114, 1, 2, <0:9>, 1, "tel", 0, "null")
+  (119, 1, 2, <0:9>, 1, "tel", 0, "null")
+  (87, 2, 3, <10:14>, 1, "Inc.", 0, "null")
+  (108, 2, 3, <10:14>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (113, 2, 3, <10:14>, 1, "inc.", 0, "null")
+  (118, 2, 3, <10:14>, 1, "inc.", 0, "null")
+  (93, 3, 4, <15:25>, 1, "(Chandler,", 0, "null")
+  (111, 3, 4, <15:25>, 1, "(Chandler,", 0, "null", "NNP" 1.0)
+  (116, 3, 4, <15:25>, 1, "(chandler,", 0, "null")
+  (121, 3, 4, <15:25>, 1, "(chandler,", 0, "null")
+  (95, 4, 5, <26:32>, 1, "Ariz.)", 0, "null")
+  (112, 4, 5, <26:32>, 1, "Ariz.)", 0, "null", "NNP" 1.0)
+  (117, 4, 5, <26:32>, 1, "ariz.)", 0, "null")
+  (122, 4, 5, <26:32>, 1, "ariz.)", 0, "null")
+  (103, 5, 6, <33:35>, 1, "–", 0, "null")
+  (123, 5, 6, <33:35>, 1, "–", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (710 CL-CL_RUNON_C 2.36333 0 6
+  (709 NP_FRG_C -0.666324 0 3
+   (708 HDN_BNP-PN_C 0.626307 0 3
+    (707 NP-HDN_NME-CPD_C 0.801203 0 3
+     (704 HDN_BNP-PN_C 0.761749 0 2
+      (670 XP_BRCK-PR_C 0.172479 0 2
+       (669 NP-HDN_NME-CPD_C 0.543554 0 2
+        (667 HDN_BNP-PN_C 0.301291 0 1
+         (666 W_HYPHEN_PLR 0.307186 0 1
+          (665 N_SG_ILR -0.246101 0 1
+           (127 generic_proper_ne@n_-_pn-gen_le 0 0 1
+            ("INTER-" 89
+             "token [ +CARG #1=\"INTER-\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW + ] ]")))))
+        (668 ^N_SG_ILR -0.41902 1 2
+         (137 generic_proper_ne@n_-_pn-gen_le 0 1 2
+          ("TEL" 88
+           "token [ +CARG #1=\"TEL\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW + ] ]"))))))
+     (706 ^W_PERIOD_PLR -0.54044 2 3
+      (705 N_SG_ILR -1.09504 2 3
+       (140 generic_proper_ne@n_-_pn-gen_le -1.5611 2 3
+        ("Inc." 87
+         "token [ +CARG #1=\"Inc.\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+  (686 ^NP_FRG_C 2.15228 3 6
+   (685 NP-NP_CRD-NC-T_C 2.15228 3 6
+    (679 HDN_BNP-PN_C -0.204936 3 4
+     (678 W_LPAREN_PLR 0.100079 3 4
+      (677 W_COMMA_PLR -0.0330228 3 4
+       (676 N_SG_ILR -0.632923 3 4
+        (172 chandler_n1@n_-_pn_le 0 3 4
+         ("(chandler," 116
+          "token [ +CARG \"Chandler\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(chandler,\" +FROM \"15\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"16\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+    (684 ^HDN_BNP-PN_C 2.08336 4 6
+     (683 HD-PCT_C 2.68194 4 6
+      (682 ^W_RPAREN_PLR 1.58722 4 5
+       (681 W_PERIOD_PLR 0.513358 4 5
+        (680 N_SG_ILR -0.308309 4 5
+         (188 arizona_n4@n_-_pn-abb_le 0 4 5
+          ("ariz.)" 117
+           "token [ +CARG \"Ariz.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"ariz.)\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+      (197 s_dbl_dash_pct@pt_-_s-dash_le 1.09473 5 6
+       ("–" 103
+        "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (XP
+  (NP
+   (N (NP (N (N (NP (N (N (N "INTER-")))) (N (N "TEL")))))
+    (N (N (N "Inc."))))))
+ (XP
+  (NP (NP (N (N (N (N "(chandler,")))))
+   (NP (N (N (N (N (N "ariz.)")))) (PNCT "–"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:35>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:14>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:14>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<0:14>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<0:9>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x14
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ named<0:9>
+            LBL: h25
+            ARG0: x20
+            CARG: "INTER-" ]
+          [ named<0:9>
+            LBL: h19
+            ARG0: x14
+            CARG: "TEL" ]
+          [ named<10:14>
+            LBL: h13
+            ARG0: x9
+            CARG: "Inc." ]
+          [ unknown<15:35>
+            LBL: h26
+            ARG0: e6
+            ARG: x27 ]
+          [ udef_q<15:35>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ implicit_conj<15:35>
+            LBL: h31
+            ARG0: x27
+            L-INDEX: x33 [ x PERS: 3 NUM: SG IND: + ]
+            R-INDEX: x32 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<15:25>
+            LBL: h34
+            ARG0: x33
+            RSTR: h35
+            BODY: h36 ]
+          [ named<15:25>
+            LBL: h37
+            ARG0: x33
+            CARG: "Chandler" ]
+          [ proper_q<26:35>
+            LBL: h38
+            ARG0: x32
+            RSTR: h39
+            BODY: h40 ]
+          [ named<26:32>
+            LBL: h41
+            ARG0: x32
+            CARG: "Arizona" ] >
+   HCONS: < h39 QEQ h41 h35 QEQ h37 h29 QEQ h31 h23 QEQ h25 h17 QEQ h19 h11 QEQ h13 h5 QEQ h26 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:35>{e SF prop-or-ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL e6, R-INDEX e6]
+ e7:unknown<0:14>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:proper_q<0:14>[BV x9]
+ e15:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _2:proper_q<0:9>[BV x14]
+ e21:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14, ARG2 x20]
+ _3:proper_q<0:9>[BV x20]
+ x20:named<0:9>("INTER-"){x PERS 3, NUM sg, IND +}[]
+ x14:named<0:9>("TEL"){x PERS 3, NUM sg, IND +}[]
+ x9:named<10:14>("Inc."){x PERS 3, NUM sg, IND +}[]
+ e6:unknown<15:35>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x27]
+ _4:udef_q<15:35>[BV x27]
+ x27:implicit_conj<15:35>{x}[L-INDEX x33, R-INDEX x32]
+ _5:proper_q<15:25>[BV x33]
+ x33:named<15:25>("Chandler"){x PERS 3, NUM sg, IND +}[]
+ _6:proper_q<26:35>[BV x32]
+ x32:named<26:32>("Arizona"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  implicit_conj<0:35> L-HNDL unknown<0:14>  
+  implicit_conj<0:35> L-INDEX unknown<0:14>  
+  implicit_conj<0:35> R-HNDL unknown<15:35>  
+  implicit_conj<0:35> R-INDEX unknown<15:35>  
+  unknown<0:14> ARG named<10:14>(Inc.)  
+  proper_q<0:14> BV named<10:14>(Inc.)  
+  compound<0:14> ARG1 named<10:14>(Inc.)  
+  compound<0:14> ARG2 named<0:9>(TEL)  
+  proper_q<0:9> BV named<0:9>(TEL)  
+  compound<0:9> ARG1 named<0:9>(TEL)  
+  compound<0:9> ARG2 named<0:9>(INTER-)  
+  proper_q<0:9> BV named<0:9>(INTER-)  
+  unknown<15:35> ARG implicit_conj<15:35>  
+  udef_q<15:35> BV implicit_conj<15:35>  
+  implicit_conj<15:35> L-INDEX named<15:25>(Chandler)  
+  implicit_conj<15:35> R-INDEX named<26:32>(Arizona)  
+  proper_q<15:25> BV named<15:25>(Chandler)  
+  proper_q<26:35> BV named<26:32>(Arizona)  
+  implicit_conj<0:35> SF prop-or-ques  
+  implicit_conj<0:35> TENSE tensed  
+  implicit_conj<0:35> MOOD indicative  
+  implicit_conj<0:35> PROG -  
+  implicit_conj<0:35> PERF -  
+  unknown<0:14> SF prop  
+  unknown<0:14> TENSE tensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:9>(INTER-) PERS 3  
+  named<0:9>(INTER-) NUM sg  
+  named<0:9>(INTER-) IND +  
+  named<0:9>(TEL) PERS 3  
+  named<0:9>(TEL) NUM sg  
+  named<0:9>(TEL) IND +  
+  named<10:14>(Inc.) PERS 3  
+  named<10:14>(Inc.) NUM sg  
+  named<10:14>(Inc.) IND +  
+  unknown<15:35> SF prop-or-ques  
+  unknown<15:35> TENSE untensed  
+  unknown<15:35> MOOD indicative  
+  unknown<15:35> PROG -  
+  unknown<15:35> PERF -  
+  named<15:25>(Chandler) PERS 3  
+  named<15:25>(Chandler) NUM sg  
+  named<15:25>(Chandler) IND +  
+  named<26:32>(Arizona) PERS 3  
+  named<26:32>(Arizona) NUM sg  
+  named<26:32>(Arizona) IND +  
+}
+

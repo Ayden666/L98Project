@@ -1,0 +1,116 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:36 h)).
+;;;
+
+[21867002] (1 of 1) {1} `Washington, D.C. --'
+
+[21867002:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Washington", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <12:16>, 1, "D.C.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <17:19>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (46, 0, 1, <0:11>, 1, "Washington,", 0, "null")
+  (49, 0, 1, <0:11>, 1, "washington,", 0, "null")
+  (52, 0, 1, <0:11>, 1, "washington,", 0, "null")
+  (38, 1, 2, <12:16>, 1, "D.C.", 0, "null")
+  (47, 1, 2, <12:16>, 1, "D.C.", 0, "null", "NNP" 1.0)
+  (48, 1, 2, <12:16>, 1, "d.c.", 0, "null")
+  (50, 1, 2, <12:16>, 1, "d.c.", 0, "null")
+  (43, 2, 3, <17:19>, 1, "–", 0, "null")
+  (51, 2, 3, <17:19>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (265 NP_FRG_C -0.177188 0 3
+  (264 HDN_BNP-PN_C 0.969324 0 3
+   (263 NP-HDN_CTY-CPD_C 2.24578 0 3
+    (260 HDN_BNP-PN_C 0.562716 0 1
+     (259 W_COMMA_PLR -0.266433 0 1
+      (258 N_SG_ILR -0.609145 0 1
+       (59 washington_n1@n_-_pn_le 0 0 1
+        ("washington," 49
+         "token [ +CARG \"Washington\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"washington,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (262 ^HD-PCT_C 1.68307 1 3
+     (261 ^N_SG_ILR -0.223321 1 2
+      (73 washingtondc_n3@n_-_pn_le 0 1 2
+       ("d.c." 48
+        "token [ +CARG \"D.C.\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"d.c.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (78 s_dbl_dash_pct@pt_-_s-dash_le 1.31876 2 3
+      ("–" 43
+       "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (NP (N (NP (N (N (N "washington,")))) (N (N (N "d.c.")) (PNCT "–")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:19>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "Washington" ]
+          [ named<12:16>
+            LBL: h8
+            ARG0: x4
+            CARG: "WashingtonDC" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:19>[BV x4]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:11>[BV x9]
+ x9:named<0:11>("Washington"){x PERS 3, NUM sg, IND +}[]
+ x4:named<12:16>("WashingtonDC"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:19> ARG named<12:16>(WashingtonDC)  
+  proper_q<0:19> BV named<12:16>(WashingtonDC)  
+  compound<0:19> ARG1 named<12:16>(WashingtonDC)  
+  compound<0:19> ARG2 named<0:11>(Washington)  
+  proper_q<0:11> BV named<0:11>(Washington)  
+  unknown<0:19> SF prop-or-ques  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  named<0:11>(Washington) PERS 3  
+  named<0:11>(Washington) NUM sg  
+  named<0:11>(Washington) IND +  
+  named<12:16>(WashingtonDC) PERS 3  
+  named<12:16>(WashingtonDC) NUM sg  
+  named<12:16>(WashingtonDC) IND +  
+}
+

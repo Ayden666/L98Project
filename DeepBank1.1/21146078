@@ -1,0 +1,134 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146078] (1 of 1) {1} `He expected as much.'
+
+[21146078:1] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:11>, 1, "expected", 0, "null", "VBD" 0.5537 "VBN" 0.4342 "JJ" 0.0121)
+  (3, 2, 3, <12:14>, 1, "as", 0, "null", "RB" 0.706 "IN" 0.294)
+  (4, 3, 4, <15:19>, 1, "much", 0, "null", "RB" 0.5392 "JJ" 0.4608)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:2>, 1, "he", 0, "null")
+  (72, 0, 1, <0:2>, 1, "he", 0, "null")
+  (57, 1, 2, <3:11>, 1, "expected", 0, "null")
+  (63, 1, 2, <3:11>, 1, "expected", 0, "null", "VBD" 0.5537)
+  (66, 1, 2, <3:11>, 1, "expected", 0, "null", "VBN" 0.4342)
+  (69, 1, 2, <3:11>, 1, "expected", 0, "null")
+  (58, 2, 3, <12:14>, 1, "as", 0, "null")
+  (64, 2, 3, <12:14>, 1, "as", 0, "null", "RB" 0.706)
+  (70, 2, 3, <12:14>, 1, "as", 0, "null")
+  (60, 3, 4, <15:20>, 1, "much.", 0, "null")
+  (65, 3, 4, <15:20>, 1, "much.", 0, "null", "RB" 0.5392)
+  (67, 3, 4, <15:20>, 1, "much.", 0, "null", "JJ" 0.4608)
+  (71, 3, 4, <15:20>, 1, "much.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1271 SB-HD_MC_C 1.53952 0 4
+  (1258 HDN_BNP-QNT_C 1.50958 0 1
+   (73 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 68
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1270 ^HD-CMP_U_C -1.23941 1 4
+   (1259 ^V_PST_OLR -0.685858 1 2
+    (94 expect_v1@v_np*_le -0.24933 1 2
+     ("expected" 57
+      "token [ +CARG #1=\"expected\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55371959999999998\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1269 HDN_BNP-QNT_C -1.02766 2 4
+    (1268 NUM_PRT-NC_C -0.018584 2 4
+     (1267 SP-HD_HC_C -1.15013 2 4
+      (363 as_eq_nc_deg@av_-_dg-cmp-so_le -1.59031 2 3
+       ("as" 58
+        "token [ +CARG #1=\"as\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.70597810000000005\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1261 ^W_PERIOD_PLR 0 3 4
+       (566 much_a1@aj_-_i-much_le 0 3 4
+        ("much." 60
+         "token [ +CARG \"much\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"much.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.53915349999999995\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "he"))
+ (VP (V (V "expected")) (NP (N (ADJ (ADV "as") (ADJ (ADJ "much.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _expect_v_1<3:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ generic_entity<12:20>
+            LBL: h10
+            ARG0: x9 ]
+          [ udef_q<12:20>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ comp_equal<12:14>
+            LBL: h10
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: u16 ]
+          [ much-many_a<15:20>
+            LBL: h10
+            ARG0: e14
+            ARG1: x9 ] >
+   HCONS: < h12 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_expect_v_1<3:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ x9:generic_entity<12:20>{x PERS 3, NUM sg}[]
+ _2:udef_q<12:20>[BV x9]
+ e15:comp_equal<12:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:much-many_a<15:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _expect_v_1<3:11> ARG1 pron<0:2>  
+  _expect_v_1<3:11> ARG2 generic_entity<12:20>  
+  udef_q<12:20> BV generic_entity<12:20>  
+  comp_equal<12:14> ARG1 much-many_a<15:20>  
+  much-many_a<15:20> ARG1 generic_entity<12:20>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _expect_v_1<3:11> SF prop  
+  _expect_v_1<3:11> TENSE past  
+  _expect_v_1<3:11> MOOD indicative  
+  _expect_v_1<3:11> PROG -  
+  _expect_v_1<3:11> PERF -  
+  generic_entity<12:20> PERS 3  
+  generic_entity<12:20> NUM sg  
+  comp_equal<12:14> SF prop  
+  comp_equal<12:14> TENSE untensed  
+  comp_equal<12:14> MOOD indicative  
+  comp_equal<12:14> PROG -  
+  comp_equal<12:14> PERF -  
+  much-many_a<15:20> SF prop  
+  much-many_a<15:20> TENSE untensed  
+  much-many_a<15:20> MOOD indicative  
+  much-many_a<15:20> PROG -  
+  much-many_a<15:20> PERF -  
+}
+

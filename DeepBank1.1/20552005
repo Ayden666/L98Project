@@ -1,0 +1,131 @@
+;;;
+;;; Redwoods export of `wsj05b';
+;;; (wsun@wsun; 22-jan-2018 (15:12 h)).
+;;;
+
+[20552005] (1 of 1) {1} `Investment analysts generally agree.'
+
+[20552005:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Investment", 0, "null", "NNP" 0.7118 "NN" 0.2882)
+  (2, 1, 2, <11:19>, 1, "analysts", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <20:29>, 1, "generally", 0, "null", "RB" 1.0)
+  (4, 3, 4, <30:35>, 1, "agree", 0, "null", "VBP" 0.841 "VB" 0.159)
+  (5, 4, 5, <35:36>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:10>, 1, "Investment", 0, "null")
+  (64, 0, 1, <0:10>, 1, "investment", 0, "null")
+  (68, 0, 1, <0:10>, 1, "investment", 0, "null")
+  (52, 1, 2, <11:19>, 1, "analysts", 0, "null")
+  (61, 1, 2, <11:19>, 1, "analysts", 0, "null", "NNS" 1.0)
+  (65, 1, 2, <11:19>, 1, "analysts", 0, "null")
+  (54, 2, 3, <20:29>, 1, "generally", 0, "null")
+  (62, 2, 3, <20:29>, 1, "generally", 0, "null", "RB" 1.0)
+  (66, 2, 3, <20:29>, 1, "generally", 0, "null")
+  (57, 3, 4, <30:36>, 1, "agree.", 0, "null")
+  (60, 3, 4, <30:36>, 1, "agree.", 0, "null", "VBP" 0.841)
+  (63, 3, 4, <30:36>, 1, "agree.", 0, "null", "VB" 0.159)
+  (67, 3, 4, <30:36>, 1, "agree.", 0, "null")
+>
+
+(ROOT_STRICT
+ (318 SB-HD_MC_C 3.84126 0 4
+  (312 HDN_BNP_C 1.29856 0 2
+   (311 N-HDN_CPD_C 0.677815 0 2
+    (70 investment_n1@n_-_mc-ns_le 1.02775 0 1
+     ("investment" 64
+      "token [ +CARG \"Investment\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"investment\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.71178050000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (310 ^N_PL_OLR 0.0311457 1 2
+     (71 analyst_n1@n_-_c_le -0.302871 1 2
+      ("analysts" 52
+       "token [ +CARG #1=\"analysts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (317 ^AJ-HD_INT_C 0.973871 2 4
+   (82 generally_adv1@av_-_i-vp-x_le 0.574827 2 3
+    ("generally" 54
+     "token [ +CARG #1=\"generally\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (316 ^HD_OPTCMP_C 0.0234926 3 4
+    (315 HD_OPTCMP_C 0.702557 3 4
+     (314 W_PERIOD_PLR -0.236205 3 4
+      (313 V_N3S-BSE_ILR 0.664306 3 4
+       (91 agree_v2@v_pp*-pp*_le 0 3 4
+        ("agree." 57
+         "token [ +CARG \"agree\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"agree.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84095180000000003\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "investment") (N (N "analysts"))))
+ (VP (ADV "generally") (VP (V (V (V (V "agree.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:19>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _investment_n_1<0:10>
+            LBL: h14
+            ARG0: x9 ]
+          [ _analyst_n_1<11:19>
+            LBL: h8
+            ARG0: x6 ]
+          [ _general_a_1<20:29>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _agree_v_on<30:36>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:19>[BV x6]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:10>[BV x9]
+ x9:_investment_n_1<0:10>{x}[]
+ x6:_analyst_n_1<11:19>{x PERS 3, NUM pl, IND +}[]
+ e15:_general_a_1<20:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_agree_v_on<30:36>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:19> BV _analyst_n_1<11:19>  
+  compound<0:19> ARG1 _analyst_n_1<11:19>  
+  compound<0:19> ARG2 _investment_n_1<0:10>  
+  udef_q<0:10> BV _investment_n_1<0:10>  
+  _general_a_1<20:29> ARG1 _agree_v_on<30:36>  
+  _agree_v_on<30:36> ARG1 _analyst_n_1<11:19>  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  _analyst_n_1<11:19> PERS 3  
+  _analyst_n_1<11:19> NUM pl  
+  _analyst_n_1<11:19> IND +  
+  _general_a_1<20:29> SF prop  
+  _general_a_1<20:29> TENSE untensed  
+  _general_a_1<20:29> MOOD indicative  
+  _general_a_1<20:29> PROG -  
+  _general_a_1<20:29> PERF -  
+  _agree_v_on<30:36> SF prop  
+  _agree_v_on<30:36> TENSE pres  
+  _agree_v_on<30:36> MOOD indicative  
+  _agree_v_on<30:36> PROG -  
+  _agree_v_on<30:36> PERF -  
+}
+

@@ -1,0 +1,203 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:02 h)).
+;;;
+
+[20808001] (1 of 1) {1} `Dick Darman, call your office.'
+
+[20808001:2] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Dick", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:11>, 1, "Darman", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:12>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <13:17>, 1, "call", 0, "null", "VB" 0.5613 "VBP" 0.3759 "NN" 0.0629)
+  (5, 4, 5, <18:22>, 1, "your", 0, "null", "PRP$" 1.0)
+  (6, 5, 6, <23:29>, 1, "office", 0, "null", "NN" 1.0)
+  (7, 6, 7, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:4>, 1, "Dick", 0, "null")
+  (88, 0, 1, <0:4>, 1, "dick", 0, "null")
+  (94, 0, 1, <0:4>, 1, "dick", 0, "null")
+  (67, 1, 2, <5:12>, 1, "Darman,", 0, "null")
+  (86, 1, 2, <5:12>, 1, "Darman,", 0, "null", "NNP" 1.0)
+  (89, 1, 2, <5:12>, 1, "darman,", 0, "null")
+  (90, 1, 2, <5:12>, 1, "darman,", 0, "null")
+  (81, 2, 3, <13:17>, 1, "call", 0, "null")
+  (84, 2, 3, <13:17>, 1, "call", 0, "null", "VB" 0.5613)
+  (85, 2, 3, <13:17>, 1, "call", 0, "null", "VBP" 0.3759)
+  (93, 2, 3, <13:17>, 1, "call", 0, "null")
+  (76, 3, 4, <18:22>, 1, "your", 0, "null")
+  (91, 3, 4, <18:22>, 1, "your", 0, "null")
+  (80, 4, 5, <23:30>, 1, "office.", 0, "null")
+  (87, 4, 5, <23:30>, 1, "office.", 0, "null", "NN" 1.0)
+  (92, 4, 5, <23:30>, 1, "office.", 0, "null")
+>
+
+(ROOT_STRICT
+ (473 AJ-HD_SCP_C 2.50448 0 5
+  (469 NP_VOC-PRE_C 1.40915 0 2
+   (455 HDN_BNP-PN_C 3.10389 0 2
+    (454 NP-HDN_NME-CPD_C 3.49825 0 2
+     (451 HDN_BNP-PN_C 0.586141 0 1
+      (450 N_SG_ILR -0.166294 0 1
+       (97 dick_n1@n_-_pn_le 0 0 1
+        ("dick" 88
+         "token [ +CARG \"Dick\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"dick\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (453 ^W_COMMA_PLR 1.57253 1 2
+      (452 N_SG_ILR 0.501186 1 2
+       (98 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Darman," 67
+         "token [ +CARG \"Darman\" +CLASS proper_ne +FORM \"Darman,\" +FROM \"5\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+  (472 ^HD_IMP_C 0.998136 2 5
+   (471 HD-CMP_U_C 2.15876 2 5
+    (470 ^V_N3S-BSE_ILR -0.82462 2 3
+     (128 call_v1@v_np*_le -0.637463 2 3
+      ("call" 81
+       "token [ +CARG #1=\"call\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56125210000000003\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (461 SP-HD_N_C 1.83256 3 5
+     (139 your@d_-_poss-your_le 0.16329 3 4
+      ("your" 76
+       "token [ +CARG #1=\"your\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (460 ^HDN_OPTCMP_C 1.66927 4 5
+      (459 W_PERIOD_PLR 1.33897 4 5
+       (458 N_SG_ILR 0.704929 4 5
+        (146 office1@n_pp_c-of_le 0 4 5
+         ("office." 80
+          "token [ +CARG \"office\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"office.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (ADV (NP (N (NP (N (N "dick"))) (N (N (N "Darman,"))))))
+ (S (VP (V (V "call")) (NP (DET "your") (N (N (N (N "office."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ addressee<0:12>
+            LBL: h2
+            ARG0: i5
+            ARG1: x4 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: e3 ]
+          [ proper_q<0:12>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ compound<0:12>
+            LBL: h9
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ named<0:4>
+            LBL: h15
+            ARG0: x10
+            CARG: "Dick" ]
+          [ named<5:12>
+            LBL: h9
+            ARG0: x4
+            CARG: "Darman" ]
+          [ pronoun_q<13:30>
+            LBL: h16
+            ARG0: x18 [ x PERS: 2 PT: ZERO ]
+            RSTR: h17
+            BODY: h19 ]
+          [ pron<13:30>
+            LBL: h20
+            ARG0: x18 ]
+          [ _call_v_1<13:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x18
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ def_explicit_q<18:22>
+            LBL: h22
+            ARG0: x21
+            RSTR: h24
+            BODY: h23 ]
+          [ poss<18:22>
+            LBL: h25
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: x26 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<18:22>
+            LBL: h28
+            ARG0: x26
+            RSTR: h29
+            BODY: h30 ]
+          [ pron<18:22>
+            LBL: h31
+            ARG0: x26 ]
+          [ _office_n_of<23:30>
+            LBL: h25
+            ARG0: x21
+            ARG1: i32 ] >
+   HCONS: < h29 QEQ h31 h24 QEQ h25 h17 QEQ h20 h13 QEQ h15 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ i5:addressee<0:12>{i}[ARG1 x4, ARG2 e3]
+ _1:proper_q<0:12>[BV x4]
+ e11:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x10]
+ _2:proper_q<0:4>[BV x10]
+ x10:named<0:4>("Dick"){x PERS 3, NUM sg, IND +}[]
+ x4:named<5:12>("Darman"){x PERS 3, NUM sg, IND +}[]
+ _3:pronoun_q<13:30>[BV x18]
+ x18:pron<13:30>{x PERS 2, PT zero}[]
+ e3:_call_v_1<13:17>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x21]
+ _4:def_explicit_q<18:22>[BV x21]
+ e27:poss<18:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21, ARG2 x26]
+ _5:pronoun_q<18:22>[BV x26]
+ x26:pron<18:22>{x PERS 2, PT std}[]
+ x21:_office_n_of<23:30>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  addressee<0:12> ARG1 named<5:12>(Darman)  
+  addressee<0:12> ARG2 _call_v_1<13:17>  
+  proper_q<0:12> BV named<5:12>(Darman)  
+  compound<0:12> ARG1 named<5:12>(Darman)  
+  compound<0:12> ARG2 named<0:4>(Dick)  
+  proper_q<0:4> BV named<0:4>(Dick)  
+  pronoun_q<13:30> BV pron<13:30>  
+  _call_v_1<13:17> ARG1 pron<13:30>  
+  _call_v_1<13:17> ARG2 _office_n_of<23:30>  
+  def_explicit_q<18:22> BV _office_n_of<23:30>  
+  poss<18:22> ARG1 _office_n_of<23:30>  
+  poss<18:22> ARG2 pron<18:22>  
+  pronoun_q<18:22> BV pron<18:22>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:4>(Dick) PERS 3  
+  named<0:4>(Dick) NUM sg  
+  named<0:4>(Dick) IND +  
+  named<5:12>(Darman) PERS 3  
+  named<5:12>(Darman) NUM sg  
+  named<5:12>(Darman) IND +  
+  pron<13:30> PERS 2  
+  pron<13:30> PT zero  
+  _call_v_1<13:17> SF comm  
+  _call_v_1<13:17> TENSE pres  
+  _call_v_1<13:17> MOOD indicative  
+  _call_v_1<13:17> PROG -  
+  _call_v_1<13:17> PERF -  
+  poss<18:22> SF prop  
+  poss<18:22> TENSE untensed  
+  poss<18:22> MOOD indicative  
+  poss<18:22> PROG -  
+  poss<18:22> PERF -  
+  pron<18:22> PERS 2  
+  pron<18:22> PT std  
+  _office_n_of<23:30> PERS 3  
+  _office_n_of<23:30> NUM sg  
+  _office_n_of<23:30> IND +  
+}
+

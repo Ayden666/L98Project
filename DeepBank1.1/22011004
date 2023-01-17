@@ -1,0 +1,75 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (04:59 h)).
+;;;
+
+[22011004] (1 of 1) {1} `Clearly not.'
+
+[22011004:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Clearly", 0, "null", "RB" 1.0)
+  (2, 1, 2, <8:11>, 1, "not", 0, "null", "RB" 1.0)
+  (3, 2, 3, <11:12>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:7>, 1, "Clearly", 0, "null", "RB" 1.0)
+  (35, 0, 1, <0:7>, 1, "clearly", 0, "null")
+  (37, 0, 1, <0:7>, 1, "clearly", 0, "null")
+  (32, 1, 2, <8:12>, 1, "not.", 0, "null")
+  (34, 1, 2, <8:12>, 1, "not.", 0, "null", "RB" 1.0)
+  (36, 1, 2, <8:12>, 1, "not.", 0, "null")
+>
+
+(ROOT_STRICT
+ (240 AJ-HD_SCP-XP_C 0 0 2
+  (40 clearly_adv2@av_-_s-cp-pr_le 0 0 1
+   ("clearly" 35
+    "token [ +CARG \"Clearly\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"clearly\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (239 ^W_PERIOD_PLR 0 1 2
+   (79 not_cp@x_-_not-cp_le 0 1 2
+    ("not." 32
+     "token [ +CARG \"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"not.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (ADV "clearly") (S (S "not.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _clear_a_of<0:7>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ ellipsis<8:12>
+            LBL: h6
+            ARG0: e3
+            ARG1: u7 ]
+          [ neg<8:12>
+            LBL: h8
+            ARG0: i10
+            ARG1: h9 ] >
+   HCONS: < h9 QEQ h6 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e5:
+ e5:_clear_a_of<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 i10]
+ e3:ellipsis<8:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i10:neg<8:12>{i}[ARG1 e3]
+}
+
+{
+  _clear_a_of<0:7> ARG1 neg<8:12>  
+  neg<8:12> ARG1 ellipsis<8:12>  
+  _clear_a_of<0:7> SF prop  
+  _clear_a_of<0:7> TENSE untensed  
+  _clear_a_of<0:7> MOOD indicative  
+  _clear_a_of<0:7> PROG -  
+  _clear_a_of<0:7> PERF -  
+  ellipsis<8:12> SF prop  
+  ellipsis<8:12> TENSE untensed  
+  ellipsis<8:12> MOOD indicative  
+  ellipsis<8:12> PROG -  
+  ellipsis<8:12> PERF -  
+}
+

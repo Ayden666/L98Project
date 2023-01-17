@@ -1,0 +1,134 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (13:58 h)).
+;;;
+
+[20430022] (1 of 1) {1} `The insurance adjusters think differently.'
+
+[20430022:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:13>, 1, "insurance", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:23>, 1, "adjusters", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <24:29>, 1, "think", 0, "null", "VBP" 0.9723 "VB" 0.0277)
+  (5, 4, 5, <30:41>, 1, "differently", 0, "null", "RB" 1.0)
+  (6, 5, 6, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:3>, 1, "the", 0, "null")
+  (77, 0, 1, <0:3>, 1, "the", 0, "null")
+  (61, 1, 2, <4:13>, 1, "insurance", 0, "null")
+  (69, 1, 2, <4:13>, 1, "insurance", 0, "null", "NN" 1.0)
+  (73, 1, 2, <4:13>, 1, "insurance", 0, "null")
+  (63, 2, 3, <14:23>, 1, "adjusters", 0, "null")
+  (70, 2, 3, <14:23>, 1, "adjusters", 0, "null", "NNS" 1.0)
+  (74, 2, 3, <14:23>, 1, "adjusters", 0, "null")
+  (66, 3, 4, <24:29>, 1, "think", 0, "null")
+  (68, 3, 4, <24:29>, 1, "think", 0, "null", "VBP" 0.9723)
+  (76, 3, 4, <24:29>, 1, "think", 0, "null")
+  (65, 4, 5, <30:42>, 1, "differently.", 0, "null")
+  (71, 4, 5, <30:42>, 1, "differently.", 0, "null", "RB" 1.0)
+  (75, 4, 5, <30:42>, 1, "differently.", 0, "null")
+>
+
+(ROOT_STRICT
+ (543 SB-HD_MC_C 3.66783 0 5
+  (538 SP-HD_N_C 2.03016 0 3
+   (90 the_1@d_-_the_le -0.249143 0 1
+    ("the" 72
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (537 ^N-HDN_CPD_C 0.77257 1 3
+    (115 insurance_n1@n_-_mc_le -0.637427 1 2
+     ("insurance" 61
+      "token [ +CARG #1=\"insurance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (121 generic_pl_noun@n_-_c-pl-unk_le 0 2 3
+     ("adjusters" 70
+      "token [ +CARG #1=\"adjusters\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_adjusters/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (542 ^HD-AJ_INT-UNSL_C 0.605478 3 5
+   (540 ^HD_OPTCMP_C 0.0353436 3 4
+    (539 V_N3S-BSE_ILR -0.495741 3 4
+     (134 think_v3@v_np*_ntr_le 0.0335702 3 4
+      ("think" 66
+       "token [ +CARG #1=\"think\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97225050000000002\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (541 W_PERIOD_PLR 0.0599084 4 5
+    (142 differently@av_-_i-vp-po_le 0 4 5
+     ("differently." 65
+      "token [ +CARG \"differently\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"differently.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "the") (N (N "insurance") (N "adjusters")))
+ (VP (VP (V (V "think"))) (ADV (ADV "differently."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:23>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<4:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _insurance_n_1<4:13>
+            LBL: h14
+            ARG0: x9 ]
+          [ _adjusters/nns_u_unknown<14:23>
+            LBL: h8
+            ARG0: x6 ]
+          [ _think_v_1<24:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i15 ]
+          [ _different_a_than-from<30:42>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<4:13>[BV x9]
+ x9:_insurance_n_1<4:13>{x}[]
+ x6:_adjusters/nns_u_unknown<14:23>{x PERS 3, NUM pl}[]
+ e3:_think_v_1<24:29>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e16:_different_a_than-from<30:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _the_q<0:3> BV _adjusters/nns_u_unknown<14:23>  
+  compound<4:23> ARG1 _adjusters/nns_u_unknown<14:23>  
+  compound<4:23> ARG2 _insurance_n_1<4:13>  
+  udef_q<4:13> BV _insurance_n_1<4:13>  
+  _think_v_1<24:29> ARG1 _adjusters/nns_u_unknown<14:23>  
+  _different_a_than-from<30:42> ARG1 _think_v_1<24:29>  
+  compound<4:23> SF prop  
+  compound<4:23> TENSE untensed  
+  compound<4:23> MOOD indicative  
+  compound<4:23> PROG -  
+  compound<4:23> PERF -  
+  _adjusters/nns_u_unknown<14:23> PERS 3  
+  _adjusters/nns_u_unknown<14:23> NUM pl  
+  _think_v_1<24:29> SF prop  
+  _think_v_1<24:29> TENSE pres  
+  _think_v_1<24:29> MOOD indicative  
+  _think_v_1<24:29> PROG -  
+  _think_v_1<24:29> PERF -  
+  _different_a_than-from<30:42> SF prop  
+  _different_a_than-from<30:42> TENSE untensed  
+  _different_a_than-from<30:42> MOOD indicative  
+  _different_a_than-from<30:42> PROG -  
+  _different_a_than-from<30:42> PERF -  
+}
+

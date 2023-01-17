@@ -1,0 +1,326 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:12 h)).
+;;;
+
+[21932014] (1 of 1) {1} `Gasoline for November delivery was off 1.26 cents a gallon to 54.58 cents.'
+
+[21932014:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Gasoline", 0, "null", "NN" 1.0)
+  (2, 1, 2, <9:12>, 1, "for", 0, "null", "IN" 1.0)
+  (3, 2, 3, <13:21>, 1, "November", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <22:30>, 1, "delivery", 0, "null", "NN" 1.0)
+  (5, 4, 5, <31:34>, 1, "was", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <35:38>, 1, "off", 0, "null", "RP" 0.5414 "RB" 0.2472 "IN" 0.2114)
+  (7, 6, 7, <39:43>, 1, "1.26", 0, "null", "CD" 1.0)
+  (8, 7, 8, <44:49>, 1, "cents", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <50:51>, 1, "a", 0, "null", "DT" 1.0)
+  (10, 9, 10, <52:58>, 1, "gallon", 0, "null", "NN" 1.0)
+  (11, 10, 11, <59:61>, 1, "to", 0, "null", "TO" 1.0)
+  (12, 11, 12, <62:67>, 1, "54.58", 0, "null", "CD" 1.0)
+  (13, 12, 13, <68:73>, 1, "cents", 0, "null", "NNS" 1.0)
+  (14, 13, 14, <73:74>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (152, 0, 1, <0:8>, 1, "Gasoline", 0, "null")
+  (161, 0, 1, <0:8>, 1, "gasoline", 0, "null")
+  (174, 0, 1, <0:8>, 1, "gasoline", 0, "null")
+  (143, 1, 2, <9:12>, 1, "for", 0, "null")
+  (169, 1, 2, <9:12>, 1, "for", 0, "null")
+  (124, 2, 3, <13:21>, 1, "November", 0, "null")
+  (154, 2, 3, <13:21>, 1, "November", 0, "null", "NNP" 1.0)
+  (160, 2, 3, <13:21>, 1, "november", 0, "null")
+  (164, 2, 3, <13:21>, 1, "november", 0, "null")
+  (145, 3, 4, <22:30>, 1, "delivery", 0, "null")
+  (157, 3, 4, <22:30>, 1, "delivery", 0, "null", "NN" 1.0)
+  (170, 3, 4, <22:30>, 1, "delivery", 0, "null")
+  (147, 4, 5, <31:34>, 1, "was", 0, "null")
+  (158, 4, 5, <31:34>, 1, "was", 0, "null", "VBD" 1.0)
+  (171, 4, 5, <31:34>, 1, "was", 0, "null")
+  (150, 5, 6, <35:38>, 1, "off", 0, "null")
+  (153, 5, 6, <35:38>, 1, "off", 0, "null", "RB" 0.2472)
+  (173, 5, 6, <35:38>, 1, "off", 0, "null")
+  (121, 6, 7, <39:43>, 1, "1.26", 0, "null")
+  (162, 6, 7, <39:43>, 1, "1.26", 0, "null")
+  (135, 7, 8, <44:49>, 1, "cents", 0, "null")
+  (155, 7, 8, <44:49>, 1, "cents", 0, "null", "NNS" 1.0)
+  (165, 7, 8, <44:49>, 1, "cents", 0, "null")
+  (137, 8, 9, <50:51>, 1, "a", 0, "null")
+  (166, 8, 9, <50:51>, 1, "a", 0, "null")
+  (139, 9, 10, <52:58>, 1, "gallon", 0, "null")
+  (156, 9, 10, <52:58>, 1, "gallon", 0, "null", "NN" 1.0)
+  (167, 9, 10, <52:58>, 1, "gallon", 0, "null")
+  (141, 10, 11, <59:61>, 1, "to", 0, "null")
+  (168, 10, 11, <59:61>, 1, "to", 0, "null")
+  (122, 11, 12, <62:67>, 1, "54.58", 0, "null")
+  (163, 11, 12, <62:67>, 1, "54.58", 0, "null")
+  (149, 12, 13, <68:74>, 1, "cents.", 0, "null")
+  (159, 12, 13, <68:74>, 1, "cents.", 0, "null", "NNS" 1.0)
+  (172, 12, 13, <68:74>, 1, "cents.", 0, "null")
+>
+
+(ROOT_STRICT
+ (6336 SB-HD_MC_C 12.4553 0 13
+  (6321 HDN_BNP_C 3.73979 0 4
+   (6320 HDN-AJ_REDREL_C 3.46841 0 4
+    (6313 ^N_MS_ILR -0.340186 0 1
+     (177 gasoline_n1@n_-_m_le 0 0 1
+      ("gasoline" 161
+       "token [ +CARG \"Gasoline\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"gasoline\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (6319 HD-CMP_U_C 3.27001 1 4
+     (182 for@p_np_i_le 0.405869 1 2
+      ("for" 143
+       "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (6318 HDN_BNP_C 2.2847 2 4
+      (6317 NP-HDN_CPD_C 2.23595 2 4
+       (6314 HDN_BNP-PN_C 1.70606 2 3
+        (198 november@n_-_c-month_le 0 2 3
+         ("november" 160
+          "token [ +CARG \"November\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"november\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (6316 ^HDN_OPTCMP_C 0.276572 3 4
+        (6315 N_MS-CNT_ILR 0.549723 3 4
+         (199 delivery_n1@n_pp_mc-of_le 0.0564575 3 4
+          ("delivery" 145
+           "token [ +CARG #1=\"delivery\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+  (6335 ^HD-CMP_U_C 7.19957 4 13
+   (205 be_c_was@v_prd_was_le 2.0009 4 5
+    ("was" 147
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (6334 HD-AJ_INT-UNSL_C 5.18272 5 13
+    (6328 ^HD-CMP_U_C 2.59783 5 10
+     (248 off@p_np_i-reg_le -1.13983 5 6
+      ("off" 150
+       "token [ +CARG #1=\"off\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54137559999999996\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (6327 HDN_BNP_C 4.393 6 10
+      (6326 HDN-AJ_REDREL_C 4.66982 6 10
+       (6323 ^NUM-N_MNP_C 2.84761 6 8
+        (373 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+         ("1.26" 121
+          "token [ +CARG #1=\"1.26\" +CLASS card_or_time_or_proper_ne +FORM #1 +FROM \"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+        (6322 ^N_PL_OLR 0.80476 7 8
+         (376 cent_n1@n_-_c-meas-nb_le 0.143064 7 8
+          ("cents" 135
+           "token [ +CARG #1=\"cents\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (6325 HD-CMP_U_C 0.159733 8 10
+        (415 a_per_p@p_nb_i-nm_le -0.634975 8 9
+         ("a" 137
+          "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"50\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (6324 N_SG_ILR -0.387002 9 10
+         (482 gallon_n1@n_-_c-meas_le 0 9 10
+          ("gallon" 139
+           "token [ +CARG #1=\"gallon\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"52\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"58\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+    (6333 HD-CMP_U_C 1.36622 10 13
+     (508 to@p_np_i-nnm_le -0.558995 10 11
+      ("to" 141
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"59\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"11\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"61\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (6332 HDN_BNP_C 3.10578 11 13
+      (6331 NUM-N_MNP_C 1.30975 11 13
+       (562 generic_card_ne@aj_-_i-crd-gen_le 0 11 12
+        ("54.58" 122
+         "token [ +CARG #1=\"54.58\" +CLASS card_or_proper_ne +FORM #1 +FROM \"62\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"67\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (6330 ^W_PERIOD_PLR 0.410834 12 13
+        (6329 N_PL_OLR -0.136022 12 13
+         (564 cent_n1@n_-_c-meas-nb_le 0 12 13
+          ("cents." 149
+           "token [ +CARG \"cents\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cents.\" +FROM #1=\"68\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"13\" REST *cons* [ FIRST \"14\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"74\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (NP
+  (N (N (N "gasoline"))
+   (PP (P "for") (NP (N (NP (N "november")) (N (N (N "delivery"))))))))
+ (VP (V "was")
+  (PP
+   (PP (P "off")
+    (NP
+     (N (N (ADJ "1.26") (N (N "cents")))
+      (PP (P "a") (N (N "gallon"))))))
+   (PP (P "to") (NP (N (ADJ "54.58") (N (N (N "cents.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:30>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _gasoline_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _for_p<9:12>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<13:30>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<13:30>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<13:21>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ mofy<13:21>
+            LBL: h20
+            ARG0: x15
+            CARG: "Nov" ]
+          [ _delivery_n_of<22:30>
+            LBL: h14
+            ARG0: x10
+            ARG1: i21 ]
+          [ _off_p<35:38>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x22 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<39:58>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ card<39:43>
+            LBL: h26
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            CARG: "1.26" ]
+          [ _cent_n_1<44:49>
+            LBL: h26
+            ARG0: x22 ]
+          [ _a_p_per<50:51>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x29 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<50:51>
+            LBL: h30
+            ARG0: x29
+            RSTR: h31
+            BODY: h32 ]
+          [ _gallon_n_1<52:58>
+            LBL: h33
+            ARG0: x29 ]
+          [ _to_p<59:61>
+            LBL: h2
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x35 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<62:74>
+            LBL: h36
+            ARG0: x35
+            RSTR: h37
+            BODY: h38 ]
+          [ card<62:67>
+            LBL: h39
+            ARG0: e40 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x35
+            CARG: "54.58" ]
+          [ _cent_n_1<68:74>
+            LBL: h39
+            ARG0: x35 ] >
+   HCONS: < h37 QEQ h39 h31 QEQ h33 h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:30>[BV x6]
+ x6:_gasoline_n_1<0:8>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e9:_for_p<9:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<13:30>[BV x10]
+ e16:compound<13:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x15]
+ _3:proper_q<13:21>[BV x15]
+ x15:mofy<13:21>("Nov"){x IND +}[]
+ x10:_delivery_n_of<22:30>{x PERS 3, NUM sg}[]
+ e3:_off_p<35:38>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x22]
+ _4:udef_q<39:58>[BV x22]
+ e27:card<39:43>("1.26"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22]
+ x22:_cent_n_1<44:49>{x PERS 3, NUM pl, IND +}[]
+ e28:_a_p_per<50:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x29]
+ _5:udef_q<50:51>[BV x29]
+ x29:_gallon_n_1<52:58>{x PERS 3, NUM sg, IND +}[]
+ e34:_to_p<59:61>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x35]
+ _6:udef_q<62:74>[BV x35]
+ e40:card<62:67>("54.58"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x35]
+ x35:_cent_n_1<68:74>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:30> BV _gasoline_n_1<0:8>  
+  _for_p<9:12> ARG1 _gasoline_n_1<0:8>  
+  _for_p<9:12> ARG2 _delivery_n_of<22:30>  
+  udef_q<13:30> BV _delivery_n_of<22:30>  
+  compound<13:30> ARG1 _delivery_n_of<22:30>  
+  compound<13:30> ARG2 mofy<13:21>(Nov)  
+  proper_q<13:21> BV mofy<13:21>(Nov)  
+  _off_p<35:38> ARG1 _gasoline_n_1<0:8>  
+  _off_p<35:38> ARG2 _cent_n_1<44:49>  
+  udef_q<39:58> BV _cent_n_1<44:49>  
+  card<39:43>(1.26) ARG1 _cent_n_1<44:49>  
+  _a_p_per<50:51> ARG1 _cent_n_1<44:49>  
+  _a_p_per<50:51> ARG2 _gallon_n_1<52:58>  
+  udef_q<50:51> BV _gallon_n_1<52:58>  
+  _to_p<59:61> ARG1 _off_p<35:38>  
+  _to_p<59:61> ARG2 _cent_n_1<68:74>  
+  udef_q<62:74> BV _cent_n_1<68:74>  
+  card<62:67>(54.58) ARG1 _cent_n_1<68:74>  
+  _gasoline_n_1<0:8> PERS 3  
+  _gasoline_n_1<0:8> NUM sg  
+  _gasoline_n_1<0:8> GEND n  
+  _gasoline_n_1<0:8> IND -  
+  _for_p<9:12> SF prop  
+  _for_p<9:12> TENSE untensed  
+  _for_p<9:12> MOOD indicative  
+  _for_p<9:12> PROG -  
+  _for_p<9:12> PERF -  
+  compound<13:30> SF prop  
+  compound<13:30> TENSE untensed  
+  compound<13:30> MOOD indicative  
+  compound<13:30> PROG -  
+  compound<13:30> PERF -  
+  mofy<13:21>(Nov) IND +  
+  _delivery_n_of<22:30> PERS 3  
+  _delivery_n_of<22:30> NUM sg  
+  _off_p<35:38> SF prop  
+  _off_p<35:38> TENSE past  
+  _off_p<35:38> MOOD indicative  
+  _off_p<35:38> PROG -  
+  _off_p<35:38> PERF -  
+  card<39:43>(1.26) SF prop  
+  card<39:43>(1.26) TENSE untensed  
+  card<39:43>(1.26) MOOD indicative  
+  card<39:43>(1.26) PROG -  
+  card<39:43>(1.26) PERF -  
+  _cent_n_1<44:49> PERS 3  
+  _cent_n_1<44:49> NUM pl  
+  _cent_n_1<44:49> IND +  
+  _a_p_per<50:51> SF prop  
+  _a_p_per<50:51> TENSE untensed  
+  _a_p_per<50:51> MOOD indicative  
+  _a_p_per<50:51> PROG -  
+  _a_p_per<50:51> PERF -  
+  _gallon_n_1<52:58> PERS 3  
+  _gallon_n_1<52:58> NUM sg  
+  _gallon_n_1<52:58> IND +  
+  _to_p<59:61> SF prop  
+  _to_p<59:61> TENSE untensed  
+  _to_p<59:61> MOOD indicative  
+  _to_p<59:61> PROG -  
+  _to_p<59:61> PERF -  
+  card<62:67>(54.58) SF prop  
+  card<62:67>(54.58) TENSE untensed  
+  card<62:67>(54.58) MOOD indicative  
+  card<62:67>(54.58) PROG -  
+  card<62:67>(54.58) PERF -  
+  _cent_n_1<68:74> PERS 3  
+  _cent_n_1<68:74> NUM pl  
+  _cent_n_1<68:74> IND +  
+}
+

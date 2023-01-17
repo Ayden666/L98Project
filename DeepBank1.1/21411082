@@ -1,0 +1,186 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (22:59 h)).
+;;;
+
+[21411082] (1 of 1) {1} `In Chicago, for example, size is the issue.'
+
+[21411082:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "In", 0, "null", "IN" 0.97 "NNP" 0.03)
+  (2, 1, 2, <3:10>, 1, "Chicago", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <12:15>, 1, "for", 0, "null", "IN" 1.0)
+  (5, 4, 5, <16:23>, 1, "example", 0, "null", "NN" 1.0)
+  (6, 5, 6, <23:24>, 1, ",", 0, "null", "," 1.0)
+  (7, 6, 7, <25:29>, 1, "size", 0, "null", "NN" 1.0)
+  (8, 7, 8, <30:32>, 1, "is", 0, "null", "VBZ" 1.0)
+  (9, 8, 9, <33:36>, 1, "the", 0, "null", "DT" 1.0)
+  (10, 9, 10, <37:42>, 1, "issue", 0, "null", "NN" 1.0)
+  (11, 10, 11, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (130, 0, 1, <0:2>, 1, "in", 0, "null")
+  (139, 0, 1, <0:2>, 1, "in", 0, "null")
+  (103, 1, 2, <3:11>, 1, "Chicago,", 0, "null")
+  (126, 1, 2, <3:11>, 1, "Chicago,", 0, "null", "NNP" 1.0)
+  (129, 1, 2, <3:11>, 1, "chicago,", 0, "null")
+  (131, 1, 2, <3:11>, 1, "chicago,", 0, "null")
+  (109, 2, 3, <12:15>, 1, "for", 0, "null")
+  (132, 2, 3, <12:15>, 1, "for", 0, "null")
+  (119, 3, 4, <16:24>, 1, "example,", 0, "null")
+  (127, 3, 4, <16:24>, 1, "example,", 0, "null", "NN" 1.0)
+  (136, 3, 4, <16:24>, 1, "example,", 0, "null")
+  (111, 4, 5, <25:29>, 1, "size", 0, "null")
+  (124, 4, 5, <25:29>, 1, "size", 0, "null", "NN" 1.0)
+  (133, 4, 5, <25:29>, 1, "size", 0, "null")
+  (113, 5, 6, <30:32>, 1, "is", 0, "null")
+  (125, 5, 6, <30:32>, 1, "is", 0, "null", "VBZ" 1.0)
+  (134, 5, 6, <30:32>, 1, "is", 0, "null")
+  (115, 6, 7, <33:36>, 1, "the", 0, "null")
+  (135, 6, 7, <33:36>, 1, "the", 0, "null")
+  (121, 7, 8, <37:43>, 1, "issue.", 0, "null")
+  (128, 7, 8, <37:43>, 1, "issue.", 0, "null", "NN" 1.0)
+  (137, 7, 8, <37:43>, 1, "issue.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1164 FLR-HD_NWH_C 7.24687 0 8
+  (1155 HD-AJ_SCP-PR_C 3.85377 0 4
+   (1153 ^HD-CMP_U_C 0.4521 0 2
+    (159 in@p_np_i-reg_le -0.179868 0 1
+     ("in" 130
+      "token [ +CARG \"In\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"in\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96999199999999997\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1152 HDN_BNP-PN_C 0.367031 1 2
+     (1151 W_COMMA_PLR -0.132162 1 2
+      (1150 N_SG_ILR -0.609145 1 2
+       (210 chicago_n1@n_-_pn_le 0 1 2
+        ("chicago," 129
+         "token [ +CARG \"Chicago\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"chicago,\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (1154 W_COMMA_PLR 1.52719 2 4
+    (480 for_example_disc_adv@av_-_dc-like-po_le 0.332365 2 4
+     ("for example," 109
+      "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      119
+      "token [ +CARG \"example\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"example,\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1163 ^SB-HD_NMC_C 2.02551 4 8
+   (1157 HDN_BNP_C -1.53 4 5
+    (1156 N_MS-CNT_ILR -0.441113 4 5
+     (293 size_n1@n_-_mc-ed_le 0 4 5
+      ("size" 111
+       "token [ +CARG #1=\"size\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1162 ^HD_XAJ-INT-VP_C 3.47563 5 8
+    (1161 HD-CMP_U_C 1.8002 5 8
+     (350 be_id_is@v_np_is_le -0.094567 5 6
+      ("is" 113
+       "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1160 SP-HD_N_C 2.16024 6 8
+      (446 the_1@d_-_the_le 1.07131 6 7
+       ("the" 115
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1159 ^W_PERIOD_PLR 0.459703 7 8
+       (1158 N_MS-CNT_ILR 0.282475 7 8
+        (471 issue_n1@n_-_mc-ns_le 0 7 8
+         ("issue." 121
+          "token [ +CARG \"issue\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"issue.\" +FROM #1=\"37\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (PP (PP (P "in") (NP (N (N (N "chicago,")))))
+  (ADV (ADV "for example,")))
+ (S/PP (NP (N (N "size")))
+  (VP/PP (VP (V "is") (NP (DET "the") (N (N (N "issue."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:43>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _in_p_state<0:2>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:11>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ named<3:11>
+            LBL: h10
+            ARG0: x6
+            CARG: "Chicago" ]
+          [ udef_q<25:29>
+            LBL: h11
+            ARG0: x13 [ x PERS: 3 NUM: SG ]
+            RSTR: h12
+            BODY: h14 ]
+          [ _size_n_1<25:29>
+            LBL: h15
+            ARG0: x13 ]
+          [ _be_v_id<30:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: x13
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<33:36>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ _issue_n_1<37:43>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h19 QEQ h20 h12 QEQ h15 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_in_p_state<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:proper_q<3:11>[BV x6]
+ x6:named<3:11>("Chicago"){x PERS 3, NUM sg, IND +}[]
+ _2:udef_q<25:29>[BV x13]
+ x13:_size_n_1<25:29>{x PERS 3, NUM sg}[]
+ e3:_be_v_id<30:32>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x16]
+ _3:_the_q<33:36>[BV x16]
+ x16:_issue_n_1<37:43>{x PERS 3, NUM sg}[]
+}
+
+{
+  focus_d<0:43> ARG1 _be_v_id<30:32>  
+  focus_d<0:43> ARG2 _in_p_state<0:2>  
+  _in_p_state<0:2> ARG1 _be_v_id<30:32>  
+  _in_p_state<0:2> ARG2 named<3:11>(Chicago)  
+  proper_q<3:11> BV named<3:11>(Chicago)  
+  udef_q<25:29> BV _size_n_1<25:29>  
+  _be_v_id<30:32> ARG1 _size_n_1<25:29>  
+  _be_v_id<30:32> ARG2 _issue_n_1<37:43>  
+  _the_q<33:36> BV _issue_n_1<37:43>  
+  focus_d<0:43> SF prop  
+  focus_d<0:43> TENSE untensed  
+  focus_d<0:43> MOOD indicative  
+  focus_d<0:43> PROG -  
+  focus_d<0:43> PERF -  
+  _in_p_state<0:2> SF prop  
+  _in_p_state<0:2> TENSE untensed  
+  _in_p_state<0:2> MOOD indicative  
+  _in_p_state<0:2> PROG -  
+  _in_p_state<0:2> PERF -  
+  named<3:11>(Chicago) PERS 3  
+  named<3:11>(Chicago) NUM sg  
+  named<3:11>(Chicago) IND +  
+  _size_n_1<25:29> PERS 3  
+  _size_n_1<25:29> NUM sg  
+  _be_v_id<30:32> SF prop  
+  _be_v_id<30:32> TENSE pres  
+  _be_v_id<30:32> MOOD indicative  
+  _be_v_id<30:32> PROG -  
+  _be_v_id<30:32> PERF -  
+  _issue_n_1<37:43> PERS 3  
+  _issue_n_1<37:43> NUM sg  
+}
+

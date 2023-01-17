@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:27 h)).
+;;;
+
+[21647046] (1 of 1) {1} `Mr. Juliano thinks so.'
+
+[21647046:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Juliano", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:18>, 1, "thinks", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <19:21>, 1, "so", 0, "null", "RB" 0.9828 "IN" 0.0172)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (64, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (68, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (47, 1, 2, <4:11>, 1, "Juliano", 0, "null")
+  (61, 1, 2, <4:11>, 1, "Juliano", 0, "null", "NNP" 1.0)
+  (63, 1, 2, <4:11>, 1, "juliano", 0, "null")
+  (65, 1, 2, <4:11>, 1, "juliano", 0, "null")
+  (56, 2, 3, <12:18>, 1, "thinks", 0, "null")
+  (62, 2, 3, <12:18>, 1, "thinks", 0, "null", "VBZ" 1.0)
+  (66, 2, 3, <12:18>, 1, "thinks", 0, "null")
+  (57, 3, 4, <19:22>, 1, "so.", 0, "null")
+  (60, 3, 4, <19:22>, 1, "so.", 0, "null", "RB" 0.9828)
+  (67, 3, 4, <19:22>, 1, "so.", 0, "null")
+>
+
+(ROOT_STRICT
+ (462 SB-HD_MC_C 4.7385 0 4
+  (457 HDN_BNP-PN_C 3.86187 0 2
+   (456 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (454 N_SG_ILR 2.02901 0 1
+     (76 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 64
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (455 ^N_SG_ILR -0.259177 1 2
+     (79 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Juliano" 47
+       "token [ +CARG #1=\"Juliano\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (461 ^HD-CMP_U_C -0.140418 2 4
+   (459 ^HD_OPTCMP_C -0.0358667 2 3
+    (458 V_3S-FIN_OLR -0.873219 2 3
+     (96 think1@v_pp*-cp_le 0 2 3
+      ("thinks" 56
+       "token [ +CARG #1=\"thinks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (460 W_PERIOD_PLR 0 3 4
+    (133 so_cp@x_-_so-cp_le 0 3 4
+     ("so." 57
+      "token [ +CARG \"so\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"so.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98279360000000004\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Juliano"))))
+ (VP (V (V (V "thinks"))) (S (S "so."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Juliano" ]
+          [ _think_v_1<12:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h16
+            ARG3: i15 ]
+          [ ellipsis<19:22>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u19 ] >
+   HCONS: < h16 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Juliano"){x PERS 3, NUM sg, IND +}[]
+ e3:_think_v_1<12:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e18]
+ e18:ellipsis<19:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Juliano)  
+  compound<0:11> ARG1 named<4:11>(Juliano)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _think_v_1<12:18> ARG1 named<4:11>(Juliano)  
+  _think_v_1<12:18> ARG2 ellipsis<19:22>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Juliano) PERS 3  
+  named<4:11>(Juliano) NUM sg  
+  named<4:11>(Juliano) IND +  
+  _think_v_1<12:18> SF prop  
+  _think_v_1<12:18> TENSE pres  
+  _think_v_1<12:18> MOOD indicative  
+  _think_v_1<12:18> PROG -  
+  _think_v_1<12:18> PERF -  
+  ellipsis<19:22> SF prop  
+  ellipsis<19:22> TENSE untensed  
+  ellipsis<19:22> MOOD indicative  
+  ellipsis<19:22> PROG -  
+  ellipsis<19:22> PERF -  
+}
+

@@ -1,0 +1,64 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:06 h)).
+;;;
+
+[21213061] (1 of 1) {1} `Municipals'
+
+[21213061:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Municipals", 0, "null", "NNS" 1.0)
+>
+
+<
+  (12, 0, 1, <0:10>, 1, "Municipals", 0, "null", "NNS" 1.0)
+  (13, 0, 1, <0:10>, 1, "municipals", 0, "null")
+  (14, 0, 1, <0:10>, 1, "municipals", 0, "null")
+>
+
+(ROOT_FRAG
+ (33 NP_FRG_C -0.365402 0 1
+  (32 HDN_BNP_C -0.160988 0 1
+   (17 generic_pl_noun@n_-_c-pl-unk_le 0 0 1
+    ("Municipals" 12
+     "token [ +CARG #1=\"Municipals\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_municipals/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+
+(XP (NP (N "Municipals")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:10>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _municipals/nns_u_unknown<0:10>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:10>[BV x4]
+ x4:_municipals/nns_u_unknown<0:10>{x PERS 3, NUM pl}[]
+}
+
+{
+  unknown<0:10> ARG _municipals/nns_u_unknown<0:10>  
+  udef_q<0:10> BV _municipals/nns_u_unknown<0:10>  
+  unknown<0:10> SF prop-or-ques  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _municipals/nns_u_unknown<0:10> PERS 3  
+  _municipals/nns_u_unknown<0:10> NUM pl  
+}
+

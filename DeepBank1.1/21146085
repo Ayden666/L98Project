@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146085] (1 of 1) {1} `"It's Russian.'
+
+[21146085:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:5>, 1, "’s", 0, "null", "VBZ" 0.9642 "VBP" 0.0185 "NNS" 0.0173)
+  (4, 3, 4, <6:13>, 1, "Russian", 0, "null", "JJ" 0.9177 "NNP" 0.0823)
+  (5, 4, 5, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (65, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (70, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (59, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (63, 1, 2, <3:5>, 1, "’s", 0, "null", "VBZ" 0.9642)
+  (68, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (50, 2, 3, <6:14>, 1, "Russian.", 0, "null")
+  (64, 2, 3, <6:14>, 1, "Russian.", 0, "null", "JJ" 0.9177)
+  (66, 2, 3, <6:14>, 1, "russian.", 0, "null")
+  (67, 2, 3, <6:14>, 1, "russian.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (480 SB-HD_MC_C 1.425 0 3
+  (477 HDN_BNP-QNT_C -0.56328 0 1
+   (476 W_DQLEFT_PLR 0.072519 0 1
+    (72 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 65
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (479 ^HD-CMP_U_C 0.718933 1 3
+   (97 be_c_is_cx_3@v_prd_is-cx_le 0.106447 1 2
+    ("’s" 59
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96416279999999999\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (478 W_PERIOD_PLR 0.612486 2 3
+    (254 russian_a1@aj_-_i_le 0 2 3
+     ("russian." 66
+      "token [ +CARG \"Russian\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"russian.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91772509999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP (NP "“it"))) (VP (V "’s") (AP (AP "russian."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _russian_a_1<6:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_russian_a_1<6:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _russian_a_1<6:14> ARG1 pron<0:3>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _russian_a_1<6:14> SF prop  
+  _russian_a_1<6:14> TENSE pres  
+  _russian_a_1<6:14> MOOD indicative  
+  _russian_a_1<6:14> PROG -  
+  _russian_a_1<6:14> PERF -  
+}
+

@@ -1,0 +1,223 @@
+;;;
+;;; Redwoods export of `wsj00d';
+;;; (wsun@wsun; 22-jan-2018 (10:53 h)).
+;;;
+
+[20093022] (1 of 1) {1} `Mr. Nixon was to leave China today.'
+
+[20093022:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Nixon", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:13>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <14:16>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <17:22>, 1, "leave", 0, "null", "VB" 0.9804 "VBP" 0.0196)
+  (6, 5, 6, <23:28>, 1, "China", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <29:34>, 1, "today", 0, "null", "NN" 1.0)
+  (8, 7, 8, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (94, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (102, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (109, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (76, 1, 2, <4:9>, 1, "Nixon", 0, "null")
+  (97, 1, 2, <4:9>, 1, "Nixon", 0, "null", "NNP" 1.0)
+  (101, 1, 2, <4:9>, 1, "nixon", 0, "null")
+  (104, 1, 2, <4:9>, 1, "nixon", 0, "null")
+  (87, 2, 3, <10:13>, 1, "was", 0, "null")
+  (98, 2, 3, <10:13>, 1, "was", 0, "null", "VBD" 1.0)
+  (105, 2, 3, <10:13>, 1, "was", 0, "null")
+  (89, 3, 4, <14:16>, 1, "to", 0, "null")
+  (106, 3, 4, <14:16>, 1, "to", 0, "null")
+  (92, 4, 5, <17:22>, 1, "leave", 0, "null")
+  (95, 4, 5, <17:22>, 1, "leave", 0, "null", "VB" 0.9804)
+  (108, 4, 5, <17:22>, 1, "leave", 0, "null")
+  (75, 5, 6, <23:28>, 1, "China", 0, "null")
+  (96, 5, 6, <23:28>, 1, "China", 0, "null", "NNP" 1.0)
+  (100, 5, 6, <23:28>, 1, "china", 0, "null")
+  (103, 5, 6, <23:28>, 1, "china", 0, "null")
+  (91, 6, 7, <29:35>, 1, "today.", 0, "null")
+  (99, 6, 7, <29:35>, 1, "today.", 0, "null", "NN" 1.0)
+  (107, 6, 7, <29:35>, 1, "today.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3241 SB-HD_MC_C 11.9853 0 7
+  (3214 HDN_BNP-PN_C 4.02279 0 2
+   (3213 NP-HDN_TTL-CPD_C 3.33685 0 2
+    (3211 N_SG_ILR 2.02901 0 1
+     (118 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 102
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3212 ^N_SG_ILR -0.0982517 1 2
+     (123 nixon_n1@n_-_pn_le 0 1 2
+      ("nixon" 101
+       "token [ +CARG \"Nixon\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"nixon\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (3240 ^HD-CMP_U_C 6.94546 2 7
+   (128 be_c_was@v_prd_was_le 0.669611 2 3
+    ("was" 87
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (3239 CL_RC-INF-NWH-SB_C 4.33265 3 7
+    (3238 HD-CMP_U_C 3.46555 3 7
+     (172 to_c_prop@cm_vp_to_le 0.648718 3 4
+      ("to" 89
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3237 HD-AJ_INT-UNSL_C 1.9036 4 7
+      (3236 ^HD_OPTCMP_C -0.603136 4 6
+       (3235 HD-CMP_U_C -1.06064 4 6
+        (3234 ^V_N3S-BSE_ILR -1.03057 4 5
+         (238 leave_v4@v_np-np*_le -0.370693 4 5
+          ("leave" 92
+           "token [ +CARG #1=\"leave\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98042490000000004\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (3217 HDN_BNP-PN_C -0.01953 5 6
+         (3216 N_SG_ILR 0.402373 5 6
+          (242 china_n1@n_-_pn_le 0.168899 5 6
+           ("china" 100
+            "token [ +CARG \"China\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"china\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+      (3221 NP_ADV_C 1.21927 6 7
+       (3220 HDN_BNP-QNT_C 1.12699 6 7
+        (3219 W_PERIOD_PLR 0.663199 6 7
+         (244 today_np@n_-_ad-time_le 0 6 7
+          ("today." 91
+           "token [ +CARG \"today\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"today.\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "nixon"))))
+ (VP (V "was")
+  (S
+   (VP (COMP "to")
+    (VP (VP (V (V (V "leave")) (NP (N (N "china")))))
+     (PP (NP (N (N "today.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Nixon" ]
+          [ eventuality<14:35>
+            LBL: h2
+            ARG0: e3
+            ARG1: h15 ]
+          [ _leave_v_transfer<17:22>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: i18
+            ARG3: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<23:28>
+            LBL: h19
+            ARG0: x17
+            RSTR: h20
+            BODY: h21 ]
+          [ named<23:28>
+            LBL: h22
+            ARG0: x17
+            CARG: "China" ]
+          [ loc_nonsp<29:35>
+            LBL: h15
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: x24 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<29:35>
+            LBL: h25
+            ARG0: x24 ]
+          [ def_implicit_q<29:35>
+            LBL: h26
+            ARG0: x24
+            RSTR: h27
+            BODY: h28 ]
+          [ _today_a_1<29:35>
+            LBL: h25
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x24 ] >
+   HCONS: < h27 QEQ h25 h20 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Nixon"){x PERS 3, NUM sg, IND +}[]
+ e3:eventuality<14:35>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 e16]
+ e16:_leave_v_transfer-fn.Departing<17:22>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Theme x6, ARG3 x17]
+ _3:proper_q<23:28>[BV x17]
+ x17:named<23:28>("China"){x PERS 3, NUM sg, IND +}[]
+ e23:loc_nonsp<29:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 x24]
+ x24:time_n<29:35>{x PERS 3, NUM sg}[]
+ _4:def_implicit_q<29:35>[BV x24]
+ e29:_today_a_1<29:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x24]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Nixon)  
+  compound<0:9> ARG1 named<4:9>(Nixon)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  eventuality<14:35> ARG1 _leave_v_transfer<17:22>  
+  _leave_v_transfer<17:22> ARG1 named<4:9>(Nixon)  
+  _leave_v_transfer<17:22> ARG3 named<23:28>(China)  
+  proper_q<23:28> BV named<23:28>(China)  
+  loc_nonsp<29:35> ARG1 _leave_v_transfer<17:22>  
+  loc_nonsp<29:35> ARG2 time_n<29:35>  
+  def_implicit_q<29:35> BV time_n<29:35>  
+  _today_a_1<29:35> ARG1 time_n<29:35>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Nixon) PERS 3  
+  named<4:9>(Nixon) NUM sg  
+  named<4:9>(Nixon) IND +  
+  eventuality<14:35> SF prop  
+  eventuality<14:35> TENSE past  
+  eventuality<14:35> MOOD indicative  
+  eventuality<14:35> PROG -  
+  eventuality<14:35> PERF -  
+  _leave_v_transfer<17:22> SF prop-or-ques  
+  _leave_v_transfer<17:22> TENSE untensed  
+  _leave_v_transfer<17:22> MOOD indicative  
+  _leave_v_transfer<17:22> PROG -  
+  _leave_v_transfer<17:22> PERF -  
+  named<23:28>(China) PERS 3  
+  named<23:28>(China) NUM sg  
+  named<23:28>(China) IND +  
+  loc_nonsp<29:35> SF prop  
+  loc_nonsp<29:35> TENSE untensed  
+  loc_nonsp<29:35> MOOD indicative  
+  loc_nonsp<29:35> PROG -  
+  loc_nonsp<29:35> PERF -  
+  time_n<29:35> PERS 3  
+  time_n<29:35> NUM sg  
+  _today_a_1<29:35> SF prop  
+  _today_a_1<29:35> TENSE untensed  
+  _today_a_1<29:35> MOOD indicative  
+  _today_a_1<29:35> PROG -  
+  _today_a_1<29:35> PERF -  
+}
+

@@ -1,0 +1,141 @@
+;;;
+;;; Redwoods export of `wsj16e';
+;;; (wsun@wsun; 23-jan-2018 (01:44 h)).
+;;;
+
+[21676027] (1 of 1) {1} `Guaranteed by Societe Generale.'
+
+[21676027:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "VBN" 0.9595 "JJ" 0.0405)
+  (2, 1, 2, <11:13>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <14:21>, 1, "Societe", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <22:30>, 1, "Generale", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:10>, 1, "Guaranteed", 0, "null", "VBN" 0.9595)
+  (67, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (71, 0, 1, <0:10>, 1, "guaranteed", 0, "null")
+  (57, 1, 2, <11:13>, 1, "by", 0, "null")
+  (70, 1, 2, <11:13>, 1, "by", 0, "null")
+  (48, 2, 3, <14:21>, 1, "Societe", 0, "null")
+  (63, 2, 3, <14:21>, 1, "Societe", 0, "null", "NNP" 1.0)
+  (65, 2, 3, <14:21>, 1, "societe", 0, "null")
+  (68, 2, 3, <14:21>, 1, "societe", 0, "null")
+  (51, 3, 4, <22:31>, 1, "Generale.", 0, "null")
+  (64, 3, 4, <22:31>, 1, "Generale.", 0, "null", "NNP" 1.0)
+  (66, 3, 4, <22:31>, 1, "generale.", 0, "null")
+  (69, 3, 4, <22:31>, 1, "generale.", 0, "null")
+>
+
+(ROOT_FRAG
+ (1111 VP_NFIN-FRG_C 5.14385 0 4
+  (1110 HD-CMP_U_C 6.89739 0 4
+   (1102 ^V_PAS_ODLR 0.32998 0 1
+    (163 guarantee_v3@v_np_le 0 0 1
+     ("guaranteed" 67
+      "token [ +CARG \"Guaranteed\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"guaranteed\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95954839999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1109 HD-CMP_U_C 5.40577 1 4
+    (262 by_pass_p@p_np_ptcl_le 1.83114 1 2
+     ("by" 57
+      "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1108 HDN_BNP-PN_C 2.46121 2 4
+     (1107 NP-HDN_NME-CPD_C 2.25184 2 4
+      (1104 HDN_BNP-PN_C 0.365523 2 3
+       (1103 N_SG_ILR -0.386912 2 3
+        (282 generic_proper_ne@n_-_pn-gen_le 0 2 3
+         ("Societe" 48
+          "token [ +CARG #1=\"Societe\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1106 ^W_PERIOD_PLR 1.02066 3 4
+       (1105 N_SG_ILR 0.466069 3 4
+        (284 generic_proper_ne@n_-_pn-gen_le 0 3 4
+         ("Generale." 51
+          "token [ +CARG \"Generale\" +CLASS proper_ne +FORM \"Generale.\" +FROM \"22\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(XP
+ (VP (V (V "guaranteed"))
+  (PP (P "by")
+   (NP (N (NP (N (N "Societe"))) (N (N (N "Generale."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _guarantee_v_1<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: i4 ]
+          [ parg_d<0:10>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: i4 ]
+          [ proper_q<14:31>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<14:31>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<14:21>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ named<14:21>
+            LBL: h16
+            ARG0: x11
+            CARG: "Societe" ]
+          [ named<22:31>
+            LBL: h10
+            ARG0: x5
+            CARG: "Generale" ] >
+   HCONS: < h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:_guarantee_v_1<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e6:parg_d<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<14:31>[BV x5]
+ e12:compound<14:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x11]
+ _2:proper_q<14:21>[BV x11]
+ x11:named<14:21>("Societe"){x PERS 3, NUM sg, IND +}[]
+ x5:named<22:31>("Generale"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _guarantee_v_1<0:10> ARG1 named<22:31>(Generale)  
+  parg_d<0:10> ARG1 _guarantee_v_1<0:10>  
+  proper_q<14:31> BV named<22:31>(Generale)  
+  compound<14:31> ARG1 named<22:31>(Generale)  
+  compound<14:31> ARG2 named<14:21>(Societe)  
+  proper_q<14:21> BV named<14:21>(Societe)  
+  _guarantee_v_1<0:10> SF prop  
+  _guarantee_v_1<0:10> TENSE untensed  
+  _guarantee_v_1<0:10> MOOD indicative  
+  _guarantee_v_1<0:10> PROG -  
+  _guarantee_v_1<0:10> PERF -  
+  parg_d<0:10> SF prop  
+  parg_d<0:10> TENSE untensed  
+  parg_d<0:10> MOOD indicative  
+  parg_d<0:10> PROG -  
+  parg_d<0:10> PERF -  
+  compound<14:31> SF prop  
+  compound<14:31> TENSE untensed  
+  compound<14:31> MOOD indicative  
+  compound<14:31> PROG -  
+  compound<14:31> PERF -  
+  named<14:21>(Societe) PERS 3  
+  named<14:21>(Societe) NUM sg  
+  named<14:21>(Societe) IND +  
+  named<22:31>(Generale) PERS 3  
+  named<22:31>(Generale) NUM sg  
+  named<22:31>(Generale) IND +  
+}
+

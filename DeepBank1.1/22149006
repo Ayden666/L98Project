@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:23 h)).
+;;;
+
+[22149006] (1 of 1) {1} `Such armor crushes the soldier.'
+
+[22149006:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Such", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <5:10>, 1, "armor", 0, "null", "NN" 1.0)
+  (3, 2, 3, <11:18>, 1, "crushes", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <19:22>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <23:30>, 1, "soldier", 0, "null", "NN" 1.0)
+  (6, 5, 6, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:4>, 1, "Such", 0, "null", "JJ" 1.0)
+  (70, 0, 1, <0:4>, 1, "such", 0, "null")
+  (75, 0, 1, <0:4>, 1, "such", 0, "null")
+  (59, 1, 2, <5:10>, 1, "armor", 0, "null")
+  (67, 1, 2, <5:10>, 1, "armor", 0, "null", "NN" 1.0)
+  (71, 1, 2, <5:10>, 1, "armor", 0, "null")
+  (61, 2, 3, <11:18>, 1, "crushes", 0, "null")
+  (68, 2, 3, <11:18>, 1, "crushes", 0, "null", "VBZ" 1.0)
+  (72, 2, 3, <11:18>, 1, "crushes", 0, "null")
+  (63, 3, 4, <19:22>, 1, "the", 0, "null")
+  (73, 3, 4, <19:22>, 1, "the", 0, "null")
+  (65, 4, 5, <23:31>, 1, "soldier.", 0, "null")
+  (69, 4, 5, <23:31>, 1, "soldier.", 0, "null", "NN" 1.0)
+  (74, 4, 5, <23:31>, 1, "soldier.", 0, "null")
+>
+
+(ROOT_STRICT
+ (400 SB-HD_MC_C 4.86118 0 5
+  (394 SP-HD_N_C -0.270716 0 2
+   (78 such@d_-_prt-plm-unsp_le -0.633628 0 1
+    ("such" 70
+     "token [ +CARG \"Such\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"such\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (393 ^N_MS_ILR -0.612577 1 2
+    (85 armor_n1@n_-_m_le 0 1 2
+     ("armor" 59
+      "token [ +CARG #1=\"armor\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (399 ^HD-CMP_U_C 3.17738 2 5
+   (395 ^V_3S-FIN_OLR -0.536245 2 3
+    (93 crush_v1@v_np_noger_le 0 2 3
+     ("crushes" 61
+      "token [ +CARG #1=\"crushes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (398 SP-HD_N_C 2.7755 3 5
+    (123 the_1@d_-_the_le 1.07131 3 4
+     ("the" 63
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (397 ^W_PERIOD_PLR 0.933196 4 5
+     (396 N_SG_ILR 0.432921 4 5
+      (148 soldier_n1@n_-_c_le 0 4 5
+       ("soldier." 65
+        "token [ +CARG \"soldier\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"soldier.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "such") (N (N "armor")))
+ (VP (V (V "crushes")) (NP (DET "the") (N (N (N "soldier."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _such_q<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h6
+            BODY: h7 ]
+          [ _armor_n_1<5:10>
+            LBL: h8
+            ARG0: x5 ]
+          [ _crush_v_cause<11:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<19:22>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _soldier_n_1<23:31>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_such_q<0:4>[BV x5]
+ x5:_armor_n_1<5:10>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_crush_v_cause-fn.Cause_harm<11:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent/Cause x5, ARG2-fn.Victim/Body_part x9]
+ _2:_the_q<19:22>[BV x9]
+ x9:_soldier_n_1<23:31>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _such_q<0:4> BV _armor_n_1<5:10>  
+  _crush_v_cause<11:18> ARG1 _armor_n_1<5:10>  
+  _crush_v_cause<11:18> ARG2 _soldier_n_1<23:31>  
+  _the_q<19:22> BV _soldier_n_1<23:31>  
+  _armor_n_1<5:10> PERS 3  
+  _armor_n_1<5:10> NUM sg  
+  _armor_n_1<5:10> GEND n  
+  _armor_n_1<5:10> IND -  
+  _crush_v_cause<11:18> SF prop  
+  _crush_v_cause<11:18> TENSE pres  
+  _crush_v_cause<11:18> MOOD indicative  
+  _crush_v_cause<11:18> PROG -  
+  _crush_v_cause<11:18> PERF -  
+  _soldier_n_1<23:31> PERS 3  
+  _soldier_n_1<23:31> NUM sg  
+  _soldier_n_1<23:31> IND +  
+}
+

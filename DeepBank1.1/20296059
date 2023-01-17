@@ -1,0 +1,97 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:54 h)).
+;;;
+
+[20296059] (1 of 1) {1} `He can't.'
+
+[20296059:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:5>, 1, "ca", 0, "null", "MD" 1.0)
+  (3, 2, 3, <5:8>, 1, "n’t", 0, "null", "VB" 0.9487 "NN" 0.0354 "RB" 0.0159)
+  (4, 3, 4, <8:9>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (38, 0, 1, <0:2>, 1, "he", 0, "null")
+  (40, 0, 1, <0:2>, 1, "he", 0, "null")
+  (37, 1, 2, <3:9>, 1, "can’t.", 0, "null")
+  (39, 1, 2, <3:9>, 1, "can’t.", 0, "null")
+>
+
+(ROOT_STRICT
+ (89 SB-HD_MC_C 0.878683 0 2
+  (86 HDN_BNP-QNT_C 1.50958 0 1
+   (41 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 38
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (88 ^W_PERIOD_PLR -0.765046 1 2
+   (87 V_AUX-ELL-REF_DLR -0.362326 1 2
+    (54 can_aux_neg_3_u@v_vp_mdl-n_le 0 1 2
+     ("can’t." 37
+      "token [ +CARG \"can’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"can’t.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP "he")) (VP (VP (V "can’t."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<3:9>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _can_v_modal<3:9>
+            LBL: h11
+            ARG0: e3
+            ARG1: h12 ]
+          [ ellipsis_ref<3:9>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 ] >
+   HCONS: < h9 QEQ h11 h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e10:neg<3:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_can_v_modal<3:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:ellipsis_ref<3:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  neg<3:9> ARG1 _can_v_modal<3:9>  
+  _can_v_modal<3:9> ARG1 ellipsis_ref<3:9>  
+  ellipsis_ref<3:9> ARG1 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  neg<3:9> SF prop  
+  neg<3:9> TENSE untensed  
+  neg<3:9> MOOD indicative  
+  neg<3:9> PROG -  
+  neg<3:9> PERF -  
+  _can_v_modal<3:9> SF prop  
+  _can_v_modal<3:9> TENSE pres  
+  _can_v_modal<3:9> MOOD indicative  
+  _can_v_modal<3:9> PROG -  
+  _can_v_modal<3:9> PERF -  
+  ellipsis_ref<3:9> SF prop  
+  ellipsis_ref<3:9> TENSE untensed  
+  ellipsis_ref<3:9> MOOD indicative  
+  ellipsis_ref<3:9> PROG -  
+  ellipsis_ref<3:9> PERF -  
+}
+

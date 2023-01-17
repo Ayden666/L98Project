@@ -1,0 +1,88 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:59 h)).
+;;;
+
+[20633009] (1 of 1) {1} `Two feet.'
+
+[20633009:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Two", 0, "null", "CD" 1.0)
+  (2, 1, 2, <4:8>, 1, "feet", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <8:9>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:3>, 1, "Two", 0, "null", "CD" 1.0)
+  (35, 0, 1, <0:3>, 1, "two", 0, "null")
+  (37, 0, 1, <0:3>, 1, "two", 0, "null")
+  (32, 1, 2, <4:9>, 1, "feet.", 0, "null")
+  (34, 1, 2, <4:9>, 1, "feet.", 0, "null", "NNS" 1.0)
+  (36, 1, 2, <4:9>, 1, "feet.", 0, "null")
+>
+
+(ROOT_FRAG
+ (191 NP_FRG_C 1.93491 0 2
+  (190 HDN_BNP_C 2.13932 0 2
+   (189 NUM-N_MNP_C 1.33603 0 2
+    (43 two@aj_-_i-crd-one_le -0.408015 0 1
+     ("two" 35
+      "token [ +CARG \"Two\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"two\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (188 ^W_PERIOD_PLR 0.505644 1 2
+     (187 N_PL_OLR -0.041212 1 2
+      (52 foot_n1@n_-_c-meas_le 0 1 2
+       ("feet." 32
+        "token [ +CARG \"feet\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"feet.\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (N (ADJ "two") (N (N (N "feet."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ card<0:3>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            CARG: "2" ]
+          [ _foot_n_1<4:9>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:9>[BV x4]
+ e9:card<0:3>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_foot_n_1<4:9>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:9> ARG _foot_n_1<4:9>  
+  udef_q<0:9> BV _foot_n_1<4:9>  
+  card<0:3>(2) ARG1 _foot_n_1<4:9>  
+  unknown<0:9> SF prop  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  card<0:3>(2) SF prop  
+  card<0:3>(2) TENSE untensed  
+  card<0:3>(2) MOOD indicative  
+  card<0:3>(2) PROG -  
+  card<0:3>(2) PERF -  
+  _foot_n_1<4:9> PERS 3  
+  _foot_n_1<4:9> NUM pl  
+  _foot_n_1<4:9> IND +  
+}
+

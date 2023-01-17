@@ -1,0 +1,189 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:55 h)).
+;;;
+
+[20299010] (1 of 1) {1} `J.C. Penney will continue to service the receivables.'
+
+[20299010:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "J.C.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:11>, 1, "Penney", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:16>, 1, "will", 0, "null", "MD" 1.0)
+  (4, 3, 4, <17:25>, 1, "continue", 0, "null", "VB" 0.9873 "VBP" 0.0127)
+  (5, 4, 5, <26:28>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <29:36>, 1, "service", 0, "null", "VB" 0.9683 "NN" 0.0317)
+  (7, 6, 7, <37:40>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <41:52>, 1, "receivables", 0, "null", "NN" 0.8721 "NNS" 0.1279)
+  (9, 8, 9, <52:53>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (85, 0, 1, <0:4>, 1, "J.C.", 0, "null")
+  (113, 0, 1, <0:4>, 1, "J.C.", 0, "null", "NNP" 1.0)
+  (116, 0, 1, <0:4>, 1, "j.c.", 0, "null")
+  (118, 0, 1, <0:4>, 1, "j.c.", 0, "null")
+  (84, 1, 2, <5:11>, 1, "Penney", 0, "null")
+  (112, 1, 2, <5:11>, 1, "Penney", 0, "null", "NNP" 1.0)
+  (115, 1, 2, <5:11>, 1, "penney", 0, "null")
+  (117, 1, 2, <5:11>, 1, "penney", 0, "null")
+  (98, 2, 3, <12:16>, 1, "will", 0, "null")
+  (119, 2, 3, <12:16>, 1, "will", 0, "null")
+  (103, 3, 4, <17:25>, 1, "continue", 0, "null")
+  (109, 3, 4, <17:25>, 1, "continue", 0, "null", "VB" 0.9873)
+  (122, 3, 4, <17:25>, 1, "continue", 0, "null")
+  (100, 4, 5, <26:28>, 1, "to", 0, "null")
+  (120, 4, 5, <26:28>, 1, "to", 0, "null")
+  (105, 5, 6, <29:36>, 1, "service", 0, "null")
+  (110, 5, 6, <29:36>, 1, "service", 0, "null", "VB" 0.9683)
+  (123, 5, 6, <29:36>, 1, "service", 0, "null")
+  (102, 6, 7, <37:40>, 1, "the", 0, "null")
+  (121, 6, 7, <37:40>, 1, "the", 0, "null")
+  (107, 7, 8, <41:53>, 1, "receivables.", 0, "null")
+  (111, 7, 8, <41:53>, 1, "receivables.", 0, "null", "NN" 0.8721)
+  (114, 7, 8, <41:53>, 1, "receivables.", 0, "null", "NNS" 0.1279)
+  (124, 7, 8, <41:53>, 1, "receivables.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1486 SB-HD_MC_C 14.4409 0 8
+  (1476 HDN_BNP-PN_C 2.07956 0 2
+   (1475 NP-HDN_NME-CPD_C 1.53984 0 2
+    (1473 HDN_BNP-PN_C 0.365523 0 1
+     (1472 N_SG_ILR -0.386912 0 1
+      (128 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("J.C." 85
+        "token [ +CARG #1=\"J.C.\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (1474 ^N_SG_ILR -0.143257 1 2
+     (135 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Penney" 84
+       "token [ +CARG #1=\"Penney\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1485 ^HD-CMP_U_C 11.3443 2 8
+   (143 will_aux_pos@v_vp_will-p_le 2.32511 2 3
+    ("will" 98
+     "token [ +CARG #1=\"will\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1484 HD-CMP_U_C 8.67477 3 8
+    (1477 ^V_N3S-BSE_ILR 0.968326 3 4
+     (155 continue_v3@v_vp_ssr_le 0.578649 3 4
+      ("continue" 103
+       "token [ +CARG #1=\"continue\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98726389999999997\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1483 HD-CMP_U_C 6.40928 4 8
+     (184 to_c_prop@cm_vp_to_le 2.48409 4 5
+      ("to" 100
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1482 HD-CMP_U_C 2.66692 5 8
+      (1478 ^V_N3S-BSE_ILR -0.366315 5 6
+       (240 service_v1@v_np_le 0 5 6
+        ("service" 105
+         "token [ +CARG #1=\"service\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96830760000000005\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1481 SP-HD_N_C 2.32711 6 8
+       (263 the_1@d_-_the_le 1.07131 6 7
+        ("the" 102
+         "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1480 ^W_PERIOD_PLR 0.261218 7 8
+        (1479 N_PL_OLR 0.342144 7 8
+         (291 receivable_n1@n_-_c_le 0 7 8
+          ("receivables." 107
+           "token [ +CARG \"receivables\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"receivables.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87212160000000005\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (NP (N (N "J.C."))) (N (N "Penney"))))
+ (VP (V "will")
+  (VP (V (V "continue"))
+   (VP (COMP "to")
+    (VP (V (V "service"))
+     (NP (DET "the") (N (N (N "receivables.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "J.C." ]
+          [ named<5:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Penney" ]
+          [ _continue_v_2<17:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: h15 ]
+          [ _service_v_1<29:36>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x18 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _the_q<37:40>
+            LBL: h19
+            ARG0: x18
+            RSTR: h21
+            BODY: h20 ]
+          [ _receivable_n_1<41:53>
+            LBL: h22
+            ARG0: x18 ] >
+   HCONS: < h21 QEQ h22 h15 QEQ h16 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("J.C."){x PERS 3, NUM sg, IND +}[]
+ x6:named<5:11>("Penney"){x PERS 3, NUM sg, IND +}[]
+ e3:_continue_v_2-fn.Activity_ongoing<17:25>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 e17]
+ e17:_service_v_1<29:36>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x18]
+ _3:_the_q<37:40>[BV x18]
+ x18:_receivable_n_1<41:53>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<5:11>(Penney)  
+  compound<0:11> ARG1 named<5:11>(Penney)  
+  compound<0:11> ARG2 named<0:4>(J.C.)  
+  proper_q<0:4> BV named<0:4>(J.C.)  
+  _continue_v_2<17:25> ARG1 _service_v_1<29:36>  
+  _service_v_1<29:36> ARG1 named<5:11>(Penney)  
+  _service_v_1<29:36> ARG2 _receivable_n_1<41:53>  
+  _the_q<37:40> BV _receivable_n_1<41:53>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:4>(J.C.) PERS 3  
+  named<0:4>(J.C.) NUM sg  
+  named<0:4>(J.C.) IND +  
+  named<5:11>(Penney) PERS 3  
+  named<5:11>(Penney) NUM sg  
+  named<5:11>(Penney) IND +  
+  _continue_v_2<17:25> SF prop  
+  _continue_v_2<17:25> TENSE fut  
+  _continue_v_2<17:25> MOOD indicative  
+  _continue_v_2<17:25> PROG -  
+  _continue_v_2<17:25> PERF -  
+  _service_v_1<29:36> SF prop-or-ques  
+  _service_v_1<29:36> TENSE untensed  
+  _service_v_1<29:36> MOOD indicative  
+  _service_v_1<29:36> PROG -  
+  _service_v_1<29:36> PERF -  
+  _receivable_n_1<41:53> PERS 3  
+  _receivable_n_1<41:53> NUM pl  
+  _receivable_n_1<41:53> IND +  
+}
+

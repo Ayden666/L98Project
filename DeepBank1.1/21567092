@@ -1,0 +1,129 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:29 h)).
+;;;
+
+[21567092] (1 of 1) {1} `You already know the answer.'
+
+[21567092:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "You", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <4:11>, 1, "already", 0, "null", "RB" 1.0)
+  (3, 2, 3, <12:16>, 1, "know", 0, "null", "VBP" 0.6347 "VB" 0.3653)
+  (4, 3, 4, <17:20>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <21:27>, 1, "answer", 0, "null", "NN" 0.9804 "VB" 0.0196)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:3>, 1, "you", 0, "null")
+  (79, 0, 1, <0:3>, 1, "you", 0, "null")
+  (63, 1, 2, <4:11>, 1, "already", 0, "null")
+  (72, 1, 2, <4:11>, 1, "already", 0, "null", "RB" 1.0)
+  (75, 1, 2, <4:11>, 1, "already", 0, "null")
+  (66, 2, 3, <12:16>, 1, "know", 0, "null")
+  (70, 2, 3, <12:16>, 1, "know", 0, "null", "VBP" 0.6347)
+  (73, 2, 3, <12:16>, 1, "know", 0, "null", "VB" 0.3653)
+  (77, 2, 3, <12:16>, 1, "know", 0, "null")
+  (65, 3, 4, <17:20>, 1, "the", 0, "null")
+  (76, 3, 4, <17:20>, 1, "the", 0, "null")
+  (68, 4, 5, <21:28>, 1, "answer.", 0, "null")
+  (71, 4, 5, <21:28>, 1, "answer.", 0, "null", "NN" 0.9804)
+  (78, 4, 5, <21:28>, 1, "answer.", 0, "null")
+>
+
+(ROOT_STRICT
+ (464 SB-HD_MC_C 8.56964 0 5
+  (456 HDN_BNP-QNT_C 1.14299 0 1
+   (85 you@n_-_pr-you_le 0.644596 0 1
+    ("you" 74
+     "token [ +CARG \"You\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"you\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (463 ^AJ-HD_INT_C 6.66631 1 5
+   (104 already_adv1@av_-_i-vp-x_le 1.10431 1 2
+    ("already" 63
+     "token [ +CARG #1=\"already\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (462 ^HD-CMP_U_C 4.00248 2 5
+    (457 ^V_N3S-BSE_ILR 1.45152 2 3
+     (114 know_v1@v_np*_le 1.18735 2 3
+      ("know" 66
+       "token [ +CARG #1=\"know\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.63465700000000003\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (461 SP-HD_N_C 2.43339 3 5
+     (169 the_1@d_-_the_le 1.07131 3 4
+      ("the" 65
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (460 ^HDN_OPTCMP_C 1.0356 4 5
+      (459 W_PERIOD_PLR 0.705287 4 5
+       (458 N_SG_ILR 0.0712506 4 5
+        (195 answer_n1@n_pp_c-ns_le 0 4 5
+         ("answer." 68
+          "token [ +CARG \"answer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"answer.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98043389999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (NP "you"))
+ (VP (ADV "already")
+  (VP (V (V "know")) (NP (DET "the") (N (N (N (N "answer."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _already_a_1<4:11>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _know_v_1<12:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<17:20>
+            LBL: h11
+            ARG0: x10
+            RSTR: h13
+            BODY: h12 ]
+          [ _answer_n_to<21:28>
+            LBL: h14
+            ARG0: x10
+            ARG1: i15 ] >
+   HCONS: < h13 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 2, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e9:_already_a_1<4:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_know_v_1<12:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x10]
+ _2:_the_q<17:20>[BV x10]
+ x10:_answer_n_to<21:28>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _already_a_1<4:11> ARG1 _know_v_1<12:16>  
+  _know_v_1<12:16> ARG1 pron<0:3>  
+  _know_v_1<12:16> ARG2 _answer_n_to<21:28>  
+  _the_q<17:20> BV _answer_n_to<21:28>  
+  pron<0:3> PERS 2  
+  pron<0:3> PT std  
+  _already_a_1<4:11> SF prop  
+  _already_a_1<4:11> TENSE untensed  
+  _already_a_1<4:11> MOOD indicative  
+  _already_a_1<4:11> PROG -  
+  _already_a_1<4:11> PERF -  
+  _know_v_1<12:16> SF prop  
+  _know_v_1<12:16> TENSE pres  
+  _know_v_1<12:16> MOOD indicative  
+  _know_v_1<12:16> PROG -  
+  _know_v_1<12:16> PERF -  
+  _answer_n_to<21:28> PERS 3  
+  _answer_n_to<21:28> NUM sg  
+  _answer_n_to<21:28> IND +  
+}
+

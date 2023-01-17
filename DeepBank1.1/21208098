@@ -1,0 +1,291 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:04 h)).
+;;;
+
+[21208098] (1 of 1) {1} `The Amex Market Value Index fell 3.10 to 376.36.'
+
+[21208098:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:8>, 1, "Amex", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:15>, 1, "Market", 0, "null", "NNP" 0.9674 "NN" 0.0326)
+  (4, 3, 4, <16:21>, 1, "Value", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <22:27>, 1, "Index", 0, "null", "NNP" 0.9874 "NN" 0.0126)
+  (6, 5, 6, <28:32>, 1, "fell", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <33:37>, 1, "3.10", 0, "null", "CD" 1.0)
+  (8, 7, 8, <38:40>, 1, "to", 0, "null", "TO" 1.0)
+  (9, 8, 9, <41:47>, 1, "376.36", 0, "null", "CD" 1.0)
+  (10, 9, 10, <47:48>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (121, 0, 1, <0:3>, 1, "the", 0, "null")
+  (136, 0, 1, <0:3>, 1, "the", 0, "null")
+  (91, 1, 2, <4:8>, 1, "Amex", 0, "null")
+  (116, 1, 2, <4:8>, 1, "Amex", 0, "null", "NNP" 1.0)
+  (119, 1, 2, <4:8>, 1, "amex", 0, "null")
+  (125, 1, 2, <4:8>, 1, "amex", 0, "null")
+  (92, 2, 3, <9:15>, 1, "Market", 0, "null")
+  (114, 2, 3, <9:15>, 1, "Market", 0, "null", "NNP" 0.9674)
+  (122, 2, 3, <9:15>, 1, "market", 0, "null")
+  (126, 2, 3, <9:15>, 1, "market", 0, "null")
+  (93, 3, 4, <16:21>, 1, "Value", 0, "null")
+  (117, 3, 4, <16:21>, 1, "Value", 0, "null", "NNP" 1.0)
+  (120, 3, 4, <16:21>, 1, "value", 0, "null")
+  (127, 3, 4, <16:21>, 1, "value", 0, "null")
+  (94, 4, 5, <22:27>, 1, "Index", 0, "null")
+  (115, 4, 5, <22:27>, 1, "Index", 0, "null", "NNP" 0.9874)
+  (123, 4, 5, <22:27>, 1, "index", 0, "null")
+  (128, 4, 5, <22:27>, 1, "index", 0, "null")
+  (109, 5, 6, <28:32>, 1, "fell", 0, "null")
+  (118, 5, 6, <28:32>, 1, "fell", 0, "null", "VBD" 1.0)
+  (131, 5, 6, <28:32>, 1, "fell", 0, "null")
+  (88, 6, 7, <33:37>, 1, "3.10", 0, "null")
+  (124, 6, 7, <33:37>, 1, "3.10", 0, "null")
+  (107, 7, 8, <38:40>, 1, "to", 0, "null")
+  (130, 7, 8, <38:40>, 1, "to", 0, "null")
+  (95, 8, 9, <41:48>, 1, "376.36.", 0, "null")
+  (129, 8, 9, <41:48>, 1, "376.36.", 0, "null")
+>
+
+(ROOT_STRICT
+ (6534 SB-HD_MC_C 20.2503 0 9
+  (6522 SP-HD_N_C 10.2432 0 5
+   (149 the_1@d_-_the_le 0.137426 0 1
+    ("the" 121
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (6521 ^NP-HDN_NME-CPD_C 7.56814 1 5
+    (6519 HDN_BNP-PN_C 5.67237 1 4
+     (6518 NP-HDN_NME-CPD_C 4.60458 1 4
+      (6516 HDN_BNP-PN_C 3.23195 1 3
+       (6515 NP-HDN_NME-CPD_C 2.88403 1 3
+        (6513 HDN_BNP-PN_C 0.586141 1 2
+         (6512 N_SG_ILR -0.166294 1 2
+          (176 american_express_n2@n_-_pn_le 0 1 2
+           ("amex" 119
+            "token [ +CARG \"Amex\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"amex\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+        (6514 ^N_SG_ILR 0.781997 2 3
+         (177 generic_proper_ne@n_-_pn-gen_le 0.319094 2 3
+          ("Market" 92
+           "token [ +CARG #1=\"Market\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96742680000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+      (6517 ^N_SG_ILR -0.143257 3 4
+       (214 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Value" 93
+         "token [ +CARG #1=\"Value\" +CLASS proper_ne +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (6520 ^N_SG_ILR 0.830912 4 5
+     (218 generic_proper_ne@n_-_pn-gen_le 0.584693 4 5
+      ("Index" 94
+       "token [ +CARG #1=\"Index\" +CLASS proper_ne +FORM #1 +FROM \"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98737039999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (6533 ^HD-AJ_INT-UNSL_C 8.97498 5 9
+   (6528 ^HD-AJ_INT-UNSL_C 3.54028 5 7
+    (6524 ^HD_OPTCMP_C 3.79136 5 6
+     (6523 V_PST_OLR 2.3008 5 6
+      (230 fall_v1@v_pp_unacc_le 0.574647 5 6
+       ("fell" 109
+        "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (6527 NP_ADV-MNP_C -1.43417 6 7
+     (6526 HDN_BNP-NUM_C -0.69463 6 7
+      (6525 HDN_NP-NUM_C -0.283576 6 7
+       (239 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+        ("3.10" 88
+         "token [ +CARG #1=\"3.10\" +CLASS card_or_time_or_proper_ne +FORM #1 +FROM \"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (6532 HD-CMP_U_C 3.87632 7 9
+    (266 to@p_np_i-nnm_le -0.649111 7 8
+     ("to" 107
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (6531 HDN_BNP-NUM_C 4.01481 8 9
+     (6530 HDN_NP-NUM_C 3.49617 8 9
+      (6529 W_PERIOD_PLR 2.19869 8 9
+       (321 generic_card_ne@aj_-_i-crd-gen_le 0 8 9
+        ("376.36." 95
+         "token [ +CARG \"376.36\" +CLASS card_or_proper_ne +FORM \"376.36.\" +FROM \"41\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S
+ (NP (DET "the")
+  (N
+   (NP
+    (N (NP (N (NP (N (N "amex"))) (N (N "Market")))) (N (N "Value"))))
+   (N (N "Index"))))
+ (VP (VP (VP (V (V "fell"))) (PP (NP (N (ADJ "3.10")))))
+  (PP (P "to") (NP (N (ADJ (ADJ "376.36.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:27>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<4:21>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<4:21>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<4:15>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ compound<4:15>
+            LBL: h20
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<4:8>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ named<4:8>
+            LBL: h26
+            ARG0: x21
+            CARG: "American_Express" ]
+          [ named<9:15>
+            LBL: h20
+            ARG0: x15
+            CARG: "Market" ]
+          [ named<16:21>
+            LBL: h14
+            ARG0: x9
+            CARG: "Value" ]
+          [ named<22:27>
+            LBL: h8
+            ARG0: x6
+            CARG: "Index" ]
+          [ _fall_v_1<28:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<33:37>
+            LBL: h2
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x28 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<33:37>
+            LBL: h29
+            ARG0: x28
+            RSTR: h30
+            BODY: h31 ]
+          [ card<33:37>
+            LBL: h32
+            ARG0: x28
+            ARG1: i33
+            CARG: "3.10" ]
+          [ _to_p<38:40>
+            LBL: h2
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x35 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<41:48>
+            LBL: h36
+            ARG0: x35
+            RSTR: h37
+            BODY: h38 ]
+          [ card<41:48>
+            LBL: h39
+            ARG0: x35
+            ARG1: i40
+            CARG: "376.36" ] >
+   HCONS: < h37 QEQ h39 h30 QEQ h32 h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<4:21>[BV x9]
+ e16:compound<4:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<4:15>[BV x15]
+ e22:compound<4:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x21]
+ _4:proper_q<4:8>[BV x21]
+ x21:named<4:8>("American_Express"){x PERS 3, NUM sg, IND +}[]
+ x15:named<9:15>("Market"){x PERS 3, NUM sg, IND +}[]
+ x9:named<16:21>("Value"){x PERS 3, NUM sg, IND +}[]
+ x6:named<22:27>("Index"){x PERS 3, NUM sg, IND +}[]
+ e3:_fall_v_1<28:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e27:loc_nonsp<33:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x28]
+ _5:number_q<33:37>[BV x28]
+ x28:card<33:37>("3.10"){x PERS 3, NUM sg}[]
+ e34:_to_p<38:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x35]
+ _6:number_q<41:48>[BV x35]
+ x35:card<41:48>("376.36"){x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV named<22:27>(Index)  
+  compound<4:27> ARG1 named<22:27>(Index)  
+  compound<4:27> ARG2 named<16:21>(Value)  
+  proper_q<4:21> BV named<16:21>(Value)  
+  compound<4:21> ARG1 named<16:21>(Value)  
+  compound<4:21> ARG2 named<9:15>(Market)  
+  proper_q<4:15> BV named<9:15>(Market)  
+  compound<4:15> ARG1 named<9:15>(Market)  
+  compound<4:15> ARG2 named<4:8>(American_Express)  
+  proper_q<4:8> BV named<4:8>(American_Express)  
+  _fall_v_1<28:32> ARG1 named<22:27>(Index)  
+  loc_nonsp<33:37> ARG1 _fall_v_1<28:32>  
+  loc_nonsp<33:37> ARG2 card<33:37>(3.10)  
+  number_q<33:37> BV card<33:37>(3.10)  
+  _to_p<38:40> ARG1 _fall_v_1<28:32>  
+  _to_p<38:40> ARG2 card<41:48>(376.36)  
+  number_q<41:48> BV card<41:48>(376.36)  
+  compound<4:27> SF prop  
+  compound<4:27> TENSE untensed  
+  compound<4:27> MOOD indicative  
+  compound<4:27> PROG -  
+  compound<4:27> PERF -  
+  compound<4:21> SF prop  
+  compound<4:21> TENSE untensed  
+  compound<4:21> MOOD indicative  
+  compound<4:21> PROG -  
+  compound<4:21> PERF -  
+  compound<4:15> SF prop  
+  compound<4:15> TENSE untensed  
+  compound<4:15> MOOD indicative  
+  compound<4:15> PROG -  
+  compound<4:15> PERF -  
+  named<4:8>(American_Express) PERS 3  
+  named<4:8>(American_Express) NUM sg  
+  named<4:8>(American_Express) IND +  
+  named<9:15>(Market) PERS 3  
+  named<9:15>(Market) NUM sg  
+  named<9:15>(Market) IND +  
+  named<16:21>(Value) PERS 3  
+  named<16:21>(Value) NUM sg  
+  named<16:21>(Value) IND +  
+  named<22:27>(Index) PERS 3  
+  named<22:27>(Index) NUM sg  
+  named<22:27>(Index) IND +  
+  _fall_v_1<28:32> SF prop  
+  _fall_v_1<28:32> TENSE past  
+  _fall_v_1<28:32> MOOD indicative  
+  _fall_v_1<28:32> PROG -  
+  _fall_v_1<28:32> PERF -  
+  loc_nonsp<33:37> SF prop  
+  loc_nonsp<33:37> TENSE untensed  
+  loc_nonsp<33:37> MOOD indicative  
+  loc_nonsp<33:37> PROG -  
+  loc_nonsp<33:37> PERF -  
+  card<33:37>(3.10) PERS 3  
+  card<33:37>(3.10) NUM sg  
+  _to_p<38:40> SF prop  
+  _to_p<38:40> TENSE untensed  
+  _to_p<38:40> MOOD indicative  
+  _to_p<38:40> PROG -  
+  _to_p<38:40> PERF -  
+  card<41:48>(376.36) PERS 3  
+  card<41:48>(376.36) NUM sg  
+}
+

@@ -1,0 +1,207 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146113] (1 of 1) {1} `Farm income is 15% below the average.'
+
+[21146113:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Farm", 0, "null", "NNP" 0.7484 "NN" 0.2516)
+  (2, 1, 2, <5:11>, 1, "income", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:17>, 1, "15", 0, "null", "CD" 1.0)
+  (5, 4, 5, <17:18>, 1, "%", 0, "null", "NN" 1.0)
+  (6, 5, 6, <19:24>, 1, "below", 0, "null", "IN" 1.0)
+  (7, 6, 7, <25:28>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <29:36>, 1, "average", 0, "null", "NN" 0.8449 "JJ" 0.1551)
+  (9, 8, 9, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (99, 0, 1, <0:4>, 1, "Farm", 0, "null")
+  (103, 0, 1, <0:4>, 1, "farm", 0, "null")
+  (111, 0, 1, <0:4>, 1, "farm", 0, "null")
+  (90, 1, 2, <5:11>, 1, "income", 0, "null")
+  (101, 1, 2, <5:11>, 1, "income", 0, "null", "NN" 1.0)
+  (107, 1, 2, <5:11>, 1, "income", 0, "null")
+  (92, 2, 3, <12:14>, 1, "is", 0, "null")
+  (102, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (108, 2, 3, <12:14>, 1, "is", 0, "null")
+  (77, 3, 4, <15:17>, 1, "15", 0, "null")
+  (104, 3, 4, <15:17>, 1, "15", 0, "null")
+  (94, 4, 5, <17:18>, 1, "%", 0, "null")
+  (109, 4, 5, <17:18>, 1, "%", 0, "null")
+  (86, 5, 6, <19:24>, 1, "below", 0, "null")
+  (105, 5, 6, <19:24>, 1, "below", 0, "null")
+  (88, 6, 7, <25:28>, 1, "the", 0, "null")
+  (106, 6, 7, <25:28>, 1, "the", 0, "null")
+  (97, 7, 8, <29:37>, 1, "average.", 0, "null")
+  (100, 7, 8, <29:37>, 1, "average.", 0, "null", "NN" 0.8449)
+  (110, 7, 8, <29:37>, 1, "average.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1800 SB-HD_MC_C 13.1382 0 8
+  (1789 HDN_BNP_C 1.01529 0 2
+   (1788 N-HDN_CPD_C 0.394543 0 2
+    (113 farm_n1@n_-_c_le 0 0 1
+     ("farm" 103
+      "token [ +CARG \"Farm\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"farm\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7484307\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1787 ^N_MS-CNT_ILR 0.166234 1 2
+     (116 income_n1@n_-_mc_le -0.0154166 1 2
+      ("income" 90
+       "token [ +CARG #1=\"income\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1799 ^HD-CMP_U_C 10.607 2 8
+   (159 be_id_is@v_np_is_le 0.159389 2 3
+    ("is" 92
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1798 HDN_BNP_C 10.432 3 8
+    (1797 HDN-AJ_REDREL_C 11.1725 3 8
+     (1791 ^NUM-N_MNP_C 4.3904 3 5
+      (244 generic_card_ne@aj_-_i-crd-gen_le 0.177565 3 4
+       ("15" 77
+        "token [ +CARG #1=\"15\" +CLASS card_or_dom_ne +FORM #1 +FROM \"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (1790 ^N_PL_OLR 1.56359 4 5
+       (251 percent_char_n1@n_-_c-meas-spr_le 1.28059 4 5
+        ("%" 94
+         "token [ +CARG #1=\"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1796 HD-CMP_U_C 5.11964 5 8
+      (256 below@p_np_i-reg_le 1.22946 5 6
+       ("below" 86
+        "token [ +CARG #1=\"below\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1795 SP-HD_N_C 2.98515 6 8
+       (270 the_1@d_-_the_le 1.07131 6 7
+        ("the" 88
+         "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1794 ^HDN_OPTCMP_C 1.15133 7 8
+        (1793 W_PERIOD_PLR 0.821023 7 8
+         (1792 N_SG_ILR 0.186987 7 8
+          (297 average_n1@n_pp_c-nocnh-of_le 0 7 8
+           ("average." 97
+            "token [ +CARG \"average\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"average.\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84492710000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N "farm") (N (N "income"))))
+ (VP (V "is")
+  (NP
+   (N (N (ADJ "15") (N (N "%")))
+    (PP (P "below") (NP (DET "the") (N (N (N (N "average."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _farm_n_1<0:4>
+            LBL: h14
+            ARG0: x9 ]
+          [ _income_n_1<5:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _be_v_id<12:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<15:37>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ card<15:17>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            CARG: "15" ]
+          [ _percent_n_of<17:18>
+            LBL: h19
+            ARG0: x15 ]
+          [ _below_p<19:24>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x22 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<25:28>
+            LBL: h23
+            ARG0: x22
+            RSTR: h25
+            BODY: h24 ]
+          [ _average_n_of<29:37>
+            LBL: h26
+            ARG0: x22
+            ARG1: i27 ] >
+   HCONS: < h25 QEQ h26 h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:4>[BV x9]
+ x9:_farm_n_1<0:4>{x IND +}[]
+ x6:_income_n_1<5:11>{x PERS 3, NUM sg}[]
+ e3:_be_v_id<12:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:udef_q<15:37>[BV x15]
+ e20:card<15:17>("15"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ x15:_percent_n_of<17:18>{x PERS 3, NUM pl, IND +}[]
+ e21:_below_p<19:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x22]
+ _4:_the_q<25:28>[BV x22]
+ x22:_average_n_of<29:37>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:11> BV _income_n_1<5:11>  
+  compound<0:11> ARG1 _income_n_1<5:11>  
+  compound<0:11> ARG2 _farm_n_1<0:4>  
+  udef_q<0:4> BV _farm_n_1<0:4>  
+  _be_v_id<12:14> ARG1 _income_n_1<5:11>  
+  _be_v_id<12:14> ARG2 _percent_n_of<17:18>  
+  udef_q<15:37> BV _percent_n_of<17:18>  
+  card<15:17>(15) ARG1 _percent_n_of<17:18>  
+  _below_p<19:24> ARG1 _percent_n_of<17:18>  
+  _below_p<19:24> ARG2 _average_n_of<29:37>  
+  _the_q<25:28> BV _average_n_of<29:37>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _farm_n_1<0:4> IND +  
+  _income_n_1<5:11> PERS 3  
+  _income_n_1<5:11> NUM sg  
+  _be_v_id<12:14> SF prop  
+  _be_v_id<12:14> TENSE pres  
+  _be_v_id<12:14> MOOD indicative  
+  _be_v_id<12:14> PROG -  
+  _be_v_id<12:14> PERF -  
+  card<15:17>(15) SF prop  
+  card<15:17>(15) TENSE untensed  
+  card<15:17>(15) MOOD indicative  
+  card<15:17>(15) PROG -  
+  card<15:17>(15) PERF -  
+  _percent_n_of<17:18> PERS 3  
+  _percent_n_of<17:18> NUM pl  
+  _percent_n_of<17:18> IND +  
+  _below_p<19:24> SF prop  
+  _below_p<19:24> TENSE untensed  
+  _below_p<19:24> MOOD indicative  
+  _below_p<19:24> PROG -  
+  _below_p<19:24> PERF -  
+  _average_n_of<29:37> PERS 3  
+  _average_n_of<29:37> NUM sg  
+  _average_n_of<29:37> IND +  
+}
+

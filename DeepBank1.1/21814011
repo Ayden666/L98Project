@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (03:01 h)).
+;;;
+
+[21814011] (1 of 1) {1} `Communications Director'
+
+[21814011:0] (active)
+
+<
+  (1, 0, 1, <0:14>, 1, "Communications", 0, "null", "NNP" 0.7536 "NNPS" 0.2464)
+  (2, 1, 2, <15:23>, 1, "Director", 0, "null", "NNP" 1.0)
+>
+
+<
+  (27, 0, 1, <0:14>, 1, "Communications", 0, "null")
+  (29, 0, 1, <0:14>, 1, "Communications", 0, "null", "NNPS" 0.2464)
+  (31, 0, 1, <0:14>, 1, "communications", 0, "null")
+  (33, 0, 1, <0:14>, 1, "communications", 0, "null")
+  (20, 1, 2, <15:23>, 1, "Director", 0, "null")
+  (28, 1, 2, <15:23>, 1, "Director", 0, "null", "NNP" 1.0)
+  (30, 1, 2, <15:23>, 1, "director", 0, "null")
+  (32, 1, 2, <15:23>, 1, "director", 0, "null")
+>
+
+(ROOT_FRAG
+ (170 NP_NB-FRG_C 1.56494 0 2
+  (169 N-HDN_CPD_C 2.48198 0 2
+   (49 communications_n1@n_-_c-pl-cpd_le 0.318848 0 1
+    ("communications" 31
+     "token [ +CARG \"Communications\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"communications\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75359620000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (168 ^HDN_OPTCMP_C 2.41952 1 2
+    (167 N_SG_ILR 2.32671 1 2
+     (54 director_n1@n_pp_c-of_le 1.06259 1 2
+      ("director" 30
+       "token [ +CARG \"Director\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"director\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (N (N "communications") (N (N (N "director")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:23>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:23>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:23>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:14>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _communication_n_of<0:14>
+            LBL: h14
+            ARG0: x9 ]
+          [ _director_n_of<15:23>
+            LBL: h8
+            ARG0: x4
+            ARG1: i15 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:23>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:23>[BV x4]
+ e10:compound<0:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:14>[BV x9]
+ x9:_communication_n_of<0:14>{x PERS 3, NUM pl, IND +}[]
+ x4:_director_n_of<15:23>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:23> ARG _director_n_of<15:23>  
+  udef_q<0:23> BV _director_n_of<15:23>  
+  compound<0:23> ARG1 _director_n_of<15:23>  
+  compound<0:23> ARG2 _communication_n_of<0:14>  
+  udef_q<0:14> BV _communication_n_of<0:14>  
+  unknown<0:23> SF prop-or-ques  
+  unknown<0:23> TENSE untensed  
+  unknown<0:23> MOOD indicative  
+  unknown<0:23> PROG -  
+  unknown<0:23> PERF -  
+  compound<0:23> SF prop  
+  compound<0:23> TENSE untensed  
+  compound<0:23> MOOD indicative  
+  compound<0:23> PROG -  
+  compound<0:23> PERF -  
+  _communication_n_of<0:14> PERS 3  
+  _communication_n_of<0:14> NUM pl  
+  _communication_n_of<0:14> IND +  
+  _director_n_of<15:23> PERS 3  
+  _director_n_of<15:23> NUM sg  
+  _director_n_of<15:23> IND +  
+}
+

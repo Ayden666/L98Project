@@ -1,0 +1,207 @@
+;;;
+;;; Redwoods export of `wsj14c';
+;;; (wsun@wsun; 22-jan-2018 (23:31 h)).
+;;;
+
+[21464010] (1 of 1) {1} `Long-term bonds have performed erratically this year.'
+
+[21464010:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Long-term", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <10:15>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <16:20>, 1, "have", 0, "null", "VBP" 0.9861 "VB" 0.0139)
+  (4, 3, 4, <21:30>, 1, "performed", 0, "null", "VBN" 0.9842 "VBD" 0.0158)
+  (5, 4, 5, <31:42>, 1, "erratically", 0, "null", "RB" 1.0)
+  (6, 5, 6, <43:47>, 1, "this", 0, "null", "DT" 1.0)
+  (7, 6, 7, <48:52>, 1, "year", 0, "null", "NN" 1.0)
+  (8, 7, 8, <52:53>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (101, 0, 1, <0:9>, 1, "Long-", 0, "null")
+  (108, 0, 1, <0:9>, 1, "long-", 0, "null")
+  (116, 0, 1, <0:9>, 1, "long-", 0, "null")
+  (94, 1, 2, <0:9>, 1, "term", 0, "null")
+  (106, 1, 2, <0:9>, 1, "term", 0, "null", "JJ" 1.0)
+  (112, 1, 2, <0:9>, 1, "term", 0, "null")
+  (92, 2, 3, <10:15>, 1, "bonds", 0, "null")
+  (105, 2, 3, <10:15>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (111, 2, 3, <10:15>, 1, "bonds", 0, "null")
+  (97, 3, 4, <16:20>, 1, "have", 0, "null")
+  (102, 3, 4, <16:20>, 1, "have", 0, "null", "VBP" 0.9861)
+  (114, 3, 4, <16:20>, 1, "have", 0, "null")
+  (99, 4, 5, <21:30>, 1, "performed", 0, "null")
+  (103, 4, 5, <21:30>, 1, "performed", 0, "null", "VBN" 0.9842)
+  (115, 4, 5, <21:30>, 1, "performed", 0, "null")
+  (88, 5, 6, <31:42>, 1, "erratically", 0, "null")
+  (104, 5, 6, <31:42>, 1, "erratically", 0, "null", "RB" 1.0)
+  (109, 5, 6, <31:42>, 1, "erratically", 0, "null")
+  (90, 6, 7, <43:47>, 1, "this", 0, "null")
+  (110, 6, 7, <43:47>, 1, "this", 0, "null")
+  (96, 7, 8, <48:53>, 1, "year.", 0, "null")
+  (107, 7, 8, <48:53>, 1, "year.", 0, "null", "NN" 1.0)
+  (113, 7, 8, <48:53>, 1, "year.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1508 SB-HD_MC_C 13.7338 0 8
+  (1498 HDN_BNP_C 5.06917 0 3
+   (1497 N-HDN_CPD_C 4.44843 0 3
+    (1495 XP_BRCK-PR_C 2.88251 0 2
+     (1494 AJ-HDN_NORM_C 2.06568 0 2
+      (1492 W_HYPHEN_PLR 0.120659 0 1
+       (138 long_a1@aj_-_i-er_le -0.776721 0 1
+        ("long-" 108
+         "token [ +CARG \"Long-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"long-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (1493 ^HDN_OPTCMP_C 0.794721 1 2
+       (169 term_n1@n_pp_c-of_le -0.528178 1 2
+        ("term" 94
+         "token [ +CARG #1=\"term\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (1496 ^N_PL_OLR 1.73988 2 3
+     (182 bond_n2@n_-_c_le 1.40586 2 3
+      ("bonds" 92
+       "token [ +CARG #1=\"bonds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1507 ^HD-CMP_U_C 7.14867 3 8
+   (200 have_fin_aux@v_vp_have-f_le 1.69787 3 4
+    ("have" 97
+     "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98608629999999997\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1506 HD-AJ_INT-UNSL_C 4.22377 4 8
+    (1501 ^HD-AJ_INT-UNSL_C -0.395891 4 6
+     (1500 ^HD_OPTCMP_C -0.161674 4 5
+      (1499 V_PSP_OLR -0.896736 4 5
+       (216 perform_v1@v_np*_le 0 4 5
+        ("performed" 99
+         "token [ +CARG #1=\"performed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98420280000000004\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (344 generic_adverb@av_-_i-unk_le 0 5 6
+      ("erratically" 104
+       "token [ +CARG #1=\"erratically\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED \"_erratically/RB_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"RB\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (1505 NP_ADV_C 3.97588 6 8
+     (1504 SP-HD_N_C 3.66508 6 8
+      (350 this_det@d_-_sgm_le 1.98483 6 7
+       ("this" 90
+        "token [ +CARG #1=\"this\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1503 ^W_PERIOD_PLR 1.15861 7 8
+       (1502 N_SG_ILR -0.010982 7 8
+        (356 year_n1@n_-_c-year_le 0 7 8
+         ("year." 96
+          "token [ +CARG \"year\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"year.\" +FROM #1=\"48\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N (AP (AP "long-")) (N (N "term")))) (N (N "bonds"))))
+ (VP (V "have")
+  (VP (VP (VP (V (V "performed"))) (ADV "erratically"))
+   (PP (NP (DET "this") (N (N (N "year."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ udef_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _long_a_1<0:9>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _term_n_of<0:9>
+            LBL: h14
+            ARG0: x9
+            ARG1: i16 ]
+          [ _bond_n_1<10:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _perform_v_1<21:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p17 ]
+          [ _erratically/rb_u_unknown<31:42>
+            LBL: h2
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ loc_nonsp<43:53>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _this_q_dem<43:47>
+            LBL: h21
+            ARG0: x20
+            RSTR: h23
+            BODY: h22 ]
+          [ _year_n_1<48:53>
+            LBL: h24
+            ARG0: x20 ] >
+   HCONS: < h23 QEQ h24 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:15>[BV x6]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:9>[BV x9]
+ e15:_long_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_term_n_of<0:9>{x IND +}[]
+ x6:_bond_n_1<10:15>{x PERS 3, NUM pl, IND +}[]
+ e3:_perform_v_1<21:30>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x6]
+ e18:_erratically/rb_u_unknown<31:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e19:loc_nonsp<43:53>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x20]
+ _3:_this_q_dem<43:47>[BV x20]
+ x20:_year_n_1<48:53>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:15> BV _bond_n_1<10:15>  
+  compound<0:15> ARG1 _bond_n_1<10:15>  
+  compound<0:15> ARG2 _term_n_of<0:9>  
+  udef_q<0:9> BV _term_n_of<0:9>  
+  _long_a_1<0:9> ARG1 _term_n_of<0:9>  
+  _perform_v_1<21:30> ARG1 _bond_n_1<10:15>  
+  _erratically/rb_u_unknown<31:42> ARG1 _perform_v_1<21:30>  
+  loc_nonsp<43:53> ARG1 _perform_v_1<21:30>  
+  loc_nonsp<43:53> ARG2 _year_n_1<48:53>  
+  _this_q_dem<43:47> BV _year_n_1<48:53>  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  _long_a_1<0:9> SF prop  
+  _long_a_1<0:9> TENSE untensed  
+  _long_a_1<0:9> MOOD indicative  
+  _long_a_1<0:9> PROG -  
+  _long_a_1<0:9> PERF -  
+  _term_n_of<0:9> IND +  
+  _bond_n_1<10:15> PERS 3  
+  _bond_n_1<10:15> NUM pl  
+  _bond_n_1<10:15> IND +  
+  _perform_v_1<21:30> SF prop  
+  _perform_v_1<21:30> TENSE pres  
+  _perform_v_1<21:30> MOOD indicative  
+  _perform_v_1<21:30> PROG -  
+  _perform_v_1<21:30> PERF +  
+  _erratically/rb_u_unknown<31:42> SF prop  
+  _erratically/rb_u_unknown<31:42> TENSE untensed  
+  _erratically/rb_u_unknown<31:42> MOOD indicative  
+  _erratically/rb_u_unknown<31:42> PROG -  
+  _erratically/rb_u_unknown<31:42> PERF -  
+  loc_nonsp<43:53> SF prop  
+  loc_nonsp<43:53> TENSE untensed  
+  loc_nonsp<43:53> MOOD indicative  
+  loc_nonsp<43:53> PROG -  
+  loc_nonsp<43:53> PERF -  
+  _year_n_1<48:53> PERS 3  
+  _year_n_1<48:53> NUM sg  
+  _year_n_1<48:53> IND +  
+}
+

@@ -1,0 +1,207 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:06 h)).
+;;;
+
+[21213088] (1 of 1) {1} `In Japan, government bond prices fell.'
+
+[21213088:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "In", 0, "null", "IN" 0.97 "NNP" 0.03)
+  (2, 1, 2, <3:8>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <10:20>, 1, "government", 0, "null", "NN" 1.0)
+  (5, 4, 5, <21:25>, 1, "bond", 0, "null", "NN" 1.0)
+  (6, 5, 6, <26:32>, 1, "prices", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <33:37>, 1, "fell", 0, "null", "VBD" 1.0)
+  (8, 7, 8, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (98, 0, 1, <0:2>, 1, "in", 0, "null")
+  (105, 0, 1, <0:2>, 1, "in", 0, "null")
+  (76, 1, 2, <3:9>, 1, "Japan,", 0, "null")
+  (95, 1, 2, <3:9>, 1, "Japan,", 0, "null", "NNP" 1.0)
+  (97, 1, 2, <3:9>, 1, "japan,", 0, "null")
+  (99, 1, 2, <3:9>, 1, "japan,", 0, "null")
+  (81, 2, 3, <10:20>, 1, "government", 0, "null")
+  (92, 2, 3, <10:20>, 1, "government", 0, "null", "NN" 1.0)
+  (100, 2, 3, <10:20>, 1, "government", 0, "null")
+  (83, 3, 4, <21:25>, 1, "bond", 0, "null")
+  (93, 3, 4, <21:25>, 1, "bond", 0, "null", "NN" 1.0)
+  (101, 3, 4, <21:25>, 1, "bond", 0, "null")
+  (85, 4, 5, <26:32>, 1, "prices", 0, "null")
+  (94, 4, 5, <26:32>, 1, "prices", 0, "null", "NNS" 1.0)
+  (102, 4, 5, <26:32>, 1, "prices", 0, "null")
+  (89, 5, 6, <33:38>, 1, "fell.", 0, "null")
+  (96, 5, 6, <33:38>, 1, "fell.", 0, "null", "VBD" 1.0)
+  (103, 5, 6, <33:38>, 1, "fell.", 0, "null")
+>
+
+(ROOT_STRICT
+ (843 FLR-HD_NWH_C 5.52344 0 6
+  (832 HD-CMP_U_C 0.126729 0 2
+   (125 in@p_np_i-reg_le -0.506063 0 1
+    ("in" 98
+     "token [ +CARG \"In\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"in\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96999199999999997\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (831 HDN_BNP-PN_C 0.618621 1 2
+    (830 W_COMMA_PLR -0.132162 1 2
+     (829 N_SG_ILR -0.609145 1 2
+      (176 japan_n1@n_-_pn_le 0 1 2
+       ("japan," 97
+        "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japan,\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (842 ^SB-HD_NMC_C 3.95832 2 6
+   (837 HDN_BNP_C 1.67728 2 5
+    (836 N-HDN_CPD_C 1.70364 2 5
+     (833 HDN_OPTCMP_C 0.969244 2 3
+      (182 government_n1@n_pp_mc-of_le 0.21377 2 3
+       ("government" 81
+        "token [ +CARG #1=\"government\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (835 ^N-HDN_CPD_C 1.66676 3 5
+      (184 bond_n2@n_-_c_le 0.421675 3 4
+       ("bond" 83
+        "token [ +CARG #1=\"bond\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (834 ^N_PL_OLR 1.33597 4 5
+       (187 price_n1@n_-_mc-ed_le 0.382246 4 5
+        ("prices" 85
+         "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (841 ^HD_XAJ-INT-VP_C 2.20116 5 6
+    (840 HD_OPTCMP_C 1.66075 5 6
+     (839 W_PERIOD_PLR 1.29207 5 6
+      (838 V_PST_OLR 0.778807 5 6
+       (210 fall_v1@v_pp_unacc_le 0 5 6
+        ("fell." 89
+         "token [ +CARG \"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"fell.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (PP (P "in") (NP (N (N (N "japan,")))))
+ (S/PP (NP (N (N (N "government")) (N (N "bond") (N (N "prices")))))
+  (VP/PP (VP (V (V (V "fell.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:38>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _in_p_state<0:2>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:9>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ named<3:9>
+            LBL: h10
+            ARG0: x6
+            CARG: "Japan" ]
+          [ udef_q<10:32>
+            LBL: h11
+            ARG0: x13 [ x PERS: 3 NUM: PL ]
+            RSTR: h12
+            BODY: h14 ]
+          [ compound<10:32>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x16 ]
+          [ udef_q<10:20>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _government_n_of<10:20>
+            LBL: h21
+            ARG0: x16
+            ARG1: i22 ]
+          [ compound<21:32>
+            LBL: h15
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x23 [ x IND: + ] ]
+          [ udef_q<21:25>
+            LBL: h25
+            ARG0: x23
+            RSTR: h26
+            BODY: h27 ]
+          [ _bond_n_1<21:25>
+            LBL: h28
+            ARG0: x23 ]
+          [ _price_n_of<26:32>
+            LBL: h15
+            ARG0: x13 ]
+          [ _fall_v_1<33:38>
+            LBL: h2
+            ARG0: e3
+            ARG1: x13 ] >
+   HCONS: < h26 QEQ h28 h19 QEQ h21 h12 QEQ h15 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_in_p_state<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:proper_q<3:9>[BV x6]
+ x6:named<3:9>("Japan"){x PERS 3, NUM sg, IND +}[]
+ _2:udef_q<10:32>[BV x13]
+ e17:compound<10:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x16]
+ _3:udef_q<10:20>[BV x16]
+ x16:_government_n_of<10:20>{x}[]
+ e24:compound<21:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x23]
+ _4:udef_q<21:25>[BV x23]
+ x23:_bond_n_1<21:25>{x IND +}[]
+ x13:_price_n_of<26:32>{x PERS 3, NUM pl}[]
+ e3:_fall_v_1-fn.Change_position_on_a_scale<33:38>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x13]
+}
+
+{
+  focus_d<0:38> ARG1 _fall_v_1<33:38>  
+  focus_d<0:38> ARG2 _in_p_state<0:2>  
+  _in_p_state<0:2> ARG1 _fall_v_1<33:38>  
+  _in_p_state<0:2> ARG2 named<3:9>(Japan)  
+  proper_q<3:9> BV named<3:9>(Japan)  
+  udef_q<10:32> BV _price_n_of<26:32>  
+  compound<10:32> ARG1 _price_n_of<26:32>  
+  compound<10:32> ARG2 _government_n_of<10:20>  
+  udef_q<10:20> BV _government_n_of<10:20>  
+  compound<21:32> ARG1 _price_n_of<26:32>  
+  compound<21:32> ARG2 _bond_n_1<21:25>  
+  udef_q<21:25> BV _bond_n_1<21:25>  
+  _fall_v_1<33:38> ARG1 _price_n_of<26:32>  
+  focus_d<0:38> SF prop  
+  focus_d<0:38> TENSE untensed  
+  focus_d<0:38> MOOD indicative  
+  focus_d<0:38> PROG -  
+  focus_d<0:38> PERF -  
+  _in_p_state<0:2> SF prop  
+  _in_p_state<0:2> TENSE untensed  
+  _in_p_state<0:2> MOOD indicative  
+  _in_p_state<0:2> PROG -  
+  _in_p_state<0:2> PERF -  
+  named<3:9>(Japan) PERS 3  
+  named<3:9>(Japan) NUM sg  
+  named<3:9>(Japan) IND +  
+  compound<10:32> SF prop  
+  compound<10:32> TENSE untensed  
+  compound<10:32> MOOD indicative  
+  compound<10:32> PROG -  
+  compound<10:32> PERF -  
+  compound<21:32> SF prop  
+  compound<21:32> TENSE untensed  
+  compound<21:32> MOOD indicative  
+  compound<21:32> PROG -  
+  compound<21:32> PERF -  
+  _bond_n_1<21:25> IND +  
+  _price_n_of<26:32> PERS 3  
+  _price_n_of<26:32> NUM pl  
+  _fall_v_1<33:38> SF prop  
+  _fall_v_1<33:38> TENSE past  
+  _fall_v_1<33:38> MOOD indicative  
+  _fall_v_1<33:38> PROG -  
+  _fall_v_1<33:38> PERF -  
+}
+

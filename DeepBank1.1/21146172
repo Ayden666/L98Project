@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146172] (1 of 1) {1} `"What have you got?'
+
+[21146172:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "What", 0, "null", "WP" 1.0)
+  (3, 2, 3, <6:10>, 1, "have", 0, "null", "VBP" 0.9772 "VB" 0.0228)
+  (4, 3, 4, <11:14>, 1, "you", 0, "null", "PRP" 1.0)
+  (5, 4, 5, <15:18>, 1, "got", 0, "null", "VBD" 0.9475 "VBN" 0.0415 "VBP" 0.011)
+  (6, 5, 6, <18:19>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:5>, 1, "“what", 0, "null")
+  (77, 0, 1, <0:5>, 1, "“what", 0, "null")
+  (67, 1, 2, <6:10>, 1, "have", 0, "null")
+  (71, 1, 2, <6:10>, 1, "have", 0, "null", "VBP" 0.9772)
+  (75, 1, 2, <6:10>, 1, "have", 0, "null")
+  (64, 2, 3, <11:14>, 1, "you", 0, "null")
+  (74, 2, 3, <11:14>, 1, "you", 0, "null")
+  (69, 3, 4, <15:19>, 1, "got?", 0, "null")
+  (72, 3, 4, <15:19>, 1, "got?", 0, "null", "VBD" 0.9475)
+  (76, 3, 4, <15:19>, 1, "got?", 0, "null")
+>
+
+(ROOT_STRICT
+ (809 FLR-HD_WH-MC_C 2.77171 0 4
+  (801 HDN_BNP-QNT_C 0.247199 0 1
+   (800 HDN_OPTCMP_C 0.59588 0 1
+    (799 W_DQLEFT_PLR 0 0 1
+     (83 what1@n_-_pr-wh_le 0 0 1
+      ("“what" 73
+       "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“what\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (808 ^HD-CMP_U_C 2.52451 1 4
+   (804 ^HD-CMP_U_C 2.544 1 3
+    (802 ^V_AUX-SB-INV_DLR 0.760772 1 2
+     (102 have_fin_aux@v_vp_have-f_le 0.760772 1 2
+      ("have" 67
+       "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97724460000000002\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (803 HDN_BNP-QNT_C 0.337309 2 3
+     (123 you@n_-_pr-you_le 0.163445 2 3
+      ("you" 64
+       "token [ +CARG #1=\"you\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (807 HD_XCMP_C 0.040567 3 4
+    (806 W_QMARK_PLR 0.211065 3 4
+     (805 V_PSP_OLR 0.211065 3 4
+      (162 get_v2@v_np_ntr_le 0 3 4
+       ("got?" 69
+        "token [ +CARG \"got\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"got?\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94746770000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "“what"))))
+ (S/NP (V/NP (V/NP (V/NP "have")) (NP (NP "you")))
+  (VP/NP (V/NP (V/NP (V/NP "got?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ thing<0:5>
+            LBL: h4
+            ARG0: x5 ]
+          [ which_q<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ pron<11:14>
+            LBL: h9
+            ARG0: x10 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<11:14>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _get_v_1<15:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x10
+            ARG2: x5 ] >
+   HCONS: < h12 QEQ h9 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:5>{x}[]
+ _1:which_q<0:5>[BV x5]
+ x10:pron<11:14>{x PERS 2, PT std}[]
+ _2:pronoun_q<11:14>[BV x10]
+ e3:_get_v_1<15:19>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x10, ARG2 x5]
+}
+
+{
+  which_q<0:5> BV thing<0:5>  
+  pronoun_q<11:14> BV pron<11:14>  
+  _get_v_1<15:19> ARG1 pron<11:14>  
+  _get_v_1<15:19> ARG2 thing<0:5>  
+  pron<11:14> PERS 2  
+  pron<11:14> PT std  
+  _get_v_1<15:19> SF ques  
+  _get_v_1<15:19> TENSE pres  
+  _get_v_1<15:19> MOOD indicative  
+  _get_v_1<15:19> PROG -  
+  _get_v_1<15:19> PERF +  
+}
+

@@ -1,0 +1,234 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:43 h)).
+;;;
+
+[21279005] (1 of 1) {1} `Bush administration officials say inflation is under control.'
+
+[21279005:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Bush", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:19>, 1, "administration", 0, "null", "NN" 1.0)
+  (3, 2, 3, <20:29>, 1, "officials", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <30:33>, 1, "say", 0, "null", "VBP" 0.9873 "VB" 0.0127)
+  (5, 4, 5, <34:43>, 1, "inflation", 0, "null", "NN" 1.0)
+  (6, 5, 6, <44:46>, 1, "is", 0, "null", "VBZ" 1.0)
+  (7, 6, 7, <47:52>, 1, "under", 0, "null", "IN" 1.0)
+  (8, 7, 8, <53:60>, 1, "control", 0, "null", "NN" 0.9887 "VB" 0.0113)
+  (9, 8, 9, <60:61>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (103, 0, 1, <0:4>, 1, "Bush", 0, "null")
+  (110, 0, 1, <0:4>, 1, "bush", 0, "null")
+  (118, 0, 1, <0:4>, 1, "bush", 0, "null")
+  (90, 1, 2, <5:19>, 1, "administration", 0, "null")
+  (106, 1, 2, <5:19>, 1, "administration", 0, "null", "NN" 1.0)
+  (111, 1, 2, <5:19>, 1, "administration", 0, "null")
+  (92, 2, 3, <20:29>, 1, "officials", 0, "null")
+  (107, 2, 3, <20:29>, 1, "officials", 0, "null", "NNS" 1.0)
+  (112, 2, 3, <20:29>, 1, "officials", 0, "null")
+  (99, 3, 4, <30:33>, 1, "say", 0, "null")
+  (104, 3, 4, <30:33>, 1, "say", 0, "null", "VBP" 0.9873)
+  (116, 3, 4, <30:33>, 1, "say", 0, "null")
+  (94, 4, 5, <34:43>, 1, "inflation", 0, "null")
+  (108, 4, 5, <34:43>, 1, "inflation", 0, "null", "NN" 1.0)
+  (113, 4, 5, <34:43>, 1, "inflation", 0, "null")
+  (96, 5, 6, <44:46>, 1, "is", 0, "null")
+  (109, 5, 6, <44:46>, 1, "is", 0, "null", "VBZ" 1.0)
+  (114, 5, 6, <44:46>, 1, "is", 0, "null")
+  (98, 6, 7, <47:52>, 1, "under", 0, "null")
+  (115, 6, 7, <47:52>, 1, "under", 0, "null")
+  (101, 7, 8, <53:61>, 1, "control.", 0, "null")
+  (105, 7, 8, <53:61>, 1, "control.", 0, "null", "NN" 0.9887)
+  (117, 7, 8, <53:61>, 1, "control.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2096 SB-HD_MC_C 9.85706 0 8
+  (2082 HDN_BNP_C 2.47677 0 3
+   (2081 N-HDN_CPD_C 1.85602 0 3
+    (2079 NP-HDN_CPD_C 1.7262 0 2
+     (2077 HDN_BNP-PN_C 0.981307 0 1
+      (121 bush_n2@n_-_pn_le 0.152881 0 1
+       ("bush" 110
+        "token [ +CARG \"Bush\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"bush\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2078 ^HDN_OPTCMP_C 0.376718 1 2
+      (122 administration_n1@n_pp_mc-of_le -0.25391 1 2
+       ("administration" 90
+        "token [ +CARG #1=\"administration\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2080 ^N_PL_OLR 0.974059 2 3
+     (125 official_n1@n_-_c-nocnh_le 0.41809 2 3
+      ("officials" 92
+       "token [ +CARG #1=\"officials\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2095 ^HD-CMP_U_C 5.86439 3 8
+   (2084 ^HD_OPTCMP_C 1.70669 3 4
+    (2083 V_N3S-BSE_ILR 1.25046 3 4
+     (153 say_v2@v_pp*-cp_fin-imp_le 0.391984 3 4
+      ("say" 99
+       "token [ +CARG #1=\"say\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98727330000000002\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (2094 SB-HD_NMC_C 2.5985 4 8
+    (2087 HDN_BNP_C -0.178872 4 5
+     (2086 HDN_OPTCMP_C 0.271909 4 5
+      (2085 N_MS_ILR 0.431979 4 5
+       (181 inflation_n1@n_pp_m_le 0.36379 4 5
+        ("inflation" 94
+         "token [ +CARG #1=\"inflation\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (2093 ^HD-CMP_U_C 2.51397 5 8
+     (222 be_c_is@v_prd_is_le 1.47611 5 6
+      ("is" 96
+       "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2092 HD-CMP_U_C 0.355432 6 8
+      (311 under@p_np_i_le 0.0847732 6 7
+       ("under" 98
+        "token [ +CARG #1=\"under\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"47\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2091 HDN_BNP_C -1.26086 7 8
+       (2090 HDN_OPTCMP_C -0.725099 7 8
+        (2089 W_PERIOD_PLR -0.584249 7 8
+         (2088 N_MS-CNT_ILR -0.406151 7 8
+          (317 control_n1@n_pp_mc-of_le 0 7 8
+           ("control." 101
+            "token [ +CARG \"control\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"control.\" +FROM #1=\"53\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98870020000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"61\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (NP
+  (N (N (NP (N "bush")) (N (N "administration"))) (N (N "officials"))))
+ (VP (V (V (V "say")))
+  (S (NP (N (N (N "inflation"))))
+   (VP (V "is") (PP (P "under") (NP (N (N (N (N "control."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:29>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:29>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:19>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:19>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:4>
+            LBL: h20
+            ARG0: x15
+            CARG: "Bush" ]
+          [ _administration_n_of<5:19>
+            LBL: h14
+            ARG0: x9
+            ARG1: i21 ]
+          [ _official_n_1<20:29>
+            LBL: h8
+            ARG0: x6 ]
+          [ _say_v_to<30:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h23
+            ARG3: i22 ]
+          [ udef_q<34:43>
+            LBL: h24
+            ARG0: x26 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h25
+            BODY: h27 ]
+          [ _inflation_n_of<34:43>
+            LBL: h28
+            ARG0: x26
+            ARG1: i29 ]
+          [ _under_p<47:52>
+            LBL: h30
+            ARG0: e31 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x26
+            ARG2: x32 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<53:61>
+            LBL: h33
+            ARG0: x32
+            RSTR: h34
+            BODY: h35 ]
+          [ _control_n_of<53:61>
+            LBL: h36
+            ARG0: x32
+            ARG1: i37 ] >
+   HCONS: < h34 QEQ h36 h25 QEQ h28 h23 QEQ h30 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:29>[BV x6]
+ e10:compound<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:19>[BV x9]
+ e16:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:4>[BV x15]
+ x15:named<0:4>("Bush"){x IND +}[]
+ x9:_administration_n_of<5:19>{x}[]
+ x6:_official_n_1<20:29>{x PERS 3, NUM pl, IND +}[]
+ e3:_say_v_to<30:33>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e31]
+ _4:udef_q<34:43>[BV x26]
+ x26:_inflation_n_of<34:43>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e31:_under_p<47:52>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x26, ARG2 x32]
+ _5:udef_q<53:61>[BV x32]
+ x32:_control_n_of<53:61>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:29> BV _official_n_1<20:29>  
+  compound<0:29> ARG1 _official_n_1<20:29>  
+  compound<0:29> ARG2 _administration_n_of<5:19>  
+  udef_q<0:19> BV _administration_n_of<5:19>  
+  compound<0:19> ARG1 _administration_n_of<5:19>  
+  compound<0:19> ARG2 named<0:4>(Bush)  
+  proper_q<0:4> BV named<0:4>(Bush)  
+  _say_v_to<30:33> ARG1 _official_n_1<20:29>  
+  _say_v_to<30:33> ARG2 _under_p<47:52>  
+  udef_q<34:43> BV _inflation_n_of<34:43>  
+  _under_p<47:52> ARG1 _inflation_n_of<34:43>  
+  _under_p<47:52> ARG2 _control_n_of<53:61>  
+  udef_q<53:61> BV _control_n_of<53:61>  
+  compound<0:29> SF prop  
+  compound<0:29> TENSE untensed  
+  compound<0:29> MOOD indicative  
+  compound<0:29> PROG -  
+  compound<0:29> PERF -  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  named<0:4>(Bush) IND +  
+  _official_n_1<20:29> PERS 3  
+  _official_n_1<20:29> NUM pl  
+  _official_n_1<20:29> IND +  
+  _say_v_to<30:33> SF prop  
+  _say_v_to<30:33> TENSE pres  
+  _say_v_to<30:33> MOOD indicative  
+  _say_v_to<30:33> PROG -  
+  _say_v_to<30:33> PERF -  
+  _inflation_n_of<34:43> PERS 3  
+  _inflation_n_of<34:43> NUM sg  
+  _inflation_n_of<34:43> GEND n  
+  _inflation_n_of<34:43> IND -  
+  _under_p<47:52> SF prop  
+  _under_p<47:52> TENSE pres  
+  _under_p<47:52> MOOD indicative  
+  _under_p<47:52> PROG -  
+  _under_p<47:52> PERF -  
+  _control_n_of<53:61> PERS 3  
+  _control_n_of<53:61> NUM sg  
+}
+

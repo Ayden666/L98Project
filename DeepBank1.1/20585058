@@ -1,0 +1,201 @@
+;;;
+;;; Redwoods export of `wsj05d';
+;;; (wsun@wsun; 22-jan-2018 (15:32 h)).
+;;;
+
+[20585058] (1 of 1) {1} `Kirschner Medical fell 4 to 15.'
+
+[20585058:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Kirschner", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:17>, 1, "Medical", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <18:22>, 1, "fell", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <23:24>, 1, "4", 0, "null", "CD" 1.0)
+  (5, 4, 5, <25:27>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <28:30>, 1, "15", 0, "null", "CD" 1.0)
+  (7, 6, 7, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:9>, 1, "Kirschner", 0, "null")
+  (75, 0, 1, <0:9>, 1, "kirschner", 0, "null")
+  (81, 0, 1, <0:9>, 1, "kirschner", 0, "null")
+  (61, 1, 2, <10:17>, 1, "Medical", 0, "null")
+  (72, 1, 2, <10:17>, 1, "Medical", 0, "null", "NNP" 1.0)
+  (74, 1, 2, <10:17>, 1, "medical", 0, "null")
+  (77, 1, 2, <10:17>, 1, "medical", 0, "null")
+  (70, 2, 3, <18:22>, 1, "fell", 0, "null")
+  (73, 2, 3, <18:22>, 1, "fell", 0, "null", "VBD" 1.0)
+  (80, 2, 3, <18:22>, 1, "fell", 0, "null")
+  (58, 3, 4, <23:24>, 1, "4", 0, "null")
+  (76, 3, 4, <23:24>, 1, "4", 0, "null")
+  (68, 4, 5, <25:27>, 1, "to", 0, "null")
+  (79, 4, 5, <25:27>, 1, "to", 0, "null")
+  (62, 5, 6, <28:31>, 1, "15.", 0, "null")
+  (78, 5, 6, <28:31>, 1, "15.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1164 SB-HD_MC_C 11.4712 0 6
+  (1152 HDN_BNP-PN_C 2.05788 0 2
+   (1151 NP-HDN_NME-CPD_C 1.51816 0 2
+    (1149 HDN_BNP-PN_C 0.365523 0 1
+     (1148 N_SG_ILR -0.386912 0 1
+      (83 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Kirschner" 71
+        "token [ +CARG #1=\"Kirschner\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (1150 ^N_SG_ILR -0.164942 1 2
+     (84 generic_proper_ne@n_-_pn-gen_le -0.0216842 1 2
+      ("Medical" 61
+       "token [ +CARG #1=\"Medical\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1163 ^HD-AJ_INT-UNSL_C 8.92578 2 6
+   (1158 ^HD-AJ_INT-UNSL_C 3.49108 2 4
+    (1154 ^HD_OPTCMP_C 3.79136 2 3
+     (1153 V_PST_OLR 2.3008 2 3
+      (96 fall_v1@v_pp_unacc_le 0.574647 2 3
+       ("fell" 70
+        "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1157 NP_ADV-MNP_C -1.48337 3 4
+     (1156 HDN_BNP-NUM_C -0.743831 3 4
+      (1155 HDN_NP-NUM_C -0.332778 3 4
+       (105 generic_card_ne@aj_-_i-crd-gen_le -0.0492015 3 4
+        ("4" 58
+         "token [ +CARG #1=\"4\" +CLASS card_or_dom_ne +FORM #1 +FROM \"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (1162 HD-CMP_U_C 3.87632 4 6
+    (133 to@p_np_i-nnm_le -0.649111 4 5
+     ("to" 68
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1161 HDN_BNP-NUM_C 4.01481 5 6
+     (1160 HDN_NP-NUM_C 3.49617 5 6
+      (1159 W_PERIOD_PLR 2.19869 5 6
+       (188 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("15." 62
+         "token [ +CARG \"15\" +CLASS card_or_dom_ne +FORM \"15.\" +FROM \"28\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (NP (N (N "Kirschner"))) (N (N "Medical"))))
+ (VP (VP (VP (V (V "fell"))) (PP (NP (N (ADJ "4")))))
+  (PP (P "to") (NP (N (ADJ (ADJ "15.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Kirschner" ]
+          [ named<10:17>
+            LBL: h8
+            ARG0: x6
+            CARG: "Medical" ]
+          [ _fall_v_1<18:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<23:24>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<23:24>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<23:24>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "4" ]
+          [ _to_p<25:27>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<28:31>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<28:31>
+            LBL: h27
+            ARG0: x23
+            ARG1: i28
+            CARG: "15" ] >
+   HCONS: < h25 QEQ h27 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:17>[BV x6]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ x9:named<0:9>("Kirschner"){x PERS 3, NUM sg, IND +}[]
+ x6:named<10:17>("Medical"){x PERS 3, NUM sg, IND +}[]
+ e3:_fall_v_1<18:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<23:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<23:24>[BV x16]
+ x16:card<23:24>("4"){x PERS 3, NUM sg}[]
+ e22:_to_p<25:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:number_q<28:31>[BV x23]
+ x23:card<28:31>("15"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:17> BV named<10:17>(Medical)  
+  compound<0:17> ARG1 named<10:17>(Medical)  
+  compound<0:17> ARG2 named<0:9>(Kirschner)  
+  proper_q<0:9> BV named<0:9>(Kirschner)  
+  _fall_v_1<18:22> ARG1 named<10:17>(Medical)  
+  loc_nonsp<23:24> ARG1 _fall_v_1<18:22>  
+  loc_nonsp<23:24> ARG2 card<23:24>(4)  
+  number_q<23:24> BV card<23:24>(4)  
+  _to_p<25:27> ARG1 _fall_v_1<18:22>  
+  _to_p<25:27> ARG2 card<28:31>(15)  
+  number_q<28:31> BV card<28:31>(15)  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  named<0:9>(Kirschner) PERS 3  
+  named<0:9>(Kirschner) NUM sg  
+  named<0:9>(Kirschner) IND +  
+  named<10:17>(Medical) PERS 3  
+  named<10:17>(Medical) NUM sg  
+  named<10:17>(Medical) IND +  
+  _fall_v_1<18:22> SF prop  
+  _fall_v_1<18:22> TENSE past  
+  _fall_v_1<18:22> MOOD indicative  
+  _fall_v_1<18:22> PROG -  
+  _fall_v_1<18:22> PERF -  
+  loc_nonsp<23:24> SF prop  
+  loc_nonsp<23:24> TENSE untensed  
+  loc_nonsp<23:24> MOOD indicative  
+  loc_nonsp<23:24> PROG -  
+  loc_nonsp<23:24> PERF -  
+  card<23:24>(4) PERS 3  
+  card<23:24>(4) NUM sg  
+  _to_p<25:27> SF prop  
+  _to_p<25:27> TENSE untensed  
+  _to_p<25:27> MOOD indicative  
+  _to_p<25:27> PROG -  
+  _to_p<25:27> PERF -  
+  card<28:31>(15) PERS 3  
+  card<28:31>(15) NUM sg  
+}
+

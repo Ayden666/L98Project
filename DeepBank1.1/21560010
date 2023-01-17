@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj15b';
+;;; (wsun@wsun; 23-jan-2018 (00:24 h)).
+;;;
+
+[21560010] (1 of 1) {1} `But these players were dead.'
+
+[21560010:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:9>, 1, "these", 0, "null", "DT" 1.0)
+  (3, 2, 3, <10:17>, 1, "players", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <23:27>, 1, "dead", 0, "null", "JJ" 0.8092 "VBN" 0.0946 "RB" 0.0786 "NN" 0.0176)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (75, 0, 1, <0:3>, 1, "but", 0, "null")
+  (80, 0, 1, <0:3>, 1, "but", 0, "null")
+  (65, 1, 2, <4:9>, 1, "these", 0, "null")
+  (76, 1, 2, <4:9>, 1, "these", 0, "null")
+  (67, 2, 3, <10:17>, 1, "players", 0, "null")
+  (73, 2, 3, <10:17>, 1, "players", 0, "null", "NNS" 1.0)
+  (77, 2, 3, <10:17>, 1, "players", 0, "null")
+  (69, 3, 4, <18:22>, 1, "were", 0, "null")
+  (74, 3, 4, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (78, 3, 4, <18:22>, 1, "were", 0, "null")
+  (70, 4, 5, <23:28>, 1, "dead.", 0, "null")
+  (72, 4, 5, <23:28>, 1, "dead.", 0, "null", "JJ" 0.8092)
+  (79, 4, 5, <23:28>, 1, "dead.", 0, "null")
+>
+
+(ROOT_STRICT
+ (716 CL_CNJ-FRG_C 9.61206 0 5
+  (715 MRK-NH_CL_C 8.74217 0 5
+   (83 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 75
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (714 SB-HD_MC_C 6.32953 1 5
+    (711 SP-HD_N_C 2.57433 1 3
+     (99 these_det@d_-_pl_le 0.643823 1 2
+      ("these" 65
+       "token [ +CARG #1=\"these\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (710 ^HDN_OPTCMP_C 1.25247 2 3
+      (709 N_PL_OLR 0.877213 2 3
+       (101 player_n1@n_pp_c-of_le 0 2 3
+        ("players" 67
+         "token [ +CARG #1=\"players\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (713 ^HD-CMP_U_C 2.52678 3 5
+     (112 be_c_were@v_prd_wre_le 0.222297 3 4
+      ("were" 69
+       "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (712 W_PERIOD_PLR 0.852384 4 5
+      (130 dead_a1@aj_-_i-er_le 0 4 5
+       ("dead." 70
+        "token [ +CARG \"dead\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"dead.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80924600000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "these") (N (N (N "players"))))
+   (VP (V "were") (AP (AP "dead."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _these_q_dem<4:9>
+            LBL: h8
+            ARG0: x9 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h11
+            BODY: h10 ]
+          [ _player_n_of<10:17>
+            LBL: h12
+            ARG0: x9
+            ARG1: i13 ]
+          [ _dead_a_1<23:28>
+            LBL: h14
+            ARG0: e4
+            ARG1: x9 ] >
+   HCONS: < h11 QEQ h12 h5 QEQ h14 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_these_q_dem<4:9>[BV x9]
+ x9:_player_n_of<10:17>{x PERS 3, NUM pl, IND +}[]
+ e4:_dead_a_1<23:28>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+}
+
+{
+  _but_c<0:3> R-HNDL _dead_a_1<23:28>  
+  _but_c<0:3> R-INDEX _dead_a_1<23:28>  
+  _these_q_dem<4:9> BV _player_n_of<10:17>  
+  _dead_a_1<23:28> ARG1 _player_n_of<10:17>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _player_n_of<10:17> PERS 3  
+  _player_n_of<10:17> NUM pl  
+  _player_n_of<10:17> IND +  
+  _dead_a_1<23:28> SF prop  
+  _dead_a_1<23:28> TENSE past  
+  _dead_a_1<23:28> MOOD indicative  
+  _dead_a_1<23:28> PROG -  
+  _dead_a_1<23:28> PERF -  
+}
+

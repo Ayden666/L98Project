@@ -1,0 +1,202 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:36 h)).
+;;;
+
+[21867020] (1 of 1) {1} `Mitsubishi Corp. Finance (Japanese parent) --'
+
+[21867020:2] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Mitsubishi", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <11:16>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <17:24>, 1, "Finance", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <25:26>, 1, "(", 0, "null", "(" 1.0)
+  (5, 4, 5, <26:34>, 1, "Japanese", 0, "null", "JJ" 0.8889 "NNP" 0.1111)
+  (6, 5, 6, <35:41>, 1, "parent", 0, "null", "NN" 1.0)
+  (7, 6, 7, <41:42>, 1, ")", 0, "null", ")" 1.0)
+  (8, 7, 8, <43:45>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (96, 0, 1, <0:10>, 1, "Mitsubishi", 0, "null")
+  (104, 0, 1, <0:10>, 1, "mitsubishi", 0, "null")
+  (111, 0, 1, <0:10>, 1, "mitsubishi", 0, "null")
+  (78, 1, 2, <11:16>, 1, "Corp.", 0, "null")
+  (99, 1, 2, <11:16>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (103, 1, 2, <11:16>, 1, "corp.", 0, "null")
+  (107, 1, 2, <11:16>, 1, "corp.", 0, "null")
+  (76, 2, 3, <17:24>, 1, "Finance", 0, "null")
+  (98, 2, 3, <17:24>, 1, "Finance", 0, "null", "NNP" 1.0)
+  (102, 2, 3, <17:24>, 1, "finance", 0, "null")
+  (106, 2, 3, <17:24>, 1, "finance", 0, "null")
+  (80, 3, 4, <25:34>, 1, "(Japanese", 0, "null")
+  (97, 3, 4, <25:34>, 1, "(Japanese", 0, "null", "JJ" 0.8889)
+  (101, 3, 4, <25:34>, 1, "(Japanese", 0, "null", "NNP" 0.1111)
+  (105, 3, 4, <25:34>, 1, "(japanese", 0, "null")
+  (108, 3, 4, <25:34>, 1, "(japanese", 0, "null")
+  (93, 4, 5, <35:42>, 1, "parent)", 0, "null")
+  (100, 4, 5, <35:42>, 1, "parent)", 0, "null", "NN" 1.0)
+  (110, 4, 5, <35:42>, 1, "parent)", 0, "null")
+  (91, 5, 6, <43:45>, 1, "–", 0, "null")
+  (109, 5, 6, <43:45>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (2440 NP_FRG_C 4.82094 0 6
+  (2439 HDN-N_PRNTH_C 4.67917 0 6
+   (2438 ^HDN_BNP_C 1.61808 0 3
+    (2419 N-HDN_CPD_C 1.95066 0 3
+     (2417 NP-HDN_CPD_C 1.76014 0 2
+      (2416 HDN_BNP-PN_C -0.132944 0 1
+       (115 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Mitsubishi" 96
+         "token [ +CARG #1=\"Mitsubishi\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (125 corp_abb_n1@n_-_c_le -1.34059 1 2
+       ("corp." 103
+        "token [ +CARG \"Corp.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2418 ^N_MS-CNT_ILR -0.0869111 2 3
+      (131 finance_n1@n_-_mc_le -0.175584 2 3
+       ("finance" 102
+        "token [ +CARG \"Finance\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"finance\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (2425 AJ-HDN_NORM_C 3.06109 3 6
+    (2420 W_LPAREN_PLR 0 3 4
+     (142 japanese_a1@aj_-_i_le 0 3 4
+      ("(japanese" 105
+       "token [ +CARG \"Japanese\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(japanese\" +FROM \"25\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88889470000000004\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"26\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2424 ^HDN_OPTCMP_C 3.06109 4 6
+     (2423 HD-PCT_C 2.68233 4 6
+      (2422 ^W_RPAREN_PLR 1.35885 4 5
+       (2421 N_SG_ILR 0.617641 4 5
+        (150 parent_n1@n_pp_c-of_le 0 4 5
+         ("parent)" 93
+          "token [ +CARG \"parent\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"parent)\" +FROM #1=\"35\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (160 s_dbl_dash_pct@pt_-_s-dash_le 1.24687 5 6
+       ("–" 91
+        "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP
+ (NP (NP (N (N (NP (N "Mitsubishi")) (N "corp.")) (N (N "finance"))))
+  (N (AP (AP "(japanese")) (N (N (N (N (N "parent)"))) (PNCT "–"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:45>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ parenthetical<0:45>
+            LBL: h2
+            ARG0: i6
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<25:45>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ udef_q<0:24>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<0:24>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x14 [ x IND: + ] ]
+          [ udef_q<0:16>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<0:16>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x14
+            ARG2: x20 [ x IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ named<0:10>
+            LBL: h25
+            ARG0: x20
+            CARG: "Mitsubishi" ]
+          [ _corporation_n_1<11:16>
+            LBL: h19
+            ARG0: x14 ]
+          [ _finance_n_1<17:24>
+            LBL: h13
+            ARG0: x4 ]
+          [ _japanese_a_1<25:34>
+            LBL: h26
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 ]
+          [ _parent_n_of<35:42>
+            LBL: h26
+            ARG0: x5
+            ARG1: i28 ] >
+   HCONS: < h23 QEQ h25 h17 QEQ h19 h11 QEQ h13 h8 QEQ h26 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:45>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ i6:parenthetical<0:45>{i}[ARG1 x4, ARG2 x5]
+ _1:udef_q<25:45>[BV x5]
+ _2:udef_q<0:24>[BV x4]
+ e15:compound<0:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x14]
+ _3:udef_q<0:16>[BV x14]
+ e21:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14, ARG2 x20]
+ _4:proper_q<0:10>[BV x20]
+ x20:named<0:10>("Mitsubishi"){x IND +}[]
+ x14:_corporation_n_1<11:16>{x IND +}[]
+ x4:_finance_n_1<17:24>{x PERS 3, NUM sg}[]
+ e27:_japanese_a_1<25:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ x5:_parent_n_of<35:42>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:45> ARG _finance_n_1<17:24>  
+  parenthetical<0:45> ARG1 _finance_n_1<17:24>  
+  parenthetical<0:45> ARG2 _parent_n_of<35:42>  
+  udef_q<25:45> BV _parent_n_of<35:42>  
+  udef_q<0:24> BV _finance_n_1<17:24>  
+  compound<0:24> ARG1 _finance_n_1<17:24>  
+  compound<0:24> ARG2 _corporation_n_1<11:16>  
+  udef_q<0:16> BV _corporation_n_1<11:16>  
+  compound<0:16> ARG1 _corporation_n_1<11:16>  
+  compound<0:16> ARG2 named<0:10>(Mitsubishi)  
+  proper_q<0:10> BV named<0:10>(Mitsubishi)  
+  _japanese_a_1<25:34> ARG1 _parent_n_of<35:42>  
+  unknown<0:45> SF prop-or-ques  
+  unknown<0:45> TENSE untensed  
+  unknown<0:45> MOOD indicative  
+  unknown<0:45> PROG -  
+  unknown<0:45> PERF -  
+  compound<0:24> SF prop  
+  compound<0:24> TENSE untensed  
+  compound<0:24> MOOD indicative  
+  compound<0:24> PROG -  
+  compound<0:24> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:10>(Mitsubishi) IND +  
+  _corporation_n_1<11:16> IND +  
+  _finance_n_1<17:24> PERS 3  
+  _finance_n_1<17:24> NUM sg  
+  _japanese_a_1<25:34> SF prop  
+  _japanese_a_1<25:34> TENSE untensed  
+  _japanese_a_1<25:34> MOOD indicative  
+  _japanese_a_1<25:34> PROG -  
+  _japanese_a_1<25:34> PERF -  
+  _parent_n_of<35:42> PERS 3  
+  _parent_n_of<35:42> NUM sg  
+  _parent_n_of<35:42> IND +  
+}
+

@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:59 h)).
+;;;
+
+[21312037] (1 of 1) {1} `Fees 1.'
+
+[21312037:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Fees", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <5:6>, 1, "1", 0, "null", "CD" 0.9628 "LS" 0.0372)
+  (3, 2, 3, <6:7>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (36, 0, 1, <0:4>, 1, "Fees", 0, "null", "NNS" 1.0)
+  (37, 0, 1, <0:4>, 1, "fees", 0, "null")
+  (39, 0, 1, <0:4>, 1, "fees", 0, "null")
+  (33, 1, 2, <5:7>, 1, "1.", 0, "null")
+  (35, 1, 2, <5:7>, 1, "1.", 0, "null", "CD" 0.9628)
+  (38, 1, 2, <5:7>, 1, "1.", 0, "null")
+>
+
+(ROOT_FRAG
+ (149 NP-AJ_RORP-FRG_C -1.2183 0 2
+  (144 ^HDN_BNP_C -0.840187 0 1
+   (143 N_PL_OLR 0.0461319 0 1
+    (45 fee_n1@n_-_c_le -0.186912 0 1
+     ("fees" 37
+      "token [ +CARG \"Fees\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"fees\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (148 NP_ADV-MNP_C -0.0517779 1 2
+   (147 HDN_BNP-NUM_C 0.334968 1 2
+    (146 HDN_NP-NUM_C 0.580737 1 2
+     (145 W_PERIOD_PLR 0.481284 1 2
+      (53 one_digit_adj@aj_-_i-one-d_le 0.309312 1 2
+       ("1." 33
+        "token [ +CARG \"1\" +CLASS numeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"1.\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96279519999999996\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (N (N "fees"))) (PP (NP (N (ADJ (ADJ "1."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _fee_n_1<0:4>
+            LBL: h8
+            ARG0: x4 ]
+          [ loc_nonsp<5:7>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i11
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<5:7>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ card<5:7>
+            LBL: h15
+            ARG0: x10
+            ARG1: i16
+            CARG: "1" ] >
+   HCONS: < h13 QEQ h15 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:4>[BV x4]
+ x4:_fee_n_1<0:4>{x PERS 3, NUM pl, IND +}[]
+ e9:loc_nonsp<5:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x10]
+ _2:number_q<5:7>[BV x10]
+ x10:card<5:7>("1"){x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:7> ARG _fee_n_1<0:4>  
+  udef_q<0:4> BV _fee_n_1<0:4>  
+  loc_nonsp<5:7> ARG2 card<5:7>(1)  
+  number_q<5:7> BV card<5:7>(1)  
+  unknown<0:7> SF prop  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _fee_n_1<0:4> PERS 3  
+  _fee_n_1<0:4> NUM pl  
+  _fee_n_1<0:4> IND +  
+  loc_nonsp<5:7> SF prop  
+  loc_nonsp<5:7> TENSE untensed  
+  loc_nonsp<5:7> MOOD indicative  
+  loc_nonsp<5:7> PROG -  
+  loc_nonsp<5:7> PERF -  
+  card<5:7>(1) PERS 3  
+  card<5:7>(1) NUM sg  
+}
+

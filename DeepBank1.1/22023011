@@ -1,0 +1,332 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:06 h)).
+;;;
+
+[22023011] (1 of 1) {1} `Today, there are 77 units, all located in shopping malls.'
+
+[22023011:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Today", 0, "null", "NN" 0.8861 "NNP" 0.1139)
+  (2, 1, 2, <5:6>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <7:12>, 1, "there", 0, "null", "EX" 1.0)
+  (4, 3, 4, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <17:19>, 1, "77", 0, "null", "CD" 1.0)
+  (6, 5, 6, <20:25>, 1, "units", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <25:26>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <27:30>, 1, "all", 0, "null", "DT" 0.5325 "RB" 0.4593 "PDT" 0.0082)
+  (9, 8, 9, <31:38>, 1, "located", 0, "null", "VBN" 0.9632 "JJ" 0.0368)
+  (10, 9, 10, <39:41>, 1, "in", 0, "null", "IN" 1.0)
+  (11, 10, 11, <42:50>, 1, "shopping", 0, "null", "NN" 0.8186 "VBG" 0.1814)
+  (12, 11, 12, <51:56>, 1, "malls", 0, "null", "NNS" 1.0)
+  (13, 12, 13, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (147, 0, 1, <0:6>, 1, "Today,", 0, "null")
+  (154, 0, 1, <0:6>, 1, "today,", 0, "null")
+  (164, 0, 1, <0:6>, 1, "today,", 0, "null")
+  (132, 1, 2, <7:12>, 1, "there", 0, "null")
+  (157, 1, 2, <7:12>, 1, "there", 0, "null")
+  (134, 2, 3, <13:16>, 1, "are", 0, "null")
+  (150, 2, 3, <13:16>, 1, "are", 0, "null", "VBP" 1.0)
+  (158, 2, 3, <13:16>, 1, "are", 0, "null")
+  (112, 3, 4, <17:19>, 1, "77", 0, "null")
+  (155, 3, 4, <17:19>, 1, "77", 0, "null")
+  (136, 4, 5, <20:26>, 1, "units,", 0, "null")
+  (151, 4, 5, <20:26>, 1, "units,", 0, "null", "NNS" 1.0)
+  (159, 4, 5, <20:26>, 1, "units,", 0, "null")
+  (139, 5, 6, <27:30>, 1, "all", 0, "null")
+  (149, 5, 6, <27:30>, 1, "all", 0, "null", "RB" 0.4593)
+  (161, 5, 6, <27:30>, 1, "all", 0, "null")
+  (140, 6, 7, <31:38>, 1, "located", 0, "null")
+  (148, 6, 7, <31:38>, 1, "located", 0, "null", "VBN" 0.9632)
+  (162, 6, 7, <31:38>, 1, "located", 0, "null")
+  (130, 7, 8, <39:41>, 1, "in", 0, "null")
+  (156, 7, 8, <39:41>, 1, "in", 0, "null")
+  (142, 8, 9, <42:50>, 1, "shopping", 0, "null")
+  (153, 8, 9, <42:50>, 1, "shopping", 0, "null", "VBG" 0.1814)
+  (163, 8, 9, <42:50>, 1, "shopping", 0, "null")
+  (138, 9, 10, <51:57>, 1, "malls.", 0, "null")
+  (152, 9, 10, <51:57>, 1, "malls.", 0, "null", "NNS" 1.0)
+  (160, 9, 10, <51:57>, 1, "malls.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5938 FLR-HD_NWH_C 13.5434 0 10
+  (5915 NP_ADV_C 2.92517 0 1
+   (5914 HDN_BNP-QNT_C 2.77669 0 1
+    (5913 W_COMMA_PLR 2.33033 0 1
+     (171 today_np@n_-_ad-time_le 1.09441 0 1
+      ("today," 154
+       "token [ +CARG \"Today\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"today,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88605259999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (5937 ^SB-HD_NMC_C 9.62459 1 10
+   (178 there_expl@n_-_pr-there-x_le 1.16429 1 2
+    ("there" 132
+     "token [ +CARG #1=\"there\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"EX\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (5936 ^HD_XAJ-INT-VP_C 8.00108 2 10
+    (5935 HD_OPTCMP_C 7.46067 2 10
+     (5934 HD-CMP_U_C 5.54825 2 10
+      (185 be_th_cop_are@v_np-xp_are_le 0.590737 2 3
+       ("are" 134
+        "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (5933 SP-HD_N_C 4.297 3 10
+       (5916 NUM_DET_C 0.221839 3 4
+        (188 generic_card_ne@aj_-_i-crd-gen_le 0 3 4
+         ("77" 112
+          "token [ +CARG #1=\"77\" +CLASS card_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+       (5932 ^HDN-AJ_RC-PR_C 3.68733 4 10
+        (5919 ^HDN_OPTCMP_C 0.854021 4 5
+         (5918 W_COMMA_PLR 0.707152 4 5
+          (5917 N_PL_OLR 0.129329 4 5
+           (214 unit_n1@n_pp_c-of_le 0 4 5
+            ("units," 136
+             "token [ +CARG \"units\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"units,\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+        (5931 VP_RC-REDREL_C 3.11271 5 10
+         (5930 AJ-HD_INT_C 2.87112 5 10
+          (291 all_adv1@av_-_i-vp-x_le -0.822458 5 6
+           ("all" 139
+            "token [ +CARG #1=\"all\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.53253309999999998\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+          (5929 ^HD-CMP_U_C 1.7938 6 10
+           (5921 ^HD_OPTCMP_C 0.513152 6 7
+            (5920 V_PAS_ODLR 0.777845 6 7
+             (398 locate_v2@v_np-pp_prop_le 0 6 7
+              ("located" 140
+               "token [ +CARG #1=\"located\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96318519999999996\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+           (5928 HD-CMP_U_C -0.441131 7 10
+            (511 in@p_np_i-reg_le -0.487424 7 8
+             ("in" 130
+              "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+            (5927 HDN_BNP_C -0.256646 8 10
+             (5926 N-HDN_CPD_C 0.13231 8 10
+              (5923 V_NGER-INTR_DLR -0.595253 8 9
+               (5922 V_PRP_OLR -0.126743 8 9
+                (558 shop_v1@v_-_le 1.06541 8 9
+                 ("shopping" 142
+                  "token [ +CARG #1=\"shopping\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"11\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81864709999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+              (5925 ^W_PERIOD_PLR 0.164979 9 10
+               (5924 N_PL_OLR 0.634532 9 10
+                (572 mall_n1@n_-_c_le 0 9 10
+                 ("malls." 138
+                  "token [ +CARG \"malls\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"malls.\" +FROM #1=\"51\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))))))))
+
+(S (PP (NP (N (N "today,"))))
+ (S/PP (NP-X "there")
+  (VP/PP
+   (VP
+    (V (V "are")
+     (NP (DET (ADJ "77"))
+      (N (N (N (N (N "units,"))))
+       (S
+        (VP (ADV "all")
+         (VP (V (V (V "located")))
+          (PP (P "in")
+           (NP
+            (N (N (VP (V "shopping"))) (N (N (N "malls."))))))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:57>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ loc_nonsp<0:6>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<0:6>
+            LBL: h7
+            ARG0: x6 ]
+          [ def_implicit_q<0:6>
+            LBL: h8
+            ARG0: x6
+            RSTR: h9
+            BODY: h10 ]
+          [ _today_a_1<0:6>
+            LBL: h7
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _be_v_there<13:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x12 [ x PERS: 3 NUM: PL GEND: N IND: + ] ]
+          [ udef_q<17:19>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ card<17:19>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x12
+            CARG: "77" ]
+          [ _unit_n_of<20:26>
+            LBL: h16
+            ARG0: x12
+            ARG1: i18 ]
+          [ _all_a_1<27:30>
+            LBL: h16
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _locate_v_1<31:38>
+            LBL: h16
+            ARG0: e20
+            ARG1: i21
+            ARG2: x12
+            ARG3: h22 ]
+          [ parg_d<31:38>
+            LBL: h16
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x12 ]
+          [ _in_p<39:41>
+            LBL: h24
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x12
+            ARG2: x26 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<42:57>
+            LBL: h27
+            ARG0: x26
+            RSTR: h28
+            BODY: h29 ]
+          [ compound<42:57>
+            LBL: h30
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x26
+            ARG2: x31 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<42:50>
+            LBL: h33
+            ARG0: x31
+            RSTR: h34
+            BODY: h35 ]
+          [ _shop_v_buy<42:50>
+            LBL: h36
+            ARG0: e37 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i38 ]
+          [ nominalization<42:50>
+            LBL: h39
+            ARG0: x31
+            ARG1: h36 ]
+          [ _mall_n_1<51:57>
+            LBL: h30
+            ARG0: x26 ] >
+   HCONS: < h34 QEQ h39 h28 QEQ h30 h22 QEQ h24 h14 QEQ h16 h9 QEQ h7 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:57>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:loc_nonsp<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ x6:time_n<0:6>{x PERS 3, NUM sg}[]
+ _1:def_implicit_q<0:6>[BV x6]
+ e11:_today_a_1<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e3:_be_v_there<13:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x12]
+ _2:udef_q<17:19>[BV x12]
+ e17:card<17:19>("77"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x12]
+ x12:_unit_n_of<20:26>{x PERS 3, NUM pl, GEND n, IND +}[]
+ e19:_all_a_1<27:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e20:_locate_v_1<31:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x12, ARG3 e25]
+ e23:parg_d<31:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x12]
+ e25:_in_p<39:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x12, ARG2 x26]
+ _3:udef_q<42:57>[BV x26]
+ e32:compound<42:57>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x26, ARG2 x31]
+ _4:udef_q<42:50>[BV x31]
+ e37:_shop_v_buy<42:50>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x31:nominalization<42:50>{x PERS 3, NUM sg, GEND n}[ARG1 e37]
+ x26:_mall_n_1<51:57>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  focus_d<0:57> ARG1 _be_v_there<13:16>  
+  focus_d<0:57> ARG2 loc_nonsp<0:6>  
+  loc_nonsp<0:6> ARG1 _be_v_there<13:16>  
+  loc_nonsp<0:6> ARG2 time_n<0:6>  
+  def_implicit_q<0:6> BV time_n<0:6>  
+  _today_a_1<0:6> ARG1 time_n<0:6>  
+  _be_v_there<13:16> ARG1 _unit_n_of<20:26>  
+  udef_q<17:19> BV _unit_n_of<20:26>  
+  card<17:19>(77) ARG1 _unit_n_of<20:26>  
+  _all_a_1<27:30> ARG1 _locate_v_1<31:38>  
+  _locate_v_1<31:38> ARG2 _unit_n_of<20:26>  
+  _locate_v_1<31:38> ARG3 _in_p<39:41>  
+  parg_d<31:38> ARG1 _locate_v_1<31:38>  
+  parg_d<31:38> ARG2 _unit_n_of<20:26>  
+  _in_p<39:41> ARG1 _unit_n_of<20:26>  
+  _in_p<39:41> ARG2 _mall_n_1<51:57>  
+  udef_q<42:57> BV _mall_n_1<51:57>  
+  compound<42:57> ARG1 _mall_n_1<51:57>  
+  compound<42:57> ARG2 nominalization<42:50>  
+  udef_q<42:50> BV nominalization<42:50>  
+  nominalization<42:50> ARG1 _shop_v_buy<42:50>  
+  focus_d<0:57> SF prop  
+  focus_d<0:57> TENSE untensed  
+  focus_d<0:57> MOOD indicative  
+  focus_d<0:57> PROG -  
+  focus_d<0:57> PERF -  
+  loc_nonsp<0:6> SF prop  
+  loc_nonsp<0:6> TENSE untensed  
+  loc_nonsp<0:6> MOOD indicative  
+  loc_nonsp<0:6> PROG -  
+  loc_nonsp<0:6> PERF -  
+  time_n<0:6> PERS 3  
+  time_n<0:6> NUM sg  
+  _today_a_1<0:6> SF prop  
+  _today_a_1<0:6> TENSE untensed  
+  _today_a_1<0:6> MOOD indicative  
+  _today_a_1<0:6> PROG -  
+  _today_a_1<0:6> PERF -  
+  _be_v_there<13:16> SF prop  
+  _be_v_there<13:16> TENSE pres  
+  _be_v_there<13:16> MOOD indicative  
+  _be_v_there<13:16> PROG -  
+  _be_v_there<13:16> PERF -  
+  card<17:19>(77) SF prop  
+  card<17:19>(77) TENSE untensed  
+  card<17:19>(77) MOOD indicative  
+  card<17:19>(77) PROG -  
+  card<17:19>(77) PERF -  
+  _unit_n_of<20:26> PERS 3  
+  _unit_n_of<20:26> NUM pl  
+  _unit_n_of<20:26> GEND n  
+  _unit_n_of<20:26> IND +  
+  _all_a_1<27:30> SF prop  
+  _all_a_1<27:30> TENSE untensed  
+  _all_a_1<27:30> MOOD indicative  
+  _all_a_1<27:30> PROG -  
+  _all_a_1<27:30> PERF -  
+  _locate_v_1<31:38> SF prop  
+  _locate_v_1<31:38> TENSE untensed  
+  _locate_v_1<31:38> MOOD indicative  
+  _locate_v_1<31:38> PROG -  
+  _locate_v_1<31:38> PERF -  
+  parg_d<31:38> SF prop  
+  parg_d<31:38> TENSE untensed  
+  parg_d<31:38> MOOD indicative  
+  parg_d<31:38> PROG -  
+  parg_d<31:38> PERF -  
+  _in_p<39:41> SF prop  
+  _in_p<39:41> TENSE untensed  
+  _in_p<39:41> MOOD indicative  
+  _in_p<39:41> PROG -  
+  _in_p<39:41> PERF -  
+  compound<42:57> SF prop  
+  compound<42:57> TENSE untensed  
+  compound<42:57> MOOD indicative  
+  compound<42:57> PROG -  
+  compound<42:57> PERF -  
+  _shop_v_buy<42:50> SF prop  
+  _shop_v_buy<42:50> TENSE untensed  
+  _shop_v_buy<42:50> MOOD indicative  
+  _shop_v_buy<42:50> PROG +  
+  _shop_v_buy<42:50> PERF -  
+  nominalization<42:50> PERS 3  
+  nominalization<42:50> NUM sg  
+  nominalization<42:50> GEND n  
+  _mall_n_1<51:57> PERS 3  
+  _mall_n_1<51:57> NUM pl  
+  _mall_n_1<51:57> IND +  
+}
+

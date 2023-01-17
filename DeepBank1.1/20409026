@@ -1,0 +1,102 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:45 h)).
+;;;
+
+[20409026] (1 of 1) {1} `Electronic gimmicks are key.'
+
+[20409026:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Electronic", 0, "null", "JJ" 0.7882 "NNP" 0.2118)
+  (2, 1, 2, <11:19>, 1, "gimmicks", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <20:23>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <24:27>, 1, "key", 0, "null", "JJ" 0.941 "NN" 0.059)
+  (5, 4, 5, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:10>, 1, "Electronic", 0, "null")
+  (60, 0, 1, <0:10>, 1, "Electronic", 0, "null", "JJ" 0.7882)
+  (64, 0, 1, <0:10>, 1, "electronic", 0, "null")
+  (68, 0, 1, <0:10>, 1, "electronic", 0, "null")
+  (52, 1, 2, <11:19>, 1, "gimmicks", 0, "null")
+  (62, 1, 2, <11:19>, 1, "gimmicks", 0, "null", "NNS" 1.0)
+  (65, 1, 2, <11:19>, 1, "gimmicks", 0, "null")
+  (54, 2, 3, <20:23>, 1, "are", 0, "null")
+  (63, 2, 3, <20:23>, 1, "are", 0, "null", "VBP" 1.0)
+  (66, 2, 3, <20:23>, 1, "are", 0, "null")
+  (57, 3, 4, <24:28>, 1, "key.", 0, "null")
+  (61, 3, 4, <24:28>, 1, "key.", 0, "null", "JJ" 0.941)
+  (67, 3, 4, <24:28>, 1, "key.", 0, "null")
+>
+
+(ROOT_STRICT
+ (415 SB-HD_MC_C 4.45312 0 4
+  (412 HDN_BNP_C 1.73153 0 2
+   (411 AJ-HDN_NORM_C 0.997028 0 2
+    (71 electronic_a1@aj_-_i_le 0 0 1
+     ("electronic" 64
+      "token [ +CARG \"Electronic\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"electronic\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7882036\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (76 generic_pl_noun@n_-_c-pl-unk_le 0 1 2
+     ("gimmicks" 62
+      "token [ +CARG #1=\"gimmicks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_gimmicks/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (414 ^HD-CMP_U_C 1.20568 2 4
+   (81 be_c_are@v_prd_are_le -0.172756 2 3
+    ("are" 54
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (413 W_PERIOD_PLR 0.012616 3 4
+    (88 key_a1@aj_-_i-prd_le 0 3 4
+     ("key." 57
+      "token [ +CARG \"key\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"key.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94098680000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (AP "electronic") (N "gimmicks")))
+ (VP (V "are") (AP (AP "key."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:19>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _electronic_a_1<0:10>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _gimmicks/nns_u_unknown<11:19>
+            LBL: h8
+            ARG0: x6 ]
+          [ _key_a_1<24:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:19>[BV x6]
+ e9:_electronic_a_1<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_gimmicks/nns_u_unknown<11:19>{x PERS 3, NUM pl}[]
+ e3:_key_a_1<24:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:19> BV _gimmicks/nns_u_unknown<11:19>  
+  _electronic_a_1<0:10> ARG1 _gimmicks/nns_u_unknown<11:19>  
+  _key_a_1<24:28> ARG1 _gimmicks/nns_u_unknown<11:19>  
+  _electronic_a_1<0:10> SF prop  
+  _electronic_a_1<0:10> TENSE untensed  
+  _electronic_a_1<0:10> MOOD indicative  
+  _electronic_a_1<0:10> PROG -  
+  _electronic_a_1<0:10> PERF -  
+  _gimmicks/nns_u_unknown<11:19> PERS 3  
+  _gimmicks/nns_u_unknown<11:19> NUM pl  
+  _key_a_1<24:28> SF prop  
+  _key_a_1<24:28> TENSE pres  
+  _key_a_1<24:28> MOOD indicative  
+  _key_a_1<24:28> PROG -  
+  _key_a_1<24:28> PERF -  
+}
+

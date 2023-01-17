@@ -1,0 +1,78 @@
+;;;
+;;; Redwoods export of `wsj19c';
+;;; (wsun@wsun; 23-jan-2018 (04:22 h)).
+;;;
+
+[21946041] (1 of 1) {1} `QUOTABLE:'
+
+[21946041:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "QUOTABLE", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <8:9>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (20, 0, 1, <0:8>, 1, "QUOTABLE", 0, "null")
+  (25, 0, 1, <0:8>, 1, "QUOTABLE", 0, "null", "JJ" 1.0)
+  (26, 0, 1, <0:8>, 1, "quotable", 0, "null")
+  (27, 0, 1, <0:8>, 1, "quotable", 0, "null")
+  (24, 1, 2, <8:9>, 1, ":", 0, "null")
+  (28, 1, 2, <8:9>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (109 J_FRG_C 0.328842 0 2
+  (108 HD-AJ_INT-UNSL_C 0.527049 0 2
+   (31 generic_adj@aj_-_i-unk_le 0 0 1
+    ("QUOTABLE" 25
+     "token [ +CARG #1=\"QUOTABLE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_quotable/JJ_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"JJ\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+   (41 colon_namely_pp@pp_-_i-cln_le 0.0128037 1 2
+    (":" 24
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (AP (AP "QUOTABLE") (PP ":")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _quotable/jj_u_unknown<0:8>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u4 ]
+          [ _colon_p_namely<8:9>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e5 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_quotable/jj_u_unknown<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e6:_colon_p_namely<8:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5]
+}
+
+{
+  _colon_p_namely<8:9> ARG1 _quotable/jj_u_unknown<0:8>  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  _quotable/jj_u_unknown<0:8> SF prop  
+  _quotable/jj_u_unknown<0:8> TENSE untensed  
+  _quotable/jj_u_unknown<0:8> MOOD indicative  
+  _quotable/jj_u_unknown<0:8> PROG -  
+  _quotable/jj_u_unknown<0:8> PERF -  
+  _colon_p_namely<8:9> SF prop  
+  _colon_p_namely<8:9> TENSE untensed  
+  _colon_p_namely<8:9> MOOD indicative  
+  _colon_p_namely<8:9> PROG -  
+  _colon_p_namely<8:9> PERF -  
+}
+

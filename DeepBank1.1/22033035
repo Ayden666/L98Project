@@ -1,0 +1,133 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:12 h)).
+;;;
+
+[22033035] (1 of 1) {1} `Brown's story:'
+
+[22033035:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Brown", 0, "null", "NNP" 0.8115 "JJ" 0.1885)
+  (2, 1, 2, <5:7>, 1, "’s", 0, "null", "NNS" 0.4478 "JJ" 0.2994 "VBZ" 0.1622 "NN" 0.0803 "FW" 0.0054 "CD" 0.0048)
+  (3, 2, 3, <8:13>, 1, "story", 0, "null", "NN" 1.0)
+  (4, 3, 4, <13:14>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (57, 0, 1, <0:5>, 1, "Brown", 0, "null")
+  (62, 0, 1, <0:5>, 1, "Brown", 0, "null", "JJ" 0.1885)
+  (63, 0, 1, <0:5>, 1, "brown", 0, "null")
+  (67, 0, 1, <0:5>, 1, "brown", 0, "null")
+  (55, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (58, 1, 2, <5:7>, 1, "’s", 0, "null", "NNS" 0.4478)
+  (59, 1, 2, <5:7>, 1, "’s", 0, "null", "JJ" 0.2994)
+  (60, 1, 2, <5:7>, 1, "’s", 0, "null", "VBZ" 0.1622)
+  (66, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (50, 2, 3, <8:13>, 1, "story", 0, "null")
+  (61, 2, 3, <8:13>, 1, "story", 0, "null", "NN" 1.0)
+  (64, 2, 3, <8:13>, 1, "story", 0, "null")
+  (52, 3, 4, <13:14>, 1, ":", 0, "null")
+  (65, 3, 4, <13:14>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (645 NP-AJ_RORP-FRG_C 3.93135 0 4
+  (644 ^SP-HD_N_C 3.96362 0 3
+   (641 SP-HD_HC_C 2.10386 0 2
+    (640 HDN_BNP-PN_C 0.740217 0 1
+     (639 N_SG_ILR 0.125385 0 1
+      (71 brown_n1@n_-_pn_le 0.429392 0 1
+       ("brown" 63
+        "token [ +CARG \"Brown\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"brown\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81153560000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (77 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 1 2
+     ("’s" 55
+      "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.44781670000000001\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (643 ^HDN_OPTCMP_C 2.05171 2 3
+    (642 N_SG_ILR 2.20834 2 3
+     (336 story_n1@n_pp_c-of_le 1.13643 2 3
+      ("story" 50
+       "token [ +CARG #1=\"story\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (349 colon_namely_pp@pp_-_i-cln_le -0.0322658 3 4
+   (":" 52
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (DET (NP (N (N "brown"))) (DET "’s")) (N (N (N "story"))))
+ (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h5
+            ARG0: x7 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h6
+            BODY: h8 ]
+          [ named<0:5>
+            LBL: h9
+            ARG0: x7
+            CARG: "Brown" ]
+          [ def_explicit_q<5:7>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ poss<5:7>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x7 ]
+          [ _story_n_of<8:13>
+            LBL: h13
+            ARG0: x4
+            ARG1: i15 ]
+          [ _colon_p_namely<13:14>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i16 ] >
+   HCONS: < h11 QEQ h13 h6 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:5>[BV x7]
+ x7:named<0:5>("Brown"){x PERS 3, NUM sg, IND +}[]
+ _2:def_explicit_q<5:7>[BV x4]
+ e14:poss<5:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x7]
+ x4:_story_n_of<8:13>{x PERS 3, NUM sg, IND +}[]
+ e17:_colon_p_namely<13:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:14> ARG _story_n_of<8:13>  
+  proper_q<0:5> BV named<0:5>(Brown)  
+  def_explicit_q<5:7> BV _story_n_of<8:13>  
+  poss<5:7> ARG1 _story_n_of<8:13>  
+  poss<5:7> ARG2 named<0:5>(Brown)  
+  unknown<0:14> SF prop  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  named<0:5>(Brown) PERS 3  
+  named<0:5>(Brown) NUM sg  
+  named<0:5>(Brown) IND +  
+  poss<5:7> SF prop  
+  poss<5:7> TENSE untensed  
+  poss<5:7> MOOD indicative  
+  poss<5:7> PROG -  
+  poss<5:7> PERF -  
+  _story_n_of<8:13> PERS 3  
+  _story_n_of<8:13> NUM sg  
+  _story_n_of<8:13> IND +  
+  _colon_p_namely<13:14> SF prop  
+  _colon_p_namely<13:14> TENSE untensed  
+  _colon_p_namely<13:14> MOOD indicative  
+  _colon_p_namely<13:14> PROG -  
+  _colon_p_namely<13:14> PERF -  
+}
+

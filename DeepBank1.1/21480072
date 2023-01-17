@@ -1,0 +1,224 @@
+;;;
+;;; Redwoods export of `wsj14d';
+;;; (wsun@wsun; 22-jan-2018 (23:41 h)).
+;;;
+
+[21480072] (1 of 1) {1} `Winnebago Industries slid 5/8 to 5 1/4.'
+
+[21480072:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Winnebago", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:20>, 1, "Industries", 0, "null", "NNP" 0.6542 "NNPS" 0.3458)
+  (3, 2, 3, <21:25>, 1, "slid", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <26:29>, 1, "5/8", 0, "null", "CD" 1.0)
+  (5, 4, 5, <30:32>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <33:34>, 1, "5", 0, "null", "CD" 1.0)
+  (7, 6, 7, <35:38>, 1, "1/4", 0, "null", "CD" 1.0)
+  (8, 7, 8, <38:39>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (89, 0, 1, <0:9>, 1, "Winnebago", 0, "null")
+  (93, 0, 1, <0:9>, 1, "winnebago", 0, "null")
+  (102, 0, 1, <0:9>, 1, "winnebago", 0, "null")
+  (74, 1, 2, <10:20>, 1, "Industries", 0, "null")
+  (90, 1, 2, <10:20>, 1, "Industries", 0, "null", "NNP" 0.6542)
+  (92, 1, 2, <10:20>, 1, "Industries", 0, "null", "NNPS" 0.3458)
+  (94, 1, 2, <10:20>, 1, "industries", 0, "null")
+  (96, 1, 2, <10:20>, 1, "industries", 0, "null")
+  (86, 2, 3, <21:25>, 1, "slid", 0, "null")
+  (91, 2, 3, <21:25>, 1, "slid", 0, "null", "VBD" 1.0)
+  (101, 2, 3, <21:25>, 1, "slid", 0, "null")
+  (70, 3, 4, <26:29>, 1, "5/8", 0, "null")
+  (72, 3, 4, <26:29>, 1, "5/8", 0, "null")
+  (95, 3, 4, <26:29>, 1, "5/8", 0, "null")
+  (84, 4, 5, <30:32>, 1, "to", 0, "null")
+  (100, 4, 5, <30:32>, 1, "to", 0, "null")
+  (75, 5, 6, <33:34>, 1, "5", 0, "null")
+  (97, 5, 6, <33:34>, 1, "5", 0, "null")
+  (77, 6, 7, <35:39>, 1, "1/4.", 0, "null")
+  (78, 6, 7, <35:39>, 1, "1/4.", 0, "null")
+  (98, 6, 7, <35:39>, 1, "1/4.", 0, "null")
+  (99, 6, 7, <35:39>, 1, "1/4.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2076 SB-HD_MC_C 10.0572 0 7
+  (2062 HDN_BNP-PN_C 2.79359 0 2
+   (2061 NP-HDN_NME-CPD_C 2.25387 0 2
+    (2059 HDN_BNP-PN_C 0.365523 0 1
+     (2058 N_SG_ILR -0.386912 0 1
+      (104 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Winnebago" 89
+        "token [ +CARG #1=\"Winnebago\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (2060 ^N_SG_ILR 0.57077 1 2
+     (107 generic_proper_ne@n_-_pn-gen_le 0.714027 1 2
+      ("Industries" 74
+       "token [ +CARG #1=\"Industries\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65423410000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2075 ^HD-AJ_INT-UNSL_C 6.77609 2 7
+   (2068 ^HD-AJ_INT-UNSL_C 4.07667 2 4
+    (2064 ^HD_OPTCMP_C 2.82704 2 3
+     (2063 V_PST_OLR 1.33648 2 3
+      (149 slide_v2@v_pp*_dir_le 0.741117 2 3
+       ("slid" 86
+        "token [ +CARG #1=\"slid\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2067 NP_ADV-MNP_C 0.0665469 3 4
+     (2066 HDN_BNP-NUM_C 0.806083 3 4
+      (2065 HDN_NP-NUM_C 1.21714 3 4
+       (174 generic_fract_ne@aj_-_i-frct-gen_le 0 3 4
+        ("5/8" 72
+         "token [ +CARG #1=\"5/8\" +CLASS frct_ne +FORM #1 +FROM \"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (2074 HD-CMP_U_C 1.14104 4 7
+    (199 to@p_np_i-nnm_le -0.649111 4 5
+     ("to" 84
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2073 HDN_BNP-NUM_C 1.27952 5 7
+     (2072 HDN_NP-NUM_C 0.760882 5 7
+      (2071 XP_BRCK-PR_C 0.077226 5 7
+       (2070 HD-CMP_U_C 0.167106 5 7
+        (252 generic_card_np_ne@aj_np_i-crd-gen_le 0 5 6
+         ("5" 75
+          "token [ +CARG #1=\"5\" +CLASS card_ne +FORM #1 +FROM \"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (2069 W_PERIOD_PLR 0 6 7
+         (257 generic_fract_ne@aj_-_i-frct-gen_le 0 6 7
+          ("1/4." 78
+           "token [ +CARG \"1/4\" +CLASS frct_ne +FORM \"1/4.\" +FROM \"35\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S (NP (N (NP (N (N "Winnebago"))) (N (N "Industries"))))
+ (VP (VP (VP (V (V "slid"))) (PP (NP (N (ADJ "5/8")))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "5") (ADJ (ADJ "1/4.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:20>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Winnebago" ]
+          [ named<10:20>
+            LBL: h8
+            ARG0: x6
+            CARG: "Industries" ]
+          [ _slide_v_1<21:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<26:29>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<26:29>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ fraction<26:29>
+            LBL: h20
+            ARG0: i22
+            ARG1: i21
+            CARG: "5/8" ]
+          [ _to_p<30:32>
+            LBL: h2
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x24 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<33:39>
+            LBL: h25
+            ARG0: x24
+            RSTR: h26
+            BODY: h27 ]
+          [ card<33:34>
+            LBL: h28
+            ARG0: x24
+            ARG1: i29
+            CARG: "5" ]
+          [ plus<33:34>
+            LBL: h30
+            ARG0: i32
+            ARG1: i29
+            ARG2: h28
+            ARG3: h31 ]
+          [ fraction<35:39>
+            LBL: h31
+            ARG0: i33
+            ARG1: i29
+            CARG: "1/4" ] >
+   HCONS: < h26 QEQ h30 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:20>[BV x6]
+ e10:compound<0:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ x9:named<0:9>("Winnebago"){x PERS 3, NUM sg, IND +}[]
+ x6:named<10:20>("Industries"){x PERS 3, NUM sg, IND +}[]
+ e3:_slide_v_1<21:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<26:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _3:number_q<26:29>[]
+ i22:fraction<26:29>("5/8"){i}[]
+ e23:_to_p<30:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x24]
+ _4:number_q<33:39>[BV x24]
+ x24:card<33:34>("5"){x PERS 3, NUM sg}[]
+ i32:plus<33:34>{i}[ARG2 x24, ARG3 i33]
+ i33:fraction<35:39>("1/4"){i}[]
+}
+
+{
+  proper_q<0:20> BV named<10:20>(Industries)  
+  compound<0:20> ARG1 named<10:20>(Industries)  
+  compound<0:20> ARG2 named<0:9>(Winnebago)  
+  proper_q<0:9> BV named<0:9>(Winnebago)  
+  _slide_v_1<21:25> ARG1 named<10:20>(Industries)  
+  loc_nonsp<26:29> ARG1 _slide_v_1<21:25>  
+  _to_p<30:32> ARG1 _slide_v_1<21:25>  
+  _to_p<30:32> ARG2 card<33:34>(5)  
+  number_q<33:39> BV card<33:34>(5)  
+  plus<33:34> ARG2 card<33:34>(5)  
+  plus<33:34> ARG3 fraction<35:39>(1/4)  
+  compound<0:20> SF prop  
+  compound<0:20> TENSE untensed  
+  compound<0:20> MOOD indicative  
+  compound<0:20> PROG -  
+  compound<0:20> PERF -  
+  named<0:9>(Winnebago) PERS 3  
+  named<0:9>(Winnebago) NUM sg  
+  named<0:9>(Winnebago) IND +  
+  named<10:20>(Industries) PERS 3  
+  named<10:20>(Industries) NUM sg  
+  named<10:20>(Industries) IND +  
+  _slide_v_1<21:25> SF prop  
+  _slide_v_1<21:25> TENSE past  
+  _slide_v_1<21:25> MOOD indicative  
+  _slide_v_1<21:25> PROG -  
+  _slide_v_1<21:25> PERF -  
+  loc_nonsp<26:29> SF prop  
+  loc_nonsp<26:29> TENSE untensed  
+  loc_nonsp<26:29> MOOD indicative  
+  loc_nonsp<26:29> PROG -  
+  loc_nonsp<26:29> PERF -  
+  _to_p<30:32> SF prop  
+  _to_p<30:32> TENSE untensed  
+  _to_p<30:32> MOOD indicative  
+  _to_p<30:32> PROG -  
+  _to_p<30:32> PERF -  
+  card<33:34>(5) PERS 3  
+  card<33:34>(5) NUM sg  
+}
+

@@ -1,0 +1,215 @@
+;;;
+;;; Redwoods export of `wsj05b';
+;;; (wsun@wsun; 22-jan-2018 (15:01 h)).
+;;;
+
+[20530037] (1 of 1) {1} `Brooks Brothers is also remodeling its stores.'
+
+[20530037:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Brooks", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:15>, 1, "Brothers", 0, "null", "NNP" 0.7743 "NNPS" 0.2257)
+  (3, 2, 3, <16:18>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <19:23>, 1, "also", 0, "null", "RB" 1.0)
+  (5, 4, 5, <24:34>, 1, "remodeling", 0, "null", "VBG" 1.0)
+  (6, 5, 6, <35:38>, 1, "its", 0, "null", "PRP$" 1.0)
+  (7, 6, 7, <39:45>, 1, "stores", 0, "null", "NNS" 1.0)
+  (8, 7, 8, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:6>, 1, "Brooks", 0, "null")
+  (99, 0, 1, <0:6>, 1, "brooks", 0, "null")
+  (107, 0, 1, <0:6>, 1, "brooks", 0, "null")
+  (74, 1, 2, <7:15>, 1, "Brothers", 0, "null")
+  (93, 1, 2, <7:15>, 1, "Brothers", 0, "null", "NNP" 0.7743)
+  (98, 1, 2, <7:15>, 1, "Brothers", 0, "null", "NNPS" 0.2257)
+  (100, 1, 2, <7:15>, 1, "brothers", 0, "null")
+  (101, 1, 2, <7:15>, 1, "brothers", 0, "null")
+  (81, 2, 3, <16:18>, 1, "is", 0, "null")
+  (94, 2, 3, <16:18>, 1, "is", 0, "null", "VBZ" 1.0)
+  (102, 2, 3, <16:18>, 1, "is", 0, "null")
+  (83, 3, 4, <19:23>, 1, "also", 0, "null")
+  (95, 3, 4, <19:23>, 1, "also", 0, "null", "RB" 1.0)
+  (103, 3, 4, <19:23>, 1, "also", 0, "null")
+  (85, 4, 5, <24:34>, 1, "remodeling", 0, "null")
+  (96, 4, 5, <24:34>, 1, "remodeling", 0, "null", "VBG" 1.0)
+  (104, 4, 5, <24:34>, 1, "remodeling", 0, "null")
+  (87, 5, 6, <35:38>, 1, "its", 0, "null")
+  (105, 5, 6, <35:38>, 1, "its", 0, "null")
+  (89, 6, 7, <39:46>, 1, "stores.", 0, "null")
+  (97, 6, 7, <39:46>, 1, "stores.", 0, "null", "NNS" 1.0)
+  (106, 6, 7, <39:46>, 1, "stores.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1574 SB-HD_MC_C 8.20462 0 7
+  (1565 HDN_BNP-PN_C 3.0273 0 2
+   (1564 NP-HDN_NME-CPD_C 2.48758 0 2
+    (1562 HDN_BNP-PN_C 0.731623 0 1
+     (1561 N_SG_ILR -0.020812 0 1
+      (122 brooks_n1@n_-_pn_le 0.145482 0 1
+       ("brooks" 99
+        "token [ +CARG \"Brooks\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"brooks\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1563 ^N_SG_ILR 0.438382 1 2
+     (127 generic_proper_ne@n_-_pn-gen_le 0.581639 1 2
+      ("Brothers" 74
+       "token [ +CARG #1=\"Brothers\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77425929999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1573 ^HD-CMP_U_C 4.16027 2 7
+   (185 be_c_is@v_prd_is_le 0.0636433 2 3
+    ("is" 81
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1572 AJ-HD_SCP-XP_C 2.40845 3 7
+    (271 also_adv1@av_-_s-vp-x_le -0.101015 3 4
+     ("also" 83
+      "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1571 ^HD-CMP_U_C 0.47654 4 7
+     (1567 ^V_V-RE_DLR -0.303341 4 5
+      (1566 V_PRP_OLR -0.503807 4 5
+       (290 model_v1@v_np*_le 0 4 5
+        ("remodeling" 85
+         "token [ +CARG #1=\"remodeling\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1570 SP-HD_N_C 0.656972 5 7
+      (326 its_poss@d_-_poss-its_le 0.582112 5 6
+       ("its" 87
+        "token [ +CARG #1=\"its\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1569 ^W_PERIOD_PLR 0.261218 6 7
+       (1568 N_PL_OLR 0.342144 6 7
+        (348 store_n1@n_-_c_le 0 6 7
+         ("stores." 89
+          "token [ +CARG \"stores\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"stores.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (NP (N (N "brooks"))) (N (N "Brothers"))))
+ (VP (V "is")
+  (VP (ADV "also")
+   (VP (V (V (V "remodeling")))
+    (NP (DET "its") (N (N (N "stores."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ proper_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Brooks" ]
+          [ named<7:15>
+            LBL: h8
+            ARG0: x6
+            CARG: "Brothers" ]
+          [ _also_a_1<19:23>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h16 ]
+          [ _model_v_1<24:34>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6
+            ARG2: x18 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _re-_a_again<24:34>
+            LBL: h17
+            ARG0: i19
+            ARG1: e3 ]
+          [ def_explicit_q<35:38>
+            LBL: h20
+            ARG0: x18
+            RSTR: h22
+            BODY: h21 ]
+          [ poss<35:38>
+            LBL: h23
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            ARG2: x24 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<35:38>
+            LBL: h26
+            ARG0: x24
+            RSTR: h27
+            BODY: h28 ]
+          [ pron<35:38>
+            LBL: h29
+            ARG0: x24 ]
+          [ _store_n_1<39:46>
+            LBL: h23
+            ARG0: x18 ] >
+   HCONS: < h27 QEQ h29 h22 QEQ h23 h16 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e15:
+ _1:proper_q<0:15>[BV x6]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Brooks"){x PERS 3, NUM sg, IND +}[]
+ x6:named<7:15>("Brothers"){x PERS 3, NUM sg, IND +}[]
+ e15:_also_a_1<19:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_model_v_1<24:34>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6, ARG2 x18]
+ i19:_re-_a_again<24:34>{i}[ARG1 e3]
+ _3:def_explicit_q<35:38>[BV x18]
+ e25:poss<35:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x24]
+ _4:pronoun_q<35:38>[BV x24]
+ x24:pron<35:38>{x PERS 3, NUM sg, GEND n, PT std}[]
+ x18:_store_n_1<39:46>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:15> BV named<7:15>(Brothers)  
+  compound<0:15> ARG1 named<7:15>(Brothers)  
+  compound<0:15> ARG2 named<0:6>(Brooks)  
+  proper_q<0:6> BV named<0:6>(Brooks)  
+  _also_a_1<19:23> ARG1 _model_v_1<24:34>  
+  _model_v_1<24:34> ARG1 named<7:15>(Brothers)  
+  _model_v_1<24:34> ARG2 _store_n_1<39:46>  
+  _re-_a_again<24:34> ARG1 _model_v_1<24:34>  
+  def_explicit_q<35:38> BV _store_n_1<39:46>  
+  poss<35:38> ARG1 _store_n_1<39:46>  
+  poss<35:38> ARG2 pron<35:38>  
+  pronoun_q<35:38> BV pron<35:38>  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  named<0:6>(Brooks) PERS 3  
+  named<0:6>(Brooks) NUM sg  
+  named<0:6>(Brooks) IND +  
+  named<7:15>(Brothers) PERS 3  
+  named<7:15>(Brothers) NUM sg  
+  named<7:15>(Brothers) IND +  
+  _also_a_1<19:23> SF prop  
+  _also_a_1<19:23> TENSE untensed  
+  _also_a_1<19:23> MOOD indicative  
+  _also_a_1<19:23> PROG -  
+  _also_a_1<19:23> PERF -  
+  _model_v_1<24:34> SF prop  
+  _model_v_1<24:34> TENSE pres  
+  _model_v_1<24:34> MOOD indicative  
+  _model_v_1<24:34> PROG +  
+  _model_v_1<24:34> PERF -  
+  poss<35:38> SF prop  
+  poss<35:38> TENSE untensed  
+  poss<35:38> MOOD indicative  
+  poss<35:38> PROG -  
+  poss<35:38> PERF -  
+  pron<35:38> PERS 3  
+  pron<35:38> NUM sg  
+  pron<35:38> GEND n  
+  pron<35:38> PT std  
+  _store_n_1<39:46> PERS 3  
+  _store_n_1<39:46> NUM pl  
+  _store_n_1<39:46> IND +  
+}
+

@@ -1,0 +1,82 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (11:01 h)).
+;;;
+
+[20108010] (1 of 1) {1} `It was outrageous.'
+
+[20108010:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <7:17>, 1, "outrageous", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:2>, 1, "it", 0, "null")
+  (49, 0, 1, <0:2>, 1, "it", 0, "null")
+  (41, 1, 2, <3:6>, 1, "was", 0, "null")
+  (44, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (47, 1, 2, <3:6>, 1, "was", 0, "null")
+  (43, 2, 3, <7:18>, 1, "outrageous.", 0, "null")
+  (45, 2, 3, <7:18>, 1, "outrageous.", 0, "null", "JJ" 1.0)
+  (48, 2, 3, <7:18>, 1, "outrageous.", 0, "null")
+>
+
+(ROOT_STRICT
+ (440 SB-HD_MC_C 4.46538 0 3
+  (437 HDN_BNP-QNT_C 0.430464 0 1
+   (51 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 46
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (439 ^HD-CMP_U_C 2.76557 1 3
+   (69 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 41
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (438 W_PERIOD_PLR 0.612486 2 3
+    (90 outrageous_isect@aj_-_i_le 0 2 3
+     ("outrageous." 43
+      "token [ +CARG \"outrageous\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"outrageous.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP "it")) (VP (V "was") (AP (AP "outrageous."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _outrageous_a_1<7:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_outrageous_a_1<7:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _outrageous_a_1<7:18> ARG1 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _outrageous_a_1<7:18> SF prop  
+  _outrageous_a_1<7:18> TENSE past  
+  _outrageous_a_1<7:18> MOOD indicative  
+  _outrageous_a_1<7:18> PROG -  
+  _outrageous_a_1<7:18> PERF -  
+}
+

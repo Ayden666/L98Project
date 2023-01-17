@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:07 h)).
+;;;
+
+[21327009] (1 of 1) {1} `Baker had lots of them.'
+
+[21327009:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Baker", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:9>, 1, "had", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <10:14>, 1, "lots", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <15:17>, 1, "of", 0, "null", "IN" 1.0)
+  (5, 4, 5, <18:22>, 1, "them", 0, "null", "PRP" 1.0)
+  (6, 5, 6, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:5>, 1, "Baker", 0, "null")
+  (69, 0, 1, <0:5>, 1, "baker", 0, "null")
+  (74, 0, 1, <0:5>, 1, "baker", 0, "null")
+  (59, 1, 2, <6:9>, 1, "had", 0, "null")
+  (67, 1, 2, <6:9>, 1, "had", 0, "null", "VBD" 1.0)
+  (70, 1, 2, <6:9>, 1, "had", 0, "null")
+  (61, 2, 3, <10:14>, 1, "lots", 0, "null")
+  (68, 2, 3, <10:14>, 1, "lots", 0, "null", "NNS" 1.0)
+  (71, 2, 3, <10:14>, 1, "lots", 0, "null")
+  (63, 3, 4, <15:17>, 1, "of", 0, "null")
+  (72, 3, 4, <15:17>, 1, "of", 0, "null")
+  (65, 4, 5, <18:23>, 1, "them.", 0, "null")
+  (73, 4, 5, <18:23>, 1, "them.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1342 SB-HD_MC_C 2.16446 0 5
+  (1333 HDN_BNP-PN_C 0.489307 0 1
+   (1332 N_SG_ILR 0.538263 0 1
+    (76 baker_n1@n_-_pn_le 0 0 1
+     ("baker" 69
+      "token [ +CARG \"Baker\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"baker\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1341 ^HD-CMP_U_C 0.658096 1 5
+   (1334 ^V_PST_OLR 0.588831 1 2
+    (98 have-poss@v_np_poss_le 0.692688 1 2
+     ("had" 59
+      "token [ +CARG #1=\"had\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1340 HDN_BNP_C -0.850912 2 5
+    (1339 HDN-AJ_REDREL_C -0.110356 2 5
+     (1335 ^N_PL_OLR -0.375218 2 3
+      (181 lot_n2@n_-_c-gr_le 0 2 3
+       ("lots" 61
+        "token [ +CARG #1=\"lots\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1338 HD-CMP_U_C -0.30486 3 5
+      (237 of_poss@p_np_i-nm-poss_le -0.152822 3 4
+       ("of" 63
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1337 HDN_BNP-QNT_C 0.447248 4 5
+       (1336 W_PERIOD_PLR 0 4 5
+        (320 them@n_-_pr-them_le 0 4 5
+         ("them." 65
+          "token [ +CARG \"them\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"them.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N "baker")))
+ (VP (V (V "had"))
+  (NP (N (N (N "lots")) (PP (P "of") (NP (NP (NP "them."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Baker" ]
+          [ _have_v_1<6:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<10:23>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _lot_n_1<10:14>
+            LBL: h13
+            ARG0: x9 ]
+          [ _of_p<15:17>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pron<18:23>
+            LBL: h16
+            ARG0: x15 ]
+          [ pronoun_q<18:23>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ] >
+   HCONS: < h18 QEQ h16 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Baker"){x PERS 3, NUM sg, IND +}[]
+ e3:_have_v_1<6:9>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<10:23>[BV x9]
+ x9:_lot_n_1<10:14>{x PERS 3, NUM pl, IND +}[]
+ e14:_of_p<15:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ x15:pron<18:23>{x PERS 3, NUM pl, PT std}[]
+ _3:pronoun_q<18:23>[BV x15]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Baker)  
+  _have_v_1<6:9> ARG1 named<0:5>(Baker)  
+  _have_v_1<6:9> ARG2 _lot_n_1<10:14>  
+  udef_q<10:23> BV _lot_n_1<10:14>  
+  _of_p<15:17> ARG1 _lot_n_1<10:14>  
+  _of_p<15:17> ARG2 pron<18:23>  
+  pronoun_q<18:23> BV pron<18:23>  
+  named<0:5>(Baker) PERS 3  
+  named<0:5>(Baker) NUM sg  
+  named<0:5>(Baker) IND +  
+  _have_v_1<6:9> SF prop  
+  _have_v_1<6:9> TENSE past  
+  _have_v_1<6:9> MOOD indicative  
+  _have_v_1<6:9> PROG -  
+  _have_v_1<6:9> PERF -  
+  _lot_n_1<10:14> PERS 3  
+  _lot_n_1<10:14> NUM pl  
+  _lot_n_1<10:14> IND +  
+  _of_p<15:17> SF prop  
+  _of_p<15:17> TENSE untensed  
+  _of_p<15:17> MOOD indicative  
+  _of_p<15:17> PROG -  
+  _of_p<15:17> PERF -  
+  pron<18:23> PERS 3  
+  pron<18:23> NUM pl  
+  pron<18:23> PT std  
+}
+

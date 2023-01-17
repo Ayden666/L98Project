@@ -1,0 +1,233 @@
+;;;
+;;; Redwoods export of `wsj10d';
+;;; (wsun@wsun; 22-jan-2018 (19:44 h)).
+;;;
+
+[21066004] (1 of 1) {1} `Mr. Ehrlich will continue as a director and a consultant.'
+
+[21066004:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Ehrlich", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:16>, 1, "will", 0, "null", "MD" 1.0)
+  (4, 3, 4, <17:25>, 1, "continue", 0, "null", "VB" 1.0)
+  (5, 4, 5, <26:28>, 1, "as", 0, "null", "IN" 0.9426 "RB" 0.0574)
+  (6, 5, 6, <29:30>, 1, "a", 0, "null", "DT" 1.0)
+  (7, 6, 7, <31:39>, 1, "director", 0, "null", "NN" 1.0)
+  (8, 7, 8, <40:43>, 1, "and", 0, "null", "CC" 1.0)
+  (9, 8, 9, <44:45>, 1, "a", 0, "null", "DT" 1.0)
+  (10, 9, 10, <46:56>, 1, "consultant", 0, "null", "NN" 1.0)
+  (11, 10, 11, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (125, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (131, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (141, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (101, 1, 2, <4:11>, 1, "Ehrlich", 0, "null")
+  (126, 1, 2, <4:11>, 1, "Ehrlich", 0, "null", "NNP" 1.0)
+  (130, 1, 2, <4:11>, 1, "ehrlich", 0, "null")
+  (132, 1, 2, <4:11>, 1, "ehrlich", 0, "null")
+  (110, 2, 3, <12:16>, 1, "will", 0, "null")
+  (133, 2, 3, <12:16>, 1, "will", 0, "null")
+  (112, 3, 4, <17:25>, 1, "continue", 0, "null")
+  (127, 3, 4, <17:25>, 1, "continue", 0, "null", "VB" 1.0)
+  (134, 3, 4, <17:25>, 1, "continue", 0, "null")
+  (123, 4, 5, <26:28>, 1, "as", 0, "null")
+  (140, 4, 5, <26:28>, 1, "as", 0, "null")
+  (114, 5, 6, <29:30>, 1, "a", 0, "null")
+  (135, 5, 6, <29:30>, 1, "a", 0, "null")
+  (116, 6, 7, <31:39>, 1, "director", 0, "null")
+  (128, 6, 7, <31:39>, 1, "director", 0, "null", "NN" 1.0)
+  (136, 6, 7, <31:39>, 1, "director", 0, "null")
+  (118, 7, 8, <40:43>, 1, "and", 0, "null")
+  (137, 7, 8, <40:43>, 1, "and", 0, "null")
+  (120, 8, 9, <44:45>, 1, "a", 0, "null")
+  (138, 8, 9, <44:45>, 1, "a", 0, "null")
+  (122, 9, 10, <46:57>, 1, "consultant.", 0, "null")
+  (129, 9, 10, <46:57>, 1, "consultant.", 0, "null", "NN" 1.0)
+  (139, 9, 10, <46:57>, 1, "consultant.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1443 SB-HD_MC_C 6.40784 0 10
+  (1429 HDN_BNP-PN_C 3.86187 0 2
+   (1428 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (1426 N_SG_ILR 2.02901 0 1
+     (149 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 131
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1427 ^N_SG_ILR -0.259177 1 2
+     (152 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Ehrlich" 101
+       "token [ +CARG #1=\"Ehrlich\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1442 ^HD-CMP_U_C 1.52892 2 10
+   (160 will_aux_pos@v_vp_will-p_le 2.13462 2 3
+    ("will" 110
+     "token [ +CARG #1=\"will\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1441 HD-AJ_INT-UNSL_C -0.909252 3 10
+    (1431 ^HD_OPTCMP_C 0.387238 3 4
+     (1430 V_N3S-BSE_ILR 0.216475 3 4
+      (170 continue_v1@v_pp*_dir_le 0.164939 3 4
+       ("continue" 112
+        "token [ +CARG #1=\"continue\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1440 HD-CMP_U_C -2.61561 4 10
+     (277 as_p1@p_np_i-nger_le -2.02573 4 5
+      ("as" 123
+       "token [ +CARG #1=\"as\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9425791\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1439 NP-NP_CRD-T_C -0.399235 5 10
+      (1434 SP-HD_N_C -0.34928 5 7
+       (387 a_det@d_-_sg-nmd_le -0.559642 5 6
+        ("a" 114
+         "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1433 ^HDN_OPTCMP_C 1.76258 6 7
+        (1432 N_SG_ILR 2.1345 6 7
+         (460 director_n1@n_pp_c-of_le 1.06259 6 7
+          ("director" 116
+           "token [ +CARG #1=\"director\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+      (1438 ^MRK-NH_NOM_C -0.865975 7 10
+       (466 and_conj@c_xp_and_le -0.668842 7 8
+        ("and" 118
+         "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1437 SP-HD_N_C -0.319819 8 10
+        (486 a_det@d_-_sg-nmd_le -0.786531 8 9
+         ("a" 120
+          "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (1436 ^W_PERIOD_PLR 0.564449 9 10
+         (1435 N_SG_ILR 0.432921 9 10
+          (559 consultant_n1@n_-_c_le 0 9 10
+           ("consultant." 122
+            "token [ +CARG \"consultant\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"consultant.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Ehrlich"))))
+ (VP (V "will")
+  (VP (VP (V (V "continue")))
+   (PP (P "as")
+    (NP (NP (DET "a") (N (N (N "director"))))
+     (NP-CJ (CONJ "and") (NP (DET "a") (N (N (N "consultant."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Ehrlich" ]
+          [ _continue_v_1<17:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _as_p<26:28>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<29:57>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ _a_q<29:30>
+            LBL: h20
+            ARG0: x22 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h23
+            BODY: h21 ]
+          [ _director_n_of<31:39>
+            LBL: h24
+            ARG0: x22
+            ARG1: i25 ]
+          [ _and_c<40:43>
+            LBL: h26
+            ARG0: x16
+            L-INDEX: x22
+            R-INDEX: x27 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<44:45>
+            LBL: h28
+            ARG0: x27
+            RSTR: h30
+            BODY: h29 ]
+          [ _consultant_n_1<46:57>
+            LBL: h31
+            ARG0: x27 ] >
+   HCONS: < h30 QEQ h31 h23 QEQ h24 h18 QEQ h26 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Ehrlich"){x PERS 3, NUM sg, IND +}[]
+ e3:_continue_v_1-fn.Activity_ongoing<17:25>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_as_p<26:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:udef_q<29:57>[BV x16]
+ _4:_a_q<29:30>[BV x22]
+ x22:_director_n_of<31:39>{x PERS 3, NUM sg, IND +}[]
+ x16:_and_c<40:43>{x PERS 3, NUM pl}[L-INDEX x22, R-INDEX x27]
+ _5:_a_q<44:45>[BV x27]
+ x27:_consultant_n_1<46:57>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Ehrlich)  
+  compound<0:11> ARG1 named<4:11>(Ehrlich)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _continue_v_1<17:25> ARG1 named<4:11>(Ehrlich)  
+  _as_p<26:28> ARG1 _continue_v_1<17:25>  
+  _as_p<26:28> ARG2 _and_c<40:43>  
+  udef_q<29:57> BV _and_c<40:43>  
+  _a_q<29:30> BV _director_n_of<31:39>  
+  _and_c<40:43> L-INDEX _director_n_of<31:39>  
+  _and_c<40:43> R-INDEX _consultant_n_1<46:57>  
+  _a_q<44:45> BV _consultant_n_1<46:57>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Ehrlich) PERS 3  
+  named<4:11>(Ehrlich) NUM sg  
+  named<4:11>(Ehrlich) IND +  
+  _continue_v_1<17:25> SF prop  
+  _continue_v_1<17:25> TENSE fut  
+  _continue_v_1<17:25> MOOD indicative  
+  _continue_v_1<17:25> PROG -  
+  _continue_v_1<17:25> PERF -  
+  _as_p<26:28> SF prop  
+  _as_p<26:28> TENSE untensed  
+  _as_p<26:28> MOOD indicative  
+  _as_p<26:28> PROG -  
+  _as_p<26:28> PERF -  
+  _director_n_of<31:39> PERS 3  
+  _director_n_of<31:39> NUM sg  
+  _director_n_of<31:39> IND +  
+  _and_c<40:43> PERS 3  
+  _and_c<40:43> NUM pl  
+  _consultant_n_1<46:57> PERS 3  
+  _consultant_n_1<46:57> NUM sg  
+  _consultant_n_1<46:57> IND +  
+}
+

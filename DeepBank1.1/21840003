@@ -1,0 +1,91 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:19 h)).
+;;;
+
+[21840003] (1 of 1) {1} `The case is pending.'
+
+[21840003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:8>, 1, "case", 0, "null", "NN" 1.0)
+  (3, 2, 3, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <12:19>, 1, "pending", 0, "null", "VBG" 0.9595 "JJ" 0.0405)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:3>, 1, "the", 0, "null")
+  (64, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 1, 2, <4:8>, 1, "case", 0, "null")
+  (58, 1, 2, <4:8>, 1, "case", 0, "null", "NN" 1.0)
+  (61, 1, 2, <4:8>, 1, "case", 0, "null")
+  (54, 2, 3, <9:11>, 1, "is", 0, "null")
+  (59, 2, 3, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (62, 2, 3, <9:11>, 1, "is", 0, "null")
+  (55, 3, 4, <12:20>, 1, "pending.", 0, "null")
+  (57, 3, 4, <12:20>, 1, "pending.", 0, "null", "VBG" 0.9595)
+  (63, 3, 4, <12:20>, 1, "pending.", 0, "null")
+>
+
+(ROOT_STRICT
+ (667 SB-HD_MC_C 6.39237 0 4
+  (664 SP-HD_N_C 3.00086 0 2
+   (77 the_1@d_-_the_le 1.13181 0 1
+    ("the" 60
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (663 ^HDN_OPTCMP_C 1.41785 1 2
+    (662 N_MS-CNT_ILR 1.50565 1 2
+     (104 case_n1@n_pp_mc-of_le 0.762868 1 2
+      ("case" 52
+       "token [ +CARG #1=\"case\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (666 ^HD-CMP_U_C 1.437 2 4
+   (164 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 54
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (665 W_PERIOD_PLR 0.012616 3 4
+    (253 pending_a2@aj_-_i-prd_le 0 3 4
+     ("pending." 55
+      "token [ +CARG \"pending\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pending.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9594859\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "the") (N (N (N "case"))))
+ (VP (V "is") (AP (AP "pending."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _case_n_of<4:8>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _pending_a_1<12:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_case_n_of<4:8>{x PERS 3, NUM sg}[]
+ e3:_pending_a_1<12:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _case_n_of<4:8>  
+  _pending_a_1<12:20> ARG1 _case_n_of<4:8>  
+  _case_n_of<4:8> PERS 3  
+  _case_n_of<4:8> NUM sg  
+  _pending_a_1<12:20> SF prop  
+  _pending_a_1<12:20> TENSE pres  
+  _pending_a_1<12:20> MOOD indicative  
+  _pending_a_1<12:20> PROG -  
+  _pending_a_1<12:20> PERF -  
+}
+

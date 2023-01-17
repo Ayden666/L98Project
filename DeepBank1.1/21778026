@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778026] (1 of 1) {1} `12:07 a.m.'
+
+[21778026:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "12:07", 0, "null", "CD" 1.0)
+  (2, 1, 2, <6:9>, 1, "a.m", 0, "null", "RB" 0.5894 "NN" 0.4106)
+  (3, 2, 3, <9:10>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (24, 0, 1, <0:5>, 1, "12:07", 0, "null")
+  (33, 0, 1, <0:5>, 1, "12:07", 0, "null")
+  (29, 1, 2, <6:10>, 1, "a.m.", 0, "null")
+  (31, 1, 2, <6:10>, 1, "a.m.", 0, "null", "RB" 0.5894)
+  (32, 1, 2, <6:10>, 1, "a.m.", 0, "null", "NN" 0.4106)
+  (34, 1, 2, <6:10>, 1, "a.m.", 0, "null")
+>
+
+(ROOT_FRAG
+ (93 NP_FRG_C 0.362735 0 2
+  (92 HDN_OPTCMP_C 0.419032 0 2
+   (91 HD-CMP_U_C 1.04869 0 2
+    (89 ^HDN_OPTCMP_C -0.155212 0 1
+     (35 generic_time_noun_ne@n_np_pn-hour-gen_le 0 0 1
+      ("12:07" 24
+       "token [ +CARG #1=\"12:07\" +CLASS meas_or_time_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (90 W_PERIOD_PLR 0.733545 1 2
+     (37 am_temp_3@x_-_am-pm_le 0.380874 1 2
+      ("a.m." 29
+       "token [ +CARG \"a.m\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"a.m.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58943880000000004\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (NP (NP (NP "12:07")) (XP (XP "a.m.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: i4 [ i PERS: 3 NUM: SG ] ]
+          [ numbered_hour<0:5>
+            LBL: h5
+            ARG0: i4
+            ARG1: u6
+            ARG2: i7
+            CARG: "12:07" ]
+          [ def_implicit_q<0:5>
+            LBL: h8
+            ARG0: i4
+            RSTR: h9
+            BODY: h10 ]
+          [ _am_x<6:10>
+            LBL: h5
+            ARG0: i7
+            CARG: "am_time" ] >
+   HCONS: < h9 QEQ h5 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG i4]
+ i4:numbered_hour<0:5>("12:07"){i PERS 3, NUM sg}[ARG2 i7]
+ _1:def_implicit_q<0:5>[BV i4]
+ i7:_am_x<6:10>("am_time"){i}[]
+}
+
+{
+  unknown<0:10> ARG numbered_hour<0:5>(12:07)  
+  numbered_hour<0:5>(12:07) ARG2 _am_x<6:10>(am_time)  
+  def_implicit_q<0:5> BV numbered_hour<0:5>(12:07)  
+  unknown<0:10> SF prop  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  numbered_hour<0:5>(12:07) PERS 3  
+  numbered_hour<0:5>(12:07) NUM sg  
+}
+

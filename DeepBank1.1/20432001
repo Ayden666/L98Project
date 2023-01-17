@@ -1,0 +1,251 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (13:58 h)).
+;;;
+
+[20432001] (1 of 1) {1} `BROWN-FORMAN Corp. (Louisville, Ky.) --'
+
+[20432001:2] (active)
+
+<
+  (1, 0, 1, <0:12>, 1, "BROWN-FORMAN", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <13:18>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <19:20>, 1, "(", 0, "null", "(" 1.0)
+  (4, 3, 4, <20:30>, 1, "Louisville", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <30:31>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <32:35>, 1, "Ky.", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <35:36>, 1, ")", 0, "null", ")" 1.0)
+  (8, 7, 8, <37:39>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (89, 0, 1, <0:12>, 1, "BROWN-", 0, "null")
+  (110, 0, 1, <0:12>, 1, "BROWN-", 0, "null", "NN" 1.0)
+  (115, 0, 1, <0:12>, 1, "brown-", 0, "null")
+  (120, 0, 1, <0:12>, 1, "brown-", 0, "null")
+  (88, 1, 2, <0:12>, 1, "FORMAN", 0, "null")
+  (109, 1, 2, <0:12>, 1, "FORMAN", 0, "null", "NNP" 1.0)
+  (114, 1, 2, <0:12>, 1, "forman", 0, "null")
+  (119, 1, 2, <0:12>, 1, "forman", 0, "null")
+  (87, 2, 3, <13:18>, 1, "Corp.", 0, "null")
+  (108, 2, 3, <13:18>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (113, 2, 3, <13:18>, 1, "corp.", 0, "null")
+  (118, 2, 3, <13:18>, 1, "corp.", 0, "null")
+  (93, 3, 4, <19:31>, 1, "(Louisville,", 0, "null")
+  (111, 3, 4, <19:31>, 1, "(Louisville,", 0, "null", "NNP" 1.0)
+  (116, 3, 4, <19:31>, 1, "(louisville,", 0, "null")
+  (121, 3, 4, <19:31>, 1, "(louisville,", 0, "null")
+  (95, 4, 5, <32:36>, 1, "Ky.)", 0, "null")
+  (112, 4, 5, <32:36>, 1, "Ky.)", 0, "null", "NNP" 1.0)
+  (117, 4, 5, <32:36>, 1, "ky.)", 0, "null")
+  (122, 4, 5, <32:36>, 1, "ky.)", 0, "null")
+  (103, 5, 6, <37:39>, 1, "–", 0, "null")
+  (123, 5, 6, <37:39>, 1, "–", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (684 CL-NP_RUNON-PRN_C 3.14358 0 6
+  (683 NP_FRG_C 0.665252 0 3
+   (682 HDN_BNP-PN_C 0.918137 0 3
+    (681 HDN-AJ_REDREL_C 0.874703 0 3
+     (653 ^XP_BRCK-PR_C 0.392816 0 2
+      (652 NP-HDN_NME-CPD_C 0.763891 0 2
+       (650 HDN_BNP-PN_C 0.521627 0 1
+        (649 W_HYPHEN_PLR 0.527522 0 1
+         (648 N_SG_ILR -0.025765 0 1
+          (134 brown_n1@n_-_pn_le 0 0 1
+           ("brown-" 115
+            "token [ +CARG \"BROWN-\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL + ] +FORM \"brown-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))))
+       (651 ^N_SG_ILR -0.41902 1 2
+        (139 generic_proper_ne@n_-_pn-gen_le 0 1 2
+         ("FORMAN" 88
+          "token [ +CARG #1=\"FORMAN\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW + ] ]")))))
+     (151 corp_post_ttl_2@n_-_tt-post-npt_le -0.645973 2 3
+      ("corp." 113
+       "token [ +CARG \"Corp.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (668 ^NP-NP_CRD-NC-T_C 2.47833 3 6
+   (662 HDN_BNP-PN_C 0.121119 3 4
+    (661 W_LPAREN_PLR 0.426134 3 4
+     (660 W_COMMA_PLR 0.293032 3 4
+      (659 N_SG_ILR -0.306868 3 4
+       (157 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("(Louisville," 93
+         "token [ +CARG \"Louisville\" +CLASS proper_ne +FORM \"(Louisville,\" +FROM \"19\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (667 ^HDN_BNP-PN_C 2.08336 4 6
+    (666 HD-PCT_C 2.68194 4 6
+     (665 ^W_RPAREN_PLR 1.58722 4 5
+      (664 W_PERIOD_PLR 0.513358 4 5
+       (663 N_SG_ILR -0.308309 4 5
+        (188 kentucky_n2@n_-_pn-abb_le 0 4 5
+         ("ky.)" 117
+          "token [ +CARG \"Ky.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"ky.)\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (197 s_dbl_dash_pct@pt_-_s-dash_le 1.09473 5 6
+      ("–" 103
+       "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S
+ (XP
+  (NP
+   (N (N (N (NP (N (N (N "brown-")))) (N (N "FORMAN")))) (N "corp."))))
+ (NP (NP (N (N (N (N "(Louisville,")))))
+  (NP (N (N (N (N (N "ky.)")))) (PNCT "–")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:39>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:39>
+            LBL: h8
+            ARG0: e6
+            ARG: x9 ]
+          [ unknown<0:18>
+            LBL: h10
+            ARG0: e7
+            ARG: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:18>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<0:12>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:12>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ named<0:12>
+            LBL: h21
+            ARG0: x16
+            CARG: "Brown" ]
+          [ named<0:12>
+            LBL: h15
+            ARG0: x11
+            CARG: "FORMAN" ]
+          [ _corporation_n_1<13:18>
+            LBL: h22
+            ARG0: x23 [ x IND: + ] ]
+          [ udef_q<13:18>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ compound<13:18>
+            LBL: h15
+            ARG0: i27
+            ARG1: x11
+            ARG2: x23 ]
+          [ udef_q<19:39>
+            LBL: h28
+            ARG0: x9
+            RSTR: h29
+            BODY: h30 ]
+          [ implicit_conj<19:39>
+            LBL: h31
+            ARG0: x9
+            L-INDEX: x33 [ x PERS: 3 NUM: SG IND: + ]
+            R-INDEX: x32 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<19:31>
+            LBL: h34
+            ARG0: x33
+            RSTR: h35
+            BODY: h36 ]
+          [ named<19:31>
+            LBL: h37
+            ARG0: x33
+            CARG: "Louisville" ]
+          [ proper_q<32:39>
+            LBL: h38
+            ARG0: x32
+            RSTR: h39
+            BODY: h40 ]
+          [ named<32:36>
+            LBL: h41
+            ARG0: x32
+            CARG: "Kentucky" ] >
+   HCONS: < h39 QEQ h41 h35 QEQ h37 h29 QEQ h31 h25 QEQ h22 h19 QEQ h21 h13 QEQ h15 h5 QEQ h8 h4 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL e6, R-INDEX e6]
+ e6:unknown<0:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ e7:unknown<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x11]
+ _1:proper_q<0:18>[BV x11]
+ e17:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x16]
+ _2:proper_q<0:12>[BV x16]
+ x16:named<0:12>("Brown"){x PERS 3, NUM sg, IND +}[]
+ x11:named<0:12>("FORMAN"){x PERS 3, NUM sg, IND +}[]
+ x23:_corporation_n_1<13:18>{x IND +}[]
+ _3:udef_q<13:18>[BV x23]
+ i27:compound<13:18>{i}[ARG1 x11, ARG2 x23]
+ _4:udef_q<19:39>[BV x9]
+ x9:implicit_conj<19:39>{x}[L-INDEX x33, R-INDEX x32]
+ _5:proper_q<19:31>[BV x33]
+ x33:named<19:31>("Louisville"){x PERS 3, NUM sg, IND +}[]
+ _6:proper_q<32:39>[BV x32]
+ x32:named<32:36>("Kentucky"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  implicit_conj<0:39> L-HNDL unknown<0:18>  
+  implicit_conj<0:39> L-INDEX unknown<0:18>  
+  implicit_conj<0:39> R-HNDL unknown<0:39>  
+  implicit_conj<0:39> R-INDEX unknown<0:39>  
+  unknown<0:39> ARG implicit_conj<19:39>  
+  unknown<0:18> ARG named<0:12>(FORMAN)  
+  proper_q<0:18> BV named<0:12>(FORMAN)  
+  compound<0:12> ARG1 named<0:12>(FORMAN)  
+  compound<0:12> ARG2 named<0:12>(Brown)  
+  proper_q<0:12> BV named<0:12>(Brown)  
+  udef_q<13:18> BV _corporation_n_1<13:18>  
+  compound<13:18> ARG1 named<0:12>(FORMAN)  
+  compound<13:18> ARG2 _corporation_n_1<13:18>  
+  udef_q<19:39> BV implicit_conj<19:39>  
+  implicit_conj<19:39> L-INDEX named<19:31>(Louisville)  
+  implicit_conj<19:39> R-INDEX named<32:36>(Kentucky)  
+  proper_q<19:31> BV named<19:31>(Louisville)  
+  proper_q<32:39> BV named<32:36>(Kentucky)  
+  implicit_conj<0:39> SF prop  
+  implicit_conj<0:39> TENSE untensed  
+  implicit_conj<0:39> MOOD indicative  
+  implicit_conj<0:39> PROG -  
+  implicit_conj<0:39> PERF -  
+  unknown<0:39> SF prop  
+  unknown<0:39> TENSE untensed  
+  unknown<0:39> MOOD indicative  
+  unknown<0:39> PROG -  
+  unknown<0:39> PERF -  
+  unknown<0:18> SF prop  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:12>(Brown) PERS 3  
+  named<0:12>(Brown) NUM sg  
+  named<0:12>(Brown) IND +  
+  named<0:12>(FORMAN) PERS 3  
+  named<0:12>(FORMAN) NUM sg  
+  named<0:12>(FORMAN) IND +  
+  _corporation_n_1<13:18> IND +  
+  named<19:31>(Louisville) PERS 3  
+  named<19:31>(Louisville) NUM sg  
+  named<19:31>(Louisville) IND +  
+  named<32:36>(Kentucky) PERS 3  
+  named<32:36>(Kentucky) NUM sg  
+  named<32:36>(Kentucky) IND +  
+}
+

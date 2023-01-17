@@ -1,0 +1,186 @@
+;;;
+;;; Redwoods export of `wsj00d';
+;;; (wsun@wsun; 22-jan-2018 (10:53 h)).
+;;;
+
+[20093026] (1 of 1) {1} `China pulled out of the program in July.'
+
+[20093026:3] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "China", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:12>, 1, "pulled", 0, "null", "VBD" 0.9761 "VBN" 0.0239)
+  (3, 2, 3, <13:16>, 1, "out", 0, "null", "RP" 0.8735 "RB" 0.0677 "IN" 0.0588)
+  (4, 3, 4, <17:19>, 1, "of", 0, "null", "IN" 1.0)
+  (5, 4, 5, <20:23>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <24:31>, 1, "program", 0, "null", "NN" 1.0)
+  (7, 6, 7, <32:34>, 1, "in", 0, "null", "IN" 1.0)
+  (8, 7, 8, <35:39>, 1, "July", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (108, 0, 1, <0:5>, 1, "China", 0, "null")
+  (112, 0, 1, <0:5>, 1, "china", 0, "null")
+  (121, 0, 1, <0:5>, 1, "china", 0, "null")
+  (104, 1, 2, <6:12>, 1, "pulled", 0, "null")
+  (109, 1, 2, <6:12>, 1, "pulled", 0, "null", "VBD" 0.9761)
+  (119, 1, 2, <6:12>, 1, "pulled", 0, "null")
+  (106, 2, 3, <13:16>, 1, "out", 0, "null")
+  (120, 2, 3, <13:16>, 1, "out", 0, "null")
+  (95, 3, 4, <17:19>, 1, "of", 0, "null")
+  (115, 3, 4, <17:19>, 1, "of", 0, "null")
+  (97, 4, 5, <20:23>, 1, "the", 0, "null")
+  (116, 4, 5, <20:23>, 1, "the", 0, "null")
+  (99, 5, 6, <24:31>, 1, "program", 0, "null")
+  (110, 5, 6, <24:31>, 1, "program", 0, "null", "NN" 1.0)
+  (117, 5, 6, <24:31>, 1, "program", 0, "null")
+  (101, 6, 7, <32:34>, 1, "in", 0, "null")
+  (118, 6, 7, <32:34>, 1, "in", 0, "null")
+  (85, 7, 8, <35:40>, 1, "July.", 0, "null")
+  (111, 7, 8, <35:40>, 1, "July.", 0, "null", "NNP" 1.0)
+  (113, 7, 8, <35:40>, 1, "july.", 0, "null")
+  (114, 7, 8, <35:40>, 1, "july.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2880 SB-HD_MC_C 11.6087 0 8
+  (2853 HDN_BNP-PN_C 0.658206 0 1
+   (2852 N_SG_ILR 0.707162 0 1
+    (124 china_n1@n_-_pn_le 0 0 1
+     ("china" 112
+      "token [ +CARG \"China\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"china\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2879 ^HD-AJ_INT-UNSL_C 10.463 1 8
+   (2868 ^HD_OPTCMP_C 1.16128 1 2
+    (2867 V_PST_OLR -0.329276 1 2
+     (183 pull_v1@v_np*_le 0.107252 1 2
+      ("pulled" 104
+       "token [ +CARG #1=\"pulled\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9761377\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (2878 HD-CMP_U_C 8.60146 2 8
+    (753 out_of_p@p_np_i_le 2.41924 2 4
+     ("out of" 106
+      "token [ +CARG #1=\"out\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87351069999999997\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      95
+      "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2874 SP-HD_N_C 5.5402 4 8
+     (649 the_1@d_-_the_le 1.07131 4 5
+      ("the" 97
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2873 ^HDN-AJ_REDREL_C 4.46972 5 8
+      (2857 ^HDN_OPTCMP_C 0.685348 5 6
+       (2856 N_SG_ILR 1.0357 5 6
+        (674 program_n1@n_pp_c-of_le -0.0362082 5 6
+         ("program" 99
+          "token [ +CARG #1=\"program\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (2864 HD-CMP_U_C 3.0971 6 8
+       (701 in_temp@p_np_i-tmp_le 1.24586 6 7
+        ("in" 101
+         "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2863 HDN_BNP-PN_C 0.087994 7 8
+        (2862 W_PERIOD_PLR 0.167951 7 8
+         (2861 N_SG_ILR -0.264967 7 8
+          (747 july@n_-_c-month_le 0 7 8
+           ("july." 113
+            "token [ +CARG \"July\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"july.\" +FROM #1=\"35\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N "china")))
+ (VP (VP (V (V "pulled")))
+  (PP (P "out of")
+   (NP (DET "the")
+    (N (N (N (N "program"))) (PP (P "in") (NP (N (N (N "july."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "China" ]
+          [ _pull_v_1<6:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ]
+          [ _out+of_p<13:19>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<20:23>
+            LBL: h12
+            ARG0: x11
+            RSTR: h14
+            BODY: h13 ]
+          [ _program_n_of<24:31>
+            LBL: h15
+            ARG0: x11
+            ARG1: i16 ]
+          [ _in_p_temp<32:34>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x18 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<35:40>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ mofy<35:40>
+            LBL: h22
+            ARG0: x18
+            CARG: "Jul" ] >
+   HCONS: < h20 QEQ h22 h14 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("China"){x PERS 3, NUM sg, IND +}[]
+ e3:_pull_v_1<6:12>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_out+of_p<13:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x11]
+ _2:_the_q<20:23>[BV x11]
+ x11:_program_n_of<24:31>{x PERS 3, NUM sg, IND +}[]
+ e17:_in_p_temp<32:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x18]
+ _3:proper_q<35:40>[BV x18]
+ x18:mofy<35:40>("Jul"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(China)  
+  _pull_v_1<6:12> ARG1 named<0:5>(China)  
+  _out+of_p<13:19> ARG1 _pull_v_1<6:12>  
+  _out+of_p<13:19> ARG2 _program_n_of<24:31>  
+  _the_q<20:23> BV _program_n_of<24:31>  
+  _in_p_temp<32:34> ARG1 _program_n_of<24:31>  
+  _in_p_temp<32:34> ARG2 mofy<35:40>(Jul)  
+  proper_q<35:40> BV mofy<35:40>(Jul)  
+  named<0:5>(China) PERS 3  
+  named<0:5>(China) NUM sg  
+  named<0:5>(China) IND +  
+  _pull_v_1<6:12> SF prop  
+  _pull_v_1<6:12> TENSE past  
+  _pull_v_1<6:12> MOOD indicative  
+  _pull_v_1<6:12> PROG -  
+  _pull_v_1<6:12> PERF -  
+  _out+of_p<13:19> SF prop  
+  _out+of_p<13:19> TENSE untensed  
+  _out+of_p<13:19> MOOD indicative  
+  _out+of_p<13:19> PROG -  
+  _out+of_p<13:19> PERF -  
+  _program_n_of<24:31> PERS 3  
+  _program_n_of<24:31> NUM sg  
+  _program_n_of<24:31> IND +  
+  _in_p_temp<32:34> SF prop  
+  _in_p_temp<32:34> TENSE untensed  
+  _in_p_temp<32:34> MOOD indicative  
+  _in_p_temp<32:34> PROG -  
+  _in_p_temp<32:34> PERF -  
+  mofy<35:40>(Jul) PERS 3  
+  mofy<35:40>(Jul) NUM sg  
+  mofy<35:40>(Jul) IND +  
+}
+

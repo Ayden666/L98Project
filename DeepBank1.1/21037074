@@ -1,0 +1,185 @@
+;;;
+;;; Redwoods export of `wsj10b';
+;;; (wsun@wsun; 22-jan-2018 (19:28 h)).
+;;;
+
+[21037074] (1 of 1) {1} `What if its sales weaken someday?'
+
+[21037074:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "What", 0, "null", "WP" 1.0)
+  (2, 1, 2, <5:7>, 1, "if", 0, "null", "IN" 1.0)
+  (3, 2, 3, <8:11>, 1, "its", 0, "null", "PRP$" 1.0)
+  (4, 3, 4, <12:17>, 1, "sales", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <18:24>, 1, "weaken", 0, "null", "VBP" 0.6413 "VB" 0.3587)
+  (6, 5, 6, <25:32>, 1, "someday", 0, "null", "RB" 1.0)
+  (7, 6, 7, <32:33>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:4>, 1, "what", 0, "null")
+  (89, 0, 1, <0:4>, 1, "what", 0, "null")
+  (70, 1, 2, <5:7>, 1, "if", 0, "null")
+  (84, 1, 2, <5:7>, 1, "if", 0, "null")
+  (72, 2, 3, <8:11>, 1, "its", 0, "null")
+  (85, 2, 3, <8:11>, 1, "its", 0, "null")
+  (74, 3, 4, <12:17>, 1, "sales", 0, "null")
+  (80, 3, 4, <12:17>, 1, "sales", 0, "null", "NNS" 1.0)
+  (86, 3, 4, <12:17>, 1, "sales", 0, "null")
+  (77, 4, 5, <18:24>, 1, "weaken", 0, "null")
+  (79, 4, 5, <18:24>, 1, "weaken", 0, "null", "VBP" 0.6413)
+  (82, 4, 5, <18:24>, 1, "weaken", 0, "null", "VB" 0.3587)
+  (88, 4, 5, <18:24>, 1, "weaken", 0, "null")
+  (76, 5, 6, <25:33>, 1, "someday?", 0, "null")
+  (81, 5, 6, <25:33>, 1, "someday?", 0, "null", "RB" 1.0)
+  (87, 5, 6, <25:33>, 1, "someday?", 0, "null")
+>
+
+(ROOT_STRICT
+ (507 HD-CMP_U_C 0.677598 0 6
+  (226 what_if@x_cp_howabt_le 0 0 2
+   ("what if" 83
+    "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"what\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+    70
+    "token [ +CARG #1=\"if\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (506 SB-HD_MC_C 0.677598 2 6
+   (499 SP-HD_N_C 1.20909 2 4
+    (148 its_poss@d_-_poss-its_le 0.460132 2 3
+     ("its" 72
+      "token [ +CARG #1=\"its\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (498 ^HDN_OPTCMP_C 1.28193 3 4
+     (497 N_PL_OLR 0.906678 3 4
+      (173 sale_n1@n_pp_mc-of_le 0.418011 3 4
+       ("sales" 74
+        "token [ +CARG #1=\"sales\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (505 ^HD-AJ_INT-UNSL_C -0.82392 4 6
+    (500 ^V_N3S-BSE_ILR 0.0694936 4 5
+     (212 weaken_v2@v_-_unacc_le 0 4 5
+      ("weaken" 77
+       "token [ +CARG #1=\"weaken\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.64129630000000004\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (504 NP_ADV_C -1.40035 5 6
+     (503 HDN_BNP-QNT_C -1.34676 5 6
+      (502 HDN_OPTCMP_C 0 5 6
+       (501 W_QMARK_PLR 0 5 6
+        (215 someday_n1@n_-_pr-ad_le 0 5 6
+         ("someday?" 76
+          "token [ +CARG \"someday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"someday?\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (V "what if")
+ (S (NP (DET "its") (N (N (N "sales"))))
+  (VP (VP (V "weaken")) (PP (NP (N (N (N "someday?"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_verb<0:7>
+            LBL: h4
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h5 ]
+          [ _how+about_x<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: h7 ]
+          [ def_explicit_q<8:11>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: PL ]
+            RSTR: h11
+            BODY: h9 ]
+          [ poss<8:11>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x13 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<8:11>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ pron<8:11>
+            LBL: h18
+            ARG0: x13 ]
+          [ _sale_n_of<12:17>
+            LBL: h12
+            ARG0: x10
+            ARG1: i19 ]
+          [ _weaken_v_1<18:24>
+            LBL: h5
+            ARG0: e20 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ loc_nonsp<25:33>
+            LBL: h5
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x22 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<25:33>
+            LBL: h23
+            ARG0: x22 ]
+          [ _some_q<25:33>
+            LBL: h24
+            ARG0: x22
+            RSTR: h25
+            BODY: h26 ] >
+   HCONS: < h25 QEQ h23 h16 QEQ h18 h11 QEQ h12 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ e6:generic_verb<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e3:_how+about_x<0:7>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e6]
+ _1:def_explicit_q<8:11>[BV x10]
+ e14:poss<8:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x13]
+ _2:pronoun_q<8:11>[BV x13]
+ x13:pron<8:11>{x PERS 3, NUM sg, GEND n, PT std}[]
+ x10:_sale_n_of<12:17>{x PERS 3, NUM pl}[]
+ e20:_weaken_v_1<18:24>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ e21:loc_nonsp<25:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x22]
+ x22:time_n<25:33>{x PERS 3, NUM sg}[]
+ _3:_some_q<25:33>[BV x22]
+}
+
+{
+  generic_verb<0:7> ARG1 _weaken_v_1<18:24>  
+  _how+about_x<0:7> ARG1 generic_verb<0:7>  
+  def_explicit_q<8:11> BV _sale_n_of<12:17>  
+  poss<8:11> ARG1 _sale_n_of<12:17>  
+  poss<8:11> ARG2 pron<8:11>  
+  pronoun_q<8:11> BV pron<8:11>  
+  _weaken_v_1<18:24> ARG1 _sale_n_of<12:17>  
+  loc_nonsp<25:33> ARG1 _weaken_v_1<18:24>  
+  loc_nonsp<25:33> ARG2 time_n<25:33>  
+  _some_q<25:33> BV time_n<25:33>  
+  generic_verb<0:7> SF prop  
+  generic_verb<0:7> TENSE untensed  
+  generic_verb<0:7> MOOD indicative  
+  generic_verb<0:7> PROG -  
+  generic_verb<0:7> PERF -  
+  _how+about_x<0:7> SF ques  
+  _how+about_x<0:7> TENSE untensed  
+  _how+about_x<0:7> MOOD indicative  
+  _how+about_x<0:7> PROG -  
+  _how+about_x<0:7> PERF -  
+  poss<8:11> SF prop  
+  poss<8:11> TENSE untensed  
+  poss<8:11> MOOD indicative  
+  poss<8:11> PROG -  
+  poss<8:11> PERF -  
+  pron<8:11> PERS 3  
+  pron<8:11> NUM sg  
+  pron<8:11> GEND n  
+  pron<8:11> PT std  
+  _sale_n_of<12:17> PERS 3  
+  _sale_n_of<12:17> NUM pl  
+  _weaken_v_1<18:24> SF ques  
+  _weaken_v_1<18:24> TENSE pres  
+  _weaken_v_1<18:24> MOOD indicative  
+  _weaken_v_1<18:24> PROG -  
+  _weaken_v_1<18:24> PERF -  
+  loc_nonsp<25:33> SF prop  
+  loc_nonsp<25:33> TENSE untensed  
+  loc_nonsp<25:33> MOOD indicative  
+  loc_nonsp<25:33> PROG -  
+  loc_nonsp<25:33> PERF -  
+  time_n<25:33> PERS 3  
+  time_n<25:33> NUM sg  
+}
+

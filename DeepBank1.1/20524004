@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj05a';
+;;; (wsun@wsun; 22-jan-2018 (14:57 h)).
+;;;
+
+[20524004] (1 of 1) {1} `Others were more cautious.'
+
+[20524004:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Others", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <7:11>, 1, "were", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <12:16>, 1, "more", 0, "null", "RBR" 0.9596 "JJR" 0.0404)
+  (4, 3, 4, <17:25>, 1, "cautious", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:6>, 1, "Others", 0, "null", "NNS" 1.0)
+  (60, 0, 1, <0:6>, 1, "others", 0, "null")
+  (64, 0, 1, <0:6>, 1, "others", 0, "null")
+  (52, 1, 2, <7:11>, 1, "were", 0, "null")
+  (58, 1, 2, <7:11>, 1, "were", 0, "null", "VBD" 1.0)
+  (61, 1, 2, <7:11>, 1, "were", 0, "null")
+  (55, 2, 3, <12:16>, 1, "more", 0, "null")
+  (63, 2, 3, <12:16>, 1, "more", 0, "null")
+  (54, 3, 4, <17:26>, 1, "cautious.", 0, "null")
+  (59, 3, 4, <17:26>, 1, "cautious.", 0, "null", "JJ" 1.0)
+  (62, 3, 4, <17:26>, 1, "cautious.", 0, "null")
+>
+
+(ROOT_STRICT
+ (829 SB-HD_MC_C 5.0178 0 4
+  (824 HDN_BNP_C 0.170819 0 1
+   (823 N_PL_OLR 0.746825 0 1
+    (74 other_n1@n_-_c-nocpd_le 0.377673 0 1
+     ("others" 60
+      "token [ +CARG \"Others\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"others\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (828 ^HD-CMP_U_C 3.33107 1 4
+   (94 be_c_were@v_prd_wre_le 0.412711 1 2
+    ("were" 52
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (827 SP-HD_HC_C 1.79333 2 4
+    (112 more_nc_deg@av_-_dg-cmp-more_le 1.3393 2 3
+     ("more" 55
+      "token [ +CARG #1=\"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95958390000000005\" +TAG \"RBR\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (826 ^HD_OPTCMP_C 0.799575 3 4
+     (825 W_PERIOD_PLR 0.16881 3 4
+      (140 cautious_a1@aj_pp_i_le 0 3 4
+       ("cautious." 54
+        "token [ +CARG \"cautious\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cautious.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "others")))
+ (VP (V "were") (AP (ADV "more") (AP (ADJ (ADJ "cautious."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _other_n_1<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ comp<12:16>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: u10 ]
+          [ _cautious_a_of<17:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i11 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_other_n_1<0:6>{x PERS 3, NUM pl, IND +}[]
+ e9:comp<12:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_cautious_a_of<17:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:6> BV _other_n_1<0:6>  
+  comp<12:16> ARG1 _cautious_a_of<17:26>  
+  _cautious_a_of<17:26> ARG1 _other_n_1<0:6>  
+  _other_n_1<0:6> PERS 3  
+  _other_n_1<0:6> NUM pl  
+  _other_n_1<0:6> IND +  
+  comp<12:16> SF prop  
+  comp<12:16> TENSE untensed  
+  comp<12:16> MOOD indicative  
+  comp<12:16> PROG -  
+  comp<12:16> PERF -  
+  _cautious_a_of<17:26> SF prop  
+  _cautious_a_of<17:26> TENSE past  
+  _cautious_a_of<17:26> MOOD indicative  
+  _cautious_a_of<17:26> PROG -  
+  _cautious_a_of<17:26> PERF -  
+}
+

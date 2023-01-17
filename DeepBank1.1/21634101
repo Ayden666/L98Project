@@ -1,0 +1,285 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:20 h)).
+;;;
+
+[21634101] (1 of 1) {1} `But the MGM plan collapsed just two weeks later.'
+
+[21634101:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <8:11>, 1, "MGM", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <12:16>, 1, "plan", 0, "null", "NN" 0.988 "VBP" 0.012)
+  (5, 4, 5, <17:26>, 1, "collapsed", 0, "null", "VBD" 0.9735 "VBN" 0.0265)
+  (6, 5, 6, <27:31>, 1, "just", 0, "null", "RB" 1.0)
+  (7, 6, 7, <32:35>, 1, "two", 0, "null", "CD" 1.0)
+  (8, 7, 8, <36:41>, 1, "weeks", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <42:47>, 1, "later", 0, "null", "RB" 0.7098 "RBR" 0.2575 "JJ" 0.0326)
+  (10, 9, 10, <47:48>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (127, 0, 1, <0:3>, 1, "but", 0, "null")
+  (138, 0, 1, <0:3>, 1, "but", 0, "null")
+  (107, 1, 2, <4:7>, 1, "the", 0, "null")
+  (130, 1, 2, <4:7>, 1, "the", 0, "null")
+  (92, 2, 3, <8:11>, 1, "MGM", 0, "null")
+  (123, 2, 3, <8:11>, 1, "MGM", 0, "null", "NNP" 1.0)
+  (128, 2, 3, <8:11>, 1, "mgm", 0, "null")
+  (129, 2, 3, <8:11>, 1, "mgm", 0, "null")
+  (114, 3, 4, <12:16>, 1, "plan", 0, "null")
+  (120, 3, 4, <12:16>, 1, "plan", 0, "null", "NN" 0.988)
+  (134, 3, 4, <12:16>, 1, "plan", 0, "null")
+  (116, 4, 5, <17:26>, 1, "collapsed", 0, "null")
+  (121, 4, 5, <17:26>, 1, "collapsed", 0, "null", "VBD" 0.9735)
+  (135, 4, 5, <17:26>, 1, "collapsed", 0, "null")
+  (109, 5, 6, <27:31>, 1, "just", 0, "null")
+  (124, 5, 6, <27:31>, 1, "just", 0, "null", "RB" 1.0)
+  (131, 5, 6, <27:31>, 1, "just", 0, "null")
+  (111, 6, 7, <32:35>, 1, "two", 0, "null")
+  (125, 6, 7, <32:35>, 1, "two", 0, "null", "CD" 1.0)
+  (132, 6, 7, <32:35>, 1, "two", 0, "null")
+  (113, 7, 8, <36:41>, 1, "weeks", 0, "null")
+  (126, 7, 8, <36:41>, 1, "weeks", 0, "null", "NNS" 1.0)
+  (133, 7, 8, <36:41>, 1, "weeks", 0, "null")
+  (118, 8, 9, <42:48>, 1, "later.", 0, "null")
+  (122, 8, 9, <42:48>, 1, "later.", 0, "null", "RB" 0.7098)
+  (136, 8, 9, <42:48>, 1, "later.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4558 CL_CNJ-FRG_C 17.3381 0 9
+  (4557 MRK-NH_CL_C 16.4682 0 9
+   (141 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 127
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (4556 SB-HD_MC_C 14.0555 1 9
+    (4543 SP-HD_N_C 1.935 1 4
+     (167 the_1@d_-_the_le 1.04749 1 2
+      ("the" 107
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (4542 ^NP-HDN_CPD_C 0.203621 2 4
+      (4540 HDN_BNP-PN_C -0.050883 2 3
+       (192 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("MGM" 92
+         "token [ +CARG #1=\"MGM\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (4541 ^N_SG_ILR -0.44963 3 4
+       (195 plan_n1@n_-_c-ns_le 0.0370077 3 4
+        ("plan" 114
+         "token [ +CARG #1=\"plan\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98795900000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (4555 ^HD-AJ_INT-UNSL_C 11.2271 4 9
+     (4545 ^HD_OPTCMP_C 2.60468 4 5
+      (4544 V_PST_OLR 1.72615 4 5
+       (216 collapse_v2@v_pp_unacc_le 0 4 5
+        ("collapsed" 116
+         "token [ +CARG #1=\"collapsed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97345729999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (4554 SP-HD_HC_C 8.17278 5 9
+      (304 just_m_deg@av_-_dg-m_le 1.572 5 6
+       ("just" 109
+        "token [ +CARG #1=\"just\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (4553 ^NP_ADV-MNP_C 6.01414 6 9
+       (4552 HDN_BNP_C 6.79627 6 9
+        (4551 HDN-AJ_REDREL_C 7.22597 6 9
+         (4547 ^NUM-N_MNP_C 3.60328 6 8
+          (316 two@aj_-_i-crd-one_le 0.240093 6 7
+           ("two" 111
+            "token [ +CARG #1=\"two\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+          (4546 ^N_PL_OLR 0.706612 7 8
+           (330 week1@n_-_c-week_le 0.232656 7 8
+            ("weeks" 113
+             "token [ +CARG #1=\"weeks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+         (4550 NP_ADV_C 1.14029 8 9
+          (4549 HDN_BNP-QNT_C 1.20099 8 9
+           (4548 W_PERIOD_PLR 0.520107 8 9
+            (383 later_adv@n_-_ad-cmp_le 0 8 9
+             ("later." 118
+              "token [ +CARG \"later\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"later.\" +FROM #1=\"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.70982780000000001\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "the") (N (NP (N "MGM")) (N (N "plan"))))
+   (VP (VP (V (V "collapsed")))
+    (PP (ADV "just")
+     (PP
+      (NP
+       (N (N (ADJ "two") (N (N "weeks")))
+        (PP (NP (N (N "later."))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _the_q<4:7>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h11
+            BODY: h9 ]
+          [ compound<8:16>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x13 [ x IND: + ] ]
+          [ proper_q<8:11>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ named<8:11>
+            LBL: h18
+            ARG0: x13
+            CARG: "MGM" ]
+          [ _plan_n_1<12:16>
+            LBL: h12
+            ARG0: x10 ]
+          [ _collapse_v_1<17:26>
+            LBL: h19
+            ARG0: e4
+            ARG1: x10 ]
+          [ _just_x_deg<27:31>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u21 ]
+          [ loc_nonsp<32:48>
+            LBL: h19
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e4
+            ARG2: x23 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<32:48>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<32:35>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            CARG: "2" ]
+          [ _week_n_1<36:41>
+            LBL: h27
+            ARG0: x23 ]
+          [ loc_nonsp<42:48>
+            LBL: h27
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            ARG2: x30 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<42:48>
+            LBL: h31
+            ARG0: x30 ]
+          [ def_explicit_q<42:48>
+            LBL: h32
+            ARG0: x30
+            RSTR: h33
+            BODY: h34 ]
+          [ _late_a_for<42:48>
+            LBL: h31
+            ARG0: e35 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x30 ]
+          [ comp<42:48>
+            LBL: h31
+            ARG0: e36 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e35 ] >
+   HCONS: < h33 QEQ h31 h25 QEQ h27 h16 QEQ h18 h11 QEQ h12 h5 QEQ h19 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_the_q<4:7>[BV x10]
+ e14:compound<8:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x13]
+ _2:proper_q<8:11>[BV x13]
+ x13:named<8:11>("MGM"){x IND +}[]
+ x10:_plan_n_1<12:16>{x PERS 3, NUM sg, IND +}[]
+ e4:_collapse_v_1<17:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ e20:_just_x_deg<27:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4]
+ e22:loc_nonsp<32:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4, ARG2 x23]
+ _3:udef_q<32:48>[BV x23]
+ e28:card<32:35>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+ x23:_week_n_1<36:41>{x PERS 3, NUM pl, IND +}[]
+ e29:loc_nonsp<42:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23, ARG2 x30]
+ x30:time_n<42:48>{x PERS 3, NUM sg}[]
+ _4:def_explicit_q<42:48>[BV x30]
+ e35:_late_a_for<42:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x30]
+ e36:comp<42:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e35]
+}
+
+{
+  _but_c<0:3> R-HNDL _collapse_v_1<17:26>  
+  _but_c<0:3> R-INDEX _collapse_v_1<17:26>  
+  _the_q<4:7> BV _plan_n_1<12:16>  
+  compound<8:16> ARG1 _plan_n_1<12:16>  
+  compound<8:16> ARG2 named<8:11>(MGM)  
+  proper_q<8:11> BV named<8:11>(MGM)  
+  _collapse_v_1<17:26> ARG1 _plan_n_1<12:16>  
+  _just_x_deg<27:31> ARG1 _collapse_v_1<17:26>  
+  loc_nonsp<32:48> ARG1 _collapse_v_1<17:26>  
+  loc_nonsp<32:48> ARG2 _week_n_1<36:41>  
+  udef_q<32:48> BV _week_n_1<36:41>  
+  card<32:35>(2) ARG1 _week_n_1<36:41>  
+  loc_nonsp<42:48> ARG1 _week_n_1<36:41>  
+  loc_nonsp<42:48> ARG2 time_n<42:48>  
+  def_explicit_q<42:48> BV time_n<42:48>  
+  _late_a_for<42:48> ARG1 time_n<42:48>  
+  comp<42:48> ARG1 _late_a_for<42:48>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  compound<8:16> SF prop  
+  compound<8:16> TENSE untensed  
+  compound<8:16> MOOD indicative  
+  compound<8:16> PROG -  
+  compound<8:16> PERF -  
+  named<8:11>(MGM) IND +  
+  _plan_n_1<12:16> PERS 3  
+  _plan_n_1<12:16> NUM sg  
+  _plan_n_1<12:16> IND +  
+  _collapse_v_1<17:26> SF prop  
+  _collapse_v_1<17:26> TENSE past  
+  _collapse_v_1<17:26> MOOD indicative  
+  _collapse_v_1<17:26> PROG -  
+  _collapse_v_1<17:26> PERF -  
+  _just_x_deg<27:31> SF prop  
+  _just_x_deg<27:31> TENSE untensed  
+  _just_x_deg<27:31> MOOD indicative  
+  _just_x_deg<27:31> PROG -  
+  _just_x_deg<27:31> PERF -  
+  loc_nonsp<32:48> SF prop  
+  loc_nonsp<32:48> TENSE untensed  
+  loc_nonsp<32:48> MOOD indicative  
+  loc_nonsp<32:48> PROG -  
+  loc_nonsp<32:48> PERF -  
+  card<32:35>(2) SF prop  
+  card<32:35>(2) TENSE untensed  
+  card<32:35>(2) MOOD indicative  
+  card<32:35>(2) PROG -  
+  card<32:35>(2) PERF -  
+  _week_n_1<36:41> PERS 3  
+  _week_n_1<36:41> NUM pl  
+  _week_n_1<36:41> IND +  
+  loc_nonsp<42:48> SF prop  
+  loc_nonsp<42:48> TENSE untensed  
+  loc_nonsp<42:48> MOOD indicative  
+  loc_nonsp<42:48> PROG -  
+  loc_nonsp<42:48> PERF -  
+  time_n<42:48> PERS 3  
+  time_n<42:48> NUM sg  
+  _late_a_for<42:48> SF prop  
+  _late_a_for<42:48> TENSE untensed  
+  _late_a_for<42:48> MOOD indicative  
+  _late_a_for<42:48> PROG -  
+  _late_a_for<42:48> PERF -  
+  comp<42:48> SF prop  
+  comp<42:48> TENSE untensed  
+  comp<42:48> MOOD indicative  
+  comp<42:48> PROG -  
+  comp<42:48> PERF -  
+}
+

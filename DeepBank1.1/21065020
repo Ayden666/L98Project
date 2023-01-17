@@ -1,0 +1,367 @@
+;;;
+;;; Redwoods export of `wsj10d';
+;;; (wsun@wsun; 22-jan-2018 (19:44 h)).
+;;;
+
+[21065020] (1 of 1) {1} `MURDER THREAT charged in Haas Securities Corp. stock-manipulation trial.'
+
+[21065020:13] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "MURDER", 0, "null", "NN" 1.0)
+  (2, 1, 2, <7:13>, 1, "THREAT", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:21>, 1, "charged", 0, "null", "VBN" 0.8324 "VBD" 0.1676)
+  (4, 3, 4, <22:24>, 1, "in", 0, "null", "IN" 1.0)
+  (5, 4, 5, <25:29>, 1, "Haas", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <30:40>, 1, "Securities", 0, "null", "NNPS" 0.6618 "NNP" 0.3382)
+  (7, 6, 7, <41:46>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <47:65>, 1, "stock-manipulation", 0, "null", "NN" 0.548 "JJ" 0.452)
+  (9, 8, 9, <66:71>, 1, "trial", 0, "null", "NN" 1.0)
+  (10, 9, 10, <71:72>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (107, 0, 1, <0:6>, 1, "MURDER", 0, "null")
+  (141, 0, 1, <0:6>, 1, "MURDER", 0, "null", "NN" 1.0)
+  (149, 0, 1, <0:6>, 1, "murder", 0, "null")
+  (155, 0, 1, <0:6>, 1, "murder", 0, "null")
+  (106, 1, 2, <7:13>, 1, "THREAT", 0, "null")
+  (140, 1, 2, <7:13>, 1, "THREAT", 0, "null", "NN" 1.0)
+  (148, 1, 2, <7:13>, 1, "threat", 0, "null")
+  (154, 1, 2, <7:13>, 1, "threat", 0, "null")
+  (131, 2, 3, <14:21>, 1, "charged", 0, "null")
+  (136, 2, 3, <14:21>, 1, "charged", 0, "null", "VBN" 0.8324)
+  (145, 2, 3, <14:21>, 1, "charged", 0, "null", "VBD" 0.1676)
+  (159, 2, 3, <14:21>, 1, "charged", 0, "null")
+  (124, 3, 4, <22:24>, 1, "in", 0, "null")
+  (156, 3, 4, <22:24>, 1, "in", 0, "null")
+  (103, 4, 5, <25:29>, 1, "Haas", 0, "null")
+  (138, 4, 5, <25:29>, 1, "Haas", 0, "null", "NNP" 1.0)
+  (146, 4, 5, <25:29>, 1, "haas", 0, "null")
+  (151, 4, 5, <25:29>, 1, "haas", 0, "null")
+  (104, 5, 6, <30:40>, 1, "Securities", 0, "null")
+  (135, 5, 6, <30:40>, 1, "Securities", 0, "null", "NNPS" 0.6618)
+  (144, 5, 6, <30:40>, 1, "Securities", 0, "null", "NNP" 0.3382)
+  (150, 5, 6, <30:40>, 1, "securities", 0, "null")
+  (152, 5, 6, <30:40>, 1, "securities", 0, "null")
+  (105, 6, 7, <41:46>, 1, "Corp.", 0, "null")
+  (139, 6, 7, <41:46>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (147, 6, 7, <41:46>, 1, "corp.", 0, "null")
+  (153, 6, 7, <41:46>, 1, "corp.", 0, "null")
+  (126, 7, 8, <47:65>, 1, "stock-", 0, "null")
+  (142, 7, 8, <47:65>, 1, "stock-", 0, "null", "NN" 1.0)
+  (157, 7, 8, <47:65>, 1, "stock-", 0, "null")
+  (133, 8, 9, <47:65>, 1, "manipulation", 0, "null")
+  (137, 8, 9, <47:65>, 1, "manipulation", 0, "null", "NN" 0.548)
+  (160, 8, 9, <47:65>, 1, "manipulation", 0, "null")
+  (128, 9, 10, <66:72>, 1, "trial.", 0, "null")
+  (143, 9, 10, <66:72>, 1, "trial.", 0, "null", "NN" 1.0)
+  (158, 9, 10, <66:72>, 1, "trial.", 0, "null")
+>
+
+(ROOT_FRAG
+ (7881 NP_FRG_C 9.43817 0 10
+  (7880 HDN_BNP_C 9.64258 0 10
+   (7879 HDN-AJ_RC_C 10.7278 0 10
+    (7830 ^N-HDN_CPD_C 0.424821 0 2
+     (7828 HDN_OPTCMP_C 0.363789 0 1
+      (168 murder_n1@n_pp_mc-of_le 0 0 1
+       ("murder" 149
+        "token [ +CARG \"MURDER\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"murder\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (7829 ^N_MS-CNT_ILR 0.181651 1 2
+      (172 threat_n1@n_-_mc_le 0 1 2
+       ("threat" 148
+        "token [ +CARG \"THREAT\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"threat\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (7878 VP_RC-REDREL_C 9.32129 2 10
+     (7877 HD-AJ_INT-UNSL_C 9.71674 2 10
+      (7861 ^HD_OPTCMP_C 1.31841 2 3
+       (7860 V_PAS_ODLR 0.334184 2 3
+        (219 charge_v3@v_np_noger_le 0.708353 2 3
+         ("charged" 131
+          "token [ +CARG #1=\"charged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83236639999999995\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (7819 HD-CMP_U_C 6.75984 3 10
+       (494 in@p_np_i-reg_le -0.179868 3 4
+        ("in" 124
+         "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (7818 HDN_BNP_C 7.08624 4 10
+        (7817 N-HDN_CPD_C 7.52991 4 10
+         (7810 NP-HDN_CPD_C 3.80696 4 7
+          (7809 HDN_BNP-PN_C 1.6624 4 6
+           (7808 NP-HDN_NME-CPD_C 1.2266 4 6
+            (7807 HDN_BNP-PN_C 0.365523 4 5
+             (7806 N_SG_ILR -0.386912 4 5
+              (537 generic_proper_ne@n_-_pn-gen_le 0 4 5
+               ("Haas" 103
+                "token [ +CARG #1=\"Haas\" +CLASS proper_ne +FORM #1 +FROM \"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+            (551 generic_proper_ne@n_-_pn-gen_le -0.248373 5 6
+             ("Securities" 104
+              "token [ +CARG #1=\"Securities\" +CLASS proper_ne +FORM #1 +FROM \"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66180640000000002\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+          (600 corp_abb_n1@n_-_c_le -1.02431 6 7
+           ("corp." 147
+            "token [ +CARG \"Corp.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (7816 ^N-HDN_CPD_C 2.63536 7 10
+          (7813 XP_BRCK-PR_C 1.80607 7 9
+           (7812 N-HDN_CPD_C 1.24565 7 9
+            (7811 W_HYPHEN_PLR 1.01005 7 8
+             (606 stock_n1@n_-_mc_le 0 7 8
+              ("stock-" 126
+               "token [ +CARG #1=\"stock-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"65\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+            (620 manipulation_n1@n_-_mc_le 0 8 9
+             ("manipulation" 133
+              "token [ +CARG #1=\"manipulation\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54799120000000001\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"65\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+          (7815 ^W_PERIOD_PLR 0.497234 9 10
+           (7814 N_MS-CNT_ILR 0.214285 9 10
+            (623 trial_n1@n_-_mc_le 0 9 10
+             ("trial." 128
+              "token [ +CARG \"trial\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"trial.\" +FROM #1=\"66\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"72\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))))
+
+(XP
+ (NP
+  (N (N (N (N "murder")) (N (N "threat")))
+   (S
+    (VP (VP (V (V "charged")))
+     (PP (P "in")
+      (NP
+       (N (N (NP (N (NP (N (N "Haas"))) (N "Securities"))) (N "corp."))
+        (N (N (N (N (N "stock-")) (N "manipulation")))
+         (N (N (N "trial."))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:72>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:72>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 ]
+          [ udef_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _murder_n_of<0:6>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ _threat_n_1<7:13>
+            LBL: h8
+            ARG0: x4 ]
+          [ _charge_v_1<14:21>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i17
+            ARG2: x4 ]
+          [ parg_d<14:21>
+            LBL: h8
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: x4 ]
+          [ _in_p<22:24>
+            LBL: h8
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: x20 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<25:72>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ compound<25:72>
+            LBL: h24
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x25 [ x IND: + ] ]
+          [ udef_q<25:46>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ compound<25:46>
+            LBL: h30
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x25
+            ARG2: x31 [ x IND: + ] ]
+          [ proper_q<25:40>
+            LBL: h33
+            ARG0: x31
+            RSTR: h34
+            BODY: h35 ]
+          [ compound<25:40>
+            LBL: h36
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x31
+            ARG2: x37 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<25:29>
+            LBL: h39
+            ARG0: x37
+            RSTR: h40
+            BODY: h41 ]
+          [ named<25:29>
+            LBL: h42
+            ARG0: x37
+            CARG: "Haas" ]
+          [ named<30:40>
+            LBL: h36
+            ARG0: x31
+            CARG: "Securities" ]
+          [ _corporation_n_1<41:46>
+            LBL: h30
+            ARG0: x25 ]
+          [ compound<47:72>
+            LBL: h24
+            ARG0: e44 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x43 ]
+          [ udef_q<47:65>
+            LBL: h45
+            ARG0: x43
+            RSTR: h46
+            BODY: h47 ]
+          [ compound<47:65>
+            LBL: h48
+            ARG0: e50 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x43
+            ARG2: x49 ]
+          [ udef_q<47:65>
+            LBL: h51
+            ARG0: x49
+            RSTR: h52
+            BODY: h53 ]
+          [ _stock_n_1<47:65>
+            LBL: h54
+            ARG0: x49 ]
+          [ _manipulation_n_1<47:65>
+            LBL: h48
+            ARG0: x43 ]
+          [ _trial_n_1<66:72>
+            LBL: h24
+            ARG0: x20 ] >
+   HCONS: < h52 QEQ h54 h46 QEQ h48 h40 QEQ h42 h34 QEQ h36 h28 QEQ h30 h22 QEQ h24 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:72>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:72>[BV x4]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:6>[BV x9]
+ x9:_murder_n_of<0:6>{x}[]
+ x4:_threat_n_1<7:13>{x PERS 3, NUM sg}[]
+ e16:_charge_v_1<14:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x4]
+ e18:parg_d<14:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 x4]
+ e19:_in_p<22:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 x20]
+ _3:udef_q<25:72>[BV x20]
+ e26:compound<25:72>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x25]
+ _4:udef_q<25:46>[BV x25]
+ e32:compound<25:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x25, ARG2 x31]
+ _5:proper_q<25:40>[BV x31]
+ e38:compound<25:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x31, ARG2 x37]
+ _6:proper_q<25:29>[BV x37]
+ x37:named<25:29>("Haas"){x PERS 3, NUM sg, IND +}[]
+ x31:named<30:40>("Securities"){x IND +}[]
+ x25:_corporation_n_1<41:46>{x IND +}[]
+ e44:compound<47:72>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x43]
+ _7:udef_q<47:65>[BV x43]
+ e50:compound<47:65>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x43, ARG2 x49]
+ _8:udef_q<47:65>[BV x49]
+ x49:_stock_n_1<47:65>{x}[]
+ x43:_manipulation_n_1<47:65>{x}[]
+ x20:_trial_n_1<66:72>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:72> ARG _threat_n_1<7:13>  
+  udef_q<0:72> BV _threat_n_1<7:13>  
+  compound<0:13> ARG1 _threat_n_1<7:13>  
+  compound<0:13> ARG2 _murder_n_of<0:6>  
+  udef_q<0:6> BV _murder_n_of<0:6>  
+  _charge_v_1<14:21> ARG2 _threat_n_1<7:13>  
+  parg_d<14:21> ARG1 _charge_v_1<14:21>  
+  parg_d<14:21> ARG2 _threat_n_1<7:13>  
+  _in_p<22:24> ARG1 _charge_v_1<14:21>  
+  _in_p<22:24> ARG2 _trial_n_1<66:72>  
+  udef_q<25:72> BV _trial_n_1<66:72>  
+  compound<25:72> ARG1 _trial_n_1<66:72>  
+  compound<25:72> ARG2 _corporation_n_1<41:46>  
+  udef_q<25:46> BV _corporation_n_1<41:46>  
+  compound<25:46> ARG1 _corporation_n_1<41:46>  
+  compound<25:46> ARG2 named<30:40>(Securities)  
+  proper_q<25:40> BV named<30:40>(Securities)  
+  compound<25:40> ARG1 named<30:40>(Securities)  
+  compound<25:40> ARG2 named<25:29>(Haas)  
+  proper_q<25:29> BV named<25:29>(Haas)  
+  compound<47:72> ARG1 _trial_n_1<66:72>  
+  compound<47:72> ARG2 _manipulation_n_1<47:65>  
+  udef_q<47:65> BV _manipulation_n_1<47:65>  
+  compound<47:65> ARG1 _manipulation_n_1<47:65>  
+  compound<47:65> ARG2 _stock_n_1<47:65>  
+  udef_q<47:65> BV _stock_n_1<47:65>  
+  unknown<0:72> SF prop  
+  unknown<0:72> TENSE untensed  
+  unknown<0:72> MOOD indicative  
+  unknown<0:72> PROG -  
+  unknown<0:72> PERF -  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _threat_n_1<7:13> PERS 3  
+  _threat_n_1<7:13> NUM sg  
+  _charge_v_1<14:21> SF prop  
+  _charge_v_1<14:21> TENSE untensed  
+  _charge_v_1<14:21> MOOD indicative  
+  _charge_v_1<14:21> PROG -  
+  _charge_v_1<14:21> PERF -  
+  parg_d<14:21> SF prop  
+  parg_d<14:21> TENSE untensed  
+  parg_d<14:21> MOOD indicative  
+  parg_d<14:21> PROG -  
+  parg_d<14:21> PERF -  
+  _in_p<22:24> SF prop  
+  _in_p<22:24> TENSE untensed  
+  _in_p<22:24> MOOD indicative  
+  _in_p<22:24> PROG -  
+  _in_p<22:24> PERF -  
+  compound<25:72> SF prop  
+  compound<25:72> TENSE untensed  
+  compound<25:72> MOOD indicative  
+  compound<25:72> PROG -  
+  compound<25:72> PERF -  
+  compound<25:46> SF prop  
+  compound<25:46> TENSE untensed  
+  compound<25:46> MOOD indicative  
+  compound<25:46> PROG -  
+  compound<25:46> PERF -  
+  compound<25:40> SF prop  
+  compound<25:40> TENSE untensed  
+  compound<25:40> MOOD indicative  
+  compound<25:40> PROG -  
+  compound<25:40> PERF -  
+  named<25:29>(Haas) PERS 3  
+  named<25:29>(Haas) NUM sg  
+  named<25:29>(Haas) IND +  
+  named<30:40>(Securities) IND +  
+  _corporation_n_1<41:46> IND +  
+  compound<47:72> SF prop  
+  compound<47:72> TENSE untensed  
+  compound<47:72> MOOD indicative  
+  compound<47:72> PROG -  
+  compound<47:72> PERF -  
+  compound<47:65> SF prop  
+  compound<47:65> TENSE untensed  
+  compound<47:65> MOOD indicative  
+  compound<47:65> PROG -  
+  compound<47:65> PERF -  
+  _trial_n_1<66:72> PERS 3  
+  _trial_n_1<66:72> NUM sg  
+}
+

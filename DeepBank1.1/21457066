@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj14c';
+;;; (wsun@wsun; 22-jan-2018 (23:28 h)).
+;;;
+
+[21457066] (1 of 1) {1} `"It's serious stuff.'
+
+[21457066:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:5>, 1, "’s", 0, "null", "VBZ" 0.9827 "VBP" 0.0173)
+  (4, 3, 4, <6:13>, 1, "serious", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <14:19>, 1, "stuff", 0, "null", "NN" 1.0)
+  (6, 5, 6, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (74, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (65, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (67, 1, 2, <3:5>, 1, "’s", 0, "null", "VBZ" 0.9827)
+  (73, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (60, 2, 3, <6:13>, 1, "serious", 0, "null")
+  (68, 2, 3, <6:13>, 1, "serious", 0, "null", "JJ" 1.0)
+  (71, 2, 3, <6:13>, 1, "serious", 0, "null")
+  (64, 3, 4, <14:20>, 1, "stuff.", 0, "null")
+  (69, 3, 4, <14:20>, 1, "stuff.", 0, "null", "NN" 1.0)
+  (72, 3, 4, <14:20>, 1, "stuff.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (518 SB-HD_MC_C 1.08925 0 4
+  (512 HDN_BNP-QNT_C -0.56328 0 1
+   (511 W_DQLEFT_PLR 0.072519 0 1
+    (76 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 70
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (517 ^HD-CMP_U_C 0.383178 1 4
+   (102 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+    ("’s" 65
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98274479999999997\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (516 HDN_BNP_C 1.66434 2 4
+    (515 AJ-HDN_NORM_C 1.39954 2 4
+     (254 serious_a1@aj_-_i_le 0 2 3
+      ("serious" 60
+       "token [ +CARG #1=\"serious\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (514 ^W_PERIOD_PLR 0.475986 3 4
+      (513 N_MS_ILR -0.383795 3 4
+       (262 stuff_n1@n_-_m_le 0 3 4
+        ("stuff." 64
+         "token [ +CARG \"stuff\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"stuff.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP (NP "“it")))
+ (VP (V "’s") (NP (N (AP "serious") (N (N (N "stuff.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<3:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<6:20>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _serious_a_1<6:13>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _stuff_n_1<14:20>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_be_v_id<3:5>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<6:20>[BV x9]
+ e14:_serious_a_1<6:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_stuff_n_1<14:20>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _be_v_id<3:5> ARG1 pron<0:3>  
+  _be_v_id<3:5> ARG2 _stuff_n_1<14:20>  
+  udef_q<6:20> BV _stuff_n_1<14:20>  
+  _serious_a_1<6:13> ARG1 _stuff_n_1<14:20>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _be_v_id<3:5> SF prop  
+  _be_v_id<3:5> TENSE pres  
+  _be_v_id<3:5> MOOD indicative  
+  _be_v_id<3:5> PROG -  
+  _be_v_id<3:5> PERF -  
+  _serious_a_1<6:13> SF prop  
+  _serious_a_1<6:13> TENSE untensed  
+  _serious_a_1<6:13> MOOD indicative  
+  _serious_a_1<6:13> PROG -  
+  _serious_a_1<6:13> PERF -  
+  _stuff_n_1<14:20> PERS 3  
+  _stuff_n_1<14:20> NUM sg  
+  _stuff_n_1<14:20> GEND n  
+  _stuff_n_1<14:20> IND -  
+}
+

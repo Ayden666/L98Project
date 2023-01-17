@@ -1,0 +1,192 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:17 h)).
+;;;
+
+[21937024] (1 of 1) {1} `Overall OTC insurance issues were mixed.'
+
+[21937024:2] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Overall", 0, "null", "NNP" 0.4225 "JJ" 0.4202 "RB" 0.1573)
+  (2, 1, 2, <8:11>, 1, "OTC", 0, "null", "NNP" 0.9846 "NN" 0.0154)
+  (3, 2, 3, <12:21>, 1, "insurance", 0, "null", "NN" 1.0)
+  (4, 3, 4, <22:28>, 1, "issues", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <29:33>, 1, "were", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <34:39>, 1, "mixed", 0, "null", "VBN" 0.6835 "JJ" 0.3165)
+  (7, 6, 7, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (87, 0, 1, <0:7>, 1, "Overall", 0, "null")
+  (90, 0, 1, <0:7>, 1, "Overall", 0, "null", "JJ" 0.4202)
+  (95, 0, 1, <0:7>, 1, "Overall", 0, "null", "RB" 0.1573)
+  (96, 0, 1, <0:7>, 1, "overall", 0, "null")
+  (103, 0, 1, <0:7>, 1, "overall", 0, "null")
+  (65, 1, 2, <8:11>, 1, "OTC", 0, "null")
+  (88, 1, 2, <8:11>, 1, "OTC", 0, "null", "NNP" 0.9846)
+  (97, 1, 2, <8:11>, 1, "otc", 0, "null")
+  (98, 1, 2, <8:11>, 1, "otc", 0, "null")
+  (76, 2, 3, <12:21>, 1, "insurance", 0, "null")
+  (91, 2, 3, <12:21>, 1, "insurance", 0, "null", "NN" 1.0)
+  (99, 2, 3, <12:21>, 1, "insurance", 0, "null")
+  (78, 3, 4, <22:28>, 1, "issues", 0, "null")
+  (92, 3, 4, <22:28>, 1, "issues", 0, "null", "NNS" 1.0)
+  (100, 3, 4, <22:28>, 1, "issues", 0, "null")
+  (80, 4, 5, <29:33>, 1, "were", 0, "null")
+  (93, 4, 5, <29:33>, 1, "were", 0, "null", "VBD" 1.0)
+  (101, 4, 5, <29:33>, 1, "were", 0, "null")
+  (84, 5, 6, <34:40>, 1, "mixed.", 0, "null")
+  (89, 5, 6, <34:40>, 1, "mixed.", 0, "null", "VBN" 0.6835)
+  (94, 5, 6, <34:40>, 1, "mixed.", 0, "null", "JJ" 0.3165)
+  (102, 5, 6, <34:40>, 1, "mixed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1711 SB-HD_MC_C 5.2749 0 6
+  (1710 HDN_BNP_C 2.00346 0 4
+   (1709 AJ-HDN_NORM_C 1.26896 0 4
+    (108 overall_a1@aj_-_i-att-nsp_le 0 0 1
+     ("overall" 96
+      "token [ +CARG \"Overall\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"overall\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.422483\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1708 ^N-HDN_CPD_C 0.730794 1 4
+     (1707 NP-HDN_CPD_C 0.145551 1 3
+      (1689 HDN_BNP-PN_C 0.382996 1 2
+       (111 generic_proper_ne@n_-_pn-gen_le -0.206929 1 2
+        ("OTC" 65
+         "token [ +CARG #1=\"OTC\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98455890000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (113 insurance_n1@n_-_mc_le -0.71871 2 3
+       ("insurance" 76
+        "token [ +CARG #1=\"insurance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1690 ^N_PL_OLR 0.749994 3 4
+      (115 issue_n1@n_-_mc-ns_le 0.771058 3 4
+       ("issues" 78
+        "token [ +CARG #1=\"issues\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1698 ^HD-CMP_U_C 1.75553 4 6
+   (131 be_c_were@v_prd_wre_le 1.64781 4 5
+    ("were" 80
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1697 HD_OPTCMP_C 0.285111 5 6
+    (1696 W_PERIOD_PLR 0.133685 5 6
+     (1695 V_PAS_ODLR -0.192154 5 6
+      (152 mix_v1@v_np*_le 0 5 6
+       ("mixed." 84
+        "token [ +CARG \"mixed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"mixed.\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68346750000000001\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (AP "overall")
+   (N (N (NP (N "OTC")) (N "insurance")) (N (N "issues")))))
+ (VP (V "were") (VP (V (V (V "mixed."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:28>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _overall_a_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ compound<8:28>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 ]
+          [ udef_q<8:21>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<8:21>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x16 [ x IND: + ] ]
+          [ proper_q<8:11>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ named<8:11>
+            LBL: h21
+            ARG0: x16
+            CARG: "OTC" ]
+          [ _insurance_n_1<12:21>
+            LBL: h15
+            ARG0: x10 ]
+          [ _issue_n_1<22:28>
+            LBL: h8
+            ARG0: x6 ]
+          [ _mix_v_1<34:40>
+            LBL: h2
+            ARG0: e3
+            ARG1: i22
+            ARG2: x6 ]
+          [ parg_d<34:40>
+            LBL: h2
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h19 QEQ h21 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:28>[BV x6]
+ e9:_overall_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:compound<8:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<8:21>[BV x10]
+ e17:compound<8:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x16]
+ _3:proper_q<8:11>[BV x16]
+ x16:named<8:11>("OTC"){x IND +}[]
+ x10:_insurance_n_1<12:21>{x}[]
+ x6:_issue_n_1<22:28>{x PERS 3, NUM pl}[]
+ e3:_mix_v_1<34:40>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e23:parg_d<34:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:28> BV _issue_n_1<22:28>  
+  _overall_a_1<0:7> ARG1 _issue_n_1<22:28>  
+  compound<8:28> ARG1 _issue_n_1<22:28>  
+  compound<8:28> ARG2 _insurance_n_1<12:21>  
+  udef_q<8:21> BV _insurance_n_1<12:21>  
+  compound<8:21> ARG1 _insurance_n_1<12:21>  
+  compound<8:21> ARG2 named<8:11>(OTC)  
+  proper_q<8:11> BV named<8:11>(OTC)  
+  _mix_v_1<34:40> ARG2 _issue_n_1<22:28>  
+  parg_d<34:40> ARG1 _mix_v_1<34:40>  
+  parg_d<34:40> ARG2 _issue_n_1<22:28>  
+  _overall_a_1<0:7> SF prop  
+  _overall_a_1<0:7> TENSE untensed  
+  _overall_a_1<0:7> MOOD indicative  
+  _overall_a_1<0:7> PROG -  
+  _overall_a_1<0:7> PERF -  
+  compound<8:28> SF prop  
+  compound<8:28> TENSE untensed  
+  compound<8:28> MOOD indicative  
+  compound<8:28> PROG -  
+  compound<8:28> PERF -  
+  compound<8:21> SF prop  
+  compound<8:21> TENSE untensed  
+  compound<8:21> MOOD indicative  
+  compound<8:21> PROG -  
+  compound<8:21> PERF -  
+  named<8:11>(OTC) IND +  
+  _issue_n_1<22:28> PERS 3  
+  _issue_n_1<22:28> NUM pl  
+  _mix_v_1<34:40> SF prop  
+  _mix_v_1<34:40> TENSE past  
+  _mix_v_1<34:40> MOOD indicative  
+  _mix_v_1<34:40> PROG -  
+  _mix_v_1<34:40> PERF -  
+  parg_d<34:40> SF prop  
+  parg_d<34:40> TENSE untensed  
+  parg_d<34:40> MOOD indicative  
+  parg_d<34:40> PROG -  
+  parg_d<34:40> PERF -  
+}
+

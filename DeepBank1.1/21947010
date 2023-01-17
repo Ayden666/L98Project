@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj19c';
+;;; (wsun@wsun; 23-jan-2018 (04:22 h)).
+;;;
+
+[21947010] (1 of 1) {1} `Texas simply pumped harder.'
+
+[21947010:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Texas", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:12>, 1, "simply", 0, "null", "RB" 1.0)
+  (3, 2, 3, <13:19>, 1, "pumped", 0, "null", "VBD" 0.9081 "VBN" 0.0919)
+  (4, 3, 4, <20:26>, 1, "harder", 0, "null", "JJR" 0.5012 "RBR" 0.4671 "RB" 0.0318)
+  (5, 4, 5, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:5>, 1, "Texas", 0, "null")
+  (65, 0, 1, <0:5>, 1, "texas", 0, "null")
+  (69, 0, 1, <0:5>, 1, "texas", 0, "null")
+  (56, 1, 2, <6:12>, 1, "simply", 0, "null")
+  (64, 1, 2, <6:12>, 1, "simply", 0, "null", "RB" 1.0)
+  (66, 1, 2, <6:12>, 1, "simply", 0, "null")
+  (57, 2, 3, <13:19>, 1, "pumped", 0, "null")
+  (62, 2, 3, <13:19>, 1, "pumped", 0, "null", "VBD" 0.9081)
+  (67, 2, 3, <13:19>, 1, "pumped", 0, "null")
+  (59, 3, 4, <20:27>, 1, "harder.", 0, "null")
+  (63, 3, 4, <20:27>, 1, "harder.", 0, "null", "JJR" 0.5012)
+  (68, 3, 4, <20:27>, 1, "harder.", 0, "null")
+>
+
+(ROOT_STRICT
+ (868 SB-HD_MC_C 3.74728 0 4
+  (862 HDN_BNP-PN_C 0.146245 0 1
+   (861 N_SG_ILR 0.195201 0 1
+    (77 texas_n1@n_-_pn_le -0.343062 0 1
+     ("texas" 65
+      "token [ +CARG \"Texas\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"texas\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (867 ^AJ-HD_INT_C 2.56251 1 4
+   (80 simply_adv1@av_-_i-vp-x_le 0.973289 1 2
+    ("simply" 56
+     "token [ +CARG #1=\"simply\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (866 ^HD-AJ_INT-UNSL_C 0.487692 2 4
+    (864 ^HD_OPTCMP_C 0.564094 2 3
+     (863 V_PST_OLR -0.436528 2 3
+      (102 pump_v1@v_np*_le 0 2 3
+       ("pumped" 57
+        "token [ +CARG #1=\"pumped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90806980000000004\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (865 W_PERIOD_PLR -0.168963 3 4
+     (242 harder_adv1@av_-_i-vp-po_le 0 3 4
+      ("harder." 59
+       "token [ +CARG \"harder\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"harder.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.50116839999999996\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "texas")))
+ (VP (ADV "simply") (VP (VP (V (V "pumped"))) (ADV (ADV "harder.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Texas" ]
+          [ _simple_a_1<6:12>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _pump_v_1<13:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p10 ]
+          [ _harder_a_1<20:27>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("Texas"){x PERS 3, NUM sg, IND +}[]
+ e9:_simple_a_1<6:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_pump_v_1<13:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:_harder_a_1<20:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(Texas)  
+  _simple_a_1<6:12> ARG1 _pump_v_1<13:19>  
+  _pump_v_1<13:19> ARG1 named<0:5>(Texas)  
+  _harder_a_1<20:27> ARG1 _pump_v_1<13:19>  
+  named<0:5>(Texas) PERS 3  
+  named<0:5>(Texas) NUM sg  
+  named<0:5>(Texas) IND +  
+  _simple_a_1<6:12> SF prop  
+  _simple_a_1<6:12> TENSE untensed  
+  _simple_a_1<6:12> MOOD indicative  
+  _simple_a_1<6:12> PROG -  
+  _simple_a_1<6:12> PERF -  
+  _pump_v_1<13:19> SF prop  
+  _pump_v_1<13:19> TENSE past  
+  _pump_v_1<13:19> MOOD indicative  
+  _pump_v_1<13:19> PROG -  
+  _pump_v_1<13:19> PERF -  
+  _harder_a_1<20:27> SF prop  
+  _harder_a_1<20:27> TENSE untensed  
+  _harder_a_1<20:27> MOOD indicative  
+  _harder_a_1<20:27> PROG -  
+  _harder_a_1<20:27> PERF -  
+}
+

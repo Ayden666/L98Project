@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:46 h)).
+;;;
+
+[21786014] (1 of 1) {1} `Columbia, S.C.'
+
+[21786014:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Columbia", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <10:13>, 1, "S.C", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:9>, 1, "Columbia,", 0, "null")
+  (48, 0, 1, <0:9>, 1, "columbia,", 0, "null")
+  (51, 0, 1, <0:9>, 1, "columbia,", 0, "null")
+  (41, 1, 2, <10:14>, 1, "S.C.", 0, "null")
+  (47, 1, 2, <10:14>, 1, "S.C.", 0, "null", "NNP" 1.0)
+  (49, 1, 2, <10:14>, 1, "s.c.", 0, "null")
+  (50, 1, 2, <10:14>, 1, "s.c.", 0, "null")
+>
+
+(ROOT_FRAG
+ (164 NP_FRG_C -1.91776 0 2
+  (163 HDN_BNP-PN_C -0.771251 0 2
+   (162 NP-HDN_CTY-CPD_C 0.505209 0 2
+    (155 HDN_BNP-PN_C 0.562716 0 1
+     (154 W_COMMA_PLR -0.266433 0 1
+      (153 N_SG_ILR -0.609145 0 1
+       (58 columbia_n1@n_-_pn_le 0 0 1
+        ("columbia," 48
+         "token [ +CARG \"Columbia\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"columbia,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (161 ^N_SG_ILR 0.496727 1 2
+     (72 southcarolina_n3@n_-_pn-abb_le 0 1 2
+      ("s.c." 49
+       "token [ +CARG \"S.C\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"s.c.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (NP (N (N (N "columbia,")))) (N (N "s.c.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:14>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Columbia" ]
+          [ named<10:14>
+            LBL: h8
+            ARG0: x4
+            CARG: "South+Carolina" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:14>[BV x4]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ x9:named<0:9>("Columbia"){x PERS 3, NUM sg, IND +}[]
+ x4:named<10:14>("South+Carolina"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:14> ARG named<10:14>(South+Carolina)  
+  proper_q<0:14> BV named<10:14>(South+Carolina)  
+  compound<0:14> ARG1 named<10:14>(South+Carolina)  
+  compound<0:14> ARG2 named<0:9>(Columbia)  
+  proper_q<0:9> BV named<0:9>(Columbia)  
+  unknown<0:14> SF prop-or-ques  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  named<0:9>(Columbia) PERS 3  
+  named<0:9>(Columbia) NUM sg  
+  named<0:9>(Columbia) IND +  
+  named<10:14>(South+Carolina) PERS 3  
+  named<10:14>(South+Carolina) NUM sg  
+  named<10:14>(South+Carolina) IND +  
+}
+

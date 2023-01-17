@@ -1,0 +1,296 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:47 h)).
+;;;
+
+[21590015] (1 of 1) {1} `Unemployment in September dropped to 1,695,000, the lowest level since 1980.'
+
+[21590015:0] (active)
+
+<
+  (1, 0, 1, <0:12>, 1, "Unemployment", 0, "null", "NN" 1.0)
+  (2, 1, 2, <13:15>, 1, "in", 0, "null", "IN" 1.0)
+  (3, 2, 3, <16:25>, 1, "September", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <26:33>, 1, "dropped", 0, "null", "VBD" 0.979 "VBN" 0.021)
+  (5, 4, 5, <34:36>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <37:46>, 1, "1,695,000", 0, "null", "CD" 1.0)
+  (7, 6, 7, <46:47>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <48:51>, 1, "the", 0, "null", "DT" 1.0)
+  (9, 8, 9, <52:58>, 1, "lowest", 0, "null", "JJS" 1.0)
+  (10, 9, 10, <59:64>, 1, "level", 0, "null", "NN" 1.0)
+  (11, 10, 11, <65:70>, 1, "since", 0, "null", "IN" 1.0)
+  (12, 11, 12, <71:75>, 1, "1980", 0, "null", "CD" 1.0)
+  (13, 12, 13, <75:76>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (138, 0, 1, <0:12>, 1, "Unemployment", 0, "null")
+  (144, 0, 1, <0:12>, 1, "unemployment", 0, "null")
+  (155, 0, 1, <0:12>, 1, "unemployment", 0, "null")
+  (133, 1, 2, <13:15>, 1, "in", 0, "null")
+  (152, 1, 2, <13:15>, 1, "in", 0, "null")
+  (115, 2, 3, <16:25>, 1, "September", 0, "null")
+  (140, 2, 3, <16:25>, 1, "September", 0, "null", "NNP" 1.0)
+  (143, 2, 3, <16:25>, 1, "september", 0, "null")
+  (145, 2, 3, <16:25>, 1, "september", 0, "null")
+  (136, 3, 4, <26:33>, 1, "dropped", 0, "null")
+  (139, 3, 4, <26:33>, 1, "dropped", 0, "null", "VBD" 0.979)
+  (154, 3, 4, <26:33>, 1, "dropped", 0, "null")
+  (135, 4, 5, <34:36>, 1, "to", 0, "null")
+  (153, 4, 5, <34:36>, 1, "to", 0, "null")
+  (117, 5, 6, <37:47>, 1, "1,695,000,", 0, "null")
+  (147, 5, 6, <37:47>, 1, "1,695,000,", 0, "null")
+  (125, 6, 7, <48:51>, 1, "the", 0, "null")
+  (148, 6, 7, <48:51>, 1, "the", 0, "null")
+  (127, 7, 8, <52:58>, 1, "lowest", 0, "null")
+  (141, 7, 8, <52:58>, 1, "lowest", 0, "null", "JJS" 1.0)
+  (149, 7, 8, <52:58>, 1, "lowest", 0, "null")
+  (129, 8, 9, <59:64>, 1, "level", 0, "null")
+  (142, 8, 9, <59:64>, 1, "level", 0, "null", "NN" 1.0)
+  (150, 8, 9, <59:64>, 1, "level", 0, "null")
+  (131, 9, 10, <65:70>, 1, "since", 0, "null")
+  (151, 9, 10, <65:70>, 1, "since", 0, "null")
+  (116, 10, 11, <71:76>, 1, "1980.", 0, "null")
+  (146, 10, 11, <71:76>, 1, "1980.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5049 SB-HD_MC_C 21.5437 0 11
+  (5031 HDN_BNP_C 2.67987 0 3
+   (5030 HDN-AJ_REDREL_C 2.40848 0 3
+    (5026 ^N_MS_ILR -0.340186 0 1
+     (160 unemployment_n1@n_-_m_le 0 0 1
+      ("unemployment" 144
+       "token [ +CARG \"Unemployment\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"unemployment\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (5029 HD-CMP_U_C 2.21008 1 3
+     (185 in_temp@p_np_i-tmp_le 1.23875 1 2
+      ("in" 133
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (5028 HDN_BNP-PN_C -0.550692 2 3
+      (5027 N_SG_ILR -0.103954 2 3
+       (224 september@n_-_c-month_le -0.0021151 2 3
+        ("september" 143
+         "token [ +CARG \"September\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"september\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (5048 ^HD-AJ_INT-UNSL_C 18.0237 3 11
+   (5033 ^HD_OPTCMP_C 4.1657 3 4
+    (5032 V_PST_OLR 3.28717 3 4
+     (248 drop_v2@v_pp_unacc_le 1.56102 3 4
+      ("dropped" 136
+       "token [ +CARG #1=\"dropped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97901769999999999\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (5047 HD-CMP_U_C 12.5458 4 11
+    (511 to@p_np_i-nnm_le -1.63041 4 5
+     ("to" 135
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (5046 HDN-NP_APP-PR_C 13.3697 5 11
+     (5036 ^HDN_BNP-NUM_C 2.12868 5 6
+      (5035 HDN_NP-NUM_C 2.15592 5 6
+       (5034 W_COMMA_PLR 1.5794 5 6
+        (567 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+         ("1,695,000," 117
+          "token [ +CARG \"1,695,000\" +CLASS card_ne +FORM \"1,695,000,\" +FROM \"37\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+     (5045 SP-HD_N_C 10.384 6 11
+      (586 the_1@d_-_the_le 0.116734 6 7
+       ("the" 125
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"48\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (5044 ^AJ-HDN_NORM_C 9.21999 7 11
+       (611 lowest_a1@aj_-_i-sup_le 0 7 8
+        ("lowest" 127
+         "token [ +CARG #1=\"lowest\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"52\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJS\" ] +PRBS *null* +TAGS *null* ] +TO \"58\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (5043 ^HDN-AJ_REDREL_C 8.85917 8 11
+        (5037 ^N_SG_ILR 1.73985 8 9
+         (615 level_n1@n_-_c_le 1.12264 8 9
+          ("level" 129
+           "token [ +CARG #1=\"level\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"59\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"64\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (5042 HD-CMP_U_C 6.45645 9 11
+         (627 since@p_np_i-ngap_le 0.80937 9 10
+          ("since" 131
+           "token [ +CARG #1=\"since\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"65\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"11\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"70\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (5041 HDN_BNP-PN_C 4.13433 10 11
+          (5040 HDN_OPTCMP_C 2.89384 10 11
+           (5039 W_PERIOD_PLR 2.12637 10 11
+            (5038 N_SG_ILR 1.40701 10 11
+             (637 generic_year_ne@n_-_pn-yoc-gen_le 0 10 11
+              ("1980." 116
+               "token [ +CARG \"1980\" +CLASS card_or_year_ne +FORM \"1980.\" +FROM \"71\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"76\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))))))
+
+(S
+ (NP (N (N (N "unemployment")) (PP (P "in") (NP (N (N "september"))))))
+ (VP (VP (V (V "dropped")))
+  (PP (P "to")
+   (NP (NP (N (ADJ (ADJ "1,695,000,"))))
+    (NP (DET "the")
+     (N (ADJ "lowest")
+      (N (N (N "level"))
+       (PP (P "since") (NP (N (N (N (N "1980.")))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:25>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _unemployment_n_1<0:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _in_p_temp<13:15>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<16:25>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ mofy<16:25>
+            LBL: h14
+            ARG0: x10
+            CARG: "Sep" ]
+          [ _drop_v_1<26:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _to_p<34:36>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ appos<37:76>
+            LBL: h2
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ number_q<37:47>
+            LBL: h19
+            ARG0: x16
+            RSTR: h20
+            BODY: h21 ]
+          [ card<37:47>
+            LBL: h22
+            ARG0: x16
+            ARG1: i23
+            CARG: "1,695,000" ]
+          [ _the_q<48:51>
+            LBL: h24
+            ARG0: x17
+            RSTR: h26
+            BODY: h25 ]
+          [ _low_a_1<52:58>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17 ]
+          [ superl<52:58>
+            LBL: h27
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e28 ]
+          [ _level_n_1<59:64>
+            LBL: h27
+            ARG0: x17 ]
+          [ _since_p<65:70>
+            LBL: h27
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            ARG2: x31 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<71:76>
+            LBL: h32
+            ARG0: x31
+            RSTR: h33
+            BODY: h34 ]
+          [ yofc<71:76>
+            LBL: h35
+            ARG0: x31
+            CARG: "1980" ] >
+   HCONS: < h33 QEQ h35 h26 QEQ h27 h20 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:25>[BV x6]
+ x6:_unemployment_n_1<0:12>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e9:_in_p_temp<13:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:proper_q<16:25>[BV x10]
+ x10:mofy<16:25>("Sep"){x PERS 3, NUM sg, IND +}[]
+ e3:_drop_v_1-fn.Change_position_on_a_scale<26:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_to_p<34:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ e18:appos<37:76>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x17]
+ _3:number_q<37:47>[BV x16]
+ x16:card<37:47>("1,695,000"){x PERS 3, NUM sg}[]
+ _4:_the_q<48:51>[BV x17]
+ e28:_low_a_1<52:58>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+ e29:superl<52:58>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e28]
+ x17:_level_n_1<59:64>{x PERS 3, NUM sg, IND +}[]
+ e30:_since_p<65:70>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17, ARG2 x31]
+ _5:proper_q<71:76>[BV x31]
+ x31:yofc<71:76>("1980"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:25> BV _unemployment_n_1<0:12>  
+  _in_p_temp<13:15> ARG1 _unemployment_n_1<0:12>  
+  _in_p_temp<13:15> ARG2 mofy<16:25>(Sep)  
+  proper_q<16:25> BV mofy<16:25>(Sep)  
+  _drop_v_1<26:33> ARG1 _unemployment_n_1<0:12>  
+  _to_p<34:36> ARG1 _drop_v_1<26:33>  
+  _to_p<34:36> ARG2 card<37:47>(1,695,000)  
+  appos<37:76> ARG1 card<37:47>(1,695,000)  
+  appos<37:76> ARG2 _level_n_1<59:64>  
+  number_q<37:47> BV card<37:47>(1,695,000)  
+  _the_q<48:51> BV _level_n_1<59:64>  
+  _low_a_1<52:58> ARG1 _level_n_1<59:64>  
+  superl<52:58> ARG1 _low_a_1<52:58>  
+  _since_p<65:70> ARG1 _level_n_1<59:64>  
+  _since_p<65:70> ARG2 yofc<71:76>(1980)  
+  proper_q<71:76> BV yofc<71:76>(1980)  
+  _unemployment_n_1<0:12> PERS 3  
+  _unemployment_n_1<0:12> NUM sg  
+  _unemployment_n_1<0:12> GEND n  
+  _unemployment_n_1<0:12> IND -  
+  _in_p_temp<13:15> SF prop  
+  _in_p_temp<13:15> TENSE untensed  
+  _in_p_temp<13:15> MOOD indicative  
+  _in_p_temp<13:15> PROG -  
+  _in_p_temp<13:15> PERF -  
+  mofy<16:25>(Sep) PERS 3  
+  mofy<16:25>(Sep) NUM sg  
+  mofy<16:25>(Sep) IND +  
+  _drop_v_1<26:33> SF prop  
+  _drop_v_1<26:33> TENSE past  
+  _drop_v_1<26:33> MOOD indicative  
+  _drop_v_1<26:33> PROG -  
+  _drop_v_1<26:33> PERF -  
+  _to_p<34:36> SF prop  
+  _to_p<34:36> TENSE untensed  
+  _to_p<34:36> MOOD indicative  
+  _to_p<34:36> PROG -  
+  _to_p<34:36> PERF -  
+  appos<37:76> SF prop  
+  appos<37:76> TENSE untensed  
+  appos<37:76> MOOD indicative  
+  appos<37:76> PROG -  
+  appos<37:76> PERF -  
+  card<37:47>(1,695,000) PERS 3  
+  card<37:47>(1,695,000) NUM sg  
+  _low_a_1<52:58> SF prop  
+  _low_a_1<52:58> TENSE untensed  
+  _low_a_1<52:58> MOOD indicative  
+  _low_a_1<52:58> PROG -  
+  _low_a_1<52:58> PERF -  
+  superl<52:58> SF prop  
+  superl<52:58> TENSE untensed  
+  superl<52:58> MOOD indicative  
+  superl<52:58> PROG -  
+  superl<52:58> PERF -  
+  _level_n_1<59:64> PERS 3  
+  _level_n_1<59:64> NUM sg  
+  _level_n_1<59:64> IND +  
+  _since_p<65:70> SF prop  
+  _since_p<65:70> TENSE untensed  
+  _since_p<65:70> MOOD indicative  
+  _since_p<65:70> PROG -  
+  _since_p<65:70> PERF -  
+  yofc<71:76>(1980) PERS 3  
+  yofc<71:76>(1980) NUM sg  
+  yofc<71:76>(1980) IND +  
+}
+

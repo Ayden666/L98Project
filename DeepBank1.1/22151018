@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:24 h)).
+;;;
+
+[22151018] (1 of 1) {1} `"They look the same.'
+
+[22151018:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "They", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <6:10>, 1, "look", 0, "null", "VBP" 0.9571 "VB" 0.0429)
+  (4, 3, 4, <11:14>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <15:19>, 1, "same", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:5>, 1, "“they", 0, "null")
+  (73, 0, 1, <0:5>, 1, "“they", 0, "null")
+  (65, 1, 2, <6:10>, 1, "look", 0, "null")
+  (67, 1, 2, <6:10>, 1, "look", 0, "null", "VBP" 0.9571)
+  (72, 1, 2, <6:10>, 1, "look", 0, "null")
+  (60, 2, 3, <11:14>, 1, "the", 0, "null")
+  (70, 2, 3, <11:14>, 1, "the", 0, "null")
+  (64, 3, 4, <15:20>, 1, "same.", 0, "null")
+  (68, 3, 4, <15:20>, 1, "same.", 0, "null", "JJ" 1.0)
+  (71, 3, 4, <15:20>, 1, "same.", 0, "null")
+>
+
+(ROOT_STRICT
+ (589 SB-HD_MC_C 4.4308 0 4
+  (584 HDN_BNP-QNT_C 0.921662 0 1
+   (583 W_DQLEFT_PLR 1.55746 0 1
+    (74 they@n_-_pr-they_le 1.04 0 1
+     ("“they" 69
+      "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“they\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (588 ^HD_OPTCMP_C 3.53366 1 4
+   (587 HD-CMP_U_C 1.74588 1 4
+    (585 ^V_N3S-BSE_ILR 1.00231 1 2
+     (108 look_seem_v1@v_ap-pp_seq_le 0.824086 1 2
+      ("look" 65
+       "token [ +CARG #1=\"look\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95707059999999999\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (586 W_PERIOD_PLR 0 2 4
+     (177 the_same_a1@aj_-_i-prd-ndpt_le 0 2 4
+      ("the same." 60
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+       64
+       "token [ +CARG \"same\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"same.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP (NP "“they"))) (VP (V (V (V "look")) (AP (AP "the same.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _look_v_seem-to<6:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: h10
+            ARG3: i9 ]
+          [ _the+same_a_1<11:20>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 ] >
+   HCONS: < h10 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:5>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:5>[BV x5]
+ e3:_look_v_seem-to-fn.Appearance<6:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Phenomenon x5, ARG2 e12]
+ e12:_the+same_a_1<11:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:5> BV pron<0:5>  
+  _look_v_seem-to<6:10> ARG1 pron<0:5>  
+  _look_v_seem-to<6:10> ARG2 _the+same_a_1<11:20>  
+  _the+same_a_1<11:20> ARG1 pron<0:5>  
+  pron<0:5> PERS 3  
+  pron<0:5> NUM pl  
+  pron<0:5> PT std  
+  _look_v_seem-to<6:10> SF prop  
+  _look_v_seem-to<6:10> TENSE pres  
+  _look_v_seem-to<6:10> MOOD indicative  
+  _look_v_seem-to<6:10> PROG -  
+  _look_v_seem-to<6:10> PERF -  
+  _the+same_a_1<11:20> SF prop  
+  _the+same_a_1<11:20> TENSE untensed  
+  _the+same_a_1<11:20> MOOD indicative  
+  _the+same_a_1<11:20> PROG -  
+  _the+same_a_1<11:20> PERF -  
+}
+

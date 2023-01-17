@@ -1,0 +1,92 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:06 h)).
+;;;
+
+[21213021] (1 of 1) {1} `Everybody was rubber-necking."'
+
+[21213021:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Everybody", 0, "null", "NN" 1.0)
+  (2, 1, 2, <10:13>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <14:28>, 1, "rubber-necking", 0, "null", "VBG" 1.0)
+  (4, 3, 4, <28:29>, 1, ".", 0, "null", "." 1.0)
+  (5, 4, 5, <29:30>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (63, 0, 1, <0:9>, 1, "Everybody", 0, "null")
+  (67, 0, 1, <0:9>, 1, "everybody", 0, "null")
+  (71, 0, 1, <0:9>, 1, "everybody", 0, "null")
+  (58, 1, 2, <10:13>, 1, "was", 0, "null")
+  (64, 1, 2, <10:13>, 1, "was", 0, "null", "VBD" 1.0)
+  (68, 1, 2, <10:13>, 1, "was", 0, "null")
+  (60, 2, 3, <14:28>, 1, "rubber-", 0, "null")
+  (65, 2, 3, <14:28>, 1, "rubber-", 0, "null", "NN" 1.0)
+  (69, 2, 3, <14:28>, 1, "rubber-", 0, "null")
+  (62, 3, 4, <14:30>, 1, "necking.”", 0, "null")
+  (66, 3, 4, <14:30>, 1, "necking.”", 0, "null", "VBG" 1.0)
+  (70, 3, 4, <14:30>, 1, "necking.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (942 SB-HD_MC_C 5.39998 0 4
+  (936 HDN_BNP-QNT_C 1.64702 0 1
+   (935 HDN_OPTCMP_C 1.55824 0 1
+    (73 everybody@n_-_pr_le 0 0 1
+     ("everybody" 67
+      "token [ +CARG \"Everybody\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"everybody\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (941 ^HD-CMP_U_C 2.48362 1 4
+   (78 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 58
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (940 XP_BRCK-PR_C 0.48271 2 4
+    (939 W_DQRIGHT_PLR 0.48271 2 4
+     (938 W_PERIOD_PLR -1.57318 2 4
+      (937 V_PRP_OLR -0.858183 2 4
+       (140 rubber_neck_v1@v_-_le 0 2 4
+        ("rubber- necking.”" 60
+         "token [ +CARG #1=\"rubber-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"
+         62
+         "token [ +CARG \"necking\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"necking.”\" +FROM \"14\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))))))
+
+(S (NP (N (N "everybody")))
+ (VP (V "was") (VP (VP (VP (VP (V "rubber- necking.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ person<0:9>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ every_q<0:9>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _rubber-neck_v_1<14:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:person<0:9>{x PERS 3, NUM sg}[]
+ _1:every_q<0:9>[BV x5]
+ e3:_rubber-neck_v_1<14:30>{e SF prop, TENSE past, MOOD indicative, PROG +, PERF -}[ARG1 x5]
+}
+
+{
+  every_q<0:9> BV person<0:9>  
+  _rubber-neck_v_1<14:30> ARG1 person<0:9>  
+  person<0:9> PERS 3  
+  person<0:9> NUM sg  
+  _rubber-neck_v_1<14:30> SF prop  
+  _rubber-neck_v_1<14:30> TENSE past  
+  _rubber-neck_v_1<14:30> MOOD indicative  
+  _rubber-neck_v_1<14:30> PROG +  
+  _rubber-neck_v_1<14:30> PERF -  
+}
+

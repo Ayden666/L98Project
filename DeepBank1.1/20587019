@@ -1,0 +1,182 @@
+;;;
+;;; Redwoods export of `wsj05d';
+;;; (wsun@wsun; 22-jan-2018 (15:33 h)).
+;;;
+
+[20587019] (1 of 1) {1} `Police detained more than 350 people.'
+
+[20587019:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Police", 0, "null", "NNP" 0.5665 "NNS" 0.3952 "NN" 0.0383)
+  (2, 1, 2, <7:15>, 1, "detained", 0, "null", "VBD" 0.9358 "VBN" 0.0642)
+  (3, 2, 3, <16:20>, 1, "more", 0, "null", "JJR" 0.6989 "RBR" 0.3011)
+  (4, 3, 4, <21:25>, 1, "than", 0, "null", "IN" 1.0)
+  (5, 4, 5, <26:29>, 1, "350", 0, "null", "CD" 1.0)
+  (6, 5, 6, <30:36>, 1, "people", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <36:37>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:6>, 1, "Police", 0, "null")
+  (84, 0, 1, <0:6>, 1, "Police", 0, "null", "NNS" 0.3952)
+  (86, 0, 1, <0:6>, 1, "police", 0, "null")
+  (92, 0, 1, <0:6>, 1, "police", 0, "null")
+  (76, 1, 2, <7:15>, 1, "detained", 0, "null")
+  (82, 1, 2, <7:15>, 1, "detained", 0, "null", "VBD" 0.9358)
+  (90, 1, 2, <7:15>, 1, "detained", 0, "null")
+  (78, 2, 3, <16:20>, 1, "more", 0, "null")
+  (83, 2, 3, <16:20>, 1, "more", 0, "null", "JJR" 0.6989)
+  (91, 2, 3, <16:20>, 1, "more", 0, "null")
+  (72, 3, 4, <21:25>, 1, "than", 0, "null")
+  (88, 3, 4, <21:25>, 1, "than", 0, "null")
+  (60, 4, 5, <26:29>, 1, "350", 0, "null")
+  (87, 4, 5, <26:29>, 1, "350", 0, "null")
+  (74, 5, 6, <30:37>, 1, "people.", 0, "null")
+  (85, 5, 6, <30:37>, 1, "people.", 0, "null", "NNS" 1.0)
+  (89, 5, 6, <30:37>, 1, "people.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1138 SB-HD_MC_C 4.76424 0 6
+  (1126 HDN_BNP_C -0.662975 0 1
+   (1125 N_PL_OLR -0.0869687 0 1
+    (97 police_n1@n_-_c-pl_le 0 0 1
+     ("police" 86
+      "token [ +CARG \"Police\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"police\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56645330000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1137 ^HD-CMP_U_C 3.9113 1 6
+   (1127 ^V_PST_OLR 0.107619 1 2
+    (103 detain_v1@v_np_le 0 1 2
+     ("detained" 76
+      "token [ +CARG #1=\"detained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93584829999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1136 HDN_BNP-QNT_C 4.0992 2 6
+    (1135 NUM_PRT-NC_C 5.10827 2 6
+     (1134 HD-CMP_U_C 3.74494 2 6
+      (187 more_adj@aj_pp_i-more_le -0.615501 2 3
+       ("more" 78
+        "token [ +CARG #1=\"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69886879999999996\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1133 HD-CMP_U_C 2.84958 3 6
+       (249 than_p1_nc@p_np_ptcl-ngap_le 0.791378 3 4
+        ("than" 72
+         "token [ +CARG #1=\"than\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1132 SP-HD_N_C 0.838735 4 6
+        (1128 NUM_DET_C 0.221839 4 5
+         (271 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+          ("350" 60
+           "token [ +CARG #1=\"350\" +CLASS card_or_year_ne +FORM #1 +FROM \"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+        (1131 ^HDN_OPTCMP_C 0.920384 5 6
+         (1130 W_PERIOD_PLR 0.590076 5 6
+          (1129 N_PL_OLR 0.553805 5 6
+           (273 people_n1@n_pp_c-pl_le 0 5 6
+            ("people." 74
+             "token [ +CARG \"people\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"people.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S (NP (N (N "police")))
+ (VP (V (V "detained"))
+  (NP
+   (N
+    (ADJ (ADJ "more")
+     (PP (P "than")
+      (NP (DET (ADJ "350")) (N (N (N (N "people.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _police_n_1<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _detain_v_1<7:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 ]
+          [ generic_entity<16:37>
+            LBL: h10
+            ARG0: x9 ]
+          [ udef_q<16:37>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ much-many_a<16:20>
+            LBL: h10
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ comp<16:20>
+            LBL: h10
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e14
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<26:29>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ card<26:29>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            CARG: "350" ]
+          [ _people_n_of<30:37>
+            LBL: h20
+            ARG0: x15
+            ARG1: i22 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_police_n_1<0:6>{x PERS 3, NUM pl, IND +}[]
+ e3:_detain_v_1<7:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ x9:generic_entity<16:37>{x}[]
+ _2:udef_q<16:37>[BV x9]
+ e14:much-many_a<16:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e16:comp<16:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14, ARG2 x15]
+ _3:udef_q<26:29>[BV x15]
+ e21:card<26:29>("350"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ x15:_people_n_of<30:37>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:6> BV _police_n_1<0:6>  
+  _detain_v_1<7:15> ARG1 _police_n_1<0:6>  
+  _detain_v_1<7:15> ARG2 generic_entity<16:37>  
+  udef_q<16:37> BV generic_entity<16:37>  
+  much-many_a<16:20> ARG1 generic_entity<16:37>  
+  comp<16:20> ARG1 much-many_a<16:20>  
+  comp<16:20> ARG2 _people_n_of<30:37>  
+  udef_q<26:29> BV _people_n_of<30:37>  
+  card<26:29>(350) ARG1 _people_n_of<30:37>  
+  _police_n_1<0:6> PERS 3  
+  _police_n_1<0:6> NUM pl  
+  _police_n_1<0:6> IND +  
+  _detain_v_1<7:15> SF prop  
+  _detain_v_1<7:15> TENSE past  
+  _detain_v_1<7:15> MOOD indicative  
+  _detain_v_1<7:15> PROG -  
+  _detain_v_1<7:15> PERF -  
+  much-many_a<16:20> SF prop  
+  much-many_a<16:20> TENSE untensed  
+  much-many_a<16:20> MOOD indicative  
+  much-many_a<16:20> PROG -  
+  much-many_a<16:20> PERF -  
+  comp<16:20> SF prop  
+  comp<16:20> TENSE untensed  
+  comp<16:20> MOOD indicative  
+  comp<16:20> PROG -  
+  comp<16:20> PERF -  
+  card<26:29>(350) SF prop  
+  card<26:29>(350) TENSE untensed  
+  card<26:29>(350) MOOD indicative  
+  card<26:29>(350) PROG -  
+  card<26:29>(350) PERF -  
+  _people_n_of<30:37> PERS 3  
+  _people_n_of<30:37> NUM pl  
+  _people_n_of<30:37> IND +  
+}
+

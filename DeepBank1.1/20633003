@@ -1,0 +1,181 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:58 h)).
+;;;
+
+[20633003] (1 of 1) {1} `ABBIE: "I'm OK, Jack.'
+
+[20633003:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "ABBIE", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:6>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <7:8>, 1, "“", 0, "null", "``" 1.0)
+  (4, 3, 4, <8:9>, 1, "I", 0, "null", "PRP" 1.0)
+  (5, 4, 5, <9:11>, 1, "’m", 0, "null", "VBP" 0.8498 "VB" 0.0458 "JJ" 0.0405 "NN" 0.037 "RB" 0.027)
+  (6, 5, 6, <12:14>, 1, "OK", 0, "null", "JJ" 0.7408 "UH" 0.2592)
+  (7, 6, 7, <14:15>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <16:20>, 1, "Jack", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (89, 0, 1, <0:5>, 1, "ABBIE", 0, "null")
+  (120, 0, 1, <0:5>, 1, "ABBIE", 0, "null", "NNP" 1.0)
+  (122, 0, 1, <0:5>, 1, "abbie", 0, "null")
+  (126, 0, 1, <0:5>, 1, "abbie", 0, "null")
+  (109, 1, 2, <5:6>, 1, ":", 0, "null")
+  (130, 1, 2, <5:6>, 1, ":", 0, "null")
+  (91, 2, 3, <7:9>, 1, "“I", 0, "null")
+  (123, 2, 3, <7:9>, 1, "“i", 0, "null")
+  (127, 2, 3, <7:9>, 1, "“i", 0, "null")
+  (114, 3, 4, <9:11>, 1, "’m", 0, "null")
+  (118, 3, 4, <9:11>, 1, "’m", 0, "null", "VBP" 0.8498)
+  (131, 3, 4, <9:11>, 1, "’m", 0, "null")
+  (93, 4, 5, <12:15>, 1, "OK,", 0, "null")
+  (119, 4, 5, <12:15>, 1, "OK,", 0, "null", "JJ" 0.7408)
+  (125, 4, 5, <12:15>, 1, "ok,", 0, "null")
+  (128, 4, 5, <12:15>, 1, "ok,", 0, "null")
+  (95, 5, 6, <16:21>, 1, "Jack.", 0, "null")
+  (121, 5, 6, <16:21>, 1, "Jack.", 0, "null", "NNP" 1.0)
+  (124, 5, 6, <16:21>, 1, "jack.", 0, "null")
+  (129, 5, 6, <16:21>, 1, "jack.", 0, "null")
+>
+
+(ROOT_INFFRAG
+ (970 NB-AJ_FRG_C 2.04758 0 6
+  (958 ^N_SG_ILR -0.721613 0 1
+   (136 generic_proper_ne@n_-_pn-gen_le 0 0 1
+    ("ABBIE" 89
+     "token [ +CARG #1=\"ABBIE\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+  (969 HD-CMP_U_C 3.3839 1 6
+   (149 colon_subord@p_cp_s-cln_le 1.1817 1 2
+    (":" 109
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (968 HD-AJ_SCP-PR_C 1.91753 2 6
+    (963 ^SB-HD_MC_C 4.34168 2 5
+     (960 HDN_BNP-QNT_C 0.980602 2 3
+      (959 W_DQLEFT_PLR 0.579622 2 3
+       (182 i@n_-_pr-i_le 0.336087 2 3
+        ("“i" 123
+         "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL - ] +FORM \"“i\" +FROM \"7\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"8\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (962 ^HD-CMP_U_C 2.45078 3 5
+      (213 be_c_am_cx_3@v_prd_am-cx_le 1.06914 3 4
+       ("’m" 114
+        "token [ +CARG #1=\"’m\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8497654\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (961 W_COMMA_PLR 1.38164 4 5
+       (226 ok_a1@aj_-_i_le 0 4 5
+        ("ok," 125
+         "token [ +CARG \"OK\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"ok,\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.74082349999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (967 NP_VOC-POST_C -2.15861 5 6
+     (966 HDN_BNP-PN_C -0.579289 5 6
+      (965 W_PERIOD_PLR -0.491757 5 6
+       (964 N_SG_ILR -0.824189 5 6
+        (253 jack_n2@n_-_pn_le 0 5 6
+         ("jack." 124
+          "token [ +CARG \"Jack\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"jack.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP (N (N "ABBIE"))
+ (PP (P ":")
+  (S (S (NP (NP (NP "“i"))) (VP (V "’m") (AP (AP "ok,"))))
+   (ADV (NP (N (N (N "jack."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:21>
+            LBL: h4
+            ARG0: e3
+            ARG: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ named<0:5>
+            LBL: h9
+            ARG0: x5
+            CARG: "ABBIE" ]
+          [ _colon_p_namely<5:6>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h12
+            ARG2: h13 ]
+          [ pron<7:9>
+            LBL: h14
+            ARG0: x15 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<7:9>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _okay_a_accept<12:15>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15 ]
+          [ addressee<16:21>
+            LBL: h19
+            ARG0: i22
+            ARG1: x21 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: e20 ]
+          [ proper_q<16:21>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ named<16:21>
+            LBL: h26
+            ARG0: x21
+            CARG: "Jack" ] >
+   HCONS: < h24 QEQ h26 h17 QEQ h14 h13 QEQ h19 h12 QEQ h4 h7 QEQ h9 h1 QEQ u > ]
+
+{e3:
+ e3:unknown<0:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x5]
+ _1:udef_q<0:5>[BV x5]
+ x5:named<0:5>("ABBIE"){x PERS 3, NUM sg, IND +}[]
+ e11:_colon_p_namely<5:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e20]
+ x15:pron<7:9>{x PERS 1, NUM sg, PT std}[]
+ _2:pronoun_q<7:9>[BV x15]
+ e20:_okay_a_accept<12:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ i22:addressee<16:21>{i}[ARG1 x21, ARG2 e20]
+ _3:proper_q<16:21>[BV x21]
+ x21:named<16:21>("Jack"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:21> ARG named<0:5>(ABBIE)  
+  udef_q<0:5> BV named<0:5>(ABBIE)  
+  _colon_p_namely<5:6> ARG1 unknown<0:21>  
+  _colon_p_namely<5:6> ARG2 _okay_a_accept<12:15>  
+  pronoun_q<7:9> BV pron<7:9>  
+  _okay_a_accept<12:15> ARG1 pron<7:9>  
+  addressee<16:21> ARG1 named<16:21>(Jack)  
+  addressee<16:21> ARG2 _okay_a_accept<12:15>  
+  proper_q<16:21> BV named<16:21>(Jack)  
+  unknown<0:21> SF prop  
+  unknown<0:21> TENSE untensed  
+  unknown<0:21> MOOD indicative  
+  unknown<0:21> PROG -  
+  unknown<0:21> PERF -  
+  named<0:5>(ABBIE) PERS 3  
+  named<0:5>(ABBIE) NUM sg  
+  named<0:5>(ABBIE) IND +  
+  _colon_p_namely<5:6> SF prop  
+  _colon_p_namely<5:6> TENSE untensed  
+  _colon_p_namely<5:6> MOOD indicative  
+  _colon_p_namely<5:6> PROG -  
+  _colon_p_namely<5:6> PERF -  
+  pron<7:9> PERS 1  
+  pron<7:9> NUM sg  
+  pron<7:9> PT std  
+  _okay_a_accept<12:15> SF prop  
+  _okay_a_accept<12:15> TENSE pres  
+  _okay_a_accept<12:15> MOOD indicative  
+  _okay_a_accept<12:15> PROG -  
+  _okay_a_accept<12:15> PERF -  
+  named<16:21>(Jack) PERS 3  
+  named<16:21>(Jack) NUM sg  
+  named<16:21>(Jack) IND +  
+}
+

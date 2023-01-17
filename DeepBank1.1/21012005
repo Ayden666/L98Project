@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:14 h)).
+;;;
+
+[21012005] (1 of 1) {1} `WHO'S NEWS:'
+
+[21012005:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "WHO", 0, "null", "WP" 1.0)
+  (2, 1, 2, <3:5>, 1, "’S", 0, "null", "JJ" 1.0)
+  (3, 2, 3, <6:10>, 1, "NEWS", 0, "null", "NN" 0.9589 "NNP" 0.0411)
+  (4, 3, 4, <10:11>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (40, 0, 1, <0:3>, 1, "WHO", 0, "null")
+  (53, 0, 1, <0:3>, 1, "who", 0, "null")
+  (57, 0, 1, <0:3>, 1, "who", 0, "null")
+  (52, 1, 2, <3:5>, 1, "’S", 0, "null", "JJ" 1.0)
+  (54, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (60, 1, 2, <3:5>, 1, "’s", 0, "null")
+  (39, 2, 3, <6:10>, 1, "NEWS", 0, "null")
+  (51, 2, 3, <6:10>, 1, "NEWS", 0, "null", "NN" 0.9589)
+  (55, 2, 3, <6:10>, 1, "news", 0, "null")
+  (56, 2, 3, <6:10>, 1, "news", 0, "null")
+  (46, 3, 4, <10:11>, 1, ":", 0, "null")
+  (58, 3, 4, <10:11>, 1, ":", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (713 SB-HD_MC_C 1.09708 0 4
+  (705 HDN_BNP-PN_C 0.09912 0 1
+   (704 N_SG_ILR -0.515712 0 1
+    (62 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("WHO" 40
+      "token [ +CARG #1=\"WHO\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (712 ^HD-AJ_INT-UNSL_C 1.63809 1 4
+   (711 ^HD-CMP_U_C -0.891128 1 3
+    (77 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+     ("’s" 54
+      "token [ +CARG \"’S\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"’s\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (710 HDN_BNP_C 0.872962 2 3
+     (707 N_MS_ILR 0.0720356 2 3
+      (186 news_n1@n_-_m-ns_le -0.0212453 2 3
+       ("news" 55
+        "token [ +CARG \"NEWS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"news\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95893340000000005\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (204 colon_namely_pp@pp_-_i-cln_le 0.527049 3 4
+    (":" 46
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (NP (N (N "WHO"))) (VP (VP (V "’s") (NP (N (N "news")))) (PP ":")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:3>
+            LBL: h8
+            ARG0: x6
+            CARG: "WHO" ]
+          [ _be_v_id<3:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<6:10>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _news_n_of<6:10>
+            LBL: h13
+            ARG0: x9 ]
+          [ _colon_p_namely<10:11>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:3>[BV x6]
+ x6:named<0:3>("WHO"){x PERS 3, NUM sg, IND +}[]
+ e3:_be_v_id<3:5>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<6:10>[BV x9]
+ x9:_news_n_of<6:10>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e14:_colon_p_namely<10:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:3> BV named<0:3>(WHO)  
+  _be_v_id<3:5> ARG1 named<0:3>(WHO)  
+  _be_v_id<3:5> ARG2 _news_n_of<6:10>  
+  udef_q<6:10> BV _news_n_of<6:10>  
+  _colon_p_namely<10:11> ARG1 _be_v_id<3:5>  
+  named<0:3>(WHO) PERS 3  
+  named<0:3>(WHO) NUM sg  
+  named<0:3>(WHO) IND +  
+  _be_v_id<3:5> SF prop  
+  _be_v_id<3:5> TENSE pres  
+  _be_v_id<3:5> MOOD indicative  
+  _be_v_id<3:5> PROG -  
+  _be_v_id<3:5> PERF -  
+  _news_n_of<6:10> PERS 3  
+  _news_n_of<6:10> NUM sg  
+  _news_n_of<6:10> GEND n  
+  _news_n_of<6:10> IND -  
+  _colon_p_namely<10:11> SF prop  
+  _colon_p_namely<10:11> TENSE untensed  
+  _colon_p_namely<10:11> MOOD indicative  
+  _colon_p_namely<10:11> PROG -  
+  _colon_p_namely<10:11> PERF -  
+}
+

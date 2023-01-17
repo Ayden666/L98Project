@@ -1,0 +1,101 @@
+;;;
+;;; Redwoods export of `wsj05c';
+;;; (wsun@wsun; 22-jan-2018 (15:27 h)).
+;;;
+
+[20578007] (1 of 1) {1} `Warner tells another.'
+
+[20578007:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Warner", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:12>, 1, "tells", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <13:20>, 1, "another", 0, "null", "DT" 1.0)
+  (4, 3, 4, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (44, 0, 1, <0:6>, 1, "Warner", 0, "null")
+  (46, 0, 1, <0:6>, 1, "warner", 0, "null")
+  (49, 0, 1, <0:6>, 1, "warner", 0, "null")
+  (41, 1, 2, <7:12>, 1, "tells", 0, "null")
+  (45, 1, 2, <7:12>, 1, "tells", 0, "null", "VBZ" 1.0)
+  (47, 1, 2, <7:12>, 1, "tells", 0, "null")
+  (43, 2, 3, <13:21>, 1, "another.", 0, "null")
+  (48, 2, 3, <13:21>, 1, "another.", 0, "null")
+>
+
+(ROOT_STRICT
+ (309 SB-HD_MC_C 1.38462 0 3
+  (303 HDN_BNP-PN_C 0.566522 0 1
+   (302 N_SG_ILR 0.615479 0 1
+    (51 warner_n1@n_-_pn_le 0.0772156 0 1
+     ("warner" 46
+      "token [ +CARG \"Warner\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"warner\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (308 ^HD-CMP_U_C -0.198953 1 3
+   (304 ^V_3S-FIN_OLR 0.391518 1 2
+    (69 tell_v4@v_np*_le 0 1 2
+     ("tells" 41
+      "token [ +CARG #1=\"tells\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (307 HDN_BNP-QNT_C 0.0022043 2 3
+    (306 W_PERIOD_PLR -0.0436677 2 3
+     (305 DET_PRT-NOCMP_DLR 0.310466 2 3
+      (82 another_d2@d_-_prt-anthr_le 0 2 3
+       ("another." 43
+        "token [ +CARG \"another\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"another.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "warner")))
+ (VP (V (V "tells")) (NP (N (N (DET "another."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Warner" ]
+          [ _tell_v_1<7:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 ] ]
+          [ _another_q<13:21>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ generic_entity<13:21>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Warner"){x PERS 3, NUM sg, IND +}[]
+ e3:_tell_v_1-fn.Speak_on_topic<7:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x6, ARG2-fn.Topic x9]
+ _2:_another_q<13:21>[BV x9]
+ x9:generic_entity<13:21>{x PERS 3}[]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Warner)  
+  _tell_v_1<7:12> ARG1 named<0:6>(Warner)  
+  _tell_v_1<7:12> ARG2 generic_entity<13:21>  
+  _another_q<13:21> BV generic_entity<13:21>  
+  named<0:6>(Warner) PERS 3  
+  named<0:6>(Warner) NUM sg  
+  named<0:6>(Warner) IND +  
+  _tell_v_1<7:12> SF prop  
+  _tell_v_1<7:12> TENSE pres  
+  _tell_v_1<7:12> MOOD indicative  
+  _tell_v_1<7:12> PROG -  
+  _tell_v_1<7:12> PERF -  
+  generic_entity<13:21> PERS 3  
+}
+

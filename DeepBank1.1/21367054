@@ -1,0 +1,158 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:34 h)).
+;;;
+
+[21367054] (1 of 1) {1} `"Look at Dostoevski and Kafka.'
+
+[21367054:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "Look", 0, "null", "VB" 0.8699 "NN" 0.1301)
+  (3, 2, 3, <6:8>, 1, "at", 0, "null", "IN" 1.0)
+  (4, 3, 4, <9:19>, 1, "Dostoevski", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <20:23>, 1, "and", 0, "null", "CC" 1.0)
+  (6, 5, 6, <24:29>, 1, "Kafka", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:5>, 1, "“Look", 0, "null")
+  (84, 0, 1, <0:5>, 1, "“Look", 0, "null", "VB" 0.8699)
+  (89, 0, 1, <0:5>, 1, "“look", 0, "null")
+  (94, 0, 1, <0:5>, 1, "“look", 0, "null")
+  (76, 1, 2, <6:8>, 1, "at", 0, "null")
+  (92, 1, 2, <6:8>, 1, "at", 0, "null")
+  (66, 2, 3, <9:19>, 1, "Dostoevski", 0, "null")
+  (85, 2, 3, <9:19>, 1, "Dostoevski", 0, "null", "NNP" 1.0)
+  (87, 2, 3, <9:19>, 1, "dostoevski", 0, "null")
+  (90, 2, 3, <9:19>, 1, "dostoevski", 0, "null")
+  (78, 3, 4, <20:23>, 1, "and", 0, "null")
+  (93, 3, 4, <20:23>, 1, "and", 0, "null")
+  (70, 4, 5, <24:30>, 1, "Kafka.", 0, "null")
+  (86, 4, 5, <24:30>, 1, "Kafka.", 0, "null", "NNP" 1.0)
+  (88, 4, 5, <24:30>, 1, "kafka.", 0, "null")
+  (91, 4, 5, <24:30>, 1, "kafka.", 0, "null")
+>
+
+(ROOT_STRICT
+ (740 HD_IMP_C 4.65556 0 5
+  (739 HD-CMP_U_C 4.56224 0 5
+   (730 ^W_DQLEFT_PLR 0.635235 0 1
+    (729 V_N3S-BSE_ILR 0.31284 0 1
+     (106 look_at_v1@v_pp_e_le 0 0 1
+      ("“look" 89
+       "token [ +CARG \"Look\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“look\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86992630000000004\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (738 HD-CMP_U_C 3.00912 1 5
+    (138 at_prtcl@p_np_ptcl_le 0.0862078 1 2
+     ("at" 76
+      "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (737 NP-NP_CRD-T_C 1.52213 2 5
+     (732 HDN_BNP-PN_C -0.454818 2 3
+      (731 N_SG_ILR -0.31257 2 3
+       (140 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("Dostoevski" 66
+         "token [ +CARG #1=\"Dostoevski\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (736 ^MRK-NH_NOM_C 0.161143 3 5
+      (145 and_conj@c_xp_and_le -0.668842 3 4
+       ("and" 78
+        "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (735 HDN_BNP-PN_C 0.48632 4 5
+       (734 W_PERIOD_PLR 0.39702 4 5
+        (733 N_SG_ILR -0.215389 4 5
+         (161 generic_proper_ne@n_-_pn-gen_le 0 4 5
+          ("Kafka." 70
+           "token [ +CARG \"Kafka\" +CLASS proper_ne +FORM \"Kafka.\" +FROM \"24\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(S
+ (VP (V (V (V "“look")))
+  (PP (P "at")
+   (NP (NP (N (N "Dostoevski")))
+    (NP-CJ (CONJ "and") (NP (N (N (N "Kafka.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:30>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:30>
+            LBL: h8
+            ARG0: x6 ]
+          [ _look_v_at<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<9:30>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ proper_q<9:19>
+            LBL: h13
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h14
+            BODY: h16 ]
+          [ named<9:19>
+            LBL: h17
+            ARG0: x15
+            CARG: "Dostoevski" ]
+          [ _and_c<20:23>
+            LBL: h18
+            ARG0: x9
+            L-INDEX: x15
+            R-INDEX: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<24:30>
+            LBL: h20
+            ARG0: x19
+            RSTR: h21
+            BODY: h22 ]
+          [ named<24:30>
+            LBL: h23
+            ARG0: x19
+            CARG: "Kafka" ] >
+   HCONS: < h21 QEQ h23 h14 QEQ h17 h11 QEQ h18 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:30>[BV x6]
+ x6:pron<0:30>{x PERS 2, PT zero}[]
+ e3:_look_v_at<0:5>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<9:30>[BV x9]
+ _3:proper_q<9:19>[BV x15]
+ x15:named<9:19>("Dostoevski"){x PERS 3, NUM sg, IND +}[]
+ x9:_and_c<20:23>{x PERS 3, NUM pl}[L-INDEX x15, R-INDEX x19]
+ _4:proper_q<24:30>[BV x19]
+ x19:named<24:30>("Kafka"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:30> BV pron<0:30>  
+  _look_v_at<0:5> ARG1 pron<0:30>  
+  _look_v_at<0:5> ARG2 _and_c<20:23>  
+  udef_q<9:30> BV _and_c<20:23>  
+  proper_q<9:19> BV named<9:19>(Dostoevski)  
+  _and_c<20:23> L-INDEX named<9:19>(Dostoevski)  
+  _and_c<20:23> R-INDEX named<24:30>(Kafka)  
+  proper_q<24:30> BV named<24:30>(Kafka)  
+  pron<0:30> PERS 2  
+  pron<0:30> PT zero  
+  _look_v_at<0:5> SF comm  
+  _look_v_at<0:5> TENSE pres  
+  _look_v_at<0:5> MOOD indicative  
+  _look_v_at<0:5> PROG -  
+  _look_v_at<0:5> PERF -  
+  named<9:19>(Dostoevski) PERS 3  
+  named<9:19>(Dostoevski) NUM sg  
+  named<9:19>(Dostoevski) IND +  
+  _and_c<20:23> PERS 3  
+  _and_c<20:23> NUM pl  
+  named<24:30>(Kafka) PERS 3  
+  named<24:30>(Kafka) NUM sg  
+  named<24:30>(Kafka) IND +  
+}
+

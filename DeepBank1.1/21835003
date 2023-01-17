@@ -1,0 +1,311 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:17 h)).
+;;;
+
+[21835003] (1 of 1) {1} `Himont is 81%-owned by Montedison S.p.A. of Milan, Italy.'
+
+[21835003:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Himont", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:9>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <10:19>, 1, "81%-owned", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <20:22>, 1, "by", 0, "null", "IN" 1.0)
+  (5, 4, 5, <23:33>, 1, "Montedison", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <34:40>, 1, "S.p.A.", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <41:43>, 1, "of", 0, "null", "IN" 1.0)
+  (8, 7, 8, <44:49>, 1, "Milan", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <49:50>, 1, ",", 0, "null", "," 1.0)
+  (10, 9, 10, <51:56>, 1, "Italy", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (139, 0, 1, <0:6>, 1, "Himont", 0, "null")
+  (148, 0, 1, <0:6>, 1, "himont", 0, "null")
+  (161, 0, 1, <0:6>, 1, "himont", 0, "null")
+  (126, 1, 2, <7:9>, 1, "is", 0, "null")
+  (142, 1, 2, <7:9>, 1, "is", 0, "null", "VBZ" 1.0)
+  (156, 1, 2, <7:9>, 1, "is", 0, "null")
+  (134, 2, 3, <10:19>, 1, "81%-", 0, "null")
+  (144, 2, 3, <10:19>, 1, "81%-", 0, "null", "NN" 1.0)
+  (160, 2, 3, <10:19>, 1, "81%-", 0, "null")
+  (132, 3, 4, <10:19>, 1, "owned", 0, "null")
+  (143, 3, 4, <10:19>, 1, "owned", 0, "null", "JJ" 1.0)
+  (159, 3, 4, <10:19>, 1, "owned", 0, "null")
+  (128, 4, 5, <20:22>, 1, "by", 0, "null")
+  (157, 4, 5, <20:22>, 1, "by", 0, "null")
+  (111, 5, 6, <23:33>, 1, "Montedison", 0, "null")
+  (140, 5, 6, <23:33>, 1, "Montedison", 0, "null", "NNP" 1.0)
+  (147, 5, 6, <23:33>, 1, "montedison", 0, "null")
+  (152, 5, 6, <23:33>, 1, "montedison", 0, "null")
+  (114, 6, 7, <34:40>, 1, "S.p.A.", 0, "null")
+  (141, 6, 7, <34:40>, 1, "S.p.A.", 0, "null", "NNP" 1.0)
+  (149, 6, 7, <34:40>, 1, "s.p.a.", 0, "null")
+  (153, 6, 7, <34:40>, 1, "s.p.a.", 0, "null")
+  (130, 7, 8, <41:43>, 1, "of", 0, "null")
+  (158, 7, 8, <41:43>, 1, "of", 0, "null")
+  (116, 8, 9, <44:50>, 1, "Milan,", 0, "null")
+  (145, 8, 9, <44:50>, 1, "Milan,", 0, "null", "NNP" 1.0)
+  (150, 8, 9, <44:50>, 1, "milan,", 0, "null")
+  (154, 8, 9, <44:50>, 1, "milan,", 0, "null")
+  (118, 9, 10, <51:57>, 1, "Italy.", 0, "null")
+  (146, 9, 10, <51:57>, 1, "Italy.", 0, "null", "NNP" 1.0)
+  (151, 9, 10, <51:57>, 1, "italy.", 0, "null")
+  (155, 9, 10, <51:57>, 1, "italy.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3375 SB-HD_MC_C 6.47672 0 10
+  (3353 HDN_BNP-PN_C -1.0285 0 1
+   (3352 N_SG_ILR -0.979548 0 1
+    (166 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Himont" 139
+      "token [ +CARG #1=\"Himont\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (3374 ^HD-CMP_U_C 6.48817 1 10
+   (206 be_c_is@v_prd_is_le 1.53171 1 2
+    ("is" 126
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (3373 HD-AJ_INT-UNSL_C 4.81979 2 10
+    (3357 ^XP_BRCK-PR_C -1.07443 2 4
+     (3356 N-V_J-CPD_C -1.27284 2 4
+      (3354 W_HYPHEN_PLR -1.85637 2 3
+       (293 generic_mass_count_noun@n_-_mc-unk_le 0 2 3
+        ("81%-" 144
+         "token [ +CARG #1=\"81%-\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED \"_81%-/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1.0\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW + ] ]")))
+      (3355 ^V_PAS_ODLR -0.818166 3 4
+       (307 own_v1@v_np_le 0.170917 3 4
+        ("owned" 132
+         "token [ +CARG #1=\"owned\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (3372 HD-CMP_U_C 4.725 4 10
+     (402 by_p@p_np_i-dgsp_le 0.224576 4 5
+      ("by" 128
+       "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3371 HDN_BNP-PN_C 5.07058 5 10
+      (3370 HDN-AJ_REDREL_C 5.36963 5 10
+       (3361 ^NP-HDN_NME-CPD_C 1.63945 5 7
+        (3359 HDN_BNP-PN_C 0.078607 5 6
+         (3358 N_SG_ILR -0.386912 5 6
+          (423 generic_proper_ne@n_-_pn-gen_le 0 5 6
+           ("Montedison" 111
+            "token [ +CARG #1=\"Montedison\" +CLASS proper_ne +FORM #1 +FROM \"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+        (3360 ^N_SG_ILR 0.199039 6 7
+         (426 generic_proper_ne@n_-_pn-gen_le 0 6 7
+          ("S.p.A." 114
+           "token [ +CARG #1=\"S.p.A.\" +CLASS proper_ne +FORM #1 +FROM \"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (3369 HD-CMP_U_C 4.00073 7 10
+        (465 of_poss@p_np_i-nm-poss_le -0.152822 7 8
+         ("of" 130
+          "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"41\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (3368 HDN_BNP-PN_C 2.20401 8 10
+         (3367 NP-HDN_CTY-CPD_C 1.96537 8 10
+          (3364 HDN_BNP-PN_C 0.562716 8 9
+           (3363 W_COMMA_PLR -0.266433 8 9
+            (3362 N_SG_ILR -0.609145 8 9
+             (557 milan_n1@n_-_pn_le 0 8 9
+              ("milan," 150
+               "token [ +CARG \"Milan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"milan,\" +FROM #1=\"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+          (3366 ^W_PERIOD_PLR 0.186499 9 10
+           (3365 N_SG_ILR -0.429343 9 10
+            (569 italy_n1@n_-_pn_le 0 9 10
+             ("italy." 151
+              "token [ +CARG \"Italy\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"italy.\" +FROM #1=\"51\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))))
+
+(S (NP (N (N "Himont")))
+ (VP (V "is")
+  (AP (AP (AP (N (N "81%-")) (V (V "owned"))))
+   (PP (P "by")
+    (NP
+     (N (N (NP (N (N "Montedison"))) (N (N "S.p.A.")))
+      (PP (P "of")
+       (NP (N (NP (N (N (N "milan,")))) (N (N (N "italy."))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Himont" ]
+          [ compound<10:19>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x9 ]
+          [ udef_q<10:19>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _81%-/nn_u_unknown<10:19>
+            LBL: h14
+            ARG0: x9 ]
+          [ _own_v_1<10:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x6 ]
+          [ parg_d<10:19>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _by_p<20:22>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<23:57>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ compound<23:40>
+            LBL: h22
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            ARG2: x23 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<23:33>
+            LBL: h25
+            ARG0: x23
+            RSTR: h26
+            BODY: h27 ]
+          [ named<23:33>
+            LBL: h28
+            ARG0: x23
+            CARG: "Montedison" ]
+          [ named<34:40>
+            LBL: h22
+            ARG0: x18
+            CARG: "S.p.A." ]
+          [ _of_p<41:43>
+            LBL: h22
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            ARG2: x30 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<44:57>
+            LBL: h31
+            ARG0: x30
+            RSTR: h32
+            BODY: h33 ]
+          [ compound<44:57>
+            LBL: h34
+            ARG0: e36 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x30
+            ARG2: x35 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<44:50>
+            LBL: h37
+            ARG0: x35
+            RSTR: h38
+            BODY: h39 ]
+          [ named<44:50>
+            LBL: h40
+            ARG0: x35
+            CARG: "Milan" ]
+          [ named<51:57>
+            LBL: h34
+            ARG0: x30
+            CARG: "Italy" ] >
+   HCONS: < h38 QEQ h40 h32 QEQ h34 h26 QEQ h28 h20 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Himont"){x PERS 3, NUM sg, IND +}[]
+ e10:compound<10:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x9]
+ _2:udef_q<10:19>[BV x9]
+ x9:_81%-/nn_u_unknown<10:19>{x}[]
+ e3:_own_v_1<10:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e16:parg_d<10:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e17:_by_p<20:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ _3:proper_q<23:57>[BV x18]
+ e24:compound<23:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x23]
+ _4:proper_q<23:33>[BV x23]
+ x23:named<23:33>("Montedison"){x PERS 3, NUM sg, IND +}[]
+ x18:named<34:40>("S.p.A."){x PERS 3, NUM sg, IND +}[]
+ e29:_of_p<41:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x30]
+ _5:proper_q<44:57>[BV x30]
+ e36:compound<44:57>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x30, ARG2 x35]
+ _6:proper_q<44:50>[BV x35]
+ x35:named<44:50>("Milan"){x PERS 3, NUM sg, IND +}[]
+ x30:named<51:57>("Italy"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Himont)  
+  compound<10:19> ARG1 _own_v_1<10:19>  
+  compound<10:19> ARG2 _81%-/nn_u_unknown<10:19>  
+  udef_q<10:19> BV _81%-/nn_u_unknown<10:19>  
+  _own_v_1<10:19> ARG2 named<0:6>(Himont)  
+  parg_d<10:19> ARG1 _own_v_1<10:19>  
+  parg_d<10:19> ARG2 named<0:6>(Himont)  
+  _by_p<20:22> ARG1 _own_v_1<10:19>  
+  _by_p<20:22> ARG2 named<34:40>(S.p.A.)  
+  proper_q<23:57> BV named<34:40>(S.p.A.)  
+  compound<23:40> ARG1 named<34:40>(S.p.A.)  
+  compound<23:40> ARG2 named<23:33>(Montedison)  
+  proper_q<23:33> BV named<23:33>(Montedison)  
+  _of_p<41:43> ARG1 named<34:40>(S.p.A.)  
+  _of_p<41:43> ARG2 named<51:57>(Italy)  
+  proper_q<44:57> BV named<51:57>(Italy)  
+  compound<44:57> ARG1 named<51:57>(Italy)  
+  compound<44:57> ARG2 named<44:50>(Milan)  
+  proper_q<44:50> BV named<44:50>(Milan)  
+  named<0:6>(Himont) PERS 3  
+  named<0:6>(Himont) NUM sg  
+  named<0:6>(Himont) IND +  
+  compound<10:19> SF prop  
+  compound<10:19> TENSE untensed  
+  compound<10:19> MOOD indicative  
+  compound<10:19> PROG -  
+  compound<10:19> PERF -  
+  _own_v_1<10:19> SF prop  
+  _own_v_1<10:19> TENSE pres  
+  _own_v_1<10:19> MOOD indicative  
+  _own_v_1<10:19> PROG -  
+  _own_v_1<10:19> PERF -  
+  parg_d<10:19> SF prop  
+  parg_d<10:19> TENSE untensed  
+  parg_d<10:19> MOOD indicative  
+  parg_d<10:19> PROG -  
+  parg_d<10:19> PERF -  
+  _by_p<20:22> SF prop  
+  _by_p<20:22> TENSE untensed  
+  _by_p<20:22> MOOD indicative  
+  _by_p<20:22> PROG -  
+  _by_p<20:22> PERF -  
+  compound<23:40> SF prop  
+  compound<23:40> TENSE untensed  
+  compound<23:40> MOOD indicative  
+  compound<23:40> PROG -  
+  compound<23:40> PERF -  
+  named<23:33>(Montedison) PERS 3  
+  named<23:33>(Montedison) NUM sg  
+  named<23:33>(Montedison) IND +  
+  named<34:40>(S.p.A.) PERS 3  
+  named<34:40>(S.p.A.) NUM sg  
+  named<34:40>(S.p.A.) IND +  
+  _of_p<41:43> SF prop  
+  _of_p<41:43> TENSE untensed  
+  _of_p<41:43> MOOD indicative  
+  _of_p<41:43> PROG -  
+  _of_p<41:43> PERF -  
+  compound<44:57> SF prop  
+  compound<44:57> TENSE untensed  
+  compound<44:57> MOOD indicative  
+  compound<44:57> PROG -  
+  compound<44:57> PERF -  
+  named<44:50>(Milan) PERS 3  
+  named<44:50>(Milan) NUM sg  
+  named<44:50>(Milan) IND +  
+  named<51:57>(Italy) PERS 3  
+  named<51:57>(Italy) NUM sg  
+  named<51:57>(Italy) IND +  
+}
+

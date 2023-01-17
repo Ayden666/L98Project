@@ -1,0 +1,76 @@
+;;;
+;;; Redwoods export of `wsj14d';
+;;; (wsun@wsun; 22-jan-2018 (23:40 h)).
+;;;
+
+[21480004] (1 of 1) {1} `Remember them?'
+
+[21480004:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Remember", 0, "null", "VB" 1.0)
+  (2, 1, 2, <9:13>, 1, "them", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <13:14>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:8>, 1, "Remember", 0, "null", "VB" 1.0)
+  (34, 0, 1, <0:8>, 1, "remember", 0, "null")
+  (36, 0, 1, <0:8>, 1, "remember", 0, "null")
+  (32, 1, 2, <9:14>, 1, "them?", 0, "null")
+  (35, 1, 2, <9:14>, 1, "them?", 0, "null")
+>
+
+(ROOT_FRAG
+ (123 VP_FIN-FRG_C -2.69789 0 2
+  (122 HD-CMP_U_C -0.449646 0 2
+   (119 ^V_N3S-BSE_ILR -0.264448 0 1
+    (41 remember_v1@v_np*_le 0 0 1
+     ("remember" 34
+      "token [ +CARG \"Remember\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"remember\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (121 HDN_BNP-QNT_C 0 1 2
+    (120 W_QMARK_PLR 0 1 2
+     (50 them@n_-_pr-them_le 0 1 2
+      ("them?" 32
+       "token [ +CARG \"them\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"them?\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (VP (V (V "remember")) (NP (NP (NP "them?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _remember_v_from<0:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: i5
+            ARG2: x4 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pron<9:14>
+            LBL: h6
+            ARG0: x4 ]
+          [ pronoun_q<9:14>
+            LBL: h7
+            ARG0: x4
+            RSTR: h8
+            BODY: h9 ] >
+   HCONS: < h8 QEQ h6 h1 QEQ h2 > ]
+
+{e3:
+ e3:_remember_v_from<0:8>{e SF ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG2 x4]
+ x4:pron<9:14>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<9:14>[BV x4]
+}
+
+{
+  _remember_v_from<0:8> ARG2 pron<9:14>  
+  pronoun_q<9:14> BV pron<9:14>  
+  _remember_v_from<0:8> SF ques  
+  _remember_v_from<0:8> TENSE tensed  
+  _remember_v_from<0:8> MOOD indicative  
+  _remember_v_from<0:8> PROG -  
+  _remember_v_from<0:8> PERF -  
+  pron<9:14> PERS 3  
+  pron<9:14> NUM pl  
+  pron<9:14> PT std  
+}
+

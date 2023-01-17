@@ -1,0 +1,277 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:24 h)).
+;;;
+
+[20350012] (1 of 1) {1} `Meanwhile, new-home sales plunged 14% in the month.'
+
+[20350012:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Meanwhile", 0, "null", "RB" 1.0)
+  (2, 1, 2, <9:10>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <11:19>, 1, "new-home", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <20:25>, 1, "sales", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <26:33>, 1, "plunged", 0, "null", "VBD" 0.9891 "VBN" 0.0109)
+  (6, 5, 6, <34:36>, 1, "14", 0, "null", "CD" 1.0)
+  (7, 6, 7, <36:37>, 1, "%", 0, "null", "NN" 1.0)
+  (8, 7, 8, <38:40>, 1, "in", 0, "null", "IN" 1.0)
+  (9, 8, 9, <41:44>, 1, "the", 0, "null", "DT" 1.0)
+  (10, 9, 10, <45:50>, 1, "month", 0, "null", "NN" 1.0)
+  (11, 10, 11, <50:51>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (132, 0, 1, <0:10>, 1, "Meanwhile,", 0, "null", "RB" 1.0)
+  (133, 0, 1, <0:10>, 1, "meanwhile,", 0, "null")
+  (143, 0, 1, <0:10>, 1, "meanwhile,", 0, "null")
+  (118, 1, 2, <11:19>, 1, "new-", 0, "null")
+  (130, 1, 2, <11:19>, 1, "new-", 0, "null", "NN" 1.0)
+  (139, 1, 2, <11:19>, 1, "new-", 0, "null")
+  (116, 2, 3, <11:19>, 1, "home", 0, "null")
+  (129, 2, 3, <11:19>, 1, "home", 0, "null", "JJ" 1.0)
+  (138, 2, 3, <11:19>, 1, "home", 0, "null")
+  (114, 3, 4, <20:25>, 1, "sales", 0, "null")
+  (128, 3, 4, <20:25>, 1, "sales", 0, "null", "NNS" 1.0)
+  (137, 3, 4, <20:25>, 1, "sales", 0, "null")
+  (125, 4, 5, <26:33>, 1, "plunged", 0, "null")
+  (127, 4, 5, <26:33>, 1, "plunged", 0, "null", "VBD" 0.9891)
+  (142, 4, 5, <26:33>, 1, "plunged", 0, "null")
+  (101, 5, 6, <34:36>, 1, "14", 0, "null")
+  (134, 5, 6, <34:36>, 1, "14", 0, "null")
+  (120, 6, 7, <36:37>, 1, "%", 0, "null")
+  (140, 6, 7, <36:37>, 1, "%", 0, "null")
+  (110, 7, 8, <38:40>, 1, "in", 0, "null")
+  (135, 7, 8, <38:40>, 1, "in", 0, "null")
+  (112, 8, 9, <41:44>, 1, "the", 0, "null")
+  (136, 8, 9, <41:44>, 1, "the", 0, "null")
+  (122, 9, 10, <45:51>, 1, "month.", 0, "null")
+  (131, 9, 10, <45:51>, 1, "month.", 0, "null", "NN" 1.0)
+  (141, 9, 10, <45:51>, 1, "month.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1558 FLR-HD_NWH_C 17.8455 0 10
+  (1536 W_COMMA_PLR 0.209886 0 1
+   (150 meanwhile_adv1@pp_-_i_le 0 0 1
+    ("meanwhile," 133
+     "token [ +CARG \"Meanwhile\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"meanwhile,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1557 ^SB-HD_NMC_C 16.8168 1 10
+   (1543 HDN_BNP_C 3.85017 1 4
+    (1542 N-HDN_CPD_C 3.87652 1 4
+     (1539 XP_BRCK-PR_C 2.41246 1 3
+      (1538 AJ-HDN_NORM_C 1.59564 1 3
+       (1537 W_HYPHEN_PLR 0.89738 1 2
+        (161 new_a1@aj_-_i-er_le 0 1 2
+         ("new-" 118
+          "token [ +CARG #1=\"new-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+       (174 home_n1@n_-_c-ns_le 0.698262 2 3
+        ("home" 116
+         "token [ +CARG #1=\"home\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+     (1541 ^HDN_OPTCMP_C 1.13169 3 4
+      (1540 N_PL_OLR 0.891033 3 4
+       (196 sale_n1@n_pp_mc-of_le 0.418011 3 4
+        ("sales" 114
+         "token [ +CARG #1=\"sales\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (1556 ^HD-AJ_INT-UNSL_C 12.7073 4 10
+    (1551 ^HD-AJ_INT-UNSL_C 8.38413 4 7
+     (1546 ^HD_XAJ-INT-VP_C 3.96107 4 5
+      (1545 HD_OPTCMP_C 2.82677 4 5
+       (1544 V_PST_OLR 1.73918 4 5
+        (248 plunge_v1@v_pp*_dir_le 1.21191 4 5
+         ("plunged" 125
+          "token [ +CARG #1=\"plunged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98906400000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (1550 NP_ADV-MNP_C 3.77474 5 7
+      (1549 HDN_BNP_C 5.34365 5 7
+       (1548 NUM-N_MNP_C 3.81927 5 7
+        (335 generic_card_ne@aj_-_i-crd-gen_le 0.00657212 5 6
+         ("14" 101
+          "token [ +CARG #1=\"14\" +CLASS card_or_dom_ne +FORM #1 +FROM \"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+        (1547 ^N_PL_OLR 1.65072 6 7
+         (342 percent_char_n1@n_-_c-meas-spr_le 1.28059 6 7
+          ("%" 120
+           "token [ +CARG #1=\"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+    (1555 HD-CMP_U_C 2.7219 7 10
+     (370 in_temp@p_np_i-tmp_le 1.24586 7 8
+      ("in" 110
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1554 SP-HD_N_C 1.33392 8 10
+      (419 the_1@d_-_the_le 1.07131 8 9
+       ("the" 112
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"41\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1553 ^W_PERIOD_PLR -0.374651 9 10
+       (1552 N_SG_ILR -0.874926 9 10
+        (444 month_n1@n_-_c-nday_le 0 9 10
+         ("month." 122
+          "token [ +CARG \"month\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"month.\" +FROM #1=\"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (PP (PP "meanwhile,"))
+ (S/PP (NP (N (N (N (AP (AP "new-")) (N "home"))) (N (N (N "sales")))))
+  (VP/PP
+   (VP/PP (VP/PP (VP (V (V "plunged"))))
+    (PP (NP (N (ADJ "14") (N (N "%"))))))
+   (PP (P "in") (NP (DET "the") (N (N (N "month."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:51>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _meanwhile_p<0:10>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3 ]
+          [ udef_q<11:25>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: PL ]
+            RSTR: h7
+            BODY: h9 ]
+          [ compound<11:25>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x11 [ x IND: + ] ]
+          [ udef_q<11:19>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _new_a_1<11:19>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11 ]
+          [ _home_n_of-n<11:19>
+            LBL: h16
+            ARG0: x11 ]
+          [ _sale_n_of<20:25>
+            LBL: h10
+            ARG0: x8
+            ARG1: i18 ]
+          [ _plunge_v_into<26:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x8 ]
+          [ loc_nonsp<34:37>
+            LBL: h2
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x20 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<34:37>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ card<34:36>
+            LBL: h24
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            CARG: "14" ]
+          [ _percent_n_of<36:37>
+            LBL: h24
+            ARG0: x20 ]
+          [ _in_p_temp<38:40>
+            LBL: h2
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x27 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<41:44>
+            LBL: h28
+            ARG0: x27
+            RSTR: h30
+            BODY: h29 ]
+          [ _month_n_1<45:51>
+            LBL: h31
+            ARG0: x27 ] >
+   HCONS: < h30 QEQ h31 h22 QEQ h24 h14 QEQ h16 h7 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_meanwhile_p<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:udef_q<11:25>[BV x8]
+ e12:compound<11:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x11]
+ _2:udef_q<11:19>[BV x11]
+ e17:_new_a_1<11:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+ x11:_home_n_of-n<11:19>{x IND +}[]
+ x8:_sale_n_of<20:25>{x PERS 3, NUM pl}[]
+ e3:_plunge_v_into<26:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ e19:loc_nonsp<34:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x20]
+ _3:udef_q<34:37>[BV x20]
+ e25:card<34:36>("14"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20]
+ x20:_percent_n_of<36:37>{x PERS 3, NUM pl, IND +}[]
+ e26:_in_p_temp<38:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x27]
+ _4:_the_q<41:44>[BV x27]
+ x27:_month_n_1<45:51>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  focus_d<0:51> ARG1 _plunge_v_into<26:33>  
+  focus_d<0:51> ARG2 _meanwhile_p<0:10>  
+  _meanwhile_p<0:10> ARG1 _plunge_v_into<26:33>  
+  udef_q<11:25> BV _sale_n_of<20:25>  
+  compound<11:25> ARG1 _sale_n_of<20:25>  
+  compound<11:25> ARG2 _home_n_of-n<11:19>  
+  udef_q<11:19> BV _home_n_of-n<11:19>  
+  _new_a_1<11:19> ARG1 _home_n_of-n<11:19>  
+  _plunge_v_into<26:33> ARG1 _sale_n_of<20:25>  
+  loc_nonsp<34:37> ARG1 _plunge_v_into<26:33>  
+  loc_nonsp<34:37> ARG2 _percent_n_of<36:37>  
+  udef_q<34:37> BV _percent_n_of<36:37>  
+  card<34:36>(14) ARG1 _percent_n_of<36:37>  
+  _in_p_temp<38:40> ARG1 _plunge_v_into<26:33>  
+  _in_p_temp<38:40> ARG2 _month_n_1<45:51>  
+  _the_q<41:44> BV _month_n_1<45:51>  
+  focus_d<0:51> SF prop  
+  focus_d<0:51> TENSE untensed  
+  focus_d<0:51> MOOD indicative  
+  focus_d<0:51> PROG -  
+  focus_d<0:51> PERF -  
+  _meanwhile_p<0:10> SF prop  
+  _meanwhile_p<0:10> TENSE untensed  
+  _meanwhile_p<0:10> MOOD indicative  
+  _meanwhile_p<0:10> PROG -  
+  _meanwhile_p<0:10> PERF -  
+  compound<11:25> SF prop  
+  compound<11:25> TENSE untensed  
+  compound<11:25> MOOD indicative  
+  compound<11:25> PROG -  
+  compound<11:25> PERF -  
+  _new_a_1<11:19> SF prop  
+  _new_a_1<11:19> TENSE untensed  
+  _new_a_1<11:19> MOOD indicative  
+  _new_a_1<11:19> PROG -  
+  _new_a_1<11:19> PERF -  
+  _home_n_of-n<11:19> IND +  
+  _sale_n_of<20:25> PERS 3  
+  _sale_n_of<20:25> NUM pl  
+  _plunge_v_into<26:33> SF prop  
+  _plunge_v_into<26:33> TENSE past  
+  _plunge_v_into<26:33> MOOD indicative  
+  _plunge_v_into<26:33> PROG -  
+  _plunge_v_into<26:33> PERF -  
+  loc_nonsp<34:37> SF prop  
+  loc_nonsp<34:37> TENSE untensed  
+  loc_nonsp<34:37> MOOD indicative  
+  loc_nonsp<34:37> PROG -  
+  loc_nonsp<34:37> PERF -  
+  card<34:36>(14) SF prop  
+  card<34:36>(14) TENSE untensed  
+  card<34:36>(14) MOOD indicative  
+  card<34:36>(14) PROG -  
+  card<34:36>(14) PERF -  
+  _percent_n_of<36:37> PERS 3  
+  _percent_n_of<36:37> NUM pl  
+  _percent_n_of<36:37> IND +  
+  _in_p_temp<38:40> SF prop  
+  _in_p_temp<38:40> TENSE untensed  
+  _in_p_temp<38:40> MOOD indicative  
+  _in_p_temp<38:40> PROG -  
+  _in_p_temp<38:40> PERF -  
+  _month_n_1<45:51> PERS 3  
+  _month_n_1<45:51> NUM sg  
+  _month_n_1<45:51> IND +  
+}
+

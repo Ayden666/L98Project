@@ -1,0 +1,76 @@
+;;;
+;;; Redwoods export of `wsj19a';
+;;; (wsun@wsun; 23-jan-2018 (04:09 h)).
+;;;
+
+[21927023] (1 of 1) {1} `The upshot?'
+
+[21927023:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "upshot", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:11>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (34, 0, 1, <0:3>, 1, "the", 0, "null")
+  (36, 0, 1, <0:3>, 1, "the", 0, "null")
+  (32, 1, 2, <4:11>, 1, "upshot?", 0, "null")
+  (33, 1, 2, <4:11>, 1, "upshot?", 0, "null", "NN" 1.0)
+  (35, 1, 2, <4:11>, 1, "upshot?", 0, "null")
+>
+
+(ROOT_FRAG
+ (108 NP_FRG_C -0.105594 0 2
+  (107 SP-HD_N_C 0.901314 0 2
+   (49 the_1@d_-_the_le 0.244361 0 1
+    ("the" 34
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (106 ^HDN_OPTCMP_C 0.656406 1 2
+    (105 W_QMARK_PLR 0.656406 1 2
+     (104 N_SG_ILR 0.403971 1 2
+      (74 upshot_n1@n_pp_c-ns-of_le 0 1 2
+       ("upshot?" 32
+        "token [ +CARG \"upshot\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"upshot?\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP (DET "the") (N (N (N (N "upshot?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ _upshot_n_of<4:11>
+            LBL: h8
+            ARG0: x4
+            ARG1: i9 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:11>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:_the_q<0:3>[BV x4]
+ x4:_upshot_n_of<4:11>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:11> ARG _upshot_n_of<4:11>  
+  _the_q<0:3> BV _upshot_n_of<4:11>  
+  unknown<0:11> SF ques  
+  unknown<0:11> TENSE untensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  _upshot_n_of<4:11> PERS 3  
+  _upshot_n_of<4:11> NUM sg  
+  _upshot_n_of<4:11> IND +  
+}
+

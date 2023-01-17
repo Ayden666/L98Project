@@ -1,0 +1,341 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:26 h)).
+;;;
+
+[20467044] (1 of 1) {1} `Quebecor Class B stock closed at C$15.375, up 62.5 Canadian cents.'
+
+[20467044:3] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Quebecor", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:14>, 1, "Class", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:16>, 1, "B", 0, "null", "NNP" 0.979 "NN" 0.021)
+  (4, 3, 4, <17:22>, 1, "stock", 0, "null", "NN" 1.0)
+  (5, 4, 5, <23:29>, 1, "closed", 0, "null", "VBD" 0.9064 "VBN" 0.0936)
+  (6, 5, 6, <30:32>, 1, "at", 0, "null", "IN" 1.0)
+  (7, 6, 7, <33:35>, 1, "C$", 0, "null", "$" 1.0)
+  (8, 7, 8, <35:41>, 1, "15.375", 0, "null", "CD" 1.0)
+  (9, 8, 9, <41:42>, 1, ",", 0, "null", "," 1.0)
+  (10, 9, 10, <43:45>, 1, "up", 0, "null", "RP" 0.5293 "RB" 0.3478 "IN" 0.1229)
+  (11, 10, 11, <46:50>, 1, "62.5", 0, "null", "CD" 1.0)
+  (12, 11, 12, <51:59>, 1, "Canadian", 0, "null", "JJ" 0.9833 "NNP" 0.0167)
+  (13, 12, 13, <60:65>, 1, "cents", 0, "null", "NNS" 1.0)
+  (14, 13, 14, <65:66>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (161, 0, 1, <0:8>, 1, "Quebecor", 0, "null")
+  (170, 0, 1, <0:8>, 1, "quebecor", 0, "null")
+  (184, 0, 1, <0:8>, 1, "quebecor", 0, "null")
+  (127, 1, 2, <9:14>, 1, "Class", 0, "null")
+  (166, 1, 2, <9:14>, 1, "Class", 0, "null", "NNP" 1.0)
+  (169, 1, 2, <9:14>, 1, "class", 0, "null")
+  (176, 1, 2, <9:14>, 1, "class", 0, "null")
+  (128, 2, 3, <15:16>, 1, "B", 0, "null")
+  (163, 2, 3, <15:16>, 1, "B", 0, "null", "NNP" 0.979)
+  (173, 2, 3, <15:16>, 1, "b", 0, "null")
+  (177, 2, 3, <15:16>, 1, "b", 0, "null")
+  (146, 3, 4, <17:22>, 1, "stock", 0, "null")
+  (167, 3, 4, <17:22>, 1, "stock", 0, "null", "NN" 1.0)
+  (179, 3, 4, <17:22>, 1, "stock", 0, "null")
+  (158, 4, 5, <23:29>, 1, "closed", 0, "null")
+  (164, 4, 5, <23:29>, 1, "closed", 0, "null", "VBD" 0.9064)
+  (183, 4, 5, <23:29>, 1, "closed", 0, "null")
+  (148, 5, 6, <30:32>, 1, "at", 0, "null")
+  (180, 5, 6, <30:32>, 1, "at", 0, "null")
+  (171, 6, 7, <33:35>, 1, "c$", 0, "null")
+  (188, 6, 7, <33:35>, 1, "c$", 0, "null")
+  (129, 7, 8, <35:42>, 1, "15.375,", 0, "null")
+  (178, 7, 8, <35:42>, 1, "15.375,", 0, "null")
+  (157, 8, 9, <43:45>, 1, "up", 0, "null")
+  (165, 8, 9, <43:45>, 1, "up", 0, "null", "RB" 0.3478)
+  (182, 8, 9, <43:45>, 1, "up", 0, "null")
+  (122, 9, 10, <46:50>, 1, "62.5", 0, "null")
+  (174, 9, 10, <46:50>, 1, "62.5", 0, "null")
+  (126, 10, 11, <51:59>, 1, "Canadian", 0, "null")
+  (162, 10, 11, <51:59>, 1, "Canadian", 0, "null", "JJ" 0.9833)
+  (172, 10, 11, <51:59>, 1, "canadian", 0, "null")
+  (175, 10, 11, <51:59>, 1, "canadian", 0, "null")
+  (152, 11, 12, <60:66>, 1, "cents.", 0, "null")
+  (168, 11, 12, <60:66>, 1, "cents.", 0, "null", "NNS" 1.0)
+  (181, 11, 12, <60:66>, 1, "cents.", 0, "null")
+>
+
+(ROOT_STRICT
+ (14821 SB-HD_MC_C 15.727 0 12
+  (14820 HDN_BNP_C 1.44596 0 4
+   (14819 NP-HDN_CPD_C 2.16926 0 4
+    (14802 HDN_BNP-PN_C -0.132944 0 1
+     (189 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Quebecor" 161
+       "token [ +CARG #1=\"Quebecor\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (14818 ^NP-HDN_CPD_C 3.12415 1 4
+     (14817 HDN_BNP-PN_C 1.06237 1 3
+      (14816 NP-HDN_NME-CPD_C 0.86882 1 3
+       (14815 HDN_BNP-PN_C 0.365523 1 2
+        (14779 N_SG_ILR -0.143257 1 2
+         (190 generic_proper_ne@n_-_pn-gen_le 0 1 2
+          ("Class" 127
+           "token [ +CARG #1=\"Class\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (212 b_lower_np1@n_-_pn_le 0 2 3
+        ("b" 173
+         "token [ +CARG \"B\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL - ] +FORM \"b\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97903370000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (14784 ^N_MS-CNT_ILR 0.544017 3 4
+      (217 stock_n1@n_-_mc_le 0.948802 3 4
+       ("stock" 146
+        "token [ +CARG #1=\"stock\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (14800 ^HD-AJ_INT-UNSL_C 13.4409 4 12
+   (14793 ^HD-AJ_INT-UNSL_C 9.60515 4 8
+    (14787 ^V_PST_OLR 4.23633 4 5
+     (266 close_v2@v_-_unacc_le 2.18116 4 5
+      ("closed" 158
+       "token [ +CARG #1=\"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90639919999999996\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (14792 HD-CMP_U_C 3.40577 5 8
+     (436 at@p_np_i-reg_le -1.21766 5 6
+      ("at" 148
+       "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (14791 HDN_BNP_C 4.96957 6 8
+      (14790 N-NUM_MNP_C 4.01764 6 8
+       (14788 ^N_PL-CUR_ILR 1.48741 6 7
+        (439 canadian_dollarsign_n1@n_-_c-cur_le 0 6 7
+         ("c$" 171
+          "token [ +CARG \"C$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"c$\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (14789 W_COMMA_PLR 0.855729 7 8
+        (443 generic_card_ne@aj_-_i-crd-gen_le 0 7 8
+         ("15.375," 129
+          "token [ +CARG \"15.375\" +CLASS card_or_proper_ne +FORM \"15.375,\" +FROM \"35\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+   (14799 HD-CMP_U_C 2.27737 8 12
+    (532 up_vmod@p_np_i-nnm-nt_le -1.16963 8 9
+     ("up" 157
+      "token [ +CARG #1=\"up\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.52927429999999998\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (14798 HDN_BNP_C 4.27397 9 12
+     (14797 NUM-N_MNP_C 2.47794 9 12
+      (702 generic_card_ne@aj_-_i-crd-gen_le 0 9 10
+       ("62.5" 122
+        "token [ +CARG #1=\"62.5\" +CLASS card_or_proper_ne +FORM #1 +FROM \"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (14796 ^AJ-HDN_NORM_C 1.8428 10 12
+       (706 canadian_a1@aj_-_i_le 0.374349 10 11
+        ("canadian" 172
+         "token [ +CARG \"Canadian\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"canadian\" +FROM #1=\"51\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98334270000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"59\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (14795 ^W_PERIOD_PLR -0.619059 11 12
+        (14794 N_PL_OLR -0.995446 11 12
+         (708 cent_n1@n_-_c-meas-nb_le 0 11 12
+          ("cents." 152
+           "token [ +CARG \"cents\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cents.\" +FROM #1=\"60\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"13\" REST *cons* [ FIRST \"14\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"66\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (NP
+  (N (NP (N "Quebecor"))
+   (N (NP (N (NP (N (N "Class"))) (N "b"))) (N (N "stock")))))
+ (VP
+  (VP (VP (V "closed"))
+   (PP (P "at") (NP (N (N (N "c$")) (ADJ (ADJ "15.375,"))))))
+  (PP (P "up")
+   (NP (N (ADJ "62.5") (N (AP "canadian") (N (N (N "cents.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:22>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Quebecor" ]
+          [ compound<9:22>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<9:16>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ compound<9:16>
+            LBL: h20
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<9:14>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ named<9:14>
+            LBL: h26
+            ARG0: x21
+            CARG: "Class" ]
+          [ named<15:16>
+            LBL: h20
+            ARG0: x15
+            CARG: "B" ]
+          [ _stock_n_1<17:22>
+            LBL: h8
+            ARG0: x6 ]
+          [ _close_v_1<23:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _at_p<30:32>
+            LBL: h2
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x28 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<33:42>
+            LBL: h29
+            ARG0: x28
+            RSTR: h30
+            BODY: h31 ]
+          [ _canadian+dollar_n_1<33:35>
+            LBL: h32
+            ARG0: x28 ]
+          [ card<35:42>
+            LBL: h32
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x28
+            CARG: "15.375" ]
+          [ _up_p<43:45>
+            LBL: h2
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x35 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<46:66>
+            LBL: h36
+            ARG0: x35
+            RSTR: h37
+            BODY: h38 ]
+          [ card<46:50>
+            LBL: h39
+            ARG0: e40 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x35
+            CARG: "62.5" ]
+          [ _canadian_a_1<51:59>
+            LBL: h39
+            ARG0: e41 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x35 ]
+          [ _cent_n_1<60:66>
+            LBL: h39
+            ARG0: x35 ] >
+   HCONS: < h37 QEQ h39 h30 QEQ h32 h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:22>[BV x6]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Quebecor"){x IND +}[]
+ e16:compound<9:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:proper_q<9:16>[BV x15]
+ e22:compound<9:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x21]
+ _4:proper_q<9:14>[BV x21]
+ x21:named<9:14>("Class"){x PERS 3, NUM sg, IND +}[]
+ x15:named<15:16>("B"){x IND +}[]
+ x6:_stock_n_1<17:22>{x PERS 3, NUM sg}[]
+ e3:_close_v_1<23:29>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e27:_at_p<30:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x28]
+ _5:udef_q<33:42>[BV x28]
+ x28:_canadian+dollar_n_1<33:35>{x PERS 3, NUM pl, IND +}[]
+ e33:card<35:42>("15.375"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x28]
+ e34:_up_p<43:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x35]
+ _6:udef_q<46:66>[BV x35]
+ e40:card<46:50>("62.5"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x35]
+ e41:_canadian_a_1<51:59>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x35]
+ x35:_cent_n_1<60:66>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:22> BV _stock_n_1<17:22>  
+  compound<0:22> ARG1 _stock_n_1<17:22>  
+  compound<0:22> ARG2 named<0:8>(Quebecor)  
+  proper_q<0:8> BV named<0:8>(Quebecor)  
+  compound<9:22> ARG1 _stock_n_1<17:22>  
+  compound<9:22> ARG2 named<15:16>(B)  
+  proper_q<9:16> BV named<15:16>(B)  
+  compound<9:16> ARG1 named<15:16>(B)  
+  compound<9:16> ARG2 named<9:14>(Class)  
+  proper_q<9:14> BV named<9:14>(Class)  
+  _close_v_1<23:29> ARG1 _stock_n_1<17:22>  
+  _at_p<30:32> ARG1 _close_v_1<23:29>  
+  _at_p<30:32> ARG2 _canadian+dollar_n_1<33:35>  
+  udef_q<33:42> BV _canadian+dollar_n_1<33:35>  
+  card<35:42>(15.375) ARG1 _canadian+dollar_n_1<33:35>  
+  _up_p<43:45> ARG1 _close_v_1<23:29>  
+  _up_p<43:45> ARG2 _cent_n_1<60:66>  
+  udef_q<46:66> BV _cent_n_1<60:66>  
+  card<46:50>(62.5) ARG1 _cent_n_1<60:66>  
+  _canadian_a_1<51:59> ARG1 _cent_n_1<60:66>  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  named<0:8>(Quebecor) IND +  
+  compound<9:22> SF prop  
+  compound<9:22> TENSE untensed  
+  compound<9:22> MOOD indicative  
+  compound<9:22> PROG -  
+  compound<9:22> PERF -  
+  compound<9:16> SF prop  
+  compound<9:16> TENSE untensed  
+  compound<9:16> MOOD indicative  
+  compound<9:16> PROG -  
+  compound<9:16> PERF -  
+  named<9:14>(Class) PERS 3  
+  named<9:14>(Class) NUM sg  
+  named<9:14>(Class) IND +  
+  named<15:16>(B) IND +  
+  _stock_n_1<17:22> PERS 3  
+  _stock_n_1<17:22> NUM sg  
+  _close_v_1<23:29> SF prop  
+  _close_v_1<23:29> TENSE past  
+  _close_v_1<23:29> MOOD indicative  
+  _close_v_1<23:29> PROG -  
+  _close_v_1<23:29> PERF -  
+  _at_p<30:32> SF prop  
+  _at_p<30:32> TENSE untensed  
+  _at_p<30:32> MOOD indicative  
+  _at_p<30:32> PROG -  
+  _at_p<30:32> PERF -  
+  _canadian+dollar_n_1<33:35> PERS 3  
+  _canadian+dollar_n_1<33:35> NUM pl  
+  _canadian+dollar_n_1<33:35> IND +  
+  card<35:42>(15.375) SF prop  
+  card<35:42>(15.375) TENSE untensed  
+  card<35:42>(15.375) MOOD indicative  
+  card<35:42>(15.375) PROG -  
+  card<35:42>(15.375) PERF -  
+  _up_p<43:45> SF prop  
+  _up_p<43:45> TENSE untensed  
+  _up_p<43:45> MOOD indicative  
+  _up_p<43:45> PROG -  
+  _up_p<43:45> PERF -  
+  card<46:50>(62.5) SF prop  
+  card<46:50>(62.5) TENSE untensed  
+  card<46:50>(62.5) MOOD indicative  
+  card<46:50>(62.5) PROG -  
+  card<46:50>(62.5) PERF -  
+  _canadian_a_1<51:59> SF prop  
+  _canadian_a_1<51:59> TENSE untensed  
+  _canadian_a_1<51:59> MOOD indicative  
+  _canadian_a_1<51:59> PROG -  
+  _canadian_a_1<51:59> PERF -  
+  _cent_n_1<60:66> PERS 3  
+  _cent_n_1<60:66> NUM pl  
+  _cent_n_1<60:66> IND +  
+}
+

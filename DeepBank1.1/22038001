@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:14 h)).
+;;;
+
+[22038001] (1 of 1) {1} `Skoal Daze'
+
+[22038001:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Skoal", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:10>, 1, "Daze", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:5>, 1, "Skoal", 0, "null")
+  (28, 0, 1, <0:5>, 1, "skoal", 0, "null")
+  (30, 0, 1, <0:5>, 1, "skoal", 0, "null")
+  (20, 1, 2, <6:10>, 1, "Daze", 0, "null")
+  (26, 1, 2, <6:10>, 1, "Daze", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <6:10>, 1, "daze", 0, "null")
+  (29, 1, 2, <6:10>, 1, "daze", 0, "null")
+>
+
+(ROOT_FRAG
+ (77 NP_FRG_C -0.628959 0 2
+  (76 HDN_BNP-PN_C 0.517553 0 2
+   (75 NP-HDN_NME-CPD_C 0.556861 0 2
+    (73 HDN_BNP-PN_C 0.365523 0 1
+     (72 N_SG_ILR -0.386912 0 1
+      (32 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Skoal" 25
+        "token [ +CARG #1=\"Skoal\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (74 ^N_SG_ILR -0.143257 1 2
+     (33 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Daze" 20
+       "token [ +CARG #1=\"Daze\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "Skoal"))) (N (N "Daze")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Skoal" ]
+          [ named<6:10>
+            LBL: h8
+            ARG0: x4
+            CARG: "Daze" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:10>[BV x4]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Skoal"){x PERS 3, NUM sg, IND +}[]
+ x4:named<6:10>("Daze"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:10> ARG named<6:10>(Daze)  
+  proper_q<0:10> BV named<6:10>(Daze)  
+  compound<0:10> ARG1 named<6:10>(Daze)  
+  compound<0:10> ARG2 named<0:5>(Skoal)  
+  proper_q<0:5> BV named<0:5>(Skoal)  
+  unknown<0:10> SF prop-or-ques  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:5>(Skoal) PERS 3  
+  named<0:5>(Skoal) NUM sg  
+  named<0:5>(Skoal) IND +  
+  named<6:10>(Daze) PERS 3  
+  named<6:10>(Daze) NUM sg  
+  named<6:10>(Daze) IND +  
+}
+

@@ -1,0 +1,226 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:24 h)).
+;;;
+
+[21139017] (1 of 1) {1} `Chrysler Corp. also hit the rocks in mid-October.'
+
+[21139017:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Chrysler", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:14>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:19>, 1, "also", 0, "null", "RB" 1.0)
+  (4, 3, 4, <20:23>, 1, "hit", 0, "null", "VBD" 0.8515 "VB" 0.0845 "VBN" 0.0415 "VBP" 0.0225)
+  (5, 4, 5, <24:27>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <28:33>, 1, "rocks", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <34:36>, 1, "in", 0, "null", "IN" 1.0)
+  (8, 7, 8, <37:48>, 1, "mid-October", 0, "null", "NNP" 0.8074 "JJ" 0.1207 "NN" 0.0719)
+  (9, 8, 9, <48:49>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (123, 0, 1, <0:8>, 1, "Chrysler", 0, "null")
+  (132, 0, 1, <0:8>, 1, "chrysler", 0, "null")
+  (142, 0, 1, <0:8>, 1, "chrysler", 0, "null")
+  (92, 1, 2, <9:14>, 1, "Corp.", 0, "null")
+  (127, 1, 2, <9:14>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (131, 1, 2, <9:14>, 1, "corp.", 0, "null")
+  (134, 1, 2, <9:14>, 1, "corp.", 0, "null")
+  (110, 2, 3, <15:19>, 1, "also", 0, "null")
+  (128, 2, 3, <15:19>, 1, "also", 0, "null", "RB" 1.0)
+  (136, 2, 3, <15:19>, 1, "also", 0, "null")
+  (119, 3, 4, <20:23>, 1, "hit", 0, "null")
+  (124, 3, 4, <20:23>, 1, "hit", 0, "null", "VBD" 0.8515)
+  (141, 3, 4, <20:23>, 1, "hit", 0, "null")
+  (112, 4, 5, <24:27>, 1, "the", 0, "null")
+  (137, 4, 5, <24:27>, 1, "the", 0, "null")
+  (114, 5, 6, <28:33>, 1, "rocks", 0, "null")
+  (129, 5, 6, <28:33>, 1, "rocks", 0, "null", "NNS" 1.0)
+  (138, 5, 6, <28:33>, 1, "rocks", 0, "null")
+  (116, 6, 7, <34:36>, 1, "in", 0, "null")
+  (139, 6, 7, <34:36>, 1, "in", 0, "null")
+  (118, 7, 8, <37:48>, 1, "mid-", 0, "null")
+  (130, 7, 8, <37:48>, 1, "mid-", 0, "null", "NN" 1.0)
+  (140, 7, 8, <37:48>, 1, "mid-", 0, "null")
+  (94, 8, 9, <37:49>, 1, "October.", 0, "null")
+  (125, 8, 9, <37:49>, 1, "October.", 0, "null", "NNP" 0.8074)
+  (126, 8, 9, <37:49>, 1, "October.", 0, "null", "JJ" 0.1207)
+  (133, 8, 9, <37:49>, 1, "october.", 0, "null")
+  (135, 8, 9, <37:49>, 1, "october.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1471 SB-HD_MC_C 10.9097 0 9
+  (1470 HDN_BNP-PN_C 1.18066 0 2
+   (1469 HDN-AJ_REDREL_C 0.543239 0 2
+    (1447 ^N_SG_ILR -0.748959 0 1
+     (144 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Chrysler" 123
+       "token [ +CARG #1=\"Chrysler\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (155 corp_post_ttl_2@n_-_tt-post-npt_le -0.645973 1 2
+     ("corp." 131
+      "token [ +CARG \"Corp.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1464 ^AJ-HD_SCP-XP_C 9.00614 2 9
+   (158 also_adv1@av_-_s-vp-x_le -0.411543 2 3
+    ("also" 110
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1463 ^HD-AJ_INT-UNSL_C 8.17453 3 9
+    (1455 ^HD-CMP_U_C 4.16156 3 6
+     (1452 ^V_PST_OLR 1.91055 3 4
+      (190 hit_v1@v_np*_le 0.755344 3 4
+       ("hit" 119
+        "token [ +CARG #1=\"hit\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85149419999999998\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1454 SP-HD_N_C 0.871349 4 6
+      (249 the_1@d_-_the_le 1.07131 4 5
+       ("the" 112
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1453 ^N_PL_OLR 0.0793651 5 6
+       (277 rock_n1@n_-_mc_le 0 5 6
+        ("rocks" 114
+         "token [ +CARG #1=\"rocks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (1462 HD-CMP_U_C 3.11792 6 9
+     (328 in_temp@p_np_i-tmp_le 1.23875 6 7
+      ("in" 116
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1461 HDN_BNP-PN_C 0.371178 7 9
+      (1460 XP_BRCK-PR_C -0.437162 7 9
+       (1459 AJ-HDN_NORM_C -0.0894482 7 9
+        (1456 W_HYPHEN_PLR 0.482685 7 8
+         (365 mid_isect@aj_-_i-att-nsp_le 0 7 8
+          ("mid-" 118
+           "token [ +CARG #1=\"mid-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"37\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+        (1458 ^W_PERIOD_PLR -0.572133 8 9
+         (1457 N_SG_ILR -0.749398 8 9
+          (380 october@n_-_c-month_le 0 8 9
+           ("october." 133
+            "token [ +CARG \"October\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"october.\" +FROM \"37\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80742179999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "Chrysler")) (N "corp.")))
+ (VP (ADV "also")
+  (VP (VP (V (V "hit")) (NP (DET "the") (N (N "rocks"))))
+   (PP (P "in") (NP (N (N (AP (AP "mid-")) (N (N (N "october."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Chrysler" ]
+          [ _corporation_n_1<9:14>
+            LBL: h9
+            ARG0: x10 [ x IND: + ] ]
+          [ udef_q<9:14>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<9:14>
+            LBL: h8
+            ARG0: i14
+            ARG1: x6
+            ARG2: x10 ]
+          [ _also_a_1<15:19>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h16 ]
+          [ _hit_v_1<20:23>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6
+            ARG2: x18 [ x PERS: 3 NUM: PL ] ]
+          [ _the_q<24:27>
+            LBL: h19
+            ARG0: x18
+            RSTR: h21
+            BODY: h20 ]
+          [ _rock_n_1<28:33>
+            LBL: h22
+            ARG0: x18 ]
+          [ _in_p_temp<34:36>
+            LBL: h17
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x24 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<37:49>
+            LBL: h25
+            ARG0: x24
+            RSTR: h26
+            BODY: h27 ]
+          [ _mid_a_1<37:48>
+            LBL: h28
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x24 ]
+          [ mofy<37:49>
+            LBL: h28
+            ARG0: x24
+            CARG: "Oct" ] >
+   HCONS: < h26 QEQ h28 h21 QEQ h22 h16 QEQ h17 h12 QEQ h9 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e15:
+ _1:proper_q<0:14>[BV x6]
+ x6:named<0:8>("Chrysler"){x PERS 3, NUM sg, IND +}[]
+ x10:_corporation_n_1<9:14>{x IND +}[]
+ _2:udef_q<9:14>[BV x10]
+ i14:compound<9:14>{i}[ARG1 x6, ARG2 x10]
+ e15:_also_a_1<15:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_hit_v_1-fn.Experience_bodily_harm<20:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2-fn.Location x18]
+ _3:_the_q<24:27>[BV x18]
+ x18:_rock_n_1<28:33>{x PERS 3, NUM pl}[]
+ e23:_in_p_temp<34:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x24]
+ _4:proper_q<37:49>[BV x24]
+ e29:_mid_a_1<37:48>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x24]
+ x24:mofy<37:49>("Oct"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:14> BV named<0:8>(Chrysler)  
+  udef_q<9:14> BV _corporation_n_1<9:14>  
+  compound<9:14> ARG1 named<0:8>(Chrysler)  
+  compound<9:14> ARG2 _corporation_n_1<9:14>  
+  _also_a_1<15:19> ARG1 _hit_v_1<20:23>  
+  _hit_v_1<20:23> ARG1 named<0:8>(Chrysler)  
+  _hit_v_1<20:23> ARG2 _rock_n_1<28:33>  
+  _the_q<24:27> BV _rock_n_1<28:33>  
+  _in_p_temp<34:36> ARG1 _hit_v_1<20:23>  
+  _in_p_temp<34:36> ARG2 mofy<37:49>(Oct)  
+  proper_q<37:49> BV mofy<37:49>(Oct)  
+  _mid_a_1<37:48> ARG1 mofy<37:49>(Oct)  
+  named<0:8>(Chrysler) PERS 3  
+  named<0:8>(Chrysler) NUM sg  
+  named<0:8>(Chrysler) IND +  
+  _corporation_n_1<9:14> IND +  
+  _also_a_1<15:19> SF prop  
+  _also_a_1<15:19> TENSE untensed  
+  _also_a_1<15:19> MOOD indicative  
+  _also_a_1<15:19> PROG -  
+  _also_a_1<15:19> PERF -  
+  _hit_v_1<20:23> SF prop  
+  _hit_v_1<20:23> TENSE past  
+  _hit_v_1<20:23> MOOD indicative  
+  _hit_v_1<20:23> PROG -  
+  _hit_v_1<20:23> PERF -  
+  _rock_n_1<28:33> PERS 3  
+  _rock_n_1<28:33> NUM pl  
+  _in_p_temp<34:36> SF prop  
+  _in_p_temp<34:36> TENSE untensed  
+  _in_p_temp<34:36> MOOD indicative  
+  _in_p_temp<34:36> PROG -  
+  _in_p_temp<34:36> PERF -  
+  _mid_a_1<37:48> SF prop  
+  _mid_a_1<37:48> TENSE untensed  
+  _mid_a_1<37:48> MOOD indicative  
+  _mid_a_1<37:48> PROG -  
+  _mid_a_1<37:48> PERF -  
+  mofy<37:49>(Oct) PERS 3  
+  mofy<37:49>(Oct) NUM sg  
+  mofy<37:49>(Oct) IND +  
+}
+

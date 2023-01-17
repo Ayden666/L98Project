@@ -1,0 +1,237 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:14 h)).
+;;;
+
+[20446006] (1 of 1) {1} `Nausea and vomiting are other common side effects.'
+
+[20446006:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Nausea", 0, "null", "NN" 1.0)
+  (2, 1, 2, <7:10>, 1, "and", 0, "null", "CC" 1.0)
+  (3, 2, 3, <11:19>, 1, "vomiting", 0, "null", "NN" 0.876 "VBG" 0.124)
+  (4, 3, 4, <20:23>, 1, "are", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <24:29>, 1, "other", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <30:36>, 1, "common", 0, "null", "JJ" 0.9872 "NN" 0.0128)
+  (7, 6, 7, <37:41>, 1, "side", 0, "null", "NN" 0.961 "JJ" 0.039)
+  (8, 7, 8, <42:49>, 1, "effects", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <49:50>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (105, 0, 1, <0:6>, 1, "Nausea", 0, "null")
+  (112, 0, 1, <0:6>, 1, "nausea", 0, "null")
+  (120, 0, 1, <0:6>, 1, "nausea", 0, "null")
+  (92, 1, 2, <7:10>, 1, "and", 0, "null")
+  (113, 1, 2, <7:10>, 1, "and", 0, "null")
+  (99, 2, 3, <11:19>, 1, "vomiting", 0, "null")
+  (111, 2, 3, <11:19>, 1, "vomiting", 0, "null", "VBG" 0.124)
+  (117, 2, 3, <11:19>, 1, "vomiting", 0, "null")
+  (94, 3, 4, <20:23>, 1, "are", 0, "null")
+  (108, 3, 4, <20:23>, 1, "are", 0, "null", "VBP" 1.0)
+  (114, 3, 4, <20:23>, 1, "are", 0, "null")
+  (96, 4, 5, <24:29>, 1, "other", 0, "null")
+  (109, 4, 5, <24:29>, 1, "other", 0, "null", "JJ" 1.0)
+  (115, 4, 5, <24:29>, 1, "other", 0, "null")
+  (101, 5, 6, <30:36>, 1, "common", 0, "null")
+  (106, 5, 6, <30:36>, 1, "common", 0, "null", "JJ" 0.9872)
+  (118, 5, 6, <30:36>, 1, "common", 0, "null")
+  (103, 6, 7, <37:41>, 1, "side", 0, "null")
+  (107, 6, 7, <37:41>, 1, "side", 0, "null", "NN" 0.961)
+  (119, 6, 7, <37:41>, 1, "side", 0, "null")
+  (98, 7, 8, <42:50>, 1, "effects.", 0, "null")
+  (110, 7, 8, <42:50>, 1, "effects.", 0, "null", "NNS" 1.0)
+  (116, 7, 8, <42:50>, 1, "effects.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1114 SB-HD_MC_C 4.28018 0 8
+  (1113 NP-NP_CRD-T_C -2.37804 0 3
+   (1112 HDN_BNP_C -0.87212 0 1
+    (1111 N_MS-CNT_ILR -0.14807 0 1
+     (122 nausea_n1@n_-_mc_le 0 0 1
+      ("nausea" 112
+       "token [ +CARG \"Nausea\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"nausea\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1101 ^MRK-NH_NOM_C -2.51343 1 3
+    (126 and_conj@c_xp_and_le -0.868281 1 2
+     ("and" 92
+      "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1100 HDN_BNP_C -1.92246 2 3
+     (1099 V_NGER-INTR_DLR -1.62903 2 3
+      (1098 V_PRP_OLR -1.03999 2 3
+       (144 vomit_v1@v_-_le 0 2 3
+        ("vomiting" 99
+         "token [ +CARG #1=\"vomiting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87602400000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (1109 ^HD-CMP_U_C 5.33394 3 8
+   (156 be_id_are@v_np_are_le -0.260858 3 4
+    ("are" 94
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1108 HDN_BNP_C 4.96592 4 8
+    (1107 AJ-HDN_ADJN_C 4.73841 4 8
+     (163 other_a1@aj_-_i-att-nsp_le 1.15168 4 5
+      ("other" 96
+       "token [ +CARG #1=\"other\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1106 ^AJ-HDN_NORM_C 1.47519 5 8
+      (175 common_a1@aj_-_i_le -1.01545 5 6
+       ("common" 101
+        "token [ +CARG #1=\"common\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98723859999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1105 ^N-HDN_CPD_C 0.767903 6 8
+       (187 side_n1@n_-_c-ed_le 0 6 7
+        ("side" 103
+         "token [ +CARG #1=\"side\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96101930000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1104 ^W_PERIOD_PLR 0.215468 7 8
+        (1103 N_PL_OLR 0.318821 7 8
+         (205 effect_n1@n_-_mc-ns_le 0 7 8
+          ("effects." 98
+           "token [ +CARG \"effects\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"effects.\" +FROM #1=\"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (NP (NP (N (N "nausea")))
+  (NP-CJ (CONJ "and") (NP (N (VP (V "vomiting"))))))
+ (VP (V "are")
+  (NP
+   (N (AP "other")
+    (N (AP "common") (N (N "side") (N (N (N "effects.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:19>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL ]
+            RSTR: h6
+            BODY: h7 ]
+          [ udef_q<0:6>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG ]
+            RSTR: h9
+            BODY: h11 ]
+          [ _nausea_n_1<0:6>
+            LBL: h12
+            ARG0: x10 ]
+          [ _and_c<7:10>
+            LBL: h13
+            ARG0: x5
+            L-INDEX: x10
+            R-INDEX: x14 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<11:19>
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ _vomit_v_1<11:19>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i20 ]
+          [ nominalization<11:19>
+            LBL: h21
+            ARG0: x14
+            ARG1: h18 ]
+          [ _be_v_id<20:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x22 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<24:50>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ _other_a_1<24:29>
+            LBL: h26
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22 ]
+          [ _common_a_for<30:36>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22 ]
+          [ compound<37:50>
+            LBL: h26
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x29 [ x IND: + ] ]
+          [ udef_q<37:41>
+            LBL: h31
+            ARG0: x29
+            RSTR: h32
+            BODY: h33 ]
+          [ _side_n_1<37:41>
+            LBL: h34
+            ARG0: x29 ]
+          [ _effect_n_1<42:50>
+            LBL: h26
+            ARG0: x22 ] >
+   HCONS: < h32 QEQ h34 h24 QEQ h26 h16 QEQ h21 h9 QEQ h12 h6 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:19>[BV x5]
+ _2:udef_q<0:6>[BV x10]
+ x10:_nausea_n_1<0:6>{x PERS 3, NUM sg}[]
+ x5:_and_c<7:10>{x PERS 3, NUM pl}[L-INDEX x10, R-INDEX x14]
+ _3:udef_q<11:19>[BV x14]
+ e19:_vomit_v_1<11:19>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x14:nominalization<11:19>{x PERS 3, NUM sg, GEND n}[ARG1 e19]
+ e3:_be_v_id<20:23>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x22]
+ _4:udef_q<24:50>[BV x22]
+ e27:_other_a_1<24:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22]
+ e28:_common_a_for<30:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22]
+ e30:compound<37:50>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x29]
+ _5:udef_q<37:41>[BV x29]
+ x29:_side_n_1<37:41>{x IND +}[]
+ x22:_effect_n_1<42:50>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:19> BV _and_c<7:10>  
+  udef_q<0:6> BV _nausea_n_1<0:6>  
+  _and_c<7:10> L-INDEX _nausea_n_1<0:6>  
+  _and_c<7:10> R-INDEX nominalization<11:19>  
+  udef_q<11:19> BV nominalization<11:19>  
+  nominalization<11:19> ARG1 _vomit_v_1<11:19>  
+  _be_v_id<20:23> ARG1 _and_c<7:10>  
+  _be_v_id<20:23> ARG2 _effect_n_1<42:50>  
+  udef_q<24:50> BV _effect_n_1<42:50>  
+  _other_a_1<24:29> ARG1 _effect_n_1<42:50>  
+  _common_a_for<30:36> ARG1 _effect_n_1<42:50>  
+  compound<37:50> ARG1 _effect_n_1<42:50>  
+  compound<37:50> ARG2 _side_n_1<37:41>  
+  udef_q<37:41> BV _side_n_1<37:41>  
+  _nausea_n_1<0:6> PERS 3  
+  _nausea_n_1<0:6> NUM sg  
+  _and_c<7:10> PERS 3  
+  _and_c<7:10> NUM pl  
+  _vomit_v_1<11:19> SF prop  
+  _vomit_v_1<11:19> TENSE untensed  
+  _vomit_v_1<11:19> MOOD indicative  
+  _vomit_v_1<11:19> PROG +  
+  _vomit_v_1<11:19> PERF -  
+  nominalization<11:19> PERS 3  
+  nominalization<11:19> NUM sg  
+  nominalization<11:19> GEND n  
+  _be_v_id<20:23> SF prop  
+  _be_v_id<20:23> TENSE pres  
+  _be_v_id<20:23> MOOD indicative  
+  _be_v_id<20:23> PROG -  
+  _be_v_id<20:23> PERF -  
+  _other_a_1<24:29> SF prop  
+  _other_a_1<24:29> TENSE untensed  
+  _other_a_1<24:29> MOOD indicative  
+  _other_a_1<24:29> PROG -  
+  _other_a_1<24:29> PERF -  
+  _common_a_for<30:36> SF prop  
+  _common_a_for<30:36> TENSE untensed  
+  _common_a_for<30:36> MOOD indicative  
+  _common_a_for<30:36> PROG -  
+  _common_a_for<30:36> PERF -  
+  compound<37:50> SF prop  
+  compound<37:50> TENSE untensed  
+  compound<37:50> MOOD indicative  
+  compound<37:50> PROG -  
+  compound<37:50> PERF -  
+  _side_n_1<37:41> IND +  
+  _effect_n_1<42:50> PERS 3  
+  _effect_n_1<42:50> NUM pl  
+}
+

@@ -1,0 +1,74 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:57 h)).
+;;;
+
+[20725012] (1 of 1) {1} `What happened?'
+
+[20725012:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "What", 0, "null", "WP" 1.0)
+  (2, 1, 2, <5:13>, 1, "happened", 0, "null", "VBD" 0.6985 "VBN" 0.3015)
+  (3, 2, 3, <13:14>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (37, 0, 1, <0:4>, 1, "what", 0, "null")
+  (39, 0, 1, <0:4>, 1, "what", 0, "null")
+  (33, 1, 2, <5:14>, 1, "happened?", 0, "null")
+  (35, 1, 2, <5:14>, 1, "happened?", 0, "null", "VBD" 0.6985)
+  (36, 1, 2, <5:14>, 1, "happened?", 0, "null", "VBN" 0.3015)
+  (38, 1, 2, <5:14>, 1, "happened?", 0, "null")
+>
+
+(ROOT_STRICT
+ (535 FLR-HD_WH-MC-SB_C 1.22658 0 2
+  (531 HDN_BNP-QNT_C 0.512834 0 1
+   (530 HDN_OPTCMP_C 1.16635 0 1
+    (45 what1@n_-_pr-wh_le 0.858054 0 1
+     ("what" 37
+      "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"what\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (534 ^HD_XSB-FIN_C 0.481038 1 2
+   (533 W_QMARK_PLR 0.481038 1 2
+    (532 V_PST_OLR 0.481038 1 2
+     (67 happen_v1@v_-_unacc_le 0 1 2
+      ("happened?" 33
+       "token [ +CARG \"happened\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"happened?\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.6984764\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "what"))) (S/NP (VP/NP (VP/NP (V/NP "happened?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ thing<0:4>
+            LBL: h4
+            ARG0: x5 ]
+          [ which_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _happen_v_1<5:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:4>{x}[]
+ _1:which_q<0:4>[BV x5]
+ e3:_happen_v_1<5:14>{e SF ques, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  which_q<0:4> BV thing<0:4>  
+  _happen_v_1<5:14> ARG1 thing<0:4>  
+  _happen_v_1<5:14> SF ques  
+  _happen_v_1<5:14> TENSE past  
+  _happen_v_1<5:14> MOOD indicative  
+  _happen_v_1<5:14> PROG -  
+  _happen_v_1<5:14> PERF -  
+}
+

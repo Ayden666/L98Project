@@ -1,0 +1,78 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:14 h)).
+;;;
+
+[20909030] (1 of 1) {1} `Finding God'
+
+[20909030:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Finding", 0, "null", "NNP" 0.9098 "VBG" 0.0902)
+  (2, 1, 2, <8:11>, 1, "God", 0, "null", "NNP" 1.0)
+>
+
+<
+  (27, 0, 1, <0:7>, 1, "Finding", 0, "null")
+  (30, 0, 1, <0:7>, 1, "finding", 0, "null")
+  (32, 0, 1, <0:7>, 1, "finding", 0, "null")
+  (20, 1, 2, <8:11>, 1, "God", 0, "null")
+  (28, 1, 2, <8:11>, 1, "God", 0, "null", "NNP" 1.0)
+  (29, 1, 2, <8:11>, 1, "god", 0, "null")
+  (31, 1, 2, <8:11>, 1, "god", 0, "null")
+>
+
+(ROOT_FRAG
+ (292 VP_NFIN-FRG_C -0.235706 0 2
+  (291 HD-CMP_U_C 1.51784 0 2
+   (288 ^V_PRP_OLR 1.94828 0 1
+    (45 find_v1@v_np_le 1.4201 0 1
+     ("finding" 30
+      "token [ +CARG \"Finding\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"finding\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90975899999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (290 HDN_BNP-PN_C -0.322701 1 2
+    (289 N_SG_ILR 0.233474 1 2
+     (62 god_n2@n_-_pn_le 0 1 2
+      ("god" 29
+       "token [ +CARG \"God\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"god\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (VP (V (V "finding")) (NP (N (N "god")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _find_v_1<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: i5
+            ARG2: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:11>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ named<8:11>
+            LBL: h9
+            ARG0: x4
+            CARG: "God" ] >
+   HCONS: < h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e3:_find_v_1<0:7>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x4]
+ _1:proper_q<8:11>[BV x4]
+ x4:named<8:11>("God"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _find_v_1<0:7> ARG2 named<8:11>(God)  
+  proper_q<8:11> BV named<8:11>(God)  
+  _find_v_1<0:7> SF prop-or-ques  
+  _find_v_1<0:7> TENSE untensed  
+  _find_v_1<0:7> MOOD indicative  
+  _find_v_1<0:7> PROG +  
+  _find_v_1<0:7> PERF -  
+  named<8:11>(God) PERS 3  
+  named<8:11>(God) NUM sg  
+  named<8:11>(God) IND +  
+}
+

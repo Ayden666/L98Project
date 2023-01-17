@@ -1,0 +1,163 @@
+;;;
+;;; Redwoods export of `wsj20c';
+;;; (wsun@wsun; 23-jan-2018 (05:26 h)).
+;;;
+
+[22057049] (1 of 1) {1} `UAL Corp. is a good example.'
+
+[22057049:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "UAL", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:14>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <15:19>, 1, "good", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <20:27>, 1, "example", 0, "null", "NN" 1.0)
+  (7, 6, 7, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (67, 0, 1, <0:3>, 1, "UAL", 0, "null")
+  (82, 0, 1, <0:3>, 1, "UAL", 0, "null", "NNP" 1.0)
+  (87, 0, 1, <0:3>, 1, "ual", 0, "null")
+  (89, 0, 1, <0:3>, 1, "ual", 0, "null")
+  (66, 1, 2, <4:9>, 1, "Corp.", 0, "null")
+  (81, 1, 2, <4:9>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (86, 1, 2, <4:9>, 1, "corp.", 0, "null")
+  (88, 1, 2, <4:9>, 1, "corp.", 0, "null")
+  (74, 2, 3, <10:12>, 1, "is", 0, "null")
+  (83, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (90, 2, 3, <10:12>, 1, "is", 0, "null")
+  (76, 3, 4, <13:14>, 1, "a", 0, "null")
+  (91, 3, 4, <13:14>, 1, "a", 0, "null")
+  (78, 4, 5, <15:19>, 1, "good", 0, "null")
+  (84, 4, 5, <15:19>, 1, "good", 0, "null", "JJ" 1.0)
+  (92, 4, 5, <15:19>, 1, "good", 0, "null")
+  (80, 5, 6, <20:28>, 1, "example.", 0, "null")
+  (85, 5, 6, <20:28>, 1, "example.", 0, "null", "NN" 1.0)
+  (93, 5, 6, <20:28>, 1, "example.", 0, "null")
+>
+
+(ROOT_STRICT
+ (796 SB-HD_MC_C 6.48809 0 6
+  (795 HDN_BNP-PN_C 0.870326 0 2
+   (794 HDN-AJ_REDREL_C 0.232907 0 2
+    (782 ^N_SG_ILR -1.05929 0 1
+     (96 generic_proper_ne@n_-_pn-gen_le -0.310332 0 1
+      ("UAL" 67
+       "token [ +CARG #1=\"UAL\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (108 corp_post_ttl_2@n_-_tt-post-npt_le -0.645973 1 2
+     ("corp." 86
+      "token [ +CARG \"Corp.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (793 ^HD-CMP_U_C 4.60071 2 6
+   (152 be_id_is@v_np_is_le 0.159389 2 3
+    ("is" 74
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (792 SP-HD_N_C 3.68659 3 6
+    (240 a_det@d_-_sg-nmd_le -0.667877 3 4
+     ("a" 76
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (791 ^AJ-HDN_NORM_C 2.72101 4 6
+     (787 J_ATT_DLR 1.42364 4 5
+      (316 good_a2@aj_pp_i-er_le 0.593203 4 5
+       ("good" 78
+        "token [ +CARG #1=\"good\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (790 ^HDN_OPTCMP_C 1.13821 5 6
+      (789 W_PERIOD_PLR 1.22587 5 6
+       (788 N_SG_ILR 0.704929 5 6
+        (336 example_n1@n_pp_c-of_le 0 5 6
+         ("example." 80
+          "token [ +CARG \"example\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"example.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "UAL")) (N "corp.")))
+ (VP (V "is")
+  (NP (DET "a") (N (AP (ADJ "good")) (N (N (N (N "example."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:3>
+            LBL: h8
+            ARG0: x6
+            CARG: "UAL" ]
+          [ _corporation_n_1<4:9>
+            LBL: h9
+            ARG0: x10 [ x IND: + ] ]
+          [ udef_q<4:9>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<4:9>
+            LBL: h8
+            ARG0: i14
+            ARG1: x6
+            ARG2: x10 ]
+          [ _be_v_id<10:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<13:14>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _good_a_at-for-of<15:19>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: i21 ]
+          [ _example_n_of<20:28>
+            LBL: h19
+            ARG0: x15
+            ARG1: i22 ] >
+   HCONS: < h18 QEQ h19 h12 QEQ h9 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ x6:named<0:3>("UAL"){x PERS 3, NUM sg, IND +}[]
+ x10:_corporation_n_1<4:9>{x IND +}[]
+ _2:udef_q<4:9>[BV x10]
+ i14:compound<4:9>{i}[ARG1 x6, ARG2 x10]
+ e3:_be_v_id<10:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_a_q<13:14>[BV x15]
+ e20:_good_a_at-for-of<15:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ x15:_example_n_of<20:28>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<0:3>(UAL)  
+  udef_q<4:9> BV _corporation_n_1<4:9>  
+  compound<4:9> ARG1 named<0:3>(UAL)  
+  compound<4:9> ARG2 _corporation_n_1<4:9>  
+  _be_v_id<10:12> ARG1 named<0:3>(UAL)  
+  _be_v_id<10:12> ARG2 _example_n_of<20:28>  
+  _a_q<13:14> BV _example_n_of<20:28>  
+  _good_a_at-for-of<15:19> ARG1 _example_n_of<20:28>  
+  named<0:3>(UAL) PERS 3  
+  named<0:3>(UAL) NUM sg  
+  named<0:3>(UAL) IND +  
+  _corporation_n_1<4:9> IND +  
+  _be_v_id<10:12> SF prop  
+  _be_v_id<10:12> TENSE pres  
+  _be_v_id<10:12> MOOD indicative  
+  _be_v_id<10:12> PROG -  
+  _be_v_id<10:12> PERF -  
+  _good_a_at-for-of<15:19> SF prop  
+  _good_a_at-for-of<15:19> TENSE untensed  
+  _good_a_at-for-of<15:19> MOOD indicative  
+  _good_a_at-for-of<15:19> PROG -  
+  _good_a_at-for-of<15:19> PERF -  
+  _example_n_of<20:28> PERS 3  
+  _example_n_of<20:28> NUM sg  
+  _example_n_of<20:28> IND +  
+}
+

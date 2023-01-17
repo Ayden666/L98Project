@@ -1,0 +1,108 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:00 h)).
+;;;
+
+[20214051] (1 of 1) {1} `But the ballplayers disagree.'
+
+[20214051:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <8:19>, 1, "ballplayers", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <20:28>, 1, "disagree", 0, "null", "VBP" 0.9781 "VB" 0.0219)
+  (5, 4, 5, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:3>, 1, "but", 0, "null")
+  (63, 0, 1, <0:3>, 1, "but", 0, "null")
+  (52, 1, 2, <4:7>, 1, "the", 0, "null")
+  (60, 1, 2, <4:7>, 1, "the", 0, "null")
+  (54, 2, 3, <8:19>, 1, "ballplayers", 0, "null")
+  (58, 2, 3, <8:19>, 1, "ballplayers", 0, "null", "NNS" 1.0)
+  (61, 2, 3, <8:19>, 1, "ballplayers", 0, "null")
+  (55, 3, 4, <20:29>, 1, "disagree.", 0, "null")
+  (57, 3, 4, <20:29>, 1, "disagree.", 0, "null", "VBP" 0.9781)
+  (62, 3, 4, <20:29>, 1, "disagree.", 0, "null")
+>
+
+(ROOT_STRICT
+ (296 CL_CNJ-FRG_C 4.5222 0 4
+  (295 MRK-NH_CL_C 3.65232 0 4
+   (66 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 59
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (294 SB-HD_MC_C 1.23968 1 4
+    (289 SP-HD_N_C 1.65676 1 3
+     (92 the_1@d_-_the_le 1.13181 1 2
+      ("the" 52
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (121 generic_pl_noun@n_-_c-pl-unk_le 0 2 3
+      ("ballplayers" 58
+       "token [ +CARG #1=\"ballplayers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_ballplayers/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (293 ^HD_OPTCMP_C -0.48061 3 4
+     (292 HD_OPTCMP_C 0.48785 3 4
+      (291 W_PERIOD_PLR -0.236205 3 4
+       (290 V_N3S-BSE_ILR 0.664306 3 4
+        (126 disagree_v1@v_pp*-pp*_le 0 3 4
+         ("disagree." 55
+          "token [ +CARG \"disagree\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"disagree.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97811840000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "the") (N "ballplayers"))
+   (VP (V (V (V (V "disagree."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _the_q<4:7>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: PL ]
+            RSTR: h11
+            BODY: h9 ]
+          [ _ballplayers/nns_u_unknown<8:19>
+            LBL: h12
+            ARG0: x10 ]
+          [ _disagree_v_1<20:29>
+            LBL: h13
+            ARG0: e4
+            ARG1: x10 ] >
+   HCONS: < h11 QEQ h12 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_the_q<4:7>[BV x10]
+ x10:_ballplayers/nns_u_unknown<8:19>{x PERS 3, NUM pl}[]
+ e4:_disagree_v_1<20:29>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+}
+
+{
+  _but_c<0:3> R-HNDL _disagree_v_1<20:29>  
+  _but_c<0:3> R-INDEX _disagree_v_1<20:29>  
+  _the_q<4:7> BV _ballplayers/nns_u_unknown<8:19>  
+  _disagree_v_1<20:29> ARG1 _ballplayers/nns_u_unknown<8:19>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _ballplayers/nns_u_unknown<8:19> PERS 3  
+  _ballplayers/nns_u_unknown<8:19> NUM pl  
+  _disagree_v_1<20:29> SF prop  
+  _disagree_v_1<20:29> TENSE pres  
+  _disagree_v_1<20:29> MOOD indicative  
+  _disagree_v_1<20:29> PROG -  
+  _disagree_v_1<20:29> PERF -  
+}
+

@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:14 h)).
+;;;
+
+[20909011] (1 of 1) {1} `But many have.'
+
+[20909011:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:8>, 1, "many", 0, "null", "JJ" 0.8768 "RB" 0.081 "NNS" 0.023 "DT" 0.0192)
+  (3, 2, 3, <9:13>, 1, "have", 0, "null", "VBP" 0.8384 "VB" 0.1616)
+  (4, 3, 4, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:3>, 1, "but", 0, "null")
+  (58, 0, 1, <0:3>, 1, "but", 0, "null")
+  (48, 1, 2, <4:8>, 1, "many", 0, "null")
+  (52, 1, 2, <4:8>, 1, "many", 0, "null", "JJ" 0.8768)
+  (56, 1, 2, <4:8>, 1, "many", 0, "null")
+  (49, 2, 3, <9:14>, 1, "have.", 0, "null")
+  (53, 2, 3, <9:14>, 1, "have.", 0, "null", "VBP" 0.8384)
+  (54, 2, 3, <9:14>, 1, "have.", 0, "null", "VB" 0.1616)
+  (57, 2, 3, <9:14>, 1, "have.", 0, "null")
+>
+
+(ROOT_STRICT
+ (338 CL_CNJ-FRG_C 1.39844 0 3
+  (337 MRK-NH_CL_C 0.528556 0 3
+   (61 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 55
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (336 SB-HD_MC_C -1.88409 1 3
+    (333 HDN_BNP-QNT_C -1.17528 1 2
+     (332 NUM_PRT-NC_C -0.16271 1 2
+      (77 many_a1@aj_-_i-many_le 0.0576749 1 2
+       ("many" 48
+        "token [ +CARG #1=\"many\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8767663\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (335 ^W_PERIOD_PLR -0.951547 2 3
+     (334 V_AUX-ELL-REF_DLR -0.548827 2 3
+      (109 have_fin_aux@v_vp_have-f_le 0 2 3
+       ("have." 49
+        "token [ +CARG \"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"have.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83843679999999998\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (S (CONJ "but") (S (NP (N (ADJ "many"))) (VP (VP (V "have."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ] ]
+          [ generic_entity<4:8>
+            LBL: h8
+            ARG0: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<4:8>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ much-many_a<4:8>
+            LBL: h8
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ ellipsis_ref<9:14>
+            LBL: h14
+            ARG0: e4
+            ARG1: x9 ] >
+   HCONS: < h11 QEQ h8 h5 QEQ h14 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ x9:generic_entity<4:8>{x PERS 3, NUM pl}[]
+ _1:udef_q<4:8>[BV x9]
+ e13:much-many_a<4:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e4:ellipsis_ref<9:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x9]
+}
+
+{
+  _but_c<0:3> R-HNDL ellipsis_ref<9:14>  
+  _but_c<0:3> R-INDEX ellipsis_ref<9:14>  
+  udef_q<4:8> BV generic_entity<4:8>  
+  much-many_a<4:8> ARG1 generic_entity<4:8>  
+  ellipsis_ref<9:14> ARG1 generic_entity<4:8>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  generic_entity<4:8> PERS 3  
+  generic_entity<4:8> NUM pl  
+  much-many_a<4:8> SF prop  
+  much-many_a<4:8> TENSE untensed  
+  much-many_a<4:8> MOOD indicative  
+  much-many_a<4:8> PROG -  
+  much-many_a<4:8> PERF -  
+  ellipsis_ref<9:14> SF prop  
+  ellipsis_ref<9:14> TENSE pres  
+  ellipsis_ref<9:14> MOOD indicative  
+  ellipsis_ref<9:14> PROG -  
+  ellipsis_ref<9:14> PERF +  
+}
+

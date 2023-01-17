@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:54 h)).
+;;;
+
+[21603005] (1 of 1) {1} `The Tire King'
+
+[21603005:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:8>, 1, "Tire", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:13>, 1, "King", 0, "null", "NNP" 0.9844 "NN" 0.0156)
+>
+
+<
+  (43, 0, 1, <0:3>, 1, "the", 0, "null")
+  (49, 0, 1, <0:3>, 1, "the", 0, "null")
+  (30, 1, 2, <4:8>, 1, "Tire", 0, "null")
+  (41, 1, 2, <4:8>, 1, "Tire", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <4:8>, 1, "tire", 0, "null")
+  (45, 1, 2, <4:8>, 1, "tire", 0, "null")
+  (31, 2, 3, <9:13>, 1, "King", 0, "null")
+  (40, 2, 3, <9:13>, 1, "King", 0, "null", "NNP" 0.9844)
+  (44, 2, 3, <9:13>, 1, "king", 0, "null")
+  (46, 2, 3, <9:13>, 1, "king", 0, "null")
+>
+
+(ROOT_FRAG
+ (405 NP_FRG_C 1.215 0 3
+  (404 SP-HD_N_C 2.22191 0 3
+   (62 the_1@d_-_the_le 0.244361 0 1
+    ("the" 43
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (403 ^NP-HDN_NME-CPD_C 0.716768 1 3
+    (401 HDN_BNP-PN_C 0.600065 1 2
+     (400 N_SG_ILR -0.386912 1 2
+      (87 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Tire" 30
+        "token [ +CARG #1=\"Tire\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (402 ^N_SG_ILR -0.660914 2 3
+     (111 king_n2@n_-_pn_le 0 2 3
+      ("king" 44
+       "token [ +CARG \"King\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"king\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98435569999999994\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (DET "the") (N (NP (N (N "Tire"))) (N (N "king")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<0:3>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ compound<4:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<4:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<4:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Tire" ]
+          [ named<9:13>
+            LBL: h8
+            ARG0: x4
+            CARG: "King" ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:_the_q<0:3>[BV x4]
+ e10:compound<4:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<4:8>[BV x9]
+ x9:named<4:8>("Tire"){x PERS 3, NUM sg, IND +}[]
+ x4:named<9:13>("King"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:13> ARG named<9:13>(King)  
+  _the_q<0:3> BV named<9:13>(King)  
+  compound<4:13> ARG1 named<9:13>(King)  
+  compound<4:13> ARG2 named<4:8>(Tire)  
+  proper_q<4:8> BV named<4:8>(Tire)  
+  unknown<0:13> SF prop-or-ques  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  compound<4:13> SF prop  
+  compound<4:13> TENSE untensed  
+  compound<4:13> MOOD indicative  
+  compound<4:13> PROG -  
+  compound<4:13> PERF -  
+  named<4:8>(Tire) PERS 3  
+  named<4:8>(Tire) NUM sg  
+  named<4:8>(Tire) IND +  
+  named<9:13>(King) PERS 3  
+  named<9:13>(King) NUM sg  
+  named<9:13>(King) IND +  
+}
+

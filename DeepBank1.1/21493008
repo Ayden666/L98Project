@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj14e';
+;;; (wsun@wsun; 22-jan-2018 (23:47 h)).
+;;;
+
+[21493008] (1 of 1) {1} `Interpublic declined comment.'
+
+[21493008:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Interpublic", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <12:20>, 1, "declined", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <21:28>, 1, "comment", 0, "null", "NN" 0.8199 "VB" 0.1801)
+  (4, 3, 4, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:11>, 1, "Interpublic", 0, "null")
+  (50, 0, 1, <0:11>, 1, "interpublic", 0, "null")
+  (53, 0, 1, <0:11>, 1, "interpublic", 0, "null")
+  (43, 1, 2, <12:20>, 1, "declined", 0, "null")
+  (48, 1, 2, <12:20>, 1, "declined", 0, "null", "VBD" 1.0)
+  (51, 1, 2, <12:20>, 1, "declined", 0, "null")
+  (44, 2, 3, <21:29>, 1, "comment.", 0, "null")
+  (47, 2, 3, <21:29>, 1, "comment.", 0, "null", "NN" 0.8199)
+  (49, 2, 3, <21:29>, 1, "comment.", 0, "null", "VB" 0.1801)
+  (52, 2, 3, <21:29>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (422 SB-HD_MC_C -1.15907 0 3
+  (416 HDN_BNP-PN_C -1.0285 0 1
+   (415 N_SG_ILR -0.979548 0 1
+    (54 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Interpublic" 46
+      "token [ +CARG #1=\"Interpublic\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (421 ^HD-CMP_U_C -1.14762 1 3
+   (417 ^V_PST_OLR -0.933357 1 2
+    (69 decline_v1@v_np*_le -1.24013 1 2
+     ("declined" 43
+      "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (420 HDN_BNP_C -1.13444 2 3
+    (419 W_PERIOD_PLR 0.126809 2 3
+     (418 N_MS-CNT_ILR -0.0740774 2 3
+      (155 comment_n1@n_-_mc-ns_le -0.0931044 2 3
+       ("comment." 44
+        "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81988550000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "Interpublic")))
+ (VP (V (V "declined")) (NP (N (N (N "comment."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Interpublic" ]
+          [ _decline_v_1<12:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<21:29>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _comment_n_1<21:29>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ x6:named<0:11>("Interpublic"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<12:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<21:29>[BV x9]
+ x9:_comment_n_1<21:29>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:11> BV named<0:11>(Interpublic)  
+  _decline_v_1<12:20> ARG1 named<0:11>(Interpublic)  
+  _decline_v_1<12:20> ARG2 _comment_n_1<21:29>  
+  udef_q<21:29> BV _comment_n_1<21:29>  
+  named<0:11>(Interpublic) PERS 3  
+  named<0:11>(Interpublic) NUM sg  
+  named<0:11>(Interpublic) IND +  
+  _decline_v_1<12:20> SF prop  
+  _decline_v_1<12:20> TENSE past  
+  _decline_v_1<12:20> MOOD indicative  
+  _decline_v_1<12:20> PROG -  
+  _decline_v_1<12:20> PERF -  
+  _comment_n_1<21:29> PERS 3  
+  _comment_n_1<21:29> NUM sg  
+}
+

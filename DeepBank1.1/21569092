@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:30 h)).
+;;;
+
+[21569092] (1 of 1) {1} `Source: PaineWebber Inc.'
+
+[21569092:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Source", 0, "null", "NN" 0.9886 "NNP" 0.0114)
+  (2, 1, 2, <6:7>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <8:19>, 1, "PaineWebber", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <20:23>, 1, "Inc", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:6>, 1, "Source", 0, "null")
+  (67, 0, 1, <0:6>, 1, "source", 0, "null")
+  (71, 0, 1, <0:6>, 1, "source", 0, "null")
+  (57, 1, 2, <6:7>, 1, ":", 0, "null")
+  (70, 1, 2, <6:7>, 1, ":", 0, "null")
+  (49, 2, 3, <8:19>, 1, "PaineWebber", 0, "null")
+  (63, 2, 3, <8:19>, 1, "PaineWebber", 0, "null", "NNP" 1.0)
+  (65, 2, 3, <8:19>, 1, "painewebber", 0, "null")
+  (68, 2, 3, <8:19>, 1, "painewebber", 0, "null")
+  (51, 3, 4, <20:24>, 1, "Inc.", 0, "null")
+  (64, 3, 4, <20:24>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (66, 3, 4, <20:24>, 1, "inc.", 0, "null")
+  (69, 3, 4, <20:24>, 1, "inc.", 0, "null")
+>
+
+(ROOT_STRICT
+ (411 SB-HD_MC_C 5.5869 0 4
+  (404 HDN_BNP_C 0.441855 0 1
+   (403 N_MS_ILR 0.724786 0 1
+    (76 source_n2@n_-_m-nocnh_le 0.855921 0 1
+     ("source" 67
+      "token [ +CARG \"Source\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"source\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98861339999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (410 ^HD-CMP_U_C 3.62914 1 4
+   (81 colon_copula_v@v_np_colon_le 0.879077 1 2
+    (":" 57
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (409 HDN_BNP-PN_C 2.98706 2 4
+    (408 HDN-AJ_REDREL_C 2.95136 2 4
+     (405 ^N_SG_ILR -0.748959 2 3
+      (114 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("PaineWebber" 49
+        "token [ +CARG #1=\"PaineWebber\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (407 W_PERIOD_PLR 2.66678 3 4
+      (406 N_SG_ILR 1.60789 3 4
+       (123 inc_post_ttl@n_-_tt-post_le 2.28122 3 4
+        ("inc." 66
+         "token [ +CARG \"Inc\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"inc.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "source")))
+ (VP (V ":") (NP (N (N (N "PaineWebber")) (N (N (N "inc.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _source_n_2<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _colon_v_id<6:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:24>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ named<8:19>
+            LBL: h13
+            ARG0: x9
+            CARG: "PaineWebber" ]
+          [ _inc_n_1<20:24>
+            LBL: h14
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<20:24>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<20:24>
+            LBL: h13
+            ARG0: i19
+            ARG1: x9
+            ARG2: x15 ] >
+   HCONS: < h17 QEQ h14 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_source_n_2<0:6>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_colon_v_id<6:7>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<8:24>[BV x9]
+ x9:named<8:19>("PaineWebber"){x PERS 3, NUM sg, IND +}[]
+ x15:_inc_n_1<20:24>{x PERS 3, NUM sg, IND +}[]
+ _3:udef_q<20:24>[BV x15]
+ i19:compound<20:24>{i}[ARG1 x9, ARG2 x15]
+}
+
+{
+  udef_q<0:6> BV _source_n_2<0:6>  
+  _colon_v_id<6:7> ARG1 _source_n_2<0:6>  
+  _colon_v_id<6:7> ARG2 named<8:19>(PaineWebber)  
+  proper_q<8:24> BV named<8:19>(PaineWebber)  
+  udef_q<20:24> BV _inc_n_1<20:24>  
+  compound<20:24> ARG1 named<8:19>(PaineWebber)  
+  compound<20:24> ARG2 _inc_n_1<20:24>  
+  _source_n_2<0:6> PERS 3  
+  _source_n_2<0:6> NUM sg  
+  _source_n_2<0:6> GEND n  
+  _source_n_2<0:6> IND -  
+  _colon_v_id<6:7> SF prop  
+  _colon_v_id<6:7> TENSE tensed  
+  _colon_v_id<6:7> MOOD indicative  
+  _colon_v_id<6:7> PROG -  
+  _colon_v_id<6:7> PERF -  
+  named<8:19>(PaineWebber) PERS 3  
+  named<8:19>(PaineWebber) NUM sg  
+  named<8:19>(PaineWebber) IND +  
+  _inc_n_1<20:24> PERS 3  
+  _inc_n_1<20:24> NUM sg  
+  _inc_n_1<20:24> IND +  
+}
+

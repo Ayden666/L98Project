@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj00d';
+;;; (wsun@wsun; 22-jan-2018 (10:54 h)).
+;;;
+
+[20094014] (1 of 1) {1} `Hiroshi Asada'
+
+[20094014:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Hiroshi", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:13>, 1, "Asada", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:7>, 1, "Hiroshi", 0, "null")
+  (28, 0, 1, <0:7>, 1, "hiroshi", 0, "null")
+  (30, 0, 1, <0:7>, 1, "hiroshi", 0, "null")
+  (20, 1, 2, <8:13>, 1, "Asada", 0, "null")
+  (26, 1, 2, <8:13>, 1, "Asada", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <8:13>, 1, "asada", 0, "null")
+  (29, 1, 2, <8:13>, 1, "asada", 0, "null")
+>
+
+(ROOT_FRAG
+ (77 NP_FRG_C -0.628959 0 2
+  (76 HDN_BNP-PN_C 0.517553 0 2
+   (75 NP-HDN_NME-CPD_C 0.556861 0 2
+    (73 HDN_BNP-PN_C 0.365523 0 1
+     (72 N_SG_ILR -0.386912 0 1
+      (32 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Hiroshi" 25
+        "token [ +CARG #1=\"Hiroshi\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (74 ^N_SG_ILR -0.143257 1 2
+     (33 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Asada" 20
+       "token [ +CARG #1=\"Asada\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "Hiroshi"))) (N (N "Asada")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:13>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "Hiroshi" ]
+          [ named<8:13>
+            LBL: h8
+            ARG0: x4
+            CARG: "Asada" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:13>[BV x4]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:7>[BV x9]
+ x9:named<0:7>("Hiroshi"){x PERS 3, NUM sg, IND +}[]
+ x4:named<8:13>("Asada"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:13> ARG named<8:13>(Asada)  
+  proper_q<0:13> BV named<8:13>(Asada)  
+  compound<0:13> ARG1 named<8:13>(Asada)  
+  compound<0:13> ARG2 named<0:7>(Hiroshi)  
+  proper_q<0:7> BV named<0:7>(Hiroshi)  
+  unknown<0:13> SF prop-or-ques  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:7>(Hiroshi) PERS 3  
+  named<0:7>(Hiroshi) NUM sg  
+  named<0:7>(Hiroshi) IND +  
+  named<8:13>(Asada) PERS 3  
+  named<8:13>(Asada) NUM sg  
+  named<8:13>(Asada) IND +  
+}
+

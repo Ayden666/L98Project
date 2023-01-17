@@ -1,0 +1,149 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:00 h)).
+;;;
+
+[22013144] (1 of 1) {1} `Mr. Noriega was growing desperate.'
+
+[22013144:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Noriega", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:15>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <16:23>, 1, "growing", 0, "null", "VBG" 1.0)
+  (5, 4, 5, <24:33>, 1, "desperate", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <33:34>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (74, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (79, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (56, 1, 2, <4:11>, 1, "Noriega", 0, "null")
+  (69, 1, 2, <4:11>, 1, "Noriega", 0, "null", "NNP" 1.0)
+  (73, 1, 2, <4:11>, 1, "noriega", 0, "null")
+  (75, 1, 2, <4:11>, 1, "noriega", 0, "null")
+  (63, 2, 3, <12:15>, 1, "was", 0, "null")
+  (70, 2, 3, <12:15>, 1, "was", 0, "null", "VBD" 1.0)
+  (76, 2, 3, <12:15>, 1, "was", 0, "null")
+  (65, 3, 4, <16:23>, 1, "growing", 0, "null")
+  (71, 3, 4, <16:23>, 1, "growing", 0, "null", "VBG" 1.0)
+  (77, 3, 4, <16:23>, 1, "growing", 0, "null")
+  (67, 4, 5, <24:34>, 1, "desperate.", 0, "null")
+  (72, 4, 5, <24:34>, 1, "desperate.", 0, "null", "JJ" 1.0)
+  (78, 4, 5, <24:34>, 1, "desperate.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1219 SB-HD_MC_C 10.2061 0 5
+  (1212 HDN_BNP-PN_C 4.02279 0 2
+   (1211 NP-HDN_TTL-CPD_C 3.33685 0 2
+    (1209 N_SG_ILR 2.02901 0 1
+     (87 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 74
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1210 ^N_SG_ILR -0.0982517 1 2
+     (92 noriega_n1@n_-_pn_le 0 1 2
+      ("noriega" 73
+       "token [ +CARG \"Noriega\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"noriega\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1218 ^HD-CMP_U_C 5.16626 2 5
+   (97 be_c_was@v_prd_was_le 1.73705 2 3
+    ("was" 63
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1217 HD_OPTCMP_C 3.17791 3 5
+    (1216 HD-CMP_U_C 1.86279 3 5
+     (1213 ^V_PRP_OLR 0.787676 3 4
+      (121 grow_v3@v_ap-pp_seq_le 0.268274 3 4
+       ("growing" 65
+        "token [ +CARG #1=\"growing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1215 HD_OPTCMP_C 0.992301 4 5
+      (1214 W_PERIOD_PLR 0.506901 4 5
+       (136 desperate_a1@aj_pp_i_le 0 4 5
+        ("desperate." 67
+         "token [ +CARG \"desperate\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"desperate.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "noriega"))))
+ (VP (V "was")
+  (VP (V (V (V "growing")) (AP (ADJ (ADJ "desperate.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Noriega" ]
+          [ _grow_v_to<16:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h16
+            ARG3: i15 ]
+          [ _desperate_a_for<24:34>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: i19 ] >
+   HCONS: < h16 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Noriega"){x PERS 3, NUM sg, IND +}[]
+ e3:_grow_v_to<16:23>{e SF prop, TENSE past, MOOD indicative, PROG +, PERF -}[ARG1 x6, ARG2 e18]
+ e18:_desperate_a_for<24:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Noriega)  
+  compound<0:11> ARG1 named<4:11>(Noriega)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _grow_v_to<16:23> ARG1 named<4:11>(Noriega)  
+  _grow_v_to<16:23> ARG2 _desperate_a_for<24:34>  
+  _desperate_a_for<24:34> ARG1 named<4:11>(Noriega)  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Noriega) PERS 3  
+  named<4:11>(Noriega) NUM sg  
+  named<4:11>(Noriega) IND +  
+  _grow_v_to<16:23> SF prop  
+  _grow_v_to<16:23> TENSE past  
+  _grow_v_to<16:23> MOOD indicative  
+  _grow_v_to<16:23> PROG +  
+  _grow_v_to<16:23> PERF -  
+  _desperate_a_for<24:34> SF prop  
+  _desperate_a_for<24:34> TENSE untensed  
+  _desperate_a_for<24:34> MOOD indicative  
+  _desperate_a_for<24:34> PROG -  
+  _desperate_a_for<24:34> PERF -  
+}
+

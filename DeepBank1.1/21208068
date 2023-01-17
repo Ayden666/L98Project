@@ -1,0 +1,108 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:03 h)).
+;;;
+
+[21208068] (1 of 1) {1} `PaineWebber declined to comment.'
+
+[21208068:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "PaineWebber", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <12:20>, 1, "declined", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <21:23>, 1, "to", 0, "null", "TO" 1.0)
+  (4, 3, 4, <24:31>, 1, "comment", 0, "null", "VB" 0.9642 "NN" 0.0358)
+  (5, 4, 5, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:11>, 1, "PaineWebber", 0, "null")
+  (60, 0, 1, <0:11>, 1, "PaineWebber", 0, "null", "NNP" 1.0)
+  (62, 0, 1, <0:11>, 1, "painewebber", 0, "null")
+  (63, 0, 1, <0:11>, 1, "painewebber", 0, "null")
+  (54, 1, 2, <12:20>, 1, "declined", 0, "null")
+  (61, 1, 2, <12:20>, 1, "declined", 0, "null", "VBD" 1.0)
+  (64, 1, 2, <12:20>, 1, "declined", 0, "null")
+  (56, 2, 3, <21:23>, 1, "to", 0, "null")
+  (65, 2, 3, <21:23>, 1, "to", 0, "null")
+  (57, 3, 4, <24:32>, 1, "comment.", 0, "null")
+  (59, 3, 4, <24:32>, 1, "comment.", 0, "null", "VB" 0.9642)
+  (66, 3, 4, <24:32>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (721 SB-HD_MC_C 5.91662 0 4
+  (715 HDN_BNP-PN_C -1.20876 0 1
+   (714 N_SG_ILR -1.15981 0 1
+    (68 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("PaineWebber" 47
+      "token [ +CARG #1=\"PaineWebber\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (720 ^HD-CMP_U_C 6.10833 1 4
+   (716 ^V_PST_OLR 2.50099 1 2
+    (85 decline_v2@v_vp_seq_le 1.27984 1 2
+     ("declined" 54
+      "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (719 HD-CMP_U_C 2.69111 2 4
+    (195 to_c_prop@cm_vp_to_le 2.48409 2 3
+     ("to" 56
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (718 W_PERIOD_PLR -0.468337 3 4
+     (717 V_N3S-BSE_ILR -0.466301 3 4
+      (250 comment_v2@v_-_le 0.214297 3 4
+       ("comment." 57
+        "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96419600000000005\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "PaineWebber")))
+ (VP (V (V "declined")) (VP (COMP "to") (VP (VP (V "comment."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "PaineWebber" ]
+          [ _decline_v_1<12:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h9 ]
+          [ _comment_v_on<24:32>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h9 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ x6:named<0:11>("PaineWebber"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<12:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e11]
+ e11:_comment_v_on<24:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:11> BV named<0:11>(PaineWebber)  
+  _decline_v_1<12:20> ARG1 named<0:11>(PaineWebber)  
+  _decline_v_1<12:20> ARG2 _comment_v_on<24:32>  
+  _comment_v_on<24:32> ARG1 named<0:11>(PaineWebber)  
+  named<0:11>(PaineWebber) PERS 3  
+  named<0:11>(PaineWebber) NUM sg  
+  named<0:11>(PaineWebber) IND +  
+  _decline_v_1<12:20> SF prop  
+  _decline_v_1<12:20> TENSE past  
+  _decline_v_1<12:20> MOOD indicative  
+  _decline_v_1<12:20> PROG -  
+  _decline_v_1<12:20> PERF -  
+  _comment_v_on<24:32> SF prop  
+  _comment_v_on<24:32> TENSE untensed  
+  _comment_v_on<24:32> MOOD indicative  
+  _comment_v_on<24:32> PROG -  
+  _comment_v_on<24:32> PERF -  
+}
+

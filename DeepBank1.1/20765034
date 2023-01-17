@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj07c';
+;;; (wsun@wsun; 22-jan-2018 (17:37 h)).
+;;;
+
+[20765034] (1 of 1) {1} `"It is a feel-good candidacy."'
+
+[20765034:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:6>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <7:8>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <9:18>, 1, "feel-good", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <19:28>, 1, "candidacy", 0, "null", "NN" 1.0)
+  (7, 6, 7, <28:29>, 1, ".", 0, "null", "." 1.0)
+  (8, 7, 8, <29:30>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (99, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (105, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (84, 1, 2, <4:6>, 1, "is", 0, "null")
+  (95, 1, 2, <4:6>, 1, "is", 0, "null", "VBZ" 1.0)
+  (100, 1, 2, <4:6>, 1, "is", 0, "null")
+  (86, 2, 3, <7:8>, 1, "a", 0, "null")
+  (101, 2, 3, <7:8>, 1, "a", 0, "null")
+  (90, 3, 4, <9:18>, 1, "feel-", 0, "null")
+  (97, 3, 4, <9:18>, 1, "feel-", 0, "null", "NN" 1.0)
+  (103, 3, 4, <9:18>, 1, "feel-", 0, "null")
+  (88, 4, 5, <9:18>, 1, "good", 0, "null")
+  (96, 4, 5, <9:18>, 1, "good", 0, "null", "JJ" 1.0)
+  (102, 4, 5, <9:18>, 1, "good", 0, "null")
+  (94, 5, 6, <19:30>, 1, "candidacy.”", 0, "null")
+  (98, 5, 6, <19:30>, 1, "candidacy.”", 0, "null", "NN" 1.0)
+  (104, 5, 6, <19:30>, 1, "candidacy.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (1113 SB-HD_MC_C 6.92907 0 6
+  (1105 HDN_BNP-QNT_C -0.56328 0 1
+   (1104 W_DQLEFT_PLR 0.072519 0 1
+    (107 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 99
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1112 ^HD-CMP_U_C 6.223 1 6
+   (164 be_id_is@v_np_is_le 0.159389 1 2
+    ("is" 84
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1111 SP-HD_N_C 5.30888 2 6
+    (252 a_det@d_-_sg-nmd_le -0.667877 2 3
+     ("a" 86
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1110 ^AJ-HDN_NORM_C 4.34329 3 6
+     (1106 XP_BRCK-PR_C 1.34569 3 5
+      (377 feel_good_a1@aj_-_i-att_le 0 3 5
+       ("feel- good" 90
+        "token [ +CARG #1=\"feel-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"
+        88
+        "token [ +CARG #1=\"good\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))
+     (1109 ^W_DQRIGHT_PLR 2.99761 5 6
+      (1108 W_PERIOD_PLR 1.07095 5 6
+       (1107 N_MS-CNT_ILR 0.421535 5 6
+        (367 candidacy_n1@n_-_mc_le 0 5 6
+         ("candidacy.”" 94
+          "token [ +CARG \"candidacy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"candidacy.”\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (NP (NP "“it")))
+ (VP (V "is")
+  (NP (DET "a")
+   (N (AP (AP "feel- good")) (N (N (N (N "candidacy.”"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<7:8>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _feel-good_a_1<9:18>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _candidacy_n_1<19:30>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_a_q<7:8>[BV x9]
+ e14:_feel-good_a_1<9:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_candidacy_n_1<19:30>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _be_v_id<4:6> ARG1 pron<0:3>  
+  _be_v_id<4:6> ARG2 _candidacy_n_1<19:30>  
+  _a_q<7:8> BV _candidacy_n_1<19:30>  
+  _feel-good_a_1<9:18> ARG1 _candidacy_n_1<19:30>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  _feel-good_a_1<9:18> SF prop  
+  _feel-good_a_1<9:18> TENSE untensed  
+  _feel-good_a_1<9:18> MOOD indicative  
+  _feel-good_a_1<9:18> PROG -  
+  _feel-good_a_1<9:18> PERF -  
+  _candidacy_n_1<19:30> PERS 3  
+  _candidacy_n_1<19:30> NUM sg  
+}
+

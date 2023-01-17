@@ -1,0 +1,197 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:19 h)).
+;;;
+
+[20671066] (1 of 1) {1} `Other RJR securities also closed higher.'
+
+[20671066:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Other", 0, "null", "JJ" 0.8177 "NNP" 0.1823)
+  (2, 1, 2, <6:9>, 1, "RJR", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:20>, 1, "securities", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <21:25>, 1, "also", 0, "null", "RB" 1.0)
+  (5, 4, 5, <26:32>, 1, "closed", 0, "null", "VBD" 0.9364 "VBN" 0.0636)
+  (6, 5, 6, <33:39>, 1, "higher", 0, "null", "JJR" 0.89 "RBR" 0.11)
+  (7, 6, 7, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (85, 0, 1, <0:5>, 1, "Other", 0, "null")
+  (86, 0, 1, <0:5>, 1, "Other", 0, "null", "JJ" 0.8177)
+  (93, 0, 1, <0:5>, 1, "other", 0, "null")
+  (99, 0, 1, <0:5>, 1, "other", 0, "null")
+  (65, 1, 2, <6:9>, 1, "RJR", 0, "null")
+  (89, 1, 2, <6:9>, 1, "RJR", 0, "null", "NNP" 1.0)
+  (92, 1, 2, <6:9>, 1, "rjr", 0, "null")
+  (94, 1, 2, <6:9>, 1, "rjr", 0, "null")
+  (76, 2, 3, <10:20>, 1, "securities", 0, "null")
+  (90, 2, 3, <10:20>, 1, "securities", 0, "null", "NNS" 1.0)
+  (95, 2, 3, <10:20>, 1, "securities", 0, "null")
+  (78, 3, 4, <21:25>, 1, "also", 0, "null")
+  (91, 3, 4, <21:25>, 1, "also", 0, "null", "RB" 1.0)
+  (96, 3, 4, <21:25>, 1, "also", 0, "null")
+  (81, 4, 5, <26:32>, 1, "closed", 0, "null")
+  (87, 4, 5, <26:32>, 1, "closed", 0, "null", "VBD" 0.9364)
+  (97, 4, 5, <26:32>, 1, "closed", 0, "null")
+  (83, 5, 6, <33:40>, 1, "higher.", 0, "null")
+  (88, 5, 6, <33:40>, 1, "higher.", 0, "null", "JJR" 0.89)
+  (98, 5, 6, <33:40>, 1, "higher.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1604 SB-HD_MC_C 8.20545 0 6
+  (1597 HDN_BNP_C 4.30107 0 3
+   (1596 AJ-HDN_NORM_C 3.56656 0 3
+    (105 other_a1@aj_-_i-att-nsp_le 0.434752 0 1
+     ("other" 93
+      "token [ +CARG \"Other\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"other\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81774930000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1595 ^NP-HDN_CPD_C 1.36082 1 3
+     (1593 HDN_BNP-PN_C -0.3474 1 2
+      (113 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("RJR" 65
+        "token [ +CARG #1=\"RJR\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (1594 ^N_PL_OLR 1.68103 2 3
+      (118 security_n1@n_-_mc_le 0.991093 2 3
+       ("securities" 76
+        "token [ +CARG #1=\"securities\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1603 ^AJ-HD_SCP-XP_C 3.03331 3 6
+   (141 also_adv1@av_-_s-vp-x_le -0.841876 3 4
+    ("also" 78
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1602 ^HD-AJ_SCP_C 2.97168 4 6
+    (1598 ^V_PST_OLR 2.60162 4 5
+     (197 close_v2@v_-_unacc_le 1.88051 4 5
+      ("closed" 81
+       "token [ +CARG #1=\"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93640760000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1601 VP_SBRD-PRD-AJ_C 0.0536363 5 6
+     (1600 HD_OPTCMP_C 0.377739 5 6
+      (1599 W_PERIOD_PLR 0.33248 5 6
+       (367 higher_a1@aj_pp_i-cmp_le 0 5 6
+        ("higher." 83
+         "token [ +CARG \"higher\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"higher.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88996310000000001\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (AP "other") (N (NP (N "RJR")) (N (N "securities")))))
+ (VP (ADV "also")
+  (VP (VP (V "closed")) (PP (AP (ADJ (ADJ "higher.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _other_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ compound<6:20>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x IND: + ] ]
+          [ proper_q<6:9>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ named<6:9>
+            LBL: h15
+            ARG0: x10
+            CARG: "RJR" ]
+          [ _security_n_1<10:20>
+            LBL: h8
+            ARG0: x6 ]
+          [ _also_a_1<21:25>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h17 ]
+          [ _close_v_1<26:32>
+            LBL: h18
+            ARG0: e3
+            ARG1: x6 ]
+          [ subord<33:40>
+            LBL: h19
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h21
+            ARG2: h20 ]
+          [ _high_a_1<33:40>
+            LBL: h23
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i24 ]
+          [ comp<33:40>
+            LBL: h23
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e25
+            ARG2: u26 ] >
+   HCONS: < h20 QEQ h23 h21 QEQ h18 h17 QEQ h19 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:udef_q<0:20>[BV x6]
+ e9:_other_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:compound<6:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:proper_q<6:9>[BV x10]
+ x10:named<6:9>("RJR"){x IND +}[]
+ x6:_security_n_1<10:20>{x PERS 3, NUM pl}[]
+ e16:_also_a_1<21:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e22]
+ e3:_close_v_1<26:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e22:subord<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e25]
+ e25:_high_a_1<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e27:comp<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e25]
+}
+
+{
+  udef_q<0:20> BV _security_n_1<10:20>  
+  _other_a_1<0:5> ARG1 _security_n_1<10:20>  
+  compound<6:20> ARG1 _security_n_1<10:20>  
+  compound<6:20> ARG2 named<6:9>(RJR)  
+  proper_q<6:9> BV named<6:9>(RJR)  
+  _also_a_1<21:25> ARG1 subord<33:40>  
+  _close_v_1<26:32> ARG1 _security_n_1<10:20>  
+  subord<33:40> ARG1 _close_v_1<26:32>  
+  subord<33:40> ARG2 _high_a_1<33:40>  
+  comp<33:40> ARG1 _high_a_1<33:40>  
+  _other_a_1<0:5> SF prop  
+  _other_a_1<0:5> TENSE untensed  
+  _other_a_1<0:5> MOOD indicative  
+  _other_a_1<0:5> PROG -  
+  _other_a_1<0:5> PERF -  
+  compound<6:20> SF prop  
+  compound<6:20> TENSE untensed  
+  compound<6:20> MOOD indicative  
+  compound<6:20> PROG -  
+  compound<6:20> PERF -  
+  named<6:9>(RJR) IND +  
+  _security_n_1<10:20> PERS 3  
+  _security_n_1<10:20> NUM pl  
+  _also_a_1<21:25> SF prop  
+  _also_a_1<21:25> TENSE untensed  
+  _also_a_1<21:25> MOOD indicative  
+  _also_a_1<21:25> PROG -  
+  _also_a_1<21:25> PERF -  
+  _close_v_1<26:32> SF prop  
+  _close_v_1<26:32> TENSE past  
+  _close_v_1<26:32> MOOD indicative  
+  _close_v_1<26:32> PROG -  
+  _close_v_1<26:32> PERF -  
+  subord<33:40> SF prop  
+  subord<33:40> TENSE untensed  
+  subord<33:40> MOOD indicative  
+  subord<33:40> PROG -  
+  subord<33:40> PERF -  
+  _high_a_1<33:40> SF prop  
+  _high_a_1<33:40> TENSE untensed  
+  _high_a_1<33:40> MOOD indicative  
+  _high_a_1<33:40> PROG -  
+  _high_a_1<33:40> PERF -  
+  comp<33:40> SF prop  
+  comp<33:40> TENSE untensed  
+  comp<33:40> MOOD indicative  
+  comp<33:40> PROG -  
+  comp<33:40> PERF -  
+}
+

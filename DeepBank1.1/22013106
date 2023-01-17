@@ -1,0 +1,174 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:00 h)).
+;;;
+
+[22013106] (1 of 1) {1} `Prosecutors in Miami received yet another setback.'
+
+[22013106:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Prosecutors", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <12:14>, 1, "in", 0, "null", "IN" 1.0)
+  (3, 2, 3, <15:20>, 1, "Miami", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <21:29>, 1, "received", 0, "null", "VBD" 0.9239 "VBN" 0.0761)
+  (5, 4, 5, <30:33>, 1, "yet", 0, "null", "RB" 0.9888 "CC" 0.0112)
+  (6, 5, 6, <34:41>, 1, "another", 0, "null", "DT" 1.0)
+  (7, 6, 7, <42:49>, 1, "setback", 0, "null", "NN" 1.0)
+  (8, 7, 8, <49:50>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (97, 0, 1, <0:11>, 1, "Prosecutors", 0, "null", "NNS" 1.0)
+  (100, 0, 1, <0:11>, 1, "prosecutors", 0, "null")
+  (108, 0, 1, <0:11>, 1, "prosecutors", 0, "null")
+  (85, 1, 2, <12:14>, 1, "in", 0, "null")
+  (102, 1, 2, <12:14>, 1, "in", 0, "null")
+  (74, 2, 3, <15:20>, 1, "Miami", 0, "null")
+  (96, 2, 3, <15:20>, 1, "Miami", 0, "null", "NNP" 1.0)
+  (99, 2, 3, <15:20>, 1, "miami", 0, "null")
+  (101, 2, 3, <15:20>, 1, "miami", 0, "null")
+  (90, 3, 4, <21:29>, 1, "received", 0, "null")
+  (94, 3, 4, <21:29>, 1, "received", 0, "null", "VBD" 0.9239)
+  (105, 3, 4, <21:29>, 1, "received", 0, "null")
+  (92, 4, 5, <30:33>, 1, "yet", 0, "null")
+  (95, 4, 5, <30:33>, 1, "yet", 0, "null", "RB" 0.9888)
+  (106, 4, 5, <30:33>, 1, "yet", 0, "null")
+  (87, 5, 6, <34:41>, 1, "another", 0, "null")
+  (103, 5, 6, <34:41>, 1, "another", 0, "null")
+  (89, 6, 7, <42:50>, 1, "setback.", 0, "null")
+  (98, 6, 7, <42:50>, 1, "setback.", 0, "null", "NN" 1.0)
+  (104, 6, 7, <42:50>, 1, "setback.", 0, "null")
+>
+
+(ROOT_STRICT
+ (788 SB-HD_MC_C 2.38176 0 7
+  (781 HDN_BNP_C 1.31897 0 3
+   (780 HDN-AJ_REDREL_C 1.04758 0 3
+    (776 ^N_PL_OLR -0.0329458 0 1
+     (114 prosecutor_n1@n_-_c_le 0 0 1
+      ("prosecutors" 100
+       "token [ +CARG \"Prosecutors\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"prosecutors\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (779 HD-CMP_U_C 0.646853 1 3
+     (139 in@p_np_i-reg_le 0.354487 1 2
+      ("in" 85
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (778 HDN_BNP-PN_C -0.213264 2 3
+      (777 N_SG_ILR 0.233474 2 3
+       (182 miami_n1@n_-_pn_le 0 2 3
+        ("miami" 99
+         "token [ +CARG \"Miami\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"miami\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (787 ^HD-CMP_U_C -0.45311 3 7
+   (782 ^V_PST_OLR 0.813379 3 4
+    (195 receive_v1@v_np*_le 0.506603 3 4
+     ("received" 90
+      "token [ +CARG #1=\"received\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92393590000000003\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (786 SP-HD_N_C -2.27539 4 7
+    (783 SP-HD_HC_C -0.556241 4 6
+     (294 yet_deg@av_-_dg-m_le -0.418244 4 5
+      ("yet" 92
+       "token [ +CARG #1=\"yet\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98876180000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (309 another@d_-_prt-sg_le -0.137997 5 6
+      ("another" 87
+       "token [ +CARG #1=\"another\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (785 ^W_PERIOD_PLR -0.67872 6 7
+     (784 N_MS-CNT_ILR -0.855949 6 7
+      (318 generic_mass_count_noun@n_-_mc-unk_le 0 6 7
+       ("setback." 98
+        "token [ +CARG \"setback\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"setback.\" +FROM #1=\"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED \"_setback/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (NP (N (N (N "prosecutors")) (PP (P "in") (NP (N (N "miami"))))))
+ (VP (V (V "received"))
+  (NP (DET (ADV "yet") (DET "another")) (N (N (N "setback."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _prosecutor_n_1<0:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _in_p<12:14>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<15:20>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ named<15:20>
+            LBL: h14
+            ARG0: x10
+            CARG: "Miami" ]
+          [ _receive_v_1<21:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ _yet_x_deg<30:33>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u18 ]
+          [ _another_q<34:41>
+            LBL: h16
+            ARG0: x15
+            RSTR: h19
+            BODY: h20 ]
+          [ _setback/nn_u_unknown<42:50>
+            LBL: h21
+            ARG0: x15 ] >
+   HCONS: < h19 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:20>[BV x6]
+ x6:_prosecutor_n_1<0:11>{x PERS 3, NUM pl, IND +}[]
+ e9:_in_p<12:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:proper_q<15:20>[BV x10]
+ x10:named<15:20>("Miami"){x PERS 3, NUM sg, IND +}[]
+ e3:_receive_v_1<21:29>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ e17:_yet_x_deg<30:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 _3]
+ _3:_another_q<34:41>[BV x15]
+ x15:_setback/nn_u_unknown<42:50>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:20> BV _prosecutor_n_1<0:11>  
+  _in_p<12:14> ARG1 _prosecutor_n_1<0:11>  
+  _in_p<12:14> ARG2 named<15:20>(Miami)  
+  proper_q<15:20> BV named<15:20>(Miami)  
+  _receive_v_1<21:29> ARG1 _prosecutor_n_1<0:11>  
+  _receive_v_1<21:29> ARG2 _setback/nn_u_unknown<42:50>  
+  _yet_x_deg<30:33> ARG1 _another_q<34:41>  
+  _another_q<34:41> BV _setback/nn_u_unknown<42:50>  
+  _prosecutor_n_1<0:11> PERS 3  
+  _prosecutor_n_1<0:11> NUM pl  
+  _prosecutor_n_1<0:11> IND +  
+  _in_p<12:14> SF prop  
+  _in_p<12:14> TENSE untensed  
+  _in_p<12:14> MOOD indicative  
+  _in_p<12:14> PROG -  
+  _in_p<12:14> PERF -  
+  named<15:20>(Miami) PERS 3  
+  named<15:20>(Miami) NUM sg  
+  named<15:20>(Miami) IND +  
+  _receive_v_1<21:29> SF prop  
+  _receive_v_1<21:29> TENSE past  
+  _receive_v_1<21:29> MOOD indicative  
+  _receive_v_1<21:29> PROG -  
+  _receive_v_1<21:29> PERF -  
+  _yet_x_deg<30:33> SF prop  
+  _yet_x_deg<30:33> TENSE untensed  
+  _yet_x_deg<30:33> MOOD indicative  
+  _yet_x_deg<30:33> PROG -  
+  _yet_x_deg<30:33> PERF -  
+  _setback/nn_u_unknown<42:50> PERS 3  
+  _setback/nn_u_unknown<42:50> NUM sg  
+}
+

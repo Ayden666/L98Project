@@ -1,0 +1,87 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:42 h)).
+;;;
+
+[20403001] (1 of 1) {1} `Seasonal Stackup'
+
+[20403001:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Seasonal", 0, "null", "NNP" 0.9594 "JJ" 0.0406)
+  (2, 1, 2, <9:16>, 1, "Stackup", 0, "null", "NNP" 1.0)
+>
+
+<
+  (27, 0, 1, <0:8>, 1, "Seasonal", 0, "null")
+  (30, 0, 1, <0:8>, 1, "seasonal", 0, "null")
+  (32, 0, 1, <0:8>, 1, "seasonal", 0, "null")
+  (20, 1, 2, <9:16>, 1, "Stackup", 0, "null")
+  (28, 1, 2, <9:16>, 1, "Stackup", 0, "null", "NNP" 1.0)
+  (29, 1, 2, <9:16>, 1, "stackup", 0, "null")
+  (31, 1, 2, <9:16>, 1, "stackup", 0, "null")
+>
+
+(ROOT_FRAG
+ (101 NP_FRG_C -1.59978 0 2
+  (100 HDN_BNP-PN_C -0.453264 0 2
+   (99 AJ-HDN_NORM_C -0.026757 0 2
+    (35 seasonal_a1@aj_-_i_le 0 0 1
+     ("seasonal" 30
+      "token [ +CARG \"Seasonal\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"seasonal\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95943610000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (95 ^N_SG_ILR -0.143257 1 2
+     (36 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Stackup" 20
+       "token [ +CARG #1=\"Stackup\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (AP "seasonal") (N (N "Stackup")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:16>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _seasonal_a_1<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ named<9:16>
+            LBL: h8
+            ARG0: x4
+            CARG: "Stackup" ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:16>[BV x4]
+ e9:_seasonal_a_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:named<9:16>("Stackup"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:16> ARG named<9:16>(Stackup)  
+  proper_q<0:16> BV named<9:16>(Stackup)  
+  _seasonal_a_1<0:8> ARG1 named<9:16>(Stackup)  
+  unknown<0:16> SF prop-or-ques  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  _seasonal_a_1<0:8> SF prop  
+  _seasonal_a_1<0:8> TENSE untensed  
+  _seasonal_a_1<0:8> MOOD indicative  
+  _seasonal_a_1<0:8> PROG -  
+  _seasonal_a_1<0:8> PERF -  
+  named<9:16>(Stackup) PERS 3  
+  named<9:16>(Stackup) NUM sg  
+  named<9:16>(Stackup) IND +  
+}
+

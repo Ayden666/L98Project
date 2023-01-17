@@ -1,0 +1,83 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:36 h)).
+;;;
+
+[21267085] (1 of 1) {1} `The defense won.'
+
+[21267085:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "defense", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:15>, 1, "won", 0, "null", "VBD" 0.8355 "NN" 0.0893 "VBN" 0.0646 "NNS" 0.0105)
+  (4, 3, 4, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:3>, 1, "the", 0, "null")
+  (55, 0, 1, <0:3>, 1, "the", 0, "null")
+  (47, 1, 2, <4:11>, 1, "defense", 0, "null")
+  (51, 1, 2, <4:11>, 1, "defense", 0, "null", "NN" 1.0)
+  (53, 1, 2, <4:11>, 1, "defense", 0, "null")
+  (48, 2, 3, <12:16>, 1, "won.", 0, "null")
+  (50, 2, 3, <12:16>, 1, "won.", 0, "null", "VBD" 0.8355)
+  (54, 2, 3, <12:16>, 1, "won.", 0, "null")
+>
+
+(ROOT_STRICT
+ (399 SB-HD_MC_C 1.0025 0 3
+  (395 SP-HD_N_C 0.636814 0 2
+   (68 the_1@d_-_the_le 0.244361 0 1
+    ("the" 52
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (394 ^N_MS-CNT_ILR -0.945747 1 2
+    (93 defense_n1@n_-_mc_le -0.339091 1 2
+     ("defense" 47
+      "token [ +CARG #1=\"defense\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (398 ^HD_OPTCMP_C 0.438642 2 3
+   (397 W_PERIOD_PLR 0.134653 2 3
+    (396 V_PST_OLR -0.555709 2 3
+     (108 win_v1@v_np*_le 0 2 3
+      ("won." 48
+       "token [ +CARG \"won\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"won.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83553100000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET "the") (N (N "defense"))) (VP (V (V (V "won.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _defense_n_1<4:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _win_v_1<12:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_defense_n_1<4:11>{x PERS 3, NUM sg}[]
+ e3:_win_v_1<12:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _defense_n_1<4:11>  
+  _win_v_1<12:16> ARG1 _defense_n_1<4:11>  
+  _defense_n_1<4:11> PERS 3  
+  _defense_n_1<4:11> NUM sg  
+  _win_v_1<12:16> SF prop  
+  _win_v_1<12:16> TENSE past  
+  _win_v_1<12:16> MOOD indicative  
+  _win_v_1<12:16> PROG -  
+  _win_v_1<12:16> PERF -  
+}
+

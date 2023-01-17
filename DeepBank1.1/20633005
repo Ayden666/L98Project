@@ -1,0 +1,77 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:59 h)).
+;;;
+
+[20633005] (1 of 1) {1} `(listening) "Yeah.'
+
+[20633005:3] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "(", 0, "null", "(" 1.0)
+  (2, 1, 2, <1:10>, 1, "listening", 0, "null", "VBG" 1.0)
+  (3, 2, 3, <10:11>, 1, ")", 0, "null", ")" 1.0)
+  (4, 3, 4, <12:13>, 1, "“", 0, "null", "``" 1.0)
+  (5, 4, 5, <13:17>, 1, "Yeah", 0, "null", "UH" 1.0)
+  (6, 5, 6, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:11>, 1, "(listening)", 0, "null")
+  (67, 0, 1, <0:11>, 1, "(listening)", 0, "null", "VBG" 1.0)
+  (70, 0, 1, <0:11>, 1, "(listening)", 0, "null")
+  (62, 1, 2, <12:18>, 1, "“Yeah.", 0, "null")
+  (68, 1, 2, <12:18>, 1, "“yeah.", 0, "null")
+  (69, 1, 2, <12:18>, 1, "“yeah.", 0, "null")
+>
+
+(ROOT_FRAG
+ (376 HD-AJ_SCP_C -1.50779 0 2
+  (374 ^VP_NFIN-FRG_C -0.858183 0 1
+   (373 W_LPAREN_PLR -0.858183 0 1
+    (372 W_RPAREN_PLR -0.858183 0 1
+     (363 V_PRP_OLR -0.69643 0 1
+      (79 listen_v2@v_-_le 0 0 1
+       ("(listening)" 64
+        "token [ +CARG \"listening\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM \"(listening)\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (369 W_DQLEFT_PLR -0.649608 1 2
+   (368 W_PERIOD_PLR -0.649608 1 2
+    (103 yeah_root_post@av_-_s-cp-nsp-po_le 0 1 2
+     ("“yeah." 68
+      "token [ +CARG \"Yeah\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"“yeah.\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"13\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (XP (VP (VP (VP (V "(listening)"))))) (ADV (ADV (ADV "“yeah."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _listen_v_to<0:11>
+            LBL: h4
+            ARG0: e3
+            ARG1: i5 ]
+          [ _yeah_a_1<12:18>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h6 ] >
+   HCONS: < h6 QEQ h4 h1 QEQ h2 > ]
+
+{e7:
+ e3:_listen_v_to<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ e7:_yeah_a_1<12:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _yeah_a_1<12:18> ARG1 _listen_v_to<0:11>  
+  _listen_v_to<0:11> SF prop  
+  _listen_v_to<0:11> TENSE untensed  
+  _listen_v_to<0:11> MOOD indicative  
+  _listen_v_to<0:11> PROG +  
+  _listen_v_to<0:11> PERF -  
+  _yeah_a_1<12:18> SF prop  
+  _yeah_a_1<12:18> TENSE untensed  
+  _yeah_a_1<12:18> MOOD indicative  
+  _yeah_a_1<12:18> PROG -  
+  _yeah_a_1<12:18> PERF -  
+}
+

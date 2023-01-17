@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:06 h)).
+;;;
+
+[21212001] (1 of 1) {1} `Child's Game'
+
+[21212001:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Child", 0, "null", "NN" 0.5601 "NNP" 0.4399)
+  (2, 1, 2, <5:7>, 1, "’s", 0, "null", "NNS" 0.5407 "VBZ" 0.1747 "JJ" 0.1166 "NN" 0.0634 "IN" 0.0503 "FW" 0.0226 "CC" 0.0164 "NNP" 0.0154)
+  (3, 2, 3, <8:12>, 1, "Game", 0, "null", "NNP" 0.658 "NN" 0.342)
+>
+
+<
+  (54, 0, 1, <0:5>, 1, "Child", 0, "null")
+  (60, 0, 1, <0:5>, 1, "child", 0, "null")
+  (63, 0, 1, <0:5>, 1, "child", 0, "null")
+  (52, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (55, 1, 2, <5:7>, 1, "’s", 0, "null", "NNS" 0.5407)
+  (56, 1, 2, <5:7>, 1, "’s", 0, "null", "VBZ" 0.1747)
+  (57, 1, 2, <5:7>, 1, "’s", 0, "null", "JJ" 0.1166)
+  (62, 1, 2, <5:7>, 1, "’s", 0, "null")
+  (29, 2, 3, <8:12>, 1, "Game", 0, "null")
+  (58, 2, 3, <8:12>, 1, "Game", 0, "null", "NN" 0.342)
+  (59, 2, 3, <8:12>, 1, "game", 0, "null")
+  (61, 2, 3, <8:12>, 1, "game", 0, "null")
+>
+
+(ROOT_FRAG
+ (585 NP_NB-FRG_C 0.458468 0 3
+  (584 AJ-HDN_NORM_C 1.09255 0 3
+   (336 childs_a1@aj_-_i-cmpd_le 0 0 2
+    ("child ’s" 60
+     "token [ +CARG \"Child\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"child\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56009050000000005\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+     52
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.54072659999999995\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (583 ^N_SG_ILR 1.09255 2 3
+    (333 game_n1@n_-_c_le 1.05959 2 3
+     ("game" 59
+      "token [ +CARG \"Game\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"game\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65795219999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (N (AP "child ’s") (N (N "game"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:12>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:12>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _childs_a_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ compound<0:7>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x4 ]
+          [ _game_n_1<8:12>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:12>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:12>[BV x4]
+ e9:_childs_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ e10:compound<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x4]
+ x4:_game_n_1<8:12>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:12> ARG _game_n_1<8:12>  
+  udef_q<0:12> BV _game_n_1<8:12>  
+  _childs_a_1<0:7> ARG1 _game_n_1<8:12>  
+  compound<0:7> ARG1 _game_n_1<8:12>  
+  compound<0:7> ARG2 _game_n_1<8:12>  
+  unknown<0:12> SF prop-or-ques  
+  unknown<0:12> TENSE untensed  
+  unknown<0:12> MOOD indicative  
+  unknown<0:12> PROG -  
+  unknown<0:12> PERF -  
+  _childs_a_1<0:7> SF prop  
+  _childs_a_1<0:7> TENSE untensed  
+  _childs_a_1<0:7> MOOD indicative  
+  _childs_a_1<0:7> PROG -  
+  _childs_a_1<0:7> PERF -  
+  compound<0:7> SF prop  
+  compound<0:7> TENSE untensed  
+  compound<0:7> MOOD indicative  
+  compound<0:7> PROG -  
+  compound<0:7> PERF -  
+  _game_n_1<8:12> PERS 3  
+  _game_n_1<8:12> NUM sg  
+  _game_n_1<8:12> IND +  
+}
+

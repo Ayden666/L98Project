@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:14 h)).
+;;;
+
+[20909016] (1 of 1) {1} `Pretend Nothing Happened'
+
+[20909016:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Pretend", 0, "null", "VB" 1.0)
+  (2, 1, 2, <8:15>, 1, "Nothing", 0, "null", "NN" 0.9497 "NNP" 0.0503)
+  (3, 2, 3, <16:24>, 1, "Happened", 0, "null", "VBD" 0.6945 "VBN" 0.3055)
+>
+
+<
+  (44, 0, 1, <0:7>, 1, "Pretend", 0, "null", "VB" 1.0)
+  (46, 0, 1, <0:7>, 1, "pretend", 0, "null")
+  (53, 0, 1, <0:7>, 1, "pretend", 0, "null")
+  (30, 1, 2, <8:15>, 1, "Nothing", 0, "null")
+  (42, 1, 2, <8:15>, 1, "Nothing", 0, "null", "NN" 0.9497)
+  (47, 1, 2, <8:15>, 1, "nothing", 0, "null")
+  (49, 1, 2, <8:15>, 1, "nothing", 0, "null")
+  (31, 2, 3, <16:24>, 1, "Happened", 0, "null")
+  (43, 2, 3, <16:24>, 1, "Happened", 0, "null", "VBD" 0.6945)
+  (45, 2, 3, <16:24>, 1, "Happened", 0, "null", "VBN" 0.3055)
+  (48, 2, 3, <16:24>, 1, "happened", 0, "null")
+  (50, 2, 3, <16:24>, 1, "happened", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (778 HD_IMP_C 1.78564 0 3
+  (777 HD-CMP_U_C 1.69232 0 3
+   (772 ^V_N3S-BSE_ILR -0.030344 0 1
+    (56 pretend_v1@v_cp_prop_le 0 0 1
+     ("pretend" 46
+      "token [ +CARG \"Pretend\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"pretend\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (776 SB-HD_NMC_C 1.05311 1 3
+    (774 HDN_BNP-QNT_C 1.16742 1 2
+     (773 HDN_OPTCMP_C 1.34807 1 2
+      (75 nothing@n_-_pr_le 0.385521 1 2
+       ("nothing" 47
+        "token [ +CARG \"Nothing\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"nothing\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94973079999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (775 ^V_PST_OLR 0.081569 2 3
+     (219 happen_v1@v_-_unacc_le 0 2 3
+      ("happened" 48
+       "token [ +CARG \"Happened\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"happened\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69454740000000004\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S
+ (VP (V (V "pretend")) (S (NP (N (N "nothing"))) (VP (V "happened")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:24>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:24>
+            LBL: h8
+            ARG0: x6 ]
+          [ _pretend_v_1<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h9 ]
+          [ thing<8:15>
+            LBL: h10
+            ARG0: x11 [ x PERS: 3 NUM: SG ] ]
+          [ _no_q<8:15>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ _happen_v_1<16:24>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11 ] >
+   HCONS: < h13 QEQ h10 h9 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:24>[BV x6]
+ x6:pron<0:24>{x PERS 2, PT zero}[]
+ e3:_pretend_v_1<0:7>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e16]
+ x11:thing<8:15>{x PERS 3, NUM sg}[]
+ _2:_no_q<8:15>[BV x11]
+ e16:_happen_v_1<16:24>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+}
+
+{
+  pronoun_q<0:24> BV pron<0:24>  
+  _pretend_v_1<0:7> ARG1 pron<0:24>  
+  _pretend_v_1<0:7> ARG2 _happen_v_1<16:24>  
+  _no_q<8:15> BV thing<8:15>  
+  _happen_v_1<16:24> ARG1 thing<8:15>  
+  pron<0:24> PERS 2  
+  pron<0:24> PT zero  
+  _pretend_v_1<0:7> SF comm  
+  _pretend_v_1<0:7> TENSE pres  
+  _pretend_v_1<0:7> MOOD indicative  
+  _pretend_v_1<0:7> PROG -  
+  _pretend_v_1<0:7> PERF -  
+  thing<8:15> PERS 3  
+  thing<8:15> NUM sg  
+  _happen_v_1<16:24> SF prop  
+  _happen_v_1<16:24> TENSE past  
+  _happen_v_1<16:24> MOOD indicative  
+  _happen_v_1<16:24> PROG -  
+  _happen_v_1<16:24> PERF -  
+}
+

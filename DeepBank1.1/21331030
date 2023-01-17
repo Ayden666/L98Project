@@ -1,0 +1,210 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:14 h)).
+;;;
+
+[21331030] (1 of 1) {1} `More than 100,000 claims against Robins are pending.'
+
+[21331030:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "More", 0, "null", "JJR" 0.705 "RBR" 0.295)
+  (2, 1, 2, <5:9>, 1, "than", 0, "null", "IN" 1.0)
+  (3, 2, 3, <10:17>, 1, "100,000", 0, "null", "CD" 1.0)
+  (4, 3, 4, <18:24>, 1, "claims", 0, "null", "NNS" 0.9894 "VBZ" 0.0106)
+  (5, 4, 5, <25:32>, 1, "against", 0, "null", "IN" 1.0)
+  (6, 5, 6, <33:39>, 1, "Robins", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <40:43>, 1, "are", 0, "null", "VBP" 1.0)
+  (8, 7, 8, <44:51>, 1, "pending", 0, "null", "VBG" 0.9683 "JJ" 0.0317)
+  (9, 8, 9, <51:52>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (103, 0, 1, <0:4>, 1, "More", 0, "null", "JJR" 0.705)
+  (109, 0, 1, <0:4>, 1, "more", 0, "null")
+  (117, 0, 1, <0:4>, 1, "more", 0, "null")
+  (96, 1, 2, <5:9>, 1, "than", 0, "null")
+  (114, 1, 2, <5:9>, 1, "than", 0, "null")
+  (79, 2, 3, <10:17>, 1, "100,000", 0, "null")
+  (110, 2, 3, <10:17>, 1, "100,000", 0, "null")
+  (99, 3, 4, <18:24>, 1, "claims", 0, "null")
+  (104, 3, 4, <18:24>, 1, "claims", 0, "null", "NNS" 0.9894)
+  (115, 3, 4, <18:24>, 1, "claims", 0, "null")
+  (92, 4, 5, <25:32>, 1, "against", 0, "null")
+  (112, 4, 5, <25:32>, 1, "against", 0, "null")
+  (81, 5, 6, <33:39>, 1, "Robins", 0, "null")
+  (106, 5, 6, <33:39>, 1, "Robins", 0, "null", "NNP" 1.0)
+  (108, 5, 6, <33:39>, 1, "robins", 0, "null")
+  (111, 5, 6, <33:39>, 1, "robins", 0, "null")
+  (94, 6, 7, <40:43>, 1, "are", 0, "null")
+  (107, 6, 7, <40:43>, 1, "are", 0, "null", "VBP" 1.0)
+  (113, 6, 7, <40:43>, 1, "are", 0, "null")
+  (101, 7, 8, <44:52>, 1, "pending.", 0, "null")
+  (105, 7, 8, <44:52>, 1, "pending.", 0, "null", "VBG" 0.9683)
+  (116, 7, 8, <44:52>, 1, "pending.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1674 SB-HD_MC_C 8.45294 0 8
+  (1671 HDN_BNP-QNT_C 5.97791 0 6
+   (1670 NUM_PRT-NC_C 6.72087 0 6
+    (1669 HD-CMP_U_C 6.01934 0 6
+     (124 more_adj@aj_pp_i-more_le -0.146896 0 1
+      ("more" 109
+       "token [ +CARG \"More\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"more\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.70501250000000004\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1668 HD-CMP_U_C 5.12397 1 6
+      (171 than_p1_nc@p_np_ptcl-ngap_le 0.791378 1 2
+       ("than" 96
+        "token [ +CARG #1=\"than\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1667 SP-HD_N_C 3.11313 2 6
+       (1660 NUM_DET_C 0.221839 2 3
+        (193 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+         ("100,000" 79
+          "token [ +CARG #1=\"100,000\" +CLASS card_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+       (1666 ^HDN-AJ_REDREL_C 2.89406 3 6
+        (1662 ^HDN_OPTCMP_C 1.30045 3 4
+         (1661 N_PL_OLR 0.859079 3 4
+          (195 claim_n1@n_pp_c-ns-of_le 0.119387 3 4
+           ("claims" 99
+            "token [ +CARG #1=\"claims\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98942759999999996\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+        (1665 HD-CMP_U_C 1.03727 4 6
+         (232 against@p_np_i_le 0.263975 4 5
+          ("against" 92
+           "token [ +CARG #1=\"against\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (1664 HDN_BNP-PN_C -0.213264 5 6
+          (1663 N_SG_ILR 0.233474 5 6
+           (250 robins_n1@n_-_pn_le 0 5 6
+            ("robins" 108
+             "token [ +CARG \"Robins\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"robins\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+  (1673 ^HD-CMP_U_C 1.20568 6 8
+   (253 be_c_are@v_prd_are_le -0.241597 6 7
+    ("are" 94
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1672 W_PERIOD_PLR 0.012616 7 8
+    (263 pending_a2@aj_-_i-prd_le 0 7 8
+     ("pending." 101
+      "token [ +CARG \"pending\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pending.\" +FROM #1=\"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96831920000000005\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S
+ (NP
+  (N
+   (ADJ (ADJ "more")
+    (PP (P "than")
+     (NP (DET (ADJ "100,000"))
+      (N (N (N (N "claims")))
+       (PP (P "against") (NP (N (N "robins"))))))))))
+ (VP (V "are") (AP (AP "pending."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:39>
+            LBL: h4
+            ARG0: x5 ]
+          [ udef_q<0:39>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ much-many_a<0:4>
+            LBL: h4
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 ]
+          [ comp<0:4>
+            LBL: h4
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<10:17>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ card<10:17>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            CARG: "100,000" ]
+          [ _claim_n_of<18:24>
+            LBL: h15
+            ARG0: x10
+            ARG1: i17 ]
+          [ _against_p<25:32>
+            LBL: h15
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<33:39>
+            LBL: h20
+            ARG0: x19
+            RSTR: h21
+            BODY: h22 ]
+          [ named<33:39>
+            LBL: h23
+            ARG0: x19
+            CARG: "Robins" ]
+          [ _pending_a_1<44:52>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h21 QEQ h23 h13 QEQ h15 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:39>{x}[]
+ _1:udef_q<0:39>[BV x5]
+ e9:much-many_a<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e11:comp<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x10]
+ _2:udef_q<10:17>[BV x10]
+ e16:card<10:17>("100,000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_claim_n_of<18:24>{x PERS 3, NUM pl, IND +}[]
+ e18:_against_p<25:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x19]
+ _3:proper_q<33:39>[BV x19]
+ x19:named<33:39>("Robins"){x PERS 3, NUM sg, IND +}[]
+ e3:_pending_a_1<44:52>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  udef_q<0:39> BV generic_entity<0:39>  
+  much-many_a<0:4> ARG1 generic_entity<0:39>  
+  comp<0:4> ARG1 much-many_a<0:4>  
+  comp<0:4> ARG2 _claim_n_of<18:24>  
+  udef_q<10:17> BV _claim_n_of<18:24>  
+  card<10:17>(100,000) ARG1 _claim_n_of<18:24>  
+  _against_p<25:32> ARG1 _claim_n_of<18:24>  
+  _against_p<25:32> ARG2 named<33:39>(Robins)  
+  proper_q<33:39> BV named<33:39>(Robins)  
+  _pending_a_1<44:52> ARG1 generic_entity<0:39>  
+  much-many_a<0:4> SF prop  
+  much-many_a<0:4> TENSE untensed  
+  much-many_a<0:4> MOOD indicative  
+  much-many_a<0:4> PROG -  
+  much-many_a<0:4> PERF -  
+  comp<0:4> SF prop  
+  comp<0:4> TENSE untensed  
+  comp<0:4> MOOD indicative  
+  comp<0:4> PROG -  
+  comp<0:4> PERF -  
+  card<10:17>(100,000) SF prop  
+  card<10:17>(100,000) TENSE untensed  
+  card<10:17>(100,000) MOOD indicative  
+  card<10:17>(100,000) PROG -  
+  card<10:17>(100,000) PERF -  
+  _claim_n_of<18:24> PERS 3  
+  _claim_n_of<18:24> NUM pl  
+  _claim_n_of<18:24> IND +  
+  _against_p<25:32> SF prop  
+  _against_p<25:32> TENSE untensed  
+  _against_p<25:32> MOOD indicative  
+  _against_p<25:32> PROG -  
+  _against_p<25:32> PERF -  
+  named<33:39>(Robins) PERS 3  
+  named<33:39>(Robins) NUM sg  
+  named<33:39>(Robins) IND +  
+  _pending_a_1<44:52> SF prop  
+  _pending_a_1<44:52> TENSE pres  
+  _pending_a_1<44:52> MOOD indicative  
+  _pending_a_1<44:52> PROG -  
+  _pending_a_1<44:52> PERF -  
+}
+

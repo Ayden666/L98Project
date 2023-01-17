@@ -1,0 +1,157 @@
+;;;
+;;; Redwoods export of `wsj11e';
+;;; (wsun@wsun; 22-jan-2018 (20:52 h)).
+;;;
+
+[21187032] (1 of 1) {1} `Sony was down 130 to 8,590.'
+
+[21187032:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Sony", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:8>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <9:13>, 1, "down", 0, "null", "RB" 0.4621 "RP" 0.3751 "IN" 0.1629)
+  (4, 3, 4, <14:17>, 1, "130", 0, "null", "CD" 1.0)
+  (5, 4, 5, <18:20>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <21:26>, 1, "8,590", 0, "null", "CD" 1.0)
+  (7, 6, 7, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:4>, 1, "Sony", 0, "null")
+  (76, 0, 1, <0:4>, 1, "sony", 0, "null")
+  (82, 0, 1, <0:4>, 1, "sony", 0, "null")
+  (70, 1, 2, <5:8>, 1, "was", 0, "null")
+  (75, 1, 2, <5:8>, 1, "was", 0, "null", "VBD" 1.0)
+  (80, 1, 2, <5:8>, 1, "was", 0, "null")
+  (71, 2, 3, <9:13>, 1, "down", 0, "null")
+  (74, 2, 3, <9:13>, 1, "down", 0, "null", "RB" 0.4621)
+  (81, 2, 3, <9:13>, 1, "down", 0, "null")
+  (57, 3, 4, <14:17>, 1, "130", 0, "null")
+  (77, 3, 4, <14:17>, 1, "130", 0, "null")
+  (68, 4, 5, <18:20>, 1, "to", 0, "null")
+  (79, 4, 5, <18:20>, 1, "to", 0, "null")
+  (60, 5, 6, <21:27>, 1, "8,590.", 0, "null")
+  (78, 5, 6, <21:27>, 1, "8,590.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2637 SB-HD_MC_C 9.44847 0 6
+  (2627 HDN_BNP-PN_C 0.489307 0 1
+   (2626 N_SG_ILR 0.538263 0 1
+    (84 sony_n1@n_-_pn_le 0 0 1
+     ("sony" 76
+      "token [ +CARG \"Sony\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sony\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2636 ^HD-CMP_U_C 7.94211 1 6
+   (89 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 70
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2635 HD-AJ_INT-UNSL_C 5.92526 2 6
+    (2630 ^HD-CMP_U_C 1.08983 2 4
+     (115 down_vmod@p_np_i-nnm-nt_le -0.40207 2 3
+      ("down" 71
+       "token [ +CARG #1=\"down\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.46206570000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2629 HDN_BNP-NUM_C 0.272448 3 4
+      (2628 HDN_NP-NUM_C -0.246194 3 4
+       (176 generic_card_ne@aj_-_i-crd-gen_le 0 3 4
+        ("130" 57
+         "token [ +CARG #1=\"130\" +CLASS card_or_year_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (2634 HD-CMP_U_C 3.61677 4 6
+     (202 to@p_np_i-nnm_le -1.63041 4 5
+      ("to" 68
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2633 HDN_BNP-NUM_C 4.01481 5 6
+      (2632 HDN_NP-NUM_C 3.49617 5 6
+       (2631 W_PERIOD_PLR 2.19869 5 6
+        (257 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+         ("8,590." 60
+          "token [ +CARG \"8,590\" +CLASS card_ne +FORM \"8,590.\" +FROM \"21\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (NP (N (N "sony")))
+ (VP (V "was")
+  (PP (PP (P "down") (NP (N (ADJ "130"))))
+   (PP (P "to") (NP (N (ADJ (ADJ "8,590."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:4>
+            LBL: h8
+            ARG0: x6
+            CARG: "Sony" ]
+          [ _down_p<9:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<14:17>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<14:17>
+            LBL: h13
+            ARG0: x9
+            ARG1: i14
+            CARG: "130" ]
+          [ _to_p<18:20>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<21:27>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<21:27>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "8,590" ] >
+   HCONS: < h18 QEQ h20 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:4>[BV x6]
+ x6:named<0:4>("Sony"){x PERS 3, NUM sg, IND +}[]
+ e3:_down_p<9:13>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:number_q<14:17>[BV x9]
+ x9:card<14:17>("130"){x PERS 3, NUM sg}[]
+ e15:_to_p<18:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<21:27>[BV x16]
+ x16:card<21:27>("8,590"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:4> BV named<0:4>(Sony)  
+  _down_p<9:13> ARG1 named<0:4>(Sony)  
+  _down_p<9:13> ARG2 card<14:17>(130)  
+  number_q<14:17> BV card<14:17>(130)  
+  _to_p<18:20> ARG1 _down_p<9:13>  
+  _to_p<18:20> ARG2 card<21:27>(8,590)  
+  number_q<21:27> BV card<21:27>(8,590)  
+  named<0:4>(Sony) PERS 3  
+  named<0:4>(Sony) NUM sg  
+  named<0:4>(Sony) IND +  
+  _down_p<9:13> SF prop  
+  _down_p<9:13> TENSE past  
+  _down_p<9:13> MOOD indicative  
+  _down_p<9:13> PROG -  
+  _down_p<9:13> PERF -  
+  card<14:17>(130) PERS 3  
+  card<14:17>(130) NUM sg  
+  _to_p<18:20> SF prop  
+  _to_p<18:20> TENSE untensed  
+  _to_p<18:20> MOOD indicative  
+  _to_p<18:20> PROG -  
+  _to_p<18:20> PERF -  
+  card<21:27>(8,590) PERS 3  
+  card<21:27>(8,590) NUM sg  
+}
+

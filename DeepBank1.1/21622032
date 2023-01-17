@@ -1,0 +1,103 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:12 h)).
+;;;
+
+[21622032] (1 of 1) {1} `I'm not certain.'
+
+[21622032:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <1:3>, 1, "’m", 0, "null", "VBP" 0.798 "NN" 0.1047 "VB" 0.0692 "RB" 0.0187 "JJ" 0.0094)
+  (3, 2, 3, <4:7>, 1, "not", 0, "null", "RB" 1.0)
+  (4, 3, 4, <8:15>, 1, "certain", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:1>, 1, "I", 0, "null")
+  (69, 0, 1, <0:1>, 1, "i", 0, "null")
+  (70, 0, 1, <0:1>, 1, "i", 0, "null")
+  (63, 1, 2, <1:3>, 1, "’m", 0, "null")
+  (65, 1, 2, <1:3>, 1, "’m", 0, "null", "VBP" 0.798)
+  (66, 1, 2, <1:3>, 1, "’m", 0, "null", "NN" 0.1047)
+  (73, 1, 2, <1:3>, 1, "’m", 0, "null")
+  (60, 2, 3, <4:7>, 1, "not", 0, "null")
+  (67, 2, 3, <4:7>, 1, "not", 0, "null", "RB" 1.0)
+  (71, 2, 3, <4:7>, 1, "not", 0, "null")
+  (62, 3, 4, <8:16>, 1, "certain.", 0, "null")
+  (68, 3, 4, <8:16>, 1, "certain.", 0, "null", "JJ" 1.0)
+  (72, 3, 4, <8:16>, 1, "certain.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (524 SB-HD_MC_C 6.04853 0 4
+  (519 HDN_BNP-QNT_C 1.98216 0 1
+   (80 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 69
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (523 ^HD-CMP_U_C 2.79702 1 4
+   (521 ^HD-CMP_U_C 2.28338 1 3
+    (520 ^V_AUX-ADVADD_DLR 0.455674 1 2
+     (109 be_c_am_cx_3@v_prd_am-cx_le 1.06914 1 2
+      ("’m" 63
+       "token [ +CARG #1=\"’m\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"1\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.79797130000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (146 not@av_-_s-not_le 1.00376 2 3
+     ("not" 60
+      "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (522 W_PERIOD_PLR 0.612486 3 4
+    (258 certain_a4@aj_-_i_le 0 3 4
+     ("certain." 62
+      "token [ +CARG \"certain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"certain.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP "i")) (VP (V (V (V "’m")) (ADV "not")) (AP (AP "certain."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<4:7>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _certain_a_of<8:16>
+            LBL: h11
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e10:neg<4:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_certain_a_of<8:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  neg<4:7> ARG1 _certain_a_of<8:16>  
+  _certain_a_of<8:16> ARG1 pron<0:1>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  neg<4:7> SF prop  
+  neg<4:7> TENSE untensed  
+  neg<4:7> MOOD indicative  
+  neg<4:7> PROG -  
+  neg<4:7> PERF -  
+  _certain_a_of<8:16> SF prop  
+  _certain_a_of<8:16> TENSE pres  
+  _certain_a_of<8:16> MOOD indicative  
+  _certain_a_of<8:16> PROG -  
+  _certain_a_of<8:16> PERF -  
+}
+

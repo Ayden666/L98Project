@@ -1,0 +1,164 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:20 h)).
+;;;
+
+[21944021] (1 of 1) {1} `Mr. Toney also declined to comment.'
+
+[21944021:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Toney", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:14>, 1, "also", 0, "null", "RB" 1.0)
+  (4, 3, 4, <15:23>, 1, "declined", 0, "null", "VBD" 0.9832 "VBN" 0.0168)
+  (5, 4, 5, <24:26>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <27:34>, 1, "comment", 0, "null", "VB" 0.9641 "NN" 0.0359)
+  (7, 6, 7, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (89, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (95, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (65, 1, 2, <4:9>, 1, "Toney", 0, "null")
+  (86, 1, 2, <4:9>, 1, "Toney", 0, "null", "NNP" 1.0)
+  (88, 1, 2, <4:9>, 1, "toney", 0, "null")
+  (90, 1, 2, <4:9>, 1, "toney", 0, "null")
+  (76, 2, 3, <10:14>, 1, "also", 0, "null")
+  (87, 2, 3, <10:14>, 1, "also", 0, "null", "RB" 1.0)
+  (91, 2, 3, <10:14>, 1, "also", 0, "null")
+  (79, 3, 4, <15:23>, 1, "declined", 0, "null")
+  (84, 3, 4, <15:23>, 1, "declined", 0, "null", "VBD" 0.9832)
+  (93, 3, 4, <15:23>, 1, "declined", 0, "null")
+  (78, 4, 5, <24:26>, 1, "to", 0, "null")
+  (92, 4, 5, <24:26>, 1, "to", 0, "null")
+  (81, 5, 6, <27:35>, 1, "comment.", 0, "null")
+  (85, 5, 6, <27:35>, 1, "comment.", 0, "null", "VB" 0.9641)
+  (94, 5, 6, <27:35>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1194 SB-HD_MC_C 12.7029 0 6
+  (1187 HDN_BNP-PN_C 3.86187 0 2
+   (1186 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (1184 N_SG_ILR 2.02901 0 1
+     (103 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 89
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1185 ^N_SG_ILR -0.259177 1 2
+     (106 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Toney" 65
+       "token [ +CARG #1=\"Toney\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1193 ^AJ-HD_SCP-XP_C 8.11814 2 6
+   (108 also_adv1@av_-_s-vp-x_le -0.0583193 2 3
+    ("also" 76
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1192 ^HD-CMP_U_C 6.13772 3 6
+    (1188 ^V_PST_OLR 2.46179 3 4
+     (140 decline_v2@v_vp_seq_le 1.27984 3 4
+      ("declined" 79
+       "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98324840000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1191 HD-CMP_U_C 2.65692 4 6
+     (250 to_c_prop@cm_vp_to_le 2.48409 4 5
+      ("to" 78
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1190 W_PERIOD_PLR -0.468337 5 6
+      (1189 V_N3S-BSE_ILR -0.466301 5 6
+       (305 comment_v2@v_-_le 0.214297 5 6
+        ("comment." 81
+         "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96412980000000004\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Toney"))))
+ (VP (ADV "also")
+  (VP (V (V "declined")) (VP (COMP "to") (VP (VP (V "comment.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Toney" ]
+          [ _also_a_1<10:14>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h16 ]
+          [ _decline_v_1<15:23>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6
+            ARG2: h18 ]
+          [ _comment_v_on<27:35>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h18 QEQ h19 h16 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e15:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Toney"){x PERS 3, NUM sg, IND +}[]
+ e15:_also_a_1<10:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_decline_v_1<15:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e20]
+ e20:_comment_v_on<27:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Toney)  
+  compound<0:9> ARG1 named<4:9>(Toney)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _also_a_1<10:14> ARG1 _decline_v_1<15:23>  
+  _decline_v_1<15:23> ARG1 named<4:9>(Toney)  
+  _decline_v_1<15:23> ARG2 _comment_v_on<27:35>  
+  _comment_v_on<27:35> ARG1 named<4:9>(Toney)  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Toney) PERS 3  
+  named<4:9>(Toney) NUM sg  
+  named<4:9>(Toney) IND +  
+  _also_a_1<10:14> SF prop  
+  _also_a_1<10:14> TENSE untensed  
+  _also_a_1<10:14> MOOD indicative  
+  _also_a_1<10:14> PROG -  
+  _also_a_1<10:14> PERF -  
+  _decline_v_1<15:23> SF prop  
+  _decline_v_1<15:23> TENSE past  
+  _decline_v_1<15:23> MOOD indicative  
+  _decline_v_1<15:23> PROG -  
+  _decline_v_1<15:23> PERF -  
+  _comment_v_on<27:35> SF prop  
+  _comment_v_on<27:35> TENSE untensed  
+  _comment_v_on<27:35> MOOD indicative  
+  _comment_v_on<27:35> PROG -  
+  _comment_v_on<27:35> PERF -  
+}
+

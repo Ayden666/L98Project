@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj07d';
+;;; (wsun@wsun; 22-jan-2018 (17:48 h)).
+;;;
+
+[20783003] (1 of 1) {1} `How did this happen?'
+
+[20783003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "How", 0, "null", "WRB" 1.0)
+  (2, 1, 2, <4:7>, 1, "did", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <8:12>, 1, "this", 0, "null", "DT" 0.9884 "RB" 0.0116)
+  (4, 3, 4, <13:19>, 1, "happen", 0, "null", "VB" 0.9858 "VBP" 0.0142)
+  (5, 4, 5, <19:20>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:3>, 1, "how", 0, "null")
+  (65, 0, 1, <0:3>, 1, "how", 0, "null")
+  (54, 1, 2, <4:7>, 1, "did", 0, "null")
+  (60, 1, 2, <4:7>, 1, "did", 0, "null", "VBD" 1.0)
+  (62, 1, 2, <4:7>, 1, "did", 0, "null")
+  (55, 2, 3, <8:12>, 1, "this", 0, "null")
+  (63, 2, 3, <8:12>, 1, "this", 0, "null")
+  (57, 3, 4, <13:20>, 1, "happen?", 0, "null")
+  (59, 3, 4, <13:20>, 1, "happen?", 0, "null", "VB" 0.9858)
+  (64, 3, 4, <13:20>, 1, "happen?", 0, "null")
+>
+
+(ROOT_STRICT
+ (362 FLR-HD_WH-MC_C 2.55778 0 4
+  (67 how_adv@pp_-_i-wh_le 0.270653 0 1
+   ("how" 61
+    "token [ +CARG \"How\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"how\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (361 ^HD-CMP_U_C 1.83558 1 4
+   (357 ^HD-CMP_U_C 1.56669 1 3
+    (354 ^V_AUX-SB-INV_DLR 0.228001 1 2
+     (75 did1_pos@v_vp_did_le 0.228001 1 2
+      ("did" 54
+       "token [ +CARG #1=\"did\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (356 HDN_BNP-QNT_C -0.107227 2 3
+     (355 HDN_OPTCMP_C 1.17344 2 3
+      (118 this_deix@n_-_pr-dei-sg_le 0.76853 2 3
+       ("this" 55
+        "token [ +CARG #1=\"this\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98841809999999997\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (360 HD_XAJ-INT-VP_C -0.61072 3 4
+    (359 W_QMARK_PLR -0.61072 3 4
+     (358 V_N3S-BSE_ILR -0.61072 3 4
+      (126 happen_v1@v_-_unacc_le 0 3 4
+       ("happen?" 57
+        "token [ +CARG \"happen\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"happen?\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98582360000000002\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (PP "how")
+ (S/PP (V/PP (V/PP (V/PP "did")) (NP (N (N "this"))))
+  (VP/PP (VP (VP (V "happen?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unspec_manner<0:3>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x4 ]
+          [ which_q<0:3>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ manner<0:3>
+            LBL: h9
+            ARG0: x4 ]
+          [ generic_entity<8:12>
+            LBL: h10
+            ARG0: x11 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _this_q_dem<8:12>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ _happen_v_1<13:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x11 ] >
+   HCONS: < h13 QEQ h10 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e5:unspec_manner<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x4]
+ _1:which_q<0:3>[BV x4]
+ x4:manner<0:3>{x}[]
+ x11:generic_entity<8:12>{x PERS 3, NUM sg, GEND n}[]
+ _2:_this_q_dem<8:12>[BV x11]
+ e3:_happen_v_1<13:20>{e SF ques, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+}
+
+{
+  unspec_manner<0:3> ARG1 _happen_v_1<13:20>  
+  unspec_manner<0:3> ARG2 manner<0:3>  
+  which_q<0:3> BV manner<0:3>  
+  _this_q_dem<8:12> BV generic_entity<8:12>  
+  _happen_v_1<13:20> ARG1 generic_entity<8:12>  
+  unspec_manner<0:3> SF prop  
+  unspec_manner<0:3> TENSE untensed  
+  unspec_manner<0:3> MOOD indicative  
+  unspec_manner<0:3> PROG -  
+  unspec_manner<0:3> PERF -  
+  generic_entity<8:12> PERS 3  
+  generic_entity<8:12> NUM sg  
+  generic_entity<8:12> GEND n  
+  _happen_v_1<13:20> SF ques  
+  _happen_v_1<13:20> TENSE past  
+  _happen_v_1<13:20> MOOD indicative  
+  _happen_v_1<13:20> PROG -  
+  _happen_v_1<13:20> PERF -  
+}
+

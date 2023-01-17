@@ -1,0 +1,243 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:58 h)).
+;;;
+
+[20632006] (1 of 1) {1} `Trading volume was a moderately heavy 3.1 million shares.'
+
+[20632006:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Trading", 0, "null", "NN" 0.6067 "NNP" 0.3707 "VBG" 0.0226)
+  (2, 1, 2, <8:14>, 1, "volume", 0, "null", "NN" 1.0)
+  (3, 2, 3, <15:18>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <19:20>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <21:31>, 1, "moderately", 0, "null", "RB" 1.0)
+  (6, 5, 6, <32:37>, 1, "heavy", 0, "null", "JJ" 1.0)
+  (7, 6, 7, <38:41>, 1, "3.1", 0, "null", "CD" 1.0)
+  (8, 7, 8, <42:49>, 1, "million", 0, "null", "CD" 1.0)
+  (9, 8, 9, <50:56>, 1, "shares", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:7>, 1, "Trading", 0, "null")
+  (117, 0, 1, <0:7>, 1, "trading", 0, "null")
+  (126, 0, 1, <0:7>, 1, "trading", 0, "null")
+  (97, 1, 2, <8:14>, 1, "volume", 0, "null")
+  (112, 1, 2, <8:14>, 1, "volume", 0, "null", "NN" 1.0)
+  (120, 1, 2, <8:14>, 1, "volume", 0, "null")
+  (99, 2, 3, <15:18>, 1, "was", 0, "null")
+  (113, 2, 3, <15:18>, 1, "was", 0, "null", "VBD" 1.0)
+  (121, 2, 3, <15:18>, 1, "was", 0, "null")
+  (101, 3, 4, <19:20>, 1, "a", 0, "null")
+  (122, 3, 4, <19:20>, 1, "a", 0, "null")
+  (103, 4, 5, <21:31>, 1, "moderately", 0, "null")
+  (114, 4, 5, <21:31>, 1, "moderately", 0, "null", "RB" 1.0)
+  (123, 4, 5, <21:31>, 1, "moderately", 0, "null")
+  (105, 5, 6, <32:37>, 1, "heavy", 0, "null")
+  (115, 5, 6, <32:37>, 1, "heavy", 0, "null", "JJ" 1.0)
+  (124, 5, 6, <32:37>, 1, "heavy", 0, "null")
+  (87, 6, 7, <38:41>, 1, "3.1", 0, "null")
+  (118, 6, 7, <38:41>, 1, "3.1", 0, "null")
+  (95, 7, 8, <42:49>, 1, "million", 0, "null")
+  (111, 7, 8, <42:49>, 1, "million", 0, "null", "CD" 1.0)
+  (119, 7, 8, <42:49>, 1, "million", 0, "null")
+  (107, 8, 9, <50:57>, 1, "shares.", 0, "null")
+  (116, 8, 9, <50:57>, 1, "shares.", 0, "null", "NNS" 1.0)
+  (125, 8, 9, <50:57>, 1, "shares.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1587 SB-HD_MC_C 12.2076 0 9
+  (1578 HDN_BNP_C 4.09496 0 2
+   (1577 N-HDN_CPD_C 3.47422 0 2
+    (1574 HDN_OPTCMP_C 1.65558 0 1
+     (1573 V_NGER-TR_DLR 2.81456 0 1
+      (1572 V_PRP_OLR 3.0788 0 1
+       (136 trade_v1@v_np*_le 2.82677 0 1
+        ("trading" 117
+         "token [ +CARG \"Trading\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"trading\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.60669099999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (1576 ^HDN_OPTCMP_C 1.20737 1 2
+     (1575 N_MS-CNT_ILR 1.47232 1 2
+      (140 volume_n1@n_pp_mc-of_le 1.04759 1 2
+       ("volume" 97
+        "token [ +CARG #1=\"volume\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1586 ^HD-CMP_U_C 6.59676 2 9
+   (149 be_id_was@v_np_was_le 0.510521 2 3
+    ("was" 99
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1585 SP-HD_N_C 5.218 3 9
+    (169 a_det@d_-_sg-nmd_le -0.667877 3 4
+     ("a" 101
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1584 ^AJ-HDN_NORM_C 4.25241 4 9
+     (1579 AJ-HD_INT_C 1.68517 4 6
+      (242 moderately@av_-_i-vp_le 0 4 5
+       ("moderately" 103
+        "token [ +CARG #1=\"moderately\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (244 heavy_a1@aj_-_i-er_le 0.67069 5 6
+       ("heavy" 105
+        "token [ +CARG #1=\"heavy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1583 ^NUM-N_MNP_C 2.56724 6 9
+      (1580 SP-HD_HC_C 1.23462 6 8
+       (251 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+        ("3.1" 87
+         "token [ +CARG #1=\"3.1\" +CLASS card_or_proper_ne +FORM #1 +FROM \"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (253 million@aj_-_i-crd-mln_le 0.569174 7 8
+        ("million" 95
+         "token [ +CARG #1=\"million\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1582 ^W_PERIOD_PLR 1.2637 8 9
+       (1581 N_PL_OLR 0.601066 8 9
+        (259 share_n2@n_-_c-meas-nb_le 0.737088 8 9
+         ("shares." 107
+          "token [ +CARG \"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shares.\" +FROM #1=\"50\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N (V (V "trading")))) (N (N (N "volume")))))
+ (VP (V "was")
+  (NP (DET "a")
+   (N (AP (ADV "moderately") (AP "heavy"))
+    (N (ADJ (ADJ "3.1") (ADJ "million")) (N (N (N "shares."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _trade_v_1<0:7>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i17
+            ARG2: p16 ]
+          [ nominalization<0:7>
+            LBL: h18
+            ARG0: x9
+            ARG1: h14 ]
+          [ _volume_n_of<8:14>
+            LBL: h8
+            ARG0: x6
+            ARG1: i19 ]
+          [ _be_v_id<15:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x20 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _a_q<19:20>
+            LBL: h21
+            ARG0: x20
+            RSTR: h23
+            BODY: h22 ]
+          [ _moderate_a_1<21:31>
+            LBL: h24
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _heavy_a_1<32:37>
+            LBL: h24
+            ARG0: e26
+            ARG1: x20 ]
+          [ card<38:41>
+            LBL: h27
+            ARG0: i29
+            ARG1: i28
+            CARG: "3.1" ]
+          [ card<42:49>
+            LBL: h30
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            CARG: "1000000" ]
+          [ times<42:49>
+            LBL: h24
+            ARG0: i32
+            ARG1: i28
+            ARG2: h27
+            ARG3: h30 ]
+          [ _share_n_of<50:57>
+            LBL: h24
+            ARG0: x20 ] >
+   HCONS: < h23 QEQ h24 h12 QEQ h18 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:7>[BV x9]
+ e15:_trade_v_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x9:nominalization<0:7>{x PERS 3, NUM sg, GEND n}[ARG1 e15]
+ x6:_volume_n_of<8:14>{x PERS 3, NUM sg}[]
+ e3:_be_v_id<15:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x20]
+ _3:_a_q<19:20>[BV x20]
+ e25:_moderate_a_1<21:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e26]
+ e26:_heavy_a_1<32:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20]
+ i29:card<38:41>("3.1"){i}[]
+ e31:card<42:49>("1000000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20]
+ i32:times<42:49>{i}[ARG2 i29, ARG3 e31]
+ x20:_share_n_of<50:57>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:14> BV _volume_n_of<8:14>  
+  compound<0:14> ARG1 _volume_n_of<8:14>  
+  compound<0:14> ARG2 nominalization<0:7>  
+  udef_q<0:7> BV nominalization<0:7>  
+  nominalization<0:7> ARG1 _trade_v_1<0:7>  
+  _be_v_id<15:18> ARG1 _volume_n_of<8:14>  
+  _be_v_id<15:18> ARG2 _share_n_of<50:57>  
+  _a_q<19:20> BV _share_n_of<50:57>  
+  _moderate_a_1<21:31> ARG1 _heavy_a_1<32:37>  
+  _heavy_a_1<32:37> ARG1 _share_n_of<50:57>  
+  card<42:49>(1000000) ARG1 _share_n_of<50:57>  
+  times<42:49> ARG2 card<38:41>(3.1)  
+  times<42:49> ARG3 card<42:49>(1000000)  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _trade_v_1<0:7> SF prop  
+  _trade_v_1<0:7> TENSE untensed  
+  _trade_v_1<0:7> MOOD indicative  
+  _trade_v_1<0:7> PROG +  
+  _trade_v_1<0:7> PERF -  
+  nominalization<0:7> PERS 3  
+  nominalization<0:7> NUM sg  
+  nominalization<0:7> GEND n  
+  _volume_n_of<8:14> PERS 3  
+  _volume_n_of<8:14> NUM sg  
+  _be_v_id<15:18> SF prop  
+  _be_v_id<15:18> TENSE past  
+  _be_v_id<15:18> MOOD indicative  
+  _be_v_id<15:18> PROG -  
+  _be_v_id<15:18> PERF -  
+  _moderate_a_1<21:31> SF prop  
+  _moderate_a_1<21:31> TENSE untensed  
+  _moderate_a_1<21:31> MOOD indicative  
+  _moderate_a_1<21:31> PROG -  
+  _moderate_a_1<21:31> PERF -  
+  _heavy_a_1<32:37> SF prop  
+  _heavy_a_1<32:37> TENSE untensed  
+  _heavy_a_1<32:37> MOOD indicative  
+  _heavy_a_1<32:37> PROG -  
+  _heavy_a_1<32:37> PERF -  
+  card<42:49>(1000000) SF prop  
+  card<42:49>(1000000) TENSE untensed  
+  card<42:49>(1000000) MOOD indicative  
+  card<42:49>(1000000) PROG -  
+  card<42:49>(1000000) PERF -  
+  _share_n_of<50:57> PERS 3  
+  _share_n_of<50:57> NUM pl  
+  _share_n_of<50:57> IND +  
+}
+

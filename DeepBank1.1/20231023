@@ -1,0 +1,228 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (12:08 h)).
+;;;
+
+[20231023] (1 of 1) {1} `Heiwa Real Estate gained 40 to 2210.'
+
+[20231023:3] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Heiwa", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:10>, 1, "Real", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:17>, 1, "Estate", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <18:24>, 1, "gained", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <25:27>, 1, "40", 0, "null", "CD" 1.0)
+  (6, 5, 6, <28:30>, 1, "to", 0, "null", "TO" 1.0)
+  (7, 6, 7, <31:35>, 1, "2210", 0, "null", "CD" 1.0)
+  (8, 7, 8, <35:36>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (84, 0, 1, <0:5>, 1, "Heiwa", 0, "null")
+  (90, 0, 1, <0:5>, 1, "heiwa", 0, "null")
+  (97, 0, 1, <0:5>, 1, "heiwa", 0, "null")
+  (71, 1, 2, <6:10>, 1, "Real", 0, "null")
+  (85, 1, 2, <6:10>, 1, "Real", 0, "null", "NNP" 1.0)
+  (88, 1, 2, <6:10>, 1, "real", 0, "null")
+  (92, 1, 2, <6:10>, 1, "real", 0, "null")
+  (72, 2, 3, <11:17>, 1, "Estate", 0, "null")
+  (86, 2, 3, <11:17>, 1, "Estate", 0, "null", "NNP" 1.0)
+  (89, 2, 3, <11:17>, 1, "estate", 0, "null")
+  (93, 2, 3, <11:17>, 1, "estate", 0, "null")
+  (83, 3, 4, <18:24>, 1, "gained", 0, "null")
+  (87, 3, 4, <18:24>, 1, "gained", 0, "null", "VBD" 1.0)
+  (96, 3, 4, <18:24>, 1, "gained", 0, "null")
+  (69, 4, 5, <25:27>, 1, "40", 0, "null")
+  (91, 4, 5, <25:27>, 1, "40", 0, "null")
+  (81, 5, 6, <28:30>, 1, "to", 0, "null")
+  (95, 5, 6, <28:30>, 1, "to", 0, "null")
+  (73, 6, 7, <31:36>, 1, "2210.", 0, "null")
+  (94, 6, 7, <31:36>, 1, "2210.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3786 SB-HD_MC_C 9.90797 0 7
+  (3785 HDN_BNP-PN_C 1.25364 0 3
+   (3784 NP-HDN_NME-CPD_C 0.713924 0 3
+    (3753 HDN_BNP-PN_C 0.365523 0 1
+     (3752 N_SG_ILR -0.386912 0 1
+      (100 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Heiwa" 84
+        "token [ +CARG #1=\"Heiwa\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (3783 ^NP-HDN_NME-CPD_C 1.12828 1 3
+     (3782 HDN_BNP-PN_C 0.442149 1 2
+      (3754 N_SG_ILR -0.143257 1 2
+       (101 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Real" 71
+         "token [ +CARG #1=\"Real\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (3757 ^N_SG_ILR -0.143257 2 3
+      (114 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("Estate" 72
+        "token [ +CARG #1=\"Estate\" +CLASS proper_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+  (3768 ^HD-AJ_INT-UNSL_C 8.16683 3 7
+   (3763 ^HD-CMP_U_C 3.15667 3 5
+    (3760 ^V_PST_OLR 1.93042 3 4
+     (127 gain_v1@v_np*_le 0.775218 3 4
+      ("gained" 83
+       "token [ +CARG #1=\"gained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3762 HDN_BNP-NUM_C -0.0166455 4 5
+     (3761 HDN_NP-NUM_C -0.535288 4 5
+      (222 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+       ("40" 69
+        "token [ +CARG #1=\"40\" +CLASS card_ne +FORM #1 +FROM \"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (3767 HD-CMP_U_C 3.87632 5 7
+    (247 to@p_np_i-nnm_le -0.649111 5 6
+     ("to" 81
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3766 HDN_BNP-NUM_C 4.01481 6 7
+     (3765 HDN_NP-NUM_C 3.49617 6 7
+      (3764 W_PERIOD_PLR 2.19869 6 7
+       (302 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+        ("2210." 73
+         "token [ +CARG \"2210\" +CLASS card_or_year_ne +FORM \"2210.\" +FROM \"31\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S
+ (NP (N (NP (N (N "Heiwa"))) (N (NP (N (N "Real"))) (N (N "Estate")))))
+ (VP (VP (V (V "gained")) (NP (N (ADJ "40"))))
+  (PP (P "to") (NP (N (ADJ (ADJ "2210.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Heiwa" ]
+          [ compound<6:17>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<6:10>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<6:10>
+            LBL: h20
+            ARG0: x15
+            CARG: "Real" ]
+          [ named<11:17>
+            LBL: h8
+            ARG0: x6
+            CARG: "Estate" ]
+          [ _gain_v_1<18:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x21 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<25:27>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ card<25:27>
+            LBL: h25
+            ARG0: x21
+            ARG1: i26
+            CARG: "40" ]
+          [ _to_p<28:30>
+            LBL: h2
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x28 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<31:36>
+            LBL: h29
+            ARG0: x28
+            RSTR: h30
+            BODY: h31 ]
+          [ card<31:36>
+            LBL: h32
+            ARG0: x28
+            ARG1: i33
+            CARG: "2210" ] >
+   HCONS: < h30 QEQ h32 h23 QEQ h25 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:17>[BV x6]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Heiwa"){x PERS 3, NUM sg, IND +}[]
+ e16:compound<6:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:proper_q<6:10>[BV x15]
+ x15:named<6:10>("Real"){x PERS 3, NUM sg, IND +}[]
+ x6:named<11:17>("Estate"){x PERS 3, NUM sg, IND +}[]
+ e3:_gain_v_1<18:24>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x21]
+ _4:number_q<25:27>[BV x21]
+ x21:card<25:27>("40"){x PERS 3, NUM sg}[]
+ e27:_to_p<28:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x28]
+ _5:number_q<31:36>[BV x28]
+ x28:card<31:36>("2210"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:17> BV named<11:17>(Estate)  
+  compound<0:17> ARG1 named<11:17>(Estate)  
+  compound<0:17> ARG2 named<0:5>(Heiwa)  
+  proper_q<0:5> BV named<0:5>(Heiwa)  
+  compound<6:17> ARG1 named<11:17>(Estate)  
+  compound<6:17> ARG2 named<6:10>(Real)  
+  proper_q<6:10> BV named<6:10>(Real)  
+  _gain_v_1<18:24> ARG1 named<11:17>(Estate)  
+  _gain_v_1<18:24> ARG2 card<25:27>(40)  
+  number_q<25:27> BV card<25:27>(40)  
+  _to_p<28:30> ARG1 _gain_v_1<18:24>  
+  _to_p<28:30> ARG2 card<31:36>(2210)  
+  number_q<31:36> BV card<31:36>(2210)  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  named<0:5>(Heiwa) PERS 3  
+  named<0:5>(Heiwa) NUM sg  
+  named<0:5>(Heiwa) IND +  
+  compound<6:17> SF prop  
+  compound<6:17> TENSE untensed  
+  compound<6:17> MOOD indicative  
+  compound<6:17> PROG -  
+  compound<6:17> PERF -  
+  named<6:10>(Real) PERS 3  
+  named<6:10>(Real) NUM sg  
+  named<6:10>(Real) IND +  
+  named<11:17>(Estate) PERS 3  
+  named<11:17>(Estate) NUM sg  
+  named<11:17>(Estate) IND +  
+  _gain_v_1<18:24> SF prop  
+  _gain_v_1<18:24> TENSE past  
+  _gain_v_1<18:24> MOOD indicative  
+  _gain_v_1<18:24> PROG -  
+  _gain_v_1<18:24> PERF -  
+  card<25:27>(40) PERS 3  
+  card<25:27>(40) NUM sg  
+  _to_p<28:30> SF prop  
+  _to_p<28:30> TENSE untensed  
+  _to_p<28:30> MOOD indicative  
+  _to_p<28:30> PROG -  
+  _to_p<28:30> PERF -  
+  card<31:36>(2210) PERS 3  
+  card<31:36>(2210) NUM sg  
+}
+

@@ -1,0 +1,112 @@
+;;;
+;;; Redwoods export of `wsj19a';
+;;; (wsun@wsun; 23-jan-2018 (04:02 h)).
+;;;
+
+[21915052] (1 of 1) {1} `Business wasn't disrupted.'
+
+[21915052:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Business", 0, "null", "NNP" 0.9552 "NN" 0.0448)
+  (2, 1, 2, <9:12>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <12:15>, 1, "n’t", 0, "null", "NN" 0.3343 "RB" 0.2629 "VBN" 0.1265 "JJ" 0.0933 "VBP" 0.0712 "VB" 0.0704 "JJS" 0.0279 "VBD" 0.0134)
+  (4, 3, 4, <16:25>, 1, "disrupted", 0, "null", "VBN" 0.6963 "VBD" 0.3037)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:8>, 1, "Business", 0, "null")
+  (57, 0, 1, <0:8>, 1, "business", 0, "null")
+  (60, 0, 1, <0:8>, 1, "business", 0, "null")
+  (48, 1, 2, <9:15>, 1, "wasn’t", 0, "null")
+  (55, 1, 2, <9:15>, 1, "wasn’t", 0, "null", "VBD" 1.0)
+  (58, 1, 2, <9:15>, 1, "wasn’t", 0, "null")
+  (51, 2, 3, <16:26>, 1, "disrupted.", 0, "null")
+  (54, 2, 3, <16:26>, 1, "disrupted.", 0, "null", "VBN" 0.6963)
+  (56, 2, 3, <16:26>, 1, "disrupted.", 0, "null", "VBD" 0.3037)
+  (59, 2, 3, <16:26>, 1, "disrupted.", 0, "null")
+>
+
+(ROOT_STRICT
+ (710 SB-HD_MC_C 3.89597 0 3
+  (705 HDN_BNP_C 0.24484 0 1
+   (704 N_MS-CNT_ILR 0.444916 0 1
+    (62 business_n1@n_-_mc_le 0.329094 0 1
+     ("business" 57
+      "token [ +CARG \"Business\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"business\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95524279999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (709 ^HD-CMP_U_C 2.13522 1 3
+   (63 be_c_was_neg_3_u@v_prd_was-n_le 1.25887 1 2
+    ("wasn’t" 48
+     "token [ +CARG #1=\"wasn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (708 HD_OPTCMP_C 0.772703 2 3
+    (707 W_PERIOD_PLR 0.621276 2 3
+     (706 V_PAS_ODLR 0.295437 2 3
+      (78 disrupt_v1@v_np_le 0 2 3
+       ("disrupted." 51
+        "token [ +CARG \"disrupted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"disrupted.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69634220000000002\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "business")))
+ (VP (V "wasn’t") (VP (V (V (V "disrupted."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _business_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<9:15>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _disrupt_v_1<16:26>
+            LBL: h11
+            ARG0: e3
+            ARG1: i12
+            ARG2: x6 ]
+          [ parg_d<16:26>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h9 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:udef_q<0:8>[BV x6]
+ x6:_business_n_1<0:8>{x PERS 3, NUM sg}[]
+ e10:neg<9:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_disrupt_v_1<16:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e13:parg_d<16:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:8> BV _business_n_1<0:8>  
+  neg<9:15> ARG1 _disrupt_v_1<16:26>  
+  _disrupt_v_1<16:26> ARG2 _business_n_1<0:8>  
+  parg_d<16:26> ARG1 _disrupt_v_1<16:26>  
+  parg_d<16:26> ARG2 _business_n_1<0:8>  
+  _business_n_1<0:8> PERS 3  
+  _business_n_1<0:8> NUM sg  
+  neg<9:15> SF prop  
+  neg<9:15> TENSE untensed  
+  neg<9:15> MOOD indicative  
+  neg<9:15> PROG -  
+  neg<9:15> PERF -  
+  _disrupt_v_1<16:26> SF prop  
+  _disrupt_v_1<16:26> TENSE past  
+  _disrupt_v_1<16:26> MOOD indicative  
+  _disrupt_v_1<16:26> PROG -  
+  _disrupt_v_1<16:26> PERF -  
+  parg_d<16:26> SF prop  
+  parg_d<16:26> TENSE untensed  
+  parg_d<16:26> MOOD indicative  
+  parg_d<16:26> PROG -  
+  parg_d<16:26> PERF -  
+}
+

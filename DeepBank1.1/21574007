@@ -1,0 +1,144 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:33 h)).
+;;;
+
+[21574007] (1 of 1) {1} `And my time has come.'
+
+[21574007:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:6>, 1, "my", 0, "null", "PRP$" 1.0)
+  (3, 2, 3, <7:11>, 1, "time", 0, "null", "NN" 1.0)
+  (4, 3, 4, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <16:20>, 1, "come", 0, "null", "VBN" 0.979 "VB" 0.021)
+  (6, 5, 6, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:3>, 1, "and", 0, "null")
+  (76, 0, 1, <0:3>, 1, "and", 0, "null")
+  (61, 1, 2, <4:6>, 1, "my", 0, "null")
+  (72, 1, 2, <4:6>, 1, "my", 0, "null")
+  (63, 2, 3, <7:11>, 1, "time", 0, "null")
+  (69, 2, 3, <7:11>, 1, "time", 0, "null", "NN" 1.0)
+  (73, 2, 3, <7:11>, 1, "time", 0, "null")
+  (65, 3, 4, <12:15>, 1, "has", 0, "null")
+  (70, 3, 4, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (74, 3, 4, <12:15>, 1, "has", 0, "null")
+  (66, 4, 5, <16:21>, 1, "come.", 0, "null")
+  (68, 4, 5, <16:21>, 1, "come.", 0, "null", "VBN" 0.979)
+  (75, 4, 5, <16:21>, 1, "come.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1096 CL_CNJ-FRG_C 2.666 0 5
+  (1095 MRK-NH_CL_C 1.79611 0 5
+   (80 and_conj@c_xp_and_le -1.01637 0 1
+    ("and" 71
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1094 SB-HD_MC_C 1.88892 1 5
+    (1093 SP-HD_N_C -1.76068 1 3
+     (96 my@d_-_poss-my_le 0 1 2
+      ("my" 61
+       "token [ +CARG #1=\"my\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1092 ^N_SG_ILR -1.76068 2 3
+      (128 time_n1@n_-_c-time_le -1.05832 2 3
+       ("time" 63
+        "token [ +CARG #1=\"time\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1088 ^HD-CMP_U_C 2.42117 3 5
+     (198 has_aux@v_vp_has_le 2.86674 3 4
+      ("has" 65
+       "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1087 HD_OPTCMP_C -0.42475 4 5
+      (1086 W_PERIOD_PLR -0.576177 4 5
+       (1085 V_PSP_OLR -0.426014 4 5
+        (301 come_v1@v_pp*_dir_le 0 4 5
+         ("come." 66
+          "token [ +CARG \"come\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"come.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97895739999999998\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (S (CONJ "and")
+  (S (NP (DET "my") (N (N "time")))
+   (VP (V "has") (VP (V (V (V "come."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _and_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ] ]
+          [ def_explicit_q<4:6>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h11
+            BODY: h9 ]
+          [ poss<4:6>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x13 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<4:6>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ pron<4:6>
+            LBL: h18
+            ARG0: x13 ]
+          [ _time_n_of<7:11>
+            LBL: h12
+            ARG0: x10 ]
+          [ _come_v_1<16:21>
+            LBL: h19
+            ARG0: e4
+            ARG1: x10 ] >
+   HCONS: < h16 QEQ h18 h11 QEQ h12 h5 QEQ h19 h1 QEQ h2 > ]
+
+{e3:
+ e3:_and_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:def_explicit_q<4:6>[BV x10]
+ e14:poss<4:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x13]
+ _2:pronoun_q<4:6>[BV x13]
+ x13:pron<4:6>{x PERS 1, NUM sg, PT std}[]
+ x10:_time_n_of<7:11>{x PERS 3, NUM sg, IND +}[]
+ e4:_come_v_1<16:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x10]
+}
+
+{
+  _and_c<0:3> R-HNDL _come_v_1<16:21>  
+  _and_c<0:3> R-INDEX _come_v_1<16:21>  
+  def_explicit_q<4:6> BV _time_n_of<7:11>  
+  poss<4:6> ARG1 _time_n_of<7:11>  
+  poss<4:6> ARG2 pron<4:6>  
+  pronoun_q<4:6> BV pron<4:6>  
+  _come_v_1<16:21> ARG1 _time_n_of<7:11>  
+  _and_c<0:3> SF prop  
+  _and_c<0:3> TENSE untensed  
+  _and_c<0:3> MOOD indicative  
+  _and_c<0:3> PROG -  
+  _and_c<0:3> PERF -  
+  poss<4:6> SF prop  
+  poss<4:6> TENSE untensed  
+  poss<4:6> MOOD indicative  
+  poss<4:6> PROG -  
+  poss<4:6> PERF -  
+  pron<4:6> PERS 1  
+  pron<4:6> NUM sg  
+  pron<4:6> PT std  
+  _time_n_of<7:11> PERS 3  
+  _time_n_of<7:11> NUM sg  
+  _time_n_of<7:11> IND +  
+  _come_v_1<16:21> SF prop  
+  _come_v_1<16:21> TENSE pres  
+  _come_v_1<16:21> MOOD indicative  
+  _come_v_1<16:21> PROG -  
+  _come_v_1<16:21> PERF +  
+}
+

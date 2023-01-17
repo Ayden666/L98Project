@@ -1,0 +1,150 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:29 h)).
+;;;
+
+[21568020] (1 of 1) {1} `Nothing seems hard here.'
+
+[21568020:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Nothing", 0, "null", "NN" 0.9621 "NNP" 0.0379)
+  (2, 1, 2, <8:13>, 1, "seems", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <14:18>, 1, "hard", 0, "null", "RB" 0.8084 "JJ" 0.1916)
+  (4, 3, 4, <19:23>, 1, "here", 0, "null", "RB" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:7>, 1, "Nothing", 0, "null")
+  (64, 0, 1, <0:7>, 1, "nothing", 0, "null")
+  (68, 0, 1, <0:7>, 1, "nothing", 0, "null")
+  (52, 1, 2, <8:13>, 1, "seems", 0, "null")
+  (61, 1, 2, <8:13>, 1, "seems", 0, "null", "VBZ" 1.0)
+  (65, 1, 2, <8:13>, 1, "seems", 0, "null")
+  (57, 2, 3, <14:18>, 1, "hard", 0, "null")
+  (60, 2, 3, <14:18>, 1, "hard", 0, "null", "RB" 0.8084)
+  (63, 2, 3, <14:18>, 1, "hard", 0, "null", "JJ" 0.1916)
+  (67, 2, 3, <14:18>, 1, "hard", 0, "null")
+  (54, 3, 4, <19:24>, 1, "here.", 0, "null")
+  (62, 3, 4, <19:24>, 1, "here.", 0, "null", "RB" 1.0)
+  (66, 3, 4, <19:24>, 1, "here.", 0, "null")
+>
+
+(ROOT_STRICT
+ (607 SB-HD_MC_C 3.85287 0 4
+  (594 HDN_BNP-QNT_C 2.03254 0 1
+   (593 HDN_OPTCMP_C 1.94376 0 1
+    (76 nothing@n_-_pr_le 0.385521 0 1
+     ("nothing" 64
+      "token [ +CARG \"Nothing\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"nothing\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96207220000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (606 ^HD-AJ_INT-UNSL_C 1.24081 1 4
+   (605 ^HD_OPTCMP_C 0.0457064 1 3
+    (604 HD-CMP_U_C -0.841105 1 3
+     (595 ^V_3S-FIN_OLR -0.366287 1 2
+      (88 seem2@v_prd-pp_seq_le -0.549782 1 2
+       ("seems" 52
+        "token [ +CARG #1=\"seems\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (596 HD_OPTCMP_C -0.69586 2 3
+      (101 hard_a1@aj_pp_i-er_le -0.920989 2 3
+       ("hard" 57
+        "token [ +CARG #1=\"hard\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80836649999999999\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (599 NP_ADV_C 0.556071 3 4
+    (598 HDN_BNP-QNT_C 0.46379 3 4
+     (597 W_PERIOD_PLR 0 3 4
+      (108 here_nom@n_-_ad-pl_le 0 3 4
+       ("here." 54
+        "token [ +CARG \"here\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"here.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "nothing")))
+ (VP (VP (V (V (V "seems")) (AP (ADJ "hard"))))
+  (PP (NP (N (N "here."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ thing<0:7>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ _no_q<0:7>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _seem_v_to<8:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: h10
+            ARG3: i9 ]
+          [ _hard_a_for<14:18>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: i13 ]
+          [ loc_nonsp<19:24>
+            LBL: h2
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ place_n<19:24>
+            LBL: h16
+            ARG0: x15 ]
+          [ def_implicit_q<19:24>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _here_a_1<19:24>
+            LBL: h16
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15 ] >
+   HCONS: < h18 QEQ h16 h10 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:7>{x PERS 3, NUM sg}[]
+ _1:_no_q<0:7>[BV x5]
+ e3:_seem_v_to<8:13>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 e12]
+ e12:_hard_a_for<14:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e14:loc_nonsp<19:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x15]
+ x15:place_n<19:24>{x PERS 3, NUM sg}[]
+ _2:def_implicit_q<19:24>[BV x15]
+ e20:_here_a_1<19:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+}
+
+{
+  _no_q<0:7> BV thing<0:7>  
+  _seem_v_to<8:13> ARG1 thing<0:7>  
+  _seem_v_to<8:13> ARG2 _hard_a_for<14:18>  
+  _hard_a_for<14:18> ARG1 thing<0:7>  
+  loc_nonsp<19:24> ARG1 _seem_v_to<8:13>  
+  loc_nonsp<19:24> ARG2 place_n<19:24>  
+  def_implicit_q<19:24> BV place_n<19:24>  
+  _here_a_1<19:24> ARG1 place_n<19:24>  
+  thing<0:7> PERS 3  
+  thing<0:7> NUM sg  
+  _seem_v_to<8:13> SF prop  
+  _seem_v_to<8:13> TENSE pres  
+  _seem_v_to<8:13> MOOD indicative  
+  _seem_v_to<8:13> PROG -  
+  _seem_v_to<8:13> PERF -  
+  _hard_a_for<14:18> SF prop  
+  _hard_a_for<14:18> TENSE untensed  
+  _hard_a_for<14:18> MOOD indicative  
+  _hard_a_for<14:18> PROG -  
+  _hard_a_for<14:18> PERF -  
+  loc_nonsp<19:24> SF prop  
+  loc_nonsp<19:24> TENSE untensed  
+  loc_nonsp<19:24> MOOD indicative  
+  loc_nonsp<19:24> PROG -  
+  loc_nonsp<19:24> PERF -  
+  place_n<19:24> PERS 3  
+  place_n<19:24> NUM sg  
+  _here_a_1<19:24> SF prop  
+  _here_a_1<19:24> TENSE untensed  
+  _here_a_1<19:24> MOOD indicative  
+  _here_a_1<19:24> PROG -  
+  _here_a_1<19:24> PERF -  
+}
+

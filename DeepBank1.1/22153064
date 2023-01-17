@@ -1,0 +1,66 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:25 h)).
+;;;
+
+[22153064] (1 of 1) {1} `**Projected'
+
+[22153064:6] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "**Projected", 0, "null", "VBN" 1.0)
+>
+
+<
+  (12, 0, 1, <0:11>, 1, "**Projected", 0, "null", "VBN" 1.0)
+  (13, 0, 1, <0:11>, 1, "**projected", 0, "null")
+  (14, 0, 1, <0:11>, 1, "**projected", 0, "null")
+>
+
+(ROOT_FRAG
+ (2073 VP_NFIN-FRG_C -1.156 0 1
+  (2072 HD_OPTCMP_C -0.450969 0 1
+   (2053 W_ASTERISK-PRE_PLR -0.450969 0 1
+    (2052 W_ASTERISK-PRE_PLR -0.450969 0 1
+     (2051 V_PAS_ODLR -0.450969 0 1
+      (175 project_v1@v_np_le 0 0 1
+       ("**projected" 13
+        "token [ +CARG \"**Projected\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"**projected\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (VP (V (V (V (V "**projected"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _project_v_1<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: i5
+            ARG2: i4 ]
+          [ parg_d<0:11>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: i4 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:_project_v_1<0:11>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e6:parg_d<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  parg_d<0:11> ARG1 _project_v_1<0:11>  
+  _project_v_1<0:11> SF prop-or-ques  
+  _project_v_1<0:11> TENSE untensed  
+  _project_v_1<0:11> MOOD indicative  
+  _project_v_1<0:11> PROG -  
+  _project_v_1<0:11> PERF -  
+  parg_d<0:11> SF prop  
+  parg_d<0:11> TENSE untensed  
+  parg_d<0:11> MOOD indicative  
+  parg_d<0:11> PROG -  
+  parg_d<0:11> PERF -  
+}
+

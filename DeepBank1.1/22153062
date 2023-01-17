@@ -1,0 +1,122 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:25 h)).
+;;;
+
+[22153062] (1 of 1) {1} `"They're dead wrong."'
+
+[22153062:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "They", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <5:8>, 1, "’re", 0, "null", "VBP" 0.9074 "VBD" 0.0501 "VB" 0.0295 "JJ" 0.0129)
+  (4, 3, 4, <9:13>, 1, "dead", 0, "null", "RB" 0.6858 "JJ" 0.2295 "VBN" 0.0847)
+  (5, 4, 5, <14:19>, 1, "wrong", 0, "null", "JJ" 0.8945 "RB" 0.0724 "NN" 0.0332)
+  (6, 5, 6, <19:20>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <20:21>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (93, 0, 1, <0:5>, 1, "“they", 0, "null")
+  (97, 0, 1, <0:5>, 1, "“they", 0, "null")
+  (84, 1, 2, <5:8>, 1, "’re", 0, "null")
+  (90, 1, 2, <5:8>, 1, "’re", 0, "null", "VBP" 0.9074)
+  (95, 1, 2, <5:8>, 1, "’re", 0, "null")
+  (83, 2, 3, <9:13>, 1, "dead", 0, "null")
+  (89, 2, 3, <9:13>, 1, "dead", 0, "null", "RB" 0.6858)
+  (92, 2, 3, <9:13>, 1, "dead", 0, "null", "JJ" 0.2295)
+  (94, 2, 3, <9:13>, 1, "dead", 0, "null")
+  (85, 3, 4, <14:21>, 1, "wrong.”", 0, "null")
+  (91, 3, 4, <14:21>, 1, "wrong.”", 0, "null", "JJ" 0.8945)
+  (96, 3, 4, <14:21>, 1, "wrong.”", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (458 SB-HD_MC_C 5.21918 0 4
+  (453 HDN_BNP-QNT_C 0.921662 0 1
+   (452 W_DQLEFT_PLR 1.55746 0 1
+    (98 they@n_-_pr-they_le 1.04 0 1
+     ("“they" 93
+      "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“they\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (457 ^HD-CMP_U_C 3.02817 1 4
+   (115 be_c_are_cx_2@v_prd_are-cx_le 0.425042 1 2
+    ("’re" 84
+     "token [ +CARG #1=\"’re\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90743629999999997\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (456 N-J_J-CPD_C 2.62722 2 4
+    (120 dead_n1@n_-_c-pl-def_le 0 2 3
+     ("dead" 83
+      "token [ +CARG #1=\"dead\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68584400000000001\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (455 ^W_DQRIGHT_PLR 2.62722 3 4
+     (454 W_PERIOD_PLR 0.57133 3 4
+      (164 wrong_a2@aj_-_i_le 0 3 4
+       ("wrong.”" 85
+        "token [ +CARG \"wrong\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"wrong.”\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89445620000000003\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP (NP "“they")))
+ (VP (V "’re") (AP (N "dead") (AP (AP (AP "wrong.”"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ compound<9:21>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<9:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _dead_n_1<9:13>
+            LBL: h14
+            ARG0: x9 ]
+          [ _wrong_a_with<14:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:5>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:5>[BV x5]
+ e10:compound<9:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x9]
+ _2:udef_q<9:13>[BV x9]
+ x9:_dead_n_1<9:13>{x PERS 3, NUM pl, IND +}[]
+ e3:_wrong_a_with<14:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:5> BV pron<0:5>  
+  compound<9:21> ARG1 _wrong_a_with<14:21>  
+  compound<9:21> ARG2 _dead_n_1<9:13>  
+  udef_q<9:13> BV _dead_n_1<9:13>  
+  _wrong_a_with<14:21> ARG1 pron<0:5>  
+  pron<0:5> PERS 3  
+  pron<0:5> NUM pl  
+  pron<0:5> PT std  
+  compound<9:21> SF prop  
+  compound<9:21> TENSE untensed  
+  compound<9:21> MOOD indicative  
+  compound<9:21> PROG -  
+  compound<9:21> PERF -  
+  _dead_n_1<9:13> PERS 3  
+  _dead_n_1<9:13> NUM pl  
+  _dead_n_1<9:13> IND +  
+  _wrong_a_with<14:21> SF prop  
+  _wrong_a_with<14:21> TENSE pres  
+  _wrong_a_with<14:21> MOOD indicative  
+  _wrong_a_with<14:21> PROG -  
+  _wrong_a_with<14:21> PERF -  
+}
+

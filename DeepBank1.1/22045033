@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj20c';
+;;; (wsun@wsun; 23-jan-2018 (05:19 h)).
+;;;
+
+[22045033] (1 of 1) {1} `November gasoline slipped slightly.'
+
+[22045033:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "November", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:17>, 1, "gasoline", 0, "null", "NN" 1.0)
+  (3, 2, 3, <18:25>, 1, "slipped", 0, "null", "VBD" 0.9712 "VBN" 0.0288)
+  (4, 3, 4, <26:34>, 1, "slightly", 0, "null", "RB" 1.0)
+  (5, 4, 5, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:8>, 1, "November", 0, "null")
+  (61, 0, 1, <0:8>, 1, "november", 0, "null")
+  (65, 0, 1, <0:8>, 1, "november", 0, "null")
+  (52, 1, 2, <9:17>, 1, "gasoline", 0, "null")
+  (59, 1, 2, <9:17>, 1, "gasoline", 0, "null", "NN" 1.0)
+  (62, 1, 2, <9:17>, 1, "gasoline", 0, "null")
+  (55, 2, 3, <18:25>, 1, "slipped", 0, "null")
+  (58, 2, 3, <18:25>, 1, "slipped", 0, "null", "VBD" 0.9712)
+  (64, 2, 3, <18:25>, 1, "slipped", 0, "null")
+  (54, 3, 4, <26:35>, 1, "slightly.", 0, "null")
+  (60, 3, 4, <26:35>, 1, "slightly.", 0, "null", "RB" 1.0)
+  (63, 3, 4, <26:35>, 1, "slightly.", 0, "null")
+>
+
+(ROOT_STRICT
+ (795 SB-HD_MC_C 3.82417 0 4
+  (791 HDN_BNP_C 0.253095 0 2
+   (790 NP-HDN_CPD_C 0.976395 0 2
+    (788 HDN_BNP-PN_C 1.70606 0 1
+     (67 november@n_-_c-month_le 0 0 1
+      ("november" 61
+       "token [ +CARG \"November\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"november\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (789 ^N_MS_ILR -0.388307 1 2
+     (68 gasoline_n1@n_-_m_le 0 1 2
+      ("gasoline" 52
+       "token [ +CARG #1=\"gasoline\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (794 ^HD-AJ_INT-UNSL_C 2.73097 2 4
+   (792 ^V_PST_OLR 2.12962 2 3
+    (84 slip_v2@v_-_le 1.59568 2 3
+     ("slipped" 55
+      "token [ +CARG #1=\"slipped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97115260000000003\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (793 W_PERIOD_PLR 0.601349 3 4
+    (251 slightly@av_-_i-vp_le 0 3 4
+     ("slightly." 54
+      "token [ +CARG \"slightly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"slightly.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (NP (N "november")) (N (N "gasoline"))))
+ (VP (VP (V "slipped")) (ADV (ADV "slightly."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ mofy<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Nov" ]
+          [ _gasoline_n_1<9:17>
+            LBL: h8
+            ARG0: x6 ]
+          [ _slip_v_2<18:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _slight_a_1<26:35>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:17>[BV x6]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:mofy<0:8>("Nov"){x IND +}[]
+ x6:_gasoline_n_1<9:17>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_slip_v_2<18:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_slight_a_1<26:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  udef_q<0:17> BV _gasoline_n_1<9:17>  
+  compound<0:17> ARG1 _gasoline_n_1<9:17>  
+  compound<0:17> ARG2 mofy<0:8>(Nov)  
+  proper_q<0:8> BV mofy<0:8>(Nov)  
+  _slip_v_2<18:25> ARG1 _gasoline_n_1<9:17>  
+  _slight_a_1<26:35> ARG1 _slip_v_2<18:25>  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  mofy<0:8>(Nov) IND +  
+  _gasoline_n_1<9:17> PERS 3  
+  _gasoline_n_1<9:17> NUM sg  
+  _gasoline_n_1<9:17> GEND n  
+  _gasoline_n_1<9:17> IND -  
+  _slip_v_2<18:25> SF prop  
+  _slip_v_2<18:25> TENSE past  
+  _slip_v_2<18:25> MOOD indicative  
+  _slip_v_2<18:25> PROG -  
+  _slip_v_2<18:25> PERF -  
+  _slight_a_1<26:35> SF prop  
+  _slight_a_1<26:35> TENSE untensed  
+  _slight_a_1<26:35> MOOD indicative  
+  _slight_a_1<26:35> PROG -  
+  _slight_a_1<26:35> PERF -  
+}
+

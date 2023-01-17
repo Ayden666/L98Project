@@ -1,0 +1,131 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:20 h)).
+;;;
+
+[21635004] (1 of 1) {1} `And there's more.'
+
+[21635004:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:9>, 1, "there", 0, "null", "EX" 0.9846 "RB" 0.0154)
+  (3, 2, 3, <9:11>, 1, "’s", 0, "null", "VBZ" 0.99 "NNS" 0.01)
+  (4, 3, 4, <12:16>, 1, "more", 0, "null", "JJR" 0.8748 "RBR" 0.1252)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:3>, 1, "and", 0, "null")
+  (67, 0, 1, <0:3>, 1, "and", 0, "null")
+  (55, 1, 2, <4:9>, 1, "there", 0, "null")
+  (64, 1, 2, <4:9>, 1, "there", 0, "null")
+  (57, 2, 3, <9:11>, 1, "’s", 0, "null")
+  (61, 2, 3, <9:11>, 1, "’s", 0, "null", "VBZ" 0.99)
+  (65, 2, 3, <9:11>, 1, "’s", 0, "null")
+  (59, 3, 4, <12:17>, 1, "more.", 0, "null")
+  (62, 3, 4, <12:17>, 1, "more.", 0, "null", "JJR" 0.8748)
+  (66, 3, 4, <12:17>, 1, "more.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (600 CL_CNJ-FRG_C 4.20979 0 4
+  (599 MRK-NH_CL_C 3.33991 0 4
+   (71 and_conj@c_xp_and_le -0.28157 0 1
+    ("and" 63
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (598 SB-HD_MC_C 3.43271 1 4
+    (87 there_expl@n_-_pr-there-x_le 1.27809 1 2
+     ("there" 55
+      "token [ +CARG #1=\"there\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98456580000000005\" +TAG \"EX\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (597 ^HD_OPTCMP_C 1.98433 2 4
+     (596 HD-CMP_U_C 0.428578 2 4
+      (103 be_th_cop_is_cx_3@v_np-xp_is-cx_le -0.0344486 2 3
+       ("’s" 57
+        "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9899869\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (595 HDN_BNP-QNT_C 0.463027 3 4
+       (594 NUM_PRT-NC_C 1.72212 3 4
+        (593 HD_OPTCMP_C 0.996623 3 4
+         (592 W_PERIOD_PLR 0.790901 3 4
+          (253 more_adj@aj_pp_i-more_le 0.209782 3 4
+           ("more." 59
+            "token [ +CARG \"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"more.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87483549999999999\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (S (CONJ "and")
+  (S (NP-X "there")
+   (VP (V (V "’s") (NP (N (ADJ (ADJ (ADJ "more."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _and_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _be_v_there<9:11>
+            LBL: h8
+            ARG0: e4
+            ARG1: x9 [ x GEND: N ] ]
+          [ generic_entity<12:17>
+            LBL: h10
+            ARG0: x9 ]
+          [ udef_q<12:17>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ much-many_a<12:17>
+            LBL: h10
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ comp<12:17>
+            LBL: h10
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e14
+            ARG2: u15 ] >
+   HCONS: < h12 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:_and_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ e4:_be_v_there<9:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:generic_entity<12:17>{x GEND n}[]
+ _1:udef_q<12:17>[BV x9]
+ e14:much-many_a<12:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e16:comp<12:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+}
+
+{
+  _and_c<0:3> R-HNDL _be_v_there<9:11>  
+  _and_c<0:3> R-INDEX _be_v_there<9:11>  
+  _be_v_there<9:11> ARG1 generic_entity<12:17>  
+  udef_q<12:17> BV generic_entity<12:17>  
+  much-many_a<12:17> ARG1 generic_entity<12:17>  
+  comp<12:17> ARG1 much-many_a<12:17>  
+  _and_c<0:3> SF prop  
+  _and_c<0:3> TENSE untensed  
+  _and_c<0:3> MOOD indicative  
+  _and_c<0:3> PROG -  
+  _and_c<0:3> PERF -  
+  _be_v_there<9:11> SF prop  
+  _be_v_there<9:11> TENSE pres  
+  _be_v_there<9:11> MOOD indicative  
+  _be_v_there<9:11> PROG -  
+  _be_v_there<9:11> PERF -  
+  generic_entity<12:17> GEND n  
+  much-many_a<12:17> SF prop  
+  much-many_a<12:17> TENSE untensed  
+  much-many_a<12:17> MOOD indicative  
+  much-many_a<12:17> PROG -  
+  much-many_a<12:17> PERF -  
+  comp<12:17> SF prop  
+  comp<12:17> TENSE untensed  
+  comp<12:17> MOOD indicative  
+  comp<12:17> PROG -  
+  comp<12:17> PERF -  
+}
+

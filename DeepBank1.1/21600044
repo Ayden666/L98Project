@@ -1,0 +1,78 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (00:52 h)).
+;;;
+
+[21600044] (1 of 1) {1} `They include:'
+
+[21600044:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:12>, 1, "include", 0, "null", "VBP" 0.8367 "VB" 0.1633)
+  (3, 2, 3, <12:13>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (38, 0, 1, <0:4>, 1, "they", 0, "null")
+  (41, 0, 1, <0:4>, 1, "they", 0, "null")
+  (34, 1, 2, <5:12>, 1, "include", 0, "null")
+  (36, 1, 2, <5:12>, 1, "include", 0, "null", "VBP" 0.8367)
+  (37, 1, 2, <5:12>, 1, "include", 0, "null", "VB" 0.1633)
+  (40, 1, 2, <5:12>, 1, "include", 0, "null")
+  (33, 2, 3, <12:13>, 1, ":", 0, "null")
+  (39, 2, 3, <12:13>, 1, ":", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (162 SB-HD_MC_C 0.143711 0 3
+  (160 HDN_BNP-QNT_C 1.15641 0 1
+   (42 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 38
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (161 ^V_N3S-BSE_ILR -1.0127 1 3
+   (98 include_v3@v_-_le 0 1 3
+    ("include :" 34
+     "token [ +CARG #1=\"include\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83665160000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+     33
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (NP (NP "they")) (VP (V "include :")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _include_v_1<5:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_include_v_1<5:13>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _include_v_1<5:13> ARG1 pron<0:4>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _include_v_1<5:13> SF prop  
+  _include_v_1<5:13> TENSE pres  
+  _include_v_1<5:13> MOOD indicative  
+  _include_v_1<5:13> PROG -  
+  _include_v_1<5:13> PERF -  
+}
+

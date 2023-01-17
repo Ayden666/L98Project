@@ -1,0 +1,111 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:00 h)).
+;;;
+
+[22013015] (1 of 1) {1} `The woman had nearly died.'
+
+[22013015:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "woman", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:13>, 1, "had", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <14:20>, 1, "nearly", 0, "null", "RB" 1.0)
+  (5, 4, 5, <21:25>, 1, "died", 0, "null", "VBN" 0.8445 "VBD" 0.1555)
+  (6, 5, 6, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:3>, 1, "the", 0, "null")
+  (78, 0, 1, <0:3>, 1, "the", 0, "null")
+  (61, 1, 2, <4:9>, 1, "woman", 0, "null")
+  (69, 1, 2, <4:9>, 1, "woman", 0, "null", "NN" 1.0)
+  (74, 1, 2, <4:9>, 1, "woman", 0, "null")
+  (63, 2, 3, <10:13>, 1, "had", 0, "null")
+  (70, 2, 3, <10:13>, 1, "had", 0, "null", "VBD" 1.0)
+  (75, 2, 3, <10:13>, 1, "had", 0, "null")
+  (65, 3, 4, <14:20>, 1, "nearly", 0, "null")
+  (71, 3, 4, <14:20>, 1, "nearly", 0, "null", "RB" 1.0)
+  (76, 3, 4, <14:20>, 1, "nearly", 0, "null")
+  (66, 4, 5, <21:26>, 1, "died.", 0, "null")
+  (68, 4, 5, <21:26>, 1, "died.", 0, "null", "VBN" 0.8445)
+  (72, 4, 5, <21:26>, 1, "died.", 0, "null", "VBD" 0.1555)
+  (77, 4, 5, <21:26>, 1, "died.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1174 SB-HD_MC_C 6.77041 0 5
+  (1169 SP-HD_N_C 2.14135 0 2
+   (91 the_1@d_-_the_le 1.13181 0 1
+    ("the" 73
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1168 ^N_SG_ILR 0.055293 1 2
+    (116 woman1@n_-_c_le 0 1 2
+     ("woman" 61
+      "token [ +CARG #1=\"woman\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1173 ^HD-CMP_U_C 2.67454 2 5
+   (118 had_aux@v_vp_had_le 1.77636 2 3
+    ("had" 63
+     "token [ +CARG #1=\"had\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1172 AJ-HD_INT_C 0.228527 3 5
+    (218 nearly_adv1@av_-_i-vp-pr_le -0.0757253 3 4
+     ("nearly" 65
+      "token [ +CARG #1=\"nearly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1171 ^W_PERIOD_PLR -0.0484163 4 5
+     (1170 V_PSP_OLR 0.0153204 4 5
+      (245 die_v1@v_-_unacc_le 0 4 5
+       ("died." 66
+        "token [ +CARG \"died\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"died.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.844472\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "the") (N (N "woman")))
+ (VP (V "had") (VP (ADV "nearly") (VP (VP (V "died."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _woman_n_1<4:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _near_a_to<14:20>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _die_v_1<21:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_woman_n_1<4:9>{x PERS 3, NUM sg, IND +}[]
+ e9:_near_a_to<14:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_die_v_1-fn.Death<21:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF +}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _woman_n_1<4:9>  
+  _near_a_to<14:20> ARG1 _die_v_1<21:26>  
+  _die_v_1<21:26> ARG1 _woman_n_1<4:9>  
+  _woman_n_1<4:9> PERS 3  
+  _woman_n_1<4:9> NUM sg  
+  _woman_n_1<4:9> IND +  
+  _near_a_to<14:20> SF prop  
+  _near_a_to<14:20> TENSE untensed  
+  _near_a_to<14:20> MOOD indicative  
+  _near_a_to<14:20> PROG -  
+  _near_a_to<14:20> PERF -  
+  _die_v_1<21:26> SF prop  
+  _die_v_1<21:26> TENSE past  
+  _die_v_1<21:26> MOOD indicative  
+  _die_v_1<21:26> PROG -  
+  _die_v_1<21:26> PERF +  
+}
+

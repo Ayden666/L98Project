@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj16f';
+;;; (wsun@wsun; 23-jan-2018 (01:56 h)).
+;;;
+
+[21698006] (1 of 1) {1} `He was turning himself in.'
+
+[21698006:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <7:14>, 1, "turning", 0, "null", "VBG" 1.0)
+  (4, 3, 4, <15:22>, 1, "himself", 0, "null", "PRP" 1.0)
+  (5, 4, 5, <23:25>, 1, "in", 0, "null", "IN" 0.577 "RP" 0.4123 "RB" 0.0107)
+  (6, 5, 6, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:2>, 1, "he", 0, "null")
+  (77, 0, 1, <0:2>, 1, "he", 0, "null")
+  (63, 1, 2, <3:6>, 1, "was", 0, "null")
+  (70, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (73, 1, 2, <3:6>, 1, "was", 0, "null")
+  (65, 2, 3, <7:14>, 1, "turning", 0, "null")
+  (71, 2, 3, <7:14>, 1, "turning", 0, "null", "VBG" 1.0)
+  (74, 2, 3, <7:14>, 1, "turning", 0, "null")
+  (67, 3, 4, <15:22>, 1, "himself", 0, "null")
+  (75, 3, 4, <15:22>, 1, "himself", 0, "null")
+  (68, 4, 5, <23:26>, 1, "in.", 0, "null")
+  (76, 4, 5, <23:26>, 1, "in.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1461 SB-HD_MC_C 9.04997 0 5
+  (1454 HDN_BNP-QNT_C 1.50958 0 1
+   (78 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 72
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1460 ^HD-CMP_U_C 6.27104 1 5
+   (95 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 63
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1459 HD-CMP_U_C 4.16354 2 5
+    (1457 ^HD-CMP_U_C 2.82163 2 4
+     (1455 ^V_PRP_OLR 0.794975 2 3
+      (119 turn_in_v1@v_p-np_le 0 2 3
+       ("turning" 65
+        "token [ +CARG #1=\"turning\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1456 HDN_BNP-QNT_C 1.18172 3 4
+      (157 himself@n_-_pr-himself_le 0.6254 3 4
+       ("himself" 67
+        "token [ +CARG #1=\"himself\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1458 W_PERIOD_PLR 1.23981 4 5
+     (181 in_prtcl@p_np_ptcl_le 0 4 5
+      ("in." 68
+       "token [ +CARG \"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"in.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.57700019999999996\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "he"))
+ (VP (V "was")
+  (VP (V (V (V "turning")) (NP (NP "himself"))) (P (P "in.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _turn_v_in<7:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: M PT: REFL ] ]
+          [ pron<15:22>
+            LBL: h10
+            ARG0: x9 ]
+          [ pronoun_q<15:22>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ] >
+   HCONS: < h12 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_turn_v_in<7:14>{e SF prop, TENSE past, MOOD indicative, PROG +, PERF -}[ARG1 x5, ARG2 x9]
+ x9:pron<15:22>{x PERS 3, NUM sg, GEND m, PT refl}[]
+ _2:pronoun_q<15:22>[BV x9]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _turn_v_in<7:14> ARG1 pron<0:2>  
+  _turn_v_in<7:14> ARG2 pron<15:22>  
+  pronoun_q<15:22> BV pron<15:22>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _turn_v_in<7:14> SF prop  
+  _turn_v_in<7:14> TENSE past  
+  _turn_v_in<7:14> MOOD indicative  
+  _turn_v_in<7:14> PROG +  
+  _turn_v_in<7:14> PERF -  
+  pron<15:22> PERS 3  
+  pron<15:22> NUM sg  
+  pron<15:22> GEND m  
+  pron<15:22> PT refl  
+}
+

@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj21a';
+;;; (wsun@wsun; 23-jan-2018 (05:57 h)).
+;;;
+
+[22102004] (1 of 1) {1} `Numerous injuries were reported.'
+
+[22102004:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Numerous", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <9:17>, 1, "injuries", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <23:31>, 1, "reported", 0, "null", "VBN" 0.9324 "VBD" 0.0557 "JJ" 0.012)
+  (5, 4, 5, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:8>, 1, "Numerous", 0, "null", "JJ" 1.0)
+  (63, 0, 1, <0:8>, 1, "numerous", 0, "null")
+  (67, 0, 1, <0:8>, 1, "numerous", 0, "null")
+  (54, 1, 2, <9:17>, 1, "injuries", 0, "null")
+  (61, 1, 2, <9:17>, 1, "injuries", 0, "null", "NNS" 1.0)
+  (64, 1, 2, <9:17>, 1, "injuries", 0, "null")
+  (56, 2, 3, <18:22>, 1, "were", 0, "null")
+  (62, 2, 3, <18:22>, 1, "were", 0, "null", "VBD" 1.0)
+  (65, 2, 3, <18:22>, 1, "were", 0, "null")
+  (57, 3, 4, <23:32>, 1, "reported.", 0, "null")
+  (59, 3, 4, <23:32>, 1, "reported.", 0, "null", "VBN" 0.9324)
+  (66, 3, 4, <23:32>, 1, "reported.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1107 SB-HD_MC_C 4.41469 0 4
+  (1102 HDN_BNP_C 1.14325 0 2
+   (1101 AJ-HDN_NORM_C 0.40875 0 2
+    (75 numerous_a1@aj_-_i_le 0 0 1
+     ("numerous" 63
+      "token [ +CARG \"Numerous\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"numerous\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1100 ^N_PL_OLR -0.184526 1 2
+     (80 injury_n1@n_-_mc_le 0 1 2
+      ("injuries" 54
+       "token [ +CARG #1=\"injuries\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1106 ^HD-CMP_U_C 1.75553 2 4
+   (97 be_c_were@v_prd_wre_le 1.64781 2 3
+    ("were" 56
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1105 HD_OPTCMP_C 0.285111 3 4
+    (1104 W_PERIOD_PLR 0.133685 3 4
+     (1103 V_PAS_ODLR -0.192154 3 4
+      (142 report_v2@v_np*_le 0 3 4
+       ("reported." 57
+        "token [ +CARG \"reported\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"reported.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93236269999999999\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (AP "numerous") (N (N "injuries"))))
+ (VP (V "were") (VP (V (V (V "reported."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _numerous_a_1<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _injury_n_1<9:17>
+            LBL: h8
+            ARG0: x6 ]
+          [ _report_v_to<23:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: i10
+            ARG2: x6 ]
+          [ parg_d<23:32>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:17>[BV x6]
+ e9:_numerous_a_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_injury_n_1<9:17>{x PERS 3, NUM pl}[]
+ e3:_report_v_to-fn.Statement<23:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e11:parg_d<23:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:17> BV _injury_n_1<9:17>  
+  _numerous_a_1<0:8> ARG1 _injury_n_1<9:17>  
+  _report_v_to<23:32> ARG2 _injury_n_1<9:17>  
+  parg_d<23:32> ARG1 _report_v_to<23:32>  
+  parg_d<23:32> ARG2 _injury_n_1<9:17>  
+  _numerous_a_1<0:8> SF prop  
+  _numerous_a_1<0:8> TENSE untensed  
+  _numerous_a_1<0:8> MOOD indicative  
+  _numerous_a_1<0:8> PROG -  
+  _numerous_a_1<0:8> PERF -  
+  _injury_n_1<9:17> PERS 3  
+  _injury_n_1<9:17> NUM pl  
+  _report_v_to<23:32> SF prop  
+  _report_v_to<23:32> TENSE past  
+  _report_v_to<23:32> MOOD indicative  
+  _report_v_to<23:32> PROG -  
+  _report_v_to<23:32> PERF -  
+  parg_d<23:32> SF prop  
+  parg_d<23:32> TENSE untensed  
+  parg_d<23:32> MOOD indicative  
+  parg_d<23:32> PROG -  
+  parg_d<23:32> PERF -  
+}
+

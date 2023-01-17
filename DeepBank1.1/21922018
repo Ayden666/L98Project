@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj19a';
+;;; (wsun@wsun; 23-jan-2018 (04:06 h)).
+;;;
+
+[21922018] (1 of 1) {1} `It's a danger.'
+
+[21922018:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9887 "NNS" 0.0113)
+  (3, 2, 3, <5:6>, 1, "a", 0, "null", "DT" 1.0)
+  (4, 3, 4, <7:13>, 1, "danger", 0, "null", "NN" 1.0)
+  (5, 4, 5, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:2>, 1, "it", 0, "null")
+  (63, 0, 1, <0:2>, 1, "it", 0, "null")
+  (55, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (57, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9887)
+  (62, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (52, 2, 3, <5:6>, 1, "a", 0, "null")
+  (60, 2, 3, <5:6>, 1, "a", 0, "null")
+  (54, 3, 4, <7:14>, 1, "danger.", 0, "null")
+  (58, 3, 4, <7:14>, 1, "danger.", 0, "null", "NN" 1.0)
+  (61, 3, 4, <7:14>, 1, "danger.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (522 SB-HD_MC_C 1.52565 0 4
+  (517 HDN_BNP-QNT_C 0.430464 0 1
+   (65 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 59
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (521 ^HD-CMP_U_C -0.174166 1 4
+   (89 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+    ("’s" 55
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98870389999999997\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (520 SP-HD_N_C 0.217026 2 4
+    (243 a_det@d_-_sg-nmd_le -0.667877 2 3
+     ("a" 52
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (519 ^W_PERIOD_PLR 0.459703 3 4
+     (518 N_MS-CNT_ILR 0.282475 3 4
+      (316 danger_n1@n_-_mc-ns_le 0 3 4
+       ("danger." 54
+        "token [ +CARG \"danger\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"danger.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "it")) (VP (V "’s") (NP (DET "a") (N (N (N "danger."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<2:4>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<5:6>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _danger_n_1<7:14>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_be_v_id<2:4>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_a_q<5:6>[BV x9]
+ x9:_danger_n_1<7:14>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _be_v_id<2:4> ARG1 pron<0:2>  
+  _be_v_id<2:4> ARG2 _danger_n_1<7:14>  
+  _a_q<5:6> BV _danger_n_1<7:14>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _be_v_id<2:4> SF prop  
+  _be_v_id<2:4> TENSE pres  
+  _be_v_id<2:4> MOOD indicative  
+  _be_v_id<2:4> PROG -  
+  _be_v_id<2:4> PERF -  
+  _danger_n_1<7:14> PERS 3  
+  _danger_n_1<7:14> NUM sg  
+}
+

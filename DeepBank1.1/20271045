@@ -1,0 +1,186 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:30 h)).
+;;;
+
+[20271045] (1 of 1) {1} `Diesel Kiki Co. (Japan) --'
+
+[20271045:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Diesel", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:11>, 1, "Kiki", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:15>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <16:17>, 1, "(", 0, "null", "(" 1.0)
+  (5, 4, 5, <17:22>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <22:23>, 1, ")", 0, "null", ")" 1.0)
+  (7, 6, 7, <24:26>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (84, 0, 1, <0:6>, 1, "Diesel", 0, "null")
+  (90, 0, 1, <0:6>, 1, "diesel", 0, "null")
+  (96, 0, 1, <0:6>, 1, "diesel", 0, "null")
+  (67, 1, 2, <7:11>, 1, "Kiki", 0, "null")
+  (85, 1, 2, <7:11>, 1, "Kiki", 0, "null", "NNP" 1.0)
+  (88, 1, 2, <7:11>, 1, "kiki", 0, "null")
+  (92, 1, 2, <7:11>, 1, "kiki", 0, "null")
+  (69, 2, 3, <12:15>, 1, "Co.", 0, "null")
+  (86, 2, 3, <12:15>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (89, 2, 3, <12:15>, 1, "co.", 0, "null")
+  (93, 2, 3, <12:15>, 1, "co.", 0, "null")
+  (73, 3, 4, <16:23>, 1, "(Japan)", 0, "null")
+  (87, 3, 4, <16:23>, 1, "(Japan)", 0, "null", "NNP" 1.0)
+  (91, 3, 4, <16:23>, 1, "(japan)", 0, "null")
+  (94, 3, 4, <16:23>, 1, "(japan)", 0, "null")
+  (81, 4, 5, <24:26>, 1, "–", 0, "null")
+  (95, 4, 5, <24:26>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (1126 NP_FRG_C 7.22244 0 5
+  (1125 HDN-N_PRNTH_C 7.08067 0 5
+   (1120 ^HDN_BNP-PN_C 4.50756 0 3
+    (1119 HDN-AJ_REDREL_C 3.92163 0 3
+     (1116 ^NP-HDN_NME-CPD_C 0.791667 0 2
+      (1114 HDN_BNP-PN_C 0.078607 0 1
+       (1113 N_SG_ILR -0.386912 0 1
+        (100 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Diesel" 84
+          "token [ +CARG #1=\"Diesel\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1115 ^N_SG_ILR -0.648748 1 2
+       (104 kiki_n1@n_-_pn_le 0 1 2
+        ("kiki" 88
+         "token [ +CARG \"Kiki\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"kiki\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1118 W_PERIOD_PLR 2.36284 2 3
+      (1117 N_SG_ILR 1.30395 2 3
+       (115 co_post_ttl@n_-_tt-post_le 1.97728 2 3
+        ("co." 89
+         "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (1124 HD-PCT_C 2.29119 3 5
+    (1123 ^W_LPAREN_PLR 0.26591 3 4
+     (1122 W_RPAREN_PLR 0.225132 3 4
+      (1121 N_SG_ILR -0.729962 3 4
+       (147 japan_n1@n_-_pn_le 0 3 4
+        ("(japan)" 91
+         "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(japan)\" +FROM \"16\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"17\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (154 s_dbl_dash_pct@pt_-_s-dash_le 1.48236 4 5
+     ("–" 81
+      "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP
+  (NP (N (N (NP (N (N "Diesel"))) (N (N "kiki"))) (N (N (N "co.")))))
+  (N (N (N (N (N "(japan)")))) (PNCT "–"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:26>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ parenthetical<0:26>
+            LBL: h2
+            ARG0: i6
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<16:26>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ proper_q<0:15>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<0:11>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<0:6>
+            LBL: h19
+            ARG0: x14
+            CARG: "Diesel" ]
+          [ named<7:11>
+            LBL: h13
+            ARG0: x4
+            CARG: "Kiki" ]
+          [ _company_n_1<12:15>
+            LBL: h20
+            ARG0: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<12:15>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<12:15>
+            LBL: h13
+            ARG0: i25
+            ARG1: x4
+            ARG2: x21 ]
+          [ named<16:23>
+            LBL: h26
+            ARG0: x5
+            CARG: "Japan" ] >
+   HCONS: < h23 QEQ h20 h17 QEQ h19 h11 QEQ h13 h8 QEQ h26 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:26>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ i6:parenthetical<0:26>{i}[ARG1 x4, ARG2 x5]
+ _1:udef_q<16:26>[BV x5]
+ _2:proper_q<0:15>[BV x4]
+ e15:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x14]
+ _3:proper_q<0:6>[BV x14]
+ x14:named<0:6>("Diesel"){x PERS 3, NUM sg, IND +}[]
+ x4:named<7:11>("Kiki"){x PERS 3, NUM sg, IND +}[]
+ x21:_company_n_1<12:15>{x PERS 3, NUM sg, IND +}[]
+ _4:udef_q<12:15>[BV x21]
+ i25:compound<12:15>{i}[ARG1 x4, ARG2 x21]
+ x5:named<16:23>("Japan"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:26> ARG named<7:11>(Kiki)  
+  parenthetical<0:26> ARG1 named<7:11>(Kiki)  
+  parenthetical<0:26> ARG2 named<16:23>(Japan)  
+  udef_q<16:26> BV named<16:23>(Japan)  
+  proper_q<0:15> BV named<7:11>(Kiki)  
+  compound<0:11> ARG1 named<7:11>(Kiki)  
+  compound<0:11> ARG2 named<0:6>(Diesel)  
+  proper_q<0:6> BV named<0:6>(Diesel)  
+  udef_q<12:15> BV _company_n_1<12:15>  
+  compound<12:15> ARG1 named<7:11>(Kiki)  
+  compound<12:15> ARG2 _company_n_1<12:15>  
+  unknown<0:26> SF prop-or-ques  
+  unknown<0:26> TENSE untensed  
+  unknown<0:26> MOOD indicative  
+  unknown<0:26> PROG -  
+  unknown<0:26> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:6>(Diesel) PERS 3  
+  named<0:6>(Diesel) NUM sg  
+  named<0:6>(Diesel) IND +  
+  named<7:11>(Kiki) PERS 3  
+  named<7:11>(Kiki) NUM sg  
+  named<7:11>(Kiki) IND +  
+  _company_n_1<12:15> PERS 3  
+  _company_n_1<12:15> NUM sg  
+  _company_n_1<12:15> IND +  
+  named<16:23>(Japan) PERS 3  
+  named<16:23>(Japan) NUM sg  
+  named<16:23>(Japan) IND +  
+}
+

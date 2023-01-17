@@ -1,0 +1,75 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:39 h)).
+;;;
+
+[21057058] (1 of 1) {1} `Who cares?'
+
+[21057058:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Who", 0, "null", "WP" 1.0)
+  (2, 1, 2, <4:9>, 1, "cares", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <9:10>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (34, 0, 1, <0:3>, 1, "who", 0, "null")
+  (36, 0, 1, <0:3>, 1, "who", 0, "null")
+  (32, 1, 2, <4:10>, 1, "cares?", 0, "null")
+  (33, 1, 2, <4:10>, 1, "cares?", 0, "null", "VBZ" 1.0)
+  (35, 1, 2, <4:10>, 1, "cares?", 0, "null")
+>
+
+(ROOT_STRICT
+ (132 FLR-HD_WH-MC-SB_C -0.0658118 0 2
+  (128 HDN_BNP-QNT_C -0.146686 0 1
+   (127 HDN_OPTCMP_C 0.506826 0 1
+    (37 who1@n_-_pr-who_le 0.235349 0 1
+     ("who" 34
+      "token [ +CARG \"Who\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"who\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (131 ^HD_XSB-FIN_C -0.151831 1 2
+   (130 W_QMARK_PLR -0.151831 1 2
+    (129 V_3S-FIN_OLR -0.151831 1 2
+     (52 care_v1@v_-_le 0 1 2
+      ("cares?" 32
+       "token [ +CARG \"cares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cares?\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "who"))) (S/NP (VP/NP (VP/NP (V/NP "cares?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ person<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ which_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _care_v_1<4:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:person<0:3>{x PERS 3, NUM sg}[]
+ _1:which_q<0:3>[BV x5]
+ e3:_care_v_1<4:10>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  which_q<0:3> BV person<0:3>  
+  _care_v_1<4:10> ARG1 person<0:3>  
+  person<0:3> PERS 3  
+  person<0:3> NUM sg  
+  _care_v_1<4:10> SF ques  
+  _care_v_1<4:10> TENSE pres  
+  _care_v_1<4:10> MOOD indicative  
+  _care_v_1<4:10> PROG -  
+  _care_v_1<4:10> PERF -  
+}
+

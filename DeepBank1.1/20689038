@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:38 h)).
+;;;
+
+[20689038] (1 of 1) {1} `DEFERRED ANNUITIES:'
+
+[20689038:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "DEFERRED", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <9:18>, 1, "ANNUITIES", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <18:19>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:8>, 1, "DEFERRED", 0, "null")
+  (39, 0, 1, <0:8>, 1, "DEFERRED", 0, "null", "JJ" 1.0)
+  (41, 0, 1, <0:8>, 1, "deferred", 0, "null")
+  (43, 0, 1, <0:8>, 1, "deferred", 0, "null")
+  (30, 1, 2, <9:18>, 1, "ANNUITIES", 0, "null")
+  (38, 1, 2, <9:18>, 1, "ANNUITIES", 0, "null", "NNS" 1.0)
+  (40, 1, 2, <9:18>, 1, "annuities", 0, "null")
+  (42, 1, 2, <9:18>, 1, "annuities", 0, "null")
+  (37, 2, 3, <18:19>, 1, ":", 0, "null")
+  (44, 2, 3, <18:19>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (397 NP-AJ_RORP-FRG_C 1.67031 0 3
+  (396 ^HDN_BNP_C 0.967831 0 2
+   (395 AJ-HDN_NORM_C -0.01202 0 2
+    (394 V_J-NB-PAS-TR_DLR -0.946021 0 1
+     (393 V_PAS_ODLR -0.478601 0 1
+      (53 defer_v1@v_np_le 0 0 1
+       ("deferred" 41
+        "token [ +CARG \"DEFERRED\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"deferred\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (113 generic_pl_noun@n_-_c-pl-unk_le 0 1 2
+     ("ANNUITIES" 38
+      "token [ +CARG #1=\"ANNUITIES\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_annuities/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (131 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+   (":" 37
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (AP (V (V "deferred"))) (N "ANNUITIES"))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _defer_v_1<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i10
+            ARG2: x4 ]
+          [ parg_d<0:8>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: x4 ]
+          [ _annuities/nns_u_unknown<9:18>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<18:19>
+            LBL: h2
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i12 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:18>[BV x4]
+ e9:_defer_v_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x4]
+ e11:parg_d<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x4]
+ x4:_annuities/nns_u_unknown<9:18>{x PERS 3, NUM pl}[]
+ e13:_colon_p_namely<18:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:19> ARG _annuities/nns_u_unknown<9:18>  
+  udef_q<0:18> BV _annuities/nns_u_unknown<9:18>  
+  _defer_v_1<0:8> ARG2 _annuities/nns_u_unknown<9:18>  
+  parg_d<0:8> ARG1 _defer_v_1<0:8>  
+  parg_d<0:8> ARG2 _annuities/nns_u_unknown<9:18>  
+  unknown<0:19> SF prop  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  _defer_v_1<0:8> SF prop  
+  _defer_v_1<0:8> TENSE untensed  
+  _defer_v_1<0:8> MOOD indicative  
+  _defer_v_1<0:8> PROG -  
+  _defer_v_1<0:8> PERF -  
+  parg_d<0:8> SF prop  
+  parg_d<0:8> TENSE untensed  
+  parg_d<0:8> MOOD indicative  
+  parg_d<0:8> PROG -  
+  parg_d<0:8> PERF -  
+  _annuities/nns_u_unknown<9:18> PERS 3  
+  _annuities/nns_u_unknown<9:18> NUM pl  
+  _colon_p_namely<18:19> SF prop  
+  _colon_p_namely<18:19> TENSE untensed  
+  _colon_p_namely<18:19> MOOD indicative  
+  _colon_p_namely<18:19> PROG -  
+  _colon_p_namely<18:19> PERF -  
+}
+

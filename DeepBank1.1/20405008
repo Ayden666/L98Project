@@ -1,0 +1,80 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:43 h)).
+;;;
+
+[20405008] (1 of 1) {1} `"Shocked."'
+
+[20405008:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:8>, 1, "Shocked", 0, "null", "VBN" 1.0)
+  (3, 2, 3, <8:9>, 1, ".", 0, "null", "." 1.0)
+  (4, 3, 4, <9:10>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (42, 0, 1, <0:10>, 1, "“Shocked.”", 0, "null", "VBN" 1.0)
+  (43, 0, 1, <0:10>, 1, "“shocked.”", 0, "null")
+  (44, 0, 1, <0:10>, 1, "“shocked.”", 0, "null")
+>
+
+(ROOT_FRAG
+ (868 J_FRG_C 2.23999 0 1
+  (867 W_DQLEFT_PLR 2.23999 0 1
+   (866 W_DQRIGHT_PLR 2.36648 0 1
+    (865 W_PERIOD_PLR 0.181473 0 1
+     (864 V_J-NB-PAS-TR_DLR -0.174596 0 1
+      (863 V_PAS_ODLR -0.160214 0 1
+       (155 shock_v1@v_np*_le 0 0 1
+        ("“shocked.”" 43
+         "token [ +CARG \"Shocked\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“shocked.”\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (AP (AP (AP (AP (V (V "“shocked.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: i4 ]
+          [ _shock_v_1<0:10>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i6
+            ARG2: i4 ]
+          [ parg_d<0:10>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e5
+            ARG2: i4 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_shock_v_1<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:parg_d<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5]
+}
+
+{
+  parg_d<0:10> ARG1 _shock_v_1<0:10>  
+  unknown<0:10> SF prop  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _shock_v_1<0:10> SF prop  
+  _shock_v_1<0:10> TENSE untensed  
+  _shock_v_1<0:10> MOOD indicative  
+  _shock_v_1<0:10> PROG -  
+  _shock_v_1<0:10> PERF -  
+  parg_d<0:10> SF prop  
+  parg_d<0:10> TENSE untensed  
+  parg_d<0:10> MOOD indicative  
+  parg_d<0:10> PROG -  
+  parg_d<0:10> PERF -  
+}
+

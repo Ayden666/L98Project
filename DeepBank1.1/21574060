@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:33 h)).
+;;;
+
+[21574060] (1 of 1) {1} `These are not certain, either.'
+
+[21574060:6] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "These", 0, "null", "DT" 1.0)
+  (2, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <10:13>, 1, "not", 0, "null", "RB" 1.0)
+  (4, 3, 4, <14:21>, 1, "certain", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <21:22>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <23:29>, 1, "either", 0, "null", "RB" 0.712 "CC" 0.2234 "DT" 0.0647)
+  (7, 6, 7, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (84, 0, 1, <0:5>, 1, "these", 0, "null")
+  (89, 0, 1, <0:5>, 1, "these", 0, "null")
+  (73, 1, 2, <6:9>, 1, "are", 0, "null")
+  (81, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (85, 1, 2, <6:9>, 1, "are", 0, "null")
+  (75, 2, 3, <10:13>, 1, "not", 0, "null")
+  (82, 2, 3, <10:13>, 1, "not", 0, "null", "RB" 1.0)
+  (86, 2, 3, <10:13>, 1, "not", 0, "null")
+  (77, 3, 4, <14:22>, 1, "certain,", 0, "null")
+  (83, 3, 4, <14:22>, 1, "certain,", 0, "null", "JJ" 1.0)
+  (87, 3, 4, <14:22>, 1, "certain,", 0, "null")
+  (78, 4, 5, <23:30>, 1, "either.", 0, "null")
+  (80, 4, 5, <23:30>, 1, "either.", 0, "null", "RB" 0.712)
+  (88, 4, 5, <23:30>, 1, "either.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1017 SB-HD_MC_C 0.463932 0 5
+  (990 HDN_BNP-QNT_C -0.768252 0 1
+   (989 HDN_OPTCMP_C -0.857026 0 1
+    (91 these_deix@n_-_pr-dei-pl_le -0.176535 0 1
+     ("these" 84
+      "token [ +CARG \"These\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"these\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1016 ^HD-AJ_INT-UNSL_C 0.652667 1 5
+   (1015 ^HD-CMP_U_C 0.960602 1 4
+    (94 be_c_are@v_prd_are_le 0.529967 1 2
+     ("are" 73
+      "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1014 AJ-HD_SCP-XP_C 0.224417 2 4
+     (140 not_prdp@av_-_s-not-prdp_le -0.691796 2 3
+      ("not" 75
+       "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (993 ^W_COMMA_PLR 0.631509 3 4
+      (248 certain_a4@aj_-_i_le 0 3 4
+       ("certain," 77
+        "token [ +CARG \"certain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"certain,\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (994 W_PERIOD_PLR -0.254701 4 5
+    (285 either_adv2@av_-_i-vp-po-nmb_le 0 4 5
+     ("either." 78
+      "token [ +CARG \"either\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"either.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.71195560000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N "these")))
+ (VP (VP (V "are") (AP (ADV "not") (AP (AP "certain,"))))
+  (ADV (ADV "either."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL ] ]
+          [ _these_q_dem<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<10:13>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _certain_a_of<14:22>
+            LBL: h11
+            ARG0: e3
+            ARG1: x5 ]
+          [ _either_a_also<23:30>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:generic_entity<0:5>{x PERS 3, NUM pl}[]
+ _1:_these_q_dem<0:5>[BV x5]
+ e10:neg<10:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_certain_a_of<14:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e12:_either_a_also<23:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _these_q_dem<0:5> BV generic_entity<0:5>  
+  neg<10:13> ARG1 _certain_a_of<14:22>  
+  _certain_a_of<14:22> ARG1 generic_entity<0:5>  
+  _either_a_also<23:30> ARG1 _certain_a_of<14:22>  
+  generic_entity<0:5> PERS 3  
+  generic_entity<0:5> NUM pl  
+  neg<10:13> SF prop  
+  neg<10:13> TENSE untensed  
+  neg<10:13> MOOD indicative  
+  neg<10:13> PROG -  
+  neg<10:13> PERF -  
+  _certain_a_of<14:22> SF prop  
+  _certain_a_of<14:22> TENSE pres  
+  _certain_a_of<14:22> MOOD indicative  
+  _certain_a_of<14:22> PROG -  
+  _certain_a_of<14:22> PERF -  
+  _either_a_also<23:30> SF prop  
+  _either_a_also<23:30> TENSE untensed  
+  _either_a_also<23:30> MOOD indicative  
+  _either_a_also<23:30> PROG -  
+  _either_a_also<23:30> PERF -  
+}
+

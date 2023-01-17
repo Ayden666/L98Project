@@ -1,0 +1,224 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:40 h)).
+;;;
+
+[20282037] (1 of 1) {1} `(Europe had proved even less hospitable than North America.'
+
+[20282037:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "(", 0, "null", "(" 1.0)
+  (2, 1, 2, <1:7>, 1, "Europe", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:11>, 1, "had", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <12:18>, 1, "proved", 0, "null", "VBN" 0.9329 "VBD" 0.0671)
+  (5, 4, 5, <19:23>, 1, "even", 0, "null", "RB" 1.0)
+  (6, 5, 6, <24:28>, 1, "less", 0, "null", "RBR" 0.9765 "JJR" 0.0235)
+  (7, 6, 7, <29:39>, 1, "hospitable", 0, "null", "JJ" 1.0)
+  (8, 7, 8, <40:44>, 1, "than", 0, "null", "IN" 1.0)
+  (9, 8, 9, <45:50>, 1, "North", 0, "null", "NNP" 0.9673 "JJ" 0.0327)
+  (10, 9, 10, <51:58>, 1, "America", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <58:59>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (131, 0, 1, <0:7>, 1, "(Europe", 0, "null")
+  (138, 0, 1, <0:7>, 1, "(europe", 0, "null")
+  (149, 0, 1, <0:7>, 1, "(europe", 0, "null")
+  (114, 1, 2, <8:11>, 1, "had", 0, "null")
+  (134, 1, 2, <8:11>, 1, "had", 0, "null", "VBD" 1.0)
+  (143, 1, 2, <8:11>, 1, "had", 0, "null")
+  (127, 2, 3, <12:18>, 1, "proved", 0, "null")
+  (133, 2, 3, <12:18>, 1, "proved", 0, "null", "VBN" 0.9329)
+  (147, 2, 3, <12:18>, 1, "proved", 0, "null")
+  (116, 3, 4, <19:23>, 1, "even", 0, "null")
+  (135, 3, 4, <19:23>, 1, "even", 0, "null", "RB" 1.0)
+  (144, 3, 4, <19:23>, 1, "even", 0, "null")
+  (129, 4, 5, <24:28>, 1, "less", 0, "null")
+  (148, 4, 5, <24:28>, 1, "less", 0, "null")
+  (118, 5, 6, <29:39>, 1, "hospitable", 0, "null")
+  (136, 5, 6, <29:39>, 1, "hospitable", 0, "null", "JJ" 1.0)
+  (145, 5, 6, <29:39>, 1, "hospitable", 0, "null")
+  (120, 6, 7, <40:44>, 1, "than", 0, "null")
+  (146, 6, 7, <40:44>, 1, "than", 0, "null")
+  (102, 7, 8, <45:50>, 1, "North", 0, "null")
+  (132, 7, 8, <45:50>, 1, "North", 0, "null", "NNP" 0.9673)
+  (140, 7, 8, <45:50>, 1, "north", 0, "null")
+  (141, 7, 8, <45:50>, 1, "north", 0, "null")
+  (106, 8, 9, <51:59>, 1, "America.", 0, "null")
+  (137, 8, 9, <51:59>, 1, "America.", 0, "null", "NNP" 1.0)
+  (139, 8, 9, <51:59>, 1, "america.", 0, "null")
+  (142, 8, 9, <51:59>, 1, "america.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5203 SB-HD_MC_C 7.81469 0 9
+  (5189 HDN_BNP-PN_C -1.0525 0 1
+   (5188 W_LPAREN_PLR -0.608404 0 1
+    (5187 N_SG_ILR -1.0146 0 1
+     (155 europe_n1@n_-_pn_le 0 0 1
+      ("(europe" 138
+       "token [ +CARG \"Europe\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"(europe\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (5202 ^HD-CMP_U_C 7.85014 1 9
+   (158 had_aux@v_vp_had_le 1.54076 1 2
+    ("had" 114
+     "token [ +CARG #1=\"had\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (5201 HD-CMP_U_C 5.3528 2 9
+    (5190 ^V_PSP_OLR 0.546107 2 3
+     (272 prove_v6@v_ap_seq_le 0 2 3
+      ("proved" 127
+       "token [ +CARG #1=\"proved\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93289900000000003\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (5200 HD-CMP_U_C 3.16723 3 9
+     (5192 ^SP-HD_HC_C 0.611966 3 6
+      (5191 SP-HD_HC-CMP_C 0.380168 3 5
+       (417 even_deg@av_-_dg-m_le 0.754944 3 4
+        ("even" 116
+         "token [ +CARG #1=\"even\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (429 less_deg@av_pp_dg-less_le -0.374776 4 5
+        ("less" 129
+         "token [ +CARG #1=\"less\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97651809999999994\" +TAG \"RBR\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (439 hospitable_a1@aj_-_i_le 0 5 6
+       ("hospitable" 118
+        "token [ +CARG #1=\"hospitable\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (5199 HD-CMP_U_C 1.87573 6 9
+      (459 than_p1_nc@p_np_ptcl-ngap_le 0.791378 6 7
+       ("than" 120
+        "token [ +CARG #1=\"than\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (5198 HDN_BNP-PN_C 1.85556 7 9
+       (5197 NP-HDN_NME-CPD_C 1.64619 7 9
+        (5194 HDN_BNP-PN_C 0.855566 7 8
+         (5193 N_SG_ILR 0.103131 7 8
+          (480 generic_proper_ne@n_-_pn-gen_le 0.490043 7 8
+           ("North" 102
+            "token [ +CARG #1=\"North\" +CLASS proper_ne +FORM #1 +FROM \"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96728139999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+        (5196 ^W_PERIOD_PLR -0.0750314 8 9
+         (5195 N_SG_ILR -0.629626 8 9
+          (492 america_n1@n_-_pn_le 0 8 9
+           ("america." 139
+            "token [ +CARG \"America\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"america.\" +FROM #1=\"51\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"59\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "(europe"))))
+ (VP (V "had")
+  (VP (V (V "proved"))
+   (AP (ADJ (ADV (ADV "even") (ADV "less")) (AP "hospitable"))
+    (PP (P "than")
+     (NP (N (NP (N (N "North"))) (N (N (N "america."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Europe" ]
+          [ _prove_v_to<12:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h9 ]
+          [ _even_x_deg<19:23>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ comp_less<24:28>
+            LBL: h10
+            ARG0: e12
+            ARG1: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _hospitable_a_1<29:39>
+            LBL: h10
+            ARG0: e14
+            ARG1: x6 ]
+          [ proper_q<45:59>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<45:59>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<45:50>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ named<45:50>
+            LBL: h24
+            ARG0: x19
+            CARG: "North" ]
+          [ named<51:59>
+            LBL: h18
+            ARG0: x13
+            CARG: "America" ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h9 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Europe"){x PERS 3, NUM sg, IND +}[]
+ e3:_prove_v_to-fn.Turning_out<12:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF +}[ARG1 x6, ARG2 e14]
+ e11:_even_x_deg<19:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:comp_less<24:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14, ARG2 x13]
+ e14:_hospitable_a_1<29:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ _2:proper_q<45:59>[BV x13]
+ e20:compound<45:59>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x19]
+ _3:proper_q<45:50>[BV x19]
+ x19:named<45:50>("North"){x PERS 3, NUM sg, IND +}[]
+ x13:named<51:59>("America"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Europe)  
+  _prove_v_to<12:18> ARG1 named<0:7>(Europe)  
+  _prove_v_to<12:18> ARG2 _hospitable_a_1<29:39>  
+  _even_x_deg<19:23> ARG1 comp_less<24:28>  
+  comp_less<24:28> ARG1 _hospitable_a_1<29:39>  
+  comp_less<24:28> ARG2 named<51:59>(America)  
+  _hospitable_a_1<29:39> ARG1 named<0:7>(Europe)  
+  proper_q<45:59> BV named<51:59>(America)  
+  compound<45:59> ARG1 named<51:59>(America)  
+  compound<45:59> ARG2 named<45:50>(North)  
+  proper_q<45:50> BV named<45:50>(North)  
+  named<0:7>(Europe) PERS 3  
+  named<0:7>(Europe) NUM sg  
+  named<0:7>(Europe) IND +  
+  _prove_v_to<12:18> SF prop  
+  _prove_v_to<12:18> TENSE past  
+  _prove_v_to<12:18> MOOD indicative  
+  _prove_v_to<12:18> PROG -  
+  _prove_v_to<12:18> PERF +  
+  _even_x_deg<19:23> SF prop  
+  _even_x_deg<19:23> TENSE untensed  
+  _even_x_deg<19:23> MOOD indicative  
+  _even_x_deg<19:23> PROG -  
+  _even_x_deg<19:23> PERF -  
+  comp_less<24:28> SF prop  
+  comp_less<24:28> TENSE untensed  
+  comp_less<24:28> MOOD indicative  
+  comp_less<24:28> PROG -  
+  comp_less<24:28> PERF -  
+  _hospitable_a_1<29:39> SF prop  
+  _hospitable_a_1<29:39> TENSE untensed  
+  _hospitable_a_1<29:39> MOOD indicative  
+  _hospitable_a_1<29:39> PROG -  
+  _hospitable_a_1<29:39> PERF -  
+  compound<45:59> SF prop  
+  compound<45:59> TENSE untensed  
+  compound<45:59> MOOD indicative  
+  compound<45:59> PROG -  
+  compound<45:59> PERF -  
+  named<45:50>(North) PERS 3  
+  named<45:50>(North) NUM sg  
+  named<45:50>(North) IND +  
+  named<51:59>(America) PERS 3  
+  named<51:59>(America) NUM sg  
+  named<51:59>(America) IND +  
+}
+

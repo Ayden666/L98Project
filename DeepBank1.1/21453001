@@ -1,0 +1,79 @@
+;;;
+;;; Redwoods export of `wsj14c';
+;;; (wsun@wsun; 22-jan-2018 (23:25 h)).
+;;;
+
+[21453001] (1 of 1) {1} `Diversification pays.'
+
+[21453001:0] (active)
+
+<
+  (1, 0, 1, <0:15>, 1, "Diversification", 0, "null", "NN" 1.0)
+  (2, 1, 2, <16:20>, 1, "pays", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:15>, 1, "Diversification", 0, "null")
+  (35, 0, 1, <0:15>, 1, "diversification", 0, "null")
+  (37, 0, 1, <0:15>, 1, "diversification", 0, "null")
+  (32, 1, 2, <16:21>, 1, "pays.", 0, "null")
+  (34, 1, 2, <16:21>, 1, "pays.", 0, "null", "VBZ" 1.0)
+  (36, 1, 2, <16:21>, 1, "pays.", 0, "null")
+>
+
+(ROOT_STRICT
+ (203 SB-HD_MC_C -1.49826 0 2
+  (198 HDN_BNP_C -0.084254 0 1
+   (197 N_MS-CNT_ILR 0.115822 0 1
+    (39 diversification_n1@n_-_mc_le 0 0 1
+     ("diversification" 35
+      "token [ +CARG \"Diversification\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"diversification\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (202 ^HD_OPTCMP_C -1.39355 1 2
+   (201 HD_OPTCMP_C -0.425088 1 2
+    (200 W_PERIOD_PLR -1.14914 1 2
+     (199 V_3S-FIN_OLR 0 1 2
+      (58 pay_v1@v_np*-np_le 0 1 2
+       ("pays." 32
+        "token [ +CARG \"pays\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pays.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "diversification"))) (VP (V (V (V (V "pays."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _diversification_n_1<0:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _pay_v_for<16:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i10
+            ARG3: i9 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:15>[BV x6]
+ x6:_diversification_n_1<0:15>{x PERS 3, NUM sg}[]
+ e3:_pay_v_for<16:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:15> BV _diversification_n_1<0:15>  
+  _pay_v_for<16:21> ARG1 _diversification_n_1<0:15>  
+  _diversification_n_1<0:15> PERS 3  
+  _diversification_n_1<0:15> NUM sg  
+  _pay_v_for<16:21> SF prop  
+  _pay_v_for<16:21> TENSE pres  
+  _pay_v_for<16:21> MOOD indicative  
+  _pay_v_for<16:21> PROG -  
+  _pay_v_for<16:21> PERF -  
+}
+

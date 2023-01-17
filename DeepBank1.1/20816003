@@ -1,0 +1,236 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:06 h)).
+;;;
+
+[20816003] (1 of 1) {1} `Long-term Treasury bonds ended slightly higher.'
+
+[20816003:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Long-term", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <10:18>, 1, "Treasury", 0, "null", "NNP" 0.8637 "NN" 0.1363)
+  (3, 2, 3, <19:24>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <25:30>, 1, "ended", 0, "null", "VBD" 0.9501 "VBN" 0.0499)
+  (5, 4, 5, <31:39>, 1, "slightly", 0, "null", "RB" 1.0)
+  (6, 5, 6, <40:46>, 1, "higher", 0, "null", "JJR" 0.8609 "RBR" 0.1391)
+  (7, 6, 7, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (94, 0, 1, <0:9>, 1, "Long-", 0, "null")
+  (101, 0, 1, <0:9>, 1, "long-", 0, "null")
+  (109, 0, 1, <0:9>, 1, "long-", 0, "null")
+  (87, 1, 2, <0:9>, 1, "term", 0, "null")
+  (99, 1, 2, <0:9>, 1, "term", 0, "null", "JJ" 1.0)
+  (106, 1, 2, <0:9>, 1, "term", 0, "null")
+  (72, 2, 3, <10:18>, 1, "Treasury", 0, "null")
+  (100, 2, 3, <10:18>, 1, "Treasury", 0, "null", "NN" 0.1363)
+  (102, 2, 3, <10:18>, 1, "treasury", 0, "null")
+  (103, 2, 3, <10:18>, 1, "treasury", 0, "null")
+  (83, 3, 4, <19:24>, 1, "bonds", 0, "null")
+  (97, 3, 4, <19:24>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (104, 3, 4, <19:24>, 1, "bonds", 0, "null")
+  (90, 4, 5, <25:30>, 1, "ended", 0, "null")
+  (95, 4, 5, <25:30>, 1, "ended", 0, "null", "VBD" 0.9501)
+  (107, 4, 5, <25:30>, 1, "ended", 0, "null")
+  (85, 5, 6, <31:39>, 1, "slightly", 0, "null")
+  (98, 5, 6, <31:39>, 1, "slightly", 0, "null", "RB" 1.0)
+  (105, 5, 6, <31:39>, 1, "slightly", 0, "null")
+  (92, 6, 7, <40:47>, 1, "higher.", 0, "null")
+  (96, 6, 7, <40:47>, 1, "higher.", 0, "null", "JJR" 0.8609)
+  (108, 6, 7, <40:47>, 1, "higher.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2138 SB-HD_MC_C 11.4895 0 7
+  (2131 HDN_BNP_C 6.93623 0 4
+   (2130 N-HDN_CPD_C 6.31548 0 4
+    (2126 XP_BRCK-PR_C 2.88251 0 2
+     (2125 AJ-HDN_NORM_C 2.06568 0 2
+      (2123 W_HYPHEN_PLR 0.120659 0 1
+       (132 long_a1@aj_-_i-er_le -0.776721 0 1
+        ("long-" 101
+         "token [ +CARG \"Long-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"long-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (2124 ^HDN_OPTCMP_C 0.794721 1 2
+       (163 term_n1@n_pp_c-of_le -0.528178 1 2
+        ("term" 87
+         "token [ +CARG #1=\"term\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (2129 ^NP-HDN_CPD_C 2.88857 2 4
+     (2127 HDN_BNP-PN_C 2.48545 2 3
+      (176 generic_proper_ne@n_-_pn-gen_le 1.08356 2 3
+       ("Treasury" 72
+        "token [ +CARG #1=\"Treasury\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86373920000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (2128 ^N_PL_OLR 1.20796 3 4
+      (179 bond_n2@n_-_c_le 1.33691 3 4
+       ("bonds" 83
+        "token [ +CARG #1=\"bonds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (2137 ^HD-AJ_SCP_C 4.28497 4 7
+   (2132 ^V_PST_OLR 1.9557 4 5
+    (224 end_v1@v_-_unacc_le 1.1935 4 5
+     ("ended" 90
+      "token [ +CARG #1=\"ended\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9501231\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2136 VP_SBRD-PRD-AJ_C 2.11695 5 7
+    (2135 AJ-HD_INT_C 2.22128 5 7
+     (688 slightly@av_-_i-vp_le -0.553828 5 6
+      ("slightly" 85
+       "token [ +CARG #1=\"slightly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2134 ^HD_OPTCMP_C 1.14394 6 7
+      (2133 W_PERIOD_PLR 0.639689 6 7
+       (690 higher_a1@aj_pp_i-cmp_le 0 6 7
+        ("higher." 92
+         "token [ +CARG \"higher\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"higher.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86088439999999999\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP
+  (N (N (N (AP (AP "long-")) (N (N "term"))))
+   (N (NP (N "Treasury")) (N (N "bonds")))))
+ (VP (VP (V "ended"))
+  (PP (AP (ADV "slightly") (AP (ADJ (ADJ "higher.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:24>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:24>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _long_a_1<0:9>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _term_n_of<0:9>
+            LBL: h14
+            ARG0: x9
+            ARG1: i16 ]
+          [ compound<10:24>
+            LBL: h8
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x17 [ x IND: + ] ]
+          [ proper_q<10:18>
+            LBL: h19
+            ARG0: x17
+            RSTR: h20
+            BODY: h21 ]
+          [ named<10:18>
+            LBL: h22
+            ARG0: x17
+            CARG: "Treasury" ]
+          [ _bond_n_1<19:24>
+            LBL: h8
+            ARG0: x6 ]
+          [ _end_v_1<25:30>
+            LBL: h23
+            ARG0: e3
+            ARG1: x6 ]
+          [ subord<31:47>
+            LBL: h2
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h25
+            ARG2: h24 ]
+          [ _slight_a_1<31:39>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _high_a_1<40:47>
+            LBL: h27
+            ARG0: e29
+            ARG1: i30 ]
+          [ comp<40:47>
+            LBL: h27
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e29
+            ARG2: u31 ] >
+   HCONS: < h24 QEQ h27 h25 QEQ h23 h20 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e26:
+ _1:udef_q<0:24>[BV x6]
+ e10:compound<0:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:9>[BV x9]
+ e15:_long_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_term_n_of<0:9>{x IND +}[]
+ e18:compound<10:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x17]
+ _3:proper_q<10:18>[BV x17]
+ x17:named<10:18>("Treasury"){x IND +}[]
+ x6:_bond_n_1<19:24>{x PERS 3, NUM pl, IND +}[]
+ e3:_end_v_1<25:30>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e26:subord<31:47>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e29]
+ e28:_slight_a_1<31:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e29]
+ e29:_high_a_1<40:47>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e32:comp<40:47>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e29]
+}
+
+{
+  udef_q<0:24> BV _bond_n_1<19:24>  
+  compound<0:24> ARG1 _bond_n_1<19:24>  
+  compound<0:24> ARG2 _term_n_of<0:9>  
+  udef_q<0:9> BV _term_n_of<0:9>  
+  _long_a_1<0:9> ARG1 _term_n_of<0:9>  
+  compound<10:24> ARG1 _bond_n_1<19:24>  
+  compound<10:24> ARG2 named<10:18>(Treasury)  
+  proper_q<10:18> BV named<10:18>(Treasury)  
+  _end_v_1<25:30> ARG1 _bond_n_1<19:24>  
+  subord<31:47> ARG1 _end_v_1<25:30>  
+  subord<31:47> ARG2 _high_a_1<40:47>  
+  _slight_a_1<31:39> ARG1 _high_a_1<40:47>  
+  comp<40:47> ARG1 _high_a_1<40:47>  
+  compound<0:24> SF prop  
+  compound<0:24> TENSE untensed  
+  compound<0:24> MOOD indicative  
+  compound<0:24> PROG -  
+  compound<0:24> PERF -  
+  _long_a_1<0:9> SF prop  
+  _long_a_1<0:9> TENSE untensed  
+  _long_a_1<0:9> MOOD indicative  
+  _long_a_1<0:9> PROG -  
+  _long_a_1<0:9> PERF -  
+  _term_n_of<0:9> IND +  
+  compound<10:24> SF prop  
+  compound<10:24> TENSE untensed  
+  compound<10:24> MOOD indicative  
+  compound<10:24> PROG -  
+  compound<10:24> PERF -  
+  named<10:18>(Treasury) IND +  
+  _bond_n_1<19:24> PERS 3  
+  _bond_n_1<19:24> NUM pl  
+  _bond_n_1<19:24> IND +  
+  _end_v_1<25:30> SF prop  
+  _end_v_1<25:30> TENSE past  
+  _end_v_1<25:30> MOOD indicative  
+  _end_v_1<25:30> PROG -  
+  _end_v_1<25:30> PERF -  
+  subord<31:47> SF prop  
+  subord<31:47> TENSE untensed  
+  subord<31:47> MOOD indicative  
+  subord<31:47> PROG -  
+  subord<31:47> PERF -  
+  _slight_a_1<31:39> SF prop  
+  _slight_a_1<31:39> TENSE untensed  
+  _slight_a_1<31:39> MOOD indicative  
+  _slight_a_1<31:39> PROG -  
+  _slight_a_1<31:39> PERF -  
+  _high_a_1<40:47> SF prop  
+  _high_a_1<40:47> TENSE untensed  
+  _high_a_1<40:47> MOOD indicative  
+  _high_a_1<40:47> PROG -  
+  _high_a_1<40:47> PERF -  
+  comp<40:47> SF prop  
+  comp<40:47> TENSE untensed  
+  comp<40:47> MOOD indicative  
+  comp<40:47> PROG -  
+  comp<40:47> PERF -  
+}
+

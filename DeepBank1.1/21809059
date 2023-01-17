@@ -1,0 +1,179 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (02:59 h)).
+;;;
+
+[21809059] (1 of 1) {1} `Source: International Data Corp.'
+
+[21809059:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Source", 0, "null", "NN" 0.9886 "NNP" 0.0114)
+  (2, 1, 2, <6:7>, 1, ":", 0, "null", ":" 1.0)
+  (3, 2, 3, <8:21>, 1, "International", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <22:26>, 1, "Data", 0, "null", "NNP" 0.7066 "NNPS" 0.2934)
+  (5, 4, 5, <27:31>, 1, "Corp", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (77, 0, 1, <0:6>, 1, "Source", 0, "null")
+  (85, 0, 1, <0:6>, 1, "source", 0, "null")
+  (90, 0, 1, <0:6>, 1, "source", 0, "null")
+  (70, 1, 2, <6:7>, 1, ":", 0, "null")
+  (89, 1, 2, <6:7>, 1, ":", 0, "null")
+  (58, 2, 3, <8:21>, 1, "International", 0, "null")
+  (79, 2, 3, <8:21>, 1, "International", 0, "null", "NNP" 1.0)
+  (82, 2, 3, <8:21>, 1, "international", 0, "null")
+  (86, 2, 3, <8:21>, 1, "international", 0, "null")
+  (59, 3, 4, <22:26>, 1, "Data", 0, "null")
+  (78, 3, 4, <22:26>, 1, "Data", 0, "null", "NNP" 0.7066)
+  (81, 3, 4, <22:26>, 1, "Data", 0, "null", "NNPS" 0.2934)
+  (84, 3, 4, <22:26>, 1, "data", 0, "null")
+  (87, 3, 4, <22:26>, 1, "data", 0, "null")
+  (62, 4, 5, <27:32>, 1, "Corp.", 0, "null")
+  (80, 4, 5, <27:32>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (83, 4, 5, <27:32>, 1, "corp.", 0, "null")
+  (88, 4, 5, <27:32>, 1, "corp.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1250 SB-HD_MC_C 9.76294 0 5
+  (1240 HDN_BNP_C 0.441855 0 1
+   (1239 N_MS_ILR 0.724786 0 1
+    (96 source_n2@n_-_m-nocnh_le 0.156754 0 1
+     ("source" 85
+      "token [ +CARG \"Source\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"source\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98861319999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1249 ^HD-CMP_U_C 7.80518 1 5
+   (101 colon_copula_v@v_np_colon_le 0.879077 1 2
+    (":" 70
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1248 HDN_BNP-PN_C 7.1631 2 5
+    (1247 HDN-AJ_REDREL_C 7.1274 2 5
+     (1244 ^NP-HDN_NME-CPD_C 3.66321 2 4
+      (1242 HDN_BNP-PN_C 0.678425 2 3
+       (1241 N_SG_ILR 0.212906 2 3
+        (134 generic_proper_ne@n_-_pn-gen_le -0.242497 2 3
+         ("International" 58
+          "token [ +CARG #1=\"International\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1243 ^N_SG_ILR 1.62297 3 4
+       (138 generic_proper_ne@n_-_pn-gen_le 0.416987 3 4
+        ("Data" 59
+         "token [ +CARG #1=\"Data\" +CLASS proper_ne +FORM #1 +FROM \"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.70661529999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (1246 W_PERIOD_PLR 2.16175 4 5
+      (1245 N_SG_ILR 1.10286 4 5
+       (151 corp_post_ttl@n_-_tt-post_le 1.77619 4 5
+        ("corp." 83
+         "token [ +CARG \"Corp\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "source")))
+ (VP (V ":")
+  (NP
+   (N (N (NP (N (N "International"))) (N (N "Data")))
+    (N (N (N "corp.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _source_n_2<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _colon_v_id<6:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:32>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<8:26>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:21>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<8:21>
+            LBL: h19
+            ARG0: x14
+            CARG: "International" ]
+          [ named<22:26>
+            LBL: h13
+            ARG0: x9
+            CARG: "Data" ]
+          [ _corporation_n_1<27:32>
+            LBL: h20
+            ARG0: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<27:32>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<27:32>
+            LBL: h13
+            ARG0: i25
+            ARG1: x9
+            ARG2: x21 ] >
+   HCONS: < h23 QEQ h20 h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:6>[BV x6]
+ x6:_source_n_2<0:6>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_colon_v_id<6:7>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<8:32>[BV x9]
+ e15:compound<8:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<8:21>[BV x14]
+ x14:named<8:21>("International"){x PERS 3, NUM sg, IND +}[]
+ x9:named<22:26>("Data"){x PERS 3, NUM sg, IND +}[]
+ x21:_corporation_n_1<27:32>{x PERS 3, NUM sg, IND +}[]
+ _4:udef_q<27:32>[BV x21]
+ i25:compound<27:32>{i}[ARG1 x9, ARG2 x21]
+}
+
+{
+  udef_q<0:6> BV _source_n_2<0:6>  
+  _colon_v_id<6:7> ARG1 _source_n_2<0:6>  
+  _colon_v_id<6:7> ARG2 named<22:26>(Data)  
+  proper_q<8:32> BV named<22:26>(Data)  
+  compound<8:26> ARG1 named<22:26>(Data)  
+  compound<8:26> ARG2 named<8:21>(International)  
+  proper_q<8:21> BV named<8:21>(International)  
+  udef_q<27:32> BV _corporation_n_1<27:32>  
+  compound<27:32> ARG1 named<22:26>(Data)  
+  compound<27:32> ARG2 _corporation_n_1<27:32>  
+  _source_n_2<0:6> PERS 3  
+  _source_n_2<0:6> NUM sg  
+  _source_n_2<0:6> GEND n  
+  _source_n_2<0:6> IND -  
+  _colon_v_id<6:7> SF prop  
+  _colon_v_id<6:7> TENSE tensed  
+  _colon_v_id<6:7> MOOD indicative  
+  _colon_v_id<6:7> PROG -  
+  _colon_v_id<6:7> PERF -  
+  compound<8:26> SF prop  
+  compound<8:26> TENSE untensed  
+  compound<8:26> MOOD indicative  
+  compound<8:26> PROG -  
+  compound<8:26> PERF -  
+  named<8:21>(International) PERS 3  
+  named<8:21>(International) NUM sg  
+  named<8:21>(International) IND +  
+  named<22:26>(Data) PERS 3  
+  named<22:26>(Data) NUM sg  
+  named<22:26>(Data) IND +  
+  _corporation_n_1<27:32> PERS 3  
+  _corporation_n_1<27:32> NUM sg  
+  _corporation_n_1<27:32> IND +  
+}
+

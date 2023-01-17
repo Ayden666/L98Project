@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (11:56 h)).
+;;;
+
+[20207017] (1 of 1) {1} `Bach's "Air" followed.'
+
+[20207017:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Bach", 0, "null", "NNP" 0.5708 "NN" 0.4292)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.5595 "NNS" 0.3577 "NN" 0.0481 "JJ" 0.0191 "IN" 0.0156)
+  (3, 2, 3, <7:8>, 1, "“", 0, "null", "``" 1.0)
+  (4, 3, 4, <8:11>, 1, "Air", 0, "null", "NNP" 0.9508 "NN" 0.0492)
+  (5, 4, 5, <11:12>, 1, "”", 0, "null", "''" 1.0)
+  (6, 5, 6, <13:21>, 1, "followed", 0, "null", "VBD" 0.8621 "VBN" 0.1379)
+  (7, 6, 7, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (93, 0, 1, <0:4>, 1, "Bach", 0, "null")
+  (99, 0, 1, <0:4>, 1, "bach", 0, "null")
+  (104, 0, 1, <0:4>, 1, "bach", 0, "null")
+  (87, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (94, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.5595)
+  (97, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.3577)
+  (102, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (69, 2, 3, <7:12>, 1, "“Air”", 0, "null")
+  (95, 2, 3, <7:12>, 1, "“Air”", 0, "null", "NNP" 0.9508)
+  (100, 2, 3, <7:12>, 1, "“air”", 0, "null")
+  (101, 2, 3, <7:12>, 1, "“air”", 0, "null")
+  (90, 3, 4, <13:22>, 1, "followed.", 0, "null")
+  (96, 3, 4, <13:22>, 1, "followed.", 0, "null", "VBD" 0.8621)
+  (98, 3, 4, <13:22>, 1, "followed.", 0, "null", "VBN" 0.1379)
+  (103, 3, 4, <13:22>, 1, "followed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1632 SB-HD_MC_C 1.53205 0 4
+  (1628 SP-HD_N_C 1.16637 0 3
+   (1624 SP-HD_HC_C 1.98954 0 2
+    (1623 HDN_BNP-PN_C 0.09912 0 1
+     (1622 N_SG_ILR -0.515712 0 1
+      (106 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Bach" 93
+        "token [ +CARG #1=\"Bach\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.57075949999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (110 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 1 2
+     ("’s" 87
+      "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55953549999999996\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1627 ^W_DQLEFT_PLR -0.846858 2 3
+    (1626 W_DQRIGHT_PLR -0.366419 2 3
+     (1625 N_SG_ILR -0.209993 2 3
+      (318 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("“Air”" 69
+        "token [ +CARG \"Air\" +CLASS proper_ne +FORM \"“Air”\" +FROM \"7\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95082580000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+  (1631 ^HD_OPTCMP_C 0.438642 3 4
+   (1630 W_PERIOD_PLR 0.134653 3 4
+    (1629 V_PST_OLR -0.555709 3 4
+     (356 follow_v1@v_np*_le 0 3 4
+      ("followed." 90
+       "token [ +CARG \"followed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"followed.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8620584\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET (NP (N (N "Bach"))) (DET "’s")) (N (N (N (N "“Air”")))))
+ (VP (V (V (V "followed.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:4>
+            LBL: h8
+            ARG0: x6
+            CARG: "Bach" ]
+          [ def_explicit_q<4:6>
+            LBL: h9
+            ARG0: x11 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h10
+            BODY: h12 ]
+          [ poss<4:6>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x6 ]
+          [ named<7:12>
+            LBL: h13
+            ARG0: x11
+            CARG: "Air" ]
+          [ _follow_v_1<13:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x11
+            ARG2: p15 ] >
+   HCONS: < h10 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:4>[BV x6]
+ x6:named<0:4>("Bach"){x PERS 3, NUM sg, IND +}[]
+ _2:def_explicit_q<4:6>[BV x11]
+ e14:poss<4:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x6]
+ x11:named<7:12>("Air"){x PERS 3, NUM sg, IND +}[]
+ e3:_follow_v_1-fn.Relative_time<13:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+}
+
+{
+  proper_q<0:4> BV named<0:4>(Bach)  
+  def_explicit_q<4:6> BV named<7:12>(Air)  
+  poss<4:6> ARG1 named<7:12>(Air)  
+  poss<4:6> ARG2 named<0:4>(Bach)  
+  _follow_v_1<13:22> ARG1 named<7:12>(Air)  
+  named<0:4>(Bach) PERS 3  
+  named<0:4>(Bach) NUM sg  
+  named<0:4>(Bach) IND +  
+  poss<4:6> SF prop  
+  poss<4:6> TENSE untensed  
+  poss<4:6> MOOD indicative  
+  poss<4:6> PROG -  
+  poss<4:6> PERF -  
+  named<7:12>(Air) PERS 3  
+  named<7:12>(Air) NUM sg  
+  named<7:12>(Air) IND +  
+  _follow_v_1<13:22> SF prop  
+  _follow_v_1<13:22> TENSE past  
+  _follow_v_1<13:22> MOOD indicative  
+  _follow_v_1<13:22> PROG -  
+  _follow_v_1<13:22> PERF -  
+}
+

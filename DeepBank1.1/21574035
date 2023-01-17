@@ -1,0 +1,62 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:33 h)).
+;;;
+
+[21574035] (1 of 1) {1} `Always.'
+
+[21574035:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Always", 0, "null", "RB" 0.646 "NNP" 0.354)
+  (2, 1, 2, <6:7>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (24, 0, 1, <0:7>, 1, "Always.", 0, "null")
+  (25, 0, 1, <0:7>, 1, "Always.", 0, "null", "RB" 0.646)
+  (26, 0, 1, <0:7>, 1, "always.", 0, "null")
+  (27, 0, 1, <0:7>, 1, "always.", 0, "null")
+>
+
+(ROOT_FRAG
+ (98 R_INT-FRG_C 0.0792024 0 1
+  (97 W_PERIOD_PLR 0.0792024 0 1
+   (46 always_adv3@av_-_i-vp-po_le 0 0 1
+    ("always." 26
+     "token [ +CARG \"Always\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"always.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.64601350000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (ADV (ADV "always.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _always_a_1<0:7>
+            LBL: h5
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e6:_always_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:7> SF prop  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _always_a_1<0:7> SF prop  
+  _always_a_1<0:7> TENSE untensed  
+  _always_a_1<0:7> MOOD indicative  
+  _always_a_1<0:7> PROG -  
+  _always_a_1<0:7> PERF -  
+}
+

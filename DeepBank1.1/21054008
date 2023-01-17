@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:37 h)).
+;;;
+
+[21054008] (1 of 1) {1} `-- Sam Ewing.'
+
+[21054008:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:6>, 1, "Sam", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <7:12>, 1, "Ewing", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <12:13>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (44, 0, 1, <0:2>, 1, "–", 0, "null")
+  (52, 0, 1, <0:2>, 1, "–", 0, "null")
+  (47, 1, 2, <3:6>, 1, "Sam", 0, "null")
+  (49, 1, 2, <3:6>, 1, "sam", 0, "null")
+  (53, 1, 2, <3:6>, 1, "sam", 0, "null")
+  (40, 2, 3, <7:13>, 1, "Ewing.", 0, "null")
+  (48, 2, 3, <7:13>, 1, "Ewing.", 0, "null", "NNP" 1.0)
+  (50, 2, 3, <7:13>, 1, "ewing.", 0, "null")
+  (51, 2, 3, <7:13>, 1, "ewing.", 0, "null")
+>
+
+(ROOT_FRAG
+ (184 AJ-HD_SCP-XP_C 2.5106 0 3
+  (56 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 44
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (183 ^NP_FRG_C 1.62158 1 3
+   (182 HDN_BNP-PN_C 2.23909 1 3
+    (181 NP-HDN_NME-CPD_C 2.1867 1 3
+     (178 HDN_BNP-PN_C 0.586141 1 2
+      (177 N_SG_ILR -0.166294 1 2
+       (65 sam_n1@n_-_pn_le 0 1 2
+        ("sam" 49
+         "token [ +CARG \"Sam\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sam\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (180 ^W_PERIOD_PLR 1.02066 2 3
+      (179 N_SG_ILR 0.466069 2 3
+       (68 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("Ewing." 40
+         "token [ +CARG \"Ewing\" +CLASS proper_ne +FORM \"Ewing.\" +FROM \"7\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "–") (XP (NP (N (NP (N (N "sam"))) (N (N (N "Ewing.")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:13>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:13>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ compound<3:13>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:6>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ named<3:6>
+            LBL: h18
+            ARG0: x13
+            CARG: "Sam" ]
+          [ named<7:13>
+            LBL: h12
+            ARG0: x8
+            CARG: "Ewing" ] >
+   HCONS: < h16 QEQ h18 h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:proper_q<3:13>[BV x8]
+ e14:compound<3:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x13]
+ _2:proper_q<3:6>[BV x13]
+ x13:named<3:6>("Sam"){x PERS 3, NUM sg, IND +}[]
+ x8:named<7:13>("Ewing"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:13>  
+  discourse<0:2> R-INDEX unknown<3:13>  
+  unknown<3:13> ARG named<7:13>(Ewing)  
+  proper_q<3:13> BV named<7:13>(Ewing)  
+  compound<3:13> ARG1 named<7:13>(Ewing)  
+  compound<3:13> ARG2 named<3:6>(Sam)  
+  proper_q<3:6> BV named<3:6>(Sam)  
+  unknown<3:13> SF prop  
+  unknown<3:13> TENSE untensed  
+  unknown<3:13> MOOD indicative  
+  unknown<3:13> PROG -  
+  unknown<3:13> PERF -  
+  compound<3:13> SF prop  
+  compound<3:13> TENSE untensed  
+  compound<3:13> MOOD indicative  
+  compound<3:13> PROG -  
+  compound<3:13> PERF -  
+  named<3:6>(Sam) PERS 3  
+  named<3:6>(Sam) NUM sg  
+  named<3:6>(Sam) IND +  
+  named<7:13>(Ewing) PERS 3  
+  named<7:13>(Ewing) NUM sg  
+  named<7:13>(Ewing) IND +  
+}
+

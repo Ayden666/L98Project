@@ -1,0 +1,191 @@
+;;;
+;;; Redwoods export of `wsj16e';
+;;; (wsun@wsun; 23-jan-2018 (01:50 h)).
+;;;
+
+[21687040] (1 of 1) {1} `Crude oil prices ended mixed.'
+
+[21687040:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Crude", 0, "null", "JJ" 0.8642 "NNP" 0.0747 "NN" 0.061)
+  (2, 1, 2, <6:9>, 1, "oil", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:16>, 1, "prices", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <17:22>, 1, "ended", 0, "null", "VBD" 0.9375 "VBN" 0.0625)
+  (5, 4, 5, <23:28>, 1, "mixed", 0, "null", "VBN" 0.6797 "JJ" 0.3203)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:5>, 1, "Crude", 0, "null", "JJ" 0.8642)
+  (80, 0, 1, <0:5>, 1, "crude", 0, "null")
+  (85, 0, 1, <0:5>, 1, "crude", 0, "null")
+  (65, 1, 2, <6:9>, 1, "oil", 0, "null")
+  (77, 1, 2, <6:9>, 1, "oil", 0, "null", "NN" 1.0)
+  (81, 1, 2, <6:9>, 1, "oil", 0, "null")
+  (67, 2, 3, <10:16>, 1, "prices", 0, "null")
+  (78, 2, 3, <10:16>, 1, "prices", 0, "null", "NNS" 1.0)
+  (82, 2, 3, <10:16>, 1, "prices", 0, "null")
+  (69, 3, 4, <17:22>, 1, "ended", 0, "null")
+  (75, 3, 4, <17:22>, 1, "ended", 0, "null", "VBD" 0.9375)
+  (83, 3, 4, <17:22>, 1, "ended", 0, "null")
+  (71, 4, 5, <23:29>, 1, "mixed.", 0, "null")
+  (76, 4, 5, <23:29>, 1, "mixed.", 0, "null", "VBN" 0.6797)
+  (79, 4, 5, <23:29>, 1, "mixed.", 0, "null", "JJ" 0.3203)
+  (84, 4, 5, <23:29>, 1, "mixed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1948 SB-HD_MC_C 4.08662 0 5
+  (1941 HDN_BNP_C 4.40243 0 3
+   (1940 N-HDN_CPD_C 3.78169 0 3
+    (1938 N-HDN_CPD_C 2.6289 0 2
+     (88 crude_n1@n_-_m_le 0.681855 0 1
+      ("crude" 80
+       "token [ +CARG \"Crude\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"crude\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86421650000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (89 oil_n1@n_-_mc_le -0.727628 1 2
+      ("oil" 65
+       "token [ +CARG #1=\"oil\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1939 ^N_PL_OLR 1.04317 2 3
+     (92 price_n1@n_-_mc-ed_le 0.382246 2 3
+      ("prices" 67
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1947 ^HD-AJ_SCP_C -0.584165 3 5
+   (1942 ^V_PST_OLR 1.9557 3 4
+    (139 end_v1@v_-_unacc_le 1.1935 3 4
+     ("ended" 69
+      "token [ +CARG #1=\"ended\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93745880000000004\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1946 VP_SBRD-PRD-PAS_C -2.57279 4 5
+    (1945 HD_OPTCMP_C -1.14538 4 5
+     (1944 W_PERIOD_PLR -0.541309 4 5
+      (1943 V_PAS_ODLR -0.192154 4 5
+       (613 mix_v1@v_np*_le 0 4 5
+        ("mixed." 71
+         "token [ +CARG \"mixed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"mixed.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67973570000000005\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "crude") (N "oil")) (N (N "prices"))))
+ (VP (VP (V "ended")) (PP (VP (V (V (V "mixed.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:9>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:5>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _crude_n_1<0:5>
+            LBL: h20
+            ARG0: x15 ]
+          [ _oil_n_1<6:9>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<10:16>
+            LBL: h8
+            ARG0: x6 ]
+          [ _end_v_1<17:22>
+            LBL: h21
+            ARG0: e3
+            ARG1: x6 ]
+          [ subord<23:29>
+            LBL: h2
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h23
+            ARG2: h22 ]
+          [ _mix_v_1<23:29>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i28
+            ARG2: i27 ]
+          [ parg_d<23:29>
+            LBL: h25
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e26
+            ARG2: i27 ] >
+   HCONS: < h22 QEQ h25 h23 QEQ h21 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e24:
+ _1:udef_q<0:16>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:9>[BV x9]
+ e16:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:5>[BV x15]
+ x15:_crude_n_1<0:5>{x PERS 3, NUM sg, IND -}[]
+ x9:_oil_n_1<6:9>{x}[]
+ x6:_price_n_of<10:16>{x PERS 3, NUM pl}[]
+ e3:_end_v_1-fn.Cause_to_end<17:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e24:subord<23:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e26]
+ e26:_mix_v_1<23:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e29:parg_d<23:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e26]
+}
+
+{
+  udef_q<0:16> BV _price_n_of<10:16>  
+  compound<0:16> ARG1 _price_n_of<10:16>  
+  compound<0:16> ARG2 _oil_n_1<6:9>  
+  udef_q<0:9> BV _oil_n_1<6:9>  
+  compound<0:9> ARG1 _oil_n_1<6:9>  
+  compound<0:9> ARG2 _crude_n_1<0:5>  
+  udef_q<0:5> BV _crude_n_1<0:5>  
+  _end_v_1<17:22> ARG1 _price_n_of<10:16>  
+  subord<23:29> ARG1 _end_v_1<17:22>  
+  subord<23:29> ARG2 _mix_v_1<23:29>  
+  parg_d<23:29> ARG1 _mix_v_1<23:29>  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _crude_n_1<0:5> PERS 3  
+  _crude_n_1<0:5> NUM sg  
+  _crude_n_1<0:5> IND -  
+  _price_n_of<10:16> PERS 3  
+  _price_n_of<10:16> NUM pl  
+  _end_v_1<17:22> SF prop  
+  _end_v_1<17:22> TENSE past  
+  _end_v_1<17:22> MOOD indicative  
+  _end_v_1<17:22> PROG -  
+  _end_v_1<17:22> PERF -  
+  subord<23:29> SF prop  
+  subord<23:29> TENSE untensed  
+  subord<23:29> MOOD indicative  
+  subord<23:29> PROG -  
+  subord<23:29> PERF -  
+  _mix_v_1<23:29> SF prop  
+  _mix_v_1<23:29> TENSE untensed  
+  _mix_v_1<23:29> MOOD indicative  
+  _mix_v_1<23:29> PROG -  
+  _mix_v_1<23:29> PERF -  
+  parg_d<23:29> SF prop  
+  parg_d<23:29> TENSE untensed  
+  parg_d<23:29> MOOD indicative  
+  parg_d<23:29> PROG -  
+  parg_d<23:29> PERF -  
+}
+

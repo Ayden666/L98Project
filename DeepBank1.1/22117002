@@ -1,0 +1,325 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:05 h)).
+;;;
+
+[22117002] (1 of 1) {1} `Seats currently are quoted at $353,500 bid, $405,000 asked.'
+
+[22117002:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Seats", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <6:15>, 1, "currently", 0, "null", "RB" 1.0)
+  (3, 2, 3, <16:19>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <20:26>, 1, "quoted", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <27:29>, 1, "at", 0, "null", "IN" 1.0)
+  (6, 5, 6, <30:31>, 1, "$", 0, "null", "$" 1.0)
+  (7, 6, 7, <31:38>, 1, "353,500", 0, "null", "CD" 1.0)
+  (8, 7, 8, <39:42>, 1, "bid", 0, "null", "NN" 1.0)
+  (9, 8, 9, <42:43>, 1, ",", 0, "null", "," 1.0)
+  (10, 9, 10, <44:45>, 1, "$", 0, "null", "$" 1.0)
+  (11, 10, 11, <45:52>, 1, "405,000", 0, "null", "CD" 1.0)
+  (12, 11, 12, <53:58>, 1, "asked", 0, "null", "VBD" 0.5085 "VBN" 0.4858 "JJ" 0.0056)
+  (13, 12, 13, <58:59>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (140, 0, 1, <0:5>, 1, "Seats", 0, "null", "NNS" 1.0)
+  (145, 0, 1, <0:5>, 1, "seats", 0, "null")
+  (156, 0, 1, <0:5>, 1, "seats", 0, "null")
+  (123, 1, 2, <6:15>, 1, "currently", 0, "null")
+  (141, 1, 2, <6:15>, 1, "currently", 0, "null", "RB" 1.0)
+  (148, 1, 2, <6:15>, 1, "currently", 0, "null")
+  (125, 2, 3, <16:19>, 1, "are", 0, "null")
+  (142, 2, 3, <16:19>, 1, "are", 0, "null", "VBP" 1.0)
+  (149, 2, 3, <16:19>, 1, "are", 0, "null")
+  (127, 3, 4, <20:26>, 1, "quoted", 0, "null")
+  (143, 3, 4, <20:26>, 1, "quoted", 0, "null", "VBN" 1.0)
+  (150, 3, 4, <20:26>, 1, "quoted", 0, "null")
+  (129, 4, 5, <27:29>, 1, "at", 0, "null")
+  (151, 4, 5, <27:29>, 1, "at", 0, "null")
+  (133, 5, 6, <30:31>, 1, "$", 0, "null")
+  (153, 5, 6, <30:31>, 1, "$", 0, "null")
+  (108, 6, 7, <31:38>, 1, "353,500", 0, "null")
+  (146, 6, 7, <31:38>, 1, "353,500", 0, "null")
+  (135, 7, 8, <39:43>, 1, "bid,", 0, "null")
+  (144, 7, 8, <39:43>, 1, "bid,", 0, "null", "NN" 1.0)
+  (154, 7, 8, <39:43>, 1, "bid,", 0, "null")
+  (131, 8, 9, <44:45>, 1, "$", 0, "null")
+  (152, 8, 9, <44:45>, 1, "$", 0, "null")
+  (109, 9, 10, <45:52>, 1, "405,000", 0, "null")
+  (147, 9, 10, <45:52>, 1, "405,000", 0, "null")
+  (136, 10, 11, <53:59>, 1, "asked.", 0, "null")
+  (138, 10, 11, <53:59>, 1, "asked.", 0, "null", "VBD" 0.5085)
+  (139, 10, 11, <53:59>, 1, "asked.", 0, "null", "VBN" 0.4858)
+  (155, 10, 11, <53:59>, 1, "asked.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5111 SB-HD_MC_C 6.63792 0 11
+  (5074 HDN_BNP_C -0.0775391 0 1
+   (5073 N_PL_OLR 0.498467 0 1
+    (162 seat_n1@n_-_c_le 0 0 1
+     ("seats" 145
+      "token [ +CARG \"Seats\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"seats\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (5110 ^AJ-HD_INT_C 5.14662 1 11
+   (177 currently_isect@av_-_i-vp-x_le 0.416663 1 2
+    ("currently" 123
+     "token [ +CARG #1=\"currently\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (5109 ^HD-CMP_U_C 2.72041 2 11
+    (179 be_c_are@v_prd_are_le 0.775498 2 3
+     ("are" 125
+      "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (5108 HD-AJ_INT-UNSL_C 0.950414 3 11
+     (5076 ^HD_OPTCMP_C 0.324243 3 4
+      (5075 V_PAS_ODLR -0.300408 3 4
+       (202 quote_v1@v_np*_le 0 3 4
+        ("quoted" 127
+         "token [ +CARG #1=\"quoted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (5107 HD-CMP_U_C -1.61371 4 11
+      (296 at@p_np_i-reg_le -1.21766 4 5
+       ("at" 129
+        "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (5106 HDN_BNP_C -0.283817 5 11
+       (5105 HDN-AJ_RC_C 0.245502 5 11
+        (5078 ^N-NUM_MNP_C 0.570568 5 7
+         (5077 ^N_PL-CUR_ILR 0.616544 5 6
+          (299 dollarsign_n1@n_-_c-cur_le -0.146552 5 6
+           ("$" 133
+            "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (301 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+          ("353,500" 108
+           "token [ +CARG #1=\"353,500\" +CLASS card_ne +FORM #1 +FROM \"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+        (5104 VP_RC-REDREL_C -0.823628 7 11
+         (5103 HD-AJ_INT-UNSL_C -0.428183 7 11
+          (5081 ^HD_OPTCMP_C 1.21009 7 8
+           (5080 W_COMMA_PLR 0.424336 7 8
+            (5079 V_PAS_ODLR 0.052501 7 8
+             (342 bid_v2@v_np*_le 0 7 8
+              ("bid," 135
+               "token [ +CARG \"bid\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"bid,\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+          (5102 NP_ADV-MNP_C -0.374304 8 11
+           (5101 HDN_BNP_C 1.01649 8 11
+            (5100 HDN-AJ_RC_C 1.94127 8 11
+             (5088 ^N-NUM_MNP_C -0.003165 8 10
+              (5087 ^N_PL-CUR_ILR 1.21255 8 9
+               (431 dollarsign_n1@n_-_c-cur_le -0.27486 8 9
+                ("$" 131
+                 "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+              (433 generic_card_ne@aj_-_i-crd-gen_le 0 9 10
+               ("405,000" 109
+                "token [ +CARG #1=\"405,000\" +CLASS card_ne +FORM #1 +FROM \"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+             (5099 VP_RC-REDREL_C 0.264279 10 11
+              (5093 HD_OPTCMP_C 0.646825 10 11
+               (5092 HD_OPTCMP_C 1.30457 10 11
+                (5091 W_PERIOD_PLR 0.365812 10 11
+                 (5090 V_PAS-DAT_ODLR 0.105985 10 11
+                  (507 ask_v1@v_np*-np*_only_le 0 10 11
+                   ("asked." 136
+                    "token [ +CARG \"asked\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"asked.\" +FROM #1=\"53\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.50854469999999996\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"59\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))))))))))
+
+(S (NP (N (N "seats")))
+ (VP (ADV "currently")
+  (VP (V "are")
+   (VP (VP (V (V "quoted")))
+    (PP (P "at")
+     (NP
+      (N (N (N (N "$")) (ADJ "353,500"))
+       (S
+        (VP (VP (V (V (V "bid,"))))
+         (PP
+          (NP
+           (N (N (N (N "$")) (ADJ "405,000"))
+            (S (VP (V (V (V (V "asked."))))))))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _seat_n_1<0:5>
+            LBL: h8
+            ARG0: x6 ]
+          [ _current_a_1<6:15>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _quote_v_1<20:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: i10
+            ARG2: x6 ]
+          [ parg_d<20:26>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _at_p<27:29>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x13 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<30:59>
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ _dollar_n_1<30:31>
+            LBL: h17
+            ARG0: x13 ]
+          [ card<31:38>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            CARG: "353,500" ]
+          [ _bid_v_1<39:43>
+            LBL: h17
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i20
+            ARG2: x13 ]
+          [ parg_d<39:43>
+            LBL: h17
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e19
+            ARG2: x13 ]
+          [ loc_nonsp<44:59>
+            LBL: h17
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e19
+            ARG2: x23 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<44:59>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ _dollar_n_1<44:45>
+            LBL: h27
+            ARG0: x23 ]
+          [ card<45:52>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            CARG: "405,000" ]
+          [ _ask_v_1<53:59>
+            LBL: h27
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i30
+            ARG2: i31
+            ARG3: x23 ]
+          [ parg_d<53:59>
+            LBL: h27
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e29
+            ARG2: x23 ] >
+   HCONS: < h25 QEQ h27 h15 QEQ h17 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:5>[BV x6]
+ x6:_seat_n_1<0:5>{x PERS 3, NUM pl, IND +}[]
+ e9:_current_a_1<6:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_quote_v_1<20:26>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e11:parg_d<20:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e12:_at_p<27:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x13]
+ _2:udef_q<30:59>[BV x13]
+ x13:_dollar_n_1<30:31>{x PERS 3, NUM pl, IND +}[]
+ e18:card<31:38>("353,500"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13]
+ e19:_bid_v_1<39:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x13]
+ e21:parg_d<39:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e19, ARG2 x13]
+ e22:loc_nonsp<44:59>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e19, ARG2 x23]
+ _3:udef_q<44:59>[BV x23]
+ x23:_dollar_n_1<44:45>{x PERS 3, NUM pl, IND +}[]
+ e28:card<45:52>("405,000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+ e29:_ask_v_1<53:59>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG3 x23]
+ e32:parg_d<53:59>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e29, ARG2 x23]
+}
+
+{
+  udef_q<0:5> BV _seat_n_1<0:5>  
+  _current_a_1<6:15> ARG1 _quote_v_1<20:26>  
+  _quote_v_1<20:26> ARG2 _seat_n_1<0:5>  
+  parg_d<20:26> ARG1 _quote_v_1<20:26>  
+  parg_d<20:26> ARG2 _seat_n_1<0:5>  
+  _at_p<27:29> ARG1 _quote_v_1<20:26>  
+  _at_p<27:29> ARG2 _dollar_n_1<30:31>  
+  udef_q<30:59> BV _dollar_n_1<30:31>  
+  card<31:38>(353,500) ARG1 _dollar_n_1<30:31>  
+  _bid_v_1<39:43> ARG2 _dollar_n_1<30:31>  
+  parg_d<39:43> ARG1 _bid_v_1<39:43>  
+  parg_d<39:43> ARG2 _dollar_n_1<30:31>  
+  loc_nonsp<44:59> ARG1 _bid_v_1<39:43>  
+  loc_nonsp<44:59> ARG2 _dollar_n_1<44:45>  
+  udef_q<44:59> BV _dollar_n_1<44:45>  
+  card<45:52>(405,000) ARG1 _dollar_n_1<44:45>  
+  _ask_v_1<53:59> ARG3 _dollar_n_1<44:45>  
+  parg_d<53:59> ARG1 _ask_v_1<53:59>  
+  parg_d<53:59> ARG2 _dollar_n_1<44:45>  
+  _seat_n_1<0:5> PERS 3  
+  _seat_n_1<0:5> NUM pl  
+  _seat_n_1<0:5> IND +  
+  _current_a_1<6:15> SF prop  
+  _current_a_1<6:15> TENSE untensed  
+  _current_a_1<6:15> MOOD indicative  
+  _current_a_1<6:15> PROG -  
+  _current_a_1<6:15> PERF -  
+  _quote_v_1<20:26> SF prop  
+  _quote_v_1<20:26> TENSE pres  
+  _quote_v_1<20:26> MOOD indicative  
+  _quote_v_1<20:26> PROG -  
+  _quote_v_1<20:26> PERF -  
+  parg_d<20:26> SF prop  
+  parg_d<20:26> TENSE untensed  
+  parg_d<20:26> MOOD indicative  
+  parg_d<20:26> PROG -  
+  parg_d<20:26> PERF -  
+  _at_p<27:29> SF prop  
+  _at_p<27:29> TENSE untensed  
+  _at_p<27:29> MOOD indicative  
+  _at_p<27:29> PROG -  
+  _at_p<27:29> PERF -  
+  _dollar_n_1<30:31> PERS 3  
+  _dollar_n_1<30:31> NUM pl  
+  _dollar_n_1<30:31> IND +  
+  card<31:38>(353,500) SF prop  
+  card<31:38>(353,500) TENSE untensed  
+  card<31:38>(353,500) MOOD indicative  
+  card<31:38>(353,500) PROG -  
+  card<31:38>(353,500) PERF -  
+  _bid_v_1<39:43> SF prop  
+  _bid_v_1<39:43> TENSE untensed  
+  _bid_v_1<39:43> MOOD indicative  
+  _bid_v_1<39:43> PROG -  
+  _bid_v_1<39:43> PERF -  
+  parg_d<39:43> SF prop  
+  parg_d<39:43> TENSE untensed  
+  parg_d<39:43> MOOD indicative  
+  parg_d<39:43> PROG -  
+  parg_d<39:43> PERF -  
+  loc_nonsp<44:59> SF prop  
+  loc_nonsp<44:59> TENSE untensed  
+  loc_nonsp<44:59> MOOD indicative  
+  loc_nonsp<44:59> PROG -  
+  loc_nonsp<44:59> PERF -  
+  _dollar_n_1<44:45> PERS 3  
+  _dollar_n_1<44:45> NUM pl  
+  _dollar_n_1<44:45> IND +  
+  card<45:52>(405,000) SF prop  
+  card<45:52>(405,000) TENSE untensed  
+  card<45:52>(405,000) MOOD indicative  
+  card<45:52>(405,000) PROG -  
+  card<45:52>(405,000) PERF -  
+  _ask_v_1<53:59> SF prop  
+  _ask_v_1<53:59> TENSE untensed  
+  _ask_v_1<53:59> MOOD indicative  
+  _ask_v_1<53:59> PROG -  
+  _ask_v_1<53:59> PERF -  
+  parg_d<53:59> SF prop  
+  parg_d<53:59> TENSE untensed  
+  parg_d<53:59> MOOD indicative  
+  parg_d<53:59> PROG -  
+  parg_d<53:59> PERF -  
+}
+

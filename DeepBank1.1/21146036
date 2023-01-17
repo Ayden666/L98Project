@@ -1,0 +1,112 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:28 h)).
+;;;
+
+[21146036] (1 of 1) {1} `We sell direct!"'
+
+[21146036:1] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "We", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:7>, 1, "sell", 0, "null", "VBP" 0.7319 "VB" 0.2681)
+  (3, 2, 3, <8:14>, 1, "direct", 0, "null", "JJ" 0.9694 "RB" 0.0306)
+  (4, 3, 4, <14:15>, 1, "!", 0, "null", "." 1.0)
+  (5, 4, 5, <15:16>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (61, 0, 1, <0:2>, 1, "we", 0, "null")
+  (64, 0, 1, <0:2>, 1, "we", 0, "null")
+  (54, 1, 2, <3:7>, 1, "sell", 0, "null")
+  (58, 1, 2, <3:7>, 1, "sell", 0, "null", "VBP" 0.7319)
+  (60, 1, 2, <3:7>, 1, "sell", 0, "null", "VB" 0.2681)
+  (62, 1, 2, <3:7>, 1, "sell", 0, "null")
+  (56, 2, 3, <8:16>, 1, "direct!”", 0, "null")
+  (59, 2, 3, <8:16>, 1, "direct!”", 0, "null", "JJ" 0.9694)
+  (63, 2, 3, <8:16>, 1, "direct!”", 0, "null")
+>
+
+(ROOT_STRICT
+ (403 SB-HD_MC_C 0.888425 0 3
+  (390 HDN_BNP-QNT_C 0.662785 0 1
+   (65 we@n_-_pr-we_le 0.158566 0 1
+    ("we" 61
+     "token [ +CARG \"We\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"we\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (402 ^HD-AJ_SCP_C 0.0740999 1 3
+   (398 ^HD_OPTCMP_C -0.076242 1 2
+    (391 V_N3S-BSE_ILR 0.0550797 1 2
+     (86 sell_v3@v_np*_le 0.055853 1 2
+      ("sell" 54
+       "token [ +CARG #1=\"sell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.73186569999999995\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (401 VP_SBRD-PRD-AJ_C 0.321506 2 3
+    (400 W_DQRIGHT_PLR 0 2 3
+     (399 W_BANG_PLR 0 2 3
+      (96 direct_a1@aj_-_i_le 0 2 3
+       ("direct!”" 56
+        "token [ +CARG \"direct\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"direct!”\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96940470000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "we"))
+ (VP (VP (V (V "sell"))) (PP (AP (AP (AP "direct!”"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _sell_v_1<3:7>
+            LBL: h9
+            ARG0: e3
+            ARG1: x5
+            ARG2: p10 ]
+          [ subord<8:16>
+            LBL: h2
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h12
+            ARG2: h11 ]
+          [ _direct_a_1<8:16>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i15 ] >
+   HCONS: < h11 QEQ h14 h12 QEQ h9 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e13:
+ x5:pron<0:2>{x PERS 1, NUM pl, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_sell_v_1-fn.Commerce_sell<3:7>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Seller x5]
+ e13:subord<8:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e16]
+ e16:_direct_a_1<8:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _sell_v_1<3:7> ARG1 pron<0:2>  
+  subord<8:16> ARG1 _sell_v_1<3:7>  
+  subord<8:16> ARG2 _direct_a_1<8:16>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM pl  
+  pron<0:2> PT std  
+  _sell_v_1<3:7> SF prop  
+  _sell_v_1<3:7> TENSE pres  
+  _sell_v_1<3:7> MOOD indicative  
+  _sell_v_1<3:7> PROG -  
+  _sell_v_1<3:7> PERF -  
+  subord<8:16> SF prop  
+  subord<8:16> TENSE untensed  
+  subord<8:16> MOOD indicative  
+  subord<8:16> PROG -  
+  subord<8:16> PERF -  
+  _direct_a_1<8:16> SF prop  
+  _direct_a_1<8:16> TENSE untensed  
+  _direct_a_1<8:16> MOOD indicative  
+  _direct_a_1<8:16> PROG -  
+  _direct_a_1<8:16> PERF -  
+}
+

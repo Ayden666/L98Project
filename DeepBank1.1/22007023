@@ -1,0 +1,142 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (04:57 h)).
+;;;
+
+[22007023] (1 of 1) {1} `Eli Lilly & Co.'
+
+[22007023:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Eli", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Lilly", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:11>, 1, "&", 0, "null", "CC" 1.0)
+  (4, 3, 4, <12:14>, 1, "Co", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:3>, 1, "Eli", 0, "null")
+  (64, 0, 1, <0:3>, 1, "eli", 0, "null")
+  (69, 0, 1, <0:3>, 1, "eli", 0, "null")
+  (48, 1, 2, <4:9>, 1, "Lilly", 0, "null")
+  (61, 1, 2, <4:9>, 1, "Lilly", 0, "null", "NNP" 1.0)
+  (63, 1, 2, <4:9>, 1, "lilly", 0, "null")
+  (66, 1, 2, <4:9>, 1, "lilly", 0, "null")
+  (57, 2, 3, <10:11>, 1, "&", 0, "null")
+  (68, 2, 3, <10:11>, 1, "&", 0, "null")
+  (51, 3, 4, <12:15>, 1, "Co.", 0, "null")
+  (62, 3, 4, <12:15>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (65, 3, 4, <12:15>, 1, "co.", 0, "null")
+  (67, 3, 4, <12:15>, 1, "co.", 0, "null")
+>
+
+(ROOT_FRAG
+ (340 NP_FRG_C 3.80914 0 4
+  (339 HDN_BNP-PN_C 4.95565 0 4
+   (338 HDN-AJ_REDREL_C 5.1468 0 4
+    (336 ^NP-HDN_NME-CPD_C 1.01229 0 2
+     (334 HDN_BNP-PN_C 0.299225 0 1
+      (333 N_SG_ILR -0.166294 0 1
+       (73 eli_n1@n_-_pn_le 0 0 1
+        ("eli" 64
+         "token [ +CARG \"Eli\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"eli\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (335 ^N_SG_ILR -0.648748 1 2
+      (76 lilly_n1@n_-_pn_le 0 1 2
+       ("lilly" 63
+        "token [ +CARG \"Lilly\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"lilly\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (337 W_PERIOD_PLR 3.52468 2 4
+     (108 and_co_post_ttl@n_-_tt-post-npt_le 0.708286 2 4
+      ("& co." 57
+       "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+       65
+       "token [ +CARG \"Co\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N (NP (N (N "eli"))) (N (N "lilly"))) (N (N "& co.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:3>
+            LBL: h14
+            ARG0: x9
+            CARG: "Eli" ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x4
+            CARG: "Lilly" ]
+          [ _and+company_n_1<10:15>
+            LBL: h15
+            ARG0: x16 [ x IND: + ] ]
+          [ udef_q<10:15>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ compound<10:15>
+            LBL: h8
+            ARG0: i20
+            ARG1: x4
+            ARG2: x16 ] >
+   HCONS: < h18 QEQ h15 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:15>[BV x4]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:3>[BV x9]
+ x9:named<0:3>("Eli"){x PERS 3, NUM sg, IND +}[]
+ x4:named<4:9>("Lilly"){x PERS 3, NUM sg, IND +}[]
+ x16:_and+company_n_1<10:15>{x IND +}[]
+ _3:udef_q<10:15>[BV x16]
+ i20:compound<10:15>{i}[ARG1 x4, ARG2 x16]
+}
+
+{
+  unknown<0:15> ARG named<4:9>(Lilly)  
+  proper_q<0:15> BV named<4:9>(Lilly)  
+  compound<0:9> ARG1 named<4:9>(Lilly)  
+  compound<0:9> ARG2 named<0:3>(Eli)  
+  proper_q<0:3> BV named<0:3>(Eli)  
+  udef_q<10:15> BV _and+company_n_1<10:15>  
+  compound<10:15> ARG1 named<4:9>(Lilly)  
+  compound<10:15> ARG2 _and+company_n_1<10:15>  
+  unknown<0:15> SF prop  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:3>(Eli) PERS 3  
+  named<0:3>(Eli) NUM sg  
+  named<0:3>(Eli) IND +  
+  named<4:9>(Lilly) PERS 3  
+  named<4:9>(Lilly) NUM sg  
+  named<4:9>(Lilly) IND +  
+  _and+company_n_1<10:15> IND +  
+}
+

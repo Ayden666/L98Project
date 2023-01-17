@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (10:58 h)).
+;;;
+
+[20102020] (1 of 1) {1} `Lids aren't even needed.'
+
+[20102020:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Lids", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <5:8>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <8:11>, 1, "n’t", 0, "null", "RB" 0.2198 "NN" 0.2195 "JJ" 0.1979 "VBN" 0.1421 "VBP" 0.1263 "VB" 0.0538 "JJS" 0.0175 "RBS" 0.0114 "VBD" 0.0081 "IN" 0.0036)
+  (4, 3, 4, <12:16>, 1, "even", 0, "null", "RB" 1.0)
+  (5, 4, 5, <17:23>, 1, "needed", 0, "null", "VBN" 0.8559 "VBD" 0.1011 "JJ" 0.043)
+  (6, 5, 6, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:4>, 1, "Lids", 0, "null", "NNS" 1.0)
+  (69, 0, 1, <0:4>, 1, "lids", 0, "null")
+  (73, 0, 1, <0:4>, 1, "lids", 0, "null")
+  (61, 1, 2, <5:11>, 1, "aren’t", 0, "null")
+  (68, 1, 2, <5:11>, 1, "aren’t", 0, "null", "VBP" 1.0)
+  (71, 1, 2, <5:11>, 1, "aren’t", 0, "null")
+  (59, 2, 3, <12:16>, 1, "even", 0, "null")
+  (67, 2, 3, <12:16>, 1, "even", 0, "null", "RB" 1.0)
+  (70, 2, 3, <12:16>, 1, "even", 0, "null")
+  (62, 3, 4, <17:24>, 1, "needed.", 0, "null")
+  (64, 3, 4, <17:24>, 1, "needed.", 0, "null", "VBN" 0.8559)
+  (65, 3, 4, <17:24>, 1, "needed.", 0, "null", "VBD" 0.1011)
+  (72, 3, 4, <17:24>, 1, "needed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1107 SB-HD_MC_C 6.58405 0 4
+  (1101 HDN_BNP_C -0.0333044 0 1
+   (1100 N_PL_OLR 0.542702 0 1
+    (79 lid_n1@n_-_c-ed_le 0 0 1
+     ("lids" 69
+      "token [ +CARG \"Lids\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"lids\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1106 ^HD-CMP_U_C 5.10145 1 4
+   (86 be_c_are_neg_4_u@v_prd_are-n_le 1.26545 1 2
+    ("aren’t" 61
+     "token [ +CARG #1=\"aren’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1105 AJ-HD_INT_C 3.16558 2 4
+    (93 even_adv1@av_-_i-vp-x_le 0.131292 2 3
+     ("even" 59
+      "token [ +CARG #1=\"even\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1104 ^HD_OPTCMP_C 1.82441 3 4
+     (1103 W_PERIOD_PLR 0.396991 3 4
+      (1102 V_PAS_ODLR 0.295437 3 4
+       (128 need_v1@v_np_le 0 3 4
+        ("needed." 62
+         "token [ +CARG \"needed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"needed.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85593249999999999\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "lids")))
+ (VP (V "aren’t") (VP (ADV "even") (VP (V (V (V "needed.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _lid_n_1<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<5:11>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _even_a_1<12:16>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _need_v_1<17:24>
+            LBL: h11
+            ARG0: e3
+            ARG1: i13
+            ARG2: x6 ]
+          [ parg_d<17:24>
+            LBL: h11
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h9 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:udef_q<0:4>[BV x6]
+ x6:_lid_n_1<0:4>{x PERS 3, NUM pl, IND +}[]
+ e10:neg<5:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e12:_even_a_1<12:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_need_v_1-fn.Needing<17:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2-fn.Theme x6]
+ e14:parg_d<17:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  udef_q<0:4> BV _lid_n_1<0:4>  
+  neg<5:11> ARG1 _need_v_1<17:24>  
+  _even_a_1<12:16> ARG1 _need_v_1<17:24>  
+  _need_v_1<17:24> ARG2 _lid_n_1<0:4>  
+  parg_d<17:24> ARG1 _need_v_1<17:24>  
+  parg_d<17:24> ARG2 _lid_n_1<0:4>  
+  _lid_n_1<0:4> PERS 3  
+  _lid_n_1<0:4> NUM pl  
+  _lid_n_1<0:4> IND +  
+  neg<5:11> SF prop  
+  neg<5:11> TENSE untensed  
+  neg<5:11> MOOD indicative  
+  neg<5:11> PROG -  
+  neg<5:11> PERF -  
+  _even_a_1<12:16> SF prop  
+  _even_a_1<12:16> TENSE untensed  
+  _even_a_1<12:16> MOOD indicative  
+  _even_a_1<12:16> PROG -  
+  _even_a_1<12:16> PERF -  
+  _need_v_1<17:24> SF prop  
+  _need_v_1<17:24> TENSE pres  
+  _need_v_1<17:24> MOOD indicative  
+  _need_v_1<17:24> PROG -  
+  _need_v_1<17:24> PERF -  
+  parg_d<17:24> SF prop  
+  parg_d<17:24> TENSE untensed  
+  parg_d<17:24> MOOD indicative  
+  parg_d<17:24> PROG -  
+  parg_d<17:24> PERF -  
+}
+

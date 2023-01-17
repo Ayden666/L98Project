@@ -1,0 +1,184 @@
+;;;
+;;; Redwoods export of `wsj10b';
+;;; (wsun@wsun; 22-jan-2018 (19:31 h)).
+;;;
+
+[21043022] (1 of 1) {1} `Also, Chairman Pierre Lortie resigned.'
+
+[21043022:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Also", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:5>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <6:14>, 1, "Chairman", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:21>, 1, "Pierre", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <22:28>, 1, "Lortie", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <29:37>, 1, "resigned", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (85, 0, 1, <0:5>, 1, "Also,", 0, "null", "RB" 1.0)
+  (90, 0, 1, <0:5>, 1, "also,", 0, "null")
+  (98, 0, 1, <0:5>, 1, "also,", 0, "null")
+  (67, 1, 2, <6:14>, 1, "Chairman", 0, "null")
+  (82, 1, 2, <6:14>, 1, "Chairman", 0, "null", "NNP" 1.0)
+  (87, 1, 2, <6:14>, 1, "chairman", 0, "null")
+  (91, 1, 2, <6:14>, 1, "chairman", 0, "null")
+  (68, 2, 3, <15:21>, 1, "Pierre", 0, "null")
+  (83, 2, 3, <15:21>, 1, "Pierre", 0, "null", "NNP" 1.0)
+  (88, 2, 3, <15:21>, 1, "pierre", 0, "null")
+  (92, 2, 3, <15:21>, 1, "pierre", 0, "null")
+  (69, 3, 4, <22:28>, 1, "Lortie", 0, "null")
+  (84, 3, 4, <22:28>, 1, "Lortie", 0, "null", "NNP" 1.0)
+  (89, 3, 4, <22:28>, 1, "lortie", 0, "null")
+  (93, 3, 4, <22:28>, 1, "lortie", 0, "null")
+  (81, 4, 5, <29:38>, 1, "resigned.", 0, "null")
+  (86, 4, 5, <29:38>, 1, "resigned.", 0, "null", "VBD" 1.0)
+  (94, 4, 5, <29:38>, 1, "resigned.", 0, "null")
+>
+
+(ROOT_STRICT
+ (951 AJ-HD_SCP_C 9.14277 0 5
+  (938 W_COMMA_PLR 2.56551 0 1
+   (105 also_adv2@av_-_s-cp-pr_le 0.513004 0 1
+    ("also," 90
+     "token [ +CARG \"Also\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"also,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (950 ^SB-HD_MC_C 5.1967 1 5
+   (946 HDN_BNP-PN_C 5.69162 1 4
+    (945 NP-HDN_TTL-CPD_C 5.3699 1 4
+     (940 HDN_OPTCMP_C 2.38598 1 2
+      (939 N_SG_ILR 2.79404 1 2
+       (134 chairman_n1@n_pp_c-of_le 1.72201 1 2
+        ("chairman" 87
+         "token [ +CARG \"Chairman\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"chairman\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (944 ^NP-HDN_NME-CPD_C 3.15829 2 4
+      (942 HDN_BNP-PN_C 1.34114 2 3
+       (941 N_SG_ILR -0.166294 2 3
+        (138 pierre_n1@n_-_pn_le 0 2 3
+         ("pierre" 88
+          "token [ +CARG \"Pierre\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"pierre\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (943 ^N_SG_ILR 0.061169 3 4
+       (139 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Lortie" 69
+         "token [ +CARG #1=\"Lortie\" +CLASS proper_ne +FORM #1 +FROM \"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (949 ^HD_OPTCMP_C 0.541349 4 5
+    (948 W_PERIOD_PLR 0.43006 4 5
+     (947 V_PST_OLR -0.260302 4 5
+      (143 resign_v1@v_np*_ntr_le 0 4 5
+       ("resigned." 81
+        "token [ +CARG \"resigned\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"resigned.\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (ADV (ADV "also,"))
+ (S
+  (NP
+   (N (N (N (N "chairman")))
+    (N (NP (N (N "pierre"))) (N (N "Lortie")))))
+  (VP (V (V (V "resigned."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _also_a_1<0:5>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ proper_q<6:28>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h9 ]
+          [ compound<6:28>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<6:14>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _chairman_n_of<6:14>
+            LBL: h16
+            ARG0: x11
+            ARG1: i17 ]
+          [ compound<15:28>
+            LBL: h10
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x18 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<15:21>
+            LBL: h20
+            ARG0: x18
+            RSTR: h21
+            BODY: h22 ]
+          [ named<15:21>
+            LBL: h23
+            ARG0: x18
+            CARG: "Pierre" ]
+          [ named<22:28>
+            LBL: h10
+            ARG0: x8
+            CARG: "Lortie" ]
+          [ _resign_v_1<29:38>
+            LBL: h24
+            ARG0: e3
+            ARG1: x8
+            ARG2: i25 ] >
+   HCONS: < h21 QEQ h23 h14 QEQ h16 h7 QEQ h10 h4 QEQ h24 h1 QEQ h2 > ]
+
+{e5:
+ e5:_also_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<6:28>[BV x8]
+ e12:compound<6:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x11]
+ _2:udef_q<6:14>[BV x11]
+ x11:_chairman_n_of<6:14>{x PERS 3, NUM sg, IND +}[]
+ e19:compound<15:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x18]
+ _3:proper_q<15:21>[BV x18]
+ x18:named<15:21>("Pierre"){x PERS 3, NUM sg, IND +}[]
+ x8:named<22:28>("Lortie"){x PERS 3, NUM sg, IND +}[]
+ e3:_resign_v_1<29:38>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+}
+
+{
+  _also_a_1<0:5> ARG1 _resign_v_1<29:38>  
+  proper_q<6:28> BV named<22:28>(Lortie)  
+  compound<6:28> ARG1 named<22:28>(Lortie)  
+  compound<6:28> ARG2 _chairman_n_of<6:14>  
+  udef_q<6:14> BV _chairman_n_of<6:14>  
+  compound<15:28> ARG1 named<22:28>(Lortie)  
+  compound<15:28> ARG2 named<15:21>(Pierre)  
+  proper_q<15:21> BV named<15:21>(Pierre)  
+  _resign_v_1<29:38> ARG1 named<22:28>(Lortie)  
+  _also_a_1<0:5> SF prop  
+  _also_a_1<0:5> TENSE untensed  
+  _also_a_1<0:5> MOOD indicative  
+  _also_a_1<0:5> PROG -  
+  _also_a_1<0:5> PERF -  
+  compound<6:28> SF prop  
+  compound<6:28> TENSE untensed  
+  compound<6:28> MOOD indicative  
+  compound<6:28> PROG -  
+  compound<6:28> PERF -  
+  _chairman_n_of<6:14> PERS 3  
+  _chairman_n_of<6:14> NUM sg  
+  _chairman_n_of<6:14> IND +  
+  compound<15:28> SF prop  
+  compound<15:28> TENSE untensed  
+  compound<15:28> MOOD indicative  
+  compound<15:28> PROG -  
+  compound<15:28> PERF -  
+  named<15:21>(Pierre) PERS 3  
+  named<15:21>(Pierre) NUM sg  
+  named<15:21>(Pierre) IND +  
+  named<22:28>(Lortie) PERS 3  
+  named<22:28>(Lortie) NUM sg  
+  named<22:28>(Lortie) IND +  
+  _resign_v_1<29:38> SF prop  
+  _resign_v_1<29:38> TENSE past  
+  _resign_v_1<29:38> MOOD indicative  
+  _resign_v_1<29:38> PROG -  
+  _resign_v_1<29:38> PERF -  
+}
+

@@ -1,0 +1,126 @@
+;;;
+;;; Redwoods export of `wsj14c';
+;;; (wsun@wsun; 22-jan-2018 (23:28 h)).
+;;;
+
+[21457067] (1 of 1) {1} `He evades and ducks.'
+
+[21457067:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:9>, 1, "evades", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <10:13>, 1, "and", 0, "null", "CC" 1.0)
+  (4, 3, 4, <14:19>, 1, "ducks", 0, "null", "NNS" 0.5143 "VBZ" 0.4857)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:2>, 1, "he", 0, "null")
+  (64, 0, 1, <0:2>, 1, "he", 0, "null")
+  (52, 1, 2, <3:9>, 1, "evades", 0, "null")
+  (58, 1, 2, <3:9>, 1, "evades", 0, "null", "VBZ" 1.0)
+  (61, 1, 2, <3:9>, 1, "evades", 0, "null")
+  (54, 2, 3, <10:13>, 1, "and", 0, "null")
+  (62, 2, 3, <10:13>, 1, "and", 0, "null")
+  (55, 3, 4, <14:20>, 1, "ducks.", 0, "null")
+  (57, 3, 4, <14:20>, 1, "ducks.", 0, "null", "NNS" 0.5143)
+  (59, 3, 4, <14:20>, 1, "ducks.", 0, "null", "VBZ" 0.4857)
+  (63, 3, 4, <14:20>, 1, "ducks.", 0, "null")
+>
+
+(ROOT_STRICT
+ (323 SB-HD_MC_C -2.33373 0 4
+  (315 HDN_BNP-QNT_C 1.50958 0 1
+   (65 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 60
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (322 ^VP-VP_CRD-FIN-T_C -4.66666 1 4
+   (317 HD_OPTCMP_C -0.88095 1 2
+    (316 V_3S-FIN_OLR -0.845501 1 2
+     (80 evade_v1@v_np*_le 0 1 2
+      ("evades" 52
+       "token [ +CARG #1=\"evades\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (321 ^MRK-NH_EVNT_C -3.4989 2 4
+    (92 and_conj@c_xp_and_le -0.371606 2 3
+     ("and" 54
+      "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (320 HD_OPTCMP_C -2.91179 3 4
+     (319 W_PERIOD_PLR -2.73636 3 4
+      (318 V_3S-FIN_OLR -1.58721 3 4
+       (114 duck_v1@v_np*_le 0 3 4
+        ("ducks." 55
+         "token [ +CARG \"ducks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"ducks.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.51429159999999996\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "he"))
+ (VP (VP (V (V "evades")))
+  (VP-C (CONJ "and") (VP (V (V (V "ducks.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _evade_v_1<3:9>
+            LBL: h9
+            ARG0: e10 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: p11 ]
+          [ _and_c<10:13>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h9
+            L-INDEX: e10
+            R-HNDL: h13
+            R-INDEX: e12 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _duck_v_1<14:20>
+            LBL: h13
+            ARG0: e12
+            ARG1: x5
+            ARG2: p14 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e10:_evade_v_1<3:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e3:_and_c<10:13>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[L-HNDL e10, L-INDEX e10, R-HNDL e12, R-INDEX e12]
+ e12:_duck_v_1<14:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _evade_v_1<3:9> ARG1 pron<0:2>  
+  _and_c<10:13> L-HNDL _evade_v_1<3:9>  
+  _and_c<10:13> L-INDEX _evade_v_1<3:9>  
+  _and_c<10:13> R-HNDL _duck_v_1<14:20>  
+  _and_c<10:13> R-INDEX _duck_v_1<14:20>  
+  _duck_v_1<14:20> ARG1 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _evade_v_1<3:9> SF prop  
+  _evade_v_1<3:9> TENSE pres  
+  _evade_v_1<3:9> MOOD indicative  
+  _evade_v_1<3:9> PROG -  
+  _evade_v_1<3:9> PERF -  
+  _and_c<10:13> SF prop  
+  _and_c<10:13> TENSE pres  
+  _and_c<10:13> MOOD indicative  
+  _and_c<10:13> PROG -  
+  _and_c<10:13> PERF -  
+  _duck_v_1<14:20> SF prop  
+  _duck_v_1<14:20> TENSE pres  
+  _duck_v_1<14:20> MOOD indicative  
+  _duck_v_1<14:20> PROG -  
+  _duck_v_1<14:20> PERF -  
+}
+

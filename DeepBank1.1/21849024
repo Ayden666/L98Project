@@ -1,0 +1,129 @@
+;;;
+;;; Redwoods export of `wsj18c';
+;;; (wsun@wsun; 23-jan-2018 (03:25 h)).
+;;;
+
+[21849024] (1 of 1) {1} `Hence the LBO craze.'
+
+[21849024:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Hence", 0, "null", "RB" 1.0)
+  (2, 1, 2, <6:9>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <10:13>, 1, "LBO", 0, "null", "NN" 0.6875 "NNP" 0.3125)
+  (4, 3, 4, <14:19>, 1, "craze", 0, "null", "NN" 1.0)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:5>, 1, "Hence", 0, "null", "RB" 1.0)
+  (62, 0, 1, <0:5>, 1, "hence", 0, "null")
+  (68, 0, 1, <0:5>, 1, "hence", 0, "null")
+  (54, 1, 2, <6:9>, 1, "the", 0, "null")
+  (65, 1, 2, <6:9>, 1, "the", 0, "null")
+  (47, 2, 3, <10:13>, 1, "LBO", 0, "null")
+  (59, 2, 3, <10:13>, 1, "LBO", 0, "null", "NN" 0.6875)
+  (63, 2, 3, <10:13>, 1, "lbo", 0, "null")
+  (64, 2, 3, <10:13>, 1, "lbo", 0, "null")
+  (56, 3, 4, <14:20>, 1, "craze.", 0, "null")
+  (61, 3, 4, <14:20>, 1, "craze.", 0, "null", "NN" 1.0)
+  (66, 3, 4, <14:20>, 1, "craze.", 0, "null")
+>
+
+(ROOT_FRAG
+ (277 AJ-HD_SCP_C 1.43488 0 4
+  (72 hence_root_pre@av_-_s-cp-nsp-pr_le 0 0 1
+   ("hence" 62
+    "token [ +CARG \"Hence\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"hence\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (276 ^NP_FRG_C 1.43488 1 4
+   (275 SP-HD_N_C 1.71454 1 4
+    (85 the_1@d_-_the_le 0.345671 1 2
+     ("the" 54
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (274 ^NP-HDN_CPD_C 0.611234 2 4
+     (271 HDN_BNP-PN_C -0.050883 2 3
+      (110 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("LBO" 47
+        "token [ +CARG #1=\"LBO\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68753359999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (273 ^W_PERIOD_PLR -0.0829626 3 4
+      (272 N_MS-CNT_ILR -0.678952 3 4
+       (113 generic_mass_count_noun@n_-_mc-unk_le 0 3 4
+        ("craze." 61
+         "token [ +CARG \"craze\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"craze.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED \"_craze/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "hence")
+ (XP (NP (DET "the") (N (NP (N "LBO")) (N (N (N "craze.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _hence_a_1<0:5>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ unknown<6:20>
+            LBL: h6
+            ARG0: e3
+            ARG: x7 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<6:9>
+            LBL: h8
+            ARG0: x7
+            RSTR: h10
+            BODY: h9 ]
+          [ compound<10:20>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x7
+            ARG2: x12 [ x IND: + ] ]
+          [ proper_q<10:13>
+            LBL: h14
+            ARG0: x12
+            RSTR: h15
+            BODY: h16 ]
+          [ named<10:13>
+            LBL: h17
+            ARG0: x12
+            CARG: "LBO" ]
+          [ _craze/nn_u_unknown<14:20>
+            LBL: h11
+            ARG0: x7 ] >
+   HCONS: < h15 QEQ h17 h10 QEQ h11 h4 QEQ h6 h1 QEQ h2 > ]
+
+{e5:
+ e5:_hence_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:unknown<6:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x7]
+ _1:_the_q<6:9>[BV x7]
+ e13:compound<10:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x7, ARG2 x12]
+ _2:proper_q<10:13>[BV x12]
+ x12:named<10:13>("LBO"){x IND +}[]
+ x7:_craze/nn_u_unknown<14:20>{x PERS 3, NUM sg}[]
+}
+
+{
+  _hence_a_1<0:5> ARG1 unknown<6:20>  
+  unknown<6:20> ARG _craze/nn_u_unknown<14:20>  
+  _the_q<6:9> BV _craze/nn_u_unknown<14:20>  
+  compound<10:20> ARG1 _craze/nn_u_unknown<14:20>  
+  compound<10:20> ARG2 named<10:13>(LBO)  
+  proper_q<10:13> BV named<10:13>(LBO)  
+  _hence_a_1<0:5> SF prop  
+  _hence_a_1<0:5> TENSE untensed  
+  _hence_a_1<0:5> MOOD indicative  
+  _hence_a_1<0:5> PROG -  
+  _hence_a_1<0:5> PERF -  
+  unknown<6:20> SF prop  
+  unknown<6:20> TENSE untensed  
+  unknown<6:20> MOOD indicative  
+  unknown<6:20> PROG -  
+  unknown<6:20> PERF -  
+  compound<10:20> SF prop  
+  compound<10:20> TENSE untensed  
+  compound<10:20> MOOD indicative  
+  compound<10:20> PROG -  
+  compound<10:20> PERF -  
+  named<10:13>(LBO) IND +  
+  _craze/nn_u_unknown<14:20> PERS 3  
+  _craze/nn_u_unknown<14:20> NUM sg  
+}
+

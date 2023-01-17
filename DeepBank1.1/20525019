@@ -1,0 +1,158 @@
+;;;
+;;; Redwoods export of `wsj05a';
+;;; (wsun@wsun; 22-jan-2018 (14:57 h)).
+;;;
+
+[20525019] (1 of 1) {1} `Some stock-index funds are huge.'
+
+[20525019:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Some", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:16>, 1, "stock-index", 0, "null", "NN" 0.5128 "JJ" 0.4872)
+  (3, 2, 3, <17:22>, 1, "funds", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <23:26>, 1, "are", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <27:31>, 1, "huge", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (82, 0, 1, <0:4>, 1, "some", 0, "null")
+  (88, 0, 1, <0:4>, 1, "some", 0, "null")
+  (72, 1, 2, <5:16>, 1, "stock-", 0, "null")
+  (80, 1, 2, <5:16>, 1, "stock-", 0, "null", "NN" 1.0)
+  (85, 1, 2, <5:16>, 1, "stock-", 0, "null")
+  (75, 2, 3, <5:16>, 1, "index", 0, "null")
+  (77, 2, 3, <5:16>, 1, "index", 0, "null", "NN" 0.5128)
+  (87, 2, 3, <5:16>, 1, "index", 0, "null")
+  (68, 3, 4, <17:22>, 1, "funds", 0, "null")
+  (78, 3, 4, <17:22>, 1, "funds", 0, "null", "NNS" 1.0)
+  (83, 3, 4, <17:22>, 1, "funds", 0, "null")
+  (70, 4, 5, <23:26>, 1, "are", 0, "null")
+  (79, 4, 5, <23:26>, 1, "are", 0, "null", "VBP" 1.0)
+  (84, 4, 5, <23:26>, 1, "are", 0, "null")
+  (74, 5, 6, <27:32>, 1, "huge.", 0, "null")
+  (81, 5, 6, <27:32>, 1, "huge.", 0, "null", "JJ" 1.0)
+  (86, 5, 6, <27:32>, 1, "huge.", 0, "null")
+>
+
+(ROOT_STRICT
+ (588 SB-HD_MC_C 8.32142 0 6
+  (585 SP-HD_N_C 4.56136 0 4
+   (89 some@d_-_prt-div_le 0.513897 0 1
+    ("some" 82
+     "token [ +CARG \"Some\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"some\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (584 ^N-HDN_CPD_C 3.25299 1 4
+    (582 XP_BRCK-PR_C 1.58279 1 3
+     (581 N-HDN_CPD_C 1.42022 1 3
+      (580 W_HYPHEN_PLR 1.01005 1 2
+       (95 stock_n1@n_-_mc_le 0 1 2
+        ("stock-" 72
+         "token [ +CARG #1=\"stock-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (109 index_n1@n_-_c_le 0.340048 2 3
+       ("index" 75
+        "token [ +CARG #1=\"index\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.51283860000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+    (583 ^N_PL_OLR 1.9304 3 4
+     (112 fund_n1@n_-_c_le 1.76475 3 4
+      ("funds" 68
+       "token [ +CARG #1=\"funds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (587 ^HD-CMP_U_C 1.80555 4 6
+   (126 be_c_are@v_prd_are_le 1.27762 4 5
+    ("are" 70
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (586 W_PERIOD_PLR 0.612486 5 6
+    (133 huge_isect@aj_-_i_le 0 5 6
+     ("huge." 74
+      "token [ +CARG \"huge\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"huge.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S
+ (NP (DET "some")
+  (N (N (N (N (N "stock-")) (N "index"))) (N (N "funds"))))
+ (VP (V "are") (AP (AP "huge."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _some_q<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<5:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<5:16>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<5:16>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 ]
+          [ udef_q<5:16>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _stock_n_1<5:16>
+            LBL: h20
+            ARG0: x15 ]
+          [ _index_n_1<5:16>
+            LBL: h14
+            ARG0: x9 ]
+          [ _fund_n_1<17:22>
+            LBL: h8
+            ARG0: x5 ]
+          [ _huge_a_1<27:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_some_q<0:4>[BV x5]
+ e10:compound<5:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<5:16>[BV x9]
+ e16:compound<5:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<5:16>[BV x15]
+ x15:_stock_n_1<5:16>{x}[]
+ x9:_index_n_1<5:16>{x IND +}[]
+ x5:_fund_n_1<17:22>{x PERS 3, NUM pl, IND +}[]
+ e3:_huge_a_1<27:32>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  _some_q<0:4> BV _fund_n_1<17:22>  
+  compound<5:22> ARG1 _fund_n_1<17:22>  
+  compound<5:22> ARG2 _index_n_1<5:16>  
+  udef_q<5:16> BV _index_n_1<5:16>  
+  compound<5:16> ARG1 _index_n_1<5:16>  
+  compound<5:16> ARG2 _stock_n_1<5:16>  
+  udef_q<5:16> BV _stock_n_1<5:16>  
+  _huge_a_1<27:32> ARG1 _fund_n_1<17:22>  
+  compound<5:22> SF prop  
+  compound<5:22> TENSE untensed  
+  compound<5:22> MOOD indicative  
+  compound<5:22> PROG -  
+  compound<5:22> PERF -  
+  compound<5:16> SF prop  
+  compound<5:16> TENSE untensed  
+  compound<5:16> MOOD indicative  
+  compound<5:16> PROG -  
+  compound<5:16> PERF -  
+  _index_n_1<5:16> IND +  
+  _fund_n_1<17:22> PERS 3  
+  _fund_n_1<17:22> NUM pl  
+  _fund_n_1<17:22> IND +  
+  _huge_a_1<27:32> SF prop  
+  _huge_a_1<27:32> TENSE pres  
+  _huge_a_1<27:32> MOOD indicative  
+  _huge_a_1<27:32> PROG -  
+  _huge_a_1<27:32> PERF -  
+}
+

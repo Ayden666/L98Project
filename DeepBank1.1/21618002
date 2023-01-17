@@ -1,0 +1,207 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:09 h)).
+;;;
+
+[21618002] (1 of 1) {1} `But you knew that, didn't you?'
+
+[21618002:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "you", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <8:12>, 1, "knew", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <13:17>, 1, "that", 0, "null", "IN" 0.7723 "DT" 0.159 "RB" 0.0463 "WDT" 0.0223)
+  (5, 4, 5, <17:18>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <19:22>, 1, "did", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <22:25>, 1, "n’t", 0, "null", "JJ" 0.4092 "VB" 0.3703 "VBN" 0.0848 "NN" 0.0646 "IN" 0.0318 "RB" 0.0132 "VBD" 0.0104 "JJS" 0.0081 "VBP" 0.0076)
+  (8, 7, 8, <26:29>, 1, "you", 0, "null", "PRP" 1.0)
+  (9, 8, 9, <29:30>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (100, 0, 1, <0:3>, 1, "but", 0, "null")
+  (106, 0, 1, <0:3>, 1, "but", 0, "null")
+  (89, 1, 2, <4:7>, 1, "you", 0, "null")
+  (101, 1, 2, <4:7>, 1, "you", 0, "null")
+  (91, 2, 3, <8:12>, 1, "knew", 0, "null")
+  (98, 2, 3, <8:12>, 1, "knew", 0, "null", "VBD" 1.0)
+  (102, 2, 3, <8:12>, 1, "knew", 0, "null")
+  (96, 3, 4, <13:18>, 1, "that,", 0, "null")
+  (105, 3, 4, <13:18>, 1, "that,", 0, "null")
+  (93, 4, 5, <19:25>, 1, "didn’t", 0, "null")
+  (99, 4, 5, <19:25>, 1, "didn’t", 0, "null", "VBD" 1.0)
+  (103, 4, 5, <19:25>, 1, "didn’t", 0, "null")
+  (95, 5, 6, <26:30>, 1, "you?", 0, "null")
+  (104, 5, 6, <26:30>, 1, "you?", 0, "null")
+>
+
+(ROOT_STRICT
+ (738 CL_CNJ-FRG_C 6.6716 0 6
+  (737 MRK-NH_CL_C 5.80171 0 6
+   (109 but_conj@c_xp_but_le 1.51412 0 1
+    ("but" 100
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (736 HD-AJ_SCP-PR_C 4.03375 1 6
+    (729 ^SB-HD_MC_C 3.08927 1 4
+     (723 HDN_BNP-QNT_C 1.14807 1 2
+      (128 you@n_-_pr-you_le 0.644596 1 2
+       ("you" 89
+        "token [ +CARG #1=\"you\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (728 ^HD-CMP_U_C 1.32741 2 4
+      (724 ^V_PST_OLR 0.306776 2 3
+       (152 know_v1@v_np*_le 0 2 3
+        ("knew" 91
+         "token [ +CARG #1=\"knew\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (727 HDN_BNP-QNT_C 0.919641 3 4
+       (726 HDN_OPTCMP_C 1.90472 3 4
+        (725 W_COMMA_PLR 0.938529 3 4
+         (204 that_deix@n_-_pr-dei-sg_le 0.3088 3 4
+          ("that," 96
+           "token [ +CARG \"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"that,\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77234219999999998\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+    (735 HD-CMP_U_C -0.400933 4 6
+     (732 ^V_AUX-TAG_DLR -0.400933 4 5
+      (731 V_AUX-SB-INV_DLR -0.400933 4 5
+       (730 V_AUX-ELL-REF_DLR -0.187525 4 5
+        (255 did1_neg_4_u@v_vp_did-n_le -0.0923024 4 5
+         ("didn’t" 93
+          "token [ +CARG #1=\"didn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (734 HDN_BNP-QNT_C 0 5 6
+      (733 W_QMARK_PLR 0 5 6
+       (262 you@n_-_pr-you_le 0 5 6
+        ("you?" 95
+         "token [ +CARG \"you\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"you?\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (S (CONJ "but")
+  (S (S (NP (NP "you")) (VP (V (V "knew")) (NP (N (N (N "that,"))))))
+   (XP (V (V (VP (V "didn’t")))) (NP (NP (NP "you?")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: QUES TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ pron<4:7>
+            LBL: h8
+            ARG0: x9 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<4:7>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _know_v_1<8:12>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ generic_entity<13:18>
+            LBL: h16
+            ARG0: x15 ]
+          [ _that_q_dem<13:18>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ neg<19:25>
+            LBL: h20
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h21 ]
+          [ ellipsis_ref<19:25>
+            LBL: h23
+            ARG0: e4
+            ARG1: x24 [ x PERS: 2 PT: STD ] ]
+          [ ne_x<19:25>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h13
+            ARG2: h20 ]
+          [ id<19:25>
+            LBL: h25
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x24 ]
+          [ pron<26:30>
+            LBL: h28
+            ARG0: x24 ]
+          [ pronoun_q<26:30>
+            LBL: h29
+            ARG0: x24
+            RSTR: h30
+            BODY: h31 ] >
+   HCONS: < h30 QEQ h28 h21 QEQ h23 h18 QEQ h16 h11 QEQ h8 h5 QEQ h25 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e26, R-INDEX e4]
+ x9:pron<4:7>{x PERS 2, PT std}[]
+ _1:pronoun_q<4:7>[BV x9]
+ e14:_know_v_1<8:12>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ x15:generic_entity<13:18>{x PERS 3, NUM sg, GEND n}[]
+ _2:_that_q_dem<13:18>[BV x15]
+ e22:neg<19:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4]
+ e4:ellipsis_ref<19:25>{e SF ques, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x24]
+ e26:ne_x<19:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14, ARG2 e22]
+ e27:id<19:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x24]
+ x24:pron<26:30>{x PERS 2, PT std}[]
+ _3:pronoun_q<26:30>[BV x24]
+}
+
+{
+  _but_c<0:3> R-HNDL ne_x<19:25>  
+  _but_c<0:3> R-INDEX ellipsis_ref<19:25>  
+  pronoun_q<4:7> BV pron<4:7>  
+  _know_v_1<8:12> ARG1 pron<4:7>  
+  _know_v_1<8:12> ARG2 generic_entity<13:18>  
+  _that_q_dem<13:18> BV generic_entity<13:18>  
+  neg<19:25> ARG1 ellipsis_ref<19:25>  
+  ellipsis_ref<19:25> ARG1 pron<26:30>  
+  ne_x<19:25> ARG1 _know_v_1<8:12>  
+  ne_x<19:25> ARG2 neg<19:25>  
+  id<19:25> ARG1 pron<4:7>  
+  id<19:25> ARG2 pron<26:30>  
+  pronoun_q<26:30> BV pron<26:30>  
+  _but_c<0:3> SF ques  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  pron<4:7> PERS 2  
+  pron<4:7> PT std  
+  _know_v_1<8:12> SF prop  
+  _know_v_1<8:12> TENSE past  
+  _know_v_1<8:12> MOOD indicative  
+  _know_v_1<8:12> PROG -  
+  _know_v_1<8:12> PERF -  
+  generic_entity<13:18> PERS 3  
+  generic_entity<13:18> NUM sg  
+  generic_entity<13:18> GEND n  
+  neg<19:25> SF prop  
+  neg<19:25> TENSE untensed  
+  neg<19:25> MOOD indicative  
+  neg<19:25> PROG -  
+  neg<19:25> PERF -  
+  ellipsis_ref<19:25> SF ques  
+  ellipsis_ref<19:25> TENSE past  
+  ellipsis_ref<19:25> MOOD indicative  
+  ellipsis_ref<19:25> PROG -  
+  ellipsis_ref<19:25> PERF -  
+  ne_x<19:25> SF prop  
+  ne_x<19:25> TENSE untensed  
+  ne_x<19:25> MOOD indicative  
+  ne_x<19:25> PROG -  
+  ne_x<19:25> PERF -  
+  id<19:25> SF prop  
+  id<19:25> TENSE untensed  
+  id<19:25> MOOD indicative  
+  id<19:25> PROG -  
+  id<19:25> PERF -  
+  pron<26:30> PERS 2  
+  pron<26:30> PT std  
+}
+

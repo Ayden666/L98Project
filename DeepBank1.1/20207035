@@ -1,0 +1,82 @@
+;;;
+;;; Redwoods export of `wsj02a';
+;;; (wsun@wsun; 22-jan-2018 (11:56 h)).
+;;;
+
+[20207035] (1 of 1) {1} `What's next?'
+
+[20207035:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "What", 0, "null", "WP" 0.9746 "WDT" 0.0254)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.9402 "NNS" 0.0598)
+  (3, 2, 3, <7:11>, 1, "next", 0, "null", "JJ" 0.9606 "RB" 0.0214 "IN" 0.018)
+  (4, 3, 4, <11:12>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:4>, 1, "what", 0, "null")
+  (57, 0, 1, <0:4>, 1, "what", 0, "null")
+  (48, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (52, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.9402)
+  (55, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (50, 2, 3, <7:12>, 1, "next?", 0, "null")
+  (53, 2, 3, <7:12>, 1, "next?", 0, "null", "JJ" 0.9606)
+  (56, 2, 3, <7:12>, 1, "next?", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (472 FLR-HD_WH-MC-SB_C 1.2403 0 3
+  (468 HDN_BNP-QNT_C 0.512834 0 1
+   (467 HDN_OPTCMP_C 1.16635 0 1
+    (63 what1@n_-_pr-wh_le 0.858054 0 1
+     ("what" 54
+      "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"what\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97460179999999996\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (471 ^HD_XSB-FIN_C 0.49476 1 3
+   (470 HD-CMP_U_C 0.0090707 1 3
+    (84 be_c_is_cx_3@v_prd_is-cx_le 0.0090707 1 2
+     ("’s" 48
+      "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94017910000000005\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (469 W_QMARK_PLR 0 2 3
+     (236 next_a2@aj_-_i-prd-nmd_le 0 2 3
+      ("next?" 50
+       "token [ +CARG \"next\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"next?\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96059879999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "what"))) (S/NP (VP/NP (V/NP "’s") (AP (AP "next?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ thing<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ which_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _next_a_1<7:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:4>{x PERS 3, NUM sg}[]
+ _1:which_q<0:4>[BV x5]
+ e3:_next_a_1<7:12>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  which_q<0:4> BV thing<0:4>  
+  _next_a_1<7:12> ARG1 thing<0:4>  
+  thing<0:4> PERS 3  
+  thing<0:4> NUM sg  
+  _next_a_1<7:12> SF ques  
+  _next_a_1<7:12> TENSE pres  
+  _next_a_1<7:12> MOOD indicative  
+  _next_a_1<7:12> PROG -  
+  _next_a_1<7:12> PERF -  
+}
+

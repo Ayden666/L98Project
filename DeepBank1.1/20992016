@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:03 h)).
+;;;
+
+[20992016] (1 of 1) {1} `For whom is the saving?'
+
+[20992016:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "For", 0, "null", "IN" 1.0)
+  (2, 1, 2, <4:8>, 1, "whom", 0, "null", "WP" 1.0)
+  (3, 2, 3, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <12:15>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <16:22>, 1, "saving", 0, "null", "NN" 0.9072 "VBG" 0.0928)
+  (6, 5, 6, <22:23>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "for", 0, "null")
+  (75, 0, 1, <0:3>, 1, "for", 0, "null")
+  (61, 1, 2, <4:8>, 1, "whom", 0, "null")
+  (71, 1, 2, <4:8>, 1, "whom", 0, "null")
+  (63, 2, 3, <9:11>, 1, "is", 0, "null")
+  (69, 2, 3, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (72, 2, 3, <9:11>, 1, "is", 0, "null")
+  (65, 3, 4, <12:15>, 1, "the", 0, "null")
+  (73, 3, 4, <12:15>, 1, "the", 0, "null")
+  (66, 4, 5, <16:23>, 1, "saving?", 0, "null")
+  (68, 4, 5, <16:23>, 1, "saving?", 0, "null", "NN" 0.9072)
+  (74, 4, 5, <16:23>, 1, "saving?", 0, "null")
+>
+
+(ROOT_STRICT
+ (616 FLR-HD_WH-MC_C 0.800856 0 5
+  (607 HD-CMP_U_C -1.16014 0 2
+   (80 for@p_np_i_le -0.250618 0 1
+    ("for" 70
+     "token [ +CARG \"For\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"for\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (606 HDN_BNP-QNT_C -1.09544 1 2
+    (605 HDN_OPTCMP_C 0 1 2
+     (94 whom1@n_-_pr-wh-acc_le 0 1 2
+      ("whom" 61
+       "token [ +CARG #1=\"whom\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (615 ^HD_XCMP_C 1.961 2 5
+   (614 HD-CMP_U_C 2.29711 2 5
+    (608 ^V_AUX-SB-INV_DLR 0.82392 2 3
+     (135 be_c_is@v_prd_is_le 0.433329 2 3
+      ("is" 63
+       "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (613 SP-HD_N_C 1.26388 3 5
+     (233 the_1@d_-_the_le 1.07131 3 4
+      ("the" 65
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (612 ^HDN_OPTCMP_C -0.665355 4 5
+      (611 W_QMARK_PLR -0.665355 4 5
+       (610 V_NGER-TR_DLR -0.665355 4 5
+        (609 V_PRP_OLR -0.098586 4 5
+         (263 save_v1@v_np*_le 0 4 5
+          ("saving?" 66
+           "token [ +CARG \"saving\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"saving?\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90717029999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (PP (P "for") (NP (N (N "whom"))))
+ (S/PP
+  (V/PP (V/PP (V/PP "is"))
+   (NP (DET "the") (N (N (N (V (V "saving?")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _for_p<0:3>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 [ x PERS: 3 NUM: SG GEND: N ]
+            ARG2: x4 [ x PERS: 3 NUM: SG ] ]
+          [ person<4:8>
+            LBL: h6
+            ARG0: x4 ]
+          [ which_q<4:8>
+            LBL: h7
+            ARG0: x4
+            RSTR: h8
+            BODY: h9 ]
+          [ _the_q<12:15>
+            LBL: h10
+            ARG0: x5
+            RSTR: h12
+            BODY: h11 ]
+          [ _save_v_1<16:23>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i16
+            ARG2: p15 ]
+          [ nominalization<16:23>
+            LBL: h17
+            ARG0: x5
+            ARG1: h13 ] >
+   HCONS: < h12 QEQ h17 h8 QEQ h6 h1 QEQ h2 > ]
+
+{e3:
+ e3:_for_p<0:3>{e SF ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x4]
+ x4:person<4:8>{x PERS 3, NUM sg}[]
+ _1:which_q<4:8>[BV x4]
+ _2:_the_q<12:15>[BV x5]
+ e14:_save_v_1<16:23>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x5:nominalization<16:23>{x PERS 3, NUM sg, GEND n}[ARG1 e14]
+}
+
+{
+  _for_p<0:3> ARG1 nominalization<16:23>  
+  _for_p<0:3> ARG2 person<4:8>  
+  which_q<4:8> BV person<4:8>  
+  _the_q<12:15> BV nominalization<16:23>  
+  nominalization<16:23> ARG1 _save_v_1<16:23>  
+  _for_p<0:3> SF ques  
+  _for_p<0:3> TENSE pres  
+  _for_p<0:3> MOOD indicative  
+  _for_p<0:3> PROG -  
+  _for_p<0:3> PERF -  
+  person<4:8> PERS 3  
+  person<4:8> NUM sg  
+  _save_v_1<16:23> SF prop  
+  _save_v_1<16:23> TENSE untensed  
+  _save_v_1<16:23> MOOD indicative  
+  _save_v_1<16:23> PROG +  
+  _save_v_1<16:23> PERF -  
+  nominalization<16:23> PERS 3  
+  nominalization<16:23> NUM sg  
+  nominalization<16:23> GEND n  
+}
+

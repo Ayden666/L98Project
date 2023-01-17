@@ -1,0 +1,171 @@
+;;;
+;;; Redwoods export of `wsj10d';
+;;; (wsun@wsun; 22-jan-2018 (19:46 h)).
+;;;
+
+[21069010] (1 of 1) {1} `But some analysts remain sour on the company.'
+
+[21069010:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:8>, 1, "some", 0, "null", "DT" 1.0)
+  (3, 2, 3, <9:17>, 1, "analysts", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <18:24>, 1, "remain", 0, "null", "VBP" 0.9664 "VB" 0.0336)
+  (5, 4, 5, <25:29>, 1, "sour", 0, "null", "JJ" 0.9887 "VB" 0.0113)
+  (6, 5, 6, <30:32>, 1, "on", 0, "null", "IN" 1.0)
+  (7, 6, 7, <33:36>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <37:44>, 1, "company", 0, "null", "NN" 1.0)
+  (9, 8, 9, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (107, 0, 1, <0:3>, 1, "but", 0, "null")
+  (115, 0, 1, <0:3>, 1, "but", 0, "null")
+  (90, 1, 2, <4:8>, 1, "some", 0, "null")
+  (108, 1, 2, <4:8>, 1, "some", 0, "null")
+  (92, 2, 3, <9:17>, 1, "analysts", 0, "null")
+  (105, 2, 3, <9:17>, 1, "analysts", 0, "null", "NNS" 1.0)
+  (109, 2, 3, <9:17>, 1, "analysts", 0, "null")
+  (99, 3, 4, <18:24>, 1, "remain", 0, "null")
+  (103, 3, 4, <18:24>, 1, "remain", 0, "null", "VBP" 0.9664)
+  (113, 3, 4, <18:24>, 1, "remain", 0, "null")
+  (101, 4, 5, <25:29>, 1, "sour", 0, "null")
+  (104, 4, 5, <25:29>, 1, "sour", 0, "null", "JJ" 0.9887)
+  (114, 4, 5, <25:29>, 1, "sour", 0, "null")
+  (94, 5, 6, <30:32>, 1, "on", 0, "null")
+  (110, 5, 6, <30:32>, 1, "on", 0, "null")
+  (96, 6, 7, <33:36>, 1, "the", 0, "null")
+  (111, 6, 7, <33:36>, 1, "the", 0, "null")
+  (98, 7, 8, <37:45>, 1, "company.", 0, "null")
+  (106, 7, 8, <37:45>, 1, "company.", 0, "null", "NN" 1.0)
+  (112, 7, 8, <37:45>, 1, "company.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1861 CL_CNJ-FRG_C 14.3408 0 8
+  (1860 MRK-NH_CL_C 13.4709 0 8
+   (118 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 107
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1859 SB-HD_MC_C 11.0582 1 8
+    (1850 SP-HD_N_C 1.13472 1 3
+     (132 some@d_-_prt-div_le 0.098201 1 2
+      ("some" 90
+       "token [ +CARG #1=\"some\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1849 ^N_PL_OLR 0.114908 2 3
+      (136 analyst_n1@n_-_c_le -0.169801 2 3
+       ("analysts" 92
+        "token [ +CARG #1=\"analysts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1858 ^HD-CMP_U_C 8.69511 3 8
+     (1851 ^V_N3S-BSE_ILR 0.906117 3 4
+      (160 remain_v4@v_prd_seq_le 1.38787 3 4
+       ("remain" 99
+        "token [ +CARG #1=\"remain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96643659999999998\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1857 HD-CMP_U_C 6.57842 4 8
+      (175 sour_a2@aj_pp_i-obl_le 0 4 5
+       ("sour" 101
+        "token [ +CARG #1=\"sour\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98871779999999998\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1856 HD-CMP_U_C 4.74658 5 8
+       (204 on_prtcl@p_np_ptcl_le 0.683867 5 6
+        ("on" 94
+         "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1855 SP-HD_N_C 1.83917 6 8
+        (239 the_1@d_-_the_le 1.07131 6 7
+         ("the" 96
+          "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (1854 ^HDN_OPTCMP_C 0.196827 7 8
+         (1853 W_PERIOD_PLR -0.133481 7 8
+          (1852 N_MS-CNT_ILR -0.406151 7 8
+           (264 company_n1@n_pp_mc-of_le 0 7 8
+            ("company." 98
+             "token [ +CARG \"company\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"company.\" +FROM #1=\"37\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "some") (N (N "analysts")))
+   (VP (V (V "remain"))
+    (AP (ADJ "sour")
+     (PP (P "on") (NP (DET "the") (N (N (N (N "company.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _some_q<4:8>
+            LBL: h8
+            ARG0: x9 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h10
+            BODY: h11 ]
+          [ _analyst_n_1<9:17>
+            LBL: h12
+            ARG0: x9 ]
+          [ _remain_v_1<18:24>
+            LBL: h13
+            ARG0: e4
+            ARG1: x9
+            ARG2: h14 ]
+          [ _sour_a_on<25:29>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x17 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<33:36>
+            LBL: h18
+            ARG0: x17
+            RSTR: h20
+            BODY: h19 ]
+          [ _company_n_of<37:45>
+            LBL: h21
+            ARG0: x17
+            ARG1: i22 ] >
+   HCONS: < h20 QEQ h21 h14 QEQ h15 h10 QEQ h12 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_some_q<4:8>[BV x9]
+ x9:_analyst_n_1<9:17>{x PERS 3, NUM pl, IND +}[]
+ e4:_remain_v_1<18:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 e16]
+ e16:_sour_a_on<25:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x17]
+ _2:_the_q<33:36>[BV x17]
+ x17:_company_n_of<37:45>{x PERS 3, NUM sg}[]
+}
+
+{
+  _but_c<0:3> R-HNDL _remain_v_1<18:24>  
+  _but_c<0:3> R-INDEX _remain_v_1<18:24>  
+  _some_q<4:8> BV _analyst_n_1<9:17>  
+  _remain_v_1<18:24> ARG1 _analyst_n_1<9:17>  
+  _remain_v_1<18:24> ARG2 _sour_a_on<25:29>  
+  _sour_a_on<25:29> ARG1 _analyst_n_1<9:17>  
+  _sour_a_on<25:29> ARG2 _company_n_of<37:45>  
+  _the_q<33:36> BV _company_n_of<37:45>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _analyst_n_1<9:17> PERS 3  
+  _analyst_n_1<9:17> NUM pl  
+  _analyst_n_1<9:17> IND +  
+  _remain_v_1<18:24> SF prop  
+  _remain_v_1<18:24> TENSE pres  
+  _remain_v_1<18:24> MOOD indicative  
+  _remain_v_1<18:24> PROG -  
+  _remain_v_1<18:24> PERF -  
+  _sour_a_on<25:29> SF prop  
+  _sour_a_on<25:29> TENSE untensed  
+  _sour_a_on<25:29> MOOD indicative  
+  _sour_a_on<25:29> PROG -  
+  _sour_a_on<25:29> PERF -  
+  _company_n_of<37:45> PERS 3  
+  _company_n_of<37:45> NUM sg  
+}
+

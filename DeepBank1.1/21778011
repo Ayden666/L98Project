@@ -1,0 +1,66 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:39 h)).
+;;;
+
+[21778011] (1 of 1) {1} `Wow!'
+
+[21778011:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Wow", 0, "null", "UH" 1.0)
+  (2, 1, 2, <3:4>, 1, "!", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:4>, 1, "wow!", 0, "null")
+  (23, 0, 1, <0:4>, 1, "wow!", 0, "null")
+>
+
+(ROOT_FRAG
+ (60 NP_NB-FRG_C -0.230708 0 1
+  (59 W_BANG_PLR -0.230708 0 1
+   (58 N_SG_ILR -0.230708 0 1
+    (35 wow_n1@n_-_c_le 0 0 1
+     ("wow!" 22
+      "token [ +CARG \"Wow\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"wow!\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (N (N (N "wow!"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _wow_n_1<0:4>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:4>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:4>[BV x4]
+ x4:_wow_n_1<0:4>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:4> ARG _wow_n_1<0:4>  
+  udef_q<0:4> BV _wow_n_1<0:4>  
+  unknown<0:4> SF prop  
+  unknown<0:4> TENSE untensed  
+  unknown<0:4> MOOD indicative  
+  unknown<0:4> PROG -  
+  unknown<0:4> PERF -  
+  _wow_n_1<0:4> PERS 3  
+  _wow_n_1<0:4> NUM sg  
+  _wow_n_1<0:4> IND +  
+}
+

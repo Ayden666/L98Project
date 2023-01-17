@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj20c';
+;;; (wsun@wsun; 23-jan-2018 (05:20 h)).
+;;;
+
+[22048021] (1 of 1) {1} `JUMPING THE GUN:'
+
+[22048021:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "JUMPING", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:11>, 1, "THE", 0, "null", "NNP" 0.7587 "DT" 0.2413)
+  (3, 2, 3, <12:15>, 1, "GUN", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:16>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (42, 0, 1, <0:7>, 1, "JUMPING", 0, "null")
+  (55, 0, 1, <0:7>, 1, "JUMPING", 0, "null", "NNP" 1.0)
+  (57, 0, 1, <0:7>, 1, "jumping", 0, "null")
+  (61, 0, 1, <0:7>, 1, "jumping", 0, "null")
+  (40, 1, 2, <8:11>, 1, "THE", 0, "null")
+  (53, 1, 2, <8:11>, 1, "THE", 0, "null", "NNP" 0.7587)
+  (58, 1, 2, <8:11>, 1, "the", 0, "null")
+  (59, 1, 2, <8:11>, 1, "the", 0, "null")
+  (41, 2, 3, <12:15>, 1, "GUN", 0, "null")
+  (54, 2, 3, <12:15>, 1, "GUN", 0, "null", "NNP" 1.0)
+  (56, 2, 3, <12:15>, 1, "gun", 0, "null")
+  (60, 2, 3, <12:15>, 1, "gun", 0, "null")
+  (50, 3, 4, <15:16>, 1, ":", 0, "null")
+  (62, 3, 4, <15:16>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (670 VP_NFIN-FRG_C 3.64113 0 4
+  (669 HD-AJ_INT-UNSL_C 4.51539 0 4
+   (668 ^HD-CMP_U_C 3.36076 0 3
+    (665 ^V_PRP_OLR 0.223229 0 1
+     (71 jump_v1@v_np_noger_le 0 0 1
+      ("jumping" 57
+       "token [ +CARG \"JUMPING\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"jumping\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (667 SP-HD_N_C 1.5062 1 3
+     (91 the_1@d_-_the_le 1.07131 1 2
+      ("the" 58
+       "token [ +CARG \"THE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"the\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7586927\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (666 ^N_SG_ILR 0.110939 2 3
+      (120 gun_n1@n_-_c_le 0 2 3
+       ("gun" 56
+        "token [ +CARG \"GUN\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"gun\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (135 colon_namely_pp@pp_-_i-cln_le 0.0128037 3 4
+    (":" 50
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (VP (VP (V (V "jumping")) (NP (DET "the") (N (N "gun")))) (PP ":")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _jump_v_1<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG1: i5
+            ARG2: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<8:11>
+            LBL: h6
+            ARG0: x4
+            RSTR: h8
+            BODY: h7 ]
+          [ _gun_n_1<12:15>
+            LBL: h9
+            ARG0: x4 ]
+          [ _colon_p_namely<15:16>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h8 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e3:_jump_v_1<0:7>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x4]
+ _1:_the_q<8:11>[BV x4]
+ x4:_gun_n_1<12:15>{x PERS 3, NUM sg, IND +}[]
+ e10:_colon_p_namely<15:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _jump_v_1<0:7> ARG2 _gun_n_1<12:15>  
+  _the_q<8:11> BV _gun_n_1<12:15>  
+  _colon_p_namely<15:16> ARG1 _jump_v_1<0:7>  
+  _jump_v_1<0:7> SF prop-or-ques  
+  _jump_v_1<0:7> TENSE untensed  
+  _jump_v_1<0:7> MOOD indicative  
+  _jump_v_1<0:7> PROG +  
+  _jump_v_1<0:7> PERF -  
+  _gun_n_1<12:15> PERS 3  
+  _gun_n_1<12:15> NUM sg  
+  _gun_n_1<12:15> IND +  
+  _colon_p_namely<15:16> SF prop  
+  _colon_p_namely<15:16> TENSE untensed  
+  _colon_p_namely<15:16> MOOD indicative  
+  _colon_p_namely<15:16> PROG -  
+  _colon_p_namely<15:16> PERF -  
+}
+

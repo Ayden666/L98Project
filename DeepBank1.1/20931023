@@ -1,0 +1,92 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:26 h)).
+;;;
+
+[20931023] (1 of 1) {1} `Sentences have been stiff.'
+
+[20931023:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Sentences", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <10:14>, 1, "have", 0, "null", "VBP" 0.9825 "VB" 0.0175)
+  (3, 2, 3, <15:19>, 1, "been", 0, "null", "VBN" 1.0)
+  (4, 3, 4, <20:25>, 1, "stiff", 0, "null", "JJ" 0.9337 "NN" 0.0663)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:9>, 1, "Sentences", 0, "null", "NNS" 1.0)
+  (63, 0, 1, <0:9>, 1, "sentences", 0, "null")
+  (67, 0, 1, <0:9>, 1, "sentences", 0, "null")
+  (55, 1, 2, <10:14>, 1, "have", 0, "null")
+  (59, 1, 2, <10:14>, 1, "have", 0, "null", "VBP" 0.9825)
+  (65, 1, 2, <10:14>, 1, "have", 0, "null")
+  (54, 2, 3, <15:19>, 1, "been", 0, "null")
+  (62, 2, 3, <15:19>, 1, "been", 0, "null", "VBN" 1.0)
+  (64, 2, 3, <15:19>, 1, "been", 0, "null")
+  (57, 3, 4, <20:26>, 1, "stiff.", 0, "null")
+  (60, 3, 4, <20:26>, 1, "stiff.", 0, "null", "JJ" 0.9337)
+  (66, 3, 4, <20:26>, 1, "stiff.", 0, "null")
+>
+
+(ROOT_STRICT
+ (481 SB-HD_MC_C 7.21423 0 4
+  (477 HDN_BNP_C -0.0775391 0 1
+   (476 N_PL_OLR 0.498467 0 1
+    (73 sentence_n1@n_-_c_le 0 0 1
+     ("sentences" 63
+      "token [ +CARG \"Sentences\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sentences\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (480 ^HD-CMP_U_C 5.77586 1 4
+   (90 have_fin_aux@v_vp_have-f_le 2.48247 1 2
+    ("have" 55
+     "token [ +CARG #1=\"have\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98250369999999998\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (479 HD-CMP_U_C 2.67201 2 4
+    (106 be_c_been@v_prd_been_le 1.91796 2 3
+     ("been" 54
+      "token [ +CARG #1=\"been\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (478 W_PERIOD_PLR 0.754058 3 4
+     (114 stiff_a1@aj_-_i-er_le 0 3 4
+      ("stiff." 57
+       "token [ +CARG \"stiff\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"stiff.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93372370000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "sentences")))
+ (VP (V "have") (VP (V "been") (AP (AP "stiff.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ udef_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _sentence_n_1<0:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _stiff_a_1<20:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:9>[BV x6]
+ x6:_sentence_n_1<0:9>{x PERS 3, NUM pl, IND +}[]
+ e3:_stiff_a_1<20:26>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x6]
+}
+
+{
+  udef_q<0:9> BV _sentence_n_1<0:9>  
+  _stiff_a_1<20:26> ARG1 _sentence_n_1<0:9>  
+  _sentence_n_1<0:9> PERS 3  
+  _sentence_n_1<0:9> NUM pl  
+  _sentence_n_1<0:9> IND +  
+  _stiff_a_1<20:26> SF prop  
+  _stiff_a_1<20:26> TENSE pres  
+  _stiff_a_1<20:26> MOOD indicative  
+  _stiff_a_1<20:26> PROG -  
+  _stiff_a_1<20:26> PERF +  
+}
+

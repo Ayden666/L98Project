@@ -1,0 +1,142 @@
+;;;
+;;; Redwoods export of `wsj03a';
+;;; (wsun@wsun; 22-jan-2018 (12:56 h)).
+;;;
+
+[20300023] (1 of 1) {1} `If not now, when?'
+
+[20300023:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "If", 0, "null", "IN" 1.0)
+  (2, 1, 2, <3:6>, 1, "not", 0, "null", "RB" 1.0)
+  (3, 2, 3, <7:10>, 1, "now", 0, "null", "RB" 1.0)
+  (4, 3, 4, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <12:16>, 1, "when", 0, "null", "WRB" 1.0)
+  (6, 5, 6, <16:17>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (67, 0, 1, <0:2>, 1, "if", 0, "null")
+  (71, 0, 1, <0:2>, 1, "if", 0, "null")
+  (60, 1, 2, <3:6>, 1, "not", 0, "null")
+  (65, 1, 2, <3:6>, 1, "not", 0, "null", "RB" 1.0)
+  (68, 1, 2, <3:6>, 1, "not", 0, "null")
+  (62, 2, 3, <7:11>, 1, "now,", 0, "null")
+  (66, 2, 3, <7:11>, 1, "now,", 0, "null", "RB" 1.0)
+  (69, 2, 3, <7:11>, 1, "now,", 0, "null")
+  (64, 3, 4, <12:17>, 1, "when?", 0, "null")
+  (70, 3, 4, <12:17>, 1, "when?", 0, "null")
+>
+
+(ROOT_FRAG
+ (803 AJ-NP_INT-FRG_C 1.1765 0 4
+  (799 ^MRK-NH_EVNT_C 1.72634 0 3
+   (280 if_not_1@c_xp_if-not_le 0 0 2
+    ("if not" 67
+     "token [ +CARG \"If\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"if\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+     60
+     "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (798 NP_ADV_C 1.72634 2 3
+    (797 HDN_BNP-QNT_C 1.73314 2 3
+     (796 W_COMMA_PLR 1.27623 2 3
+      (234 now_adv@n_-_ad-time_le 0.040307 2 3
+       ("now," 62
+        "token [ +CARG \"now\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"now,\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (802 HDN_BNP-QNT_C -0.522525 3 4
+   (801 HDN_OPTCMP_C 0 3 4
+    (800 W_QMARK_PLR 0 3 4
+     (262 when_nom@n_-_ad-wh-tm_le 0 3 4
+      ("when?" 64
+       "token [ +CARG \"when\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"when?\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP-CJ (CONJ "if not") (PP (NP (N (N "now,")))))
+ (NP (NP (NP (NP "when?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ _if+not_c<0:6>
+            LBL: h2
+            ARG0: e7 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            L-HNDL: u8
+            L-INDEX: i9
+            R-HNDL: h6
+            R-INDEX: e5 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ loc_nonsp<7:11>
+            LBL: h6
+            ARG0: e5
+            ARG1: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<7:11>
+            LBL: h12
+            ARG0: x10 ]
+          [ def_implicit_q<7:11>
+            LBL: h13
+            ARG0: x10
+            RSTR: h14
+            BODY: h15 ]
+          [ _now_a_1<7:11>
+            LBL: h12
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ time_n<12:17>
+            LBL: h17
+            ARG0: x4 ]
+          [ which_q<12:17>
+            LBL: h18
+            ARG0: x4
+            RSTR: h19
+            BODY: h20 ] >
+   HCONS: < h19 QEQ h17 h14 QEQ h12 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ e7:_if+not_c<0:6>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e5, R-INDEX e5]
+ e5:loc_nonsp<7:11>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x10]
+ x10:time_n<7:11>{x PERS 3, NUM sg}[]
+ _1:def_implicit_q<7:11>[BV x10]
+ e16:_now_a_1<7:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x4:time_n<12:17>{x PERS 3, NUM sg}[]
+ _2:which_q<12:17>[BV x4]
+}
+
+{
+  unknown<0:17> ARG time_n<12:17>  
+  _if+not_c<0:6> R-HNDL loc_nonsp<7:11>  
+  _if+not_c<0:6> R-INDEX loc_nonsp<7:11>  
+  loc_nonsp<7:11> ARG2 time_n<7:11>  
+  def_implicit_q<7:11> BV time_n<7:11>  
+  _now_a_1<7:11> ARG1 time_n<7:11>  
+  which_q<12:17> BV time_n<12:17>  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  _if+not_c<0:6> SF ques  
+  _if+not_c<0:6> TENSE untensed  
+  _if+not_c<0:6> MOOD indicative  
+  _if+not_c<0:6> PROG -  
+  _if+not_c<0:6> PERF -  
+  loc_nonsp<7:11> SF ques  
+  loc_nonsp<7:11> TENSE untensed  
+  loc_nonsp<7:11> MOOD indicative  
+  loc_nonsp<7:11> PROG -  
+  loc_nonsp<7:11> PERF -  
+  time_n<7:11> PERS 3  
+  time_n<7:11> NUM sg  
+  _now_a_1<7:11> SF prop  
+  _now_a_1<7:11> TENSE untensed  
+  _now_a_1<7:11> MOOD indicative  
+  _now_a_1<7:11> PROG -  
+  _now_a_1<7:11> PERF -  
+  time_n<12:17> PERS 3  
+  time_n<12:17> NUM sg  
+}
+

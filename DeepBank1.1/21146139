@@ -1,0 +1,108 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146139] (1 of 1) {1} `That's the rule.'
+
+[21146139:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.8272 "WDT" 0.1487 "IN" 0.0241)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.6635 "NNS" 0.1783 "NN" 0.1036 "JJ" 0.0546)
+  (3, 2, 3, <7:10>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <11:15>, 1, "rule", 0, "null", "NN" 1.0)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:4>, 1, "that", 0, "null")
+  (73, 0, 1, <0:4>, 1, "that", 0, "null")
+  (62, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (65, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.6635)
+  (66, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.1783)
+  (67, 1, 2, <4:6>, 1, "’s", 0, "null", "NN" 0.1036)
+  (72, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (58, 2, 3, <7:10>, 1, "the", 0, "null")
+  (70, 2, 3, <7:10>, 1, "the", 0, "null")
+  (60, 3, 4, <11:16>, 1, "rule.", 0, "null")
+  (68, 3, 4, <11:16>, 1, "rule.", 0, "null", "NN" 1.0)
+  (71, 3, 4, <11:16>, 1, "rule.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (649 SB-HD_MC_C 2.98086 0 4
+  (644 HDN_BNP-QNT_C -0.199308 0 1
+   (643 HDN_OPTCMP_C -0.288082 0 1
+    (89 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 69
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82717830000000003\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (648 ^HD-CMP_U_C 1.91082 1 4
+   (115 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+    ("’s" 62
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66345350000000003\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (647 SP-HD_N_C 2.30201 2 4
+    (379 the_1@d_-_the_le 1.07131 2 3
+     ("the" 58
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (646 ^W_PERIOD_PLR 0.459703 3 4
+     (645 N_MS-CNT_ILR 0.282475 3 4
+      (404 rule_n1@n_-_mc-ns_le 0 3 4
+       ("rule." 60
+        "token [ +CARG \"rule\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rule.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "that")))
+ (VP (V "’s") (NP (DET "the") (N (N (N "rule."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<7:10>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _rule_n_of<11:16>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_the_q<7:10>[BV x9]
+ x9:_rule_n_of<11:16>{x PERS 3, NUM sg}[]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  _be_v_id<4:6> ARG1 generic_entity<0:4>  
+  _be_v_id<4:6> ARG2 _rule_n_of<11:16>  
+  _the_q<7:10> BV _rule_n_of<11:16>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  _rule_n_of<11:16> PERS 3  
+  _rule_n_of<11:16> NUM sg  
+}
+

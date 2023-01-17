@@ -1,0 +1,175 @@
+;;;
+;;; Redwoods export of `wsj12b';
+;;; (wsun@wsun; 22-jan-2018 (21:27 h)).
+;;;
+
+[21252008] (1 of 1) {1} `-- G. Sterling Leiby.'
+
+[21252008:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:5>, 1, "G.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <6:14>, 1, "Sterling", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:20>, 1, "Leiby", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:2>, 1, "–", 0, "null")
+  (68, 0, 1, <0:2>, 1, "–", 0, "null")
+  (60, 1, 2, <3:5>, 1, "G.", 0, "null")
+  (64, 1, 2, <3:5>, 1, "g.", 0, "null")
+  (69, 1, 2, <3:5>, 1, "g.", 0, "null")
+  (49, 2, 3, <6:14>, 1, "Sterling", 0, "null")
+  (61, 2, 3, <6:14>, 1, "Sterling", 0, "null", "NNP" 1.0)
+  (63, 2, 3, <6:14>, 1, "sterling", 0, "null")
+  (66, 2, 3, <6:14>, 1, "sterling", 0, "null")
+  (51, 3, 4, <15:21>, 1, "Leiby.", 0, "null")
+  (62, 3, 4, <15:21>, 1, "Leiby.", 0, "null", "NNP" 1.0)
+  (65, 3, 4, <15:21>, 1, "leiby.", 0, "null")
+  (67, 3, 4, <15:21>, 1, "leiby.", 0, "null")
+>
+
+(ROOT_FRAG
+ (492 AJ-HD_SCP-XP_C 4.23115 0 4
+  (73 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.069421 0 1
+   ("–" 57
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (491 ^NP_FRG_C 3.34213 1 4
+   (490 HDN_BNP-PN_C 3.95964 1 4
+    (489 NP-HDN_NME-CPD_C 3.90725 1 4
+     (486 HDN_BNP-PN_C 2.30669 1 3
+      (485 NP-HDN_NME-CPD_C 1.95878 1 3
+       (483 HDN_BNP-PN_C 0.586141 1 2
+        (482 N_SG_ILR -0.166294 1 2
+         (89 g_period_np1@n_-_pn_le 0 1 2
+          ("g." 64
+           "token [ +CARG \"G.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"g.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (484 ^N_SG_ILR -0.143257 2 3
+        (96 generic_proper_ne@n_-_pn-gen_le 0 2 3
+         ("Sterling" 49
+          "token [ +CARG #1=\"Sterling\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+     (488 ^W_PERIOD_PLR 1.02066 3 4
+      (487 N_SG_ILR 0.466069 3 4
+       (122 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Leiby." 51
+         "token [ +CARG \"Leiby\" +CLASS proper_ne +FORM \"Leiby.\" +FROM \"15\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "–")
+ (XP
+  (NP
+   (N (NP (N (NP (N (N "g."))) (N (N "Sterling"))))
+    (N (N (N "Leiby.")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:21>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:21>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ compound<3:21>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:14>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<3:14>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:5>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ named<3:5>
+            LBL: h24
+            ARG0: x19
+            CARG: "G" ]
+          [ named<6:14>
+            LBL: h18
+            ARG0: x13
+            CARG: "Sterling" ]
+          [ named<15:21>
+            LBL: h12
+            ARG0: x8
+            CARG: "Leiby" ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:proper_q<3:21>[BV x8]
+ e14:compound<3:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x13]
+ _2:proper_q<3:14>[BV x13]
+ e20:compound<3:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x19]
+ _3:proper_q<3:5>[BV x19]
+ x19:named<3:5>("G"){x PERS 3, NUM sg, IND +}[]
+ x13:named<6:14>("Sterling"){x PERS 3, NUM sg, IND +}[]
+ x8:named<15:21>("Leiby"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:21>  
+  discourse<0:2> R-INDEX unknown<3:21>  
+  unknown<3:21> ARG named<15:21>(Leiby)  
+  proper_q<3:21> BV named<15:21>(Leiby)  
+  compound<3:21> ARG1 named<15:21>(Leiby)  
+  compound<3:21> ARG2 named<6:14>(Sterling)  
+  proper_q<3:14> BV named<6:14>(Sterling)  
+  compound<3:14> ARG1 named<6:14>(Sterling)  
+  compound<3:14> ARG2 named<3:5>(G)  
+  proper_q<3:5> BV named<3:5>(G)  
+  unknown<3:21> SF prop  
+  unknown<3:21> TENSE untensed  
+  unknown<3:21> MOOD indicative  
+  unknown<3:21> PROG -  
+  unknown<3:21> PERF -  
+  compound<3:21> SF prop  
+  compound<3:21> TENSE untensed  
+  compound<3:21> MOOD indicative  
+  compound<3:21> PROG -  
+  compound<3:21> PERF -  
+  compound<3:14> SF prop  
+  compound<3:14> TENSE untensed  
+  compound<3:14> MOOD indicative  
+  compound<3:14> PROG -  
+  compound<3:14> PERF -  
+  named<3:5>(G) PERS 3  
+  named<3:5>(G) NUM sg  
+  named<3:5>(G) IND +  
+  named<6:14>(Sterling) PERS 3  
+  named<6:14>(Sterling) NUM sg  
+  named<6:14>(Sterling) IND +  
+  named<15:21>(Leiby) PERS 3  
+  named<15:21>(Leiby) NUM sg  
+  named<15:21>(Leiby) IND +  
+}
+

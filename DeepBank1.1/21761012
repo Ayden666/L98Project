@@ -1,0 +1,108 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:30 h)).
+;;;
+
+[21761012] (1 of 1) {1} `The downside is limited."'
+
+[21761012:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:12>, 1, "downside", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:23>, 1, "limited", 0, "null", "VBN" 0.569 "JJ" 0.431)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+  (6, 5, 6, <24:25>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (71, 0, 1, <0:3>, 1, "the", 0, "null")
+  (75, 0, 1, <0:3>, 1, "the", 0, "null")
+  (62, 1, 2, <4:12>, 1, "downside", 0, "null")
+  (68, 1, 2, <4:12>, 1, "downside", 0, "null", "NN" 1.0)
+  (72, 1, 2, <4:12>, 1, "downside", 0, "null")
+  (64, 2, 3, <13:15>, 1, "is", 0, "null")
+  (69, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (73, 2, 3, <13:15>, 1, "is", 0, "null")
+  (65, 3, 4, <16:25>, 1, "limited.”", 0, "null")
+  (67, 3, 4, <16:25>, 1, "limited.”", 0, "null", "VBN" 0.569)
+  (70, 3, 4, <16:25>, 1, "limited.”", 0, "null", "JJ" 0.431)
+  (74, 3, 4, <16:25>, 1, "limited.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (1067 SB-HD_MC_C 7.39069 0 4
+  (1061 SP-HD_N_C 1.76087 0 2
+   (88 the_1@d_-_the_le 1.13181 0 1
+    ("the" 71
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1060 ^N_MS-CNT_ILR 0.178311 1 2
+    (113 generic_mass_count_noun@n_-_mc-unk_le 0 1 2
+     ("downside" 68
+      "token [ +CARG #1=\"downside\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED \"_downside/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1066 ^HD-CMP_U_C 3.6753 2 4
+   (153 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 64
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1065 HD_OPTCMP_C 2.16974 3 4
+    (1064 W_DQRIGHT_PLR 2.21689 3 4
+     (1063 W_PERIOD_PLR -0.0291603 3 4
+      (1062 V_PAS_ODLR -0.212701 3 4
+       (254 limit_v1@v_np_le 0 3 4
+        ("limited.”" 65
+         "token [ +CARG \"limited\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"limited.”\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56904290000000002\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N "downside")))
+ (VP (V "is") (VP (V (V (V (V "limited.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _downside/nn_u_unknown<4:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _limit_v_1<16:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: i9
+            ARG2: x6 ]
+          [ parg_d<16:25>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_downside/nn_u_unknown<4:12>{x PERS 3, NUM sg}[]
+ e3:_limit_v_1<16:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e10:parg_d<16:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  _the_q<0:3> BV _downside/nn_u_unknown<4:12>  
+  _limit_v_1<16:25> ARG2 _downside/nn_u_unknown<4:12>  
+  parg_d<16:25> ARG1 _limit_v_1<16:25>  
+  parg_d<16:25> ARG2 _downside/nn_u_unknown<4:12>  
+  _downside/nn_u_unknown<4:12> PERS 3  
+  _downside/nn_u_unknown<4:12> NUM sg  
+  _limit_v_1<16:25> SF prop  
+  _limit_v_1<16:25> TENSE pres  
+  _limit_v_1<16:25> MOOD indicative  
+  _limit_v_1<16:25> PROG -  
+  _limit_v_1<16:25> PERF -  
+  parg_d<16:25> SF prop  
+  parg_d<16:25> TENSE untensed  
+  parg_d<16:25> MOOD indicative  
+  parg_d<16:25> PROG -  
+  parg_d<16:25> PERF -  
+}
+

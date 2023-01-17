@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:45 h)).
+;;;
+
+[21784020] (1 of 1) {1} `Schering-Plough'
+
+[21784020:0] (active)
+
+<
+  (1, 0, 1, <0:15>, 1, "Schering-Plough", 0, "null", "NNP" 1.0)
+>
+
+<
+  (23, 0, 1, <0:15>, 1, "Schering-", 0, "null")
+  (26, 0, 1, <0:15>, 1, "schering-", 0, "null")
+  (28, 0, 1, <0:15>, 1, "schering-", 0, "null")
+  (18, 1, 2, <0:15>, 1, "Plough", 0, "null")
+  (24, 1, 2, <0:15>, 1, "Plough", 0, "null", "NNP" 1.0)
+  (25, 1, 2, <0:15>, 1, "plough", 0, "null")
+  (27, 1, 2, <0:15>, 1, "plough", 0, "null")
+>
+
+(ROOT_FRAG
+ (154 NP_FRG_C -0.496201 0 2
+  (153 HDN_BNP-PN_C 0.650311 0 2
+   (152 XP_BRCK-PR_C 0.75823 0 2
+    (149 NP-HDN_NME-CPD_C 1.68253 0 2
+     (147 HDN_BNP-PN_C 0.784908 0 1
+      (146 W_HYPHEN_PLR 0.307186 0 1
+       (145 N_SG_ILR -0.246101 0 1
+        (31 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Schering-" 23
+          "token [ +CARG #1=\"Schering-\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW + ] ]")))))
+     (148 ^N_SG_ILR -0.143257 1 2
+      (42 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Plough" 18
+        "token [ +CARG #1=\"Plough\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW + ] ]"))))))))
+
+(XP (NP (N (N (NP (N (N (N "Schering-")))) (N (N "Plough"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:15>
+            LBL: h14
+            ARG0: x9
+            CARG: "Schering-" ]
+          [ named<0:15>
+            LBL: h8
+            ARG0: x4
+            CARG: "Plough" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:15>[BV x4]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:15>[BV x9]
+ x9:named<0:15>("Schering-"){x PERS 3, NUM sg, IND +}[]
+ x4:named<0:15>("Plough"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:15> ARG named<0:15>(Plough)  
+  proper_q<0:15> BV named<0:15>(Plough)  
+  compound<0:15> ARG1 named<0:15>(Plough)  
+  compound<0:15> ARG2 named<0:15>(Schering-)  
+  proper_q<0:15> BV named<0:15>(Schering-)  
+  unknown<0:15> SF prop-or-ques  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  named<0:15>(Schering-) PERS 3  
+  named<0:15>(Schering-) NUM sg  
+  named<0:15>(Schering-) IND +  
+  named<0:15>(Plough) PERS 3  
+  named<0:15>(Plough) NUM sg  
+  named<0:15>(Plough) IND +  
+}
+

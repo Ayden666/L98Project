@@ -1,0 +1,126 @@
+;;;
+;;; Redwoods export of `wsj02d';
+;;; (wsun@wsun; 22-jan-2018 (12:43 h)).
+;;;
+
+[20286034] (1 of 1) {1} `Other trips were more productive.'
+
+[20286034:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Other", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <6:11>, 1, "trips", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <12:16>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:21>, 1, "more", 0, "null", "RBR" 0.9598 "JJR" 0.0402)
+  (5, 4, 5, <22:32>, 1, "productive", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:5>, 1, "Other", 0, "null", "JJ" 1.0)
+  (72, 0, 1, <0:5>, 1, "other", 0, "null")
+  (77, 0, 1, <0:5>, 1, "other", 0, "null")
+  (61, 1, 2, <6:11>, 1, "trips", 0, "null")
+  (69, 1, 2, <6:11>, 1, "trips", 0, "null", "NNS" 1.0)
+  (73, 1, 2, <6:11>, 1, "trips", 0, "null")
+  (63, 2, 3, <12:16>, 1, "were", 0, "null")
+  (70, 2, 3, <12:16>, 1, "were", 0, "null", "VBD" 1.0)
+  (74, 2, 3, <12:16>, 1, "were", 0, "null")
+  (66, 3, 4, <17:21>, 1, "more", 0, "null")
+  (76, 3, 4, <17:21>, 1, "more", 0, "null")
+  (65, 4, 5, <22:33>, 1, "productive.", 0, "null")
+  (71, 4, 5, <22:33>, 1, "productive.", 0, "null", "JJ" 1.0)
+  (75, 4, 5, <22:33>, 1, "productive.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1033 SB-HD_MC_C 7.49297 0 5
+  (1028 HDN_BNP_C 2.64599 0 2
+   (1027 AJ-HDN_NORM_C 1.91149 0 2
+    (81 other_a1@aj_-_i-att-nsp_le 1.77614 0 1
+     ("other" 72
+      "token [ +CARG \"Other\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"other\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1026 ^HDN_OPTCMP_C 0.106983 1 2
+     (1025 N_PL_OLR 0.430906 1 2
+      (91 trip_n1@n_pp_c-ns-of_le 0 1 2
+       ("trips" 61
+        "token [ +CARG #1=\"trips\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1032 ^HD-CMP_U_C 3.33107 2 5
+   (116 be_c_were@v_prd_wre_le 0.412711 2 3
+    ("were" 63
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1031 SP-HD_HC_C 1.79333 3 5
+    (134 more_nc_deg@av_-_dg-cmp-more_le 1.3393 3 4
+     ("more" 66
+      "token [ +CARG #1=\"more\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95979110000000001\" +TAG \"RBR\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1030 ^HD_OPTCMP_C 0.799575 4 5
+     (1029 W_PERIOD_PLR 0.16881 4 5
+      (160 productive_isect@aj_pp_i_le 0 4 5
+       ("productive." 65
+        "token [ +CARG \"productive\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"productive.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (AP "other") (N (N (N "trips")))))
+ (VP (V "were") (AP (ADV "more") (AP (ADJ (ADJ "productive."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _other_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _trip_n_of<6:11>
+            LBL: h8
+            ARG0: x6
+            ARG1: i10 ]
+          [ comp<17:21>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: u12 ]
+          [ _productive_a_of<22:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i13 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:11>[BV x6]
+ e9:_other_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_trip_n_of<6:11>{x PERS 3, NUM pl, IND +}[]
+ e11:comp<17:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_productive_a_of<22:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:11> BV _trip_n_of<6:11>  
+  _other_a_1<0:5> ARG1 _trip_n_of<6:11>  
+  comp<17:21> ARG1 _productive_a_of<22:33>  
+  _productive_a_of<22:33> ARG1 _trip_n_of<6:11>  
+  _other_a_1<0:5> SF prop  
+  _other_a_1<0:5> TENSE untensed  
+  _other_a_1<0:5> MOOD indicative  
+  _other_a_1<0:5> PROG -  
+  _other_a_1<0:5> PERF -  
+  _trip_n_of<6:11> PERS 3  
+  _trip_n_of<6:11> NUM pl  
+  _trip_n_of<6:11> IND +  
+  comp<17:21> SF prop  
+  comp<17:21> TENSE untensed  
+  comp<17:21> MOOD indicative  
+  comp<17:21> PROG -  
+  comp<17:21> PERF -  
+  _productive_a_of<22:33> SF prop  
+  _productive_a_of<22:33> TENSE past  
+  _productive_a_of<22:33> MOOD indicative  
+  _productive_a_of<22:33> PROG -  
+  _productive_a_of<22:33> PERF -  
+}
+

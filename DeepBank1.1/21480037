@@ -1,0 +1,241 @@
+;;;
+;;; Redwoods export of `wsj14d';
+;;; (wsun@wsun; 22-jan-2018 (23:40 h)).
+;;;
+
+[21480037] (1 of 1) {1} `IBM says it considers its shares a good investment.'
+
+[21480037:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "IBM", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:8>, 1, "says", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <9:11>, 1, "it", 0, "null", "PRP" 1.0)
+  (4, 3, 4, <12:21>, 1, "considers", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <22:25>, 1, "its", 0, "null", "PRP$" 1.0)
+  (6, 5, 6, <26:32>, 1, "shares", 0, "null", "NNS" 0.9773 "VBZ" 0.0227)
+  (7, 6, 7, <33:34>, 1, "a", 0, "null", "DT" 1.0)
+  (8, 7, 8, <35:39>, 1, "good", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <40:50>, 1, "investment", 0, "null", "NN" 1.0)
+  (10, 9, 10, <50:51>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:3>, 1, "IBM", 0, "null")
+  (115, 0, 1, <0:3>, 1, "IBM", 0, "null", "NNP" 1.0)
+  (120, 0, 1, <0:3>, 1, "ibm", 0, "null")
+  (121, 0, 1, <0:3>, 1, "ibm", 0, "null")
+  (99, 1, 2, <4:8>, 1, "says", 0, "null")
+  (116, 1, 2, <4:8>, 1, "says", 0, "null", "VBZ" 1.0)
+  (122, 1, 2, <4:8>, 1, "says", 0, "null")
+  (101, 2, 3, <9:11>, 1, "it", 0, "null")
+  (123, 2, 3, <9:11>, 1, "it", 0, "null")
+  (103, 3, 4, <12:21>, 1, "considers", 0, "null")
+  (117, 3, 4, <12:21>, 1, "considers", 0, "null", "VBZ" 1.0)
+  (124, 3, 4, <12:21>, 1, "considers", 0, "null")
+  (105, 4, 5, <22:25>, 1, "its", 0, "null")
+  (125, 4, 5, <22:25>, 1, "its", 0, "null")
+  (112, 5, 6, <26:32>, 1, "shares", 0, "null")
+  (114, 5, 6, <26:32>, 1, "shares", 0, "null", "NNS" 0.9773)
+  (129, 5, 6, <26:32>, 1, "shares", 0, "null")
+  (107, 6, 7, <33:34>, 1, "a", 0, "null")
+  (126, 6, 7, <33:34>, 1, "a", 0, "null")
+  (109, 7, 8, <35:39>, 1, "good", 0, "null")
+  (118, 7, 8, <35:39>, 1, "good", 0, "null", "JJ" 1.0)
+  (127, 7, 8, <35:39>, 1, "good", 0, "null")
+  (111, 8, 9, <40:51>, 1, "investment.", 0, "null")
+  (119, 8, 9, <40:51>, 1, "investment.", 0, "null", "NN" 1.0)
+  (128, 8, 9, <40:51>, 1, "investment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1318 SB-HD_MC_C 12.793 0 9
+  (1302 HDN_BNP-PN_C 0.633138 0 1
+   (1301 N_SG_ILR 0.682094 0 1
+    (133 ibm_n1@n_-_pn_le 0 0 1
+     ("ibm" 120
+      "token [ +CARG \"IBM\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"ibm\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1317 ^HD-CMP_U_C 11.1428 1 9
+   (1304 ^HD_OPTCMP_C 2.66021 1 2
+    (1303 V_3S-FIN_OLR 1.82286 1 2
+     (170 say_v2@v_pp*-cp_fin-imp_le 1.04172 1 2
+      ("says" 99
+       "token [ +CARG #1=\"says\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1316 SB-HD_NMC_C 6.92344 2 9
+    (1305 HDN_BNP-QNT_C 0.480031 2 3
+     (230 it2@n_-_pr-it_le -0.148874 2 3
+      ("it" 101
+       "token [ +CARG #1=\"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1315 ^HD-CMP_U_C 5.35373 3 9
+     (1309 ^HD-CMP_U_C 1.33148 3 6
+      (1306 ^V_3S-FIN_OLR -0.725681 3 4
+       (255 consider_v3@v_np-np_only_le 0 3 4
+        ("considers" 103
+         "token [ +CARG #1=\"considers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1308 SP-HD_N_C 0.980467 4 6
+       (287 its_poss@d_-_poss-its_le 0.582112 4 5
+        ("its" 105
+         "token [ +CARG #1=\"its\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1307 ^N_PL_OLR 0.204037 5 6
+        (308 share_n2@n_-_c-meas-nb_le 0.877317 5 6
+         ("shares" 112
+          "token [ +CARG #1=\"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97733599999999998\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (1314 SP-HD_N_C 3.66109 6 9
+      (331 a_det@d_-_sg-nmd_le -0.667877 6 7
+       ("a" 107
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1313 ^AJ-HDN_NORM_C 2.28474 7 9
+       (1310 J_ATT_DLR 1.42364 7 8
+        (407 good_a2@aj_pp_i-er_le 0.593203 7 8
+         ("good" 109
+          "token [ +CARG #1=\"good\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (1312 ^W_PERIOD_PLR 0.934385 8 9
+        (1311 N_MS-CNT_ILR 0.322759 8 9
+         (425 investment_n1@n_-_mc-ns_le 0 8 9
+          ("investment." 111
+           "token [ +CARG \"investment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"investment.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "ibm")))
+ (VP (V (V (V "says")))
+  (S (NP (NP "it"))
+   (VP (V (V (V "considers")) (NP (DET "its") (N (N "shares"))))
+    (NP (DET "a") (N (AP (ADJ "good")) (N (N (N "investment.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:3>
+            LBL: h8
+            ARG0: x6
+            CARG: "IBM" ]
+          [ _say_v_to<4:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h10
+            ARG3: i9 ]
+          [ pron<9:11>
+            LBL: h11
+            ARG0: x12 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<9:11>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ _consider_v_1<12:21>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x12
+            ARG2: x19 [ x PERS: 3 NUM: SG ]
+            ARG3: x18 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ def_explicit_q<22:25>
+            LBL: h20
+            ARG0: x18
+            RSTR: h22
+            BODY: h21 ]
+          [ poss<22:25>
+            LBL: h23
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            ARG2: x24 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<22:25>
+            LBL: h26
+            ARG0: x24
+            RSTR: h27
+            BODY: h28 ]
+          [ pron<22:25>
+            LBL: h29
+            ARG0: x24 ]
+          [ _share_n_of<26:32>
+            LBL: h23
+            ARG0: x18 ]
+          [ _a_q<33:34>
+            LBL: h30
+            ARG0: x19
+            RSTR: h32
+            BODY: h31 ]
+          [ _good_a_at-for-of<35:39>
+            LBL: h33
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x19
+            ARG2: i35 ]
+          [ _investment_n_1<40:51>
+            LBL: h33
+            ARG0: x19 ] >
+   HCONS: < h32 QEQ h33 h27 QEQ h29 h22 QEQ h23 h14 QEQ h11 h10 QEQ h16 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:3>[BV x6]
+ x6:named<0:3>("IBM"){x PERS 3, NUM sg, IND +}[]
+ e3:_say_v_to<4:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e17]
+ x12:pron<9:11>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<9:11>[BV x12]
+ e17:_consider_v_1<12:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x12, ARG2 x19, ARG3 x18]
+ _3:def_explicit_q<22:25>[BV x18]
+ e25:poss<22:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x24]
+ _4:pronoun_q<22:25>[BV x24]
+ x24:pron<22:25>{x PERS 3, NUM sg, GEND n, PT std}[]
+ x18:_share_n_of<26:32>{x PERS 3, NUM pl, IND +}[]
+ _5:_a_q<33:34>[BV x19]
+ e34:_good_a_at-for-of<35:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x19]
+ x19:_investment_n_1<40:51>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:3> BV named<0:3>(IBM)  
+  _say_v_to<4:8> ARG1 named<0:3>(IBM)  
+  _say_v_to<4:8> ARG2 _consider_v_1<12:21>  
+  pronoun_q<9:11> BV pron<9:11>  
+  _consider_v_1<12:21> ARG1 pron<9:11>  
+  _consider_v_1<12:21> ARG2 _investment_n_1<40:51>  
+  _consider_v_1<12:21> ARG3 _share_n_of<26:32>  
+  def_explicit_q<22:25> BV _share_n_of<26:32>  
+  poss<22:25> ARG1 _share_n_of<26:32>  
+  poss<22:25> ARG2 pron<22:25>  
+  pronoun_q<22:25> BV pron<22:25>  
+  _a_q<33:34> BV _investment_n_1<40:51>  
+  _good_a_at-for-of<35:39> ARG1 _investment_n_1<40:51>  
+  named<0:3>(IBM) PERS 3  
+  named<0:3>(IBM) NUM sg  
+  named<0:3>(IBM) IND +  
+  _say_v_to<4:8> SF prop  
+  _say_v_to<4:8> TENSE pres  
+  _say_v_to<4:8> MOOD indicative  
+  _say_v_to<4:8> PROG -  
+  _say_v_to<4:8> PERF -  
+  pron<9:11> PERS 3  
+  pron<9:11> NUM sg  
+  pron<9:11> GEND n  
+  pron<9:11> PT std  
+  _consider_v_1<12:21> SF prop  
+  _consider_v_1<12:21> TENSE pres  
+  _consider_v_1<12:21> MOOD indicative  
+  _consider_v_1<12:21> PROG -  
+  _consider_v_1<12:21> PERF -  
+  poss<22:25> SF prop  
+  poss<22:25> TENSE untensed  
+  poss<22:25> MOOD indicative  
+  poss<22:25> PROG -  
+  poss<22:25> PERF -  
+  pron<22:25> PERS 3  
+  pron<22:25> NUM sg  
+  pron<22:25> GEND n  
+  pron<22:25> PT std  
+  _share_n_of<26:32> PERS 3  
+  _share_n_of<26:32> NUM pl  
+  _share_n_of<26:32> IND +  
+  _good_a_at-for-of<35:39> SF prop  
+  _good_a_at-for-of<35:39> TENSE untensed  
+  _good_a_at-for-of<35:39> MOOD indicative  
+  _good_a_at-for-of<35:39> PROG -  
+  _good_a_at-for-of<35:39> PERF -  
+  _investment_n_1<40:51> PERS 3  
+  _investment_n_1<40:51> NUM sg  
+}
+

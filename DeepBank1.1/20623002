@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj06a';
+;;; (wsun@wsun; 22-jan-2018 (15:53 h)).
+;;;
+
+[20623002] (1 of 1) {1} `It was down a little.'
+
+[20623002:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <7:11>, 1, "down", 0, "null", "RP" 0.5321 "IN" 0.2586 "RB" 0.2093)
+  (4, 3, 4, <12:13>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <14:20>, 1, "little", 0, "null", "JJ" 0.9174 "RB" 0.0826)
+  (6, 5, 6, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (75, 0, 1, <0:2>, 1, "it", 0, "null")
+  (80, 0, 1, <0:2>, 1, "it", 0, "null")
+  (65, 1, 2, <3:6>, 1, "was", 0, "null")
+  (73, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (76, 1, 2, <3:6>, 1, "was", 0, "null")
+  (68, 2, 3, <7:11>, 1, "down", 0, "null")
+  (74, 2, 3, <7:11>, 1, "down", 0, "null", "RB" 0.2093)
+  (78, 2, 3, <7:11>, 1, "down", 0, "null")
+  (67, 3, 4, <12:13>, 1, "a", 0, "null")
+  (77, 3, 4, <12:13>, 1, "a", 0, "null")
+  (69, 4, 5, <14:21>, 1, "little.", 0, "null")
+  (72, 4, 5, <14:21>, 1, "little.", 0, "null", "JJ" 0.9174)
+  (79, 4, 5, <14:21>, 1, "little.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1160 SB-HD_MC_C 2.84756 0 5
+  (1154 HDN_BNP-QNT_C 0.430464 0 1
+   (82 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 75
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1159 ^HD-CMP_U_C 1.14774 1 5
+   (100 be_c_was@v_prd_was_le -0.375542 1 2
+    ("was" 65
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1158 HD-CMP_U_C -0.959763 2 5
+    (126 down_vmod@p_np_i-nnm-nt_le -0.40207 2 3
+     ("down" 68
+      "token [ +CARG #1=\"down\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.53208829999999996\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1157 HDN_BNP-QNT_C -0.458123 3 5
+     (1156 W_PERIOD_PLR -0.628593 3 5
+      (1155 DET_PRT-NOCMP_DLR -0.274459 3 5
+       (285 a+little_det@d_-_prt-sgm-nag_le 0 3 5
+        ("a little." 67
+         "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+         69
+         "token [ +CARG \"little\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"little.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91740060000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "it"))
+ (VP (V "was") (PP (P "down") (NP (N (N (DET "a little.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _down_p<7:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _a+little_q<12:21>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ generic_entity<12:21>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_down_p<7:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_a+little_q<12:21>[BV x9]
+ x9:generic_entity<12:21>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _down_p<7:11> ARG1 pron<0:2>  
+  _down_p<7:11> ARG2 generic_entity<12:21>  
+  _a+little_q<12:21> BV generic_entity<12:21>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _down_p<7:11> SF prop  
+  _down_p<7:11> TENSE past  
+  _down_p<7:11> MOOD indicative  
+  _down_p<7:11> PROG -  
+  _down_p<7:11> PERF -  
+  generic_entity<12:21> PERS 3  
+  generic_entity<12:21> NUM sg  
+}
+

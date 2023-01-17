@@ -1,0 +1,193 @@
+;;;
+;;; Redwoods export of `wsj05b';
+;;; (wsun@wsun; 22-jan-2018 (15:11 h)).
+;;;
+
+[20550033] (1 of 1) {1} `Mr. Strieber knows a lot about aliens.'
+
+[20550033:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:12>, 1, "Strieber", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:18>, 1, "knows", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <19:20>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <21:24>, 1, "lot", 0, "null", "NN" 1.0)
+  (6, 5, 6, <25:30>, 1, "about", 0, "null", "IN" 0.9876 "RB" 0.0124)
+  (7, 6, 7, <31:37>, 1, "aliens", 0, "null", "NNS" 1.0)
+  (8, 7, 8, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (98, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (105, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (74, 1, 2, <4:12>, 1, "Strieber", 0, "null")
+  (93, 1, 2, <4:12>, 1, "Strieber", 0, "null", "NNP" 1.0)
+  (97, 1, 2, <4:12>, 1, "strieber", 0, "null")
+  (99, 1, 2, <4:12>, 1, "strieber", 0, "null")
+  (83, 2, 3, <13:18>, 1, "knows", 0, "null")
+  (94, 2, 3, <13:18>, 1, "knows", 0, "null", "VBZ" 1.0)
+  (100, 2, 3, <13:18>, 1, "knows", 0, "null")
+  (85, 3, 4, <19:20>, 1, "a", 0, "null")
+  (101, 3, 4, <19:20>, 1, "a", 0, "null")
+  (87, 4, 5, <21:24>, 1, "lot", 0, "null")
+  (95, 4, 5, <21:24>, 1, "lot", 0, "null", "NN" 1.0)
+  (102, 4, 5, <21:24>, 1, "lot", 0, "null")
+  (90, 5, 6, <25:30>, 1, "about", 0, "null")
+  (104, 5, 6, <25:30>, 1, "about", 0, "null")
+  (89, 6, 7, <31:38>, 1, "aliens.", 0, "null")
+  (96, 6, 7, <31:38>, 1, "aliens.", 0, "null", "NNS" 1.0)
+  (103, 6, 7, <31:38>, 1, "aliens.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1162 SB-HD_MC_C 6.21428 0 7
+  (1146 HDN_BNP-PN_C 3.86187 0 2
+   (1145 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (1143 N_SG_ILR 2.02901 0 1
+     (113 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 98
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1144 ^N_SG_ILR -0.259177 1 2
+     (116 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Strieber" 74
+       "token [ +CARG #1=\"Strieber\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1161 ^HD-CMP_U_C 1.33537 2 7
+   (1157 ^V_3S-FIN_OLR 0.391518 2 3
+    (143 know_v1@v_np*_le 0 2 3
+     ("knows" 83
+      "token [ +CARG #1=\"knows\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1160 SP-HD_N_C 0.005725 3 7
+    (205 a_det@d_-_sg-nmd_le -0.667877 3 4
+     ("a" 85
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1159 ^HDN-AJ_REDREL_C -0.273105 4 7
+     (1148 ^N_SG_ILR -0.189385 4 5
+      (281 lot_n2@n_-_c-gr_le 0.102152 4 5
+       ("lot" 87
+        "token [ +CARG #1=\"lot\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1158 HD-CMP_U_C 0.0726509 5 7
+      (287 about@p_np_i_le 0.503135 5 6
+       ("about" 90
+        "token [ +CARG #1=\"about\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98755360000000003\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1153 HDN_BNP_C -0.953571 6 7
+       (1152 W_PERIOD_PLR -0.197813 6 7
+        (1151 N_PL_OLR 0.398682 6 7
+         (311 alien_n1@n_-_c_le 0 6 7
+          ("aliens." 89
+           "token [ +CARG \"aliens\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"aliens.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Strieber"))))
+ (VP (V (V "knows"))
+  (NP (DET "a")
+   (N (N (N "lot")) (PP (P "about") (NP (N (N (N "aliens.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "Strieber" ]
+          [ _know_v_1<13:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<19:20>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _lot_n_1<21:24>
+            LBL: h19
+            ARG0: x15 ]
+          [ _about_p<25:30>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x21 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<31:38>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ _alien_n_1<31:38>
+            LBL: h25
+            ARG0: x21 ] >
+   HCONS: < h23 QEQ h25 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:12>("Strieber"){x PERS 3, NUM sg, IND +}[]
+ e3:_know_v_1<13:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_a_q<19:20>[BV x15]
+ x15:_lot_n_1<21:24>{x PERS 3, NUM sg, IND +}[]
+ e20:_about_p<25:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x21]
+ _4:udef_q<31:38>[BV x21]
+ x21:_alien_n_1<31:38>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:12> BV named<4:12>(Strieber)  
+  compound<0:12> ARG1 named<4:12>(Strieber)  
+  compound<0:12> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _know_v_1<13:18> ARG1 named<4:12>(Strieber)  
+  _know_v_1<13:18> ARG2 _lot_n_1<21:24>  
+  _a_q<19:20> BV _lot_n_1<21:24>  
+  _about_p<25:30> ARG1 _lot_n_1<21:24>  
+  _about_p<25:30> ARG2 _alien_n_1<31:38>  
+  udef_q<31:38> BV _alien_n_1<31:38>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:12>(Strieber) PERS 3  
+  named<4:12>(Strieber) NUM sg  
+  named<4:12>(Strieber) IND +  
+  _know_v_1<13:18> SF prop  
+  _know_v_1<13:18> TENSE pres  
+  _know_v_1<13:18> MOOD indicative  
+  _know_v_1<13:18> PROG -  
+  _know_v_1<13:18> PERF -  
+  _lot_n_1<21:24> PERS 3  
+  _lot_n_1<21:24> NUM sg  
+  _lot_n_1<21:24> IND +  
+  _about_p<25:30> SF prop  
+  _about_p<25:30> TENSE untensed  
+  _about_p<25:30> MOOD indicative  
+  _about_p<25:30> PROG -  
+  _about_p<25:30> PERF -  
+  _alien_n_1<31:38> PERS 3  
+  _alien_n_1<31:38> NUM pl  
+  _alien_n_1<31:38> IND +  
+}
+

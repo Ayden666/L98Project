@@ -1,0 +1,87 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:59 h)).
+;;;
+
+[20633013] (1 of 1) {1} `Don't worry."'
+
+[20633013:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "Do", 0, "null", "VBP" 0.6808 "VB" 0.2949 "NNP" 0.0242)
+  (2, 1, 2, <2:5>, 1, "n’t", 0, "null", "JJ" 0.5562 "NN" 0.2509 "RB" 0.1466 "JJS" 0.0188 "VB" 0.0176 "VBN" 0.0099)
+  (3, 2, 3, <6:11>, 1, "worry", 0, "null", "NN" 0.6777 "VB" 0.2188 "VBP" 0.1035)
+  (4, 3, 4, <11:12>, 1, ".", 0, "null", "." 1.0)
+  (5, 4, 5, <12:13>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (56, 0, 1, <0:5>, 1, "Don’t", 0, "null", "VBP" 0.6808)
+  (58, 0, 1, <0:5>, 1, "Don’t", 0, "null", "VB" 0.2949)
+  (61, 0, 1, <0:5>, 1, "don’t", 0, "null")
+  (63, 0, 1, <0:5>, 1, "don’t", 0, "null")
+  (53, 1, 2, <6:13>, 1, "worry.”", 0, "null")
+  (57, 1, 2, <6:13>, 1, "worry.”", 0, "null", "NN" 0.6777)
+  (59, 1, 2, <6:13>, 1, "worry.”", 0, "null", "VB" 0.2188)
+  (60, 1, 2, <6:13>, 1, "worry.”", 0, "null", "VBP" 0.1035)
+  (62, 1, 2, <6:13>, 1, "worry.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (222 HD-CMP_U_C 2.31163 0 2
+  (67 dont_5_u@v_vp_dont-imp_le 0.0798976 0 1
+   ("don’t" 61
+    "token [ +CARG \"Don’t\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"don’t\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68083990000000005\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (221 HD_OPTCMP_C 2.23174 1 2
+   (220 W_DQRIGHT_PLR 2.37127 1 2
+    (219 W_PERIOD_PLR 0.125219 1 2
+     (218 V_N3S-BSE_ILR 0.437682 1 2
+      (72 worry_v2@v_np*_le 0 1 2
+       ("worry.”" 53
+        "token [ +CARG \"worry\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"worry.”\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67770059999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (V "don’t") (VP (V (V (V (V "worry.”"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:5>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<0:5>
+            LBL: h2
+            ARG0: i10
+            ARG1: h9 ]
+          [ _worry_v_1<6:13>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6
+            ARG2: p12 ] >
+   HCONS: < h9 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{i10:
+ _1:pronoun_q<0:5>[BV x6]
+ x6:pron<0:5>{x PERS 2, PT zero}[]
+ i10:neg<0:5>{i}[ARG1 e3]
+ e3:_worry_v_1<6:13>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  pronoun_q<0:5> BV pron<0:5>  
+  neg<0:5> ARG1 _worry_v_1<6:13>  
+  _worry_v_1<6:13> ARG1 pron<0:5>  
+  pron<0:5> PERS 2  
+  pron<0:5> PT zero  
+  _worry_v_1<6:13> SF comm  
+  _worry_v_1<6:13> TENSE pres  
+  _worry_v_1<6:13> MOOD indicative  
+  _worry_v_1<6:13> PROG -  
+  _worry_v_1<6:13> PERF -  
+}
+

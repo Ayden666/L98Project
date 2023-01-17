@@ -1,0 +1,124 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:21 h)).
+;;;
+
+[20923004] (1 of 1) {1} `Kyle manufactures electronic components.'
+
+[20923004:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Kyle", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:17>, 1, "manufactures", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <18:28>, 1, "electronic", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <29:39>, 1, "components", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:4>, 1, "Kyle", 0, "null")
+  (59, 0, 1, <0:4>, 1, "kyle", 0, "null")
+  (63, 0, 1, <0:4>, 1, "kyle", 0, "null")
+  (50, 1, 2, <5:17>, 1, "manufactures", 0, "null")
+  (56, 1, 2, <5:17>, 1, "manufactures", 0, "null", "VBZ" 1.0)
+  (60, 1, 2, <5:17>, 1, "manufactures", 0, "null")
+  (52, 2, 3, <18:28>, 1, "electronic", 0, "null")
+  (57, 2, 3, <18:28>, 1, "electronic", 0, "null", "JJ" 1.0)
+  (61, 2, 3, <18:28>, 1, "electronic", 0, "null")
+  (54, 3, 4, <29:40>, 1, "components.", 0, "null")
+  (58, 3, 4, <29:40>, 1, "components.", 0, "null", "NNS" 1.0)
+  (62, 3, 4, <29:40>, 1, "components.", 0, "null")
+>
+
+(ROOT_STRICT
+ (284 SB-HD_MC_C 3.92481 0 4
+  (277 HDN_BNP-PN_C 0.489307 0 1
+   (276 N_SG_ILR 0.538263 0 1
+    (65 kyle_n1@n_-_pn_le 0 0 1
+     ("kyle" 59
+      "token [ +CARG \"Kyle\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"kyle\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (283 ^HD-CMP_U_C 2.41845 1 4
+   (278 ^V_3S-FIN_OLR 0.391518 1 2
+    (70 manufacture_v1@v_np*_le 0 1 2
+     ("manufactures" 50
+      "token [ +CARG #1=\"manufactures\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (282 HDN_BNP_C 1.42046 2 4
+    (281 AJ-HDN_NORM_C 1.15566 2 4
+     (79 electronic_a1@aj_-_i_le 0.343672 2 3
+      ("electronic" 52
+       "token [ +CARG #1=\"electronic\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (280 ^W_PERIOD_PLR -0.111566 3 4
+      (279 N_PL_OLR 0.412767 3 4
+       (81 component_n1@n_-_c_le 0 3 4
+        ("components." 54
+         "token [ +CARG \"components\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"components.\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "kyle")))
+ (VP (V (V "manufactures"))
+  (NP (N (AP "electronic") (N (N (N "components.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:4>
+            LBL: h8
+            ARG0: x6
+            CARG: "Kyle" ]
+          [ _manufacture_v_1<5:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<18:40>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _electronic_a_1<18:28>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _component_n_1<29:40>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:4>[BV x6]
+ x6:named<0:4>("Kyle"){x PERS 3, NUM sg, IND +}[]
+ e3:_manufacture_v_1<5:17>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<18:40>[BV x9]
+ e14:_electronic_a_1<18:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_component_n_1<29:40>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:4> BV named<0:4>(Kyle)  
+  _manufacture_v_1<5:17> ARG1 named<0:4>(Kyle)  
+  _manufacture_v_1<5:17> ARG2 _component_n_1<29:40>  
+  udef_q<18:40> BV _component_n_1<29:40>  
+  _electronic_a_1<18:28> ARG1 _component_n_1<29:40>  
+  named<0:4>(Kyle) PERS 3  
+  named<0:4>(Kyle) NUM sg  
+  named<0:4>(Kyle) IND +  
+  _manufacture_v_1<5:17> SF prop  
+  _manufacture_v_1<5:17> TENSE pres  
+  _manufacture_v_1<5:17> MOOD indicative  
+  _manufacture_v_1<5:17> PROG -  
+  _manufacture_v_1<5:17> PERF -  
+  _electronic_a_1<18:28> SF prop  
+  _electronic_a_1<18:28> TENSE untensed  
+  _electronic_a_1<18:28> MOOD indicative  
+  _electronic_a_1<18:28> PROG -  
+  _electronic_a_1<18:28> PERF -  
+  _component_n_1<29:40> PERS 3  
+  _component_n_1<29:40> NUM pl  
+  _component_n_1<29:40> IND +  
+}
+

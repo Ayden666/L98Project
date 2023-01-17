@@ -1,0 +1,64 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:28 h)).
+;;;
+
+[21566020] (1 of 1) {1} `Not really!'
+
+[21566020:3] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:10>, 1, "really", 0, "null", "RB" 1.0)
+  (3, 2, 3, <10:11>, 1, "!", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (35, 0, 1, <0:3>, 1, "not", 0, "null")
+  (37, 0, 1, <0:3>, 1, "not", 0, "null")
+  (32, 1, 2, <4:11>, 1, "really!", 0, "null")
+  (34, 1, 2, <4:11>, 1, "really!", 0, "null", "RB" 1.0)
+  (36, 1, 2, <4:11>, 1, "really!", 0, "null")
+>
+
+(ROOT_STRICT
+ (237 HD-AJ_SCP_C -0.773434 0 2
+  (75 not_cp@x_-_not-cp_le -0.773434 0 1
+   ("not" 35
+    "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (236 W_BANG_PLR 0 1 2
+   (145 really_filler_post@av_-_dc-like-po_le 0 1 2
+    ("really!" 32
+     "token [ +CARG \"really\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"really!\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (S "not") (ADV (ADV "really!")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ ellipsis<0:3>
+            LBL: h4
+            ARG0: e3
+            ARG1: u5 ]
+          [ neg<0:3>
+            LBL: h2
+            ARG0: i7
+            ARG1: h6 ] >
+   HCONS: < h6 QEQ h4 h1 QEQ h2 > ]
+
+{i7:
+ e3:ellipsis<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i7:neg<0:3>{i}[ARG1 e3]
+}
+
+{
+  neg<0:3> ARG1 ellipsis<0:3>  
+  ellipsis<0:3> SF prop  
+  ellipsis<0:3> TENSE untensed  
+  ellipsis<0:3> MOOD indicative  
+  ellipsis<0:3> PROG -  
+  ellipsis<0:3> PERF -  
+}
+

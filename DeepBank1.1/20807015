@@ -1,0 +1,218 @@
+;;;
+;;; Redwoods export of `wsj08a';
+;;; (wsun@wsun; 22-jan-2018 (18:01 h)).
+;;;
+
+[20807015] (1 of 1) {1} `Bostic posted 1988 sales of $255 million.'
+
+[20807015:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Bostic", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:13>, 1, "posted", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <14:18>, 1, "1988", 0, "null", "CD" 1.0)
+  (4, 3, 4, <19:24>, 1, "sales", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <25:27>, 1, "of", 0, "null", "IN" 1.0)
+  (6, 5, 6, <28:29>, 1, "$", 0, "null", "$" 1.0)
+  (7, 6, 7, <29:32>, 1, "255", 0, "null", "CD" 1.0)
+  (8, 7, 8, <33:40>, 1, "million", 0, "null", "CD" 1.0)
+  (9, 8, 9, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (91, 0, 1, <0:6>, 1, "Bostic", 0, "null")
+  (95, 0, 1, <0:6>, 1, "bostic", 0, "null")
+  (103, 0, 1, <0:6>, 1, "bostic", 0, "null")
+  (86, 1, 2, <7:13>, 1, "posted", 0, "null")
+  (93, 1, 2, <7:13>, 1, "posted", 0, "null", "VBD" 1.0)
+  (100, 1, 2, <7:13>, 1, "posted", 0, "null")
+  (74, 2, 3, <14:18>, 1, "1988", 0, "null")
+  (96, 2, 3, <14:18>, 1, "1988", 0, "null")
+  (82, 3, 4, <19:24>, 1, "sales", 0, "null")
+  (92, 3, 4, <19:24>, 1, "sales", 0, "null", "NNS" 1.0)
+  (98, 3, 4, <19:24>, 1, "sales", 0, "null")
+  (84, 4, 5, <25:27>, 1, "of", 0, "null")
+  (99, 4, 5, <25:27>, 1, "of", 0, "null")
+  (88, 5, 6, <28:29>, 1, "$", 0, "null")
+  (101, 5, 6, <28:29>, 1, "$", 0, "null")
+  (75, 6, 7, <29:32>, 1, "255", 0, "null")
+  (97, 6, 7, <29:32>, 1, "255", 0, "null")
+  (90, 7, 8, <33:41>, 1, "million.", 0, "null")
+  (94, 7, 8, <33:41>, 1, "million.", 0, "null", "CD" 1.0)
+  (102, 7, 8, <33:41>, 1, "million.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1753 SB-HD_MC_C 9.47308 0 8
+  (1738 HDN_BNP-PN_C -1.0285 0 1
+   (1737 N_SG_ILR -0.979548 0 1
+    (104 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Bostic" 91
+      "token [ +CARG #1=\"Bostic\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1752 ^HD-CMP_U_C 9.48453 1 8
+   (1739 ^V_PST_OLR 1.13053 1 2
+    (116 post_v1@v_np*_le 0.823753 1 2
+     ("posted" 86
+      "token [ +CARG #1=\"posted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1751 HDN_BNP_C 7.43382 2 8
+    (1750 HD-CMP_U_C 7.36086 2 8
+     (1743 ^NP-HDN_CPD_C 3.95253 2 4
+      (1741 HDN_BNP-PN_C 2.25411 2 3
+       (1740 HDN_OPTCMP_C 1.31124 2 3
+        (252 generic_year_ne@n_-_pn-yoc-gen_le 2.51336 2 3
+         ("1988" 74
+          "token [ +CARG #1=\"1988\" +CLASS card_or_year_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1742 ^N_PL_OLR 1.31925 3 4
+       (259 sale_n1@n_pp_mc-of_le 0.758092 3 4
+        ("sales" 82
+         "token [ +CARG #1=\"sales\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1749 HD-CMP_U_C 2.44146 4 8
+      (334 of_prtcl@p_np_ptcl-of_le 1.04356 4 5
+       ("of" 84
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1748 HDN_BNP_C 0.815398 5 8
+       (1747 N-NUM_MNP_C 0.896316 5 8
+        (1744 ^N_PL-CUR_ILR 1.21255 5 6
+         (411 dollarsign_n1@n_-_c-cur_le -0.27486 5 6
+          ("$" 88
+           "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (1746 SP-HD_HC_C -0.145058 6 8
+         (413 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+          ("255" 75
+           "token [ +CARG #1=\"255\" +CLASS card_or_year_ne +FORM #1 +FROM \"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+         (1745 ^W_PERIOD_PLR 0 7 8
+          (415 million@aj_-_i-crd-mln_le 0 7 8
+           ("million." 90
+            "token [ +CARG \"million\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"million.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N "Bostic")))
+ (VP (V (V "posted"))
+  (NP
+   (N (N (NP (N (N "1988"))) (N (N "sales")))
+    (PP (P "of")
+     (NP (N (N (N "$")) (ADJ (ADJ "255") (ADJ (ADJ "million."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Bostic" ]
+          [ _post_v_1<7:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<14:41>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<14:24>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<14:18>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ yofc<14:18>
+            LBL: h19
+            ARG0: x14
+            CARG: "1988" ]
+          [ _sale_n_of<19:24>
+            LBL: h13
+            ARG0: x9
+            ARG1: x20 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<28:41>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ _dollar_n_1<28:29>
+            LBL: h24
+            ARG0: x20 ]
+          [ card<29:32>
+            LBL: h25
+            ARG0: i27
+            ARG1: i26
+            CARG: "255" ]
+          [ card<33:41>
+            LBL: h28
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            CARG: "1000000" ]
+          [ times<33:41>
+            LBL: h24
+            ARG0: i30
+            ARG1: i26
+            ARG2: h25
+            ARG3: h28 ] >
+   HCONS: < h22 QEQ h24 h17 QEQ h19 h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Bostic"){x PERS 3, NUM sg, IND +}[]
+ e3:_post_v_1<7:13>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<14:41>[BV x9]
+ e15:compound<14:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<14:18>[BV x14]
+ x14:yofc<14:18>("1988"){x PERS 3, NUM sg, IND +}[]
+ x9:_sale_n_of<19:24>{x PERS 3, NUM pl}[ARG1 x20]
+ _4:udef_q<28:41>[BV x20]
+ x20:_dollar_n_1<28:29>{x PERS 3, NUM pl, IND +}[]
+ i27:card<29:32>("255"){i}[]
+ e29:card<33:41>("1000000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20]
+ i30:times<33:41>{i}[ARG2 i27, ARG3 e29]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Bostic)  
+  _post_v_1<7:13> ARG1 named<0:6>(Bostic)  
+  _post_v_1<7:13> ARG2 _sale_n_of<19:24>  
+  udef_q<14:41> BV _sale_n_of<19:24>  
+  compound<14:24> ARG1 _sale_n_of<19:24>  
+  compound<14:24> ARG2 yofc<14:18>(1988)  
+  proper_q<14:18> BV yofc<14:18>(1988)  
+  _sale_n_of<19:24> ARG1 _dollar_n_1<28:29>  
+  udef_q<28:41> BV _dollar_n_1<28:29>  
+  card<33:41>(1000000) ARG1 _dollar_n_1<28:29>  
+  times<33:41> ARG2 card<29:32>(255)  
+  times<33:41> ARG3 card<33:41>(1000000)  
+  named<0:6>(Bostic) PERS 3  
+  named<0:6>(Bostic) NUM sg  
+  named<0:6>(Bostic) IND +  
+  _post_v_1<7:13> SF prop  
+  _post_v_1<7:13> TENSE past  
+  _post_v_1<7:13> MOOD indicative  
+  _post_v_1<7:13> PROG -  
+  _post_v_1<7:13> PERF -  
+  compound<14:24> SF prop  
+  compound<14:24> TENSE untensed  
+  compound<14:24> MOOD indicative  
+  compound<14:24> PROG -  
+  compound<14:24> PERF -  
+  yofc<14:18>(1988) PERS 3  
+  yofc<14:18>(1988) NUM sg  
+  yofc<14:18>(1988) IND +  
+  _sale_n_of<19:24> PERS 3  
+  _sale_n_of<19:24> NUM pl  
+  _dollar_n_1<28:29> PERS 3  
+  _dollar_n_1<28:29> NUM pl  
+  _dollar_n_1<28:29> IND +  
+  card<33:41>(1000000) SF prop  
+  card<33:41>(1000000) TENSE untensed  
+  card<33:41>(1000000) MOOD indicative  
+  card<33:41>(1000000) PROG -  
+  card<33:41>(1000000) PERF -  
+}
+

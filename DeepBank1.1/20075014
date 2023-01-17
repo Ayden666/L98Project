@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj00c';
+;;; (wsun@wsun; 22-jan-2018 (10:43 h)).
+;;;
+
+[20075014] (1 of 1) {1} `They will mature Dec. 21.'
+
+[20075014:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:9>, 1, "will", 0, "null", "MD" 1.0)
+  (3, 2, 3, <10:16>, 1, "mature", 0, "null", "VB" 1.0)
+  (4, 3, 4, <17:21>, 1, "Dec.", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <22:24>, 1, "21", 0, "null", "CD" 1.0)
+  (6, 5, 6, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (67, 0, 1, <0:4>, 1, "they", 0, "null")
+  (73, 0, 1, <0:4>, 1, "they", 0, "null")
+  (61, 1, 2, <5:9>, 1, "will", 0, "null")
+  (70, 1, 2, <5:9>, 1, "will", 0, "null")
+  (63, 2, 3, <10:16>, 1, "mature", 0, "null")
+  (65, 2, 3, <10:16>, 1, "mature", 0, "null", "VB" 1.0)
+  (71, 2, 3, <10:16>, 1, "mature", 0, "null")
+  (54, 3, 4, <17:21>, 1, "Dec.", 0, "null")
+  (64, 3, 4, <17:21>, 1, "Dec.", 0, "null", "NNP" 1.0)
+  (66, 3, 4, <17:21>, 1, "dec.", 0, "null")
+  (68, 3, 4, <17:21>, 1, "dec.", 0, "null")
+  (55, 4, 5, <22:25>, 1, "21.", 0, "null")
+  (69, 4, 5, <22:25>, 1, "21.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1173 SB-HD_MC_C 12.3433 0 5
+  (1163 HDN_BNP-QNT_C 1.15641 0 1
+   (74 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 67
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1172 ^HD-CMP_U_C 9.9175 1 5
+   (95 will_aux_pos@v_vp_will-p_le 0.37147 1 2
+    ("will" 61
+     "token [ +CARG #1=\"will\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1171 HD-AJ_INT-UNSL_C 7.47932 2 5
+    (1164 ^V_N3S-BSE_ILR 0.130131 2 3
+     (106 mature_v1@v_-_le 0 2 3
+      ("mature" 63
+       "token [ +CARG #1=\"mature\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1170 NP_ADV_C 6.81075 3 5
+     (1169 SP-HD_HC_C 6.75505 3 5
+      (1166 N_DET-MNTH_DLR 2.92781 3 4
+       (1165 N_SG_ILR 1.3431 3 4
+        (116 december_abb_n3@n_-_c-month_le 0.139974 3 4
+         ("dec." 66
+          "token [ +CARG \"Dec.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"dec.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (1168 ^W_PERIOD_PLR 3.22313 4 5
+       (1167 N_SG_ILR 2.10878 4 5
+        (126 generic_dom_card_ne@n_-_pn-dom-gen_le 0 4 5
+         ("21." 55
+          "token [ +CARG \"21\" +CLASS card_or_dom_ne +FORM \"21.\" +FROM \"22\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (NP (NP "they"))
+ (VP (V "will")
+  (VP (VP (V "mature"))
+   (PP (NP (DET (N (N "dec."))) (N (N (N "21."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _mature_v_1<10:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ]
+          [ loc_nonsp<17:25>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG GEND: N IND: + ] ]
+          [ mofy<17:21>
+            LBL: h11
+            ARG0: x12 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Dec" ]
+          [ def_explicit_q<17:21>
+            LBL: h13
+            ARG0: x10
+            RSTR: h14
+            BODY: h15 ]
+          [ of_p<17:21>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x12 ]
+          [ def_implicit_q<17:21>
+            LBL: h18
+            ARG0: x12
+            RSTR: h19
+            BODY: h20 ]
+          [ dofm<22:25>
+            LBL: h16
+            ARG0: x10
+            CARG: "21" ] >
+   HCONS: < h19 QEQ h11 h14 QEQ h16 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_mature_v_1<10:16>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e9:loc_nonsp<17:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ x12:mofy<17:21>("Dec"){x PERS 3, NUM sg, IND +}[]
+ _2:def_explicit_q<17:21>[BV x10]
+ e17:of_p<17:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x12]
+ _3:def_implicit_q<17:21>[BV x12]
+ x10:dofm<22:25>("21"){x PERS 3, NUM sg, GEND n, IND +}[]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _mature_v_1<10:16> ARG1 pron<0:4>  
+  loc_nonsp<17:25> ARG1 _mature_v_1<10:16>  
+  loc_nonsp<17:25> ARG2 dofm<22:25>(21)  
+  def_explicit_q<17:21> BV dofm<22:25>(21)  
+  of_p<17:21> ARG1 dofm<22:25>(21)  
+  of_p<17:21> ARG2 mofy<17:21>(Dec)  
+  def_implicit_q<17:21> BV mofy<17:21>(Dec)  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _mature_v_1<10:16> SF prop  
+  _mature_v_1<10:16> TENSE fut  
+  _mature_v_1<10:16> MOOD indicative  
+  _mature_v_1<10:16> PROG -  
+  _mature_v_1<10:16> PERF -  
+  loc_nonsp<17:25> SF prop  
+  loc_nonsp<17:25> TENSE untensed  
+  loc_nonsp<17:25> MOOD indicative  
+  loc_nonsp<17:25> PROG -  
+  loc_nonsp<17:25> PERF -  
+  mofy<17:21>(Dec) PERS 3  
+  mofy<17:21>(Dec) NUM sg  
+  mofy<17:21>(Dec) IND +  
+  of_p<17:21> SF prop  
+  of_p<17:21> TENSE untensed  
+  of_p<17:21> MOOD indicative  
+  of_p<17:21> PROG -  
+  of_p<17:21> PERF -  
+  dofm<22:25>(21) PERS 3  
+  dofm<22:25>(21) NUM sg  
+  dofm<22:25>(21) GEND n  
+  dofm<22:25>(21) IND +  
+}
+

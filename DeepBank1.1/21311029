@@ -1,0 +1,172 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:58 h)).
+;;;
+
+[21311029] (1 of 1) {1} `Profits improved across Hess's businesses.'
+
+[21311029:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Profits", 0, "null", "NNS" 0.9598 "NNPS" 0.0402)
+  (2, 1, 2, <8:16>, 1, "improved", 0, "null", "VBN" 0.7791 "VBD" 0.1411 "JJ" 0.0798)
+  (3, 2, 3, <17:23>, 1, "across", 0, "null", "IN" 0.9814 "RP" 0.0186)
+  (4, 3, 4, <24:28>, 1, "Hess", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <28:30>, 1, "’s", 0, "null", "NNS" 0.5539 "JJ" 0.2051 "VBZ" 0.1229 "NN" 0.1053 "CD" 0.0127)
+  (6, 5, 6, <31:41>, 1, "businesses", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (95, 0, 1, <0:7>, 1, "Profits", 0, "null", "NNS" 0.9598)
+  (105, 0, 1, <0:7>, 1, "profits", 0, "null")
+  (111, 0, 1, <0:7>, 1, "profits", 0, "null")
+  (89, 1, 2, <8:16>, 1, "improved", 0, "null")
+  (96, 1, 2, <8:16>, 1, "improved", 0, "null", "VBN" 0.7791)
+  (98, 1, 2, <8:16>, 1, "improved", 0, "null", "VBD" 0.1411)
+  (108, 1, 2, <8:16>, 1, "improved", 0, "null")
+  (90, 2, 3, <17:23>, 1, "across", 0, "null")
+  (109, 2, 3, <17:23>, 1, "across", 0, "null")
+  (65, 3, 4, <24:28>, 1, "Hess", 0, "null")
+  (102, 3, 4, <24:28>, 1, "Hess", 0, "null", "NNP" 1.0)
+  (104, 3, 4, <24:28>, 1, "hess", 0, "null")
+  (106, 3, 4, <24:28>, 1, "hess", 0, "null")
+  (92, 4, 5, <28:30>, 1, "’s", 0, "null")
+  (97, 4, 5, <28:30>, 1, "’s", 0, "null", "NNS" 0.5539)
+  (99, 4, 5, <28:30>, 1, "’s", 0, "null", "JJ" 0.2051)
+  (100, 4, 5, <28:30>, 1, "’s", 0, "null", "VBZ" 0.1229)
+  (101, 4, 5, <28:30>, 1, "’s", 0, "null", "NN" 0.1053)
+  (110, 4, 5, <28:30>, 1, "’s", 0, "null")
+  (86, 5, 6, <31:42>, 1, "businesses.", 0, "null")
+  (103, 5, 6, <31:42>, 1, "businesses.", 0, "null", "NNS" 1.0)
+  (107, 5, 6, <31:42>, 1, "businesses.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1687 SB-HD_MC_C 4.58165 0 6
+  (1677 HDN_BNP_C -0.6923 0 1
+   (1676 N_PL_OLR -0.116294 0 1
+    (123 profit_n1@n_-_mc_le 0.377128 0 1
+     ("profits" 105
+      "token [ +CARG \"Profits\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"profits\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95977829999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1686 ^HD-AJ_INT-UNSL_C 4.43384 1 6
+   (1678 ^V_PST_OLR 1.56054 1 2
+    (159 improve_v2@v_-_unacc_le 0 1 2
+     ("improved" 89
+      "token [ +CARG #1=\"improved\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77913019999999999\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1685 HD-CMP_U_C 1.95623 2 6
+    (300 across@p_np_i-reg_le -0.353651 2 3
+     ("across" 90
+      "token [ +CARG #1=\"across\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98144730000000002\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1684 SP-HD_N_C 1.74684 3 6
+     (1681 SP-HD_HC_C 2.4212 3 5
+      (1680 HDN_BNP-PN_C 0.09912 3 4
+       (1679 N_SG_ILR -0.515712 3 4
+        (304 generic_proper_ne@n_-_pn-gen_le 0 3 4
+         ("Hess" 65
+          "token [ +CARG #1=\"Hess\" +CLASS proper_ne +FORM #1 +FROM \"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (309 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 4 5
+       ("’s" 92
+        "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55391199999999996\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1683 ^W_PERIOD_PLR -0.0888461 5 6
+      (1682 N_PL_OLR -0.0079199 5 6
+       (621 business_n1@n_-_mc_le 0 5 6
+        ("businesses." 86
+         "token [ +CARG \"businesses\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"businesses.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "profits")))
+ (VP (VP (V "improved"))
+  (PP (P "across")
+   (NP (DET (NP (N (N "Hess"))) (DET "’s"))
+    (N (N (N "businesses.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _profit_n_1<0:7>
+            LBL: h8
+            ARG0: x6 ]
+          [ _improve_v_1<8:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _across_p<17:23>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: PL ] ]
+          [ proper_q<24:28>
+            LBL: h11
+            ARG0: x13 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h12
+            BODY: h14 ]
+          [ named<24:28>
+            LBL: h15
+            ARG0: x13
+            CARG: "Hess" ]
+          [ def_explicit_q<28:30>
+            LBL: h16
+            ARG0: x10
+            RSTR: h17
+            BODY: h18 ]
+          [ poss<28:30>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x13 ]
+          [ _business_n_1<31:42>
+            LBL: h19
+            ARG0: x10 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:7>[BV x6]
+ x6:_profit_n_1<0:7>{x PERS 3, NUM pl}[]
+ e3:_improve_v_1<8:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:_across_p<17:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:proper_q<24:28>[BV x13]
+ x13:named<24:28>("Hess"){x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<28:30>[BV x10]
+ e20:poss<28:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x13]
+ x10:_business_n_1<31:42>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:7> BV _profit_n_1<0:7>  
+  _improve_v_1<8:16> ARG1 _profit_n_1<0:7>  
+  _across_p<17:23> ARG1 _improve_v_1<8:16>  
+  _across_p<17:23> ARG2 _business_n_1<31:42>  
+  proper_q<24:28> BV named<24:28>(Hess)  
+  def_explicit_q<28:30> BV _business_n_1<31:42>  
+  poss<28:30> ARG1 _business_n_1<31:42>  
+  poss<28:30> ARG2 named<24:28>(Hess)  
+  _profit_n_1<0:7> PERS 3  
+  _profit_n_1<0:7> NUM pl  
+  _improve_v_1<8:16> SF prop  
+  _improve_v_1<8:16> TENSE past  
+  _improve_v_1<8:16> MOOD indicative  
+  _improve_v_1<8:16> PROG -  
+  _improve_v_1<8:16> PERF -  
+  _across_p<17:23> SF prop  
+  _across_p<17:23> TENSE untensed  
+  _across_p<17:23> MOOD indicative  
+  _across_p<17:23> PROG -  
+  _across_p<17:23> PERF -  
+  named<24:28>(Hess) PERS 3  
+  named<24:28>(Hess) NUM sg  
+  named<24:28>(Hess) IND +  
+  poss<28:30> SF prop  
+  poss<28:30> TENSE untensed  
+  poss<28:30> MOOD indicative  
+  poss<28:30> PROG -  
+  poss<28:30> PERF -  
+  _business_n_1<31:42> PERS 3  
+  _business_n_1<31:42> NUM pl  
+}
+

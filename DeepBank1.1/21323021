@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:06 h)).
+;;;
+
+[21323021] (1 of 1) {1} `The radio queries again.'
+
+[21323021:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "radio", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:17>, 1, "queries", 0, "null", "VBZ" 0.72 "NNS" 0.28)
+  (4, 3, 4, <18:23>, 1, "again", 0, "null", "RB" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:3>, 1, "the", 0, "null")
+  (65, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 1, 2, <4:9>, 1, "radio", 0, "null")
+  (58, 1, 2, <4:9>, 1, "radio", 0, "null", "NN" 1.0)
+  (62, 1, 2, <4:9>, 1, "radio", 0, "null")
+  (55, 2, 3, <10:17>, 1, "queries", 0, "null")
+  (57, 2, 3, <10:17>, 1, "queries", 0, "null", "VBZ" 0.72)
+  (60, 2, 3, <10:17>, 1, "queries", 0, "null", "NNS" 0.28)
+  (64, 2, 3, <10:17>, 1, "queries", 0, "null")
+  (54, 3, 4, <18:24>, 1, "again.", 0, "null")
+  (59, 3, 4, <18:24>, 1, "again.", 0, "null", "RB" 1.0)
+  (63, 3, 4, <18:24>, 1, "again.", 0, "null")
+>
+
+(ROOT_STRICT
+ (448 SB-HD_MC_C 3.03072 0 4
+  (443 SP-HD_N_C 0.920625 0 2
+   (78 the_1@d_-_the_le -0.121681 0 1
+    ("the" 61
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (442 ^N_MS-CNT_ILR -0.661937 1 2
+    (103 radio_n1@n_-_mc_le 0 1 2
+     ("radio" 52
+      "token [ +CARG #1=\"radio\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (447 ^HD-AJ_INT-UNSL_C 1.0779 2 4
+   (445 ^HD_OPTCMP_C -0.0336744 2 3
+    (444 V_3S-FIN_OLR -0.450989 2 3
+     (114 query_v1@v_np*_le 0 2 3
+      ("queries" 55
+       "token [ +CARG #1=\"queries\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7200318\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (446 W_PERIOD_PLR 0.601349 3 4
+    (141 again_adv1@av_-_i-vp_le 0 3 4
+     ("again." 54
+      "token [ +CARG \"again\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"again.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "the") (N (N "radio")))
+ (VP (VP (V (V "queries"))) (ADV (ADV "again."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _radio_n_1<4:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _query_v_1<10:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ]
+          [ _again_a_1<18:24>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_radio_n_1<4:9>{x PERS 3, NUM sg}[]
+ e3:_query_v_1<10:17>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_again_a_1<18:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _the_q<0:3> BV _radio_n_1<4:9>  
+  _query_v_1<10:17> ARG1 _radio_n_1<4:9>  
+  _again_a_1<18:24> ARG1 _query_v_1<10:17>  
+  _radio_n_1<4:9> PERS 3  
+  _radio_n_1<4:9> NUM sg  
+  _query_v_1<10:17> SF prop  
+  _query_v_1<10:17> TENSE pres  
+  _query_v_1<10:17> MOOD indicative  
+  _query_v_1<10:17> PROG -  
+  _query_v_1<10:17> PERF -  
+  _again_a_1<18:24> SF prop  
+  _again_a_1<18:24> TENSE untensed  
+  _again_a_1<18:24> MOOD indicative  
+  _again_a_1<18:24> PROG -  
+  _again_a_1<18:24> PERF -  
+}
+

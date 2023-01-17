@@ -1,0 +1,211 @@
+;;;
+;;; Redwoods export of `wsj18c';
+;;; (wsun@wsun; 23-jan-2018 (03:26 h)).
+;;;
+
+[21850013] (1 of 1) {1} `In Paris, Air France declined to comment.'
+
+[21850013:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "In", 0, "null", "IN" 0.97 "NNP" 0.03)
+  (2, 1, 2, <3:8>, 1, "Paris", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <10:13>, 1, "Air", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <14:20>, 1, "France", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <21:29>, 1, "declined", 0, "null", "VBD" 1.0)
+  (7, 6, 7, <30:32>, 1, "to", 0, "null", "TO" 1.0)
+  (8, 7, 8, <33:40>, 1, "comment", 0, "null", "VB" 0.9642 "NN" 0.0358)
+  (9, 8, 9, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (117, 0, 1, <0:2>, 1, "in", 0, "null")
+  (127, 0, 1, <0:2>, 1, "in", 0, "null")
+  (89, 1, 2, <3:9>, 1, "Paris,", 0, "null")
+  (113, 1, 2, <3:9>, 1, "Paris,", 0, "null", "NNP" 1.0)
+  (116, 1, 2, <3:9>, 1, "paris,", 0, "null")
+  (120, 1, 2, <3:9>, 1, "paris,", 0, "null")
+  (86, 2, 3, <10:13>, 1, "Air", 0, "null")
+  (110, 2, 3, <10:13>, 1, "Air", 0, "null", "NNP" 1.0)
+  (114, 2, 3, <10:13>, 1, "air", 0, "null")
+  (118, 2, 3, <10:13>, 1, "air", 0, "null")
+  (87, 3, 4, <14:20>, 1, "France", 0, "null")
+  (111, 3, 4, <14:20>, 1, "France", 0, "null", "NNP" 1.0)
+  (115, 3, 4, <14:20>, 1, "france", 0, "null")
+  (119, 3, 4, <14:20>, 1, "france", 0, "null")
+  (100, 4, 5, <21:29>, 1, "declined", 0, "null")
+  (112, 4, 5, <21:29>, 1, "declined", 0, "null", "VBD" 1.0)
+  (121, 4, 5, <21:29>, 1, "declined", 0, "null")
+  (102, 5, 6, <30:32>, 1, "to", 0, "null")
+  (122, 5, 6, <30:32>, 1, "to", 0, "null")
+  (107, 6, 7, <33:41>, 1, "comment.", 0, "null")
+  (109, 6, 7, <33:41>, 1, "comment.", 0, "null", "VB" 0.9642)
+  (123, 6, 7, <33:41>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2995 FLR-HD_NWH_C 11.8248 0 7
+  (2982 HD-CMP_U_C 0.126729 0 2
+   (147 in@p_np_i-reg_le -0.506063 0 1
+    ("in" 117
+     "token [ +CARG \"In\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"in\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96999199999999997\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2981 HDN_BNP-PN_C 0.618621 1 2
+    (2980 W_COMMA_PLR -0.132162 1 2
+     (2979 N_SG_ILR -0.609145 1 2
+      (218 paris_n1@n_-_pn_le 0 1 2
+       ("paris," 116
+        "token [ +CARG \"Paris\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"paris,\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (2994 ^SB-HD_NMC_C 10.2597 2 7
+   (2987 HDN_BNP-PN_C 1.82492 2 4
+    (2986 NP-HDN_NME-CPD_C 1.65343 2 4
+     (2984 HDN_BNP-PN_C 0.935788 2 3
+      (2983 N_SG_ILR 0.183353 2 3
+       (228 generic_proper_ne@n_-_pn-gen_le 0.570265 2 3
+        ("Air" 86
+         "token [ +CARG #1=\"Air\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (2985 ^N_SG_ILR -0.602862 3 4
+      (241 france_n1@n_-_pn_le 0 3 4
+       ("france" 115
+        "token [ +CARG \"France\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"france\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (2993 ^HD_XAJ-INT-VP_C 7.75176 4 7
+    (2992 HD-CMP_U_C 6.07634 4 7
+     (2988 ^V_PST_OLR 2.29439 4 5
+      (259 decline_v2@v_vp_seq_le 1.27984 4 5
+       ("declined" 100
+        "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2991 HD-CMP_U_C 2.65692 5 7
+      (369 to_c_prop@cm_vp_to_le 2.48409 5 6
+       ("to" 102
+        "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2990 W_PERIOD_PLR -0.468337 6 7
+       (2989 V_N3S-BSE_ILR -0.466301 6 7
+        (424 comment_v2@v_-_le 0.214297 6 7
+         ("comment." 107
+          "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96420229999999996\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (PP (P "in") (NP (N (N (N "paris,")))))
+ (S/PP (NP (N (NP (N (N "Air"))) (N (N "france"))))
+  (VP/PP
+   (VP (V (V "declined")) (VP (COMP "to") (VP (VP (V "comment."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:41>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _in_p_state<0:2>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:9>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ named<3:9>
+            LBL: h10
+            ARG0: x6
+            CARG: "Paris" ]
+          [ proper_q<10:20>
+            LBL: h11
+            ARG0: x13 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h12
+            BODY: h14 ]
+          [ compound<10:20>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<10:13>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ named<10:13>
+            LBL: h21
+            ARG0: x16
+            CARG: "Air" ]
+          [ named<14:20>
+            LBL: h15
+            ARG0: x13
+            CARG: "France" ]
+          [ _decline_v_1<21:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x13
+            ARG2: h22 ]
+          [ _comment_v_on<33:41>
+            LBL: h23
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13 ] >
+   HCONS: < h22 QEQ h23 h19 QEQ h21 h12 QEQ h15 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_in_p_state<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:proper_q<3:9>[BV x6]
+ x6:named<3:9>("Paris"){x PERS 3, NUM sg, IND +}[]
+ _2:proper_q<10:20>[BV x13]
+ e17:compound<10:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x16]
+ _3:proper_q<10:13>[BV x16]
+ x16:named<10:13>("Air"){x PERS 3, NUM sg, IND +}[]
+ x13:named<14:20>("France"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<21:29>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 e24]
+ e24:_comment_v_on-fn.Statement<33:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x13]
+}
+
+{
+  focus_d<0:41> ARG1 _decline_v_1<21:29>  
+  focus_d<0:41> ARG2 _in_p_state<0:2>  
+  _in_p_state<0:2> ARG1 _decline_v_1<21:29>  
+  _in_p_state<0:2> ARG2 named<3:9>(Paris)  
+  proper_q<3:9> BV named<3:9>(Paris)  
+  proper_q<10:20> BV named<14:20>(France)  
+  compound<10:20> ARG1 named<14:20>(France)  
+  compound<10:20> ARG2 named<10:13>(Air)  
+  proper_q<10:13> BV named<10:13>(Air)  
+  _decline_v_1<21:29> ARG1 named<14:20>(France)  
+  _decline_v_1<21:29> ARG2 _comment_v_on<33:41>  
+  _comment_v_on<33:41> ARG1 named<14:20>(France)  
+  focus_d<0:41> SF prop  
+  focus_d<0:41> TENSE untensed  
+  focus_d<0:41> MOOD indicative  
+  focus_d<0:41> PROG -  
+  focus_d<0:41> PERF -  
+  _in_p_state<0:2> SF prop  
+  _in_p_state<0:2> TENSE untensed  
+  _in_p_state<0:2> MOOD indicative  
+  _in_p_state<0:2> PROG -  
+  _in_p_state<0:2> PERF -  
+  named<3:9>(Paris) PERS 3  
+  named<3:9>(Paris) NUM sg  
+  named<3:9>(Paris) IND +  
+  compound<10:20> SF prop  
+  compound<10:20> TENSE untensed  
+  compound<10:20> MOOD indicative  
+  compound<10:20> PROG -  
+  compound<10:20> PERF -  
+  named<10:13>(Air) PERS 3  
+  named<10:13>(Air) NUM sg  
+  named<10:13>(Air) IND +  
+  named<14:20>(France) PERS 3  
+  named<14:20>(France) NUM sg  
+  named<14:20>(France) IND +  
+  _decline_v_1<21:29> SF prop  
+  _decline_v_1<21:29> TENSE past  
+  _decline_v_1<21:29> MOOD indicative  
+  _decline_v_1<21:29> PROG -  
+  _decline_v_1<21:29> PERF -  
+  _comment_v_on<33:41> SF prop  
+  _comment_v_on<33:41> TENSE untensed  
+  _comment_v_on<33:41> MOOD indicative  
+  _comment_v_on<33:41> PROG -  
+  _comment_v_on<33:41> PERF -  
+}
+

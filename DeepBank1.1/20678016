@@ -1,0 +1,60 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:23 h)).
+;;;
+
+[20678016] (1 of 1) {1} `Municipal'
+
+[20678016:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Municipal", 0, "null", "NNP" 0.6105 "JJ" 0.3895)
+>
+
+<
+  (14, 0, 1, <0:9>, 1, "Municipal", 0, "null")
+  (15, 0, 1, <0:9>, 1, "Municipal", 0, "null", "JJ" 0.3895)
+  (16, 0, 1, <0:9>, 1, "municipal", 0, "null")
+  (17, 0, 1, <0:9>, 1, "municipal", 0, "null")
+>
+
+(ROOT_FRAG
+ (33 J_FRG_C 0 0 1
+  (20 municipal_a1@aj_-_i_le 0 0 1
+   ("municipal" 16
+    "token [ +CARG \"Municipal\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"municipal\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61051520000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (AP "municipal"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: p4 ]
+          [ _municipal_a_1<0:9>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: p4 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_municipal_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  _municipal_a_1<0:9> SF prop  
+  _municipal_a_1<0:9> TENSE untensed  
+  _municipal_a_1<0:9> MOOD indicative  
+  _municipal_a_1<0:9> PROG -  
+  _municipal_a_1<0:9> PERF -  
+}
+

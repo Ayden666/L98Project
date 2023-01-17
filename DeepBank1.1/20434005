@@ -1,0 +1,143 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (14:00 h)).
+;;;
+
+[20434005] (1 of 1) {1} `The issue is far-reaching.'
+
+[20434005:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "issue", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:25>, 1, "far-reaching", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:3>, 1, "the", 0, "null")
+  (73, 0, 1, <0:3>, 1, "the", 0, "null")
+  (57, 1, 2, <4:9>, 1, "issue", 0, "null")
+  (64, 1, 2, <4:9>, 1, "issue", 0, "null", "NN" 1.0)
+  (69, 1, 2, <4:9>, 1, "issue", 0, "null")
+  (59, 2, 3, <10:12>, 1, "is", 0, "null")
+  (65, 2, 3, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (70, 2, 3, <10:12>, 1, "is", 0, "null")
+  (61, 3, 4, <13:25>, 1, "far-", 0, "null")
+  (66, 3, 4, <13:25>, 1, "far-", 0, "null", "NN" 1.0)
+  (71, 3, 4, <13:25>, 1, "far-", 0, "null")
+  (63, 4, 5, <13:26>, 1, "reaching.", 0, "null")
+  (67, 4, 5, <13:26>, 1, "reaching.", 0, "null", "JJ" 1.0)
+  (72, 4, 5, <13:26>, 1, "reaching.", 0, "null")
+>
+
+(ROOT_STRICT
+ (929 SB-HD_MC_C 3.18927 0 5
+  (907 SP-HD_N_C 2.75905 0 2
+   (86 the_1@d_-_the_le 1.13181 0 1
+    ("the" 68
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (906 ^N_MS-CNT_ILR 1.17648 1 2
+    (111 issue_n1@n_-_mc-ns_le 0.849887 1 2
+     ("issue" 57
+      "token [ +CARG #1=\"issue\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (928 ^HD-CMP_U_C -1.52429 2 5
+   (156 be_id_is@v_np_is_le 0.159389 2 3
+    ("is" 59
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (927 HDN_BNP_C -1.69933 3 5
+    (926 XP_BRCK-PR_C -1.73026 3 5
+     (924 AJ-HDN_NORM_C -1.25481 3 5
+      (920 W_HYPHEN_PLR 0 3 4
+       (244 far_a1@aj_-_i-ndpt_le 0 3 4
+        ("far-" 61
+         "token [ +CARG #1=\"far-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (923 ^HDN_OPTCMP_C -1.63882 4 5
+       (922 W_PERIOD_PLR -1.67735 4 5
+        (921 V_NGER-TR_DLR -1.18264 4 5
+         (913 V_PRP_OLR -0.758124 4 5
+          (264 reach_v1@v_np*_le 0 4 5
+           ("reaching." 63
+            "token [ +CARG \"reaching\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"reaching.\" +FROM \"13\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))))))))
+
+(S (NP (DET "the") (N (N "issue")))
+ (VP (V "is")
+  (NP (N (N (AP (AP "far-")) (N (N (N (V (V "reaching."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _issue_n_1<4:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _be_v_id<10:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<13:26>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _far_a_1<13:25>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _reach_v_1<13:26>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i18
+            ARG2: p17 ]
+          [ nominalization<13:26>
+            LBL: h13
+            ARG0: x9
+            ARG1: h15 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_issue_n_1<4:9>{x PERS 3, NUM sg}[]
+ e3:_be_v_id<10:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<13:26>[BV x9]
+ e14:_far_a_1<13:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e16:_reach_v_1<13:26>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x9:nominalization<13:26>{x PERS 3, NUM sg, GEND n}[ARG1 e16]
+}
+
+{
+  _the_q<0:3> BV _issue_n_1<4:9>  
+  _be_v_id<10:12> ARG1 _issue_n_1<4:9>  
+  _be_v_id<10:12> ARG2 nominalization<13:26>  
+  udef_q<13:26> BV nominalization<13:26>  
+  _far_a_1<13:25> ARG1 nominalization<13:26>  
+  nominalization<13:26> ARG1 _reach_v_1<13:26>  
+  _issue_n_1<4:9> PERS 3  
+  _issue_n_1<4:9> NUM sg  
+  _be_v_id<10:12> SF prop  
+  _be_v_id<10:12> TENSE pres  
+  _be_v_id<10:12> MOOD indicative  
+  _be_v_id<10:12> PROG -  
+  _be_v_id<10:12> PERF -  
+  _far_a_1<13:25> SF prop  
+  _far_a_1<13:25> TENSE untensed  
+  _far_a_1<13:25> MOOD indicative  
+  _far_a_1<13:25> PROG -  
+  _far_a_1<13:25> PERF -  
+  _reach_v_1<13:26> SF prop  
+  _reach_v_1<13:26> TENSE untensed  
+  _reach_v_1<13:26> MOOD indicative  
+  _reach_v_1<13:26> PROG +  
+  _reach_v_1<13:26> PERF -  
+  nominalization<13:26> PERS 3  
+  nominalization<13:26> NUM sg  
+  nominalization<13:26> GEND n  
+}
+

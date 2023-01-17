@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:39 h)).
+;;;
+
+[21273018] (1 of 1) {1} `Dr. Blumenfeld isn't unique.'
+
+[21273018:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Dr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:14>, 1, "Blumenfeld", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:17>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <17:20>, 1, "n’t", 0, "null", "RB" 0.3837 "JJ" 0.2337 "NN" 0.1653 "VBN" 0.1138 "VB" 0.0617 "JJS" 0.0203 "RBS" 0.0075 "VBD" 0.0072 "VBP" 0.0068)
+  (5, 4, 5, <21:27>, 1, "unique", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:3>, 1, "Dr.", 0, "null")
+  (67, 0, 1, <0:3>, 1, "dr.", 0, "null")
+  (71, 0, 1, <0:3>, 1, "dr.", 0, "null")
+  (52, 1, 2, <4:14>, 1, "Blumenfeld", 0, "null")
+  (63, 1, 2, <4:14>, 1, "Blumenfeld", 0, "null", "NNP" 1.0)
+  (66, 1, 2, <4:14>, 1, "blumenfeld", 0, "null")
+  (68, 1, 2, <4:14>, 1, "blumenfeld", 0, "null")
+  (59, 2, 3, <15:20>, 1, "isn’t", 0, "null")
+  (64, 2, 3, <15:20>, 1, "isn’t", 0, "null", "VBZ" 1.0)
+  (69, 2, 3, <15:20>, 1, "isn’t", 0, "null")
+  (61, 3, 4, <21:28>, 1, "unique.", 0, "null")
+  (65, 3, 4, <21:28>, 1, "unique.", 0, "null", "JJ" 1.0)
+  (70, 3, 4, <21:28>, 1, "unique.", 0, "null")
+>
+
+(ROOT_STRICT
+ (405 SB-HD_MC_C 3.62735 0 4
+  (401 HDN_BNP-PN_C 1.11578 0 2
+   (400 NP-HDN_TTL-CPD_C 0.429845 0 2
+    (398 N_SG_ILR -0.71707 0 1
+     (78 doctor_abb_n2@n_-_c-nocnh_le 0.788312 0 1
+      ("dr." 67
+       "token [ +CARG \"Dr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"dr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (399 ^N_SG_ILR -0.259177 1 2
+     (80 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Blumenfeld" 52
+       "token [ +CARG #1=\"Blumenfeld\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (404 ^HD-CMP_U_C 1.49452 2 4
+   (82 be_c_is_neg_3_u@v_prd_is-n_le 1.21425 2 3
+    ("isn’t" 59
+     "token [ +CARG #1=\"isn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (403 HD_OPTCMP_C 0.658328 3 4
+    (402 W_PERIOD_PLR 0.506901 3 4
+     (89 unique_a1@aj_pp_i_le 0 3 4
+      ("unique." 61
+       "token [ +CARG \"unique\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"unique.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N "dr.")) (N (N "Blumenfeld"))))
+ (VP (V "isn’t") (AP (ADJ (ADJ "unique.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _doctor_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:14>
+            LBL: h8
+            ARG0: x6
+            CARG: "Blumenfeld" ]
+          [ neg<15:20>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _unique_a_to<21:28>
+            LBL: h17
+            ARG0: e3
+            ARG1: x6
+            ARG2: i18 ] >
+   HCONS: < h15 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:proper_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_doctor_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:14>("Blumenfeld"){x PERS 3, NUM sg, IND +}[]
+ e16:neg<15:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_unique_a_to<21:28>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:14> BV named<4:14>(Blumenfeld)  
+  compound<0:14> ARG1 named<4:14>(Blumenfeld)  
+  compound<0:14> ARG2 _doctor_n_1<0:3>  
+  udef_q<0:3> BV _doctor_n_1<0:3>  
+  neg<15:20> ARG1 _unique_a_to<21:28>  
+  _unique_a_to<21:28> ARG1 named<4:14>(Blumenfeld)  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _doctor_n_1<0:3> PERS 3  
+  _doctor_n_1<0:3> NUM sg  
+  _doctor_n_1<0:3> IND +  
+  named<4:14>(Blumenfeld) PERS 3  
+  named<4:14>(Blumenfeld) NUM sg  
+  named<4:14>(Blumenfeld) IND +  
+  neg<15:20> SF prop  
+  neg<15:20> TENSE untensed  
+  neg<15:20> MOOD indicative  
+  neg<15:20> PROG -  
+  neg<15:20> PERF -  
+  _unique_a_to<21:28> SF prop  
+  _unique_a_to<21:28> TENSE pres  
+  _unique_a_to<21:28> MOOD indicative  
+  _unique_a_to<21:28> PROG -  
+  _unique_a_to<21:28> PERF -  
+}
+

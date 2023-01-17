@@ -1,0 +1,88 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:37 h)).
+;;;
+
+[21054004] (1 of 1) {1} `Double Check'
+
+[21054004:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Double", 0, "null", "RB" 1.0)
+  (2, 1, 2, <7:12>, 1, "Check", 0, "null", "VB" 0.7826 "NNP" 0.2174)
+>
+
+<
+  (28, 0, 1, <0:6>, 1, "Double", 0, "null", "RB" 1.0)
+  (30, 0, 1, <0:6>, 1, "double", 0, "null")
+  (34, 0, 1, <0:6>, 1, "double", 0, "null")
+  (20, 1, 2, <7:12>, 1, "Check", 0, "null")
+  (27, 1, 2, <7:12>, 1, "Check", 0, "null", "VB" 0.7826)
+  (29, 1, 2, <7:12>, 1, "Check", 0, "null", "NNP" 0.2174)
+  (31, 1, 2, <7:12>, 1, "check", 0, "null")
+  (32, 1, 2, <7:12>, 1, "check", 0, "null")
+>
+
+(ROOT_FRAG
+ (266 NP_NB-FRG_C 1.20988 0 2
+  (265 AJ-HDN_NORM_C 1.84396 0 2
+   (36 double_a1@aj_-_i_le 0 0 1
+    ("double" 30
+     "token [ +CARG \"Double\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"double\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (264 ^HDN_OPTCMP_C 0.853044 1 2
+    (263 N_SG_ILR 1.01094 1 2
+     (60 check_n@n_pp_c-of_le 0 1 2
+      ("check" 31
+       "token [ +CARG \"Check\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"check\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7825569\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (N (AP "double") (N (N (N "check")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:12>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:12>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _double_a_1<0:6>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _check_n_of<7:12>
+            LBL: h8
+            ARG0: x4
+            ARG1: i10 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:12>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:12>[BV x4]
+ e9:_double_a_1<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_check_n_of<7:12>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:12> ARG _check_n_of<7:12>  
+  udef_q<0:12> BV _check_n_of<7:12>  
+  _double_a_1<0:6> ARG1 _check_n_of<7:12>  
+  unknown<0:12> SF prop-or-ques  
+  unknown<0:12> TENSE untensed  
+  unknown<0:12> MOOD indicative  
+  unknown<0:12> PROG -  
+  unknown<0:12> PERF -  
+  _double_a_1<0:6> SF prop  
+  _double_a_1<0:6> TENSE untensed  
+  _double_a_1<0:6> MOOD indicative  
+  _double_a_1<0:6> PROG -  
+  _double_a_1<0:6> PERF -  
+  _check_n_of<7:12> PERS 3  
+  _check_n_of<7:12> NUM sg  
+  _check_n_of<7:12> IND +  
+}
+

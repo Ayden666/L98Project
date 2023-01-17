@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:57 h)).
+;;;
+
+[20725126] (1 of 1) {1} `That's the word.'
+
+[20725126:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 0.8271 "WDT" 0.1487 "IN" 0.0241)
+  (2, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.6637 "NNS" 0.1779 "NN" 0.1037 "JJ" 0.0547)
+  (3, 2, 3, <7:10>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <11:15>, 1, "word", 0, "null", "NN" 1.0)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:4>, 1, "that", 0, "null")
+  (73, 0, 1, <0:4>, 1, "that", 0, "null")
+  (62, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (65, 1, 2, <4:6>, 1, "’s", 0, "null", "VBZ" 0.6637)
+  (66, 1, 2, <4:6>, 1, "’s", 0, "null", "NNS" 0.1779)
+  (67, 1, 2, <4:6>, 1, "’s", 0, "null", "NN" 0.1037)
+  (72, 1, 2, <4:6>, 1, "’s", 0, "null")
+  (58, 2, 3, <7:10>, 1, "the", 0, "null")
+  (70, 2, 3, <7:10>, 1, "the", 0, "null")
+  (60, 3, 4, <11:16>, 1, "word.", 0, "null")
+  (68, 3, 4, <11:16>, 1, "word.", 0, "null", "NN" 1.0)
+  (71, 3, 4, <11:16>, 1, "word.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (626 SB-HD_MC_C 2.2985 0 4
+  (620 HDN_BNP-QNT_C -0.199308 0 1
+   (619 HDN_OPTCMP_C -0.288082 0 1
+    (89 that_deix@n_-_pr-dei-sg_le -0.729557 0 1
+     ("that" 69
+      "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82714620000000005\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (625 ^HD-CMP_U_C 1.22846 1 4
+   (115 be_id_is_cx_3@v_np_is-cx_le -0.768157 1 2
+    ("’s" 62
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66371040000000003\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (624 SP-HD_N_C 1.61965 2 4
+    (379 the_1@d_-_the_le 1.07131 2 3
+     ("the" 58
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (623 ^HDN_OPTCMP_C 0.196827 3 4
+     (622 W_PERIOD_PLR -0.133481 3 4
+      (621 N_MS-CNT_ILR -0.406151 3 4
+       (408 word_n1@n_pp_mc-of_le 0 3 4
+        ("word." 60
+         "token [ +CARG \"word\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"word.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "that")))
+ (VP (V "’s") (NP (DET "the") (N (N (N (N "word.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<7:10>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _word_n_of<11:16>
+            LBL: h13
+            ARG0: x9
+            ARG1: i14 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:4>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:4>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_the_q<7:10>[BV x9]
+ x9:_word_n_of<11:16>{x PERS 3, NUM sg}[]
+}
+
+{
+  _that_q_dem<0:4> BV generic_entity<0:4>  
+  _be_v_id<4:6> ARG1 generic_entity<0:4>  
+  _be_v_id<4:6> ARG2 _word_n_of<11:16>  
+  _the_q<7:10> BV _word_n_of<11:16>  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM sg  
+  generic_entity<0:4> GEND n  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  _word_n_of<11:16> PERS 3  
+  _word_n_of<11:16> NUM sg  
+}
+

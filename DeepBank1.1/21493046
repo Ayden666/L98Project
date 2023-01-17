@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj14e';
+;;; (wsun@wsun; 22-jan-2018 (23:48 h)).
+;;;
+
+[21493046] (1 of 1) {1} `AYER TALKS:'
+
+[21493046:2] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "AYER", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:10>, 1, "TALKS", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <10:11>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:4>, 1, "AYER", 0, "null")
+  (39, 0, 1, <0:4>, 1, "AYER", 0, "null", "NNP" 1.0)
+  (41, 0, 1, <0:4>, 1, "ayer", 0, "null")
+  (43, 0, 1, <0:4>, 1, "ayer", 0, "null")
+  (30, 1, 2, <5:10>, 1, "TALKS", 0, "null")
+  (38, 1, 2, <5:10>, 1, "TALKS", 0, "null", "VBZ" 1.0)
+  (40, 1, 2, <5:10>, 1, "talks", 0, "null")
+  (42, 1, 2, <5:10>, 1, "talks", 0, "null")
+  (37, 2, 3, <10:11>, 1, ":", 0, "null")
+  (44, 2, 3, <10:11>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (393 NP-AJ_RORP-FRG_C -0.989187 0 3
+  (392 ^HDN_BNP-PN_C -0.752837 0 2
+   (391 NP-HDN_NME-CPD_C 0.655063 0 2
+    (384 HDN_BNP-PN_C -1.0285 0 1
+     (383 N_SG_ILR -0.979548 0 1
+      (47 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("AYER" 31
+        "token [ +CARG #1=\"AYER\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (390 ^N_SG_ILR -0.143257 1 2
+     (49 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("TALKS" 30
+       "token [ +CARG #1=\"TALKS\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (84 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+   (":" 37
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (NP (N (N "AYER"))) (N (N "TALKS")))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "AYER" ]
+          [ named<5:10>
+            LBL: h8
+            ARG0: x4
+            CARG: "TALKS" ]
+          [ _colon_p_namely<10:11>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i15 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:10>[BV x4]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("AYER"){x PERS 3, NUM sg, IND +}[]
+ x4:named<5:10>("TALKS"){x PERS 3, NUM sg, IND +}[]
+ e16:_colon_p_namely<10:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:11> ARG named<5:10>(TALKS)  
+  proper_q<0:10> BV named<5:10>(TALKS)  
+  compound<0:10> ARG1 named<5:10>(TALKS)  
+  compound<0:10> ARG2 named<0:4>(AYER)  
+  proper_q<0:4> BV named<0:4>(AYER)  
+  unknown<0:11> SF prop  
+  unknown<0:11> TENSE untensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:4>(AYER) PERS 3  
+  named<0:4>(AYER) NUM sg  
+  named<0:4>(AYER) IND +  
+  named<5:10>(TALKS) PERS 3  
+  named<5:10>(TALKS) NUM sg  
+  named<5:10>(TALKS) IND +  
+  _colon_p_namely<10:11> SF prop  
+  _colon_p_namely<10:11> TENSE untensed  
+  _colon_p_namely<10:11> MOOD indicative  
+  _colon_p_namely<10:11> PROG -  
+  _colon_p_namely<10:11> PERF -  
+}
+

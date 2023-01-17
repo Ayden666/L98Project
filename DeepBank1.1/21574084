@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:33 h)).
+;;;
+
+[21574084] (1 of 1) {1} `Did I buy it?'
+
+[21574084:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Did", 0, "null", "VBD" 1.0)
+  (2, 1, 2, <4:5>, 1, "I", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <6:9>, 1, "buy", 0, "null", "VB" 0.7562 "VBP" 0.2438)
+  (4, 3, 4, <10:12>, 1, "it", 0, "null", "PRP" 1.0)
+  (5, 4, 5, <12:13>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:3>, 1, "Did", 0, "null", "VBD" 1.0)
+  (62, 0, 1, <0:3>, 1, "did", 0, "null")
+  (67, 0, 1, <0:3>, 1, "did", 0, "null")
+  (47, 1, 2, <4:5>, 1, "I", 0, "null")
+  (63, 1, 2, <4:5>, 1, "i", 0, "null")
+  (64, 1, 2, <4:5>, 1, "i", 0, "null")
+  (57, 2, 3, <6:9>, 1, "buy", 0, "null")
+  (59, 2, 3, <6:9>, 1, "buy", 0, "null", "VB" 0.7562)
+  (61, 2, 3, <6:9>, 1, "buy", 0, "null", "VBP" 0.2438)
+  (66, 2, 3, <6:9>, 1, "buy", 0, "null")
+  (56, 3, 4, <10:13>, 1, "it?", 0, "null")
+  (65, 3, 4, <10:13>, 1, "it?", 0, "null")
+>
+
+(ROOT_STRICT
+ (441 HD_YESNO_C 4.11921 0 4
+  (440 HD-CMP_U_C 4.13981 0 4
+   (435 ^HD-CMP_U_C 2.48018 0 2
+    (433 ^V_AUX-SB-INV_DLR 0.228001 0 1
+     (70 did1_pos@v_vp_did_le 0.228001 0 1
+      ("did" 62
+       "token [ +CARG \"Did\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"did\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (434 HDN_BNP-QNT_C 1.11799 1 2
+     (105 i@n_-_pr-i_le 0.729722 1 2
+      ("i" 63
+       "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL - ] +FORM \"i\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (439 HD-CMP_U_C 0.651526 2 4
+    (436 ^V_N3S-BSE_ILR 0.436802 2 3
+     (140 buy_v1@v_np*_le 0.217966 2 3
+      ("buy" 57
+       "token [ +CARG #1=\"buy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75619380000000003\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (438 HDN_BNP-QNT_C 0 3 4
+     (437 W_QMARK_PLR 0 3 4
+      (146 it2@n_-_pr-it_le 0 3 4
+       ("it?" 56
+        "token [ +CARG \"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"it?\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S (V (V (V "did")) (NP (NP "i")))
+  (VP (V (V "buy")) (NP (NP (NP "it?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<4:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<4:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _buy_v_1<6:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pron<10:13>
+            LBL: h10
+            ARG0: x9 ]
+          [ pronoun_q<10:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ] >
+   HCONS: < h12 QEQ h10 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<4:5>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<4:5>[BV x5]
+ e3:_buy_v_1-fn.Commerce_buy<6:9>{e SF ques, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Buyer x5, ARG2-fn.Goods x9]
+ x9:pron<10:13>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _2:pronoun_q<10:13>[BV x9]
+}
+
+{
+  pronoun_q<4:5> BV pron<4:5>  
+  _buy_v_1<6:9> ARG1 pron<4:5>  
+  _buy_v_1<6:9> ARG2 pron<10:13>  
+  pronoun_q<10:13> BV pron<10:13>  
+  pron<4:5> PERS 1  
+  pron<4:5> NUM sg  
+  pron<4:5> PT std  
+  _buy_v_1<6:9> SF ques  
+  _buy_v_1<6:9> TENSE past  
+  _buy_v_1<6:9> MOOD indicative  
+  _buy_v_1<6:9> PROG -  
+  _buy_v_1<6:9> PERF -  
+  pron<10:13> PERS 3  
+  pron<10:13> NUM sg  
+  pron<10:13> GEND n  
+  pron<10:13> PT std  
+}
+

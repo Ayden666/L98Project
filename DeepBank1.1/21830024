@@ -1,0 +1,217 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:15 h)).
+;;;
+
+[21830024] (1 of 1) {1} `Mr. Maynard claims this is a manageable problem.'
+
+[21830024:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Maynard", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:18>, 1, "claims", 0, "null", "VBZ" 0.9124 "NNS" 0.0876)
+  (4, 3, 4, <19:23>, 1, "this", 0, "null", "DT" 1.0)
+  (5, 4, 5, <24:26>, 1, "is", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <27:28>, 1, "a", 0, "null", "DT" 1.0)
+  (7, 6, 7, <29:39>, 1, "manageable", 0, "null", "JJ" 1.0)
+  (8, 7, 8, <40:47>, 1, "problem", 0, "null", "NN" 1.0)
+  (9, 8, 9, <47:48>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (103, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (110, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (118, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (83, 1, 2, <4:11>, 1, "Maynard", 0, "null")
+  (105, 1, 2, <4:11>, 1, "Maynard", 0, "null", "NNP" 1.0)
+  (109, 1, 2, <4:11>, 1, "maynard", 0, "null")
+  (111, 1, 2, <4:11>, 1, "maynard", 0, "null")
+  (101, 2, 3, <12:18>, 1, "claims", 0, "null")
+  (104, 2, 3, <12:18>, 1, "claims", 0, "null", "VBZ" 0.9124)
+  (117, 2, 3, <12:18>, 1, "claims", 0, "null")
+  (92, 3, 4, <19:23>, 1, "this", 0, "null")
+  (112, 3, 4, <19:23>, 1, "this", 0, "null")
+  (94, 4, 5, <24:26>, 1, "is", 0, "null")
+  (106, 4, 5, <24:26>, 1, "is", 0, "null", "VBZ" 1.0)
+  (113, 4, 5, <24:26>, 1, "is", 0, "null")
+  (96, 5, 6, <27:28>, 1, "a", 0, "null")
+  (114, 5, 6, <27:28>, 1, "a", 0, "null")
+  (98, 6, 7, <29:39>, 1, "manageable", 0, "null")
+  (107, 6, 7, <29:39>, 1, "manageable", 0, "null", "JJ" 1.0)
+  (115, 6, 7, <29:39>, 1, "manageable", 0, "null")
+  (100, 7, 8, <40:48>, 1, "problem.", 0, "null")
+  (108, 7, 8, <40:48>, 1, "problem.", 0, "null", "NN" 1.0)
+  (116, 7, 8, <40:48>, 1, "problem.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1200 SB-HD_MC_C 11.8009 0 8
+  (1187 HDN_BNP-PN_C 3.86187 0 2
+   (1186 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (1184 N_SG_ILR 2.02901 0 1
+     (126 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 110
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1185 ^N_SG_ILR -0.259177 1 2
+     (129 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Maynard" 83
+       "token [ +CARG #1=\"Maynard\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1199 ^HD-CMP_U_C 6.92194 2 8
+   (1189 ^HD_OPTCMP_C -0.322824 2 3
+    (1188 V_3S-FIN_OLR -1.16018 2 3
+     (146 claim_v2@v_pp*-cp_le -0.286957 2 3
+      ("claims" 101
+       "token [ +CARG #1=\"claims\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91236669999999997\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1198 SB-HD_NMC_C 5.68557 3 8
+    (1191 HDN_BNP-QNT_C 1.14018 3 4
+     (1190 HDN_OPTCMP_C 1.32082 3 4
+      (173 this_deix@n_-_pr-dei-sg_le 0.76853 3 4
+       ("this" 92
+        "token [ +CARG #1=\"this\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1197 ^HD-CMP_U_C 3.4557 4 8
+     (219 be_id_is@v_np_is_le 0.0449227 4 5
+      ("is" 94
+       "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1196 SP-HD_N_C 3.18621 5 8
+      (307 a_det@d_-_sg-nmd_le -0.667877 5 6
+       ("a" 96
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1195 ^AJ-HDN_NORM_C 1.80987 6 8
+       (380 manageable_a1@aj_-_i_le 0 6 7
+        ("manageable" 98
+         "token [ +CARG #1=\"manageable\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1194 ^HDN_OPTCMP_C 0.975004 7 8
+        (1193 W_PERIOD_PLR 1.06266 7 8
+         (1192 N_SG_ILR 0.541725 7 8
+          (382 problem_n1@n_pp_c-ns-of_le 0 7 8
+           ("problem." 100
+            "token [ +CARG \"problem\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"problem.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Maynard"))))
+ (VP (V (V (V "claims")))
+  (S (NP (N (N "this")))
+   (VP (V "is")
+    (NP (DET "a") (N (AP "manageable") (N (N (N (N "problem."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Maynard" ]
+          [ _claim_v_1<12:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h16
+            ARG3: i15 ]
+          [ generic_entity<19:23>
+            LBL: h17
+            ARG0: x18 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _this_q_dem<19:23>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ _be_v_id<24:26>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            ARG2: x24 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<27:28>
+            LBL: h25
+            ARG0: x24
+            RSTR: h27
+            BODY: h26 ]
+          [ _manageable_a_1<29:39>
+            LBL: h28
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x24 ]
+          [ _problem_n_of<40:48>
+            LBL: h28
+            ARG0: x24
+            ARG1: i30 ] >
+   HCONS: < h27 QEQ h28 h20 QEQ h17 h16 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Maynard"){x PERS 3, NUM sg, IND +}[]
+ e3:_claim_v_1-fn.Statement<12:18>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x6, ARG2-fn.Message e23]
+ x18:generic_entity<19:23>{x PERS 3, NUM sg, GEND n}[]
+ _3:_this_q_dem<19:23>[BV x18]
+ e23:_be_v_id<24:26>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x24]
+ _4:_a_q<27:28>[BV x24]
+ e29:_manageable_a_1<29:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x24]
+ x24:_problem_n_of<40:48>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Maynard)  
+  compound<0:11> ARG1 named<4:11>(Maynard)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _claim_v_1<12:18> ARG1 named<4:11>(Maynard)  
+  _claim_v_1<12:18> ARG2 _be_v_id<24:26>  
+  _this_q_dem<19:23> BV generic_entity<19:23>  
+  _be_v_id<24:26> ARG1 generic_entity<19:23>  
+  _be_v_id<24:26> ARG2 _problem_n_of<40:48>  
+  _a_q<27:28> BV _problem_n_of<40:48>  
+  _manageable_a_1<29:39> ARG1 _problem_n_of<40:48>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Maynard) PERS 3  
+  named<4:11>(Maynard) NUM sg  
+  named<4:11>(Maynard) IND +  
+  _claim_v_1<12:18> SF prop  
+  _claim_v_1<12:18> TENSE pres  
+  _claim_v_1<12:18> MOOD indicative  
+  _claim_v_1<12:18> PROG -  
+  _claim_v_1<12:18> PERF -  
+  generic_entity<19:23> PERS 3  
+  generic_entity<19:23> NUM sg  
+  generic_entity<19:23> GEND n  
+  _be_v_id<24:26> SF prop  
+  _be_v_id<24:26> TENSE pres  
+  _be_v_id<24:26> MOOD indicative  
+  _be_v_id<24:26> PROG -  
+  _be_v_id<24:26> PERF -  
+  _manageable_a_1<29:39> SF prop  
+  _manageable_a_1<29:39> TENSE untensed  
+  _manageable_a_1<29:39> MOOD indicative  
+  _manageable_a_1<29:39> PROG -  
+  _manageable_a_1<29:39> PERF -  
+  _problem_n_of<40:48> PERS 3  
+  _problem_n_of<40:48> NUM sg  
+  _problem_n_of<40:48> IND +  
+}
+

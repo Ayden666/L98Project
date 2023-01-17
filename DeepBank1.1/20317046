@@ -1,0 +1,149 @@
+;;;
+;;; Redwoods export of `wsj03a';
+;;; (wsun@wsun; 22-jan-2018 (13:05 h)).
+;;;
+
+[20317046] (1 of 1) {1} `Nekoosa is incorporated in Maine.'
+
+[20317046:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Nekoosa", 0, "null", "NNP" 0.9542 "NN" 0.0458)
+  (2, 1, 2, <8:10>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <11:23>, 1, "incorporated", 0, "null", "VBN" 0.9859 "JJ" 0.0141)
+  (4, 3, 4, <24:26>, 1, "in", 0, "null", "IN" 1.0)
+  (5, 4, 5, <27:32>, 1, "Maine", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:7>, 1, "Nekoosa", 0, "null")
+  (78, 0, 1, <0:7>, 1, "nekoosa", 0, "null")
+  (83, 0, 1, <0:7>, 1, "nekoosa", 0, "null")
+  (64, 1, 2, <8:10>, 1, "is", 0, "null")
+  (75, 1, 2, <8:10>, 1, "is", 0, "null", "VBZ" 1.0)
+  (80, 1, 2, <8:10>, 1, "is", 0, "null")
+  (71, 2, 3, <11:23>, 1, "incorporated", 0, "null")
+  (74, 2, 3, <11:23>, 1, "incorporated", 0, "null", "VBN" 0.9859)
+  (82, 2, 3, <11:23>, 1, "incorporated", 0, "null")
+  (66, 3, 4, <24:26>, 1, "in", 0, "null")
+  (81, 3, 4, <24:26>, 1, "in", 0, "null")
+  (58, 4, 5, <27:33>, 1, "Maine.", 0, "null")
+  (76, 4, 5, <27:33>, 1, "Maine.", 0, "null", "NNP" 1.0)
+  (77, 4, 5, <27:33>, 1, "maine.", 0, "null")
+  (79, 4, 5, <27:33>, 1, "maine.", 0, "null")
+>
+
+(ROOT_STRICT
+ (988 SB-HD_MC_C 2.60459 0 5
+  (979 HDN_BNP-PN_C -1.0285 0 1
+   (978 N_SG_ILR -0.979548 0 1
+    (85 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Nekoosa" 73
+      "token [ +CARG #1=\"Nekoosa\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95418320000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (987 ^HD-CMP_U_C 2.61605 1 5
+   (125 be_c_is@v_prd_is_le 1.53171 1 2
+    ("is" 64
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (986 HD-AJ_INT-UNSL_C 0.947673 2 5
+    (981 ^HD_OPTCMP_C 0.680774 2 3
+     (980 V_PAS_ODLR -0.300408 2 3
+      (226 incorporate_v1@v_np*_le 0 2 3
+       ("incorporated" 71
+        "token [ +CARG #1=\"incorporated\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98592100000000005\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (985 HD-CMP_U_C -1.05222 3 5
+     (341 in@p_np_i-reg_le -0.179868 3 4
+      ("in" 66
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (984 HDN_BNP-PN_C -0.471228 4 5
+      (983 W_PERIOD_PLR -0.39127 4 5
+       (982 N_SG_ILR -0.824189 4 5
+        (388 maine_n1@n_-_pn_le 0 4 5
+         ("maine." 77
+          "token [ +CARG \"Maine\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"maine.\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N "Nekoosa")))
+ (VP (V "is")
+  (VP (VP (V (V "incorporated")))
+   (PP (P "in") (NP (N (N (N "maine."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Nekoosa" ]
+          [ _incorporate_v_1<11:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: i9
+            ARG2: x6 ]
+          [ parg_d<11:23>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _in_p<24:26>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x12 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<27:33>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ named<27:33>
+            LBL: h16
+            ARG0: x12
+            CARG: "Maine" ] >
+   HCONS: < h14 QEQ h16 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Nekoosa"){x PERS 3, NUM sg, IND +}[]
+ e3:_incorporate_v_1<11:23>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e10:parg_d<11:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e11:_in_p<24:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x12]
+ _2:proper_q<27:33>[BV x12]
+ x12:named<27:33>("Maine"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Nekoosa)  
+  _incorporate_v_1<11:23> ARG2 named<0:7>(Nekoosa)  
+  parg_d<11:23> ARG1 _incorporate_v_1<11:23>  
+  parg_d<11:23> ARG2 named<0:7>(Nekoosa)  
+  _in_p<24:26> ARG1 _incorporate_v_1<11:23>  
+  _in_p<24:26> ARG2 named<27:33>(Maine)  
+  proper_q<27:33> BV named<27:33>(Maine)  
+  named<0:7>(Nekoosa) PERS 3  
+  named<0:7>(Nekoosa) NUM sg  
+  named<0:7>(Nekoosa) IND +  
+  _incorporate_v_1<11:23> SF prop  
+  _incorporate_v_1<11:23> TENSE pres  
+  _incorporate_v_1<11:23> MOOD indicative  
+  _incorporate_v_1<11:23> PROG -  
+  _incorporate_v_1<11:23> PERF -  
+  parg_d<11:23> SF prop  
+  parg_d<11:23> TENSE untensed  
+  parg_d<11:23> MOOD indicative  
+  parg_d<11:23> PROG -  
+  parg_d<11:23> PERF -  
+  _in_p<24:26> SF prop  
+  _in_p<24:26> TENSE untensed  
+  _in_p<24:26> MOOD indicative  
+  _in_p<24:26> PROG -  
+  _in_p<24:26> PERF -  
+  named<27:33>(Maine) PERS 3  
+  named<27:33>(Maine) NUM sg  
+  named<27:33>(Maine) IND +  
+}
+

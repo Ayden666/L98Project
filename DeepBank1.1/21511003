@@ -1,0 +1,176 @@
+;;;
+;;; Redwoods export of `wsj15a';
+;;; (wsun@wsun; 22-jan-2018 (23:58 h)).
+;;;
+
+[21511003] (1 of 1) {1} `Oppenheimer & Co. was the lead underwriter.'
+
+[21511003:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Oppenheimer", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <12:13>, 1, "&", 0, "null", "CC" 1.0)
+  (3, 2, 3, <14:17>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <18:21>, 1, "was", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <22:25>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <26:30>, 1, "lead", 0, "null", "JJ" 0.6108 "NN" 0.3892)
+  (7, 6, 7, <31:42>, 1, "underwriter", 0, "null", "NN" 1.0)
+  (8, 7, 8, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:11>, 1, "Oppenheimer", 0, "null")
+  (98, 0, 1, <0:11>, 1, "oppenheimer", 0, "null")
+  (105, 0, 1, <0:11>, 1, "oppenheimer", 0, "null")
+  (87, 1, 2, <12:13>, 1, "&", 0, "null")
+  (102, 1, 2, <12:13>, 1, "&", 0, "null")
+  (74, 2, 3, <14:17>, 1, "Co.", 0, "null")
+  (93, 2, 3, <14:17>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (97, 2, 3, <14:17>, 1, "co.", 0, "null")
+  (99, 2, 3, <14:17>, 1, "co.", 0, "null")
+  (83, 3, 4, <18:21>, 1, "was", 0, "null")
+  (94, 3, 4, <18:21>, 1, "was", 0, "null", "VBD" 1.0)
+  (100, 3, 4, <18:21>, 1, "was", 0, "null")
+  (85, 4, 5, <22:25>, 1, "the", 0, "null")
+  (101, 4, 5, <22:25>, 1, "the", 0, "null")
+  (90, 5, 6, <26:30>, 1, "lead", 0, "null")
+  (96, 5, 6, <26:30>, 1, "lead", 0, "null", "NN" 0.3892)
+  (104, 5, 6, <26:30>, 1, "lead", 0, "null")
+  (89, 6, 7, <31:43>, 1, "underwriter.", 0, "null")
+  (95, 6, 7, <31:43>, 1, "underwriter.", 0, "null", "NN" 1.0)
+  (103, 6, 7, <31:43>, 1, "underwriter.", 0, "null")
+>
+
+(ROOT_STRICT
+ (859 SB-HD_MC_C 6.45749 0 7
+  (858 HDN_BNP-PN_C 1.69462 0 3
+   (857 HDN-AJ_REDREL_C 1.0572 0 3
+    (848 ^N_SG_ILR -0.748959 0 1
+     (107 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Oppenheimer" 92
+       "token [ +CARG #1=\"Oppenheimer\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (219 and_co_post_ttl_2@n_-_tt-post-npt_le -0.132011 1 3
+     ("& co." 87
+      "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      97
+      "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (856 ^HD-CMP_U_C 3.74582 3 7
+   (145 be_id_was@v_np_was_le 0.510521 3 4
+    ("was" 83
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (855 SP-HD_N_C 2.36706 4 7
+    (173 the_1@d_-_the_le 1.07131 4 5
+     ("the" 85
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (854 ^N-HDN_CPD_C 1.81184 5 7
+     (198 lead_n1@n_-_mc_le 0 5 6
+      ("lead" 90
+       "token [ +CARG #1=\"lead\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61083940000000003\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (853 ^W_PERIOD_PLR 1.26226 6 7
+      (852 N_SG_ILR 0.837064 6 7
+       (206 underwriter_n1@n_-_c_le 0 6 7
+        ("underwriter." 89
+         "token [ +CARG \"underwriter\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"underwriter.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "Oppenheimer")) (N "& co.")))
+ (VP (V "was")
+  (NP (DET "the") (N (N "lead") (N (N (N "underwriter.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Oppenheimer" ]
+          [ _and+company_n_1<12:17>
+            LBL: h9
+            ARG0: x10 [ x IND: + ] ]
+          [ udef_q<12:17>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<12:17>
+            LBL: h8
+            ARG0: i14
+            ARG1: x6
+            ARG2: x10 ]
+          [ _be_v_id<18:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<22:25>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ compound<26:43>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x20 ]
+          [ udef_q<26:30>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ _lead_n_1<26:30>
+            LBL: h25
+            ARG0: x20 ]
+          [ _underwriter_n_1<31:43>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h23 QEQ h25 h18 QEQ h19 h12 QEQ h9 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:17>[BV x6]
+ x6:named<0:11>("Oppenheimer"){x PERS 3, NUM sg, IND +}[]
+ x10:_and+company_n_1<12:17>{x IND +}[]
+ _2:udef_q<12:17>[BV x10]
+ i14:compound<12:17>{i}[ARG1 x6, ARG2 x10]
+ e3:_be_v_id<18:21>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_the_q<22:25>[BV x15]
+ e21:compound<26:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x20]
+ _4:udef_q<26:30>[BV x20]
+ x20:_lead_n_1<26:30>{x}[]
+ x15:_underwriter_n_1<31:43>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:17> BV named<0:11>(Oppenheimer)  
+  udef_q<12:17> BV _and+company_n_1<12:17>  
+  compound<12:17> ARG1 named<0:11>(Oppenheimer)  
+  compound<12:17> ARG2 _and+company_n_1<12:17>  
+  _be_v_id<18:21> ARG1 named<0:11>(Oppenheimer)  
+  _be_v_id<18:21> ARG2 _underwriter_n_1<31:43>  
+  _the_q<22:25> BV _underwriter_n_1<31:43>  
+  compound<26:43> ARG1 _underwriter_n_1<31:43>  
+  compound<26:43> ARG2 _lead_n_1<26:30>  
+  udef_q<26:30> BV _lead_n_1<26:30>  
+  named<0:11>(Oppenheimer) PERS 3  
+  named<0:11>(Oppenheimer) NUM sg  
+  named<0:11>(Oppenheimer) IND +  
+  _and+company_n_1<12:17> IND +  
+  _be_v_id<18:21> SF prop  
+  _be_v_id<18:21> TENSE past  
+  _be_v_id<18:21> MOOD indicative  
+  _be_v_id<18:21> PROG -  
+  _be_v_id<18:21> PERF -  
+  compound<26:43> SF prop  
+  compound<26:43> TENSE untensed  
+  compound<26:43> MOOD indicative  
+  compound<26:43> PROG -  
+  compound<26:43> PERF -  
+  _underwriter_n_1<31:43> PERS 3  
+  _underwriter_n_1<31:43> NUM sg  
+  _underwriter_n_1<31:43> IND +  
+}
+

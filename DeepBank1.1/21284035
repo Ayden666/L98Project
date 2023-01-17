@@ -1,0 +1,127 @@
+;;;
+;;; Redwoods export of `wsj12d';
+;;; (wsun@wsun; 22-jan-2018 (21:45 h)).
+;;;
+
+[21284035] (1 of 1) {1} `-- Creative financing.'
+
+[21284035:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:11>, 1, "Creative", 0, "null", "JJ" 0.9725 "NNP" 0.0275)
+  (3, 2, 3, <12:21>, 1, "financing", 0, "null", "NN" 1.0)
+  (4, 3, 4, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (41, 0, 1, <0:2>, 1, "–", 0, "null")
+  (49, 0, 1, <0:2>, 1, "–", 0, "null")
+  (46, 1, 2, <3:11>, 1, "Creative", 0, "null", "JJ" 0.9725)
+  (48, 1, 2, <3:11>, 1, "creative", 0, "null")
+  (51, 1, 2, <3:11>, 1, "creative", 0, "null")
+  (43, 2, 3, <12:22>, 1, "financing.", 0, "null")
+  (47, 2, 3, <12:22>, 1, "financing.", 0, "null", "NN" 1.0)
+  (50, 2, 3, <12:22>, 1, "financing.", 0, "null")
+>
+
+(ROOT_FRAG
+ (182 AJ-HD_SCP-XP_C 0.380722 0 3
+  (53 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 41
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (181 ^NP_FRG_C -0.508293 1 3
+   (180 HDN_BNP_C -1.20573 1 3
+    (179 AJ-HDN_NORM_C -1.20541 1 3
+     (62 creative_a1@aj_-_i_le 0 1 2
+      ("creative" 48
+       "token [ +CARG \"Creative\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"creative\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97247410000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (178 ^HDN_OPTCMP_C -2.08603 2 3
+      (177 W_PERIOD_PLR -2.12456 2 3
+       (176 V_NGER-TR_DLR -1.62985 2 3
+        (175 V_PRP_OLR -0.618437 2 3
+         (65 finance_v1@v_np_le 0 2 3
+          ("financing." 43
+           "token [ +CARG \"financing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"financing.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(XP (ADV "–")
+ (XP (NP (N (AP "creative") (N (N (N (V (V "financing.")))))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:22>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<3:22>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ _creative_a_1<3:11>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8 ]
+          [ _finance_v_1<12:22>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i17
+            ARG2: p16 ]
+          [ nominalization<12:22>
+            LBL: h12
+            ARG0: x8
+            ARG1: h14 ] >
+   HCONS: < h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:udef_q<3:22>[BV x8]
+ e13:_creative_a_1<3:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ e15:_finance_v_1<12:22>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x8:nominalization<12:22>{x PERS 3, NUM sg, GEND n}[ARG1 e15]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:22>  
+  discourse<0:2> R-INDEX unknown<3:22>  
+  unknown<3:22> ARG nominalization<12:22>  
+  udef_q<3:22> BV nominalization<12:22>  
+  _creative_a_1<3:11> ARG1 nominalization<12:22>  
+  nominalization<12:22> ARG1 _finance_v_1<12:22>  
+  unknown<3:22> SF prop  
+  unknown<3:22> TENSE untensed  
+  unknown<3:22> MOOD indicative  
+  unknown<3:22> PROG -  
+  unknown<3:22> PERF -  
+  _creative_a_1<3:11> SF prop  
+  _creative_a_1<3:11> TENSE untensed  
+  _creative_a_1<3:11> MOOD indicative  
+  _creative_a_1<3:11> PROG -  
+  _creative_a_1<3:11> PERF -  
+  _finance_v_1<12:22> SF prop  
+  _finance_v_1<12:22> TENSE untensed  
+  _finance_v_1<12:22> MOOD indicative  
+  _finance_v_1<12:22> PROG +  
+  _finance_v_1<12:22> PERF -  
+  nominalization<12:22> PERS 3  
+  nominalization<12:22> NUM sg  
+  nominalization<12:22> GEND n  
+}
+

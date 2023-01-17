@@ -1,0 +1,219 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:25 h)).
+;;;
+
+[22153055] (1 of 1) {1} `Robert Crandall, with the Brookings Institute, agrees.'
+
+[22153055:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Robert", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:15>, 1, "Crandall", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:16>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <17:21>, 1, "with", 0, "null", "IN" 1.0)
+  (5, 4, 5, <22:25>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <26:35>, 1, "Brookings", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <36:45>, 1, "Institute", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <45:46>, 1, ",", 0, "null", "," 1.0)
+  (9, 8, 9, <47:53>, 1, "agrees", 0, "null", "VBZ" 1.0)
+  (10, 9, 10, <53:54>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (116, 0, 1, <0:6>, 1, "Robert", 0, "null")
+  (122, 0, 1, <0:6>, 1, "robert", 0, "null")
+  (131, 0, 1, <0:6>, 1, "robert", 0, "null")
+  (98, 1, 2, <7:16>, 1, "Crandall,", 0, "null")
+  (118, 1, 2, <7:16>, 1, "Crandall,", 0, "null", "NNP" 1.0)
+  (123, 1, 2, <7:16>, 1, "crandall,", 0, "null")
+  (126, 1, 2, <7:16>, 1, "crandall,", 0, "null")
+  (107, 2, 3, <17:21>, 1, "with", 0, "null")
+  (128, 2, 3, <17:21>, 1, "with", 0, "null")
+  (109, 3, 4, <22:25>, 1, "the", 0, "null")
+  (129, 3, 4, <22:25>, 1, "the", 0, "null")
+  (95, 4, 5, <26:35>, 1, "Brookings", 0, "null")
+  (117, 4, 5, <26:35>, 1, "Brookings", 0, "null", "NNP" 1.0)
+  (121, 4, 5, <26:35>, 1, "brookings", 0, "null")
+  (125, 4, 5, <26:35>, 1, "brookings", 0, "null")
+  (100, 5, 6, <36:46>, 1, "Institute,", 0, "null")
+  (119, 5, 6, <36:46>, 1, "Institute,", 0, "null", "NNP" 1.0)
+  (124, 5, 6, <36:46>, 1, "institute,", 0, "null")
+  (127, 5, 6, <36:46>, 1, "institute,", 0, "null")
+  (115, 6, 7, <47:54>, 1, "agrees.", 0, "null")
+  (120, 6, 7, <47:54>, 1, "agrees.", 0, "null", "VBZ" 1.0)
+  (130, 6, 7, <47:54>, 1, "agrees.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1211 SB-HD_MC_C 8.76511 0 7
+  (1206 HDN_BNP-PN_C 10.6648 0 6
+   (1205 HDN-AJ_REDREL-PR_C 10.0773 0 6
+    (1197 ^NP-HDN_NME-CPD_C 4.10399 0 2
+     (1194 HDN_BNP-PN_C 1.01135 0 1
+      (1193 N_SG_ILR 0.422843 0 1
+       (136 robert_n1@n_-_pn_le 0.589137 0 1
+        ("robert" 122
+         "token [ +CARG \"Robert\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"robert\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1196 ^W_COMMA_PLR 2.09121 1 2
+      (1195 N_SG_ILR 0.501186 1 2
+       (137 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Crandall," 98
+         "token [ +CARG \"Crandall\" +CLASS proper_ne +FORM \"Crandall,\" +FROM \"7\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (1204 HD-CMP_U_C 6.0311 2 6
+     (160 with_p@p_np_i_le -0.594656 2 3
+      ("with" 107
+       "token [ +CARG #1=\"with\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1203 SP-HD_N_C 6.12525 3 6
+      (185 the_1@d_-_the_le 0.405901 3 4
+       ("the" 109
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1202 ^NP-HDN_NME-CPD_C 3.85664 4 6
+       (1199 HDN_BNP-PN_C 0.820683 4 5
+        (1198 N_SG_ILR -0.166294 4 5
+         (222 brookings_n1@n_-_pn_le 0 4 5
+          ("brookings" 121
+           "token [ +CARG \"Brookings\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"brookings\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (1201 ^W_COMMA_PLR 1.8547 5 6
+        (1200 N_SG_ILR 0.501186 5 6
+         (225 generic_proper_ne@n_-_pn-gen_le 0 5 6
+          ("Institute," 100
+           "token [ +CARG \"Institute\" +CLASS proper_ne +FORM \"Institute,\" +FROM \"36\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+  (1210 ^HD_OPTCMP_C -1.50658 6 7
+   (1209 HD_OPTCMP_C -0.538118 6 7
+    (1208 W_PERIOD_PLR -1.26217 6 7
+     (1207 V_3S-FIN_OLR -0.11303 6 7
+      (256 agree_v2@v_pp*-pp*_le 0 6 7
+       ("agrees." 115
+        "token [ +CARG \"agrees\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"agrees.\" +FROM #1=\"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (N (NP (N (N "robert"))) (N (N (N "Crandall,"))))
+   (PP (P "with")
+    (NP (DET "the")
+     (N (NP (N (N "brookings"))) (N (N (N "Institute,"))))))))
+ (VP (V (V (V (V "agrees."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:46>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Robert" ]
+          [ named<7:16>
+            LBL: h8
+            ARG0: x6
+            CARG: "Crandall" ]
+          [ _with_p<17:21>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<22:25>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ compound<26:46>
+            LBL: h20
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<26:35>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ named<26:35>
+            LBL: h26
+            ARG0: x21
+            CARG: "Brookings" ]
+          [ named<36:46>
+            LBL: h20
+            ARG0: x16
+            CARG: "Institute" ]
+          [ _agree_v_on<47:54>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h24 QEQ h26 h19 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:46>[BV x6]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Robert"){x PERS 3, NUM sg, IND +}[]
+ x6:named<7:16>("Crandall"){x PERS 3, NUM sg, IND +}[]
+ e15:_with_p<17:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:_the_q<22:25>[BV x16]
+ e22:compound<26:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x21]
+ _4:proper_q<26:35>[BV x21]
+ x21:named<26:35>("Brookings"){x PERS 3, NUM sg, IND +}[]
+ x16:named<36:46>("Institute"){x PERS 3, NUM sg, IND +}[]
+ e3:_agree_v_on<47:54>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:46> BV named<7:16>(Crandall)  
+  compound<0:16> ARG1 named<7:16>(Crandall)  
+  compound<0:16> ARG2 named<0:6>(Robert)  
+  proper_q<0:6> BV named<0:6>(Robert)  
+  _with_p<17:21> ARG1 named<7:16>(Crandall)  
+  _with_p<17:21> ARG2 named<36:46>(Institute)  
+  _the_q<22:25> BV named<36:46>(Institute)  
+  compound<26:46> ARG1 named<36:46>(Institute)  
+  compound<26:46> ARG2 named<26:35>(Brookings)  
+  proper_q<26:35> BV named<26:35>(Brookings)  
+  _agree_v_on<47:54> ARG1 named<7:16>(Crandall)  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:6>(Robert) PERS 3  
+  named<0:6>(Robert) NUM sg  
+  named<0:6>(Robert) IND +  
+  named<7:16>(Crandall) PERS 3  
+  named<7:16>(Crandall) NUM sg  
+  named<7:16>(Crandall) IND +  
+  _with_p<17:21> SF prop  
+  _with_p<17:21> TENSE untensed  
+  _with_p<17:21> MOOD indicative  
+  _with_p<17:21> PROG -  
+  _with_p<17:21> PERF -  
+  compound<26:46> SF prop  
+  compound<26:46> TENSE untensed  
+  compound<26:46> MOOD indicative  
+  compound<26:46> PROG -  
+  compound<26:46> PERF -  
+  named<26:35>(Brookings) PERS 3  
+  named<26:35>(Brookings) NUM sg  
+  named<26:35>(Brookings) IND +  
+  named<36:46>(Institute) PERS 3  
+  named<36:46>(Institute) NUM sg  
+  named<36:46>(Institute) IND +  
+  _agree_v_on<47:54> SF prop  
+  _agree_v_on<47:54> TENSE pres  
+  _agree_v_on<47:54> MOOD indicative  
+  _agree_v_on<47:54> PROG -  
+  _agree_v_on<47:54> PERF -  
+}
+

@@ -1,0 +1,307 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:03 h)).
+;;;
+
+[22019033] (1 of 1) {1} `Price Co. jumped 2 1/4 to 44 on 1.7 million shares.'
+
+[22019033:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Price", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:9>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:16>, 1, "jumped", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:18>, 1, "2", 0, "null", "CD" 1.0)
+  (5, 4, 5, <19:22>, 1, "1/4", 0, "null", "CD" 1.0)
+  (6, 5, 6, <23:25>, 1, "to", 0, "null", "TO" 1.0)
+  (7, 6, 7, <26:28>, 1, "44", 0, "null", "CD" 1.0)
+  (8, 7, 8, <29:31>, 1, "on", 0, "null", "IN" 1.0)
+  (9, 8, 9, <32:35>, 1, "1.7", 0, "null", "CD" 1.0)
+  (10, 9, 10, <36:43>, 1, "million", 0, "null", "CD" 1.0)
+  (11, 10, 11, <44:50>, 1, "shares", 0, "null", "NNS" 1.0)
+  (12, 11, 12, <50:51>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (123, 0, 1, <0:5>, 1, "Price", 0, "null")
+  (129, 0, 1, <0:5>, 1, "price", 0, "null")
+  (141, 0, 1, <0:5>, 1, "price", 0, "null")
+  (105, 1, 2, <6:9>, 1, "Co.", 0, "null")
+  (124, 1, 2, <6:9>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (128, 1, 2, <6:9>, 1, "co.", 0, "null")
+  (133, 1, 2, <6:9>, 1, "co.", 0, "null")
+  (120, 2, 3, <10:16>, 1, "jumped", 0, "null")
+  (126, 2, 3, <10:16>, 1, "jumped", 0, "null", "VBD" 1.0)
+  (139, 2, 3, <10:16>, 1, "jumped", 0, "null")
+  (106, 3, 4, <17:18>, 1, "2", 0, "null")
+  (134, 3, 4, <17:18>, 1, "2", 0, "null")
+  (101, 4, 5, <19:22>, 1, "1/4", 0, "null")
+  (107, 4, 5, <19:22>, 1, "1/4", 0, "null")
+  (130, 4, 5, <19:22>, 1, "1/4", 0, "null")
+  (135, 4, 5, <19:22>, 1, "1/4", 0, "null")
+  (114, 5, 6, <23:25>, 1, "to", 0, "null")
+  (136, 5, 6, <23:25>, 1, "to", 0, "null")
+  (102, 6, 7, <26:28>, 1, "44", 0, "null")
+  (131, 6, 7, <26:28>, 1, "44", 0, "null")
+  (116, 7, 8, <29:31>, 1, "on", 0, "null")
+  (137, 7, 8, <29:31>, 1, "on", 0, "null")
+  (103, 8, 9, <32:35>, 1, "1.7", 0, "null")
+  (132, 8, 9, <32:35>, 1, "1.7", 0, "null")
+  (118, 9, 10, <36:43>, 1, "million", 0, "null")
+  (125, 9, 10, <36:43>, 1, "million", 0, "null", "CD" 1.0)
+  (138, 9, 10, <36:43>, 1, "million", 0, "null")
+  (122, 10, 11, <44:51>, 1, "shares.", 0, "null")
+  (127, 10, 11, <44:51>, 1, "shares.", 0, "null", "NNS" 1.0)
+  (140, 10, 11, <44:51>, 1, "shares.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5336 SB-HD_MC_C 13.8577 0 11
+  (5335 HDN_BNP-PN_C 0.990925 0 2
+   (5334 HDN-AJ_REDREL_C 0.353506 0 2
+    (5308 ^N_SG_ILR -0.916972 0 1
+     (143 generic_proper_ne@n_-_pn-gen_le -0.168013 0 1
+      ("Price" 123
+       "token [ +CARG #1=\"Price\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (166 co_post_ttl_2@n_-_tt-post-npt_le -0.667693 1 2
+     ("co." 128
+      "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (5333 ^HD-AJ_INT-UNSL_C 12.3793 2 11
+   (5326 ^HD-AJ_INT-UNSL_C 7.3196 2 7
+    (5322 ^HD-AJ_INT-UNSL_C 5.25857 2 5
+     (5314 ^HD_OPTCMP_C 3.90945 2 3
+      (5313 V_PST_OLR 2.41889 2 3
+       (186 jump_v2@v_pp*_dir_le 1.82353 2 3
+        ("jumped" 120
+         "token [ +CARG #1=\"jumped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (5321 NP_ADV-MNP_C -0.460418 3 5
+      (5320 HDN_BNP-NUM_C 0.279118 3 5
+       (5319 HDN_NP-NUM_C 0.690171 3 5
+        (5318 XP_BRCK-PR_C -0.315935 3 5
+         (5315 HD-CMP_U_C 0 3 5
+          (294 generic_card_np_ne@aj_np_i-crd-gen_le 0 3 4
+           ("2" 106
+            "token [ +CARG #1=\"2\" +CLASS card_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+          (297 generic_fract_ne@aj_-_i-frct-gen_le 0 4 5
+           ("1/4" 107
+            "token [ +CARG #1=\"1/4\" +CLASS frct_ne +FORM #1 +FROM \"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))
+    (5325 HD-CMP_U_C 0.400395 5 7
+     (322 to@p_np_i-nnm_le -1.63041 5 6
+      ("to" 114
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (5324 HDN_BNP-NUM_C 0.272448 6 7
+      (5323 HDN_NP-NUM_C -0.246194 6 7
+       (376 generic_card_ne@aj_-_i-crd-gen_le 0 6 7
+        ("44" 102
+         "token [ +CARG #1=\"44\" +CLASS card_ne +FORM #1 +FROM \"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (5332 HD-CMP_U_C 3.50134 7 11
+    (395 on@p_np_i-reg_le 0.275426 7 8
+     ("on" 116
+      "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (5331 HDN_BNP_C 3.37245 8 11
+     (5330 NUM-N_MNP_C 1.57642 8 11
+      (5327 SP-HD_HC_C 0.835146 8 10
+       (423 generic_card_ne@aj_-_i-crd-gen_le 0 8 9
+        ("1.7" 103
+         "token [ +CARG #1=\"1.7\" +CLASS card_or_proper_ne +FORM #1 +FROM \"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (425 million@aj_-_i-crd-mln_le 0.569174 9 10
+        ("million" 118
+         "token [ +CARG #1=\"million\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (5329 ^W_PERIOD_PLR 1.14792 10 11
+       (5328 N_PL_OLR 0.601066 10 11
+        (431 share_n2@n_-_c-meas-nb_le 0.737088 10 11
+         ("shares." 122
+          "token [ +CARG \"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shares.\" +FROM #1=\"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "Price")) (N "co.")))
+ (VP
+  (VP
+   (VP (VP (V (V "jumped")))
+    (PP (NP (N (ADJ (ADJ (ADJ "2") (ADJ "1/4")))))))
+   (PP (P "to") (NP (N (ADJ "44")))))
+  (PP (P "on")
+   (NP (N (ADJ (ADJ "1.7") (ADJ "million")) (N (N (N "shares."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "Price" ]
+          [ _company_n_1<6:9>
+            LBL: h9
+            ARG0: x10 [ x IND: + ] ]
+          [ udef_q<6:9>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<6:9>
+            LBL: h8
+            ARG0: i14
+            ARG1: x6
+            ARG2: x10 ]
+          [ _jump_v_1<10:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<17:22>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<17:22>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<17:18>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "2" ]
+          [ plus<17:18>
+            LBL: h22
+            ARG0: i24
+            ARG1: i21
+            ARG2: h20
+            ARG3: h23 ]
+          [ fraction<19:22>
+            LBL: h23
+            ARG0: i25
+            ARG1: i21
+            CARG: "1/4" ]
+          [ _to_p<23:25>
+            LBL: h2
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x27 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<26:28>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ card<26:28>
+            LBL: h31
+            ARG0: x27
+            ARG1: i32
+            CARG: "44" ]
+          [ _on_p<29:31>
+            LBL: h2
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x34 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<32:51>
+            LBL: h35
+            ARG0: x34
+            RSTR: h36
+            BODY: h37 ]
+          [ card<32:35>
+            LBL: h38
+            ARG0: i40
+            ARG1: i39
+            CARG: "1.7" ]
+          [ card<36:43>
+            LBL: h41
+            ARG0: e42 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x34
+            CARG: "1000000" ]
+          [ times<36:43>
+            LBL: h43
+            ARG0: i44
+            ARG1: i39
+            ARG2: h38
+            ARG3: h41 ]
+          [ _share_n_of<44:51>
+            LBL: h43
+            ARG0: x34 ] >
+   HCONS: < h36 QEQ h43 h29 QEQ h31 h18 QEQ h22 h12 QEQ h9 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ x6:named<0:5>("Price"){x PERS 3, NUM sg, IND +}[]
+ x10:_company_n_1<6:9>{x IND +}[]
+ _2:udef_q<6:9>[BV x10]
+ i14:compound<6:9>{i}[ARG1 x6, ARG2 x10]
+ e3:_jump_v_1<10:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<17:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<17:22>[BV x16]
+ x16:card<17:18>("2"){x PERS 3, NUM sg}[]
+ i24:plus<17:18>{i}[ARG2 x16, ARG3 i25]
+ i25:fraction<19:22>("1/4"){i}[]
+ e26:_to_p<23:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x27]
+ _4:number_q<26:28>[BV x27]
+ x27:card<26:28>("44"){x PERS 3, NUM sg}[]
+ e33:_on_p<29:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x34]
+ _5:udef_q<32:51>[BV x34]
+ i40:card<32:35>("1.7"){i}[]
+ e42:card<36:43>("1000000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x34]
+ i44:times<36:43>{i}[ARG2 i40, ARG3 e42]
+ x34:_share_n_of<44:51>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<0:5>(Price)  
+  udef_q<6:9> BV _company_n_1<6:9>  
+  compound<6:9> ARG1 named<0:5>(Price)  
+  compound<6:9> ARG2 _company_n_1<6:9>  
+  _jump_v_1<10:16> ARG1 named<0:5>(Price)  
+  loc_nonsp<17:22> ARG1 _jump_v_1<10:16>  
+  loc_nonsp<17:22> ARG2 card<17:18>(2)  
+  number_q<17:22> BV card<17:18>(2)  
+  plus<17:18> ARG2 card<17:18>(2)  
+  plus<17:18> ARG3 fraction<19:22>(1/4)  
+  _to_p<23:25> ARG1 _jump_v_1<10:16>  
+  _to_p<23:25> ARG2 card<26:28>(44)  
+  number_q<26:28> BV card<26:28>(44)  
+  _on_p<29:31> ARG1 _jump_v_1<10:16>  
+  _on_p<29:31> ARG2 _share_n_of<44:51>  
+  udef_q<32:51> BV _share_n_of<44:51>  
+  card<36:43>(1000000) ARG1 _share_n_of<44:51>  
+  times<36:43> ARG2 card<32:35>(1.7)  
+  times<36:43> ARG3 card<36:43>(1000000)  
+  named<0:5>(Price) PERS 3  
+  named<0:5>(Price) NUM sg  
+  named<0:5>(Price) IND +  
+  _company_n_1<6:9> IND +  
+  _jump_v_1<10:16> SF prop  
+  _jump_v_1<10:16> TENSE past  
+  _jump_v_1<10:16> MOOD indicative  
+  _jump_v_1<10:16> PROG -  
+  _jump_v_1<10:16> PERF -  
+  loc_nonsp<17:22> SF prop  
+  loc_nonsp<17:22> TENSE untensed  
+  loc_nonsp<17:22> MOOD indicative  
+  loc_nonsp<17:22> PROG -  
+  loc_nonsp<17:22> PERF -  
+  card<17:18>(2) PERS 3  
+  card<17:18>(2) NUM sg  
+  _to_p<23:25> SF prop  
+  _to_p<23:25> TENSE untensed  
+  _to_p<23:25> MOOD indicative  
+  _to_p<23:25> PROG -  
+  _to_p<23:25> PERF -  
+  card<26:28>(44) PERS 3  
+  card<26:28>(44) NUM sg  
+  _on_p<29:31> SF prop  
+  _on_p<29:31> TENSE untensed  
+  _on_p<29:31> MOOD indicative  
+  _on_p<29:31> PROG -  
+  _on_p<29:31> PERF -  
+  card<36:43>(1000000) SF prop  
+  card<36:43>(1000000) TENSE untensed  
+  card<36:43>(1000000) MOOD indicative  
+  card<36:43>(1000000) PROG -  
+  card<36:43>(1000000) PERF -  
+  _share_n_of<44:51> PERS 3  
+  _share_n_of<44:51> NUM pl  
+  _share_n_of<44:51> IND +  
+}
+

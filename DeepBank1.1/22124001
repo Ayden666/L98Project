@@ -1,0 +1,184 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:09 h)).
+;;;
+
+[22124001] (1 of 1) {1} `No strikeout, but certainly no home run.'
+
+[22124001:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "No", 0, "null", "DT" 1.0)
+  (2, 1, 2, <3:12>, 1, "strikeout", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:13>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <14:17>, 1, "but", 0, "null", "CC" 1.0)
+  (5, 4, 5, <18:27>, 1, "certainly", 0, "null", "RB" 1.0)
+  (6, 5, 6, <28:30>, 1, "no", 0, "null", "DT" 0.9605 "RB" 0.0395)
+  (7, 6, 7, <31:35>, 1, "home", 0, "null", "NN" 0.9416 "RB" 0.0584)
+  (8, 7, 8, <36:39>, 1, "run", 0, "null", "NN" 0.6031 "VBN" 0.1917 "VB" 0.1558 "VBP" 0.0253 "VBD" 0.024)
+  (9, 8, 9, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (116, 0, 1, <0:2>, 1, "no", 0, "null")
+  (123, 0, 1, <0:2>, 1, "no", 0, "null")
+  (103, 1, 2, <3:13>, 1, "strikeout,", 0, "null")
+  (115, 1, 2, <3:13>, 1, "strikeout,", 0, "null", "NN" 1.0)
+  (119, 1, 2, <3:13>, 1, "strikeout,", 0, "null")
+  (99, 2, 3, <14:17>, 1, "but", 0, "null")
+  (117, 2, 3, <14:17>, 1, "but", 0, "null")
+  (101, 3, 4, <18:27>, 1, "certainly", 0, "null")
+  (114, 3, 4, <18:27>, 1, "certainly", 0, "null", "RB" 1.0)
+  (118, 3, 4, <18:27>, 1, "certainly", 0, "null")
+  (104, 4, 5, <28:30>, 1, "no", 0, "null")
+  (120, 4, 5, <28:30>, 1, "no", 0, "null")
+  (106, 5, 6, <31:35>, 1, "home", 0, "null")
+  (110, 5, 6, <31:35>, 1, "home", 0, "null", "NN" 0.9416)
+  (121, 5, 6, <31:35>, 1, "home", 0, "null")
+  (108, 6, 7, <36:40>, 1, "run.", 0, "null")
+  (111, 6, 7, <36:40>, 1, "run.", 0, "null", "NN" 0.6031)
+  (112, 6, 7, <36:40>, 1, "run.", 0, "null", "VBN" 0.1917)
+  (113, 6, 7, <36:40>, 1, "run.", 0, "null", "VB" 0.1558)
+  (122, 6, 7, <36:40>, 1, "run.", 0, "null")
+>
+
+(ROOT_INFFRAG
+ (1214 NP_FRG_C -1.43416 0 7
+  (1213 NP-NP_CRD-T_C -0.992224 0 7
+   (1205 SP-HD_N_C -1.96363 0 2
+    (124 no_det@d_-_no_le 0.110497 0 1
+     ("no" 116
+      "token [ +CARG \"No\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"no\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1204 ^W_COMMA-NF_PLR -2.07412 1 2
+     (1203 N_MS-CNT_ILR -1.38537 1 2
+      (137 generic_mass_count_noun@n_-_mc-unk_le 0 1 2
+       ("strikeout," 115
+        "token [ +CARG \"strikeout\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"strikeout,\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED \"_strikeout/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (1212 ^MRK-NH_NOM_C 1.26663 2 7
+    (1206 ^HD-AJ_CMOD-S_C -0.418599 2 4
+     (150 but_np_conj@c_xp_but-np_le -0.418599 2 3
+      ("but" 99
+       "token [ +CARG #1=\"but\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (162 certainly_adv4@av_-_s-vp-po_le 0 3 4
+      ("certainly" 101
+       "token [ +CARG #1=\"certainly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1211 SP-HD_N_C 1.68522 4 7
+     (165 no_det@d_-_no_le -0.081451 4 5
+      ("no" 104
+       "token [ +CARG #1=\"no\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96048520000000004\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1210 ^N-HDN_CPD_C 1.97499 5 7
+      (178 home_n1@n_-_c-ns_le -0.031891 5 6
+       ("home" 106
+        "token [ +CARG #1=\"home\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94163980000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1209 ^HDN_OPTCMP_C 1.26395 6 7
+       (1208 W_PERIOD_PLR 1.25002 6 7
+        (1207 N_SG_ILR 0.704929 6 7
+         (277 run_n1@n_pp_c-of_le 0 6 7
+          ("run." 108
+           "token [ +CARG \"run\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"run.\" +FROM #1=\"36\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.60309400000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(XP
+ (NP (NP (DET "no") (N (N (N "strikeout,"))))
+  (NP-CJ (NP-CJ (CONJ "but") (ADV "certainly"))
+   (NP (DET "no") (N (N "home") (N (N (N (N "run.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:40>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 ]
+          [ udef_q<0:40>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _no_q<0:2>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: SG ]
+            RSTR: h11
+            BODY: h9 ]
+          [ _strikeout/nn_u_unknown<3:13>
+            LBL: h12
+            ARG0: x10 ]
+          [ _but_c<14:17>
+            LBL: h13
+            ARG0: i15
+            L-INDEX: x10
+            R-INDEX: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _certain_a_1<18:27>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h18 ]
+          [ _no_q<28:30>
+            LBL: h19
+            ARG0: x14
+            RSTR: h21
+            BODY: h20 ]
+          [ compound<31:40>
+            LBL: h22
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x14
+            ARG2: x23 [ x IND: + ] ]
+          [ udef_q<31:35>
+            LBL: h25
+            ARG0: x23
+            RSTR: h26
+            BODY: h27 ]
+          [ _home_n_of-n<31:35>
+            LBL: h28
+            ARG0: x23 ]
+          [ _run_n_of<36:40>
+            LBL: h22
+            ARG0: x14
+            ARG1: i29 ] >
+   HCONS: < h26 QEQ h28 h21 QEQ h22 h18 QEQ h13 h11 QEQ h12 h6 QEQ h16 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ _1:udef_q<0:40>[]
+ _2:_no_q<0:2>[BV x10]
+ x10:_strikeout/nn_u_unknown<3:13>{x PERS 3, NUM sg}[]
+ i15:_but_c<14:17>{i}[L-INDEX x10, R-INDEX x14]
+ e17:_certain_a_1<18:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 i15]
+ _3:_no_q<28:30>[BV x14]
+ e24:compound<31:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14, ARG2 x23]
+ _4:udef_q<31:35>[BV x23]
+ x23:_home_n_of-n<31:35>{x IND +}[]
+ x14:_run_n_of<36:40>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _no_q<0:2> BV _strikeout/nn_u_unknown<3:13>  
+  _but_c<14:17> L-INDEX _strikeout/nn_u_unknown<3:13>  
+  _but_c<14:17> R-INDEX _run_n_of<36:40>  
+  _certain_a_1<18:27> ARG1 _but_c<14:17>  
+  _no_q<28:30> BV _run_n_of<36:40>  
+  compound<31:40> ARG1 _run_n_of<36:40>  
+  compound<31:40> ARG2 _home_n_of-n<31:35>  
+  udef_q<31:35> BV _home_n_of-n<31:35>  
+  unknown<0:40> SF prop  
+  unknown<0:40> TENSE untensed  
+  unknown<0:40> MOOD indicative  
+  unknown<0:40> PROG -  
+  unknown<0:40> PERF -  
+  _strikeout/nn_u_unknown<3:13> PERS 3  
+  _strikeout/nn_u_unknown<3:13> NUM sg  
+  _certain_a_1<18:27> SF prop  
+  _certain_a_1<18:27> TENSE untensed  
+  _certain_a_1<18:27> MOOD indicative  
+  _certain_a_1<18:27> PROG -  
+  _certain_a_1<18:27> PERF -  
+  compound<31:40> SF prop  
+  compound<31:40> TENSE untensed  
+  compound<31:40> MOOD indicative  
+  compound<31:40> PROG -  
+  compound<31:40> PERF -  
+  _home_n_of-n<31:35> IND +  
+  _run_n_of<36:40> PERS 3  
+  _run_n_of<36:40> NUM sg  
+  _run_n_of<36:40> IND +  
+}
+

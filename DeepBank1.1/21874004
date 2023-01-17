@@ -1,0 +1,419 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:40 h)).
+;;;
+
+[21874004] (1 of 1) {1} `But when the Dow Jones Industrial Average rose instead, bonds drifted lower.'
+
+[21874004:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:8>, 1, "when", 0, "null", "WRB" 1.0)
+  (3, 2, 3, <9:12>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <13:16>, 1, "Dow", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <17:22>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <23:33>, 1, "Industrial", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <34:41>, 1, "Average", 0, "null", "NNP" 0.9877 "NN" 0.0123)
+  (8, 7, 8, <42:46>, 1, "rose", 0, "null", "VBD" 1.0)
+  (9, 8, 9, <47:54>, 1, "instead", 0, "null", "RB" 1.0)
+  (10, 9, 10, <54:55>, 1, ",", 0, "null", "," 1.0)
+  (11, 10, 11, <56:61>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (12, 11, 12, <62:69>, 1, "drifted", 0, "null", "VBD" 1.0)
+  (13, 12, 13, <70:75>, 1, "lower", 0, "null", "JJR" 0.8565 "RBR" 0.1435)
+  (14, 13, 14, <75:76>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (170, 0, 1, <0:3>, 1, "but", 0, "null")
+  (187, 0, 1, <0:3>, 1, "but", 0, "null")
+  (149, 1, 2, <4:8>, 1, "when", 0, "null")
+  (179, 1, 2, <4:8>, 1, "when", 0, "null")
+  (151, 2, 3, <9:12>, 1, "the", 0, "null")
+  (180, 2, 3, <9:12>, 1, "the", 0, "null")
+  (130, 3, 4, <13:16>, 1, "Dow", 0, "null")
+  (160, 3, 4, <13:16>, 1, "Dow", 0, "null", "NNP" 1.0)
+  (169, 3, 4, <13:16>, 1, "dow", 0, "null")
+  (175, 3, 4, <13:16>, 1, "dow", 0, "null")
+  (127, 4, 5, <17:22>, 1, "Jones", 0, "null")
+  (158, 4, 5, <17:22>, 1, "Jones", 0, "null", "NNP" 1.0)
+  (167, 4, 5, <17:22>, 1, "jones", 0, "null")
+  (172, 4, 5, <17:22>, 1, "jones", 0, "null")
+  (128, 5, 6, <23:33>, 1, "Industrial", 0, "null")
+  (159, 5, 6, <23:33>, 1, "Industrial", 0, "null", "NNP" 1.0)
+  (168, 5, 6, <23:33>, 1, "industrial", 0, "null")
+  (173, 5, 6, <23:33>, 1, "industrial", 0, "null")
+  (129, 6, 7, <34:41>, 1, "Average", 0, "null")
+  (161, 6, 7, <34:41>, 1, "Average", 0, "null", "NNP" 0.9877)
+  (171, 6, 7, <34:41>, 1, "average", 0, "null")
+  (174, 6, 7, <34:41>, 1, "average", 0, "null")
+  (143, 7, 8, <42:46>, 1, "rose", 0, "null")
+  (163, 7, 8, <42:46>, 1, "rose", 0, "null", "VBD" 1.0)
+  (176, 7, 8, <42:46>, 1, "rose", 0, "null")
+  (153, 8, 9, <47:55>, 1, "instead,", 0, "null")
+  (166, 8, 9, <47:55>, 1, "instead,", 0, "null", "RB" 1.0)
+  (181, 8, 9, <47:55>, 1, "instead,", 0, "null")
+  (145, 9, 10, <56:61>, 1, "bonds", 0, "null")
+  (164, 9, 10, <56:61>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (177, 9, 10, <56:61>, 1, "bonds", 0, "null")
+  (147, 10, 11, <62:69>, 1, "drifted", 0, "null")
+  (165, 10, 11, <62:69>, 1, "drifted", 0, "null", "VBD" 1.0)
+  (178, 10, 11, <62:69>, 1, "drifted", 0, "null")
+  (156, 11, 12, <70:76>, 1, "lower.", 0, "null")
+  (162, 11, 12, <70:76>, 1, "lower.", 0, "null", "JJR" 0.8565)
+  (182, 11, 12, <70:76>, 1, "lower.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3700 CL_CNJ-FRG_C 17.1305 0 12
+  (3699 MRK-NH_CL_C 16.2606 0 12
+   (190 but_conj@c_xp_but_le 0.395169 0 1
+    ("but" 170
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (3698 FLR-HD_NWH_C 13.3779 1 12
+    (3694 NP_ADV_C 11.334 1 9
+     (3693 HD-CL_FR-REL_C 10.8234 1 9
+      (3689 ^HDN_BNP-QNT_C -0.706724 1 2
+       (207 when_freerel_np@n_-_pr-fr-wh_le -0.206456 1 2
+        ("when" 149
+         "token [ +CARG #1=\"when\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WRB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (3692 SB-HD_NMC_C 11.1928 2 9
+       (3664 SP-HD_N_C 5.10499 2 7
+        (225 the_1@d_-_the_le 1.00477 2 3
+         ("the" 151
+          "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (3663 ^XP_BRCK-PR_C 4.14459 3 7
+         (3662 NP-HDN_NME-CPD_C 3.56946 3 7
+          (3660 HDN_BNP-PN_C 3.68675 3 6
+           (3659 XP_BRCK-PR_C 3.30131 3 6
+            (3658 NP-HDN_NME-CPD_C 3.40923 3 6
+             (3656 HDN_BNP-PN_C 2.81297 3 5
+              (3655 XP_BRCK-PR_C 2.42753 3 5
+               (3654 NP-HDN_NME-CPD_C 2.53545 3 5
+                (3652 HDN_BNP-PN_C 1.36259 3 4
+                 (3651 N_SG_ILR -0.166294 3 4
+                  (252 dow_n1@n_-_pn_le 0 3 4
+                   ("dow" 169
+                    "token [ +CARG \"Dow\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"dow\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] ] ] +RB bracket_null +UW - ] ]"))))
+                (3653 ^N_SG_ILR 0.157581 4 5
+                 (265 jones_n1@n_-_pn_le -0.325968 4 5
+                  ("jones" 167
+                   "token [ +CARG \"Jones\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"jones\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +UW - ] ]"))))))
+             (3657 ^N_SG_ILR -0.41902 5 6
+              (268 generic_proper_ne@n_-_pn-gen_le 0 5 6
+               ("Industrial" 128
+                "token [ +CARG #1=\"Industrial\" +CLASS proper_ne +FORM #1 +FROM \"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +UW + ] ]"))))))
+          (3661 ^N_SG_ILR -0.969074 6 7
+           (273 generic_proper_ne@n_-_pn-gen_le -0.359329 6 7
+            ("Average" 129
+             "token [ +CARG #1=\"Average\" +CLASS proper_ne +FORM #1 +FROM \"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98769079999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST npnm [ -CTYPE- \"NP-HDN\" ] REST bracket_null ] +UW + ] ]"))))))
+       (3691 ^HD-AJ_INT-UNSL_C 5.18351 7 9
+        (3690 ^HD_XAJ-INT-VP_C 5.09225 7 8
+         (3666 HD_OPTCMP_C 4.07977 7 8
+          (3665 V_PST_OLR 3.53124 7 8
+           (288 rise_v2@v_pp_unacc_le 1.80509 7 8
+            ("rose" 143
+             "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+        (3667 W_COMMA_PLR -0.102283 8 9
+         (296 instead_adv1@pp_-_i_le 0 8 9
+          ("instead," 153
+           "token [ +CARG \"instead\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"instead,\" +FROM #1=\"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+    (3697 ^SB-HD_NMC_C 1.5734 9 12
+     (3672 HDN_BNP_C 0.440779 9 10
+      (3671 N_PL_OLR 1.45896 9 10
+       (309 bond_n2@n_-_c_le 0.960489 9 10
+        ("bonds" 145
+         "token [ +CARG #1=\"bonds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"56\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"11\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"61\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (3696 ^HD-AJ_SCP_C 1.39938 10 12
+      (3695 ^HD_XAJ-INT-VP_C 1.78373 10 11
+       (3674 HD_OPTCMP_C 1.48631 10 11
+        (3673 V_PST_OLR 0.804632 10 11
+         (328 drift_v1@v_pp*_dir_le 0 10 11
+          ("drifted" 147
+           "token [ +CARG #1=\"drifted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"62\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"12\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"69\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+      (3677 VP_SBRD-PRD-AJ_C -0.269698 11 12
+       (3676 HD_OPTCMP_C 0.377739 11 12
+        (3675 W_PERIOD_PLR 0.33248 11 12
+         (422 lower_a1@aj_pp_i-cmp_le 0 11 12
+          ("lower." 156
+           "token [ +CARG \"lower\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"lower.\" +FROM #1=\"70\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"13\" REST *cons* [ FIRST \"14\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85648930000000001\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"76\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (S (CONJ "but")
+  (S
+   (PP
+    (NP (NP/PP (N/PP "when"))
+     (S/PP
+      (NP (DET "the")
+       (N
+        (N
+         (NP
+          (N
+           (N (NP (N (N (NP (N (N "dow"))) (N (N "jones")))))
+            (N (N "Industrial")))))
+         (N (N "Average")))))
+      (VP/PP (VP/PP (VP (V (V "rose")))) (PP (PP "instead,"))))))
+   (S/PP (NP (N (N "bonds")))
+    (VP/PP (VP/PP (VP (V (V "drifted"))))
+     (PP (AP (ADJ (ADJ "lower.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ focus_d<4:76>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e4
+            ARG2: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ loc_nonsp<4:55>
+            LBL: h11
+            ARG0: e9
+            ARG1: e4
+            ARG2: x12 [ x PERS: 3 NUM: SG ] ]
+          [ free_relative_q<4:8>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ temp<4:8>
+            LBL: h16
+            ARG0: x12 ]
+          [ temp_loc_x<4:8>
+            LBL: h16
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e17 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x12 ]
+          [ _the_q<9:12>
+            LBL: h19
+            ARG0: x21 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h22
+            BODY: h20 ]
+          [ compound<13:41>
+            LBL: h23
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: x24 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:33>
+            LBL: h26
+            ARG0: x24
+            RSTR: h27
+            BODY: h28 ]
+          [ compound<13:33>
+            LBL: h29
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x24
+            ARG2: x30 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:22>
+            LBL: h32
+            ARG0: x30
+            RSTR: h33
+            BODY: h34 ]
+          [ compound<13:22>
+            LBL: h35
+            ARG0: e37 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x30
+            ARG2: x36 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<13:16>
+            LBL: h38
+            ARG0: x36
+            RSTR: h39
+            BODY: h40 ]
+          [ named<13:16>
+            LBL: h41
+            ARG0: x36
+            CARG: "Dow" ]
+          [ named<17:22>
+            LBL: h35
+            ARG0: x30
+            CARG: "Jones" ]
+          [ named<23:33>
+            LBL: h29
+            ARG0: x24
+            CARG: "Industrial" ]
+          [ named<34:41>
+            LBL: h23
+            ARG0: x21
+            CARG: "Average" ]
+          [ _rise_v_1<42:46>
+            LBL: h16
+            ARG0: e17
+            ARG1: x21 ]
+          [ _instead_p<47:55>
+            LBL: h16
+            ARG0: e42 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e17 ]
+          [ udef_q<56:61>
+            LBL: h43
+            ARG0: x45 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h44
+            BODY: h46 ]
+          [ _bond_n_1<56:61>
+            LBL: h47
+            ARG0: x45 ]
+          [ _drift_v_1<62:69>
+            LBL: h11
+            ARG0: e4
+            ARG1: x45 ]
+          [ subord<70:76>
+            LBL: h8
+            ARG0: e50 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h49
+            ARG2: h48 ]
+          [ _low_a_1<70:76>
+            LBL: h51
+            ARG0: e53 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i52 ]
+          [ comp<70:76>
+            LBL: h51
+            ARG0: e55 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e53
+            ARG2: u54 ] >
+   HCONS: < h48 QEQ h51 h49 QEQ h11 h44 QEQ h47 h39 QEQ h41 h33 QEQ h35 h27 QEQ h29 h22 QEQ h23 h14 QEQ h16 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e50, R-INDEX e4]
+ e10:focus_d<4:76>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4, ARG2 e9]
+ e9:loc_nonsp<4:55>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4, ARG2 x12]
+ _1:free_relative_q<4:8>[BV x12]
+ x12:temp<4:8>{x PERS 3, NUM sg}[]
+ e18:temp_loc_x<4:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e17, ARG2 x12]
+ _2:_the_q<9:12>[BV x21]
+ e25:compound<13:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21, ARG2 x24]
+ _3:proper_q<13:33>[BV x24]
+ e31:compound<13:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x24, ARG2 x30]
+ _4:proper_q<13:22>[BV x30]
+ e37:compound<13:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x30, ARG2 x36]
+ _5:proper_q<13:16>[BV x36]
+ x36:named<13:16>("Dow"){x PERS 3, NUM sg, IND +}[]
+ x30:named<17:22>("Jones"){x PERS 3, NUM sg, IND +}[]
+ x24:named<23:33>("Industrial"){x PERS 3, NUM sg, IND +}[]
+ x21:named<34:41>("Average"){x PERS 3, NUM sg, IND +}[]
+ e17:_rise_v_1-fn.Change_position_on_a_scale<42:46>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x21]
+ e42:_instead_p<47:55>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e17]
+ _6:udef_q<56:61>[BV x45]
+ x45:_bond_n_1<56:61>{x PERS 3, NUM pl, IND +}[]
+ e4:_drift_v_1<62:69>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x45]
+ e50:subord<70:76>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4, ARG2 e53]
+ e53:_low_a_1<70:76>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e55:comp<70:76>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e53]
+}
+
+{
+  _but_c<0:3> R-HNDL subord<70:76>  
+  _but_c<0:3> R-INDEX _drift_v_1<62:69>  
+  focus_d<4:76> ARG1 _drift_v_1<62:69>  
+  focus_d<4:76> ARG2 loc_nonsp<4:55>  
+  loc_nonsp<4:55> ARG1 _drift_v_1<62:69>  
+  loc_nonsp<4:55> ARG2 temp<4:8>  
+  free_relative_q<4:8> BV temp<4:8>  
+  temp_loc_x<4:8> ARG1 _rise_v_1<42:46>  
+  temp_loc_x<4:8> ARG2 temp<4:8>  
+  _the_q<9:12> BV named<34:41>(Average)  
+  compound<13:41> ARG1 named<34:41>(Average)  
+  compound<13:41> ARG2 named<23:33>(Industrial)  
+  proper_q<13:33> BV named<23:33>(Industrial)  
+  compound<13:33> ARG1 named<23:33>(Industrial)  
+  compound<13:33> ARG2 named<17:22>(Jones)  
+  proper_q<13:22> BV named<17:22>(Jones)  
+  compound<13:22> ARG1 named<17:22>(Jones)  
+  compound<13:22> ARG2 named<13:16>(Dow)  
+  proper_q<13:16> BV named<13:16>(Dow)  
+  _rise_v_1<42:46> ARG1 named<34:41>(Average)  
+  _instead_p<47:55> ARG1 _rise_v_1<42:46>  
+  udef_q<56:61> BV _bond_n_1<56:61>  
+  _drift_v_1<62:69> ARG1 _bond_n_1<56:61>  
+  subord<70:76> ARG1 _drift_v_1<62:69>  
+  subord<70:76> ARG2 _low_a_1<70:76>  
+  comp<70:76> ARG1 _low_a_1<70:76>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  focus_d<4:76> SF prop  
+  focus_d<4:76> TENSE untensed  
+  focus_d<4:76> MOOD indicative  
+  focus_d<4:76> PROG -  
+  focus_d<4:76> PERF -  
+  loc_nonsp<4:55> SF prop  
+  loc_nonsp<4:55> TENSE untensed  
+  loc_nonsp<4:55> MOOD indicative  
+  loc_nonsp<4:55> PROG -  
+  loc_nonsp<4:55> PERF -  
+  temp<4:8> PERS 3  
+  temp<4:8> NUM sg  
+  temp_loc_x<4:8> SF prop  
+  temp_loc_x<4:8> TENSE untensed  
+  temp_loc_x<4:8> MOOD indicative  
+  temp_loc_x<4:8> PROG -  
+  temp_loc_x<4:8> PERF -  
+  compound<13:41> SF prop  
+  compound<13:41> TENSE untensed  
+  compound<13:41> MOOD indicative  
+  compound<13:41> PROG -  
+  compound<13:41> PERF -  
+  compound<13:33> SF prop  
+  compound<13:33> TENSE untensed  
+  compound<13:33> MOOD indicative  
+  compound<13:33> PROG -  
+  compound<13:33> PERF -  
+  compound<13:22> SF prop  
+  compound<13:22> TENSE untensed  
+  compound<13:22> MOOD indicative  
+  compound<13:22> PROG -  
+  compound<13:22> PERF -  
+  named<13:16>(Dow) PERS 3  
+  named<13:16>(Dow) NUM sg  
+  named<13:16>(Dow) IND +  
+  named<17:22>(Jones) PERS 3  
+  named<17:22>(Jones) NUM sg  
+  named<17:22>(Jones) IND +  
+  named<23:33>(Industrial) PERS 3  
+  named<23:33>(Industrial) NUM sg  
+  named<23:33>(Industrial) IND +  
+  named<34:41>(Average) PERS 3  
+  named<34:41>(Average) NUM sg  
+  named<34:41>(Average) IND +  
+  _rise_v_1<42:46> SF prop  
+  _rise_v_1<42:46> TENSE past  
+  _rise_v_1<42:46> MOOD indicative  
+  _rise_v_1<42:46> PROG -  
+  _rise_v_1<42:46> PERF -  
+  _instead_p<47:55> SF prop  
+  _instead_p<47:55> TENSE untensed  
+  _instead_p<47:55> MOOD indicative  
+  _instead_p<47:55> PROG -  
+  _instead_p<47:55> PERF -  
+  _bond_n_1<56:61> PERS 3  
+  _bond_n_1<56:61> NUM pl  
+  _bond_n_1<56:61> IND +  
+  _drift_v_1<62:69> SF prop  
+  _drift_v_1<62:69> TENSE past  
+  _drift_v_1<62:69> MOOD indicative  
+  _drift_v_1<62:69> PROG -  
+  _drift_v_1<62:69> PERF -  
+  subord<70:76> SF prop  
+  subord<70:76> TENSE untensed  
+  subord<70:76> MOOD indicative  
+  subord<70:76> PROG -  
+  subord<70:76> PERF -  
+  _low_a_1<70:76> SF prop  
+  _low_a_1<70:76> TENSE untensed  
+  _low_a_1<70:76> MOOD indicative  
+  _low_a_1<70:76> PROG -  
+  _low_a_1<70:76> PERF -  
+  comp<70:76> SF prop  
+  comp<70:76> TENSE untensed  
+  comp<70:76> MOOD indicative  
+  comp<70:76> PROG -  
+  comp<70:76> PERF -  
+}
+

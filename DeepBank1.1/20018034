@@ -1,0 +1,257 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:06 h)).
+;;;
+
+[20018034] (1 of 1) {1} `At Cray Computer, he will be paid $240,000.'
+
+[20018034:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "At", 0, "null", "IN" 1.0)
+  (2, 1, 2, <3:7>, 1, "Cray", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:16>, 1, "Computer", 0, "null", "NNP" 0.9891 "NN" 0.0109)
+  (4, 3, 4, <16:17>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <18:20>, 1, "he", 0, "null", "PRP" 1.0)
+  (6, 5, 6, <21:25>, 1, "will", 0, "null", "MD" 1.0)
+  (7, 6, 7, <26:28>, 1, "be", 0, "null", "VB" 1.0)
+  (8, 7, 8, <29:33>, 1, "paid", 0, "null", "VBN" 0.984 "VBD" 0.016)
+  (9, 8, 9, <34:35>, 1, "$", 0, "null", "$" 1.0)
+  (10, 9, 10, <35:42>, 1, "240,000", 0, "null", "CD" 1.0)
+  (11, 10, 11, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (130, 0, 1, <0:2>, 1, "at", 0, "null")
+  (142, 0, 1, <0:2>, 1, "at", 0, "null")
+  (100, 1, 2, <3:7>, 1, "Cray", 0, "null")
+  (127, 1, 2, <3:7>, 1, "Cray", 0, "null", "NNP" 1.0)
+  (129, 1, 2, <3:7>, 1, "cray", 0, "null")
+  (132, 1, 2, <3:7>, 1, "cray", 0, "null")
+  (104, 2, 3, <8:17>, 1, "Computer,", 0, "null")
+  (126, 2, 3, <8:17>, 1, "Computer,", 0, "null", "NNP" 0.9891)
+  (131, 2, 3, <8:17>, 1, "computer,", 0, "null")
+  (134, 2, 3, <8:17>, 1, "computer,", 0, "null")
+  (114, 3, 4, <18:20>, 1, "he", 0, "null")
+  (135, 3, 4, <18:20>, 1, "he", 0, "null")
+  (116, 4, 5, <21:25>, 1, "will", 0, "null")
+  (136, 4, 5, <21:25>, 1, "will", 0, "null")
+  (118, 5, 6, <26:28>, 1, "be", 0, "null")
+  (128, 5, 6, <26:28>, 1, "be", 0, "null", "VB" 1.0)
+  (137, 5, 6, <26:28>, 1, "be", 0, "null")
+  (121, 6, 7, <29:33>, 1, "paid", 0, "null")
+  (125, 6, 7, <29:33>, 1, "paid", 0, "null", "VBN" 0.984)
+  (139, 6, 7, <29:33>, 1, "paid", 0, "null")
+  (120, 7, 8, <34:35>, 1, "$", 0, "null")
+  (138, 7, 8, <34:35>, 1, "$", 0, "null")
+  (102, 8, 9, <35:43>, 1, "240,000.", 0, "null")
+  (133, 8, 9, <35:43>, 1, "240,000.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2012 FLR-HD_NWH_C 18.1585 0 9
+  (1999 HD-CMP_U_C 1.95691 0 3
+   (143 at@p_np_i-reg_le -1.5452 0 1
+    ("at" 130
+     "token [ +CARG \"At\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"at\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1998 HDN_BNP-PN_C 3.34939 1 3
+    (1997 NP-HDN_NME-CPD_C 3.17682 1 3
+     (1994 HDN_BNP-PN_C 0.365523 1 2
+      (1993 N_SG_ILR -0.386912 1 2
+       (146 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Cray" 100
+         "token [ +CARG #1=\"Cray\" +CLASS proper_ne +FORM #1 +FROM \"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (1996 ^W_COMMA_PLR 1.57253 2 3
+      (1995 N_SG_ILR 0.501186 2 3
+       (148 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("Computer," 104
+         "token [ +CARG \"Computer\" +CLASS proper_ne +FORM \"Computer,\" +FROM \"8\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98912520000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+  (2011 ^SB-HD_NMC_C 14.7632 3 9
+   (2000 HDN_BNP-QNT_C 0.566956 3 4
+    (164 he@n_-_pr-he_le 0.151439 3 4
+     ("he" 114
+      "token [ +CARG #1=\"he\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2010 ^HD-CMP_U_C 12.9174 4 9
+    (183 will_aux_pos@v_vp_will-p_le 2.32511 4 5
+     ("will" 116
+      "token [ +CARG #1=\"will\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2009 HD-CMP_U_C 9.9081 5 9
+     (193 be_c_be@v_prd_be_le -0.0352542 5 6
+      ("be" 118
+       "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2008 HD_XAJ-INT-VP_C 6.95295 6 9
+      (2007 HD_OPTCMP_C 7.1067 6 9
+       (2006 HD-CMP_U_C 5.81461 6 9
+        (2001 ^V_PAS-DAT_ODLR 0.798914 6 7
+         (276 pay_v1@v_np*-np_le 0.511127 6 7
+          ("paid" 121
+           "token [ +CARG #1=\"paid\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98401119999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (2005 HDN_BNP_C 4.74625 7 9
+         (2004 N-NUM_MNP_C 3.97694 7 9
+          (2002 ^N_PL-CUR_ILR 1.21255 7 8
+           (320 dollarsign_n1@n_-_c-cur_le -0.27486 7 8
+            ("$" 120
+             "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+          (2003 W_PERIOD_PLR 1.05902 8 9
+           (323 generic_card_ne@aj_-_i-crd-gen_le 0 8 9
+            ("240,000." 102
+             "token [ +CARG \"240,000\" +CLASS card_ne +FORM \"240,000.\" +FROM \"35\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))))
+
+(S (PP (P "at") (NP (N (NP (N (N "Cray"))) (N (N (N "Computer,"))))))
+ (S/PP (NP (NP "he"))
+  (VP/PP (V/PP "will")
+   (VP/PP (V/PP "be")
+    (VP/PP
+     (VP
+      (V (V (V "paid"))
+       (NP (N (N (N "$")) (ADJ (ADJ "240,000.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:43>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _at_p<0:2>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:17>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<3:17>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:7>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ named<3:7>
+            LBL: h16
+            ARG0: x11
+            CARG: "Cray" ]
+          [ named<8:17>
+            LBL: h10
+            ARG0: x6
+            CARG: "Computer" ]
+          [ pron<18:20>
+            LBL: h17
+            ARG0: x18 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<18:20>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ _pay_v_for<29:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: i22
+            ARG2: x23 [ x PERS: 3 NUM: PL IND: + ]
+            ARG3: x18 ]
+          [ parg_d<29:33>
+            LBL: h2
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 ]
+          [ udef_q<34:43>
+            LBL: h25
+            ARG0: x23
+            RSTR: h26
+            BODY: h27 ]
+          [ _dollar_n_1<34:35>
+            LBL: h28
+            ARG0: x23 ]
+          [ card<35:43>
+            LBL: h28
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            CARG: "240,000" ] >
+   HCONS: < h26 QEQ h28 h20 QEQ h17 h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_at_p<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:proper_q<3:17>[BV x6]
+ e12:compound<3:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x11]
+ _2:proper_q<3:7>[BV x11]
+ x11:named<3:7>("Cray"){x PERS 3, NUM sg, IND +}[]
+ x6:named<8:17>("Computer"){x PERS 3, NUM sg, IND +}[]
+ x18:pron<18:20>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _3:pronoun_q<18:20>[BV x18]
+ e3:_pay_v_for<29:33>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG2 x23, ARG3 x18]
+ e24:parg_d<29:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ _4:udef_q<34:43>[BV x23]
+ x23:_dollar_n_1<34:35>{x PERS 3, NUM pl, IND +}[]
+ e29:card<35:43>("240,000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+}
+
+{
+  focus_d<0:43> ARG1 _pay_v_for<29:33>  
+  focus_d<0:43> ARG2 _at_p<0:2>  
+  _at_p<0:2> ARG1 _pay_v_for<29:33>  
+  _at_p<0:2> ARG2 named<8:17>(Computer)  
+  proper_q<3:17> BV named<8:17>(Computer)  
+  compound<3:17> ARG1 named<8:17>(Computer)  
+  compound<3:17> ARG2 named<3:7>(Cray)  
+  proper_q<3:7> BV named<3:7>(Cray)  
+  pronoun_q<18:20> BV pron<18:20>  
+  _pay_v_for<29:33> ARG2 _dollar_n_1<34:35>  
+  _pay_v_for<29:33> ARG3 pron<18:20>  
+  parg_d<29:33> ARG1 _pay_v_for<29:33>  
+  parg_d<29:33> ARG2 pron<18:20>  
+  udef_q<34:43> BV _dollar_n_1<34:35>  
+  card<35:43>(240,000) ARG1 _dollar_n_1<34:35>  
+  focus_d<0:43> SF prop  
+  focus_d<0:43> TENSE untensed  
+  focus_d<0:43> MOOD indicative  
+  focus_d<0:43> PROG -  
+  focus_d<0:43> PERF -  
+  _at_p<0:2> SF prop  
+  _at_p<0:2> TENSE untensed  
+  _at_p<0:2> MOOD indicative  
+  _at_p<0:2> PROG -  
+  _at_p<0:2> PERF -  
+  compound<3:17> SF prop  
+  compound<3:17> TENSE untensed  
+  compound<3:17> MOOD indicative  
+  compound<3:17> PROG -  
+  compound<3:17> PERF -  
+  named<3:7>(Cray) PERS 3  
+  named<3:7>(Cray) NUM sg  
+  named<3:7>(Cray) IND +  
+  named<8:17>(Computer) PERS 3  
+  named<8:17>(Computer) NUM sg  
+  named<8:17>(Computer) IND +  
+  pron<18:20> PERS 3  
+  pron<18:20> NUM sg  
+  pron<18:20> GEND m  
+  pron<18:20> PT std  
+  _pay_v_for<29:33> SF prop  
+  _pay_v_for<29:33> TENSE fut  
+  _pay_v_for<29:33> MOOD indicative  
+  _pay_v_for<29:33> PROG -  
+  _pay_v_for<29:33> PERF -  
+  parg_d<29:33> SF prop  
+  parg_d<29:33> TENSE untensed  
+  parg_d<29:33> MOOD indicative  
+  parg_d<29:33> PROG -  
+  parg_d<29:33> PERF -  
+  _dollar_n_1<34:35> PERS 3  
+  _dollar_n_1<34:35> NUM pl  
+  _dollar_n_1<34:35> IND +  
+  card<35:43>(240,000) SF prop  
+  card<35:43>(240,000) TENSE untensed  
+  card<35:43>(240,000) MOOD indicative  
+  card<35:43>(240,000) PROG -  
+  card<35:43>(240,000) PERF -  
+}
+

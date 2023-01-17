@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:14 h)).
+;;;
+
+[21625033] (1 of 1) {1} `Both deny wrongdoing.'
+
+[21625033:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Both", 0, "null", "DT" 0.8192 "CC" 0.1714 "PDT" 0.0094)
+  (2, 1, 2, <5:9>, 1, "deny", 0, "null", "VB" 0.6658 "VBP" 0.3342)
+  (3, 2, 3, <10:20>, 1, "wrongdoing", 0, "null", "NN" 1.0)
+  (4, 3, 4, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:4>, 1, "both", 0, "null")
+  (56, 0, 1, <0:4>, 1, "both", 0, "null")
+  (47, 1, 2, <5:9>, 1, "deny", 0, "null")
+  (50, 1, 2, <5:9>, 1, "deny", 0, "null", "VB" 0.6658)
+  (52, 1, 2, <5:9>, 1, "deny", 0, "null", "VBP" 0.3342)
+  (55, 1, 2, <5:9>, 1, "deny", 0, "null")
+  (45, 2, 3, <10:21>, 1, "wrongdoing.", 0, "null")
+  (51, 2, 3, <10:21>, 1, "wrongdoing.", 0, "null", "NN" 1.0)
+  (54, 2, 3, <10:21>, 1, "wrongdoing.", 0, "null")
+>
+
+(ROOT_STRICT
+ (266 SB-HD_MC_C 0.264155 0 3
+  (260 HDN_BNP-QNT_C -0.175635 0 1
+   (259 DET_PRT-NOCMP_DLR -0.45042 0 1
+    (57 both@d_-_prt-pl-both_le -0.356122 0 1
+     ("both" 53
+      "token [ +CARG \"Both\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"both\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81924839999999999\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (265 ^HD-CMP_U_C -0.82956 1 3
+   (261 ^V_N3S-BSE_ILR -0.329965 1 2
+    (65 deny_v1@v_np_le 0 1 2
+     ("deny" 47
+      "token [ +CARG #1=\"deny\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66580150000000005\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (264 HDN_BNP_C -1.55741 2 3
+    (263 W_PERIOD_PLR -0.296163 2 3
+     (262 N_MS-CNT_ILR -0.497049 2 3
+      (77 generic_mass_count_noun@n_-_mc-unk_le 0 2 3
+       ("wrongdoing." 51
+        "token [ +CARG \"wrongdoing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"wrongdoing.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED \"_wrongdoing/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (NP (N (DET "both")))
+ (VP (V (V "deny")) (NP (N (N (N "wrongdoing."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _both_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ card<0:4>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            CARG: "2" ]
+          [ generic_entity<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ _deny_v_to<5:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<10:21>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _wrongdoing/nn_u_unknown<10:21>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_both_q<0:4>[BV x6]
+ e9:card<0:4>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ e3:_deny_v_to<5:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<10:21>[BV x10]
+ x10:_wrongdoing/nn_u_unknown<10:21>{x PERS 3, NUM sg}[]
+}
+
+{
+  _both_q<0:4> BV generic_entity<0:4>  
+  card<0:4>(2) ARG1 generic_entity<0:4>  
+  _deny_v_to<5:9> ARG1 generic_entity<0:4>  
+  _deny_v_to<5:9> ARG2 _wrongdoing/nn_u_unknown<10:21>  
+  udef_q<10:21> BV _wrongdoing/nn_u_unknown<10:21>  
+  card<0:4>(2) SF prop  
+  card<0:4>(2) TENSE untensed  
+  card<0:4>(2) MOOD indicative  
+  card<0:4>(2) PROG -  
+  card<0:4>(2) PERF -  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  _deny_v_to<5:9> SF prop  
+  _deny_v_to<5:9> TENSE pres  
+  _deny_v_to<5:9> MOOD indicative  
+  _deny_v_to<5:9> PROG -  
+  _deny_v_to<5:9> PERF -  
+  _wrongdoing/nn_u_unknown<10:21> PERS 3  
+  _wrongdoing/nn_u_unknown<10:21> NUM sg  
+}
+

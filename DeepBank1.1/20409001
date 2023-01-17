@@ -1,0 +1,105 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:45 h)).
+;;;
+
+[20409001] (1 of 1) {1} `Part of a Series}'
+
+[20409001:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Part", 0, "null", "NN" 0.9875 "NNP" 0.0125)
+  (2, 1, 2, <5:7>, 1, "of", 0, "null", "IN" 1.0)
+  (3, 2, 3, <8:9>, 1, "a", 0, "null", "DT" 1.0)
+  (4, 3, 4, <10:16>, 1, "Series", 0, "null", "NNP" 0.514 "NN" 0.476 "NNS" 0.01)
+  (5, 4, 5, <16:17>, 1, "}", 0, "null", ")" 1.0)
+>
+
+<
+  (64, 0, 1, <0:4>, 1, "Part", 0, "null")
+  (66, 0, 1, <0:4>, 1, "part", 0, "null")
+  (71, 0, 1, <0:4>, 1, "part", 0, "null")
+  (57, 1, 2, <5:7>, 1, "of", 0, "null")
+  (69, 1, 2, <5:7>, 1, "of", 0, "null")
+  (59, 2, 3, <8:9>, 1, "a", 0, "null")
+  (70, 2, 3, <8:9>, 1, "a", 0, "null")
+  (49, 3, 4, <10:17>, 1, "Series}", 0, "null")
+  (65, 3, 4, <10:17>, 1, "Series}", 0, "null", "NN" 0.476)
+  (67, 3, 4, <10:17>, 1, "series}", 0, "null")
+  (68, 3, 4, <10:17>, 1, "series}", 0, "null")
+>
+
+(ROOT_INFFRAG
+ (585 NP_FRG_C 1.26544 0 4
+  (584 HDN_BNP-QNT_C 2.37826 0 4
+   (583 HD-CMP_U_C 2.54087 0 4
+    (81 part_pn1@n_pp_mc-na-of_le 0.217048 0 1
+     ("part" 66
+      "token [ +CARG \"Part\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"part\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98747459999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (582 HD-CMP_U_C 1.86439 1 4
+     (124 of_prtcl@p_np_ptcl-of_le 1.04356 1 2
+      ("of" 57
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (581 SP-HD_N_C -0.300428 2 4
+      (205 a_det@d_-_sg-nmd_le -0.667877 2 3
+       ("a" 59
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (580 ^W_RBRACK_PLR 0.367449 3 4
+       (579 N_SG_ILR 0.167291 3 4
+        (305 series_n1@n_-_c-gr_le 0 3 4
+         ("series}" 67
+          "token [ +CARG \"Series\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"series}\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.51403370000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP
+ (NP (N (N "part") (PP (P "of") (NP (DET "a") (N (N (N "series}"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: i4 ]
+          [ part_of<0:4>
+            LBL: h5
+            ARG0: i4
+            ARG1: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _part_q<0:4>
+            LBL: h7
+            ARG0: i4
+            RSTR: h8
+            BODY: h9 ]
+          [ _a_q<8:9>
+            LBL: h10
+            ARG0: x6
+            RSTR: h12
+            BODY: h11 ]
+          [ _series_n_of<10:17>
+            LBL: h13
+            ARG0: x6 ] >
+   HCONS: < h12 QEQ h13 h8 QEQ h5 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG i4]
+ i4:part_of<0:4>{i}[ARG1 x6]
+ _1:_part_q<0:4>[BV i4]
+ _2:_a_q<8:9>[BV x6]
+ x6:_series_n_of<10:17>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:17> ARG part_of<0:4>  
+  part_of<0:4> ARG1 _series_n_of<10:17>  
+  _part_q<0:4> BV part_of<0:4>  
+  _a_q<8:9> BV _series_n_of<10:17>  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  _series_n_of<10:17> PERS 3  
+  _series_n_of<10:17> NUM sg  
+  _series_n_of<10:17> IND +  
+}
+

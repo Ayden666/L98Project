@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:39 h)).
+;;;
+
+[21377002] (1 of 1) {1} `SMYRNA, Ga. --'
+
+[21377002:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "SMYRNA", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:7>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <8:11>, 1, "Ga.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <12:14>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (42, 0, 1, <0:7>, 1, "SMYRNA,", 0, "null")
+  (50, 0, 1, <0:7>, 1, "SMYRNA,", 0, "null", "NNP" 1.0)
+  (52, 0, 1, <0:7>, 1, "smyrna,", 0, "null")
+  (54, 0, 1, <0:7>, 1, "smyrna,", 0, "null")
+  (39, 1, 2, <8:11>, 1, "Ga.", 0, "null")
+  (49, 1, 2, <8:11>, 1, "Ga.", 0, "null", "NNP" 1.0)
+  (51, 1, 2, <8:11>, 1, "ga.", 0, "null")
+  (53, 1, 2, <8:11>, 1, "ga.", 0, "null")
+  (46, 2, 3, <12:14>, 1, "–", 0, "null")
+  (55, 2, 3, <12:14>, 1, "–", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (258 CL-CL_RUNON_C 0.184542 0 3
+  (256 NP_FRG_C -0.0214352 0 2
+   (255 HDN_BNP-PN_C 1.2712 0 2
+    (254 NP-HDN_CTY-CPD_C 2.08532 0 2
+     (251 HDN_BNP-PN_C 0.710257 0 1
+      (250 W_COMMA_PLR -0.118892 0 1
+       (249 N_SG_ILR -0.461604 0 1
+        (58 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("SMYRNA," 42
+          "token [ +CARG \"SMYRNA\" +CLASS proper_ne +FORM \"SMYRNA,\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+     (253 ^W_PERIOD_PLR 1.24389 1 2
+      (252 N_SG_ILR 0.628043 1 2
+       (78 georgia_n2@n_-_pn-abb_le 0 1 2
+        ("ga." 51
+         "token [ +CARG \"Ga.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"ga.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (257 ^R_DSC-FRG_C 0.205977 2 3
+   (83 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.205977 2 3
+    ("–" 46
+     "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (XP (NP (N (NP (N (N (N "SMYRNA,")))) (N (N (N "ga."))))))
+ (S (ADV "–")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:14>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:11>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<0:11>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<0:7>
+            LBL: h19
+            ARG0: x14
+            CARG: "SMYRNA" ]
+          [ named<8:11>
+            LBL: h13
+            ARG0: x9
+            CARG: "Georgia" ]
+          [ unknown<12:14>
+            LBL: h20
+            ARG0: e6
+            ARG: u21 ]
+          [ excl<12:14>
+            LBL: h22
+            ARG0: i23
+            CARG: "s-dash" ]
+          [ discourse<12:14>
+            LBL: h24
+            ARG0: i27
+            L-HNDL: h22
+            L-INDEX: i23
+            R-HNDL: h26
+            R-INDEX: i25 ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h5 QEQ h24 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:14>{e SF prop-or-ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL i27, R-INDEX e6]
+ e7:unknown<0:11>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:proper_q<0:11>[BV x9]
+ e15:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _2:proper_q<0:7>[BV x14]
+ x14:named<0:7>("SMYRNA"){x PERS 3, NUM sg, IND +}[]
+ x9:named<8:11>("Georgia"){x PERS 3, NUM sg, IND +}[]
+ e6:unknown<12:14>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i23:excl<12:14>("s-dash"){i}[]
+ i27:discourse<12:14>{i}[L-HNDL i23, L-INDEX i23]
+}
+
+{
+  implicit_conj<0:14> L-HNDL unknown<0:11>  
+  implicit_conj<0:14> L-INDEX unknown<0:11>  
+  implicit_conj<0:14> R-HNDL discourse<12:14>  
+  implicit_conj<0:14> R-INDEX unknown<12:14>  
+  unknown<0:11> ARG named<8:11>(Georgia)  
+  proper_q<0:11> BV named<8:11>(Georgia)  
+  compound<0:11> ARG1 named<8:11>(Georgia)  
+  compound<0:11> ARG2 named<0:7>(SMYRNA)  
+  proper_q<0:7> BV named<0:7>(SMYRNA)  
+  discourse<12:14> L-HNDL excl<12:14>(s-dash)  
+  discourse<12:14> L-INDEX excl<12:14>(s-dash)  
+  implicit_conj<0:14> SF prop-or-ques  
+  implicit_conj<0:14> TENSE tensed  
+  implicit_conj<0:14> MOOD indicative  
+  implicit_conj<0:14> PROG -  
+  implicit_conj<0:14> PERF -  
+  unknown<0:11> SF prop  
+  unknown<0:11> TENSE tensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:7>(SMYRNA) PERS 3  
+  named<0:7>(SMYRNA) NUM sg  
+  named<0:7>(SMYRNA) IND +  
+  named<8:11>(Georgia) PERS 3  
+  named<8:11>(Georgia) NUM sg  
+  named<8:11>(Georgia) IND +  
+  unknown<12:14> SF prop-or-ques  
+  unknown<12:14> TENSE untensed  
+  unknown<12:14> MOOD indicative  
+  unknown<12:14> PROG -  
+  unknown<12:14> PERF -  
+}
+

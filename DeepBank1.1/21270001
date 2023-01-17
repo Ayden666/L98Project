@@ -1,0 +1,112 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:37 h)).
+;;;
+
+[21270001] (1 of 1) {1} `but worries about 1990.'
+
+[21270001:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "but", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:11>, 1, "worries", 0, "null", "NNS" 0.7547 "VBZ" 0.2453)
+  (3, 2, 3, <12:17>, 1, "about", 0, "null", "IN" 0.8693 "RB" 0.1307)
+  (4, 3, 4, <18:22>, 1, "1990", 0, "null", "CD" 1.0)
+  (5, 4, 5, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (50, 0, 1, <0:3>, 1, "but", 0, "null")
+  (59, 0, 1, <0:3>, 1, "but", 0, "null")
+  (51, 1, 2, <4:11>, 1, "worries", 0, "null")
+  (55, 1, 2, <4:11>, 1, "worries", 0, "null", "NNS" 0.7547)
+  (56, 1, 2, <4:11>, 1, "worries", 0, "null", "VBZ" 0.2453)
+  (60, 1, 2, <4:11>, 1, "worries", 0, "null")
+  (53, 2, 3, <12:17>, 1, "about", 0, "null")
+  (57, 2, 3, <12:17>, 1, "about", 0, "null", "RB" 0.1307)
+  (61, 2, 3, <12:17>, 1, "about", 0, "null")
+  (44, 3, 4, <18:23>, 1, "1990.", 0, "null")
+  (58, 3, 4, <18:23>, 1, "1990.", 0, "null")
+>
+
+(ROOT_FRAG
+ (691 VP_FIN-FRG_C 9.51473 0 4
+  (690 MRK-NH_EVNT_C 10.7942 0 4
+   (64 but_conj@c_xp_but_le 0.834968 0 1
+    ("but" 50
+     "token [ +CARG #1=\"but\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (689 HD-CMP_U_C 9.49698 1 4
+    (683 ^V_3S-FIN_OLR 0.492948 1 2
+     (87 worry_about_v1@v_pp_e_le 0 1 2
+      ("worries" 51
+       "token [ +CARG #1=\"worries\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75466659999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (688 HD-CMP_U_C 8.11913 2 4
+     (121 about_prtcl@p_np_ptcl_le 1.22349 2 3
+      ("about" 53
+       "token [ +CARG #1=\"about\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86929630000000002\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (687 HDN_BNP-PN_C 5.78007 3 4
+      (686 HDN_OPTCMP_C 3.93155 3 4
+       (685 W_PERIOD_PLR 3.16408 3 4
+        (684 N_SG_ILR 2.44471 3 4
+         (151 generic_year_ne@n_-_pn-yoc-gen_le 1.03771 3 4
+          ("1990." 44
+           "token [ +CARG \"1990\" +CLASS card_or_year_ne +FORM \"1990.\" +FROM \"18\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(XP
+ (VP-C (CONJ "but")
+  (VP (V (V "worries")) (PP (P "about") (NP (N (N (N (N "1990.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _worry_v_about<4:11>
+            LBL: h5
+            ARG0: e4
+            ARG1: i9
+            ARG2: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<18:23>
+            LBL: h10
+            ARG0: x8
+            RSTR: h11
+            BODY: h12 ]
+          [ yofc<18:23>
+            LBL: h13
+            ARG0: x8
+            CARG: "1990" ] >
+   HCONS: < h11 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ e4:_worry_v_about<4:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x8]
+ _1:proper_q<18:23>[BV x8]
+ x8:yofc<18:23>("1990"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _but_c<0:3> R-HNDL _worry_v_about<4:11>  
+  _but_c<0:3> R-INDEX _worry_v_about<4:11>  
+  _worry_v_about<4:11> ARG2 yofc<18:23>(1990)  
+  proper_q<18:23> BV yofc<18:23>(1990)  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _worry_v_about<4:11> SF prop  
+  _worry_v_about<4:11> TENSE pres  
+  _worry_v_about<4:11> MOOD indicative  
+  _worry_v_about<4:11> PROG -  
+  _worry_v_about<4:11> PERF -  
+  yofc<18:23>(1990) PERS 3  
+  yofc<18:23>(1990) NUM sg  
+  yofc<18:23>(1990) IND +  
+}
+

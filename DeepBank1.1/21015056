@@ -1,0 +1,156 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:15 h)).
+;;;
+
+[21015056] (1 of 1) {1} `The percentage change is since year-end.'
+
+[21015056:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:14>, 1, "percentage", 0, "null", "NN" 1.0)
+  (3, 2, 3, <15:21>, 1, "change", 0, "null", "NN" 1.0)
+  (4, 3, 4, <22:24>, 1, "is", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <25:30>, 1, "since", 0, "null", "IN" 0.9343 "RB" 0.0657)
+  (6, 5, 6, <31:39>, 1, "year-end", 0, "null", "NN" 0.8643 "JJ" 0.1083 "RB" 0.0273)
+  (7, 6, 7, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (97, 0, 1, <0:3>, 1, "the", 0, "null")
+  (104, 0, 1, <0:3>, 1, "the", 0, "null")
+  (81, 1, 2, <4:14>, 1, "percentage", 0, "null")
+  (93, 1, 2, <4:14>, 1, "percentage", 0, "null", "NN" 1.0)
+  (98, 1, 2, <4:14>, 1, "percentage", 0, "null")
+  (83, 2, 3, <15:21>, 1, "change", 0, "null")
+  (94, 2, 3, <15:21>, 1, "change", 0, "null", "NN" 1.0)
+  (99, 2, 3, <15:21>, 1, "change", 0, "null")
+  (85, 3, 4, <22:24>, 1, "is", 0, "null")
+  (95, 3, 4, <22:24>, 1, "is", 0, "null", "VBZ" 1.0)
+  (100, 3, 4, <22:24>, 1, "is", 0, "null")
+  (88, 4, 5, <25:30>, 1, "since", 0, "null")
+  (102, 4, 5, <25:30>, 1, "since", 0, "null")
+  (87, 5, 6, <31:39>, 1, "year-", 0, "null")
+  (96, 5, 6, <31:39>, 1, "year-", 0, "null", "NN" 1.0)
+  (101, 5, 6, <31:39>, 1, "year-", 0, "null")
+  (90, 6, 7, <31:40>, 1, "end.", 0, "null")
+  (92, 6, 7, <31:40>, 1, "end.", 0, "null", "NN" 0.8643)
+  (103, 6, 7, <31:40>, 1, "end.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1533 SB-HD_MC_C 5.05966 0 7
+  (1526 SP-HD_N_C 1.23846 0 3
+   (117 the_1@d_-_the_le 0.244361 0 1
+    ("the" 97
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1525 ^N-HDN_CPD_C -0.0191224 1 3
+    (142 percentage_n1@n_-_c-gr_le -0.729637 1 2
+     ("percentage" 81
+      "token [ +CARG #1=\"percentage\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1524 ^HDN_OPTCMP_C 0.3297 2 3
+     (1523 N_MS-CNT_ILR 0.232011 2 3
+      (147 change_n1@n_pp_mc-of_le -0.192719 2 3
+       ("change" 83
+        "token [ +CARG #1=\"change\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1532 ^HD-CMP_U_C 1.86668 3 7
+   (200 be_c_is@v_prd_is_le -0.539768 3 4
+    ("is" 85
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1531 HD-CMP_U_C -0.227533 4 7
+    (289 since@p_np_i-ngap_le 0.270784 4 5
+     ("since" 88
+      "token [ +CARG #1=\"since\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93425239999999998\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1530 HDN_BNP_C -0.111378 5 7
+     (1529 XP_BRCK-PR_C 0.0981574 5 7
+      (1528 W_PERIOD_PLR 0.0781502 5 7
+       (1527 N_MS_ILR -0.288374 5 7
+        (383 year_end_n2@n_-_m_le 0 5 7
+         ("year- end." 87
+          "token [ +CARG #1=\"year-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"
+          90
+          "token [ +CARG \"end\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"end.\" +FROM \"31\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86434639999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))))))
+
+(S (NP (DET "the") (N (N "percentage") (N (N (N "change")))))
+ (VP (V "is") (PP (P "since") (NP (N (N (N (N "year- end."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:21>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<4:14>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _percentage_n_of<4:14>
+            LBL: h14
+            ARG0: x9 ]
+          [ _change_n_of<15:21>
+            LBL: h8
+            ARG0: x6
+            ARG1: i15 ]
+          [ _since_p<25:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<31:40>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ _year+end_n_1<31:40>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<4:14>[BV x9]
+ x9:_percentage_n_of<4:14>{x IND +}[]
+ x6:_change_n_of<15:21>{x PERS 3, NUM sg}[]
+ e3:_since_p<25:30>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:udef_q<31:40>[BV x16]
+ x16:_year+end_n_1<31:40>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  _the_q<0:3> BV _change_n_of<15:21>  
+  compound<4:21> ARG1 _change_n_of<15:21>  
+  compound<4:21> ARG2 _percentage_n_of<4:14>  
+  udef_q<4:14> BV _percentage_n_of<4:14>  
+  _since_p<25:30> ARG1 _change_n_of<15:21>  
+  _since_p<25:30> ARG2 _year+end_n_1<31:40>  
+  udef_q<31:40> BV _year+end_n_1<31:40>  
+  compound<4:21> SF prop  
+  compound<4:21> TENSE untensed  
+  compound<4:21> MOOD indicative  
+  compound<4:21> PROG -  
+  compound<4:21> PERF -  
+  _percentage_n_of<4:14> IND +  
+  _change_n_of<15:21> PERS 3  
+  _change_n_of<15:21> NUM sg  
+  _since_p<25:30> SF prop  
+  _since_p<25:30> TENSE pres  
+  _since_p<25:30> MOOD indicative  
+  _since_p<25:30> PROG -  
+  _since_p<25:30> PERF -  
+  _year+end_n_1<31:40> PERS 3  
+  _year+end_n_1<31:40> NUM sg  
+  _year+end_n_1<31:40> GEND n  
+  _year+end_n_1<31:40> IND -  
+}
+

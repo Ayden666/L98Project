@@ -1,0 +1,150 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (03:02 h)).
+;;;
+
+[21815028] (1 of 1) {1} `Earnings of female workers were unchanged.'
+
+[21815028:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Earnings", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <9:11>, 1, "of", 0, "null", "IN" 1.0)
+  (3, 2, 3, <12:18>, 1, "female", 0, "null", "JJ" 0.9179 "NN" 0.0821)
+  (4, 3, 4, <19:26>, 1, "workers", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <27:31>, 1, "were", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <32:41>, 1, "unchanged", 0, "null", "JJ" 1.0)
+  (7, 6, 7, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (80, 0, 1, <0:8>, 1, "Earnings", 0, "null", "NNS" 1.0)
+  (84, 0, 1, <0:8>, 1, "earnings", 0, "null")
+  (90, 0, 1, <0:8>, 1, "earnings", 0, "null")
+  (70, 1, 2, <9:11>, 1, "of", 0, "null")
+  (85, 1, 2, <9:11>, 1, "of", 0, "null")
+  (77, 2, 3, <12:18>, 1, "female", 0, "null")
+  (79, 2, 3, <12:18>, 1, "female", 0, "null", "JJ" 0.9179)
+  (89, 2, 3, <12:18>, 1, "female", 0, "null")
+  (72, 3, 4, <19:26>, 1, "workers", 0, "null")
+  (81, 3, 4, <19:26>, 1, "workers", 0, "null", "NNS" 1.0)
+  (86, 3, 4, <19:26>, 1, "workers", 0, "null")
+  (74, 4, 5, <27:31>, 1, "were", 0, "null")
+  (82, 4, 5, <27:31>, 1, "were", 0, "null", "VBD" 1.0)
+  (87, 4, 5, <27:31>, 1, "were", 0, "null")
+  (76, 5, 6, <32:42>, 1, "unchanged.", 0, "null")
+  (83, 5, 6, <32:42>, 1, "unchanged.", 0, "null", "JJ" 1.0)
+  (88, 5, 6, <32:42>, 1, "unchanged.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1515 SB-HD_MC_C 5.31069 0 6
+  (1512 HDN_BNP_C 1.25633 0 4
+   (1511 HDN-AJ_REDREL_C 0.984945 0 4
+    (1506 ^N_PL_OLR -0.172328 0 1
+     (99 earnings_n1@n_-_c-pl_le 0.365973 0 1
+      ("earnings" 84
+       "token [ +CARG \"Earnings\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"earnings\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1510 HD-CMP_U_C 0.723598 1 4
+     (136 of_poss@p_np_i-nm-poss_le -0.152822 1 2
+      ("of" 70
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1509 HDN_BNP_C 0.605775 2 4
+      (1508 AJ-HDN_NORM_C 0.238172 2 4
+       (218 female_a1@aj_-_i_le 0 2 3
+        ("female" 77
+         "token [ +CARG #1=\"female\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91794980000000004\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1507 ^N_PL_OLR -0.494341 3 4
+        (221 worker_n1@n_-_c_le -0.475484 3 4
+         ("workers" 72
+          "token [ +CARG #1=\"workers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+  (1514 ^HD-CMP_U_C 2.53846 4 6
+   (233 be_c_were@v_prd_wre_le 1.45048 4 5
+    ("were" 74
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1513 W_PERIOD_PLR 0.864056 5 6
+    (359 unchanged_a1@aj_-_i_le 0.25157 5 6
+     ("unchanged." 76
+      "token [ +CARG \"unchanged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"unchanged.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S
+ (NP
+  (N (N (N "earnings"))
+   (PP (P "of") (NP (N (AP "female") (N (N "workers")))))))
+ (VP (V "were") (AP (AP "unchanged."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:26>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _earnings_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _of_p<9:11>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:26>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _female_a_1<12:18>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _worker_n_1<19:26>
+            LBL: h14
+            ARG0: x10 ]
+          [ _unchanged_a_1<32:42>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:26>[BV x6]
+ x6:_earnings_n_1<0:8>{x PERS 3, NUM pl, IND +}[]
+ e9:_of_p<9:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<12:26>[BV x10]
+ e15:_female_a_1<12:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_worker_n_1<19:26>{x PERS 3, NUM pl, IND +}[]
+ e3:_unchanged_a_1<32:42>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:26> BV _earnings_n_1<0:8>  
+  _of_p<9:11> ARG1 _earnings_n_1<0:8>  
+  _of_p<9:11> ARG2 _worker_n_1<19:26>  
+  udef_q<12:26> BV _worker_n_1<19:26>  
+  _female_a_1<12:18> ARG1 _worker_n_1<19:26>  
+  _unchanged_a_1<32:42> ARG1 _earnings_n_1<0:8>  
+  _earnings_n_1<0:8> PERS 3  
+  _earnings_n_1<0:8> NUM pl  
+  _earnings_n_1<0:8> IND +  
+  _of_p<9:11> SF prop  
+  _of_p<9:11> TENSE untensed  
+  _of_p<9:11> MOOD indicative  
+  _of_p<9:11> PROG -  
+  _of_p<9:11> PERF -  
+  _female_a_1<12:18> SF prop  
+  _female_a_1<12:18> TENSE untensed  
+  _female_a_1<12:18> MOOD indicative  
+  _female_a_1<12:18> PROG -  
+  _female_a_1<12:18> PERF -  
+  _worker_n_1<19:26> PERS 3  
+  _worker_n_1<19:26> NUM pl  
+  _worker_n_1<19:26> IND +  
+  _unchanged_a_1<32:42> SF prop  
+  _unchanged_a_1<32:42> TENSE past  
+  _unchanged_a_1<32:42> MOOD indicative  
+  _unchanged_a_1<32:42> PROG -  
+  _unchanged_a_1<32:42> PERF -  
+}
+

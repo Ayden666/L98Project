@@ -1,0 +1,325 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:15 h)).
+;;;
+
+[22040010] (1 of 1) {1} `Wells Fargo & Co. of San Francisco posted a 17% jump.'
+
+[22040010:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Wells", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:11>, 1, "Fargo", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:13>, 1, "&", 0, "null", "CC" 1.0)
+  (4, 3, 4, <14:17>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <18:20>, 1, "of", 0, "null", "IN" 1.0)
+  (6, 5, 6, <21:24>, 1, "San", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <25:34>, 1, "Francisco", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <35:41>, 1, "posted", 0, "null", "VBD" 1.0)
+  (9, 8, 9, <42:43>, 1, "a", 0, "null", "DT" 1.0)
+  (10, 9, 10, <44:46>, 1, "17", 0, "null", "CD" 1.0)
+  (11, 10, 11, <46:47>, 1, "%", 0, "null", "NN" 1.0)
+  (12, 11, 12, <48:52>, 1, "jump", 0, "null", "NN" 0.9634 "VB" 0.0366)
+  (13, 12, 13, <52:53>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (149, 0, 1, <0:5>, 1, "Wells", 0, "null")
+  (160, 0, 1, <0:5>, 1, "wells", 0, "null")
+  (172, 0, 1, <0:5>, 1, "wells", 0, "null")
+  (120, 1, 2, <6:11>, 1, "Fargo", 0, "null")
+  (151, 1, 2, <6:11>, 1, "Fargo", 0, "null", "NNP" 1.0)
+  (156, 1, 2, <6:11>, 1, "fargo", 0, "null")
+  (162, 1, 2, <6:11>, 1, "fargo", 0, "null")
+  (146, 2, 3, <12:13>, 1, "&", 0, "null")
+  (170, 2, 3, <12:13>, 1, "&", 0, "null")
+  (123, 3, 4, <14:17>, 1, "Co.", 0, "null")
+  (154, 3, 4, <14:17>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (159, 3, 4, <14:17>, 1, "co.", 0, "null")
+  (165, 3, 4, <14:17>, 1, "co.", 0, "null")
+  (138, 4, 5, <18:20>, 1, "of", 0, "null")
+  (166, 4, 5, <18:20>, 1, "of", 0, "null")
+  (121, 5, 6, <21:24>, 1, "San", 0, "null")
+  (152, 5, 6, <21:24>, 1, "San", 0, "null", "NNP" 1.0)
+  (157, 5, 6, <21:24>, 1, "san", 0, "null")
+  (163, 5, 6, <21:24>, 1, "san", 0, "null")
+  (122, 6, 7, <25:34>, 1, "Francisco", 0, "null")
+  (153, 6, 7, <25:34>, 1, "Francisco", 0, "null", "NNP" 1.0)
+  (158, 6, 7, <25:34>, 1, "francisco", 0, "null")
+  (164, 6, 7, <25:34>, 1, "francisco", 0, "null")
+  (140, 7, 8, <35:41>, 1, "posted", 0, "null")
+  (155, 7, 8, <35:41>, 1, "posted", 0, "null", "VBD" 1.0)
+  (167, 7, 8, <35:41>, 1, "posted", 0, "null")
+  (142, 8, 9, <42:43>, 1, "a", 0, "null")
+  (168, 8, 9, <42:43>, 1, "a", 0, "null")
+  (116, 9, 10, <44:46>, 1, "17", 0, "null")
+  (161, 9, 10, <44:46>, 1, "17", 0, "null")
+  (144, 10, 11, <46:47>, 1, "%", 0, "null")
+  (169, 10, 11, <46:47>, 1, "%", 0, "null")
+  (147, 11, 12, <48:53>, 1, "jump.", 0, "null")
+  (150, 11, 12, <48:53>, 1, "jump.", 0, "null", "NN" 0.9634)
+  (171, 11, 12, <48:53>, 1, "jump.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2944 SB-HD_MC_C 16.6689 0 12
+  (2936 HDN_BNP-PN_C 8.60423 0 7
+   (2935 HDN-AJ_REDREL_C 7.96681 0 7
+    (2934 ^HDN-AJ_REDREL_C 3.75436 0 4
+     (2925 ^NP-HDN_NME-CPD_C 1.62362 0 2
+      (2923 HDN_BNP-PN_C 0.078607 0 1
+       (2922 N_SG_ILR -0.386912 0 1
+        (179 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("Wells" 149
+          "token [ +CARG #1=\"Wells\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (2924 ^N_SG_ILR 0.199039 1 2
+       (234 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Fargo" 120
+         "token [ +CARG #1=\"Fargo\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (637 and_co_post_ttl_2@n_-_tt-post-npt_le 0.018705 2 4
+      ("& co." 146
+       "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+       159
+       "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2933 HD-CMP_U_C 4.54704 4 7
+     (298 of_poss@p_np_i-nm-poss_le -0.152822 4 5
+      ("of" 138
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2932 HDN_BNP-PN_C 2.75032 5 7
+      (2931 NP-HDN_NME-CPD_C 2.57084 5 7
+       (2929 HDN_BNP-PN_C 1.77746 5 6
+        (2928 N_SG_ILR 1.02502 5 6
+         (380 generic_proper_ne@n_-_pn-gen_le 1.41194 5 6
+          ("San" 121
+           "token [ +CARG #1=\"San\" +CLASS proper_ne +FORM #1 +FROM \"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (2930 ^N_SG_ILR -0.434759 6 7
+        (388 francisco_n1@n_-_pn_le 0.168103 6 7
+         ("francisco" 158
+          "token [ +CARG \"Francisco\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"francisco\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+  (2943 ^HD-CMP_U_C 7.04764 7 12
+   (2937 ^V_PST_OLR 1.13053 7 8
+    (400 post_v1@v_np*_le 0.823753 7 8
+     ("posted" 140
+      "token [ +CARG #1=\"posted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2942 SP-HD_N_C 4.90821 8 12
+    (538 a_det@d_-_sg-nmd_le -0.667877 8 9
+     ("a" 142
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2941 ^N-HDN_CPD_C 5.25942 9 12
+     (2938 NUM-N_MNP_C 3.90694 9 11
+      (612 generic_card_ne@aj_-_i-crd-gen_le -0.0637393 9 10
+       ("17" 116
+        "token [ +CARG #1=\"17\" +CLASS card_or_dom_ne +FORM #1 +FROM \"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (616 percent_char_n1@n_-_c-meas-spr_le 3.77776 10 11
+       ("%" 144
+        "token [ +CARG #1=\"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"46\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"11\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2940 ^W_PERIOD_PLR 1.26226 11 12
+      (2939 N_SG_ILR 0.837064 11 12
+       (624 jump_n1@n_-_c_le 0 11 12
+        ("jump." 147
+         "token [ +CARG \"jump\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"jump.\" +FROM #1=\"48\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96344010000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP
+  (N (N (N (NP (N (N "Wells"))) (N (N "Fargo"))) (N "& co."))
+   (PP (P "of") (NP (N (NP (N (N "San"))) (N (N "francisco")))))))
+ (VP (V (V "posted"))
+  (NP (DET "a") (N (N (ADJ "17") (N "%")) (N (N (N "jump.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:34>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Wells" ]
+          [ named<6:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Fargo" ]
+          [ _and+company_n_1<12:17>
+            LBL: h15
+            ARG0: x16 [ x IND: + ] ]
+          [ udef_q<12:17>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ compound<12:17>
+            LBL: h8
+            ARG0: i20
+            ARG1: x6
+            ARG2: x16 ]
+          [ _of_p<18:20>
+            LBL: h8
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x22 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<21:34>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ compound<21:34>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x27 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<21:24>
+            LBL: h29
+            ARG0: x27
+            RSTR: h30
+            BODY: h31 ]
+          [ named<21:24>
+            LBL: h32
+            ARG0: x27
+            CARG: "San" ]
+          [ named<25:34>
+            LBL: h26
+            ARG0: x22
+            CARG: "Francisco" ]
+          [ _post_v_1<35:41>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x33 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<42:43>
+            LBL: h34
+            ARG0: x33
+            RSTR: h36
+            BODY: h35 ]
+          [ compound<44:53>
+            LBL: h37
+            ARG0: e39 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x33
+            ARG2: x38 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<44:47>
+            LBL: h40
+            ARG0: x38
+            RSTR: h41
+            BODY: h42 ]
+          [ card<44:46>
+            LBL: h43
+            ARG0: e44 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x38
+            CARG: "17" ]
+          [ _percent_n_of<46:47>
+            LBL: h43
+            ARG0: x38 ]
+          [ _jump_n_1<48:53>
+            LBL: h37
+            ARG0: x33 ] >
+   HCONS: < h41 QEQ h43 h36 QEQ h37 h30 QEQ h32 h24 QEQ h26 h18 QEQ h15 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:34>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Wells"){x PERS 3, NUM sg, IND +}[]
+ x6:named<6:11>("Fargo"){x PERS 3, NUM sg, IND +}[]
+ x16:_and+company_n_1<12:17>{x IND +}[]
+ _3:udef_q<12:17>[BV x16]
+ i20:compound<12:17>{i}[ARG1 x6, ARG2 x16]
+ e21:_of_p<18:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x22]
+ _4:proper_q<21:34>[BV x22]
+ e28:compound<21:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x27]
+ _5:proper_q<21:24>[BV x27]
+ x27:named<21:24>("San"){x PERS 3, NUM sg, IND +}[]
+ x22:named<25:34>("Francisco"){x PERS 3, NUM sg, IND +}[]
+ e3:_post_v_1-fn.Sending<35:41>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Sender x6, ARG2-fn.Theme x33]
+ _6:_a_q<42:43>[BV x33]
+ e39:compound<44:53>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x33, ARG2 x38]
+ _7:udef_q<44:47>[BV x38]
+ e44:card<44:46>("17"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x38]
+ x38:_percent_n_of<46:47>{x PERS 3, NUM pl, IND +}[]
+ x33:_jump_n_1<48:53>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:34> BV named<6:11>(Fargo)  
+  compound<0:11> ARG1 named<6:11>(Fargo)  
+  compound<0:11> ARG2 named<0:5>(Wells)  
+  proper_q<0:5> BV named<0:5>(Wells)  
+  udef_q<12:17> BV _and+company_n_1<12:17>  
+  compound<12:17> ARG1 named<6:11>(Fargo)  
+  compound<12:17> ARG2 _and+company_n_1<12:17>  
+  _of_p<18:20> ARG1 named<6:11>(Fargo)  
+  _of_p<18:20> ARG2 named<25:34>(Francisco)  
+  proper_q<21:34> BV named<25:34>(Francisco)  
+  compound<21:34> ARG1 named<25:34>(Francisco)  
+  compound<21:34> ARG2 named<21:24>(San)  
+  proper_q<21:24> BV named<21:24>(San)  
+  _post_v_1<35:41> ARG1 named<6:11>(Fargo)  
+  _post_v_1<35:41> ARG2 _jump_n_1<48:53>  
+  _a_q<42:43> BV _jump_n_1<48:53>  
+  compound<44:53> ARG1 _jump_n_1<48:53>  
+  compound<44:53> ARG2 _percent_n_of<46:47>  
+  udef_q<44:47> BV _percent_n_of<46:47>  
+  card<44:46>(17) ARG1 _percent_n_of<46:47>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:5>(Wells) PERS 3  
+  named<0:5>(Wells) NUM sg  
+  named<0:5>(Wells) IND +  
+  named<6:11>(Fargo) PERS 3  
+  named<6:11>(Fargo) NUM sg  
+  named<6:11>(Fargo) IND +  
+  _and+company_n_1<12:17> IND +  
+  _of_p<18:20> SF prop  
+  _of_p<18:20> TENSE untensed  
+  _of_p<18:20> MOOD indicative  
+  _of_p<18:20> PROG -  
+  _of_p<18:20> PERF -  
+  compound<21:34> SF prop  
+  compound<21:34> TENSE untensed  
+  compound<21:34> MOOD indicative  
+  compound<21:34> PROG -  
+  compound<21:34> PERF -  
+  named<21:24>(San) PERS 3  
+  named<21:24>(San) NUM sg  
+  named<21:24>(San) IND +  
+  named<25:34>(Francisco) PERS 3  
+  named<25:34>(Francisco) NUM sg  
+  named<25:34>(Francisco) IND +  
+  _post_v_1<35:41> SF prop  
+  _post_v_1<35:41> TENSE past  
+  _post_v_1<35:41> MOOD indicative  
+  _post_v_1<35:41> PROG -  
+  _post_v_1<35:41> PERF -  
+  compound<44:53> SF prop  
+  compound<44:53> TENSE untensed  
+  compound<44:53> MOOD indicative  
+  compound<44:53> PROG -  
+  compound<44:53> PERF -  
+  card<44:46>(17) SF prop  
+  card<44:46>(17) TENSE untensed  
+  card<44:46>(17) MOOD indicative  
+  card<44:46>(17) PROG -  
+  card<44:46>(17) PERF -  
+  _percent_n_of<46:47> PERS 3  
+  _percent_n_of<46:47> NUM pl  
+  _percent_n_of<46:47> IND +  
+  _jump_n_1<48:53> PERS 3  
+  _jump_n_1<48:53> NUM sg  
+  _jump_n_1<48:53> IND +  
+}
+

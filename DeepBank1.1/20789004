@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj07d';
+;;; (wsun@wsun; 22-jan-2018 (17:51 h)).
+;;;
+
+[20789004] (1 of 1) {1} `These figures aren't seasonally adjusted.'
+
+[20789004:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "These", 0, "null", "DT" 1.0)
+  (2, 1, 2, <6:13>, 1, "figures", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:17>, 1, "are", 0, "null", "VBP" 1.0)
+  (4, 3, 4, <17:20>, 1, "n’t", 0, "null", "RB" 0.2269 "JJ" 0.2052 "NN" 0.1822 "VBN" 0.15 "VBP" 0.1349 "VB" 0.0583 "JJS" 0.018 "RBS" 0.0121 "VBD" 0.0086 "IN" 0.0038)
+  (5, 4, 5, <21:31>, 1, "seasonally", 0, "null", "RB" 1.0)
+  (6, 5, 6, <32:40>, 1, "adjusted", 0, "null", "VBN" 0.9096 "JJ" 0.0904)
+  (7, 6, 7, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (77, 0, 1, <0:5>, 1, "these", 0, "null")
+  (82, 0, 1, <0:5>, 1, "these", 0, "null")
+  (66, 1, 2, <6:13>, 1, "figures", 0, "null")
+  (74, 1, 2, <6:13>, 1, "figures", 0, "null", "NNS" 1.0)
+  (78, 1, 2, <6:13>, 1, "figures", 0, "null")
+  (70, 2, 3, <14:20>, 1, "aren’t", 0, "null")
+  (76, 2, 3, <14:20>, 1, "aren’t", 0, "null", "VBP" 1.0)
+  (80, 2, 3, <14:20>, 1, "aren’t", 0, "null")
+  (68, 3, 4, <21:31>, 1, "seasonally", 0, "null")
+  (75, 3, 4, <21:31>, 1, "seasonally", 0, "null", "RB" 1.0)
+  (79, 3, 4, <21:31>, 1, "seasonally", 0, "null")
+  (71, 4, 5, <32:41>, 1, "adjusted.", 0, "null")
+  (73, 4, 5, <32:41>, 1, "adjusted.", 0, "null", "VBN" 0.9096)
+  (81, 4, 5, <32:41>, 1, "adjusted.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1075 SB-HD_MC_C 7.08185 0 5
+  (1069 SP-HD_N_C 1.47436 0 2
+   (85 these_det@d_-_pl_le 0.643823 0 1
+    ("these" 77
+     "token [ +CARG \"These\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"these\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1068 ^N_PL_OLR 0.492214 1 2
+    (91 figure_n1@n_-_mc_le 0.539128 1 2
+     ("figures" 66
+      "token [ +CARG #1=\"figures\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1074 ^HD-CMP_U_C 3.65298 2 5
+   (117 be_c_are_neg_4_u@v_prd_are-n_le 0.0805154 2 3
+    ("aren’t" 70
+     "token [ +CARG #1=\"aren’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1073 AJ-HD_INT_C 1.71711 3 5
+    (123 generic_adverb@av_-_i-unk_le 0 3 4
+     ("seasonally" 75
+      "token [ +CARG #1=\"seasonally\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED \"_seasonally/RB_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"RB\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+    (1072 ^HD_OPTCMP_C 1.33682 4 5
+     (1071 W_PERIOD_PLR -0.0906005 4 5
+      (1070 V_PAS_ODLR -0.192154 4 5
+       (133 adjust_v1@v_np*_le 0 4 5
+        ("adjusted." 71
+         "token [ +CARG \"adjusted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"adjusted.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90956380000000003\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "these") (N (N "figures")))
+ (VP (V "aren’t") (VP (ADV "seasonally") (VP (V (V (V "adjusted.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _these_q_dem<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL ]
+            RSTR: h7
+            BODY: h6 ]
+          [ _figure_n_1<6:13>
+            LBL: h8
+            ARG0: x5 ]
+          [ neg<14:20>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _seasonally/rb_u_unknown<21:31>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _adjust_v_to<32:41>
+            LBL: h11
+            ARG0: e3
+            ARG1: i13
+            ARG2: x5 ]
+          [ parg_d<32:41>
+            LBL: h11
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x5 ] >
+   HCONS: < h9 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:_these_q_dem<0:5>[BV x5]
+ x5:_figure_n_1<6:13>{x PERS 3, NUM pl}[]
+ e10:neg<14:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e12:_seasonally/rb_u_unknown<21:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_adjust_v_to<32:41>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x5]
+ e14:parg_d<32:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x5]
+}
+
+{
+  _these_q_dem<0:5> BV _figure_n_1<6:13>  
+  neg<14:20> ARG1 _adjust_v_to<32:41>  
+  _seasonally/rb_u_unknown<21:31> ARG1 _adjust_v_to<32:41>  
+  _adjust_v_to<32:41> ARG2 _figure_n_1<6:13>  
+  parg_d<32:41> ARG1 _adjust_v_to<32:41>  
+  parg_d<32:41> ARG2 _figure_n_1<6:13>  
+  _figure_n_1<6:13> PERS 3  
+  _figure_n_1<6:13> NUM pl  
+  neg<14:20> SF prop  
+  neg<14:20> TENSE untensed  
+  neg<14:20> MOOD indicative  
+  neg<14:20> PROG -  
+  neg<14:20> PERF -  
+  _seasonally/rb_u_unknown<21:31> SF prop  
+  _seasonally/rb_u_unknown<21:31> TENSE untensed  
+  _seasonally/rb_u_unknown<21:31> MOOD indicative  
+  _seasonally/rb_u_unknown<21:31> PROG -  
+  _seasonally/rb_u_unknown<21:31> PERF -  
+  _adjust_v_to<32:41> SF prop  
+  _adjust_v_to<32:41> TENSE pres  
+  _adjust_v_to<32:41> MOOD indicative  
+  _adjust_v_to<32:41> PROG -  
+  _adjust_v_to<32:41> PERF -  
+  parg_d<32:41> SF prop  
+  parg_d<32:41> TENSE untensed  
+  parg_d<32:41> MOOD indicative  
+  parg_d<32:41> PROG -  
+  parg_d<32:41> PERF -  
+}
+

@@ -1,0 +1,149 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:13 h)).
+;;;
+
+[21624016] (1 of 1) {1} `Mr. Baldwin likes the offering.'
+
+[21624016:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Baldwin", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:17>, 1, "likes", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <18:21>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <22:30>, 1, "offering", 0, "null", "NN" 0.9784 "VBG" 0.0216)
+  (6, 5, 6, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (75, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (80, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (56, 1, 2, <4:11>, 1, "Baldwin", 0, "null")
+  (72, 1, 2, <4:11>, 1, "Baldwin", 0, "null", "NNP" 1.0)
+  (74, 1, 2, <4:11>, 1, "baldwin", 0, "null")
+  (76, 1, 2, <4:11>, 1, "baldwin", 0, "null")
+  (65, 2, 3, <12:17>, 1, "likes", 0, "null")
+  (73, 2, 3, <12:17>, 1, "likes", 0, "null", "VBZ" 1.0)
+  (77, 2, 3, <12:17>, 1, "likes", 0, "null")
+  (67, 3, 4, <18:21>, 1, "the", 0, "null")
+  (78, 3, 4, <18:21>, 1, "the", 0, "null")
+  (68, 4, 5, <22:31>, 1, "offering.", 0, "null")
+  (71, 4, 5, <22:31>, 1, "offering.", 0, "null", "NN" 0.9784)
+  (79, 4, 5, <22:31>, 1, "offering.", 0, "null")
+>
+
+(ROOT_STRICT
+ (530 SB-HD_MC_C 9.26853 0 5
+  (523 HDN_BNP-PN_C 4.02279 0 2
+   (522 NP-HDN_TTL-CPD_C 3.33685 0 2
+    (520 N_SG_ILR 2.02901 0 1
+     (88 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 75
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (521 ^N_SG_ILR -0.0982517 1 2
+     (103 baldwin_n1@n_-_pn_le 0 1 2
+      ("baldwin" 74
+       "token [ +CARG \"Baldwin\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"baldwin\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (529 ^HD-CMP_U_C 4.22869 2 5
+   (524 ^V_3S-FIN_OLR 0.198464 2 3
+    (136 like_v1@v_np_le 0 2 3
+     ("likes" 65
+      "token [ +CARG #1=\"likes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (528 SP-HD_N_C 3.0921 3 5
+    (183 the_1@d_-_the_le 1.07131 3 4
+     ("the" 67
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (527 ^HDN_OPTCMP_C 1.66927 4 5
+     (526 W_PERIOD_PLR 1.33897 4 5
+      (525 N_SG_ILR 0.704929 4 5
+       (220 offering_n1@n_pp_c-of_le 0 4 5
+        ("offering." 68
+         "token [ +CARG \"offering\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"offering.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97844580000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "baldwin"))))
+ (VP (V (V "likes")) (NP (DET "the") (N (N (N (N "offering.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Baldwin" ]
+          [ _like_v_1<12:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<18:21>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _offering_n_of<22:31>
+            LBL: h19
+            ARG0: x15
+            ARG1: i20 ] >
+   HCONS: < h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Baldwin"){x PERS 3, NUM sg, IND +}[]
+ e3:_like_v_1<12:17>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_the_q<18:21>[BV x15]
+ x15:_offering_n_of<22:31>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Baldwin)  
+  compound<0:11> ARG1 named<4:11>(Baldwin)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _like_v_1<12:17> ARG1 named<4:11>(Baldwin)  
+  _like_v_1<12:17> ARG2 _offering_n_of<22:31>  
+  _the_q<18:21> BV _offering_n_of<22:31>  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Baldwin) PERS 3  
+  named<4:11>(Baldwin) NUM sg  
+  named<4:11>(Baldwin) IND +  
+  _like_v_1<12:17> SF prop  
+  _like_v_1<12:17> TENSE pres  
+  _like_v_1<12:17> MOOD indicative  
+  _like_v_1<12:17> PROG -  
+  _like_v_1<12:17> PERF -  
+  _offering_n_of<22:31> PERS 3  
+  _offering_n_of<22:31> NUM sg  
+  _offering_n_of<22:31> IND +  
+}
+

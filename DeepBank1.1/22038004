@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj20b';
+;;; (wsun@wsun; 23-jan-2018 (05:14 h)).
+;;;
+
+[22038004] (1 of 1) {1} `Spaced Out'
+
+[22038004:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Spaced", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:10>, 1, "Out", 0, "null", "NNP" 0.8061 "RB" 0.1803 "IN" 0.0136)
+>
+
+<
+  (29, 0, 1, <0:6>, 1, "Spaced", 0, "null")
+  (32, 0, 1, <0:6>, 1, "spaced", 0, "null")
+  (35, 0, 1, <0:6>, 1, "spaced", 0, "null")
+  (20, 1, 2, <7:10>, 1, "Out", 0, "null")
+  (30, 1, 2, <7:10>, 1, "Out", 0, "null", "NNP" 0.8061)
+  (31, 1, 2, <7:10>, 1, "Out", 0, "null", "RB" 0.1803)
+  (33, 1, 2, <7:10>, 1, "out", 0, "null")
+  (34, 1, 2, <7:10>, 1, "out", 0, "null")
+>
+
+(ROOT_FRAG
+ (520 J_FRG_C 0.529697 0 2
+  (519 HD-CMP_U_C 1.30394 0 2
+   (518 ^V_J-NB-PAS-PTCL_DLR 0.385132 0 1
+    (514 V_PAS-PRT-T_ODLR 1.08631 0 1
+     (104 space_out_v1@v_p-np_le 0 0 1
+      ("spaced" 32
+       "token [ +CARG \"Spaced\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"spaced\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (154 out_particle@p_np_ptcl_le 1.31078 1 2
+    ("out" 33
+     "token [ +CARG \"Out\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"out\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80610539999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (AP (ADJ (V (V "spaced"))) (P "out")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: i4 ]
+          [ _space_v_out<0:6>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i6
+            ARG2: i4 ]
+          [ parg_d<0:6>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e5
+            ARG2: i4 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_space_v_out<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:parg_d<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5]
+}
+
+{
+  parg_d<0:6> ARG1 _space_v_out<0:6>  
+  unknown<0:10> SF prop-or-ques  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _space_v_out<0:6> SF prop  
+  _space_v_out<0:6> TENSE untensed  
+  _space_v_out<0:6> MOOD indicative  
+  _space_v_out<0:6> PROG -  
+  _space_v_out<0:6> PERF -  
+  parg_d<0:6> SF prop  
+  parg_d<0:6> TENSE untensed  
+  parg_d<0:6> MOOD indicative  
+  parg_d<0:6> PROG -  
+  parg_d<0:6> PERF -  
+}
+

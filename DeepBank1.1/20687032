@@ -1,0 +1,179 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:37 h)).
+;;;
+
+[20687032] (1 of 1) {1} `Eugene S. Clarke IV'
+
+[20687032:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Eugene", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:9>, 1, "S.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:16>, 1, "Clarke", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <17:19>, 1, "IV", 0, "null", "NNP" 1.0)
+>
+
+<
+  (51, 0, 1, <0:6>, 1, "Eugene", 0, "null")
+  (57, 0, 1, <0:6>, 1, "eugene", 0, "null")
+  (62, 0, 1, <0:6>, 1, "eugene", 0, "null")
+  (41, 1, 2, <7:9>, 1, "S.", 0, "null")
+  (53, 1, 2, <7:9>, 1, "S.", 0, "null", "NNP" 1.0)
+  (56, 1, 2, <7:9>, 1, "s.", 0, "null")
+  (60, 1, 2, <7:9>, 1, "s.", 0, "null")
+  (40, 2, 3, <10:16>, 1, "Clarke", 0, "null")
+  (52, 2, 3, <10:16>, 1, "Clarke", 0, "null", "NNP" 1.0)
+  (55, 2, 3, <10:16>, 1, "clarke", 0, "null")
+  (59, 2, 3, <10:16>, 1, "clarke", 0, "null")
+  (42, 3, 4, <17:19>, 1, "IV", 0, "null")
+  (54, 3, 4, <17:19>, 1, "IV", 0, "null", "NNP" 1.0)
+  (58, 3, 4, <17:19>, 1, "iv", 0, "null")
+  (61, 3, 4, <17:19>, 1, "iv", 0, "null")
+>
+
+(ROOT_FRAG
+ (541 NP-AJ_RORP-FRG_C 1.39713 0 4
+  (537 ^HDN_BNP-PN_C 1.43964 0 3
+   (536 NP-HDN_TTL-CPD_C 2.30206 0 3
+    (528 NP-HDN_CPD_C 1.84857 0 2
+     (526 HDN_BNP-PN_C 0.283458 0 1
+      (67 eugene_n1@n_-_pn_le 0 0 1
+       ("eugene" 57
+        "token [ +CARG \"Eugene\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"eugene\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (527 ^N_SG_ILR 0.92003 1 2
+      (86 second_abb_n2@n_-_c-nday_le 0.415739 1 2
+       ("s." 56
+        "token [ +CARG \"S.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"s.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (529 ^N_SG_ILR -0.166294 2 3
+     (96 clarke_n1@n_-_pn_le 0 2 3
+      ("clarke" 55
+       "token [ +CARG \"Clarke\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"clarke\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (540 NP_ADV-MNP_C -0.499974 3 4
+   (539 HDN_BNP-NUM_C -0.113228 3 4
+    (538 HDN_NP-NUM_C 0.132541 3 4
+     (99 four_roman@aj_-_i-dig-one_le 0 3 4
+      ("iv" 58
+       "token [ +CARG \"IV\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"iv\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N (NP (N "eugene")) (N (N "s."))) (N (N "clarke"))))
+ (PP (NP (N (ADJ "iv")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:16>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:9>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:6>
+            LBL: h20
+            ARG0: x15
+            CARG: "Eugene" ]
+          [ _second_n_1<7:9>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<10:16>
+            LBL: h8
+            ARG0: x4
+            CARG: "Clarke" ]
+          [ loc_nonsp<17:19>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i23
+            ARG2: x22 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<17:19>
+            LBL: h24
+            ARG0: x22
+            RSTR: h25
+            BODY: h26 ]
+          [ card<17:19>
+            LBL: h27
+            ARG0: x22
+            ARG1: i28
+            CARG: "IV" ] >
+   HCONS: < h25 QEQ h27 h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:16>[BV x4]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:9>[BV x9]
+ e16:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:6>[BV x15]
+ x15:named<0:6>("Eugene"){x IND +}[]
+ x9:_second_n_1<7:9>{x PERS 3, NUM sg, IND +}[]
+ x4:named<10:16>("Clarke"){x PERS 3, NUM sg, IND +}[]
+ e21:loc_nonsp<17:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x22]
+ _4:number_q<17:19>[BV x22]
+ x22:card<17:19>("IV"){x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:19> ARG named<10:16>(Clarke)  
+  proper_q<0:16> BV named<10:16>(Clarke)  
+  compound<0:16> ARG1 named<10:16>(Clarke)  
+  compound<0:16> ARG2 _second_n_1<7:9>  
+  udef_q<0:9> BV _second_n_1<7:9>  
+  compound<0:9> ARG1 _second_n_1<7:9>  
+  compound<0:9> ARG2 named<0:6>(Eugene)  
+  proper_q<0:6> BV named<0:6>(Eugene)  
+  loc_nonsp<17:19> ARG2 card<17:19>(IV)  
+  number_q<17:19> BV card<17:19>(IV)  
+  unknown<0:19> SF prop  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:6>(Eugene) IND +  
+  _second_n_1<7:9> PERS 3  
+  _second_n_1<7:9> NUM sg  
+  _second_n_1<7:9> IND +  
+  named<10:16>(Clarke) PERS 3  
+  named<10:16>(Clarke) NUM sg  
+  named<10:16>(Clarke) IND +  
+  loc_nonsp<17:19> SF prop  
+  loc_nonsp<17:19> TENSE untensed  
+  loc_nonsp<17:19> MOOD indicative  
+  loc_nonsp<17:19> PROG -  
+  loc_nonsp<17:19> PERF -  
+  card<17:19>(IV) PERS 3  
+  card<17:19>(IV) NUM sg  
+}
+

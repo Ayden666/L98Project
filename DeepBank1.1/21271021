@@ -1,0 +1,129 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:38 h)).
+;;;
+
+[21271021] (1 of 1) {1} `"It looks like a holiday.'
+
+[21271021:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:9>, 1, "looks", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <10:14>, 1, "like", 0, "null", "IN" 0.973 "VB" 0.027)
+  (5, 4, 5, <15:16>, 1, "a", 0, "null", "DT" 1.0)
+  (6, 5, 6, <17:24>, 1, "holiday", 0, "null", "NN" 1.0)
+  (7, 6, 7, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (80, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (85, 0, 1, <0:3>, 1, "“it", 0, "null")
+  (69, 1, 2, <4:9>, 1, "looks", 0, "null")
+  (78, 1, 2, <4:9>, 1, "looks", 0, "null", "VBZ" 1.0)
+  (81, 1, 2, <4:9>, 1, "looks", 0, "null")
+  (76, 2, 3, <10:14>, 1, "like", 0, "null")
+  (84, 2, 3, <10:14>, 1, "like", 0, "null")
+  (71, 3, 4, <15:16>, 1, "a", 0, "null")
+  (82, 3, 4, <15:16>, 1, "a", 0, "null")
+  (75, 4, 5, <17:25>, 1, "holiday.", 0, "null")
+  (79, 4, 5, <17:25>, 1, "holiday.", 0, "null", "NN" 1.0)
+  (83, 4, 5, <17:25>, 1, "holiday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1110 SB-HD_MC_C 4.94592 0 5
+  (1098 HDN_BNP-QNT_C -0.56328 0 1
+   (1097 W_DQLEFT_PLR 0.072519 0 1
+    (87 it2@n_-_pr-it_le 0.0722124 0 1
+     ("“it" 80
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1109 ^HD-CMP_U_C 4.23985 1 5
+   (1099 ^V_3S-FIN_OLR 0.489124 1 2
+    (146 look_like_v1@v_pp_le 0 1 2
+     ("looks" 69
+      "token [ +CARG #1=\"looks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1108 HD-CMP_U_C 2.5519 2 5
+    (184 like_p@p_np_i_le 1.78494 2 3
+     ("like" 76
+      "token [ +CARG #1=\"like\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97299199999999997\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1107 SP-HD_N_C -0.203852 3 5
+     (203 a_det@d_-_sg-nmd_le -0.667877 3 4
+      ("a" 71
+       "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1101 ^W_PERIOD_PLR 0.824823 4 5
+      (1100 N_SG_ILR 0 4 5
+       (277 holiday_n1@n_-_c-day_le 0 4 5
+        ("holiday." 75
+         "token [ +CARG \"holiday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"holiday.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP (NP "“it")))
+ (VP (V (V "looks"))
+  (PP (P "like") (NP (DET "a") (N (N (N "holiday.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _look_v_like<4:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 ]
+          [ _like_p<10:14>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<15:16>
+            LBL: h11
+            ARG0: x10
+            RSTR: h13
+            BODY: h12 ]
+          [ _holiday_n_1<17:25>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h13 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_look_v_like-fn.Appearance<4:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Phenomenon x5]
+ e9:_like_p<10:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:_a_q<15:16>[BV x10]
+ x10:_holiday_n_1<17:25>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _look_v_like<4:9> ARG1 pron<0:3>  
+  _like_p<10:14> ARG1 _look_v_like<4:9>  
+  _like_p<10:14> ARG2 _holiday_n_1<17:25>  
+  _a_q<15:16> BV _holiday_n_1<17:25>  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _look_v_like<4:9> SF prop  
+  _look_v_like<4:9> TENSE pres  
+  _look_v_like<4:9> MOOD indicative  
+  _look_v_like<4:9> PROG -  
+  _look_v_like<4:9> PERF -  
+  _like_p<10:14> SF prop  
+  _like_p<10:14> TENSE untensed  
+  _like_p<10:14> MOOD indicative  
+  _like_p<10:14> PROG -  
+  _like_p<10:14> PERF -  
+  _holiday_n_1<17:25> PERS 3  
+  _holiday_n_1<17:25> NUM sg  
+  _holiday_n_1<17:25> IND +  
+}
+

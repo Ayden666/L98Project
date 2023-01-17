@@ -1,0 +1,199 @@
+;;;
+;;; Redwoods export of `wsj11e';
+;;; (wsun@wsun; 22-jan-2018 (20:52 h)).
+;;;
+
+[21187014] (1 of 1) {1} `Jaguar finished 4 lower at 694.'
+
+[21187014:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Jaguar", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:15>, 1, "finished", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <16:17>, 1, "4", 0, "null", "CD" 1.0)
+  (4, 3, 4, <18:23>, 1, "lower", 0, "null", "JJR" 0.971 "RBR" 0.029)
+  (5, 4, 5, <24:26>, 1, "at", 0, "null", "IN" 1.0)
+  (6, 5, 6, <27:30>, 1, "694", 0, "null", "CD" 1.0)
+  (7, 6, 7, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:6>, 1, "Jaguar", 0, "null")
+  (74, 0, 1, <0:6>, 1, "jaguar", 0, "null")
+  (80, 0, 1, <0:6>, 1, "jaguar", 0, "null")
+  (68, 1, 2, <7:15>, 1, "finished", 0, "null")
+  (73, 1, 2, <7:15>, 1, "finished", 0, "null", "VBD" 1.0)
+  (78, 1, 2, <7:15>, 1, "finished", 0, "null")
+  (57, 2, 3, <16:17>, 1, "4", 0, "null")
+  (75, 2, 3, <16:17>, 1, "4", 0, "null")
+  (69, 3, 4, <18:23>, 1, "lower", 0, "null")
+  (72, 3, 4, <18:23>, 1, "lower", 0, "null", "JJR" 0.971)
+  (79, 3, 4, <18:23>, 1, "lower", 0, "null")
+  (66, 4, 5, <24:26>, 1, "at", 0, "null")
+  (77, 4, 5, <24:26>, 1, "at", 0, "null")
+  (60, 5, 6, <27:31>, 1, "694.", 0, "null")
+  (76, 5, 6, <27:31>, 1, "694.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1631 SB-HD_MC_C 8.12177 0 6
+  (1617 HDN_BNP-PN_C 0.54288 0 1
+   (1616 N_SG_ILR 0.591837 0 1
+    (82 jaguar_n1@n_-_pn_le 0.576281 0 1
+     ("jaguar" 74
+      "token [ +CARG \"Jaguar\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"jaguar\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1630 ^HD-AJ_INT-UNSL_C 7.09139 1 6
+   (1619 ^HD_OPTCMP_C 2.42514 1 2
+    (1618 V_PST_OLR 1.54661 1 2
+     (96 finish_v1@v_np*_le 1.98314 1 2
+      ("finished" 68
+       "token [ +CARG #1=\"finished\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1629 NP_ADV-MNP_C 4.48216 2 6
+    (1628 HDN_BNP-NUM_C 4.97355 2 6
+     (1627 HDN-AJ_REDREL_C 4.65559 2 6
+      (1620 ^HDN_NP-NUM_C -0.382682 2 3
+       (221 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+        ("4" 57
+         "token [ +CARG #1=\"4\" +CLASS card_or_dom_ne +FORM #1 +FROM \"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (1626 HD-AJ_INT-UNSL_C 4.89212 3 6
+       (1621 ^HD_OPTCMP_C 1.49206 3 4
+        (225 lower_a1@aj_pp_i-cmp_le 1.15484 3 4
+         ("lower" 69
+          "token [ +CARG #1=\"lower\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97102580000000005\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (1625 HD-CMP_U_C 2.26422 4 6
+        (230 at@p_np_i-reg_le -1.21766 4 5
+         ("at" 66
+          "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (1624 HDN_BNP-NUM_C 4.01481 5 6
+         (1623 HDN_NP-NUM_C 3.49617 5 6
+          (1622 W_PERIOD_PLR 2.19869 5 6
+           (235 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+            ("694." 60
+             "token [ +CARG \"694\" +CLASS card_or_year_ne +FORM \"694.\" +FROM \"27\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))))
+
+(S (NP (N (N "jaguar")))
+ (VP (VP (V (V "finished")))
+  (PP
+   (NP
+    (N (N (ADJ "4"))
+     (AP (AP (ADJ "lower"))
+      (PP (P "at") (NP (N (ADJ (ADJ "694.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Jaguar" ]
+          [ _finish_v_1<7:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ]
+          [ loc_nonsp<16:31>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x11 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<16:31>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ card<16:17>
+            LBL: h15
+            ARG0: x11
+            ARG1: i16
+            CARG: "4" ]
+          [ _low_a_1<18:23>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11 ]
+          [ comp<18:23>
+            LBL: h15
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e17
+            ARG2: u18 ]
+          [ _at_p<24:26>
+            LBL: h15
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e17
+            ARG2: x21 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<27:31>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ card<27:31>
+            LBL: h25
+            ARG0: x21
+            ARG1: i26
+            CARG: "694" ] >
+   HCONS: < h23 QEQ h25 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Jaguar"){x PERS 3, NUM sg, IND +}[]
+ e3:_finish_v_1<7:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:loc_nonsp<16:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x11]
+ _2:number_q<16:31>[BV x11]
+ x11:card<16:17>("4"){x PERS 3, NUM sg}[]
+ e17:_low_a_1<18:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+ e19:comp<18:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e17]
+ e20:_at_p<24:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e17, ARG2 x21]
+ _3:number_q<27:31>[BV x21]
+ x21:card<27:31>("694"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Jaguar)  
+  _finish_v_1<7:15> ARG1 named<0:6>(Jaguar)  
+  loc_nonsp<16:31> ARG1 _finish_v_1<7:15>  
+  loc_nonsp<16:31> ARG2 card<16:17>(4)  
+  number_q<16:31> BV card<16:17>(4)  
+  _low_a_1<18:23> ARG1 card<16:17>(4)  
+  comp<18:23> ARG1 _low_a_1<18:23>  
+  _at_p<24:26> ARG1 _low_a_1<18:23>  
+  _at_p<24:26> ARG2 card<27:31>(694)  
+  number_q<27:31> BV card<27:31>(694)  
+  named<0:6>(Jaguar) PERS 3  
+  named<0:6>(Jaguar) NUM sg  
+  named<0:6>(Jaguar) IND +  
+  _finish_v_1<7:15> SF prop  
+  _finish_v_1<7:15> TENSE past  
+  _finish_v_1<7:15> MOOD indicative  
+  _finish_v_1<7:15> PROG -  
+  _finish_v_1<7:15> PERF -  
+  loc_nonsp<16:31> SF prop  
+  loc_nonsp<16:31> TENSE untensed  
+  loc_nonsp<16:31> MOOD indicative  
+  loc_nonsp<16:31> PROG -  
+  loc_nonsp<16:31> PERF -  
+  card<16:17>(4) PERS 3  
+  card<16:17>(4) NUM sg  
+  _low_a_1<18:23> SF prop  
+  _low_a_1<18:23> TENSE untensed  
+  _low_a_1<18:23> MOOD indicative  
+  _low_a_1<18:23> PROG -  
+  _low_a_1<18:23> PERF -  
+  comp<18:23> SF prop  
+  comp<18:23> TENSE untensed  
+  comp<18:23> MOOD indicative  
+  comp<18:23> PROG -  
+  comp<18:23> PERF -  
+  _at_p<24:26> SF prop  
+  _at_p<24:26> TENSE untensed  
+  _at_p<24:26> MOOD indicative  
+  _at_p<24:26> PROG -  
+  _at_p<24:26> PERF -  
+  card<27:31>(694) PERS 3  
+  card<27:31>(694) NUM sg  
+}
+

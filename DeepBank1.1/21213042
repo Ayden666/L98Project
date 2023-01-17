@@ -1,0 +1,151 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:06 h)).
+;;;
+
+[21213042] (1 of 1) {1} `Treasury, Agency Securities'
+
+[21213042:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Treasury", 0, "null", "NNP" 0.9758 "NN" 0.0242)
+  (2, 1, 2, <8:9>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <10:16>, 1, "Agency", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <17:27>, 1, "Securities", 0, "null", "NNPS" 0.6185 "NNP" 0.369 "NNS" 0.0126)
+>
+
+<
+  (54, 0, 1, <0:9>, 1, "Treasury,", 0, "null")
+  (60, 0, 1, <0:9>, 1, "treasury,", 0, "null")
+  (63, 0, 1, <0:9>, 1, "treasury,", 0, "null")
+  (39, 1, 2, <10:16>, 1, "Agency", 0, "null")
+  (57, 1, 2, <10:16>, 1, "Agency", 0, "null", "NNP" 1.0)
+  (58, 1, 2, <10:16>, 1, "agency", 0, "null")
+  (61, 1, 2, <10:16>, 1, "agency", 0, "null")
+  (40, 2, 3, <17:27>, 1, "Securities", 0, "null")
+  (55, 2, 3, <17:27>, 1, "Securities", 0, "null", "NNPS" 0.6185)
+  (56, 2, 3, <17:27>, 1, "Securities", 0, "null", "NNP" 0.369)
+  (59, 2, 3, <17:27>, 1, "securities", 0, "null")
+  (62, 2, 3, <17:27>, 1, "securities", 0, "null")
+>
+
+(ROOT_FRAG
+ (439 NP_FRG_C -1.04645 0 3
+  (438 HDN_BNP-PN_C 0.100063 0 3
+   (437 NP-HDN_CTY-CPD_C 1.37652 0 3
+    (432 HDN_BNP-PN_C 0.710257 0 1
+     (431 W_COMMA_PLR -0.118892 0 1
+      (430 N_SG_ILR -0.461604 0 1
+       (66 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Treasury," 54
+         "token [ +CARG \"Treasury\" +CLASS proper_ne +FORM \"Treasury,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9758194\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (436 ^NP-HDN_NME-CPD_C 0.877332 1 3
+     (434 HDN_BNP-PN_C 0.203678 1 2
+      (433 N_SG_ILR -0.386912 1 2
+       (77 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Agency" 39
+         "token [ +CARG #1=\"Agency\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (435 ^N_SG_ILR 0.251918 2 3
+      (82 generic_proper_ne@n_-_pn-gen_le 0.237045 2 3
+       ("Securities" 40
+        "token [ +CARG #1=\"Securities\" +CLASS proper_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61845309999999998\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(XP
+ (NP
+  (N (NP (N (N (N "Treasury,"))))
+   (N (NP (N (N "Agency"))) (N (N "Securities"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:27>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:27>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:27>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:9>
+            LBL: h14
+            ARG0: x9
+            CARG: "Treasury" ]
+          [ compound<10:27>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<10:16>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<10:16>
+            LBL: h20
+            ARG0: x15
+            CARG: "Agency" ]
+          [ named<17:27>
+            LBL: h8
+            ARG0: x4
+            CARG: "Securities" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:27>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:27>[BV x4]
+ e10:compound<0:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:9>[BV x9]
+ x9:named<0:9>("Treasury"){x PERS 3, NUM sg, IND +}[]
+ e16:compound<10:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x15]
+ _3:proper_q<10:16>[BV x15]
+ x15:named<10:16>("Agency"){x PERS 3, NUM sg, IND +}[]
+ x4:named<17:27>("Securities"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:27> ARG named<17:27>(Securities)  
+  proper_q<0:27> BV named<17:27>(Securities)  
+  compound<0:27> ARG1 named<17:27>(Securities)  
+  compound<0:27> ARG2 named<0:9>(Treasury)  
+  proper_q<0:9> BV named<0:9>(Treasury)  
+  compound<10:27> ARG1 named<17:27>(Securities)  
+  compound<10:27> ARG2 named<10:16>(Agency)  
+  proper_q<10:16> BV named<10:16>(Agency)  
+  unknown<0:27> SF prop-or-ques  
+  unknown<0:27> TENSE untensed  
+  unknown<0:27> MOOD indicative  
+  unknown<0:27> PROG -  
+  unknown<0:27> PERF -  
+  compound<0:27> SF prop  
+  compound<0:27> TENSE untensed  
+  compound<0:27> MOOD indicative  
+  compound<0:27> PROG -  
+  compound<0:27> PERF -  
+  named<0:9>(Treasury) PERS 3  
+  named<0:9>(Treasury) NUM sg  
+  named<0:9>(Treasury) IND +  
+  compound<10:27> SF prop  
+  compound<10:27> TENSE untensed  
+  compound<10:27> MOOD indicative  
+  compound<10:27> PROG -  
+  compound<10:27> PERF -  
+  named<10:16>(Agency) PERS 3  
+  named<10:16>(Agency) NUM sg  
+  named<10:16>(Agency) IND +  
+  named<17:27>(Securities) PERS 3  
+  named<17:27>(Securities) NUM sg  
+  named<17:27>(Securities) IND +  
+}
+

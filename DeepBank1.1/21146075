@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146075] (1 of 1) {1} `Their protest was ignored.'
+
+[21146075:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Their", 0, "null", "PRP$" 1.0)
+  (2, 1, 2, <6:13>, 1, "protest", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:17>, 1, "was", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <18:25>, 1, "ignored", 0, "null", "VBN" 0.9888 "VBD" 0.0112)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:5>, 1, "their", 0, "null")
+  (64, 0, 1, <0:5>, 1, "their", 0, "null")
+  (52, 1, 2, <6:13>, 1, "protest", 0, "null")
+  (58, 1, 2, <6:13>, 1, "protest", 0, "null", "NN" 1.0)
+  (61, 1, 2, <6:13>, 1, "protest", 0, "null")
+  (54, 2, 3, <14:17>, 1, "was", 0, "null")
+  (59, 2, 3, <14:17>, 1, "was", 0, "null", "VBD" 1.0)
+  (62, 2, 3, <14:17>, 1, "was", 0, "null")
+  (55, 3, 4, <18:26>, 1, "ignored.", 0, "null")
+  (57, 3, 4, <18:26>, 1, "ignored.", 0, "null", "VBN" 0.9888)
+  (63, 3, 4, <18:26>, 1, "ignored.", 0, "null")
+>
+
+(ROOT_STRICT
+ (869 SB-HD_MC_C 5.17594 0 4
+  (864 SP-HD_N_C 0.460373 0 2
+   (65 their@d_-_poss-their_le 0.930736 0 1
+    ("their" 60
+     "token [ +CARG \"Their\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"their\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (863 ^N_MS-CNT_ILR -0.341783 1 2
+    (70 protest_n1@n_-_mc_le 0 1 2
+     ("protest" 52
+      "token [ +CARG #1=\"protest\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (868 ^HD-CMP_U_C 2.76106 2 4
+   (80 be_c_was@v_prd_was_le 2.0009 2 3
+    ("was" 54
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (867 HD_OPTCMP_C 0.772703 3 4
+    (866 W_PERIOD_PLR 0.621276 3 4
+     (865 V_PAS_ODLR 0.295437 3 4
+      (114 ignore_v1@v_np_le 0 3 4
+       ("ignored." 55
+        "token [ +CARG \"ignored\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"ignored.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98879799999999995\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "their") (N (N "protest")))
+ (VP (V "was") (VP (V (V (V "ignored."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ def_explicit_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ poss<0:5>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ pron<0:5>
+            LBL: h14
+            ARG0: x9 ]
+          [ _protest_n_1<6:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _ignore_v_1<18:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x6 ]
+          [ parg_d<18:26>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:def_explicit_q<0:5>[BV x6]
+ e10:poss<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:pronoun_q<0:5>[BV x9]
+ x9:pron<0:5>{x PERS 3, NUM pl, PT std}[]
+ x6:_protest_n_1<6:13>{x PERS 3, NUM sg}[]
+ e3:_ignore_v_1<18:26>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e16:parg_d<18:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  def_explicit_q<0:5> BV _protest_n_1<6:13>  
+  poss<0:5> ARG1 _protest_n_1<6:13>  
+  poss<0:5> ARG2 pron<0:5>  
+  pronoun_q<0:5> BV pron<0:5>  
+  _ignore_v_1<18:26> ARG2 _protest_n_1<6:13>  
+  parg_d<18:26> ARG1 _ignore_v_1<18:26>  
+  parg_d<18:26> ARG2 _protest_n_1<6:13>  
+  poss<0:5> SF prop  
+  poss<0:5> TENSE untensed  
+  poss<0:5> MOOD indicative  
+  poss<0:5> PROG -  
+  poss<0:5> PERF -  
+  pron<0:5> PERS 3  
+  pron<0:5> NUM pl  
+  pron<0:5> PT std  
+  _protest_n_1<6:13> PERS 3  
+  _protest_n_1<6:13> NUM sg  
+  _ignore_v_1<18:26> SF prop  
+  _ignore_v_1<18:26> TENSE past  
+  _ignore_v_1<18:26> MOOD indicative  
+  _ignore_v_1<18:26> PROG -  
+  _ignore_v_1<18:26> PERF -  
+  parg_d<18:26> SF prop  
+  parg_d<18:26> TENSE untensed  
+  parg_d<18:26> MOOD indicative  
+  parg_d<18:26> PROG -  
+  parg_d<18:26> PERF -  
+}
+

@@ -1,0 +1,56 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:23 h)).
+;;;
+
+[20750016] (1 of 1) {1} `For instance?'
+
+[20750016:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "For", 0, "null", "IN" 1.0)
+  (2, 1, 2, <4:12>, 1, "instance", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:13>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (34, 0, 1, <0:3>, 1, "for", 0, "null")
+  (36, 0, 1, <0:3>, 1, "for", 0, "null")
+  (32, 1, 2, <4:13>, 1, "instance?", 0, "null")
+  (33, 1, 2, <4:13>, 1, "instance?", 0, "null", "NN" 1.0)
+  (35, 1, 2, <4:13>, 1, "instance?", 0, "null")
+>
+
+(ROOT_FRAG
+ (163 R_DSC-FRG_C 0 0 2
+  (162 W_QMARK_PLR 0 0 2
+   (103 for_instance_disc_adv@av_-_dc-like-pr_le 0 0 2
+    ("for instance?" 34
+     "token [ +CARG \"For\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"for\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+     32
+     "token [ +CARG \"instance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"instance?\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (ADV (ADV "for instance?")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h4
+            ARG0: e3
+            ARG: u5 ] >
+   HCONS: < h1 QEQ u > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:13> SF prop-or-ques  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+}
+

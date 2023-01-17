@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (23:06 h)).
+;;;
+
+[21424014] (1 of 1) {1} `Inflation is at record levels.'
+
+[21424014:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Inflation", 0, "null", "NN" 1.0)
+  (2, 1, 2, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <13:15>, 1, "at", 0, "null", "IN" 1.0)
+  (4, 3, 4, <16:22>, 1, "record", 0, "null", "NN" 0.6137 "JJ" 0.3863)
+  (5, 4, 5, <23:29>, 1, "levels", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:9>, 1, "Inflation", 0, "null")
+  (72, 0, 1, <0:9>, 1, "inflation", 0, "null")
+  (77, 0, 1, <0:9>, 1, "inflation", 0, "null")
+  (61, 1, 2, <10:12>, 1, "is", 0, "null")
+  (70, 1, 2, <10:12>, 1, "is", 0, "null", "VBZ" 1.0)
+  (73, 1, 2, <10:12>, 1, "is", 0, "null")
+  (63, 2, 3, <13:15>, 1, "at", 0, "null")
+  (74, 2, 3, <13:15>, 1, "at", 0, "null")
+  (66, 3, 4, <16:22>, 1, "record", 0, "null")
+  (69, 3, 4, <16:22>, 1, "record", 0, "null", "NN" 0.6137)
+  (76, 3, 4, <16:22>, 1, "record", 0, "null")
+  (65, 4, 5, <23:30>, 1, "levels.", 0, "null")
+  (71, 4, 5, <23:30>, 1, "levels.", 0, "null", "NNS" 1.0)
+  (75, 4, 5, <23:30>, 1, "levels.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1074 SB-HD_MC_C 4.75582 0 5
+  (1066 HDN_BNP_C 0.617856 0 1
+   (1065 HDN_OPTCMP_C 0.335861 0 1
+    (1064 N_MS_ILR 0.431979 0 1
+     (79 inflation_n1@n_pp_m_le 0.36379 0 1
+      ("inflation" 72
+       "token [ +CARG \"Inflation\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"inflation\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1073 ^HD-CMP_U_C 2.62206 1 5
+   (119 be_c_is@v_prd_is_le -0.539768 1 2
+    ("is" 61
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1072 HD-CMP_U_C 0.527843 2 5
+    (205 at@p_np_i-reg_le -1.62356 2 3
+     ("at" 63
+      "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1071 HDN_BNP_C 1.99606 3 5
+     (1070 N-HDN_CPD_C 2.38501 3 5
+      (1067 HDN_OPTCMP_C 1.55102 3 4
+       (210 record_n1@n_pp_mc-of_le -0.584733 3 4
+        ("record" 66
+         "token [ +CARG #1=\"record\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61372309999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1069 ^W_PERIOD_PLR 0.164979 4 5
+       (1068 N_PL_OLR 0.634532 4 5
+        (215 level_n1@n_-_c_le 0 4 5
+         ("levels." 65
+          "token [ +CARG \"levels\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"levels.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "inflation"))))
+ (VP (V "is")
+  (PP (P "at") (NP (N (N (N "record")) (N (N (N "levels."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _inflation_n_of<0:9>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _at_p<13:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<16:30>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<16:30>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x15 ]
+          [ udef_q<16:22>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _record_n_of<16:22>
+            LBL: h20
+            ARG0: x15
+            ARG1: i21 ]
+          [ _level_n_1<23:30>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:9>[BV x6]
+ x6:_inflation_n_of<0:9>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_at_p<13:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<16:30>[BV x10]
+ e16:compound<16:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x15]
+ _3:udef_q<16:22>[BV x15]
+ x15:_record_n_of<16:22>{x}[]
+ x10:_level_n_1<23:30>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:9> BV _inflation_n_of<0:9>  
+  _at_p<13:15> ARG1 _inflation_n_of<0:9>  
+  _at_p<13:15> ARG2 _level_n_1<23:30>  
+  udef_q<16:30> BV _level_n_1<23:30>  
+  compound<16:30> ARG1 _level_n_1<23:30>  
+  compound<16:30> ARG2 _record_n_of<16:22>  
+  udef_q<16:22> BV _record_n_of<16:22>  
+  _inflation_n_of<0:9> PERS 3  
+  _inflation_n_of<0:9> NUM sg  
+  _inflation_n_of<0:9> GEND n  
+  _inflation_n_of<0:9> IND -  
+  _at_p<13:15> SF prop  
+  _at_p<13:15> TENSE pres  
+  _at_p<13:15> MOOD indicative  
+  _at_p<13:15> PROG -  
+  _at_p<13:15> PERF -  
+  compound<16:30> SF prop  
+  compound<16:30> TENSE untensed  
+  compound<16:30> MOOD indicative  
+  compound<16:30> PROG -  
+  compound<16:30> PERF -  
+  _level_n_1<23:30> PERS 3  
+  _level_n_1<23:30> NUM pl  
+  _level_n_1<23:30> IND +  
+}
+

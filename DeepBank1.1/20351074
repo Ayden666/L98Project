@@ -1,0 +1,87 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:25 h)).
+;;;
+
+[20351074] (1 of 1) {1} `Foreign Bonds'
+
+[20351074:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Foreign", 0, "null", "JJ" 0.8306 "NNP" 0.1694)
+  (2, 1, 2, <8:13>, 1, "Bonds", 0, "null", "NNS" 0.8787 "NNP" 0.0908 "NNPS" 0.0305)
+>
+
+<
+  (31, 0, 1, <0:7>, 1, "Foreign", 0, "null")
+  (33, 0, 1, <0:7>, 1, "Foreign", 0, "null", "JJ" 0.8306)
+  (35, 0, 1, <0:7>, 1, "foreign", 0, "null")
+  (37, 0, 1, <0:7>, 1, "foreign", 0, "null")
+  (20, 1, 2, <8:13>, 1, "Bonds", 0, "null")
+  (32, 1, 2, <8:13>, 1, "Bonds", 0, "null", "NNS" 0.8787)
+  (34, 1, 2, <8:13>, 1, "bonds", 0, "null")
+  (36, 1, 2, <8:13>, 1, "bonds", 0, "null")
+>
+
+(ROOT_FRAG
+ (189 NP_FRG_C 2.15376 0 2
+  (188 HDN_BNP_C 2.35817 0 2
+   (187 AJ-HDN_NORM_C 2.49352 0 2
+    (41 foreign_a1@aj_-_i_le 0.46454 0 1
+     ("foreign" 35
+      "token [ +CARG \"Foreign\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"foreign\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83058520000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (186 ^N_PL_OLR 0.533702 1 2
+     (52 bond_n2@n_-_c_le 0.552559 1 2
+      ("bonds" 34
+       "token [ +CARG \"Bonds\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"bonds\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87868959999999996\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (AP "foreign") (N (N "bonds")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:13>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:13>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _foreign_a_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _bond_n_1<8:13>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:13>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:13>[BV x4]
+ e9:_foreign_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_bond_n_1<8:13>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:13> ARG _bond_n_1<8:13>  
+  udef_q<0:13> BV _bond_n_1<8:13>  
+  _foreign_a_1<0:7> ARG1 _bond_n_1<8:13>  
+  unknown<0:13> SF prop-or-ques  
+  unknown<0:13> TENSE untensed  
+  unknown<0:13> MOOD indicative  
+  unknown<0:13> PROG -  
+  unknown<0:13> PERF -  
+  _foreign_a_1<0:7> SF prop  
+  _foreign_a_1<0:7> TENSE untensed  
+  _foreign_a_1<0:7> MOOD indicative  
+  _foreign_a_1<0:7> PROG -  
+  _foreign_a_1<0:7> PERF -  
+  _bond_n_1<8:13> PERS 3  
+  _bond_n_1<8:13> NUM pl  
+  _bond_n_1<8:13> IND +  
+}
+

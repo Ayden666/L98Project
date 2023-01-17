@@ -1,0 +1,231 @@
+;;;
+;;; Redwoods export of `wsj15d';
+;;; (wsun@wsun; 23-jan-2018 (00:46 h)).
+;;;
+
+[21588005] (1 of 1) {1} `Mary Poulin Palo Alto, Calif.'
+
+[21588005:3] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Mary", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:11>, 1, "Poulin", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:16>, 1, "Palo", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <17:21>, 1, "Alto", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <21:22>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <23:28>, 1, "Calif", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (86, 0, 1, <0:4>, 1, "Mary", 0, "null")
+  (93, 0, 1, <0:4>, 1, "mary", 0, "null")
+  (100, 0, 1, <0:4>, 1, "mary", 0, "null")
+  (68, 1, 2, <5:11>, 1, "Poulin", 0, "null")
+  (87, 1, 2, <5:11>, 1, "Poulin", 0, "null", "NNP" 1.0)
+  (91, 1, 2, <5:11>, 1, "poulin", 0, "null")
+  (96, 1, 2, <5:11>, 1, "poulin", 0, "null")
+  (69, 2, 3, <12:16>, 1, "Palo", 0, "null")
+  (88, 2, 3, <12:16>, 1, "Palo", 0, "null", "NNP" 1.0)
+  (92, 2, 3, <12:16>, 1, "palo", 0, "null")
+  (97, 2, 3, <12:16>, 1, "palo", 0, "null")
+  (73, 3, 4, <17:22>, 1, "Alto,", 0, "null")
+  (89, 3, 4, <17:22>, 1, "Alto,", 0, "null", "NNP" 1.0)
+  (94, 3, 4, <17:22>, 1, "alto,", 0, "null")
+  (98, 3, 4, <17:22>, 1, "alto,", 0, "null")
+  (75, 4, 5, <23:29>, 1, "Calif.", 0, "null")
+  (90, 4, 5, <23:29>, 1, "Calif.", 0, "null", "NNP" 1.0)
+  (95, 4, 5, <23:29>, 1, "calif.", 0, "null")
+  (99, 4, 5, <23:29>, 1, "calif.", 0, "null")
+>
+
+(ROOT_FRAG
+ (1022 NP_FRG_C 4.64166 0 5
+  (1021 HDN_BNP-PN_C 5.78817 0 5
+   (1020 NP-HDN_NME-CPD_C 5.82748 0 5
+    (989 HDN_BNP-PN_C 2.30669 0 2
+     (988 NP-HDN_NME-CPD_C 1.95878 0 2
+      (986 HDN_BNP-PN_C 0.586141 0 1
+       (985 N_SG_ILR -0.166294 0 1
+        (106 mary@n_-_pn_le 0 0 1
+         ("mary" 93
+          "token [ +CARG \"Mary\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"mary\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (987 ^N_SG_ILR -0.143257 1 2
+       (109 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Poulin" 68
+         "token [ +CARG #1=\"Poulin\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (1019 ^NP-HDN_CTY-CPD_C 3.9585 2 5
+     (1018 HDN_BNP-PN_C 2.0927 2 4
+      (1017 NP-HDN_NME-CPD_C 3.25666 2 4
+       (1016 HDN_BNP-PN_C 0.365523 2 3
+        (990 N_SG_ILR -0.143257 2 3
+         (121 generic_proper_ne@n_-_pn-gen_le 0 2 3
+          ("Palo" 69
+           "token [ +CARG #1=\"Palo\" +CLASS proper_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (994 ^W_COMMA_PLR 1.57253 3 4
+        (993 N_SG_ILR 0.501186 3 4
+         (123 generic_proper_ne@n_-_pn-gen_le 0 3 4
+          ("Alto," 73
+           "token [ +CARG \"Alto\" +CLASS proper_ne +FORM \"Alto,\" +FROM \"17\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+     (998 ^W_PERIOD_PLR 0.186499 4 5
+      (997 N_SG_ILR -0.429343 4 5
+       (143 california_n3@n_-_pn_le 0 4 5
+        ("calif." 95
+         "token [ +CARG \"Calif\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"calif.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (NP
+  (N (NP (N (NP (N (N "mary"))) (N (N "Poulin"))))
+   (N (NP (N (NP (N (N "Palo"))) (N (N (N "Alto,")))))
+    (N (N (N "calif.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:29>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:29>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:29>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:11>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:4>
+            LBL: h20
+            ARG0: x15
+            CARG: "Mary" ]
+          [ named<5:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "Poulin" ]
+          [ compound<12:29>
+            LBL: h8
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<12:22>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ compound<12:22>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: x27 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<12:16>
+            LBL: h29
+            ARG0: x27
+            RSTR: h30
+            BODY: h31 ]
+          [ named<12:16>
+            LBL: h32
+            ARG0: x27
+            CARG: "Palo" ]
+          [ named<17:22>
+            LBL: h26
+            ARG0: x21
+            CARG: "Alto" ]
+          [ named<23:29>
+            LBL: h8
+            ARG0: x4
+            CARG: "California" ] >
+   HCONS: < h30 QEQ h32 h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:29>[BV x4]
+ e10:compound<0:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:11>[BV x9]
+ e16:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:4>[BV x15]
+ x15:named<0:4>("Mary"){x PERS 3, NUM sg, IND +}[]
+ x9:named<5:11>("Poulin"){x PERS 3, NUM sg, IND +}[]
+ e22:compound<12:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x21]
+ _4:proper_q<12:22>[BV x21]
+ e28:compound<12:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21, ARG2 x27]
+ _5:proper_q<12:16>[BV x27]
+ x27:named<12:16>("Palo"){x PERS 3, NUM sg, IND +}[]
+ x21:named<17:22>("Alto"){x PERS 3, NUM sg, IND +}[]
+ x4:named<23:29>("California"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:29> ARG named<23:29>(California)  
+  proper_q<0:29> BV named<23:29>(California)  
+  compound<0:29> ARG1 named<23:29>(California)  
+  compound<0:29> ARG2 named<5:11>(Poulin)  
+  proper_q<0:11> BV named<5:11>(Poulin)  
+  compound<0:11> ARG1 named<5:11>(Poulin)  
+  compound<0:11> ARG2 named<0:4>(Mary)  
+  proper_q<0:4> BV named<0:4>(Mary)  
+  compound<12:29> ARG1 named<23:29>(California)  
+  compound<12:29> ARG2 named<17:22>(Alto)  
+  proper_q<12:22> BV named<17:22>(Alto)  
+  compound<12:22> ARG1 named<17:22>(Alto)  
+  compound<12:22> ARG2 named<12:16>(Palo)  
+  proper_q<12:16> BV named<12:16>(Palo)  
+  unknown<0:29> SF prop  
+  unknown<0:29> TENSE untensed  
+  unknown<0:29> MOOD indicative  
+  unknown<0:29> PROG -  
+  unknown<0:29> PERF -  
+  compound<0:29> SF prop  
+  compound<0:29> TENSE untensed  
+  compound<0:29> MOOD indicative  
+  compound<0:29> PROG -  
+  compound<0:29> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:4>(Mary) PERS 3  
+  named<0:4>(Mary) NUM sg  
+  named<0:4>(Mary) IND +  
+  named<5:11>(Poulin) PERS 3  
+  named<5:11>(Poulin) NUM sg  
+  named<5:11>(Poulin) IND +  
+  compound<12:29> SF prop  
+  compound<12:29> TENSE untensed  
+  compound<12:29> MOOD indicative  
+  compound<12:29> PROG -  
+  compound<12:29> PERF -  
+  compound<12:22> SF prop  
+  compound<12:22> TENSE untensed  
+  compound<12:22> MOOD indicative  
+  compound<12:22> PROG -  
+  compound<12:22> PERF -  
+  named<12:16>(Palo) PERS 3  
+  named<12:16>(Palo) NUM sg  
+  named<12:16>(Palo) IND +  
+  named<17:22>(Alto) PERS 3  
+  named<17:22>(Alto) NUM sg  
+  named<17:22>(Alto) IND +  
+  named<23:29>(California) PERS 3  
+  named<23:29>(California) NUM sg  
+  named<23:29>(California) IND +  
+}
+

@@ -1,0 +1,125 @@
+;;;
+;;; Redwoods export of `wsj21d';
+;;; (wsun@wsun; 23-jan-2018 (06:35 h)).
+;;;
+
+[22170055] (1 of 1) {1} `*Actual performance, not annualized'
+
+[22170055:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "*Actual", 0, "null", "JJ" 0.965 "NNP" 0.035)
+  (2, 1, 2, <8:19>, 1, "performance", 0, "null", "NN" 1.0)
+  (3, 2, 3, <19:20>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <21:24>, 1, "not", 0, "null", "RB" 1.0)
+  (5, 4, 5, <25:35>, 1, "annualized", 0, "null", "VBN" 0.8568 "JJ" 0.1432)
+>
+
+<
+  (60, 0, 1, <0:7>, 1, "*Actual", 0, "null", "JJ" 0.965)
+  (64, 0, 1, <0:7>, 1, "*actual", 0, "null")
+  (68, 0, 1, <0:7>, 1, "*actual", 0, "null")
+  (54, 1, 2, <8:20>, 1, "performance,", 0, "null")
+  (62, 1, 2, <8:20>, 1, "performance,", 0, "null", "NN" 1.0)
+  (66, 1, 2, <8:20>, 1, "performance,", 0, "null")
+  (52, 2, 3, <21:24>, 1, "not", 0, "null")
+  (61, 2, 3, <21:24>, 1, "not", 0, "null", "RB" 1.0)
+  (65, 2, 3, <21:24>, 1, "not", 0, "null")
+  (55, 3, 4, <25:35>, 1, "annualized", 0, "null")
+  (59, 3, 4, <25:35>, 1, "annualized", 0, "null", "VBN" 0.8568)
+  (63, 3, 4, <25:35>, 1, "annualized", 0, "null", "JJ" 0.1432)
+  (67, 3, 4, <25:35>, 1, "annualized", 0, "null")
+>
+
+(ROOT_FRAG
+ (788 NP-AJ_J-FRG_C 0.768546 0 4
+  (786 ^HDN_BNP_C 1.11698 0 2
+   (785 AJ-HDN_NORM_C 1.23498 0 2
+    (782 W_ASTERISK-PRE_PLR 0 0 1
+     (72 actual_a1@aj_-_i_le 0 0 1
+      ("*actual" 64
+       "token [ +CARG \"*Actual\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"*actual\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96501210000000004\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (784 ^W_COMMA_PLR 1.23498 1 2
+     (783 N_MS-CNT_ILR 0.60221 1 2
+      (75 performance_n1@n_-_mc_le 0 1 2
+       ("performance," 54
+        "token [ +CARG \"performance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"performance,\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (787 AJ-HD_SCP-XP_C -0.348433 2 4
+   (125 not_prdp@av_-_s-not-prdp_le -0.348433 2 3
+    ("not" 52
+     "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (318 generic_adj@aj_-_i-unk_le 0 3 4
+    ("annualized" 63
+     "token [ +CARG #1=\"annualized\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED \"_annualized/JJ_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB \"0.8567785\" +TAG \"VBN\" ] +PRBS *cons* [ FIRST \"0.1432215\" REST *null* ] +TAGS *cons* [ FIRST \"JJ\" REST *null* ] ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+
+(XP (NP (N (AP (AP "*actual")) (N (N (N "performance,")))))
+ (AP (ADV "not") (AP "annualized")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:35>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:20>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _actual_a_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ]
+          [ _performance_n_1<8:20>
+            LBL: h8
+            ARG0: x4 ]
+          [ neg<21:24>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h10 ]
+          [ _annualized/jj_u_unknown<25:35>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u13 ] >
+   HCONS: < h10 QEQ h12 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:20>[BV x4]
+ e9:_actual_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+ x4:_performance_n_1<8:20>{x PERS 3, NUM sg}[]
+ e11:neg<21:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:_annualized/jj_u_unknown<25:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:35> ARG _performance_n_1<8:20>  
+  udef_q<0:20> BV _performance_n_1<8:20>  
+  _actual_a_1<0:7> ARG1 _performance_n_1<8:20>  
+  neg<21:24> ARG1 _annualized/jj_u_unknown<25:35>  
+  unknown<0:35> SF prop  
+  unknown<0:35> TENSE untensed  
+  unknown<0:35> MOOD indicative  
+  unknown<0:35> PROG -  
+  unknown<0:35> PERF -  
+  _actual_a_1<0:7> SF prop  
+  _actual_a_1<0:7> TENSE untensed  
+  _actual_a_1<0:7> MOOD indicative  
+  _actual_a_1<0:7> PROG -  
+  _actual_a_1<0:7> PERF -  
+  _performance_n_1<8:20> PERS 3  
+  _performance_n_1<8:20> NUM sg  
+  neg<21:24> SF prop  
+  neg<21:24> TENSE untensed  
+  neg<21:24> MOOD indicative  
+  neg<21:24> PROG -  
+  neg<21:24> PERF -  
+  _annualized/jj_u_unknown<25:35> SF prop  
+  _annualized/jj_u_unknown<25:35> TENSE untensed  
+  _annualized/jj_u_unknown<25:35> MOOD indicative  
+  _annualized/jj_u_unknown<25:35> PROG -  
+  _annualized/jj_u_unknown<25:35> PERF -  
+}
+

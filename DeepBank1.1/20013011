@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:03 h)).
+;;;
+
+[20013011] (1 of 1) {1} `"That attracts attention . . .'
+
+[20013011:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "That", 0, "null", "DT" 0.9778 "WDT" 0.0222)
+  (3, 2, 3, <6:14>, 1, "attracts", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:24>, 1, "attention", 0, "null", "NN" 1.0)
+  (5, 4, 5, <25:30>, 1, "…", 0, "null", ":" 1.0)
+>
+
+<
+  (59, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (63, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (50, 1, 2, <6:14>, 1, "attracts", 0, "null")
+  (57, 1, 2, <6:14>, 1, "attracts", 0, "null", "VBZ" 1.0)
+  (60, 1, 2, <6:14>, 1, "attracts", 0, "null")
+  (52, 2, 3, <15:24>, 1, "attention", 0, "null")
+  (58, 2, 3, <15:24>, 1, "attention", 0, "null", "NN" 1.0)
+  (61, 2, 3, <15:24>, 1, "attention", 0, "null")
+  (54, 3, 4, <25:30>, 1, "…", 0, "null")
+  (62, 3, 4, <25:30>, 1, "…", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (314 HD-AJ_SCP_C 2.46979 0 4
+  (313 ^SB-HD_MC_C 2.11346 0 3
+   (308 HDN_BNP-QNT_C 0.968049 0 1
+    (307 HDN_OPTCMP_C 0.881544 0 1
+     (306 W_DQLEFT_PLR 0.534835 0 1
+      (79 that_deix@n_-_pr-dei-sg_le 0.171311 0 1
+       ("“that" 59
+        "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“that\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97783350000000002\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (312 ^HD-CMP_U_C 0.101542 1 3
+    (309 ^V_3S-FIN_OLR 0.198464 1 2
+     (99 attract_v1@v_np_le 0 1 2
+      ("attracts" 50
+       "token [ +CARG #1=\"attracts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (311 HDN_BNP_C -0.9276 2 3
+     (310 N_MS-CNT_ILR 0.084539 2 3
+      (109 attention_n2@n_-_mc_le 0 2 3
+       ("attention" 52
+        "token [ +CARG #1=\"attention\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (114 threedots_disc_adv4@av_-_dc-like-po_le 0.356322 3 4
+   ("…" 54
+    "token [ +CARG #1=\"…\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(S
+ (S (NP (N (N (N "“that"))))
+  (VP (V (V "attracts")) (NP (N (N "attention")))))
+ (ADV "…"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _attract_v_1<6:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<15:24>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _attention_n_to<15:24>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:5>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:5>[BV x5]
+ e3:_attract_v_1<6:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<15:24>[BV x9]
+ x9:_attention_n_to<15:24>{x PERS 3, NUM sg}[]
+}
+
+{
+  _that_q_dem<0:5> BV generic_entity<0:5>  
+  _attract_v_1<6:14> ARG1 generic_entity<0:5>  
+  _attract_v_1<6:14> ARG2 _attention_n_to<15:24>  
+  udef_q<15:24> BV _attention_n_to<15:24>  
+  generic_entity<0:5> PERS 3  
+  generic_entity<0:5> NUM sg  
+  generic_entity<0:5> GEND n  
+  _attract_v_1<6:14> SF prop  
+  _attract_v_1<6:14> TENSE pres  
+  _attract_v_1<6:14> MOOD indicative  
+  _attract_v_1<6:14> PROG -  
+  _attract_v_1<6:14> PERF -  
+  _attention_n_to<15:24> PERS 3  
+  _attention_n_to<15:24> NUM sg  
+}
+

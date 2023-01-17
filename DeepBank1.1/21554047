@@ -1,0 +1,205 @@
+;;;
+;;; Redwoods export of `wsj15b';
+;;; (wsun@wsun; 23-jan-2018 (00:21 h)).
+;;;
+
+[21554047] (1 of 1) {1} `Copper prices fell sharply Friday afternoon.'
+
+[21554047:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Copper", 0, "null", "NN" 0.8334 "NNP" 0.1666)
+  (2, 1, 2, <7:13>, 1, "prices", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <14:18>, 1, "fell", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <19:26>, 1, "sharply", 0, "null", "RB" 1.0)
+  (5, 4, 5, <27:33>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <34:43>, 1, "afternoon", 0, "null", "NN" 1.0)
+  (7, 6, 7, <43:44>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:6>, 1, "Copper", 0, "null")
+  (88, 0, 1, <0:6>, 1, "copper", 0, "null")
+  (94, 0, 1, <0:6>, 1, "copper", 0, "null")
+  (72, 1, 2, <7:13>, 1, "prices", 0, "null")
+  (83, 1, 2, <7:13>, 1, "prices", 0, "null", "NNS" 1.0)
+  (90, 1, 2, <7:13>, 1, "prices", 0, "null")
+  (74, 2, 3, <14:18>, 1, "fell", 0, "null")
+  (84, 2, 3, <14:18>, 1, "fell", 0, "null", "VBD" 1.0)
+  (91, 2, 3, <14:18>, 1, "fell", 0, "null")
+  (76, 3, 4, <19:26>, 1, "sharply", 0, "null")
+  (85, 3, 4, <19:26>, 1, "sharply", 0, "null", "RB" 1.0)
+  (92, 3, 4, <19:26>, 1, "sharply", 0, "null")
+  (65, 4, 5, <27:33>, 1, "Friday", 0, "null")
+  (82, 4, 5, <27:33>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (87, 4, 5, <27:33>, 1, "friday", 0, "null")
+  (89, 4, 5, <27:33>, 1, "friday", 0, "null")
+  (78, 5, 6, <34:44>, 1, "afternoon.", 0, "null")
+  (86, 5, 6, <34:44>, 1, "afternoon.", 0, "null", "NN" 1.0)
+  (93, 5, 6, <34:44>, 1, "afternoon.", 0, "null")
+>
+
+(ROOT_STRICT
+ (987 SB-HD_MC_C 8.322 0 6
+  (976 HDN_BNP_C 2.45862 0 2
+   (975 N-HDN_CPD_C 1.83788 0 2
+    (97 copper_n1@n_-_mc_le 0.76783 0 1
+     ("copper" 88
+      "token [ +CARG \"Copper\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"copper\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83338889999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (974 ^N_PL_OLR 1.04317 1 2
+     (99 price_n1@n_-_mc-ed_le 0.382246 1 2
+      ("prices" 72
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (986 ^HD-AJ_INT-UNSL_C 5.02328 2 6
+   (979 ^HD-AJ_INT-UNSL_C 4.73749 2 4
+    (978 ^HD_OPTCMP_C 3.79136 2 3
+     (977 V_PST_OLR 2.3008 2 3
+      (122 fall_v1@v_pp_unacc_le 0.574647 2 3
+       ("fell" 74
+        "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (130 sharply@av_-_i-vp_le 1.15072 3 4
+     ("sharply" 76
+      "token [ +CARG #1=\"sharply\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (985 NP_ADV_C 0.0700473 4 6
+    (984 SP-HD_N_C 0.501213 4 6
+     (981 N_DET-WKDY_DLR -0.470713 4 5
+      (980 N_SG_ILR -0.833243 4 5
+       (135 friday_n1@n_-_c-dow_le 0 4 5
+        ("friday" 87
+         "token [ +CARG \"Friday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"friday\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (983 ^W_PERIOD_PLR 0.971926 5 6
+      (982 N_SG_ILR -0.19767 5 6
+       (138 afternoon_nc_n1@n_-_c-dpt_le 0 5 6
+        ("afternoon." 78
+         "token [ +CARG \"afternoon\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"afternoon.\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "copper") (N (N "prices"))))
+ (VP (VP (VP (V (V "fell"))) (ADV "sharply"))
+  (PP (NP (DET (N (N "friday"))) (N (N (N "afternoon.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _copper_n_1<0:6>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<7:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _fall_v_1<14:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _sharp_a_1<19:26>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ loc_nonsp<27:44>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ dofw<27:33>
+            LBL: h18
+            ARG0: x19 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Fri" ]
+          [ def_explicit_q<27:33>
+            LBL: h20
+            ARG0: x17
+            RSTR: h21
+            BODY: h22 ]
+          [ of_p<27:33>
+            LBL: h23
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            ARG2: x19 ]
+          [ def_implicit_q<27:33>
+            LBL: h25
+            ARG0: x19
+            RSTR: h26
+            BODY: h27 ]
+          [ _afternoon_n_of<34:44>
+            LBL: h23
+            ARG0: x17 ] >
+   HCONS: < h26 QEQ h18 h21 QEQ h23 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:6>[BV x9]
+ x9:_copper_n_1<0:6>{x}[]
+ x6:_price_n_of<7:13>{x PERS 3, NUM pl}[]
+ e3:_fall_v_1-fn.Change_position_on_a_scale<14:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_sharp_a_1<19:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e16:loc_nonsp<27:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ x19:dofw<27:33>("Fri"){x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<27:33>[BV x17]
+ e24:of_p<27:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17, ARG2 x19]
+ _4:def_implicit_q<27:33>[BV x19]
+ x17:_afternoon_n_of<34:44>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:13> BV _price_n_of<7:13>  
+  compound<0:13> ARG1 _price_n_of<7:13>  
+  compound<0:13> ARG2 _copper_n_1<0:6>  
+  udef_q<0:6> BV _copper_n_1<0:6>  
+  _fall_v_1<14:18> ARG1 _price_n_of<7:13>  
+  _sharp_a_1<19:26> ARG1 _fall_v_1<14:18>  
+  loc_nonsp<27:44> ARG1 _fall_v_1<14:18>  
+  loc_nonsp<27:44> ARG2 _afternoon_n_of<34:44>  
+  def_explicit_q<27:33> BV _afternoon_n_of<34:44>  
+  of_p<27:33> ARG1 _afternoon_n_of<34:44>  
+  of_p<27:33> ARG2 dofw<27:33>(Fri)  
+  def_implicit_q<27:33> BV dofw<27:33>(Fri)  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _price_n_of<7:13> PERS 3  
+  _price_n_of<7:13> NUM pl  
+  _fall_v_1<14:18> SF prop  
+  _fall_v_1<14:18> TENSE past  
+  _fall_v_1<14:18> MOOD indicative  
+  _fall_v_1<14:18> PROG -  
+  _fall_v_1<14:18> PERF -  
+  _sharp_a_1<19:26> SF prop  
+  _sharp_a_1<19:26> TENSE untensed  
+  _sharp_a_1<19:26> MOOD indicative  
+  _sharp_a_1<19:26> PROG -  
+  _sharp_a_1<19:26> PERF -  
+  loc_nonsp<27:44> SF prop  
+  loc_nonsp<27:44> TENSE untensed  
+  loc_nonsp<27:44> MOOD indicative  
+  loc_nonsp<27:44> PROG -  
+  loc_nonsp<27:44> PERF -  
+  dofw<27:33>(Fri) PERS 3  
+  dofw<27:33>(Fri) NUM sg  
+  dofw<27:33>(Fri) IND +  
+  of_p<27:33> SF prop  
+  of_p<27:33> TENSE untensed  
+  of_p<27:33> MOOD indicative  
+  of_p<27:33> PROG -  
+  of_p<27:33> PERF -  
+  _afternoon_n_of<34:44> PERS 3  
+  _afternoon_n_of<34:44> NUM sg  
+  _afternoon_n_of<34:44> IND +  
+}
+

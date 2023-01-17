@@ -1,0 +1,86 @@
+;;;
+;;; Redwoods export of `wsj05d';
+;;; (wsun@wsun; 22-jan-2018 (15:31 h)).
+;;;
+
+[20584033] (1 of 1) {1} `We're surprised.'
+
+[20584033:1] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "We", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:5>, 1, "’re", 0, "null", "VBP" 0.6073 "VBD" 0.1459 "VB" 0.1332 "NN" 0.0734 "RB" 0.0312 "JJ" 0.0091)
+  (3, 2, 3, <6:15>, 1, "surprised", 0, "null", "VBN" 0.8272 "JJ" 0.1348 "VBD" 0.038)
+  (4, 3, 4, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (63, 0, 1, <0:2>, 1, "we", 0, "null")
+  (66, 0, 1, <0:2>, 1, "we", 0, "null")
+  (54, 1, 2, <2:5>, 1, "’re", 0, "null")
+  (58, 1, 2, <2:5>, 1, "’re", 0, "null", "VBP" 0.6073)
+  (60, 1, 2, <2:5>, 1, "’re", 0, "null", "VBD" 0.1459)
+  (62, 1, 2, <2:5>, 1, "’re", 0, "null", "VB" 0.1332)
+  (64, 1, 2, <2:5>, 1, "’re", 0, "null")
+  (55, 2, 3, <6:16>, 1, "surprised.", 0, "null")
+  (59, 2, 3, <6:16>, 1, "surprised.", 0, "null", "VBN" 0.8272)
+  (61, 2, 3, <6:16>, 1, "surprised.", 0, "null", "JJ" 0.1348)
+  (65, 2, 3, <6:16>, 1, "surprised.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (642 SB-HD_MC_C 2.71038 0 3
+  (633 HDN_BNP-QNT_C 0.662785 0 1
+   (67 we@n_-_pr-we_le 0.158566 0 1
+    ("we" 63
+     "token [ +CARG \"We\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"we\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (641 ^HD-CMP_U_C 0.778244 1 3
+   (83 be_c_are_cx_2@v_prd_are-cx_le 0.400947 1 2
+    ("’re" 54
+     "token [ +CARG #1=\"’re\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.60727799999999998\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (640 HD_OPTCMP_C 0.658328 2 3
+    (639 W_PERIOD_PLR 0.506901 2 3
+     (143 surprised_a1@aj_pp_i_le 0 2 3
+      ("surprised." 55
+       "token [ +CARG \"surprised\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"surprised.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82716940000000005\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "we")) (VP (V "’re") (AP (ADJ (ADJ "surprised.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _surprised_a_at<6:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: i9 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 1, NUM pl, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_surprised_a_at<6:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _surprised_a_at<6:16> ARG1 pron<0:2>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM pl  
+  pron<0:2> PT std  
+  _surprised_a_at<6:16> SF prop  
+  _surprised_a_at<6:16> TENSE pres  
+  _surprised_a_at<6:16> MOOD indicative  
+  _surprised_a_at<6:16> PROG -  
+  _surprised_a_at<6:16> PERF -  
+}
+

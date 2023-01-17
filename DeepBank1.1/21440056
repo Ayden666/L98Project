@@ -1,0 +1,252 @@
+;;;
+;;; Redwoods export of `wsj14b';
+;;; (wsun@wsun; 22-jan-2018 (23:18 h)).
+;;;
+
+[21440056] (1 of 1) {1} `Medstone International plummeted 3 1/4 to 7 1/4.'
+
+[21440056:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Medstone", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:22>, 1, "International", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <23:32>, 1, "plummeted", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <33:34>, 1, "3", 0, "null", "CD" 1.0)
+  (5, 4, 5, <35:38>, 1, "1/4", 0, "null", "CD" 1.0)
+  (6, 5, 6, <39:41>, 1, "to", 0, "null", "TO" 1.0)
+  (7, 6, 7, <42:43>, 1, "7", 0, "null", "CD" 1.0)
+  (8, 7, 8, <44:47>, 1, "1/4", 0, "null", "CD" 1.0)
+  (9, 8, 9, <47:48>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (96, 0, 1, <0:8>, 1, "Medstone", 0, "null")
+  (100, 0, 1, <0:8>, 1, "medstone", 0, "null")
+  (110, 0, 1, <0:8>, 1, "medstone", 0, "null")
+  (81, 1, 2, <9:22>, 1, "International", 0, "null")
+  (97, 1, 2, <9:22>, 1, "International", 0, "null", "NNP" 1.0)
+  (99, 1, 2, <9:22>, 1, "international", 0, "null")
+  (102, 1, 2, <9:22>, 1, "international", 0, "null")
+  (95, 2, 3, <23:32>, 1, "plummeted", 0, "null")
+  (98, 2, 3, <23:32>, 1, "plummeted", 0, "null", "VBD" 1.0)
+  (109, 2, 3, <23:32>, 1, "plummeted", 0, "null")
+  (82, 3, 4, <33:34>, 1, "3", 0, "null")
+  (103, 3, 4, <33:34>, 1, "3", 0, "null")
+  (78, 4, 5, <35:38>, 1, "1/4", 0, "null")
+  (83, 4, 5, <35:38>, 1, "1/4", 0, "null")
+  (101, 4, 5, <35:38>, 1, "1/4", 0, "null")
+  (104, 4, 5, <35:38>, 1, "1/4", 0, "null")
+  (93, 5, 6, <39:41>, 1, "to", 0, "null")
+  (108, 5, 6, <39:41>, 1, "to", 0, "null")
+  (84, 6, 7, <42:43>, 1, "7", 0, "null")
+  (105, 6, 7, <42:43>, 1, "7", 0, "null")
+  (86, 7, 8, <44:48>, 1, "1/4.", 0, "null")
+  (87, 7, 8, <44:48>, 1, "1/4.", 0, "null")
+  (106, 7, 8, <44:48>, 1, "1/4.", 0, "null")
+  (107, 7, 8, <44:48>, 1, "1/4.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1270 SB-HD_MC_C 8.09592 0 8
+  (1253 HDN_BNP-PN_C 3.14123 0 2
+   (1252 NP-HDN_NME-CPD_C 2.60151 0 2
+    (1250 HDN_BNP-PN_C 0.365523 0 1
+     (1249 N_SG_ILR -0.386912 0 1
+      (112 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Medstone" 96
+        "token [ +CARG #1=\"Medstone\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (1251 ^N_SG_ILR 0.918409 1 2
+     (113 generic_proper_ne@n_-_pn-gen_le 1.06167 1 2
+      ("International" 81
+       "token [ +CARG #1=\"International\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1269 ^HD-AJ_INT-UNSL_C 4.46719 2 8
+   (1262 ^HD-AJ_INT-UNSL_C 1.76778 2 5
+    (1254 ^V_PST_OLR 1.07138 2 3
+     (119 plummet_v1@v_-_le 0 2 3
+      ("plummeted" 95
+       "token [ +CARG #1=\"plummeted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1261 NP_ADV-MNP_C -0.460418 3 5
+     (1260 HDN_BNP-NUM_C 0.279118 3 5
+      (1259 HDN_NP-NUM_C 0.690171 3 5
+       (1258 XP_BRCK-PR_C -0.315935 3 5
+        (1255 HD-CMP_U_C 0 3 5
+         (199 generic_card_np_ne@aj_np_i-crd-gen_le 0 3 4
+          ("3" 82
+           "token [ +CARG #1=\"3\" +CLASS card_ne +FORM #1 +FROM \"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+         (202 generic_fract_ne@aj_-_i-frct-gen_le 0 4 5
+          ("1/4" 83
+           "token [ +CARG #1=\"1/4\" +CLASS frct_ne +FORM #1 +FROM \"35\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))
+   (1268 HD-CMP_U_C 1.14104 5 8
+    (227 to@p_np_i-nnm_le -0.649111 5 6
+     ("to" 93
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1267 HDN_BNP-NUM_C 1.27952 6 8
+     (1266 HDN_NP-NUM_C 0.760882 6 8
+      (1265 XP_BRCK-PR_C 0.077226 6 8
+       (1264 HD-CMP_U_C 0.167106 6 8
+        (280 generic_card_np_ne@aj_np_i-crd-gen_le 0 6 7
+         ("7" 84
+          "token [ +CARG #1=\"7\" +CLASS card_ne +FORM #1 +FROM \"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (1263 W_PERIOD_PLR 0 7 8
+         (285 generic_fract_ne@aj_-_i-frct-gen_le 0 7 8
+          ("1/4." 87
+           "token [ +CARG \"1/4\" +CLASS frct_ne +FORM \"1/4.\" +FROM \"44\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S (NP (N (NP (N (N "Medstone"))) (N (N "International"))))
+ (VP
+  (VP (VP (V "plummeted"))
+   (PP (NP (N (ADJ (ADJ (ADJ "3") (ADJ "1/4")))))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "7") (ADJ (ADJ "1/4.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:22>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Medstone" ]
+          [ named<9:22>
+            LBL: h8
+            ARG0: x6
+            CARG: "International" ]
+          [ _plummet_v_1<23:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<33:38>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<33:38>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<33:34>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "3" ]
+          [ plus<33:34>
+            LBL: h22
+            ARG0: i24
+            ARG1: i21
+            ARG2: h20
+            ARG3: h23 ]
+          [ fraction<35:38>
+            LBL: h23
+            ARG0: i25
+            ARG1: i21
+            CARG: "1/4" ]
+          [ _to_p<39:41>
+            LBL: h2
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x27 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<42:48>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ card<42:43>
+            LBL: h31
+            ARG0: x27
+            ARG1: i32
+            CARG: "7" ]
+          [ plus<42:43>
+            LBL: h33
+            ARG0: i35
+            ARG1: i32
+            ARG2: h31
+            ARG3: h34 ]
+          [ fraction<44:48>
+            LBL: h34
+            ARG0: i36
+            ARG1: i32
+            CARG: "1/4" ] >
+   HCONS: < h29 QEQ h33 h18 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:22>[BV x6]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Medstone"){x PERS 3, NUM sg, IND +}[]
+ x6:named<9:22>("International"){x PERS 3, NUM sg, IND +}[]
+ e3:_plummet_v_1<23:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<33:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<33:38>[BV x16]
+ x16:card<33:34>("3"){x PERS 3, NUM sg}[]
+ i24:plus<33:34>{i}[ARG2 x16, ARG3 i25]
+ i25:fraction<35:38>("1/4"){i}[]
+ e26:_to_p<39:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x27]
+ _4:number_q<42:48>[BV x27]
+ x27:card<42:43>("7"){x PERS 3, NUM sg}[]
+ i35:plus<42:43>{i}[ARG2 x27, ARG3 i36]
+ i36:fraction<44:48>("1/4"){i}[]
+}
+
+{
+  proper_q<0:22> BV named<9:22>(International)  
+  compound<0:22> ARG1 named<9:22>(International)  
+  compound<0:22> ARG2 named<0:8>(Medstone)  
+  proper_q<0:8> BV named<0:8>(Medstone)  
+  _plummet_v_1<23:32> ARG1 named<9:22>(International)  
+  loc_nonsp<33:38> ARG1 _plummet_v_1<23:32>  
+  loc_nonsp<33:38> ARG2 card<33:34>(3)  
+  number_q<33:38> BV card<33:34>(3)  
+  plus<33:34> ARG2 card<33:34>(3)  
+  plus<33:34> ARG3 fraction<35:38>(1/4)  
+  _to_p<39:41> ARG1 _plummet_v_1<23:32>  
+  _to_p<39:41> ARG2 card<42:43>(7)  
+  number_q<42:48> BV card<42:43>(7)  
+  plus<42:43> ARG2 card<42:43>(7)  
+  plus<42:43> ARG3 fraction<44:48>(1/4)  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  named<0:8>(Medstone) PERS 3  
+  named<0:8>(Medstone) NUM sg  
+  named<0:8>(Medstone) IND +  
+  named<9:22>(International) PERS 3  
+  named<9:22>(International) NUM sg  
+  named<9:22>(International) IND +  
+  _plummet_v_1<23:32> SF prop  
+  _plummet_v_1<23:32> TENSE past  
+  _plummet_v_1<23:32> MOOD indicative  
+  _plummet_v_1<23:32> PROG -  
+  _plummet_v_1<23:32> PERF -  
+  loc_nonsp<33:38> SF prop  
+  loc_nonsp<33:38> TENSE untensed  
+  loc_nonsp<33:38> MOOD indicative  
+  loc_nonsp<33:38> PROG -  
+  loc_nonsp<33:38> PERF -  
+  card<33:34>(3) PERS 3  
+  card<33:34>(3) NUM sg  
+  _to_p<39:41> SF prop  
+  _to_p<39:41> TENSE untensed  
+  _to_p<39:41> MOOD indicative  
+  _to_p<39:41> PROG -  
+  _to_p<39:41> PERF -  
+  card<42:43>(7) PERS 3  
+  card<42:43>(7) NUM sg  
+}
+

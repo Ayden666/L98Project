@@ -1,0 +1,169 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:13 h)).
+;;;
+
+[20239036] (1 of 1) {1} `And neither can your pilot.'
+
+[20239036:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:11>, 1, "neither", 0, "null", "RB" 0.5744 "DT" 0.3698 "CC" 0.0557)
+  (3, 2, 3, <12:15>, 1, "can", 0, "null", "MD" 1.0)
+  (4, 3, 4, <16:20>, 1, "your", 0, "null", "PRP$" 1.0)
+  (5, 4, 5, <21:26>, 1, "pilot", 0, "null", "NN" 1.0)
+  (6, 5, 6, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:3>, 1, "and", 0, "null")
+  (77, 0, 1, <0:3>, 1, "and", 0, "null")
+  (68, 1, 2, <4:11>, 1, "neither", 0, "null")
+  (70, 1, 2, <4:11>, 1, "neither", 0, "null", "RB" 0.5744)
+  (76, 1, 2, <4:11>, 1, "neither", 0, "null")
+  (63, 2, 3, <12:15>, 1, "can", 0, "null")
+  (73, 2, 3, <12:15>, 1, "can", 0, "null")
+  (65, 3, 4, <16:20>, 1, "your", 0, "null")
+  (74, 3, 4, <16:20>, 1, "your", 0, "null")
+  (67, 4, 5, <21:27>, 1, "pilot.", 0, "null")
+  (71, 4, 5, <21:27>, 1, "pilot.", 0, "null", "NN" 1.0)
+  (75, 4, 5, <21:27>, 1, "pilot.", 0, "null")
+>
+
+(ROOT_STRICT
+ (400 CL_CNJ-FRG_C 3.31392 0 5
+  (399 MRK-NH_CL_C 2.44404 0 5
+   (81 and_conj@c_xp_and_le -1.20224 0 1
+    ("and" 72
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (398 HD_INV-NWH_C 2.72561 1 5
+    (397 AJ-HD_SCP-XP_C 2.31523 1 5
+     (97 neither_adv1@av_-_s-cp-pr-inv_le 0 1 2
+      ("neither" 68
+       "token [ +CARG #1=\"neither\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.5744416\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (396 ^HD-CMP_U_C 2.0467 2 5
+      (391 ^V_AUX-SB-INV_DLR 0.17071 2 3
+       (390 V_AUX-ELL-REF_DLR -0.147135 2 3
+        (101 can_aux_pos@v_vp_mdl-p_le 0.603421 2 3
+         ("can" 63
+          "token [ +CARG #1=\"can\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (395 SP-HD_N_C 1.83256 3 5
+       (104 your@d_-_poss-your_le 0.16329 3 4
+        ("your" 65
+         "token [ +CARG #1=\"your\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (394 ^HDN_OPTCMP_C 1.66927 4 5
+        (393 W_PERIOD_PLR 1.33897 4 5
+         (392 N_SG_ILR 0.704929 4 5
+          (110 pilot_n1@n_pp_c-of_le 0 4 5
+           ("pilot." 67
+            "token [ +CARG \"pilot\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pilot.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (S (CONJ "and")
+  (S
+   (S (ADV "neither")
+    (S (V (VP (V "can")))
+     (NP (DET "your") (N (N (N (N "pilot."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _and_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _neither_a_1<4:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _can_v_modal<12:15>
+            LBL: h11
+            ARG0: e4
+            ARG1: h12 ]
+          [ ellipsis_ref<12:15>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ def_explicit_q<16:20>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ poss<16:20>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x20 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<16:20>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ pron<16:20>
+            LBL: h25
+            ARG0: x20 ]
+          [ _pilot_n_of<21:27>
+            LBL: h19
+            ARG0: x15
+            ARG1: i26 ] >
+   HCONS: < h23 QEQ h25 h18 QEQ h19 h12 QEQ h13 h9 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:_and_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e10, R-INDEX e4]
+ e10:_neither_a_1<4:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4]
+ e4:_can_v_modal<12:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:ellipsis_ref<12:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ _1:def_explicit_q<16:20>[BV x15]
+ e21:poss<16:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x20]
+ _2:pronoun_q<16:20>[BV x20]
+ x20:pron<16:20>{x PERS 2, PT std}[]
+ x15:_pilot_n_of<21:27>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _and_c<0:3> R-HNDL _neither_a_1<4:11>  
+  _and_c<0:3> R-INDEX _can_v_modal<12:15>  
+  _neither_a_1<4:11> ARG1 _can_v_modal<12:15>  
+  _can_v_modal<12:15> ARG1 ellipsis_ref<12:15>  
+  ellipsis_ref<12:15> ARG1 _pilot_n_of<21:27>  
+  def_explicit_q<16:20> BV _pilot_n_of<21:27>  
+  poss<16:20> ARG1 _pilot_n_of<21:27>  
+  poss<16:20> ARG2 pron<16:20>  
+  pronoun_q<16:20> BV pron<16:20>  
+  _and_c<0:3> SF prop  
+  _and_c<0:3> TENSE untensed  
+  _and_c<0:3> MOOD indicative  
+  _and_c<0:3> PROG -  
+  _and_c<0:3> PERF -  
+  _neither_a_1<4:11> SF prop  
+  _neither_a_1<4:11> TENSE untensed  
+  _neither_a_1<4:11> MOOD indicative  
+  _neither_a_1<4:11> PROG -  
+  _neither_a_1<4:11> PERF -  
+  _can_v_modal<12:15> SF prop  
+  _can_v_modal<12:15> TENSE pres  
+  _can_v_modal<12:15> MOOD indicative  
+  _can_v_modal<12:15> PROG -  
+  _can_v_modal<12:15> PERF -  
+  ellipsis_ref<12:15> SF prop  
+  ellipsis_ref<12:15> TENSE untensed  
+  ellipsis_ref<12:15> MOOD indicative  
+  ellipsis_ref<12:15> PROG -  
+  ellipsis_ref<12:15> PERF -  
+  poss<16:20> SF prop  
+  poss<16:20> TENSE untensed  
+  poss<16:20> MOOD indicative  
+  poss<16:20> PROG -  
+  poss<16:20> PERF -  
+  pron<16:20> PERS 2  
+  pron<16:20> PT std  
+  _pilot_n_of<21:27> PERS 3  
+  _pilot_n_of<21:27> NUM sg  
+  _pilot_n_of<21:27> IND +  
+}
+

@@ -1,0 +1,95 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:13 h)).
+;;;
+
+[21120008] (1 of 1) {1} `That system has worked.'
+
+[21120008:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "That", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:11>, 1, "system", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:22>, 1, "worked", 0, "null", "VBN" 0.9725 "VBD" 0.0275)
+  (5, 4, 5, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:4>, 1, "that", 0, "null")
+  (64, 0, 1, <0:4>, 1, "that", 0, "null")
+  (52, 1, 2, <5:11>, 1, "system", 0, "null")
+  (58, 1, 2, <5:11>, 1, "system", 0, "null", "NN" 1.0)
+  (61, 1, 2, <5:11>, 1, "system", 0, "null")
+  (54, 2, 3, <12:15>, 1, "has", 0, "null")
+  (59, 2, 3, <12:15>, 1, "has", 0, "null", "VBZ" 1.0)
+  (62, 2, 3, <12:15>, 1, "has", 0, "null")
+  (55, 3, 4, <16:23>, 1, "worked.", 0, "null")
+  (57, 3, 4, <16:23>, 1, "worked.", 0, "null", "VBN" 0.9725)
+  (63, 3, 4, <16:23>, 1, "worked.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1045 SB-HD_MC_C 6.20683 0 4
+  (1040 SP-HD_N_C 1.69295 0 2
+   (81 that_det@d_-_sgm_le -0.419828 0 1
+    ("that" 60
+     "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"that\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1039 ^HDN_OPTCMP_C 1.3585 1 2
+    (1038 N_SG_ILR 1.44547 1 2
+     (96 system_n1@n_pp_c-of_le 0.373565 1 2
+      ("system" 52
+       "token [ +CARG #1=\"system\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1044 ^HD-CMP_U_C 2.55937 2 4
+   (118 has_aux@v_vp_has_le 2.86674 2 3
+    ("has" 54
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1043 HD_OPTCMP_C -0.286552 3 4
+    (1042 W_PERIOD_PLR -0.437979 3 4
+     (1041 V_PSP_OLR -0.287816 3 4
+      (209 work_v1@v_np*_le 0 3 4
+       ("worked." 55
+        "token [ +CARG \"worked\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"worked.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97250959999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (DET "that") (N (N (N "system"))))
+ (VP (V "has") (VP (V (V (V "worked."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ _that_q_dem<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _system_n_of<5:11>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _work_v_1<16:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p10 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_that_q_dem<0:4>[BV x6]
+ x6:_system_n_of<5:11>{x PERS 3, NUM sg, IND +}[]
+ e3:_work_v_1<16:23>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x6]
+}
+
+{
+  _that_q_dem<0:4> BV _system_n_of<5:11>  
+  _work_v_1<16:23> ARG1 _system_n_of<5:11>  
+  _system_n_of<5:11> PERS 3  
+  _system_n_of<5:11> NUM sg  
+  _system_n_of<5:11> IND +  
+  _work_v_1<16:23> SF prop  
+  _work_v_1<16:23> TENSE pres  
+  _work_v_1<16:23> MOOD indicative  
+  _work_v_1<16:23> PROG -  
+  _work_v_1<16:23> PERF +  
+}
+

@@ -1,0 +1,127 @@
+;;;
+;;; Redwoods export of `wsj00b';
+;;; (wsun@wsun; 22-jan-2018 (10:26 h)).
+;;;
+
+[20045035] (1 of 1) {1} `McGraw-Hill was outraged.'
+
+[20045035:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "McGraw-Hill", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <12:15>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <16:24>, 1, "outraged", 0, "null", "VBN" 0.7782 "JJ" 0.2218)
+  (4, 3, 4, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (47, 0, 1, <0:11>, 1, "McGraw-", 0, "null")
+  (61, 0, 1, <0:11>, 1, "McGraw-", 0, "null", "NN" 1.0)
+  (65, 0, 1, <0:11>, 1, "mcgraw-", 0, "null")
+  (67, 0, 1, <0:11>, 1, "mcgraw-", 0, "null")
+  (46, 1, 2, <0:11>, 1, "Hill", 0, "null")
+  (60, 1, 2, <0:11>, 1, "Hill", 0, "null", "NNP" 1.0)
+  (64, 1, 2, <0:11>, 1, "hill", 0, "null")
+  (66, 1, 2, <0:11>, 1, "hill", 0, "null")
+  (56, 2, 3, <12:15>, 1, "was", 0, "null")
+  (62, 2, 3, <12:15>, 1, "was", 0, "null", "VBD" 1.0)
+  (68, 2, 3, <12:15>, 1, "was", 0, "null")
+  (57, 3, 4, <16:25>, 1, "outraged.", 0, "null")
+  (59, 3, 4, <16:25>, 1, "outraged.", 0, "null", "VBN" 0.7782)
+  (63, 3, 4, <16:25>, 1, "outraged.", 0, "null", "JJ" 0.2218)
+  (69, 3, 4, <16:25>, 1, "outraged.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1074 SB-HD_MC_C 5.55849 0 4
+  (1071 HDN_BNP-PN_C 1.77587 0 2
+   (1070 XP_BRCK-PR_C 1.55927 0 2
+    (1069 NP-HDN_NME-CPD_C 1.34897 0 2
+     (1067 HDN_BNP-PN_C 0.301291 0 1
+      (1066 W_HYPHEN_PLR 0.307186 0 1
+       (1065 N_SG_ILR -0.246101 0 1
+        (70 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("McGraw-" 47
+          "token [ +CARG #1=\"McGraw-\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW + ] ]")))))
+     (1068 ^N_SG_ILR 0.032396 1 2
+      (81 hill_n2@n_-_pn_le 0.351215 1 2
+       ("hill" 64
+        "token [ +CARG \"Hill\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"hill\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))
+  (1073 ^HD-CMP_U_C 2.76557 2 4
+   (87 be_c_was@v_prd_was_le 2.0009 2 3
+    ("was" 56
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1072 W_PERIOD_PLR 0.612486 3 4
+    (133 outraged_a1@aj_-_i_le 0 3 4
+     ("outraged." 57
+      "token [ +CARG \"outraged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"outraged.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7781901\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N (NP (N (N (N "McGraw-")))) (N (N "hill")))))
+ (VP (V "was") (AP (AP "outraged."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "McGraw-" ]
+          [ named<0:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Hill" ]
+          [ _outraged_a_1<16:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:11>[BV x9]
+ x9:named<0:11>("McGraw-"){x PERS 3, NUM sg, IND +}[]
+ x6:named<0:11>("Hill"){x PERS 3, NUM sg, IND +}[]
+ e3:_outraged_a_1<16:25>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:11> BV named<0:11>(Hill)  
+  compound<0:11> ARG1 named<0:11>(Hill)  
+  compound<0:11> ARG2 named<0:11>(McGraw-)  
+  proper_q<0:11> BV named<0:11>(McGraw-)  
+  _outraged_a_1<16:25> ARG1 named<0:11>(Hill)  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:11>(McGraw-) PERS 3  
+  named<0:11>(McGraw-) NUM sg  
+  named<0:11>(McGraw-) IND +  
+  named<0:11>(Hill) PERS 3  
+  named<0:11>(Hill) NUM sg  
+  named<0:11>(Hill) IND +  
+  _outraged_a_1<16:25> SF prop  
+  _outraged_a_1<16:25> TENSE past  
+  _outraged_a_1<16:25> MOOD indicative  
+  _outraged_a_1<16:25> PROG -  
+  _outraged_a_1<16:25> PERF -  
+}
+

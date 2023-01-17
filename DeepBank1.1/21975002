@@ -1,0 +1,204 @@
+;;;
+;;; Redwoods export of `wsj19c';
+;;; (wsun@wsun; 23-jan-2018 (04:39 h)).
+;;;
+
+[21975002] (1 of 1) {1} `Profit from continuing operations rose 19%.'
+
+[21975002:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Profit", 0, "null", "NN" 1.0)
+  (2, 1, 2, <7:11>, 1, "from", 0, "null", "IN" 1.0)
+  (3, 2, 3, <12:22>, 1, "continuing", 0, "null", "VBG" 0.7238 "JJ" 0.2762)
+  (4, 3, 4, <23:33>, 1, "operations", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <34:38>, 1, "rose", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <39:41>, 1, "19", 0, "null", "CD" 1.0)
+  (7, 6, 7, <41:42>, 1, "%", 0, "null", "NN" 1.0)
+  (8, 7, 8, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (86, 0, 1, <0:6>, 1, "Profit", 0, "null")
+  (91, 0, 1, <0:6>, 1, "profit", 0, "null")
+  (98, 0, 1, <0:6>, 1, "profit", 0, "null")
+  (77, 1, 2, <7:11>, 1, "from", 0, "null")
+  (93, 1, 2, <7:11>, 1, "from", 0, "null")
+  (84, 2, 3, <12:22>, 1, "continuing", 0, "null")
+  (87, 2, 3, <12:22>, 1, "continuing", 0, "null", "VBG" 0.7238)
+  (90, 2, 3, <12:22>, 1, "continuing", 0, "null", "JJ" 0.2762)
+  (97, 2, 3, <12:22>, 1, "continuing", 0, "null")
+  (79, 3, 4, <23:33>, 1, "operations", 0, "null")
+  (88, 3, 4, <23:33>, 1, "operations", 0, "null", "NNS" 1.0)
+  (94, 3, 4, <23:33>, 1, "operations", 0, "null")
+  (81, 4, 5, <34:38>, 1, "rose", 0, "null")
+  (89, 4, 5, <34:38>, 1, "rose", 0, "null", "VBD" 1.0)
+  (95, 4, 5, <34:38>, 1, "rose", 0, "null")
+  (68, 5, 6, <39:41>, 1, "19", 0, "null")
+  (92, 5, 6, <39:41>, 1, "19", 0, "null")
+  (83, 6, 7, <41:43>, 1, "%.", 0, "null")
+  (96, 6, 7, <41:43>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3499 SB-HD_MC_C 12.3814 0 7
+  (3490 HDN_BNP_C 5.10536 0 4
+   (3489 HDN-AJ_REDREL_C 4.83398 0 4
+    (3481 ^N_MS-CNT_ILR 1.39144 0 1
+     (105 profit_n1@n_-_mc_le 1.26543 0 1
+      ("profit" 91
+       "token [ +CARG \"Profit\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"profit\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3488 HD-CMP_U_C 2.62438 1 4
+     (116 from@p_np_i_le -0.419945 1 2
+      ("from" 77
+       "token [ +CARG #1=\"from\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3487 HDN_BNP_C 2.46488 2 4
+      (3486 AJ-HDN_NORM_C 2.09728 2 4
+       (3483 V_J-NB-PRP-TR_DLR 0.642766 2 3
+        (3482 V_PRP_OLR 2.13829 2 3
+         (134 continue_v1@v_pp*_dir_le 1.41461 2 3
+          ("continuing" 84
+           "token [ +CARG #1=\"continuing\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72382380000000002\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (3485 ^HDN_OPTCMP_C 1.22974 3 4
+        (3484 N_PL_OLR 1.55366 3 4
+         (152 operation_n1@n_pp_mc-of_le 0.929952 3 4
+          ("operations" 79
+           "token [ +CARG #1=\"operations\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+  (3498 ^HD-AJ_INT-UNSL_C 6.43594 4 7
+   (3492 ^HD_OPTCMP_C 4.40977 4 5
+    (3491 V_PST_OLR 3.53124 4 5
+     (166 rise_v2@v_pp_unacc_le 1.80509 4 5
+      ("rose" 81
+       "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (3497 NP_ADV-MNP_C 1.84208 5 7
+    (3496 HDN_BNP_C 3.06546 5 7
+     (3495 NUM-N_MNP_C 1.54108 5 7
+      (175 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+       ("19" 68
+        "token [ +CARG #1=\"19\" +CLASS card_or_dom_ne +FORM #1 +FROM \"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (3494 ^W_PERIOD_PLR 1.02943 6 7
+       (3493 N_PL_OLR 0.482577 6 7
+        (179 percent_char_n1@n_-_c-meas-spr_le 0.328883 6 7
+         ("%." 83
+          "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (NP
+  (N (N (N "profit"))
+   (PP (P "from")
+    (NP (N (AP (V (V "continuing"))) (N (N (N "operations"))))))))
+ (VP (VP (V (V "rose"))) (PP (NP (N (ADJ "19") (N (N (N "%."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:33>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _profit_n_1<0:6>
+            LBL: h8
+            ARG0: x6 ]
+          [ _from_p<7:11>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<12:33>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _continue_v_1<12:22>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: x10 ]
+          [ _operation_n_of<23:33>
+            LBL: h14
+            ARG0: x10
+            ARG1: i16 ]
+          [ _rise_v_1<34:38>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<39:43>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<39:43>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ card<39:41>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            CARG: "19" ]
+          [ _percent_n_of<41:43>
+            LBL: h22
+            ARG0: x18 ] >
+   HCONS: < h20 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:33>[BV x6]
+ x6:_profit_n_1<0:6>{x PERS 3, NUM sg}[]
+ e9:_from_p<7:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<12:33>[BV x10]
+ e15:_continue_v_1<12:22>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG1 x10]
+ x10:_operation_n_of<23:33>{x PERS 3, NUM pl}[]
+ e3:_rise_v_1<34:38>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e17:loc_nonsp<39:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ _3:udef_q<39:43>[BV x18]
+ e23:card<39:41>("19"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18]
+ x18:_percent_n_of<41:43>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:33> BV _profit_n_1<0:6>  
+  _from_p<7:11> ARG1 _profit_n_1<0:6>  
+  _from_p<7:11> ARG2 _operation_n_of<23:33>  
+  udef_q<12:33> BV _operation_n_of<23:33>  
+  _continue_v_1<12:22> ARG1 _operation_n_of<23:33>  
+  _rise_v_1<34:38> ARG1 _profit_n_1<0:6>  
+  loc_nonsp<39:43> ARG1 _rise_v_1<34:38>  
+  loc_nonsp<39:43> ARG2 _percent_n_of<41:43>  
+  udef_q<39:43> BV _percent_n_of<41:43>  
+  card<39:41>(19) ARG1 _percent_n_of<41:43>  
+  _profit_n_1<0:6> PERS 3  
+  _profit_n_1<0:6> NUM sg  
+  _from_p<7:11> SF prop  
+  _from_p<7:11> TENSE untensed  
+  _from_p<7:11> MOOD indicative  
+  _from_p<7:11> PROG -  
+  _from_p<7:11> PERF -  
+  _continue_v_1<12:22> SF prop  
+  _continue_v_1<12:22> TENSE untensed  
+  _continue_v_1<12:22> MOOD indicative  
+  _continue_v_1<12:22> PROG +  
+  _continue_v_1<12:22> PERF -  
+  _operation_n_of<23:33> PERS 3  
+  _operation_n_of<23:33> NUM pl  
+  _rise_v_1<34:38> SF prop  
+  _rise_v_1<34:38> TENSE past  
+  _rise_v_1<34:38> MOOD indicative  
+  _rise_v_1<34:38> PROG -  
+  _rise_v_1<34:38> PERF -  
+  loc_nonsp<39:43> SF prop  
+  loc_nonsp<39:43> TENSE untensed  
+  loc_nonsp<39:43> MOOD indicative  
+  loc_nonsp<39:43> PROG -  
+  loc_nonsp<39:43> PERF -  
+  card<39:41>(19) SF prop  
+  card<39:41>(19) TENSE untensed  
+  card<39:41>(19) MOOD indicative  
+  card<39:41>(19) PROG -  
+  card<39:41>(19) PERF -  
+  _percent_n_of<41:43> PERS 3  
+  _percent_n_of<41:43> NUM pl  
+  _percent_n_of<41:43> IND +  
+}
+

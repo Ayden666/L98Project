@@ -1,0 +1,132 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:40 h)).
+;;;
+
+[21778116] (1 of 1) {1} `Albany escaped embarrassingly unscathed.'
+
+[21778116:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Albany", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:14>, 1, "escaped", 0, "null", "VBD" 0.9752 "VBN" 0.0248)
+  (3, 2, 3, <15:29>, 1, "embarrassingly", 0, "null", "RB" 1.0)
+  (4, 3, 4, <30:39>, 1, "unscathed", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:6>, 1, "Albany", 0, "null")
+  (61, 0, 1, <0:6>, 1, "albany", 0, "null")
+  (65, 0, 1, <0:6>, 1, "albany", 0, "null")
+  (55, 1, 2, <7:14>, 1, "escaped", 0, "null")
+  (58, 1, 2, <7:14>, 1, "escaped", 0, "null", "VBD" 0.9752)
+  (64, 1, 2, <7:14>, 1, "escaped", 0, "null")
+  (52, 2, 3, <15:29>, 1, "embarrassingly", 0, "null")
+  (59, 2, 3, <15:29>, 1, "embarrassingly", 0, "null", "RB" 1.0)
+  (62, 2, 3, <15:29>, 1, "embarrassingly", 0, "null")
+  (54, 3, 4, <30:40>, 1, "unscathed.", 0, "null")
+  (60, 3, 4, <30:40>, 1, "unscathed.", 0, "null", "JJ" 1.0)
+  (63, 3, 4, <30:40>, 1, "unscathed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (687 SB-HD_MC_C 1.21466 0 4
+  (680 HDN_BNP-PN_C 0.489307 0 1
+   (679 N_SG_ILR 0.538263 0 1
+    (67 albany_n1@n_-_pn_le 0 0 1
+     ("albany" 61
+      "token [ +CARG \"Albany\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"albany\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (686 ^HD-AJ_SCP_C 0.829576 1 4
+   (682 ^HD_OPTCMP_C 0.230285 1 2
+    (681 V_PST_OLR -0.451392 1 2
+     (83 escape_v1@v_np*_le 0 1 2
+      ("escaped" 55
+       "token [ +CARG #1=\"escaped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9751803\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (685 VP_SBRD-PRD-AJ_C 0.770455 2 4
+    (684 AJ-HD_INT_C 0.874782 2 4
+     (168 embarrassingly_adv1@av_-_i-vp_le 0 2 3
+      ("embarrassingly" 52
+       "token [ +CARG #1=\"embarrassingly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (683 ^W_PERIOD_PLR 0.260456 3 4
+      (189 unscathed_a1@aj_-_i_le 0 3 4
+       ("unscathed." 54
+        "token [ +CARG \"unscathed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"unscathed.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "albany")))
+ (VP (VP (V (V "escaped")))
+  (PP (AP (ADV "embarrassingly") (AP (AP "unscathed."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:6>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:6>
+            LBL: h8
+            ARG0: x6
+            CARG: "Albany" ]
+          [ _escape_v_1<7:14>
+            LBL: h9
+            ARG0: e3
+            ARG1: x6
+            ARG2: p10 ]
+          [ subord<15:40>
+            LBL: h2
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h12
+            ARG2: h11 ]
+          [ _embarrassing_a_1<15:29>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _unscathed_a_1<30:40>
+            LBL: h14
+            ARG0: e16
+            ARG1: i17 ] >
+   HCONS: < h11 QEQ h14 h12 QEQ h9 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e13:
+ _1:proper_q<0:6>[BV x6]
+ x6:named<0:6>("Albany"){x PERS 3, NUM sg, IND +}[]
+ e3:_escape_v_1<7:14>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e13:subord<15:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e16]
+ e15:_embarrassing_a_1<15:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16]
+ e16:_unscathed_a_1<30:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  proper_q<0:6> BV named<0:6>(Albany)  
+  _escape_v_1<7:14> ARG1 named<0:6>(Albany)  
+  subord<15:40> ARG1 _escape_v_1<7:14>  
+  subord<15:40> ARG2 _unscathed_a_1<30:40>  
+  _embarrassing_a_1<15:29> ARG1 _unscathed_a_1<30:40>  
+  named<0:6>(Albany) PERS 3  
+  named<0:6>(Albany) NUM sg  
+  named<0:6>(Albany) IND +  
+  _escape_v_1<7:14> SF prop  
+  _escape_v_1<7:14> TENSE past  
+  _escape_v_1<7:14> MOOD indicative  
+  _escape_v_1<7:14> PROG -  
+  _escape_v_1<7:14> PERF -  
+  subord<15:40> SF prop  
+  subord<15:40> TENSE untensed  
+  subord<15:40> MOOD indicative  
+  subord<15:40> PROG -  
+  subord<15:40> PERF -  
+  _embarrassing_a_1<15:29> SF prop  
+  _embarrassing_a_1<15:29> TENSE untensed  
+  _embarrassing_a_1<15:29> MOOD indicative  
+  _embarrassing_a_1<15:29> PROG -  
+  _embarrassing_a_1<15:29> PERF -  
+  _unscathed_a_1<30:40> SF prop  
+  _unscathed_a_1<30:40> TENSE untensed  
+  _unscathed_a_1<30:40> MOOD indicative  
+  _unscathed_a_1<30:40> PROG -  
+  _unscathed_a_1<30:40> PERF -  
+}
+

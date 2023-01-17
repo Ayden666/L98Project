@@ -1,0 +1,255 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:25 h)).
+;;;
+
+[20263008] (1 of 1) {1} `Sales rose to $52.4 million from $50.1 million.'
+
+[20263008:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Sales", 0, "null", "NNS" 0.9706 "NNP" 0.0294)
+  (2, 1, 2, <6:10>, 1, "rose", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <11:13>, 1, "to", 0, "null", "TO" 1.0)
+  (4, 3, 4, <14:15>, 1, "$", 0, "null", "$" 1.0)
+  (5, 4, 5, <15:19>, 1, "52.4", 0, "null", "CD" 1.0)
+  (6, 5, 6, <20:27>, 1, "million", 0, "null", "CD" 1.0)
+  (7, 6, 7, <28:32>, 1, "from", 0, "null", "IN" 1.0)
+  (8, 7, 8, <33:34>, 1, "$", 0, "null", "$" 1.0)
+  (9, 8, 9, <34:38>, 1, "50.1", 0, "null", "CD" 1.0)
+  (10, 9, 10, <39:46>, 1, "million", 0, "null", "CD" 1.0)
+  (11, 10, 11, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (119, 0, 1, <0:5>, 1, "Sales", 0, "null", "NNS" 0.9706)
+  (124, 0, 1, <0:5>, 1, "sales", 0, "null")
+  (134, 0, 1, <0:5>, 1, "sales", 0, "null")
+  (108, 1, 2, <6:10>, 1, "rose", 0, "null")
+  (122, 1, 2, <6:10>, 1, "rose", 0, "null", "VBD" 1.0)
+  (129, 1, 2, <6:10>, 1, "rose", 0, "null")
+  (110, 2, 3, <11:13>, 1, "to", 0, "null")
+  (130, 2, 3, <11:13>, 1, "to", 0, "null")
+  (114, 3, 4, <14:15>, 1, "$", 0, "null")
+  (132, 3, 4, <14:15>, 1, "$", 0, "null")
+  (94, 4, 5, <15:19>, 1, "52.4", 0, "null")
+  (125, 4, 5, <15:19>, 1, "52.4", 0, "null")
+  (102, 5, 6, <20:27>, 1, "million", 0, "null")
+  (120, 5, 6, <20:27>, 1, "million", 0, "null", "CD" 1.0)
+  (126, 5, 6, <20:27>, 1, "million", 0, "null")
+  (104, 6, 7, <28:32>, 1, "from", 0, "null")
+  (127, 6, 7, <28:32>, 1, "from", 0, "null")
+  (112, 7, 8, <33:34>, 1, "$", 0, "null")
+  (131, 7, 8, <33:34>, 1, "$", 0, "null")
+  (106, 8, 9, <34:38>, 1, "50.1", 0, "null")
+  (121, 8, 9, <34:38>, 1, "50.1", 0, "null", "CD" 1.0)
+  (128, 8, 9, <34:38>, 1, "50.1", 0, "null")
+  (116, 9, 10, <39:47>, 1, "million.", 0, "null")
+  (123, 9, 10, <39:47>, 1, "million.", 0, "null", "CD" 1.0)
+  (133, 9, 10, <39:47>, 1, "million.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1741 SB-HD_MC_C 13.4175 0 10
+  (1725 HDN_BNP_C 0.421652 0 1
+   (1724 HDN_OPTCMP_C 0.139657 0 1
+    (1723 N_PL_OLR 0.562581 0 1
+     (146 sale_n1@n_pp_mc-of_le 0.418011 0 1
+      ("sales" 124
+       "token [ +CARG \"Sales\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sales\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97064379999999995\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1740 ^HD-AJ_INT-UNSL_C 12.1557 1 10
+   (1733 ^HD-AJ_INT-UNSL_C 8.82787 1 6
+    (1727 ^HD_OPTCMP_C 5.0218 1 2
+     (1726 V_PST_OLR 3.53124 1 2
+      (171 rise_v2@v_pp_unacc_le 1.80509 1 2
+       ("rose" 108
+        "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1732 HD-CMP_U_C 2.49412 2 6
+     (203 to@p_np_i-nnm_le -1.63041 2 3
+      ("to" 110
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1731 HDN_BNP_C 3.66806 3 6
+      (1730 N-NUM_MNP_C 2.71613 3 6
+       (1728 ^N_PL-CUR_ILR 1.21255 3 4
+        (256 dollarsign_n1@n_-_c-cur_le -0.27486 3 4
+         ("$" 114
+          "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (1729 SP-HD_HC_C 1.67476 4 6
+        (258 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+         ("52.4" 94
+          "token [ +CARG #1=\"52.4\" +CLASS card_or_proper_ne +FORM #1 +FROM \"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+        (260 million@aj_-_i-crd-mln_le 0.982606 5 6
+         ("million" 102
+          "token [ +CARG #1=\"million\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+   (1739 HD-CMP_U_C 1.76949 6 10
+    (269 from@p_np_i_le -0.572251 6 7
+     ("from" 104
+      "token [ +CARG #1=\"from\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1738 HDN_BNP_C 1.9933 7 10
+     (1737 N-NUM_MNP_C 1.04137 7 10
+      (1734 ^N_PL-CUR_ILR 1.21255 7 8
+       (286 dollarsign_n1@n_-_c-cur_le -0.27486 7 8
+        ("$" 112
+         "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1736 SP-HD_HC_C 0 8 10
+       (287 generic_number@aj_-_i-crd-unk_le 0 8 9
+        ("50.1" 121
+         "token [ +CARG #1=\"50.1\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED \"_50.1/CD_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"CD\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (1735 ^W_PERIOD_PLR 0 9 10
+        (288 million@aj_-_i-crd-mln_le 0 9 10
+         ("million." 116
+          "token [ +CARG \"million\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"million.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "sales"))))
+ (VP
+  (VP (VP (V (V "rose")))
+   (PP (P "to")
+    (NP (N (N (N "$")) (ADJ (ADJ "52.4") (ADJ "million"))))))
+  (PP (P "from")
+   (NP (N (N (N "$")) (ADJ (ADJ "50.1") (ADJ (ADJ "million."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _sale_n_of<0:5>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _rise_v_1<6:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _to_p<11:13>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x11 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<14:27>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ _dollar_n_1<14:15>
+            LBL: h15
+            ARG0: x11 ]
+          [ card<15:19>
+            LBL: h16
+            ARG0: i18
+            ARG1: i17
+            CARG: "52.4" ]
+          [ card<20:27>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            CARG: "1000000" ]
+          [ times<20:27>
+            LBL: h15
+            ARG0: i21
+            ARG1: i17
+            ARG2: h16
+            ARG3: h19 ]
+          [ _from_p<28:32>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<33:47>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ _dollar_n_1<33:34>
+            LBL: h27
+            ARG0: x23 ]
+          [ card<34:38>
+            LBL: h28
+            ARG0: i30
+            ARG1: i29
+            CARG: "50.1" ]
+          [ card<39:47>
+            LBL: h31
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            CARG: "1000000" ]
+          [ times<39:47>
+            LBL: h27
+            ARG0: i33
+            ARG1: i29
+            ARG2: h28
+            ARG3: h31 ] >
+   HCONS: < h25 QEQ h27 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:5>[BV x6]
+ x6:_sale_n_of<0:5>{x PERS 3, NUM pl}[]
+ e3:_rise_v_1<6:10>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_to_p<11:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x11]
+ _2:udef_q<14:27>[BV x11]
+ x11:_dollar_n_1<14:15>{x PERS 3, NUM pl, IND +}[]
+ i18:card<15:19>("52.4"){i}[]
+ e20:card<20:27>("1000000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11]
+ i21:times<20:27>{i}[ARG2 i18, ARG3 e20]
+ e22:_from_p<28:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _3:udef_q<33:47>[BV x23]
+ x23:_dollar_n_1<33:34>{x PERS 3, NUM pl, IND +}[]
+ i30:card<34:38>("50.1"){i}[]
+ e32:card<39:47>("1000000"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+ i33:times<39:47>{i}[ARG2 i30, ARG3 e32]
+}
+
+{
+  udef_q<0:5> BV _sale_n_of<0:5>  
+  _rise_v_1<6:10> ARG1 _sale_n_of<0:5>  
+  _to_p<11:13> ARG1 _rise_v_1<6:10>  
+  _to_p<11:13> ARG2 _dollar_n_1<14:15>  
+  udef_q<14:27> BV _dollar_n_1<14:15>  
+  card<20:27>(1000000) ARG1 _dollar_n_1<14:15>  
+  times<20:27> ARG2 card<15:19>(52.4)  
+  times<20:27> ARG3 card<20:27>(1000000)  
+  _from_p<28:32> ARG1 _rise_v_1<6:10>  
+  _from_p<28:32> ARG2 _dollar_n_1<33:34>  
+  udef_q<33:47> BV _dollar_n_1<33:34>  
+  card<39:47>(1000000) ARG1 _dollar_n_1<33:34>  
+  times<39:47> ARG2 card<34:38>(50.1)  
+  times<39:47> ARG3 card<39:47>(1000000)  
+  _sale_n_of<0:5> PERS 3  
+  _sale_n_of<0:5> NUM pl  
+  _rise_v_1<6:10> SF prop  
+  _rise_v_1<6:10> TENSE past  
+  _rise_v_1<6:10> MOOD indicative  
+  _rise_v_1<6:10> PROG -  
+  _rise_v_1<6:10> PERF -  
+  _to_p<11:13> SF prop  
+  _to_p<11:13> TENSE untensed  
+  _to_p<11:13> MOOD indicative  
+  _to_p<11:13> PROG -  
+  _to_p<11:13> PERF -  
+  _dollar_n_1<14:15> PERS 3  
+  _dollar_n_1<14:15> NUM pl  
+  _dollar_n_1<14:15> IND +  
+  card<20:27>(1000000) SF prop  
+  card<20:27>(1000000) TENSE untensed  
+  card<20:27>(1000000) MOOD indicative  
+  card<20:27>(1000000) PROG -  
+  card<20:27>(1000000) PERF -  
+  _from_p<28:32> SF prop  
+  _from_p<28:32> TENSE untensed  
+  _from_p<28:32> MOOD indicative  
+  _from_p<28:32> PROG -  
+  _from_p<28:32> PERF -  
+  _dollar_n_1<33:34> PERS 3  
+  _dollar_n_1<33:34> NUM pl  
+  _dollar_n_1<33:34> IND +  
+  card<39:47>(1000000) SF prop  
+  card<39:47>(1000000) TENSE untensed  
+  card<39:47>(1000000) MOOD indicative  
+  card<39:47>(1000000) PROG -  
+  card<39:47>(1000000) PERF -  
+}
+

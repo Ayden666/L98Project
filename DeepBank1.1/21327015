@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:08 h)).
+;;;
+
+[21327015] (1 of 1) {1} `Friends pitched in.'
+
+[21327015:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Friends", 0, "null", "NNS" 0.5604 "NNPS" 0.4396)
+  (2, 1, 2, <8:15>, 1, "pitched", 0, "null", "VBN" 0.4924 "VBD" 0.4862 "JJ" 0.0215)
+  (3, 2, 3, <16:18>, 1, "in", 0, "null", "IN" 0.8819 "RP" 0.0993 "RB" 0.0188)
+  (4, 3, 4, <18:19>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:7>, 1, "Friends", 0, "null", "NNS" 0.5604)
+  (57, 0, 1, <0:7>, 1, "Friends", 0, "null", "NNPS" 0.4396)
+  (58, 0, 1, <0:7>, 1, "friends", 0, "null")
+  (61, 0, 1, <0:7>, 1, "friends", 0, "null")
+  (50, 1, 2, <8:15>, 1, "pitched", 0, "null")
+  (55, 1, 2, <8:15>, 1, "pitched", 0, "null", "VBN" 0.4924)
+  (56, 1, 2, <8:15>, 1, "pitched", 0, "null", "VBD" 0.4862)
+  (59, 1, 2, <8:15>, 1, "pitched", 0, "null")
+  (51, 2, 3, <16:19>, 1, "in.", 0, "null")
+  (60, 2, 3, <16:19>, 1, "in.", 0, "null")
+>
+
+(ROOT_STRICT
+ (684 SB-HD_MC_C 4.05821 0 3
+  (680 HDN_BNP_C -0.0775391 0 1
+   (679 N_PL_OLR 0.498467 0 1
+    (72 friend_n1@n_-_c_le 0 0 1
+     ("friends" 58
+      "token [ +CARG \"Friends\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"friends\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56039669999999997\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (683 ^HD-CMP_U_C 2.61984 1 3
+   (681 ^V_PST_OLR 1.44991 1 2
+    (83 pitch_in_v1@v_p_le 0 1 2
+     ("pitched" 50
+      "token [ +CARG #1=\"pitched\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.49235719999999999\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (682 W_PERIOD_PLR 0.840342 2 3
+    (265 in_prtcl@p_np_ptcl_le 0 2 3
+     ("in." 51
+      "token [ +CARG \"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"in.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88190230000000003\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N "friends"))) (VP (V (V "pitched")) (P (P "in."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _friend_n_1<0:7>
+            LBL: h8
+            ARG0: x6 ]
+          [ _pitch_v_in<8:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:7>[BV x6]
+ x6:_friend_n_1<0:7>{x PERS 3, NUM pl, IND +}[]
+ e3:_pitch_v_in<8:15>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:7> BV _friend_n_1<0:7>  
+  _pitch_v_in<8:15> ARG1 _friend_n_1<0:7>  
+  _friend_n_1<0:7> PERS 3  
+  _friend_n_1<0:7> NUM pl  
+  _friend_n_1<0:7> IND +  
+  _pitch_v_in<8:15> SF prop  
+  _pitch_v_in<8:15> TENSE past  
+  _pitch_v_in<8:15> MOOD indicative  
+  _pitch_v_in<8:15> PROG -  
+  _pitch_v_in<8:15> PERF -  
+}
+

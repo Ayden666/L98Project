@@ -1,0 +1,142 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:36 h)).
+;;;
+
+[21867036] (1 of 1) {1} `Seiren Co. (Japan) --'
+
+[21867036:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Seiren", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:10>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:12>, 1, "(", 0, "null", "(" 1.0)
+  (4, 3, 4, <12:17>, 1, "Japan", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <17:18>, 1, ")", 0, "null", ")" 1.0)
+  (6, 5, 6, <19:21>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (71, 0, 1, <0:6>, 1, "Seiren", 0, "null")
+  (75, 0, 1, <0:6>, 1, "seiren", 0, "null")
+  (80, 0, 1, <0:6>, 1, "seiren", 0, "null")
+  (58, 1, 2, <7:10>, 1, "Co.", 0, "null")
+  (72, 1, 2, <7:10>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (74, 1, 2, <7:10>, 1, "co.", 0, "null")
+  (77, 1, 2, <7:10>, 1, "co.", 0, "null")
+  (62, 2, 3, <11:18>, 1, "(Japan)", 0, "null")
+  (73, 2, 3, <11:18>, 1, "(Japan)", 0, "null", "NNP" 1.0)
+  (76, 2, 3, <11:18>, 1, "(japan)", 0, "null")
+  (78, 2, 3, <11:18>, 1, "(japan)", 0, "null")
+  (68, 3, 4, <19:21>, 1, "–", 0, "null")
+  (79, 3, 4, <19:21>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (485 NP_FRG_C 3.49855 0 4
+  (484 HDN-N_PRNTH_C 3.35678 0 4
+   (483 ^HDN_BNP-PN_C 0.783667 0 2
+    (482 HDN-AJ_REDREL_C 0.197744 0 2
+     (471 ^N_SG_ILR -0.748959 0 1
+      (83 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Seiren" 71
+        "token [ +CARG #1=\"Seiren\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (103 co_post_ttl_2@n_-_tt-post-npt_le -0.667693 1 2
+      ("co." 74
+       "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (479 HD-PCT_C 2.29119 2 4
+    (478 ^W_LPAREN_PLR 0.26591 2 3
+     (477 W_RPAREN_PLR 0.225132 2 3
+      (476 N_SG_ILR -0.729962 2 3
+       (126 japan_n1@n_-_pn_le 0 2 3
+        ("(japan)" 76
+         "token [ +CARG \"Japan\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(japan)\" +FROM \"11\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"12\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (133 s_dbl_dash_pct@pt_-_s-dash_le 1.48236 3 4
+     ("–" 68
+      "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP (NP (N (N (N "Seiren")) (N "co.")))
+  (N (N (N (N (N "(japan)")))) (PNCT "–"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:21>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ parenthetical<0:21>
+            LBL: h2
+            ARG0: i6
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<11:21>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ proper_q<0:10>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ named<0:6>
+            LBL: h13
+            ARG0: x4
+            CARG: "Seiren" ]
+          [ _company_n_1<7:10>
+            LBL: h14
+            ARG0: x15 [ x IND: + ] ]
+          [ udef_q<7:10>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ compound<7:10>
+            LBL: h13
+            ARG0: i19
+            ARG1: x4
+            ARG2: x15 ]
+          [ named<11:18>
+            LBL: h20
+            ARG0: x5
+            CARG: "Japan" ] >
+   HCONS: < h17 QEQ h14 h11 QEQ h13 h8 QEQ h20 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:21>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ i6:parenthetical<0:21>{i}[ARG1 x4, ARG2 x5]
+ _1:udef_q<11:21>[BV x5]
+ _2:proper_q<0:10>[BV x4]
+ x4:named<0:6>("Seiren"){x PERS 3, NUM sg, IND +}[]
+ x15:_company_n_1<7:10>{x IND +}[]
+ _3:udef_q<7:10>[BV x15]
+ i19:compound<7:10>{i}[ARG1 x4, ARG2 x15]
+ x5:named<11:18>("Japan"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:21> ARG named<0:6>(Seiren)  
+  parenthetical<0:21> ARG1 named<0:6>(Seiren)  
+  parenthetical<0:21> ARG2 named<11:18>(Japan)  
+  udef_q<11:21> BV named<11:18>(Japan)  
+  proper_q<0:10> BV named<0:6>(Seiren)  
+  udef_q<7:10> BV _company_n_1<7:10>  
+  compound<7:10> ARG1 named<0:6>(Seiren)  
+  compound<7:10> ARG2 _company_n_1<7:10>  
+  unknown<0:21> SF prop-or-ques  
+  unknown<0:21> TENSE untensed  
+  unknown<0:21> MOOD indicative  
+  unknown<0:21> PROG -  
+  unknown<0:21> PERF -  
+  named<0:6>(Seiren) PERS 3  
+  named<0:6>(Seiren) NUM sg  
+  named<0:6>(Seiren) IND +  
+  _company_n_1<7:10> IND +  
+  named<11:18>(Japan) PERS 3  
+  named<11:18>(Japan) NUM sg  
+  named<11:18>(Japan) IND +  
+}
+

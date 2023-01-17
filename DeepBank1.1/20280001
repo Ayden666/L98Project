@@ -1,0 +1,196 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:35 h)).
+;;;
+
+[20280001] (1 of 1) {1} ``Frequent Drinker' Offer Stirs Up Spirited Debate'
+
+[20280001:21] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "‘", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:9>, 1, "Frequent", 0, "null", "JJ" 1.0)
+  (3, 2, 3, <10:17>, 1, "Drinker", 0, "null", "NN" 1.0)
+  (4, 3, 4, <17:18>, 1, "’", 0, "null", "POS" 0.9695 "''" 0.0305)
+  (5, 4, 5, <19:24>, 1, "Offer", 0, "null", "NN" 1.0)
+  (6, 5, 6, <25:30>, 1, "Stirs", 0, "null", "VBZ" 1.0)
+  (7, 6, 7, <31:33>, 1, "Up", 0, "null", "RB" 0.4699 "IN" 0.4253 "RP" 0.1048)
+  (8, 7, 8, <34:42>, 1, "Spirited", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <43:49>, 1, "Debate", 0, "null", "NN" 1.0)
+>
+
+<
+  (120, 0, 1, <0:9>, 1, "‘Frequent", 0, "null", "JJ" 1.0)
+  (126, 0, 1, <0:9>, 1, "‘frequent", 0, "null")
+  (140, 0, 1, <0:9>, 1, "‘frequent", 0, "null")
+  (96, 1, 2, <10:18>, 1, "Drinker’", 0, "null")
+  (121, 1, 2, <10:18>, 1, "Drinker’", 0, "null", "NN" 1.0)
+  (127, 1, 2, <10:18>, 1, "drinker’", 0, "null")
+  (134, 1, 2, <10:18>, 1, "drinker’", 0, "null")
+  (89, 2, 3, <19:24>, 1, "Offer", 0, "null")
+  (116, 2, 3, <19:24>, 1, "Offer", 0, "null", "NN" 1.0)
+  (122, 2, 3, <19:24>, 1, "offer", 0, "null")
+  (129, 2, 3, <19:24>, 1, "offer", 0, "null")
+  (90, 3, 4, <25:30>, 1, "Stirs", 0, "null")
+  (117, 3, 4, <25:30>, 1, "Stirs", 0, "null", "VBZ" 1.0)
+  (123, 3, 4, <25:30>, 1, "stirs", 0, "null")
+  (130, 3, 4, <25:30>, 1, "stirs", 0, "null")
+  (91, 4, 5, <31:33>, 1, "Up", 0, "null")
+  (115, 4, 5, <31:33>, 1, "Up", 0, "null", "RB" 0.4699)
+  (128, 4, 5, <31:33>, 1, "up", 0, "null")
+  (131, 4, 5, <31:33>, 1, "up", 0, "null")
+  (92, 5, 6, <34:42>, 1, "Spirited", 0, "null")
+  (118, 5, 6, <34:42>, 1, "Spirited", 0, "null", "JJ" 1.0)
+  (124, 5, 6, <34:42>, 1, "spirited", 0, "null")
+  (132, 5, 6, <34:42>, 1, "spirited", 0, "null")
+  (93, 6, 7, <43:49>, 1, "Debate", 0, "null")
+  (119, 6, 7, <43:49>, 1, "Debate", 0, "null", "NN" 1.0)
+  (125, 6, 7, <43:49>, 1, "debate", 0, "null")
+  (133, 6, 7, <43:49>, 1, "debate", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (11752 SB-HD_MC_C 5.23475 0 7
+  (11751 HDN_BNP-PN_C -0.118381 0 3
+   (11750 NP-HDN_TTL-CPD_C -0.804319 0 3
+    (11749 AJ-HDN_NORM_C -0.779943 0 2
+     (11640 W_SQLEFT_PLR 0 0 1
+      (145 frequent_a1@aj_-_i_le 0 0 1
+       ("‘frequent" 126
+        "token [ +CARG \"Frequent\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"‘frequent\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (11693 ^W_SQRIGHT_PLR -0.779943 1 2
+      (11692 N_MS-CNT_ILR -0.779943 1 2
+       (152 generic_mass_count_noun@n_-_mc-unk_le 0 1 2
+        ("Drinker’" 121
+         "token [ +CARG \"Drinker\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"Drinker’\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED \"_drinker/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (11623 ^N_SG_ILR -0.143257 2 3
+     (157 generic_proper_ne@n_-_pn-gen_le 0 2 3
+      ("Offer" 89
+       "token [ +CARG #1=\"Offer\" +CLASS proper_ne +FORM #1 +FROM \"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (11661 ^HD-CMP_U_C 4.33608 3 7
+   (11658 ^HD-CMP_U_C 3.13245 3 5
+    (11657 ^V_NP-PRTCL_DLR 0.378225 3 4
+     (11656 V_3S-FIN_OLR 0.618393 3 4
+      (188 stir_up_v1@v_p-np_le 0 3 4
+       ("stirs" 123
+        "token [ +CARG \"Stirs\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"stirs\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (273 up_prtcl@p_np_ptcl_le 1.97513 4 5
+     ("up" 128
+      "token [ +CARG \"Up\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"up\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.46991699999999997\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (11660 HDN_BNP_C 1.04648 5 7
+    (11659 AJ-HDN_NORM_C 0.781674 5 7
+     (471 spirited_a1@aj_-_i_le 0 5 6
+      ("spirited" 124
+       "token [ +CARG \"Spirited\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"spirited\" +FROM #1=\"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (11646 ^N_MS-CNT_ILR -0.338138 6 7
+      (492 debate_n@n_-_mc_le 0 6 7
+       ("debate" 125
+        "token [ +CARG \"Debate\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"debate\" +FROM #1=\"43\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (N (AP (AP "‘frequent")) (N (N (N "Drinker’")))) (N (N "Offer"))))
+ (VP (V (V (V (V "stirs"))) (P "up"))
+  (NP (N (AP "spirited") (N (N "debate"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:24>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:24>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:18>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _frequent_a_1<0:9>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _drinker/nn_u_unknown<10:18>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<19:24>
+            LBL: h8
+            ARG0: x6
+            CARG: "Offer" ]
+          [ _stir_v_up<25:30>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<34:49>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ _spirited_a_1<34:42>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16 ]
+          [ _debate_n_1<43:49>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:24>[BV x6]
+ e10:compound<0:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:18>[BV x9]
+ e15:_frequent_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_drinker/nn_u_unknown<10:18>{x PERS 3, NUM sg}[]
+ x6:named<19:24>("Offer"){x PERS 3, NUM sg, IND +}[]
+ e3:_stir_v_up<25:30>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:udef_q<34:49>[BV x16]
+ e21:_spirited_a_1<34:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16]
+ x16:_debate_n_1<43:49>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:24> BV named<19:24>(Offer)  
+  compound<0:24> ARG1 named<19:24>(Offer)  
+  compound<0:24> ARG2 _drinker/nn_u_unknown<10:18>  
+  udef_q<0:18> BV _drinker/nn_u_unknown<10:18>  
+  _frequent_a_1<0:9> ARG1 _drinker/nn_u_unknown<10:18>  
+  _stir_v_up<25:30> ARG1 named<19:24>(Offer)  
+  _stir_v_up<25:30> ARG2 _debate_n_1<43:49>  
+  udef_q<34:49> BV _debate_n_1<43:49>  
+  _spirited_a_1<34:42> ARG1 _debate_n_1<43:49>  
+  compound<0:24> SF prop  
+  compound<0:24> TENSE untensed  
+  compound<0:24> MOOD indicative  
+  compound<0:24> PROG -  
+  compound<0:24> PERF -  
+  _frequent_a_1<0:9> SF prop  
+  _frequent_a_1<0:9> TENSE untensed  
+  _frequent_a_1<0:9> MOOD indicative  
+  _frequent_a_1<0:9> PROG -  
+  _frequent_a_1<0:9> PERF -  
+  _drinker/nn_u_unknown<10:18> PERS 3  
+  _drinker/nn_u_unknown<10:18> NUM sg  
+  named<19:24>(Offer) PERS 3  
+  named<19:24>(Offer) NUM sg  
+  named<19:24>(Offer) IND +  
+  _stir_v_up<25:30> SF prop  
+  _stir_v_up<25:30> TENSE pres  
+  _stir_v_up<25:30> MOOD indicative  
+  _stir_v_up<25:30> PROG -  
+  _stir_v_up<25:30> PERF -  
+  _spirited_a_1<34:42> SF prop  
+  _spirited_a_1<34:42> TENSE untensed  
+  _spirited_a_1<34:42> MOOD indicative  
+  _spirited_a_1<34:42> PROG -  
+  _spirited_a_1<34:42> PERF -  
+  _debate_n_1<43:49> PERS 3  
+  _debate_n_1<43:49> NUM sg  
+}
+

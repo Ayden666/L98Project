@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146087] (1 of 1) {1} `Parts are a tragedy.'
+
+[21146087:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Parts", 0, "null", "NNS" 0.9671 "NNP" 0.0329)
+  (2, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <10:11>, 1, "a", 0, "null", "DT" 1.0)
+  (4, 3, 4, <12:19>, 1, "tragedy", 0, "null", "NN" 1.0)
+  (5, 4, 5, <19:20>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:5>, 1, "Parts", 0, "null", "NNS" 0.9671)
+  (60, 0, 1, <0:5>, 1, "parts", 0, "null")
+  (64, 0, 1, <0:5>, 1, "parts", 0, "null")
+  (50, 1, 2, <6:9>, 1, "are", 0, "null")
+  (58, 1, 2, <6:9>, 1, "are", 0, "null", "VBP" 1.0)
+  (61, 1, 2, <6:9>, 1, "are", 0, "null")
+  (52, 2, 3, <10:11>, 1, "a", 0, "null")
+  (62, 2, 3, <10:11>, 1, "a", 0, "null")
+  (54, 3, 4, <12:20>, 1, "tragedy.", 0, "null")
+  (59, 3, 4, <12:20>, 1, "tragedy.", 0, "null", "NN" 1.0)
+  (63, 3, 4, <12:20>, 1, "tragedy.", 0, "null")
+>
+
+(ROOT_STRICT
+ (421 SB-HD_MC_C 1.07487 0 4
+  (416 HDN_BNP_C -0.802123 0 1
+   (415 N_PL_OLR -0.226118 0 1
+    (75 part_n1@n_-_c-ns_le 0.0283831 0 1
+     ("parts" 60
+      "token [ +CARG \"Parts\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"parts\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96711329999999995\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (420 ^HD-CMP_U_C 0.361088 1 4
+   (103 be_id_are@v_np_are_le -0.260858 1 2
+    ("are" 50
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (419 SP-HD_N_C 0.110345 2 4
+    (112 a_det@d_-_sg-nmd_le -0.667877 2 3
+     ("a" 52
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (418 ^W_PERIOD_PLR 0.353022 3 4
+     (417 N_MS-CNT_ILR 0.175793 3 4
+      (185 tragedy_n1@n_-_mc_le 0 3 4
+       ("tragedy." 54
+        "token [ +CARG \"tragedy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"tragedy.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "parts")))
+ (VP (V "are") (NP (DET "a") (N (N (N "tragedy."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _part_n_1<0:5>
+            LBL: h8
+            ARG0: x6 ]
+          [ _be_v_id<6:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<10:11>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _tragedy_n_1<12:20>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:5>[BV x6]
+ x6:_part_n_1<0:5>{x PERS 3, NUM pl, IND +}[]
+ e3:_be_v_id<6:9>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_a_q<10:11>[BV x9]
+ x9:_tragedy_n_1<12:20>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:5> BV _part_n_1<0:5>  
+  _be_v_id<6:9> ARG1 _part_n_1<0:5>  
+  _be_v_id<6:9> ARG2 _tragedy_n_1<12:20>  
+  _a_q<10:11> BV _tragedy_n_1<12:20>  
+  _part_n_1<0:5> PERS 3  
+  _part_n_1<0:5> NUM pl  
+  _part_n_1<0:5> IND +  
+  _be_v_id<6:9> SF prop  
+  _be_v_id<6:9> TENSE pres  
+  _be_v_id<6:9> MOOD indicative  
+  _be_v_id<6:9> PROG -  
+  _be_v_id<6:9> PERF -  
+  _tragedy_n_1<12:20> PERS 3  
+  _tragedy_n_1<12:20> NUM sg  
+}
+

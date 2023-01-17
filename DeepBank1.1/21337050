@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:18 h)).
+;;;
+
+[21337050] (1 of 1) {1} `Wellington was closed.'
+
+[21337050:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Wellington", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <11:14>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <15:21>, 1, "closed", 0, "null", "VBN" 0.7765 "VBD" 0.1303 "JJ" 0.0932)
+  (4, 3, 4, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (48, 0, 1, <0:10>, 1, "Wellington", 0, "null")
+  (52, 0, 1, <0:10>, 1, "wellington", 0, "null")
+  (55, 0, 1, <0:10>, 1, "wellington", 0, "null")
+  (45, 1, 2, <11:14>, 1, "was", 0, "null")
+  (51, 1, 2, <11:14>, 1, "was", 0, "null", "VBD" 1.0)
+  (53, 1, 2, <11:14>, 1, "was", 0, "null")
+  (46, 2, 3, <15:22>, 1, "closed.", 0, "null")
+  (49, 2, 3, <15:22>, 1, "closed.", 0, "null", "VBN" 0.7765)
+  (50, 2, 3, <15:22>, 1, "closed.", 0, "null", "VBD" 0.1303)
+  (54, 2, 3, <15:22>, 1, "closed.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1189 SB-HD_MC_C 2.75412 0 3
+  (1186 HDN_BNP-PN_C -1.0285 0 1
+   (1185 N_SG_ILR -0.979548 0 1
+    (56 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Wellington" 48
+      "token [ +CARG #1=\"Wellington\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1188 ^HD-CMP_U_C 2.76557 1 3
+   (61 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 45
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1187 W_PERIOD_PLR 0.612486 2 3
+    (233 closed_isect@aj_-_i_le 0 2 3
+     ("closed." 46
+      "token [ +CARG \"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"closed.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77648240000000002\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N "Wellington"))) (VP (V "was") (AP (AP "closed."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:10>
+            LBL: h8
+            ARG0: x6
+            CARG: "Wellington" ]
+          [ _closed_a_1<15:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:10>[BV x6]
+ x6:named<0:10>("Wellington"){x PERS 3, NUM sg, IND +}[]
+ e3:_closed_a_1<15:22>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:10> BV named<0:10>(Wellington)  
+  _closed_a_1<15:22> ARG1 named<0:10>(Wellington)  
+  named<0:10>(Wellington) PERS 3  
+  named<0:10>(Wellington) NUM sg  
+  named<0:10>(Wellington) IND +  
+  _closed_a_1<15:22> SF prop  
+  _closed_a_1<15:22> TENSE past  
+  _closed_a_1<15:22> MOOD indicative  
+  _closed_a_1<15:22> PROG -  
+  _closed_a_1<15:22> PERF -  
+}
+

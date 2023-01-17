@@ -1,0 +1,224 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:27 h)).
+;;;
+
+[21755021] (1 of 1) {1} `Consumer Durables: Automobiles, appliances, furniture.'
+
+[21755021:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Consumer", 0, "null", "NNP" 0.9859 "NN" 0.0141)
+  (2, 1, 2, <9:17>, 1, "Durables", 0, "null", "NNPS" 1.0)
+  (3, 2, 3, <17:18>, 1, ":", 0, "null", ":" 1.0)
+  (4, 3, 4, <19:30>, 1, "Automobiles", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <30:31>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <32:42>, 1, "appliances", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <42:43>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <44:53>, 1, "furniture", 0, "null", "NN" 1.0)
+  (9, 8, 9, <53:54>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (104, 0, 1, <0:8>, 1, "Consumer", 0, "null")
+  (111, 0, 1, <0:8>, 1, "consumer", 0, "null")
+  (117, 0, 1, <0:8>, 1, "consumer", 0, "null")
+  (84, 1, 2, <9:17>, 1, "Durables", 0, "null")
+  (105, 1, 2, <9:17>, 1, "Durables", 0, "null", "NNPS" 1.0)
+  (109, 1, 2, <9:17>, 1, "durables", 0, "null")
+  (112, 1, 2, <9:17>, 1, "durables", 0, "null")
+  (95, 2, 3, <17:18>, 1, ":", 0, "null")
+  (114, 2, 3, <17:18>, 1, ":", 0, "null")
+  (87, 3, 4, <19:31>, 1, "Automobiles,", 0, "null")
+  (106, 3, 4, <19:31>, 1, "Automobiles,", 0, "null", "NNS" 1.0)
+  (110, 3, 4, <19:31>, 1, "automobiles,", 0, "null")
+  (113, 3, 4, <19:31>, 1, "automobiles,", 0, "null")
+  (99, 4, 5, <32:43>, 1, "appliances,", 0, "null")
+  (107, 4, 5, <32:43>, 1, "appliances,", 0, "null", "NNS" 1.0)
+  (115, 4, 5, <32:43>, 1, "appliances,", 0, "null")
+  (101, 5, 6, <44:54>, 1, "furniture.", 0, "null")
+  (108, 5, 6, <44:54>, 1, "furniture.", 0, "null", "NN" 1.0)
+  (116, 5, 6, <44:54>, 1, "furniture.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3000 SB-HD_MC_C 5.4694 0 6
+  (2981 HDN_BNP_C 2.78952 0 2
+   (2980 N-HDN_CPD_C 2.16877 0 2
+    (2978 HDN_OPTCMP_C 1.13851 0 1
+     (121 consumer_n1@n_pp_c-of_le -0.922991 0 1
+      ("consumer" 111
+       "token [ +CARG \"Consumer\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"consumer\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98586459999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2979 ^N_PL_OLR 0.555969 1 2
+     (133 durable_n1@n_-_c-nocnh_le 0 1 2
+      ("durables" 109
+       "token [ +CARG \"Durables\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"durables\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2999 ^HD-CMP_U_C 1.16397 2 6
+   (144 colon_copula_v@v_np_colon_le 0.879077 2 3
+    (":" 95
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2998 NP-NP_CRD-T_C -0.30044 3 6
+    (2997 HDN_BNP_C 1.73213 3 4
+     (2996 W_COMMA_PLR 0.271767 3 4
+      (2995 N_PL_OLR -0.0655408 3 4
+       (203 automobile_n1@n_-_c_le 0 3 4
+        ("automobiles," 110
+         "token [ +CARG \"Automobiles\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"automobiles,\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (2991 ^NP-NP_CRD-NC-M_C -0.95795 4 6
+     (2987 HDN_BNP_C -0.183951 4 5
+      (2986 W_COMMA_PLR 0.232476 4 5
+       (2985 N_PL_OLR -0.0655408 4 5
+        (219 appliance_n1@n_-_c_le 0 4 5
+         ("appliances," 99
+          "token [ +CARG \"appliances\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"appliances,\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (2990 ^HDN_BNP_C -0.663833 5 6
+      (2989 W_PERIOD_PLR 0.374927 5 6
+       (2988 N_MS_ILR -0.150183 5 6
+        (248 furniture_n1@n_-_m_le 0 5 6
+         ("furniture." 101
+          "token [ +CARG \"furniture\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"furniture.\" +FROM #1=\"44\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "consumer")) (N (N "durables"))))
+ (VP (V ":")
+  (NP (NP (N (N (N "automobiles,"))))
+   (NP-CJ (NP (N (N (N "appliances,"))))
+    (NP (N (N (N "furniture."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _consumer_n_of<0:8>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ _durable_n_1<9:17>
+            LBL: h8
+            ARG0: x6 ]
+          [ _colon_v_id<17:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 ]
+          [ udef_q<19:54>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ udef_q<19:31>
+            LBL: h20
+            ARG0: x22 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h21
+            BODY: h23 ]
+          [ _automobile_n_1<19:31>
+            LBL: h24
+            ARG0: x22 ]
+          [ udef_q<32:54>
+            LBL: h25
+            ARG0: i26
+            RSTR: h27
+            BODY: h28 ]
+          [ implicit_conj<32:54>
+            LBL: h29
+            ARG0: i26
+            L-INDEX: x31 [ x PERS: 3 NUM: PL IND: + ]
+            R-INDEX: x30 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ implicit_conj<32:54>
+            LBL: h32
+            ARG0: x16
+            L-INDEX: x22
+            R-INDEX: i26 ]
+          [ udef_q<32:43>
+            LBL: h33
+            ARG0: x31
+            RSTR: h34
+            BODY: h35 ]
+          [ _appliance_n_1<32:43>
+            LBL: h36
+            ARG0: x31 ]
+          [ udef_q<44:54>
+            LBL: h37
+            ARG0: x30
+            RSTR: h38
+            BODY: h39 ]
+          [ _furniture_n_1<44:54>
+            LBL: h40
+            ARG0: x30 ] >
+   HCONS: < h38 QEQ h40 h34 QEQ h36 h27 QEQ h29 h21 QEQ h24 h18 QEQ h32 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:17>[BV x6]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_consumer_n_of<0:8>{x IND +}[]
+ x6:_durable_n_1<9:17>{x PERS 3, NUM pl, IND +}[]
+ e3:_colon_v_id<17:18>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:udef_q<19:54>[BV x16]
+ _4:udef_q<19:31>[BV x22]
+ x22:_automobile_n_1<19:31>{x PERS 3, NUM pl, IND +}[]
+ _5:udef_q<32:54>[BV i26]
+ i26:implicit_conj<32:54>{i}[L-INDEX x31, R-INDEX x30]
+ x16:implicit_conj<32:54>{x}[L-INDEX x22, R-INDEX i26]
+ _6:udef_q<32:43>[BV x31]
+ x31:_appliance_n_1<32:43>{x PERS 3, NUM pl, IND +}[]
+ _7:udef_q<44:54>[BV x30]
+ x30:_furniture_n_1<44:54>{x PERS 3, NUM sg, GEND n, IND -}[]
+}
+
+{
+  udef_q<0:17> BV _durable_n_1<9:17>  
+  compound<0:17> ARG1 _durable_n_1<9:17>  
+  compound<0:17> ARG2 _consumer_n_of<0:8>  
+  udef_q<0:8> BV _consumer_n_of<0:8>  
+  _colon_v_id<17:18> ARG1 _durable_n_1<9:17>  
+  _colon_v_id<17:18> ARG2 implicit_conj<32:54>  
+  udef_q<19:54> BV implicit_conj<32:54>  
+  udef_q<19:31> BV _automobile_n_1<19:31>  
+  udef_q<32:54> BV implicit_conj<32:54>  
+  implicit_conj<32:54> L-INDEX _appliance_n_1<32:43>  
+  implicit_conj<32:54> R-INDEX _furniture_n_1<44:54>  
+  implicit_conj<32:54> L-INDEX _automobile_n_1<19:31>  
+  implicit_conj<32:54> R-INDEX implicit_conj<32:54>  
+  udef_q<32:43> BV _appliance_n_1<32:43>  
+  udef_q<44:54> BV _furniture_n_1<44:54>  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  _consumer_n_of<0:8> IND +  
+  _durable_n_1<9:17> PERS 3  
+  _durable_n_1<9:17> NUM pl  
+  _durable_n_1<9:17> IND +  
+  _colon_v_id<17:18> SF prop  
+  _colon_v_id<17:18> TENSE tensed  
+  _colon_v_id<17:18> MOOD indicative  
+  _colon_v_id<17:18> PROG -  
+  _colon_v_id<17:18> PERF -  
+  _automobile_n_1<19:31> PERS 3  
+  _automobile_n_1<19:31> NUM pl  
+  _automobile_n_1<19:31> IND +  
+  _appliance_n_1<32:43> PERS 3  
+  _appliance_n_1<32:43> NUM pl  
+  _appliance_n_1<32:43> IND +  
+  _furniture_n_1<44:54> PERS 3  
+  _furniture_n_1<44:54> NUM sg  
+  _furniture_n_1<44:54> GEND n  
+  _furniture_n_1<44:54> IND -  
+}
+

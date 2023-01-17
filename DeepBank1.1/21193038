@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj11e';
+;;; (wsun@wsun; 22-jan-2018 (20:56 h)).
+;;;
+
+[21193038] (1 of 1) {1} `HOLIDAY PROMOTION:'
+
+[21193038:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "HOLIDAY", 0, "null", "NNP" 0.9804 "NN" 0.0196)
+  (2, 1, 2, <8:17>, 1, "PROMOTION", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <17:18>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:7>, 1, "HOLIDAY", 0, "null")
+  (40, 0, 1, <0:7>, 1, "HOLIDAY", 0, "null", "NNP" 0.9804)
+  (43, 0, 1, <0:7>, 1, "holiday", 0, "null")
+  (45, 0, 1, <0:7>, 1, "holiday", 0, "null")
+  (30, 1, 2, <8:17>, 1, "PROMOTION", 0, "null")
+  (41, 1, 2, <8:17>, 1, "PROMOTION", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <8:17>, 1, "promotion", 0, "null")
+  (44, 1, 2, <8:17>, 1, "promotion", 0, "null")
+  (37, 2, 3, <17:18>, 1, ":", 0, "null")
+  (46, 2, 3, <17:18>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (311 NP_FRG_C 0.601614 0 3
+  (310 HDN_BNP_C 0.806028 0 3
+   (309 HDN-AJ_REDREL_C 0.901424 0 3
+    (308 ^N-HDN_CPD_C 0.541181 0 2
+     (52 holiday_n1@n_-_c-day_le 0 0 1
+      ("holiday" 43
+       "token [ +CARG \"HOLIDAY\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"holiday\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98038099999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (307 ^HDN_OPTCMP_C 0.541181 1 2
+      (306 N_MS-CNT_ILR 0.424729 1 2
+       (56 promotion_n1@n_pp_mc-of_le 0 1 2
+        ("promotion" 42
+         "token [ +CARG \"PROMOTION\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"promotion\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (66 colon_namely_pp@pp_-_i-cln_le -0.196315 2 3
+     (":" 37
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (N "holiday") (N (N (N "promotion")))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _holiday_n_1<0:7>
+            LBL: h14
+            ARG0: x9 ]
+          [ _promotion_n_of<8:17>
+            LBL: h8
+            ARG0: x4
+            ARG1: i15 ]
+          [ _colon_p_namely<17:18>
+            LBL: h8
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:18>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:7>[BV x9]
+ x9:_holiday_n_1<0:7>{x IND +}[]
+ x4:_promotion_n_of<8:17>{x PERS 3, NUM sg}[]
+ e16:_colon_p_namely<17:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:18> ARG _promotion_n_of<8:17>  
+  udef_q<0:18> BV _promotion_n_of<8:17>  
+  compound<0:17> ARG1 _promotion_n_of<8:17>  
+  compound<0:17> ARG2 _holiday_n_1<0:7>  
+  udef_q<0:7> BV _holiday_n_1<0:7>  
+  _colon_p_namely<17:18> ARG1 _promotion_n_of<8:17>  
+  unknown<0:18> SF prop-or-ques  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  _holiday_n_1<0:7> IND +  
+  _promotion_n_of<8:17> PERS 3  
+  _promotion_n_of<8:17> NUM sg  
+  _colon_p_namely<17:18> SF prop  
+  _colon_p_namely<17:18> TENSE untensed  
+  _colon_p_namely<17:18> MOOD indicative  
+  _colon_p_namely<17:18> PROG -  
+  _colon_p_namely<17:18> PERF -  
+}
+

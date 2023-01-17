@@ -1,0 +1,145 @@
+;;;
+;;; Redwoods export of `wsj05a';
+;;; (wsun@wsun; 22-jan-2018 (14:57 h)).
+;;;
+
+[20524073] (1 of 1) {1} `Last year, 45,000 went.'
+
+[20524073:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Last", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <5:9>, 1, "year", 0, "null", "NN" 1.0)
+  (3, 2, 3, <9:10>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <11:17>, 1, "45,000", 0, "null", "CD" 1.0)
+  (5, 4, 5, <18:22>, 1, "went", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (61, 0, 1, <0:4>, 1, "Last", 0, "null", "JJ" 1.0)
+  (64, 0, 1, <0:4>, 1, "last", 0, "null")
+  (68, 0, 1, <0:4>, 1, "last", 0, "null")
+  (60, 1, 2, <5:10>, 1, "year,", 0, "null")
+  (63, 1, 2, <5:10>, 1, "year,", 0, "null", "NN" 1.0)
+  (67, 1, 2, <5:10>, 1, "year,", 0, "null")
+  (50, 2, 3, <11:17>, 1, "45,000", 0, "null")
+  (65, 2, 3, <11:17>, 1, "45,000", 0, "null")
+  (58, 3, 4, <18:23>, 1, "went.", 0, "null")
+  (62, 3, 4, <18:23>, 1, "went.", 0, "null", "VBD" 1.0)
+  (66, 3, 4, <18:23>, 1, "went.", 0, "null")
+>
+
+(ROOT_STRICT
+ (496 FLR-HD_NWH_C 6.91247 0 4
+  (488 NP_ADV_C 5.18904 0 2
+   (487 SP-HD_N_C 4.50474 0 2
+    (74 last_det@d_-_last_le 2.80435 0 1
+     ("last" 64
+      "token [ +CARG \"Last\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"last\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (486 ^W_COMMA_PLR 1.55573 1 2
+     (485 N_SG_ILR -0.157342 1 2
+      (83 year_n1@n_-_c-year_le -0.116787 1 2
+       ("year," 60
+        "token [ +CARG \"year\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"year,\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (495 ^SB-HD_NMC_C 0.729823 2 4
+   (490 HDN_BNP-NUM_C -1.0597 2 3
+    (489 HDN_NP-NUM_C -0.194582 2 3
+     (153 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+      ("45,000" 50
+       "token [ +CARG #1=\"45,000\" +CLASS card_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+   (494 ^HD_XAJ-INT-VP_C 1.64519 3 4
+    (493 HD_OPTCMP_C 1.10478 3 4
+     (492 W_PERIOD_PLR 0.736093 3 4
+      (491 V_PST_OLR 0.222831 3 4
+       (174 go_v1@v_pp*_dir_le 0 3 4
+        ("went." 58
+         "token [ +CARG \"went\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"went.\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (PP (NP (DET "last") (N (N (N "year,")))))
+ (S/PP (NP (N (ADJ "45,000"))) (VP/PP (VP (V (V (V "went.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:23>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ loc_nonsp<0:10>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ def_implicit_q<0:4>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ _last_a_1<0:4>
+            LBL: h10
+            ARG0: i11
+            ARG1: x6 ]
+          [ _year_n_1<5:10>
+            LBL: h10
+            ARG0: x6 ]
+          [ number_q<11:17>
+            LBL: h12
+            ARG0: x14 [ x PERS: 3 NUM: SG ]
+            RSTR: h13
+            BODY: h15 ]
+          [ card<11:17>
+            LBL: h16
+            ARG0: x14
+            ARG1: i17
+            CARG: "45,000" ]
+          [ _go_v_1<18:23>
+            LBL: h2
+            ARG0: e3
+            ARG1: x14 ] >
+   HCONS: < h13 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:loc_nonsp<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:def_implicit_q<0:4>[BV x6]
+ i11:_last_a_1<0:4>{i}[ARG1 x6]
+ x6:_year_n_1<5:10>{x PERS 3, NUM sg, IND +}[]
+ _2:number_q<11:17>[BV x14]
+ x14:card<11:17>("45,000"){x PERS 3, NUM sg}[]
+ e3:_go_v_1<18:23>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x14]
+}
+
+{
+  focus_d<0:23> ARG1 _go_v_1<18:23>  
+  focus_d<0:23> ARG2 loc_nonsp<0:10>  
+  loc_nonsp<0:10> ARG1 _go_v_1<18:23>  
+  loc_nonsp<0:10> ARG2 _year_n_1<5:10>  
+  def_implicit_q<0:4> BV _year_n_1<5:10>  
+  _last_a_1<0:4> ARG1 _year_n_1<5:10>  
+  number_q<11:17> BV card<11:17>(45,000)  
+  _go_v_1<18:23> ARG1 card<11:17>(45,000)  
+  focus_d<0:23> SF prop  
+  focus_d<0:23> TENSE untensed  
+  focus_d<0:23> MOOD indicative  
+  focus_d<0:23> PROG -  
+  focus_d<0:23> PERF -  
+  loc_nonsp<0:10> SF prop  
+  loc_nonsp<0:10> TENSE untensed  
+  loc_nonsp<0:10> MOOD indicative  
+  loc_nonsp<0:10> PROG -  
+  loc_nonsp<0:10> PERF -  
+  _year_n_1<5:10> PERS 3  
+  _year_n_1<5:10> NUM sg  
+  _year_n_1<5:10> IND +  
+  card<11:17>(45,000) PERS 3  
+  card<11:17>(45,000) NUM sg  
+  _go_v_1<18:23> SF prop  
+  _go_v_1<18:23> TENSE past  
+  _go_v_1<18:23> MOOD indicative  
+  _go_v_1<18:23> PROG -  
+  _go_v_1<18:23> PERF -  
+}
+

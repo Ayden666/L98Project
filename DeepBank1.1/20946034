@@ -1,0 +1,237 @@
+;;;
+;;; Redwoods export of `wsj09b';
+;;; (wsun@wsun; 22-jan-2018 (18:35 h)).
+;;;
+
+[20946034] (1 of 1) {1} `Mr. Rezneck is a lawyer in Washington, D.C.'
+
+[20946034:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Rezneck", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:16>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <17:23>, 1, "lawyer", 0, "null", "NN" 1.0)
+  (6, 5, 6, <24:26>, 1, "in", 0, "null", "IN" 1.0)
+  (7, 6, 7, <27:37>, 1, "Washington", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <37:38>, 1, ",", 0, "null", "," 1.0)
+  (9, 8, 9, <39:42>, 1, "D.C", 0, "null", "NNP" 1.0)
+  (10, 9, 10, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (117, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (124, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (134, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (95, 1, 2, <4:11>, 1, "Rezneck", 0, "null")
+  (118, 1, 2, <4:11>, 1, "Rezneck", 0, "null", "NNP" 1.0)
+  (123, 1, 2, <4:11>, 1, "rezneck", 0, "null")
+  (127, 1, 2, <4:11>, 1, "rezneck", 0, "null")
+  (106, 2, 3, <12:14>, 1, "is", 0, "null")
+  (119, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (130, 2, 3, <12:14>, 1, "is", 0, "null")
+  (108, 3, 4, <15:16>, 1, "a", 0, "null")
+  (131, 3, 4, <15:16>, 1, "a", 0, "null")
+  (110, 4, 5, <17:23>, 1, "lawyer", 0, "null")
+  (120, 4, 5, <17:23>, 1, "lawyer", 0, "null", "NN" 1.0)
+  (132, 4, 5, <17:23>, 1, "lawyer", 0, "null")
+  (112, 5, 6, <24:26>, 1, "in", 0, "null")
+  (133, 5, 6, <24:26>, 1, "in", 0, "null")
+  (98, 6, 7, <27:38>, 1, "Washington,", 0, "null")
+  (121, 6, 7, <27:38>, 1, "Washington,", 0, "null", "NNP" 1.0)
+  (125, 6, 7, <27:38>, 1, "washington,", 0, "null")
+  (128, 6, 7, <27:38>, 1, "washington,", 0, "null")
+  (100, 7, 8, <39:43>, 1, "D.C.", 0, "null")
+  (122, 7, 8, <39:43>, 1, "D.C.", 0, "null", "NNP" 1.0)
+  (126, 7, 8, <39:43>, 1, "d.c.", 0, "null")
+  (129, 7, 8, <39:43>, 1, "d.c.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1681 SB-HD_MC_C 10.5305 0 8
+  (1668 HDN_BNP-PN_C 3.86187 0 2
+   (1667 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (1665 N_SG_ILR 2.02901 0 1
+     (144 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 124
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1666 ^N_SG_ILR -0.259177 1 2
+     (147 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Rezneck" 95
+       "token [ +CARG #1=\"Rezneck\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1680 ^HD-CMP_U_C 5.65154 2 8
+   (192 be_id_is@v_np_is_le 0.159389 2 3
+    ("is" 106
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1679 SP-HD_N_C 4.73742 3 8
+    (280 a_det@d_-_sg-nmd_le -0.667877 3 4
+     ("a" 108
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1678 ^HDN-AJ_REDREL_C 4.45859 4 8
+     (1669 ^N_SG_ILR 0.396811 4 5
+      (353 lawyer_n1@n_-_c_le 0 4 5
+       ("lawyer" 110
+        "token [ +CARG #1=\"lawyer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1677 HD-CMP_U_C 3.55137 5 8
+      (374 in@p_np_i-reg_le 0.354487 5 6
+       ("in" 112
+        "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1676 HDN_BNP-PN_C 2.20401 6 8
+       (1675 NP-HDN_CTY-CPD_C 1.96537 6 8
+        (1672 HDN_BNP-PN_C 0.562716 6 7
+         (1671 W_COMMA_PLR -0.266433 6 7
+          (1670 N_SG_ILR -0.609145 6 7
+           (425 washington_n1@n_-_pn_le 0 6 7
+            ("washington," 125
+             "token [ +CARG \"Washington\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"washington,\" +FROM #1=\"27\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+        (1674 ^W_PERIOD_PLR 0.186499 7 8
+         (1673 N_SG_ILR -0.429343 7 8
+          (437 washingtondc_n11@n_-_pn_le 0 7 8
+           ("d.c." 126
+            "token [ +CARG \"D.C\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"d.c.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Rezneck"))))
+ (VP (V "is")
+  (NP (DET "a")
+   (N (N (N "lawyer"))
+    (PP (P "in")
+     (NP (N (NP (N (N (N "washington,")))) (N (N (N "d.c."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Rezneck" ]
+          [ _be_v_id<12:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<15:16>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _lawyer_n_1<17:23>
+            LBL: h19
+            ARG0: x15 ]
+          [ _in_p<24:26>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<27:43>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<27:43>
+            LBL: h25
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: x26 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<27:38>
+            LBL: h28
+            ARG0: x26
+            RSTR: h29
+            BODY: h30 ]
+          [ named<27:38>
+            LBL: h31
+            ARG0: x26
+            CARG: "Washington" ]
+          [ named<39:43>
+            LBL: h25
+            ARG0: x21
+            CARG: "WashingtonDC" ] >
+   HCONS: < h29 QEQ h31 h23 QEQ h25 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Rezneck"){x PERS 3, NUM sg, IND +}[]
+ e3:_be_v_id<12:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_a_q<15:16>[BV x15]
+ x15:_lawyer_n_1<17:23>{x PERS 3, NUM sg, IND +}[]
+ e20:_in_p<24:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x21]
+ _4:proper_q<27:43>[BV x21]
+ e27:compound<27:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21, ARG2 x26]
+ _5:proper_q<27:38>[BV x26]
+ x26:named<27:38>("Washington"){x PERS 3, NUM sg, IND +}[]
+ x21:named<39:43>("WashingtonDC"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Rezneck)  
+  compound<0:11> ARG1 named<4:11>(Rezneck)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _be_v_id<12:14> ARG1 named<4:11>(Rezneck)  
+  _be_v_id<12:14> ARG2 _lawyer_n_1<17:23>  
+  _a_q<15:16> BV _lawyer_n_1<17:23>  
+  _in_p<24:26> ARG1 _lawyer_n_1<17:23>  
+  _in_p<24:26> ARG2 named<39:43>(WashingtonDC)  
+  proper_q<27:43> BV named<39:43>(WashingtonDC)  
+  compound<27:43> ARG1 named<39:43>(WashingtonDC)  
+  compound<27:43> ARG2 named<27:38>(Washington)  
+  proper_q<27:38> BV named<27:38>(Washington)  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Rezneck) PERS 3  
+  named<4:11>(Rezneck) NUM sg  
+  named<4:11>(Rezneck) IND +  
+  _be_v_id<12:14> SF prop  
+  _be_v_id<12:14> TENSE pres  
+  _be_v_id<12:14> MOOD indicative  
+  _be_v_id<12:14> PROG -  
+  _be_v_id<12:14> PERF -  
+  _lawyer_n_1<17:23> PERS 3  
+  _lawyer_n_1<17:23> NUM sg  
+  _lawyer_n_1<17:23> IND +  
+  _in_p<24:26> SF prop  
+  _in_p<24:26> TENSE untensed  
+  _in_p<24:26> MOOD indicative  
+  _in_p<24:26> PROG -  
+  _in_p<24:26> PERF -  
+  compound<27:43> SF prop  
+  compound<27:43> TENSE untensed  
+  compound<27:43> MOOD indicative  
+  compound<27:43> PROG -  
+  compound<27:43> PERF -  
+  named<27:38>(Washington) PERS 3  
+  named<27:38>(Washington) NUM sg  
+  named<27:38>(Washington) IND +  
+  named<39:43>(WashingtonDC) PERS 3  
+  named<39:43>(WashingtonDC) NUM sg  
+  named<39:43>(WashingtonDC) IND +  
+}
+

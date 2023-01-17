@@ -1,0 +1,133 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:25 h)).
+;;;
+
+[21643035] (1 of 1) {1} `What was my angle?'
+
+[21643035:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "What", 0, "null", "WP" 0.9886 "WDT" 0.0115)
+  (2, 1, 2, <5:8>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <9:11>, 1, "my", 0, "null", "PRP$" 1.0)
+  (4, 3, 4, <12:17>, 1, "angle", 0, "null", "NN" 1.0)
+  (5, 4, 5, <17:18>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:4>, 1, "what", 0, "null")
+  (63, 0, 1, <0:4>, 1, "what", 0, "null")
+  (50, 1, 2, <5:8>, 1, "was", 0, "null")
+  (57, 1, 2, <5:8>, 1, "was", 0, "null", "VBD" 1.0)
+  (60, 1, 2, <5:8>, 1, "was", 0, "null")
+  (52, 2, 3, <9:11>, 1, "my", 0, "null")
+  (61, 2, 3, <9:11>, 1, "my", 0, "null")
+  (54, 3, 4, <12:18>, 1, "angle?", 0, "null")
+  (58, 3, 4, <12:18>, 1, "angle?", 0, "null", "NN" 1.0)
+  (62, 3, 4, <12:18>, 1, "angle?", 0, "null")
+>
+
+(ROOT_STRICT
+ (512 FLR-HD_WH-MC_C 1.682 0 4
+  (502 HDN_BNP-QNT_C 0.512834 0 1
+   (501 HDN_OPTCMP_C 1.16635 0 1
+    (69 what1@n_-_pr-wh_le 0.858054 0 1
+     ("what" 59
+      "token [ +CARG \"What\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"what\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98855000000000004\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (511 ^HD_XCMP_C 0.608915 1 4
+   (510 HD-CMP_U_C 0.945032 1 4
+    (509 ^V_AUX-SB-INV_DLR 0.183744 1 2
+     (88 be_id_was@v_np_was_le 0.183744 1 2
+      ("was" 50
+       "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (505 SP-HD_N_C 0.551975 2 4
+     (104 my@d_-_poss-my_le 0.530248 2 3
+      ("my" 52
+       "token [ +CARG #1=\"my\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (504 ^W_QMARK_PLR 0.021727 3 4
+      (503 N_SG_ILR -0.230708 3 4
+       (111 angle_n1@n_-_c_le 0 3 4
+        ("angle?" 54
+         "token [ +CARG \"angle\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"angle?\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "what")))
+ (S/NP (V/NP (V/NP (V/NP "was")) (NP (DET "my") (N (N (N "angle?")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ thing<0:4>
+            LBL: h4
+            ARG0: x5 ]
+          [ which_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<5:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x9 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: x5 ]
+          [ def_explicit_q<9:11>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ poss<9:11>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<9:11>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ pron<9:11>
+            LBL: h19
+            ARG0: x14 ]
+          [ _angle_n_1<12:18>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:thing<0:4>{x}[]
+ _1:which_q<0:4>[BV x5]
+ e3:_be_v_id<5:8>{e SF ques, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x5]
+ _2:def_explicit_q<9:11>[BV x9]
+ e15:poss<9:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:pronoun_q<9:11>[BV x14]
+ x14:pron<9:11>{x PERS 1, NUM sg, PT std}[]
+ x9:_angle_n_1<12:18>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  which_q<0:4> BV thing<0:4>  
+  _be_v_id<5:8> ARG1 _angle_n_1<12:18>  
+  _be_v_id<5:8> ARG2 thing<0:4>  
+  def_explicit_q<9:11> BV _angle_n_1<12:18>  
+  poss<9:11> ARG1 _angle_n_1<12:18>  
+  poss<9:11> ARG2 pron<9:11>  
+  pronoun_q<9:11> BV pron<9:11>  
+  _be_v_id<5:8> SF ques  
+  _be_v_id<5:8> TENSE past  
+  _be_v_id<5:8> MOOD indicative  
+  _be_v_id<5:8> PROG -  
+  _be_v_id<5:8> PERF -  
+  poss<9:11> SF prop  
+  poss<9:11> TENSE untensed  
+  poss<9:11> MOOD indicative  
+  poss<9:11> PROG -  
+  poss<9:11> PERF -  
+  pron<9:11> PERS 1  
+  pron<9:11> NUM sg  
+  pron<9:11> PT std  
+  _angle_n_1<12:18> PERS 3  
+  _angle_n_1<12:18> NUM sg  
+  _angle_n_1<12:18> IND +  
+}
+

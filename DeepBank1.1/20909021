@@ -1,0 +1,65 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:14 h)).
+;;;
+
+[20909021] (1 of 1) {1} `Atone'
+
+[20909021:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Atone", 0, "null", "VB" 1.0)
+>
+
+<
+  (12, 0, 1, <0:5>, 1, "Atone", 0, "null", "VB" 1.0)
+  (13, 0, 1, <0:5>, 1, "atone", 0, "null")
+  (14, 0, 1, <0:5>, 1, "atone", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (23 HD_IMP_C -1.28454 0 1
+  (22 HD_OPTCMP_C -0.42216 0 1
+   (15 generic_trans_verb_bse@v_np*_bse-unk_le 0 0 1
+    ("Atone" 12
+     "token [ +CARG #1=\"Atone\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_atone/VB_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"VB\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+
+(S (VP (V "Atone")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:5>
+            LBL: h8
+            ARG0: x6 ]
+          [ _atone/vb_u_unknown<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:5>[BV x6]
+ x6:pron<0:5>{x PERS 2, PT zero}[]
+ e3:_atone/vb_u_unknown<0:5>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  pronoun_q<0:5> BV pron<0:5>  
+  _atone/vb_u_unknown<0:5> ARG1 pron<0:5>  
+  pron<0:5> PERS 2  
+  pron<0:5> PT zero  
+  _atone/vb_u_unknown<0:5> SF comm  
+  _atone/vb_u_unknown<0:5> TENSE pres  
+  _atone/vb_u_unknown<0:5> MOOD indicative  
+  _atone/vb_u_unknown<0:5> PROG -  
+  _atone/vb_u_unknown<0:5> PERF -  
+}
+

@@ -1,0 +1,112 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:30 h)).
+;;;
+
+[20271053] (1 of 1) {1} `Okobank (Finland) --'
+
+[20271053:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Okobank", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:9>, 1, "(", 0, "null", "(" 1.0)
+  (3, 2, 3, <9:16>, 1, "Finland", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <16:17>, 1, ")", 0, "null", ")" 1.0)
+  (5, 4, 5, <18:20>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (58, 0, 1, <0:7>, 1, "Okobank", 0, "null")
+  (60, 0, 1, <0:7>, 1, "okobank", 0, "null")
+  (64, 0, 1, <0:7>, 1, "okobank", 0, "null")
+  (51, 1, 2, <8:17>, 1, "(Finland)", 0, "null")
+  (59, 1, 2, <8:17>, 1, "(Finland)", 0, "null", "NNP" 1.0)
+  (61, 1, 2, <8:17>, 1, "(finland)", 0, "null")
+  (62, 1, 2, <8:17>, 1, "(finland)", 0, "null")
+  (55, 2, 3, <18:20>, 1, "–", 0, "null")
+  (63, 2, 3, <18:20>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (238 NP_FRG_C 1.7455 0 3
+  (237 HDN-N_PRNTH_C 1.60373 0 3
+   (232 ^HDN_BNP-PN_C -0.969383 0 1
+    (231 N_SG_ILR -0.625656 0 1
+     (66 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Okobank" 58
+       "token [ +CARG #1=\"Okobank\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+   (236 HD-PCT_C 2.29119 1 3
+    (235 ^W_LPAREN_PLR 0.26591 1 2
+     (234 W_RPAREN_PLR 0.225132 1 2
+      (233 N_SG_ILR -0.729962 1 2
+       (80 finland@n_-_pn_le 0 1 2
+        ("(finland)" 61
+         "token [ +CARG \"Finland\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"(finland)\" +FROM \"8\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"9\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (87 s_dbl_dash_pct@pt_-_s-dash_le 1.48236 2 3
+     ("–" 55
+      "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP
+ (NP (NP (N (N "Okobank"))) (N (N (N (N (N "(finland)")))) (PNCT "–"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:20>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ parenthetical<0:20>
+            LBL: h2
+            ARG0: i6
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<8:20>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ proper_q<0:7>
+            LBL: h10
+            ARG0: x4
+            RSTR: h11
+            BODY: h12 ]
+          [ named<0:7>
+            LBL: h13
+            ARG0: x4
+            CARG: "Okobank" ]
+          [ named<8:17>
+            LBL: h14
+            ARG0: x5
+            CARG: "Finland" ] >
+   HCONS: < h11 QEQ h13 h8 QEQ h14 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:20>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ i6:parenthetical<0:20>{i}[ARG1 x4, ARG2 x5]
+ _1:udef_q<8:20>[BV x5]
+ _2:proper_q<0:7>[BV x4]
+ x4:named<0:7>("Okobank"){x PERS 3, NUM sg, IND +}[]
+ x5:named<8:17>("Finland"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:20> ARG named<0:7>(Okobank)  
+  parenthetical<0:20> ARG1 named<0:7>(Okobank)  
+  parenthetical<0:20> ARG2 named<8:17>(Finland)  
+  udef_q<8:20> BV named<8:17>(Finland)  
+  proper_q<0:7> BV named<0:7>(Okobank)  
+  unknown<0:20> SF prop-or-ques  
+  unknown<0:20> TENSE untensed  
+  unknown<0:20> MOOD indicative  
+  unknown<0:20> PROG -  
+  unknown<0:20> PERF -  
+  named<0:7>(Okobank) PERS 3  
+  named<0:7>(Okobank) NUM sg  
+  named<0:7>(Okobank) IND +  
+  named<8:17>(Finland) PERS 3  
+  named<8:17>(Finland) NUM sg  
+  named<8:17>(Finland) IND +  
+}
+

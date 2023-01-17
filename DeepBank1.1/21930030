@@ -1,0 +1,144 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:10 h)).
+;;;
+
+[21930030] (1 of 1) {1} `The business includes Beefeater gin.'
+
+[21930030:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:12>, 1, "business", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:21>, 1, "includes", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <22:31>, 1, "Beefeater", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <32:35>, 1, "gin", 0, "null", "NN" 1.0)
+  (6, 5, 6, <35:36>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:3>, 1, "the", 0, "null")
+  (79, 0, 1, <0:3>, 1, "the", 0, "null")
+  (63, 1, 2, <4:12>, 1, "business", 0, "null")
+  (69, 1, 2, <4:12>, 1, "business", 0, "null", "NN" 1.0)
+  (75, 1, 2, <4:12>, 1, "business", 0, "null")
+  (65, 2, 3, <13:21>, 1, "includes", 0, "null")
+  (70, 2, 3, <13:21>, 1, "includes", 0, "null", "VBZ" 1.0)
+  (76, 2, 3, <13:21>, 1, "includes", 0, "null")
+  (56, 3, 4, <22:31>, 1, "Beefeater", 0, "null")
+  (68, 3, 4, <22:31>, 1, "Beefeater", 0, "null", "NNP" 1.0)
+  (72, 3, 4, <22:31>, 1, "beefeater", 0, "null")
+  (74, 3, 4, <22:31>, 1, "beefeater", 0, "null")
+  (67, 4, 5, <32:36>, 1, "gin.", 0, "null")
+  (71, 4, 5, <32:36>, 1, "gin.", 0, "null", "NN" 1.0)
+  (77, 4, 5, <32:36>, 1, "gin.", 0, "null")
+>
+
+(ROOT_STRICT
+ (346 SB-HD_MC_C 4.47586 0 5
+  (338 SP-HD_N_C 1.54196 0 2
+   (92 the_1@d_-_the_le 1.13181 0 1
+    ("the" 73
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (337 ^N_MS-CNT_ILR -0.0405976 1 2
+    (117 business_n1@n_-_mc_le 0.301185 1 2
+     ("business" 63
+      "token [ +CARG #1=\"business\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (345 ^HD-CMP_U_C 0.979381 2 5
+   (339 ^V_3S-FIN_OLR 0.744414 2 3
+    (122 include_v1@v_np_le 0.54595 2 3
+     ("includes" 65
+      "token [ +CARG #1=\"includes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (344 HDN_BNP_C -0.371501 3 5
+    (343 NP-HDN_CPD_C 0.497589 3 5
+     (340 HDN_BNP-PN_C -0.439162 3 4
+      (132 generic_proper_ne@n_-_pn-gen_le 0 3 4
+       ("Beefeater" 56
+        "token [ +CARG #1=\"Beefeater\" +CLASS proper_ne +FORM #1 +FROM \"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (342 ^W_PERIOD_PLR 1.06548 4 5
+      (341 N_MS-CNT_ILR 0.576522 4 5
+       (137 gin_n1@n_-_mc_le 0 4 5
+        ("gin." 67
+         "token [ +CARG \"gin\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"gin.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N "business")))
+ (VP (V (V "includes"))
+  (NP (N (NP (N "Beefeater")) (N (N (N "gin.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _business_n_1<4:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _include_v_1<13:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<22:36>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<22:36>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x IND: + ] ]
+          [ proper_q<22:31>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<22:31>
+            LBL: h19
+            ARG0: x14
+            CARG: "Beefeater" ]
+          [ _gin_n_1<32:36>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_business_n_1<4:12>{x PERS 3, NUM sg}[]
+ e3:_include_v_1<13:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<22:36>[BV x9]
+ e15:compound<22:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<22:31>[BV x14]
+ x14:named<22:31>("Beefeater"){x IND +}[]
+ x9:_gin_n_1<32:36>{x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV _business_n_1<4:12>  
+  _include_v_1<13:21> ARG1 _business_n_1<4:12>  
+  _include_v_1<13:21> ARG2 _gin_n_1<32:36>  
+  udef_q<22:36> BV _gin_n_1<32:36>  
+  compound<22:36> ARG1 _gin_n_1<32:36>  
+  compound<22:36> ARG2 named<22:31>(Beefeater)  
+  proper_q<22:31> BV named<22:31>(Beefeater)  
+  _business_n_1<4:12> PERS 3  
+  _business_n_1<4:12> NUM sg  
+  _include_v_1<13:21> SF prop  
+  _include_v_1<13:21> TENSE pres  
+  _include_v_1<13:21> MOOD indicative  
+  _include_v_1<13:21> PROG -  
+  _include_v_1<13:21> PERF -  
+  compound<22:36> SF prop  
+  compound<22:36> TENSE untensed  
+  compound<22:36> MOOD indicative  
+  compound<22:36> PROG -  
+  compound<22:36> PERF -  
+  named<22:31>(Beefeater) IND +  
+  _gin_n_1<32:36> PERS 3  
+  _gin_n_1<32:36> NUM sg  
+}
+

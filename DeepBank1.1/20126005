@@ -1,0 +1,158 @@
+;;;
+;;; Redwoods export of `wsj01b';
+;;; (wsun@wsun; 22-jan-2018 (11:12 h)).
+;;;
+
+[20126005] (1 of 1) {1} `A stadium craze is sweeping the country.'
+
+[20126005:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "A", 0, "null", "DT" 1.0)
+  (2, 1, 2, <2:9>, 1, "stadium", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:15>, 1, "craze", 0, "null", "NN" 1.0)
+  (4, 3, 4, <16:18>, 1, "is", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <19:27>, 1, "sweeping", 0, "null", "VBG" 0.9232 "JJ" 0.0768)
+  (6, 5, 6, <28:31>, 1, "the", 0, "null", "DT" 1.0)
+  (7, 6, 7, <32:39>, 1, "country", 0, "null", "NN" 1.0)
+  (8, 7, 8, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (74, 0, 1, <0:1>, 1, "A", 0, "null")
+  (97, 0, 1, <0:1>, 1, "a", 0, "null")
+  (98, 0, 1, <0:1>, 1, "a", 0, "null")
+  (81, 1, 2, <2:9>, 1, "stadium", 0, "null")
+  (93, 1, 2, <2:9>, 1, "stadium", 0, "null", "NN" 1.0)
+  (99, 1, 2, <2:9>, 1, "stadium", 0, "null")
+  (83, 2, 3, <10:15>, 1, "craze", 0, "null")
+  (94, 2, 3, <10:15>, 1, "craze", 0, "null", "NN" 1.0)
+  (100, 2, 3, <10:15>, 1, "craze", 0, "null")
+  (85, 3, 4, <16:18>, 1, "is", 0, "null")
+  (95, 3, 4, <16:18>, 1, "is", 0, "null", "VBZ" 1.0)
+  (101, 3, 4, <16:18>, 1, "is", 0, "null")
+  (90, 4, 5, <19:27>, 1, "sweeping", 0, "null")
+  (92, 4, 5, <19:27>, 1, "sweeping", 0, "null", "VBG" 0.9232)
+  (104, 4, 5, <19:27>, 1, "sweeping", 0, "null")
+  (87, 5, 6, <28:31>, 1, "the", 0, "null")
+  (102, 5, 6, <28:31>, 1, "the", 0, "null")
+  (89, 6, 7, <32:40>, 1, "country.", 0, "null")
+  (96, 6, 7, <32:40>, 1, "country.", 0, "null", "NN" 1.0)
+  (103, 6, 7, <32:40>, 1, "country.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1268 SB-HD_MC_C 6.19755 0 7
+  (1260 SP-HD_N_C -1.05142 0 3
+   (111 a_det@d_-_sg-nmd_le -1.33852 0 1
+    ("a" 97
+     "token [ +CARG \"A\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"a\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1259 ^N-HDN_CPD_C -0.768507 1 3
+    (184 stadium_n1@n_-_c_le 0 1 2
+     ("stadium" 81
+      "token [ +CARG #1=\"stadium\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1258 ^N_MS-CNT_ILR -0.728068 2 3
+     (187 generic_mass_count_noun@n_-_mc-unk_le 0 2 3
+      ("craze" 94
+       "token [ +CARG #1=\"craze\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_craze/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NN\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1267 ^HD-CMP_U_C 5.29445 3 7
+   (227 be_c_is@v_prd_is_le 1.47611 3 4
+    ("is" 85
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1266 HD-CMP_U_C 3.20023 4 7
+    (1261 ^V_PRP_OLR 0.163469 4 5
+     (317 sweep_v1@v_np*_le 0 4 5
+      ("sweeping" 90
+       "token [ +CARG #1=\"sweeping\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92315259999999999\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1265 SP-HD_N_C 1.83917 5 7
+     (340 the_1@d_-_the_le 1.07131 5 6
+      ("the" 87
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1264 ^HDN_OPTCMP_C 0.196827 6 7
+      (1263 W_PERIOD_PLR -0.133481 6 7
+       (1262 N_MS-CNT_ILR -0.406151 6 7
+        (366 country_n1@n_pp_mc-of_le 0 6 7
+         ("country." 89
+          "token [ +CARG \"country\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"country.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (DET "a") (N (N "stadium") (N (N "craze"))))
+ (VP (V "is")
+  (VP (V (V "sweeping")) (NP (DET "the") (N (N (N (N "country."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _a_q<0:1>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<2:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<2:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _stadium_n_1<2:9>
+            LBL: h14
+            ARG0: x9 ]
+          [ _craze/nn_u_unknown<10:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _sweep_v_1<19:27>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ _the_q<28:31>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _country_n_of<32:40>
+            LBL: h19
+            ARG0: x15
+            ARG1: i20 ] >
+   HCONS: < h18 QEQ h19 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_a_q<0:1>[BV x6]
+ e10:compound<2:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<2:9>[BV x9]
+ x9:_stadium_n_1<2:9>{x IND +}[]
+ x6:_craze/nn_u_unknown<10:15>{x PERS 3, NUM sg}[]
+ e3:_sweep_v_1<19:27>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_the_q<28:31>[BV x15]
+ x15:_country_n_of<32:40>{x PERS 3, NUM sg}[]
+}
+
+{
+  _a_q<0:1> BV _craze/nn_u_unknown<10:15>  
+  compound<2:15> ARG1 _craze/nn_u_unknown<10:15>  
+  compound<2:15> ARG2 _stadium_n_1<2:9>  
+  udef_q<2:9> BV _stadium_n_1<2:9>  
+  _sweep_v_1<19:27> ARG1 _craze/nn_u_unknown<10:15>  
+  _sweep_v_1<19:27> ARG2 _country_n_of<32:40>  
+  _the_q<28:31> BV _country_n_of<32:40>  
+  compound<2:15> SF prop  
+  compound<2:15> TENSE untensed  
+  compound<2:15> MOOD indicative  
+  compound<2:15> PROG -  
+  compound<2:15> PERF -  
+  _stadium_n_1<2:9> IND +  
+  _craze/nn_u_unknown<10:15> PERS 3  
+  _craze/nn_u_unknown<10:15> NUM sg  
+  _sweep_v_1<19:27> SF prop  
+  _sweep_v_1<19:27> TENSE pres  
+  _sweep_v_1<19:27> MOOD indicative  
+  _sweep_v_1<19:27> PROG +  
+  _sweep_v_1<19:27> PERF -  
+  _country_n_of<32:40> PERS 3  
+  _country_n_of<32:40> NUM sg  
+}
+

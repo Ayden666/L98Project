@@ -1,0 +1,280 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (04:57 h)).
+;;;
+
+[22007028] (1 of 1) {1} `Sales of Prozac, an anti-depressant, led drug-sales increases.'
+
+[22007028:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Sales", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <6:8>, 1, "of", 0, "null", "IN" 1.0)
+  (3, 2, 3, <9:15>, 1, "Prozac", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:16>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <17:19>, 1, "an", 0, "null", "DT" 1.0)
+  (6, 5, 6, <20:35>, 1, "anti-depressant", 0, "null", "NN" 1.0)
+  (7, 6, 7, <35:36>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <37:40>, 1, "led", 0, "null", "VBD" 0.5361 "VBN" 0.4639)
+  (9, 8, 9, <41:51>, 1, "drug-sales", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <52:61>, 1, "increases", 0, "null", "NNS" 0.9761 "VBZ" 0.0239)
+  (11, 10, 11, <61:62>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (146, 0, 1, <0:5>, 1, "Sales", 0, "null", "NNS" 1.0)
+  (153, 0, 1, <0:5>, 1, "sales", 0, "null")
+  (164, 0, 1, <0:5>, 1, "sales", 0, "null")
+  (127, 1, 2, <6:8>, 1, "of", 0, "null")
+  (156, 1, 2, <6:8>, 1, "of", 0, "null")
+  (117, 2, 3, <9:16>, 1, "Prozac,", 0, "null")
+  (150, 2, 3, <9:16>, 1, "Prozac,", 0, "null", "NNP" 1.0)
+  (154, 2, 3, <9:16>, 1, "prozac,", 0, "null")
+  (155, 2, 3, <9:16>, 1, "prozac,", 0, "null")
+  (129, 3, 4, <17:19>, 1, "an", 0, "null")
+  (157, 3, 4, <17:19>, 1, "an", 0, "null")
+  (133, 4, 5, <20:35>, 1, "anti-", 0, "null")
+  (148, 4, 5, <20:35>, 1, "anti-", 0, "null", "NN" 1.0)
+  (159, 4, 5, <20:35>, 1, "anti-", 0, "null")
+  (139, 5, 6, <20:36>, 1, "depressant,", 0, "null")
+  (151, 5, 6, <20:36>, 1, "depressant,", 0, "null", "NN" 1.0)
+  (161, 5, 6, <20:36>, 1, "depressant,", 0, "null")
+  (140, 6, 7, <37:40>, 1, "led", 0, "null")
+  (144, 6, 7, <37:40>, 1, "led", 0, "null", "VBD" 0.5361)
+  (152, 6, 7, <37:40>, 1, "led", 0, "null", "VBN" 0.4639)
+  (162, 6, 7, <37:40>, 1, "led", 0, "null")
+  (135, 7, 8, <41:51>, 1, "drug-", 0, "null")
+  (149, 7, 8, <41:51>, 1, "drug-", 0, "null", "NN" 1.0)
+  (160, 7, 8, <41:51>, 1, "drug-", 0, "null")
+  (131, 8, 9, <41:51>, 1, "sales", 0, "null")
+  (147, 8, 9, <41:51>, 1, "sales", 0, "null", "NNS" 1.0)
+  (158, 8, 9, <41:51>, 1, "sales", 0, "null")
+  (142, 9, 10, <52:62>, 1, "increases.", 0, "null")
+  (145, 9, 10, <52:62>, 1, "increases.", 0, "null", "NNS" 0.9761)
+  (163, 9, 10, <52:62>, 1, "increases.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2466 SB-HD_MC_C 10.8502 0 10
+  (2456 HDN_BNP_C 7.1282 0 6
+   (2455 HD-CMP_U_C 7.18972 0 6
+    (2443 ^N_PL_OLR 1.38924 0 1
+     (177 sale_n1@n_pp_mc-of_le 1.21945 0 1
+      ("sales" 153
+       "token [ +CARG \"Sales\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sales\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2454 HD-CMP_U_C 4.3109 1 6
+     (237 of_prtcl@p_np_ptcl-of_le 1.04356 1 2
+      ("of" 127
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2453 HDN-NP_APP-IDF_C 2.93351 2 6
+      (2446 ^HDN_BNP-PN_C 0.755979 2 3
+       (2445 W_COMMA_PLR -0.0413449 2 3
+        (2444 N_SG_ILR -0.461604 2 3
+         (314 generic_proper_ne@n_-_pn-gen_le 0 2 3
+          ("Prozac," 117
+           "token [ +CARG \"Prozac\" +CLASS proper_ne +FORM \"Prozac,\" +FROM \"9\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+      (2452 SP-HD_N_C 0.531884 3 6
+       (331 an_det@d_-_sg-nmd-an_le 1.19957 3 4
+        ("an" 129
+         "token [ +CARG #1=\"an\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2451 ^XP_BRCK-PR_C -0.39339 4 6
+        (2450 AJ-HDN_NORM_C 0.472767 4 6
+         (2447 W_HYPHEN_PLR 0.61803 4 5
+          (352 anti_a2@aj_-_i-att_le 0 4 5
+           ("anti-" 133
+            "token [ +CARG #1=\"anti-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+         (2449 ^W_COMMA_PLR -0.312507 5 6
+          (2448 N_MS-CNT_ILR -0.616409 5 6
+           (360 generic_mass_count_noun@n_-_mc-unk_le 0 5 6
+            ("depressant," 151
+             "token [ +CARG \"depressant\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"depressant,\" +FROM \"20\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED \"_depressant/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #2=\"1\" +TAG #3=\"NN\" ] +PRBS *cons* [ FIRST #2 REST *null* ] +TAGS *cons* [ FIRST #3 REST *null* ] ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW + ] ]")))))))))))
+  (2465 ^HD-CMP_U_C 2.20606 6 10
+   (2457 ^V_PST_OLR 0.135725 6 7
+    (413 lead_v1@v_np*_le -0.171051 6 7
+     ("led" 140
+      "token [ +CARG #1=\"led\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"37\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.53606819999999999\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (2464 HDN_BNP_C 1.15015 7 10
+    (2463 N-HDN_CPD_C 1.55926 7 10
+     (2460 XP_BRCK-PR_C 1.91263 7 9
+      (2459 N-HDN_CPD_C 1.6716 7 9
+       (2458 W_HYPHEN_PLR -0.094668 7 8
+        (592 drug_n1@n_-_c_le 0 7 8
+         ("drug-" 135
+          "token [ +CARG #1=\"drug-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+       (618 sales_n2@n_-_c-pl-cpd_le 1.07712 8 9
+        ("sales" 131
+         "token [ +CARG #1=\"sales\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+     (2462 ^W_PERIOD_PLR -0.509597 9 10
+      (2461 N_PL_OLR -0.0400439 9 10
+       (646 increase_n1@n_-_mc_le 0 9 10
+        ("increases." 142
+         "token [ +CARG \"increases\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"increases.\" +FROM #1=\"52\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97613930000000004\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"62\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP
+  (N (N (N "sales"))
+   (PP (P "of")
+    (NP (NP (N (N (N "Prozac,"))))
+     (NP (DET "an")
+      (N (N (AP (AP "anti-")) (N (N (N "depressant,"))))))))))
+ (VP (V (V "led"))
+  (NP
+   (N (N (N (N (N "drug-")) (N "sales"))) (N (N (N "increases.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:36>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _sale_n_of<0:5>
+            LBL: h8
+            ARG0: x6
+            ARG1: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ appos<9:36>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ proper_q<9:16>
+            LBL: h12
+            ARG0: x9
+            RSTR: h13
+            BODY: h14 ]
+          [ named<9:16>
+            LBL: h15
+            ARG0: x9
+            CARG: "Prozac" ]
+          [ _a_q<17:19>
+            LBL: h16
+            ARG0: x10
+            RSTR: h18
+            BODY: h17 ]
+          [ _anti-_a_1<20:35>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _depressant/nn_u_unknown<20:36>
+            LBL: h19
+            ARG0: x10 ]
+          [ _lead_v_1<37:40>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x21 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<41:62>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<41:62>
+            LBL: h25
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: x26 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<41:51>
+            LBL: h28
+            ARG0: x26
+            RSTR: h29
+            BODY: h30 ]
+          [ compound<41:51>
+            LBL: h31
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x26
+            ARG2: x32 [ x IND: + ] ]
+          [ udef_q<41:51>
+            LBL: h34
+            ARG0: x32
+            RSTR: h35
+            BODY: h36 ]
+          [ _drug_n_1<41:51>
+            LBL: h37
+            ARG0: x32 ]
+          [ _sale_n_of<41:51>
+            LBL: h31
+            ARG0: x26 ]
+          [ _increase_n_1<52:62>
+            LBL: h25
+            ARG0: x21 ] >
+   HCONS: < h35 QEQ h37 h29 QEQ h31 h23 QEQ h25 h18 QEQ h19 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:36>[BV x6]
+ x6:_sale_n_of<0:5>{x PERS 3, NUM pl}[ARG1 x9]
+ e11:appos<9:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x10]
+ _2:proper_q<9:16>[BV x9]
+ x9:named<9:16>("Prozac"){x PERS 3, NUM sg, IND +}[]
+ _3:_a_q<17:19>[BV x10]
+ e20:_anti-_a_1<20:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_depressant/nn_u_unknown<20:36>{x PERS 3, NUM sg}[]
+ e3:_lead_v_1<37:40>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x21]
+ _4:udef_q<41:62>[BV x21]
+ e27:compound<41:62>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21, ARG2 x26]
+ _5:udef_q<41:51>[BV x26]
+ e33:compound<41:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x26, ARG2 x32]
+ _6:udef_q<41:51>[BV x32]
+ x32:_drug_n_1<41:51>{x IND +}[]
+ x26:_sale_n_of<41:51>{x PERS 3, NUM pl, IND +}[]
+ x21:_increase_n_1<52:62>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:36> BV _sale_n_of<0:5>  
+  _sale_n_of<0:5> ARG1 named<9:16>(Prozac)  
+  appos<9:36> ARG1 named<9:16>(Prozac)  
+  appos<9:36> ARG2 _depressant/nn_u_unknown<20:36>  
+  proper_q<9:16> BV named<9:16>(Prozac)  
+  _a_q<17:19> BV _depressant/nn_u_unknown<20:36>  
+  _anti-_a_1<20:35> ARG1 _depressant/nn_u_unknown<20:36>  
+  _lead_v_1<37:40> ARG1 _sale_n_of<0:5>  
+  _lead_v_1<37:40> ARG2 _increase_n_1<52:62>  
+  udef_q<41:62> BV _increase_n_1<52:62>  
+  compound<41:62> ARG1 _increase_n_1<52:62>  
+  compound<41:62> ARG2 _sale_n_of<41:51>  
+  udef_q<41:51> BV _sale_n_of<41:51>  
+  compound<41:51> ARG1 _sale_n_of<41:51>  
+  compound<41:51> ARG2 _drug_n_1<41:51>  
+  udef_q<41:51> BV _drug_n_1<41:51>  
+  _sale_n_of<0:5> PERS 3  
+  _sale_n_of<0:5> NUM pl  
+  appos<9:36> SF prop  
+  appos<9:36> TENSE untensed  
+  appos<9:36> MOOD indicative  
+  appos<9:36> PROG -  
+  appos<9:36> PERF -  
+  named<9:16>(Prozac) PERS 3  
+  named<9:16>(Prozac) NUM sg  
+  named<9:16>(Prozac) IND +  
+  _anti-_a_1<20:35> SF prop  
+  _anti-_a_1<20:35> TENSE untensed  
+  _anti-_a_1<20:35> MOOD indicative  
+  _anti-_a_1<20:35> PROG -  
+  _anti-_a_1<20:35> PERF -  
+  _depressant/nn_u_unknown<20:36> PERS 3  
+  _depressant/nn_u_unknown<20:36> NUM sg  
+  _lead_v_1<37:40> SF prop  
+  _lead_v_1<37:40> TENSE past  
+  _lead_v_1<37:40> MOOD indicative  
+  _lead_v_1<37:40> PROG -  
+  _lead_v_1<37:40> PERF -  
+  compound<41:62> SF prop  
+  compound<41:62> TENSE untensed  
+  compound<41:62> MOOD indicative  
+  compound<41:62> PROG -  
+  compound<41:62> PERF -  
+  compound<41:51> SF prop  
+  compound<41:51> TENSE untensed  
+  compound<41:51> MOOD indicative  
+  compound<41:51> PROG -  
+  compound<41:51> PERF -  
+  _drug_n_1<41:51> IND +  
+  _sale_n_of<41:51> PERS 3  
+  _sale_n_of<41:51> NUM pl  
+  _sale_n_of<41:51> IND +  
+  _increase_n_1<52:62> PERS 3  
+  _increase_n_1<52:62> NUM pl  
+}
+

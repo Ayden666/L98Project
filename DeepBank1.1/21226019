@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj12b';
+;;; (wsun@wsun; 22-jan-2018 (21:13 h)).
+;;;
+
+[21226019] (1 of 1) {1} `Shell Oil'
+
+[21226019:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Shell", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:9>, 1, "Oil", 0, "null", "NNP" 0.9772 "NN" 0.0228)
+>
+
+<
+  (27, 0, 1, <0:5>, 1, "Shell", 0, "null")
+  (29, 0, 1, <0:5>, 1, "shell", 0, "null")
+  (32, 0, 1, <0:5>, 1, "shell", 0, "null")
+  (20, 1, 2, <6:9>, 1, "Oil", 0, "null")
+  (28, 1, 2, <6:9>, 1, "Oil", 0, "null", "NNP" 0.9772)
+  (30, 1, 2, <6:9>, 1, "oil", 0, "null")
+  (31, 1, 2, <6:9>, 1, "oil", 0, "null")
+>
+
+(ROOT_FRAG
+ (160 NP_FRG_C -0.273786 0 2
+  (159 HDN_BNP-PN_C 0.872726 0 2
+   (158 NP-HDN_NME-CPD_C 0.912034 0 2
+    (156 HDN_BNP-PN_C 0.365523 0 1
+     (155 N_SG_ILR -0.386912 0 1
+      (34 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Shell" 27
+        "token [ +CARG #1=\"Shell\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (157 ^N_SG_ILR 0.211916 1 2
+     (39 generic_proper_ne@n_-_pn-gen_le 0.355173 1 2
+      ("Oil" 20
+       "token [ +CARG #1=\"Oil\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97719690000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "Shell"))) (N (N "Oil")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Shell" ]
+          [ named<6:9>
+            LBL: h8
+            ARG0: x4
+            CARG: "Oil" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:9>[BV x4]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Shell"){x PERS 3, NUM sg, IND +}[]
+ x4:named<6:9>("Oil"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:9> ARG named<6:9>(Oil)  
+  proper_q<0:9> BV named<6:9>(Oil)  
+  compound<0:9> ARG1 named<6:9>(Oil)  
+  compound<0:9> ARG2 named<0:5>(Shell)  
+  proper_q<0:5> BV named<0:5>(Shell)  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:5>(Shell) PERS 3  
+  named<0:5>(Shell) NUM sg  
+  named<0:5>(Shell) IND +  
+  named<6:9>(Oil) PERS 3  
+  named<6:9>(Oil) NUM sg  
+  named<6:9>(Oil) IND +  
+}
+

@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj12c';
+;;; (wsun@wsun; 22-jan-2018 (21:36 h)).
+;;;
+
+[21267084] (1 of 1) {1} `The ploy worked.'
+
+[21267084:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:8>, 1, "ploy", 0, "null", "NN" 1.0)
+  (3, 2, 3, <9:15>, 1, "worked", 0, "null", "VBD" 0.8944 "VBN" 0.1056)
+  (4, 3, 4, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (49, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 0, 1, <0:3>, 1, "the", 0, "null")
+  (43, 1, 2, <4:8>, 1, "ploy", 0, "null")
+  (47, 1, 2, <4:8>, 1, "ploy", 0, "null", "NN" 1.0)
+  (50, 1, 2, <4:8>, 1, "ploy", 0, "null")
+  (44, 2, 3, <9:16>, 1, "worked.", 0, "null")
+  (46, 2, 3, <9:16>, 1, "worked.", 0, "null", "VBD" 0.8944)
+  (48, 2, 3, <9:16>, 1, "worked.", 0, "null", "VBN" 0.1056)
+  (51, 2, 3, <9:16>, 1, "worked.", 0, "null")
+>
+
+(ROOT_STRICT
+ (792 SB-HD_MC_C 2.50703 0 3
+  (788 SP-HD_N_C 2.14135 0 2
+   (65 the_1@d_-_the_le 0.244361 0 1
+    ("the" 49
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (787 ^N_SG_ILR 0.055293 1 2
+    (90 ploy_n1@n_-_c_le 0 1 2
+     ("ploy" 43
+      "token [ +CARG #1=\"ploy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (791 ^HD_OPTCMP_C 0.438642 2 3
+   (790 W_PERIOD_PLR 0.134653 2 3
+    (789 V_PST_OLR -0.555709 2 3
+     (115 work_v1@v_np*_le 0 2 3
+      ("worked." 44
+       "token [ +CARG \"worked\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"worked.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89439849999999999\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET "the") (N (N "ploy"))) (VP (V (V (V "worked.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _ploy_n_1<4:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _work_v_1<9:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_ploy_n_1<4:8>{x PERS 3, NUM sg, IND +}[]
+ e3:_work_v_1<9:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _ploy_n_1<4:8>  
+  _work_v_1<9:16> ARG1 _ploy_n_1<4:8>  
+  _ploy_n_1<4:8> PERS 3  
+  _ploy_n_1<4:8> NUM sg  
+  _ploy_n_1<4:8> IND +  
+  _work_v_1<9:16> SF prop  
+  _work_v_1<9:16> TENSE past  
+  _work_v_1<9:16> MOOD indicative  
+  _work_v_1<9:16> PROG -  
+  _work_v_1<9:16> PERF -  
+}
+

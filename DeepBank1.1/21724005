@@ -1,0 +1,270 @@
+;;;
+;;; Redwoods export of `wsj17a';
+;;; (wsun@wsun; 23-jan-2018 (02:10 h)).
+;;;
+
+[21724005] (1 of 1) {1} `Mr. Agnos declined the invitations, the White House said.'
+
+[21724005:10] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Agnos", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:18>, 1, "declined", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <19:22>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <23:34>, 1, "invitations", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <34:35>, 1, ",", 0, "null", "," 1.0)
+  (7, 6, 7, <36:39>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <40:45>, 1, "White", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <46:51>, 1, "House", 0, "null", "NNP" 0.9884 "NN" 0.0116)
+  (10, 9, 10, <52:56>, 1, "said", 0, "null", "VBD" 1.0)
+  (11, 10, 11, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (128, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (137, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (147, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (105, 1, 2, <4:9>, 1, "Agnos", 0, "null")
+  (131, 1, 2, <4:9>, 1, "Agnos", 0, "null", "NNP" 1.0)
+  (136, 1, 2, <4:9>, 1, "agnos", 0, "null")
+  (141, 1, 2, <4:9>, 1, "agnos", 0, "null")
+  (117, 2, 3, <10:18>, 1, "declined", 0, "null")
+  (132, 2, 3, <10:18>, 1, "declined", 0, "null", "VBD" 1.0)
+  (142, 2, 3, <10:18>, 1, "declined", 0, "null")
+  (119, 3, 4, <19:22>, 1, "the", 0, "null")
+  (143, 3, 4, <19:22>, 1, "the", 0, "null")
+  (123, 4, 5, <23:35>, 1, "invitations,", 0, "null")
+  (133, 4, 5, <23:35>, 1, "invitations,", 0, "null", "NNS" 1.0)
+  (145, 4, 5, <23:35>, 1, "invitations,", 0, "null")
+  (121, 5, 6, <36:39>, 1, "the", 0, "null")
+  (144, 5, 6, <36:39>, 1, "the", 0, "null")
+  (103, 6, 7, <40:45>, 1, "White", 0, "null")
+  (130, 6, 7, <40:45>, 1, "White", 0, "null", "NNP" 1.0)
+  (135, 6, 7, <40:45>, 1, "white", 0, "null")
+  (139, 6, 7, <40:45>, 1, "white", 0, "null")
+  (104, 7, 8, <46:51>, 1, "House", 0, "null")
+  (129, 7, 8, <46:51>, 1, "House", 0, "null", "NNP" 0.9884)
+  (138, 7, 8, <46:51>, 1, "house", 0, "null")
+  (140, 7, 8, <46:51>, 1, "house", 0, "null")
+  (125, 8, 9, <52:57>, 1, "said.", 0, "null")
+  (134, 8, 9, <52:57>, 1, "said.", 0, "null", "VBD" 1.0)
+  (146, 8, 9, <52:57>, 1, "said.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2180 HD-AJ_SCP-PR_C 8.43495 0 9
+  (2158 ^SB-HD_MC_C 5.30528 0 5
+   (2120 HDN_BNP-PN_C 3.18598 0 2
+    (2119 NP-HDN_TTL-CPD_C 2.8943 0 2
+     (2117 N_SG_ILR 2.02901 0 1
+      (157 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+       ("mr." 137
+        "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2118 ^N_SG_ILR -0.259177 1 2
+      (162 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Agnos" 105
+        "token [ +CARG #1=\"Agnos\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (2126 ^HD-CMP_U_C 1.44197 2 5
+    (2121 ^V_PST_OLR -0.928128 2 3
+     (188 decline_v1@v_np*_le -1.24013 2 3
+      ("declined" 117
+       "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2125 SP-HD_N_C 1.57178 3 5
+     (286 the_1@d_-_the_le 1.07131 3 4
+      ("the" 119
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2124 ^HDN_OPTCMP_C 0.789519 4 5
+      (2123 W_COMMA_PLR 0.620776 4 5
+       (2122 N_PL_OLR 0.045768 4 5
+        (311 invitation_n1@n_pp_mc-of_le 0 4 5
+         ("invitations," 123
+          "token [ +CARG \"invitations\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"invitations,\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+  (2179 NP-PRDP_VPMOD_C 2.15165 5 9
+   (2141 SP-HD_N_C 3.76514 5 8
+    (356 the_1@d_-_the_le 0.116734 5 6
+     ("the" 121
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2140 ^NP-HDN_CPD_C 2.402 6 8
+     (2138 HDN_BNP-PN_C 0.103277 6 7
+      (385 white_n2@n_-_pn_le 0.241584 6 7
+       ("white" 135
+        "token [ +CARG \"White\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"white\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2139 ^N_SG_ILR 1.77712 7 8
+      (389 house_n2@n_-_c-nm_le 0.300691 7 8
+       ("house" 138
+        "token [ +CARG \"House\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"house\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98839359999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (2178 ^HD_OPTCMP_C -1.00929 8 9
+    (2177 W_PERIOD_PLR -0.739524 8 9
+     (2176 V_PAS_ODLR -0.588369 8 9
+      (454 say_v1@v_np*_le -0.396215 8 9
+       ("said." 125
+        "token [ +CARG \"said\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"said.\" +FROM #1=\"52\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S (NP (N (N (N "mr.")) (N (N "Agnos"))))
+  (VP (V (V "declined"))
+   (NP (DET "the") (N (N (N (N "invitations,")))))))
+ (PP (NP (DET "the") (N (NP (N "white")) (N (N "house"))))
+  (VP (V (V (V "said."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Agnos" ]
+          [ _decline_v_1<10:18>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x17 [ x PERS: 3 NUM: PL ] ]
+          [ _the_q<19:22>
+            LBL: h18
+            ARG0: x17
+            RSTR: h20
+            BODY: h19 ]
+          [ _invitation_n_of<23:35>
+            LBL: h21
+            ARG0: x17
+            ARG1: i22 ]
+          [ subord<36:57>
+            LBL: h2
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h24
+            ARG2: h23 ]
+          [ _the_q<36:39>
+            LBL: h26
+            ARG0: x28 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h29
+            BODY: h27 ]
+          [ compound<40:51>
+            LBL: h30
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x28
+            ARG2: x31 [ x IND: + ] ]
+          [ proper_q<40:45>
+            LBL: h33
+            ARG0: x31
+            RSTR: h34
+            BODY: h35 ]
+          [ named<40:45>
+            LBL: h36
+            ARG0: x31
+            CARG: "White" ]
+          [ named_n<46:51>
+            LBL: h30
+            ARG0: x28
+            CARG: "House" ]
+          [ _say_v_1<52:57>
+            LBL: h37
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i39
+            ARG2: x28 ]
+          [ parg_d<52:57>
+            LBL: h37
+            ARG0: e40 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e38
+            ARG2: x28 ] >
+   HCONS: < h34 QEQ h36 h29 QEQ h30 h23 QEQ h37 h24 QEQ h15 h20 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e25:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Agnos"){x PERS 3, NUM sg, IND +}[]
+ e16:_decline_v_1<10:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x17]
+ _3:_the_q<19:22>[BV x17]
+ x17:_invitation_n_of<23:35>{x PERS 3, NUM pl}[]
+ e25:subord<36:57>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 e38]
+ _4:_the_q<36:39>[BV x28]
+ e32:compound<40:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x28, ARG2 x31]
+ _5:proper_q<40:45>[BV x31]
+ x31:named<40:45>("White"){x IND +}[]
+ x28:named_n<46:51>("House"){x PERS 3, NUM sg, IND +}[]
+ e38:_say_v_1<52:57>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x28]
+ e40:parg_d<52:57>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e38, ARG2 x28]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Agnos)  
+  compound<0:9> ARG1 named<4:9>(Agnos)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _decline_v_1<10:18> ARG1 named<4:9>(Agnos)  
+  _decline_v_1<10:18> ARG2 _invitation_n_of<23:35>  
+  _the_q<19:22> BV _invitation_n_of<23:35>  
+  subord<36:57> ARG1 _decline_v_1<10:18>  
+  subord<36:57> ARG2 _say_v_1<52:57>  
+  _the_q<36:39> BV named_n<46:51>(House)  
+  compound<40:51> ARG1 named_n<46:51>(House)  
+  compound<40:51> ARG2 named<40:45>(White)  
+  proper_q<40:45> BV named<40:45>(White)  
+  _say_v_1<52:57> ARG2 named_n<46:51>(House)  
+  parg_d<52:57> ARG1 _say_v_1<52:57>  
+  parg_d<52:57> ARG2 named_n<46:51>(House)  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Agnos) PERS 3  
+  named<4:9>(Agnos) NUM sg  
+  named<4:9>(Agnos) IND +  
+  _decline_v_1<10:18> SF prop  
+  _decline_v_1<10:18> TENSE past  
+  _decline_v_1<10:18> MOOD indicative  
+  _decline_v_1<10:18> PROG -  
+  _decline_v_1<10:18> PERF -  
+  _invitation_n_of<23:35> PERS 3  
+  _invitation_n_of<23:35> NUM pl  
+  subord<36:57> SF prop  
+  subord<36:57> TENSE untensed  
+  subord<36:57> MOOD indicative  
+  subord<36:57> PROG -  
+  subord<36:57> PERF -  
+  compound<40:51> SF prop  
+  compound<40:51> TENSE untensed  
+  compound<40:51> MOOD indicative  
+  compound<40:51> PROG -  
+  compound<40:51> PERF -  
+  named<40:45>(White) IND +  
+  named_n<46:51>(House) PERS 3  
+  named_n<46:51>(House) NUM sg  
+  named_n<46:51>(House) IND +  
+  _say_v_1<52:57> SF prop  
+  _say_v_1<52:57> TENSE untensed  
+  _say_v_1<52:57> MOOD indicative  
+  _say_v_1<52:57> PROG -  
+  _say_v_1<52:57> PERF -  
+  parg_d<52:57> SF prop  
+  parg_d<52:57> TENSE untensed  
+  parg_d<52:57> MOOD indicative  
+  parg_d<52:57> PROG -  
+  parg_d<52:57> PERF -  
+}
+

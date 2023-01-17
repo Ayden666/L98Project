@@ -1,0 +1,233 @@
+;;;
+;;; Redwoods export of `wsj09c';
+;;; (wsun@wsun; 22-jan-2018 (18:47 h)).
+;;;
+
+[20965014] (1 of 1) {1} `Stock prices slipped lower in moderate trading.'
+
+[20965014:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Stock", 0, "null", "NNP" 0.9333 "NN" 0.0667)
+  (2, 1, 2, <6:12>, 1, "prices", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <13:20>, 1, "slipped", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <21:26>, 1, "lower", 0, "null", "JJR" 0.8624 "RBR" 0.1376)
+  (5, 4, 5, <27:29>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <30:38>, 1, "moderate", 0, "null", "JJ" 1.0)
+  (7, 6, 7, <39:46>, 1, "trading", 0, "null", "NN" 1.0)
+  (8, 7, 8, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:5>, 1, "Stock", 0, "null")
+  (98, 0, 1, <0:5>, 1, "stock", 0, "null")
+  (105, 0, 1, <0:5>, 1, "stock", 0, "null")
+  (79, 1, 2, <6:12>, 1, "prices", 0, "null")
+  (94, 1, 2, <6:12>, 1, "prices", 0, "null", "NNS" 1.0)
+  (99, 1, 2, <6:12>, 1, "prices", 0, "null")
+  (81, 2, 3, <13:20>, 1, "slipped", 0, "null")
+  (95, 2, 3, <13:20>, 1, "slipped", 0, "null", "VBD" 1.0)
+  (100, 2, 3, <13:20>, 1, "slipped", 0, "null")
+  (90, 3, 4, <21:26>, 1, "lower", 0, "null")
+  (93, 3, 4, <21:26>, 1, "lower", 0, "null", "JJR" 0.8624)
+  (104, 3, 4, <21:26>, 1, "lower", 0, "null")
+  (83, 4, 5, <27:29>, 1, "in", 0, "null")
+  (101, 4, 5, <27:29>, 1, "in", 0, "null")
+  (85, 5, 6, <30:38>, 1, "moderate", 0, "null")
+  (96, 5, 6, <30:38>, 1, "moderate", 0, "null", "JJ" 1.0)
+  (102, 5, 6, <30:38>, 1, "moderate", 0, "null")
+  (87, 6, 7, <39:47>, 1, "trading.", 0, "null")
+  (97, 6, 7, <39:47>, 1, "trading.", 0, "null", "NN" 1.0)
+  (103, 6, 7, <39:47>, 1, "trading.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2912 SB-HD_MC_C 8.34181 0 7
+  (2899 HDN_BNP_C 4.36471 0 2
+   (2898 N-HDN_CPD_C 3.74396 0 2
+    (109 stock_n1@n_-_mc_le 0.505018 0 1
+     ("stock" 98
+      "token [ +CARG \"Stock\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"stock\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93325970000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2897 ^N_PL_OLR 1.04317 1 2
+     (116 price_n1@n_-_mc-ed_le 0.382246 1 2
+      ("prices" 79
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (2911 ^HD-AJ_INT-UNSL_C 3.137 2 7
+   (2903 ^HD-AJ_SCP_C 3.41601 2 4
+    (2900 ^V_PST_OLR 0.999101 2 3
+     (145 slip_v2@v_-_le 1.10109 2 3
+      ("slipped" 81
+       "token [ +CARG #1=\"slipped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2902 VP_SBRD-PRD-AJ_C 1.69406 3 4
+     (2901 HD_OPTCMP_C 2.12926 3 4
+      (312 lower_a1@aj_pp_i-cmp_le 1.20742 3 4
+       ("lower" 90
+        "token [ +CARG #1=\"lower\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86235649999999997\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (2910 HD-CMP_U_C -0.474665 4 7
+    (336 in@p_np_i-reg_le -0.783763 4 5
+     ("in" 83
+      "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2909 HDN_BNP_C -0.148259 5 7
+     (2908 AJ-HDN_NORM_C -0.507087 5 7
+      (377 moderate_a1@aj_-_i_le 0 5 6
+       ("moderate" 85
+        "token [ +CARG #1=\"moderate\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2907 ^HDN_OPTCMP_C -1.40066 6 7
+       (2906 W_PERIOD_PLR -1.43919 6 7
+        (2905 V_NGER-TR_DLR -0.944484 6 7
+         (2904 V_PRP_OLR 0.0669338 6 7
+          (384 trade_v1@v_np*_le 0.23816 6 7
+           ("trading." 87
+            "token [ +CARG \"trading\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"trading.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (N "stock") (N (N "prices"))))
+ (VP (VP (VP (V "slipped")) (PP (AP (ADJ "lower"))))
+  (PP (P "in")
+   (NP (N (AP "moderate") (N (N (N (V (V "trading."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _stock_n_1<0:5>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<6:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _slip_v_2<13:20>
+            LBL: h15
+            ARG0: e3
+            ARG1: x6 ]
+          [ subord<21:26>
+            LBL: h2
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h17
+            ARG2: h16 ]
+          [ _low_a_1<21:26>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i20 ]
+          [ comp<21:26>
+            LBL: h19
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e21
+            ARG2: u22 ]
+          [ _in_p<27:29>
+            LBL: h2
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x25 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<30:47>
+            LBL: h26
+            ARG0: x25
+            RSTR: h27
+            BODY: h28 ]
+          [ _moderate_a_1<30:38>
+            LBL: h29
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x25 ]
+          [ _trade_v_1<39:47>
+            LBL: h31
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i34
+            ARG2: p33 ]
+          [ nominalization<39:47>
+            LBL: h29
+            ARG0: x25
+            ARG1: h31 ] >
+   HCONS: < h27 QEQ h29 h16 QEQ h19 h17 QEQ h15 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e18:
+ _1:udef_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:5>[BV x9]
+ x9:_stock_n_1<0:5>{x}[]
+ x6:_price_n_of<6:12>{x PERS 3, NUM pl}[]
+ e3:_slip_v_2<13:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e18:subord<21:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e21]
+ e21:_low_a_1<21:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e23:comp<21:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e21]
+ e24:_in_p<27:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x25]
+ _3:udef_q<30:47>[BV x25]
+ e30:_moderate_a_1<30:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x25]
+ e32:_trade_v_1<39:47>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x25:nominalization<39:47>{x PERS 3, NUM sg, GEND n}[ARG1 e32]
+}
+
+{
+  udef_q<0:12> BV _price_n_of<6:12>  
+  compound<0:12> ARG1 _price_n_of<6:12>  
+  compound<0:12> ARG2 _stock_n_1<0:5>  
+  udef_q<0:5> BV _stock_n_1<0:5>  
+  _slip_v_2<13:20> ARG1 _price_n_of<6:12>  
+  subord<21:26> ARG1 _slip_v_2<13:20>  
+  subord<21:26> ARG2 _low_a_1<21:26>  
+  comp<21:26> ARG1 _low_a_1<21:26>  
+  _in_p<27:29> ARG1 _slip_v_2<13:20>  
+  _in_p<27:29> ARG2 nominalization<39:47>  
+  udef_q<30:47> BV nominalization<39:47>  
+  _moderate_a_1<30:38> ARG1 nominalization<39:47>  
+  nominalization<39:47> ARG1 _trade_v_1<39:47>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _price_n_of<6:12> PERS 3  
+  _price_n_of<6:12> NUM pl  
+  _slip_v_2<13:20> SF prop  
+  _slip_v_2<13:20> TENSE past  
+  _slip_v_2<13:20> MOOD indicative  
+  _slip_v_2<13:20> PROG -  
+  _slip_v_2<13:20> PERF -  
+  subord<21:26> SF prop  
+  subord<21:26> TENSE untensed  
+  subord<21:26> MOOD indicative  
+  subord<21:26> PROG -  
+  subord<21:26> PERF -  
+  _low_a_1<21:26> SF prop  
+  _low_a_1<21:26> TENSE untensed  
+  _low_a_1<21:26> MOOD indicative  
+  _low_a_1<21:26> PROG -  
+  _low_a_1<21:26> PERF -  
+  comp<21:26> SF prop  
+  comp<21:26> TENSE untensed  
+  comp<21:26> MOOD indicative  
+  comp<21:26> PROG -  
+  comp<21:26> PERF -  
+  _in_p<27:29> SF prop  
+  _in_p<27:29> TENSE untensed  
+  _in_p<27:29> MOOD indicative  
+  _in_p<27:29> PROG -  
+  _in_p<27:29> PERF -  
+  _moderate_a_1<30:38> SF prop  
+  _moderate_a_1<30:38> TENSE untensed  
+  _moderate_a_1<30:38> MOOD indicative  
+  _moderate_a_1<30:38> PROG -  
+  _moderate_a_1<30:38> PERF -  
+  _trade_v_1<39:47> SF prop  
+  _trade_v_1<39:47> TENSE untensed  
+  _trade_v_1<39:47> MOOD indicative  
+  _trade_v_1<39:47> PROG +  
+  _trade_v_1<39:47> PERF -  
+  nominalization<39:47> PERS 3  
+  nominalization<39:47> NUM sg  
+  nominalization<39:47> GEND n  
+}
+

@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:37 h)).
+;;;
+
+[20687043] (1 of 1) {1} `Greenville, Miss.'
+
+[20687043:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Greenville", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <12:16>, 1, "Miss", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:11>, 1, "Greenville,", 0, "null")
+  (48, 0, 1, <0:11>, 1, "greenville,", 0, "null")
+  (51, 0, 1, <0:11>, 1, "greenville,", 0, "null")
+  (41, 1, 2, <12:17>, 1, "Miss.", 0, "null")
+  (47, 1, 2, <12:17>, 1, "Miss.", 0, "null", "NNP" 1.0)
+  (49, 1, 2, <12:17>, 1, "miss.", 0, "null")
+  (50, 1, 2, <12:17>, 1, "miss.", 0, "null")
+>
+
+(ROOT_FRAG
+ (303 NP_FRG_C -1.77022 0 2
+  (302 HDN_BNP-PN_C -0.62371 0 2
+   (301 NP-HDN_CTY-CPD_C 0.65275 0 2
+    (299 HDN_BNP-PN_C 0.710257 0 1
+     (298 W_COMMA_PLR -0.118892 0 1
+      (297 N_SG_ILR -0.461604 0 1
+       (53 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Greenville," 46
+         "token [ +CARG \"Greenville\" +CLASS proper_ne +FORM \"Greenville,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (300 ^N_SG_ILR 0.496727 1 2
+     (73 mississippi_n3@n_-_pn-abb_le 0 1 2
+      ("miss." 49
+       "token [ +CARG \"Miss\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"miss.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (NP (N (N (N "Greenville,")))) (N (N "miss.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "Greenville" ]
+          [ named<12:17>
+            LBL: h8
+            ARG0: x4
+            CARG: "Mississippi" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:17>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:11>[BV x9]
+ x9:named<0:11>("Greenville"){x PERS 3, NUM sg, IND +}[]
+ x4:named<12:17>("Mississippi"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:17> ARG named<12:17>(Mississippi)  
+  proper_q<0:17> BV named<12:17>(Mississippi)  
+  compound<0:17> ARG1 named<12:17>(Mississippi)  
+  compound<0:17> ARG2 named<0:11>(Greenville)  
+  proper_q<0:11> BV named<0:11>(Greenville)  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  named<0:11>(Greenville) PERS 3  
+  named<0:11>(Greenville) NUM sg  
+  named<0:11>(Greenville) IND +  
+  named<12:17>(Mississippi) PERS 3  
+  named<12:17>(Mississippi) NUM sg  
+  named<12:17>(Mississippi) IND +  
+}
+

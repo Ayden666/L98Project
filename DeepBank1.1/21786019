@@ -1,0 +1,149 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:46 h)).
+;;;
+
+[21786019] (1 of 1) {1} `Silver Spring, Md.'
+
+[21786019:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Silver", 0, "null", "NNP" 0.9285 "NN" 0.0575 "JJ" 0.0141)
+  (2, 1, 2, <7:13>, 1, "Spring", 0, "null", "NNP" 0.9711 "NN" 0.0289)
+  (3, 2, 3, <13:14>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <15:17>, 1, "Md", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:6>, 1, "Silver", 0, "null")
+  (70, 0, 1, <0:6>, 1, "silver", 0, "null")
+  (74, 0, 1, <0:6>, 1, "silver", 0, "null")
+  (51, 1, 2, <7:14>, 1, "Spring,", 0, "null")
+  (67, 1, 2, <7:14>, 1, "Spring,", 0, "null", "NNP" 0.9711)
+  (71, 1, 2, <7:14>, 1, "spring,", 0, "null")
+  (72, 1, 2, <7:14>, 1, "spring,", 0, "null")
+  (53, 2, 3, <15:18>, 1, "Md.", 0, "null")
+  (68, 2, 3, <15:18>, 1, "Md.", 0, "null", "NNP" 1.0)
+  (69, 2, 3, <15:18>, 1, "md.", 0, "null")
+  (73, 2, 3, <15:18>, 1, "md.", 0, "null")
+>
+
+(ROOT_FRAG
+ (743 NP_FRG_C -1.21354 0 3
+  (742 HDN-NP_APP-R-PR_C -0.661868 0 3
+   (741 ^HDN_BNP_C 0.549438 0 2
+    (740 NP-HDN_CPD_C 1.06637 0 2
+     (739 HDN_BNP-PN_C -0.439162 0 1
+      (77 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Silver" 66
+        "token [ +CARG #1=\"Silver\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92848940000000002\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (731 ^W_COMMA_PLR 1.07852 1 2
+      (730 N_MS_ILR -0.363298 1 2
+       (111 spring_n1@n_-_m-ssn_le 0 1 2
+        ("spring," 71
+         "token [ +CARG \"Spring\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"spring,\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97107639999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (736 HDN_BNP-PN_C -0.453877 2 3
+    (735 W_PERIOD_PLR -0.0721423 2 3
+     (734 N_SG_ILR -0.362995 2 3
+      (140 maryland_n2@n_-_pn-abb_le 0 2 3
+       ("md." 69
+        "token [ +CARG \"Md\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"md.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP
+ (NP (NP (N (NP (N "Silver")) (N (N (N "spring,")))))
+  (NP (N (N (N "md."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:18>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ appos<0:18>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x5 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:14>
+            LBL: h7
+            ARG0: x4
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<0:14>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x11 [ x IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ named<0:6>
+            LBL: h16
+            ARG0: x11
+            CARG: "Silver" ]
+          [ season<7:14>
+            LBL: h10
+            ARG0: x4
+            CARG: "spring" ]
+          [ proper_q<15:18>
+            LBL: h17
+            ARG0: x5
+            RSTR: h18
+            BODY: h19 ]
+          [ named<15:18>
+            LBL: h20
+            ARG0: x5
+            CARG: "Maryland" ] >
+   HCONS: < h18 QEQ h20 h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ e6:appos<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x5]
+ _1:udef_q<0:14>[BV x4]
+ e12:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x11]
+ _2:proper_q<0:6>[BV x11]
+ x11:named<0:6>("Silver"){x IND +}[]
+ x4:season<7:14>("spring"){x PERS 3, NUM sg, GEND n, IND -}[]
+ _3:proper_q<15:18>[BV x5]
+ x5:named<15:18>("Maryland"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:18> ARG season<7:14>(spring)  
+  appos<0:18> ARG1 season<7:14>(spring)  
+  appos<0:18> ARG2 named<15:18>(Maryland)  
+  udef_q<0:14> BV season<7:14>(spring)  
+  compound<0:14> ARG1 season<7:14>(spring)  
+  compound<0:14> ARG2 named<0:6>(Silver)  
+  proper_q<0:6> BV named<0:6>(Silver)  
+  proper_q<15:18> BV named<15:18>(Maryland)  
+  unknown<0:18> SF prop  
+  unknown<0:18> TENSE untensed  
+  unknown<0:18> MOOD indicative  
+  unknown<0:18> PROG -  
+  unknown<0:18> PERF -  
+  appos<0:18> SF prop  
+  appos<0:18> TENSE untensed  
+  appos<0:18> MOOD indicative  
+  appos<0:18> PROG -  
+  appos<0:18> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  named<0:6>(Silver) IND +  
+  season<7:14>(spring) PERS 3  
+  season<7:14>(spring) NUM sg  
+  season<7:14>(spring) GEND n  
+  season<7:14>(spring) IND -  
+  named<15:18>(Maryland) PERS 3  
+  named<15:18>(Maryland) NUM sg  
+  named<15:18>(Maryland) IND +  
+}
+

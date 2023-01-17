@@ -1,0 +1,171 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:08 h)).
+;;;
+
+[21825004] (1 of 1) {1} `Soybean production swells 24%.'
+
+[21825004:1] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Soybean", 0, "null", "NN" 1.0)
+  (2, 1, 2, <8:18>, 1, "production", 0, "null", "NN" 1.0)
+  (3, 2, 3, <19:25>, 1, "swells", 0, "null", "VBZ" 0.9473 "NNS" 0.0527)
+  (4, 3, 4, <26:28>, 1, "24", 0, "null", "CD" 1.0)
+  (5, 4, 5, <28:29>, 1, "%", 0, "null", "NN" 1.0)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:7>, 1, "Soybean", 0, "null")
+  (67, 0, 1, <0:7>, 1, "soybean", 0, "null")
+  (72, 0, 1, <0:7>, 1, "soybean", 0, "null")
+  (59, 1, 2, <8:18>, 1, "production", 0, "null")
+  (66, 1, 2, <8:18>, 1, "production", 0, "null", "NN" 1.0)
+  (69, 1, 2, <8:18>, 1, "production", 0, "null")
+  (62, 2, 3, <19:25>, 1, "swells", 0, "null")
+  (65, 2, 3, <19:25>, 1, "swells", 0, "null", "VBZ" 0.9473)
+  (71, 2, 3, <19:25>, 1, "swells", 0, "null")
+  (50, 3, 4, <26:28>, 1, "24", 0, "null")
+  (68, 3, 4, <26:28>, 1, "24", 0, "null")
+  (61, 4, 5, <28:30>, 1, "%.", 0, "null")
+  (70, 4, 5, <28:30>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (595 SB-HD_MC_C 1.73062 0 5
+  (584 HDN_BNP_C -1.10198 0 2
+   (583 NP-HDN_CPD_C -0.378684 0 2
+    (580 HDN_BNP-PN_C -0.439162 0 1
+     (73 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Soybean" 64
+       "token [ +CARG #1=\"Soybean\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (582 ^HDN_OPTCMP_C -0.0449258 1 2
+     (581 N_MS-CNT_ILR 0.228224 1 2
+      (74 production_n1@n_pp_mc-of_le 0.3892 1 2
+       ("production" 59
+        "token [ +CARG #1=\"production\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (594 ^HD-AJ_INT-UNSL_C 1.99249 2 5
+   (592 ^HD_OPTCMP_C -0.0336744 2 3
+    (585 V_3S-FIN_OLR 0.391518 2 3
+     (84 swell_v1@v_np*_le 0 2 3
+      ("swells" 62
+       "token [ +CARG #1=\"swells\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94730519999999996\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (593 NP_ADV-MNP_C 1.84208 3 5
+    (589 HDN_BNP_C 2.9705 3 5
+     (588 NUM-N_MNP_C 1.92835 3 5
+      (94 generic_card_ne@aj_-_i-crd-gen_le 0 3 4
+       ("24" 50
+        "token [ +CARG #1=\"24\" +CLASS card_or_dom_ne +FORM #1 +FROM \"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (587 ^W_PERIOD_PLR 1.02943 4 5
+       (586 N_PL_OLR 0.482577 4 5
+        (98 percent_char_n1@n_-_c-meas-spr_le 0.328883 4 5
+         ("%." 61
+          "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (NP (N "Soybean")) (N (N (N "production")))))
+ (VP (VP (V (V "swells"))) (PP (NP (N (ADJ "24") (N (N (N "%."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:18>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "Soybean" ]
+          [ _production_n_of<8:18>
+            LBL: h8
+            ARG0: x6
+            ARG1: i15 ]
+          [ _swell_v_1<19:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p16 ]
+          [ loc_nonsp<26:30>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x18 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<26:30>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ card<26:28>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            CARG: "24" ]
+          [ _percent_n_of<28:30>
+            LBL: h22
+            ARG0: x18 ] >
+   HCONS: < h20 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:18>[BV x6]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:7>[BV x9]
+ x9:named<0:7>("Soybean"){x IND +}[]
+ x6:_production_n_of<8:18>{x PERS 3, NUM sg}[]
+ e3:_swell_v_1-fn.Change_position_on_a_scale<19:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e17:loc_nonsp<26:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x18]
+ _3:udef_q<26:30>[BV x18]
+ e23:card<26:28>("24"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18]
+ x18:_percent_n_of<28:30>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:18> BV _production_n_of<8:18>  
+  compound<0:18> ARG1 _production_n_of<8:18>  
+  compound<0:18> ARG2 named<0:7>(Soybean)  
+  proper_q<0:7> BV named<0:7>(Soybean)  
+  _swell_v_1<19:25> ARG1 _production_n_of<8:18>  
+  loc_nonsp<26:30> ARG1 _swell_v_1<19:25>  
+  loc_nonsp<26:30> ARG2 _percent_n_of<28:30>  
+  udef_q<26:30> BV _percent_n_of<28:30>  
+  card<26:28>(24) ARG1 _percent_n_of<28:30>  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  named<0:7>(Soybean) IND +  
+  _production_n_of<8:18> PERS 3  
+  _production_n_of<8:18> NUM sg  
+  _swell_v_1<19:25> SF prop  
+  _swell_v_1<19:25> TENSE pres  
+  _swell_v_1<19:25> MOOD indicative  
+  _swell_v_1<19:25> PROG -  
+  _swell_v_1<19:25> PERF -  
+  loc_nonsp<26:30> SF prop  
+  loc_nonsp<26:30> TENSE untensed  
+  loc_nonsp<26:30> MOOD indicative  
+  loc_nonsp<26:30> PROG -  
+  loc_nonsp<26:30> PERF -  
+  card<26:28>(24) SF prop  
+  card<26:28>(24) TENSE untensed  
+  card<26:28>(24) MOOD indicative  
+  card<26:28>(24) PROG -  
+  card<26:28>(24) PERF -  
+  _percent_n_of<28:30> PERS 3  
+  _percent_n_of<28:30> NUM pl  
+  _percent_n_of<28:30> IND +  
+}
+

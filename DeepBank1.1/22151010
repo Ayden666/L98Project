@@ -1,0 +1,62 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:24 h)).
+;;;
+
+[22151010] (1 of 1) {1} `Hardly.'
+
+[22151010:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Hardly", 0, "null", "RB" 1.0)
+  (2, 1, 2, <6:7>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:7>, 1, "Hardly.", 0, "null", "RB" 1.0)
+  (23, 0, 1, <0:7>, 1, "hardly.", 0, "null")
+  (24, 0, 1, <0:7>, 1, "hardly.", 0, "null")
+>
+
+(ROOT_FRAG
+ (54 R_SCP-FRG_C 0 0 1
+  (53 W_PERIOD_PLR 0 0 1
+   (29 hardly_adv2@av_-_s-cp-pr_le 0 0 1
+    ("hardly." 23
+     "token [ +CARG \"Hardly\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"hardly.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (ADV (ADV "hardly.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h4
+            ARG0: e3
+            ARG: u5 ]
+          [ _hardly_a_1<0:7>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h6 ] >
+   HCONS: < h6 QEQ h4 h1 QEQ h2 > ]
+
+{e7:
+ e3:unknown<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_hardly_a_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _hardly_a_1<0:7> ARG1 unknown<0:7>  
+  unknown<0:7> SF prop  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _hardly_a_1<0:7> SF prop  
+  _hardly_a_1<0:7> TENSE untensed  
+  _hardly_a_1<0:7> MOOD indicative  
+  _hardly_a_1<0:7> PROG -  
+  _hardly_a_1<0:7> PERF -  
+}
+

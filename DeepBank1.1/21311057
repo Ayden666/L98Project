@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:58 h)).
+;;;
+
+[21311057] (1 of 1) {1} `Jeff Rowe contributed to this article.'
+
+[21311057:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Jeff", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:9>, 1, "Rowe", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:21>, 1, "contributed", 0, "null", "VBD" 0.9739 "VBN" 0.0261)
+  (4, 3, 4, <22:24>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <25:29>, 1, "this", 0, "null", "DT" 1.0)
+  (6, 5, 6, <30:37>, 1, "article", 0, "null", "NN" 1.0)
+  (7, 6, 7, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:4>, 1, "Jeff", 0, "null")
+  (86, 0, 1, <0:4>, 1, "jeff", 0, "null")
+  (92, 0, 1, <0:4>, 1, "jeff", 0, "null")
+  (65, 1, 2, <5:9>, 1, "Rowe", 0, "null")
+  (83, 1, 2, <5:9>, 1, "Rowe", 0, "null", "NNP" 1.0)
+  (85, 1, 2, <5:9>, 1, "rowe", 0, "null")
+  (87, 1, 2, <5:9>, 1, "rowe", 0, "null")
+  (79, 2, 3, <10:21>, 1, "contributed", 0, "null")
+  (82, 2, 3, <10:21>, 1, "contributed", 0, "null", "VBD" 0.9739)
+  (91, 2, 3, <10:21>, 1, "contributed", 0, "null")
+  (74, 3, 4, <22:24>, 1, "to", 0, "null")
+  (88, 3, 4, <22:24>, 1, "to", 0, "null")
+  (76, 4, 5, <25:29>, 1, "this", 0, "null")
+  (89, 4, 5, <25:29>, 1, "this", 0, "null")
+  (78, 5, 6, <30:38>, 1, "article.", 0, "null")
+  (84, 5, 6, <30:38>, 1, "article.", 0, "null", "NN" 1.0)
+  (90, 5, 6, <30:38>, 1, "article.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1177 SB-HD_MC_C 12.1099 0 6
+  (1168 HDN_BNP-PN_C 2.30018 0 2
+   (1167 NP-HDN_NME-CPD_C 1.76046 0 2
+    (1165 HDN_BNP-PN_C 0.586141 0 1
+     (1164 N_SG_ILR -0.166294 0 1
+      (95 jeff_n1@n_-_pn_le 0 0 1
+       ("jeff" 86
+        "token [ +CARG \"Jeff\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"jeff\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1166 ^N_SG_ILR -0.143257 1 2
+     (96 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Rowe" 65
+       "token [ +CARG #1=\"Rowe\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1176 ^HD-CMP_U_C 8.79268 2 6
+   (1170 ^HD_OPTCMP_C 2.00727 2 3
+    (1169 V_PST_OLR 1.29313 2 3
+     (111 contribute_v2@v_np*-pp_to_le 0.715486 2 3
+      ("contributed" 79
+       "token [ +CARG #1=\"contributed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97392290000000004\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1175 HD-CMP_U_C 5.39765 3 6
+    (224 to_prtcl@p_np_ptcl_le 0.017699 3 4
+     ("to" 74
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1174 SP-HD_N_C 3.90242 4 6
+     (271 this_det@d_-_sgm_le 1.33316 4 5
+      ("this" 76
+       "token [ +CARG #1=\"this\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1173 ^HDN_OPTCMP_C 1.66927 5 6
+      (1172 W_PERIOD_PLR 1.33897 5 6
+       (1171 N_SG_ILR 0.704929 5 6
+        (275 article_n1@n_pp_c-of_le 0 5 6
+         ("article." 78
+          "token [ +CARG \"article\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"article.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (NP (N (N "jeff"))) (N (N "Rowe"))))
+ (VP (V (V (V "contributed")))
+  (PP (P "to") (NP (DET "this") (N (N (N (N "article."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "Jeff" ]
+          [ named<5:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Rowe" ]
+          [ _contribute_v_to<10:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p15
+            ARG3: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _this_q_dem<25:29>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ _article_n_of<30:38>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21 ] >
+   HCONS: < h19 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("Jeff"){x PERS 3, NUM sg, IND +}[]
+ x6:named<5:9>("Rowe"){x PERS 3, NUM sg, IND +}[]
+ e3:_contribute_v_to<10:21>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG3 x16]
+ _3:_this_q_dem<25:29>[BV x16]
+ x16:_article_n_of<30:38>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:9> BV named<5:9>(Rowe)  
+  compound<0:9> ARG1 named<5:9>(Rowe)  
+  compound<0:9> ARG2 named<0:4>(Jeff)  
+  proper_q<0:4> BV named<0:4>(Jeff)  
+  _contribute_v_to<10:21> ARG1 named<5:9>(Rowe)  
+  _contribute_v_to<10:21> ARG3 _article_n_of<30:38>  
+  _this_q_dem<25:29> BV _article_n_of<30:38>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  named<0:4>(Jeff) PERS 3  
+  named<0:4>(Jeff) NUM sg  
+  named<0:4>(Jeff) IND +  
+  named<5:9>(Rowe) PERS 3  
+  named<5:9>(Rowe) NUM sg  
+  named<5:9>(Rowe) IND +  
+  _contribute_v_to<10:21> SF prop  
+  _contribute_v_to<10:21> TENSE past  
+  _contribute_v_to<10:21> MOOD indicative  
+  _contribute_v_to<10:21> PROG -  
+  _contribute_v_to<10:21> PERF -  
+  _article_n_of<30:38> PERS 3  
+  _article_n_of<30:38> NUM sg  
+  _article_n_of<30:38> IND +  
+}
+

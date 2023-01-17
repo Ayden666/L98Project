@@ -1,0 +1,154 @@
+;;;
+;;; Redwoods export of `wsj13e';
+;;; (wsun@wsun; 22-jan-2018 (22:46 h)).
+;;;
+
+[21389011] (1 of 1) {1} `But what about the debt burden?'
+
+[21389011:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:8>, 1, "what", 0, "null", "WP" 1.0)
+  (3, 2, 3, <9:14>, 1, "about", 0, "null", "IN" 0.9305 "RB" 0.0695)
+  (4, 3, 4, <15:18>, 1, "the", 0, "null", "DT" 1.0)
+  (5, 4, 5, <19:23>, 1, "debt", 0, "null", "NN" 1.0)
+  (6, 5, 6, <24:30>, 1, "burden", 0, "null", "NN" 1.0)
+  (7, 6, 7, <30:31>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:3>, 1, "but", 0, "null")
+  (87, 0, 1, <0:3>, 1, "but", 0, "null")
+  (70, 1, 2, <4:8>, 1, "what", 0, "null")
+  (82, 1, 2, <4:8>, 1, "what", 0, "null")
+  (77, 2, 3, <9:14>, 1, "about", 0, "null")
+  (86, 2, 3, <9:14>, 1, "about", 0, "null")
+  (72, 3, 4, <15:18>, 1, "the", 0, "null")
+  (83, 3, 4, <15:18>, 1, "the", 0, "null")
+  (74, 4, 5, <19:23>, 1, "debt", 0, "null")
+  (79, 4, 5, <19:23>, 1, "debt", 0, "null", "NN" 1.0)
+  (84, 4, 5, <19:23>, 1, "debt", 0, "null")
+  (76, 5, 6, <24:31>, 1, "burden?", 0, "null")
+  (80, 5, 6, <24:31>, 1, "burden?", 0, "null", "NN" 1.0)
+  (85, 5, 6, <24:31>, 1, "burden?", 0, "null")
+>
+
+(ROOT_STRICT
+ (477 CL_CNJ-FRG_C 4.0948 0 6
+  (476 MRK-NH_CL_C 3.22491 0 6
+   (90 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 81
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (475 HD-CMP_U_C 1.19093 1 6
+    (195 what_about@x_xp_howabt-n-p_le 0 1 3
+     ("what about" 70
+      "token [ +CARG #1=\"what\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"WP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      77
+      "token [ +CARG #1=\"about\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93045359999999999\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (474 SP-HD_N_C 1.19093 3 6
+     (155 the_1@d_-_the_le 1.07131 3 4
+      ("the" 72
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (473 ^N-HDN_CPD_C 0.156301 4 6
+      (180 debt_n1@n_-_mc_le 0.134574 4 5
+       ("debt" 74
+        "token [ +CARG #1=\"debt\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (472 ^W_QMARK_PLR 0.021727 5 6
+       (471 N_SG_ILR -0.230708 5 6
+        (182 burden_n1@n_-_c_le 0 5 6
+         ("burden?" 76
+          "token [ +CARG \"burden\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"burden?\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (V "what about")
+   (NP (DET "the") (N (N "debt") (N (N (N "burden?"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ generic_verb<4:14>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _how+about_x<4:14>
+            LBL: h10
+            ARG0: e4
+            ARG1: h12
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<15:18>
+            LBL: h13
+            ARG0: x11
+            RSTR: h15
+            BODY: h14 ]
+          [ compound<19:31>
+            LBL: h16
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x17 ]
+          [ udef_q<19:23>
+            LBL: h19
+            ARG0: x17
+            RSTR: h20
+            BODY: h21 ]
+          [ _debt_n_1<19:23>
+            LBL: h22
+            ARG0: x17 ]
+          [ _burden_n_1<24:31>
+            LBL: h16
+            ARG0: x11 ] >
+   HCONS: < h20 QEQ h22 h15 QEQ h16 h12 QEQ h8 h5 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ e9:generic_verb<4:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e4:_how+about_x<4:14>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x11]
+ _1:_the_q<15:18>[BV x11]
+ e18:compound<19:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x17]
+ _2:udef_q<19:23>[BV x17]
+ x17:_debt_n_1<19:23>{x}[]
+ x11:_burden_n_1<24:31>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _but_c<0:3> R-HNDL _how+about_x<4:14>  
+  _but_c<0:3> R-INDEX _how+about_x<4:14>  
+  _how+about_x<4:14> ARG1 generic_verb<4:14>  
+  _how+about_x<4:14> ARG2 _burden_n_1<24:31>  
+  _the_q<15:18> BV _burden_n_1<24:31>  
+  compound<19:31> ARG1 _burden_n_1<24:31>  
+  compound<19:31> ARG2 _debt_n_1<19:23>  
+  udef_q<19:23> BV _debt_n_1<19:23>  
+  _but_c<0:3> SF ques  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  generic_verb<4:14> SF prop  
+  generic_verb<4:14> TENSE untensed  
+  generic_verb<4:14> MOOD indicative  
+  generic_verb<4:14> PROG -  
+  generic_verb<4:14> PERF -  
+  _how+about_x<4:14> SF ques  
+  _how+about_x<4:14> TENSE untensed  
+  _how+about_x<4:14> MOOD indicative  
+  _how+about_x<4:14> PROG -  
+  _how+about_x<4:14> PERF -  
+  compound<19:31> SF prop  
+  compound<19:31> TENSE untensed  
+  compound<19:31> MOOD indicative  
+  compound<19:31> PROG -  
+  compound<19:31> PERF -  
+  _burden_n_1<24:31> PERS 3  
+  _burden_n_1<24:31> NUM sg  
+  _burden_n_1<24:31> IND +  
+}
+

@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:38 h)).
+;;;
+
+[21055021] (1 of 1) {1} `Biotechnology issues were strong.'
+
+[21055021:0] (active)
+
+<
+  (1, 0, 1, <0:13>, 1, "Biotechnology", 0, "null", "NNP" 0.6154 "NN" 0.3846)
+  (2, 1, 2, <14:20>, 1, "issues", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <21:25>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <26:32>, 1, "strong", 0, "null", "JJ" 0.9856 "RB" 0.0144)
+  (5, 4, 5, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:13>, 1, "Biotechnology", 0, "null")
+  (63, 0, 1, <0:13>, 1, "biotechnology", 0, "null")
+  (67, 0, 1, <0:13>, 1, "biotechnology", 0, "null")
+  (52, 1, 2, <14:20>, 1, "issues", 0, "null")
+  (61, 1, 2, <14:20>, 1, "issues", 0, "null", "NNS" 1.0)
+  (64, 1, 2, <14:20>, 1, "issues", 0, "null")
+  (54, 2, 3, <21:25>, 1, "were", 0, "null")
+  (62, 2, 3, <21:25>, 1, "were", 0, "null", "VBD" 1.0)
+  (65, 2, 3, <21:25>, 1, "were", 0, "null")
+  (57, 3, 4, <26:33>, 1, "strong.", 0, "null")
+  (60, 3, 4, <26:33>, 1, "strong.", 0, "null", "JJ" 0.9856)
+  (66, 3, 4, <26:33>, 1, "strong.", 0, "null")
+>
+
+(ROOT_STRICT
+ (547 SB-HD_MC_C 3.02539 0 4
+  (544 HDN_BNP_C -1.0173 0 2
+   (543 NP-HDN_CPD_C -0.293997 0 2
+    (541 HDN_BNP-PN_C -0.439162 0 1
+     (68 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Biotechnology" 59
+       "token [ +CARG #1=\"Biotechnology\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.61540709999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (542 ^N_PL_OLR 0.260356 1 2
+     (69 issue_n1@n_-_mc-ns_le 0.830696 1 2
+      ("issues" 52
+       "token [ +CARG #1=\"issues\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (546 ^HD-CMP_U_C 2.52678 2 4
+   (85 be_c_were@v_prd_wre_le 1.45048 2 3
+    ("were" 54
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (545 W_PERIOD_PLR 0.852384 3 4
+    (99 strong_a1@aj_-_i-er_le 0 3 4
+     ("strong." 57
+      "token [ +CARG \"strong\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"strong.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98561069999999995\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (NP (N "Biotechnology")) (N (N "issues"))))
+ (VP (V "were") (AP (AP "strong."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:20>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:13>
+            LBL: h14
+            ARG0: x9
+            CARG: "Biotechnology" ]
+          [ _issue_n_1<14:20>
+            LBL: h8
+            ARG0: x6 ]
+          [ _strong_a_1<26:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:20>[BV x6]
+ e10:compound<0:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:13>[BV x9]
+ x9:named<0:13>("Biotechnology"){x IND +}[]
+ x6:_issue_n_1<14:20>{x PERS 3, NUM pl}[]
+ e3:_strong_a_1<26:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:20> BV _issue_n_1<14:20>  
+  compound<0:20> ARG1 _issue_n_1<14:20>  
+  compound<0:20> ARG2 named<0:13>(Biotechnology)  
+  proper_q<0:13> BV named<0:13>(Biotechnology)  
+  _strong_a_1<26:33> ARG1 _issue_n_1<14:20>  
+  compound<0:20> SF prop  
+  compound<0:20> TENSE untensed  
+  compound<0:20> MOOD indicative  
+  compound<0:20> PROG -  
+  compound<0:20> PERF -  
+  named<0:13>(Biotechnology) IND +  
+  _issue_n_1<14:20> PERS 3  
+  _issue_n_1<14:20> NUM pl  
+  _strong_a_1<26:33> SF prop  
+  _strong_a_1<26:33> TENSE past  
+  _strong_a_1<26:33> MOOD indicative  
+  _strong_a_1<26:33> PROG -  
+  _strong_a_1<26:33> PERF -  
+}
+

@@ -1,0 +1,203 @@
+;;;
+;;; Redwoods export of `wsj01d';
+;;; (wsun@wsun; 22-jan-2018 (11:37 h)).
+;;;
+
+[20171007] (1 of 1) {1} `Valley Federal is currently being examined by regulators.'
+
+[20171007:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Valley", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:14>, 1, "Federal", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:17>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <18:27>, 1, "currently", 0, "null", "RB" 1.0)
+  (5, 4, 5, <28:33>, 1, "being", 0, "null", "VBG" 1.0)
+  (6, 5, 6, <34:42>, 1, "examined", 0, "null", "VBN" 0.8765 "VBD" 0.1235)
+  (7, 6, 7, <43:45>, 1, "by", 0, "null", "IN" 1.0)
+  (8, 7, 8, <46:56>, 1, "regulators", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <56:57>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (103, 0, 1, <0:6>, 1, "Valley", 0, "null")
+  (112, 0, 1, <0:6>, 1, "valley", 0, "null")
+  (120, 0, 1, <0:6>, 1, "valley", 0, "null")
+  (83, 1, 2, <7:14>, 1, "Federal", 0, "null")
+  (105, 1, 2, <7:14>, 1, "Federal", 0, "null", "NNP" 1.0)
+  (111, 1, 2, <7:14>, 1, "federal", 0, "null")
+  (113, 1, 2, <7:14>, 1, "federal", 0, "null")
+  (92, 2, 3, <15:17>, 1, "is", 0, "null")
+  (106, 2, 3, <15:17>, 1, "is", 0, "null", "VBZ" 1.0)
+  (114, 2, 3, <15:17>, 1, "is", 0, "null")
+  (94, 3, 4, <18:27>, 1, "currently", 0, "null")
+  (107, 3, 4, <18:27>, 1, "currently", 0, "null", "RB" 1.0)
+  (115, 3, 4, <18:27>, 1, "currently", 0, "null")
+  (96, 4, 5, <28:33>, 1, "being", 0, "null")
+  (108, 4, 5, <28:33>, 1, "being", 0, "null", "VBG" 1.0)
+  (116, 4, 5, <28:33>, 1, "being", 0, "null")
+  (101, 5, 6, <34:42>, 1, "examined", 0, "null")
+  (104, 5, 6, <34:42>, 1, "examined", 0, "null", "VBN" 0.8765)
+  (110, 5, 6, <34:42>, 1, "examined", 0, "null", "VBD" 0.1235)
+  (119, 5, 6, <34:42>, 1, "examined", 0, "null")
+  (98, 6, 7, <43:45>, 1, "by", 0, "null")
+  (117, 6, 7, <43:45>, 1, "by", 0, "null")
+  (100, 7, 8, <46:57>, 1, "regulators.", 0, "null")
+  (109, 7, 8, <46:57>, 1, "regulators.", 0, "null", "NNS" 1.0)
+  (118, 7, 8, <46:57>, 1, "regulators.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2666 SB-HD_MC_C 15.5969 0 8
+  (2656 HDN_BNP-PN_C 2.96557 0 2
+   (2655 NP-HDN_NME-CPD_C 2.42586 0 2
+    (2653 HDN_BNP-PN_C 1.55614 0 1
+     (2652 N_SG_ILR 0.803701 0 1
+      (122 generic_proper_ne@n_-_pn-gen_le 1.19061 0 1
+       ("Valley" 103
+        "token [ +CARG #1=\"Valley\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (2654 ^N_SG_ILR -0.447858 1 2
+     (127 generic_proper_ne@n_-_pn-gen_le -0.3046 1 2
+      ("Federal" 83
+       "token [ +CARG #1=\"Federal\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2665 ^HD-CMP_U_C 11.6143 2 8
+   (169 be_c_is@v_prd_is_le 1.47611 2 3
+    ("is" 92
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2664 AJ-HD_INT_C 9.18005 3 8
+    (258 currently_isect@av_-_i-vp-x_le 0.487816 3 4
+     ("currently" 94
+      "token [ +CARG #1=\"currently\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2663 ^HD-CMP_U_C 6.57675 4 8
+     (273 be_c_being@v_prd_being_le 1.97526 4 5
+      ("being" 96
+       "token [ +CARG #1=\"being\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2662 HD-CMP_U_C 4.16506 5 8
+      (2657 ^V_PAS_ODLR 0.727515 5 6
+       (311 examine_v1@v_np_le 0 5 6
+        ("examined" 101
+         "token [ +CARG #1=\"examined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87648630000000005\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (2661 HD-CMP_U_C 2.04388 6 8
+       (449 by_pass_p@p_np_ptcl_le 1.83114 6 7
+        ("by" 98
+         "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2660 HDN_BNP_C -0.953571 7 8
+        (2659 W_PERIOD_PLR -0.197813 7 8
+         (2658 N_PL_OLR 0.398682 7 8
+          (470 regulator_n1@n_-_c_le 0 7 8
+           ("regulators." 100
+            "token [ +CARG \"regulators\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"regulators.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"57\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (N (NP (N (N "Valley"))) (N (N "Federal"))))
+ (VP (V "is")
+  (VP (ADV "currently")
+   (VP (V "being")
+    (VP (V (V "examined"))
+     (PP (P "by") (NP (N (N (N "regulators."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ proper_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Valley" ]
+          [ named<7:14>
+            LBL: h8
+            ARG0: x6
+            CARG: "Federal" ]
+          [ _current_a_1<18:27>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _examine_v_1<34:42>
+            LBL: h2
+            ARG0: e3
+            ARG1: x16 [ x PERS: 3 NUM: PL IND: + ]
+            ARG2: x6 ]
+          [ parg_d<34:42>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ udef_q<46:57>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _regulator_n_1<46:57>
+            LBL: h21
+            ARG0: x16 ] >
+   HCONS: < h19 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Valley"){x PERS 3, NUM sg, IND +}[]
+ x6:named<7:14>("Federal"){x PERS 3, NUM sg, IND +}[]
+ e15:_current_a_1<18:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_examine_v_1<34:42>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x16, ARG2 x6]
+ e17:parg_d<34:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _3:udef_q<46:57>[BV x16]
+ x16:_regulator_n_1<46:57>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  proper_q<0:14> BV named<7:14>(Federal)  
+  compound<0:14> ARG1 named<7:14>(Federal)  
+  compound<0:14> ARG2 named<0:6>(Valley)  
+  proper_q<0:6> BV named<0:6>(Valley)  
+  _current_a_1<18:27> ARG1 _examine_v_1<34:42>  
+  _examine_v_1<34:42> ARG1 _regulator_n_1<46:57>  
+  _examine_v_1<34:42> ARG2 named<7:14>(Federal)  
+  parg_d<34:42> ARG1 _examine_v_1<34:42>  
+  parg_d<34:42> ARG2 named<7:14>(Federal)  
+  udef_q<46:57> BV _regulator_n_1<46:57>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  named<0:6>(Valley) PERS 3  
+  named<0:6>(Valley) NUM sg  
+  named<0:6>(Valley) IND +  
+  named<7:14>(Federal) PERS 3  
+  named<7:14>(Federal) NUM sg  
+  named<7:14>(Federal) IND +  
+  _current_a_1<18:27> SF prop  
+  _current_a_1<18:27> TENSE untensed  
+  _current_a_1<18:27> MOOD indicative  
+  _current_a_1<18:27> PROG -  
+  _current_a_1<18:27> PERF -  
+  _examine_v_1<34:42> SF prop  
+  _examine_v_1<34:42> TENSE pres  
+  _examine_v_1<34:42> MOOD indicative  
+  _examine_v_1<34:42> PROG +  
+  _examine_v_1<34:42> PERF -  
+  parg_d<34:42> SF prop  
+  parg_d<34:42> TENSE untensed  
+  parg_d<34:42> MOOD indicative  
+  parg_d<34:42> PROG -  
+  parg_d<34:42> PERF -  
+  _regulator_n_1<46:57> PERS 3  
+  _regulator_n_1<46:57> NUM pl  
+  _regulator_n_1<46:57> IND +  
+}
+

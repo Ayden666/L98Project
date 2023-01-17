@@ -1,0 +1,184 @@
+;;;
+;;; Redwoods export of `wsj20d';
+;;; (wsun@wsun; 23-jan-2018 (05:37 h)).
+;;;
+
+[22063028] (1 of 1) {1} `"That puts pressure on CD rates.'
+
+[22063028:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "That", 0, "null", "DT" 0.9788 "WDT" 0.0212)
+  (3, 2, 3, <6:10>, 1, "puts", 0, "null", "VBZ" 0.9434 "NNS" 0.0566)
+  (4, 3, 4, <11:19>, 1, "pressure", 0, "null", "NN" 0.9839 "VB" 0.0161)
+  (5, 4, 5, <20:22>, 1, "on", 0, "null", "IN" 1.0)
+  (6, 5, 6, <23:25>, 1, "CD", 0, "null", "NN" 0.6762 "NNP" 0.3238)
+  (7, 6, 7, <26:31>, 1, "rates", 0, "null", "NNS" 1.0)
+  (8, 7, 8, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (102, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (109, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (91, 1, 2, <6:10>, 1, "puts", 0, "null")
+  (98, 1, 2, <6:10>, 1, "puts", 0, "null", "VBZ" 0.9434)
+  (106, 1, 2, <6:10>, 1, "puts", 0, "null")
+  (93, 2, 3, <11:19>, 1, "pressure", 0, "null")
+  (99, 2, 3, <11:19>, 1, "pressure", 0, "null", "NN" 0.9839)
+  (107, 2, 3, <11:19>, 1, "pressure", 0, "null")
+  (86, 3, 4, <20:22>, 1, "on", 0, "null")
+  (104, 3, 4, <20:22>, 1, "on", 0, "null")
+  (74, 4, 5, <23:25>, 1, "CD", 0, "null")
+  (97, 4, 5, <23:25>, 1, "CD", 0, "null", "NN" 0.6762)
+  (101, 4, 5, <23:25>, 1, "cd", 0, "null")
+  (103, 4, 5, <23:25>, 1, "cd", 0, "null")
+  (88, 5, 6, <26:32>, 1, "rates.", 0, "null")
+  (100, 5, 6, <26:32>, 1, "rates.", 0, "null", "NNS" 1.0)
+  (105, 5, 6, <26:32>, 1, "rates.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1118 SB-HD_MC_C 5.37748 0 6
+  (1106 HDN_BNP-QNT_C 0.970318 0 1
+   (1105 HDN_OPTCMP_C 0.881544 0 1
+    (1104 W_DQLEFT_PLR 0.534835 0 1
+     (125 that_deix@n_-_pr-dei-sg_le 0.171311 0 1
+      ("“that" 102
+       "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“that\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97877119999999995\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1117 ^HD-CMP_U_C 3.13781 1 6
+   (1110 ^HD-CMP_U_C -0.0387186 1 3
+    (1107 ^V_3S-FIN_OLR 0.745618 1 2
+     (192 put_v1@v_np-pp_prop_le 0 1 2
+      ("puts" 91
+       "token [ +CARG #1=\"puts\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94344570000000005\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1109 HDN_BNP_C -1.39274 2 3
+     (1108 N_MS-CNT_ILR -0.419557 2 3
+      (206 pressure_n1@n_-_mc_le -0.504096 2 3
+       ("pressure" 93
+        "token [ +CARG #1=\"pressure\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98393160000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (1116 HD-CMP_U_C 2.466 3 6
+    (237 on@p_np_i-reg_le 0.927967 3 4
+     ("on" 86
+      "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1115 HDN_BNP_C 1.58672 4 6
+     (1114 N-HDN_CPD_C 1.97568 4 6
+      (266 cd_n1@n_-_mc_le 0.757617 4 5
+       ("cd" 101
+        "token [ +CARG \"CD\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"cd\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67617890000000003\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1113 ^HDN_OPTCMP_C 0.435865 5 6
+       (1112 W_PERIOD_PLR 0.357442 5 6
+        (1111 N_PL_OLR 0.354498 5 6
+         (270 rate_n1@n_pp_mc-of_le 0 5 6
+          ("rates." 88
+           "token [ +CARG \"rates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rates.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N (N "“that"))))
+ (VP (V (V (V "puts")) (NP (N (N "pressure"))))
+  (PP (P "on") (NP (N (N "cd") (N (N (N (N "rates.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _put_v_1<6:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ]
+            ARG3: h10 ]
+          [ udef_q<11:19>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _pressure_n_1<11:19>
+            LBL: h14
+            ARG0: x9 ]
+          [ _on_p<20:22>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x17 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<23:32>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ compound<23:32>
+            LBL: h21
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            ARG2: x22 ]
+          [ udef_q<23:25>
+            LBL: h24
+            ARG0: x22
+            RSTR: h25
+            BODY: h26 ]
+          [ _cd_n_1<23:25>
+            LBL: h27
+            ARG0: x22 ]
+          [ _rate_n_of<26:32>
+            LBL: h21
+            ARG0: x17
+            ARG1: i28 ] >
+   HCONS: < h25 QEQ h27 h19 QEQ h21 h12 QEQ h14 h10 QEQ h15 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:5>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:5>[BV x5]
+ e3:_put_v_1<6:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9, ARG3 e16]
+ _2:udef_q<11:19>[BV x9]
+ x9:_pressure_n_1<11:19>{x PERS 3, NUM sg}[]
+ e16:_on_p<20:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x17]
+ _3:udef_q<23:32>[BV x17]
+ e23:compound<23:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17, ARG2 x22]
+ _4:udef_q<23:25>[BV x22]
+ x22:_cd_n_1<23:25>{x}[]
+ x17:_rate_n_of<26:32>{x PERS 3, NUM pl}[]
+}
+
+{
+  _that_q_dem<0:5> BV generic_entity<0:5>  
+  _put_v_1<6:10> ARG1 generic_entity<0:5>  
+  _put_v_1<6:10> ARG2 _pressure_n_1<11:19>  
+  _put_v_1<6:10> ARG3 _on_p<20:22>  
+  udef_q<11:19> BV _pressure_n_1<11:19>  
+  _on_p<20:22> ARG1 _pressure_n_1<11:19>  
+  _on_p<20:22> ARG2 _rate_n_of<26:32>  
+  udef_q<23:32> BV _rate_n_of<26:32>  
+  compound<23:32> ARG1 _rate_n_of<26:32>  
+  compound<23:32> ARG2 _cd_n_1<23:25>  
+  udef_q<23:25> BV _cd_n_1<23:25>  
+  generic_entity<0:5> PERS 3  
+  generic_entity<0:5> NUM sg  
+  generic_entity<0:5> GEND n  
+  _put_v_1<6:10> SF prop  
+  _put_v_1<6:10> TENSE pres  
+  _put_v_1<6:10> MOOD indicative  
+  _put_v_1<6:10> PROG -  
+  _put_v_1<6:10> PERF -  
+  _pressure_n_1<11:19> PERS 3  
+  _pressure_n_1<11:19> NUM sg  
+  _on_p<20:22> SF prop  
+  _on_p<20:22> TENSE untensed  
+  _on_p<20:22> MOOD indicative  
+  _on_p<20:22> PROG -  
+  _on_p<20:22> PERF -  
+  compound<23:32> SF prop  
+  compound<23:32> TENSE untensed  
+  compound<23:32> MOOD indicative  
+  compound<23:32> PROG -  
+  compound<23:32> PERF -  
+  _rate_n_of<26:32> PERS 3  
+  _rate_n_of<26:32> NUM pl  
+}
+

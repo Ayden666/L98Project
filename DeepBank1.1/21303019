@@ -1,0 +1,169 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:53 h)).
+;;;
+
+[21303019] (1 of 1) {1} `Mr. Dozen knows these problems firsthand.'
+
+[21303019:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Dozen", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:15>, 1, "knows", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:21>, 1, "these", 0, "null", "DT" 1.0)
+  (5, 4, 5, <22:30>, 1, "problems", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <31:40>, 1, "firsthand", 0, "null", "RB" 0.9105 "JJ" 0.0895)
+  (7, 6, 7, <40:41>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (87, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (93, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (65, 1, 2, <4:9>, 1, "Dozen", 0, "null")
+  (83, 1, 2, <4:9>, 1, "Dozen", 0, "null", "NNP" 1.0)
+  (86, 1, 2, <4:9>, 1, "dozen", 0, "null")
+  (88, 1, 2, <4:9>, 1, "dozen", 0, "null")
+  (74, 2, 3, <10:15>, 1, "knows", 0, "null")
+  (84, 2, 3, <10:15>, 1, "knows", 0, "null", "VBZ" 1.0)
+  (89, 2, 3, <10:15>, 1, "knows", 0, "null")
+  (76, 3, 4, <16:21>, 1, "these", 0, "null")
+  (90, 3, 4, <16:21>, 1, "these", 0, "null")
+  (78, 4, 5, <22:30>, 1, "problems", 0, "null")
+  (85, 4, 5, <22:30>, 1, "problems", 0, "null", "NNS" 1.0)
+  (91, 4, 5, <22:30>, 1, "problems", 0, "null")
+  (79, 5, 6, <31:41>, 1, "firsthand.", 0, "null")
+  (82, 5, 6, <31:41>, 1, "firsthand.", 0, "null", "RB" 0.9105)
+  (92, 5, 6, <31:41>, 1, "firsthand.", 0, "null")
+>
+
+(ROOT_STRICT
+ (581 SB-HD_MC_C 7.98151 0 6
+  (573 HDN_BNP-PN_C 3.86187 0 2
+   (572 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (570 N_SG_ILR 2.02901 0 1
+     (101 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 87
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (571 ^N_SG_ILR -0.259177 1 2
+     (104 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Dozen" 65
+       "token [ +CARG #1=\"Dozen\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (580 ^HD-AJ_INT-UNSL_C 3.63215 2 6
+   (578 ^HD-CMP_U_C 3.68538 2 5
+    (574 ^V_3S-FIN_OLR 0.688305 2 3
+     (150 know_v1@v_np*_le 0 2 3
+      ("knows" 74
+       "token [ +CARG #1=\"knows\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (577 SP-HD_N_C 2.03306 3 5
+     (210 these_det@d_-_pl_le 1.21449 3 4
+      ("these" 76
+       "token [ +CARG #1=\"these\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (576 ^HDN_OPTCMP_C 0.160075 4 5
+      (575 N_PL_OLR 0.230648 4 5
+       (212 problem_n1@n_pp_c-ns-of_le 0 4 5
+        ("problems" 78
+         "token [ +CARG #1=\"problems\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (579 W_PERIOD_PLR 0 5 6
+    (224 generic_adverb@av_-_i-unk_le 0 5 6
+     ("firsthand." 82
+      "token [ +CARG \"firsthand\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"firsthand.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED \"_firsthand/RB_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"0.91049809999999998\" +TAG #4=\"RB\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Dozen"))))
+ (VP (VP (V (V "knows")) (NP (DET "these") (N (N (N "problems")))))
+  (ADV (ADV "firsthand."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:9>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:9>
+            LBL: h8
+            ARG0: x6
+            CARG: "Dozen" ]
+          [ _know_v_1<10:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _these_q_dem<16:21>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _problem_n_of<22:30>
+            LBL: h19
+            ARG0: x15
+            ARG1: i20 ]
+          [ _firsthand/rb_u_unknown<31:41>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:9>[BV x6]
+ e10:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:9>("Dozen"){x PERS 3, NUM sg, IND +}[]
+ e3:_know_v_1<10:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_these_q_dem<16:21>[BV x15]
+ x15:_problem_n_of<22:30>{x PERS 3, NUM pl, IND +}[]
+ e21:_firsthand/rb_u_unknown<31:41>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:9> BV named<4:9>(Dozen)  
+  compound<0:9> ARG1 named<4:9>(Dozen)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _know_v_1<10:15> ARG1 named<4:9>(Dozen)  
+  _know_v_1<10:15> ARG2 _problem_n_of<22:30>  
+  _these_q_dem<16:21> BV _problem_n_of<22:30>  
+  _firsthand/rb_u_unknown<31:41> ARG1 _know_v_1<10:15>  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Dozen) PERS 3  
+  named<4:9>(Dozen) NUM sg  
+  named<4:9>(Dozen) IND +  
+  _know_v_1<10:15> SF prop  
+  _know_v_1<10:15> TENSE pres  
+  _know_v_1<10:15> MOOD indicative  
+  _know_v_1<10:15> PROG -  
+  _know_v_1<10:15> PERF -  
+  _problem_n_of<22:30> PERS 3  
+  _problem_n_of<22:30> NUM pl  
+  _problem_n_of<22:30> IND +  
+  _firsthand/rb_u_unknown<31:41> SF prop  
+  _firsthand/rb_u_unknown<31:41> TENSE untensed  
+  _firsthand/rb_u_unknown<31:41> MOOD indicative  
+  _firsthand/rb_u_unknown<31:41> PROG -  
+  _firsthand/rb_u_unknown<31:41> PERF -  
+}
+

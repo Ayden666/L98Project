@@ -1,0 +1,152 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (01:08 h)).
+;;;
+
+[21615065] (1 of 1) {1} `Auto insurance rates are soaring.'
+
+[21615065:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Auto", 0, "null", "NN" 0.5882 "NNP" 0.4118)
+  (2, 1, 2, <5:14>, 1, "insurance", 0, "null", "NN" 1.0)
+  (3, 2, 3, <15:20>, 1, "rates", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <21:24>, 1, "are", 0, "null", "VBP" 1.0)
+  (5, 4, 5, <25:32>, 1, "soaring", 0, "null", "VBG" 1.0)
+  (6, 5, 6, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:4>, 1, "Auto", 0, "null")
+  (73, 0, 1, <0:4>, 1, "auto", 0, "null")
+  (78, 0, 1, <0:4>, 1, "auto", 0, "null")
+  (59, 1, 2, <5:14>, 1, "insurance", 0, "null")
+  (69, 1, 2, <5:14>, 1, "insurance", 0, "null", "NN" 1.0)
+  (74, 1, 2, <5:14>, 1, "insurance", 0, "null")
+  (61, 2, 3, <15:20>, 1, "rates", 0, "null")
+  (70, 2, 3, <15:20>, 1, "rates", 0, "null", "NNS" 1.0)
+  (75, 2, 3, <15:20>, 1, "rates", 0, "null")
+  (63, 3, 4, <21:24>, 1, "are", 0, "null")
+  (71, 3, 4, <21:24>, 1, "are", 0, "null", "VBP" 1.0)
+  (76, 3, 4, <21:24>, 1, "are", 0, "null")
+  (65, 4, 5, <25:33>, 1, "soaring.", 0, "null")
+  (72, 4, 5, <25:33>, 1, "soaring.", 0, "null", "VBG" 1.0)
+  (77, 4, 5, <25:33>, 1, "soaring.", 0, "null")
+>
+
+(ROOT_STRICT
+ (826 SB-HD_MC_C 5.70738 0 5
+  (821 HDN_BNP_C 3.42491 0 3
+   (820 N-HDN_CPD_C 2.80416 0 3
+    (817 N-HDN_CPD_C 1.11008 0 2
+     (80 auto_n1@n_-_c_le -0.250241 0 1
+      ("auto" 73
+       "token [ +CARG \"Auto\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"auto\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58818809999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (81 insurance_n1@n_-_mc_le -0.346291 1 2
+      ("insurance" 59
+       "token [ +CARG #1=\"insurance\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (819 ^HDN_OPTCMP_C 1.59664 2 3
+     (818 N_PL_OLR 1.35598 2 3
+      (86 rate_n1@n_pp_mc-of_le 0.88296 2 3
+       ("rates" 61
+        "token [ +CARG #1=\"rates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (825 ^HD-CMP_U_C 0.766564 3 5
+   (116 be_c_are@v_prd_are_le 1.27762 3 4
+    ("are" 63
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (824 HD_OPTCMP_C -1.3193 4 5
+    (823 W_PERIOD_PLR -1.47073 4 5
+     (822 V_PRP_OLR -0.880364 4 5
+      (123 soar_v1@v_pp*_dir_le 0 4 5
+       ("soaring." 65
+        "token [ +CARG \"soaring\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"soaring.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "auto") (N "insurance")) (N (N (N "rates")))))
+ (VP (V "are") (VP (V (V (V "soaring."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ udef_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:20>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:14>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:14>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _automobile_n_1<0:4>
+            LBL: h20
+            ARG0: x15 ]
+          [ _insurance_n_1<5:14>
+            LBL: h14
+            ARG0: x9 ]
+          [ _rate_n_of<15:20>
+            LBL: h8
+            ARG0: x6
+            ARG1: i21 ]
+          [ _soar_v_1<25:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:20>[BV x6]
+ e10:compound<0:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:14>[BV x9]
+ e16:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:4>[BV x15]
+ x15:_automobile_n_1<0:4>{x IND +}[]
+ x9:_insurance_n_1<5:14>{x}[]
+ x6:_rate_n_of<15:20>{x PERS 3, NUM pl}[]
+ e3:_soar_v_1-fn.Change_position_on_a_scale<25:33>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:20> BV _rate_n_of<15:20>  
+  compound<0:20> ARG1 _rate_n_of<15:20>  
+  compound<0:20> ARG2 _insurance_n_1<5:14>  
+  udef_q<0:14> BV _insurance_n_1<5:14>  
+  compound<0:14> ARG1 _insurance_n_1<5:14>  
+  compound<0:14> ARG2 _automobile_n_1<0:4>  
+  udef_q<0:4> BV _automobile_n_1<0:4>  
+  _soar_v_1<25:33> ARG1 _rate_n_of<15:20>  
+  compound<0:20> SF prop  
+  compound<0:20> TENSE untensed  
+  compound<0:20> MOOD indicative  
+  compound<0:20> PROG -  
+  compound<0:20> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _automobile_n_1<0:4> IND +  
+  _rate_n_of<15:20> PERS 3  
+  _rate_n_of<15:20> NUM pl  
+  _soar_v_1<25:33> SF prop  
+  _soar_v_1<25:33> TENSE pres  
+  _soar_v_1<25:33> MOOD indicative  
+  _soar_v_1<25:33> PROG +  
+  _soar_v_1<25:33> PERF -  
+}
+

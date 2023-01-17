@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj11d';
+;;; (wsun@wsun; 22-jan-2018 (20:43 h)).
+;;;
+
+[21171031] (1 of 1) {1} `Not yesterday.'
+
+[21171031:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:13>, 1, "yesterday", 0, "null", "NN" 0.9062 "RB" 0.0938)
+  (3, 2, 3, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (36, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (37, 0, 1, <0:3>, 1, "not", 0, "null")
+  (39, 0, 1, <0:3>, 1, "not", 0, "null")
+  (33, 1, 2, <4:14>, 1, "yesterday.", 0, "null")
+  (35, 1, 2, <4:14>, 1, "yesterday.", 0, "null", "NN" 0.9062)
+  (38, 1, 2, <4:14>, 1, "yesterday.", 0, "null")
+>
+
+(ROOT_FRAG
+ (209 PP_FRG_C 0.301598 0 2
+  (208 MRK-NH_EVNT_C 0.46689 0 2
+   (76 not_conj_event@c_xp_not-ev_le -0.526219 0 1
+    ("not" 37
+     "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (205 NP_ADV_C 0.863726 1 2
+    (204 HDN_BNP-QNT_C 0.99991 1 2
+     (203 W_PERIOD_PLR 0.663199 1 2
+      (137 yesterday_np@n_-_ad-time_le 0 1 2
+       ("yesterday." 33
+        "token [ +CARG \"yesterday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"yesterday.\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90615400000000002\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP (NP-CJ (CONJ "not") (PP (NP (N (N "yesterday."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _not_c<0:3>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            L-HNDL: u8
+            L-INDEX: i9
+            R-HNDL: h6
+            R-INDEX: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ loc_nonsp<4:14>
+            LBL: h6
+            ARG0: e5
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ time_n<4:14>
+            LBL: h11
+            ARG0: x10 ]
+          [ def_implicit_q<4:14>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _yesterday_a_1<4:14>
+            LBL: h11
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ] >
+   HCONS: < h13 QEQ h11 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_not_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e5, R-INDEX e5]
+ e5:loc_nonsp<4:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ x10:time_n<4:14>{x PERS 3, NUM sg}[]
+ _1:def_implicit_q<4:14>[BV x10]
+ e15:_yesterday_a_1<4:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+}
+
+{
+  _not_c<0:3> R-HNDL loc_nonsp<4:14>  
+  _not_c<0:3> R-INDEX loc_nonsp<4:14>  
+  loc_nonsp<4:14> ARG1 unknown<0:14>  
+  loc_nonsp<4:14> ARG2 time_n<4:14>  
+  def_implicit_q<4:14> BV time_n<4:14>  
+  _yesterday_a_1<4:14> ARG1 time_n<4:14>  
+  unknown<0:14> SF prop  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  _not_c<0:3> SF prop  
+  _not_c<0:3> TENSE untensed  
+  _not_c<0:3> MOOD indicative  
+  _not_c<0:3> PROG -  
+  _not_c<0:3> PERF -  
+  loc_nonsp<4:14> SF prop  
+  loc_nonsp<4:14> TENSE untensed  
+  loc_nonsp<4:14> MOOD indicative  
+  loc_nonsp<4:14> PROG -  
+  loc_nonsp<4:14> PERF -  
+  time_n<4:14> PERS 3  
+  time_n<4:14> NUM sg  
+  _yesterday_a_1<4:14> SF prop  
+  _yesterday_a_1<4:14> TENSE untensed  
+  _yesterday_a_1<4:14> MOOD indicative  
+  _yesterday_a_1<4:14> PROG -  
+  _yesterday_a_1<4:14> PERF -  
+}
+

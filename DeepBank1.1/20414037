@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:48 h)).
+;;;
+
+[20414037] (1 of 1) {1} `MEA CULPA.'
+
+[20414037:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "MEA", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "CULPA", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:10>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (31, 0, 1, <0:3>, 1, "MEA", 0, "null")
+  (38, 0, 1, <0:3>, 1, "MEA", 0, "null", "NNP" 1.0)
+  (40, 0, 1, <0:3>, 1, "mea", 0, "null")
+  (42, 0, 1, <0:3>, 1, "mea", 0, "null")
+  (33, 1, 2, <4:10>, 1, "CULPA.", 0, "null")
+  (39, 1, 2, <4:10>, 1, "CULPA.", 0, "null", "NNP" 1.0)
+  (41, 1, 2, <4:10>, 1, "culpa.", 0, "null")
+  (43, 1, 2, <4:10>, 1, "culpa.", 0, "null")
+>
+
+(ROOT_FRAG
+ (99 NP_FRG_C 0.780262 0 2
+  (98 HDN_BNP-PN_C 1.92677 0 2
+   (97 NP-HDN_NME-CPD_C 1.96608 0 2
+    (94 HDN_BNP-PN_C 0.365523 0 1
+     (93 N_SG_ILR -0.386912 0 1
+      (46 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("MEA" 31
+        "token [ +CARG #1=\"MEA\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (96 ^W_PERIOD_PLR 1.02066 1 2
+     (95 N_SG_ILR 0.466069 1 2
+      (48 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("CULPA." 33
+        "token [ +CARG \"CULPA\" +CLASS proper_ne +FORM \"CULPA.\" +FROM \"4\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(XP (NP (N (NP (N (N "MEA"))) (N (N (N "CULPA."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:3>
+            LBL: h14
+            ARG0: x9
+            CARG: "MEA" ]
+          [ named<4:10>
+            LBL: h8
+            ARG0: x4
+            CARG: "CULPA" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:10>[BV x4]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:3>[BV x9]
+ x9:named<0:3>("MEA"){x PERS 3, NUM sg, IND +}[]
+ x4:named<4:10>("CULPA"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:10> ARG named<4:10>(CULPA)  
+  proper_q<0:10> BV named<4:10>(CULPA)  
+  compound<0:10> ARG1 named<4:10>(CULPA)  
+  compound<0:10> ARG2 named<0:3>(MEA)  
+  proper_q<0:3> BV named<0:3>(MEA)  
+  unknown<0:10> SF prop  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:3>(MEA) PERS 3  
+  named<0:3>(MEA) NUM sg  
+  named<0:3>(MEA) IND +  
+  named<4:10>(CULPA) PERS 3  
+  named<4:10>(CULPA) NUM sg  
+  named<4:10>(CULPA) IND +  
+}
+

@@ -1,0 +1,103 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:03 h)).
+;;;
+
+[21208060] (1 of 1) {1} `"Credibility sounds intangible.'
+
+[21208060:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:12>, 1, "Credibility", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:19>, 1, "sounds", 0, "null", "VBZ" 0.9337 "NNS" 0.0663)
+  (4, 3, 4, <20:30>, 1, "intangible", 0, "null", "JJ" 0.9439 "NN" 0.0561)
+  (5, 4, 5, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (58, 0, 1, <0:12>, 1, "“Credibility", 0, "null")
+  (61, 0, 1, <0:12>, 1, "“credibility", 0, "null")
+  (64, 0, 1, <0:12>, 1, "“credibility", 0, "null")
+  (54, 1, 2, <13:19>, 1, "sounds", 0, "null")
+  (59, 1, 2, <13:19>, 1, "sounds", 0, "null", "VBZ" 0.9337)
+  (62, 1, 2, <13:19>, 1, "sounds", 0, "null")
+  (56, 2, 3, <20:31>, 1, "intangible.", 0, "null")
+  (60, 2, 3, <20:31>, 1, "intangible.", 0, "null", "JJ" 0.9439)
+  (63, 2, 3, <20:31>, 1, "intangible.", 0, "null")
+>
+
+(ROOT_STRICT
+ (417 SB-HD_MC_C 2.03088 0 3
+  (412 HDN_BNP_C -0.634887 0 1
+   (411 W_DQLEFT_PLR -0.343142 0 1
+    (410 N_MS_ILR -0.330759 0 1
+     (68 credibility_n1@n_-_m_le 0 0 1
+      ("“credibility" 61
+       "token [ +CARG \"Credibility\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“credibility\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (416 ^HD_OPTCMP_C 2.68623 1 3
+   (415 HD-CMP_U_C 0.898442 1 3
+    (413 ^V_3S-FIN_OLR 0 1 2
+     (86 sound_v1@v_ap-pp_seq_le 0 1 2
+      ("sounds" 54
+       "token [ +CARG #1=\"sounds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93366879999999997\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (414 W_PERIOD_PLR 0.332751 2 3
+     (103 intangible_a1@aj_-_i_le 0 2 3
+      ("intangible." 56
+       "token [ +CARG \"intangible\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"intangible.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94391259999999999\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N "“credibility"))))
+ (VP (V (V (V "sounds")) (AP (AP "intangible.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _credibility_n_1<0:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _sound_v_seem-to<13:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h10
+            ARG3: i9 ]
+          [ _intangible_a_1<20:31>
+            LBL: h11
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h10 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:12>[BV x6]
+ x6:_credibility_n_1<0:12>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_sound_v_seem-to<13:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e12]
+ e12:_intangible_a_1<20:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:12> BV _credibility_n_1<0:12>  
+  _sound_v_seem-to<13:19> ARG1 _credibility_n_1<0:12>  
+  _sound_v_seem-to<13:19> ARG2 _intangible_a_1<20:31>  
+  _intangible_a_1<20:31> ARG1 _credibility_n_1<0:12>  
+  _credibility_n_1<0:12> PERS 3  
+  _credibility_n_1<0:12> NUM sg  
+  _credibility_n_1<0:12> GEND n  
+  _credibility_n_1<0:12> IND -  
+  _sound_v_seem-to<13:19> SF prop  
+  _sound_v_seem-to<13:19> TENSE pres  
+  _sound_v_seem-to<13:19> MOOD indicative  
+  _sound_v_seem-to<13:19> PROG -  
+  _sound_v_seem-to<13:19> PERF -  
+  _intangible_a_1<20:31> SF prop  
+  _intangible_a_1<20:31> TENSE untensed  
+  _intangible_a_1<20:31> MOOD indicative  
+  _intangible_a_1<20:31> PROG -  
+  _intangible_a_1<20:31> PERF -  
+}
+

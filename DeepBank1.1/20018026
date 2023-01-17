@@ -1,0 +1,207 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:06 h)).
+;;;
+
+[20018026] (1 of 1) {1} `Cray Computer has applied to trade on Nasdaq.'
+
+[20018026:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Cray", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:13>, 1, "Computer", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:17>, 1, "has", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <18:25>, 1, "applied", 0, "null", "VBN" 0.9859 "VBD" 0.0141)
+  (5, 4, 5, <26:28>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <29:34>, 1, "trade", 0, "null", "VB" 0.777 "NN" 0.223)
+  (7, 6, 7, <35:37>, 1, "on", 0, "null", "IN" 0.9773 "RP" 0.0227)
+  (8, 7, 8, <38:44>, 1, "Nasdaq", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:4>, 1, "Cray", 0, "null")
+  (118, 0, 1, <0:4>, 1, "cray", 0, "null")
+  (127, 0, 1, <0:4>, 1, "cray", 0, "null")
+  (84, 1, 2, <5:13>, 1, "Computer", 0, "null")
+  (113, 1, 2, <5:13>, 1, "Computer", 0, "null", "NNP" 1.0)
+  (117, 1, 2, <5:13>, 1, "computer", 0, "null")
+  (120, 1, 2, <5:13>, 1, "computer", 0, "null")
+  (99, 2, 3, <14:17>, 1, "has", 0, "null")
+  (114, 2, 3, <14:17>, 1, "has", 0, "null", "VBZ" 1.0)
+  (122, 2, 3, <14:17>, 1, "has", 0, "null")
+  (104, 3, 4, <18:25>, 1, "applied", 0, "null")
+  (111, 3, 4, <18:25>, 1, "applied", 0, "null", "VBN" 0.9859)
+  (124, 3, 4, <18:25>, 1, "applied", 0, "null")
+  (101, 4, 5, <26:28>, 1, "to", 0, "null")
+  (123, 4, 5, <26:28>, 1, "to", 0, "null")
+  (106, 5, 6, <29:34>, 1, "trade", 0, "null")
+  (112, 5, 6, <29:34>, 1, "trade", 0, "null", "VB" 0.777)
+  (116, 5, 6, <29:34>, 1, "trade", 0, "null", "NN" 0.223)
+  (125, 5, 6, <29:34>, 1, "trade", 0, "null")
+  (108, 6, 7, <35:37>, 1, "on", 0, "null")
+  (126, 6, 7, <35:37>, 1, "on", 0, "null")
+  (87, 7, 8, <38:45>, 1, "Nasdaq.", 0, "null")
+  (115, 7, 8, <38:45>, 1, "Nasdaq.", 0, "null", "NNP" 1.0)
+  (119, 7, 8, <38:45>, 1, "nasdaq.", 0, "null")
+  (121, 7, 8, <38:45>, 1, "nasdaq.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4553 SB-HD_MC_C 15.9828 0 8
+  (4541 HDN_BNP-PN_C 2.8864 0 2
+   (4540 NP-HDN_NME-CPD_C 2.34669 0 2
+    (4538 HDN_BNP-PN_C 0.365523 0 1
+     (4537 N_SG_ILR -0.386912 0 1
+      (130 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Cray" 110
+        "token [ +CARG #1=\"Cray\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (4539 ^N_SG_ILR 0.663584 1 2
+     (131 generic_proper_ne@n_-_pn-gen_le 0.806842 1 2
+      ("Computer" 84
+       "token [ +CARG #1=\"Computer\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (4552 ^HD-CMP_U_C 12.0794 2 8
+   (152 has_aux@v_vp_has_le 3.10804 2 3
+    ("has" 99
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (4551 HD-CMP_U_C 8.54656 3 8
+    (4542 ^V_PSP_OLR 0.210888 3 4
+     (258 apply_v6@v_vp_seq_le 0 3 4
+      ("applied" 104
+       "token [ +CARG #1=\"applied\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98592080000000004\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (4550 HD-CMP_U_C 6.69622 4 8
+     (459 to_c_prop@cm_vp_to_le 2.48409 4 5
+      ("to" 101
+       "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (4549 HD-AJ_INT-UNSL_C 3.23723 5 8
+      (4544 ^HD_OPTCMP_C 1.54613 5 6
+       (4543 V_N3S-BSE_ILR 1.37537 5 6
+        (514 trade_v1@v_np*_le 1.79658 5 6
+         ("trade" 106
+          "token [ +CARG #1=\"trade\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.7770435\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (4548 HD-CMP_U_C 0.011875 6 8
+       (535 on@p_np_i-reg_le 0.275426 6 7
+        ("on" 108
+         "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97732699999999995\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (4547 HDN_BNP-PN_C 0.137572 7 8
+        (4546 W_PERIOD_PLR 0.217529 7 8
+         (4545 N_SG_ILR -0.215389 7 8
+          (562 generic_proper_ne@n_-_pn-gen_le 0 7 8
+           ("Nasdaq." 87
+            "token [ +CARG \"Nasdaq\" +CLASS proper_ne +FORM \"Nasdaq.\" +FROM \"38\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))))
+
+(S (NP (N (NP (N (N "Cray"))) (N (N "Computer"))))
+ (VP (V "has")
+  (VP (V (V "applied"))
+   (VP (COMP "to")
+    (VP (VP (V (V "trade")))
+     (PP (P "on") (NP (N (N (N "Nasdaq."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ proper_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "Cray" ]
+          [ named<5:13>
+            LBL: h8
+            ARG0: x6
+            CARG: "Computer" ]
+          [ _apply_v_1<18:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h15 ]
+          [ _trade_v_1<29:34>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: p18 ]
+          [ _on_p<35:37>
+            LBL: h16
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e17
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<38:45>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ named<38:45>
+            LBL: h24
+            ARG0: x20
+            CARG: "Nasdaq" ] >
+   HCONS: < h22 QEQ h24 h15 QEQ h16 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("Cray"){x PERS 3, NUM sg, IND +}[]
+ x6:named<5:13>("Computer"){x PERS 3, NUM sg, IND +}[]
+ e3:_apply_v_1<18:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG1 x6, ARG2 e17]
+ e17:_trade_v_1<29:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e19:_on_p<35:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e17, ARG2 x20]
+ _3:proper_q<38:45>[BV x20]
+ x20:named<38:45>("Nasdaq"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:13> BV named<5:13>(Computer)  
+  compound<0:13> ARG1 named<5:13>(Computer)  
+  compound<0:13> ARG2 named<0:4>(Cray)  
+  proper_q<0:4> BV named<0:4>(Cray)  
+  _apply_v_1<18:25> ARG1 named<5:13>(Computer)  
+  _apply_v_1<18:25> ARG2 _trade_v_1<29:34>  
+  _trade_v_1<29:34> ARG1 named<5:13>(Computer)  
+  _on_p<35:37> ARG1 _trade_v_1<29:34>  
+  _on_p<35:37> ARG2 named<38:45>(Nasdaq)  
+  proper_q<38:45> BV named<38:45>(Nasdaq)  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:4>(Cray) PERS 3  
+  named<0:4>(Cray) NUM sg  
+  named<0:4>(Cray) IND +  
+  named<5:13>(Computer) PERS 3  
+  named<5:13>(Computer) NUM sg  
+  named<5:13>(Computer) IND +  
+  _apply_v_1<18:25> SF prop  
+  _apply_v_1<18:25> TENSE pres  
+  _apply_v_1<18:25> MOOD indicative  
+  _apply_v_1<18:25> PROG -  
+  _apply_v_1<18:25> PERF +  
+  _trade_v_1<29:34> SF prop  
+  _trade_v_1<29:34> TENSE untensed  
+  _trade_v_1<29:34> MOOD indicative  
+  _trade_v_1<29:34> PROG -  
+  _trade_v_1<29:34> PERF -  
+  _on_p<35:37> SF prop  
+  _on_p<35:37> TENSE untensed  
+  _on_p<35:37> MOOD indicative  
+  _on_p<35:37> PROG -  
+  _on_p<35:37> PERF -  
+  named<38:45>(Nasdaq) PERS 3  
+  named<38:45>(Nasdaq) NUM sg  
+  named<38:45>(Nasdaq) IND +  
+}
+

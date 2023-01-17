@@ -1,0 +1,134 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:29 h)).
+;;;
+
+[21568017] (1 of 1) {1} `Con men hate snow.'
+
+[21568017:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Con", 0, "null", "NN" 1.0)
+  (2, 1, 2, <4:7>, 1, "men", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <8:12>, 1, "hate", 0, "null", "VBP" 0.9622 "VB" 0.0199 "NN" 0.0179)
+  (4, 3, 4, <13:17>, 1, "snow", 0, "null", "NN" 1.0)
+  (5, 4, 5, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (59, 0, 1, <0:3>, 1, "Con", 0, "null")
+  (63, 0, 1, <0:3>, 1, "con", 0, "null")
+  (67, 0, 1, <0:3>, 1, "con", 0, "null")
+  (54, 1, 2, <4:7>, 1, "men", 0, "null")
+  (61, 1, 2, <4:7>, 1, "men", 0, "null", "NNS" 1.0)
+  (64, 1, 2, <4:7>, 1, "men", 0, "null")
+  (57, 2, 3, <8:12>, 1, "hate", 0, "null")
+  (60, 2, 3, <8:12>, 1, "hate", 0, "null", "VBP" 0.9622)
+  (66, 2, 3, <8:12>, 1, "hate", 0, "null")
+  (56, 3, 4, <13:18>, 1, "snow.", 0, "null")
+  (62, 3, 4, <13:18>, 1, "snow.", 0, "null", "NN" 1.0)
+  (65, 3, 4, <13:18>, 1, "snow.", 0, "null")
+>
+
+(ROOT_STRICT
+ (335 SB-HD_MC_C 2.74462 0 4
+  (329 HDN_BNP_C 1.31187 0 2
+   (328 N-HDN_CPD_C 0.691123 0 2
+    (70 con_n1@n_-_c_le 0 0 1
+     ("con" 63
+      "token [ +CARG \"Con\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"con\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (327 ^N_PL_OLR 0.536019 1 2
+     (73 man1@n_-_mc_le 0 1 2
+      ("men" 54
+       "token [ +CARG #1=\"men\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (334 ^HD-CMP_U_C -0.0831573 2 4
+   (330 ^V_N3S-BSE_ILR -0.329965 2 3
+    (95 hate_v1@v_np_le 0 2 3
+     ("hate" 57
+      "token [ +CARG #1=\"hate\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96216429999999997\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (333 HDN_BNP_C -0.81101 3 4
+    (332 W_PERIOD_PLR 0.45024 3 4
+     (331 N_MS-CNT_ILR 0.249354 3 4
+      (101 snow_n1@n_-_mc_le 0 3 4
+       ("snow." 56
+        "token [ +CARG \"snow\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"snow.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "con") (N (N "men"))))
+ (VP (V (V "hate")) (NP (N (N (N "snow."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:7>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _con_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ _man_n_1<4:7>
+            LBL: h8
+            ARG0: x6 ]
+          [ _hate_v_1<8:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<13:18>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ _snow_n_1<13:18>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:7>[BV x6]
+ e10:compound<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_con_n_1<0:3>{x IND +}[]
+ x6:_man_n_1<4:7>{x PERS 3, NUM pl}[]
+ e3:_hate_v_1-fn.Experiencer_obj<8:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Experiencer x6, ARG2-fn.Attribute x15]
+ _3:udef_q<13:18>[BV x15]
+ x15:_snow_n_1<13:18>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:7> BV _man_n_1<4:7>  
+  compound<0:7> ARG1 _man_n_1<4:7>  
+  compound<0:7> ARG2 _con_n_1<0:3>  
+  udef_q<0:3> BV _con_n_1<0:3>  
+  _hate_v_1<8:12> ARG1 _man_n_1<4:7>  
+  _hate_v_1<8:12> ARG2 _snow_n_1<13:18>  
+  udef_q<13:18> BV _snow_n_1<13:18>  
+  compound<0:7> SF prop  
+  compound<0:7> TENSE untensed  
+  compound<0:7> MOOD indicative  
+  compound<0:7> PROG -  
+  compound<0:7> PERF -  
+  _con_n_1<0:3> IND +  
+  _man_n_1<4:7> PERS 3  
+  _man_n_1<4:7> NUM pl  
+  _hate_v_1<8:12> SF prop  
+  _hate_v_1<8:12> TENSE pres  
+  _hate_v_1<8:12> MOOD indicative  
+  _hate_v_1<8:12> PROG -  
+  _hate_v_1<8:12> PERF -  
+  _snow_n_1<13:18> PERS 3  
+  _snow_n_1<13:18> NUM sg  
+}
+

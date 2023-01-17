@@ -1,0 +1,155 @@
+;;;
+;;; Redwoods export of `wsj00c';
+;;; (wsun@wsun; 22-jan-2018 (10:47 h)).
+;;;
+
+[20083031] (1 of 1) {1} `They operate ships and banks.'
+
+[20083031:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "They", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <5:12>, 1, "operate", 0, "null", "VBP" 0.7863 "VB" 0.2137)
+  (3, 2, 3, <13:18>, 1, "ships", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <19:22>, 1, "and", 0, "null", "CC" 1.0)
+  (5, 4, 5, <23:28>, 1, "banks", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <28:29>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (72, 0, 1, <0:4>, 1, "they", 0, "null")
+  (77, 0, 1, <0:4>, 1, "they", 0, "null")
+  (66, 1, 2, <5:12>, 1, "operate", 0, "null")
+  (68, 1, 2, <5:12>, 1, "operate", 0, "null", "VBP" 0.7863)
+  (71, 1, 2, <5:12>, 1, "operate", 0, "null", "VB" 0.2137)
+  (76, 1, 2, <5:12>, 1, "operate", 0, "null")
+  (61, 2, 3, <13:18>, 1, "ships", 0, "null")
+  (69, 2, 3, <13:18>, 1, "ships", 0, "null", "NNS" 1.0)
+  (73, 2, 3, <13:18>, 1, "ships", 0, "null")
+  (63, 3, 4, <19:22>, 1, "and", 0, "null")
+  (74, 3, 4, <19:22>, 1, "and", 0, "null")
+  (65, 4, 5, <23:29>, 1, "banks.", 0, "null")
+  (70, 4, 5, <23:29>, 1, "banks.", 0, "null", "NNS" 1.0)
+  (75, 4, 5, <23:29>, 1, "banks.", 0, "null")
+>
+
+(ROOT_STRICT
+ (558 SB-HD_MC_C 2.72144 0 5
+  (546 HDN_BNP-QNT_C 1.15641 0 1
+   (78 they@n_-_pr-they_le 0.818341 0 1
+    ("they" 72
+     "token [ +CARG \"They\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"they\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (557 ^HD-CMP_U_C 0.295681 1 5
+   (547 ^V_N3S-BSE_ILR -7.733e-4 1 2
+    (93 operate_v1@v_np*_le 0 1 2
+     ("operate" 66
+      "token [ +CARG #1=\"operate\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.78631620000000002\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (556 NP-NP_CRD-T_C -0.866442 2 5
+    (550 HDN_BNP_C -0.0338935 2 3
+     (549 HDN_OPTCMP_C 0.331095 2 3
+      (548 N_PL_OLR 0.518757 2 3
+       (97 ship_n1@n_pp_c-of_le 0 2 3
+        ("ships" 61
+         "token [ +CARG #1=\"ships\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (555 ^MRK-NH_NOM_C -1.68956 3 5
+     (122 and_conj@c_xp_and_le -0.868281 3 4
+      ("and" 63
+       "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (554 HDN_BNP_C -0.780013 4 5
+      (553 HDN_OPTCMP_C -0.644318 4 5
+       (552 W_PERIOD_PLR -0.59668 4 5
+        (551 N_PL_OLR 0.0374678 4 5
+         (138 bank_n1@n_pp_mc-of-lhc_le 0 4 5
+          ("banks." 65
+           "token [ +CARG \"banks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"banks.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (NP "they"))
+ (VP (V (V "operate"))
+  (NP (NP (N (N (N "ships"))))
+   (NP-CJ (CONJ "and") (NP (N (N (N (N "banks.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _operate_v_1<5:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<13:29>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ udef_q<13:18>
+            LBL: h13
+            ARG0: x15 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h14
+            BODY: h16 ]
+          [ _ship_n_of<13:18>
+            LBL: h17
+            ARG0: x15
+            ARG1: i18 ]
+          [ _and_c<19:22>
+            LBL: h19
+            ARG0: x9
+            L-INDEX: x15
+            R-INDEX: x20 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<23:29>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ _bank_n_of<23:29>
+            LBL: h24
+            ARG0: x20
+            ARG1: i25 ] >
+   HCONS: < h22 QEQ h24 h14 QEQ h17 h11 QEQ h19 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:4>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e3:_operate_v_1<5:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<13:29>[BV x9]
+ _3:udef_q<13:18>[BV x15]
+ x15:_ship_n_of<13:18>{x PERS 3, NUM pl, IND +}[]
+ x9:_and_c<19:22>{x PERS 3, NUM pl}[L-INDEX x15, R-INDEX x20]
+ _4:udef_q<23:29>[BV x20]
+ x20:_bank_n_of<23:29>{x PERS 3, NUM pl}[]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  _operate_v_1<5:12> ARG1 pron<0:4>  
+  _operate_v_1<5:12> ARG2 _and_c<19:22>  
+  udef_q<13:29> BV _and_c<19:22>  
+  udef_q<13:18> BV _ship_n_of<13:18>  
+  _and_c<19:22> L-INDEX _ship_n_of<13:18>  
+  _and_c<19:22> R-INDEX _bank_n_of<23:29>  
+  udef_q<23:29> BV _bank_n_of<23:29>  
+  pron<0:4> PERS 3  
+  pron<0:4> NUM pl  
+  pron<0:4> PT std  
+  _operate_v_1<5:12> SF prop  
+  _operate_v_1<5:12> TENSE pres  
+  _operate_v_1<5:12> MOOD indicative  
+  _operate_v_1<5:12> PROG -  
+  _operate_v_1<5:12> PERF -  
+  _ship_n_of<13:18> PERS 3  
+  _ship_n_of<13:18> NUM pl  
+  _ship_n_of<13:18> IND +  
+  _and_c<19:22> PERS 3  
+  _and_c<19:22> NUM pl  
+  _bank_n_of<23:29> PERS 3  
+  _bank_n_of<23:29> NUM pl  
+}
+

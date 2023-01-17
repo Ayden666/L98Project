@@ -1,0 +1,109 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:09 h)).
+;;;
+
+[21217018] (1 of 1) {1} `Sun posted a gain.'
+
+[21217018:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Sun", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:10>, 1, "posted", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <11:12>, 1, "a", 0, "null", "DT" 1.0)
+  (4, 3, 4, <13:17>, 1, "gain", 0, "null", "NN" 1.0)
+  (5, 4, 5, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:3>, 1, "Sun", 0, "null")
+  (58, 0, 1, <0:3>, 1, "sun", 0, "null")
+  (62, 0, 1, <0:3>, 1, "sun", 0, "null")
+  (50, 1, 2, <4:10>, 1, "posted", 0, "null")
+  (56, 1, 2, <4:10>, 1, "posted", 0, "null", "VBD" 1.0)
+  (59, 1, 2, <4:10>, 1, "posted", 0, "null")
+  (52, 2, 3, <11:12>, 1, "a", 0, "null")
+  (60, 2, 3, <11:12>, 1, "a", 0, "null")
+  (54, 3, 4, <13:18>, 1, "gain.", 0, "null")
+  (57, 3, 4, <13:18>, 1, "gain.", 0, "null", "NN" 1.0)
+  (61, 3, 4, <13:18>, 1, "gain.", 0, "null")
+>
+
+(ROOT_STRICT
+ (664 SB-HD_MC_C 5.411 0 4
+  (658 HDN_BNP-PN_C 2.14417 0 1
+   (657 N_SG_ILR 2.19313 0 1
+    (66 sun_n2@n_-_pn_le 1.65487 0 1
+     ("sun" 58
+      "token [ +CARG \"Sun\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sun\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (663 ^HD-CMP_U_C 2.24977 1 4
+   (659 ^V_PST_OLR 1.13053 1 2
+    (81 post_v1@v_np*_le 0.823753 1 2
+     ("posted" 50
+      "token [ +CARG #1=\"posted\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (662 SP-HD_N_C 0.110345 2 4
+    (219 a_det@d_-_sg-nmd_le -0.667877 2 3
+     ("a" 52
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (661 ^W_PERIOD_PLR 0.353022 3 4
+     (660 N_MS-CNT_ILR 0.175793 3 4
+      (295 gain_n1@n_-_mc_le 0 3 4
+       ("gain." 54
+        "token [ +CARG \"gain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"gain.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "sun")))
+ (VP (V (V "posted")) (NP (DET "a") (N (N (N "gain."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:3>
+            LBL: h8
+            ARG0: x6
+            CARG: "Sun" ]
+          [ _post_v_1<4:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<11:12>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _gain_n_1<13:18>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:3>[BV x6]
+ x6:named<0:3>("Sun"){x PERS 3, NUM sg, IND +}[]
+ e3:_post_v_1<4:10>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:_a_q<11:12>[BV x9]
+ x9:_gain_n_1<13:18>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:3> BV named<0:3>(Sun)  
+  _post_v_1<4:10> ARG1 named<0:3>(Sun)  
+  _post_v_1<4:10> ARG2 _gain_n_1<13:18>  
+  _a_q<11:12> BV _gain_n_1<13:18>  
+  named<0:3>(Sun) PERS 3  
+  named<0:3>(Sun) NUM sg  
+  named<0:3>(Sun) IND +  
+  _post_v_1<4:10> SF prop  
+  _post_v_1<4:10> TENSE past  
+  _post_v_1<4:10> MOOD indicative  
+  _post_v_1<4:10> PROG -  
+  _post_v_1<4:10> PERF -  
+  _gain_n_1<13:18> PERS 3  
+  _gain_n_1<13:18> NUM sg  
+}
+

@@ -1,0 +1,126 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:15 h)).
+;;;
+
+[21830020] (1 of 1) {1} `The main reason: salmonella.'
+
+[21830020:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:8>, 1, "main", 0, "null", "JJ" 1.0)
+  (3, 2, 3, <9:15>, 1, "reason", 0, "null", "NN" 1.0)
+  (4, 3, 4, <15:16>, 1, ":", 0, "null", ":" 1.0)
+  (5, 4, 5, <17:27>, 1, "salmonella", 0, "null", "NN" 1.0)
+  (6, 5, 6, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:3>, 1, "the", 0, "null")
+  (74, 0, 1, <0:3>, 1, "the", 0, "null")
+  (59, 1, 2, <4:8>, 1, "main", 0, "null")
+  (66, 1, 2, <4:8>, 1, "main", 0, "null", "JJ" 1.0)
+  (70, 1, 2, <4:8>, 1, "main", 0, "null")
+  (61, 2, 3, <9:15>, 1, "reason", 0, "null")
+  (67, 2, 3, <9:15>, 1, "reason", 0, "null", "NN" 1.0)
+  (71, 2, 3, <9:15>, 1, "reason", 0, "null")
+  (63, 3, 4, <15:16>, 1, ":", 0, "null")
+  (72, 3, 4, <15:16>, 1, ":", 0, "null")
+  (65, 4, 5, <17:28>, 1, "salmonella.", 0, "null")
+  (68, 4, 5, <17:28>, 1, "salmonella.", 0, "null", "NN" 1.0)
+  (73, 4, 5, <17:28>, 1, "salmonella.", 0, "null")
+>
+
+(ROOT_STRICT
+ (988 SB-HD_MC_C 5.28102 0 5
+  (983 SP-HD_N_C 4.19569 0 3
+   (87 the_1@d_-_the_le 0.418922 0 1
+    ("the" 69
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (982 ^AJ-HDN_NORM_C 2.03435 1 3
+    (118 main_a1@aj_-_i_le 1.19395 1 2
+     ("main" 59
+      "token [ +CARG #1=\"main\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (981 ^HDN_OPTCMP_C -0.664473 2 3
+     (980 N_MS-CNT_ILR -0.0656927 2 3
+      (130 reason_n1@n_pp_mc-for_le -0.0094455 2 3
+       ("reason" 61
+        "token [ +CARG #1=\"reason\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (987 ^HD-CMP_U_C -0.86919 3 5
+   (145 colon_copula_v@v_np_colon_le 0.879077 3 4
+    (":" 63
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (986 HDN_BNP_C -1.55741 4 5
+    (985 W_PERIOD_PLR -0.296163 4 5
+     (984 N_MS-CNT_ILR -0.497049 4 5
+      (179 generic_mass_count_noun@n_-_mc-unk_le 0 4 5
+       ("salmonella." 68
+        "token [ +CARG \"salmonella\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"salmonella.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED \"_salmonella/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (NP (DET "the") (N (AP "main") (N (N (N "reason")))))
+ (VP (V ":") (NP (N (N (N "salmonella."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _main_a_1<4:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _reason_n_for<9:15>
+            LBL: h8
+            ARG0: x6
+            ARG1: i10 ]
+          [ _colon_v_id<15:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x11 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<17:28>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ _salmonella/nn_u_unknown<17:28>
+            LBL: h15
+            ARG0: x11 ] >
+   HCONS: < h13 QEQ h15 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e9:_main_a_1<4:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_reason_n_for<9:15>{x PERS 3, NUM sg}[]
+ e3:_colon_v_id<15:16>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x11]
+ _2:udef_q<17:28>[BV x11]
+ x11:_salmonella/nn_u_unknown<17:28>{x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV _reason_n_for<9:15>  
+  _main_a_1<4:8> ARG1 _reason_n_for<9:15>  
+  _colon_v_id<15:16> ARG1 _reason_n_for<9:15>  
+  _colon_v_id<15:16> ARG2 _salmonella/nn_u_unknown<17:28>  
+  udef_q<17:28> BV _salmonella/nn_u_unknown<17:28>  
+  _main_a_1<4:8> SF prop  
+  _main_a_1<4:8> TENSE untensed  
+  _main_a_1<4:8> MOOD indicative  
+  _main_a_1<4:8> PROG -  
+  _main_a_1<4:8> PERF -  
+  _reason_n_for<9:15> PERS 3  
+  _reason_n_for<9:15> NUM sg  
+  _colon_v_id<15:16> SF prop  
+  _colon_v_id<15:16> TENSE tensed  
+  _colon_v_id<15:16> MOOD indicative  
+  _colon_v_id<15:16> PROG -  
+  _colon_v_id<15:16> PERF -  
+  _salmonella/nn_u_unknown<17:28> PERS 3  
+  _salmonella/nn_u_unknown<17:28> NUM sg  
+}
+

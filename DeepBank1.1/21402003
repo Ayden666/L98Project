@@ -1,0 +1,146 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (22:54 h)).
+;;;
+
+[21402003] (1 of 1) {1} `Michael E. Hill'
+
+[21402003:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Michael", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:10>, 1, "E.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:15>, 1, "Hill", 0, "null", "NNP" 1.0)
+>
+
+<
+  (38, 0, 1, <0:7>, 1, "Michael", 0, "null")
+  (43, 0, 1, <0:7>, 1, "michael", 0, "null")
+  (46, 0, 1, <0:7>, 1, "michael", 0, "null")
+  (31, 1, 2, <8:10>, 1, "E.", 0, "null")
+  (40, 1, 2, <8:10>, 1, "E.", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <8:10>, 1, "e.", 0, "null")
+  (45, 1, 2, <8:10>, 1, "e.", 0, "null")
+  (30, 2, 3, <11:15>, 1, "Hill", 0, "null")
+  (39, 2, 3, <11:15>, 1, "Hill", 0, "null", "NNP" 1.0)
+  (41, 2, 3, <11:15>, 1, "hill", 0, "null")
+  (44, 2, 3, <11:15>, 1, "hill", 0, "null")
+>
+
+(ROOT_FRAG
+ (286 NP_FRG_C 1.92844 0 3
+  (285 HDN_BNP-PN_C 3.07495 0 3
+   (284 NP-HDN_NME-CPD_C 3.11426 0 3
+    (282 HDN_BNP-PN_C 3.03131 0 2
+     (281 NP-HDN_NME-CPD_C 2.6834 0 2
+      (279 HDN_BNP-PN_C 1.12961 0 1
+       (278 N_SG_ILR 0.377173 0 1
+        (50 michael_n1@n_-_pn_le 0 0 1
+         ("michael" 43
+          "token [ +CARG \"Michael\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"michael\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (280 ^N_SG_ILR 0.0378942 1 2
+       (66 e_period_np1@n_-_pn_le 0 1 2
+        ("e." 42
+         "token [ +CARG \"E.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"e.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (283 ^N_SG_ILR -0.251647 2 3
+     (82 hill_n2@n_-_pn_le 0.351215 2 3
+      ("hill" 41
+       "token [ +CARG \"Hill\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"hill\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (NP (N (NP (N (NP (N (N "michael"))) (N (N "e.")))) (N (N "hill")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:10>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:7>
+            LBL: h20
+            ARG0: x15
+            CARG: "Michael" ]
+          [ named<8:10>
+            LBL: h14
+            ARG0: x9
+            CARG: "E" ]
+          [ named<11:15>
+            LBL: h8
+            ARG0: x4
+            CARG: "Hill" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:15>[BV x4]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:10>[BV x9]
+ e16:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:7>[BV x15]
+ x15:named<0:7>("Michael"){x PERS 3, NUM sg, IND +}[]
+ x9:named<8:10>("E"){x PERS 3, NUM sg, IND +}[]
+ x4:named<11:15>("Hill"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:15> ARG named<11:15>(Hill)  
+  proper_q<0:15> BV named<11:15>(Hill)  
+  compound<0:15> ARG1 named<11:15>(Hill)  
+  compound<0:15> ARG2 named<8:10>(E)  
+  proper_q<0:10> BV named<8:10>(E)  
+  compound<0:10> ARG1 named<8:10>(E)  
+  compound<0:10> ARG2 named<0:7>(Michael)  
+  proper_q<0:7> BV named<0:7>(Michael)  
+  unknown<0:15> SF prop-or-ques  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:7>(Michael) PERS 3  
+  named<0:7>(Michael) NUM sg  
+  named<0:7>(Michael) IND +  
+  named<8:10>(E) PERS 3  
+  named<8:10>(E) NUM sg  
+  named<8:10>(E) IND +  
+  named<11:15>(Hill) PERS 3  
+  named<11:15>(Hill) NUM sg  
+  named<11:15>(Hill) IND +  
+}
+

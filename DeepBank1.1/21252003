@@ -1,0 +1,176 @@
+;;;
+;;; Redwoods export of `wsj12b';
+;;; (wsun@wsun; 22-jan-2018 (21:27 h)).
+;;;
+
+[21252003] (1 of 1) {1} `-- WSJ Business Bulletin)'
+
+[21252003:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:6>, 1, "WSJ", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <7:15>, 1, "Business", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <16:24>, 1, "Bulletin", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <24:25>, 1, ")", 0, "null", ")" 1.0)
+>
+
+<
+  (59, 0, 1, <0:2>, 1, "–", 0, "null")
+  (71, 0, 1, <0:2>, 1, "–", 0, "null")
+  (51, 1, 2, <3:6>, 1, "WSJ", 0, "null")
+  (63, 1, 2, <3:6>, 1, "WSJ", 0, "null", "NNP" 1.0)
+  (66, 1, 2, <3:6>, 1, "wsj", 0, "null")
+  (69, 1, 2, <3:6>, 1, "wsj", 0, "null")
+  (49, 2, 3, <7:15>, 1, "Business", 0, "null")
+  (62, 2, 3, <7:15>, 1, "Business", 0, "null", "NNP" 1.0)
+  (65, 2, 3, <7:15>, 1, "business", 0, "null")
+  (68, 2, 3, <7:15>, 1, "business", 0, "null")
+  (53, 3, 4, <16:25>, 1, "Bulletin)", 0, "null")
+  (64, 3, 4, <16:25>, 1, "Bulletin)", 0, "null", "NNP" 1.0)
+  (67, 3, 4, <16:25>, 1, "bulletin)", 0, "null")
+  (70, 3, 4, <16:25>, 1, "bulletin)", 0, "null")
+>
+
+(ROOT_INFFRAG
+ (519 AJ-HD_SCP-XP_C 3.81059 0 4
+  (76 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 59
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (518 ^NP_FRG_C 2.92158 1 4
+   (517 HDN_BNP-PN_C 3.53908 1 4
+    (516 NP-HDN_NME-CPD_C 3.48669 1 4
+     (513 HDN_BNP-PN_C 2.60522 1 3
+      (512 NP-HDN_NME-CPD_C 2.2573 1 3
+       (510 HDN_BNP-PN_C 0.365523 1 2
+        (509 N_SG_ILR -0.386912 1 2
+         (84 generic_proper_ne@n_-_pn-gen_le 0 1 2
+          ("WSJ" 51
+           "token [ +CARG #1=\"WSJ\" +CLASS proper_ne +FORM #1 +FROM \"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (511 ^N_SG_ILR 0.375888 2 3
+        (86 generic_proper_ne@n_-_pn-gen_le -0.212186 2 3
+         ("Business" 49
+          "token [ +CARG #1=\"Business\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+     (515 ^W_RPAREN_PLR 0.283457 3 4
+      (514 N_SG_ILR -0.190694 3 4
+       (91 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Bulletin)" 53
+         "token [ +CARG \"Bulletin\" +CLASS proper_ne +FORM \"Bulletin)\" +FROM \"16\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "–")
+ (XP
+  (NP
+   (N (NP (N (NP (N (N "WSJ"))) (N (N "Business"))))
+    (N (N (N "Bulletin)")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:25>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:25>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ compound<3:25>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:15>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<3:15>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:6>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ named<3:6>
+            LBL: h24
+            ARG0: x19
+            CARG: "WSJ" ]
+          [ named<7:15>
+            LBL: h18
+            ARG0: x13
+            CARG: "Business" ]
+          [ named<16:25>
+            LBL: h12
+            ARG0: x8
+            CARG: "Bulletin" ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:25>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:proper_q<3:25>[BV x8]
+ e14:compound<3:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x13]
+ _2:proper_q<3:15>[BV x13]
+ e20:compound<3:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x19]
+ _3:proper_q<3:6>[BV x19]
+ x19:named<3:6>("WSJ"){x PERS 3, NUM sg, IND +}[]
+ x13:named<7:15>("Business"){x PERS 3, NUM sg, IND +}[]
+ x8:named<16:25>("Bulletin"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:25>  
+  discourse<0:2> R-INDEX unknown<3:25>  
+  unknown<3:25> ARG named<16:25>(Bulletin)  
+  proper_q<3:25> BV named<16:25>(Bulletin)  
+  compound<3:25> ARG1 named<16:25>(Bulletin)  
+  compound<3:25> ARG2 named<7:15>(Business)  
+  proper_q<3:15> BV named<7:15>(Business)  
+  compound<3:15> ARG1 named<7:15>(Business)  
+  compound<3:15> ARG2 named<3:6>(WSJ)  
+  proper_q<3:6> BV named<3:6>(WSJ)  
+  unknown<3:25> SF prop-or-ques  
+  unknown<3:25> TENSE untensed  
+  unknown<3:25> MOOD indicative  
+  unknown<3:25> PROG -  
+  unknown<3:25> PERF -  
+  compound<3:25> SF prop  
+  compound<3:25> TENSE untensed  
+  compound<3:25> MOOD indicative  
+  compound<3:25> PROG -  
+  compound<3:25> PERF -  
+  compound<3:15> SF prop  
+  compound<3:15> TENSE untensed  
+  compound<3:15> MOOD indicative  
+  compound<3:15> PROG -  
+  compound<3:15> PERF -  
+  named<3:6>(WSJ) PERS 3  
+  named<3:6>(WSJ) NUM sg  
+  named<3:6>(WSJ) IND +  
+  named<7:15>(Business) PERS 3  
+  named<7:15>(Business) NUM sg  
+  named<7:15>(Business) IND +  
+  named<16:25>(Bulletin) PERS 3  
+  named<16:25>(Bulletin) NUM sg  
+  named<16:25>(Bulletin) IND +  
+}
+

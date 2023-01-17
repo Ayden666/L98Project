@@ -1,0 +1,148 @@
+;;;
+;;; Redwoods export of `wsj16a';
+;;; (wsun@wsun; 23-jan-2018 (01:02 h)).
+;;;
+
+[21605003] (1 of 1) {1} `Among them, "banana farmers."'
+
+[21605003:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Among", 0, "null", "IN" 1.0)
+  (2, 1, 2, <6:10>, 1, "them", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <10:11>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <12:13>, 1, "“", 0, "null", "``" 1.0)
+  (5, 4, 5, <13:19>, 1, "banana", 0, "null", "NN" 1.0)
+  (6, 5, 6, <20:27>, 1, "farmers", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <27:28>, 1, ".", 0, "null", "." 1.0)
+  (8, 7, 8, <28:29>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (87, 0, 1, <0:5>, 1, "among", 0, "null")
+  (91, 0, 1, <0:5>, 1, "among", 0, "null")
+  (82, 1, 2, <6:11>, 1, "them,", 0, "null")
+  (89, 1, 2, <6:11>, 1, "them,", 0, "null")
+  (80, 2, 3, <12:19>, 1, "“banana", 0, "null")
+  (85, 2, 3, <12:19>, 1, "“banana", 0, "null", "NN" 1.0)
+  (88, 2, 3, <12:19>, 1, "“banana", 0, "null")
+  (84, 3, 4, <20:29>, 1, "farmers.”", 0, "null")
+  (86, 3, 4, <20:29>, 1, "farmers.”", 0, "null", "NNS" 1.0)
+  (90, 3, 4, <20:29>, 1, "farmers.”", 0, "null")
+>
+
+(ROOT_FRAG
+ (241 AJ-NP_INT-FRG_C 2.70005 0 4
+  (234 ^HD-CMP_U_C 0.682593 0 2
+   (92 among@p_np_i-reg_le -0.123791 0 1
+    ("among" 87
+     "token [ +CARG \"Among\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"among\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (233 HDN_BNP-QNT_C 1.19437 1 2
+    (232 W_COMMA_PLR 0.101531 1 2
+     (95 them@n_-_pr-them_le 0 1 2
+      ("them," 82
+       "token [ +CARG \"them\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"them,\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (240 HDN_BNP_C 2.87106 2 4
+   (239 N-HDN_CPD_C 3.43284 2 4
+    (235 W_DQLEFT_PLR 0.09541 2 3
+     (106 banana_n1@n_-_c_le 0 2 3
+      ("“banana" 80
+       "token [ +CARG \"banana\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"“banana\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"13\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (238 ^W_DQRIGHT_PLR 2.84335 3 4
+     (237 W_PERIOD_PLR 0.126492 3 4
+      (236 N_PL_OLR 0.445673 3 4
+       (112 farmer_n1@n_-_c_le 0 3 4
+        ("farmers.”" 84
+         "token [ +CARG \"farmers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"farmers.”\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP (PP (P "among") (NP (NP (NP "them,"))))
+ (NP (N (N (N "“banana")) (N (N (N (N "farmers.”")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:29>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _among_p<0:5>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x6 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pron<6:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ pronoun_q<6:11>
+            LBL: h9
+            ARG0: x6
+            RSTR: h10
+            BODY: h11 ]
+          [ udef_q<12:29>
+            LBL: h12
+            ARG0: x4
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<12:29>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x16 [ x IND: + ] ]
+          [ udef_q<12:19>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _banana_n_1<12:19>
+            LBL: h21
+            ARG0: x16 ]
+          [ _farmer_n_1<20:29>
+            LBL: h15
+            ARG0: x4 ] >
+   HCONS: < h19 QEQ h21 h13 QEQ h15 h10 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:29>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ e5:_among_p<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ x6:pron<6:11>{x PERS 3, NUM pl, PT std}[]
+ _1:pronoun_q<6:11>[BV x6]
+ _2:udef_q<12:29>[BV x4]
+ e17:compound<12:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x16]
+ _3:udef_q<12:19>[BV x16]
+ x16:_banana_n_1<12:19>{x IND +}[]
+ x4:_farmer_n_1<20:29>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:29> ARG _farmer_n_1<20:29>  
+  _among_p<0:5> ARG2 pron<6:11>  
+  pronoun_q<6:11> BV pron<6:11>  
+  udef_q<12:29> BV _farmer_n_1<20:29>  
+  compound<12:29> ARG1 _farmer_n_1<20:29>  
+  compound<12:29> ARG2 _banana_n_1<12:19>  
+  udef_q<12:19> BV _banana_n_1<12:19>  
+  unknown<0:29> SF prop-or-ques  
+  unknown<0:29> TENSE untensed  
+  unknown<0:29> MOOD indicative  
+  unknown<0:29> PROG -  
+  unknown<0:29> PERF -  
+  _among_p<0:5> SF prop  
+  _among_p<0:5> TENSE untensed  
+  _among_p<0:5> MOOD indicative  
+  _among_p<0:5> PROG -  
+  _among_p<0:5> PERF -  
+  pron<6:11> PERS 3  
+  pron<6:11> NUM pl  
+  pron<6:11> PT std  
+  compound<12:29> SF prop  
+  compound<12:29> TENSE untensed  
+  compound<12:29> MOOD indicative  
+  compound<12:29> PROG -  
+  compound<12:29> PERF -  
+  _banana_n_1<12:19> IND +  
+  _farmer_n_1<20:29> PERS 3  
+  _farmer_n_1<20:29> NUM pl  
+  _farmer_n_1<20:29> IND +  
+}
+

@@ -1,0 +1,87 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:25 h)).
+;;;
+
+[21562003] (1 of 1) {1} `Dream on.'
+
+[21562003:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Dream", 0, "null", "NN" 0.8454 "VB" 0.1546)
+  (2, 1, 2, <6:8>, 1, "on", 0, "null", "IN" 0.9288 "RP" 0.0607 "RB" 0.0105)
+  (3, 2, 3, <8:9>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (39, 0, 1, <0:5>, 1, "Dream", 0, "null")
+  (40, 0, 1, <0:5>, 1, "Dream", 0, "null", "VB" 0.1546)
+  (41, 0, 1, <0:5>, 1, "dream", 0, "null")
+  (43, 0, 1, <0:5>, 1, "dream", 0, "null")
+  (37, 1, 2, <6:9>, 1, "on.", 0, "null")
+  (42, 1, 2, <6:9>, 1, "on.", 0, "null")
+>
+
+(ROOT_STRICT
+ (190 HD_IMP_C -1.41702 0 2
+  (189 HD-AJ_INT-UNSL_C -1.05181 0 2
+   (187 ^HD_OPTCMP_C -0.11824 0 1
+    (186 V_N3S-BSE_ILR -0.421205 0 1
+     (53 dream_v1@v_np*_le 0 0 1
+      ("dream" 41
+       "token [ +CARG \"Dream\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"dream\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84538279999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (188 W_PERIOD_PLR -1.02613 1 2
+    (76 on_adv@pp_-_i-nnm_le 0 1 2
+     ("on." 37
+      "token [ +CARG \"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"on.\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92879040000000002\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (VP (VP (V (V "dream"))) (PP (PP "on."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:9>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _dream_v_1<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ]
+          [ _on_p_dir<6:9>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:9>[BV x6]
+ x6:pron<0:9>{x PERS 2, PT zero}[]
+ e3:_dream_v_1<0:5>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_on_p_dir<6:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  pronoun_q<0:9> BV pron<0:9>  
+  _dream_v_1<0:5> ARG1 pron<0:9>  
+  _on_p_dir<6:9> ARG1 _dream_v_1<0:5>  
+  pron<0:9> PERS 2  
+  pron<0:9> PT zero  
+  _dream_v_1<0:5> SF comm  
+  _dream_v_1<0:5> TENSE pres  
+  _dream_v_1<0:5> MOOD indicative  
+  _dream_v_1<0:5> PROG -  
+  _dream_v_1<0:5> PERF -  
+  _on_p_dir<6:9> SF prop  
+  _on_p_dir<6:9> TENSE untensed  
+  _on_p_dir<6:9> MOOD indicative  
+  _on_p_dir<6:9> PROG -  
+  _on_p_dir<6:9> PERF -  
+}
+

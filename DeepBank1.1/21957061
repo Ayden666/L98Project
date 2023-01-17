@@ -1,0 +1,214 @@
+;;;
+;;; Redwoods export of `wsj19c';
+;;; (wsun@wsun; 23-jan-2018 (04:30 h)).
+;;;
+
+[21957061] (1 of 1) {1} `South African gold stocks closed higher.'
+
+[21957061:1] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "South", 0, "null", "JJ" 0.6733 "NNP" 0.3267)
+  (2, 1, 2, <6:13>, 1, "African", 0, "null", "JJ" 0.797 "NNP" 0.203)
+  (3, 2, 3, <14:18>, 1, "gold", 0, "null", "NN" 0.8455 "JJ" 0.1545)
+  (4, 3, 4, <19:25>, 1, "stocks", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <26:32>, 1, "closed", 0, "null", "VBD" 0.9854 "VBN" 0.0146)
+  (6, 5, 6, <33:39>, 1, "higher", 0, "null", "JJR" 0.8973 "RBR" 0.1027)
+  (7, 6, 7, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (89, 0, 1, <0:5>, 1, "South", 0, "null")
+  (91, 0, 1, <0:5>, 1, "South", 0, "null", "JJ" 0.6733)
+  (98, 0, 1, <0:5>, 1, "south", 0, "null")
+  (104, 0, 1, <0:5>, 1, "south", 0, "null")
+  (65, 1, 2, <6:13>, 1, "African", 0, "null")
+  (90, 1, 2, <6:13>, 1, "African", 0, "null", "JJ" 0.797)
+  (96, 1, 2, <6:13>, 1, "African", 0, "null", "NNP" 0.203)
+  (97, 1, 2, <6:13>, 1, "african", 0, "null")
+  (99, 1, 2, <6:13>, 1, "african", 0, "null")
+  (83, 2, 3, <14:18>, 1, "gold", 0, "null")
+  (92, 2, 3, <14:18>, 1, "gold", 0, "null", "NN" 0.8455)
+  (101, 2, 3, <14:18>, 1, "gold", 0, "null")
+  (78, 3, 4, <19:25>, 1, "stocks", 0, "null")
+  (95, 3, 4, <19:25>, 1, "stocks", 0, "null", "NNS" 1.0)
+  (100, 3, 4, <19:25>, 1, "stocks", 0, "null")
+  (85, 4, 5, <26:32>, 1, "closed", 0, "null")
+  (93, 4, 5, <26:32>, 1, "closed", 0, "null", "VBD" 0.9854)
+  (102, 4, 5, <26:32>, 1, "closed", 0, "null")
+  (87, 5, 6, <33:40>, 1, "higher.", 0, "null")
+  (94, 5, 6, <33:40>, 1, "higher.", 0, "null", "JJR" 0.8973)
+  (103, 5, 6, <33:40>, 1, "higher.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3196 SB-HD_MC_C 8.63727 0 6
+  (3195 HDN_BNP_C 5.7836 0 4
+   (3194 AJ-HDN_NORM_C 5.0491 0 4
+    (3193 N-J_J-CPD_C 2.19224 0 2
+     (106 generic_proper_ne@n_-_pn-gen_le -0.111782 0 1
+      ("South" 89
+       "token [ +CARG #1=\"South\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67325550000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+     (115 african_a1@aj_-_i_le 0 1 2
+      ("african" 97
+       "token [ +CARG \"African\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"african\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.79700769999999999\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (3184 ^N-HDN_CPD_C 3.8045 2 4
+     (118 gold_n1@n_-_m_le 0.589647 2 3
+      ("gold" 83
+       "token [ +CARG #1=\"gold\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84550860000000005\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3183 ^N_PL_OLR 2.12484 3 4
+      (122 stock_n1@n_-_mc_le 0.898293 3 4
+       ("stocks" 78
+        "token [ +CARG #1=\"stocks\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (3191 ^HD-AJ_SCP_C 2.58532 4 6
+   (3187 ^V_PST_OLR 2.64271 4 5
+    (190 close_v2@v_-_unacc_le 1.88051 4 5
+     ("closed" 85
+      "token [ +CARG #1=\"closed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98544710000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (3190 VP_SBRD-PRD-AJ_C -0.269698 5 6
+    (3189 HD_OPTCMP_C 0.377739 5 6
+     (3188 W_PERIOD_PLR 0.33248 5 6
+      (360 higher_a1@aj_pp_i-cmp_le 0 5 6
+       ("higher." 87
+        "token [ +CARG \"higher\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"higher.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89733739999999995\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP
+  (N (AP (N "South") (AP "african")) (N (N "gold") (N (N "stocks")))))
+ (VP (VP (V "closed")) (PP (AP (ADJ (ADJ "higher."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:25>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x10 [ x IND: + ] ]
+          [ udef_q<0:5>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ named<0:5>
+            LBL: h15
+            ARG0: x10
+            CARG: "South" ]
+          [ _african_a_1<6:13>
+            LBL: h8
+            ARG0: e9
+            ARG1: x6 ]
+          [ compound<14:25>
+            LBL: h8
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<14:18>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _gold_n_1<14:18>
+            LBL: h21
+            ARG0: x16 ]
+          [ _stock_n_1<19:25>
+            LBL: h8
+            ARG0: x6 ]
+          [ _close_v_1<26:32>
+            LBL: h22
+            ARG0: e3
+            ARG1: x6 ]
+          [ subord<33:40>
+            LBL: h2
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h24
+            ARG2: h23 ]
+          [ _high_a_1<33:40>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i27 ]
+          [ comp<33:40>
+            LBL: h26
+            ARG0: e30 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e28
+            ARG2: u29 ] >
+   HCONS: < h23 QEQ h26 h24 QEQ h22 h19 QEQ h21 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e25:
+ _1:udef_q<0:25>[BV x6]
+ e11:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x10]
+ _2:udef_q<0:5>[BV x10]
+ x10:named<0:5>("South"){x IND +}[]
+ e9:_african_a_1<6:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e17:compound<14:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:udef_q<14:18>[BV x16]
+ x16:_gold_n_1<14:18>{x PERS 3, NUM sg, IND -}[]
+ x6:_stock_n_1<19:25>{x PERS 3, NUM pl}[]
+ e3:_close_v_1<26:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e25:subord<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e28]
+ e28:_high_a_1<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e30:comp<33:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e28]
+}
+
+{
+  udef_q<0:25> BV _stock_n_1<19:25>  
+  compound<0:13> ARG1 _african_a_1<6:13>  
+  compound<0:13> ARG2 named<0:5>(South)  
+  udef_q<0:5> BV named<0:5>(South)  
+  _african_a_1<6:13> ARG1 _stock_n_1<19:25>  
+  compound<14:25> ARG1 _stock_n_1<19:25>  
+  compound<14:25> ARG2 _gold_n_1<14:18>  
+  udef_q<14:18> BV _gold_n_1<14:18>  
+  _close_v_1<26:32> ARG1 _stock_n_1<19:25>  
+  subord<33:40> ARG1 _close_v_1<26:32>  
+  subord<33:40> ARG2 _high_a_1<33:40>  
+  comp<33:40> ARG1 _high_a_1<33:40>  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:5>(South) IND +  
+  _african_a_1<6:13> SF prop  
+  _african_a_1<6:13> TENSE untensed  
+  _african_a_1<6:13> MOOD indicative  
+  _african_a_1<6:13> PROG -  
+  _african_a_1<6:13> PERF -  
+  compound<14:25> SF prop  
+  compound<14:25> TENSE untensed  
+  compound<14:25> MOOD indicative  
+  compound<14:25> PROG -  
+  compound<14:25> PERF -  
+  _gold_n_1<14:18> PERS 3  
+  _gold_n_1<14:18> NUM sg  
+  _gold_n_1<14:18> IND -  
+  _stock_n_1<19:25> PERS 3  
+  _stock_n_1<19:25> NUM pl  
+  _close_v_1<26:32> SF prop  
+  _close_v_1<26:32> TENSE past  
+  _close_v_1<26:32> MOOD indicative  
+  _close_v_1<26:32> PROG -  
+  _close_v_1<26:32> PERF -  
+  subord<33:40> SF prop  
+  subord<33:40> TENSE untensed  
+  subord<33:40> MOOD indicative  
+  subord<33:40> PROG -  
+  subord<33:40> PERF -  
+  _high_a_1<33:40> SF prop  
+  _high_a_1<33:40> TENSE untensed  
+  _high_a_1<33:40> MOOD indicative  
+  _high_a_1<33:40> PROG -  
+  _high_a_1<33:40> PERF -  
+  comp<33:40> SF prop  
+  comp<33:40> TENSE untensed  
+  comp<33:40> MOOD indicative  
+  comp<33:40> PROG -  
+  comp<33:40> PERF -  
+}
+

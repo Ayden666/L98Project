@@ -1,0 +1,108 @@
+;;;
+;;; Redwoods export of `wsj07c';
+;;; (wsun@wsun; 22-jan-2018 (17:38 h)).
+;;;
+
+[20765072] (1 of 1) {1} `He withdrew the remark.'
+
+[20765072:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:11>, 1, "withdrew", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <12:15>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <16:22>, 1, "remark", 0, "null", "NN" 1.0)
+  (5, 4, 5, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:2>, 1, "he", 0, "null")
+  (61, 0, 1, <0:2>, 1, "he", 0, "null")
+  (50, 1, 2, <3:11>, 1, "withdrew", 0, "null")
+  (55, 1, 2, <3:11>, 1, "withdrew", 0, "null", "VBD" 1.0)
+  (58, 1, 2, <3:11>, 1, "withdrew", 0, "null")
+  (52, 2, 3, <12:15>, 1, "the", 0, "null")
+  (59, 2, 3, <12:15>, 1, "the", 0, "null")
+  (54, 3, 4, <16:23>, 1, "remark.", 0, "null")
+  (56, 3, 4, <16:23>, 1, "remark.", 0, "null", "NN" 1.0)
+  (60, 3, 4, <16:23>, 1, "remark.", 0, "null")
+>
+
+(ROOT_STRICT
+ (323 SB-HD_MC_C 6.87011 0 4
+  (317 HDN_BNP-QNT_C 1.50958 0 1
+   (62 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 57
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (322 ^HD-CMP_U_C 4.09118 1 4
+   (318 ^V_PST_OLR 0.306776 1 2
+    (76 withdraw_v1@v_np*_le 0 1 2
+     ("withdrew" 50
+      "token [ +CARG #1=\"withdrew\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (321 SP-HD_N_C 2.7755 2 4
+    (94 the_1@d_-_the_le 1.07131 2 3
+     ("the" 52
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (320 ^W_PERIOD_PLR 0.933196 3 4
+     (319 N_SG_ILR 0.432921 3 4
+      (132 remark_n1@n_-_c_le 0 3 4
+       ("remark." 54
+        "token [ +CARG \"remark\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"remark.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "he"))
+ (VP (V (V "withdrew")) (NP (DET "the") (N (N (N "remark."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _withdraw_v_1<3:11>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<12:15>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _remark_n_1<16:23>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_withdraw_v_1-fn.Removing<3:11>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent/Cause x5, ARG2-fn.Theme x9]
+ _2:_the_q<12:15>[BV x9]
+ x9:_remark_n_1<16:23>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _withdraw_v_1<3:11> ARG1 pron<0:2>  
+  _withdraw_v_1<3:11> ARG2 _remark_n_1<16:23>  
+  _the_q<12:15> BV _remark_n_1<16:23>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _withdraw_v_1<3:11> SF prop  
+  _withdraw_v_1<3:11> TENSE past  
+  _withdraw_v_1<3:11> MOOD indicative  
+  _withdraw_v_1<3:11> PROG -  
+  _withdraw_v_1<3:11> PERF -  
+  _remark_n_1<16:23> PERS 3  
+  _remark_n_1<16:23> NUM sg  
+  _remark_n_1<16:23> IND +  
+}
+

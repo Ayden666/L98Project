@@ -1,0 +1,193 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:30 h)).
+;;;
+
+[20271037] (1 of 1) {1} `J.C. Penney Co. --'
+
+[20271037:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "J.C.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:11>, 1, "Penney", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:15>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <16:18>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (42, 0, 1, <0:4>, 1, "J.C.", 0, "null")
+  (53, 0, 1, <0:4>, 1, "J.C.", 0, "null", "NNP" 1.0)
+  (56, 0, 1, <0:4>, 1, "j.c.", 0, "null")
+  (59, 0, 1, <0:4>, 1, "j.c.", 0, "null")
+  (41, 1, 2, <5:11>, 1, "Penney", 0, "null")
+  (52, 1, 2, <5:11>, 1, "Penney", 0, "null", "NNP" 1.0)
+  (55, 1, 2, <5:11>, 1, "penney", 0, "null")
+  (58, 1, 2, <5:11>, 1, "penney", 0, "null")
+  (40, 2, 3, <12:15>, 1, "Co.", 0, "null")
+  (51, 2, 3, <12:15>, 1, "Co.", 0, "null", "NNP" 1.0)
+  (54, 2, 3, <12:15>, 1, "co.", 0, "null")
+  (57, 2, 3, <12:15>, 1, "co.", 0, "null")
+  (50, 3, 4, <16:18>, 1, "–", 0, "null")
+  (60, 3, 4, <16:18>, 1, "–", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (462 CL-CL_RUNON_C 3.67298 0 4
+  (460 NP_FRG_C 3.46701 0 3
+   (459 HDN_BNP-PN_C 4.75964 0 3
+    (458 HDN-AJ_REDREL_C 4.61213 0 3
+     (455 ^NP-HDN_NME-CPD_C 1.63945 0 2
+      (453 HDN_BNP-PN_C 0.078607 0 1
+       (452 N_SG_ILR -0.386912 0 1
+        (65 generic_proper_ne@n_-_pn-gen_le 0 0 1
+         ("J.C." 42
+          "token [ +CARG #1=\"J.C.\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (454 ^N_SG_ILR 0.199039 1 2
+       (72 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Penney" 41
+         "token [ +CARG #1=\"Penney\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (457 W_PERIOD_PLR 2.36284 2 3
+      (456 N_SG_ILR 1.30395 2 3
+       (84 co_post_ttl@n_-_tt-post_le 1.97728 2 3
+        ("co." 54
+         "token [ +CARG \"Co.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"co.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (461 ^R_DSC-FRG_C 0.205977 3 4
+   (104 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.205977 3 4
+    ("–" 50
+     "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S
+ (XP
+  (NP (N (N (NP (N (N "J.C."))) (N (N "Penney"))) (N (N (N "co."))))))
+ (S (ADV "–")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:18>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:15>
+            LBL: h8
+            ARG0: e7
+            ARG: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<0:11>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<0:4>
+            LBL: h19
+            ARG0: x14
+            CARG: "J.C." ]
+          [ named<5:11>
+            LBL: h13
+            ARG0: x9
+            CARG: "Penney" ]
+          [ _company_n_1<12:15>
+            LBL: h20
+            ARG0: x21 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<12:15>
+            LBL: h22
+            ARG0: x21
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<12:15>
+            LBL: h13
+            ARG0: i25
+            ARG1: x9
+            ARG2: x21 ]
+          [ unknown<16:18>
+            LBL: h26
+            ARG0: e6
+            ARG: u27 ]
+          [ excl<16:18>
+            LBL: h28
+            ARG0: i29
+            CARG: "s-dash" ]
+          [ discourse<16:18>
+            LBL: h30
+            ARG0: i33
+            L-HNDL: h28
+            L-INDEX: i29
+            R-HNDL: h32
+            R-INDEX: i31 ] >
+   HCONS: < h23 QEQ h20 h17 QEQ h19 h11 QEQ h13 h5 QEQ h30 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:18>{e SF prop-or-ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL i33, R-INDEX e6]
+ e7:unknown<0:15>{e SF prop, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG x9]
+ _1:proper_q<0:15>[BV x9]
+ e15:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _2:proper_q<0:4>[BV x14]
+ x14:named<0:4>("J.C."){x PERS 3, NUM sg, IND +}[]
+ x9:named<5:11>("Penney"){x PERS 3, NUM sg, IND +}[]
+ x21:_company_n_1<12:15>{x PERS 3, NUM sg, IND +}[]
+ _3:udef_q<12:15>[BV x21]
+ i25:compound<12:15>{i}[ARG1 x9, ARG2 x21]
+ e6:unknown<16:18>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i29:excl<16:18>("s-dash"){i}[]
+ i33:discourse<16:18>{i}[L-HNDL i29, L-INDEX i29]
+}
+
+{
+  implicit_conj<0:18> L-HNDL unknown<0:15>  
+  implicit_conj<0:18> L-INDEX unknown<0:15>  
+  implicit_conj<0:18> R-HNDL discourse<16:18>  
+  implicit_conj<0:18> R-INDEX unknown<16:18>  
+  unknown<0:15> ARG named<5:11>(Penney)  
+  proper_q<0:15> BV named<5:11>(Penney)  
+  compound<0:11> ARG1 named<5:11>(Penney)  
+  compound<0:11> ARG2 named<0:4>(J.C.)  
+  proper_q<0:4> BV named<0:4>(J.C.)  
+  udef_q<12:15> BV _company_n_1<12:15>  
+  compound<12:15> ARG1 named<5:11>(Penney)  
+  compound<12:15> ARG2 _company_n_1<12:15>  
+  discourse<16:18> L-HNDL excl<16:18>(s-dash)  
+  discourse<16:18> L-INDEX excl<16:18>(s-dash)  
+  implicit_conj<0:18> SF prop-or-ques  
+  implicit_conj<0:18> TENSE tensed  
+  implicit_conj<0:18> MOOD indicative  
+  implicit_conj<0:18> PROG -  
+  implicit_conj<0:18> PERF -  
+  unknown<0:15> SF prop  
+  unknown<0:15> TENSE tensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:4>(J.C.) PERS 3  
+  named<0:4>(J.C.) NUM sg  
+  named<0:4>(J.C.) IND +  
+  named<5:11>(Penney) PERS 3  
+  named<5:11>(Penney) NUM sg  
+  named<5:11>(Penney) IND +  
+  _company_n_1<12:15> PERS 3  
+  _company_n_1<12:15> NUM sg  
+  _company_n_1<12:15> IND +  
+  unknown<16:18> SF prop-or-ques  
+  unknown<16:18> TENSE untensed  
+  unknown<16:18> MOOD indicative  
+  unknown<16:18> PROG -  
+  unknown<16:18> PERF -  
+}
+

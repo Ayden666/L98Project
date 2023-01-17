@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj17a';
+;;; (wsun@wsun; 23-jan-2018 (02:10 h)).
+;;;
+
+[21723018] (1 of 1) {1} `Pharmaceuticals made across-the-board advances.'
+
+[21723018:0] (active)
+
+<
+  (1, 0, 1, <0:15>, 1, "Pharmaceuticals", 0, "null", "NNP" 0.6716 "NNPS" 0.2067 "NNS" 0.1217)
+  (2, 1, 2, <16:20>, 1, "made", 0, "null", "VBD" 0.92 "VBN" 0.08)
+  (3, 2, 3, <21:37>, 1, "across-the-board", 0, "null", "JJ" 0.9779 "NN" 0.0221)
+  (4, 3, 4, <38:46>, 1, "advances", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:15>, 1, "Pharmaceuticals", 0, "null")
+  (84, 0, 1, <0:15>, 1, "Pharmaceuticals", 0, "null", "NNPS" 0.2067)
+  (88, 0, 1, <0:15>, 1, "Pharmaceuticals", 0, "null", "NNS" 0.1217)
+  (89, 0, 1, <0:15>, 1, "pharmaceuticals", 0, "null")
+  (95, 0, 1, <0:15>, 1, "pharmaceuticals", 0, "null")
+  (76, 1, 2, <16:20>, 1, "made", 0, "null")
+  (82, 1, 2, <16:20>, 1, "made", 0, "null", "VBD" 0.92)
+  (93, 1, 2, <16:20>, 1, "made", 0, "null")
+  (70, 2, 3, <21:37>, 1, "across-", 0, "null")
+  (85, 2, 3, <21:37>, 1, "across-", 0, "null", "NN" 1.0)
+  (90, 2, 3, <21:37>, 1, "across-", 0, "null")
+  (72, 3, 4, <21:37>, 1, "the-", 0, "null")
+  (86, 3, 4, <21:37>, 1, "the-", 0, "null", "NN" 1.0)
+  (91, 3, 4, <21:37>, 1, "the-", 0, "null")
+  (78, 4, 5, <21:37>, 1, "board", 0, "null")
+  (83, 4, 5, <21:37>, 1, "board", 0, "null", "JJ" 0.9779)
+  (94, 4, 5, <21:37>, 1, "board", 0, "null")
+  (74, 5, 6, <38:47>, 1, "advances.", 0, "null")
+  (87, 5, 6, <38:47>, 1, "advances.", 0, "null", "NNS" 1.0)
+  (92, 5, 6, <38:47>, 1, "advances.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1757 SB-HD_MC_C 5.45684 0 6
+  (1748 HDN_BNP_C -0.761692 0 1
+   (116 pharmaceuticals_n2@n_-_c-pl-ifl_le 0 0 1
+    ("pharmaceuticals" 89
+     "token [ +CARG \"Pharmaceuticals\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"pharmaceuticals\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.67157\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1756 ^HD-CMP_U_C 4.70262 1 6
+   (1749 ^V_PST_OLR 1.14229 1 2
+    (160 make_v1@v_np_noarg3_le 1.22312 1 2
+     ("made" 76
+      "token [ +CARG #1=\"made\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91996840000000002\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1755 HDN_BNP_C 2.64016 2 6
+    (1754 AJ-HDN_NORM_C 2.37535 2 6
+     (1750 XP_BRCK-PR_C 1.61099 2 5
+      (411 across_the_board_a1@aj_-_i-att_le 0 2 5
+       ("across- the- board" 70
+        "token [ +CARG #1=\"across-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]"
+        72
+        "token [ +CARG #1=\"the-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+        78
+        "token [ +CARG #1=\"board\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97790560000000004\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))
+     (1753 ^HDN_OPTCMP_C 0.310762 5 6
+      (1752 W_PERIOD_PLR 0.27223 5 6
+       (1751 N_PL_OLR 0.354498 5 6
+        (385 advance_n1@n_pp_mc-of_le 0 5 6
+         ("advances." 74
+          "token [ +CARG \"advances\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"advances.\" +FROM #1=\"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N "pharmaceuticals"))
+ (VP (V (V "made"))
+  (NP (N (AP (AP "across- the- board")) (N (N (N (N "advances."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _pharmaceuticals_n_1<0:15>
+            LBL: h8
+            ARG0: x6 ]
+          [ _make_v_1<16:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL ]
+            ARG3: u9 ]
+          [ udef_q<21:47>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ _across-the-board_p_1<21:37>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _advance_n_of<38:47>
+            LBL: h14
+            ARG0: x10
+            ARG1: i16 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:15>[BV x6]
+ x6:_pharmaceuticals_n_1<0:15>{x PERS 3, NUM pl, IND +}[]
+ e3:_make_v_1<16:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<21:47>[BV x10]
+ e15:_across-the-board_p_1<21:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_advance_n_of<38:47>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:15> BV _pharmaceuticals_n_1<0:15>  
+  _make_v_1<16:20> ARG1 _pharmaceuticals_n_1<0:15>  
+  _make_v_1<16:20> ARG2 _advance_n_of<38:47>  
+  udef_q<21:47> BV _advance_n_of<38:47>  
+  _across-the-board_p_1<21:37> ARG1 _advance_n_of<38:47>  
+  _pharmaceuticals_n_1<0:15> PERS 3  
+  _pharmaceuticals_n_1<0:15> NUM pl  
+  _pharmaceuticals_n_1<0:15> IND +  
+  _make_v_1<16:20> SF prop  
+  _make_v_1<16:20> TENSE past  
+  _make_v_1<16:20> MOOD indicative  
+  _make_v_1<16:20> PROG -  
+  _make_v_1<16:20> PERF -  
+  _across-the-board_p_1<21:37> SF prop  
+  _across-the-board_p_1<21:37> TENSE untensed  
+  _across-the-board_p_1<21:37> MOOD indicative  
+  _across-the-board_p_1<21:37> PROG -  
+  _across-the-board_p_1<21:37> PERF -  
+  _advance_n_of<38:47> PERS 3  
+  _advance_n_of<38:47> NUM pl  
+}
+

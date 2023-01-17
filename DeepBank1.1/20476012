@@ -1,0 +1,103 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:31 h)).
+;;;
+
+[20476012] (1 of 1) {1} `Beneficial Corp. --'
+
+[20476012:2] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Beneficial", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <11:16>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <17:19>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (36, 0, 1, <0:10>, 1, "Beneficial", 0, "null")
+  (39, 0, 1, <0:10>, 1, "beneficial", 0, "null")
+  (42, 0, 1, <0:10>, 1, "beneficial", 0, "null")
+  (29, 1, 2, <11:16>, 1, "Corp.", 0, "null")
+  (37, 1, 2, <11:16>, 1, "Corp.", 0, "null", "NNP" 1.0)
+  (38, 1, 2, <11:16>, 1, "corp.", 0, "null")
+  (40, 1, 2, <11:16>, 1, "corp.", 0, "null")
+  (35, 2, 3, <17:19>, 1, "–", 0, "null")
+  (41, 2, 3, <17:19>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (244 NP_FRG_C 0.750068 0 3
+  (243 HDN_BNP-PN_C 1.89658 0 3
+   (242 HDN-AJ_REDREL_C 2.08772 0 3
+    (233 ^N_SG_ILR -0.748959 0 1
+     (44 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("Beneficial" 36
+       "token [ +CARG #1=\"Beneficial\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (241 HD-PCT_C 2.58839 1 3
+     (56 corp_post_ttl_2@n_-_tt-post-npt_le -0.17251 1 2
+      ("corp." 38
+       "token [ +CARG \"Corp.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"corp.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (62 s_dbl_dash_pct@pt_-_s-dash_le 1.47838 2 3
+      ("–" 35
+       "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N (N "Beneficial")) (N (N "corp.") (PNCT "–")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:19>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ named<0:10>
+            LBL: h8
+            ARG0: x4
+            CARG: "Beneficial" ]
+          [ _corporation_n_1<11:16>
+            LBL: h9
+            ARG0: x10 [ x IND: + ] ]
+          [ udef_q<11:16>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<11:16>
+            LBL: h8
+            ARG0: i14
+            ARG1: x4
+            ARG2: x10 ] >
+   HCONS: < h12 QEQ h9 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:19>[BV x4]
+ x4:named<0:10>("Beneficial"){x PERS 3, NUM sg, IND +}[]
+ x10:_corporation_n_1<11:16>{x IND +}[]
+ _2:udef_q<11:16>[BV x10]
+ i14:compound<11:16>{i}[ARG1 x4, ARG2 x10]
+}
+
+{
+  unknown<0:19> ARG named<0:10>(Beneficial)  
+  proper_q<0:19> BV named<0:10>(Beneficial)  
+  udef_q<11:16> BV _corporation_n_1<11:16>  
+  compound<11:16> ARG1 named<0:10>(Beneficial)  
+  compound<11:16> ARG2 _corporation_n_1<11:16>  
+  unknown<0:19> SF prop-or-ques  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  named<0:10>(Beneficial) PERS 3  
+  named<0:10>(Beneficial) NUM sg  
+  named<0:10>(Beneficial) IND +  
+  _corporation_n_1<11:16> IND +  
+}
+

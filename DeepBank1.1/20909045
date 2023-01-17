@@ -1,0 +1,81 @@
+;;;
+;;; Redwoods export of `wsj09a';
+;;; (wsun@wsun; 22-jan-2018 (18:14 h)).
+;;;
+
+[20909045] (1 of 1) {1} `Don't Linger'
+
+[20909045:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "Do", 0, "null", "VBP" 0.7095 "VB" 0.2588 "NNP" 0.0317)
+  (2, 1, 2, <2:5>, 1, "n’t", 0, "null", "JJ" 0.4346 "NN" 0.2333 "RB" 0.2309 "VB" 0.0331 "VBN" 0.0291 "NNP" 0.0205 "JJS" 0.0105 "IN" 0.008)
+  (3, 2, 3, <6:12>, 1, "Linger", 0, "null", "NNP" 0.6314 "VB" 0.3686)
+>
+
+<
+  (37, 0, 1, <0:5>, 1, "Don’t", 0, "null", "VBP" 0.7095)
+  (38, 0, 1, <0:5>, 1, "Don’t", 0, "null", "VB" 0.2588)
+  (41, 0, 1, <0:5>, 1, "don’t", 0, "null")
+  (44, 0, 1, <0:5>, 1, "don’t", 0, "null")
+  (25, 1, 2, <6:12>, 1, "Linger", 0, "null")
+  (36, 1, 2, <6:12>, 1, "Linger", 0, "null", "NNP" 0.6314)
+  (39, 1, 2, <6:12>, 1, "Linger", 0, "null", "VB" 0.3686)
+  (40, 1, 2, <6:12>, 1, "linger", 0, "null")
+  (42, 1, 2, <6:12>, 1, "linger", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (131 HD-CMP_U_C -0.663632 0 2
+  (48 dont_5_u@v_vp_dont-imp_le 0.0798976 0 1
+   ("don’t" 41
+    "token [ +CARG \"Don’t\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"don’t\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.70947539999999998\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (130 V_N3S-BSE_ILR -0.74353 1 2
+   (52 linger_v1@v_-_unacc_le 0 1 2
+    ("linger" 40
+     "token [ +CARG \"Linger\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"linger\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.63139520000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (V "don’t") (VP (V "linger")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:5>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<0:5>
+            LBL: h2
+            ARG0: i10
+            ARG1: h9 ]
+          [ _linger_v_1<6:12>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h9 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{i10:
+ _1:pronoun_q<0:5>[BV x6]
+ x6:pron<0:5>{x PERS 2, PT zero}[]
+ i10:neg<0:5>{i}[ARG1 e3]
+ e3:_linger_v_1<6:12>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  pronoun_q<0:5> BV pron<0:5>  
+  neg<0:5> ARG1 _linger_v_1<6:12>  
+  _linger_v_1<6:12> ARG1 pron<0:5>  
+  pron<0:5> PERS 2  
+  pron<0:5> PT zero  
+  _linger_v_1<6:12> SF comm  
+  _linger_v_1<6:12> TENSE pres  
+  _linger_v_1<6:12> MOOD indicative  
+  _linger_v_1<6:12> PROG -  
+  _linger_v_1<6:12> PERF -  
+}
+

@@ -1,0 +1,314 @@
+;;;
+;;; Redwoods export of `wsj14b';
+;;; (wsun@wsun; 22-jan-2018 (23:10 h)).
+;;;
+
+[21431003] (1 of 1) {1} `Spending by Japanese households averaged 290,782 yen ($2,052.10) in August.'
+
+[21431003:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Spending", 0, "null", "NN" 0.9648 "VBG" 0.0352)
+  (2, 1, 2, <9:11>, 1, "by", 0, "null", "IN" 1.0)
+  (3, 2, 3, <12:20>, 1, "Japanese", 0, "null", "JJ" 0.975 "NNP" 0.015 "NNPS" 0.01)
+  (4, 3, 4, <21:31>, 1, "households", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <32:40>, 1, "averaged", 0, "null", "VBD" 0.9736 "VBN" 0.0264)
+  (6, 5, 6, <41:48>, 1, "290,782", 0, "null", "CD" 1.0)
+  (7, 6, 7, <49:52>, 1, "yen", 0, "null", "NNS" 0.8502 "NN" 0.1498)
+  (8, 7, 8, <53:54>, 1, "(", 0, "null", "(" 1.0)
+  (9, 8, 9, <54:55>, 1, "$", 0, "null", "$" 1.0)
+  (10, 9, 10, <55:63>, 1, "2,052.10", 0, "null", "CD" 1.0)
+  (11, 10, 11, <63:64>, 1, ")", 0, "null", ")" 1.0)
+  (12, 11, 12, <65:67>, 1, "in", 0, "null", "IN" 1.0)
+  (13, 12, 13, <68:74>, 1, "August", 0, "null", "NNP" 1.0)
+  (14, 13, 14, <74:75>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (159, 0, 1, <0:8>, 1, "Spending", 0, "null")
+  (168, 0, 1, <0:8>, 1, "spending", 0, "null")
+  (179, 0, 1, <0:8>, 1, "spending", 0, "null")
+  (144, 1, 2, <9:11>, 1, "by", 0, "null")
+  (174, 1, 2, <9:11>, 1, "by", 0, "null")
+  (126, 2, 3, <12:20>, 1, "Japanese", 0, "null")
+  (160, 2, 3, <12:20>, 1, "Japanese", 0, "null", "JJ" 0.975)
+  (167, 2, 3, <12:20>, 1, "japanese", 0, "null")
+  (170, 2, 3, <12:20>, 1, "japanese", 0, "null")
+  (146, 3, 4, <21:31>, 1, "households", 0, "null")
+  (163, 3, 4, <21:31>, 1, "households", 0, "null", "NNS" 1.0)
+  (175, 3, 4, <21:31>, 1, "households", 0, "null")
+  (156, 4, 5, <32:40>, 1, "averaged", 0, "null")
+  (162, 4, 5, <32:40>, 1, "averaged", 0, "null", "VBD" 0.9736)
+  (178, 4, 5, <32:40>, 1, "averaged", 0, "null")
+  (119, 5, 6, <41:48>, 1, "290,782", 0, "null")
+  (169, 5, 6, <41:48>, 1, "290,782", 0, "null")
+  (154, 6, 7, <49:52>, 1, "yen", 0, "null")
+  (161, 6, 7, <49:52>, 1, "yen", 0, "null", "NNS" 0.8502)
+  (165, 6, 7, <49:52>, 1, "yen", 0, "null", "NN" 0.1498)
+  (177, 6, 7, <49:52>, 1, "yen", 0, "null")
+  (148, 7, 8, <53:55>, 1, "($", 0, "null")
+  (176, 7, 8, <53:55>, 1, "($", 0, "null")
+  (128, 8, 9, <55:64>, 1, "2,052.10)", 0, "null")
+  (171, 8, 9, <55:64>, 1, "2,052.10)", 0, "null")
+  (142, 9, 10, <65:67>, 1, "in", 0, "null")
+  (173, 9, 10, <65:67>, 1, "in", 0, "null")
+  (130, 10, 11, <68:75>, 1, "August.", 0, "null")
+  (164, 10, 11, <68:75>, 1, "August.", 0, "null", "NNP" 1.0)
+  (166, 10, 11, <68:75>, 1, "august.", 0, "null")
+  (172, 10, 11, <68:75>, 1, "august.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4734 SB-HD_MC_C 15.5656 0 11
+  (4717 HDN_BNP_C 2.75424 0 4
+   (4716 HDN-AJ_REDREL_C 2.48285 0 4
+    (4711 ^HDN_OPTCMP_C -0.411763 0 1
+     (4710 V_NGER-TR_DLR 0.680532 0 1
+      (4709 V_PRP_OLR 1.2246 0 1
+       (187 spend_v1@v_np*_le 0.972574 0 1
+        ("spending" 168
+         "token [ +CARG \"Spending\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"spending\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96475869999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (4715 HD-CMP_U_C 2.36225 1 4
+     (199 by_p@p_np_i-dgsp_le 0.224576 1 2
+      ("by" 144
+       "token [ +CARG #1=\"by\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (4714 HDN_BNP_C 1.64682 2 4
+      (4713 AJ-HDN_NORM_C 1.27921 2 4
+       (222 japanese_a1@aj_-_i_le 0.565559 2 3
+        ("japanese" 167
+         "token [ +CARG \"Japanese\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"japanese\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97501300000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (4712 ^N_PL_OLR -0.0188574 3 4
+        (230 household_n1@n_-_c_le 0 3 4
+         ("households" 146
+          "token [ +CARG #1=\"households\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+  (4733 ^HD-AJ_INT-UNSL_C 11.9713 4 11
+   (4728 ^HD-CMP_U_C 7.74033 4 9
+    (4718 ^V_PST_OLR 1.1552 4 5
+     (266 average_v1@v_np*_le 0 4 5
+      ("averaged" 156
+       "token [ +CARG #1=\"averaged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97356030000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (4727 HDN-NP_APP-IDF-P_C 6.47874 5 9
+     (4721 ^HDN_BNP_C 4.87086 5 7
+      (4720 NUM-N_MNP_C 2.62181 5 7
+       (432 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("290,782" 119
+         "token [ +CARG #1=\"290,782\" +CLASS card_ne +FORM #1 +FROM \"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (4719 ^N_PL_OLR 1.11999 6 7
+        (436 yen_n2@n_-_c-meas-nb_le 0.196976 6 7
+         ("yen" 154
+          "token [ +CARG #1=\"yen\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"49\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.85016440000000004\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (4726 HDN_BNP_C 2.09432 7 9
+      (4725 N-NUM_MNP_C 0.907085 7 9
+       (4723 ^W_LPAREN_PLR 0.502628 7 8
+        (4722 N_PL-CUR_ILR 0.504332 7 8
+         (445 dollarsign_n1@n_-_c-cur_le 0 7 8
+          ("($" 148
+           "token [ +CARG \"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"($\" +FROM \"53\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"54\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (4724 W_RPAREN_PLR 0.404457 8 9
+        (450 generic_card_ne@aj_-_i-crd-gen_le 0 8 9
+         ("2,052.10)" 128
+          "token [ +CARG \"2,052.10\" +CLASS card_ne +FORM \"2,052.10)\" +FROM \"55\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"64\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+   (4732 HD-CMP_U_C 3.0971 9 11
+    (477 in_temp@p_np_i-tmp_le 1.24586 9 10
+     ("in" 142
+      "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"65\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"12\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"67\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (4731 HDN_BNP-PN_C 0.087994 10 11
+     (4730 W_PERIOD_PLR 0.167951 10 11
+      (4729 N_SG_ILR -0.264967 10 11
+       (520 august@n_-_c-month_le 0 10 11
+        ("august." 166
+         "token [ +CARG \"August\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"august.\" +FROM #1=\"68\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"13\" REST *cons* [ FIRST \"14\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"75\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S
+ (NP
+  (N (N (N (V (V "spending"))))
+   (PP (P "by") (NP (N (AP "japanese") (N (N "households")))))))
+ (VP
+  (VP (V (V "averaged"))
+   (NP (NP (N (ADJ "290,782") (N (N "yen"))))
+    (NP (N (N (N (N "($"))) (ADJ (ADJ "2,052.10)"))))))
+  (PP (P "in") (NP (N (N (N "august.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:31>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _spend_v_1<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i11
+            ARG2: p10 ]
+          [ nominalization<0:8>
+            LBL: h12
+            ARG0: x6
+            ARG1: h8 ]
+          [ _by_p<9:11>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x14 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<12:31>
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ _japanese_a_1<12:20>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x14 ]
+          [ _household_n_1<21:31>
+            LBL: h18
+            ARG0: x14 ]
+          [ _average_v_1<32:40>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x20 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ appos<41:64>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x21 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<41:52>
+            LBL: h23
+            ARG0: x20
+            RSTR: h24
+            BODY: h25 ]
+          [ card<41:48>
+            LBL: h26
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            CARG: "290,782" ]
+          [ _yen_n_2<49:52>
+            LBL: h26
+            ARG0: x20 ]
+          [ udef_q<53:64>
+            LBL: h28
+            ARG0: x21
+            RSTR: h29
+            BODY: h30 ]
+          [ _dollar_n_1<53:55>
+            LBL: h31
+            ARG0: x21 ]
+          [ card<55:64>
+            LBL: h31
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            CARG: "2,052.10" ]
+          [ _in_p_temp<65:67>
+            LBL: h2
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x34 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<68:75>
+            LBL: h35
+            ARG0: x34
+            RSTR: h36
+            BODY: h37 ]
+          [ mofy<68:75>
+            LBL: h38
+            ARG0: x34
+            CARG: "Aug" ] >
+   HCONS: < h36 QEQ h38 h29 QEQ h31 h24 QEQ h26 h16 QEQ h18 h5 QEQ h12 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:31>[BV x6]
+ e9:_spend_v_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x6:nominalization<0:8>{x PERS 3, NUM sg, GEND n}[ARG1 e9]
+ e13:_by_p<9:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x14]
+ _2:udef_q<12:31>[BV x14]
+ e19:_japanese_a_1<12:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x14]
+ x14:_household_n_1<21:31>{x PERS 3, NUM pl, IND +}[]
+ e3:_average_v_1<32:40>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x20]
+ e22:appos<41:64>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x21]
+ _3:udef_q<41:52>[BV x20]
+ e27:card<41:48>("290,782"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20]
+ x20:_yen_n_2<49:52>{x PERS 3, NUM pl, IND +}[]
+ _4:udef_q<53:64>[BV x21]
+ x21:_dollar_n_1<53:55>{x PERS 3, NUM pl, IND +}[]
+ e32:card<55:64>("2,052.10"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21]
+ e33:_in_p_temp<65:67>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x34]
+ _5:proper_q<68:75>[BV x34]
+ x34:mofy<68:75>("Aug"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:31> BV nominalization<0:8>  
+  nominalization<0:8> ARG1 _spend_v_1<0:8>  
+  _by_p<9:11> ARG1 nominalization<0:8>  
+  _by_p<9:11> ARG2 _household_n_1<21:31>  
+  udef_q<12:31> BV _household_n_1<21:31>  
+  _japanese_a_1<12:20> ARG1 _household_n_1<21:31>  
+  _average_v_1<32:40> ARG1 nominalization<0:8>  
+  _average_v_1<32:40> ARG2 _yen_n_2<49:52>  
+  appos<41:64> ARG1 _yen_n_2<49:52>  
+  appos<41:64> ARG2 _dollar_n_1<53:55>  
+  udef_q<41:52> BV _yen_n_2<49:52>  
+  card<41:48>(290,782) ARG1 _yen_n_2<49:52>  
+  udef_q<53:64> BV _dollar_n_1<53:55>  
+  card<55:64>(2,052.10) ARG1 _dollar_n_1<53:55>  
+  _in_p_temp<65:67> ARG1 _average_v_1<32:40>  
+  _in_p_temp<65:67> ARG2 mofy<68:75>(Aug)  
+  proper_q<68:75> BV mofy<68:75>(Aug)  
+  _spend_v_1<0:8> SF prop  
+  _spend_v_1<0:8> TENSE untensed  
+  _spend_v_1<0:8> MOOD indicative  
+  _spend_v_1<0:8> PROG +  
+  _spend_v_1<0:8> PERF -  
+  nominalization<0:8> PERS 3  
+  nominalization<0:8> NUM sg  
+  nominalization<0:8> GEND n  
+  _by_p<9:11> SF prop  
+  _by_p<9:11> TENSE untensed  
+  _by_p<9:11> MOOD indicative  
+  _by_p<9:11> PROG -  
+  _by_p<9:11> PERF -  
+  _japanese_a_1<12:20> SF prop  
+  _japanese_a_1<12:20> TENSE untensed  
+  _japanese_a_1<12:20> MOOD indicative  
+  _japanese_a_1<12:20> PROG -  
+  _japanese_a_1<12:20> PERF -  
+  _household_n_1<21:31> PERS 3  
+  _household_n_1<21:31> NUM pl  
+  _household_n_1<21:31> IND +  
+  _average_v_1<32:40> SF prop  
+  _average_v_1<32:40> TENSE past  
+  _average_v_1<32:40> MOOD indicative  
+  _average_v_1<32:40> PROG -  
+  _average_v_1<32:40> PERF -  
+  appos<41:64> SF prop  
+  appos<41:64> TENSE untensed  
+  appos<41:64> MOOD indicative  
+  appos<41:64> PROG -  
+  appos<41:64> PERF -  
+  card<41:48>(290,782) SF prop  
+  card<41:48>(290,782) TENSE untensed  
+  card<41:48>(290,782) MOOD indicative  
+  card<41:48>(290,782) PROG -  
+  card<41:48>(290,782) PERF -  
+  _yen_n_2<49:52> PERS 3  
+  _yen_n_2<49:52> NUM pl  
+  _yen_n_2<49:52> IND +  
+  _dollar_n_1<53:55> PERS 3  
+  _dollar_n_1<53:55> NUM pl  
+  _dollar_n_1<53:55> IND +  
+  card<55:64>(2,052.10) SF prop  
+  card<55:64>(2,052.10) TENSE untensed  
+  card<55:64>(2,052.10) MOOD indicative  
+  card<55:64>(2,052.10) PROG -  
+  card<55:64>(2,052.10) PERF -  
+  _in_p_temp<65:67> SF prop  
+  _in_p_temp<65:67> TENSE untensed  
+  _in_p_temp<65:67> MOOD indicative  
+  _in_p_temp<65:67> PROG -  
+  _in_p_temp<65:67> PERF -  
+  mofy<68:75>(Aug) PERS 3  
+  mofy<68:75>(Aug) NUM sg  
+  mofy<68:75>(Aug) IND +  
+}
+

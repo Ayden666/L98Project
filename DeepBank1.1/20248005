@@ -1,0 +1,103 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:17 h)).
+;;;
+
+[20248005] (1 of 1) {1} `Vice President'
+
+[20248005:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Vice", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:14>, 1, "President", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:4>, 1, "Vice", 0, "null")
+  (28, 0, 1, <0:4>, 1, "vice", 0, "null")
+  (30, 0, 1, <0:4>, 1, "vice", 0, "null")
+  (20, 1, 2, <5:14>, 1, "President", 0, "null")
+  (26, 1, 2, <5:14>, 1, "President", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <5:14>, 1, "president", 0, "null")
+  (29, 1, 2, <5:14>, 1, "president", 0, "null")
+>
+
+(ROOT_FRAG
+ (151 NP_NB-FRG_C 4.35355 0 2
+  (150 N-HDN_CPD_C 5.27059 0 2
+   (34 vice_n2@n_-_c-cpd_le 2.36199 0 1
+    ("vice" 28
+     "token [ +CARG \"Vice\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"vice\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (149 ^HDN_OPTCMP_C 2.1824 1 2
+    (148 N_SG_ILR 2.0896 1 2
+     (38 president_n1@n_pp_c-of_le 0.825475 1 2
+      ("president" 27
+       "token [ +CARG \"President\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"president\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (N (N "vice") (N (N (N "president")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:14>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _vice_n_1<0:4>
+            LBL: h14
+            ARG0: x9 ]
+          [ _president_n_of<5:14>
+            LBL: h8
+            ARG0: x4
+            ARG1: i15 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:14>[BV x4]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:4>[BV x9]
+ x9:_vice_n_1<0:4>{x PERS 3, NUM sg, IND +}[]
+ x4:_president_n_of<5:14>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:14> ARG _president_n_of<5:14>  
+  udef_q<0:14> BV _president_n_of<5:14>  
+  compound<0:14> ARG1 _president_n_of<5:14>  
+  compound<0:14> ARG2 _vice_n_1<0:4>  
+  udef_q<0:4> BV _vice_n_1<0:4>  
+  unknown<0:14> SF prop-or-ques  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _vice_n_1<0:4> PERS 3  
+  _vice_n_1<0:4> NUM sg  
+  _vice_n_1<0:4> IND +  
+  _president_n_of<5:14> PERS 3  
+  _president_n_of<5:14> NUM sg  
+  _president_n_of<5:14> IND +  
+}
+

@@ -1,0 +1,185 @@
+;;;
+;;; Redwoods export of `wsj01a';
+;;; (wsun@wsun; 22-jan-2018 (11:04 h)).
+;;;
+
+[20112054] (1 of 1) {1} `President Bush should set things straight.'
+
+[20112054:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "President", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <10:14>, 1, "Bush", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:21>, 1, "should", 0, "null", "MD" 1.0)
+  (4, 3, 4, <22:25>, 1, "set", 0, "null", "VB" 1.0)
+  (5, 4, 5, <26:32>, 1, "things", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <33:41>, 1, "straight", 0, "null", "RB" 0.6553 "JJ" 0.3447)
+  (7, 6, 7, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (81, 0, 1, <0:9>, 1, "President", 0, "null")
+  (88, 0, 1, <0:9>, 1, "president", 0, "null")
+  (94, 0, 1, <0:9>, 1, "president", 0, "null")
+  (65, 1, 2, <10:14>, 1, "Bush", 0, "null")
+  (83, 1, 2, <10:14>, 1, "Bush", 0, "null", "NNP" 1.0)
+  (87, 1, 2, <10:14>, 1, "bush", 0, "null")
+  (89, 1, 2, <10:14>, 1, "bush", 0, "null")
+  (74, 2, 3, <15:21>, 1, "should", 0, "null")
+  (90, 2, 3, <15:21>, 1, "should", 0, "null")
+  (76, 3, 4, <22:25>, 1, "set", 0, "null")
+  (84, 3, 4, <22:25>, 1, "set", 0, "null", "VB" 1.0)
+  (91, 3, 4, <22:25>, 1, "set", 0, "null")
+  (78, 4, 5, <26:32>, 1, "things", 0, "null")
+  (85, 4, 5, <26:32>, 1, "things", 0, "null", "NNS" 1.0)
+  (92, 4, 5, <26:32>, 1, "things", 0, "null")
+  (79, 5, 6, <33:42>, 1, "straight.", 0, "null")
+  (82, 5, 6, <33:42>, 1, "straight.", 0, "null", "RB" 0.6553)
+  (86, 5, 6, <33:42>, 1, "straight.", 0, "null", "JJ" 0.3447)
+  (93, 5, 6, <33:42>, 1, "straight.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1495 SB-HD_MC_C 9.09335 0 6
+  (1486 HDN_BNP-PN_C 4.24533 0 2
+   (1485 NP-HDN_TTL-CPD_C 3.55939 0 2
+    (1483 HDN_OPTCMP_C 1.48945 0 1
+     (1482 N_SG_ILR 1.89751 0 1
+      (98 president_n1@n_pp_c-of_le 0.825475 0 1
+       ("president" 88
+        "token [ +CARG \"President\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"president\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1484 ^N_SG_ILR 0.896336 1 2
+     (108 bush_n2@n_-_pn_le 0.994588 1 2
+      ("bush" 87
+       "token [ +CARG \"Bush\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"bush\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1494 ^HD-CMP_U_C 3.83096 2 6
+   (109 should_aux_pos@v_vp_mdl-p-sv_le 0.574271 2 3
+    ("should" 74
+     "token [ +CARG #1=\"should\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1493 HD-AJ_INT-UNSL_C 2.37045 3 6
+    (1491 ^HD-CMP_U_C 1.19534 3 5
+     (1487 ^V_N3S-BSE_ILR 0.965979 3 4
+      (128 set_v2@v_np*_le 0.224036 3 4
+       ("set" 76
+        "token [ +CARG #1=\"set\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1490 HDN_BNP_C -0.441952 4 5
+      (1489 HDN_OPTCMP_C 0.018553 4 5
+       (1488 N_PL_OLR 0.797267 4 5
+        (247 thing_n1@n_pp_c-nsnc-of_le 0 4 5
+         ("things" 78
+          "token [ +CARG #1=\"things\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+    (1492 W_PERIOD_PLR 1.31625 5 6
+     (274 straight_adv@av_-_i-vp_le 0 5 6
+      ("straight." 79
+       "token [ +CARG \"straight\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"straight.\" +FROM #1=\"33\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65534740000000002\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N (N (N "president"))) (N (N "bush"))))
+ (VP (V "should")
+  (VP (VP (V (V "set")) (NP (N (N (N "things")))))
+   (ADV (ADV "straight.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _president_n_of<0:9>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ named<10:14>
+            LBL: h8
+            ARG0: x6
+            CARG: "Bush" ]
+          [ _should_v_modal<15:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: h16 ]
+          [ _set_v_1<22:25>
+            LBL: h17
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x19 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<26:32>
+            LBL: h20
+            ARG0: x19
+            RSTR: h21
+            BODY: h22 ]
+          [ _thing_n_of-about<26:32>
+            LBL: h23
+            ARG0: x19
+            ARG1: i24 ]
+          [ _straight_a_1<33:42>
+            LBL: h17
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e18 ] >
+   HCONS: < h21 QEQ h23 h16 QEQ h17 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:9>[BV x9]
+ x9:_president_n_of<0:9>{x PERS 3, NUM sg, IND +}[]
+ x6:named<10:14>("Bush"){x PERS 3, NUM sg, IND +}[]
+ e3:_should_v_modal<15:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e18]
+ e18:_set_v_1<22:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x19]
+ _3:udef_q<26:32>[BV x19]
+ x19:_thing_n_of-about<26:32>{x PERS 3, NUM pl, IND +}[]
+ e25:_straight_a_1<33:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e18]
+}
+
+{
+  proper_q<0:14> BV named<10:14>(Bush)  
+  compound<0:14> ARG1 named<10:14>(Bush)  
+  compound<0:14> ARG2 _president_n_of<0:9>  
+  udef_q<0:9> BV _president_n_of<0:9>  
+  _should_v_modal<15:21> ARG1 _set_v_1<22:25>  
+  _set_v_1<22:25> ARG1 named<10:14>(Bush)  
+  _set_v_1<22:25> ARG2 _thing_n_of-about<26:32>  
+  udef_q<26:32> BV _thing_n_of-about<26:32>  
+  _straight_a_1<33:42> ARG1 _set_v_1<22:25>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _president_n_of<0:9> PERS 3  
+  _president_n_of<0:9> NUM sg  
+  _president_n_of<0:9> IND +  
+  named<10:14>(Bush) PERS 3  
+  named<10:14>(Bush) NUM sg  
+  named<10:14>(Bush) IND +  
+  _should_v_modal<15:21> SF prop  
+  _should_v_modal<15:21> TENSE pres  
+  _should_v_modal<15:21> MOOD indicative  
+  _should_v_modal<15:21> PROG -  
+  _should_v_modal<15:21> PERF -  
+  _set_v_1<22:25> SF prop  
+  _set_v_1<22:25> TENSE untensed  
+  _set_v_1<22:25> MOOD indicative  
+  _set_v_1<22:25> PROG -  
+  _set_v_1<22:25> PERF -  
+  _thing_n_of-about<26:32> PERS 3  
+  _thing_n_of-about<26:32> NUM pl  
+  _thing_n_of-about<26:32> IND +  
+  _straight_a_1<33:42> SF prop  
+  _straight_a_1<33:42> TENSE untensed  
+  _straight_a_1<33:42> MOOD indicative  
+  _straight_a_1<33:42> PROG -  
+  _straight_a_1<33:42> PERF -  
+}
+

@@ -1,0 +1,163 @@
+;;;
+;;; Redwoods export of `wsj19d';
+;;; (wsun@wsun; 23-jan-2018 (04:48 h)).
+;;;
+
+[21990005] (1 of 1) {1} `Both are mining concerns.'
+
+[21990005:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Both", 0, "null", "DT" 0.924 "CC" 0.076)
+  (2, 1, 2, <5:8>, 1, "are", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <9:15>, 1, "mining", 0, "null", "NN" 0.8388 "VBG" 0.1612)
+  (4, 3, 4, <16:24>, 1, "concerns", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:4>, 1, "both", 0, "null")
+  (66, 0, 1, <0:4>, 1, "both", 0, "null")
+  (52, 1, 2, <5:8>, 1, "are", 0, "null")
+  (59, 1, 2, <5:8>, 1, "are", 0, "null", "VBP" 1.0)
+  (63, 1, 2, <5:8>, 1, "are", 0, "null")
+  (57, 2, 3, <9:15>, 1, "mining", 0, "null")
+  (61, 2, 3, <9:15>, 1, "mining", 0, "null", "VBG" 0.1612)
+  (65, 2, 3, <9:15>, 1, "mining", 0, "null")
+  (54, 3, 4, <16:25>, 1, "concerns.", 0, "null")
+  (60, 3, 4, <16:25>, 1, "concerns.", 0, "null", "NNS" 1.0)
+  (64, 3, 4, <16:25>, 1, "concerns.", 0, "null")
+>
+
+(ROOT_STRICT
+ (771 SB-HD_MC_C 0.96308 0 4
+  (758 HDN_BNP-QNT_C -0.175635 0 1
+   (757 DET_PRT-NOCMP_DLR -0.45042 0 1
+    (67 both@d_-_prt-pl-both_le -0.356122 0 1
+     ("both" 62
+      "token [ +CARG \"Both\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"both\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92396149999999999\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (770 ^HD-CMP_U_C -0.130635 1 4
+   (77 be_id_are@v_np_are_le -0.260858 1 2
+    ("are" 52
+     "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (769 HDN_BNP_C -0.498656 2 4
+    (768 N-HDN_CPD_C -0.0895471 2 4
+     (767 HDN_OPTCMP_C -0.607833 2 3
+      (766 V_NGER-TR_DLR 0.551147 2 3
+       (759 V_PRP_OLR 0.163469 2 3
+        (88 mine_v1@v_np*_le 0 2 3
+         ("mining" 57
+          "token [ +CARG #1=\"mining\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.83877069999999998\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (761 ^W_PERIOD_PLR -1.03803 3 4
+      (760 N_PL_OLR -0.441539 3 4
+       (97 concern_n1@n_-_mc-ns_le 0 3 4
+        ("concerns." 54
+         "token [ +CARG \"concerns\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"concerns.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (DET "both")))
+ (VP (V "are")
+  (NP (N (N (N (V (V "mining")))) (N (N (N "concerns.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _both_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ card<0:4>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            CARG: "2" ]
+          [ generic_entity<0:4>
+            LBL: h8
+            ARG0: x6 ]
+          [ _be_v_id<5:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<9:25>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<9:25>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x15 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<9:15>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _mine_v_1<9:15>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i23
+            ARG2: p22 ]
+          [ nominalization<9:15>
+            LBL: h24
+            ARG0: x15
+            ARG1: h20 ]
+          [ _concern_n_1<16:25>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h18 QEQ h24 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_both_q<0:4>[BV x6]
+ e9:card<0:4>("2"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:generic_entity<0:4>{x PERS 3, NUM pl}[]
+ e3:_be_v_id<5:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<9:25>[BV x10]
+ e16:compound<9:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x15]
+ _3:udef_q<9:15>[BV x15]
+ e21:_mine_v_1<9:15>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x15:nominalization<9:15>{x PERS 3, NUM sg, GEND n}[ARG1 e21]
+ x10:_concern_n_1<16:25>{x PERS 3, NUM pl}[]
+}
+
+{
+  _both_q<0:4> BV generic_entity<0:4>  
+  card<0:4>(2) ARG1 generic_entity<0:4>  
+  _be_v_id<5:8> ARG1 generic_entity<0:4>  
+  _be_v_id<5:8> ARG2 _concern_n_1<16:25>  
+  udef_q<9:25> BV _concern_n_1<16:25>  
+  compound<9:25> ARG1 _concern_n_1<16:25>  
+  compound<9:25> ARG2 nominalization<9:15>  
+  udef_q<9:15> BV nominalization<9:15>  
+  nominalization<9:15> ARG1 _mine_v_1<9:15>  
+  card<0:4>(2) SF prop  
+  card<0:4>(2) TENSE untensed  
+  card<0:4>(2) MOOD indicative  
+  card<0:4>(2) PROG -  
+  card<0:4>(2) PERF -  
+  generic_entity<0:4> PERS 3  
+  generic_entity<0:4> NUM pl  
+  _be_v_id<5:8> SF prop  
+  _be_v_id<5:8> TENSE pres  
+  _be_v_id<5:8> MOOD indicative  
+  _be_v_id<5:8> PROG -  
+  _be_v_id<5:8> PERF -  
+  compound<9:25> SF prop  
+  compound<9:25> TENSE untensed  
+  compound<9:25> MOOD indicative  
+  compound<9:25> PROG -  
+  compound<9:25> PERF -  
+  _mine_v_1<9:15> SF prop  
+  _mine_v_1<9:15> TENSE untensed  
+  _mine_v_1<9:15> MOOD indicative  
+  _mine_v_1<9:15> PROG +  
+  _mine_v_1<9:15> PERF -  
+  nominalization<9:15> PERS 3  
+  nominalization<9:15> NUM sg  
+  nominalization<9:15> GEND n  
+  _concern_n_1<16:25> PERS 3  
+  _concern_n_1<16:25> NUM pl  
+}
+

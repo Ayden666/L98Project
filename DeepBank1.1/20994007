@@ -1,0 +1,120 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:04 h)).
+;;;
+
+[20994007] (1 of 1) {1} `And oh, yes.'
+
+[20994007:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "And", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:6>, 1, "oh", 0, "null", "UH" 1.0)
+  (3, 2, 3, <6:7>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <8:11>, 1, "yes", 0, "null", "UH" 1.0)
+  (5, 4, 5, <11:12>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:3>, 1, "and", 0, "null")
+  (57, 0, 1, <0:3>, 1, "and", 0, "null")
+  (51, 1, 2, <4:7>, 1, "oh,", 0, "null")
+  (55, 1, 2, <4:7>, 1, "oh,", 0, "null")
+  (53, 2, 3, <8:12>, 1, "yes.", 0, "null")
+  (56, 2, 3, <8:12>, 1, "yes.", 0, "null")
+>
+
+(ROOT_STRICT
+ (323 NP-CL_NUMITEM_C -0.352102 0 3
+  (317 MRK-NH_NOM_C -0.352102 0 2
+   (61 and_conj@c_xp_and_le -0.833951 0 1
+    ("and" 54
+     "token [ +CARG \"And\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"and\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (316 HDN_BNP-NUM_C 0.875388 1 2
+    (315 HDN_NP-NUM_C 0.916731 1 2
+     (314 W_COMMA_PLR 0 1 2
+      (77 oh@aj_-_i-crd-one_le 0 1 2
+       ("oh," 51
+        "token [ +CARG \"oh\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"oh,\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (322 ^R_SCP-FRG_C 0 2 3
+   (321 W_PERIOD_PLR 0 2 3
+    (98 yes_pre_root@av_-_s-cp-mc-pr_le 0 2 3
+     ("yes." 53
+      "token [ +CARG \"yes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"yes.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP-CJ (CONJ "and") (NP (N (ADJ (ADJ "oh,")))))
+ (XP (ADV (ADV "yes."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:12>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u7
+            L-INDEX: x6 [ x PERS: 3 NUM: PL ]
+            R-HNDL: h4
+            R-INDEX: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _and_c<0:3>
+            LBL: h8
+            ARG0: x6
+            L-INDEX: i10
+            R-INDEX: x9 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<4:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ card<4:7>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15
+            CARG: "0" ]
+          [ unknown<8:12>
+            LBL: h16
+            ARG0: e5
+            ARG: u17 ]
+          [ _yes_a_1<8:12>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h19 ] >
+   HCONS: < h19 QEQ h16 h12 QEQ h14 h4 QEQ h18 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[L-INDEX x6, R-HNDL e20, R-INDEX e5]
+ x6:_and_c<0:3>{x PERS 3, NUM pl}[R-INDEX x9]
+ _1:number_q<4:7>[BV x9]
+ x9:card<4:7>("0"){x PERS 3, NUM sg}[]
+ e5:unknown<8:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e20:_yes_a_1<8:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e5]
+}
+
+{
+  implicit_conj<0:12> L-INDEX _and_c<0:3>  
+  implicit_conj<0:12> R-HNDL _yes_a_1<8:12>  
+  implicit_conj<0:12> R-INDEX unknown<8:12>  
+  _and_c<0:3> R-INDEX card<4:7>(0)  
+  number_q<4:7> BV card<4:7>(0)  
+  _yes_a_1<8:12> ARG1 unknown<8:12>  
+  implicit_conj<0:12> SF prop  
+  implicit_conj<0:12> TENSE untensed  
+  implicit_conj<0:12> MOOD indicative  
+  implicit_conj<0:12> PROG -  
+  implicit_conj<0:12> PERF -  
+  _and_c<0:3> PERS 3  
+  _and_c<0:3> NUM pl  
+  card<4:7>(0) PERS 3  
+  card<4:7>(0) NUM sg  
+  unknown<8:12> SF prop  
+  unknown<8:12> TENSE untensed  
+  unknown<8:12> MOOD indicative  
+  unknown<8:12> PROG -  
+  unknown<8:12> PERF -  
+  _yes_a_1<8:12> SF prop  
+  _yes_a_1<8:12> TENSE untensed  
+  _yes_a_1<8:12> MOOD indicative  
+  _yes_a_1<8:12> PROG -  
+  _yes_a_1<8:12> PERF -  
+}
+

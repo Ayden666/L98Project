@@ -1,0 +1,115 @@
+;;;
+;;; Redwoods export of `wsj18d';
+;;; (wsun@wsun; 23-jan-2018 (03:36 h)).
+;;;
+
+[21867048] (1 of 1) {1} `Continental Airlines --'
+
+[21867048:0] (active)
+
+<
+  (1, 0, 1, <0:11>, 1, "Continental", 0, "null", "NNP" 0.9898 "JJ" 0.0102)
+  (2, 1, 2, <12:20>, 1, "Airlines", 0, "null", "NNPS" 0.6375 "NNP" 0.3625)
+  (3, 2, 3, <21:23>, 1, "–", 0, "null", ":" 1.0)
+>
+
+<
+  (40, 0, 1, <0:11>, 1, "Continental", 0, "null")
+  (44, 0, 1, <0:11>, 1, "continental", 0, "null")
+  (47, 0, 1, <0:11>, 1, "continental", 0, "null")
+  (29, 1, 2, <12:20>, 1, "Airlines", 0, "null")
+  (41, 1, 2, <12:20>, 1, "Airlines", 0, "null", "NNPS" 0.6375)
+  (42, 1, 2, <12:20>, 1, "Airlines", 0, "null", "NNP" 0.3625)
+  (43, 1, 2, <12:20>, 1, "airlines", 0, "null")
+  (45, 1, 2, <12:20>, 1, "airlines", 0, "null")
+  (35, 2, 3, <21:23>, 1, "–", 0, "null")
+  (46, 2, 3, <21:23>, 1, "–", 0, "null")
+>
+
+(ROOT_FRAG
+ (385 NP_FRG_C 3.06828 0 3
+  (384 HDN_BNP-PN_C 4.21479 0 3
+   (383 NP-HDN_NME-CPD_C 4.2541 0 3
+    (380 HDN_BNP-PN_C 0.525914 0 1
+     (379 N_SG_ILR -0.226521 0 1
+      (51 continental_n1@n_-_pn_le 0.0354609 0 1
+       ("continental" 44
+        "token [ +CARG \"Continental\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"continental\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98978010000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (382 ^HD-PCT_C 3.05499 1 3
+     (381 ^N_SG_ILR 0.821742 1 2
+      (54 generic_proper_ne@n_-_pn-gen_le 0.658987 1 2
+       ("Airlines" 29
+        "token [ +CARG #1=\"Airlines\" +CLASS proper_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.63745750000000001\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (76 s_dbl_dash_pct@pt_-_s-dash_le 1.34233 2 3
+      ("–" 35
+       "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (NP (N (NP (N (N "continental"))) (N (N (N "Airlines")) (PNCT "–")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:23>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:23>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:23>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:11>
+            LBL: h14
+            ARG0: x9
+            CARG: "Continental" ]
+          [ named<12:20>
+            LBL: h8
+            ARG0: x4
+            CARG: "Airlines" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:23>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:23>[BV x4]
+ e10:compound<0:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:11>[BV x9]
+ x9:named<0:11>("Continental"){x PERS 3, NUM sg, IND +}[]
+ x4:named<12:20>("Airlines"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:23> ARG named<12:20>(Airlines)  
+  proper_q<0:23> BV named<12:20>(Airlines)  
+  compound<0:23> ARG1 named<12:20>(Airlines)  
+  compound<0:23> ARG2 named<0:11>(Continental)  
+  proper_q<0:11> BV named<0:11>(Continental)  
+  unknown<0:23> SF prop-or-ques  
+  unknown<0:23> TENSE untensed  
+  unknown<0:23> MOOD indicative  
+  unknown<0:23> PROG -  
+  unknown<0:23> PERF -  
+  compound<0:23> SF prop  
+  compound<0:23> TENSE untensed  
+  compound<0:23> MOOD indicative  
+  compound<0:23> PROG -  
+  compound<0:23> PERF -  
+  named<0:11>(Continental) PERS 3  
+  named<0:11>(Continental) NUM sg  
+  named<0:11>(Continental) IND +  
+  named<12:20>(Airlines) PERS 3  
+  named<12:20>(Airlines) NUM sg  
+  named<12:20>(Airlines) IND +  
+}
+

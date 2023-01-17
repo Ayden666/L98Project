@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:08 h)).
+;;;
+
+[21002021] (1 of 1) {1} `"Campeau has too much debt."'
+
+[21002021:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:8>, 1, "Campeau", 0, "null", "NNP" 0.9529 "NN" 0.0471)
+  (3, 2, 3, <9:12>, 1, "has", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <13:16>, 1, "too", 0, "null", "RB" 1.0)
+  (5, 4, 5, <17:21>, 1, "much", 0, "null", "JJ" 0.9378 "RB" 0.0622)
+  (6, 5, 6, <22:26>, 1, "debt", 0, "null", "NN" 1.0)
+  (7, 6, 7, <26:27>, 1, ".", 0, "null", "." 1.0)
+  (8, 7, 8, <27:28>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (90, 0, 1, <0:8>, 1, "“Campeau", 0, "null")
+  (95, 0, 1, <0:8>, 1, "“campeau", 0, "null")
+  (100, 0, 1, <0:8>, 1, "“campeau", 0, "null")
+  (81, 1, 2, <9:12>, 1, "has", 0, "null")
+  (92, 1, 2, <9:12>, 1, "has", 0, "null", "VBZ" 1.0)
+  (96, 1, 2, <9:12>, 1, "has", 0, "null")
+  (83, 2, 3, <13:16>, 1, "too", 0, "null")
+  (93, 2, 3, <13:16>, 1, "too", 0, "null", "RB" 1.0)
+  (97, 2, 3, <13:16>, 1, "too", 0, "null")
+  (86, 3, 4, <17:21>, 1, "much", 0, "null")
+  (91, 3, 4, <17:21>, 1, "much", 0, "null", "JJ" 0.9378)
+  (99, 3, 4, <17:21>, 1, "much", 0, "null")
+  (85, 4, 5, <22:28>, 1, "debt.”", 0, "null")
+  (94, 4, 5, <22:28>, 1, "debt.”", 0, "null", "NN" 1.0)
+  (98, 4, 5, <22:28>, 1, "debt.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (1107 SB-HD_MC_C 7.22985 0 5
+  (1098 HDN_BNP-PN_C -2.37548 0 1
+   (1097 W_DQLEFT_PLR -1.46672 0 1
+    (1096 N_SG_ILR -0.905594 0 1
+     (101 generic_proper_ne@n_-_pn-gen_le 0 0 1
+      ("“Campeau" 90
+       "token [ +CARG \"Campeau\" +CLASS proper_ne +FORM \"“Campeau\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95288899999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1106 ^HD-CMP_U_C 8.58827 1 5
+   (1099 ^V_3S-FIN_OLR 1.21973 1 2
+    (126 have-poss@v_np_poss_le 0.528051 1 2
+     ("has" 81
+      "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1105 HDN_BNP_C 6.76207 2 5
+    (1104 AJ-HDN_NORM_C 6.49727 2 5
+     (1100 SP-HD_HC_C 3.06726 2 4
+      (213 too_deg_nc@av_-_dg-cmp-so_le 1.4542 2 3
+       ("too" 83
+        "token [ +CARG #1=\"too\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (231 much_a1@aj_-_i-much_le 1.05701 3 4
+       ("much" 86
+        "token [ +CARG #1=\"much\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93781150000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1103 ^W_DQRIGHT_PLR 3.21075 4 5
+      (1102 W_PERIOD_PLR 1.07095 4 5
+       (1101 N_MS-CNT_ILR 0.421535 4 5
+        (261 debt_n1@n_-_mc_le 0 4 5
+         ("debt.”" 85
+          "token [ +CARG \"debt\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"debt.”\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "“Campeau"))))
+ (VP (V (V "has"))
+  (NP (N (ADJ (ADV "too") (ADJ "much")) (N (N (N (N "debt.”"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Campeau" ]
+          [ _have_v_1<9:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<13:28>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ comp_too<13:16>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: u16 ]
+          [ much-many_a<17:21>
+            LBL: h13
+            ARG0: e14
+            ARG1: x9 ]
+          [ _debt_n_1<22:28>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:8>[BV x6]
+ x6:named<0:8>("Campeau"){x PERS 3, NUM sg, IND +}[]
+ e3:_have_v_1<9:12>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<13:28>[BV x9]
+ e15:comp_too<13:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:much-many_a<17:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_debt_n_1<22:28>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:8> BV named<0:8>(Campeau)  
+  _have_v_1<9:12> ARG1 named<0:8>(Campeau)  
+  _have_v_1<9:12> ARG2 _debt_n_1<22:28>  
+  udef_q<13:28> BV _debt_n_1<22:28>  
+  comp_too<13:16> ARG1 much-many_a<17:21>  
+  much-many_a<17:21> ARG1 _debt_n_1<22:28>  
+  named<0:8>(Campeau) PERS 3  
+  named<0:8>(Campeau) NUM sg  
+  named<0:8>(Campeau) IND +  
+  _have_v_1<9:12> SF prop  
+  _have_v_1<9:12> TENSE pres  
+  _have_v_1<9:12> MOOD indicative  
+  _have_v_1<9:12> PROG -  
+  _have_v_1<9:12> PERF -  
+  comp_too<13:16> SF prop  
+  comp_too<13:16> TENSE untensed  
+  comp_too<13:16> MOOD indicative  
+  comp_too<13:16> PROG -  
+  comp_too<13:16> PERF -  
+  much-many_a<17:21> SF prop  
+  much-many_a<17:21> TENSE untensed  
+  much-many_a<17:21> MOOD indicative  
+  much-many_a<17:21> PROG -  
+  much-many_a<17:21> PERF -  
+  _debt_n_1<22:28> PERS 3  
+  _debt_n_1<22:28> NUM sg  
+}
+

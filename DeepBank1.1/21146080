@@ -1,0 +1,74 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:29 h)).
+;;;
+
+[21146080] (1 of 1) {1} `No phones.'
+
+[21146080:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "No", 0, "null", "DT" 0.9611 "RB" 0.0203 "NNP" 0.0186)
+  (2, 1, 2, <3:9>, 1, "phones", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <9:10>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (38, 0, 1, <0:2>, 1, "no", 0, "null")
+  (40, 0, 1, <0:2>, 1, "no", 0, "null")
+  (34, 1, 2, <3:10>, 1, "phones.", 0, "null")
+  (37, 1, 2, <3:10>, 1, "phones.", 0, "null", "NNS" 1.0)
+  (39, 1, 2, <3:10>, 1, "phones.", 0, "null")
+>
+
+(ROOT_FRAG
+ (117 NP_FRG_C -1.12632 0 2
+  (116 SP-HD_N_C -0.119408 0 2
+   (41 no_det@d_-_no_le 0.475405 0 1
+    ("no" 38
+     "token [ +CARG \"No\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"no\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96111530000000001\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (115 ^W_PERIOD_PLR -0.594813 1 2
+    (114 N_PL_OLR -0.264495 1 2
+     (51 phone_n1@n_-_c-ns_le 0 1 2
+      ("phones." 34
+       "token [ +CARG \"phones\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"phones.\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (DET "no") (N (N (N "phones.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:10>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _no_q<0:2>
+            LBL: h5
+            ARG0: x4
+            RSTR: h7
+            BODY: h6 ]
+          [ _phone_n_1<3:10>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:_no_q<0:2>[BV x4]
+ x4:_phone_n_1<3:10>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:10> ARG _phone_n_1<3:10>  
+  _no_q<0:2> BV _phone_n_1<3:10>  
+  unknown<0:10> SF prop  
+  unknown<0:10> TENSE untensed  
+  unknown<0:10> MOOD indicative  
+  unknown<0:10> PROG -  
+  unknown<0:10> PERF -  
+  _phone_n_1<3:10> PERS 3  
+  _phone_n_1<3:10> NUM pl  
+  _phone_n_1<3:10> IND +  
+}
+

@@ -1,0 +1,216 @@
+;;;
+;;; Redwoods export of `wsj14b';
+;;; (wsun@wsun; 22-jan-2018 (23:16 h)).
+;;;
+
+[21438012] (1 of 1) {1} `Aldus, Seattle, makes computer software products.'
+
+[21438012:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Aldus", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:6>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <7:14>, 1, "Seattle", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <14:15>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <16:21>, 1, "makes", 0, "null", "VBZ" 1.0)
+  (6, 5, 6, <22:30>, 1, "computer", 0, "null", "NN" 1.0)
+  (7, 6, 7, <31:39>, 1, "software", 0, "null", "NN" 1.0)
+  (8, 7, 8, <40:48>, 1, "products", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <48:49>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (100, 0, 1, <0:6>, 1, "Aldus,", 0, "null")
+  (106, 0, 1, <0:6>, 1, "aldus,", 0, "null")
+  (113, 0, 1, <0:6>, 1, "aldus,", 0, "null")
+  (86, 1, 2, <7:15>, 1, "Seattle,", 0, "null")
+  (104, 1, 2, <7:15>, 1, "Seattle,", 0, "null", "NNP" 1.0)
+  (107, 1, 2, <7:15>, 1, "seattle,", 0, "null")
+  (108, 1, 2, <7:15>, 1, "seattle,", 0, "null")
+  (89, 2, 3, <16:21>, 1, "makes", 0, "null")
+  (101, 2, 3, <16:21>, 1, "makes", 0, "null", "VBZ" 1.0)
+  (109, 2, 3, <16:21>, 1, "makes", 0, "null")
+  (91, 3, 4, <22:30>, 1, "computer", 0, "null")
+  (102, 3, 4, <22:30>, 1, "computer", 0, "null", "NN" 1.0)
+  (110, 3, 4, <22:30>, 1, "computer", 0, "null")
+  (93, 4, 5, <31:39>, 1, "software", 0, "null")
+  (103, 4, 5, <31:39>, 1, "software", 0, "null", "NN" 1.0)
+  (111, 4, 5, <31:39>, 1, "software", 0, "null")
+  (99, 5, 6, <40:49>, 1, "products.", 0, "null")
+  (105, 5, 6, <40:49>, 1, "products.", 0, "null", "NNS" 1.0)
+  (112, 5, 6, <40:49>, 1, "products.", 0, "null")
+>
+
+(ROOT_STRICT
+ (986 SB-HD_MC_C 4.7745 0 6
+  (978 HDN_BNP-PN_C 1.86187 0 2
+   (977 NP-HDN_CTY-CPD_C 1.7977 0 2
+    (974 HDN_BNP-PN_C 0.710257 0 1
+     (973 W_COMMA_PLR -0.118892 0 1
+      (972 N_SG_ILR -0.461604 0 1
+       (119 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Aldus," 100
+         "token [ +CARG \"Aldus\" +CLASS proper_ne +FORM \"Aldus,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (976 ^W_COMMA_PLR 0.622082 1 2
+     (975 N_SG_ILR -0.529242 1 2
+      (150 seattle_n1@n_-_pn_le 0 1 2
+       ("seattle," 107
+        "token [ +CARG \"Seattle\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"seattle,\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (985 ^HD-CMP_U_C 1.89558 2 6
+   (979 ^V_3S-FIN_OLR 1.15161 2 3
+    (199 make_v1@v_np_noarg3_le 1.36195 2 3
+     ("makes" 89
+      "token [ +CARG #1=\"makes\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (984 HDN_BNP_C 0.137499 3 6
+    (983 N-HDN_CPD_C 0.546608 3 6
+     (980 N-HDN_CPD_C 1.20597 3 5
+      (217 computer_n1@n_-_c_le 0.91193 3 4
+       ("computer" 91
+        "token [ +CARG #1=\"computer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (219 software_n1@n_-_m_le 0.00579116 4 5
+       ("software" 93
+        "token [ +CARG #1=\"software\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (982 ^W_PERIOD_PLR -0.509597 5 6
+      (981 N_PL_OLR -0.0400439 5 6
+       (223 product_n1@n_-_mc_le 0 5 6
+        ("products." 99
+         "token [ +CARG \"products\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"products.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (NP (N (N (N "Aldus,")))) (N (N (N "seattle,")))))
+ (VP (V (V "makes"))
+  (NP (N (N (N "computer") (N "software")) (N (N (N "products.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:15>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Aldus" ]
+          [ named<7:15>
+            LBL: h8
+            ARG0: x6
+            CARG: "Seattle" ]
+          [ _make_v_1<16:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: PL ]
+            ARG3: u15 ]
+          [ udef_q<22:49>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ compound<22:49>
+            LBL: h20
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x21 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<22:39>
+            LBL: h23
+            ARG0: x21
+            RSTR: h24
+            BODY: h25 ]
+          [ compound<22:39>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x21
+            ARG2: x27 [ x IND: + ] ]
+          [ udef_q<22:30>
+            LBL: h29
+            ARG0: x27
+            RSTR: h30
+            BODY: h31 ]
+          [ _computer_n_1<22:30>
+            LBL: h32
+            ARG0: x27 ]
+          [ _software_n_1<31:39>
+            LBL: h26
+            ARG0: x21 ]
+          [ _product_n_1<40:49>
+            LBL: h20
+            ARG0: x16 ] >
+   HCONS: < h30 QEQ h32 h24 QEQ h26 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:15>[BV x6]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Aldus"){x PERS 3, NUM sg, IND +}[]
+ x6:named<7:15>("Seattle"){x PERS 3, NUM sg, IND +}[]
+ e3:_make_v_1-fn.Intentionally_create<16:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Creator x6, ARG2-fn.Created_entity x16]
+ _3:udef_q<22:49>[BV x16]
+ e22:compound<22:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x21]
+ _4:udef_q<22:39>[BV x21]
+ e28:compound<22:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x21, ARG2 x27]
+ _5:udef_q<22:30>[BV x27]
+ x27:_computer_n_1<22:30>{x IND +}[]
+ x21:_software_n_1<31:39>{x PERS 3, NUM sg, IND -}[]
+ x16:_product_n_1<40:49>{x PERS 3, NUM pl}[]
+}
+
+{
+  proper_q<0:15> BV named<7:15>(Seattle)  
+  compound<0:15> ARG1 named<7:15>(Seattle)  
+  compound<0:15> ARG2 named<0:6>(Aldus)  
+  proper_q<0:6> BV named<0:6>(Aldus)  
+  _make_v_1<16:21> ARG1 named<7:15>(Seattle)  
+  _make_v_1<16:21> ARG2 _product_n_1<40:49>  
+  udef_q<22:49> BV _product_n_1<40:49>  
+  compound<22:49> ARG1 _product_n_1<40:49>  
+  compound<22:49> ARG2 _software_n_1<31:39>  
+  udef_q<22:39> BV _software_n_1<31:39>  
+  compound<22:39> ARG1 _software_n_1<31:39>  
+  compound<22:39> ARG2 _computer_n_1<22:30>  
+  udef_q<22:30> BV _computer_n_1<22:30>  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  named<0:6>(Aldus) PERS 3  
+  named<0:6>(Aldus) NUM sg  
+  named<0:6>(Aldus) IND +  
+  named<7:15>(Seattle) PERS 3  
+  named<7:15>(Seattle) NUM sg  
+  named<7:15>(Seattle) IND +  
+  _make_v_1<16:21> SF prop  
+  _make_v_1<16:21> TENSE pres  
+  _make_v_1<16:21> MOOD indicative  
+  _make_v_1<16:21> PROG -  
+  _make_v_1<16:21> PERF -  
+  compound<22:49> SF prop  
+  compound<22:49> TENSE untensed  
+  compound<22:49> MOOD indicative  
+  compound<22:49> PROG -  
+  compound<22:49> PERF -  
+  compound<22:39> SF prop  
+  compound<22:39> TENSE untensed  
+  compound<22:39> MOOD indicative  
+  compound<22:39> PROG -  
+  compound<22:39> PERF -  
+  _computer_n_1<22:30> IND +  
+  _software_n_1<31:39> PERS 3  
+  _software_n_1<31:39> NUM sg  
+  _software_n_1<31:39> IND -  
+  _product_n_1<40:49> PERS 3  
+  _product_n_1<40:49> NUM pl  
+}
+

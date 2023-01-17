@@ -1,0 +1,137 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (22:59 h)).
+;;;
+
+[21412003] (1 of 1) {1} `Was not the title very clear?'
+
+[21412003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Was", 0, "null", "VBD" 1.0)
+  (2, 1, 2, <4:7>, 1, "not", 0, "null", "RB" 1.0)
+  (3, 2, 3, <8:11>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <12:17>, 1, "title", 0, "null", "NN" 1.0)
+  (5, 4, 5, <18:22>, 1, "very", 0, "null", "RB" 1.0)
+  (6, 5, 6, <23:28>, 1, "clear", 0, "null", "JJ" 0.8965 "RB" 0.0525 "VB" 0.051)
+  (7, 6, 7, <28:29>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (82, 0, 1, <0:3>, 1, "Was", 0, "null", "VBD" 1.0)
+  (86, 0, 1, <0:3>, 1, "was", 0, "null")
+  (92, 0, 1, <0:3>, 1, "was", 0, "null")
+  (72, 1, 2, <4:7>, 1, "not", 0, "null")
+  (83, 1, 2, <4:7>, 1, "not", 0, "null", "RB" 1.0)
+  (87, 1, 2, <4:7>, 1, "not", 0, "null")
+  (74, 2, 3, <8:11>, 1, "the", 0, "null")
+  (88, 2, 3, <8:11>, 1, "the", 0, "null")
+  (76, 3, 4, <12:17>, 1, "title", 0, "null")
+  (84, 3, 4, <12:17>, 1, "title", 0, "null", "NN" 1.0)
+  (89, 3, 4, <12:17>, 1, "title", 0, "null")
+  (78, 4, 5, <18:22>, 1, "very", 0, "null")
+  (85, 4, 5, <18:22>, 1, "very", 0, "null", "RB" 1.0)
+  (90, 4, 5, <18:22>, 1, "very", 0, "null")
+  (79, 5, 6, <23:29>, 1, "clear?", 0, "null")
+  (81, 5, 6, <23:29>, 1, "clear?", 0, "null", "JJ" 0.8965)
+  (91, 5, 6, <23:29>, 1, "clear?", 0, "null")
+>
+
+(ROOT_STRICT
+ (1059 HD_YESNO_C 2.73058 0 6
+  (1058 HD-CMP_U_C 2.75118 0 6
+   (1054 ^HD-CMP_U_C 0.787766 0 4
+    (1049 ^V_AUX-SB-INV_DLR 1.22876 0 1
+     (102 be_c_was@v_prd_was_le 0.699345 0 1
+      ("was" 86
+       "token [ +CARG \"Was\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"was\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1053 SP-HD_N_C -0.977555 1 4
+     (1050 SP-HD_HC_C -1.83405 1 3
+      (153 not_deg@av_-_dg-det_le -1.09419 1 2
+       ("not" 72
+        "token [ +CARG #1=\"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (268 the_1@d_-_the_le -0.187087 2 3
+       ("the" 74
+        "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1052 ^HDN_OPTCMP_C 0.721556 3 4
+      (1051 N_SG_ILR 1.07191 3 4
+       (293 title_n1@n_pp_c-of_le 0 3 4
+        ("title" 76
+         "token [ +CARG #1=\"title\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (1057 SP-HD_HC_C 1.64849 4 6
+    (297 very@av_-_dg-v_le 1.06286 4 5
+     ("very" 78
+      "token [ +CARG #1=\"very\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1056 ^HD_OPTCMP_C 0 5 6
+     (1055 W_QMARK_PLR 0 5 6
+      (300 clear_a1@aj_pp_i_le 0 5 6
+       ("clear?" 79
+        "token [ +CARG \"clear\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"clear?\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.89645779999999997\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S
+  (V (V (V "was"))
+   (NP (DET (ADV "not") (DET "the")) (N (N (N "title")))))
+  (AP (ADV "very") (AP (ADJ (ADJ "clear?"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _not_x_deg<4:7>
+            LBL: h4
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u6 ]
+          [ _the_q<8:11>
+            LBL: h4
+            ARG0: x8 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h9
+            BODY: h7 ]
+          [ _title_n_of<12:17>
+            LBL: h10
+            ARG0: x8
+            ARG1: i11 ]
+          [ _very_x_deg<18:22>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _clear_a_of<23:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x8
+            ARG2: i13 ] >
+   HCONS: < h9 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:_not_x_deg<4:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 _1]
+ _1:_the_q<8:11>[BV x8]
+ x8:_title_n_of<12:17>{x PERS 3, NUM sg, IND +}[]
+ e12:_very_x_deg<18:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_clear_a_of<23:29>{e SF ques, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+}
+
+{
+  _not_x_deg<4:7> ARG1 _the_q<8:11>  
+  _the_q<8:11> BV _title_n_of<12:17>  
+  _very_x_deg<18:22> ARG1 _clear_a_of<23:29>  
+  _clear_a_of<23:29> ARG1 _title_n_of<12:17>  
+  _not_x_deg<4:7> SF prop  
+  _not_x_deg<4:7> TENSE untensed  
+  _not_x_deg<4:7> MOOD indicative  
+  _not_x_deg<4:7> PROG -  
+  _not_x_deg<4:7> PERF -  
+  _title_n_of<12:17> PERS 3  
+  _title_n_of<12:17> NUM sg  
+  _title_n_of<12:17> IND +  
+  _very_x_deg<18:22> SF prop  
+  _very_x_deg<18:22> TENSE untensed  
+  _very_x_deg<18:22> MOOD indicative  
+  _very_x_deg<18:22> PROG -  
+  _very_x_deg<18:22> PERF -  
+  _clear_a_of<23:29> SF ques  
+  _clear_a_of<23:29> TENSE past  
+  _clear_a_of<23:29> MOOD indicative  
+  _clear_a_of<23:29> PROG -  
+  _clear_a_of<23:29> PERF -  
+}
+

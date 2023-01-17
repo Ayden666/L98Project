@@ -1,0 +1,140 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:40 h)).
+;;;
+
+[20400066] (1 of 1) {1} `Mortgage-Backed Securities'
+
+[20400066:0] (active)
+
+<
+  (1, 0, 1, <0:15>, 1, "Mortgage-Backed", 0, "null", "JJ" 0.5784 "NNP" 0.4216)
+  (2, 1, 2, <16:26>, 1, "Securities", 0, "null", "NNS" 0.4241 "NNP" 0.3311 "NNPS" 0.2448)
+>
+
+<
+  (42, 0, 1, <0:15>, 1, "Mortgage-", 0, "null")
+  (48, 0, 1, <0:15>, 1, "mortgage-", 0, "null")
+  (53, 0, 1, <0:15>, 1, "mortgage-", 0, "null")
+  (29, 1, 2, <0:15>, 1, "Backed", 0, "null")
+  (44, 1, 2, <0:15>, 1, "Backed", 0, "null", "JJ" 0.5784)
+  (46, 1, 2, <0:15>, 1, "Backed", 0, "null", "NNP" 0.4216)
+  (50, 1, 2, <0:15>, 1, "backed", 0, "null")
+  (52, 1, 2, <0:15>, 1, "backed", 0, "null")
+  (28, 2, 3, <16:26>, 1, "Securities", 0, "null")
+  (43, 2, 3, <16:26>, 1, "Securities", 0, "null", "NNS" 0.4241)
+  (45, 2, 3, <16:26>, 1, "Securities", 0, "null", "NNP" 0.3311)
+  (47, 2, 3, <16:26>, 1, "Securities", 0, "null", "NNPS" 0.2448)
+  (49, 2, 3, <16:26>, 1, "securities", 0, "null")
+  (51, 2, 3, <16:26>, 1, "securities", 0, "null")
+>
+
+(ROOT_FRAG
+ (1133 NP_FRG_C 2.79496 0 3
+  (1132 HDN_BNP_C 2.99937 0 3
+   (1131 AJ-HDN_NORM_C 3.13472 0 3
+    (1129 XP_BRCK-PR_C 2.14068 0 2
+     (1128 N-V_J-CPD_C 2.20538 0 2
+      (1126 W_HYPHEN_PLR 1.29625 0 1
+       (58 mortgage_n1@n_-_mc_le 0 0 1
+        ("mortgage-" 48
+         "token [ +CARG \"Mortgage-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mortgage-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (1127 ^V_PAS_ODLR -0.658819 1 2
+       (231 back_v1@v_np_le 0.330264 1 2
+        ("backed" 50
+         "token [ +CARG \"Backed\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"backed\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.57842629999999995\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]")))))
+    (1130 ^N_PL_OLR 0.434963 2 3
+     (518 security_n1@n_-_mc_le 0.619489 2 3
+      ("securities" 49
+       "token [ +CARG \"Securities\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"securities\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.42407990000000001\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (NP
+  (N (AP (AP (N (N "mortgage-")) (V (V "backed"))))
+   (N (N "securities")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:26>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:26>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG2: x10 ]
+          [ udef_q<0:15>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _mortgage_n_1<0:15>
+            LBL: h15
+            ARG0: x10 ]
+          [ _back_v_1<0:15>
+            LBL: h8
+            ARG0: e9
+            ARG1: i16
+            ARG2: x4 ]
+          [ parg_d<0:15>
+            LBL: h8
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e9
+            ARG2: x4 ]
+          [ _security_n_1<16:26>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h13 QEQ h15 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:26>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:26>[BV x4]
+ e11:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x10]
+ _2:udef_q<0:15>[BV x10]
+ x10:_mortgage_n_1<0:15>{x}[]
+ e9:_back_v_1<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x4]
+ e17:parg_d<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e9, ARG2 x4]
+ x4:_security_n_1<16:26>{x PERS 3, NUM pl}[]
+}
+
+{
+  unknown<0:26> ARG _security_n_1<16:26>  
+  udef_q<0:26> BV _security_n_1<16:26>  
+  compound<0:15> ARG1 _back_v_1<0:15>  
+  compound<0:15> ARG2 _mortgage_n_1<0:15>  
+  udef_q<0:15> BV _mortgage_n_1<0:15>  
+  _back_v_1<0:15> ARG2 _security_n_1<16:26>  
+  parg_d<0:15> ARG1 _back_v_1<0:15>  
+  parg_d<0:15> ARG2 _security_n_1<16:26>  
+  unknown<0:26> SF prop-or-ques  
+  unknown<0:26> TENSE untensed  
+  unknown<0:26> MOOD indicative  
+  unknown<0:26> PROG -  
+  unknown<0:26> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  _back_v_1<0:15> SF prop  
+  _back_v_1<0:15> TENSE untensed  
+  _back_v_1<0:15> MOOD indicative  
+  _back_v_1<0:15> PROG -  
+  _back_v_1<0:15> PERF -  
+  parg_d<0:15> SF prop  
+  parg_d<0:15> TENSE untensed  
+  parg_d<0:15> MOOD indicative  
+  parg_d<0:15> PROG -  
+  parg_d<0:15> PERF -  
+  _security_n_1<16:26> PERS 3  
+  _security_n_1<16:26> NUM pl  
+}
+

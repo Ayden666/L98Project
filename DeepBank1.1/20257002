@@ -1,0 +1,86 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:22 h)).
+;;;
+
+[20257002] (1 of 1) {1} `It's also unnecessary.'
+
+[20257002:1] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9898 "VBP" 0.0102)
+  (3, 2, 3, <5:9>, 1, "also", 0, "null", "RB" 1.0)
+  (4, 3, 4, <10:21>, 1, "unnecessary", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <21:22>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:2>, 1, "it", 0, "null")
+  (64, 0, 1, <0:2>, 1, "it", 0, "null")
+  (55, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (57, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9898)
+  (63, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (52, 2, 3, <5:9>, 1, "also", 0, "null")
+  (58, 2, 3, <5:9>, 1, "also", 0, "null", "RB" 1.0)
+  (61, 2, 3, <5:9>, 1, "also", 0, "null")
+  (54, 3, 4, <10:22>, 1, "unnecessary.", 0, "null")
+  (59, 3, 4, <10:22>, 1, "unnecessary.", 0, "null", "JJ" 1.0)
+  (62, 3, 4, <10:22>, 1, "unnecessary.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (718 SB-HD_MC_C 3.27977 0 4
+  (65 it@n_-_pr-it-x_le 1.03696 0 1
+   ("it" 60
+    "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (717 ^HD-CMP_U_C 1.48377 1 4
+   (89 be_c_is_cx_3@v_prd_is-cx_le 0.106447 1 2
+    ("’s" 55
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98979249999999996\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (716 AJ-HD_SCP-XP_C 1.13069 2 4
+    (240 also_adv1@av_-_s-vp-x_le -0.0123147 2 3
+     ("also" 52
+      "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (715 ^HD_OPTCMP_C -0.136236 3 4
+     (714 W_PERIOD_PLR 0 3 4
+      (266 unnecessary_a4@aj_cp_i-bse_le 0 3 4
+       ("unnecessary." 54
+        "token [ +CARG \"unnecessary\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"unnecessary.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP-X "it")
+ (VP (V "’s") (AP (ADV "also") (AP (ADJ (ADJ "unnecessary."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _also_a_1<5:9>
+            LBL: h2
+            ARG0: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h5 ]
+          [ _unnecessary_a_for<10:22>
+            LBL: h6
+            ARG0: e3
+            ARG1: h7 ] >
+   HCONS: < h7 QEQ u h5 QEQ h6 h1 QEQ h2 > ]
+
+{e4:
+ e4:_also_a_1<5:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_unnecessary_a_for<10:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  _also_a_1<5:9> ARG1 _unnecessary_a_for<10:22>  
+  _also_a_1<5:9> SF prop  
+  _also_a_1<5:9> TENSE untensed  
+  _also_a_1<5:9> MOOD indicative  
+  _also_a_1<5:9> PROG -  
+  _also_a_1<5:9> PERF -  
+  _unnecessary_a_for<10:22> SF prop  
+  _unnecessary_a_for<10:22> TENSE pres  
+  _unnecessary_a_for<10:22> MOOD indicative  
+  _unnecessary_a_for<10:22> PROG -  
+  _unnecessary_a_for<10:22> PERF -  
+}
+

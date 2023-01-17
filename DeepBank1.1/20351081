@@ -1,0 +1,178 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:25 h)).
+;;;
+
+[20351081] (1 of 1) {1} `Japanese government bonds showed little change.'
+
+[20351081:1] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Japanese", 0, "null", "JJ" 0.9858 "NNP" 0.0142)
+  (2, 1, 2, <9:19>, 1, "government", 0, "null", "NN" 1.0)
+  (3, 2, 3, <20:25>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <26:32>, 1, "showed", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <33:39>, 1, "little", 0, "null", "JJ" 0.7725 "RB" 0.2275)
+  (6, 5, 6, <40:46>, 1, "change", 0, "null", "NN" 0.8224 "VB" 0.1776)
+  (7, 6, 7, <46:47>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (83, 0, 1, <0:8>, 1, "Japanese", 0, "null", "JJ" 0.9858)
+  (91, 0, 1, <0:8>, 1, "japanese", 0, "null")
+  (97, 0, 1, <0:8>, 1, "japanese", 0, "null")
+  (72, 1, 2, <9:19>, 1, "government", 0, "null")
+  (86, 1, 2, <9:19>, 1, "government", 0, "null", "NN" 1.0)
+  (92, 1, 2, <9:19>, 1, "government", 0, "null")
+  (74, 2, 3, <20:25>, 1, "bonds", 0, "null")
+  (87, 2, 3, <20:25>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (93, 2, 3, <20:25>, 1, "bonds", 0, "null")
+  (76, 3, 4, <26:32>, 1, "showed", 0, "null")
+  (88, 3, 4, <26:32>, 1, "showed", 0, "null", "VBD" 1.0)
+  (94, 3, 4, <26:32>, 1, "showed", 0, "null")
+  (79, 4, 5, <33:39>, 1, "little", 0, "null")
+  (84, 4, 5, <33:39>, 1, "little", 0, "null", "JJ" 0.7725)
+  (89, 4, 5, <33:39>, 1, "little", 0, "null", "RB" 0.2275)
+  (95, 4, 5, <33:39>, 1, "little", 0, "null")
+  (81, 5, 6, <40:47>, 1, "change.", 0, "null")
+  (85, 5, 6, <40:47>, 1, "change.", 0, "null", "NN" 0.8224)
+  (90, 5, 6, <40:47>, 1, "change.", 0, "null", "VB" 0.1776)
+  (96, 5, 6, <40:47>, 1, "change.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3253 SB-HD_MC_C 8.54705 0 6
+  (3241 HDN_BNP_C 4.96698 0 3
+   (3240 AJ-HDN_NORM_C 4.23248 0 3
+    (99 japanese_a1@aj_-_i_le 0.565559 0 1
+     ("japanese" 91
+      "token [ +CARG \"Japanese\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"japanese\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98580210000000001\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3239 ^N-HDN_CPD_C 2.77504 1 3
+     (3237 HDN_OPTCMP_C 0.891935 1 2
+      (107 government_n1@n_pp_mc-of_le 0.21377 1 2
+       ("government" 72
+        "token [ +CARG #1=\"government\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (3238 ^N_PL_OLR 1.74283 2 3
+      (109 bond_n2@n_-_c_le 1.40586 2 3
+       ("bonds" 74
+        "token [ +CARG #1=\"bonds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (3252 ^HD-CMP_U_C 2.06416 3 6
+   (3242 ^V_PST_OLR 1.39884 3 4
+    (147 show_v2@v_np*_le 1.09207 3 4
+     ("showed" 76
+      "token [ +CARG #1=\"showed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (3251 HDN_BNP_C -0.254859 4 6
+    (3250 AJ-HDN_NORM_C -0.519664 4 6
+     (344 little_a2@aj_-_i-er_le -0.478745 4 5
+      ("little" 79
+       "token [ +CARG #1=\"little\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77245079999999999\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3245 ^HDN_OPTCMP_C 0.0607334 5 6
+      (3244 W_PERIOD_PLR 0.0222015 5 6
+       (3243 N_MS-CNT_ILR -0.406151 5 6
+        (364 change_n1@n_pp_mc-of_le 0 5 6
+         ("change." 81
+          "token [ +CARG \"change\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"change.\" +FROM #1=\"40\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.8223857\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"47\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (AP "japanese") (N (N (N "government")) (N (N "bonds")))))
+ (VP (V (V "showed")) (NP (N (AP "little") (N (N (N (N "change."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:25>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _japanese_a_1<0:8>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ compound<9:25>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 ]
+          [ udef_q<9:19>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _government_n_of<9:19>
+            LBL: h15
+            ARG0: x10
+            ARG1: i16 ]
+          [ _bond_n_1<20:25>
+            LBL: h8
+            ARG0: x6 ]
+          [ _show_v_1<26:32>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x17 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<33:47>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ _little_a_1<33:39>
+            LBL: h21
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17 ]
+          [ _change_n_of<40:47>
+            LBL: h21
+            ARG0: x17
+            ARG1: i23 ] >
+   HCONS: < h19 QEQ h21 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:25>[BV x6]
+ e9:_japanese_a_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:compound<9:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<9:19>[BV x10]
+ x10:_government_n_of<9:19>{x}[]
+ x6:_bond_n_1<20:25>{x PERS 3, NUM pl, IND +}[]
+ e3:_show_v_1<26:32>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x17]
+ _3:udef_q<33:47>[BV x17]
+ e22:_little_a_1<33:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+ x17:_change_n_of<40:47>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:25> BV _bond_n_1<20:25>  
+  _japanese_a_1<0:8> ARG1 _bond_n_1<20:25>  
+  compound<9:25> ARG1 _bond_n_1<20:25>  
+  compound<9:25> ARG2 _government_n_of<9:19>  
+  udef_q<9:19> BV _government_n_of<9:19>  
+  _show_v_1<26:32> ARG1 _bond_n_1<20:25>  
+  _show_v_1<26:32> ARG2 _change_n_of<40:47>  
+  udef_q<33:47> BV _change_n_of<40:47>  
+  _little_a_1<33:39> ARG1 _change_n_of<40:47>  
+  _japanese_a_1<0:8> SF prop  
+  _japanese_a_1<0:8> TENSE untensed  
+  _japanese_a_1<0:8> MOOD indicative  
+  _japanese_a_1<0:8> PROG -  
+  _japanese_a_1<0:8> PERF -  
+  compound<9:25> SF prop  
+  compound<9:25> TENSE untensed  
+  compound<9:25> MOOD indicative  
+  compound<9:25> PROG -  
+  compound<9:25> PERF -  
+  _bond_n_1<20:25> PERS 3  
+  _bond_n_1<20:25> NUM pl  
+  _bond_n_1<20:25> IND +  
+  _show_v_1<26:32> SF prop  
+  _show_v_1<26:32> TENSE past  
+  _show_v_1<26:32> MOOD indicative  
+  _show_v_1<26:32> PROG -  
+  _show_v_1<26:32> PERF -  
+  _little_a_1<33:39> SF prop  
+  _little_a_1<33:39> TENSE untensed  
+  _little_a_1<33:39> MOOD indicative  
+  _little_a_1<33:39> PROG -  
+  _little_a_1<33:39> PERF -  
+  _change_n_of<40:47> PERS 3  
+  _change_n_of<40:47> NUM sg  
+}
+

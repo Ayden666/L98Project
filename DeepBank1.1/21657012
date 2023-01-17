@@ -1,0 +1,161 @@
+;;;
+;;; Redwoods export of `wsj16d';
+;;; (wsun@wsun; 23-jan-2018 (01:33 h)).
+;;;
+
+[21657012] (1 of 1) {1} `However, Mr. Ortega was included.'
+
+[21657012:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "However", 0, "null", "RB" 1.0)
+  (2, 1, 2, <7:8>, 1, ",", 0, "null", "," 1.0)
+  (3, 2, 3, <9:12>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <13:19>, 1, "Ortega", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <20:23>, 1, "was", 0, "null", "VBD" 1.0)
+  (6, 5, 6, <24:32>, 1, "included", 0, "null", "VBN" 0.91 "VBD" 0.09)
+  (7, 6, 7, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (86, 0, 1, <0:8>, 1, "However,", 0, "null", "RB" 1.0)
+  (89, 0, 1, <0:8>, 1, "however,", 0, "null")
+  (96, 0, 1, <0:8>, 1, "however,", 0, "null")
+  (67, 1, 2, <9:12>, 1, "Mr.", 0, "null")
+  (84, 1, 2, <9:12>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (88, 1, 2, <9:12>, 1, "mr.", 0, "null")
+  (91, 1, 2, <9:12>, 1, "mr.", 0, "null")
+  (66, 2, 3, <13:19>, 1, "Ortega", 0, "null")
+  (83, 2, 3, <13:19>, 1, "Ortega", 0, "null", "NNP" 1.0)
+  (87, 2, 3, <13:19>, 1, "ortega", 0, "null")
+  (90, 2, 3, <13:19>, 1, "ortega", 0, "null")
+  (77, 3, 4, <20:23>, 1, "was", 0, "null")
+  (85, 3, 4, <20:23>, 1, "was", 0, "null", "VBD" 1.0)
+  (92, 3, 4, <20:23>, 1, "was", 0, "null")
+  (80, 4, 5, <24:33>, 1, "included.", 0, "null")
+  (82, 4, 5, <24:33>, 1, "included.", 0, "null", "VBN" 0.91)
+  (93, 4, 5, <24:33>, 1, "included.", 0, "null")
+>
+
+(ROOT_STRICT
+ (997 AJ-HD_SCP_C 11.3815 0 5
+  (987 W_COMMA_PLR 2.14759 0 1
+   (104 however_adv1@av_-_s-cp-pr_le 0.0950796 0 1
+    ("however," 89
+     "token [ +CARG \"However\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"however,\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (996 ^SB-HD_MC_C 7.85333 1 5
+   (991 HDN_BNP-PN_C 3.49764 1 3
+    (990 NP-HDN_TTL-CPD_C 3.17593 1 3
+     (988 N_SG_ILR 2.02901 1 2
+      (125 mister_abb_n2@n_-_c-nochd_le 0.509922 1 2
+       ("mr." 88
+        "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"mr.\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (989 ^N_SG_ILR -0.259177 2 3
+      (128 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("Ortega" 66
+        "token [ +CARG #1=\"Ortega\" +CLASS proper_ne +FORM #1 +FROM \"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (995 ^HD-CMP_U_C 2.92447 3 5
+    (134 be_c_was@v_prd_was_le 2.0009 3 4
+     ("was" 77
+      "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (994 HD_OPTCMP_C 0.772703 4 5
+     (993 W_PERIOD_PLR 0.621276 4 5
+      (992 V_PAS_ODLR 0.295437 4 5
+       (168 include_v1@v_np_le 0 4 5
+        ("included." 80
+         "token [ +CARG \"included\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"included.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.90995740000000003\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (ADV (ADV "however,"))
+ (S (NP (N (N (N "mr.")) (N (N "Ortega"))))
+  (VP (V "was") (VP (V (V (V "included.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _however_a_1<0:8>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ proper_q<9:19>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h9 ]
+          [ compound<9:19>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<9:12>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _mister_n_1<9:12>
+            LBL: h16
+            ARG0: x11 ]
+          [ named<13:19>
+            LBL: h10
+            ARG0: x8
+            CARG: "Ortega" ]
+          [ _include_v_1<24:33>
+            LBL: h17
+            ARG0: e3
+            ARG1: i18
+            ARG2: x8 ]
+          [ parg_d<24:33>
+            LBL: h17
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x8 ] >
+   HCONS: < h14 QEQ h16 h7 QEQ h10 h4 QEQ h17 h1 QEQ h2 > ]
+
+{e5:
+ e5:_however_a_1<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ _1:proper_q<9:19>[BV x8]
+ e12:compound<9:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x11]
+ _2:udef_q<9:12>[BV x11]
+ x11:_mister_n_1<9:12>{x PERS 3, NUM sg, IND +}[]
+ x8:named<13:19>("Ortega"){x PERS 3, NUM sg, IND +}[]
+ e3:_include_v_1<24:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x8]
+ e19:parg_d<24:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x8]
+}
+
+{
+  _however_a_1<0:8> ARG1 _include_v_1<24:33>  
+  proper_q<9:19> BV named<13:19>(Ortega)  
+  compound<9:19> ARG1 named<13:19>(Ortega)  
+  compound<9:19> ARG2 _mister_n_1<9:12>  
+  udef_q<9:12> BV _mister_n_1<9:12>  
+  _include_v_1<24:33> ARG2 named<13:19>(Ortega)  
+  parg_d<24:33> ARG1 _include_v_1<24:33>  
+  parg_d<24:33> ARG2 named<13:19>(Ortega)  
+  _however_a_1<0:8> SF prop  
+  _however_a_1<0:8> TENSE untensed  
+  _however_a_1<0:8> MOOD indicative  
+  _however_a_1<0:8> PROG -  
+  _however_a_1<0:8> PERF -  
+  compound<9:19> SF prop  
+  compound<9:19> TENSE untensed  
+  compound<9:19> MOOD indicative  
+  compound<9:19> PROG -  
+  compound<9:19> PERF -  
+  _mister_n_1<9:12> PERS 3  
+  _mister_n_1<9:12> NUM sg  
+  _mister_n_1<9:12> IND +  
+  named<13:19>(Ortega) PERS 3  
+  named<13:19>(Ortega) NUM sg  
+  named<13:19>(Ortega) IND +  
+  _include_v_1<24:33> SF prop  
+  _include_v_1<24:33> TENSE past  
+  _include_v_1<24:33> MOOD indicative  
+  _include_v_1<24:33> PROG -  
+  _include_v_1<24:33> PERF -  
+  parg_d<24:33> SF prop  
+  parg_d<24:33> TENSE untensed  
+  parg_d<24:33> MOOD indicative  
+  parg_d<24:33> PROG -  
+  parg_d<24:33> PERF -  
+}
+

@@ -1,0 +1,101 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:19 h)).
+;;;
+
+[20455021] (1 of 1) {1} `Government Contractors'
+
+[20455021:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Government", 0, "null", "NNP" 0.5863 "NN" 0.4137)
+  (2, 1, 2, <11:22>, 1, "Contractors", 0, "null", "NNS" 1.0)
+>
+
+<
+  (27, 0, 1, <0:10>, 1, "Government", 0, "null")
+  (30, 0, 1, <0:10>, 1, "government", 0, "null")
+  (32, 0, 1, <0:10>, 1, "government", 0, "null")
+  (20, 1, 2, <11:22>, 1, "Contractors", 0, "null")
+  (28, 1, 2, <11:22>, 1, "Contractors", 0, "null", "NNS" 1.0)
+  (29, 1, 2, <11:22>, 1, "contractors", 0, "null")
+  (31, 1, 2, <11:22>, 1, "contractors", 0, "null")
+>
+
+(ROOT_FRAG
+ (159 NP_FRG_C 1.13208 0 2
+  (158 HDN_BNP_C 1.33649 0 2
+   (157 N-HDN_CPD_C 1.42048 0 2
+    (155 HDN_OPTCMP_C 0.969244 0 1
+     (35 government_n1@n_pp_mc-of_le 0.21377 0 1
+      ("government" 30
+       "token [ +CARG \"Government\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"government\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58629220000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (156 ^N_PL_OLR 0.334017 1 2
+     (46 contractor_n1@n_-_c_le 0 1 2
+      ("contractors" 29
+       "token [ +CARG \"Contractors\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"contractors\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N (N "government")) (N (N "contractors")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:22>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 ]
+          [ udef_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _government_n_of<0:10>
+            LBL: h14
+            ARG0: x9
+            ARG1: i15 ]
+          [ _contractor_n_1<11:22>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:22>[BV x4]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:10>[BV x9]
+ x9:_government_n_of<0:10>{x}[]
+ x4:_contractor_n_1<11:22>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:22> ARG _contractor_n_1<11:22>  
+  udef_q<0:22> BV _contractor_n_1<11:22>  
+  compound<0:22> ARG1 _contractor_n_1<11:22>  
+  compound<0:22> ARG2 _government_n_of<0:10>  
+  udef_q<0:10> BV _government_n_of<0:10>  
+  unknown<0:22> SF prop-or-ques  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  _contractor_n_1<11:22> PERS 3  
+  _contractor_n_1<11:22> NUM pl  
+  _contractor_n_1<11:22> IND +  
+}
+

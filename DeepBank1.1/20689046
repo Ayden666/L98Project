@@ -1,0 +1,152 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:38 h)).
+;;;
+
+[20689046] (1 of 1) {1} `MONEY MARKET FUNDS:'
+
+[20689046:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "MONEY", 0, "null", "NNP" 0.8106 "NN" 0.1894)
+  (2, 1, 2, <6:12>, 1, "MARKET", 0, "null", "NNP" 0.7794 "NN" 0.2206)
+  (3, 2, 3, <13:18>, 1, "FUNDS", 0, "null", "NNPS" 0.5648 "NNS" 0.3527 "NNP" 0.0825)
+  (4, 3, 4, <18:19>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (42, 0, 1, <0:5>, 1, "MONEY", 0, "null")
+  (60, 0, 1, <0:5>, 1, "MONEY", 0, "null", "NNP" 0.8106)
+  (63, 0, 1, <0:5>, 1, "MONEY", 0, "null", "NN" 0.1894)
+  (66, 0, 1, <0:5>, 1, "money", 0, "null")
+  (69, 0, 1, <0:5>, 1, "money", 0, "null")
+  (40, 1, 2, <6:12>, 1, "MARKET", 0, "null")
+  (62, 1, 2, <6:12>, 1, "MARKET", 0, "null", "NN" 0.2206)
+  (64, 1, 2, <6:12>, 1, "market", 0, "null")
+  (67, 1, 2, <6:12>, 1, "market", 0, "null")
+  (41, 2, 3, <13:18>, 1, "FUNDS", 0, "null")
+  (59, 2, 3, <13:18>, 1, "FUNDS", 0, "null", "NNPS" 0.5648)
+  (61, 2, 3, <13:18>, 1, "FUNDS", 0, "null", "NNS" 0.3527)
+  (65, 2, 3, <13:18>, 1, "funds", 0, "null")
+  (68, 2, 3, <13:18>, 1, "funds", 0, "null")
+  (52, 3, 4, <18:19>, 1, ":", 0, "null")
+  (70, 3, 4, <18:19>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (910 NP-AJ_RORP-FRG_C 5.76006 0 4
+  (909 ^HDN_BNP_C 5.05758 0 3
+   (908 N-HDN_CPD_C 5.5038 0 3
+    (906 N-HDN_CPD_C 3.45996 0 2
+     (77 money_n1@n_-_mc_le 1.17016 0 1
+      ("money" 66
+       "token [ +CARG \"MONEY\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"money\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.81057670000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (94 market_n1@n_-_c_le 0.525058 1 2
+      ("market" 64
+       "token [ +CARG \"MARKET\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"market\" +FROM #1=\"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.77940640000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (907 ^N_PL_OLR 2.09876 2 3
+     (118 fund_n1@n_-_c_le 1.76475 2 3
+      ("funds" 65
+       "token [ +CARG \"FUNDS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"funds\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56482160000000003\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (136 colon_namely_pp@pp_-_i-cln_le -0.0322658 3 4
+   (":" 52
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (N (N "money") (N "market")) (N (N "funds")))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:18>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:18>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:12>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:12>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 ]
+          [ udef_q<0:5>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _money_n_1<0:5>
+            LBL: h20
+            ARG0: x15 ]
+          [ _market_n_1<6:12>
+            LBL: h14
+            ARG0: x9 ]
+          [ _fund_n_1<13:18>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<18:19>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i21 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:18>[BV x4]
+ e10:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:12>[BV x9]
+ e16:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:5>[BV x15]
+ x15:_money_n_1<0:5>{x}[]
+ x9:_market_n_1<6:12>{x IND +}[]
+ x4:_fund_n_1<13:18>{x PERS 3, NUM pl, IND +}[]
+ e22:_colon_p_namely<18:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:19> ARG _fund_n_1<13:18>  
+  udef_q<0:18> BV _fund_n_1<13:18>  
+  compound<0:18> ARG1 _fund_n_1<13:18>  
+  compound<0:18> ARG2 _market_n_1<6:12>  
+  udef_q<0:12> BV _market_n_1<6:12>  
+  compound<0:12> ARG1 _market_n_1<6:12>  
+  compound<0:12> ARG2 _money_n_1<0:5>  
+  udef_q<0:5> BV _money_n_1<0:5>  
+  unknown<0:19> SF prop  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _market_n_1<6:12> IND +  
+  _fund_n_1<13:18> PERS 3  
+  _fund_n_1<13:18> NUM pl  
+  _fund_n_1<13:18> IND +  
+  _colon_p_namely<18:19> SF prop  
+  _colon_p_namely<18:19> TENSE untensed  
+  _colon_p_namely<18:19> MOOD indicative  
+  _colon_p_namely<18:19> PROG -  
+  _colon_p_namely<18:19> PERF -  
+}
+

@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:28 h)).
+;;;
+
+[21146018] (1 of 1) {1} `The farmers stayed angry.'
+
+[21146018:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "farmers", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <12:18>, 1, "stayed", 0, "null", "VBD" 0.9784 "VBN" 0.0216)
+  (4, 3, 4, <19:24>, 1, "angry", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <24:25>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:3>, 1, "the", 0, "null")
+  (64, 0, 1, <0:3>, 1, "the", 0, "null")
+  (52, 1, 2, <4:11>, 1, "farmers", 0, "null")
+  (58, 1, 2, <4:11>, 1, "farmers", 0, "null", "NNS" 1.0)
+  (61, 1, 2, <4:11>, 1, "farmers", 0, "null")
+  (55, 2, 3, <12:18>, 1, "stayed", 0, "null")
+  (57, 2, 3, <12:18>, 1, "stayed", 0, "null", "VBD" 0.9784)
+  (63, 2, 3, <12:18>, 1, "stayed", 0, "null")
+  (54, 3, 4, <19:25>, 1, "angry.", 0, "null")
+  (59, 3, 4, <19:25>, 1, "angry.", 0, "null", "JJ" 1.0)
+  (62, 3, 4, <19:25>, 1, "angry.", 0, "null")
+>
+
+(ROOT_STRICT
+ (639 SB-HD_MC_C 6.06537 0 4
+  (634 SP-HD_N_C 2.10788 0 2
+   (77 the_1@d_-_the_le 0.152584 0 1
+    ("the" 60
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (633 ^N_PL_OLR 0.284709 1 2
+    (102 farmer_n1@n_-_c_le 0 1 2
+     ("farmers" 52
+      "token [ +CARG #1=\"farmers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (638 ^HD-CMP_U_C 2.00297 2 4
+   (635 ^V_PST_OLR 0.702601 2 3
+    (121 stay_prd_v1@v_prd_seq_le 0 2 3
+     ("stayed" 55
+      "token [ +CARG #1=\"stayed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97844969999999998\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (637 HD_OPTCMP_C 0.658328 3 4
+    (636 W_PERIOD_PLR 0.506901 3 4
+     (231 angry_a1@aj_pp_i_le 0 3 4
+      ("angry." 54
+       "token [ +CARG \"angry\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"angry.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET "the") (N (N "farmers")))
+ (VP (V (V "stayed")) (AP (ADJ (ADJ "angry.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _farmer_n_1<4:11>
+            LBL: h8
+            ARG0: x6 ]
+          [ _stay_v_prd<12:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h9 ]
+          [ _angry_a_at<19:25>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: i12 ] >
+   HCONS: < h9 QEQ h10 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_farmer_n_1<4:11>{x PERS 3, NUM pl, IND +}[]
+ e3:_stay_v_prd<12:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e11]
+ e11:_angry_a_at<19:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _farmer_n_1<4:11>  
+  _stay_v_prd<12:18> ARG1 _farmer_n_1<4:11>  
+  _stay_v_prd<12:18> ARG2 _angry_a_at<19:25>  
+  _angry_a_at<19:25> ARG1 _farmer_n_1<4:11>  
+  _farmer_n_1<4:11> PERS 3  
+  _farmer_n_1<4:11> NUM pl  
+  _farmer_n_1<4:11> IND +  
+  _stay_v_prd<12:18> SF prop  
+  _stay_v_prd<12:18> TENSE past  
+  _stay_v_prd<12:18> MOOD indicative  
+  _stay_v_prd<12:18> PROG -  
+  _stay_v_prd<12:18> PERF -  
+  _angry_a_at<19:25> SF prop  
+  _angry_a_at<19:25> TENSE untensed  
+  _angry_a_at<19:25> MOOD indicative  
+  _angry_a_at<19:25> PROG -  
+  _angry_a_at<19:25> PERF -  
+}
+

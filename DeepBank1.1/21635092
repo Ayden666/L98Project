@@ -1,0 +1,133 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:21 h)).
+;;;
+
+[21635092] (1 of 1) {1} `**As of August 30'
+
+[21635092:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "**As", 0, "null", "NNS" 0.6577 "NNP" 0.1879 "NNPS" 0.0974 "NN" 0.057)
+  (2, 1, 2, <5:7>, 1, "of", 0, "null", "IN" 1.0)
+  (3, 2, 3, <8:14>, 1, "August", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <15:17>, 1, "30", 0, "null", "CD" 1.0)
+>
+
+<
+  (49, 0, 1, <0:4>, 1, "**As", 0, "null", "NNS" 0.6577)
+  (50, 0, 1, <0:4>, 1, "**As", 0, "null", "NNP" 0.1879)
+  (53, 0, 1, <0:4>, 1, "**as", 0, "null")
+  (57, 0, 1, <0:4>, 1, "**as", 0, "null")
+  (46, 1, 2, <5:7>, 1, "of", 0, "null")
+  (56, 1, 2, <5:7>, 1, "of", 0, "null")
+  (36, 2, 3, <8:14>, 1, "August", 0, "null")
+  (51, 2, 3, <8:14>, 1, "August", 0, "null", "NNP" 1.0)
+  (52, 2, 3, <8:14>, 1, "august", 0, "null")
+  (55, 2, 3, <8:14>, 1, "august", 0, "null")
+  (34, 3, 4, <15:17>, 1, "30", 0, "null")
+  (54, 3, 4, <15:17>, 1, "30", 0, "null")
+>
+
+(ROOT_FRAG
+ (763 PP_FRG_C 3.30224 0 4
+  (762 HD-CMP_U_C 4.55016 0 4
+   (757 ^W_ASTERISK-PRE_PLR 0 0 2
+    (756 W_ASTERISK-PRE_PLR 0 0 2
+     (403 as_of@p_np_i_le 0 0 2
+      ("**as of" 192
+       "token [ +CARG \"**As\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"**as\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.65767980000000004\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+       46
+       "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (761 SP-HD_HC_C 4.55016 2 4
+    (759 N_DET-MNTH_DLR 3.50335 2 3
+     (758 N_SG_ILR 1.76245 2 3
+      (396 august@n_-_c-month_le 0.559329 2 3
+       ("august" 52
+        "token [ +CARG \"August\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"august\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (760 ^N_SG_ILR 0.814894 3 4
+     (402 generic_dom_card_ne@n_-_pn-dom-gen_le -0.287835 3 4
+      ("30" 34
+       "token [ +CARG #1=\"30\" +CLASS card_or_dom_ne +FORM #1 +FROM \"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (PP (P (P (P "**as of"))) (NP (DET (N (N "august"))) (N (N "30")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _as+of_p<0:7>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG GEND: N IND: + ] ]
+          [ mofy<8:14>
+            LBL: h7
+            ARG0: x8 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Aug" ]
+          [ def_explicit_q<8:14>
+            LBL: h9
+            ARG0: x6
+            RSTR: h10
+            BODY: h11 ]
+          [ of_p<8:14>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x8 ]
+          [ def_implicit_q<8:14>
+            LBL: h13
+            ARG0: x8
+            RSTR: h14
+            BODY: h15 ]
+          [ dofm<15:17>
+            LBL: h2
+            ARG0: x6
+            CARG: "30" ] >
+   HCONS: < h14 QEQ h7 h10 QEQ h2 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_as+of_p<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ x8:mofy<8:14>("Aug"){x PERS 3, NUM sg, IND +}[]
+ _1:def_explicit_q<8:14>[BV x6]
+ e12:of_p<8:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x8]
+ _2:def_implicit_q<8:14>[BV x8]
+ x6:dofm<15:17>("30"){x PERS 3, NUM sg, GEND n, IND +}[]
+}
+
+{
+  _as+of_p<0:7> ARG1 unknown<0:17>  
+  _as+of_p<0:7> ARG2 dofm<15:17>(30)  
+  def_explicit_q<8:14> BV dofm<15:17>(30)  
+  of_p<8:14> ARG1 dofm<15:17>(30)  
+  of_p<8:14> ARG2 mofy<8:14>(Aug)  
+  def_implicit_q<8:14> BV mofy<8:14>(Aug)  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  _as+of_p<0:7> SF prop  
+  _as+of_p<0:7> TENSE untensed  
+  _as+of_p<0:7> MOOD indicative  
+  _as+of_p<0:7> PROG -  
+  _as+of_p<0:7> PERF -  
+  mofy<8:14>(Aug) PERS 3  
+  mofy<8:14>(Aug) NUM sg  
+  mofy<8:14>(Aug) IND +  
+  of_p<8:14> SF prop  
+  of_p<8:14> TENSE untensed  
+  of_p<8:14> MOOD indicative  
+  of_p<8:14> PROG -  
+  of_p<8:14> PERF -  
+  dofm<15:17>(30) PERS 3  
+  dofm<15:17>(30) NUM sg  
+  dofm<15:17>(30) GEND n  
+  dofm<15:17>(30) IND +  
+}
+

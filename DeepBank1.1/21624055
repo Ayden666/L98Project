@@ -1,0 +1,172 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:13 h)).
+;;;
+
+[21624055] (1 of 1) {1} `Investment-grade bonds were unchanged.'
+
+[21624055:2] (active)
+
+<
+  (1, 0, 1, <0:16>, 1, "Investment-grade", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <17:22>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <23:27>, 1, "were", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <28:37>, 1, "unchanged", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <37:38>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (64, 0, 1, <0:16>, 1, "Investment-", 0, "null")
+  (69, 0, 1, <0:16>, 1, "investment-", 0, "null")
+  (74, 0, 1, <0:16>, 1, "investment-", 0, "null")
+  (61, 1, 2, <0:16>, 1, "grade", 0, "null")
+  (67, 1, 2, <0:16>, 1, "grade", 0, "null", "JJ" 1.0)
+  (72, 1, 2, <0:16>, 1, "grade", 0, "null")
+  (59, 2, 3, <17:22>, 1, "bonds", 0, "null")
+  (66, 2, 3, <17:22>, 1, "bonds", 0, "null", "NNS" 1.0)
+  (71, 2, 3, <17:22>, 1, "bonds", 0, "null")
+  (57, 3, 4, <23:27>, 1, "were", 0, "null")
+  (65, 3, 4, <23:27>, 1, "were", 0, "null", "VBD" 1.0)
+  (70, 3, 4, <23:27>, 1, "were", 0, "null")
+  (63, 4, 5, <28:38>, 1, "unchanged.", 0, "null")
+  (68, 4, 5, <28:38>, 1, "unchanged.", 0, "null", "JJ" 1.0)
+  (73, 4, 5, <28:38>, 1, "unchanged.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1441 SB-HD_MC_C 4.55496 0 5
+  (1425 HDN_BNP_C 2.66329 0 3
+   (1424 N-HDN_CPD_C 2.04255 0 3
+    (1422 XP_BRCK-PR_C 0.476625 0 2
+     (1421 N-HDN_CPD_C 0.235595 0 2
+      (1420 W_HYPHEN_PLR 0 0 1
+       (78 investment_n1@n_-_mc-ns_le 0 0 1
+        ("investment-" 69
+         "token [ +CARG \"Investment-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"investment-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+      (81 grade_n1@n_-_mc_le 0 1 2
+       ("grade" 61
+        "token [ +CARG #1=\"grade\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+    (1423 ^N_PL_OLR 1.73988 2 3
+     (93 bond_n2@n_-_c_le 1.40586 2 3
+      ("bonds" 59
+       "token [ +CARG #1=\"bonds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1440 ^HD-CMP_U_C 0.375766 3 5
+   (106 be_c_were@v_prd_wre_le 1.45048 3 4
+    ("were" 57
+     "token [ +CARG #1=\"were\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1439 HD_OPTCMP_C -1.09465 4 5
+    (1438 W_PERIOD_PLR -1.24608 4 5
+     (1437 V_V-UN_DLR -0.196291 4 5
+      (1436 V_PAS_ODLR 0.128969 4 5
+       (152 change_v1@v_np_noger_le 0.329329 4 5
+        ("unchanged." 63
+         "token [ +CARG \"unchanged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"unchanged.\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N (N (N (N "investment-")) (N "grade"))) (N (N "bonds"))))
+ (VP (V "were") (VP (V (V (V (V "unchanged.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:22>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:16>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:16>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 ]
+          [ udef_q<0:16>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _investment_n_1<0:16>
+            LBL: h20
+            ARG0: x15 ]
+          [ _grade_n_1<0:16>
+            LBL: h14
+            ARG0: x9 ]
+          [ _bond_n_1<17:22>
+            LBL: h8
+            ARG0: x6 ]
+          [ _change_v_cause<28:38>
+            LBL: h2
+            ARG0: e3
+            ARG1: i21
+            ARG2: x6 ]
+          [ parg_d<28:38>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _un-_a_rvrs<28:38>
+            LBL: h2
+            ARG0: i23
+            ARG1: e3 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:22>[BV x6]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:16>[BV x9]
+ e16:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:16>[BV x15]
+ x15:_investment_n_1<0:16>{x}[]
+ x9:_grade_n_1<0:16>{x}[]
+ x6:_bond_n_1<17:22>{x PERS 3, NUM pl, IND +}[]
+ e3:_change_v_cause<28:38>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e22:parg_d<28:38>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ i23:_un-_a_rvrs<28:38>{i}[ARG1 e3]
+}
+
+{
+  udef_q<0:22> BV _bond_n_1<17:22>  
+  compound<0:22> ARG1 _bond_n_1<17:22>  
+  compound<0:22> ARG2 _grade_n_1<0:16>  
+  udef_q<0:16> BV _grade_n_1<0:16>  
+  compound<0:16> ARG1 _grade_n_1<0:16>  
+  compound<0:16> ARG2 _investment_n_1<0:16>  
+  udef_q<0:16> BV _investment_n_1<0:16>  
+  _change_v_cause<28:38> ARG2 _bond_n_1<17:22>  
+  parg_d<28:38> ARG1 _change_v_cause<28:38>  
+  parg_d<28:38> ARG2 _bond_n_1<17:22>  
+  _un-_a_rvrs<28:38> ARG1 _change_v_cause<28:38>  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  _bond_n_1<17:22> PERS 3  
+  _bond_n_1<17:22> NUM pl  
+  _bond_n_1<17:22> IND +  
+  _change_v_cause<28:38> SF prop  
+  _change_v_cause<28:38> TENSE past  
+  _change_v_cause<28:38> MOOD indicative  
+  _change_v_cause<28:38> PROG -  
+  _change_v_cause<28:38> PERF -  
+  parg_d<28:38> SF prop  
+  parg_d<28:38> TENSE untensed  
+  parg_d<28:38> MOOD indicative  
+  parg_d<28:38> PROG -  
+  parg_d<28:38> PERF -  
+}
+

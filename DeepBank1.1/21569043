@@ -1,0 +1,122 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:30 h)).
+;;;
+
+[21569043] (1 of 1) {1} `Not everyone is so pessimistic.'
+
+[21569043:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (2, 1, 2, <4:12>, 1, "everyone", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:18>, 1, "so", 0, "null", "RB" 1.0)
+  (5, 4, 5, <19:30>, 1, "pessimistic", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (66, 0, 1, <0:3>, 1, "Not", 0, "null", "RB" 1.0)
+  (71, 0, 1, <0:3>, 1, "not", 0, "null")
+  (76, 0, 1, <0:3>, 1, "not", 0, "null")
+  (59, 1, 2, <4:12>, 1, "everyone", 0, "null")
+  (67, 1, 2, <4:12>, 1, "everyone", 0, "null", "NN" 1.0)
+  (72, 1, 2, <4:12>, 1, "everyone", 0, "null")
+  (61, 2, 3, <13:15>, 1, "is", 0, "null")
+  (68, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (73, 2, 3, <13:15>, 1, "is", 0, "null")
+  (63, 3, 4, <16:18>, 1, "so", 0, "null")
+  (69, 3, 4, <16:18>, 1, "so", 0, "null", "RB" 1.0)
+  (74, 3, 4, <16:18>, 1, "so", 0, "null")
+  (65, 4, 5, <19:31>, 1, "pessimistic.", 0, "null")
+  (70, 4, 5, <19:31>, 1, "pessimistic.", 0, "null", "JJ" 1.0)
+  (75, 4, 5, <19:31>, 1, "pessimistic.", 0, "null")
+>
+
+(ROOT_STRICT
+ (862 SB-HD_MC_C 4.99526 0 5
+  (858 HDN_BNP-QNT_C -0.457745 0 2
+   (857 SP-HD_HC_C -0.906673 0 2
+    (115 not_deg@av_-_dg-det_le -1.02481 0 1
+     ("not" 71
+      "token [ +CARG \"Not\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"not\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (856 ^HDN_OPTCMP_C 0.466037 1 2
+     (173 everyone@n_-_pr_le 0 1 2
+      ("everyone" 59
+       "token [ +CARG #1=\"everyone\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (861 ^HD-CMP_U_C 4.18366 2 5
+   (214 be_c_is@v_prd_is_le 0.949778 2 3
+    ("is" 61
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (860 SP-HD_HC_C 2.38121 3 5
+    (316 so_deg_nc@av_-_dg-cmp-so_le 1.49293 3 4
+     ("so" 63
+      "token [ +CARG #1=\"so\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (859 ^W_PERIOD_PLR 0.396613 4 5
+     (340 pessimistic@aj_-_i_le 0 4 5
+      ("pessimistic." 65
+       "token [ +CARG \"pessimistic\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"pessimistic.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP (ADV "not") (N (N "everyone"))))
+ (VP (V "is") (AP (ADV "so") (AP (AP "pessimistic.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _not_x_deg<0:3>
+            LBL: h4
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 [ x PERS: 3 NUM: SG ] ]
+          [ person<4:12>
+            LBL: h7
+            ARG0: x6 ]
+          [ every_q<4:12>
+            LBL: h4
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ comp_so<16:18>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: u11 ]
+          [ _pessimistic_a_1<19:31>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h8 QEQ h7 h1 QEQ h2 > ]
+
+{e3:
+ e5:_not_x_deg<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:person<4:12>{x PERS 3, NUM sg}[]
+ _1:every_q<4:12>[BV x6]
+ e10:comp_so<16:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_pessimistic_a_1<19:31>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _not_x_deg<0:3> ARG1 person<4:12>  
+  every_q<4:12> BV person<4:12>  
+  comp_so<16:18> ARG1 _pessimistic_a_1<19:31>  
+  _pessimistic_a_1<19:31> ARG1 person<4:12>  
+  _not_x_deg<0:3> SF prop  
+  _not_x_deg<0:3> TENSE untensed  
+  _not_x_deg<0:3> MOOD indicative  
+  _not_x_deg<0:3> PROG -  
+  _not_x_deg<0:3> PERF -  
+  person<4:12> PERS 3  
+  person<4:12> NUM sg  
+  comp_so<16:18> SF prop  
+  comp_so<16:18> TENSE untensed  
+  comp_so<16:18> MOOD indicative  
+  comp_so<16:18> PROG -  
+  comp_so<16:18> PERF -  
+  _pessimistic_a_1<19:31> SF prop  
+  _pessimistic_a_1<19:31> TENSE pres  
+  _pessimistic_a_1<19:31> MOOD indicative  
+  _pessimistic_a_1<19:31> PROG -  
+  _pessimistic_a_1<19:31> PERF -  
+}
+

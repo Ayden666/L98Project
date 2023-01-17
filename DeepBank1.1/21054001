@@ -1,0 +1,113 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:37 h)).
+;;;
+
+[21054001] (1 of 1) {1} `Follow With Care'
+
+[21054001:1] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Follow", 0, "null", "VB" 1.0)
+  (2, 1, 2, <7:11>, 1, "With", 0, "null", "IN" 1.0)
+  (3, 2, 3, <12:16>, 1, "Care", 0, "null", "NNP" 0.9635 "NN" 0.0365)
+>
+
+<
+  (41, 0, 1, <0:6>, 1, "Follow", 0, "null", "VB" 1.0)
+  (43, 0, 1, <0:6>, 1, "follow", 0, "null")
+  (48, 0, 1, <0:6>, 1, "follow", 0, "null")
+  (30, 1, 2, <7:11>, 1, "With", 0, "null")
+  (42, 1, 2, <7:11>, 1, "with", 0, "null")
+  (45, 1, 2, <7:11>, 1, "with", 0, "null")
+  (31, 2, 3, <12:16>, 1, "Care", 0, "null")
+  (40, 2, 3, <12:16>, 1, "Care", 0, "null", "NNP" 0.9635)
+  (44, 2, 3, <12:16>, 1, "care", 0, "null")
+  (46, 2, 3, <12:16>, 1, "care", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (389 HD_IMP_C -1.01914 0 3
+  (388 HD-AJ_INT-UNSL_C -0.653927 0 3
+   (385 ^HD_OPTCMP_C -0.105734 0 1
+    (377 V_N3S-BSE_ILR -0.475786 0 1
+     (55 follow_v1@v_np*_le -0.288629 0 1
+      ("follow" 43
+       "token [ +CARG \"Follow\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"follow\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (387 HD-CMP_U_C -1.23506 1 3
+    (69 with_p@p_np_i_le -0.61379 1 2
+     ("with" 42
+      "token [ +CARG \"With\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"with\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (386 HDN_BNP-PN_C -1.07064 2 3
+     (380 N_SG_ILR -0.143257 2 3
+      (82 generic_proper_ne@n_-_pn-gen_le 0 2 3
+       ("Care" 31
+        "token [ +CARG #1=\"Care\" +CLASS proper_ne +FORM #1 +FROM \"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96354169999999995\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(S (VP (VP (V (V "follow"))) (PP (P "with") (NP (N (N "Care"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:16>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:16>
+            LBL: h8
+            ARG0: x6 ]
+          [ _follow_v_1<0:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ]
+          [ _with_p<7:11>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<12:16>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ named<12:16>
+            LBL: h15
+            ARG0: x11
+            CARG: "Care" ] >
+   HCONS: < h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:16>[BV x6]
+ x6:pron<0:16>{x PERS 2, PT zero}[]
+ e3:_follow_v_1-fn.Cotheme<0:6>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_with_p<7:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x11]
+ _2:proper_q<12:16>[BV x11]
+ x11:named<12:16>("Care"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:16> BV pron<0:16>  
+  _follow_v_1<0:6> ARG1 pron<0:16>  
+  _with_p<7:11> ARG1 _follow_v_1<0:6>  
+  _with_p<7:11> ARG2 named<12:16>(Care)  
+  proper_q<12:16> BV named<12:16>(Care)  
+  pron<0:16> PERS 2  
+  pron<0:16> PT zero  
+  _follow_v_1<0:6> SF comm  
+  _follow_v_1<0:6> TENSE pres  
+  _follow_v_1<0:6> MOOD indicative  
+  _follow_v_1<0:6> PROG -  
+  _follow_v_1<0:6> PERF -  
+  _with_p<7:11> SF prop  
+  _with_p<7:11> TENSE untensed  
+  _with_p<7:11> MOOD indicative  
+  _with_p<7:11> PROG -  
+  _with_p<7:11> PERF -  
+  named<12:16>(Care) PERS 3  
+  named<12:16>(Care) NUM sg  
+  named<12:16>(Care) IND +  
+}
+

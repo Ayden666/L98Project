@@ -1,0 +1,110 @@
+;;;
+;;; Redwoods export of `wsj07c';
+;;; (wsun@wsun; 22-jan-2018 (17:38 h)).
+;;;
+
+[20766063] (1 of 1) {1} `"I owe that contractor.'
+
+[20766063:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:2>, 1, "I", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <3:6>, 1, "owe", 0, "null", "VBP" 0.9807 "VB" 0.0193)
+  (4, 3, 4, <7:11>, 1, "that", 0, "null", "DT" 0.5148 "IN" 0.4438 "WDT" 0.0414)
+  (5, 4, 5, <12:22>, 1, "contractor", 0, "null", "NN" 1.0)
+  (6, 5, 6, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (58, 0, 1, <0:2>, 1, "“I", 0, "null")
+  (76, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (77, 0, 1, <0:2>, 1, "“i", 0, "null")
+  (70, 1, 2, <3:6>, 1, "owe", 0, "null")
+  (74, 1, 2, <3:6>, 1, "owe", 0, "null", "VBP" 0.9807)
+  (79, 1, 2, <3:6>, 1, "owe", 0, "null")
+  (72, 2, 3, <7:11>, 1, "that", 0, "null")
+  (80, 2, 3, <7:11>, 1, "that", 0, "null")
+  (69, 3, 4, <12:23>, 1, "contractor.", 0, "null")
+  (75, 3, 4, <12:23>, 1, "contractor.", 0, "null", "NN" 1.0)
+  (78, 3, 4, <12:23>, 1, "contractor.", 0, "null")
+>
+
+(ROOT_STRICT
+ (361 SB-HD_MC_C 1.92379 0 4
+  (355 HDN_BNP-QNT_C -0.0561766 0 1
+   (354 W_DQLEFT_PLR 0.579622 0 1
+    (89 i@n_-_pr-i_le 0.336087 0 1
+     ("“i" 76
+      "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"“i\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (360 ^HD-CMP_U_C 0.710619 1 4
+   (356 ^V_N3S-BSE_ILR -7.733e-4 1 2
+    (121 owe_v2@v_np*_le 0 1 2
+     ("owe" 70
+      "token [ +CARG #1=\"owe\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98071920000000001\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (359 SP-HD_N_C -0.0864264 2 4
+    (139 that_det@d_-_sgm_le -0.478774 2 3
+     ("that" 72
+      "token [ +CARG #1=\"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.51479019999999998\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (358 ^W_PERIOD_PLR 0.933196 3 4
+     (357 N_SG_ILR 0.432921 3 4
+      (154 contractor_n1@n_-_c_le 0 3 4
+       ("contractor." 69
+        "token [ +CARG \"contractor\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"contractor.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP (NP "“i")))
+ (VP (V (V "owe")) (NP (DET "that") (N (N (N "contractor."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _owe_v_1<3:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _that_q_dem<7:11>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ _contractor_n_1<12:23>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_owe_v_1<3:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_that_q_dem<7:11>[BV x9]
+ x9:_contractor_n_1<12:23>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _owe_v_1<3:6> ARG1 pron<0:2>  
+  _owe_v_1<3:6> ARG2 _contractor_n_1<12:23>  
+  _that_q_dem<7:11> BV _contractor_n_1<12:23>  
+  pron<0:2> PERS 1  
+  pron<0:2> NUM sg  
+  pron<0:2> PT std  
+  _owe_v_1<3:6> SF prop  
+  _owe_v_1<3:6> TENSE pres  
+  _owe_v_1<3:6> MOOD indicative  
+  _owe_v_1<3:6> PROG -  
+  _owe_v_1<3:6> PERF -  
+  _contractor_n_1<12:23> PERS 3  
+  _contractor_n_1<12:23> NUM sg  
+  _contractor_n_1<12:23> IND +  
+}
+

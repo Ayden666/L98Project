@@ -1,0 +1,119 @@
+;;;
+;;; Redwoods export of `wsj00c';
+;;; (wsun@wsun; 22-jan-2018 (10:36 h)).
+;;;
+
+[20062041] (1 of 1) {1} `AT&T FAX:'
+
+[20062041:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "AT&T", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:8>, 1, "FAX", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:9>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (37, 0, 1, <0:4>, 1, "AT&T", 0, "null", "NNP" 1.0)
+  (39, 0, 1, <0:4>, 1, "at&t", 0, "null")
+  (43, 0, 1, <0:4>, 1, "at&t", 0, "null")
+  (29, 1, 2, <5:8>, 1, "FAX", 0, "null")
+  (36, 1, 2, <5:8>, 1, "FAX", 0, "null", "NNP" 1.0)
+  (38, 1, 2, <5:8>, 1, "fax", 0, "null")
+  (40, 1, 2, <5:8>, 1, "fax", 0, "null")
+  (33, 2, 3, <8:9>, 1, ":", 0, "null")
+  (41, 2, 3, <8:9>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (234 NP_NB-FRG_C -1.64706 0 3
+  (233 HDN-AJ_REDREL_C -0.563837 0 3
+   (232 ^NP-HDN_CPD_C 0.617851 0 2
+    (230 HDN_BNP-PN_C -0.549526 0 1
+     (45 atandt_n2@n_-_pn_le 0 0 1
+      ("at&t" 39
+       "token [ +CARG \"AT&T\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM \"at&t\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (231 ^N_SG_ILR 0.441483 1 2
+     (48 fax_n1@n_-_c_le 0 1 2
+      ("fax" 38
+       "token [ +CARG \"FAX\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"fax\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (60 colon_namely_pp@pp_-_i-cln_le 0.0128037 2 3
+    (":" 33
+     "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (N (N (NP (N "at&t")) (N (N "fax"))) (PP ":")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:8>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "ATT" ]
+          [ _fax_n_1<5:8>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<8:9>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:9>[BV x4]
+ e10:compound<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("ATT"){x IND +}[]
+ x4:_fax_n_1<5:8>{x PERS 3, NUM sg, IND +}[]
+ e15:_colon_p_namely<8:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:9> ARG _fax_n_1<5:8>  
+  udef_q<0:9> BV _fax_n_1<5:8>  
+  compound<0:8> ARG1 _fax_n_1<5:8>  
+  compound<0:8> ARG2 named<0:4>(ATT)  
+  proper_q<0:4> BV named<0:4>(ATT)  
+  _colon_p_namely<8:9> ARG1 _fax_n_1<5:8>  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  compound<0:8> SF prop  
+  compound<0:8> TENSE untensed  
+  compound<0:8> MOOD indicative  
+  compound<0:8> PROG -  
+  compound<0:8> PERF -  
+  named<0:4>(ATT) IND +  
+  _fax_n_1<5:8> PERS 3  
+  _fax_n_1<5:8> NUM sg  
+  _fax_n_1<5:8> IND +  
+  _colon_p_namely<8:9> SF prop  
+  _colon_p_namely<8:9> TENSE untensed  
+  _colon_p_namely<8:9> MOOD indicative  
+  _colon_p_namely<8:9> PROG -  
+  _colon_p_namely<8:9> PERF -  
+}
+

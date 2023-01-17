@@ -1,0 +1,111 @@
+;;;
+;;; Redwoods export of `wsj00c';
+;;; (wsun@wsun; 22-jan-2018 (10:36 h)).
+;;;
+
+[20062031] (1 of 1) {1} `Ad Notes. . . .'
+
+[20062031:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "Ad", 0, "null", "NNP" 0.6604 "NN" 0.3396)
+  (2, 1, 2, <3:8>, 1, "Notes", 0, "null", "NNS" 0.3647 "NNPS" 0.3554 "NNP" 0.2799)
+  (3, 2, 3, <8:14>, 1, "…", 0, "null", ":" 1.0)
+  (4, 3, 4, <14:15>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (52, 0, 1, <0:2>, 1, "Ad", 0, "null")
+  (57, 0, 1, <0:2>, 1, "ad", 0, "null")
+  (60, 0, 1, <0:2>, 1, "ad", 0, "null")
+  (38, 1, 2, <3:8>, 1, "Notes", 0, "null")
+  (53, 1, 2, <3:8>, 1, "Notes", 0, "null", "NNS" 0.3647)
+  (54, 1, 2, <3:8>, 1, "Notes", 0, "null", "NNPS" 0.3554)
+  (55, 1, 2, <3:8>, 1, "Notes", 0, "null", "NNP" 0.2799)
+  (56, 1, 2, <3:8>, 1, "notes", 0, "null")
+  (58, 1, 2, <3:8>, 1, "notes", 0, "null")
+  (47, 2, 3, <8:15>, 1, "….", 0, "null")
+  (59, 2, 3, <8:15>, 1, "….", 0, "null")
+>
+
+(ROOT_FRAG
+ (527 NP_FRG_C 2.27332 0 3
+  (526 HD-AJ_SCP_C 2.27332 0 3
+   (524 ^HDN_BNP_C 1.47764 0 2
+    (523 N-HDN_CPD_C 1.9078 0 2
+     (63 ad_n1@n_-_c_le 0.477739 0 1
+      ("ad" 57
+       "token [ +CARG \"Ad\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"ad\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.66041709999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (522 ^N_PL_OLR 0.878615 1 2
+      (88 note_n1@n_-_c_le 0.544598 1 2
+       ("notes" 56
+        "token [ +CARG \"Notes\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"notes\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.3646761\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (525 W_PERIOD_PLR 0.795682 2 3
+    (104 threedots_disc_adv4@av_-_dc-like-po_le 0 2 3
+     ("…." 47
+      "token [ +CARG \"…\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"….\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (NP (N (N "ad") (N (N "notes")))) (ADV (ADV "…."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:8>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:8>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:2>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _ad_n_1<0:2>
+            LBL: h14
+            ARG0: x9 ]
+          [ _note_n_1<3:8>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:8>[BV x4]
+ e10:compound<0:8>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:2>[BV x9]
+ x9:_ad_n_1<0:2>{x IND +}[]
+ x4:_note_n_1<3:8>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  unknown<0:15> ARG _note_n_1<3:8>  
+  udef_q<0:8> BV _note_n_1<3:8>  
+  compound<0:8> ARG1 _note_n_1<3:8>  
+  compound<0:8> ARG2 _ad_n_1<0:2>  
+  udef_q<0:2> BV _ad_n_1<0:2>  
+  unknown<0:15> SF prop  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:8> SF prop  
+  compound<0:8> TENSE untensed  
+  compound<0:8> MOOD indicative  
+  compound<0:8> PROG -  
+  compound<0:8> PERF -  
+  _ad_n_1<0:2> IND +  
+  _note_n_1<3:8> PERS 3  
+  _note_n_1<3:8> NUM pl  
+  _note_n_1<3:8> IND +  
+}
+

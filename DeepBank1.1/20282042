@@ -1,0 +1,182 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:40 h)).
+;;;
+
+[20282042] (1 of 1) {1} `Panda Motors is one such investment.'
+
+[20282042:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Panda", 0, "null", "NNP" 0.9806 "NN" 0.0194)
+  (2, 1, 2, <6:12>, 1, "Motors", 0, "null", "NNP" 0.7518 "NNPS" 0.2482)
+  (3, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <16:19>, 1, "one", 0, "null", "CD" 0.9684 "NN" 0.0171 "PRP" 0.0145)
+  (5, 4, 5, <20:24>, 1, "such", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <25:35>, 1, "investment", 0, "null", "NN" 1.0)
+  (7, 6, 7, <35:36>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (87, 0, 1, <0:5>, 1, "Panda", 0, "null")
+  (95, 0, 1, <0:5>, 1, "panda", 0, "null")
+  (101, 0, 1, <0:5>, 1, "panda", 0, "null")
+  (65, 1, 2, <6:12>, 1, "Motors", 0, "null")
+  (88, 1, 2, <6:12>, 1, "Motors", 0, "null", "NNP" 0.7518)
+  (93, 1, 2, <6:12>, 1, "Motors", 0, "null", "NNPS" 0.2482)
+  (94, 1, 2, <6:12>, 1, "motors", 0, "null")
+  (96, 1, 2, <6:12>, 1, "motors", 0, "null")
+  (76, 2, 3, <13:15>, 1, "is", 0, "null")
+  (90, 2, 3, <13:15>, 1, "is", 0, "null", "VBZ" 1.0)
+  (97, 2, 3, <13:15>, 1, "is", 0, "null")
+  (85, 3, 4, <16:19>, 1, "one", 0, "null")
+  (89, 3, 4, <16:19>, 1, "one", 0, "null", "CD" 0.9684)
+  (100, 3, 4, <16:19>, 1, "one", 0, "null")
+  (78, 4, 5, <20:24>, 1, "such", 0, "null")
+  (91, 4, 5, <20:24>, 1, "such", 0, "null", "JJ" 1.0)
+  (98, 4, 5, <20:24>, 1, "such", 0, "null")
+  (80, 5, 6, <25:36>, 1, "investment.", 0, "null")
+  (92, 5, 6, <25:36>, 1, "investment.", 0, "null", "NN" 1.0)
+  (99, 5, 6, <25:36>, 1, "investment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1157 SB-HD_MC_C 7.33846 0 6
+  (1150 HDN_BNP-PN_C 2.69781 0 2
+   (1149 NP-HDN_NME-CPD_C 2.15809 0 2
+    (1147 HDN_BNP-PN_C 0.365523 0 1
+     (1146 N_SG_ILR -0.386912 0 1
+      (103 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Panda" 87
+        "token [ +CARG #1=\"Panda\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98059030000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (1148 ^N_SG_ILR 0.474988 1 2
+     (107 generic_proper_ne@n_-_pn-gen_le 0.618246 1 2
+      ("Motors" 65
+       "token [ +CARG #1=\"Motors\" +CLASS proper_ne +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.75181450000000005\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (1156 ^HD-CMP_U_C 3.6236 2 6
+   (169 be_id_is@v_np_is_le 0.159389 2 3
+    ("is" 76
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1155 SP-HD_N_C 2.70949 3 6
+    (1151 NUM_DET_C 0.882603 3 4
+     (257 one_adj@aj_-_i-one_le 0.343639 3 4
+      ("one" 85
+       "token [ +CARG #1=\"one\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96841759999999999\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1154 ^AJ-HDN_NORM_C 0.761006 4 6
+     (300 such_a1@aj_-_i-spn-att_le -0.173379 4 5
+      ("such" 78
+       "token [ +CARG #1=\"such\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1153 ^W_PERIOD_PLR 0.934385 5 6
+      (1152 N_MS-CNT_ILR 0.322759 5 6
+       (310 investment_n1@n_-_mc-ns_le 0 5 6
+        ("investment." 80
+         "token [ +CARG \"investment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"investment.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (NP (N (N "Panda"))) (N (N "Motors"))))
+ (VP (V "is")
+  (NP (DET (ADJ "one")) (N (AP "such") (N (N (N "investment.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Panda" ]
+          [ named<6:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "Motors" ]
+          [ _be_v_id<13:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<16:19>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ card<16:19>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            CARG: "1" ]
+          [ _such_a_1<20:24>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15 ]
+          [ _investment_n_1<25:36>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Panda"){x PERS 3, NUM sg, IND +}[]
+ x6:named<6:12>("Motors"){x PERS 3, NUM sg, IND +}[]
+ e3:_be_v_id<13:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:udef_q<16:19>[BV x15]
+ e20:card<16:19>("1"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ e21:_such_a_1<20:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15]
+ x15:_investment_n_1<25:36>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:12> BV named<6:12>(Motors)  
+  compound<0:12> ARG1 named<6:12>(Motors)  
+  compound<0:12> ARG2 named<0:5>(Panda)  
+  proper_q<0:5> BV named<0:5>(Panda)  
+  _be_v_id<13:15> ARG1 named<6:12>(Motors)  
+  _be_v_id<13:15> ARG2 _investment_n_1<25:36>  
+  udef_q<16:19> BV _investment_n_1<25:36>  
+  card<16:19>(1) ARG1 _investment_n_1<25:36>  
+  _such_a_1<20:24> ARG1 _investment_n_1<25:36>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:5>(Panda) PERS 3  
+  named<0:5>(Panda) NUM sg  
+  named<0:5>(Panda) IND +  
+  named<6:12>(Motors) PERS 3  
+  named<6:12>(Motors) NUM sg  
+  named<6:12>(Motors) IND +  
+  _be_v_id<13:15> SF prop  
+  _be_v_id<13:15> TENSE pres  
+  _be_v_id<13:15> MOOD indicative  
+  _be_v_id<13:15> PROG -  
+  _be_v_id<13:15> PERF -  
+  card<16:19>(1) SF prop  
+  card<16:19>(1) TENSE untensed  
+  card<16:19>(1) MOOD indicative  
+  card<16:19>(1) PROG -  
+  card<16:19>(1) PERF -  
+  _such_a_1<20:24> SF prop  
+  _such_a_1<20:24> TENSE untensed  
+  _such_a_1<20:24> MOOD indicative  
+  _such_a_1<20:24> PROG -  
+  _such_a_1<20:24> PERF -  
+  _investment_n_1<25:36> PERS 3  
+  _investment_n_1<25:36> NUM sg  
+}
+

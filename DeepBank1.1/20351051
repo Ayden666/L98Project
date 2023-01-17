@@ -1,0 +1,242 @@
+;;;
+;;; Redwoods export of `wsj03c';
+;;; (wsun@wsun; 22-jan-2018 (13:25 h)).
+;;;
+
+[20351051] (1 of 1) {1} `Mr. Carmichael said investors also demanded stricter convenants.'
+
+[20351051:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:14>, 1, "Carmichael", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:19>, 1, "said", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <20:29>, 1, "investors", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <30:34>, 1, "also", 0, "null", "RB" 1.0)
+  (6, 5, 6, <35:43>, 1, "demanded", 0, "null", "VBD" 0.9356 "VBN" 0.0644)
+  (7, 6, 7, <44:52>, 1, "stricter", 0, "null", "JJR" 1.0)
+  (8, 7, 8, <53:63>, 1, "convenants", 0, "null", "NNS" 1.0)
+  (9, 8, 9, <63:64>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (103, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (112, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (120, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (83, 1, 2, <4:14>, 1, "Carmichael", 0, "null")
+  (105, 1, 2, <4:14>, 1, "Carmichael", 0, "null", "NNP" 1.0)
+  (111, 1, 2, <4:14>, 1, "carmichael", 0, "null")
+  (113, 1, 2, <4:14>, 1, "carmichael", 0, "null")
+  (92, 2, 3, <15:19>, 1, "said", 0, "null")
+  (106, 2, 3, <15:19>, 1, "said", 0, "null", "VBD" 1.0)
+  (114, 2, 3, <15:19>, 1, "said", 0, "null")
+  (94, 3, 4, <20:29>, 1, "investors", 0, "null")
+  (107, 3, 4, <20:29>, 1, "investors", 0, "null", "NNS" 1.0)
+  (115, 3, 4, <20:29>, 1, "investors", 0, "null")
+  (96, 4, 5, <30:34>, 1, "also", 0, "null")
+  (108, 4, 5, <30:34>, 1, "also", 0, "null", "RB" 1.0)
+  (116, 4, 5, <30:34>, 1, "also", 0, "null")
+  (101, 5, 6, <35:43>, 1, "demanded", 0, "null")
+  (104, 5, 6, <35:43>, 1, "demanded", 0, "null", "VBD" 0.9356)
+  (119, 5, 6, <35:43>, 1, "demanded", 0, "null")
+  (98, 6, 7, <44:52>, 1, "stricter", 0, "null")
+  (109, 6, 7, <44:52>, 1, "stricter", 0, "null", "JJR" 1.0)
+  (117, 6, 7, <44:52>, 1, "stricter", 0, "null")
+  (100, 7, 8, <53:64>, 1, "convenants.", 0, "null")
+  (110, 7, 8, <53:64>, 1, "convenants.", 0, "null", "NNS" 1.0)
+  (118, 7, 8, <53:64>, 1, "convenants.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2790 SB-HD_MC_C 14.8002 0 8
+  (2776 HDN_BNP-PN_C 3.86187 0 2
+   (2775 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (2773 N_SG_ILR 2.02901 0 1
+     (128 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 112
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2774 ^N_SG_ILR -0.259177 1 2
+     (131 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Carmichael" 83
+       "token [ +CARG #1=\"Carmichael\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2789 ^HD-CMP_U_C 9.9213 2 8
+   (2778 ^HD_OPTCMP_C 3.11345 2 3
+    (2777 V_PST_OLR 2.39931 2 3
+     (169 say_v2@v_pp*-cp_fin-imp_le 1.29431 2 3
+      ("said" 92
+       "token [ +CARG #1=\"said\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (2788 SB-HD_NMC_C 5.24866 3 8
+    (2780 HDN_BNP_C 1.0105 3 4
+     (2779 N_PL_OLR 1.64431 3 4
+      (369 investor_n1@n_-_c_le 1.17492 3 4
+       ("investors" 94
+        "token [ +CARG #1=\"investors\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2787 ^AJ-HD_SCP-XP_C 3.80638 4 8
+     (380 also_adv1@av_-_s-vp-x_le 0.309301 4 5
+      ("also" 96
+       "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2786 ^HD-CMP_U_C 2.7945 5 8
+      (2781 ^V_PST_OLR 0.546508 5 6
+       (412 demand_v1@v_np*_le 0 5 6
+        ("demanded" 101
+         "token [ +CARG #1=\"demanded\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"35\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.935589\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (2785 HDN_BNP_C 1.33342 6 8
+       (2784 AJ-HDN_NORM_C 1.23633 6 8
+        (2782 HD_OPTCMP_C 0.759666 6 7
+         (551 stricter@aj_pp_i-cmp_le 0 6 7
+          ("stricter" 98
+           "token [ +CARG #1=\"stricter\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"52\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (2783 ^W_PERIOD_PLR 0.906685 7 8
+         (558 generic_pl_noun@n_-_c-pl-unk_le 0 7 8
+          ("convenants." 110
+           "token [ +CARG \"convenants\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"convenants.\" +FROM #1=\"53\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED \"_convenants/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NNS\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"64\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Carmichael"))))
+ (VP (V (V (V "said")))
+  (S (NP (N (N "investors")))
+   (VP (ADV "also")
+    (VP (V (V "demanded"))
+     (NP (N (AP (ADJ "stricter")) (N (N "convenants.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:14>
+            LBL: h8
+            ARG0: x6
+            CARG: "Carmichael" ]
+          [ _say_v_to<15:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h16
+            ARG3: i15 ]
+          [ udef_q<20:29>
+            LBL: h17
+            ARG0: x19 [ x PERS: 3 NUM: PL IND: + ]
+            RSTR: h18
+            BODY: h20 ]
+          [ _investor_n_1<20:29>
+            LBL: h21
+            ARG0: x19 ]
+          [ _also_a_1<30:34>
+            LBL: h22
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h24 ]
+          [ _demand_v_of<35:43>
+            LBL: h25
+            ARG0: e26 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x19
+            ARG2: x27 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<44:64>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ _strict_a_1<44:52>
+            LBL: h31
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x27 ]
+          [ comp<44:52>
+            LBL: h31
+            ARG0: e34 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e32
+            ARG2: u33 ]
+          [ _convenants/nns_u_unknown<53:64>
+            LBL: h31
+            ARG0: x27 ] >
+   HCONS: < h29 QEQ h31 h24 QEQ h25 h18 QEQ h21 h16 QEQ h22 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:14>("Carmichael"){x PERS 3, NUM sg, IND +}[]
+ e3:_say_v_to<15:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e23]
+ _3:udef_q<20:29>[BV x19]
+ x19:_investor_n_1<20:29>{x PERS 3, NUM pl, IND +}[]
+ e23:_also_a_1<30:34>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e26]
+ e26:_demand_v_of<35:43>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x19, ARG2 x27]
+ _4:udef_q<44:64>[BV x27]
+ e32:_strict_a_1<44:52>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x27]
+ e34:comp<44:52>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e32]
+ x27:_convenants/nns_u_unknown<53:64>{x PERS 3, NUM pl}[]
+}
+
+{
+  proper_q<0:14> BV named<4:14>(Carmichael)  
+  compound<0:14> ARG1 named<4:14>(Carmichael)  
+  compound<0:14> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _say_v_to<15:19> ARG1 named<4:14>(Carmichael)  
+  _say_v_to<15:19> ARG2 _also_a_1<30:34>  
+  udef_q<20:29> BV _investor_n_1<20:29>  
+  _also_a_1<30:34> ARG1 _demand_v_of<35:43>  
+  _demand_v_of<35:43> ARG1 _investor_n_1<20:29>  
+  _demand_v_of<35:43> ARG2 _convenants/nns_u_unknown<53:64>  
+  udef_q<44:64> BV _convenants/nns_u_unknown<53:64>  
+  _strict_a_1<44:52> ARG1 _convenants/nns_u_unknown<53:64>  
+  comp<44:52> ARG1 _strict_a_1<44:52>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:14>(Carmichael) PERS 3  
+  named<4:14>(Carmichael) NUM sg  
+  named<4:14>(Carmichael) IND +  
+  _say_v_to<15:19> SF prop  
+  _say_v_to<15:19> TENSE past  
+  _say_v_to<15:19> MOOD indicative  
+  _say_v_to<15:19> PROG -  
+  _say_v_to<15:19> PERF -  
+  _investor_n_1<20:29> PERS 3  
+  _investor_n_1<20:29> NUM pl  
+  _investor_n_1<20:29> IND +  
+  _also_a_1<30:34> SF prop  
+  _also_a_1<30:34> TENSE untensed  
+  _also_a_1<30:34> MOOD indicative  
+  _also_a_1<30:34> PROG -  
+  _also_a_1<30:34> PERF -  
+  _demand_v_of<35:43> SF prop  
+  _demand_v_of<35:43> TENSE past  
+  _demand_v_of<35:43> MOOD indicative  
+  _demand_v_of<35:43> PROG -  
+  _demand_v_of<35:43> PERF -  
+  _strict_a_1<44:52> SF prop  
+  _strict_a_1<44:52> TENSE untensed  
+  _strict_a_1<44:52> MOOD indicative  
+  _strict_a_1<44:52> PROG -  
+  _strict_a_1<44:52> PERF -  
+  comp<44:52> SF prop  
+  comp<44:52> TENSE untensed  
+  comp<44:52> MOOD indicative  
+  comp<44:52> PROG -  
+  comp<44:52> PERF -  
+  _convenants/nns_u_unknown<53:64> PERS 3  
+  _convenants/nns_u_unknown<53:64> NUM pl  
+}
+

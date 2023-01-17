@@ -1,0 +1,278 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:20 h)).
+;;;
+
+[20252002] (1 of 1) {1} `Mr. Smith, 39, retains the title of chief financial officer.'
+
+[20252002:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Smith", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:10>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <11:13>, 1, "39", 0, "null", "CD" 1.0)
+  (5, 4, 5, <13:14>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <15:22>, 1, "retains", 0, "null", "VBZ" 1.0)
+  (7, 6, 7, <23:26>, 1, "the", 0, "null", "DT" 1.0)
+  (8, 7, 8, <27:32>, 1, "title", 0, "null", "NN" 1.0)
+  (9, 8, 9, <33:35>, 1, "of", 0, "null", "IN" 1.0)
+  (10, 9, 10, <36:41>, 1, "chief", 0, "null", "JJ" 0.9383 "NN" 0.0617)
+  (11, 10, 11, <42:51>, 1, "financial", 0, "null", "JJ" 1.0)
+  (12, 11, 12, <52:59>, 1, "officer", 0, "null", "NN" 1.0)
+  (13, 12, 13, <59:60>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (142, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (149, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (160, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (121, 1, 2, <4:10>, 1, "Smith,", 0, "null")
+  (148, 1, 2, <4:10>, 1, "Smith,", 0, "null", "NNP" 1.0)
+  (150, 1, 2, <4:10>, 1, "smith,", 0, "null")
+  (152, 1, 2, <4:10>, 1, "smith,", 0, "null")
+  (118, 2, 3, <11:14>, 1, "39,", 0, "null")
+  (151, 2, 3, <11:14>, 1, "39,", 0, "null")
+  (127, 3, 4, <15:22>, 1, "retains", 0, "null")
+  (144, 3, 4, <15:22>, 1, "retains", 0, "null", "VBZ" 1.0)
+  (153, 3, 4, <15:22>, 1, "retains", 0, "null")
+  (129, 4, 5, <23:26>, 1, "the", 0, "null")
+  (154, 4, 5, <23:26>, 1, "the", 0, "null")
+  (131, 5, 6, <27:32>, 1, "title", 0, "null")
+  (145, 5, 6, <27:32>, 1, "title", 0, "null", "NN" 1.0)
+  (155, 5, 6, <27:32>, 1, "title", 0, "null")
+  (133, 6, 7, <33:35>, 1, "of", 0, "null")
+  (156, 6, 7, <33:35>, 1, "of", 0, "null")
+  (140, 7, 8, <36:41>, 1, "chief", 0, "null")
+  (143, 7, 8, <36:41>, 1, "chief", 0, "null", "JJ" 0.9383)
+  (159, 7, 8, <36:41>, 1, "chief", 0, "null")
+  (135, 8, 9, <42:51>, 1, "financial", 0, "null")
+  (146, 8, 9, <42:51>, 1, "financial", 0, "null", "JJ" 1.0)
+  (157, 8, 9, <42:51>, 1, "financial", 0, "null")
+  (137, 9, 10, <52:60>, 1, "officer.", 0, "null")
+  (147, 9, 10, <52:60>, 1, "officer.", 0, "null", "NN" 1.0)
+  (158, 9, 10, <52:60>, 1, "officer.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (1112 SB-HD_MC_C 15.161 0 10
+  (1101 HDN-NP_APP-NUM_C 5.96819 0 3
+   (1097 ^HDN_BNP-PN_C 2.99303 0 2
+    (1096 NP-HDN_TTL-CPD_C 3.08076 0 2
+     (1093 N_SG_ILR 2.02901 0 1
+      (168 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+       ("mr." 149
+        "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1095 ^W_COMMA_PLR 0.928892 1 2
+      (1094 N_SG_ILR -0.685616 1 2
+       (181 smith@n_-_pn_le 0 1 2
+        ("smith," 150
+         "token [ +CARG \"Smith\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"smith,\" +FROM #1=\"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (1100 HDN_BNP-NUM_C 2.15604 2 3
+    (1099 HDN_NP-NUM_C 2.5087 2 3
+     (1098 W_COMMA_PLR 1.5794 2 3
+      (190 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+       ("39," 118
+        "token [ +CARG \"39\" +CLASS card_ne +FORM \"39,\" +FROM \"11\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+  (1111 ^HD-CMP_U_C 9.22508 3 10
+   (1102 ^V_3S-FIN_OLR 0.198464 3 4
+    (199 retain_v1@v_np_le 0 3 4
+     ("retains" 127
+      "token [ +CARG #1=\"retains\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1110 SP-HD_N_C 8.08849 4 10
+    (225 the_1@d_-_the_le 1.07131 4 5
+     ("the" 129
+      "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1109 ^HD-CMP_U_C 6.01186 5 10
+     (1103 ^N_SG_ILR 1.16628 5 6
+      (251 title_n2@n_pp_c-of-brn_le 0 5 6
+       ("title" 131
+        "token [ +CARG #1=\"title\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1108 HD-CMP_U_C 3.41245 6 10
+      (285 of_nbar_p@p_nb_i-nmd_le 0.323579 6 7
+       ("of" 133
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1107 N-HDN_J-N-CPD_C 3.08888 7 10
+       (368 chief_n1@n_-_c_le 1.10686 7 8
+        ("chief" 140
+         "token [ +CARG #1=\"chief\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93829779999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1106 ^AJ-HDN_NORM_C 1.33088 8 10
+        (383 financial_a1@aj_-_i_le -1.24055 8 9
+         ("financial" 135
+          "token [ +CARG #1=\"financial\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"42\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"11\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (1105 ^W_PERIOD_PLR 0.661525 9 10
+         (1104 N_SG_ILR 0.286715 9 10
+          (385 officer_n1@n_-_c_le -0.136484 9 10
+           ("officer." 137
+            "token [ +CARG \"officer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"officer.\" +FROM #1=\"52\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"60\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (NP (NP (N (N (N "mr.")) (N (N (N "smith,")))))
+  (NP (N (ADJ (ADJ "39,")))))
+ (VP (V (V "retains"))
+  (NP (DET "the")
+   (N (N (N "title"))
+    (PP (P "of")
+     (N (N "chief") (N (AP "financial") (N (N (N "officer."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ appos<0:14>
+            LBL: h2
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5 [ x PERS: 3 NUM: SG IND: + ]
+            ARG2: x4 [ x PERS: 3 NUM: SG ] ]
+          [ proper_q<0:10>
+            LBL: h7
+            ARG0: x5
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<0:10>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ _mister_n_1<0:3>
+            LBL: h16
+            ARG0: x11 ]
+          [ named<4:10>
+            LBL: h10
+            ARG0: x5
+            CARG: "Smith" ]
+          [ number_q<11:14>
+            LBL: h17
+            ARG0: x4
+            RSTR: h18
+            BODY: h19 ]
+          [ card<11:14>
+            LBL: h20
+            ARG0: x4
+            ARG1: i21
+            CARG: "39" ]
+          [ _retain_v_1<15:22>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x22 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _the_q<23:26>
+            LBL: h23
+            ARG0: x22
+            RSTR: h25
+            BODY: h24 ]
+          [ _title_n_of<27:32>
+            LBL: h26
+            ARG0: x22
+            ARG1: x27 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<33:35>
+            LBL: h28
+            ARG0: x27
+            RSTR: h29
+            BODY: h30 ]
+          [ compound<36:60>
+            LBL: h31
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x27
+            ARG2: x32 [ x IND: + ] ]
+          [ udef_q<36:41>
+            LBL: h34
+            ARG0: x32
+            RSTR: h35
+            BODY: h36 ]
+          [ _chief_n_1<36:41>
+            LBL: h37
+            ARG0: x32 ]
+          [ _financial_a_1<42:51>
+            LBL: h31
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x27 ]
+          [ _officer_n_1<52:60>
+            LBL: h31
+            ARG0: x27 ] >
+   HCONS: < h35 QEQ h37 h29 QEQ h31 h25 QEQ h26 h18 QEQ h20 h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e6:appos<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x4]
+ _1:proper_q<0:10>[BV x5]
+ e12:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x11]
+ _2:udef_q<0:3>[BV x11]
+ x11:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x5:named<4:10>("Smith"){x PERS 3, NUM sg, IND +}[]
+ _3:number_q<11:14>[BV x4]
+ x4:card<11:14>("39"){x PERS 3, NUM sg}[]
+ e3:_retain_v_1<15:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x22]
+ _4:_the_q<23:26>[BV x22]
+ x22:_title_n_of<27:32>{x PERS 3, NUM sg, IND +}[ARG1 x27]
+ _5:udef_q<33:35>[BV x27]
+ e33:compound<36:60>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x27, ARG2 x32]
+ _6:udef_q<36:41>[BV x32]
+ x32:_chief_n_1<36:41>{x IND +}[]
+ e38:_financial_a_1<42:51>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x27]
+ x27:_officer_n_1<52:60>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  appos<0:14> ARG1 named<4:10>(Smith)  
+  appos<0:14> ARG2 card<11:14>(39)  
+  proper_q<0:10> BV named<4:10>(Smith)  
+  compound<0:10> ARG1 named<4:10>(Smith)  
+  compound<0:10> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  number_q<11:14> BV card<11:14>(39)  
+  _retain_v_1<15:22> ARG1 named<4:10>(Smith)  
+  _retain_v_1<15:22> ARG2 _title_n_of<27:32>  
+  _the_q<23:26> BV _title_n_of<27:32>  
+  _title_n_of<27:32> ARG1 _officer_n_1<52:60>  
+  udef_q<33:35> BV _officer_n_1<52:60>  
+  compound<36:60> ARG1 _officer_n_1<52:60>  
+  compound<36:60> ARG2 _chief_n_1<36:41>  
+  udef_q<36:41> BV _chief_n_1<36:41>  
+  _financial_a_1<42:51> ARG1 _officer_n_1<52:60>  
+  appos<0:14> SF prop  
+  appos<0:14> TENSE untensed  
+  appos<0:14> MOOD indicative  
+  appos<0:14> PROG -  
+  appos<0:14> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:10>(Smith) PERS 3  
+  named<4:10>(Smith) NUM sg  
+  named<4:10>(Smith) IND +  
+  card<11:14>(39) PERS 3  
+  card<11:14>(39) NUM sg  
+  _retain_v_1<15:22> SF prop  
+  _retain_v_1<15:22> TENSE pres  
+  _retain_v_1<15:22> MOOD indicative  
+  _retain_v_1<15:22> PROG -  
+  _retain_v_1<15:22> PERF -  
+  _title_n_of<27:32> PERS 3  
+  _title_n_of<27:32> NUM sg  
+  _title_n_of<27:32> IND +  
+  compound<36:60> SF prop  
+  compound<36:60> TENSE untensed  
+  compound<36:60> MOOD indicative  
+  compound<36:60> PROG -  
+  compound<36:60> PERF -  
+  _chief_n_1<36:41> IND +  
+  _financial_a_1<42:51> SF prop  
+  _financial_a_1<42:51> TENSE untensed  
+  _financial_a_1<42:51> MOOD indicative  
+  _financial_a_1<42:51> PROG -  
+  _financial_a_1<42:51> PERF -  
+  _officer_n_1<52:60> PERS 3  
+  _officer_n_1<52:60> NUM sg  
+  _officer_n_1<52:60> IND +  
+}
+

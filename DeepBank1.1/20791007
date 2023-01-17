@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj07e';
+;;; (wsun@wsun; 22-jan-2018 (17:53 h)).
+;;;
+
+[20791007] (1 of 1) {1} `Phoenix declined to comment.'
+
+[20791007:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Phoenix", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:16>, 1, "declined", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <17:19>, 1, "to", 0, "null", "TO" 1.0)
+  (4, 3, 4, <20:27>, 1, "comment", 0, "null", "VB" 0.9642 "NN" 0.0358)
+  (5, 4, 5, <27:28>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:7>, 1, "Phoenix", 0, "null")
+  (60, 0, 1, <0:7>, 1, "phoenix", 0, "null")
+  (64, 0, 1, <0:7>, 1, "phoenix", 0, "null")
+  (52, 1, 2, <8:16>, 1, "declined", 0, "null")
+  (59, 1, 2, <8:16>, 1, "declined", 0, "null", "VBD" 1.0)
+  (61, 1, 2, <8:16>, 1, "declined", 0, "null")
+  (54, 2, 3, <17:19>, 1, "to", 0, "null")
+  (62, 2, 3, <17:19>, 1, "to", 0, "null")
+  (55, 3, 4, <20:28>, 1, "comment.", 0, "null")
+  (58, 3, 4, <20:28>, 1, "comment.", 0, "null", "VB" 0.9642)
+  (63, 3, 4, <20:28>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (734 SB-HD_MC_C 7.61469 0 4
+  (728 HDN_BNP-PN_C 0.489307 0 1
+   (727 N_SG_ILR 0.538263 0 1
+    (66 phoenix_n1@n_-_pn_le 0 0 1
+     ("phoenix" 60
+      "token [ +CARG \"Phoenix\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"phoenix\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (733 ^HD-CMP_U_C 6.10833 1 4
+   (729 ^V_PST_OLR 2.50099 1 2
+    (83 decline_v2@v_vp_seq_le 1.27984 1 2
+     ("declined" 52
+      "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (732 HD-CMP_U_C 2.69111 2 4
+    (193 to_c_prop@cm_vp_to_le 2.48409 2 3
+     ("to" 54
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (731 W_PERIOD_PLR -0.468337 3 4
+     (730 V_N3S-BSE_ILR -0.466301 3 4
+      (248 comment_v2@v_-_le 0.214297 3 4
+       ("comment." 55
+        "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"20\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96420640000000002\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "phoenix")))
+ (VP (V (V "declined")) (VP (COMP "to") (VP (VP (V "comment."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:7>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "Phoenix" ]
+          [ _decline_v_1<8:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h9 ]
+          [ _comment_v_on<20:28>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h9 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:7>[BV x6]
+ x6:named<0:7>("Phoenix"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<8:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e11]
+ e11:_comment_v_on<20:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:7> BV named<0:7>(Phoenix)  
+  _decline_v_1<8:16> ARG1 named<0:7>(Phoenix)  
+  _decline_v_1<8:16> ARG2 _comment_v_on<20:28>  
+  _comment_v_on<20:28> ARG1 named<0:7>(Phoenix)  
+  named<0:7>(Phoenix) PERS 3  
+  named<0:7>(Phoenix) NUM sg  
+  named<0:7>(Phoenix) IND +  
+  _decline_v_1<8:16> SF prop  
+  _decline_v_1<8:16> TENSE past  
+  _decline_v_1<8:16> MOOD indicative  
+  _decline_v_1<8:16> PROG -  
+  _decline_v_1<8:16> PERF -  
+  _comment_v_on<20:28> SF prop  
+  _comment_v_on<20:28> TENSE untensed  
+  _comment_v_on<20:28> MOOD indicative  
+  _comment_v_on<20:28> PROG -  
+  _comment_v_on<20:28> PERF -  
+}
+

@@ -1,0 +1,139 @@
+;;;
+;;; Redwoods export of `wsj13a';
+;;; (wsun@wsun; 22-jan-2018 (21:59 h)).
+;;;
+
+[21313012] (1 of 1) {1} `"That is consumer issues."'
+
+[21313012:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:5>, 1, "That", 0, "null", "DT" 0.9778 "WDT" 0.0222)
+  (3, 2, 3, <6:8>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <9:17>, 1, "consumer", 0, "null", "NN" 1.0)
+  (5, 4, 5, <18:24>, 1, "issues", 0, "null", "NNS" 1.0)
+  (6, 5, 6, <24:25>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <25:26>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (80, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (84, 0, 1, <0:5>, 1, "“that", 0, "null")
+  (70, 1, 2, <6:8>, 1, "is", 0, "null")
+  (77, 1, 2, <6:8>, 1, "is", 0, "null", "VBZ" 1.0)
+  (81, 1, 2, <6:8>, 1, "is", 0, "null")
+  (72, 2, 3, <9:17>, 1, "consumer", 0, "null")
+  (78, 2, 3, <9:17>, 1, "consumer", 0, "null", "NN" 1.0)
+  (82, 2, 3, <9:17>, 1, "consumer", 0, "null")
+  (74, 3, 4, <18:26>, 1, "issues.”", 0, "null")
+  (79, 3, 4, <18:26>, 1, "issues.”", 0, "null", "NNS" 1.0)
+  (83, 3, 4, <18:26>, 1, "issues.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (608 SB-HD_MC_C 6.44944 0 4
+  (600 HDN_BNP-QNT_C 0.970318 0 1
+   (599 HDN_OPTCMP_C 0.881544 0 1
+    (598 W_DQLEFT_PLR 0.534835 0 1
+     (100 that_deix@n_-_pr-dei-sg_le 0.171311 0 1
+      ("“that" 80
+       "token [ +CARG \"That\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“that\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97783430000000005\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (607 ^HD-CMP_U_C 4.20977 1 4
+   (159 be_id_is@v_np_is_le 0.159389 1 2
+    ("is" 70
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (606 HDN_BNP_C 4.03474 2 4
+    (605 N-HDN_CPD_C 4.44384 2 4
+     (601 HDN_OPTCMP_C 1.13851 2 3
+      (243 consumer_n1@n_pp_c-of_le 1.20978 2 3
+       ("consumer" 72
+        "token [ +CARG #1=\"consumer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (604 ^W_DQRIGHT_PLR 2.14913 3 4
+      (603 W_PERIOD_PLR -0.56773 3 4
+       (602 N_PL_OLR -0.248549 3 4
+        (245 issue_n1@n_-_mc-ns_le 0 3 4
+         ("issues.”" 74
+          "token [ +CARG \"issues\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"issues.”\" +FROM #1=\"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (N (N (N "“that"))))
+ (VP (V "is") (NP (N (N (N "consumer")) (N (N (N (N "issues.”"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ generic_entity<0:5>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ _that_q_dem<0:5>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<6:8>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<9:26>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<9:26>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x IND: + ] ]
+          [ udef_q<9:17>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ _consumer_n_of<9:17>
+            LBL: h19
+            ARG0: x14
+            ARG1: i20 ]
+          [ _issue_n_1<18:26>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:generic_entity<0:5>{x PERS 3, NUM sg, GEND n}[]
+ _1:_that_q_dem<0:5>[BV x5]
+ e3:_be_v_id<6:8>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<9:26>[BV x9]
+ e15:compound<9:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:udef_q<9:17>[BV x14]
+ x14:_consumer_n_of<9:17>{x IND +}[]
+ x9:_issue_n_1<18:26>{x PERS 3, NUM pl}[]
+}
+
+{
+  _that_q_dem<0:5> BV generic_entity<0:5>  
+  _be_v_id<6:8> ARG1 generic_entity<0:5>  
+  _be_v_id<6:8> ARG2 _issue_n_1<18:26>  
+  udef_q<9:26> BV _issue_n_1<18:26>  
+  compound<9:26> ARG1 _issue_n_1<18:26>  
+  compound<9:26> ARG2 _consumer_n_of<9:17>  
+  udef_q<9:17> BV _consumer_n_of<9:17>  
+  generic_entity<0:5> PERS 3  
+  generic_entity<0:5> NUM sg  
+  generic_entity<0:5> GEND n  
+  _be_v_id<6:8> SF prop  
+  _be_v_id<6:8> TENSE pres  
+  _be_v_id<6:8> MOOD indicative  
+  _be_v_id<6:8> PROG -  
+  _be_v_id<6:8> PERF -  
+  compound<9:26> SF prop  
+  compound<9:26> TENSE untensed  
+  compound<9:26> MOOD indicative  
+  compound<9:26> PROG -  
+  compound<9:26> PERF -  
+  _consumer_n_of<9:17> IND +  
+  _issue_n_1<18:26> PERS 3  
+  _issue_n_1<18:26> NUM pl  
+}
+

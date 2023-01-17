@@ -1,0 +1,135 @@
+;;;
+;;; Redwoods export of `wsj07e';
+;;; (wsun@wsun; 22-jan-2018 (17:57 h)).
+;;;
+
+[20799036] (1 of 1) {1} `Mr. Salvatori should know.'
+
+[20799036:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:13>, 1, "Salvatori", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:20>, 1, "should", 0, "null", "MD" 1.0)
+  (4, 3, 4, <21:25>, 1, "know", 0, "null", "VB" 1.0)
+  (5, 4, 5, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (61, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (65, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (47, 1, 2, <4:13>, 1, "Salvatori", 0, "null")
+  (58, 1, 2, <4:13>, 1, "Salvatori", 0, "null", "NNP" 1.0)
+  (60, 1, 2, <4:13>, 1, "salvatori", 0, "null")
+  (62, 1, 2, <4:13>, 1, "salvatori", 0, "null")
+  (54, 2, 3, <14:20>, 1, "should", 0, "null")
+  (63, 2, 3, <14:20>, 1, "should", 0, "null")
+  (56, 3, 4, <21:26>, 1, "know.", 0, "null")
+  (59, 3, 4, <21:26>, 1, "know.", 0, "null", "VB" 1.0)
+  (64, 3, 4, <21:26>, 1, "know.", 0, "null")
+>
+
+(ROOT_STRICT
+ (325 SB-HD_MC_C 4.12387 0 4
+  (320 HDN_BNP-PN_C 3.86187 0 2
+   (319 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (317 N_SG_ILR 2.02901 0 1
+     (73 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 61
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (318 ^N_SG_ILR -0.259177 1 2
+     (76 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Salvatori" 47
+       "token [ +CARG #1=\"Salvatori\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (324 ^HD-CMP_U_C -0.755052 2 4
+   (78 should_aux_pos@v_vp_mdl-p-sv_le 0.574271 2 3
+    ("should" 54
+     "token [ +CARG #1=\"should\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (323 HD_OPTCMP_C -1.38769 3 4
+    (322 W_PERIOD_PLR -1.53912 3 4
+     (321 V_N3S-BSE_ILR -0.638355 3 4
+      (84 know_v1@v_np*_le 0 3 4
+       ("know." 56
+        "token [ +CARG \"know\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"know.\" +FROM #1=\"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Salvatori"))))
+ (VP (V "should") (VP (V (V (V "know."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:13>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:13>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:13>
+            LBL: h8
+            ARG0: x6
+            CARG: "Salvatori" ]
+          [ _should_v_modal<14:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: h15 ]
+          [ _know_v_1<21:26>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: p18 ] >
+   HCONS: < h15 QEQ h16 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:13>[BV x6]
+ e10:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:13>("Salvatori"){x PERS 3, NUM sg, IND +}[]
+ e3:_should_v_modal<14:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e17]
+ e17:_know_v_1<21:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:13> BV named<4:13>(Salvatori)  
+  compound<0:13> ARG1 named<4:13>(Salvatori)  
+  compound<0:13> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _should_v_modal<14:20> ARG1 _know_v_1<21:26>  
+  _know_v_1<21:26> ARG1 named<4:13>(Salvatori)  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:13>(Salvatori) PERS 3  
+  named<4:13>(Salvatori) NUM sg  
+  named<4:13>(Salvatori) IND +  
+  _should_v_modal<14:20> SF prop  
+  _should_v_modal<14:20> TENSE pres  
+  _should_v_modal<14:20> MOOD indicative  
+  _should_v_modal<14:20> PROG -  
+  _should_v_modal<14:20> PERF -  
+  _know_v_1<21:26> SF prop  
+  _know_v_1<21:26> TENSE untensed  
+  _know_v_1<21:26> MOOD indicative  
+  _know_v_1<21:26> PROG -  
+  _know_v_1<21:26> PERF -  
+}
+

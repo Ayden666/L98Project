@@ -1,0 +1,136 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (20:59 h)).
+;;;
+
+[21201037] (1 of 1) {1} `The company rejected those past proposals.'
+
+[21201037:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:11>, 1, "company", 0, "null", "NN" 1.0)
+  (3, 2, 3, <12:20>, 1, "rejected", 0, "null", "VBD" 0.9409 "VBN" 0.0591)
+  (4, 3, 4, <21:26>, 1, "those", 0, "null", "DT" 1.0)
+  (5, 4, 5, <27:31>, 1, "past", 0, "null", "JJ" 0.9189 "NN" 0.0811)
+  (6, 5, 6, <32:41>, 1, "proposals", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (85, 0, 1, <0:3>, 1, "the", 0, "null")
+  (91, 0, 1, <0:3>, 1, "the", 0, "null")
+  (72, 1, 2, <4:11>, 1, "company", 0, "null")
+  (83, 1, 2, <4:11>, 1, "company", 0, "null", "NN" 1.0)
+  (86, 1, 2, <4:11>, 1, "company", 0, "null")
+  (77, 2, 3, <12:20>, 1, "rejected", 0, "null")
+  (81, 2, 3, <12:20>, 1, "rejected", 0, "null", "VBD" 0.9409)
+  (89, 2, 3, <12:20>, 1, "rejected", 0, "null")
+  (74, 3, 4, <21:26>, 1, "those", 0, "null")
+  (87, 3, 4, <21:26>, 1, "those", 0, "null")
+  (79, 4, 5, <27:31>, 1, "past", 0, "null")
+  (82, 4, 5, <27:31>, 1, "past", 0, "null", "JJ" 0.9189)
+  (90, 4, 5, <27:31>, 1, "past", 0, "null")
+  (76, 5, 6, <32:42>, 1, "proposals.", 0, "null")
+  (84, 5, 6, <32:42>, 1, "proposals.", 0, "null", "NNS" 1.0)
+  (88, 5, 6, <32:42>, 1, "proposals.", 0, "null")
+>
+
+(ROOT_STRICT
+ (846 SB-HD_MC_C 7.78781 0 6
+  (839 SP-HD_N_C 3.19296 0 2
+   (104 the_1@d_-_the_le 0.418922 0 1
+    ("the" 85
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (838 ^HDN_OPTCMP_C 1.60996 1 2
+    (837 N_MS-CNT_ILR 1.69776 1 2
+     (129 company_n1@n_pp_mc-of_le 0.954973 1 2
+      ("company" 72
+       "token [ +CARG #1=\"company\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (845 ^HD-CMP_U_C 2.64033 2 6
+   (840 ^V_PST_OLR 0.107619 2 3
+    (140 reject_v1@v_np_le 0 2 3
+     ("rejected" 77
+      "token [ +CARG #1=\"rejected\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94086510000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (844 SP-HD_N_C 1.52381 3 6
+    (255 those_det@d_-_pl_le 0.333341 3 4
+     ("those" 74
+      "token [ +CARG #1=\"those\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (843 ^AJ-HDN_NORM_C 0.682086 4 6
+     (260 past_a1@aj_-_i_le -0.0952982 4 5
+      ("past" 79
+       "token [ +CARG #1=\"past\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91890850000000002\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (842 ^W_PERIOD_PLR 0.0313526 5 6
+      (841 N_PL_OLR 0.412767 5 6
+       (270 proposal_n1@n_-_c_le 0 5 6
+        ("proposals." 76
+         "token [ +CARG \"proposals\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"proposals.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N (N "company"))))
+ (VP (V (V "rejected"))
+  (NP (DET "those") (N (AP "past") (N (N (N "proposals.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _company_n_of<4:11>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _reject_v_as<12:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _those_q_dem<21:26>
+            LBL: h11
+            ARG0: x10
+            RSTR: h13
+            BODY: h12 ]
+          [ _past_a_1<27:31>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _proposal_n_1<32:42>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h13 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_company_n_of<4:11>{x PERS 3, NUM sg}[]
+ e3:_reject_v_as<12:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:_those_q_dem<21:26>[BV x10]
+ e15:_past_a_1<27:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_proposal_n_1<32:42>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  _the_q<0:3> BV _company_n_of<4:11>  
+  _reject_v_as<12:20> ARG1 _company_n_of<4:11>  
+  _reject_v_as<12:20> ARG2 _proposal_n_1<32:42>  
+  _those_q_dem<21:26> BV _proposal_n_1<32:42>  
+  _past_a_1<27:31> ARG1 _proposal_n_1<32:42>  
+  _company_n_of<4:11> PERS 3  
+  _company_n_of<4:11> NUM sg  
+  _reject_v_as<12:20> SF prop  
+  _reject_v_as<12:20> TENSE past  
+  _reject_v_as<12:20> MOOD indicative  
+  _reject_v_as<12:20> PROG -  
+  _reject_v_as<12:20> PERF -  
+  _past_a_1<27:31> SF prop  
+  _past_a_1<27:31> TENSE untensed  
+  _past_a_1<27:31> MOOD indicative  
+  _past_a_1<27:31> PROG -  
+  _past_a_1<27:31> PERF -  
+  _proposal_n_1<32:42> PERS 3  
+  _proposal_n_1<32:42> NUM pl  
+  _proposal_n_1<32:42> IND +  
+}
+

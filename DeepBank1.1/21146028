@@ -1,0 +1,152 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:28 h)).
+;;;
+
+[21146028] (1 of 1) {1} `"You can't buy anything nowadays.'
+
+[21146028:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:4>, 1, "You", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <5:7>, 1, "ca", 0, "null", "MD" 1.0)
+  (4, 3, 4, <7:10>, 1, "n’t", 0, "null", "VB" 0.4066 "RB" 0.3131 "NN" 0.1839 "JJS" 0.0917 "JJ" 0.0047)
+  (5, 4, 5, <11:14>, 1, "buy", 0, "null", "VB" 0.8887 "JJ" 0.0622 "NN" 0.0401 "VBP" 0.009)
+  (6, 5, 6, <15:23>, 1, "anything", 0, "null", "NN" 1.0)
+  (7, 6, 7, <24:32>, 1, "nowadays", 0, "null", "RB" 1.0)
+  (8, 7, 8, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (90, 0, 1, <0:4>, 1, "“you", 0, "null")
+  (95, 0, 1, <0:4>, 1, "“you", 0, "null")
+  (80, 1, 2, <5:10>, 1, "can’t", 0, "null")
+  (92, 1, 2, <5:10>, 1, "can’t", 0, "null")
+  (85, 2, 3, <11:14>, 1, "buy", 0, "null")
+  (87, 2, 3, <11:14>, 1, "buy", 0, "null", "VB" 0.8887)
+  (94, 2, 3, <11:14>, 1, "buy", 0, "null")
+  (78, 3, 4, <15:23>, 1, "anything", 0, "null")
+  (88, 3, 4, <15:23>, 1, "anything", 0, "null", "NN" 1.0)
+  (91, 3, 4, <15:23>, 1, "anything", 0, "null")
+  (84, 4, 5, <24:33>, 1, "nowadays.", 0, "null")
+  (89, 4, 5, <24:33>, 1, "nowadays.", 0, "null", "RB" 1.0)
+  (93, 4, 5, <24:33>, 1, "nowadays.", 0, "null")
+>
+
+(ROOT_STRICT
+ (491 SB-HD_MC_C 2.32852 0 5
+  (483 HDN_BNP-QNT_C -0.853155 0 1
+   (482 W_DQLEFT_PLR -0.217356 0 1
+    (101 you@n_-_pr-you_le 0 0 1
+     ("“you" 90
+      "token [ +CARG \"You\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"“you\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (490 ^HD-CMP_U_C 1.91233 1 5
+   (122 can_aux_neg_3_u@v_vp_mdl-n_le 0.369393 1 2
+    ("can’t" 80
+     "token [ +CARG #1=\"can’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (489 HD-AJ_INT-UNSL_C 1.34294 2 5
+    (487 ^HD-CMP_U_C 1.27716 2 4
+     (484 ^V_N3S-BSE_ILR 0.959909 2 3
+      (129 buy_v1@v_np*_le 0.217966 2 3
+       ("buy" 85
+        "token [ +CARG #1=\"buy\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88868840000000004\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (486 HDN_BNP-QNT_C -0.323159 3 4
+      (485 HDN_OPTCMP_C 0.839635 3 4
+       (135 anything@n_-_pr_le -0.114769 3 4
+        ("anything" 78
+         "token [ +CARG #1=\"anything\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (488 W_PERIOD_PLR 0.20692 4 5
+     (145 nowadays_adv2@av_-_i-vp-po_le 0 4 5
+      ("nowadays." 84
+       "token [ +CARG \"nowadays\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"nowadays.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP (NP "“you")))
+ (VP (V "can’t")
+  (VP (VP (V (V "buy")) (NP (N (N "anything"))))
+   (ADV (ADV "nowadays.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:4>
+            LBL: h4
+            ARG0: x5 [ x PERS: 2 PT: STD ] ]
+          [ pronoun_q<0:4>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<5:10>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _can_v_modal<5:10>
+            LBL: h11
+            ARG0: e3
+            ARG1: h12 ]
+          [ _buy_v_1<11:14>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x15 [ x PERS: 3 NUM: SG ] ]
+          [ thing<15:23>
+            LBL: h16
+            ARG0: x15 ]
+          [ _any_q<15:23>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _nowadays_a_1<24:33>
+            LBL: h13
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e14 ] >
+   HCONS: < h18 QEQ h16 h9 QEQ h11 h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:4>{x PERS 2, PT std}[]
+ _1:pronoun_q<0:4>[BV x5]
+ e10:neg<5:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_can_v_modal<5:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:_buy_v_1-fn.Commerce_buy<11:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Buyer x5, ARG2-fn.Goods x15]
+ x15:thing<15:23>{x PERS 3, NUM sg}[]
+ _2:_any_q<15:23>[BV x15]
+ e20:_nowadays_a_1<24:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+}
+
+{
+  pronoun_q<0:4> BV pron<0:4>  
+  neg<5:10> ARG1 _can_v_modal<5:10>  
+  _can_v_modal<5:10> ARG1 _buy_v_1<11:14>  
+  _buy_v_1<11:14> ARG1 pron<0:4>  
+  _buy_v_1<11:14> ARG2 thing<15:23>  
+  _any_q<15:23> BV thing<15:23>  
+  _nowadays_a_1<24:33> ARG1 _buy_v_1<11:14>  
+  pron<0:4> PERS 2  
+  pron<0:4> PT std  
+  neg<5:10> SF prop  
+  neg<5:10> TENSE untensed  
+  neg<5:10> MOOD indicative  
+  neg<5:10> PROG -  
+  neg<5:10> PERF -  
+  _can_v_modal<5:10> SF prop  
+  _can_v_modal<5:10> TENSE pres  
+  _can_v_modal<5:10> MOOD indicative  
+  _can_v_modal<5:10> PROG -  
+  _can_v_modal<5:10> PERF -  
+  _buy_v_1<11:14> SF prop  
+  _buy_v_1<11:14> TENSE untensed  
+  _buy_v_1<11:14> MOOD indicative  
+  _buy_v_1<11:14> PROG -  
+  _buy_v_1<11:14> PERF -  
+  thing<15:23> PERS 3  
+  thing<15:23> NUM sg  
+  _nowadays_a_1<24:33> SF prop  
+  _nowadays_a_1<24:33> TENSE untensed  
+  _nowadays_a_1<24:33> MOOD indicative  
+  _nowadays_a_1<24:33> PROG -  
+  _nowadays_a_1<24:33> PERF -  
+}
+

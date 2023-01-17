@@ -1,0 +1,234 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:15 h)).
+;;;
+
+[21015053] (1 of 1) {1} `Trading in Taipei was suspended for a national holiday.'
+
+[21015053:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Trading", 0, "null", "NN" 0.9583 "NNP" 0.0417)
+  (2, 1, 2, <8:10>, 1, "in", 0, "null", "IN" 1.0)
+  (3, 2, 3, <11:17>, 1, "Taipei", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <18:21>, 1, "was", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <22:31>, 1, "suspended", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <32:35>, 1, "for", 0, "null", "IN" 1.0)
+  (7, 6, 7, <36:37>, 1, "a", 0, "null", "DT" 1.0)
+  (8, 7, 8, <38:46>, 1, "national", 0, "null", "JJ" 1.0)
+  (9, 8, 9, <47:54>, 1, "holiday", 0, "null", "NN" 1.0)
+  (10, 9, 10, <54:55>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (114, 0, 1, <0:7>, 1, "Trading", 0, "null")
+  (121, 0, 1, <0:7>, 1, "trading", 0, "null")
+  (130, 0, 1, <0:7>, 1, "trading", 0, "null")
+  (99, 1, 2, <8:10>, 1, "in", 0, "null")
+  (123, 1, 2, <8:10>, 1, "in", 0, "null")
+  (92, 2, 3, <11:17>, 1, "Taipei", 0, "null")
+  (115, 2, 3, <11:17>, 1, "Taipei", 0, "null", "NNP" 1.0)
+  (120, 2, 3, <11:17>, 1, "taipei", 0, "null")
+  (122, 2, 3, <11:17>, 1, "taipei", 0, "null")
+  (101, 3, 4, <18:21>, 1, "was", 0, "null")
+  (116, 3, 4, <18:21>, 1, "was", 0, "null", "VBD" 1.0)
+  (124, 3, 4, <18:21>, 1, "was", 0, "null")
+  (103, 4, 5, <22:31>, 1, "suspended", 0, "null")
+  (117, 4, 5, <22:31>, 1, "suspended", 0, "null", "VBN" 1.0)
+  (125, 4, 5, <22:31>, 1, "suspended", 0, "null")
+  (105, 5, 6, <32:35>, 1, "for", 0, "null")
+  (126, 5, 6, <32:35>, 1, "for", 0, "null")
+  (107, 6, 7, <36:37>, 1, "a", 0, "null")
+  (127, 6, 7, <36:37>, 1, "a", 0, "null")
+  (109, 7, 8, <38:46>, 1, "national", 0, "null")
+  (118, 7, 8, <38:46>, 1, "national", 0, "null", "JJ" 1.0)
+  (128, 7, 8, <38:46>, 1, "national", 0, "null")
+  (111, 8, 9, <47:55>, 1, "holiday.", 0, "null")
+  (119, 8, 9, <47:55>, 1, "holiday.", 0, "null", "NN" 1.0)
+  (129, 8, 9, <47:55>, 1, "holiday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1785 SB-HD_MC_C 8.34722 0 9
+  (1775 HDN_BNP_C 2.01083 0 3
+   (1774 HDN-AJ_REDREL_C 1.73945 0 3
+    (1770 ^HDN_OPTCMP_C 1.44244 0 1
+     (1769 V_NGER-TR_DLR 2.53473 0 1
+      (1768 V_PRP_OLR 3.0788 0 1
+       (141 trade_v1@v_np*_le 2.82677 0 1
+        ("trading" 121
+         "token [ +CARG \"Trading\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"trading\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95826149999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (1773 HD-CMP_U_C -0.235358 1 3
+     (164 in@p_np_i-reg_le 0.354487 1 2
+      ("in" 99
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1772 HDN_BNP-PN_C -1.09547 2 3
+      (1771 N_SG_ILR -0.648737 2 3
+       (205 generic_proper_ne@n_-_pn-gen_le 0 2 3
+        ("Taipei" 92
+         "token [ +CARG #1=\"Taipei\" +CLASS proper_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+  (1784 ^HD-CMP_U_C 4.82048 3 9
+   (211 be_c_was@v_prd_was_le 2.0009 3 4
+    ("was" 101
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1783 HD-AJ_INT-UNSL_C 2.80363 4 9
+    (1777 ^HD_OPTCMP_C 0.332001 4 5
+     (1776 V_PAS_ODLR -0.649181 4 5
+      (234 suspend_v1@v_np_le 0 4 5
+       ("suspended" 103
+        "token [ +CARG #1=\"suspended\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (1782 HD-CMP_U_C 1.15251 5 9
+     (335 for@p_np_i_le -0.354773 5 6
+      ("for" 105
+       "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1781 SP-HD_N_C 0.838977 6 9
+      (353 a_det@d_-_sg-nmd_le -0.667877 6 7
+       ("a" 107
+        "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1780 ^AJ-HDN_NORM_C 0.106004 7 9
+       (426 national_a1@aj_-_i_le -0.883013 7 8
+        ("national" 109
+         "token [ +CARG #1=\"national\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1779 ^W_PERIOD_PLR 0.242985 8 9
+        (1778 N_SG_ILR 0 8 9
+         (430 holiday_n1@n_-_c-day_le 0 8 9
+          ("holiday." 111
+           "token [ +CARG \"holiday\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"holiday.\" +FROM #1=\"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (NP (N (N (N (V (V "trading")))) (PP (P "in") (NP (N (N "Taipei"))))))
+ (VP (V "was")
+  (VP (VP (V (V "suspended")))
+   (PP (P "for")
+    (NP (DET "a") (N (AP "national") (N (N (N "holiday.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:17>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _trade_v_1<0:7>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i11
+            ARG2: p10 ]
+          [ nominalization<0:7>
+            LBL: h12
+            ARG0: x6
+            ARG1: h8 ]
+          [ _in_p<8:10>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<11:17>
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ named<11:17>
+            LBL: h18
+            ARG0: x14
+            CARG: "Taipei" ]
+          [ _suspend_v_1<22:31>
+            LBL: h2
+            ARG0: e3
+            ARG1: i19
+            ARG2: x6 ]
+          [ parg_d<22:31>
+            LBL: h2
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _for_p<32:35>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x22 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<36:37>
+            LBL: h23
+            ARG0: x22
+            RSTR: h25
+            BODY: h24 ]
+          [ _national_a_1<38:46>
+            LBL: h26
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22 ]
+          [ _holiday_n_1<47:55>
+            LBL: h26
+            ARG0: x22 ] >
+   HCONS: < h25 QEQ h26 h16 QEQ h18 h5 QEQ h12 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:17>[BV x6]
+ e9:_trade_v_1<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x6:nominalization<0:7>{x PERS 3, NUM sg, GEND n}[ARG1 e9]
+ e13:_in_p<8:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x14]
+ _2:proper_q<11:17>[BV x14]
+ x14:named<11:17>("Taipei"){x PERS 3, NUM sg, IND +}[]
+ e3:_suspend_v_1<22:31>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e20:parg_d<22:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e21:_for_p<32:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x22]
+ _3:_a_q<36:37>[BV x22]
+ e27:_national_a_1<38:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22]
+ x22:_holiday_n_1<47:55>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:17> BV nominalization<0:7>  
+  nominalization<0:7> ARG1 _trade_v_1<0:7>  
+  _in_p<8:10> ARG1 nominalization<0:7>  
+  _in_p<8:10> ARG2 named<11:17>(Taipei)  
+  proper_q<11:17> BV named<11:17>(Taipei)  
+  _suspend_v_1<22:31> ARG2 nominalization<0:7>  
+  parg_d<22:31> ARG1 _suspend_v_1<22:31>  
+  parg_d<22:31> ARG2 nominalization<0:7>  
+  _for_p<32:35> ARG1 _suspend_v_1<22:31>  
+  _for_p<32:35> ARG2 _holiday_n_1<47:55>  
+  _a_q<36:37> BV _holiday_n_1<47:55>  
+  _national_a_1<38:46> ARG1 _holiday_n_1<47:55>  
+  _trade_v_1<0:7> SF prop  
+  _trade_v_1<0:7> TENSE untensed  
+  _trade_v_1<0:7> MOOD indicative  
+  _trade_v_1<0:7> PROG +  
+  _trade_v_1<0:7> PERF -  
+  nominalization<0:7> PERS 3  
+  nominalization<0:7> NUM sg  
+  nominalization<0:7> GEND n  
+  _in_p<8:10> SF prop  
+  _in_p<8:10> TENSE untensed  
+  _in_p<8:10> MOOD indicative  
+  _in_p<8:10> PROG -  
+  _in_p<8:10> PERF -  
+  named<11:17>(Taipei) PERS 3  
+  named<11:17>(Taipei) NUM sg  
+  named<11:17>(Taipei) IND +  
+  _suspend_v_1<22:31> SF prop  
+  _suspend_v_1<22:31> TENSE past  
+  _suspend_v_1<22:31> MOOD indicative  
+  _suspend_v_1<22:31> PROG -  
+  _suspend_v_1<22:31> PERF -  
+  parg_d<22:31> SF prop  
+  parg_d<22:31> TENSE untensed  
+  parg_d<22:31> MOOD indicative  
+  parg_d<22:31> PROG -  
+  parg_d<22:31> PERF -  
+  _for_p<32:35> SF prop  
+  _for_p<32:35> TENSE untensed  
+  _for_p<32:35> MOOD indicative  
+  _for_p<32:35> PROG -  
+  _for_p<32:35> PERF -  
+  _national_a_1<38:46> SF prop  
+  _national_a_1<38:46> TENSE untensed  
+  _national_a_1<38:46> MOOD indicative  
+  _national_a_1<38:46> PROG -  
+  _national_a_1<38:46> PERF -  
+  _holiday_n_1<47:55> PERS 3  
+  _holiday_n_1<47:55> NUM sg  
+  _holiday_n_1<47:55> IND +  
+}
+

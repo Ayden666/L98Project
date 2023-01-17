@@ -1,0 +1,131 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:26 h)).
+;;;
+
+[21142039] (1 of 1) {1} `McCaw was unchanged at 40.'
+
+[21142039:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "McCaw", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:9>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <10:19>, 1, "unchanged", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <20:22>, 1, "at", 0, "null", "IN" 1.0)
+  (5, 4, 5, <23:25>, 1, "40", 0, "null", "CD" 1.0)
+  (6, 5, 6, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (54, 0, 1, <0:5>, 1, "McCaw", 0, "null")
+  (64, 0, 1, <0:5>, 1, "McCaw", 0, "null", "NNP" 1.0)
+  (67, 0, 1, <0:5>, 1, "mccaw", 0, "null")
+  (68, 0, 1, <0:5>, 1, "mccaw", 0, "null")
+  (59, 1, 2, <6:9>, 1, "was", 0, "null")
+  (65, 1, 2, <6:9>, 1, "was", 0, "null", "VBD" 1.0)
+  (70, 1, 2, <6:9>, 1, "was", 0, "null")
+  (61, 2, 3, <10:19>, 1, "unchanged", 0, "null")
+  (66, 2, 3, <10:19>, 1, "unchanged", 0, "null", "JJ" 1.0)
+  (71, 2, 3, <10:19>, 1, "unchanged", 0, "null")
+  (63, 3, 4, <20:22>, 1, "at", 0, "null")
+  (72, 3, 4, <20:22>, 1, "at", 0, "null")
+  (55, 4, 5, <23:26>, 1, "40.", 0, "null")
+  (69, 4, 5, <23:26>, 1, "40.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1636 SB-HD_MC_C 6.98182 0 5
+  (1629 HDN_BNP-PN_C -1.0285 0 1
+   (1628 N_SG_ILR -0.979548 0 1
+    (74 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("McCaw" 54
+      "token [ +CARG #1=\"McCaw\" +CLASS proper_ne +FORM #1 +FROM \"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1635 ^HD-CMP_U_C 6.99327 1 5
+   (80 be_c_was@v_prd_was_le 2.0009 1 2
+    ("was" 59
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1634 HD-AJ_INT-UNSL_C 4.97643 2 5
+    (214 unchanged_a1@aj_-_i_le 0.490409 2 3
+     ("unchanged" 61
+      "token [ +CARG #1=\"unchanged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1633 HD-CMP_U_C 2.91491 3 5
+     (321 at@p_np_i-reg_le -1.21766 3 4
+      ("at" 63
+       "token [ +CARG #1=\"at\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1632 HDN_BNP-NUM_C 4.01481 4 5
+      (1631 HDN_NP-NUM_C 3.49617 4 5
+       (1630 W_PERIOD_PLR 2.19869 4 5
+        (326 generic_card_ne@aj_-_i-crd-gen_le 0 4 5
+         ("40." 55
+          "token [ +CARG \"40\" +CLASS card_ne +FORM \"40.\" +FROM \"23\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (NP (N (N "McCaw")))
+ (VP (V "was")
+  (AP (AP "unchanged") (PP (P "at") (NP (N (ADJ (ADJ "40."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:5>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:5>
+            LBL: h8
+            ARG0: x6
+            CARG: "McCaw" ]
+          [ _unchanged_a_1<10:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _at_p<20:22>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<23:26>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ card<23:26>
+            LBL: h14
+            ARG0: x10
+            ARG1: i15
+            CARG: "40" ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:5>[BV x6]
+ x6:named<0:5>("McCaw"){x PERS 3, NUM sg, IND +}[]
+ e3:_unchanged_a_1<10:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:_at_p<20:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:number_q<23:26>[BV x10]
+ x10:card<23:26>("40"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:5> BV named<0:5>(McCaw)  
+  _unchanged_a_1<10:19> ARG1 named<0:5>(McCaw)  
+  _at_p<20:22> ARG1 _unchanged_a_1<10:19>  
+  _at_p<20:22> ARG2 card<23:26>(40)  
+  number_q<23:26> BV card<23:26>(40)  
+  named<0:5>(McCaw) PERS 3  
+  named<0:5>(McCaw) NUM sg  
+  named<0:5>(McCaw) IND +  
+  _unchanged_a_1<10:19> SF prop  
+  _unchanged_a_1<10:19> TENSE past  
+  _unchanged_a_1<10:19> MOOD indicative  
+  _unchanged_a_1<10:19> PROG -  
+  _unchanged_a_1<10:19> PERF -  
+  _at_p<20:22> SF prop  
+  _at_p<20:22> TENSE untensed  
+  _at_p<20:22> MOOD indicative  
+  _at_p<20:22> PROG -  
+  _at_p<20:22> PERF -  
+  card<23:26>(40) PERS 3  
+  card<23:26>(40) NUM sg  
+}
+

@@ -1,0 +1,221 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:27 h)).
+;;;
+
+[22156017] (1 of 1) {1} `Total snack-food profit rose 30%.'
+
+[22156017:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Total", 0, "null", "JJ" 0.9557 "NNP" 0.0443)
+  (2, 1, 2, <6:16>, 1, "snack-food", 0, "null", "NN" 1.0)
+  (3, 2, 3, <17:23>, 1, "profit", 0, "null", "NN" 1.0)
+  (4, 3, 4, <24:28>, 1, "rose", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <29:31>, 1, "30", 0, "null", "CD" 1.0)
+  (6, 5, 6, <31:32>, 1, "%", 0, "null", "NN" 1.0)
+  (7, 6, 7, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (84, 0, 1, <0:5>, 1, "Total", 0, "null", "JJ" 0.9557)
+  (89, 0, 1, <0:5>, 1, "total", 0, "null")
+  (96, 0, 1, <0:5>, 1, "total", 0, "null")
+  (79, 1, 2, <6:16>, 1, "snack-", 0, "null")
+  (88, 1, 2, <6:16>, 1, "snack-", 0, "null", "NN" 1.0)
+  (94, 1, 2, <6:16>, 1, "snack-", 0, "null")
+  (77, 2, 3, <6:16>, 1, "food", 0, "null")
+  (87, 2, 3, <6:16>, 1, "food", 0, "null", "NN" 1.0)
+  (93, 2, 3, <6:16>, 1, "food", 0, "null")
+  (73, 3, 4, <17:23>, 1, "profit", 0, "null")
+  (85, 3, 4, <17:23>, 1, "profit", 0, "null", "NN" 1.0)
+  (91, 3, 4, <17:23>, 1, "profit", 0, "null")
+  (75, 4, 5, <24:28>, 1, "rose", 0, "null")
+  (86, 4, 5, <24:28>, 1, "rose", 0, "null", "VBD" 1.0)
+  (92, 4, 5, <24:28>, 1, "rose", 0, "null")
+  (66, 5, 6, <29:31>, 1, "30", 0, "null")
+  (90, 5, 6, <29:31>, 1, "30", 0, "null")
+  (81, 6, 7, <31:33>, 1, "%.", 0, "null")
+  (95, 6, 7, <31:33>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2530 SB-HD_MC_C 12.6924 0 7
+  (2521 HDN_BNP_C 5.23611 0 4
+   (2520 AJ-HDN_NORM_C 4.50161 0 4
+    (98 total_a1@aj_-_i_le 1.29685 0 1
+     ("total" 89
+      "token [ +CARG \"Total\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"total\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95567749999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2519 ^N-HDN_CPD_C 1.76972 1 4
+     (2517 XP_BRCK-PR_C -0.554956 1 3
+      (2516 N-HDN_CPD_C -0.484654 1 3
+       (2515 W_HYPHEN_PLR -0.094668 1 2
+        (104 snack_n1@n_-_c_le 0 1 2
+         ("snack-" 79
+          "token [ +CARG #1=\"snack-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+       (111 food_n1@n_-_mc_le -0.560939 2 3
+        ("food" 77
+         "token [ +CARG #1=\"food\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"6\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+     (2518 ^N_MS-CNT_ILR 2.20692 3 4
+      (118 profit_n1@n_-_mc_le 1.04047 3 4
+       ("profit" 73
+        "token [ +CARG #1=\"profit\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (2529 ^HD-AJ_INT-UNSL_C 6.61614 4 7
+   (2523 ^HD_OPTCMP_C 4.40977 4 5
+    (2522 V_PST_OLR 3.53124 4 5
+     (131 rise_v2@v_pp_unacc_le 1.80509 4 5
+      ("rose" 75
+       "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (2528 NP_ADV-MNP_C 2.02229 5 7
+    (2527 HDN_BNP_C 3.24567 5 7
+     (2526 NUM-N_MNP_C 1.72129 5 7
+      (140 generic_card_ne@aj_-_i-crd-gen_le 0.183554 5 6
+       ("30" 66
+        "token [ +CARG #1=\"30\" +CLASS card_or_dom_ne +FORM #1 +FROM \"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+      (2525 ^W_PERIOD_PLR 1.02943 6 7
+       (2524 N_PL_OLR 0.482577 6 7
+        (144 percent_char_n1@n_-_c-meas-spr_le 0.328883 6 7
+         ("%." 81
+          "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (NP
+  (N (AP "total")
+   (N (N (N (N (N "snack-")) (N "food"))) (N (N "profit")))))
+ (VP (VP (V (V "rose"))) (PP (NP (N (ADJ "30") (N (N (N "%."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:23>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _total_a_1<0:5>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ compound<6:23>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 ]
+          [ udef_q<6:16>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ compound<6:16>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x16 [ x IND: + ] ]
+          [ udef_q<6:16>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ _snack_n_1<6:16>
+            LBL: h21
+            ARG0: x16 ]
+          [ _food_n_1<6:16>
+            LBL: h15
+            ARG0: x10 ]
+          [ _profit_n_1<17:23>
+            LBL: h8
+            ARG0: x6 ]
+          [ _rise_v_1<24:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<29:33>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<29:33>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<29:31>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            CARG: "30" ]
+          [ _percent_n_of<31:33>
+            LBL: h27
+            ARG0: x23 ] >
+   HCONS: < h25 QEQ h27 h19 QEQ h21 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:23>[BV x6]
+ e9:_total_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:compound<6:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<6:16>[BV x10]
+ e17:compound<6:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x16]
+ _3:udef_q<6:16>[BV x16]
+ x16:_snack_n_1<6:16>{x IND +}[]
+ x10:_food_n_1<6:16>{x}[]
+ x6:_profit_n_1<17:23>{x PERS 3, NUM sg}[]
+ e3:_rise_v_1<24:28>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e22:loc_nonsp<29:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:udef_q<29:33>[BV x23]
+ e28:card<29:31>("30"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+ x23:_percent_n_of<31:33>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:23> BV _profit_n_1<17:23>  
+  _total_a_1<0:5> ARG1 _profit_n_1<17:23>  
+  compound<6:23> ARG1 _profit_n_1<17:23>  
+  compound<6:23> ARG2 _food_n_1<6:16>  
+  udef_q<6:16> BV _food_n_1<6:16>  
+  compound<6:16> ARG1 _food_n_1<6:16>  
+  compound<6:16> ARG2 _snack_n_1<6:16>  
+  udef_q<6:16> BV _snack_n_1<6:16>  
+  _rise_v_1<24:28> ARG1 _profit_n_1<17:23>  
+  loc_nonsp<29:33> ARG1 _rise_v_1<24:28>  
+  loc_nonsp<29:33> ARG2 _percent_n_of<31:33>  
+  udef_q<29:33> BV _percent_n_of<31:33>  
+  card<29:31>(30) ARG1 _percent_n_of<31:33>  
+  _total_a_1<0:5> SF prop  
+  _total_a_1<0:5> TENSE untensed  
+  _total_a_1<0:5> MOOD indicative  
+  _total_a_1<0:5> PROG -  
+  _total_a_1<0:5> PERF -  
+  compound<6:23> SF prop  
+  compound<6:23> TENSE untensed  
+  compound<6:23> MOOD indicative  
+  compound<6:23> PROG -  
+  compound<6:23> PERF -  
+  compound<6:16> SF prop  
+  compound<6:16> TENSE untensed  
+  compound<6:16> MOOD indicative  
+  compound<6:16> PROG -  
+  compound<6:16> PERF -  
+  _snack_n_1<6:16> IND +  
+  _profit_n_1<17:23> PERS 3  
+  _profit_n_1<17:23> NUM sg  
+  _rise_v_1<24:28> SF prop  
+  _rise_v_1<24:28> TENSE past  
+  _rise_v_1<24:28> MOOD indicative  
+  _rise_v_1<24:28> PROG -  
+  _rise_v_1<24:28> PERF -  
+  loc_nonsp<29:33> SF prop  
+  loc_nonsp<29:33> TENSE untensed  
+  loc_nonsp<29:33> MOOD indicative  
+  loc_nonsp<29:33> PROG -  
+  loc_nonsp<29:33> PERF -  
+  card<29:31>(30) SF prop  
+  card<29:31>(30) TENSE untensed  
+  card<29:31>(30) MOOD indicative  
+  card<29:31>(30) PROG -  
+  card<29:31>(30) PERF -  
+  _percent_n_of<31:33> PERS 3  
+  _percent_n_of<31:33> NUM pl  
+  _percent_n_of<31:33> IND +  
+}
+

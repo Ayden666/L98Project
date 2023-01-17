@@ -1,0 +1,168 @@
+;;;
+;;; Redwoods export of `wsj13b';
+;;; (wsun@wsun; 22-jan-2018 (22:03 h)).
+;;;
+
+[21320003] (1 of 1) {1} `Petroleum products prices also declined.'
+
+[21320003:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Petroleum", 0, "null", "NNP" 0.9228 "NN" 0.0772)
+  (2, 1, 2, <10:18>, 1, "products", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <19:25>, 1, "prices", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <26:30>, 1, "also", 0, "null", "RB" 1.0)
+  (5, 4, 5, <31:39>, 1, "declined", 0, "null", "VBD" 0.8844 "VBN" 0.1156)
+  (6, 5, 6, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:9>, 1, "Petroleum", 0, "null")
+  (76, 0, 1, <0:9>, 1, "petroleum", 0, "null")
+  (81, 0, 1, <0:9>, 1, "petroleum", 0, "null")
+  (61, 1, 2, <10:18>, 1, "products", 0, "null")
+  (72, 1, 2, <10:18>, 1, "products", 0, "null", "NNS" 1.0)
+  (77, 1, 2, <10:18>, 1, "products", 0, "null")
+  (63, 2, 3, <19:25>, 1, "prices", 0, "null")
+  (73, 2, 3, <19:25>, 1, "prices", 0, "null", "NNS" 1.0)
+  (78, 2, 3, <19:25>, 1, "prices", 0, "null")
+  (65, 3, 4, <26:30>, 1, "also", 0, "null")
+  (74, 3, 4, <26:30>, 1, "also", 0, "null", "RB" 1.0)
+  (79, 3, 4, <26:30>, 1, "also", 0, "null")
+  (68, 4, 5, <31:40>, 1, "declined.", 0, "null")
+  (71, 4, 5, <31:40>, 1, "declined.", 0, "null", "VBD" 0.8844)
+  (75, 4, 5, <31:40>, 1, "declined.", 0, "null", "VBN" 0.1156)
+  (80, 4, 5, <31:40>, 1, "declined.", 0, "null")
+>
+
+(ROOT_STRICT
+ (910 SB-HD_MC_C 4.18944 0 5
+  (905 HDN_BNP_C 2.22594 0 3
+   (904 N-HDN_CPD_C 1.6052 0 3
+    (902 N-HDN_CPD_C 0.452405 0 2
+     (83 petroleum_n1@n_-_m_le -0.0923901 0 1
+      ("petroleum" 76
+       "token [ +CARG \"Petroleum\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"petroleum\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92284520000000003\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (92 products_n1@n_-_c-pl-cpd_le -0.551604 1 2
+      ("products" 61
+       "token [ +CARG #1=\"products\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (903 ^N_PL_OLR 1.04317 2 3
+     (108 price_n1@n_-_mc-ed_le 0.382246 2 3
+      ("prices" 63
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (909 ^AJ-HD_SCP-XP_C 1.09242 3 5
+   (123 also_adv1@av_-_s-vp-x_le -0.0583193 3 4
+    ("also" 65
+     "token [ +CARG #1=\"also\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (908 ^HD_OPTCMP_C -0.39416 4 5
+    (907 W_PERIOD_PLR -0.21915 4 5
+     (906 V_PST_OLR -0.555709 4 5
+      (154 decline_v1@v_np*_le 0 4 5
+       ("declined." 68
+        "token [ +CARG \"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"declined.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88439409999999996\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "petroleum") (N "products")) (N (N "prices"))))
+ (VP (ADV "also") (VP (V (V (V "declined."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:25>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:25>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:18>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:18>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:9>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _petroleum_n_1<0:9>
+            LBL: h20
+            ARG0: x15 ]
+          [ _product_n_1<10:18>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<19:25>
+            LBL: h8
+            ARG0: x6 ]
+          [ _also_a_1<26:30>
+            LBL: h2
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h22 ]
+          [ _decline_v_1<31:40>
+            LBL: h23
+            ARG0: e3
+            ARG1: x6
+            ARG2: p24 ] >
+   HCONS: < h22 QEQ h23 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e21:
+ _1:udef_q<0:25>[BV x6]
+ e10:compound<0:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:18>[BV x9]
+ e16:compound<0:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:9>[BV x15]
+ x15:_petroleum_n_1<0:9>{x PERS 3, NUM sg, IND -}[]
+ x9:_product_n_1<10:18>{x PERS 3, NUM pl, IND +}[]
+ x6:_price_n_of<19:25>{x PERS 3, NUM pl}[]
+ e21:_also_a_1<26:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_decline_v_1-fn.Change_position_on_a_scale<31:40>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:25> BV _price_n_of<19:25>  
+  compound<0:25> ARG1 _price_n_of<19:25>  
+  compound<0:25> ARG2 _product_n_1<10:18>  
+  udef_q<0:18> BV _product_n_1<10:18>  
+  compound<0:18> ARG1 _product_n_1<10:18>  
+  compound<0:18> ARG2 _petroleum_n_1<0:9>  
+  udef_q<0:9> BV _petroleum_n_1<0:9>  
+  _also_a_1<26:30> ARG1 _decline_v_1<31:40>  
+  _decline_v_1<31:40> ARG1 _price_n_of<19:25>  
+  compound<0:25> SF prop  
+  compound<0:25> TENSE untensed  
+  compound<0:25> MOOD indicative  
+  compound<0:25> PROG -  
+  compound<0:25> PERF -  
+  compound<0:18> SF prop  
+  compound<0:18> TENSE untensed  
+  compound<0:18> MOOD indicative  
+  compound<0:18> PROG -  
+  compound<0:18> PERF -  
+  _petroleum_n_1<0:9> PERS 3  
+  _petroleum_n_1<0:9> NUM sg  
+  _petroleum_n_1<0:9> IND -  
+  _product_n_1<10:18> PERS 3  
+  _product_n_1<10:18> NUM pl  
+  _product_n_1<10:18> IND +  
+  _price_n_of<19:25> PERS 3  
+  _price_n_of<19:25> NUM pl  
+  _also_a_1<26:30> SF prop  
+  _also_a_1<26:30> TENSE untensed  
+  _also_a_1<26:30> MOOD indicative  
+  _also_a_1<26:30> PROG -  
+  _also_a_1<26:30> PERF -  
+  _decline_v_1<31:40> SF prop  
+  _decline_v_1<31:40> TENSE past  
+  _decline_v_1<31:40> MOOD indicative  
+  _decline_v_1<31:40> PROG -  
+  _decline_v_1<31:40> PERF -  
+}
+

@@ -1,0 +1,114 @@
+;;;
+;;; Redwoods export of `wsj07b';
+;;; (wsun@wsun; 22-jan-2018 (17:26 h)).
+;;;
+
+[20756039] (1 of 1) {1} `-- FOREIGN TRADE.'
+
+[20756039:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:10>, 1, "FOREIGN", 0, "null", "JJ" 0.9801 "NNP" 0.0199)
+  (3, 2, 3, <11:16>, 1, "TRADE", 0, "null", "NN" 1.0)
+  (4, 3, 4, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:2>, 1, "–", 0, "null")
+  (57, 0, 1, <0:2>, 1, "–", 0, "null")
+  (40, 1, 2, <3:10>, 1, "FOREIGN", 0, "null")
+  (51, 1, 2, <3:10>, 1, "FOREIGN", 0, "null", "JJ" 0.9801)
+  (54, 1, 2, <3:10>, 1, "foreign", 0, "null")
+  (55, 1, 2, <3:10>, 1, "foreign", 0, "null")
+  (42, 2, 3, <11:17>, 1, "TRADE.", 0, "null")
+  (52, 2, 3, <11:17>, 1, "TRADE.", 0, "null", "NN" 1.0)
+  (53, 2, 3, <11:17>, 1, "trade.", 0, "null")
+  (56, 2, 3, <11:17>, 1, "trade.", 0, "null")
+>
+
+(ROOT_FRAG
+ (320 AJ-HD_SCP-XP_C 3.4366 0 3
+  (61 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.212588 0 1
+   ("–" 46
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (319 ^NP_FRG_C 2.54758 1 3
+   (318 HDN_BNP_C 1.85014 1 3
+    (317 AJ-HDN_NORM_C 1.85046 1 3
+     (71 foreign_a1@aj_-_i_le 0.302635 1 2
+      ("foreign" 54
+       "token [ +CARG \"FOREIGN\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"foreign\" +FROM #1=\"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98005050000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (316 ^HDN_OPTCMP_C 0.0607334 2 3
+      (315 W_PERIOD_PLR 0.0222015 2 3
+       (314 N_MS-CNT_ILR -0.406151 2 3
+        (80 trade_n1@n_pp_mc-of_le 0 2 3
+         ("trade." 53
+          "token [ +CARG \"TRADE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"trade.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(XP (ADV "–") (XP (NP (N (AP "foreign") (N (N (N (N "trade."))))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:17>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<3:17>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ _foreign_a_1<3:10>
+            LBL: h12
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8 ]
+          [ _trade_n_of<11:17>
+            LBL: h12
+            ARG0: x8
+            ARG1: i14 ] >
+   HCONS: < h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:udef_q<3:17>[BV x8]
+ e13:_foreign_a_1<3:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ x8:_trade_n_of<11:17>{x PERS 3, NUM sg}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:17>  
+  discourse<0:2> R-INDEX unknown<3:17>  
+  unknown<3:17> ARG _trade_n_of<11:17>  
+  udef_q<3:17> BV _trade_n_of<11:17>  
+  _foreign_a_1<3:10> ARG1 _trade_n_of<11:17>  
+  unknown<3:17> SF prop  
+  unknown<3:17> TENSE untensed  
+  unknown<3:17> MOOD indicative  
+  unknown<3:17> PROG -  
+  unknown<3:17> PERF -  
+  _foreign_a_1<3:10> SF prop  
+  _foreign_a_1<3:10> TENSE untensed  
+  _foreign_a_1<3:10> MOOD indicative  
+  _foreign_a_1<3:10> PROG -  
+  _foreign_a_1<3:10> PERF -  
+  _trade_n_of<11:17> PERS 3  
+  _trade_n_of<11:17> NUM sg  
+}
+

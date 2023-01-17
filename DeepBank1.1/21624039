@@ -1,0 +1,100 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:13 h)).
+;;;
+
+[21624039] (1 of 1) {1} `Treasury Securities'
+
+[21624039:2] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Treasury", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:19>, 1, "Securities", 0, "null", "NNP" 0.6835 "NNPS" 0.3065 "NNS" 0.01)
+>
+
+<
+  (29, 0, 1, <0:8>, 1, "Treasury", 0, "null")
+  (32, 0, 1, <0:8>, 1, "treasury", 0, "null")
+  (35, 0, 1, <0:8>, 1, "treasury", 0, "null")
+  (20, 1, 2, <9:19>, 1, "Securities", 0, "null")
+  (30, 1, 2, <9:19>, 1, "Securities", 0, "null", "NNP" 0.6835)
+  (31, 1, 2, <9:19>, 1, "Securities", 0, "null", "NNPS" 0.3065)
+  (33, 1, 2, <9:19>, 1, "securities", 0, "null")
+  (34, 1, 2, <9:19>, 1, "securities", 0, "null")
+>
+
+(ROOT_FRAG
+ (207 NP_FRG_C -1.11779 0 2
+  (206 HDN_BNP_C -0.913377 0 2
+   (205 N-HDN_CPD_C -0.829393 0 2
+    (38 treasury_n1@n_-_c_le -1.31235 0 1
+     ("treasury" 32
+      "token [ +CARG \"Treasury\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"treasury\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (195 ^N_PL_OLR 0.783992 1 2
+     (69 security_n1@n_-_mc_le 0.991093 1 2
+      ("securities" 33
+       "token [ +CARG \"Securities\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"securities\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.68345400000000001\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N "treasury") (N (N "securities")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:19>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _treasury_n_1<0:8>
+            LBL: h14
+            ARG0: x9 ]
+          [ _security_n_1<9:19>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:19>[BV x4]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:8>[BV x9]
+ x9:_treasury_n_1<0:8>{x IND +}[]
+ x4:_security_n_1<9:19>{x PERS 3, NUM pl}[]
+}
+
+{
+  unknown<0:19> ARG _security_n_1<9:19>  
+  udef_q<0:19> BV _security_n_1<9:19>  
+  compound<0:19> ARG1 _security_n_1<9:19>  
+  compound<0:19> ARG2 _treasury_n_1<0:8>  
+  udef_q<0:8> BV _treasury_n_1<0:8>  
+  unknown<0:19> SF prop-or-ques  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  _treasury_n_1<0:8> IND +  
+  _security_n_1<9:19> PERS 3  
+  _security_n_1<9:19> NUM pl  
+}
+

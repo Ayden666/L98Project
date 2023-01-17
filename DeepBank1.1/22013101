@@ -1,0 +1,157 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:00 h)).
+;;;
+
+[22013101] (1 of 1) {1} `It was a Friday in June.'
+
+[22013101:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <7:8>, 1, "a", 0, "null", "DT" 1.0)
+  (4, 3, 4, <9:15>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <16:18>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <19:23>, 1, "June", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (86, 0, 1, <0:2>, 1, "it", 0, "null")
+  (95, 0, 1, <0:2>, 1, "it", 0, "null")
+  (75, 1, 2, <3:6>, 1, "was", 0, "null")
+  (83, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (90, 1, 2, <3:6>, 1, "was", 0, "null")
+  (77, 2, 3, <7:8>, 1, "a", 0, "null")
+  (91, 2, 3, <7:8>, 1, "a", 0, "null")
+  (66, 3, 4, <9:15>, 1, "Friday", 0, "null")
+  (82, 3, 4, <9:15>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (85, 3, 4, <9:15>, 1, "friday", 0, "null")
+  (88, 3, 4, <9:15>, 1, "friday", 0, "null")
+  (79, 4, 5, <16:18>, 1, "in", 0, "null")
+  (92, 4, 5, <16:18>, 1, "in", 0, "null")
+  (69, 5, 6, <19:24>, 1, "June.", 0, "null")
+  (84, 5, 6, <19:24>, 1, "June.", 0, "null", "NNP" 1.0)
+  (87, 5, 6, <19:24>, 1, "june.", 0, "null")
+  (89, 5, 6, <19:24>, 1, "june.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1452 SB-HD_MC_C 6.03319 0 6
+  (1443 HDN_BNP-QNT_C 0.430464 0 1
+   (97 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 86
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1451 ^HD-CMP_U_C 4.33337 1 6
+   (118 be_id_was@v_np_was_le 0.239578 1 2
+    ("was" 75
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1450 SP-HD_N_C 2.95461 2 6
+    (138 a_det@d_-_sg-nmd_le -0.667877 2 3
+     ("a" 77
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"7\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1449 ^HDN-AJ_REDREL_C 2.67578 3 6
+     (1444 ^N_SG_ILR -1.06488 3 4
+      (213 friday_n1@n_-_c-dow_le 0.0811819 3 4
+       ("friday" 85
+        "token [ +CARG \"Friday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"friday\" +FROM #1=\"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1448 HD-CMP_U_C 3.23025 4 6
+      (239 in_temp@p_np_i-tmp_le 1.23875 4 5
+       ("in" 79
+        "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1447 HDN_BNP-PN_C 0.732331 5 6
+       (1446 W_PERIOD_PLR 0.167951 5 6
+        (1445 N_SG_ILR -0.264967 5 6
+         (282 june@n_-_c-month_le 0 5 6
+          ("june." 87
+           "token [ +CARG \"June\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"june.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (NP "it"))
+ (VP (V "was")
+  (NP (DET "a")
+   (N (N (N "friday")) (PP (P "in") (NP (N (N (N "june.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<3:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<7:8>
+            LBL: h10
+            ARG0: x9
+            RSTR: h12
+            BODY: h11 ]
+          [ dofw<9:15>
+            LBL: h13
+            ARG0: x9
+            CARG: "Fri" ]
+          [ _in_p_temp<16:18>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<19:24>
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ mofy<19:24>
+            LBL: h19
+            ARG0: x15
+            CARG: "Jun" ] >
+   HCONS: < h17 QEQ h19 h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_be_v_id<3:6>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:_a_q<7:8>[BV x9]
+ x9:dofw<9:15>("Fri"){x PERS 3, NUM sg, IND +}[]
+ e14:_in_p_temp<16:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<19:24>[BV x15]
+ x15:mofy<19:24>("Jun"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _be_v_id<3:6> ARG1 pron<0:2>  
+  _be_v_id<3:6> ARG2 dofw<9:15>(Fri)  
+  _a_q<7:8> BV dofw<9:15>(Fri)  
+  _in_p_temp<16:18> ARG1 dofw<9:15>(Fri)  
+  _in_p_temp<16:18> ARG2 mofy<19:24>(Jun)  
+  proper_q<19:24> BV mofy<19:24>(Jun)  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _be_v_id<3:6> SF prop  
+  _be_v_id<3:6> TENSE past  
+  _be_v_id<3:6> MOOD indicative  
+  _be_v_id<3:6> PROG -  
+  _be_v_id<3:6> PERF -  
+  dofw<9:15>(Fri) PERS 3  
+  dofw<9:15>(Fri) NUM sg  
+  dofw<9:15>(Fri) IND +  
+  _in_p_temp<16:18> SF prop  
+  _in_p_temp<16:18> TENSE untensed  
+  _in_p_temp<16:18> MOOD indicative  
+  _in_p_temp<16:18> PROG -  
+  _in_p_temp<16:18> PERF -  
+  mofy<19:24>(Jun) PERS 3  
+  mofy<19:24>(Jun) NUM sg  
+  mofy<19:24>(Jun) IND +  
+}
+

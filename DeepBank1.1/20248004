@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj02b';
+;;; (wsun@wsun; 22-jan-2018 (12:17 h)).
+;;;
+
+[20248004] (1 of 1) {1} `Saul Resnick'
+
+[20248004:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Saul", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:12>, 1, "Resnick", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:4>, 1, "Saul", 0, "null")
+  (28, 0, 1, <0:4>, 1, "saul", 0, "null")
+  (30, 0, 1, <0:4>, 1, "saul", 0, "null")
+  (20, 1, 2, <5:12>, 1, "Resnick", 0, "null")
+  (26, 1, 2, <5:12>, 1, "Resnick", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <5:12>, 1, "resnick", 0, "null")
+  (29, 1, 2, <5:12>, 1, "resnick", 0, "null")
+>
+
+(ROOT_FRAG
+ (81 NP_FRG_C -0.408341 0 2
+  (80 HDN_BNP-PN_C 0.738171 0 2
+   (79 NP-HDN_NME-CPD_C 0.777478 0 2
+    (77 HDN_BNP-PN_C 0.586141 0 1
+     (76 N_SG_ILR -0.166294 0 1
+      (33 saul_n1@n_-_pn_le 0 0 1
+       ("saul" 28
+        "token [ +CARG \"Saul\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"saul\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (78 ^N_SG_ILR -0.143257 1 2
+     (34 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Resnick" 20
+       "token [ +CARG #1=\"Resnick\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "saul"))) (N (N "Resnick")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:12>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:12>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "Saul" ]
+          [ named<5:12>
+            LBL: h8
+            ARG0: x4
+            CARG: "Resnick" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:12>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:12>[BV x4]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("Saul"){x PERS 3, NUM sg, IND +}[]
+ x4:named<5:12>("Resnick"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:12> ARG named<5:12>(Resnick)  
+  proper_q<0:12> BV named<5:12>(Resnick)  
+  compound<0:12> ARG1 named<5:12>(Resnick)  
+  compound<0:12> ARG2 named<0:4>(Saul)  
+  proper_q<0:4> BV named<0:4>(Saul)  
+  unknown<0:12> SF prop-or-ques  
+  unknown<0:12> TENSE untensed  
+  unknown<0:12> MOOD indicative  
+  unknown<0:12> PROG -  
+  unknown<0:12> PERF -  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:4>(Saul) PERS 3  
+  named<0:4>(Saul) NUM sg  
+  named<0:4>(Saul) IND +  
+  named<5:12>(Resnick) PERS 3  
+  named<5:12>(Resnick) NUM sg  
+  named<5:12>(Resnick) IND +  
+}
+

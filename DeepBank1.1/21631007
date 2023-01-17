@@ -1,0 +1,61 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:17 h)).
+;;;
+
+[21631007] (1 of 1) {1} `Wrong.'
+
+[21631007:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Wrong", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <5:6>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:6>, 1, "Wrong.", 0, "null", "JJ" 1.0)
+  (23, 0, 1, <0:6>, 1, "wrong.", 0, "null")
+  (24, 0, 1, <0:6>, 1, "wrong.", 0, "null")
+>
+
+(ROOT_FRAG
+ (68 R_INT-FRG_C 0.0792024 0 1
+  (67 W_PERIOD_PLR 0.0792024 0 1
+   (31 wrong_adv1@av_-_i-vp-po_le 0 0 1
+    ("wrong." 23
+     "token [ +CARG \"Wrong\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"wrong.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (ADV (ADV "wrong.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:6>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _wrong_a_with<0:6>
+            LBL: h5
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e6:_wrong_a_with<0:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:6> SF prop  
+  unknown<0:6> TENSE untensed  
+  unknown<0:6> MOOD indicative  
+  unknown<0:6> PROG -  
+  unknown<0:6> PERF -  
+  _wrong_a_with<0:6> SF prop  
+  _wrong_a_with<0:6> TENSE untensed  
+  _wrong_a_with<0:6> MOOD indicative  
+  _wrong_a_with<0:6> PROG -  
+  _wrong_a_with<0:6> PERF -  
+}
+

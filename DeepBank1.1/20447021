@@ -1,0 +1,293 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:14 h)).
+;;;
+
+[20447021] (1 of 1) {1} `Mr. Freeman is an executive vice president of American Express.'
+
+[20447021:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:11>, 1, "Freeman", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:17>, 1, "an", 0, "null", "DT" 1.0)
+  (5, 4, 5, <18:27>, 1, "executive", 0, "null", "JJ" 0.8038 "NN" 0.1962)
+  (6, 5, 6, <28:32>, 1, "vice", 0, "null", "NN" 1.0)
+  (7, 6, 7, <33:42>, 1, "president", 0, "null", "NN" 1.0)
+  (8, 7, 8, <43:45>, 1, "of", 0, "null", "IN" 1.0)
+  (9, 8, 9, <46:54>, 1, "American", 0, "null", "NNP" 0.9125 "JJ" 0.0875)
+  (10, 9, 10, <55:62>, 1, "Express", 0, "null", "NNP" 1.0)
+  (11, 10, 11, <62:63>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (132, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (142, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (154, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (105, 1, 2, <4:11>, 1, "Freeman", 0, "null")
+  (135, 1, 2, <4:11>, 1, "Freeman", 0, "null", "NNP" 1.0)
+  (141, 1, 2, <4:11>, 1, "freeman", 0, "null")
+  (146, 1, 2, <4:11>, 1, "freeman", 0, "null")
+  (117, 2, 3, <12:14>, 1, "is", 0, "null")
+  (136, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (148, 2, 3, <12:14>, 1, "is", 0, "null")
+  (119, 3, 4, <15:17>, 1, "an", 0, "null")
+  (149, 3, 4, <15:17>, 1, "an", 0, "null")
+  (130, 4, 5, <18:27>, 1, "executive", 0, "null")
+  (134, 4, 5, <18:27>, 1, "executive", 0, "null", "JJ" 0.8038)
+  (140, 4, 5, <18:27>, 1, "executive", 0, "null", "NN" 0.1962)
+  (153, 4, 5, <18:27>, 1, "executive", 0, "null")
+  (121, 5, 6, <28:32>, 1, "vice", 0, "null")
+  (137, 5, 6, <28:32>, 1, "vice", 0, "null", "NN" 1.0)
+  (150, 5, 6, <28:32>, 1, "vice", 0, "null")
+  (123, 6, 7, <33:42>, 1, "president", 0, "null")
+  (138, 6, 7, <33:42>, 1, "president", 0, "null", "NN" 1.0)
+  (151, 6, 7, <33:42>, 1, "president", 0, "null")
+  (125, 7, 8, <43:45>, 1, "of", 0, "null")
+  (152, 7, 8, <43:45>, 1, "of", 0, "null")
+  (103, 8, 9, <46:54>, 1, "American", 0, "null")
+  (133, 8, 9, <46:54>, 1, "American", 0, "null", "NNP" 0.9125)
+  (144, 8, 9, <46:54>, 1, "american", 0, "null")
+  (145, 8, 9, <46:54>, 1, "american", 0, "null")
+  (107, 9, 10, <55:63>, 1, "Express.", 0, "null")
+  (139, 9, 10, <55:63>, 1, "Express.", 0, "null", "NNP" 1.0)
+  (143, 9, 10, <55:63>, 1, "express.", 0, "null")
+  (147, 9, 10, <55:63>, 1, "express.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2075 SB-HD_MC_C 21.2241 0 10
+  (2061 HDN_BNP-PN_C 3.86187 0 2
+   (2060 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (2058 N_SG_ILR 2.02901 0 1
+     (164 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 142
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2059 ^N_SG_ILR -0.259177 1 2
+     (167 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Freeman" 105
+       "token [ +CARG #1=\"Freeman\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2074 ^HD-CMP_U_C 16.3452 2 10
+   (210 be_id_is@v_np_is_le -0.534096 2 3
+    ("is" 117
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2073 SP-HD_N_C 15.4311 3 10
+    (297 an_det@d_-_sg-nmd-an_le 1.21105 3 4
+     ("an" 119
+      "token [ +CARG #1=\"an\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (2072 ^HD-CMP_U_C 13.1167 4 10
+     (2064 ^N-HDN_CPD_C 7.22202 4 7
+      (318 executive_n1@n_-_c_le 1.33502 4 5
+       ("executive" 130
+        "token [ +CARG #1=\"executive\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.80375509999999994\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2063 ^N-HDN_CPD_C 6.01502 5 7
+       (323 vice_n2@n_-_c-cpd_le 2.68218 5 6
+        ("vice" 121
+         "token [ +CARG #1=\"vice\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2062 ^N_SG_ILR 2.65048 6 7
+        (326 president_n1@n_pp_c-of_le 1.19629 6 7
+         ("president" 123
+          "token [ +CARG #1=\"president\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (2071 HD-CMP_U_C 4.89722 7 10
+      (376 of_prtcl@p_np_ptcl-of_le 1.04356 7 8
+       ("of" 125
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"43\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (2070 HDN_BNP-PN_C 3.05124 8 10
+       (2069 NP-HDN_NME-CPD_C 2.84187 8 10
+        (2066 HDN_BNP-PN_C 0.955547 8 9
+         (2065 N_SG_ILR 0.203112 8 9
+          (453 generic_proper_ne@n_-_pn-gen_le -0.719665 8 9
+           ("American" 103
+            "token [ +CARG #1=\"American\" +CLASS proper_ne +FORM #1 +FROM \"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91253799999999996\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+        (2068 ^W_PERIOD_PLR 1.02066 9 10
+         (2067 N_SG_ILR 0.466069 9 10
+          (473 generic_proper_ne@n_-_pn-gen_le 0 9 10
+           ("Express." 107
+            "token [ +CARG \"Express\" +CLASS proper_ne +FORM \"Express.\" +FROM \"55\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"63\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Freeman"))))
+ (VP (V "is")
+  (NP (DET "an")
+   (N (N (N "executive") (N (N "vice") (N (N "president"))))
+    (PP (P "of")
+     (NP (N (NP (N (N "American"))) (N (N (N "Express."))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Freeman" ]
+          [ _be_v_id<12:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _a_q<15:17>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ compound<18:42>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x20 [ x IND: + ] ]
+          [ udef_q<18:27>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ _executive_n_1<18:27>
+            LBL: h25
+            ARG0: x20 ]
+          [ compound<28:42>
+            LBL: h19
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x26 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<28:32>
+            LBL: h28
+            ARG0: x26
+            RSTR: h29
+            BODY: h30 ]
+          [ _vice_n_1<28:32>
+            LBL: h31
+            ARG0: x26 ]
+          [ _president_n_of<33:42>
+            LBL: h19
+            ARG0: x15
+            ARG1: x32 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<46:63>
+            LBL: h33
+            ARG0: x32
+            RSTR: h34
+            BODY: h35 ]
+          [ compound<46:63>
+            LBL: h36
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x32
+            ARG2: x37 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<46:54>
+            LBL: h39
+            ARG0: x37
+            RSTR: h40
+            BODY: h41 ]
+          [ named<46:54>
+            LBL: h42
+            ARG0: x37
+            CARG: "American" ]
+          [ named<55:63>
+            LBL: h36
+            ARG0: x32
+            CARG: "Express" ] >
+   HCONS: < h40 QEQ h42 h34 QEQ h36 h29 QEQ h31 h23 QEQ h25 h18 QEQ h19 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:11>("Freeman"){x PERS 3, NUM sg, IND +}[]
+ e3:_be_v_id<12:14>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x15]
+ _3:_a_q<15:17>[BV x15]
+ e21:compound<18:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x20]
+ _4:udef_q<18:27>[BV x20]
+ x20:_executive_n_1<18:27>{x IND +}[]
+ e27:compound<28:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x26]
+ _5:udef_q<28:32>[BV x26]
+ x26:_vice_n_1<28:32>{x PERS 3, NUM sg, IND +}[]
+ x15:_president_n_of<33:42>{x PERS 3, NUM sg, IND +}[ARG1 x32]
+ _6:proper_q<46:63>[BV x32]
+ e38:compound<46:63>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x32, ARG2 x37]
+ _7:proper_q<46:54>[BV x37]
+ x37:named<46:54>("American"){x PERS 3, NUM sg, IND +}[]
+ x32:named<55:63>("Express"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:11> BV named<4:11>(Freeman)  
+  compound<0:11> ARG1 named<4:11>(Freeman)  
+  compound<0:11> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _be_v_id<12:14> ARG1 named<4:11>(Freeman)  
+  _be_v_id<12:14> ARG2 _president_n_of<33:42>  
+  _a_q<15:17> BV _president_n_of<33:42>  
+  compound<18:42> ARG1 _president_n_of<33:42>  
+  compound<18:42> ARG2 _executive_n_1<18:27>  
+  udef_q<18:27> BV _executive_n_1<18:27>  
+  compound<28:42> ARG1 _president_n_of<33:42>  
+  compound<28:42> ARG2 _vice_n_1<28:32>  
+  udef_q<28:32> BV _vice_n_1<28:32>  
+  _president_n_of<33:42> ARG1 named<55:63>(Express)  
+  proper_q<46:63> BV named<55:63>(Express)  
+  compound<46:63> ARG1 named<55:63>(Express)  
+  compound<46:63> ARG2 named<46:54>(American)  
+  proper_q<46:54> BV named<46:54>(American)  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:11>(Freeman) PERS 3  
+  named<4:11>(Freeman) NUM sg  
+  named<4:11>(Freeman) IND +  
+  _be_v_id<12:14> SF prop  
+  _be_v_id<12:14> TENSE pres  
+  _be_v_id<12:14> MOOD indicative  
+  _be_v_id<12:14> PROG -  
+  _be_v_id<12:14> PERF -  
+  compound<18:42> SF prop  
+  compound<18:42> TENSE untensed  
+  compound<18:42> MOOD indicative  
+  compound<18:42> PROG -  
+  compound<18:42> PERF -  
+  _executive_n_1<18:27> IND +  
+  compound<28:42> SF prop  
+  compound<28:42> TENSE untensed  
+  compound<28:42> MOOD indicative  
+  compound<28:42> PROG -  
+  compound<28:42> PERF -  
+  _vice_n_1<28:32> PERS 3  
+  _vice_n_1<28:32> NUM sg  
+  _vice_n_1<28:32> IND +  
+  _president_n_of<33:42> PERS 3  
+  _president_n_of<33:42> NUM sg  
+  _president_n_of<33:42> IND +  
+  compound<46:63> SF prop  
+  compound<46:63> TENSE untensed  
+  compound<46:63> MOOD indicative  
+  compound<46:63> PROG -  
+  compound<46:63> PERF -  
+  named<46:54>(American) PERS 3  
+  named<46:54>(American) NUM sg  
+  named<46:54>(American) IND +  
+  named<55:63>(Express) PERS 3  
+  named<55:63>(Express) NUM sg  
+  named<55:63>(Express) IND +  
+}
+

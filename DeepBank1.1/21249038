@@ -1,0 +1,98 @@
+;;;
+;;; Redwoods export of `wsj12b';
+;;; (wsun@wsun; 22-jan-2018 (21:26 h)).
+;;;
+
+[21249038] (1 of 1) {1} `Dedication runs high.'
+
+[21249038:1] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Dedication", 0, "null", "NN" 1.0)
+  (2, 1, 2, <11:15>, 1, "runs", 0, "null", "VBZ" 0.9425 "NNS" 0.0575)
+  (3, 2, 3, <16:20>, 1, "high", 0, "null", "JJ" 0.9125 "RB" 0.0702 "NN" 0.0173)
+  (4, 3, 4, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (50, 0, 1, <0:10>, 1, "Dedication", 0, "null")
+  (53, 0, 1, <0:10>, 1, "dedication", 0, "null")
+  (56, 0, 1, <0:10>, 1, "dedication", 0, "null")
+  (46, 1, 2, <11:15>, 1, "runs", 0, "null")
+  (51, 1, 2, <11:15>, 1, "runs", 0, "null", "VBZ" 0.9425)
+  (54, 1, 2, <11:15>, 1, "runs", 0, "null")
+  (48, 2, 3, <16:21>, 1, "high.", 0, "null")
+  (52, 2, 3, <16:21>, 1, "high.", 0, "null", "JJ" 0.9125)
+  (55, 2, 3, <16:21>, 1, "high.", 0, "null")
+>
+
+(ROOT_STRICT
+ (485 SB-HD_MC_C 2.26266 0 3
+  (476 HDN_BNP_C -0.0654352 0 1
+   (475 HDN_OPTCMP_C -0.34743 0 1
+    (474 N_MS-CNT_ILR 0.383944 0 1
+     (58 dedication_n1@n_pp_mc-of_le 0 0 1
+      ("dedication" 53
+       "token [ +CARG \"Dedication\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"dedication\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (484 ^HD-AJ_INT-UNSL_C 1.48799 1 3
+   (482 ^HD_OPTCMP_C 0.917855 1 2
+    (481 V_3S-FIN_OLR 0.50054 1 2
+     (94 run_v3@v_pp*_dir_le 0 1 2
+      ("runs" 46
+       "token [ +CARG #1=\"runs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.94245420000000002\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (483 W_PERIOD_PLR 0.0599084 2 3
+    (109 high_adv@av_-_i-vp-po_le 0 2 3
+     ("high." 48
+      "token [ +CARG \"high\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"high.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91253850000000003\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (N (N "dedication"))))
+ (VP (VP (V (V "runs"))) (ADV (ADV "high."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _dedication_n_of<0:10>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _run_v_1<11:15>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _high_a_1<16:21>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:10>[BV x6]
+ x6:_dedication_n_of<0:10>{x PERS 3, NUM sg}[]
+ e3:_run_v_1<11:15>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e10:_high_a_1<16:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  udef_q<0:10> BV _dedication_n_of<0:10>  
+  _run_v_1<11:15> ARG1 _dedication_n_of<0:10>  
+  _high_a_1<16:21> ARG1 _run_v_1<11:15>  
+  _dedication_n_of<0:10> PERS 3  
+  _dedication_n_of<0:10> NUM sg  
+  _run_v_1<11:15> SF prop  
+  _run_v_1<11:15> TENSE pres  
+  _run_v_1<11:15> MOOD indicative  
+  _run_v_1<11:15> PROG -  
+  _run_v_1<11:15> PERF -  
+  _high_a_1<16:21> SF prop  
+  _high_a_1<16:21> TENSE untensed  
+  _high_a_1<16:21> MOOD indicative  
+  _high_a_1<16:21> PROG -  
+  _high_a_1<16:21> PERF -  
+}
+

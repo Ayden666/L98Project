@@ -1,0 +1,90 @@
+;;;
+;;; Redwoods export of `wsj07a';
+;;; (wsun@wsun; 22-jan-2018 (16:57 h)).
+;;;
+
+[20725127] (1 of 1) {1} `The word is out.'
+
+[20725127:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:8>, 1, "word", 0, "null", "NN" 1.0)
+  (3, 2, 3, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <12:15>, 1, "out", 0, "null", "RP" 0.794 "RB" 0.1647 "IN" 0.0414)
+  (5, 4, 5, <15:16>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:3>, 1, "the", 0, "null")
+  (66, 0, 1, <0:3>, 1, "the", 0, "null")
+  (54, 1, 2, <4:8>, 1, "word", 0, "null")
+  (60, 1, 2, <4:8>, 1, "word", 0, "null", "NN" 1.0)
+  (63, 1, 2, <4:8>, 1, "word", 0, "null")
+  (56, 2, 3, <9:11>, 1, "is", 0, "null")
+  (61, 2, 3, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (64, 2, 3, <9:11>, 1, "is", 0, "null")
+  (57, 3, 4, <12:16>, 1, "out.", 0, "null")
+  (59, 3, 4, <12:16>, 1, "out.", 0, "null", "RB" 0.1647)
+  (65, 3, 4, <12:16>, 1, "out.", 0, "null")
+>
+
+(ROOT_STRICT
+ (775 SB-HD_MC_C 5.6055 0 4
+  (772 SP-HD_N_C 2.23799 0 2
+   (79 the_1@d_-_the_le 1.13181 0 1
+    ("the" 62
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (771 ^HDN_OPTCMP_C 0.654986 1 2
+    (770 N_MS-CNT_ILR 0.742786 1 2
+     (108 word_n1@n_pp_mc-of_le 0 1 2
+      ("word" 54
+       "token [ +CARG #1=\"word\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (774 ^HD-CMP_U_C 1.413 2 4
+   (160 be_c_is@v_prd_is_le -0.539768 2 3
+    ("is" 56
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (773 W_PERIOD_PLR -0.0113846 3 4
+    (261 out_pp@pp_-_i_le -0.494708 3 4
+     ("out." 57
+      "token [ +CARG \"out\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"out.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.79395079999999996\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (DET "the") (N (N (N "word")))) (VP (V "is") (PP (PP "out."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _word_n_of<4:8>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _out_p<12:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_word_n_of<4:8>{x PERS 3, NUM sg}[]
+ e3:_out_p<12:16>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _word_n_of<4:8>  
+  _out_p<12:16> ARG1 _word_n_of<4:8>  
+  _word_n_of<4:8> PERS 3  
+  _word_n_of<4:8> NUM sg  
+  _out_p<12:16> SF prop  
+  _out_p<12:16> TENSE pres  
+  _out_p<12:16> MOOD indicative  
+  _out_p<12:16> PROG -  
+  _out_p<12:16> PERF -  
+}
+

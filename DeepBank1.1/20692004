@@ -1,0 +1,156 @@
+;;;
+;;; Redwoods export of `wsj06d';
+;;; (wsun@wsun; 22-jan-2018 (16:39 h)).
+;;;
+
+[20692004] (1 of 1) {1} `This city doesn't work that way."'
+
+[20692004:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "This", 0, "null", "DT" 1.0)
+  (2, 1, 2, <5:9>, 1, "city", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:14>, 1, "does", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <14:17>, 1, "n’t", 0, "null", "JJ" 0.738 "NN" 0.1208 "RB" 0.0762 "JJS" 0.0258 "VBN" 0.0212 "VB" 0.0179)
+  (5, 4, 5, <18:22>, 1, "work", 0, "null", "NN" 0.886 "VB" 0.114)
+  (6, 5, 6, <23:27>, 1, "that", 0, "null", "IN" 0.8861 "DT" 0.1139)
+  (7, 6, 7, <28:31>, 1, "way", 0, "null", "NN" 1.0)
+  (8, 7, 8, <31:32>, 1, ".", 0, "null", "." 1.0)
+  (9, 8, 9, <32:33>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (101, 0, 1, <0:4>, 1, "this", 0, "null")
+  (107, 0, 1, <0:4>, 1, "this", 0, "null")
+  (87, 1, 2, <5:9>, 1, "city", 0, "null")
+  (97, 1, 2, <5:9>, 1, "city", 0, "null", "NN" 1.0)
+  (102, 1, 2, <5:9>, 1, "city", 0, "null")
+  (89, 2, 3, <10:17>, 1, "doesn’t", 0, "null")
+  (98, 2, 3, <10:17>, 1, "doesn’t", 0, "null", "VBZ" 1.0)
+  (103, 2, 3, <10:17>, 1, "doesn’t", 0, "null")
+  (92, 3, 4, <18:22>, 1, "work", 0, "null")
+  (96, 3, 4, <18:22>, 1, "work", 0, "null", "NN" 0.886)
+  (100, 3, 4, <18:22>, 1, "work", 0, "null", "VB" 0.114)
+  (105, 3, 4, <18:22>, 1, "work", 0, "null")
+  (94, 4, 5, <23:27>, 1, "that", 0, "null")
+  (106, 4, 5, <23:27>, 1, "that", 0, "null")
+  (91, 5, 6, <28:33>, 1, "way.”", 0, "null")
+  (99, 5, 6, <28:33>, 1, "way.”", 0, "null", "NN" 1.0)
+  (104, 5, 6, <28:33>, 1, "way.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (650 SB-HD_MC_C 9.9826 0 6
+  (636 SP-HD_N_C 0.927934 0 2
+   (113 this_det@d_-_sgm_le 0.995209 0 1
+    ("this" 101
+     "token [ +CARG \"This\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"this\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (635 ^N_SG_ILR -0.289241 1 2
+    (117 city_n2@n_-_c_le -0.344534 1 2
+     ("city" 87
+      "token [ +CARG #1=\"city\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (649 ^HD-CMP_U_C 7.10015 2 6
+   (120 does1_neg_3_u@v_vp_does-n_le 1.1678 2 3
+    ("doesn’t" 89
+     "token [ +CARG #1=\"doesn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (648 HD-AJ_INT-UNSL_C 6.12381 3 6
+    (646 ^HD_OPTCMP_C 1.33545 3 4
+     (637 V_N3S-BSE_ILR 0.877688 3 4
+      (132 work_v1@v_np*_le 0.658852 3 4
+       ("work" 92
+        "token [ +CARG #1=\"work\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88600409999999996\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (647 NP_ADV_C 3.63762 4 6
+     (642 SP-HD_N_C 3.57488 4 6
+      (154 that_det@d_-_sgm_le -0.478774 4 5
+       ("that" 94
+        "token [ +CARG #1=\"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88611519999999999\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (641 ^HDN_OPTCMP_C 3.15366 5 6
+       (640 W_DQRIGHT_PLR 3.19399 5 6
+        (639 W_PERIOD_PLR 0.896239 5 6
+         (638 N_SG_ILR 0.141687 5 6
+          (179 way_n1@n_pp_c-mod-of_le 0 5 6
+           ("way.”" 91
+            "token [ +CARG \"way\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"way.”\" +FROM #1=\"28\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S (NP (DET "this") (N (N "city")))
+ (VP (V "doesn’t")
+  (VP (VP (V (V "work")))
+   (PP (NP (DET "that") (N (N (N (N (N "way.”"))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _this_q_dem<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _city_n_1<5:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<10:17>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _work_v_1<18:22>
+            LBL: h11
+            ARG0: e3
+            ARG1: x6
+            ARG2: p12 ]
+          [ loc_nonsp<23:33>
+            LBL: h11
+            ARG0: e13 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x14 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ _that_q_dem<23:27>
+            LBL: h15
+            ARG0: x14
+            RSTR: h17
+            BODY: h16 ]
+          [ _way_n_of<28:33>
+            LBL: h18
+            ARG0: x14
+            ARG1: i19 ] >
+   HCONS: < h17 QEQ h18 h9 QEQ h11 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e10:
+ _1:_this_q_dem<0:4>[BV x6]
+ x6:_city_n_1<5:9>{x PERS 3, NUM sg, IND +}[]
+ e10:neg<10:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_work_v_1<18:22>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e13:loc_nonsp<23:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x14]
+ _2:_that_q_dem<23:27>[BV x14]
+ x14:_way_n_of<28:33>{x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _this_q_dem<0:4> BV _city_n_1<5:9>  
+  neg<10:17> ARG1 _work_v_1<18:22>  
+  _work_v_1<18:22> ARG1 _city_n_1<5:9>  
+  loc_nonsp<23:33> ARG1 _work_v_1<18:22>  
+  loc_nonsp<23:33> ARG2 _way_n_of<28:33>  
+  _that_q_dem<23:27> BV _way_n_of<28:33>  
+  _city_n_1<5:9> PERS 3  
+  _city_n_1<5:9> NUM sg  
+  _city_n_1<5:9> IND +  
+  neg<10:17> SF prop  
+  neg<10:17> TENSE untensed  
+  neg<10:17> MOOD indicative  
+  neg<10:17> PROG -  
+  neg<10:17> PERF -  
+  _work_v_1<18:22> SF prop  
+  _work_v_1<18:22> TENSE pres  
+  _work_v_1<18:22> MOOD indicative  
+  _work_v_1<18:22> PROG -  
+  _work_v_1<18:22> PERF -  
+  loc_nonsp<23:33> SF prop  
+  loc_nonsp<23:33> TENSE untensed  
+  loc_nonsp<23:33> MOOD indicative  
+  loc_nonsp<23:33> PROG -  
+  loc_nonsp<23:33> PERF -  
+  _way_n_of<28:33> PERS 3  
+  _way_n_of<28:33> NUM sg  
+  _way_n_of<28:33> IND +  
+}
+

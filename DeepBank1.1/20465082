@@ -1,0 +1,236 @@
+;;;
+;;; Redwoods export of `wsj04d';
+;;; (wsun@wsun; 22-jan-2018 (14:25 h)).
+;;;
+
+[20465082] (1 of 1) {1} `The p53 gene has just been implicated in lung cancer.'
+
+[20465082:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:7>, 1, "p53", 0, "null", "NN" 0.9881 "CD" 0.0119)
+  (3, 2, 3, <8:12>, 1, "gene", 0, "null", "NN" 1.0)
+  (4, 3, 4, <13:16>, 1, "has", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <17:21>, 1, "just", 0, "null", "RB" 1.0)
+  (6, 5, 6, <22:26>, 1, "been", 0, "null", "VBN" 1.0)
+  (7, 6, 7, <27:37>, 1, "implicated", 0, "null", "VBN" 1.0)
+  (8, 7, 8, <38:40>, 1, "in", 0, "null", "IN" 1.0)
+  (9, 8, 9, <41:45>, 1, "lung", 0, "null", "NN" 1.0)
+  (10, 9, 10, <46:52>, 1, "cancer", 0, "null", "NN" 1.0)
+  (11, 10, 11, <52:53>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (124, 0, 1, <0:3>, 1, "the", 0, "null")
+  (134, 0, 1, <0:3>, 1, "the", 0, "null")
+  (96, 1, 2, <4:7>, 1, "p53", 0, "null")
+  (125, 1, 2, <4:7>, 1, "p53", 0, "null")
+  (102, 2, 3, <8:12>, 1, "gene", 0, "null")
+  (117, 2, 3, <8:12>, 1, "gene", 0, "null", "NN" 1.0)
+  (126, 2, 3, <8:12>, 1, "gene", 0, "null")
+  (104, 3, 4, <13:16>, 1, "has", 0, "null")
+  (118, 3, 4, <13:16>, 1, "has", 0, "null", "VBZ" 1.0)
+  (127, 3, 4, <13:16>, 1, "has", 0, "null")
+  (106, 4, 5, <17:21>, 1, "just", 0, "null")
+  (119, 4, 5, <17:21>, 1, "just", 0, "null", "RB" 1.0)
+  (128, 4, 5, <17:21>, 1, "just", 0, "null")
+  (108, 5, 6, <22:26>, 1, "been", 0, "null")
+  (120, 5, 6, <22:26>, 1, "been", 0, "null", "VBN" 1.0)
+  (129, 5, 6, <22:26>, 1, "been", 0, "null")
+  (110, 6, 7, <27:37>, 1, "implicated", 0, "null")
+  (121, 6, 7, <27:37>, 1, "implicated", 0, "null", "VBN" 1.0)
+  (130, 6, 7, <27:37>, 1, "implicated", 0, "null")
+  (112, 7, 8, <38:40>, 1, "in", 0, "null")
+  (131, 7, 8, <38:40>, 1, "in", 0, "null")
+  (114, 8, 9, <41:45>, 1, "lung", 0, "null")
+  (122, 8, 9, <41:45>, 1, "lung", 0, "null", "NN" 1.0)
+  (132, 8, 9, <41:45>, 1, "lung", 0, "null")
+  (116, 9, 10, <46:53>, 1, "cancer.", 0, "null")
+  (123, 9, 10, <46:53>, 1, "cancer.", 0, "null", "NN" 1.0)
+  (133, 9, 10, <46:53>, 1, "cancer.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1797 SB-HD_MC_C 15.4646 0 10
+  (1785 SP-HD_N_C 2.72303 0 3
+   (147 the_1@d_-_the_le 1.13181 0 1
+    ("the" 124
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1784 ^NP-HDN_CPD_C 0.949102 1 3
+    (1782 HDN_BNP-PN_C -0.050883 1 2
+     (172 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("p53" 96
+       "token [ +CARG #1=\"p53\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (1783 ^N_SG_ILR 0.295851 2 3
+     (173 gene_n2@n_-_c_le 0 2 3
+      ("gene" 102
+       "token [ +CARG #1=\"gene\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1796 ^HD-CMP_U_C 10.787 3 10
+   (193 has_aux@v_vp_has_le 1.33442 3 4
+    ("has" 104
+     "token [ +CARG #1=\"has\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1795 AJ-HD_INT_C 8.16974 4 10
+    (275 just_adv1@av_-_i-vp-x_le -0.616804 4 5
+     ("just" 106
+      "token [ +CARG #1=\"just\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1794 ^HD-CMP_U_C 6.67246 5 10
+     (285 be_c_been@v_prd_been_le 1.11208 5 6
+      ("been" 108
+       "token [ +CARG #1=\"been\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1793 HD-CMP_U_C 4.33794 6 10
+      (1787 ^HD_OPTCMP_C 1.49553 6 7
+       (1786 V_PAS_ODLR 1.21769 6 7
+        (310 implicate_v1@v_np-pp_e_le 0 6 7
+         ("implicated" 110
+          "token [ +CARG #1=\"implicated\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (1792 HD-CMP_U_C 1.44242 7 10
+       (434 in_prtcl@p_np_ptcl_le 0.145478 7 8
+        ("in" 112
+         "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1791 HDN_BNP_C 0.130626 8 10
+        (1790 N-HDN_CPD_C 0.519583 8 10
+         (472 lung_n1@n_-_c_le 0 8 9
+          ("lung" 114
+           "token [ +CARG #1=\"lung\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"41\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (1789 ^W_PERIOD_PLR 0.784596 9 10
+          (1788 N_MS-CNT_ILR 0.214285 9 10
+           (474 cancer_n1@n_-_mc_le 0 9 10
+            ("cancer." 116
+             "token [ +CARG \"cancer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"cancer.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"53\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S (NP (DET "the") (N (NP (N "p53")) (N (N "gene"))))
+ (VP (V "has")
+  (VP (ADV "just")
+   (VP (V "been")
+    (VP (V (V (V "implicated")))
+     (PP (P "in") (NP (N (N "lung") (N (N (N "cancer.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: + ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<4:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<4:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "p53" ]
+          [ _gene_n_1<8:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _just_a_1<17:21>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _implicate_v_in<27:37>
+            LBL: h2
+            ARG0: e3
+            ARG1: i16
+            ARG2: x6
+            ARG3: x17 [ x PERS: 3 NUM: SG ] ]
+          [ parg_d<27:37>
+            LBL: h2
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ udef_q<41:53>
+            LBL: h19
+            ARG0: x17
+            RSTR: h20
+            BODY: h21 ]
+          [ compound<41:53>
+            LBL: h22
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17
+            ARG2: x23 [ x IND: + ] ]
+          [ udef_q<41:45>
+            LBL: h25
+            ARG0: x23
+            RSTR: h26
+            BODY: h27 ]
+          [ _lung_n_1<41:45>
+            LBL: h28
+            ARG0: x23 ]
+          [ _cancer_n_1<46:53>
+            LBL: h22
+            ARG0: x17 ] >
+   HCONS: < h26 QEQ h28 h20 QEQ h22 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<4:7>[BV x9]
+ x9:named<4:7>("p53"){x IND +}[]
+ x6:_gene_n_1<8:12>{x PERS 3, NUM sg, IND +}[]
+ e15:_just_a_1<17:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_implicate_v_in<27:37>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF +}[ARG2 x6, ARG3 x17]
+ e18:parg_d<27:37>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _3:udef_q<41:53>[BV x17]
+ e24:compound<41:53>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17, ARG2 x23]
+ _4:udef_q<41:45>[BV x23]
+ x23:_lung_n_1<41:45>{x IND +}[]
+ x17:_cancer_n_1<46:53>{x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV _gene_n_1<8:12>  
+  compound<4:12> ARG1 _gene_n_1<8:12>  
+  compound<4:12> ARG2 named<4:7>(p53)  
+  proper_q<4:7> BV named<4:7>(p53)  
+  _just_a_1<17:21> ARG1 _implicate_v_in<27:37>  
+  _implicate_v_in<27:37> ARG2 _gene_n_1<8:12>  
+  _implicate_v_in<27:37> ARG3 _cancer_n_1<46:53>  
+  parg_d<27:37> ARG1 _implicate_v_in<27:37>  
+  parg_d<27:37> ARG2 _gene_n_1<8:12>  
+  udef_q<41:53> BV _cancer_n_1<46:53>  
+  compound<41:53> ARG1 _cancer_n_1<46:53>  
+  compound<41:53> ARG2 _lung_n_1<41:45>  
+  udef_q<41:45> BV _lung_n_1<41:45>  
+  compound<4:12> SF prop  
+  compound<4:12> TENSE untensed  
+  compound<4:12> MOOD indicative  
+  compound<4:12> PROG -  
+  compound<4:12> PERF -  
+  named<4:7>(p53) IND +  
+  _gene_n_1<8:12> PERS 3  
+  _gene_n_1<8:12> NUM sg  
+  _gene_n_1<8:12> IND +  
+  _just_a_1<17:21> SF prop  
+  _just_a_1<17:21> TENSE untensed  
+  _just_a_1<17:21> MOOD indicative  
+  _just_a_1<17:21> PROG -  
+  _just_a_1<17:21> PERF -  
+  _implicate_v_in<27:37> SF prop  
+  _implicate_v_in<27:37> TENSE pres  
+  _implicate_v_in<27:37> MOOD indicative  
+  _implicate_v_in<27:37> PROG -  
+  _implicate_v_in<27:37> PERF +  
+  parg_d<27:37> SF prop  
+  parg_d<27:37> TENSE untensed  
+  parg_d<27:37> MOOD indicative  
+  parg_d<27:37> PROG -  
+  parg_d<27:37> PERF -  
+  compound<41:53> SF prop  
+  compound<41:53> TENSE untensed  
+  compound<41:53> MOOD indicative  
+  compound<41:53> PROG -  
+  compound<41:53> PERF -  
+  _lung_n_1<41:45> IND +  
+  _cancer_n_1<46:53> PERS 3  
+  _cancer_n_1<46:53> NUM sg  
+}
+

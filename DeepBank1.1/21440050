@@ -1,0 +1,280 @@
+;;;
+;;; Redwoods export of `wsj14b';
+;;; (wsun@wsun; 22-jan-2018 (23:18 h)).
+;;;
+
+[21440050] (1 of 1) {1} `Banco Popular, meanwhile, dropped 1 1/4 to 21 1/2.'
+
+[21440050:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Banco", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:13>, 1, "Popular", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:14>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <15:24>, 1, "meanwhile", 0, "null", "RB" 0.9838 "NN" 0.0162)
+  (5, 4, 5, <24:25>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <26:33>, 1, "dropped", 0, "null", "VBD" 0.9875 "VBN" 0.0125)
+  (7, 6, 7, <34:35>, 1, "1", 0, "null", "CD" 1.0)
+  (8, 7, 8, <36:39>, 1, "1/4", 0, "null", "CD" 1.0)
+  (9, 8, 9, <40:42>, 1, "to", 0, "null", "TO" 1.0)
+  (10, 9, 10, <43:45>, 1, "21", 0, "null", "CD" 1.0)
+  (11, 10, 11, <46:49>, 1, "1/2", 0, "null", "CD" 1.0)
+  (12, 11, 12, <49:50>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (136, 0, 1, <0:5>, 1, "Banco", 0, "null")
+  (141, 0, 1, <0:5>, 1, "banco", 0, "null")
+  (153, 0, 1, <0:5>, 1, "banco", 0, "null")
+  (118, 1, 2, <6:14>, 1, "Popular,", 0, "null")
+  (140, 1, 2, <6:14>, 1, "Popular,", 0, "null", "NNP" 1.0)
+  (142, 1, 2, <6:14>, 1, "popular,", 0, "null")
+  (148, 1, 2, <6:14>, 1, "popular,", 0, "null")
+  (134, 2, 3, <15:25>, 1, "meanwhile,", 0, "null")
+  (138, 2, 3, <15:25>, 1, "meanwhile,", 0, "null", "RB" 0.9838)
+  (152, 2, 3, <15:25>, 1, "meanwhile,", 0, "null")
+  (132, 3, 4, <26:33>, 1, "dropped", 0, "null")
+  (137, 3, 4, <26:33>, 1, "dropped", 0, "null", "VBD" 0.9875)
+  (151, 3, 4, <26:33>, 1, "dropped", 0, "null")
+  (129, 4, 5, <34:35>, 1, "1", 0, "null")
+  (139, 4, 5, <34:35>, 1, "1", 0, "null", "CD" 1.0)
+  (150, 4, 5, <34:35>, 1, "1", 0, "null")
+  (105, 5, 6, <36:39>, 1, "1/4", 0, "null")
+  (114, 5, 6, <36:39>, 1, "1/4", 0, "null")
+  (143, 5, 6, <36:39>, 1, "1/4", 0, "null")
+  (145, 5, 6, <36:39>, 1, "1/4", 0, "null")
+  (127, 6, 7, <40:42>, 1, "to", 0, "null")
+  (149, 6, 7, <40:42>, 1, "to", 0, "null")
+  (111, 7, 8, <43:45>, 1, "21", 0, "null")
+  (144, 7, 8, <43:45>, 1, "21", 0, "null")
+  (115, 8, 9, <46:50>, 1, "1/2.", 0, "null")
+  (116, 8, 9, <46:50>, 1, "1/2.", 0, "null")
+  (146, 8, 9, <46:50>, 1, "1/2.", 0, "null")
+  (147, 8, 9, <46:50>, 1, "1/2.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3041 SB-HD_MC_C 13.0194 0 9
+  (3025 HDN_BNP-PN_C 3.99936 0 3
+   (3024 HDN-AJ_REDREL-PR_C 3.41182 0 3
+    (3022 ^NP-HDN_NME-CPD_C 3.29424 0 2
+     (3019 HDN_BNP-PN_C 0.201595 0 1
+      (3018 N_SG_ILR -0.386912 0 1
+       (155 generic_proper_ne@n_-_pn-gen_le 0 0 1
+        ("Banco" 136
+         "token [ +CARG #1=\"Banco\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (3021 ^W_COMMA_PLR 2.09121 1 2
+      (3020 N_SG_ILR 0.501186 1 2
+       (156 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("Popular," 118
+         "token [ +CARG \"Popular\" +CLASS proper_ne +FORM \"Popular,\" +FROM \"6\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (3023 W_COMMA_PLR 0.349299 2 3
+     (175 meanwhile_adv1@pp_-_i_le 0 2 3
+      ("meanwhile," 134
+       "token [ +CARG \"meanwhile\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"meanwhile,\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98382849999999999\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (3040 ^HD-AJ_INT-UNSL_C 8.53257 3 9
+   (3033 ^HD-AJ_INT-UNSL_C 5.83315 3 6
+    (3027 ^HD_OPTCMP_C 4.77772 3 4
+     (3026 V_PST_OLR 3.28717 3 4
+      (214 drop_v2@v_pp_unacc_le 1.56102 3 4
+       ("dropped" 132
+        "token [ +CARG #1=\"dropped\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98750070000000001\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (3032 NP_ADV-MNP_C -0.12766 4 6
+     (3031 HDN_BNP-NUM_C 0.611876 4 6
+      (3030 HDN_NP-NUM_C 1.02293 4 6
+       (3029 XP_BRCK-PR_C 0.016823 4 6
+        (3028 HD-CMP_U_C 0.106703 4 6
+         (454 one_c_dgt_adj@aj_np_i-crd-nsp_le 0 4 5
+          ("1" 129
+           "token [ +CARG #1=\"1\" +CLASS numeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"34\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW - ] ]"))
+         (473 generic_fract_ne@aj_-_i-frct-gen_le 0 5 6
+          ("1/4" 114
+           "token [ +CARG #1=\"1/4\" +CLASS frct_ne +FORM #1 +FROM \"36\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]"))))))))
+   (3039 HD-CMP_U_C 1.14104 6 9
+    (498 to@p_np_i-nnm_le -0.649111 6 7
+     ("to" 127
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"40\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3038 HDN_BNP-NUM_C 1.27952 7 9
+     (3037 HDN_NP-NUM_C 0.760882 7 9
+      (3036 XP_BRCK-PR_C 0.077226 7 9
+       (3035 HD-CMP_U_C 0.167106 7 9
+        (551 generic_card_np_ne@aj_np_i-crd-gen_le 0 7 8
+         ("21" 111
+          "token [ +CARG #1=\"21\" +CLASS card_ne +FORM #1 +FROM \"43\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +RB bracket_null +UW + ] ]"))
+        (3034 W_PERIOD_PLR 0 8 9
+         (556 generic_fract_ne@aj_-_i-frct-gen_le 0 8 9
+          ("1/2." 116
+           "token [ +CARG \"1/2\" +CLASS frct_ne +FORM \"1/2.\" +FROM \"46\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"50\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST hcp [ -CTYPE- \"HD-CMP\" ] REST bracket_null ] +UW + ] ]")))))))))))
+
+(S
+ (NP
+  (N (N (NP (N (N "Banco"))) (N (N (N "Popular,"))))
+   (PP (PP "meanwhile,"))))
+ (VP
+  (VP (VP (V (V "dropped")))
+   (PP (NP (N (ADJ (ADJ (ADJ "1") (ADJ "1/4")))))))
+  (PP (P "to") (NP (N (ADJ (ADJ (ADJ "21") (ADJ (ADJ "1/2.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:25>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:5>
+            LBL: h14
+            ARG0: x9
+            CARG: "Banco" ]
+          [ named<6:14>
+            LBL: h8
+            ARG0: x6
+            CARG: "Popular" ]
+          [ _meanwhile_p<15:25>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _drop_v_1<26:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<34:39>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<34:39>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ card<34:35>
+            LBL: h21
+            ARG0: x17
+            ARG1: i22
+            CARG: "1" ]
+          [ plus<34:35>
+            LBL: h23
+            ARG0: i25
+            ARG1: i22
+            ARG2: h21
+            ARG3: h24 ]
+          [ fraction<36:39>
+            LBL: h24
+            ARG0: i26
+            ARG1: i22
+            CARG: "1/4" ]
+          [ _to_p<40:42>
+            LBL: h2
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x28 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<43:50>
+            LBL: h29
+            ARG0: x28
+            RSTR: h30
+            BODY: h31 ]
+          [ card<43:45>
+            LBL: h32
+            ARG0: x28
+            ARG1: i33
+            CARG: "21" ]
+          [ plus<43:45>
+            LBL: h34
+            ARG0: i36
+            ARG1: i33
+            ARG2: h32
+            ARG3: h35 ]
+          [ fraction<46:50>
+            LBL: h35
+            ARG0: i37
+            ARG1: i33
+            CARG: "1/2" ] >
+   HCONS: < h30 QEQ h34 h19 QEQ h23 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:25>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:5>[BV x9]
+ x9:named<0:5>("Banco"){x PERS 3, NUM sg, IND +}[]
+ x6:named<6:14>("Popular"){x PERS 3, NUM sg, IND +}[]
+ e15:_meanwhile_p<15:25>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e3:_drop_v_1<26:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e16:loc_nonsp<34:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ _3:number_q<34:39>[BV x17]
+ x17:card<34:35>("1"){x PERS 3, NUM sg}[]
+ i25:plus<34:35>{i}[ARG2 x17, ARG3 i26]
+ i26:fraction<36:39>("1/4"){i}[]
+ e27:_to_p<40:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x28]
+ _4:number_q<43:50>[BV x28]
+ x28:card<43:45>("21"){x PERS 3, NUM sg}[]
+ i36:plus<43:45>{i}[ARG2 x28, ARG3 i37]
+ i37:fraction<46:50>("1/2"){i}[]
+}
+
+{
+  proper_q<0:25> BV named<6:14>(Popular)  
+  compound<0:14> ARG1 named<6:14>(Popular)  
+  compound<0:14> ARG2 named<0:5>(Banco)  
+  proper_q<0:5> BV named<0:5>(Banco)  
+  _meanwhile_p<15:25> ARG1 named<6:14>(Popular)  
+  _drop_v_1<26:33> ARG1 named<6:14>(Popular)  
+  loc_nonsp<34:39> ARG1 _drop_v_1<26:33>  
+  loc_nonsp<34:39> ARG2 card<34:35>(1)  
+  number_q<34:39> BV card<34:35>(1)  
+  plus<34:35> ARG2 card<34:35>(1)  
+  plus<34:35> ARG3 fraction<36:39>(1/4)  
+  _to_p<40:42> ARG1 _drop_v_1<26:33>  
+  _to_p<40:42> ARG2 card<43:45>(21)  
+  number_q<43:50> BV card<43:45>(21)  
+  plus<43:45> ARG2 card<43:45>(21)  
+  plus<43:45> ARG3 fraction<46:50>(1/2)  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  named<0:5>(Banco) PERS 3  
+  named<0:5>(Banco) NUM sg  
+  named<0:5>(Banco) IND +  
+  named<6:14>(Popular) PERS 3  
+  named<6:14>(Popular) NUM sg  
+  named<6:14>(Popular) IND +  
+  _meanwhile_p<15:25> SF prop  
+  _meanwhile_p<15:25> TENSE untensed  
+  _meanwhile_p<15:25> MOOD indicative  
+  _meanwhile_p<15:25> PROG -  
+  _meanwhile_p<15:25> PERF -  
+  _drop_v_1<26:33> SF prop  
+  _drop_v_1<26:33> TENSE past  
+  _drop_v_1<26:33> MOOD indicative  
+  _drop_v_1<26:33> PROG -  
+  _drop_v_1<26:33> PERF -  
+  loc_nonsp<34:39> SF prop  
+  loc_nonsp<34:39> TENSE untensed  
+  loc_nonsp<34:39> MOOD indicative  
+  loc_nonsp<34:39> PROG -  
+  loc_nonsp<34:39> PERF -  
+  card<34:35>(1) PERS 3  
+  card<34:35>(1) NUM sg  
+  _to_p<40:42> SF prop  
+  _to_p<40:42> TENSE untensed  
+  _to_p<40:42> MOOD indicative  
+  _to_p<40:42> PROG -  
+  _to_p<40:42> PERF -  
+  card<43:45>(21) PERS 3  
+  card<43:45>(21) NUM sg  
+}
+

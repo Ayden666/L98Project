@@ -1,0 +1,245 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:21 h)).
+;;;
+
+[21744026] (1 of 1) {1} `f-Includes Chevrolet Prizm and Toyota Corolla.'
+
+[21744026:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "f", 0, "null", "SYM" 0.9561 "LS" 0.0439)
+  (2, 1, 2, <1:2>, 1, "-", 0, "null", ":" 1.0)
+  (3, 2, 3, <2:10>, 1, "Includes", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <11:20>, 1, "Chevrolet", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <21:26>, 1, "Prizm", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <27:30>, 1, "and", 0, "null", "CC" 1.0)
+  (7, 6, 7, <31:37>, 1, "Toyota", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <38:45>, 1, "Corolla", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (110, 0, 1, <0:1>, 1, "f", 0, "null")
+  (112, 0, 1, <0:1>, 1, "f", 0, "null", "SYM" 0.9561)
+  (130, 0, 1, <0:1>, 1, "f", 0, "null")
+  (107, 1, 2, <1:2>, 1, "-", 0, "null")
+  (129, 1, 2, <1:2>, 1, "-", 0, "null")
+  (87, 2, 3, <2:10>, 1, "Includes", 0, "null")
+  (113, 2, 3, <2:10>, 1, "Includes", 0, "null", "VBZ" 1.0)
+  (118, 2, 3, <2:10>, 1, "includes", 0, "null")
+  (123, 2, 3, <2:10>, 1, "includes", 0, "null")
+  (88, 3, 4, <11:20>, 1, "Chevrolet", 0, "null")
+  (114, 3, 4, <11:20>, 1, "Chevrolet", 0, "null", "NNP" 1.0)
+  (119, 3, 4, <11:20>, 1, "chevrolet", 0, "null")
+  (124, 3, 4, <11:20>, 1, "chevrolet", 0, "null")
+  (89, 4, 5, <21:26>, 1, "Prizm", 0, "null")
+  (115, 4, 5, <21:26>, 1, "Prizm", 0, "null", "NNP" 1.0)
+  (120, 4, 5, <21:26>, 1, "prizm", 0, "null")
+  (125, 4, 5, <21:26>, 1, "prizm", 0, "null")
+  (105, 5, 6, <27:30>, 1, "and", 0, "null")
+  (128, 5, 6, <27:30>, 1, "and", 0, "null")
+  (90, 6, 7, <31:37>, 1, "Toyota", 0, "null")
+  (116, 6, 7, <31:37>, 1, "Toyota", 0, "null", "NNP" 1.0)
+  (121, 6, 7, <31:37>, 1, "toyota", 0, "null")
+  (126, 6, 7, <31:37>, 1, "toyota", 0, "null")
+  (93, 7, 8, <38:46>, 1, "Corolla.", 0, "null")
+  (117, 7, 8, <38:46>, 1, "Corolla.", 0, "null", "NNP" 1.0)
+  (122, 7, 8, <38:46>, 1, "corolla.", 0, "null")
+  (127, 7, 8, <38:46>, 1, "corolla.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1969 SB-HD_MC_C 8.5417 0 8
+  (1953 HDN_BNP-PN_C 0.294761 0 2
+   (1952 HD-PCT_C 0.893349 0 2
+    (1951 ^N_SG_ILR -0.177559 0 1
+     (138 f_lower_np1@n_-_pn_le 0 0 1
+      ("f" 110
+       "token [ +CARG #1=\"f\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95613789999999999\" +TAG \"SYM\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (147 s_dash_pct@pt_-_s-dash_le 0.43917 1 2
+     ("-" 107
+      "token [ +CARG #1=\"-\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"1\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1968 ^HD-CMP_U_C 7.22988 2 8
+   (1954 ^V_3S-FIN_OLR 0.744414 2 3
+    (167 include_v1@v_np_le 0.54595 2 3
+     ("includes" 118
+      "token [ +CARG \"Includes\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"includes\" +FROM #1=\"2\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1967 NP-NP_CRD-T_C 5.4078 3 8
+    (1959 HDN_BNP-PN_C 1.84882 3 5
+     (1958 NP-HDN_NME-CPD_C 1.59541 3 5
+      (1956 HDN_BNP-PN_C 0.365523 3 4
+       (1955 N_SG_ILR -0.386912 3 4
+        (172 generic_proper_ne@n_-_pn-gen_le 0 3 4
+         ("Chevrolet" 88
+          "token [ +CARG #1=\"Chevrolet\" +CLASS proper_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+      (1957 ^N_SG_ILR -0.143257 4 5
+       (174 generic_proper_ne@n_-_pn-gen_le 0 4 5
+        ("Prizm" 89
+         "token [ +CARG #1=\"Prizm\" +CLASS proper_ne +FORM #1 +FROM \"21\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (1966 ^MRK-NH_NOM_C 2.31182 5 8
+     (179 and_conj@c_xp_and_le -1.32169 5 6
+      ("and" 105
+       "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1965 HDN_BNP-PN_C 2.637 6 8
+      (1964 NP-HDN_NME-CPD_C 1.87379 6 8
+       (1961 HDN_BNP-PN_C 0.365523 6 7
+        (1960 N_SG_ILR -0.386912 6 7
+         (195 generic_proper_ne@n_-_pn-gen_le 0 6 7
+          ("Toyota" 90
+           "token [ +CARG #1=\"Toyota\" +CLASS proper_ne +FORM #1 +FROM \"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (1963 ^W_PERIOD_PLR 1.02066 7 8
+        (1962 N_SG_ILR 0.466069 7 8
+         (197 generic_proper_ne@n_-_pn-gen_le 0 7 8
+          ("Corolla." 93
+           "token [ +CARG \"Corolla\" +CLASS proper_ne +FORM \"Corolla.\" +FROM \"38\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))))
+
+(S (NP (N (N (N "f")) (PNCT "-")))
+ (VP (V (V "includes"))
+  (NP (NP (N (NP (N (N "Chevrolet"))) (N (N "Prizm"))))
+   (NP-CJ (CONJ "and")
+    (NP (N (NP (N (N "Toyota"))) (N (N (N "Corolla.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:2>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:1>
+            LBL: h8
+            ARG0: x6
+            CARG: "F" ]
+          [ _include_v_1<2:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<11:46>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ proper_q<11:26>
+            LBL: h13
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h14
+            BODY: h16 ]
+          [ compound<11:26>
+            LBL: h17
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x18 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<11:20>
+            LBL: h20
+            ARG0: x18
+            RSTR: h21
+            BODY: h22 ]
+          [ named<11:20>
+            LBL: h23
+            ARG0: x18
+            CARG: "Chevrolet" ]
+          [ named<21:26>
+            LBL: h17
+            ARG0: x15
+            CARG: "Prizm" ]
+          [ _and_c<27:30>
+            LBL: h24
+            ARG0: x9
+            L-INDEX: x15
+            R-INDEX: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<31:46>
+            LBL: h26
+            ARG0: x25
+            RSTR: h27
+            BODY: h28 ]
+          [ compound<31:46>
+            LBL: h29
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x25
+            ARG2: x30 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<31:37>
+            LBL: h32
+            ARG0: x30
+            RSTR: h33
+            BODY: h34 ]
+          [ named<31:37>
+            LBL: h35
+            ARG0: x30
+            CARG: "Toyota" ]
+          [ named<38:46>
+            LBL: h29
+            ARG0: x25
+            CARG: "Corolla" ] >
+   HCONS: < h33 QEQ h35 h27 QEQ h29 h21 QEQ h23 h14 QEQ h17 h11 QEQ h24 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:2>[BV x6]
+ x6:named<0:1>("F"){x PERS 3, NUM sg, IND +}[]
+ e3:_include_v_1<2:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<11:46>[BV x9]
+ _3:proper_q<11:26>[BV x15]
+ e19:compound<11:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x18]
+ _4:proper_q<11:20>[BV x18]
+ x18:named<11:20>("Chevrolet"){x PERS 3, NUM sg, IND +}[]
+ x15:named<21:26>("Prizm"){x PERS 3, NUM sg, IND +}[]
+ x9:_and_c<27:30>{x PERS 3, NUM pl}[L-INDEX x15, R-INDEX x25]
+ _5:proper_q<31:46>[BV x25]
+ e31:compound<31:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x25, ARG2 x30]
+ _6:proper_q<31:37>[BV x30]
+ x30:named<31:37>("Toyota"){x PERS 3, NUM sg, IND +}[]
+ x25:named<38:46>("Corolla"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:2> BV named<0:1>(F)  
+  _include_v_1<2:10> ARG1 named<0:1>(F)  
+  _include_v_1<2:10> ARG2 _and_c<27:30>  
+  udef_q<11:46> BV _and_c<27:30>  
+  proper_q<11:26> BV named<21:26>(Prizm)  
+  compound<11:26> ARG1 named<21:26>(Prizm)  
+  compound<11:26> ARG2 named<11:20>(Chevrolet)  
+  proper_q<11:20> BV named<11:20>(Chevrolet)  
+  _and_c<27:30> L-INDEX named<21:26>(Prizm)  
+  _and_c<27:30> R-INDEX named<38:46>(Corolla)  
+  proper_q<31:46> BV named<38:46>(Corolla)  
+  compound<31:46> ARG1 named<38:46>(Corolla)  
+  compound<31:46> ARG2 named<31:37>(Toyota)  
+  proper_q<31:37> BV named<31:37>(Toyota)  
+  named<0:1>(F) PERS 3  
+  named<0:1>(F) NUM sg  
+  named<0:1>(F) IND +  
+  _include_v_1<2:10> SF prop  
+  _include_v_1<2:10> TENSE pres  
+  _include_v_1<2:10> MOOD indicative  
+  _include_v_1<2:10> PROG -  
+  _include_v_1<2:10> PERF -  
+  compound<11:26> SF prop  
+  compound<11:26> TENSE untensed  
+  compound<11:26> MOOD indicative  
+  compound<11:26> PROG -  
+  compound<11:26> PERF -  
+  named<11:20>(Chevrolet) PERS 3  
+  named<11:20>(Chevrolet) NUM sg  
+  named<11:20>(Chevrolet) IND +  
+  named<21:26>(Prizm) PERS 3  
+  named<21:26>(Prizm) NUM sg  
+  named<21:26>(Prizm) IND +  
+  _and_c<27:30> PERS 3  
+  _and_c<27:30> NUM pl  
+  compound<31:46> SF prop  
+  compound<31:46> TENSE untensed  
+  compound<31:46> MOOD indicative  
+  compound<31:46> PROG -  
+  compound<31:46> PERF -  
+  named<31:37>(Toyota) PERS 3  
+  named<31:37>(Toyota) NUM sg  
+  named<31:37>(Toyota) IND +  
+  named<38:46>(Corolla) PERS 3  
+  named<38:46>(Corolla) NUM sg  
+  named<38:46>(Corolla) IND +  
+}
+

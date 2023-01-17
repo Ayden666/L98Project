@@ -1,0 +1,212 @@
+;;;
+;;; Redwoods export of `wsj10c';
+;;; (wsun@wsun; 22-jan-2018 (19:38 h)).
+;;;
+
+[21055034] (1 of 1) {1} `It was Nasdaq's biggest percentage gainer.'
+
+[21055034:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <7:13>, 1, "Nasdaq", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <13:15>, 1, "’s", 0, "null", "NNS" 0.5686 "VBZ" 0.382 "JJ" 0.0365 "NN" 0.013)
+  (5, 4, 5, <16:23>, 1, "biggest", 0, "null", "JJS" 1.0)
+  (6, 5, 6, <24:34>, 1, "percentage", 0, "null", "NN" 1.0)
+  (7, 6, 7, <35:41>, 1, "gainer", 0, "null", "NN" 1.0)
+  (8, 7, 8, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (104, 0, 1, <0:2>, 1, "it", 0, "null")
+  (112, 0, 1, <0:2>, 1, "it", 0, "null")
+  (87, 1, 2, <3:6>, 1, "was", 0, "null")
+  (99, 1, 2, <3:6>, 1, "was", 0, "null", "VBD" 1.0)
+  (106, 1, 2, <3:6>, 1, "was", 0, "null")
+  (74, 2, 3, <7:13>, 1, "Nasdaq", 0, "null")
+  (98, 2, 3, <7:13>, 1, "Nasdaq", 0, "null", "NNP" 1.0)
+  (103, 2, 3, <7:13>, 1, "nasdaq", 0, "null")
+  (105, 2, 3, <7:13>, 1, "nasdaq", 0, "null")
+  (94, 3, 4, <13:15>, 1, "’s", 0, "null")
+  (96, 3, 4, <13:15>, 1, "’s", 0, "null", "NNS" 0.5686)
+  (97, 3, 4, <13:15>, 1, "’s", 0, "null", "VBZ" 0.382)
+  (110, 3, 4, <13:15>, 1, "’s", 0, "null")
+  (89, 4, 5, <16:23>, 1, "biggest", 0, "null")
+  (100, 4, 5, <16:23>, 1, "biggest", 0, "null", "JJS" 1.0)
+  (107, 4, 5, <16:23>, 1, "biggest", 0, "null")
+  (91, 5, 6, <24:34>, 1, "percentage", 0, "null")
+  (101, 5, 6, <24:34>, 1, "percentage", 0, "null", "NN" 1.0)
+  (108, 5, 6, <24:34>, 1, "percentage", 0, "null")
+  (93, 6, 7, <35:42>, 1, "gainer.", 0, "null")
+  (102, 6, 7, <35:42>, 1, "gainer.", 0, "null", "NN" 1.0)
+  (109, 6, 7, <35:42>, 1, "gainer.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1579 SB-HD_MC_C 8.00974 0 7
+  (1569 HDN_BNP-QNT_C 0.430464 0 1
+   (114 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 104
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (1578 ^HD-CMP_U_C 6.30993 1 7
+   (135 be_id_was@v_np_was_le 0.510521 1 2
+    ("was" 87
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1577 SP-HD_N_C 4.93117 2 7
+    (1572 SP-HD_HC_C 3.13353 2 4
+     (1571 HDN_BNP-PN_C 0.811454 2 3
+      (1570 N_SG_ILR 0.196622 2 3
+       (151 generic_proper_ne@n_-_pn-gen_le 0.712334 2 3
+        ("Nasdaq" 74
+         "token [ +CARG #1=\"Nasdaq\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (156 apostrophe_s_12_lex@n_-_cl-poss_le 0.028441 3 4
+      ("’s" 94
+       "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.56860040000000001\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1576 ^AJ-HDN_NORM_C 1.06889 4 7
+     (364 biggest@aj_-_i-sup_le -0.193051 4 5
+      ("biggest" 89
+       "token [ +CARG #1=\"biggest\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJS\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1575 ^N-HDN_CPD_C 0.133125 5 7
+      (366 percentage_n1@n_-_c-gr_le -0.145836 5 6
+       ("percentage" 91
+        "token [ +CARG #1=\"percentage\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"34\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1574 ^W_PERIOD_PLR -0.17981 6 7
+       (1573 N_MS-CNT_ILR -0.767009 6 7
+        (370 generic_mass_count_noun@n_-_mc-unk_le 0 6 7
+         ("gainer." 102
+          "token [ +CARG \"gainer\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"gainer.\" +FROM #1=\"35\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED \"_gainer/NN_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"NN\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))))
+
+(S (NP (NP "it"))
+ (VP (V "was")
+  (NP (DET (NP (N (N "Nasdaq"))) (DET "’s"))
+   (N (ADJ "biggest") (N (N "percentage") (N (N (N "gainer."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<3:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ proper_q<7:13>
+            LBL: h10
+            ARG0: x12 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h11
+            BODY: h13 ]
+          [ named<7:13>
+            LBL: h14
+            ARG0: x12
+            CARG: "Nasdaq" ]
+          [ def_explicit_q<13:15>
+            LBL: h15
+            ARG0: x9
+            RSTR: h16
+            BODY: h17 ]
+          [ poss<13:15>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x12 ]
+          [ _big_a_1<16:23>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ superl<16:23>
+            LBL: h18
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20 ]
+          [ compound<24:42>
+            LBL: h18
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x22 [ x IND: + ] ]
+          [ udef_q<24:34>
+            LBL: h24
+            ARG0: x22
+            RSTR: h25
+            BODY: h26 ]
+          [ _percentage_n_of<24:34>
+            LBL: h27
+            ARG0: x22 ]
+          [ _gainer/nn_u_unknown<35:42>
+            LBL: h18
+            ARG0: x9 ] >
+   HCONS: < h25 QEQ h27 h16 QEQ h18 h11 QEQ h14 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_be_v_id<3:6>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:proper_q<7:13>[BV x12]
+ x12:named<7:13>("Nasdaq"){x PERS 3, NUM sg, IND +}[]
+ _3:def_explicit_q<13:15>[BV x9]
+ e19:poss<13:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x12]
+ e20:_big_a_1<16:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e21:superl<16:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e23:compound<24:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x22]
+ _4:udef_q<24:34>[BV x22]
+ x22:_percentage_n_of<24:34>{x IND +}[]
+ x9:_gainer/nn_u_unknown<35:42>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _be_v_id<3:6> ARG1 pron<0:2>  
+  _be_v_id<3:6> ARG2 _gainer/nn_u_unknown<35:42>  
+  proper_q<7:13> BV named<7:13>(Nasdaq)  
+  def_explicit_q<13:15> BV _gainer/nn_u_unknown<35:42>  
+  poss<13:15> ARG1 _gainer/nn_u_unknown<35:42>  
+  poss<13:15> ARG2 named<7:13>(Nasdaq)  
+  _big_a_1<16:23> ARG1 _gainer/nn_u_unknown<35:42>  
+  superl<16:23> ARG1 _big_a_1<16:23>  
+  compound<24:42> ARG1 _gainer/nn_u_unknown<35:42>  
+  compound<24:42> ARG2 _percentage_n_of<24:34>  
+  udef_q<24:34> BV _percentage_n_of<24:34>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _be_v_id<3:6> SF prop  
+  _be_v_id<3:6> TENSE past  
+  _be_v_id<3:6> MOOD indicative  
+  _be_v_id<3:6> PROG -  
+  _be_v_id<3:6> PERF -  
+  named<7:13>(Nasdaq) PERS 3  
+  named<7:13>(Nasdaq) NUM sg  
+  named<7:13>(Nasdaq) IND +  
+  poss<13:15> SF prop  
+  poss<13:15> TENSE untensed  
+  poss<13:15> MOOD indicative  
+  poss<13:15> PROG -  
+  poss<13:15> PERF -  
+  _big_a_1<16:23> SF prop  
+  _big_a_1<16:23> TENSE untensed  
+  _big_a_1<16:23> MOOD indicative  
+  _big_a_1<16:23> PROG -  
+  _big_a_1<16:23> PERF -  
+  superl<16:23> SF prop  
+  superl<16:23> TENSE untensed  
+  superl<16:23> MOOD indicative  
+  superl<16:23> PROG -  
+  superl<16:23> PERF -  
+  compound<24:42> SF prop  
+  compound<24:42> TENSE untensed  
+  compound<24:42> MOOD indicative  
+  compound<24:42> PROG -  
+  compound<24:42> PERF -  
+  _percentage_n_of<24:34> IND +  
+  _gainer/nn_u_unknown<35:42> PERS 3  
+  _gainer/nn_u_unknown<35:42> NUM sg  
+}
+

@@ -1,0 +1,288 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:24 h)).
+;;;
+
+[21750009] (1 of 1) {1} `Healthcare operates many of the health-care properties that HealthVest owns.'
+
+[21750009:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Healthcare", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <11:19>, 1, "operates", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <20:24>, 1, "many", 0, "null", "JJ" 0.9815 "RB" 0.0185)
+  (4, 3, 4, <25:27>, 1, "of", 0, "null", "IN" 1.0)
+  (5, 4, 5, <28:31>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <32:43>, 1, "health-care", 0, "null", "JJ" 0.5898 "NN" 0.4102)
+  (7, 6, 7, <44:54>, 1, "properties", 0, "null", "NNS" 0.9765 "NN" 0.0235)
+  (8, 7, 8, <55:59>, 1, "that", 0, "null", "IN" 0.8692 "WDT" 0.1308)
+  (9, 8, 9, <60:70>, 1, "HealthVest", 0, "null", "NNP" 1.0)
+  (10, 9, 10, <71:75>, 1, "owns", 0, "null", "VBZ" 1.0)
+  (11, 10, 11, <75:76>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (140, 0, 1, <0:10>, 1, "Healthcare", 0, "null")
+  (148, 0, 1, <0:10>, 1, "healthcare", 0, "null")
+  (160, 0, 1, <0:10>, 1, "healthcare", 0, "null")
+  (123, 1, 2, <11:19>, 1, "operates", 0, "null")
+  (144, 1, 2, <11:19>, 1, "operates", 0, "null", "VBZ" 1.0)
+  (151, 1, 2, <11:19>, 1, "operates", 0, "null")
+  (132, 2, 3, <20:24>, 1, "many", 0, "null")
+  (141, 2, 3, <20:24>, 1, "many", 0, "null", "JJ" 0.9815)
+  (156, 2, 3, <20:24>, 1, "many", 0, "null")
+  (125, 3, 4, <25:27>, 1, "of", 0, "null")
+  (152, 3, 4, <25:27>, 1, "of", 0, "null")
+  (127, 4, 5, <28:31>, 1, "the", 0, "null")
+  (153, 4, 5, <28:31>, 1, "the", 0, "null")
+  (129, 5, 6, <32:43>, 1, "health-", 0, "null")
+  (145, 5, 6, <32:43>, 1, "health-", 0, "null", "NN" 1.0)
+  (154, 5, 6, <32:43>, 1, "health-", 0, "null")
+  (138, 6, 7, <32:43>, 1, "care", 0, "null")
+  (147, 6, 7, <32:43>, 1, "care", 0, "null", "NN" 0.4102)
+  (159, 6, 7, <32:43>, 1, "care", 0, "null")
+  (134, 7, 8, <44:54>, 1, "properties", 0, "null")
+  (142, 7, 8, <44:54>, 1, "properties", 0, "null", "NNS" 0.9765)
+  (157, 7, 8, <44:54>, 1, "properties", 0, "null")
+  (136, 8, 9, <55:59>, 1, "that", 0, "null")
+  (158, 8, 9, <55:59>, 1, "that", 0, "null")
+  (108, 9, 10, <60:70>, 1, "HealthVest", 0, "null")
+  (143, 9, 10, <60:70>, 1, "HealthVest", 0, "null", "NNP" 1.0)
+  (149, 9, 10, <60:70>, 1, "healthvest", 0, "null")
+  (150, 9, 10, <60:70>, 1, "healthvest", 0, "null")
+  (131, 10, 11, <71:76>, 1, "owns.", 0, "null")
+  (146, 10, 11, <71:76>, 1, "owns.", 0, "null", "VBZ" 1.0)
+  (155, 10, 11, <71:76>, 1, "owns.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1200 SB-HD_MC_C 7.31773 0 11
+  (1178 HDN_BNP-PN_C -1.0285 0 1
+   (1177 N_SG_ILR -0.979548 0 1
+    (162 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Healthcare" 140
+      "token [ +CARG #1=\"Healthcare\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1199 ^HD-CMP_U_C 7.32918 1 11
+   (1179 ^V_3S-FIN_OLR 0.391518 1 2
+    (165 operate_v1@v_np*_le 0 1 2
+     ("operates" 123
+      "token [ +CARG #1=\"operates\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1198 HDN_BNP-QNT_C 7.53034 2 11
+    (1197 HD-CMP_U_C 6.94786 2 11
+     (1180 ^NUM_PRT-OF_C 1.08234 2 3
+      (176 many_a1@aj_-_i-many_le 0.192101 2 3
+       ("many" 132
+        "token [ +CARG #1=\"many\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98149600000000004\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1196 HD-CMP_U_C 6.01468 3 11
+      (240 of_prtcl@p_np_ptcl-of_le 1.04356 3 4
+       ("of" 125
+        "token [ +CARG #1=\"of\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1195 SP-HD_N_C 3.84986 4 11
+       (329 the_1@d_-_the_le 1.07131 4 5
+        ("the" 127
+         "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (1194 ^HDN-AJ_RC_C 2.0759 5 11
+        (1185 ^N-HDN_CPD_C 1.56399 5 8
+         (1183 XP_BRCK-PR_C 0.8107 5 7
+          (1182 N-HDN_CPD_C 0.773776 5 7
+           (1181 W_HYPHEN_PLR 1.28368 5 6
+            (354 health_n1@n_-_m_le 0 5 6
+             ("health-" 129
+              "token [ +CARG #1=\"health-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+           (362 care_n1@n_-_m_le 0.134103 6 7
+            ("care" 138
+             "token [ +CARG #1=\"care\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.58975200000000005\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+         (1184 ^N_PL_OLR 0.53161 7 8
+          (370 property_n1@n_-_mc-ns_le 0 7 8
+           ("properties" 134
+            "token [ +CARG #1=\"properties\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"44\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97646010000000005\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+        (1193 FLR-HD_REL-FIN_C 0.178711 8 11
+         (1186 HDN_BNP-QNT_C 0.419934 8 9
+          (404 that_r@n_-_pr-rel-nwh_le -0.283448 8 9
+           ("that" 136
+            "token [ +CARG #1=\"that\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"55\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.86920779999999997\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"59\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (1192 ^SB-HD_NMC_C -1.24683 9 11
+          (1188 HDN_BNP-PN_C -0.216049 9 10
+           (1187 N_SG_ILR -0.67017 9 10
+            (418 generic_proper_ne@n_-_pn-gen_le 0 9 10
+             ("HealthVest" 108
+              "token [ +CARG #1=\"HealthVest\" +CLASS proper_ne +FORM #1 +FROM \"60\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"70\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+          (1191 ^HD_XCMP_C -0.50182 10 11
+           (1190 W_PERIOD_PLR -0.509248 10 11
+            (1189 V_3S-FIN_OLR 0.317402 10 11
+             (422 own_v1@v_np_le 0 10 11
+              ("owns." 131
+               "token [ +CARG \"owns\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"owns.\" +FROM #1=\"71\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"76\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))))
+
+(S (NP (N (N "Healthcare")))
+ (VP (V (V "operates"))
+  (NP
+   (N (N (ADJ "many"))
+    (PP (P "of")
+     (NP (DET "the")
+      (N (N (N (N (N (N "health-")) (N "care"))) (N (N "properties")))
+       (S (NP (N "that"))
+        (S/NP (NP (N (N "HealthVest")))
+         (VP/NP (V/NP (V/NP (V/NP "owns.")))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:10>
+            LBL: h8
+            ARG0: x6
+            CARG: "Healthcare" ]
+          [ _operate_v_1<11:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ part_of<20:24>
+            LBL: h10
+            ARG0: x9
+            ARG1: x11 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<20:24>
+            LBL: h12
+            ARG0: x9
+            RSTR: h13
+            BODY: h14 ]
+          [ much-many_a<20:24>
+            LBL: h10
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _the_q<28:31>
+            LBL: h16
+            ARG0: x11
+            RSTR: h18
+            BODY: h17 ]
+          [ compound<32:54>
+            LBL: h19
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<32:43>
+            LBL: h22
+            ARG0: x20
+            RSTR: h23
+            BODY: h24 ]
+          [ compound<32:43>
+            LBL: h25
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x26 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<32:43>
+            LBL: h28
+            ARG0: x26
+            RSTR: h29
+            BODY: h30 ]
+          [ _health_n_1<32:43>
+            LBL: h31
+            ARG0: x26 ]
+          [ _care_n_1<32:43>
+            LBL: h25
+            ARG0: x20 ]
+          [ _property_n_1<44:54>
+            LBL: h19
+            ARG0: x11 ]
+          [ proper_q<60:70>
+            LBL: h32
+            ARG0: x34 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h33
+            BODY: h35 ]
+          [ named<60:70>
+            LBL: h36
+            ARG0: x34
+            CARG: "HealthVest" ]
+          [ _own_v_1<71:76>
+            LBL: h19
+            ARG0: e37 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x34
+            ARG2: x11 ] >
+   HCONS: < h33 QEQ h36 h29 QEQ h31 h23 QEQ h25 h18 QEQ h19 h13 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:10>[BV x6]
+ x6:named<0:10>("Healthcare"){x PERS 3, NUM sg, IND +}[]
+ e3:_operate_v_1<11:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ x9:part_of<20:24>{x PERS 3, NUM pl}[ARG1 x11]
+ _2:udef_q<20:24>[BV x9]
+ e15:much-many_a<20:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ _3:_the_q<28:31>[BV x11]
+ e21:compound<32:54>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x20]
+ _4:udef_q<32:43>[BV x20]
+ e27:compound<32:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x26]
+ _5:udef_q<32:43>[BV x26]
+ x26:_health_n_1<32:43>{x PERS 3, NUM sg, IND -}[]
+ x20:_care_n_1<32:43>{x PERS 3, NUM sg, IND -}[]
+ x11:_property_n_1<44:54>{x PERS 3, NUM pl}[]
+ _6:proper_q<60:70>[BV x34]
+ x34:named<60:70>("HealthVest"){x PERS 3, NUM sg, IND +}[]
+ e37:_own_v_1<71:76>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x34, ARG2 x11]
+}
+
+{
+  proper_q<0:10> BV named<0:10>(Healthcare)  
+  _operate_v_1<11:19> ARG1 named<0:10>(Healthcare)  
+  _operate_v_1<11:19> ARG2 part_of<20:24>  
+  part_of<20:24> ARG1 _property_n_1<44:54>  
+  udef_q<20:24> BV part_of<20:24>  
+  much-many_a<20:24> ARG1 part_of<20:24>  
+  _the_q<28:31> BV _property_n_1<44:54>  
+  compound<32:54> ARG1 _property_n_1<44:54>  
+  compound<32:54> ARG2 _care_n_1<32:43>  
+  udef_q<32:43> BV _care_n_1<32:43>  
+  compound<32:43> ARG1 _care_n_1<32:43>  
+  compound<32:43> ARG2 _health_n_1<32:43>  
+  udef_q<32:43> BV _health_n_1<32:43>  
+  proper_q<60:70> BV named<60:70>(HealthVest)  
+  _own_v_1<71:76> ARG1 named<60:70>(HealthVest)  
+  _own_v_1<71:76> ARG2 _property_n_1<44:54>  
+  named<0:10>(Healthcare) PERS 3  
+  named<0:10>(Healthcare) NUM sg  
+  named<0:10>(Healthcare) IND +  
+  _operate_v_1<11:19> SF prop  
+  _operate_v_1<11:19> TENSE pres  
+  _operate_v_1<11:19> MOOD indicative  
+  _operate_v_1<11:19> PROG -  
+  _operate_v_1<11:19> PERF -  
+  part_of<20:24> PERS 3  
+  part_of<20:24> NUM pl  
+  much-many_a<20:24> SF prop  
+  much-many_a<20:24> TENSE untensed  
+  much-many_a<20:24> MOOD indicative  
+  much-many_a<20:24> PROG -  
+  much-many_a<20:24> PERF -  
+  compound<32:54> SF prop  
+  compound<32:54> TENSE untensed  
+  compound<32:54> MOOD indicative  
+  compound<32:54> PROG -  
+  compound<32:54> PERF -  
+  compound<32:43> SF prop  
+  compound<32:43> TENSE untensed  
+  compound<32:43> MOOD indicative  
+  compound<32:43> PROG -  
+  compound<32:43> PERF -  
+  _health_n_1<32:43> PERS 3  
+  _health_n_1<32:43> NUM sg  
+  _health_n_1<32:43> IND -  
+  _care_n_1<32:43> PERS 3  
+  _care_n_1<32:43> NUM sg  
+  _care_n_1<32:43> IND -  
+  _property_n_1<44:54> PERS 3  
+  _property_n_1<44:54> NUM pl  
+  named<60:70>(HealthVest) PERS 3  
+  named<60:70>(HealthVest) NUM sg  
+  named<60:70>(HealthVest) IND +  
+  _own_v_1<71:76> SF prop  
+  _own_v_1<71:76> TENSE pres  
+  _own_v_1<71:76> MOOD indicative  
+  _own_v_1<71:76> PROG -  
+  _own_v_1<71:76> PERF -  
+}
+

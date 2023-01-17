@@ -1,0 +1,232 @@
+;;;
+;;; Redwoods export of `wsj17a';
+;;; (wsun@wsun; 23-jan-2018 (02:11 h)).
+;;;
+
+[21726003] (1 of 1) {1} `Prudential Insurance is based in Newark, N.J.'
+
+[21726003:0] (active)
+
+<
+  (1, 0, 1, <0:10>, 1, "Prudential", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <11:20>, 1, "Insurance", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <21:23>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <24:29>, 1, "based", 0, "null", "VBN" 1.0)
+  (5, 4, 5, <30:32>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <33:39>, 1, "Newark", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <39:40>, 1, ",", 0, "null", "," 1.0)
+  (8, 7, 8, <41:44>, 1, "N.J", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (106, 0, 1, <0:10>, 1, "Prudential", 0, "null")
+  (113, 0, 1, <0:10>, 1, "prudential", 0, "null")
+  (122, 0, 1, <0:10>, 1, "prudential", 0, "null")
+  (85, 1, 2, <11:20>, 1, "Insurance", 0, "null")
+  (107, 1, 2, <11:20>, 1, "Insurance", 0, "null", "NNP" 1.0)
+  (112, 1, 2, <11:20>, 1, "insurance", 0, "null")
+  (116, 1, 2, <11:20>, 1, "insurance", 0, "null")
+  (97, 2, 3, <21:23>, 1, "is", 0, "null")
+  (108, 2, 3, <21:23>, 1, "is", 0, "null", "VBZ" 1.0)
+  (119, 2, 3, <21:23>, 1, "is", 0, "null")
+  (99, 3, 4, <24:29>, 1, "based", 0, "null")
+  (109, 3, 4, <24:29>, 1, "based", 0, "null", "VBN" 1.0)
+  (120, 3, 4, <24:29>, 1, "based", 0, "null")
+  (101, 4, 5, <30:32>, 1, "in", 0, "null")
+  (121, 4, 5, <30:32>, 1, "in", 0, "null")
+  (89, 5, 6, <33:40>, 1, "Newark,", 0, "null")
+  (110, 5, 6, <33:40>, 1, "Newark,", 0, "null", "NNP" 1.0)
+  (114, 5, 6, <33:40>, 1, "newark,", 0, "null")
+  (117, 5, 6, <33:40>, 1, "newark,", 0, "null")
+  (91, 6, 7, <41:45>, 1, "N.J.", 0, "null")
+  (111, 6, 7, <41:45>, 1, "N.J.", 0, "null", "NNP" 1.0)
+  (115, 6, 7, <41:45>, 1, "n.j.", 0, "null")
+  (118, 6, 7, <41:45>, 1, "n.j.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2844 SB-HD_MC_C 13.5354 0 7
+  (2831 HDN_BNP-PN_C 2.86982 0 2
+   (2830 NP-HDN_NME-CPD_C 2.3301 0 2
+    (2828 HDN_BNP-PN_C 0.365523 0 1
+     (2827 N_SG_ILR -0.386912 0 1
+      (126 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Prudential" 106
+        "token [ +CARG #1=\"Prudential\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (2829 ^N_SG_ILR 0.647001 1 2
+     (127 generic_proper_ne@n_-_pn-gen_le 0.790258 1 2
+      ("Insurance" 85
+       "token [ +CARG #1=\"Insurance\" +CLASS proper_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (2843 ^HD-CMP_U_C 9.64857 2 7
+   (169 be_c_is@v_prd_is_le 1.53171 2 3
+    ("is" 97
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2842 HD-CMP_U_C 7.55435 3 7
+    (2833 ^HD_OPTCMP_C 2.86532 3 4
+     (2832 V_PAS_ODLR 2.58747 3 4
+      (273 base_v1@v_np-pp_prop_le 1.80963 3 4
+       ("based" 99
+        "token [ +CARG #1=\"based\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"24\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (2841 HD-CMP_U_C 3.26872 4 7
+     (393 in@p_np_i-reg_le -0.360807 4 5
+      ("in" 101
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2840 HDN_BNP-PN_C 3.65925 5 7
+      (2839 NP-HDN_CTY-CPD_C 3.17029 5 7
+       (2836 HDN_BNP-PN_C 0.710257 5 6
+        (2835 W_COMMA_PLR -0.118892 5 6
+         (2834 N_SG_ILR -0.461604 5 6
+          (434 generic_proper_ne@n_-_pn-gen_le 0 5 6
+           ("Newark," 89
+            "token [ +CARG \"Newark\" +CLASS proper_ne +FORM \"Newark,\" +FROM \"33\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+       (2838 ^W_PERIOD_PLR 1.24389 6 7
+        (2837 N_SG_ILR 0.628043 6 7
+         (454 newjersey_n4@n_-_pn-abb_le 0 6 7
+          ("n.j." 115
+           "token [ +CARG \"N.J\" +CLASS alphanumeric [ +CASE capitalized+upper +INITIAL - ] +FORM \"n.j.\" +FROM #1=\"41\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (NP (N (N "Prudential"))) (N (N "Insurance"))))
+ (VP (V "is")
+  (VP (V (V (V "based")))
+   (PP (P "in")
+    (NP (N (NP (N (N (N "Newark,")))) (N (N (N "n.j.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:20>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:10>
+            LBL: h14
+            ARG0: x9
+            CARG: "Prudential" ]
+          [ named<11:20>
+            LBL: h8
+            ARG0: x6
+            CARG: "Insurance" ]
+          [ _base_v_1<24:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x6
+            ARG3: h16 ]
+          [ parg_d<24:29>
+            LBL: h2
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ]
+          [ _in_p<30:32>
+            LBL: h18
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<33:45>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ compound<33:45>
+            LBL: h24
+            ARG0: e26 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x20
+            ARG2: x25 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<33:40>
+            LBL: h27
+            ARG0: x25
+            RSTR: h28
+            BODY: h29 ]
+          [ named<33:40>
+            LBL: h30
+            ARG0: x25
+            CARG: "Newark" ]
+          [ named<41:45>
+            LBL: h24
+            ARG0: x20
+            CARG: "New+Jersey" ] >
+   HCONS: < h28 QEQ h30 h22 QEQ h24 h16 QEQ h18 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:20>[BV x6]
+ e10:compound<0:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:10>[BV x9]
+ x9:named<0:10>("Prudential"){x PERS 3, NUM sg, IND +}[]
+ x6:named<11:20>("Insurance"){x PERS 3, NUM sg, IND +}[]
+ e3:_base_v_1<24:29>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6, ARG3 e19]
+ e17:parg_d<24:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ e19:_in_p<30:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x20]
+ _3:proper_q<33:45>[BV x20]
+ e26:compound<33:45>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x20, ARG2 x25]
+ _4:proper_q<33:40>[BV x25]
+ x25:named<33:40>("Newark"){x PERS 3, NUM sg, IND +}[]
+ x20:named<41:45>("New+Jersey"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:20> BV named<11:20>(Insurance)  
+  compound<0:20> ARG1 named<11:20>(Insurance)  
+  compound<0:20> ARG2 named<0:10>(Prudential)  
+  proper_q<0:10> BV named<0:10>(Prudential)  
+  _base_v_1<24:29> ARG2 named<11:20>(Insurance)  
+  _base_v_1<24:29> ARG3 _in_p<30:32>  
+  parg_d<24:29> ARG1 _base_v_1<24:29>  
+  parg_d<24:29> ARG2 named<11:20>(Insurance)  
+  _in_p<30:32> ARG1 named<11:20>(Insurance)  
+  _in_p<30:32> ARG2 named<41:45>(New+Jersey)  
+  proper_q<33:45> BV named<41:45>(New+Jersey)  
+  compound<33:45> ARG1 named<41:45>(New+Jersey)  
+  compound<33:45> ARG2 named<33:40>(Newark)  
+  proper_q<33:40> BV named<33:40>(Newark)  
+  compound<0:20> SF prop  
+  compound<0:20> TENSE untensed  
+  compound<0:20> MOOD indicative  
+  compound<0:20> PROG -  
+  compound<0:20> PERF -  
+  named<0:10>(Prudential) PERS 3  
+  named<0:10>(Prudential) NUM sg  
+  named<0:10>(Prudential) IND +  
+  named<11:20>(Insurance) PERS 3  
+  named<11:20>(Insurance) NUM sg  
+  named<11:20>(Insurance) IND +  
+  _base_v_1<24:29> SF prop  
+  _base_v_1<24:29> TENSE pres  
+  _base_v_1<24:29> MOOD indicative  
+  _base_v_1<24:29> PROG -  
+  _base_v_1<24:29> PERF -  
+  parg_d<24:29> SF prop  
+  parg_d<24:29> TENSE untensed  
+  parg_d<24:29> MOOD indicative  
+  parg_d<24:29> PROG -  
+  parg_d<24:29> PERF -  
+  _in_p<30:32> SF prop  
+  _in_p<30:32> TENSE untensed  
+  _in_p<30:32> MOOD indicative  
+  _in_p<30:32> PROG -  
+  _in_p<30:32> PERF -  
+  compound<33:45> SF prop  
+  compound<33:45> TENSE untensed  
+  compound<33:45> MOOD indicative  
+  compound<33:45> PROG -  
+  compound<33:45> PERF -  
+  named<33:40>(Newark) PERS 3  
+  named<33:40>(Newark) NUM sg  
+  named<33:40>(Newark) IND +  
+  named<41:45>(New+Jersey) PERS 3  
+  named<41:45>(New+Jersey) NUM sg  
+  named<41:45>(New+Jersey) IND +  
+}
+

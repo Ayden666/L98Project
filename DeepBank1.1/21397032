@@ -1,0 +1,118 @@
+;;;
+;;; Redwoods export of `wsj13e';
+;;; (wsun@wsun; 22-jan-2018 (22:51 h)).
+;;;
+
+[21397032] (1 of 1) {1} `It's wildly overwritten.'
+
+[21397032:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9898 "VBP" 0.0102)
+  (3, 2, 3, <5:11>, 1, "wildly", 0, "null", "RB" 1.0)
+  (4, 3, 4, <12:23>, 1, "overwritten", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (60, 0, 1, <0:2>, 1, "it", 0, "null")
+  (64, 0, 1, <0:2>, 1, "it", 0, "null")
+  (55, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (57, 1, 2, <2:4>, 1, "’s", 0, "null", "VBZ" 0.9898)
+  (63, 1, 2, <2:4>, 1, "’s", 0, "null")
+  (52, 2, 3, <5:11>, 1, "wildly", 0, "null")
+  (58, 2, 3, <5:11>, 1, "wildly", 0, "null", "RB" 1.0)
+  (61, 2, 3, <5:11>, 1, "wildly", 0, "null")
+  (54, 3, 4, <12:24>, 1, "overwritten.", 0, "null")
+  (59, 3, 4, <12:24>, 1, "overwritten.", 0, "null", "JJ" 1.0)
+  (62, 3, 4, <12:24>, 1, "overwritten.", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (579 SB-HD_MC_C 4.93391 0 4
+  (573 HDN_BNP-QNT_C 0.430464 0 1
+   (66 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 60
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (578 ^HD-CMP_U_C 3.2341 1 4
+   (89 be_c_is_cx_3@v_prd_is-cx_le -1.11458 1 2
+    ("’s" 55
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98979249999999996\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (577 AJ-HD_INT_C 2.51092 2 4
+    (240 wildly_adv1@av_-_i-vp_le 0 2 3
+     ("wildly" 52
+      "token [ +CARG #1=\"wildly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (576 ^HD_OPTCMP_C 1.33682 3 4
+     (575 W_PERIOD_PLR -0.0906005 3 4
+      (574 V_PAS_ODLR -0.192154 3 4
+       (244 overwrite_v1@v_np*_le 0 3 4
+        ("overwritten." 54
+         "token [ +CARG \"overwritten\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"overwritten.\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "it"))
+ (VP (V "’s") (VP (ADV "wildly") (VP (V (V (V "overwritten.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _wild_a_1<5:11>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _overwrite_v_1<12:24>
+            LBL: h2
+            ARG0: e3
+            ARG1: i10
+            ARG2: x5 ]
+          [ parg_d<12:24>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x5 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e9:_wild_a_1<5:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_overwrite_v_1<12:24>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x5]
+ e11:parg_d<12:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x5]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _wild_a_1<5:11> ARG1 _overwrite_v_1<12:24>  
+  _overwrite_v_1<12:24> ARG2 pron<0:2>  
+  parg_d<12:24> ARG1 _overwrite_v_1<12:24>  
+  parg_d<12:24> ARG2 pron<0:2>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  _wild_a_1<5:11> SF prop  
+  _wild_a_1<5:11> TENSE untensed  
+  _wild_a_1<5:11> MOOD indicative  
+  _wild_a_1<5:11> PROG -  
+  _wild_a_1<5:11> PERF -  
+  _overwrite_v_1<12:24> SF prop  
+  _overwrite_v_1<12:24> TENSE pres  
+  _overwrite_v_1<12:24> MOOD indicative  
+  _overwrite_v_1<12:24> PROG -  
+  _overwrite_v_1<12:24> PERF -  
+  parg_d<12:24> SF prop  
+  parg_d<12:24> TENSE untensed  
+  parg_d<12:24> MOOD indicative  
+  parg_d<12:24> PROG -  
+  parg_d<12:24> PERF -  
+}
+

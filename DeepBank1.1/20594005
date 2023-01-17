@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj05d';
+;;; (wsun@wsun; 22-jan-2018 (15:37 h)).
+;;;
+
+[20594005] (1 of 1) {1} `Curdling Confession'
+
+[20594005:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Curdling", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:19>, 1, "Confession", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:8>, 1, "Curdling", 0, "null")
+  (28, 0, 1, <0:8>, 1, "curdling", 0, "null")
+  (30, 0, 1, <0:8>, 1, "curdling", 0, "null")
+  (20, 1, 2, <9:19>, 1, "Confession", 0, "null")
+  (26, 1, 2, <9:19>, 1, "Confession", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <9:19>, 1, "confession", 0, "null")
+  (29, 1, 2, <9:19>, 1, "confession", 0, "null")
+>
+
+(ROOT_FRAG
+ (217 NP_FRG_C -0.628959 0 2
+  (216 HDN_BNP-PN_C 0.517553 0 2
+   (215 NP-HDN_NME-CPD_C 0.556861 0 2
+    (213 HDN_BNP-PN_C 0.365523 0 1
+     (212 N_SG_ILR -0.386912 0 1
+      (34 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Curdling" 25
+        "token [ +CARG #1=\"Curdling\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (214 ^N_SG_ILR -0.143257 1 2
+     (44 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Confession" 20
+       "token [ +CARG #1=\"Confession\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "Curdling"))) (N (N "Confession")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:19>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:19>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:19>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:8>
+            LBL: h14
+            ARG0: x9
+            CARG: "Curdling" ]
+          [ named<9:19>
+            LBL: h8
+            ARG0: x4
+            CARG: "Confession" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:19>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:19>[BV x4]
+ e10:compound<0:19>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:8>[BV x9]
+ x9:named<0:8>("Curdling"){x PERS 3, NUM sg, IND +}[]
+ x4:named<9:19>("Confession"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:19> ARG named<9:19>(Confession)  
+  proper_q<0:19> BV named<9:19>(Confession)  
+  compound<0:19> ARG1 named<9:19>(Confession)  
+  compound<0:19> ARG2 named<0:8>(Curdling)  
+  proper_q<0:8> BV named<0:8>(Curdling)  
+  unknown<0:19> SF prop-or-ques  
+  unknown<0:19> TENSE untensed  
+  unknown<0:19> MOOD indicative  
+  unknown<0:19> PROG -  
+  unknown<0:19> PERF -  
+  compound<0:19> SF prop  
+  compound<0:19> TENSE untensed  
+  compound<0:19> MOOD indicative  
+  compound<0:19> PROG -  
+  compound<0:19> PERF -  
+  named<0:8>(Curdling) PERS 3  
+  named<0:8>(Curdling) NUM sg  
+  named<0:8>(Curdling) IND +  
+  named<9:19>(Confession) PERS 3  
+  named<9:19>(Confession) NUM sg  
+  named<9:19>(Confession) IND +  
+}
+

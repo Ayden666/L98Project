@@ -1,0 +1,248 @@
+;;;
+;;; Redwoods export of `wsj15b';
+;;; (wsun@wsun; 23-jan-2018 (00:13 h)).
+;;;
+
+[21540007] (1 of 1) {1} `Stock prices edged up in quiet trading Friday.'
+
+[21540007:2] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Stock", 0, "null", "NNP" 0.932 "NN" 0.068)
+  (2, 1, 2, <6:12>, 1, "prices", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <13:18>, 1, "edged", 0, "null", "VBD" 0.9736 "VBN" 0.0264)
+  (4, 3, 4, <19:21>, 1, "up", 0, "null", "RP" 0.6911 "RB" 0.27 "IN" 0.0389)
+  (5, 4, 5, <22:24>, 1, "in", 0, "null", "IN" 1.0)
+  (6, 5, 6, <25:30>, 1, "quiet", 0, "null", "JJ" 0.9842 "NN" 0.0158)
+  (7, 6, 7, <31:38>, 1, "trading", 0, "null", "NN" 0.9796 "VBG" 0.0204)
+  (8, 7, 8, <39:45>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <45:46>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (114, 0, 1, <0:5>, 1, "Stock", 0, "null")
+  (122, 0, 1, <0:5>, 1, "stock", 0, "null")
+  (130, 0, 1, <0:5>, 1, "stock", 0, "null")
+  (99, 1, 2, <6:12>, 1, "prices", 0, "null")
+  (119, 1, 2, <6:12>, 1, "prices", 0, "null", "NNS" 1.0)
+  (124, 1, 2, <6:12>, 1, "prices", 0, "null")
+  (106, 2, 3, <13:18>, 1, "edged", 0, "null")
+  (115, 2, 3, <13:18>, 1, "edged", 0, "null", "VBD" 0.9736)
+  (126, 2, 3, <13:18>, 1, "edged", 0, "null")
+  (108, 3, 4, <19:21>, 1, "up", 0, "null")
+  (118, 3, 4, <19:21>, 1, "up", 0, "null", "RB" 0.27)
+  (127, 3, 4, <19:21>, 1, "up", 0, "null")
+  (101, 4, 5, <22:24>, 1, "in", 0, "null")
+  (125, 4, 5, <22:24>, 1, "in", 0, "null")
+  (109, 5, 6, <25:30>, 1, "quiet", 0, "null")
+  (116, 5, 6, <25:30>, 1, "quiet", 0, "null", "JJ" 0.9842)
+  (128, 5, 6, <25:30>, 1, "quiet", 0, "null")
+  (111, 6, 7, <31:38>, 1, "trading", 0, "null")
+  (117, 6, 7, <31:38>, 1, "trading", 0, "null", "NN" 0.9796)
+  (129, 6, 7, <31:38>, 1, "trading", 0, "null")
+  (85, 7, 8, <39:46>, 1, "Friday.", 0, "null")
+  (120, 7, 8, <39:46>, 1, "Friday.", 0, "null", "NNP" 1.0)
+  (121, 7, 8, <39:46>, 1, "friday.", 0, "null")
+  (123, 7, 8, <39:46>, 1, "friday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5330 SB-HD_MC_C 13.0913 0 8
+  (5305 HDN_BNP_C 4.36471 0 2
+   (5304 N-HDN_CPD_C 3.74396 0 2
+    (135 stock_n1@n_-_mc_le 0.680693 0 1
+     ("stock" 122
+      "token [ +CARG \"Stock\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"stock\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93204169999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (5303 ^N_PL_OLR 1.04317 1 2
+     (142 price_n1@n_-_mc-ed_le 0.382246 1 2
+      ("prices" 99
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (5329 ^HD-AJ_INT-UNSL_C 7.88645 2 8
+   (5328 ^HD-AJ_INT-UNSL_C 6.52571 2 7
+    (5321 ^HD-CMP_U_C 3.33069 2 4
+     (5306 ^V_PST_OLR 1.42637 2 3
+      (182 edge_v2@v_pp*_dir_le 0 2 3
+       ("edged" 106
+        "token [ +CARG #1=\"edged\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97358160000000005\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (415 up_adv1@pp_-_i_le -0.507753 3 4
+      ("up" 108
+       "token [ +CARG #1=\"up\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69114200000000003\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (5312 HD-CMP_U_C 2.52385 4 7
+     (605 in@p_np_i-reg_le -0.179868 4 5
+      ("in" 101
+       "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (5311 HDN_BNP_C 2.81595 5 7
+      (5310 AJ-HDN_NORM_C 2.45712 5 7
+       (647 quiet_a1@aj_-_i-er_le 0.432287 5 6
+        ("quiet" 109
+         "token [ +CARG #1=\"quiet\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98417469999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (5309 ^HDN_OPTCMP_C 0.979016 6 7
+        (5308 V_NGER-TR_DLR 2.31744 6 7
+         (5307 V_PRP_OLR 3.0788 6 7
+          (660 trade_v1@v_np*_le 2.82677 6 7
+           ("trading" 111
+            "token [ +CARG #1=\"trading\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"31\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97961670000000001\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+   (5318 NP_ADV_C 1.145 7 8
+    (5317 HDN_BNP-PN_C 0.703688 7 8
+     (5316 W_PERIOD_PLR 0.346801 7 8
+      (5315 N_SG_ILR -0.367837 7 8
+       (675 friday_n1@n_-_c-dow_le 0 7 8
+        ("friday." 121
+         "token [ +CARG \"Friday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"friday.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (N (N "stock") (N (N "prices"))))
+ (VP
+  (VP (VP (V (V "edged")) (PP "up"))
+   (PP (P "in") (NP (N (AP "quiet") (N (N (V (V "trading"))))))))
+  (PP (NP (N (N (N "friday.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _stock_n_1<0:5>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<6:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _edge_v_1<13:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _up_p_dir<19:21>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _in_p<22:24>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x17 [ x PERS: 3 NUM: SG GEND: N ] ]
+          [ udef_q<25:38>
+            LBL: h18
+            ARG0: x17
+            RSTR: h19
+            BODY: h20 ]
+          [ _quiet_a_1<25:30>
+            LBL: h21
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x17 ]
+          [ _trade_v_1<31:38>
+            LBL: h23
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i26
+            ARG2: p25 ]
+          [ nominalization<31:38>
+            LBL: h21
+            ARG0: x17
+            ARG1: h23 ]
+          [ loc_nonsp<39:46>
+            LBL: h2
+            ARG0: e27 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x28 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<39:46>
+            LBL: h29
+            ARG0: x28
+            RSTR: h30
+            BODY: h31 ]
+          [ dofw<39:46>
+            LBL: h32
+            ARG0: x28
+            CARG: "Fri" ] >
+   HCONS: < h30 QEQ h32 h19 QEQ h21 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:5>[BV x9]
+ x9:_stock_n_1<0:5>{x}[]
+ x6:_price_n_of<6:12>{x PERS 3, NUM pl}[]
+ e3:_edge_v_1<13:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_up_p_dir<19:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e16:_in_p<22:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x17]
+ _3:udef_q<25:38>[BV x17]
+ e22:_quiet_a_1<25:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x17]
+ e24:_trade_v_1<31:38>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ x17:nominalization<31:38>{x PERS 3, NUM sg, GEND n}[ARG1 e24]
+ e27:loc_nonsp<39:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x28]
+ _4:proper_q<39:46>[BV x28]
+ x28:dofw<39:46>("Fri"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  udef_q<0:12> BV _price_n_of<6:12>  
+  compound<0:12> ARG1 _price_n_of<6:12>  
+  compound<0:12> ARG2 _stock_n_1<0:5>  
+  udef_q<0:5> BV _stock_n_1<0:5>  
+  _edge_v_1<13:18> ARG1 _price_n_of<6:12>  
+  _up_p_dir<19:21> ARG1 _edge_v_1<13:18>  
+  _in_p<22:24> ARG1 _edge_v_1<13:18>  
+  _in_p<22:24> ARG2 nominalization<31:38>  
+  udef_q<25:38> BV nominalization<31:38>  
+  _quiet_a_1<25:30> ARG1 nominalization<31:38>  
+  nominalization<31:38> ARG1 _trade_v_1<31:38>  
+  loc_nonsp<39:46> ARG1 _edge_v_1<13:18>  
+  loc_nonsp<39:46> ARG2 dofw<39:46>(Fri)  
+  proper_q<39:46> BV dofw<39:46>(Fri)  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _price_n_of<6:12> PERS 3  
+  _price_n_of<6:12> NUM pl  
+  _edge_v_1<13:18> SF prop  
+  _edge_v_1<13:18> TENSE past  
+  _edge_v_1<13:18> MOOD indicative  
+  _edge_v_1<13:18> PROG -  
+  _edge_v_1<13:18> PERF -  
+  _up_p_dir<19:21> SF prop  
+  _up_p_dir<19:21> TENSE untensed  
+  _up_p_dir<19:21> MOOD indicative  
+  _up_p_dir<19:21> PROG -  
+  _up_p_dir<19:21> PERF -  
+  _in_p<22:24> SF prop  
+  _in_p<22:24> TENSE untensed  
+  _in_p<22:24> MOOD indicative  
+  _in_p<22:24> PROG -  
+  _in_p<22:24> PERF -  
+  _quiet_a_1<25:30> SF prop  
+  _quiet_a_1<25:30> TENSE untensed  
+  _quiet_a_1<25:30> MOOD indicative  
+  _quiet_a_1<25:30> PROG -  
+  _quiet_a_1<25:30> PERF -  
+  _trade_v_1<31:38> SF prop  
+  _trade_v_1<31:38> TENSE untensed  
+  _trade_v_1<31:38> MOOD indicative  
+  _trade_v_1<31:38> PROG +  
+  _trade_v_1<31:38> PERF -  
+  nominalization<31:38> PERS 3  
+  nominalization<31:38> NUM sg  
+  nominalization<31:38> GEND n  
+  loc_nonsp<39:46> SF prop  
+  loc_nonsp<39:46> TENSE untensed  
+  loc_nonsp<39:46> MOOD indicative  
+  loc_nonsp<39:46> PROG -  
+  loc_nonsp<39:46> PERF -  
+  dofw<39:46>(Fri) PERS 3  
+  dofw<39:46>(Fri) NUM sg  
+  dofw<39:46>(Fri) IND +  
+}
+

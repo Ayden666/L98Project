@@ -1,0 +1,201 @@
+;;;
+;;; Redwoods export of `wsj10a';
+;;; (wsun@wsun; 22-jan-2018 (19:15 h)).
+;;;
+
+[21015017] (1 of 1) {1} `Toyota Motor fell 40 to 2,680.'
+
+[21015017:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Toyota", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:12>, 1, "Motor", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:17>, 1, "fell", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <18:20>, 1, "40", 0, "null", "CD" 1.0)
+  (5, 4, 5, <21:23>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <24:29>, 1, "2,680", 0, "null", "CD" 1.0)
+  (7, 6, 7, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:6>, 1, "Toyota", 0, "null")
+  (75, 0, 1, <0:6>, 1, "toyota", 0, "null")
+  (81, 0, 1, <0:6>, 1, "toyota", 0, "null")
+  (61, 1, 2, <7:12>, 1, "Motor", 0, "null")
+  (72, 1, 2, <7:12>, 1, "Motor", 0, "null", "NNP" 1.0)
+  (74, 1, 2, <7:12>, 1, "motor", 0, "null")
+  (77, 1, 2, <7:12>, 1, "motor", 0, "null")
+  (70, 2, 3, <13:17>, 1, "fell", 0, "null")
+  (73, 2, 3, <13:17>, 1, "fell", 0, "null", "VBD" 1.0)
+  (80, 2, 3, <13:17>, 1, "fell", 0, "null")
+  (58, 3, 4, <18:20>, 1, "40", 0, "null")
+  (76, 3, 4, <18:20>, 1, "40", 0, "null")
+  (68, 4, 5, <21:23>, 1, "to", 0, "null")
+  (79, 4, 5, <21:23>, 1, "to", 0, "null")
+  (62, 5, 6, <24:30>, 1, "2,680.", 0, "null")
+  (78, 5, 6, <24:30>, 1, "2,680.", 0, "null")
+>
+
+(ROOT_STRICT
+ (908 SB-HD_MC_C 11.137 0 6
+  (896 HDN_BNP-PN_C 1.96362 0 2
+   (895 NP-HDN_NME-CPD_C 1.42391 0 2
+    (893 HDN_BNP-PN_C 0.365523 0 1
+     (892 N_SG_ILR -0.386912 0 1
+      (83 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("Toyota" 71
+        "token [ +CARG #1=\"Toyota\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+    (894 ^N_SG_ILR -0.259196 1 2
+     (84 generic_proper_ne@n_-_pn-gen_le -0.115939 1 2
+      ("Motor" 61
+       "token [ +CARG #1=\"Motor\" +CLASS proper_ne +FORM #1 +FROM \"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (907 ^HD-AJ_INT-UNSL_C 8.68589 2 6
+   (902 ^HD-AJ_INT-UNSL_C 3.25119 2 4
+    (898 ^HD_OPTCMP_C 3.79136 2 3
+     (897 V_PST_OLR 2.3008 2 3
+      (96 fall_v1@v_pp_unacc_le 0.574647 2 3
+       ("fell" 70
+        "token [ +CARG #1=\"fell\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (901 NP_ADV-MNP_C -1.72326 3 4
+     (900 HDN_BNP-NUM_C -0.983724 3 4
+      (899 HDN_NP-NUM_C -0.57267 3 4
+       (105 generic_card_ne@aj_-_i-crd-gen_le -0.289094 3 4
+        ("40" 58
+         "token [ +CARG #1=\"40\" +CLASS card_ne +FORM #1 +FROM \"18\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+   (906 HD-CMP_U_C 3.87632 4 6
+    (130 to@p_np_i-nnm_le -0.649111 4 5
+     ("to" 68
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (905 HDN_BNP-NUM_C 4.01481 5 6
+     (904 HDN_NP-NUM_C 3.49617 5 6
+      (903 W_PERIOD_PLR 2.19869 5 6
+       (185 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("2,680." 62
+         "token [ +CARG \"2,680\" +CLASS card_ne +FORM \"2,680.\" +FROM \"24\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (NP (N (N "Toyota"))) (N (N "Motor"))))
+ (VP (VP (VP (V (V "fell"))) (PP (NP (N (ADJ "40")))))
+  (PP (P "to") (NP (N (ADJ (ADJ "2,680.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:6>
+            LBL: h14
+            ARG0: x9
+            CARG: "Toyota" ]
+          [ named<7:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "Motor" ]
+          [ _fall_v_1<13:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<18:20>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<18:20>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<18:20>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "40" ]
+          [ _to_p<21:23>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<24:30>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<24:30>
+            LBL: h27
+            ARG0: x23
+            ARG1: i28
+            CARG: "2,680" ] >
+   HCONS: < h25 QEQ h27 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:6>[BV x9]
+ x9:named<0:6>("Toyota"){x PERS 3, NUM sg, IND +}[]
+ x6:named<7:12>("Motor"){x PERS 3, NUM sg, IND +}[]
+ e3:_fall_v_1<13:17>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:loc_nonsp<18:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<18:20>[BV x16]
+ x16:card<18:20>("40"){x PERS 3, NUM sg}[]
+ e22:_to_p<21:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:number_q<24:30>[BV x23]
+ x23:card<24:30>("2,680"){x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:12> BV named<7:12>(Motor)  
+  compound<0:12> ARG1 named<7:12>(Motor)  
+  compound<0:12> ARG2 named<0:6>(Toyota)  
+  proper_q<0:6> BV named<0:6>(Toyota)  
+  _fall_v_1<13:17> ARG1 named<7:12>(Motor)  
+  loc_nonsp<18:20> ARG1 _fall_v_1<13:17>  
+  loc_nonsp<18:20> ARG2 card<18:20>(40)  
+  number_q<18:20> BV card<18:20>(40)  
+  _to_p<21:23> ARG1 _fall_v_1<13:17>  
+  _to_p<21:23> ARG2 card<24:30>(2,680)  
+  number_q<24:30> BV card<24:30>(2,680)  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:6>(Toyota) PERS 3  
+  named<0:6>(Toyota) NUM sg  
+  named<0:6>(Toyota) IND +  
+  named<7:12>(Motor) PERS 3  
+  named<7:12>(Motor) NUM sg  
+  named<7:12>(Motor) IND +  
+  _fall_v_1<13:17> SF prop  
+  _fall_v_1<13:17> TENSE past  
+  _fall_v_1<13:17> MOOD indicative  
+  _fall_v_1<13:17> PROG -  
+  _fall_v_1<13:17> PERF -  
+  loc_nonsp<18:20> SF prop  
+  loc_nonsp<18:20> TENSE untensed  
+  loc_nonsp<18:20> MOOD indicative  
+  loc_nonsp<18:20> PROG -  
+  loc_nonsp<18:20> PERF -  
+  card<18:20>(40) PERS 3  
+  card<18:20>(40) NUM sg  
+  _to_p<21:23> SF prop  
+  _to_p<21:23> TENSE untensed  
+  _to_p<21:23> MOOD indicative  
+  _to_p<21:23> PROG -  
+  _to_p<21:23> PERF -  
+  card<24:30>(2,680) PERS 3  
+  card<24:30>(2,680) NUM sg  
+}
+

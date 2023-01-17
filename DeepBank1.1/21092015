@@ -1,0 +1,75 @@
+;;;
+;;; Redwoods export of `wsj10d';
+;;; (wsun@wsun; 22-jan-2018 (19:58 h)).
+;;;
+
+[21092015] (1 of 1) {1} `Obviously not.'
+
+[21092015:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Obviously", 0, "null", "RB" 1.0)
+  (2, 1, 2, <10:13>, 1, "not", 0, "null", "RB" 1.0)
+  (3, 2, 3, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (33, 0, 1, <0:9>, 1, "Obviously", 0, "null", "RB" 1.0)
+  (35, 0, 1, <0:9>, 1, "obviously", 0, "null")
+  (37, 0, 1, <0:9>, 1, "obviously", 0, "null")
+  (32, 1, 2, <10:14>, 1, "not.", 0, "null")
+  (34, 1, 2, <10:14>, 1, "not.", 0, "null", "RB" 1.0)
+  (36, 1, 2, <10:14>, 1, "not.", 0, "null")
+>
+
+(ROOT_STRICT
+ (234 AJ-HD_SCP-XP_C 0 0 2
+  (40 obviously_adv2@av_-_s-cp-pr_le 0 0 1
+   ("obviously" 35
+    "token [ +CARG \"Obviously\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"obviously\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (233 ^W_PERIOD_PLR 0 1 2
+   (78 not_cp@x_-_not-cp_le 0 1 2
+    ("not." 32
+     "token [ +CARG \"not\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"not.\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(S (ADV "obviously") (S (S "not.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _obvious_a_to<0:9>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h4 ]
+          [ ellipsis<10:14>
+            LBL: h6
+            ARG0: e3
+            ARG1: u7 ]
+          [ neg<10:14>
+            LBL: h8
+            ARG0: i10
+            ARG1: h9 ] >
+   HCONS: < h9 QEQ h6 h4 QEQ h8 h1 QEQ h2 > ]
+
+{e5:
+ e5:_obvious_a_to<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 i10]
+ e3:ellipsis<10:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i10:neg<10:14>{i}[ARG1 e3]
+}
+
+{
+  _obvious_a_to<0:9> ARG1 neg<10:14>  
+  neg<10:14> ARG1 ellipsis<10:14>  
+  _obvious_a_to<0:9> SF prop  
+  _obvious_a_to<0:9> TENSE untensed  
+  _obvious_a_to<0:9> MOOD indicative  
+  _obvious_a_to<0:9> PROG -  
+  _obvious_a_to<0:9> PERF -  
+  ellipsis<10:14> SF prop  
+  ellipsis<10:14> TENSE untensed  
+  ellipsis<10:14> MOOD indicative  
+  ellipsis<10:14> PROG -  
+  ellipsis<10:14> PERF -  
+}
+

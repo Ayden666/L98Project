@@ -1,0 +1,210 @@
+;;;
+;;; Redwoods export of `wsj06a';
+;;; (wsun@wsun; 22-jan-2018 (15:50 h)).
+;;;
+
+[20617044] (1 of 1) {1} `His attorney couldn't be reached for comment.'
+
+[20617044:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "His", 0, "null", "PRP$" 1.0)
+  (2, 1, 2, <4:12>, 1, "attorney", 0, "null", "NN" 1.0)
+  (3, 2, 3, <13:18>, 1, "could", 0, "null", "MD" 1.0)
+  (4, 3, 4, <18:21>, 1, "n’t", 0, "null", "NN" 0.4659 "RB" 0.2911 "VB" 0.1551 "JJS" 0.0879)
+  (5, 4, 5, <22:24>, 1, "be", 0, "null", "VB" 1.0)
+  (6, 5, 6, <25:32>, 1, "reached", 0, "null", "VBN" 0.9897 "VBD" 0.0103)
+  (7, 6, 7, <33:36>, 1, "for", 0, "null", "IN" 1.0)
+  (8, 7, 8, <37:44>, 1, "comment", 0, "null", "NN" 0.9214 "VB" 0.0786)
+  (9, 8, 9, <44:45>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (101, 0, 1, <0:3>, 1, "his", 0, "null")
+  (108, 0, 1, <0:3>, 1, "his", 0, "null")
+  (86, 1, 2, <4:12>, 1, "attorney", 0, "null")
+  (99, 1, 2, <4:12>, 1, "attorney", 0, "null", "NN" 1.0)
+  (102, 1, 2, <4:12>, 1, "attorney", 0, "null")
+  (92, 2, 3, <13:21>, 1, "couldn’t", 0, "null")
+  (105, 2, 3, <13:21>, 1, "couldn’t", 0, "null")
+  (88, 3, 4, <22:24>, 1, "be", 0, "null")
+  (100, 3, 4, <22:24>, 1, "be", 0, "null", "VB" 1.0)
+  (103, 3, 4, <22:24>, 1, "be", 0, "null")
+  (93, 4, 5, <25:32>, 1, "reached", 0, "null")
+  (97, 4, 5, <25:32>, 1, "reached", 0, "null", "VBN" 0.9897)
+  (106, 4, 5, <25:32>, 1, "reached", 0, "null")
+  (90, 5, 6, <33:36>, 1, "for", 0, "null")
+  (104, 5, 6, <33:36>, 1, "for", 0, "null")
+  (95, 6, 7, <37:45>, 1, "comment.", 0, "null")
+  (98, 6, 7, <37:45>, 1, "comment.", 0, "null", "NN" 0.9214)
+  (107, 6, 7, <37:45>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1221 SB-HD_MC_C 9.27333 0 7
+  (1209 SP-HD_N_C 2.0778 0 2
+   (119 his_poss@d_-_poss-his_le 1.43283 0 1
+    ("his" 101
+     "token [ +CARG \"His\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"his\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP$\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1208 ^N_SG_ILR 0.523758 1 2
+    (126 attorney_n1@n_-_c_le 0.468465 1 2
+     ("attorney" 86
+      "token [ +CARG #1=\"attorney\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1220 ^HD-CMP_U_C 5.24102 2 7
+   (129 could_aux_neg_3b_u@v_vp_mdl-n_le -0.468996 2 3
+    ("couldn’t" 92
+     "token [ +CARG #1=\"couldn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1217 HD-CMP_U_C 4.72641 3 7
+    (130 be_c_be@v_prd_be_le 1.93526 3 4
+     ("be" 88
+      "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1216 HD-AJ_INT-UNSL_C 1.81161 4 7
+     (1211 ^HD_OPTCMP_C 0.785766 4 5
+      (1210 V_PAS_ODLR -0.195416 4 5
+       (160 reach_v1@v_np*_le 0.104992 4 5
+        ("reached" 93
+         "token [ +CARG #1=\"reached\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98972159999999998\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (1215 HD-CMP_U_C -0.653379 5 7
+      (279 for@p_np_i_le -0.354773 5 6
+       ("for" 90
+        "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"33\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1214 HDN_BNP_C -0.655232 6 7
+       (1213 W_PERIOD_PLR 0.126809 6 7
+        (1212 N_MS-CNT_ILR -0.0740774 6 7
+         (293 comment_n1@n_-_mc-ns_le -0.0931044 6 7
+          ("comment." 95
+           "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"37\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92140420000000001\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (DET "his") (N (N "attorney")))
+ (VP (V "couldn’t")
+  (VP (V "be")
+   (VP (VP (V (V "reached")))
+    (PP (P "for") (NP (N (N (N "comment.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ def_explicit_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ poss<0:3>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ pron<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ _attorney_n_1<4:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ neg<13:21>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h15 ]
+          [ _could_v_modal<13:21>
+            LBL: h17
+            ARG0: e3
+            ARG1: h18 ]
+          [ _reach_v_1<25:32>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i21
+            ARG2: x6 ]
+          [ parg_d<25:32>
+            LBL: h19
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x6 ]
+          [ _for_p<33:36>
+            LBL: h19
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e20
+            ARG2: x24 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<37:45>
+            LBL: h25
+            ARG0: x24
+            RSTR: h26
+            BODY: h27 ]
+          [ _comment_n_1<37:45>
+            LBL: h28
+            ARG0: x24 ] >
+   HCONS: < h26 QEQ h28 h15 QEQ h17 h18 QEQ h19 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e16:
+ _1:def_explicit_q<0:3>[BV x6]
+ e10:poss<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:pronoun_q<0:3>[BV x9]
+ x9:pron<0:3>{x PERS 3, NUM sg, GEND m, PT std}[]
+ x6:_attorney_n_1<4:12>{x PERS 3, NUM sg, IND +}[]
+ e16:neg<13:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_could_v_modal<13:21>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e20]
+ e20:_reach_v_1<25:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e22:parg_d<25:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x6]
+ e23:_for_p<33:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e20, ARG2 x24]
+ _3:udef_q<37:45>[BV x24]
+ x24:_comment_n_1<37:45>{x PERS 3, NUM sg}[]
+}
+
+{
+  def_explicit_q<0:3> BV _attorney_n_1<4:12>  
+  poss<0:3> ARG1 _attorney_n_1<4:12>  
+  poss<0:3> ARG2 pron<0:3>  
+  pronoun_q<0:3> BV pron<0:3>  
+  neg<13:21> ARG1 _could_v_modal<13:21>  
+  _could_v_modal<13:21> ARG1 _reach_v_1<25:32>  
+  _reach_v_1<25:32> ARG2 _attorney_n_1<4:12>  
+  parg_d<25:32> ARG1 _reach_v_1<25:32>  
+  parg_d<25:32> ARG2 _attorney_n_1<4:12>  
+  _for_p<33:36> ARG1 _reach_v_1<25:32>  
+  _for_p<33:36> ARG2 _comment_n_1<37:45>  
+  udef_q<37:45> BV _comment_n_1<37:45>  
+  poss<0:3> SF prop  
+  poss<0:3> TENSE untensed  
+  poss<0:3> MOOD indicative  
+  poss<0:3> PROG -  
+  poss<0:3> PERF -  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND m  
+  pron<0:3> PT std  
+  _attorney_n_1<4:12> PERS 3  
+  _attorney_n_1<4:12> NUM sg  
+  _attorney_n_1<4:12> IND +  
+  neg<13:21> SF prop  
+  neg<13:21> TENSE untensed  
+  neg<13:21> MOOD indicative  
+  neg<13:21> PROG -  
+  neg<13:21> PERF -  
+  _could_v_modal<13:21> SF prop  
+  _could_v_modal<13:21> TENSE pres  
+  _could_v_modal<13:21> MOOD indicative  
+  _could_v_modal<13:21> PROG -  
+  _could_v_modal<13:21> PERF -  
+  _reach_v_1<25:32> SF prop  
+  _reach_v_1<25:32> TENSE untensed  
+  _reach_v_1<25:32> MOOD indicative  
+  _reach_v_1<25:32> PROG -  
+  _reach_v_1<25:32> PERF -  
+  parg_d<25:32> SF prop  
+  parg_d<25:32> TENSE untensed  
+  parg_d<25:32> MOOD indicative  
+  parg_d<25:32> PROG -  
+  parg_d<25:32> PERF -  
+  _for_p<33:36> SF prop  
+  _for_p<33:36> TENSE untensed  
+  _for_p<33:36> MOOD indicative  
+  _for_p<33:36> PROG -  
+  _for_p<33:36> PERF -  
+  _comment_n_1<37:45> PERS 3  
+  _comment_n_1<37:45> NUM sg  
+}
+

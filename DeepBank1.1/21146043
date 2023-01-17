@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj11b';
+;;; (wsun@wsun; 22-jan-2018 (20:28 h)).
+;;;
+
+[21146043] (1 of 1) {1} `I am waiting.'
+
+[21146043:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "I", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <2:4>, 1, "am", 0, "null", "VBP" 1.0)
+  (3, 2, 3, <5:12>, 1, "waiting", 0, "null", "VBG" 1.0)
+  (4, 3, 4, <12:13>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (38, 0, 1, <0:1>, 1, "I", 0, "null")
+  (48, 0, 1, <0:1>, 1, "i", 0, "null")
+  (49, 0, 1, <0:1>, 1, "i", 0, "null")
+  (43, 1, 2, <2:4>, 1, "am", 0, "null")
+  (46, 1, 2, <2:4>, 1, "am", 0, "null", "VBP" 1.0)
+  (50, 1, 2, <2:4>, 1, "am", 0, "null")
+  (45, 2, 3, <5:13>, 1, "waiting.", 0, "null")
+  (47, 2, 3, <5:13>, 1, "waiting.", 0, "null", "VBG" 1.0)
+  (51, 2, 3, <5:13>, 1, "waiting.", 0, "null")
+>
+
+(ROOT_STRICT
+ (370 SB-HD_MC_C 2.05445 0 3
+  (365 HDN_BNP-QNT_C 1.98216 0 1
+   (58 i@n_-_pr-i_le 1.12391 0 1
+    ("i" 48
+     "token [ +CARG \"I\" +CLASS alphabetic [ +CASE capitalized+non_mixed +INITIAL + ] +FORM \"i\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"1\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (369 ^HD-CMP_U_C -1.19706 1 3
+   (88 be_c_am@v_prd_am_le 0 1 2
+    ("am" 43
+     "token [ +CARG #1=\"am\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"2\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (368 HD_OPTCMP_C -1.19706 2 3
+    (367 W_PERIOD_PLR -1.34849 2 3
+     (366 V_PRP_OLR -0.758124 2 3
+      (94 wait_v1@v_np*_le 0 2 3
+       ("waiting." 45
+        "token [ +CARG \"waiting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"waiting.\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (NP "i")) (VP (V "am") (VP (V (V (V "waiting."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ pron<0:1>
+            LBL: h4
+            ARG0: x5 [ x PERS: 1 NUM: SG PT: STD ] ]
+          [ pronoun_q<0:1>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _wait_v_1<5:13>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:1>{x PERS 1, NUM sg, PT std}[]
+ _1:pronoun_q<0:1>[BV x5]
+ e3:_wait_v_1<5:13>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1 x5]
+}
+
+{
+  pronoun_q<0:1> BV pron<0:1>  
+  _wait_v_1<5:13> ARG1 pron<0:1>  
+  pron<0:1> PERS 1  
+  pron<0:1> NUM sg  
+  pron<0:1> PT std  
+  _wait_v_1<5:13> SF prop  
+  _wait_v_1<5:13> TENSE pres  
+  _wait_v_1<5:13> MOOD indicative  
+  _wait_v_1<5:13> PROG +  
+  _wait_v_1<5:13> PERF -  
+}
+

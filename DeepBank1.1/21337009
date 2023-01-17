@@ -1,0 +1,116 @@
+;;;
+;;; Redwoods export of `wsj13c';
+;;; (wsun@wsun; 22-jan-2018 (22:18 h)).
+;;;
+
+[21337009] (1 of 1) {1} `Turnover remained relatively small.'
+
+[21337009:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Turnover", 0, "null", "NN" 1.0)
+  (2, 1, 2, <9:17>, 1, "remained", 0, "null", "VBD" 0.9753 "VBN" 0.0247)
+  (3, 2, 3, <18:28>, 1, "relatively", 0, "null", "RB" 1.0)
+  (4, 3, 4, <29:34>, 1, "small", 0, "null", "JJ" 1.0)
+  (5, 4, 5, <34:35>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:8>, 1, "Turnover", 0, "null")
+  (61, 0, 1, <0:8>, 1, "turnover", 0, "null")
+  (65, 0, 1, <0:8>, 1, "turnover", 0, "null")
+  (55, 1, 2, <9:17>, 1, "remained", 0, "null")
+  (58, 1, 2, <9:17>, 1, "remained", 0, "null", "VBD" 0.9753)
+  (64, 1, 2, <9:17>, 1, "remained", 0, "null")
+  (52, 2, 3, <18:28>, 1, "relatively", 0, "null")
+  (59, 2, 3, <18:28>, 1, "relatively", 0, "null", "RB" 1.0)
+  (62, 2, 3, <18:28>, 1, "relatively", 0, "null")
+  (54, 3, 4, <29:35>, 1, "small.", 0, "null")
+  (60, 3, 4, <29:35>, 1, "small.", 0, "null", "JJ" 1.0)
+  (63, 3, 4, <29:35>, 1, "small.", 0, "null")
+>
+
+(ROOT_STRICT
+ (607 SB-HD_MC_C 4.41144 0 4
+  (602 HDN_BNP_C -0.084254 0 1
+   (601 N_MS-CNT_ILR 0.115822 0 1
+    (67 turnover_n1@n_-_mc_le 0 0 1
+     ("turnover" 61
+      "token [ +CARG \"Turnover\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"turnover\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (606 ^HD-CMP_U_C 2.97978 1 4
+   (603 ^V_PST_OLR 2.03272 1 2
+    (111 remain_v4@v_prd_seq_le 1.33012 1 2
+     ("remained" 55
+      "token [ +CARG #1=\"remained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.97527969999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (605 SP-HD_HC_C 1.16419 2 4
+    (248 relatively_deg@av_-_dg_le 0 2 3
+     ("relatively" 52
+      "token [ +CARG #1=\"relatively\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (604 ^W_PERIOD_PLR 1.16419 3 4
+     (253 small_a1@aj_-_i-er_le 0 3 4
+      ("small." 54
+       "token [ +CARG \"small\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"small.\" +FROM #1=\"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "turnover")))
+ (VP (V (V "remained")) (AP (ADV "relatively") (AP (AP "small.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _turnover_n_1<0:8>
+            LBL: h8
+            ARG0: x6 ]
+          [ _remain_v_1<9:17>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h9 ]
+          [ _relatively_x_deg<18:28>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _small_a_1<29:35>
+            LBL: h10
+            ARG0: e12
+            ARG1: x6 ] >
+   HCONS: < h9 QEQ h10 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:8>[BV x6]
+ x6:_turnover_n_1<0:8>{x PERS 3, NUM sg}[]
+ e3:_remain_v_1-fn.State_continue<9:17>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2-fn.Theme e12]
+ e11:_relatively_x_deg<18:28>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e12]
+ e12:_small_a_1<29:35>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:8> BV _turnover_n_1<0:8>  
+  _remain_v_1<9:17> ARG1 _turnover_n_1<0:8>  
+  _remain_v_1<9:17> ARG2 _small_a_1<29:35>  
+  _relatively_x_deg<18:28> ARG1 _small_a_1<29:35>  
+  _small_a_1<29:35> ARG1 _turnover_n_1<0:8>  
+  _turnover_n_1<0:8> PERS 3  
+  _turnover_n_1<0:8> NUM sg  
+  _remain_v_1<9:17> SF prop  
+  _remain_v_1<9:17> TENSE past  
+  _remain_v_1<9:17> MOOD indicative  
+  _remain_v_1<9:17> PROG -  
+  _remain_v_1<9:17> PERF -  
+  _relatively_x_deg<18:28> SF prop  
+  _relatively_x_deg<18:28> TENSE untensed  
+  _relatively_x_deg<18:28> MOOD indicative  
+  _relatively_x_deg<18:28> PROG -  
+  _relatively_x_deg<18:28> PERF -  
+  _small_a_1<29:35> SF prop  
+  _small_a_1<29:35> TENSE untensed  
+  _small_a_1<29:35> MOOD indicative  
+  _small_a_1<29:35> PROG -  
+  _small_a_1<29:35> PERF -  
+}
+

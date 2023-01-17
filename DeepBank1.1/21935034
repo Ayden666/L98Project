@@ -1,0 +1,153 @@
+;;;
+;;; Redwoods export of `wsj19b';
+;;; (wsun@wsun; 23-jan-2018 (04:13 h)).
+;;;
+
+[21935034] (1 of 1) {1} `Miami Lakes, Fla.'
+
+[21935034:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Miami", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:11>, 1, "Lakes", 0, "null", "NNP" 0.8745 "NNPS" 0.1255)
+  (3, 2, 3, <11:12>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <13:16>, 1, "Fla", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:5>, 1, "Miami", 0, "null")
+  (66, 0, 1, <0:5>, 1, "miami", 0, "null")
+  (71, 0, 1, <0:5>, 1, "miami", 0, "null")
+  (51, 1, 2, <6:12>, 1, "Lakes,", 0, "null")
+  (63, 1, 2, <6:12>, 1, "Lakes,", 0, "null", "NNP" 0.8745)
+  (65, 1, 2, <6:12>, 1, "Lakes,", 0, "null", "NNPS" 0.1255)
+  (68, 1, 2, <6:12>, 1, "lakes,", 0, "null")
+  (69, 1, 2, <6:12>, 1, "lakes,", 0, "null")
+  (53, 2, 3, <13:17>, 1, "Fla.", 0, "null")
+  (64, 2, 3, <13:17>, 1, "Fla.", 0, "null", "NNP" 1.0)
+  (67, 2, 3, <13:17>, 1, "fla.", 0, "null")
+  (70, 2, 3, <13:17>, 1, "fla.", 0, "null")
+>
+
+(ROOT_FRAG
+ (507 NP_FRG_C 2.89155 0 3
+  (506 HDN_BNP-PN_C 4.03807 0 3
+   (505 NP-HDN_CTY-CPD_C 5.31453 0 3
+    (502 HDN_BNP-PN_C 3.93946 0 2
+     (501 NP-HDN_NME-CPD_C 3.47728 0 2
+      (498 HDN_BNP-PN_C 0.586141 0 1
+       (497 N_SG_ILR -0.166294 0 1
+        (75 miami_n1@n_-_pn_le 0 0 1
+         ("miami" 66
+          "token [ +CARG \"Miami\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"miami\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (500 ^W_COMMA_PLR 1.57253 1 2
+       (499 N_SG_ILR 0.501186 1 2
+        (80 generic_proper_ne@n_-_pn-gen_le 0 1 2
+         ("Lakes," 51
+          "token [ +CARG \"Lakes\" +CLASS proper_ne +FORM \"Lakes,\" +FROM \"6\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87448959999999998\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+    (504 ^W_PERIOD_PLR 1.24389 2 3
+     (503 N_SG_ILR 0.628043 2 3
+      (141 florida_n4@n_-_pn-abb_le 0 2 3
+       ("fla." 67
+        "token [ +CARG \"Fla\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"fla.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(XP
+ (NP
+  (N (NP (N (NP (N (N "miami"))) (N (N (N "Lakes,")))))
+   (N (N (N "fla."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:12>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:12>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:5>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:5>
+            LBL: h20
+            ARG0: x15
+            CARG: "Miami" ]
+          [ named<6:12>
+            LBL: h14
+            ARG0: x9
+            CARG: "Lakes" ]
+          [ named<13:17>
+            LBL: h8
+            ARG0: x4
+            CARG: "Florida" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:17>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:12>[BV x9]
+ e16:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:5>[BV x15]
+ x15:named<0:5>("Miami"){x PERS 3, NUM sg, IND +}[]
+ x9:named<6:12>("Lakes"){x PERS 3, NUM sg, IND +}[]
+ x4:named<13:17>("Florida"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:17> ARG named<13:17>(Florida)  
+  proper_q<0:17> BV named<13:17>(Florida)  
+  compound<0:17> ARG1 named<13:17>(Florida)  
+  compound<0:17> ARG2 named<6:12>(Lakes)  
+  proper_q<0:12> BV named<6:12>(Lakes)  
+  compound<0:12> ARG1 named<6:12>(Lakes)  
+  compound<0:12> ARG2 named<0:5>(Miami)  
+  proper_q<0:5> BV named<0:5>(Miami)  
+  unknown<0:17> SF prop  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  named<0:5>(Miami) PERS 3  
+  named<0:5>(Miami) NUM sg  
+  named<0:5>(Miami) IND +  
+  named<6:12>(Lakes) PERS 3  
+  named<6:12>(Lakes) NUM sg  
+  named<6:12>(Lakes) IND +  
+  named<13:17>(Florida) PERS 3  
+  named<13:17>(Florida) NUM sg  
+  named<13:17>(Florida) IND +  
+}
+

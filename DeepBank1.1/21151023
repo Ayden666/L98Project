@@ -1,0 +1,84 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:32 h)).
+;;;
+
+[21151023] (1 of 1) {1} `The dollar retreated.'
+
+[21151023:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "dollar", 0, "null", "NN" 1.0)
+  (3, 2, 3, <11:20>, 1, "retreated", 0, "null", "VBD" 0.9384 "VBN" 0.0616)
+  (4, 3, 4, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (48, 0, 1, <0:3>, 1, "the", 0, "null")
+  (51, 0, 1, <0:3>, 1, "the", 0, "null")
+  (43, 1, 2, <4:10>, 1, "dollar", 0, "null")
+  (47, 1, 2, <4:10>, 1, "dollar", 0, "null", "NN" 1.0)
+  (49, 1, 2, <4:10>, 1, "dollar", 0, "null")
+  (44, 2, 3, <11:21>, 1, "retreated.", 0, "null")
+  (46, 2, 3, <11:21>, 1, "retreated.", 0, "null", "VBD" 0.9384)
+  (50, 2, 3, <11:21>, 1, "retreated.", 0, "null")
+>
+
+(ROOT_STRICT
+ (327 SB-HD_MC_C 2.72153 0 3
+  (323 SP-HD_N_C 2.35585 0 2
+   (64 the_1@d_-_the_le 0.244361 0 1
+    ("the" 48
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (322 ^N_SG_ILR 0.269794 1 2
+    (91 dollar_n1@n_-_c-meas-nb_le 0.566797 1 2
+     ("dollar" 43
+      "token [ +CARG #1=\"dollar\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (326 ^HD_OPTCMP_C 0.438642 2 3
+   (325 W_PERIOD_PLR 0.134653 2 3
+    (324 V_PST_OLR -0.555709 2 3
+     (104 retreat_v1@v_np*_le 0 2 3
+      ("retreated." 44
+       "token [ +CARG \"retreated\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"retreated.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93840939999999995\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET "the") (N (N "dollar"))) (VP (V (V (V "retreated.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _dollar_n_1<4:10>
+            LBL: h8
+            ARG0: x6 ]
+          [ _retreat_v_1<11:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p9 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_dollar_n_1<4:10>{x PERS 3, NUM sg, IND +}[]
+ e3:_retreat_v_1<11:21>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _dollar_n_1<4:10>  
+  _retreat_v_1<11:21> ARG1 _dollar_n_1<4:10>  
+  _dollar_n_1<4:10> PERS 3  
+  _dollar_n_1<4:10> NUM sg  
+  _dollar_n_1<4:10> IND +  
+  _retreat_v_1<11:21> SF prop  
+  _retreat_v_1<11:21> TENSE past  
+  _retreat_v_1<11:21> MOOD indicative  
+  _retreat_v_1<11:21> PROG -  
+  _retreat_v_1<11:21> PERF -  
+}
+

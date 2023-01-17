@@ -1,0 +1,139 @@
+;;;
+;;; Redwoods export of `wsj05a';
+;;; (wsun@wsun; 22-jan-2018 (14:58 h)).
+;;;
+
+[20527006] (1 of 1) {1} `It wouldn't identify the bankers.'
+
+[20527006:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "It", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:8>, 1, "would", 0, "null", "MD" 1.0)
+  (3, 2, 3, <8:11>, 1, "n’t", 0, "null", "RB" 0.4028 "VB" 0.3624 "NN" 0.2121 "JJS" 0.0227)
+  (4, 3, 4, <12:20>, 1, "identify", 0, "null", "VB" 1.0)
+  (5, 4, 5, <21:24>, 1, "the", 0, "null", "DT" 1.0)
+  (6, 5, 6, <25:32>, 1, "bankers", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (73, 0, 1, <0:2>, 1, "it", 0, "null")
+  (78, 0, 1, <0:2>, 1, "it", 0, "null")
+  (68, 1, 2, <3:11>, 1, "wouldn’t", 0, "null")
+  (76, 1, 2, <3:11>, 1, "wouldn’t", 0, "null")
+  (64, 2, 3, <12:20>, 1, "identify", 0, "null")
+  (71, 2, 3, <12:20>, 1, "identify", 0, "null", "VB" 1.0)
+  (74, 2, 3, <12:20>, 1, "identify", 0, "null")
+  (66, 3, 4, <21:24>, 1, "the", 0, "null")
+  (75, 3, 4, <21:24>, 1, "the", 0, "null")
+  (70, 4, 5, <25:33>, 1, "bankers.", 0, "null")
+  (72, 4, 5, <25:33>, 1, "bankers.", 0, "null", "NNS" 1.0)
+  (77, 4, 5, <25:33>, 1, "bankers.", 0, "null")
+>
+
+(ROOT_STRICT
+ (319 SB-HD_MC_C 5.41536 0 5
+  (312 HDN_BNP-QNT_C 0.430464 0 1
+   (80 it2@n_-_pr-it_le -0.123119 0 1
+    ("it" 73
+     "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"it\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (318 ^HD-CMP_U_C 3.71555 1 5
+   (94 would_aux_neg_3_u@v_vp_mdl-n_le -0.150355 1 2
+    ("wouldn’t" 68
+     "token [ +CARG #1=\"wouldn’t\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #3 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (317 HD-CMP_U_C 2.8823 2 5
+    (313 ^V_N3S-BSE_ILR -0.366315 2 3
+     (98 identify_v1@v_np_le 0 2 3
+      ("identify" 64
+       "token [ +CARG #1=\"identify\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (316 SP-HD_N_C 2.32711 3 5
+     (113 the_1@d_-_the_le 1.07131 3 4
+      ("the" 66
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (315 ^W_PERIOD_PLR 0.261218 4 5
+      (314 N_PL_OLR 0.342144 4 5
+       (138 banker_n1@n_-_c_le 0 4 5
+        ("bankers." 70
+         "token [ +CARG \"bankers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"bankers.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "it"))
+ (VP (V "wouldn’t")
+  (VP (V (V "identify")) (NP (DET "the") (N (N (N "bankers.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ neg<3:11>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h9 ]
+          [ _would_v_modal<3:11>
+            LBL: h11
+            ARG0: e3
+            ARG1: h12 ]
+          [ _identify_v_1<12:20>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _the_q<21:24>
+            LBL: h16
+            ARG0: x15
+            RSTR: h18
+            BODY: h17 ]
+          [ _banker_n_1<25:33>
+            LBL: h19
+            ARG0: x15 ] >
+   HCONS: < h18 QEQ h19 h9 QEQ h11 h12 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e10:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e10:neg<3:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_would_v_modal<3:11>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e14]
+ e14:_identify_v_1<12:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x15]
+ _2:_the_q<21:24>[BV x15]
+ x15:_banker_n_1<25:33>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  neg<3:11> ARG1 _would_v_modal<3:11>  
+  _would_v_modal<3:11> ARG1 _identify_v_1<12:20>  
+  _identify_v_1<12:20> ARG1 pron<0:2>  
+  _identify_v_1<12:20> ARG2 _banker_n_1<25:33>  
+  _the_q<21:24> BV _banker_n_1<25:33>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND n  
+  pron<0:2> PT std  
+  neg<3:11> SF prop  
+  neg<3:11> TENSE untensed  
+  neg<3:11> MOOD indicative  
+  neg<3:11> PROG -  
+  neg<3:11> PERF -  
+  _would_v_modal<3:11> SF prop  
+  _would_v_modal<3:11> TENSE pres  
+  _would_v_modal<3:11> MOOD indicative  
+  _would_v_modal<3:11> PROG -  
+  _would_v_modal<3:11> PERF -  
+  _identify_v_1<12:20> SF prop  
+  _identify_v_1<12:20> TENSE untensed  
+  _identify_v_1<12:20> MOOD indicative  
+  _identify_v_1<12:20> PROG -  
+  _identify_v_1<12:20> PERF -  
+  _banker_n_1<25:33> PERS 3  
+  _banker_n_1<25:33> NUM pl  
+  _banker_n_1<25:33> IND +  
+}
+

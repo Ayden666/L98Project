@@ -1,0 +1,150 @@
+;;;
+;;; Redwoods export of `wsj10b';
+;;; (wsun@wsun; 22-jan-2018 (19:28 h)).
+;;;
+
+[21037026] (1 of 1) {1} `But the worriers remain unconvinced.'
+
+[21037026:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:7>, 1, "the", 0, "null", "DT" 1.0)
+  (3, 2, 3, <8:16>, 1, "worriers", 0, "null", "NNS" 1.0)
+  (4, 3, 4, <17:23>, 1, "remain", 0, "null", "VBP" 0.9696 "VB" 0.0304)
+  (5, 4, 5, <24:35>, 1, "unconvinced", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <35:36>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (71, 0, 1, <0:3>, 1, "but", 0, "null")
+  (76, 0, 1, <0:3>, 1, "but", 0, "null")
+  (61, 1, 2, <4:7>, 1, "the", 0, "null")
+  (72, 1, 2, <4:7>, 1, "the", 0, "null")
+  (63, 2, 3, <8:16>, 1, "worriers", 0, "null")
+  (69, 2, 3, <8:16>, 1, "worriers", 0, "null", "NNS" 1.0)
+  (73, 2, 3, <8:16>, 1, "worriers", 0, "null")
+  (66, 3, 4, <17:23>, 1, "remain", 0, "null")
+  (68, 3, 4, <17:23>, 1, "remain", 0, "null", "VBP" 0.9696)
+  (75, 3, 4, <17:23>, 1, "remain", 0, "null")
+  (65, 4, 5, <24:36>, 1, "unconvinced.", 0, "null")
+  (70, 4, 5, <24:36>, 1, "unconvinced.", 0, "null", "JJ" 1.0)
+  (74, 4, 5, <24:36>, 1, "unconvinced.", 0, "null")
+>
+
+(ROOT_STRICT
+ (876 CL_CNJ-FRG_C 5.40417 0 5
+  (875 MRK-NH_CL_C 4.53429 0 5
+   (79 but_conj@c_xp_but_le 1.93884 0 1
+    ("but" 71
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (874 SB-HD_MC_C 2.12164 1 5
+    (867 SP-HD_N_C 1.65676 1 3
+     (105 the_1@d_-_the_le 1.13181 1 2
+      ("the" 61
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (134 generic_pl_noun@n_-_c-pl-unk_le 0 2 3
+      ("worriers" 69
+       "token [ +CARG #1=\"worriers\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED \"_worriers/NNS_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNS\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+    (873 ^HD-CMP_U_C -0.763538 3 5
+     (868 ^V_N3S-BSE_ILR 0.906117 3 4
+      (152 remain_v4@v_prd_seq_le 1.38787 3 4
+       ("remain" 66
+        "token [ +CARG #1=\"remain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"17\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9696245\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (872 HD_OPTCMP_C -1.81759 4 5
+      (871 W_PERIOD_PLR -1.96901 4 5
+       (870 V_V-UN_DLR -0.919226 4 5
+        (869 V_PAS_ODLR -0.593966 4 5
+         (178 convince_v4@v_np_le 0 4 5
+          ("unconvinced." 65
+           "token [ +CARG \"unconvinced\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"unconvinced.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"36\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (NP (DET "the") (N "worriers"))
+   (VP (V (V "remain")) (VP (V (V (V (V "unconvinced.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _the_q<4:7>
+            LBL: h8
+            ARG0: x10 [ x PERS: 3 NUM: PL ]
+            RSTR: h11
+            BODY: h9 ]
+          [ _worriers/nns_u_unknown<8:16>
+            LBL: h12
+            ARG0: x10 ]
+          [ _remain_v_1<17:23>
+            LBL: h13
+            ARG0: e4
+            ARG1: x10
+            ARG2: h14 ]
+          [ _convince_v_of<24:36>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i17
+            ARG2: x10 ]
+          [ parg_d<24:36>
+            LBL: h15
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e16
+            ARG2: x10 ]
+          [ _un-_a_rvrs<24:36>
+            LBL: h15
+            ARG0: i19
+            ARG1: e16 ] >
+   HCONS: < h14 QEQ h15 h11 QEQ h12 h5 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ _1:_the_q<4:7>[BV x10]
+ x10:_worriers/nns_u_unknown<8:16>{x PERS 3, NUM pl}[]
+ e4:_remain_v_1<17:23>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 e16]
+ e16:_convince_v_of<24:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x10]
+ e18:parg_d<24:36>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e16, ARG2 x10]
+ i19:_un-_a_rvrs<24:36>{i}[ARG1 e16]
+}
+
+{
+  _but_c<0:3> R-HNDL _remain_v_1<17:23>  
+  _but_c<0:3> R-INDEX _remain_v_1<17:23>  
+  _the_q<4:7> BV _worriers/nns_u_unknown<8:16>  
+  _remain_v_1<17:23> ARG1 _worriers/nns_u_unknown<8:16>  
+  _remain_v_1<17:23> ARG2 _convince_v_of<24:36>  
+  _convince_v_of<24:36> ARG2 _worriers/nns_u_unknown<8:16>  
+  parg_d<24:36> ARG1 _convince_v_of<24:36>  
+  parg_d<24:36> ARG2 _worriers/nns_u_unknown<8:16>  
+  _un-_a_rvrs<24:36> ARG1 _convince_v_of<24:36>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  _worriers/nns_u_unknown<8:16> PERS 3  
+  _worriers/nns_u_unknown<8:16> NUM pl  
+  _remain_v_1<17:23> SF prop  
+  _remain_v_1<17:23> TENSE pres  
+  _remain_v_1<17:23> MOOD indicative  
+  _remain_v_1<17:23> PROG -  
+  _remain_v_1<17:23> PERF -  
+  _convince_v_of<24:36> SF prop  
+  _convince_v_of<24:36> TENSE untensed  
+  _convince_v_of<24:36> MOOD indicative  
+  _convince_v_of<24:36> PROG -  
+  _convince_v_of<24:36> PERF -  
+  parg_d<24:36> SF prop  
+  parg_d<24:36> TENSE untensed  
+  parg_d<24:36> MOOD indicative  
+  parg_d<24:36> PROG -  
+  parg_d<24:36> PERF -  
+}
+

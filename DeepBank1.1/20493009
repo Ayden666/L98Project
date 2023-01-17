@@ -1,0 +1,197 @@
+;;;
+;;; Redwoods export of `wsj04e';
+;;; (wsun@wsun; 22-jan-2018 (14:40 h)).
+;;;
+
+[20493009] (1 of 1) {1} `Drug companies lost a major liability case.'
+
+[20493009:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Drug", 0, "null", "NNP" 0.8469 "NN" 0.1531)
+  (2, 1, 2, <5:14>, 1, "companies", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <15:19>, 1, "lost", 0, "null", "VBD" 0.9588 "VBN" 0.0412)
+  (4, 3, 4, <20:21>, 1, "a", 0, "null", "DT" 1.0)
+  (5, 4, 5, <22:27>, 1, "major", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <28:37>, 1, "liability", 0, "null", "NN" 1.0)
+  (7, 6, 7, <38:42>, 1, "case", 0, "null", "NN" 1.0)
+  (8, 7, 8, <42:43>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:4>, 1, "Drug", 0, "null")
+  (98, 0, 1, <0:4>, 1, "drug", 0, "null")
+  (105, 0, 1, <0:4>, 1, "drug", 0, "null")
+  (79, 1, 2, <5:14>, 1, "companies", 0, "null")
+  (94, 1, 2, <5:14>, 1, "companies", 0, "null", "NNS" 1.0)
+  (99, 1, 2, <5:14>, 1, "companies", 0, "null")
+  (90, 2, 3, <15:19>, 1, "lost", 0, "null")
+  (93, 2, 3, <15:19>, 1, "lost", 0, "null", "VBD" 0.9588)
+  (104, 2, 3, <15:19>, 1, "lost", 0, "null")
+  (81, 3, 4, <20:21>, 1, "a", 0, "null")
+  (100, 3, 4, <20:21>, 1, "a", 0, "null")
+  (83, 4, 5, <22:27>, 1, "major", 0, "null")
+  (95, 4, 5, <22:27>, 1, "major", 0, "null", "JJ" 1.0)
+  (101, 4, 5, <22:27>, 1, "major", 0, "null")
+  (85, 5, 6, <28:37>, 1, "liability", 0, "null")
+  (96, 5, 6, <28:37>, 1, "liability", 0, "null", "NN" 1.0)
+  (102, 5, 6, <28:37>, 1, "liability", 0, "null")
+  (87, 6, 7, <38:43>, 1, "case.", 0, "null")
+  (97, 6, 7, <38:43>, 1, "case.", 0, "null", "NN" 1.0)
+  (103, 6, 7, <38:43>, 1, "case.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1311 SB-HD_MC_C 12.7083 0 7
+  (1302 HDN_BNP_C 3.58256 0 2
+   (1301 N-HDN_CPD_C 2.96182 0 2
+    (119 drug_n1@n_-_c_le 1.52822 0 1
+     ("drug" 98
+      "token [ +CARG \"Drug\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"drug\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.84691939999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1300 ^HDN_OPTCMP_C 0.935816 1 2
+     (1299 N_PL_OLR 0.695159 1 2
+      (124 company_n1@n_pp_mc-of_le 0.222137 1 2
+       ("companies" 79
+        "token [ +CARG #1=\"companies\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+  (1310 ^HD-CMP_U_C 7.60981 2 7
+   (1303 ^V_PST_OLR 2.42876 2 3
+    (157 lose_v1@v_np*_le 2.12199 2 3
+     ("lost" 90
+      "token [ +CARG #1=\"lost\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95881459999999996\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1309 SP-HD_N_C 4.17215 3 7
+    (183 a_det@d_-_sg-nmd_le -0.667877 3 4
+     ("a" 81
+      "token [ +CARG #1=\"a\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1308 ^AJ-HDN_NORM_C 3.20656 4 7
+     (257 major_a1@aj_-_i_le 0.380757 4 5
+      ("major" 83
+       "token [ +CARG #1=\"major\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (1307 ^N-HDN_CPD_C 0.428627 5 7
+      (264 liability_n1@n_-_mc_le 0 5 6
+       ("liability" 85
+        "token [ +CARG #1=\"liability\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (1306 ^HDN_OPTCMP_C 0.218878 6 7
+       (1305 W_PERIOD_PLR 0.0876265 6 7
+        (1304 N_MS-CNT_ILR -0.406151 6 7
+         (268 case_n1@n_pp_mc-of_le 0 6 7
+          ("case." 87
+           "token [ +CARG \"case\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"case.\" +FROM #1=\"38\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"43\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "drug") (N (N (N "companies")))))
+ (VP (V (V "lost"))
+  (NP (DET "a")
+   (N (AP "major") (N (N "liability") (N (N (N (N "case.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _drug_n_1<0:4>
+            LBL: h14
+            ARG0: x9 ]
+          [ _company_n_of<5:14>
+            LBL: h8
+            ARG0: x6
+            ARG1: i15 ]
+          [ _lose_v_1<15:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<20:21>
+            LBL: h17
+            ARG0: x16
+            RSTR: h19
+            BODY: h18 ]
+          [ _major_a_1<22:27>
+            LBL: h20
+            ARG0: e21 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16 ]
+          [ compound<28:43>
+            LBL: h20
+            ARG0: e23 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x16
+            ARG2: x22 ]
+          [ udef_q<28:37>
+            LBL: h24
+            ARG0: x22
+            RSTR: h25
+            BODY: h26 ]
+          [ _liability_n_1<28:37>
+            LBL: h27
+            ARG0: x22 ]
+          [ _case_n_of<38:43>
+            LBL: h20
+            ARG0: x16
+            ARG1: i28 ] >
+   HCONS: < h25 QEQ h27 h19 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:14>[BV x6]
+ e10:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:4>[BV x9]
+ x9:_drug_n_1<0:4>{x IND +}[]
+ x6:_company_n_of<5:14>{x PERS 3, NUM pl}[]
+ e3:_lose_v_1<15:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x16]
+ _3:_a_q<20:21>[BV x16]
+ e21:_major_a_1<22:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16]
+ e23:compound<28:43>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x16, ARG2 x22]
+ _4:udef_q<28:37>[BV x22]
+ x22:_liability_n_1<28:37>{x}[]
+ x16:_case_n_of<38:43>{x PERS 3, NUM sg}[]
+}
+
+{
+  udef_q<0:14> BV _company_n_of<5:14>  
+  compound<0:14> ARG1 _company_n_of<5:14>  
+  compound<0:14> ARG2 _drug_n_1<0:4>  
+  udef_q<0:4> BV _drug_n_1<0:4>  
+  _lose_v_1<15:19> ARG1 _company_n_of<5:14>  
+  _lose_v_1<15:19> ARG2 _case_n_of<38:43>  
+  _a_q<20:21> BV _case_n_of<38:43>  
+  _major_a_1<22:27> ARG1 _case_n_of<38:43>  
+  compound<28:43> ARG1 _case_n_of<38:43>  
+  compound<28:43> ARG2 _liability_n_1<28:37>  
+  udef_q<28:37> BV _liability_n_1<28:37>  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _drug_n_1<0:4> IND +  
+  _company_n_of<5:14> PERS 3  
+  _company_n_of<5:14> NUM pl  
+  _lose_v_1<15:19> SF prop  
+  _lose_v_1<15:19> TENSE past  
+  _lose_v_1<15:19> MOOD indicative  
+  _lose_v_1<15:19> PROG -  
+  _lose_v_1<15:19> PERF -  
+  _major_a_1<22:27> SF prop  
+  _major_a_1<22:27> TENSE untensed  
+  _major_a_1<22:27> MOOD indicative  
+  _major_a_1<22:27> PROG -  
+  _major_a_1<22:27> PERF -  
+  compound<28:43> SF prop  
+  compound<28:43> TENSE untensed  
+  compound<28:43> MOOD indicative  
+  compound<28:43> PROG -  
+  compound<28:43> PERF -  
+  _case_n_of<38:43> PERS 3  
+  _case_n_of<38:43> NUM sg  
+}
+

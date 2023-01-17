@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj21b';
+;;; (wsun@wsun; 23-jan-2018 (06:04 h)).
+;;;
+
+[22113108] (1 of 1) {1} `Everybody was out buying Monets."'
+
+[22113108:2] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Everybody", 0, "null", "NN" 1.0)
+  (2, 1, 2, <10:13>, 1, "was", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <14:17>, 1, "out", 0, "null", "RP" 0.3746 "IN" 0.3222 "RB" 0.3032)
+  (4, 3, 4, <18:24>, 1, "buying", 0, "null", "VBG" 0.9593 "NN" 0.0407)
+  (5, 4, 5, <25:31>, 1, "Monets", 0, "null", "NNPS" 1.0)
+  (6, 5, 6, <31:32>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <32:33>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (86, 0, 1, <0:9>, 1, "Everybody", 0, "null")
+  (91, 0, 1, <0:9>, 1, "everybody", 0, "null")
+  (97, 0, 1, <0:9>, 1, "everybody", 0, "null")
+  (79, 1, 2, <10:13>, 1, "was", 0, "null")
+  (88, 1, 2, <10:13>, 1, "was", 0, "null", "VBD" 1.0)
+  (94, 1, 2, <10:13>, 1, "was", 0, "null")
+  (82, 2, 3, <14:17>, 1, "out", 0, "null")
+  (90, 2, 3, <14:17>, 1, "out", 0, "null", "RB" 0.3032)
+  (95, 2, 3, <14:17>, 1, "out", 0, "null")
+  (83, 3, 4, <18:24>, 1, "buying", 0, "null")
+  (87, 3, 4, <18:24>, 1, "buying", 0, "null", "VBG" 0.9593)
+  (96, 3, 4, <18:24>, 1, "buying", 0, "null")
+  (69, 4, 5, <25:33>, 1, "Monets.”", 0, "null")
+  (89, 4, 5, <25:33>, 1, "Monets.”", 0, "null", "NNPS" 1.0)
+  (92, 4, 5, <25:33>, 1, "monets.”", 0, "null")
+  (93, 4, 5, <25:33>, 1, "monets.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (1813 SB-HD_MC_C 3.38734 0 5
+  (1795 HDN_BNP-QNT_C 1.64702 0 1
+   (1794 HDN_OPTCMP_C 1.55824 0 1
+    (100 everybody@n_-_pr_le 0 0 1
+     ("everybody" 91
+      "token [ +CARG \"Everybody\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"everybody\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1812 ^HD-AJ_SCP_C 1.58878 1 5
+   (1810 ^HD-CMP_U_C 2.05202 1 3
+    (105 be_c_was@v_prd_was_le -0.375542 1 2
+     ("was" 79
+      "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (139 out_pp@pp_-_i_le -0.709225 2 3
+     ("out" 82
+      "token [ +CARG #1=\"out\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.37457030000000002\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1811 VP_SBRD-PRD-PRP_C -0.289612 3 5
+    (1802 HD-CMP_U_C 1.11796 3 5
+     (1797 ^V_PRP_OLR 0.557786 3 4
+      (225 buy_v1@v_np*_le 0.394318 3 4
+       ("buying" 83
+        "token [ +CARG #1=\"buying\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95934059999999999\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1801 HDN_BNP_C -0.647751 4 5
+      (1800 W_DQRIGHT_PLR -0.136723 4 5
+       (1799 W_PERIOD_PLR -2.4225 4 5
+        (1798 N_PL_OLR -2.0672 4 5
+         (258 monet_n1@n_-_pn_le 0 4 5
+          ("monets.”" 92
+           "token [ +CARG \"Monets\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"monets.”\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "everybody")))
+ (VP (VP (V "was") (PP "out"))
+  (PP (VP (V (V "buying")) (NP (N (N (N (N "monets.”")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ person<0:9>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG ] ]
+          [ every_q<0:9>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _out_p<14:17>
+            LBL: h9
+            ARG0: e3
+            ARG1: x5 ]
+          [ subord<18:33>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h11
+            ARG2: h10 ]
+          [ _buy_v_1<18:24>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: i16
+            ARG2: x15 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<25:33>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<25:33>
+            LBL: h20
+            ARG0: x15
+            CARG: "Monet" ] >
+   HCONS: < h18 QEQ h20 h10 QEQ h13 h11 QEQ h9 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e12:
+ x5:person<0:9>{x PERS 3, NUM sg}[]
+ _1:every_q<0:9>[BV x5]
+ e3:_out_p<14:17>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e12:subord<18:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e14]
+ e14:_buy_v_1<18:24>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG2 x15]
+ _2:udef_q<25:33>[BV x15]
+ x15:named<25:33>("Monet"){x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  every_q<0:9> BV person<0:9>  
+  _out_p<14:17> ARG1 person<0:9>  
+  subord<18:33> ARG1 _out_p<14:17>  
+  subord<18:33> ARG2 _buy_v_1<18:24>  
+  _buy_v_1<18:24> ARG2 named<25:33>(Monet)  
+  udef_q<25:33> BV named<25:33>(Monet)  
+  person<0:9> PERS 3  
+  person<0:9> NUM sg  
+  _out_p<14:17> SF prop  
+  _out_p<14:17> TENSE past  
+  _out_p<14:17> MOOD indicative  
+  _out_p<14:17> PROG -  
+  _out_p<14:17> PERF -  
+  subord<18:33> SF prop  
+  subord<18:33> TENSE untensed  
+  subord<18:33> MOOD indicative  
+  subord<18:33> PROG -  
+  subord<18:33> PERF -  
+  _buy_v_1<18:24> SF prop  
+  _buy_v_1<18:24> TENSE untensed  
+  _buy_v_1<18:24> MOOD indicative  
+  _buy_v_1<18:24> PROG +  
+  _buy_v_1<18:24> PERF -  
+  named<25:33>(Monet) PERS 3  
+  named<25:33>(Monet) NUM pl  
+  named<25:33>(Monet) IND +  
+}
+

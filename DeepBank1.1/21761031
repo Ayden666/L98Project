@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj17b';
+;;; (wsun@wsun; 23-jan-2018 (02:30 h)).
+;;;
+
+[21761031] (1 of 1) {1} `BEWARE OF HEAVY DEBT.'
+
+[21761031:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "BEWARE", 0, "null", "VB" 1.0)
+  (2, 1, 2, <7:9>, 1, "OF", 0, "null", "IN" 1.0)
+  (3, 2, 3, <10:15>, 1, "HEAVY", 0, "null", "JJ" 1.0)
+  (4, 3, 4, <16:20>, 1, "DEBT", 0, "null", "NN" 1.0)
+  (5, 4, 5, <20:21>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:6>, 1, "BEWARE", 0, "null")
+  (65, 0, 1, <0:6>, 1, "BEWARE", 0, "null", "VB" 1.0)
+  (69, 0, 1, <0:6>, 1, "beware", 0, "null")
+  (73, 0, 1, <0:6>, 1, "beware", 0, "null")
+  (50, 1, 2, <7:9>, 1, "OF", 0, "null")
+  (67, 1, 2, <7:9>, 1, "of", 0, "null")
+  (71, 1, 2, <7:9>, 1, "of", 0, "null")
+  (51, 2, 3, <10:15>, 1, "HEAVY", 0, "null")
+  (64, 2, 3, <10:15>, 1, "HEAVY", 0, "null", "JJ" 1.0)
+  (68, 2, 3, <10:15>, 1, "heavy", 0, "null")
+  (72, 2, 3, <10:15>, 1, "heavy", 0, "null")
+  (55, 3, 4, <16:21>, 1, "DEBT.", 0, "null")
+  (66, 3, 4, <16:21>, 1, "DEBT.", 0, "null", "NN" 1.0)
+  (70, 3, 4, <16:21>, 1, "debt.", 0, "null")
+  (74, 3, 4, <16:21>, 1, "debt.", 0, "null")
+>
+
+(ROOT_STRICT
+ (936 HD_IMP_C 4.87047 0 4
+  (935 HD-CMP_U_C 4.77715 0 4
+   (929 ^V_N3S-BSE_ILR 0 0 1
+    (82 beware_v2@v_pp_e-nfin_le 0 0 1
+     ("beware" 69
+      "token [ +CARG \"BEWARE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"beware\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (934 HD-CMP_U_C 4.14386 1 4
+    (122 of_prtcl@p_np_ptcl-of_le 1.04356 1 2
+     ("of" 67
+      "token [ +CARG \"OF\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"of\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (933 HDN_BNP_C 2.8935 2 4
+     (932 AJ-HDN_NORM_C 2.56284 2 4
+      (201 heavy_a1@aj_-_i-er_le 0.67069 2 3
+       ("heavy" 68
+        "token [ +CARG \"HEAVY\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"heavy\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (931 ^W_PERIOD_PLR 0.628393 3 4
+       (930 N_MS-CNT_ILR 0.310782 3 4
+        (211 debt_n1@n_-_mc_le 0 3 4
+         ("debt." 70
+          "token [ +CARG \"DEBT\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"debt.\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S
+ (VP (V (V "beware"))
+  (PP (P "of") (NP (N (AP "heavy") (N (N (N "debt."))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: COMM TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pronoun_q<0:21>
+            LBL: h4
+            ARG0: x6 [ x PERS: 2 PT: ZERO ]
+            RSTR: h5
+            BODY: h7 ]
+          [ pron<0:21>
+            LBL: h8
+            ARG0: x6 ]
+          [ _beware_v_1<0:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<10:21>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _heavy_a_1<10:15>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9 ]
+          [ _debt_n_1<16:21>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:pronoun_q<0:21>[BV x6]
+ x6:pron<0:21>{x PERS 2, PT zero}[]
+ e3:_beware_v_1<0:6>{e SF comm, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<10:21>[BV x9]
+ e14:_heavy_a_1<10:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_debt_n_1<16:21>{x PERS 3, NUM sg}[]
+}
+
+{
+  pronoun_q<0:21> BV pron<0:21>  
+  _beware_v_1<0:6> ARG1 pron<0:21>  
+  _beware_v_1<0:6> ARG2 _debt_n_1<16:21>  
+  udef_q<10:21> BV _debt_n_1<16:21>  
+  _heavy_a_1<10:15> ARG1 _debt_n_1<16:21>  
+  pron<0:21> PERS 2  
+  pron<0:21> PT zero  
+  _beware_v_1<0:6> SF comm  
+  _beware_v_1<0:6> TENSE pres  
+  _beware_v_1<0:6> MOOD indicative  
+  _beware_v_1<0:6> PROG -  
+  _beware_v_1<0:6> PERF -  
+  _heavy_a_1<10:15> SF prop  
+  _heavy_a_1<10:15> TENSE untensed  
+  _heavy_a_1<10:15> MOOD indicative  
+  _heavy_a_1<10:15> PROG -  
+  _heavy_a_1<10:15> PERF -  
+  _debt_n_1<16:21> PERS 3  
+  _debt_n_1<16:21> NUM sg  
+}
+

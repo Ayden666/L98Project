@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj19d';
+;;; (wsun@wsun; 23-jan-2018 (04:51 h)).
+;;;
+
+[21996064] (1 of 1) {1} `Discouragement feeds on itself.'
+
+[21996064:1] (active)
+
+<
+  (1, 0, 1, <0:14>, 1, "Discouragement", 0, "null", "NN" 1.0)
+  (2, 1, 2, <15:20>, 1, "feeds", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <21:23>, 1, "on", 0, "null", "IN" 1.0)
+  (4, 3, 4, <24:30>, 1, "itself", 0, "null", "PRP" 1.0)
+  (5, 4, 5, <30:31>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:14>, 1, "Discouragement", 0, "null")
+  (57, 0, 1, <0:14>, 1, "discouragement", 0, "null")
+  (61, 0, 1, <0:14>, 1, "discouragement", 0, "null")
+  (50, 1, 2, <15:20>, 1, "feeds", 0, "null")
+  (56, 1, 2, <15:20>, 1, "feeds", 0, "null", "VBZ" 1.0)
+  (58, 1, 2, <15:20>, 1, "feeds", 0, "null")
+  (52, 2, 3, <21:23>, 1, "on", 0, "null")
+  (59, 2, 3, <21:23>, 1, "on", 0, "null")
+  (54, 3, 4, <24:31>, 1, "itself.", 0, "null")
+  (60, 3, 4, <24:31>, 1, "itself.", 0, "null")
+>
+
+(ROOT_STRICT
+ (486 SB-HD_MC_C 1.57731 0 4
+  (477 HDN_BNP-PN_C -1.0285 0 1
+   (476 N_SG_ILR -0.979548 0 1
+    (62 generic_proper_ne@n_-_pn-gen_le 0 0 1
+     ("Discouragement" 55
+      "token [ +CARG #1=\"Discouragement\" +CLASS proper_ne +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (485 ^HD-CMP_U_C 1.58876 1 4
+   (484 ^V_3S-FIN_OLR 0 1 2
+    (79 feed_v4@v_pp_dir_le 0 1 2
+     ("feeds" 50
+      "token [ +CARG #1=\"feeds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (481 HD-CMP_U_C -0.0931229 2 4
+    (114 on@p_np_i-reg_le 0.275426 2 3
+     ("on" 52
+      "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (480 HDN_BNP-QNT_C -0.122667 3 4
+     (479 W_PERIOD_PLR 0 3 4
+      (141 itself@n_-_pr-itself_le 0 3 4
+       ("itself." 54
+        "token [ +CARG \"itself\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"itself.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N "Discouragement")))
+ (VP (V (V "feeds")) (PP (P "on") (NP (NP (NP "itself."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:14>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:14>
+            LBL: h8
+            ARG0: x6
+            CARG: "Discouragement" ]
+          [ _feed_v_dir<15:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _on_p<21:23>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG GEND: N PT: REFL ] ]
+          [ pron<24:31>
+            LBL: h11
+            ARG0: x10 ]
+          [ pronoun_q<24:31>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ] >
+   HCONS: < h13 QEQ h11 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:14>[BV x6]
+ x6:named<0:14>("Discouragement"){x PERS 3, NUM sg, IND +}[]
+ e3:_feed_v_dir-fn.Ingestion<15:20>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e9:_on_p<21:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ x10:pron<24:31>{x PERS 3, NUM sg, GEND n, PT refl}[]
+ _2:pronoun_q<24:31>[BV x10]
+}
+
+{
+  proper_q<0:14> BV named<0:14>(Discouragement)  
+  _feed_v_dir<15:20> ARG1 named<0:14>(Discouragement)  
+  _on_p<21:23> ARG1 _feed_v_dir<15:20>  
+  _on_p<21:23> ARG2 pron<24:31>  
+  pronoun_q<24:31> BV pron<24:31>  
+  named<0:14>(Discouragement) PERS 3  
+  named<0:14>(Discouragement) NUM sg  
+  named<0:14>(Discouragement) IND +  
+  _feed_v_dir<15:20> SF prop  
+  _feed_v_dir<15:20> TENSE pres  
+  _feed_v_dir<15:20> MOOD indicative  
+  _feed_v_dir<15:20> PROG -  
+  _feed_v_dir<15:20> PERF -  
+  _on_p<21:23> SF prop  
+  _on_p<21:23> TENSE untensed  
+  _on_p<21:23> MOOD indicative  
+  _on_p<21:23> PROG -  
+  _on_p<21:23> PERF -  
+  pron<24:31> PERS 3  
+  pron<24:31> NUM sg  
+  pron<24:31> GEND n  
+  pron<24:31> PT refl  
+}
+

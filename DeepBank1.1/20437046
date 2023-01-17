@@ -1,0 +1,317 @@
+;;;
+;;; Redwoods export of `wsj04b';
+;;; (wsun@wsun; 22-jan-2018 (14:01 h)).
+;;;
+
+[20437046] (1 of 1) {1} `December delivery gold eased 40 cents an ounce to $380.80.'
+
+[20437046:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "December", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:17>, 1, "delivery", 0, "null", "NN" 1.0)
+  (3, 2, 3, <18:22>, 1, "gold", 0, "null", "NN" 1.0)
+  (4, 3, 4, <23:28>, 1, "eased", 0, "null", "VBD" 0.9883 "VBN" 0.0117)
+  (5, 4, 5, <29:31>, 1, "40", 0, "null", "CD" 1.0)
+  (6, 5, 6, <32:37>, 1, "cents", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <38:40>, 1, "an", 0, "null", "DT" 1.0)
+  (8, 7, 8, <41:46>, 1, "ounce", 0, "null", "NN" 1.0)
+  (9, 8, 9, <47:49>, 1, "to", 0, "null", "TO" 1.0)
+  (10, 9, 10, <50:51>, 1, "$", 0, "null", "$" 1.0)
+  (11, 10, 11, <51:57>, 1, "380.80", 0, "null", "CD" 1.0)
+  (12, 11, 12, <57:58>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (130, 0, 1, <0:8>, 1, "December", 0, "null")
+  (137, 0, 1, <0:8>, 1, "december", 0, "null")
+  (148, 0, 1, <0:8>, 1, "december", 0, "null")
+  (121, 1, 2, <9:17>, 1, "delivery", 0, "null")
+  (134, 1, 2, <9:17>, 1, "delivery", 0, "null", "NN" 1.0)
+  (143, 1, 2, <9:17>, 1, "delivery", 0, "null")
+  (123, 2, 3, <18:22>, 1, "gold", 0, "null")
+  (135, 2, 3, <18:22>, 1, "gold", 0, "null", "NN" 1.0)
+  (144, 2, 3, <18:22>, 1, "gold", 0, "null")
+  (128, 3, 4, <23:28>, 1, "eased", 0, "null")
+  (131, 3, 4, <23:28>, 1, "eased", 0, "null", "VBD" 0.9883)
+  (147, 3, 4, <23:28>, 1, "eased", 0, "null")
+  (104, 4, 5, <29:31>, 1, "40", 0, "null")
+  (138, 4, 5, <29:31>, 1, "40", 0, "null")
+  (113, 5, 6, <32:37>, 1, "cents", 0, "null")
+  (132, 5, 6, <32:37>, 1, "cents", 0, "null", "NNS" 1.0)
+  (139, 5, 6, <32:37>, 1, "cents", 0, "null")
+  (115, 6, 7, <38:40>, 1, "an", 0, "null")
+  (140, 6, 7, <38:40>, 1, "an", 0, "null")
+  (117, 7, 8, <41:46>, 1, "ounce", 0, "null")
+  (133, 7, 8, <41:46>, 1, "ounce", 0, "null", "NN" 1.0)
+  (141, 7, 8, <41:46>, 1, "ounce", 0, "null")
+  (119, 8, 9, <47:49>, 1, "to", 0, "null")
+  (142, 8, 9, <47:49>, 1, "to", 0, "null")
+  (125, 9, 10, <50:51>, 1, "$", 0, "null")
+  (145, 9, 10, <50:51>, 1, "$", 0, "null")
+  (127, 10, 11, <51:58>, 1, "380.80.", 0, "null")
+  (136, 10, 11, <51:58>, 1, "380.80.", 0, "null", "CD" 1.0)
+  (146, 10, 11, <51:58>, 1, "380.80.", 0, "null")
+>
+
+(ROOT_STRICT
+ (7105 SB-HD_MC_C 13.5919 0 11
+  (7088 HDN_BNP_C 2.2314 0 3
+   (7087 N-HDN_CPD_C 1.61065 0 3
+    (7085 NP-HDN_CPD_C 1.29932 0 2
+     (7083 HDN_BNP-PN_C 0.507157 0 1
+      (150 december@n_-_c-month_le -0.0370894 0 1
+       ("december" 137
+        "token [ +CARG \"December\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"december\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (7084 ^HDN_OPTCMP_C 0.423992 1 2
+      (151 delivery_n1@n_pp_mc-of_le 0.0564575 1 2
+       ("delivery" 121
+        "token [ +CARG #1=\"delivery\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (7086 ^N_MS_ILR 0.225839 2 3
+     (154 gold_n1@n_-_m_le 0.434026 2 3
+      ("gold" 123
+       "token [ +CARG #1=\"gold\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (7104 ^HD-AJ_INT-UNSL_C 10.5204 3 11
+   (7098 ^HD-AJ_INT-UNSL_C 7.14009 3 8
+    (7090 ^HD_OPTCMP_C 2.08592 3 4
+     (7089 V_PST_OLR 0.595361 3 4
+      (174 ease_v1@v_pp*_dir_le 0 3 4
+       ("eased" 128
+        "token [ +CARG #1=\"eased\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"23\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98825830000000003\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (7097 NP_ADV-MNP_C 3.87109 4 8
+     (7096 HDN_BNP_C 5.43999 4 8
+      (7095 HDN-AJ_REDREL_C 6.33719 4 8
+       (7092 ^NUM-N_MNP_C 2.76869 4 6
+        (275 generic_card_ne@aj_-_i-crd-gen_le -0.150128 4 5
+         ("40" 104
+          "token [ +CARG #1=\"40\" +CLASS card_ne +FORM #1 +FROM \"29\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+        (7091 ^N_PL_OLR 0.80476 5 6
+         (276 cent_n1@n_-_c-meas-nb_le 0.143064 5 6
+          ("cents" 113
+           "token [ +CARG #1=\"cents\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"37\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+       (7094 HD-CMP_U_C 1.32786 6 8
+        (314 an_per_p@p_nb_i-nm-an_le 0.45074 6 7
+         ("an" 115
+          "token [ +CARG #1=\"an\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"38\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+        (7093 N_SG_ILR -0.387002 7 8
+         (329 ounce_n1@n_-_c-meas_le 0 7 8
+          ("ounce" 117
+           "token [ +CARG #1=\"ounce\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"41\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+   (7103 HD-CMP_U_C 1.82188 8 11
+    (355 to@p_np_i-nnm_le -0.649111 8 9
+     ("to" 119
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"47\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"49\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (7102 HDN_BNP_C 3.86985 9 11
+     (7101 N-NUM_MNP_C 2.91792 9 11
+      (7099 ^N_PL-CUR_ILR 1.21255 9 10
+       (408 dollarsign_n1@n_-_c-cur_le -0.27486 9 10
+        ("$" 125
+         "token [ +CARG #1=\"$\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"50\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"$\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (7100 W_PERIOD_PLR 0 10 11
+       (410 generic_number@aj_-_i-crd-unk_le 0 10 11
+        ("380.80." 136
+         "token [ +CARG \"380.80\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"380.80.\" +FROM #1=\"51\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST *cons* [ FIRST \"12\" REST #2 ] ] ] +PRED \"_380.80/CD_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"CD\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"58\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (N (N (NP (N "december")) (N (N "delivery"))) (N (N "gold"))))
+ (VP
+  (VP (VP (V (V "eased")))
+   (PP
+    (NP
+     (N (N (ADJ "40") (N (N "cents")))
+      (PP (P "an") (N (N "ounce")))))))
+  (PP (P "to") (NP (N (N (N "$")) (ADJ (ADJ "380.80.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:22>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:17>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:17>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ mofy<0:8>
+            LBL: h20
+            ARG0: x15
+            CARG: "Dec" ]
+          [ _delivery_n_of<9:17>
+            LBL: h14
+            ARG0: x9
+            ARG1: i21 ]
+          [ _gold_n_1<18:22>
+            LBL: h8
+            ARG0: x6 ]
+          [ _ease_v_1<23:28>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ loc_nonsp<29:46>
+            LBL: h2
+            ARG0: e22 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x23 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<29:46>
+            LBL: h24
+            ARG0: x23
+            RSTR: h25
+            BODY: h26 ]
+          [ card<29:31>
+            LBL: h27
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            CARG: "40" ]
+          [ _cent_n_1<32:37>
+            LBL: h27
+            ARG0: x23 ]
+          [ _a_p_per<38:40>
+            LBL: h27
+            ARG0: e29 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x23
+            ARG2: x30 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<38:40>
+            LBL: h31
+            ARG0: x30
+            RSTR: h32
+            BODY: h33 ]
+          [ _ounce_n_1<41:46>
+            LBL: h34
+            ARG0: x30 ]
+          [ _to_p<47:49>
+            LBL: h2
+            ARG0: e35 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x36 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<50:58>
+            LBL: h37
+            ARG0: x36
+            RSTR: h38
+            BODY: h39 ]
+          [ _dollar_n_1<50:51>
+            LBL: h40
+            ARG0: x36 ]
+          [ card<51:58>
+            LBL: h40
+            ARG0: e41 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x36
+            CARG: "380.80" ] >
+   HCONS: < h38 QEQ h40 h32 QEQ h34 h25 QEQ h27 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:22>[BV x6]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:17>[BV x9]
+ e16:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:8>[BV x15]
+ x15:mofy<0:8>("Dec"){x IND +}[]
+ x9:_delivery_n_of<9:17>{x}[]
+ x6:_gold_n_1<18:22>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e3:_ease_v_1<23:28>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e22:loc_nonsp<29:46>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x23]
+ _4:udef_q<29:46>[BV x23]
+ e28:card<29:31>("40"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23]
+ x23:_cent_n_1<32:37>{x PERS 3, NUM pl, IND +}[]
+ e29:_a_p_per<38:40>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x23, ARG2 x30]
+ _5:udef_q<38:40>[BV x30]
+ x30:_ounce_n_1<41:46>{x PERS 3, NUM sg, IND +}[]
+ e35:_to_p<47:49>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x36]
+ _6:udef_q<50:58>[BV x36]
+ x36:_dollar_n_1<50:51>{x PERS 3, NUM pl, IND +}[]
+ e41:card<51:58>("380.80"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x36]
+}
+
+{
+  udef_q<0:22> BV _gold_n_1<18:22>  
+  compound<0:22> ARG1 _gold_n_1<18:22>  
+  compound<0:22> ARG2 _delivery_n_of<9:17>  
+  udef_q<0:17> BV _delivery_n_of<9:17>  
+  compound<0:17> ARG1 _delivery_n_of<9:17>  
+  compound<0:17> ARG2 mofy<0:8>(Dec)  
+  proper_q<0:8> BV mofy<0:8>(Dec)  
+  _ease_v_1<23:28> ARG1 _gold_n_1<18:22>  
+  loc_nonsp<29:46> ARG1 _ease_v_1<23:28>  
+  loc_nonsp<29:46> ARG2 _cent_n_1<32:37>  
+  udef_q<29:46> BV _cent_n_1<32:37>  
+  card<29:31>(40) ARG1 _cent_n_1<32:37>  
+  _a_p_per<38:40> ARG1 _cent_n_1<32:37>  
+  _a_p_per<38:40> ARG2 _ounce_n_1<41:46>  
+  udef_q<38:40> BV _ounce_n_1<41:46>  
+  _to_p<47:49> ARG1 _ease_v_1<23:28>  
+  _to_p<47:49> ARG2 _dollar_n_1<50:51>  
+  udef_q<50:58> BV _dollar_n_1<50:51>  
+  card<51:58>(380.80) ARG1 _dollar_n_1<50:51>  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  mofy<0:8>(Dec) IND +  
+  _gold_n_1<18:22> PERS 3  
+  _gold_n_1<18:22> NUM sg  
+  _gold_n_1<18:22> GEND n  
+  _gold_n_1<18:22> IND -  
+  _ease_v_1<23:28> SF prop  
+  _ease_v_1<23:28> TENSE past  
+  _ease_v_1<23:28> MOOD indicative  
+  _ease_v_1<23:28> PROG -  
+  _ease_v_1<23:28> PERF -  
+  loc_nonsp<29:46> SF prop  
+  loc_nonsp<29:46> TENSE untensed  
+  loc_nonsp<29:46> MOOD indicative  
+  loc_nonsp<29:46> PROG -  
+  loc_nonsp<29:46> PERF -  
+  card<29:31>(40) SF prop  
+  card<29:31>(40) TENSE untensed  
+  card<29:31>(40) MOOD indicative  
+  card<29:31>(40) PROG -  
+  card<29:31>(40) PERF -  
+  _cent_n_1<32:37> PERS 3  
+  _cent_n_1<32:37> NUM pl  
+  _cent_n_1<32:37> IND +  
+  _a_p_per<38:40> SF prop  
+  _a_p_per<38:40> TENSE untensed  
+  _a_p_per<38:40> MOOD indicative  
+  _a_p_per<38:40> PROG -  
+  _a_p_per<38:40> PERF -  
+  _ounce_n_1<41:46> PERS 3  
+  _ounce_n_1<41:46> NUM sg  
+  _ounce_n_1<41:46> IND +  
+  _to_p<47:49> SF prop  
+  _to_p<47:49> TENSE untensed  
+  _to_p<47:49> MOOD indicative  
+  _to_p<47:49> PROG -  
+  _to_p<47:49> PERF -  
+  _dollar_n_1<50:51> PERS 3  
+  _dollar_n_1<50:51> NUM pl  
+  _dollar_n_1<50:51> IND +  
+  card<51:58>(380.80) SF prop  
+  card<51:58>(380.80) TENSE untensed  
+  card<51:58>(380.80) MOOD indicative  
+  card<51:58>(380.80) PROG -  
+  card<51:58>(380.80) PERF -  
+}
+

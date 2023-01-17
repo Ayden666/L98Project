@@ -1,0 +1,73 @@
+;;;
+;;; Redwoods export of `wsj06a';
+;;; (wsun@wsun; 22-jan-2018 (15:50 h)).
+;;;
+
+[20617052] (1 of 1) {1} `PILING ON?'
+
+[20617052:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "PILING", 0, "null", "VBG" 1.0)
+  (2, 1, 2, <7:9>, 1, "ON", 0, "null", "RP" 0.9304 "NNP" 0.0477 "IN" 0.0218)
+  (3, 2, 3, <9:10>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (31, 0, 1, <0:6>, 1, "PILING", 0, "null")
+  (42, 0, 1, <0:6>, 1, "PILING", 0, "null", "VBG" 1.0)
+  (43, 0, 1, <0:6>, 1, "piling", 0, "null")
+  (45, 0, 1, <0:6>, 1, "piling", 0, "null")
+  (33, 1, 2, <7:10>, 1, "ON?", 0, "null")
+  (44, 1, 2, <7:10>, 1, "on?", 0, "null")
+  (46, 1, 2, <7:10>, 1, "on?", 0, "null")
+>
+
+(ROOT_FRAG
+ (345 VP_NFIN-FRG_C -0.137188 0 2
+  (344 HD-AJ_INT-UNSL_C 0.737075 0 2
+   (342 ^HD_OPTCMP_C 0.737075 0 1
+    (341 V_PRP_OLR 0.015907 0 1
+     (58 pile_v2@v_pp*_dir_le 0 0 1
+      ("piling" 43
+       "token [ +CARG \"PILING\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"piling\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (343 W_QMARK_PLR 0 1 2
+    (87 on_adv@pp_-_i-nnm_le 0 1 2
+     ("on?" 44
+      "token [ +CARG \"ON\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"on?\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93043180000000003\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (VP (VP (V (V "piling"))) (PP (PP "on?"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ _pile_v_1<0:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: i4 ]
+          [ _on_p_dir<7:10>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:_pile_v_1<0:6>{e SF ques, TENSE untensed, MOOD indicative, PROG +, PERF -}[]
+ e5:_on_p_dir<7:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _on_p_dir<7:10> ARG1 _pile_v_1<0:6>  
+  _pile_v_1<0:6> SF ques  
+  _pile_v_1<0:6> TENSE untensed  
+  _pile_v_1<0:6> MOOD indicative  
+  _pile_v_1<0:6> PROG +  
+  _pile_v_1<0:6> PERF -  
+  _on_p_dir<7:10> SF prop  
+  _on_p_dir<7:10> TENSE untensed  
+  _on_p_dir<7:10> MOOD indicative  
+  _on_p_dir<7:10> PROG -  
+  _on_p_dir<7:10> PERF -  
+}
+

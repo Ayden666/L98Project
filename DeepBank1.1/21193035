@@ -1,0 +1,85 @@
+;;;
+;;; Redwoods export of `wsj11e';
+;;; (wsun@wsun; 22-jan-2018 (20:56 h)).
+;;;
+
+[21193035] (1 of 1) {1} `EARNINGS:'
+
+[21193035:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "EARNINGS", 0, "null", "NNS" 1.0)
+  (2, 1, 2, <8:9>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (20, 0, 1, <0:8>, 1, "EARNINGS", 0, "null")
+  (25, 0, 1, <0:8>, 1, "EARNINGS", 0, "null", "NNS" 1.0)
+  (26, 0, 1, <0:8>, 1, "earnings", 0, "null")
+  (27, 0, 1, <0:8>, 1, "earnings", 0, "null")
+  (24, 1, 2, <8:9>, 1, ":", 0, "null")
+  (28, 1, 2, <8:9>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (116 NP_FRG_C 0.348848 0 2
+  (115 HDN_BNP_C 0.553262 0 2
+   (114 HDN-AJ_REDREL_C 0.648658 0 2
+    (113 ^N_PL_OLR -0.172328 0 1
+     (35 earnings_n1@n_-_c-pl_le 0.365973 0 1
+      ("earnings" 26
+       "token [ +CARG \"EARNINGS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"earnings\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (49 colon_namely_pp@pp_-_i-cln_le 0.0128037 1 2
+     (":" 24
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (N "earnings")) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:9>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:9>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _earnings_n_1<0:8>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<8:9>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:9>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:9>[BV x4]
+ x4:_earnings_n_1<0:8>{x PERS 3, NUM pl, IND +}[]
+ e9:_colon_p_namely<8:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:9> ARG _earnings_n_1<0:8>  
+  udef_q<0:9> BV _earnings_n_1<0:8>  
+  _colon_p_namely<8:9> ARG1 _earnings_n_1<0:8>  
+  unknown<0:9> SF prop-or-ques  
+  unknown<0:9> TENSE untensed  
+  unknown<0:9> MOOD indicative  
+  unknown<0:9> PROG -  
+  unknown<0:9> PERF -  
+  _earnings_n_1<0:8> PERS 3  
+  _earnings_n_1<0:8> NUM pl  
+  _earnings_n_1<0:8> IND +  
+  _colon_p_namely<8:9> SF prop  
+  _colon_p_namely<8:9> TENSE untensed  
+  _colon_p_namely<8:9> MOOD indicative  
+  _colon_p_namely<8:9> PROG -  
+  _colon_p_namely<8:9> PERF -  
+}
+

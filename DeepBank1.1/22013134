@@ -1,0 +1,186 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (05:00 h)).
+;;;
+
+[22013134] (1 of 1) {1} `"Briggs screamed," Mr. Windsor recalls.'
+
+[22013134:1] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "“", 0, "null", "``" 1.0)
+  (2, 1, 2, <1:7>, 1, "Briggs", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:16>, 1, "screamed", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <16:17>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <17:18>, 1, "”", 0, "null", "''" 1.0)
+  (6, 5, 6, <19:22>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (7, 6, 7, <23:30>, 1, "Windsor", 0, "null", "NNP" 1.0)
+  (8, 7, 8, <31:38>, 1, "recalls", 0, "null", "VBZ" 0.9876 "NNS" 0.0124)
+  (9, 8, 9, <38:39>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (102, 0, 1, <0:7>, 1, "“Briggs", 0, "null")
+  (109, 0, 1, <0:7>, 1, "“briggs", 0, "null")
+  (114, 0, 1, <0:7>, 1, "“briggs", 0, "null")
+  (99, 1, 2, <8:18>, 1, "screamed,”", 0, "null")
+  (106, 1, 2, <8:18>, 1, "screamed,”", 0, "null", "VBD" 1.0)
+  (112, 1, 2, <8:18>, 1, "screamed,”", 0, "null")
+  (85, 2, 3, <19:22>, 1, "Mr.", 0, "null")
+  (105, 2, 3, <19:22>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (108, 2, 3, <19:22>, 1, "mr.", 0, "null")
+  (111, 2, 3, <19:22>, 1, "mr.", 0, "null")
+  (84, 3, 4, <23:30>, 1, "Windsor", 0, "null")
+  (104, 3, 4, <23:30>, 1, "Windsor", 0, "null", "NNP" 1.0)
+  (107, 3, 4, <23:30>, 1, "windsor", 0, "null")
+  (110, 3, 4, <23:30>, 1, "windsor", 0, "null")
+  (100, 4, 5, <31:39>, 1, "recalls.", 0, "null")
+  (103, 4, 5, <31:39>, 1, "recalls.", 0, "null", "VBZ" 0.9876)
+  (113, 4, 5, <31:39>, 1, "recalls.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1457 FLR-HD_NWH_C 5.07788 0 5
+  (1456 SB-HD_NMC_C -1.03052 0 2
+   (1455 HDN_BNP-PN_C -1.86527 0 1
+    (1454 W_DQLEFT_PLR -1.58581 0 1
+     (1453 N_SG_ILR -0.905594 0 1
+      (119 generic_proper_ne@n_-_pn-gen_le 0 0 1
+       ("“Briggs" 102
+        "token [ +CARG \"Briggs\" +CLASS proper_ne +FORM \"“Briggs\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (1442 ^HD_OPTCMP_C 1.15863 1 2
+    (1441 W_DQRIGHT_PLR 1.81811 1 2
+     (1440 W_COMMA_PLR -0.605973 1 2
+      (1439 V_PST_OLR -0.407853 1 2
+       (144 scream_v1@v_np*_le 0 1 2
+        ("screamed,”" 99
+         "token [ +CARG \"screamed\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"screamed,”\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (1451 ^SB-HD_NMC_C 4.32566 2 5
+   (1447 HDN_BNP-PN_C 3.34691 2 4
+    (1446 NP-HDN_TTL-CPD_C 3.05522 2 4
+     (1444 N_SG_ILR 2.02901 2 3
+      (370 mister_abb_n2@n_-_c-nochd_le 0.509922 2 3
+       ("mr." 108
+        "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"mr.\" +FROM #1=\"19\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"6\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1445 ^N_SG_ILR -0.0982517 3 4
+      (375 windsor_n1@n_-_pn_le 0 3 4
+       ("windsor" 107
+        "token [ +CARG \"Windsor\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"windsor\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (1450 ^HD_XCMP_C 0.636479 4 5
+    (1449 W_PERIOD_PLR -0.173256 4 5
+     (1448 V_3S-FIN_OLR 0.653394 4 5
+      (385 recall_v2@v_cp_prop_le 0 4 5
+       ("recalls." 100
+        "token [ +CARG \"recalls\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"recalls.\" +FROM #1=\"31\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98757470000000003\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"39\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (S (NP (N (N (N "“Briggs")))) (VP (V (V (V (V "screamed,”"))))))
+ (S/S (NP (N (N (N "mr.")) (N (N "windsor"))))
+  (VP/S (V/S (V/S (V/S "recalls."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:39>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ proper_q<0:7>
+            LBL: h6
+            ARG0: x8 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h9 ]
+          [ named<0:7>
+            LBL: h10
+            ARG0: x8
+            CARG: "Briggs" ]
+          [ _scream_v_1<8:18>
+            LBL: h11
+            ARG0: e4
+            ARG1: x8
+            ARG2: p12 ]
+          [ proper_q<19:30>
+            LBL: h13
+            ARG0: x15 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h14
+            BODY: h16 ]
+          [ compound<19:30>
+            LBL: h17
+            ARG0: e19 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x15
+            ARG2: x18 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<19:22>
+            LBL: h20
+            ARG0: x18
+            RSTR: h21
+            BODY: h22 ]
+          [ _mister_n_1<19:22>
+            LBL: h23
+            ARG0: x18 ]
+          [ named<23:30>
+            LBL: h17
+            ARG0: x15
+            CARG: "Windsor" ]
+          [ _recall_v_1<31:39>
+            LBL: h2
+            ARG0: e3
+            ARG1: x15
+            ARG2: h24 ] >
+   HCONS: < h24 QEQ h11 h21 QEQ h23 h14 QEQ h17 h7 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:39>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ _1:proper_q<0:7>[BV x8]
+ x8:named<0:7>("Briggs"){x PERS 3, NUM sg, IND +}[]
+ e4:_scream_v_1<8:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x8]
+ _2:proper_q<19:30>[BV x15]
+ e19:compound<19:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 x18]
+ _3:udef_q<19:22>[BV x18]
+ x18:_mister_n_1<19:22>{x PERS 3, NUM sg, IND +}[]
+ x15:named<23:30>("Windsor"){x PERS 3, NUM sg, IND +}[]
+ e3:_recall_v_1<31:39>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x15, ARG2 e4]
+}
+
+{
+  focus_d<0:39> ARG1 _recall_v_1<31:39>  
+  focus_d<0:39> ARG2 _scream_v_1<8:18>  
+  proper_q<0:7> BV named<0:7>(Briggs)  
+  _scream_v_1<8:18> ARG1 named<0:7>(Briggs)  
+  proper_q<19:30> BV named<23:30>(Windsor)  
+  compound<19:30> ARG1 named<23:30>(Windsor)  
+  compound<19:30> ARG2 _mister_n_1<19:22>  
+  udef_q<19:22> BV _mister_n_1<19:22>  
+  _recall_v_1<31:39> ARG1 named<23:30>(Windsor)  
+  _recall_v_1<31:39> ARG2 _scream_v_1<8:18>  
+  focus_d<0:39> SF prop  
+  focus_d<0:39> TENSE untensed  
+  focus_d<0:39> MOOD indicative  
+  focus_d<0:39> PROG -  
+  focus_d<0:39> PERF -  
+  named<0:7>(Briggs) PERS 3  
+  named<0:7>(Briggs) NUM sg  
+  named<0:7>(Briggs) IND +  
+  _scream_v_1<8:18> SF prop  
+  _scream_v_1<8:18> TENSE past  
+  _scream_v_1<8:18> MOOD indicative  
+  _scream_v_1<8:18> PROG -  
+  _scream_v_1<8:18> PERF -  
+  compound<19:30> SF prop  
+  compound<19:30> TENSE untensed  
+  compound<19:30> MOOD indicative  
+  compound<19:30> PROG -  
+  compound<19:30> PERF -  
+  _mister_n_1<19:22> PERS 3  
+  _mister_n_1<19:22> NUM sg  
+  _mister_n_1<19:22> IND +  
+  named<23:30>(Windsor) PERS 3  
+  named<23:30>(Windsor) NUM sg  
+  named<23:30>(Windsor) IND +  
+  _recall_v_1<31:39> SF prop  
+  _recall_v_1<31:39> TENSE pres  
+  _recall_v_1<31:39> MOOD indicative  
+  _recall_v_1<31:39> PROG -  
+  _recall_v_1<31:39> PERF -  
+}
+

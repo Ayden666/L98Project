@@ -1,0 +1,117 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:01 h)).
+;;;
+
+[20989053] (1 of 1) {1} `HOLIDAY ADS:'
+
+[20989053:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "HOLIDAY", 0, "null", "NNP" 0.9338 "NN" 0.0662)
+  (2, 1, 2, <8:11>, 1, "ADS", 0, "null", "NNPS" 0.9361 "NNS" 0.0639)
+  (3, 2, 3, <11:12>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (31, 0, 1, <0:7>, 1, "HOLIDAY", 0, "null")
+  (43, 0, 1, <0:7>, 1, "HOLIDAY", 0, "null", "NNP" 0.9338)
+  (45, 0, 1, <0:7>, 1, "holiday", 0, "null")
+  (47, 0, 1, <0:7>, 1, "holiday", 0, "null")
+  (30, 1, 2, <8:11>, 1, "ADS", 0, "null")
+  (42, 1, 2, <8:11>, 1, "ADS", 0, "null", "NNPS" 0.9361)
+  (44, 1, 2, <8:11>, 1, "ads", 0, "null")
+  (46, 1, 2, <8:11>, 1, "ads", 0, "null")
+  (37, 2, 3, <11:12>, 1, ":", 0, "null")
+  (48, 2, 3, <11:12>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (286 NP-AJ_RORP-FRG_C 0.590269 0 3
+  (285 ^HDN_BNP_C -0.112209 0 2
+   (284 N-HDN_CPD_C 0.334017 0 2
+    (54 holiday_n1@n_-_c-day_le 0 0 1
+     ("holiday" 45
+      "token [ +CARG \"HOLIDAY\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"holiday\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.9337934\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (283 ^N_PL_OLR 0.334017 1 2
+     (58 ad_n1@n_-_c_le 0 1 2
+      ("ads" 44
+       "token [ +CARG \"ADS\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"ads\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93614280000000005\" +TAG \"NNPS\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (79 colon_namely_pp@pp_-_i-cln_le -0.196315 2 3
+   (":" 37
+    "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+
+(XP (NP (N (N "holiday") (N (N "ads")))) (PP ":"))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:12>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<0:11>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ udef_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _holiday_n_1<0:7>
+            LBL: h14
+            ARG0: x9 ]
+          [ _ad_n_1<8:11>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<11:12>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i15 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:11>[BV x4]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:7>[BV x9]
+ x9:_holiday_n_1<0:7>{x IND +}[]
+ x4:_ad_n_1<8:11>{x PERS 3, NUM pl, IND +}[]
+ e16:_colon_p_namely<11:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:12> ARG _ad_n_1<8:11>  
+  udef_q<0:11> BV _ad_n_1<8:11>  
+  compound<0:11> ARG1 _ad_n_1<8:11>  
+  compound<0:11> ARG2 _holiday_n_1<0:7>  
+  udef_q<0:7> BV _holiday_n_1<0:7>  
+  unknown<0:12> SF prop  
+  unknown<0:12> TENSE untensed  
+  unknown<0:12> MOOD indicative  
+  unknown<0:12> PROG -  
+  unknown<0:12> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _holiday_n_1<0:7> IND +  
+  _ad_n_1<8:11> PERS 3  
+  _ad_n_1<8:11> NUM pl  
+  _ad_n_1<8:11> IND +  
+  _colon_p_namely<11:12> SF prop  
+  _colon_p_namely<11:12> TENSE untensed  
+  _colon_p_namely<11:12> MOOD indicative  
+  _colon_p_namely<11:12> PROG -  
+  _colon_p_namely<11:12> PERF -  
+}
+

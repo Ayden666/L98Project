@@ -1,0 +1,240 @@
+;;;
+;;; Redwoods export of `wsj00a';
+;;; (wsun@wsun; 22-jan-2018 (10:09 h)).
+;;;
+
+[20024003] (1 of 1) {1} `Esso said the Whiting field started production Tuesday.'
+
+[20024003:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Esso", 0, "null", "NNP" 0.9628 "NN" 0.0372)
+  (2, 1, 2, <5:9>, 1, "said", 0, "null", "VBD" 1.0)
+  (3, 2, 3, <10:13>, 1, "the", 0, "null", "DT" 1.0)
+  (4, 3, 4, <14:21>, 1, "Whiting", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <22:27>, 1, "field", 0, "null", "NN" 1.0)
+  (6, 5, 6, <28:35>, 1, "started", 0, "null", "VBD" 0.9532 "VBN" 0.0468)
+  (7, 6, 7, <36:46>, 1, "production", 0, "null", "NN" 1.0)
+  (8, 7, 8, <47:54>, 1, "Tuesday", 0, "null", "NNP" 1.0)
+  (9, 8, 9, <54:55>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (108, 0, 1, <0:4>, 1, "Esso", 0, "null")
+  (117, 0, 1, <0:4>, 1, "esso", 0, "null")
+  (125, 0, 1, <0:4>, 1, "esso", 0, "null")
+  (95, 1, 2, <5:9>, 1, "said", 0, "null")
+  (111, 1, 2, <5:9>, 1, "said", 0, "null", "VBD" 1.0)
+  (120, 1, 2, <5:9>, 1, "said", 0, "null")
+  (97, 2, 3, <10:13>, 1, "the", 0, "null")
+  (121, 2, 3, <10:13>, 1, "the", 0, "null")
+  (84, 3, 4, <14:21>, 1, "Whiting", 0, "null")
+  (110, 3, 4, <14:21>, 1, "Whiting", 0, "null", "NNP" 1.0)
+  (115, 3, 4, <14:21>, 1, "whiting", 0, "null")
+  (118, 3, 4, <14:21>, 1, "whiting", 0, "null")
+  (99, 4, 5, <22:27>, 1, "field", 0, "null")
+  (112, 4, 5, <22:27>, 1, "field", 0, "null", "NN" 1.0)
+  (122, 4, 5, <22:27>, 1, "field", 0, "null")
+  (106, 5, 6, <28:35>, 1, "started", 0, "null")
+  (109, 5, 6, <28:35>, 1, "started", 0, "null", "VBD" 0.9532)
+  (124, 5, 6, <28:35>, 1, "started", 0, "null")
+  (101, 6, 7, <36:46>, 1, "production", 0, "null")
+  (113, 6, 7, <36:46>, 1, "production", 0, "null", "NN" 1.0)
+  (123, 6, 7, <36:46>, 1, "production", 0, "null")
+  (87, 7, 8, <47:55>, 1, "Tuesday.", 0, "null")
+  (114, 7, 8, <47:55>, 1, "Tuesday.", 0, "null", "NNP" 1.0)
+  (116, 7, 8, <47:55>, 1, "tuesday.", 0, "null")
+  (119, 7, 8, <47:55>, 1, "tuesday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (5267 SB-HD_MC_C 12.3166 0 8
+  (5247 HDN_BNP-PN_C 0.489307 0 1
+   (5246 N_SG_ILR 0.538263 0 1
+    (129 esso_n1@n_-_pn_le 0 0 1
+     ("esso" 117
+      "token [ +CARG \"Esso\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"esso\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96282690000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (5266 ^HD-CMP_U_C 10.8102 1 8
+   (5249 ^HD_OPTCMP_C 3.11345 1 2
+    (5248 V_PST_OLR 2.39931 1 2
+     (166 say_v2@v_pp*-cp_fin-imp_le 1.29431 1 2
+      ("said" 95
+       "token [ +CARG #1=\"said\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"5\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (5265 SB-HD_NMC_C 6.13759 2 8
+    (5254 SP-HD_N_C 3.5606 2 5
+     (378 the_1@d_-_the_le 1.07131 2 3
+      ("the" 97
+       "token [ +CARG #1=\"the\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (5253 ^NP-HDN_CPD_C 2.00287 3 5
+      (5250 HDN_BNP-PN_C -0.050883 3 4
+       (405 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Whiting" 84
+         "token [ +CARG #1=\"Whiting\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+      (5252 ^HDN_OPTCMP_C 1.49795 4 5
+       (5251 N_SG_ILR 1.7414 4 5
+        (420 field_n1@n_pp_c-of_le 0.30003 4 5
+         ("field" 99
+          "token [ +CARG #1=\"field\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+    (5264 ^HD-AJ_INT-UNSL_C 2.38555 5 8
+     (5259 ^HD-CMP_U_C 0.278175 5 7
+      (5255 ^V_PST_OLR 0.662875 5 6
+       (453 start_v1@v_np_noger_le 0.342888 5 6
+        ("started" 106
+         "token [ +CARG #1=\"started\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95318970000000003\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (5258 HDN_BNP_C -1.24446 6 7
+       (5257 HDN_OPTCMP_C -0.783956 6 7
+        (5256 N_MS-CNT_ILR 0.118903 6 7
+         (679 production_n1@n_pp_mc-of_le -0.006026 6 7
+          ("production" 101
+           "token [ +CARG #1=\"production\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+     (5263 NP_ADV_C 1.43034 7 8
+      (5262 HDN_BNP-PN_C 0.703688 7 8
+       (5261 W_PERIOD_PLR 0.346801 7 8
+        (5260 N_SG_ILR -0.367837 7 8
+         (688 tuesday_n1@n_-_c-dow_le 0 7 8
+          ("tuesday." 116
+           "token [ +CARG \"Tuesday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"tuesday.\" +FROM #1=\"47\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"55\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "esso")))
+ (VP (V (V (V "said")))
+  (S (NP (DET "the") (N (NP (N "Whiting")) (N (N (N "field")))))
+   (VP (VP (V (V "started")) (NP (N (N (N "production")))))
+    (PP (NP (N (N (N "tuesday.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:4>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:4>
+            LBL: h8
+            ARG0: x6
+            CARG: "Esso" ]
+          [ _say_v_to<5:9>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h10
+            ARG3: i9 ]
+          [ _the_q<10:13>
+            LBL: h11
+            ARG0: x13 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h14
+            BODY: h12 ]
+          [ compound<14:27>
+            LBL: h15
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x16 [ x IND: + ] ]
+          [ proper_q<14:21>
+            LBL: h18
+            ARG0: x16
+            RSTR: h19
+            BODY: h20 ]
+          [ named<14:21>
+            LBL: h21
+            ARG0: x16
+            CARG: "Whiting" ]
+          [ _field_n_of<22:27>
+            LBL: h15
+            ARG0: x13
+            ARG1: i22 ]
+          [ _start_v_cause<28:35>
+            LBL: h23
+            ARG0: e24 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x25 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<36:46>
+            LBL: h26
+            ARG0: x25
+            RSTR: h27
+            BODY: h28 ]
+          [ _production_n_of<36:46>
+            LBL: h29
+            ARG0: x25
+            ARG1: i30 ]
+          [ loc_nonsp<47:55>
+            LBL: h23
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e24
+            ARG2: x32 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<47:55>
+            LBL: h33
+            ARG0: x32
+            RSTR: h34
+            BODY: h35 ]
+          [ dofw<47:55>
+            LBL: h36
+            ARG0: x32
+            CARG: "Tue" ] >
+   HCONS: < h34 QEQ h36 h27 QEQ h29 h19 QEQ h21 h14 QEQ h15 h10 QEQ h23 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:4>[BV x6]
+ x6:named<0:4>("Esso"){x PERS 3, NUM sg, IND +}[]
+ e3:_say_v_to<5:9>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e24]
+ _2:_the_q<10:13>[BV x13]
+ e17:compound<14:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x16]
+ _3:proper_q<14:21>[BV x16]
+ x16:named<14:21>("Whiting"){x IND +}[]
+ x13:_field_n_of<22:27>{x PERS 3, NUM sg, IND +}[]
+ e24:_start_v_cause<28:35>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x25]
+ _4:udef_q<36:46>[BV x25]
+ x25:_production_n_of<36:46>{x PERS 3, NUM sg}[]
+ e31:loc_nonsp<47:55>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e24, ARG2 x32]
+ _5:proper_q<47:55>[BV x32]
+ x32:dofw<47:55>("Tue"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  proper_q<0:4> BV named<0:4>(Esso)  
+  _say_v_to<5:9> ARG1 named<0:4>(Esso)  
+  _say_v_to<5:9> ARG2 _start_v_cause<28:35>  
+  _the_q<10:13> BV _field_n_of<22:27>  
+  compound<14:27> ARG1 _field_n_of<22:27>  
+  compound<14:27> ARG2 named<14:21>(Whiting)  
+  proper_q<14:21> BV named<14:21>(Whiting)  
+  _start_v_cause<28:35> ARG1 _field_n_of<22:27>  
+  _start_v_cause<28:35> ARG2 _production_n_of<36:46>  
+  udef_q<36:46> BV _production_n_of<36:46>  
+  loc_nonsp<47:55> ARG1 _start_v_cause<28:35>  
+  loc_nonsp<47:55> ARG2 dofw<47:55>(Tue)  
+  proper_q<47:55> BV dofw<47:55>(Tue)  
+  named<0:4>(Esso) PERS 3  
+  named<0:4>(Esso) NUM sg  
+  named<0:4>(Esso) IND +  
+  _say_v_to<5:9> SF prop  
+  _say_v_to<5:9> TENSE past  
+  _say_v_to<5:9> MOOD indicative  
+  _say_v_to<5:9> PROG -  
+  _say_v_to<5:9> PERF -  
+  compound<14:27> SF prop  
+  compound<14:27> TENSE untensed  
+  compound<14:27> MOOD indicative  
+  compound<14:27> PROG -  
+  compound<14:27> PERF -  
+  named<14:21>(Whiting) IND +  
+  _field_n_of<22:27> PERS 3  
+  _field_n_of<22:27> NUM sg  
+  _field_n_of<22:27> IND +  
+  _start_v_cause<28:35> SF prop  
+  _start_v_cause<28:35> TENSE past  
+  _start_v_cause<28:35> MOOD indicative  
+  _start_v_cause<28:35> PROG -  
+  _start_v_cause<28:35> PERF -  
+  _production_n_of<36:46> PERS 3  
+  _production_n_of<36:46> NUM sg  
+  loc_nonsp<47:55> SF prop  
+  loc_nonsp<47:55> TENSE untensed  
+  loc_nonsp<47:55> MOOD indicative  
+  loc_nonsp<47:55> PROG -  
+  loc_nonsp<47:55> PERF -  
+  dofw<47:55>(Tue) PERS 3  
+  dofw<47:55>(Tue) NUM sg  
+  dofw<47:55>(Tue) IND +  
+}
+

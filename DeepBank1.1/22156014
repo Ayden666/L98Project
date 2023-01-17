@@ -1,0 +1,224 @@
+;;;
+;;; Redwoods export of `wsj21c';
+;;; (wsun@wsun; 23-jan-2018 (06:27 h)).
+;;;
+
+[22156014] (1 of 1) {1} `International soft-drink volume was up about 6%.'
+
+[22156014:0] (active)
+
+<
+  (1, 0, 1, <0:13>, 1, "International", 0, "null", "NNP" 0.8791 "JJ" 0.1209)
+  (2, 1, 2, <14:24>, 1, "soft-drink", 0, "null", "NN" 0.7965 "JJ" 0.2035)
+  (3, 2, 3, <25:31>, 1, "volume", 0, "null", "NN" 1.0)
+  (4, 3, 4, <32:35>, 1, "was", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <36:38>, 1, "up", 0, "null", "RP" 0.5925 "RB" 0.3169 "IN" 0.0906)
+  (6, 5, 6, <39:44>, 1, "about", 0, "null", "IN" 0.7288 "RB" 0.2712)
+  (7, 6, 7, <45:46>, 1, "6", 0, "null", "CD" 1.0)
+  (8, 7, 8, <46:47>, 1, "%", 0, "null", "NN" 1.0)
+  (9, 8, 9, <47:48>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (114, 0, 1, <0:13>, 1, "International", 0, "null")
+  (120, 0, 1, <0:13>, 1, "International", 0, "null", "JJ" 0.1209)
+  (122, 0, 1, <0:13>, 1, "international", 0, "null")
+  (131, 0, 1, <0:13>, 1, "international", 0, "null")
+  (103, 1, 2, <14:24>, 1, "soft-", 0, "null")
+  (119, 1, 2, <14:24>, 1, "soft-", 0, "null", "NN" 1.0)
+  (126, 1, 2, <14:24>, 1, "soft-", 0, "null")
+  (111, 2, 3, <14:24>, 1, "drink", 0, "null")
+  (115, 2, 3, <14:24>, 1, "drink", 0, "null", "NN" 0.7965)
+  (130, 2, 3, <14:24>, 1, "drink", 0, "null")
+  (99, 3, 4, <25:31>, 1, "volume", 0, "null")
+  (117, 3, 4, <25:31>, 1, "volume", 0, "null", "NN" 1.0)
+  (124, 3, 4, <25:31>, 1, "volume", 0, "null")
+  (101, 4, 5, <32:35>, 1, "was", 0, "null")
+  (118, 4, 5, <32:35>, 1, "was", 0, "null", "VBD" 1.0)
+  (125, 4, 5, <32:35>, 1, "was", 0, "null")
+  (108, 5, 6, <36:38>, 1, "up", 0, "null")
+  (116, 5, 6, <36:38>, 1, "up", 0, "null", "RB" 0.3169)
+  (128, 5, 6, <36:38>, 1, "up", 0, "null")
+  (109, 6, 7, <39:44>, 1, "about", 0, "null")
+  (121, 6, 7, <39:44>, 1, "about", 0, "null", "RB" 0.2712)
+  (129, 6, 7, <39:44>, 1, "about", 0, "null")
+  (84, 7, 8, <45:46>, 1, "6", 0, "null")
+  (123, 7, 8, <45:46>, 1, "6", 0, "null")
+  (105, 8, 9, <46:48>, 1, "%.", 0, "null")
+  (127, 8, 9, <46:48>, 1, "%.", 0, "null")
+>
+
+(ROOT_STRICT
+ (3904 SB-HD_MC_C 13.8957 0 9
+  (3896 HDN_BNP_C 5.73599 0 4
+   (3895 AJ-HDN_NORM_C 5.00149 0 4
+    (134 international_a1@aj_-_i_le -0.512425 0 1
+     ("international" 122
+      "token [ +CARG \"International\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"international\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.87908629999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3894 ^N-HDN_CPD_C 4.53984 1 4
+     (3891 XP_BRCK-PR_C 3.20879 1 3
+      (3890 AJ-HDN_NORM_C 2.37043 1 3
+       (3889 W_HYPHEN_PLR 0.89738 1 2
+        (136 soft_a1@aj_-_i-er_le 0 1 2
+         ("soft-" 103
+          "token [ +CARG #1=\"soft-\" +CLASS alphanumeric [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+       (143 drink_n1@n_-_mc_le 0 2 3
+        ("drink" 111
+         "token [ +CARG #1=\"drink\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.79653629999999997\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))
+     (3893 ^HDN_OPTCMP_C 1.34859 3 4
+      (3892 N_MS-CNT_ILR 1.47232 3 4
+       (148 volume_n1@n_pp_mc-of_le 1.04759 3 4
+        ("volume" 99
+         "token [ +CARG #1=\"volume\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"25\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+  (3903 ^HD-CMP_U_C 6.64376 4 9
+   (154 be_c_was@v_prd_was_le 1.85482 4 5
+    ("was" 101
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"32\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (3902 HD-CMP_U_C 4.53625 5 9
+    (252 up_vmod@p_np_i-nnm-nt_le -1.16639 5 6
+     ("up" 108
+      "token [ +CARG #1=\"up\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.59248350000000005\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (3901 SP-HD_HC_C 5.19486 6 9
+     (425 about_deg@av_-_dg-jomv_le 0.55372 6 7
+      ("about" 109
+       "token [ +CARG #1=\"about\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.72877060000000005\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (3900 ^HDN_BNP_C 3.54206 7 9
+      (3899 NUM-N_MNP_C 1.69266 7 9
+       (453 generic_card_ne@aj_-_i-crd-gen_le 0 7 8
+        ("6" 84
+         "token [ +CARG #1=\"6\" +CLASS card_or_dom_ne +FORM #1 +FROM \"45\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"46\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+       (3898 ^W_PERIOD_PLR 1.02943 8 9
+        (3897 N_PL_OLR 0.482577 8 9
+         (457 percent_char_n1@n_-_c-meas-spr_le 0.328883 8 9
+          ("%." 105
+           "token [ +CARG \"%\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"%.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"48\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S
+ (NP
+  (N (AP "international")
+   (N (N (N (AP (AP "soft-")) (N "drink"))) (N (N (N "volume"))))))
+ (VP (V "was")
+  (PP (P "up") (NP (ADV "about") (NP (N (ADJ "6") (N (N (N "%.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:31>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _international_a_1<0:13>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ compound<14:31>
+            LBL: h8
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x10 ]
+          [ udef_q<14:24>
+            LBL: h12
+            ARG0: x10
+            RSTR: h13
+            BODY: h14 ]
+          [ _soft_a_1<14:24>
+            LBL: h15
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10 ]
+          [ _drink_n_1<14:24>
+            LBL: h15
+            ARG0: x10 ]
+          [ _volume_n_of<25:31>
+            LBL: h8
+            ARG0: x6
+            ARG1: i17 ]
+          [ _up_p<36:38>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x18 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ _about_x_deg<39:44>
+            LBL: h19
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: u21 ]
+          [ udef_q<45:48>
+            LBL: h19
+            ARG0: x18
+            RSTR: h22
+            BODY: h23 ]
+          [ card<45:46>
+            LBL: h24
+            ARG0: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x18
+            CARG: "6" ]
+          [ _percent_n_of<46:48>
+            LBL: h24
+            ARG0: x18 ] >
+   HCONS: < h22 QEQ h24 h13 QEQ h15 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:31>[BV x6]
+ e9:_international_a_1<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:compound<14:31>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<14:24>[BV x10]
+ e16:_soft_a_1<14:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_drink_n_1<14:24>{x}[]
+ x6:_volume_n_of<25:31>{x PERS 3, NUM sg}[]
+ e3:_up_p<36:38>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x18]
+ e20:_about_x_deg<39:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 _3]
+ _3:udef_q<45:48>[BV x18]
+ e25:card<45:46>("6"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x18]
+ x18:_percent_n_of<46:48>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  udef_q<0:31> BV _volume_n_of<25:31>  
+  _international_a_1<0:13> ARG1 _volume_n_of<25:31>  
+  compound<14:31> ARG1 _volume_n_of<25:31>  
+  compound<14:31> ARG2 _drink_n_1<14:24>  
+  udef_q<14:24> BV _drink_n_1<14:24>  
+  _soft_a_1<14:24> ARG1 _drink_n_1<14:24>  
+  _up_p<36:38> ARG1 _volume_n_of<25:31>  
+  _up_p<36:38> ARG2 _percent_n_of<46:48>  
+  _about_x_deg<39:44> ARG1 udef_q<45:48>  
+  udef_q<45:48> BV _percent_n_of<46:48>  
+  card<45:46>(6) ARG1 _percent_n_of<46:48>  
+  _international_a_1<0:13> SF prop  
+  _international_a_1<0:13> TENSE untensed  
+  _international_a_1<0:13> MOOD indicative  
+  _international_a_1<0:13> PROG -  
+  _international_a_1<0:13> PERF -  
+  compound<14:31> SF prop  
+  compound<14:31> TENSE untensed  
+  compound<14:31> MOOD indicative  
+  compound<14:31> PROG -  
+  compound<14:31> PERF -  
+  _soft_a_1<14:24> SF prop  
+  _soft_a_1<14:24> TENSE untensed  
+  _soft_a_1<14:24> MOOD indicative  
+  _soft_a_1<14:24> PROG -  
+  _soft_a_1<14:24> PERF -  
+  _volume_n_of<25:31> PERS 3  
+  _volume_n_of<25:31> NUM sg  
+  _up_p<36:38> SF prop  
+  _up_p<36:38> TENSE past  
+  _up_p<36:38> MOOD indicative  
+  _up_p<36:38> PROG -  
+  _up_p<36:38> PERF -  
+  _about_x_deg<39:44> SF prop  
+  _about_x_deg<39:44> TENSE untensed  
+  _about_x_deg<39:44> MOOD indicative  
+  _about_x_deg<39:44> PROG -  
+  _about_x_deg<39:44> PERF -  
+  card<45:46>(6) SF prop  
+  card<45:46>(6) TENSE untensed  
+  card<45:46>(6) MOOD indicative  
+  card<45:46>(6) PROG -  
+  card<45:46>(6) PERF -  
+  _percent_n_of<46:48> PERS 3  
+  _percent_n_of<46:48> NUM pl  
+  _percent_n_of<46:48> IND +  
+}
+

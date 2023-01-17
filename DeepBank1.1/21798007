@@ -1,0 +1,175 @@
+;;;
+;;; Redwoods export of `wsj17d';
+;;; (wsun@wsun; 23-jan-2018 (02:53 h)).
+;;;
+
+[21798007] (1 of 1) {1} `-- Marrill J. Pederson.'
+
+[21798007:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "–", 0, "null", ":" 1.0)
+  (2, 1, 2, <3:10>, 1, "Marrill", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:13>, 1, "J.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <14:22>, 1, "Pederson", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <22:23>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:2>, 1, "–", 0, "null")
+  (68, 0, 1, <0:2>, 1, "–", 0, "null")
+  (60, 1, 2, <3:10>, 1, "Marrill", 0, "null")
+  (64, 1, 2, <3:10>, 1, "marrill", 0, "null")
+  (69, 1, 2, <3:10>, 1, "marrill", 0, "null")
+  (49, 2, 3, <11:13>, 1, "J.", 0, "null")
+  (61, 2, 3, <11:13>, 1, "J.", 0, "null", "NNP" 1.0)
+  (63, 2, 3, <11:13>, 1, "j.", 0, "null")
+  (66, 2, 3, <11:13>, 1, "j.", 0, "null")
+  (51, 3, 4, <14:23>, 1, "Pederson.", 0, "null")
+  (62, 3, 4, <14:23>, 1, "Pederson.", 0, "null", "NNP" 1.0)
+  (65, 3, 4, <14:23>, 1, "pederson.", 0, "null")
+  (67, 3, 4, <14:23>, 1, "pederson.", 0, "null")
+>
+
+(ROOT_FRAG
+ (350 AJ-HD_SCP-XP_C 4.19974 0 4
+  (73 dbl_dash_s_root_pre3@av_-_dc-pr_le 0.069421 0 1
+   ("–" 57
+    "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+  (349 ^NP_FRG_C 3.31072 1 4
+   (348 HDN_BNP-PN_C 3.92823 1 4
+    (347 NP-HDN_NME-CPD_C 3.87584 1 4
+     (344 HDN_BNP-PN_C 2.27528 1 3
+      (343 NP-HDN_NME-CPD_C 1.92737 1 3
+       (341 HDN_BNP-PN_C 0.365523 1 2
+        (340 N_SG_ILR -0.386912 1 2
+         (81 generic_proper_ne@n_-_pn-gen_le 0 1 2
+          ("Marrill" 60
+           "token [ +CARG #1=\"Marrill\" +CLASS proper_ne +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+       (342 ^N_SG_ILR 0.0459512 2 3
+        (91 j_period_np1@n_-_pn_le 0.648813 2 3
+         ("j." 63
+          "token [ +CARG \"J.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"j.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+     (346 ^W_PERIOD_PLR 1.02066 3 4
+      (345 N_SG_ILR 0.466069 3 4
+       (96 generic_proper_ne@n_-_pn-gen_le 0 3 4
+        ("Pederson." 51
+         "token [ +CARG \"Pederson\" +CLASS proper_ne +FORM \"Pederson.\" +FROM \"14\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(XP (ADV "–")
+ (XP
+  (NP
+   (N (NP (N (NP (N (N "Marrill"))) (N (N "j."))))
+    (N (N (N "Pederson.")))))))
+
+
+ [ TOP: h1
+   INDEX: i3
+   RELS: <
+          [ excl<0:2>
+            LBL: h4
+            ARG0: i5
+            CARG: "s-dash" ]
+          [ discourse<0:2>
+            LBL: h2
+            ARG0: i3
+            L-HNDL: h4
+            L-INDEX: i5
+            R-HNDL: h7
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<3:23>
+            LBL: h7
+            ARG0: e6
+            ARG: x8 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:23>
+            LBL: h9
+            ARG0: x8
+            RSTR: h10
+            BODY: h11 ]
+          [ compound<3:23>
+            LBL: h12
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x8
+            ARG2: x13 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:13>
+            LBL: h15
+            ARG0: x13
+            RSTR: h16
+            BODY: h17 ]
+          [ compound<3:13>
+            LBL: h18
+            ARG0: e20 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x13
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:10>
+            LBL: h21
+            ARG0: x19
+            RSTR: h22
+            BODY: h23 ]
+          [ named<3:10>
+            LBL: h24
+            ARG0: x19
+            CARG: "Marrill" ]
+          [ named<11:13>
+            LBL: h18
+            ARG0: x13
+            CARG: "J" ]
+          [ named<14:23>
+            LBL: h12
+            ARG0: x8
+            CARG: "Pederson" ] >
+   HCONS: < h22 QEQ h24 h16 QEQ h18 h10 QEQ h12 h1 QEQ h2 > ]
+
+{i3:
+ i5:excl<0:2>("s-dash"){i}[]
+ i3:discourse<0:2>{i}[L-HNDL i5, L-INDEX i5, R-HNDL e6, R-INDEX e6]
+ e6:unknown<3:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x8]
+ _1:proper_q<3:23>[BV x8]
+ e14:compound<3:23>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x8, ARG2 x13]
+ _2:proper_q<3:13>[BV x13]
+ e20:compound<3:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x13, ARG2 x19]
+ _3:proper_q<3:10>[BV x19]
+ x19:named<3:10>("Marrill"){x PERS 3, NUM sg, IND +}[]
+ x13:named<11:13>("J"){x PERS 3, NUM sg, IND +}[]
+ x8:named<14:23>("Pederson"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  discourse<0:2> L-HNDL excl<0:2>(s-dash)  
+  discourse<0:2> L-INDEX excl<0:2>(s-dash)  
+  discourse<0:2> R-HNDL unknown<3:23>  
+  discourse<0:2> R-INDEX unknown<3:23>  
+  unknown<3:23> ARG named<14:23>(Pederson)  
+  proper_q<3:23> BV named<14:23>(Pederson)  
+  compound<3:23> ARG1 named<14:23>(Pederson)  
+  compound<3:23> ARG2 named<11:13>(J)  
+  proper_q<3:13> BV named<11:13>(J)  
+  compound<3:13> ARG1 named<11:13>(J)  
+  compound<3:13> ARG2 named<3:10>(Marrill)  
+  proper_q<3:10> BV named<3:10>(Marrill)  
+  unknown<3:23> SF prop  
+  unknown<3:23> TENSE untensed  
+  unknown<3:23> MOOD indicative  
+  unknown<3:23> PROG -  
+  unknown<3:23> PERF -  
+  compound<3:23> SF prop  
+  compound<3:23> TENSE untensed  
+  compound<3:23> MOOD indicative  
+  compound<3:23> PROG -  
+  compound<3:23> PERF -  
+  compound<3:13> SF prop  
+  compound<3:13> TENSE untensed  
+  compound<3:13> MOOD indicative  
+  compound<3:13> PROG -  
+  compound<3:13> PERF -  
+  named<3:10>(Marrill) PERS 3  
+  named<3:10>(Marrill) NUM sg  
+  named<3:10>(Marrill) IND +  
+  named<11:13>(J) PERS 3  
+  named<11:13>(J) NUM sg  
+  named<11:13>(J) IND +  
+  named<14:23>(Pederson) PERS 3  
+  named<14:23>(Pederson) NUM sg  
+  named<14:23>(Pederson) IND +  
+}
+

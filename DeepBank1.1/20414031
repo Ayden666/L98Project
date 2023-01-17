@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:48 h)).
+;;;
+
+[20414031] (1 of 1) {1} `CORPORATE DOWNSIZING digs deeper.'
+
+[20414031:4] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "CORPORATE", 0, "null", "JJ" 1.0)
+  (2, 1, 2, <10:20>, 1, "DOWNSIZING", 0, "null", "NN" 1.0)
+  (3, 2, 3, <21:25>, 1, "digs", 0, "null", "VBZ" 0.8285 "NNS" 0.1715)
+  (4, 3, 4, <26:32>, 1, "deeper", 0, "null", "JJR" 0.639 "RBR" 0.361)
+  (5, 4, 5, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (49, 0, 1, <0:9>, 1, "CORPORATE", 0, "null")
+  (66, 0, 1, <0:9>, 1, "CORPORATE", 0, "null", "JJ" 1.0)
+  (69, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (71, 0, 1, <0:9>, 1, "corporate", 0, "null")
+  (48, 1, 2, <10:20>, 1, "DOWNSIZING", 0, "null")
+  (65, 1, 2, <10:20>, 1, "DOWNSIZING", 0, "null", "NN" 1.0)
+  (68, 1, 2, <10:20>, 1, "downsizing", 0, "null")
+  (70, 1, 2, <10:20>, 1, "downsizing", 0, "null")
+  (59, 2, 3, <21:25>, 1, "digs", 0, "null")
+  (63, 2, 3, <21:25>, 1, "digs", 0, "null", "VBZ" 0.8285)
+  (67, 2, 3, <21:25>, 1, "digs", 0, "null", "NNS" 0.1715)
+  (72, 2, 3, <21:25>, 1, "digs", 0, "null")
+  (61, 3, 4, <26:33>, 1, "deeper.", 0, "null")
+  (64, 3, 4, <26:33>, 1, "deeper.", 0, "null", "JJR" 0.639)
+  (73, 3, 4, <26:33>, 1, "deeper.", 0, "null")
+>
+
+(ROOT_STRICT
+ (764 SB-HD_MC_C 1.83825 0 4
+  (763 HDN_BNP-PN_C 0.272852 0 2
+   (762 AJ-HDN_NORM_C 0.375804 0 2
+    (78 corporate_isect@aj_-_i_le 0.506433 0 1
+     ("corporate" 69
+      "token [ +CARG \"CORPORATE\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL + ] +FORM \"corporate\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (741 ^N_SG_ILR -0.143257 1 2
+     (79 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("DOWNSIZING" 48
+       "token [ +CARG #1=\"DOWNSIZING\" +CLASS proper_ne +FORM #1 +FROM \"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (747 ^HD-AJ_INT-UNSL_C 1.0779 2 4
+   (745 ^HD_OPTCMP_C -0.0336744 2 3
+    (744 V_3S-FIN_OLR -0.450989 2 3
+     (97 dig_v1@v_np*_le 0 2 3
+      ("digs" 59
+       "token [ +CARG #1=\"digs\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.82850210000000002\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (746 W_PERIOD_PLR 0.601349 3 4
+    (115 deeper_adv1@av_-_i-vp_le 0 3 4
+     ("deeper." 61
+      "token [ +CARG \"deeper\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"deeper.\" +FROM #1=\"26\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.63903069999999995\" +TAG \"JJR\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (N (AP "corporate") (N (N "DOWNSIZING"))))
+ (VP (VP (V (V "digs"))) (ADV (ADV "deeper."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ _corporate_a_1<0:9>
+            LBL: h8
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ named<10:20>
+            LBL: h8
+            ARG0: x6
+            CARG: "DOWNSIZING" ]
+          [ _dig_v_1<21:25>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: p10 ]
+          [ _deeper_a_1<26:33>
+            LBL: h2
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:20>[BV x6]
+ e9:_corporate_a_1<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:named<10:20>("DOWNSIZING"){x PERS 3, NUM sg, IND +}[]
+ e3:_dig_v_1<21:25>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e11:_deeper_a_1<26:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  proper_q<0:20> BV named<10:20>(DOWNSIZING)  
+  _corporate_a_1<0:9> ARG1 named<10:20>(DOWNSIZING)  
+  _dig_v_1<21:25> ARG1 named<10:20>(DOWNSIZING)  
+  _deeper_a_1<26:33> ARG1 _dig_v_1<21:25>  
+  _corporate_a_1<0:9> SF prop  
+  _corporate_a_1<0:9> TENSE untensed  
+  _corporate_a_1<0:9> MOOD indicative  
+  _corporate_a_1<0:9> PROG -  
+  _corporate_a_1<0:9> PERF -  
+  named<10:20>(DOWNSIZING) PERS 3  
+  named<10:20>(DOWNSIZING) NUM sg  
+  named<10:20>(DOWNSIZING) IND +  
+  _dig_v_1<21:25> SF prop  
+  _dig_v_1<21:25> TENSE pres  
+  _dig_v_1<21:25> MOOD indicative  
+  _dig_v_1<21:25> PROG -  
+  _dig_v_1<21:25> PERF -  
+  _deeper_a_1<26:33> SF prop  
+  _deeper_a_1<26:33> TENSE untensed  
+  _deeper_a_1<26:33> MOOD indicative  
+  _deeper_a_1<26:33> PROG -  
+  _deeper_a_1<26:33> PERF -  
+}
+

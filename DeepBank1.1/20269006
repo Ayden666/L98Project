@@ -1,0 +1,148 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:29 h)).
+;;;
+
+[20269006] (1 of 1) {1} `Virginia M.W. Gardiner'
+
+[20269006:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Virginia", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:13>, 1, "M.W.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <14:22>, 1, "Gardiner", 0, "null", "NNP" 1.0)
+>
+
+<
+  (38, 0, 1, <0:8>, 1, "Virginia", 0, "null")
+  (42, 0, 1, <0:8>, 1, "virginia", 0, "null")
+  (46, 0, 1, <0:8>, 1, "virginia", 0, "null")
+  (31, 1, 2, <9:13>, 1, "M.W.", 0, "null")
+  (40, 1, 2, <9:13>, 1, "M.W.", 0, "null", "NNP" 1.0)
+  (43, 1, 2, <9:13>, 1, "m.w.", 0, "null")
+  (45, 1, 2, <9:13>, 1, "m.w.", 0, "null")
+  (30, 2, 3, <14:22>, 1, "Gardiner", 0, "null")
+  (39, 2, 3, <14:22>, 1, "Gardiner", 0, "null", "NNP" 1.0)
+  (41, 2, 3, <14:22>, 1, "gardiner", 0, "null")
+  (44, 2, 3, <14:22>, 1, "gardiner", 0, "null")
+>
+
+(ROOT_FRAG
+ (205 NP_FRG_C 1.31221 0 3
+  (204 HDN_BNP-PN_C 2.45872 0 3
+   (203 NP-HDN_NME-CPD_C 2.49803 0 3
+    (201 HDN_BNP-PN_C 2.30669 0 2
+     (200 NP-HDN_NME-CPD_C 1.95878 0 2
+      (198 HDN_BNP-PN_C 0.586141 0 1
+       (197 N_SG_ILR -0.166294 0 1
+        (50 virginia_n1@n_-_pn_le 0 0 1
+         ("virginia" 42
+          "token [ +CARG \"Virginia\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"virginia\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (199 ^N_SG_ILR -0.143257 1 2
+       (52 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("M.W." 31
+         "token [ +CARG #1=\"M.W.\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+    (202 ^N_SG_ILR -0.143257 2 3
+     (59 generic_proper_ne@n_-_pn-gen_le 0 2 3
+      ("Gardiner" 30
+       "token [ +CARG #1=\"Gardiner\" +CLASS proper_ne +FORM #1 +FROM \"14\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP
+ (NP
+  (N (NP (N (NP (N (N "virginia"))) (N (N "M.W."))))
+   (N (N "Gardiner")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:22>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:22>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:22>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:13>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:13>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:8>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:8>
+            LBL: h20
+            ARG0: x15
+            CARG: "Virginia" ]
+          [ named<9:13>
+            LBL: h14
+            ARG0: x9
+            CARG: "M.W." ]
+          [ named<14:22>
+            LBL: h8
+            ARG0: x4
+            CARG: "Gardiner" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:22>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:22>[BV x4]
+ e10:compound<0:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:13>[BV x9]
+ e16:compound<0:13>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:8>[BV x15]
+ x15:named<0:8>("Virginia"){x PERS 3, NUM sg, IND +}[]
+ x9:named<9:13>("M.W."){x PERS 3, NUM sg, IND +}[]
+ x4:named<14:22>("Gardiner"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:22> ARG named<14:22>(Gardiner)  
+  proper_q<0:22> BV named<14:22>(Gardiner)  
+  compound<0:22> ARG1 named<14:22>(Gardiner)  
+  compound<0:22> ARG2 named<9:13>(M.W.)  
+  proper_q<0:13> BV named<9:13>(M.W.)  
+  compound<0:13> ARG1 named<9:13>(M.W.)  
+  compound<0:13> ARG2 named<0:8>(Virginia)  
+  proper_q<0:8> BV named<0:8>(Virginia)  
+  unknown<0:22> SF prop-or-ques  
+  unknown<0:22> TENSE untensed  
+  unknown<0:22> MOOD indicative  
+  unknown<0:22> PROG -  
+  unknown<0:22> PERF -  
+  compound<0:22> SF prop  
+  compound<0:22> TENSE untensed  
+  compound<0:22> MOOD indicative  
+  compound<0:22> PROG -  
+  compound<0:22> PERF -  
+  compound<0:13> SF prop  
+  compound<0:13> TENSE untensed  
+  compound<0:13> MOOD indicative  
+  compound<0:13> PROG -  
+  compound<0:13> PERF -  
+  named<0:8>(Virginia) PERS 3  
+  named<0:8>(Virginia) NUM sg  
+  named<0:8>(Virginia) IND +  
+  named<9:13>(M.W.) PERS 3  
+  named<9:13>(M.W.) NUM sg  
+  named<9:13>(M.W.) IND +  
+  named<14:22>(Gardiner) PERS 3  
+  named<14:22>(Gardiner) NUM sg  
+  named<14:22>(Gardiner) IND +  
+}
+

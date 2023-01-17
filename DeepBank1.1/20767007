@@ -1,0 +1,204 @@
+;;;
+;;; Redwoods export of `wsj07c';
+;;; (wsun@wsun; 22-jan-2018 (17:38 h)).
+;;;
+
+[20767007] (1 of 1) {1} `The FCC took three specific actions regarding AT&T.'
+
+[20767007:1] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 0.9844 "NNP" 0.0156)
+  (2, 1, 2, <4:7>, 1, "FCC", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:12>, 1, "took", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <13:18>, 1, "three", 0, "null", "CD" 1.0)
+  (5, 4, 5, <19:27>, 1, "specific", 0, "null", "JJ" 0.9576 "NN" 0.0424)
+  (6, 5, 6, <28:35>, 1, "actions", 0, "null", "NNS" 1.0)
+  (7, 6, 7, <36:45>, 1, "regarding", 0, "null", "VBG" 1.0)
+  (8, 7, 8, <46:50>, 1, "AT&T", 0, "null", "NNP" 0.9158 "NN" 0.0842)
+  (9, 8, 9, <50:51>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (115, 0, 1, <0:3>, 1, "the", 0, "null")
+  (125, 0, 1, <0:3>, 1, "the", 0, "null")
+  (83, 1, 2, <4:7>, 1, "FCC", 0, "null")
+  (109, 1, 2, <4:7>, 1, "FCC", 0, "null", "NNP" 1.0)
+  (114, 1, 2, <4:7>, 1, "fcc", 0, "null")
+  (117, 1, 2, <4:7>, 1, "fcc", 0, "null")
+  (94, 2, 3, <8:12>, 1, "took", 0, "null")
+  (110, 2, 3, <8:12>, 1, "took", 0, "null", "VBD" 1.0)
+  (118, 2, 3, <8:12>, 1, "took", 0, "null")
+  (96, 3, 4, <13:18>, 1, "three", 0, "null")
+  (111, 3, 4, <13:18>, 1, "three", 0, "null", "CD" 1.0)
+  (119, 3, 4, <13:18>, 1, "three", 0, "null")
+  (103, 4, 5, <19:27>, 1, "specific", 0, "null")
+  (107, 4, 5, <19:27>, 1, "specific", 0, "null", "JJ" 0.9576)
+  (122, 4, 5, <19:27>, 1, "specific", 0, "null")
+  (98, 5, 6, <28:35>, 1, "actions", 0, "null")
+  (112, 5, 6, <28:35>, 1, "actions", 0, "null", "NNS" 1.0)
+  (120, 5, 6, <28:35>, 1, "actions", 0, "null")
+  (100, 6, 7, <36:45>, 1, "regarding", 0, "null")
+  (113, 6, 7, <36:45>, 1, "regarding", 0, "null", "VBG" 1.0)
+  (121, 6, 7, <36:45>, 1, "regarding", 0, "null")
+  (108, 7, 8, <46:51>, 1, "AT&T.", 0, "null", "NNP" 0.9158)
+  (116, 7, 8, <46:51>, 1, "at&t.", 0, "null")
+  (123, 7, 8, <46:51>, 1, "at&t.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1658 SB-HD_MC_C 9.88524 0 8
+  (1637 SP-HD_N_C 2.46985 0 2
+   (138 the_1@d_-_the_le 1.13181 0 1
+    ("the" 115
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98443749999999997\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1636 ^N_SG_ILR 0.383789 1 2
+    (163 generic_proper_ne@n_-_pn-gen_le 0 1 2
+     ("FCC" 83
+      "token [ +CARG #1=\"FCC\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+  (1657 ^HD-CMP_U_C 5.46088 2 8
+   (1638 ^V_PST_OLR 0.90063 2 3
+    (190 take_v1@v_np_noarg3_le 0.981462 2 3
+     ("took" 94
+      "token [ +CARG #1=\"took\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (1656 SP-HD_N_C 3.55135 3 8
+    (1639 NUM_DET_C 0.372195 3 4
+     (209 three@aj_-_i-crd-one_le -0.332753 3 4
+      ("three" 96
+       "token [ +CARG #1=\"three\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1655 ^AJ-HDN_NORM_C 2.11328 4 8
+     (1640 J_ATT_DLR 0.638286 4 5
+      (222 specific_a1@aj_pp_i_le 0 4 5
+       ("specific" 103
+        "token [ +CARG #1=\"specific\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"19\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95759269999999996\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (1654 ^HDN-AJ_RC_C 0.680363 5 8
+      (1641 ^N_PL_OLR 0.56325 5 6
+       (224 action_n1@n_-_mc_le 0 5 6
+        ("actions" 98
+         "token [ +CARG #1=\"actions\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"28\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"35\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+      (1653 VP_RC-REDREL_C -0.264998 6 8
+       (1652 HD-CMP_U_C 0.114906 6 8
+        (1651 ^V_PRP_OLR 1.42056 6 7
+         (239 regard_v2@v_np_le 0.0392344 6 7
+          ("regarding" 100
+           "token [ +CARG #1=\"regarding\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"36\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (1644 HDN_BNP-PN_C 0.173109 7 8
+         (1643 W_PERIOD_PLR -0.39127 7 8
+          (1642 N_SG_ILR -0.824189 7 8
+           (258 atandt_n2@n_-_pn_le 0 7 8
+            ("at&t." 116
+             "token [ +CARG \"AT&T\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM \"at&t.\" +FROM #1=\"46\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91582669999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"51\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))
+
+(S (NP (DET "the") (N (N "FCC")))
+ (VP (V (V "took"))
+  (NP (DET (ADJ "three"))
+   (N (AP (ADJ "specific"))
+    (N (N (N "actions"))
+     (S (VP (V (V "regarding")) (NP (N (N (N "at&t.")))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ named<4:7>
+            LBL: h8
+            ARG0: x6
+            CARG: "FCC" ]
+          [ _take_v_1<8:12>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x10 [ x PERS: 3 NUM: PL ]
+            ARG3: u9 ]
+          [ udef_q<13:18>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ card<13:18>
+            LBL: h14
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            CARG: "3" ]
+          [ _specific_a_to<19:27>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: i17 ]
+          [ _action_n_1<28:35>
+            LBL: h14
+            ARG0: x10 ]
+          [ _regard_v_as<36:45>
+            LBL: h14
+            ARG0: e18 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: + PERF: - ]
+            ARG1: x10
+            ARG2: x19 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<46:51>
+            LBL: h20
+            ARG0: x19
+            RSTR: h21
+            BODY: h22 ]
+          [ named<46:51>
+            LBL: h23
+            ARG0: x19
+            CARG: "ATT" ] >
+   HCONS: < h21 QEQ h23 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:named<4:7>("FCC"){x PERS 3, NUM sg, IND +}[]
+ e3:_take_v_1<8:12>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x10]
+ _2:udef_q<13:18>[BV x10]
+ e15:card<13:18>("3"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ e16:_specific_a_to<19:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10]
+ x10:_action_n_1<28:35>{x PERS 3, NUM pl}[]
+ e18:_regard_v_as<36:45>{e SF prop, TENSE untensed, MOOD indicative, PROG +, PERF -}[ARG1 x10, ARG2 x19]
+ _3:proper_q<46:51>[BV x19]
+ x19:named<46:51>("ATT"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _the_q<0:3> BV named<4:7>(FCC)  
+  _take_v_1<8:12> ARG1 named<4:7>(FCC)  
+  _take_v_1<8:12> ARG2 _action_n_1<28:35>  
+  udef_q<13:18> BV _action_n_1<28:35>  
+  card<13:18>(3) ARG1 _action_n_1<28:35>  
+  _specific_a_to<19:27> ARG1 _action_n_1<28:35>  
+  _regard_v_as<36:45> ARG1 _action_n_1<28:35>  
+  _regard_v_as<36:45> ARG2 named<46:51>(ATT)  
+  proper_q<46:51> BV named<46:51>(ATT)  
+  named<4:7>(FCC) PERS 3  
+  named<4:7>(FCC) NUM sg  
+  named<4:7>(FCC) IND +  
+  _take_v_1<8:12> SF prop  
+  _take_v_1<8:12> TENSE past  
+  _take_v_1<8:12> MOOD indicative  
+  _take_v_1<8:12> PROG -  
+  _take_v_1<8:12> PERF -  
+  card<13:18>(3) SF prop  
+  card<13:18>(3) TENSE untensed  
+  card<13:18>(3) MOOD indicative  
+  card<13:18>(3) PROG -  
+  card<13:18>(3) PERF -  
+  _specific_a_to<19:27> SF prop  
+  _specific_a_to<19:27> TENSE untensed  
+  _specific_a_to<19:27> MOOD indicative  
+  _specific_a_to<19:27> PROG -  
+  _specific_a_to<19:27> PERF -  
+  _action_n_1<28:35> PERS 3  
+  _action_n_1<28:35> NUM pl  
+  _regard_v_as<36:45> SF prop  
+  _regard_v_as<36:45> TENSE untensed  
+  _regard_v_as<36:45> MOOD indicative  
+  _regard_v_as<36:45> PROG +  
+  _regard_v_as<36:45> PERF -  
+  named<46:51>(ATT) PERS 3  
+  named<46:51>(ATT) NUM sg  
+  named<46:51>(ATT) IND +  
+}
+

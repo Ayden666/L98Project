@@ -1,0 +1,159 @@
+;;;
+;;; Redwoods export of `wsj12a';
+;;; (wsun@wsun; 22-jan-2018 (21:08 h)).
+;;;
+
+[21216010] (1 of 1) {1} `The death toll rose to 63.'
+
+[21216010:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "death", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:14>, 1, "toll", 0, "null", "NN" 1.0)
+  (4, 3, 4, <15:19>, 1, "rose", 0, "null", "VBD" 1.0)
+  (5, 4, 5, <20:22>, 1, "to", 0, "null", "TO" 1.0)
+  (6, 5, 6, <23:25>, 1, "63", 0, "null", "CD" 1.0)
+  (7, 6, 7, <25:26>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (76, 0, 1, <0:3>, 1, "the", 0, "null")
+  (82, 0, 1, <0:3>, 1, "the", 0, "null")
+  (66, 1, 2, <4:9>, 1, "death", 0, "null")
+  (73, 1, 2, <4:9>, 1, "death", 0, "null", "NN" 1.0)
+  (78, 1, 2, <4:9>, 1, "death", 0, "null")
+  (68, 2, 3, <10:14>, 1, "toll", 0, "null")
+  (74, 2, 3, <10:14>, 1, "toll", 0, "null", "NN" 1.0)
+  (79, 2, 3, <10:14>, 1, "toll", 0, "null")
+  (70, 3, 4, <15:19>, 1, "rose", 0, "null")
+  (75, 3, 4, <15:19>, 1, "rose", 0, "null", "VBD" 1.0)
+  (80, 3, 4, <15:19>, 1, "rose", 0, "null")
+  (72, 4, 5, <20:22>, 1, "to", 0, "null")
+  (81, 4, 5, <20:22>, 1, "to", 0, "null")
+  (62, 5, 6, <23:26>, 1, "63.", 0, "null")
+  (77, 5, 6, <23:26>, 1, "63.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1093 SB-HD_MC_C 12.7813 0 6
+  (1085 SP-HD_N_C 2.15076 0 3
+   (95 the_1@d_-_the_le 0.244361 0 1
+    ("the" 76
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1084 ^N-HDN_CPD_C 0.893176 1 3
+    (120 death_n1@n_-_mc_le 0 1 2
+     ("death" 66
+      "token [ +CARG #1=\"death\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1083 ^N_MS-CNT_ILR 0.181901 2 3
+     (122 toll_n1@n_-_mc_le 0 2 3
+      ("toll" 68
+       "token [ +CARG #1=\"toll\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1092 ^HD-AJ_INT-UNSL_C 9.59836 3 6
+   (1087 ^HD_OPTCMP_C 4.40977 3 4
+    (1086 V_PST_OLR 3.53124 3 4
+     (126 rise_v2@v_pp_unacc_le 1.80509 3 4
+      ("rose" 70
+       "token [ +CARG #1=\"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (1091 HD-CMP_U_C 3.87632 4 6
+    (158 to@p_np_i-nnm_le -0.649111 4 5
+     ("to" 72
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1090 HDN_BNP-NUM_C 4.01481 5 6
+     (1089 HDN_NP-NUM_C 3.49617 5 6
+      (1088 W_PERIOD_PLR 2.19869 5 6
+       (213 generic_card_ne@aj_-_i-crd-gen_le 0 5 6
+        ("63." 62
+         "token [ +CARG \"63\" +CLASS card_ne +FORM \"63.\" +FROM \"23\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))))
+
+(S (NP (DET "the") (N (N "death") (N (N "toll"))))
+ (VP (VP (V (V "rose"))) (PP (P "to") (NP (N (ADJ (ADJ "63.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ compound<4:14>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<4:9>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _death_n_1<4:9>
+            LBL: h14
+            ARG0: x9 ]
+          [ _toll_n_1<10:14>
+            LBL: h8
+            ARG0: x6 ]
+          [ _rise_v_1<15:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _to_p<20:22>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG ] ]
+          [ number_q<23:26>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ card<23:26>
+            LBL: h20
+            ARG0: x16
+            ARG1: i21
+            CARG: "63" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ e10:compound<4:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<4:9>[BV x9]
+ x9:_death_n_1<4:9>{x}[]
+ x6:_toll_n_1<10:14>{x PERS 3, NUM sg}[]
+ e3:_rise_v_1-fn.Change_position_on_a_scale<15:19>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ e15:_to_p<20:22>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:number_q<23:26>[BV x16]
+ x16:card<23:26>("63"){x PERS 3, NUM sg}[]
+}
+
+{
+  _the_q<0:3> BV _toll_n_1<10:14>  
+  compound<4:14> ARG1 _toll_n_1<10:14>  
+  compound<4:14> ARG2 _death_n_1<4:9>  
+  udef_q<4:9> BV _death_n_1<4:9>  
+  _rise_v_1<15:19> ARG1 _toll_n_1<10:14>  
+  _to_p<20:22> ARG1 _rise_v_1<15:19>  
+  _to_p<20:22> ARG2 card<23:26>(63)  
+  number_q<23:26> BV card<23:26>(63)  
+  compound<4:14> SF prop  
+  compound<4:14> TENSE untensed  
+  compound<4:14> MOOD indicative  
+  compound<4:14> PROG -  
+  compound<4:14> PERF -  
+  _toll_n_1<10:14> PERS 3  
+  _toll_n_1<10:14> NUM sg  
+  _rise_v_1<15:19> SF prop  
+  _rise_v_1<15:19> TENSE past  
+  _rise_v_1<15:19> MOOD indicative  
+  _rise_v_1<15:19> PROG -  
+  _rise_v_1<15:19> PERF -  
+  _to_p<20:22> SF prop  
+  _to_p<20:22> TENSE untensed  
+  _to_p<20:22> MOOD indicative  
+  _to_p<20:22> PROG -  
+  _to_p<20:22> PERF -  
+  card<23:26>(63) PERS 3  
+  card<23:26>(63) NUM sg  
+}
+

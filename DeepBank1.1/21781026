@@ -1,0 +1,160 @@
+;;;
+;;; Redwoods export of `wsj17c';
+;;; (wsun@wsun; 23-jan-2018 (02:43 h)).
+;;;
+
+[21781026] (1 of 1) {1} `The index gained 527.39 Tuesday.'
+
+[21781026:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:9>, 1, "index", 0, "null", "NN" 1.0)
+  (3, 2, 3, <10:16>, 1, "gained", 0, "null", "VBD" 0.9863 "VBN" 0.0137)
+  (4, 3, 4, <17:23>, 1, "527.39", 0, "null", "CD" 1.0)
+  (5, 4, 5, <24:31>, 1, "Tuesday", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <31:32>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "the", 0, "null")
+  (77, 0, 1, <0:3>, 1, "the", 0, "null")
+  (62, 1, 2, <4:9>, 1, "index", 0, "null")
+  (68, 1, 2, <4:9>, 1, "index", 0, "null", "NN" 1.0)
+  (74, 1, 2, <4:9>, 1, "index", 0, "null")
+  (65, 2, 3, <10:16>, 1, "gained", 0, "null")
+  (67, 2, 3, <10:16>, 1, "gained", 0, "null", "VBD" 0.9863)
+  (75, 2, 3, <10:16>, 1, "gained", 0, "null")
+  (52, 3, 4, <17:23>, 1, "527.39", 0, "null")
+  (72, 3, 4, <17:23>, 1, "527.39", 0, "null")
+  (56, 4, 5, <24:32>, 1, "Tuesday.", 0, "null")
+  (69, 4, 5, <24:32>, 1, "Tuesday.", 0, "null", "NNP" 1.0)
+  (71, 4, 5, <24:32>, 1, "tuesday.", 0, "null")
+  (73, 4, 5, <24:32>, 1, "tuesday.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1123 SB-HD_MC_C 5.77889 0 5
+  (1103 SP-HD_N_C 2.50608 0 2
+   (90 the_1@d_-_the_le 0.405901 0 1
+    ("the" 70
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1102 ^N_SG_ILR 0.42002 1 2
+    (115 index_n1@n_-_c_le 0.213724 1 2
+     ("index" 62
+      "token [ +CARG #1=\"index\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (1122 ^HD-AJ_INT-UNSL_C 2.24062 2 5
+   (1121 ^HD-CMP_U_C -0.0815912 2 4
+    (1104 ^V_PST_OLR 1.93042 2 3
+     (124 gain_v1@v_np*_le 0.775218 2 3
+      ("gained" 65
+       "token [ +CARG #1=\"gained\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98626369999999997\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (1120 HDN_BNP-QNT_C -2.54394 3 4
+     (1119 NUM_PRT-NC_C -1.61996 3 4
+      (219 generic_card_ne@aj_-_i-crd-gen_le 0 3 4
+       ("527.39" 52
+        "token [ +CARG #1=\"527.39\" +CLASS card_or_proper_ne +FORM #1 +FROM \"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (1111 NP_ADV_C 1.145 4 5
+    (1110 HDN_BNP-PN_C 0.703688 4 5
+     (1109 W_PERIOD_PLR 0.346801 4 5
+      (1108 N_SG_ILR -0.367837 4 5
+       (228 tuesday_n1@n_-_c-dow_le 0 4 5
+        ("tuesday." 71
+         "token [ +CARG \"Tuesday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"tuesday.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"32\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N "index")))
+ (VP (VP (V (V "gained")) (NP (N (ADJ "527.39"))))
+  (PP (NP (N (N (N "tuesday.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _index_n_1<4:9>
+            LBL: h8
+            ARG0: x6 ]
+          [ _gain_v_1<10:16>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: PL ] ]
+          [ generic_entity<17:23>
+            LBL: h10
+            ARG0: x9 ]
+          [ udef_q<17:23>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ card<17:23>
+            LBL: h10
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "527.39" ]
+          [ loc_nonsp<24:32>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x16 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<24:32>
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ dofw<24:32>
+            LBL: h20
+            ARG0: x16
+            CARG: "Tue" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h10 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_index_n_1<4:9>{x PERS 3, NUM sg, IND +}[]
+ e3:_gain_v_1<10:16>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ x9:generic_entity<17:23>{x PERS 3, NUM pl}[]
+ _2:udef_q<17:23>[BV x9]
+ e14:card<17:23>("527.39"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ e15:loc_nonsp<24:32>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x16]
+ _3:proper_q<24:32>[BV x16]
+ x16:dofw<24:32>("Tue"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  _the_q<0:3> BV _index_n_1<4:9>  
+  _gain_v_1<10:16> ARG1 _index_n_1<4:9>  
+  _gain_v_1<10:16> ARG2 generic_entity<17:23>  
+  udef_q<17:23> BV generic_entity<17:23>  
+  card<17:23>(527.39) ARG1 generic_entity<17:23>  
+  loc_nonsp<24:32> ARG1 _gain_v_1<10:16>  
+  loc_nonsp<24:32> ARG2 dofw<24:32>(Tue)  
+  proper_q<24:32> BV dofw<24:32>(Tue)  
+  _index_n_1<4:9> PERS 3  
+  _index_n_1<4:9> NUM sg  
+  _index_n_1<4:9> IND +  
+  _gain_v_1<10:16> SF prop  
+  _gain_v_1<10:16> TENSE past  
+  _gain_v_1<10:16> MOOD indicative  
+  _gain_v_1<10:16> PROG -  
+  _gain_v_1<10:16> PERF -  
+  generic_entity<17:23> PERS 3  
+  generic_entity<17:23> NUM pl  
+  card<17:23>(527.39) SF prop  
+  card<17:23>(527.39) TENSE untensed  
+  card<17:23>(527.39) MOOD indicative  
+  card<17:23>(527.39) PROG -  
+  card<17:23>(527.39) PERF -  
+  loc_nonsp<24:32> SF prop  
+  loc_nonsp<24:32> TENSE untensed  
+  loc_nonsp<24:32> MOOD indicative  
+  loc_nonsp<24:32> PROG -  
+  loc_nonsp<24:32> PERF -  
+  dofw<24:32>(Tue) PERS 3  
+  dofw<24:32>(Tue) NUM sg  
+  dofw<24:32>(Tue) IND +  
+}
+

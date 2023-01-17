@@ -1,0 +1,61 @@
+;;;
+;;; Redwoods export of `wsj06b';
+;;; (wsun@wsun; 22-jan-2018 (15:59 h)).
+;;;
+
+[20633008] (1 of 1) {1} `Yeah.'
+
+[20633008:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Yeah", 0, "null", "UH" 1.0)
+  (2, 1, 2, <4:5>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:5>, 1, "yeah.", 0, "null")
+  (23, 0, 1, <0:5>, 1, "yeah.", 0, "null")
+>
+
+(ROOT_FRAG
+ (32 R_SCP-FRG_C 0 0 1
+  (31 W_PERIOD_PLR 0 0 1
+   (25 yeah_root_pre@av_-_s-cp-mc-pr_le 0 0 1
+    ("yeah." 22
+     "token [ +CARG \"Yeah\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"yeah.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (ADV (ADV "yeah.")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:5>
+            LBL: h4
+            ARG0: e3
+            ARG: u5 ]
+          [ _yeah_a_1<0:5>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h6 ] >
+   HCONS: < h6 QEQ h4 h1 QEQ h2 > ]
+
+{e7:
+ e3:unknown<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_yeah_a_1<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _yeah_a_1<0:5> ARG1 unknown<0:5>  
+  unknown<0:5> SF prop  
+  unknown<0:5> TENSE untensed  
+  unknown<0:5> MOOD indicative  
+  unknown<0:5> PROG -  
+  unknown<0:5> PERF -  
+  _yeah_a_1<0:5> SF prop  
+  _yeah_a_1<0:5> TENSE untensed  
+  _yeah_a_1<0:5> MOOD indicative  
+  _yeah_a_1<0:5> PROG -  
+  _yeah_a_1<0:5> PERF -  
+}
+

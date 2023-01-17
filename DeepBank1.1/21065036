@@ -1,0 +1,177 @@
+;;;
+;;; Redwoods export of `wsj10d';
+;;; (wsun@wsun; 22-jan-2018 (19:44 h)).
+;;;
+
+[21065036] (1 of 1) {1} `Mr. Lorin responded, "No."'
+
+[21065036:2] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:9>, 1, "Lorin", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <10:19>, 1, "responded", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <19:20>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <21:22>, 1, "“", 0, "null", "``" 1.0)
+  (6, 5, 6, <22:24>, 1, "No", 0, "null", "UH" 0.9881 "DT" 0.0119)
+  (7, 6, 7, <24:25>, 1, ".", 0, "null", "." 1.0)
+  (8, 7, 8, <25:26>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (94, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (98, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (103, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (76, 1, 2, <4:9>, 1, "Lorin", 0, "null")
+  (95, 1, 2, <4:9>, 1, "Lorin", 0, "null", "NNP" 1.0)
+  (97, 1, 2, <4:9>, 1, "lorin", 0, "null")
+  (100, 1, 2, <4:9>, 1, "lorin", 0, "null")
+  (91, 2, 3, <10:20>, 1, "responded,", 0, "null")
+  (96, 2, 3, <10:20>, 1, "responded,", 0, "null", "VBD" 1.0)
+  (102, 2, 3, <10:20>, 1, "responded,", 0, "null")
+  (83, 3, 4, <21:26>, 1, "“No.”", 0, "null")
+  (99, 3, 4, <21:26>, 1, "“no.”", 0, "null")
+  (101, 3, 4, <21:26>, 1, "“no.”", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (975 CL-NP_RUNON_C 3.97008 0 4
+  (968 SB-HD_MC_C 3.46074 0 3
+   (958 HDN_BNP-PN_C 3.55155 0 2
+    (957 NP-HDN_TTL-CPD_C 3.17593 0 2
+     (955 N_SG_ILR 2.02901 0 1
+      (112 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+       ("mr." 98
+        "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (956 ^N_SG_ILR -0.259177 1 2
+      (117 generic_proper_ne@n_-_pn-gen_le 0 1 2
+       ("Lorin" 76
+        "token [ +CARG #1=\"Lorin\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+   (967 ^W_COMMA-NF_PLR -0.150697 2 3
+    (966 V_PST_OLR 0.230226 2 3
+     (142 respond_v2@v_-_le 0 2 3
+      ("responded," 91
+       "token [ +CARG \"responded\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"responded,\" +FROM #1=\"10\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (974 ^W_ITALICS_DLR 0.509335 3 4
+   (964 W_DQLEFT_PLR 2.05852 3 4
+    (963 W_DQRIGHT_PLR 2.185 3 4
+     (962 W_PERIOD_PLR 0 3 4
+      (388 no_root_post@av_-_s-cp-mc-po_le 0 3 4
+       ("“no.”" 99
+        "token [ +CARG \"No\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"“no.”\" +FROM \"21\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98808070000000003\" +TAG \"UH\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"22\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (S (NP (N (N (N "mr.")) (N (N "Lorin")))) (VP (VP (V "responded,"))))
+ (NP (ADV (ADV (ADV (ADV "“no.”"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ implicit_conj<0:26>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: h4
+            L-INDEX: e7 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+            R-HNDL: h5
+            R-INDEX: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ unknown<0:26>
+            LBL: h8
+            ARG0: e6
+            ARG: i9 [ i PERS: 3 NUM: SG ] ]
+          [ proper_q<0:9>
+            LBL: h10
+            ARG0: x12 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h11
+            BODY: h13 ]
+          [ compound<0:9>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x12
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _mister_n_1<0:3>
+            LBL: h20
+            ARG0: x15 ]
+          [ named<4:9>
+            LBL: h14
+            ARG0: x12
+            CARG: "Lorin" ]
+          [ _respond_v_to<10:20>
+            LBL: h21
+            ARG0: e7
+            ARG1: x12 ]
+          [ _no_a_1<21:26>
+            LBL: h22
+            ARG0: e24 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h23 ]
+          [ fw_seq<21:26>
+            LBL: h22
+            ARG0: i9
+            L-INDEX: e25 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            R-INDEX: i26 ] >
+   HCONS: < h23 QEQ u h18 QEQ h20 h11 QEQ h14 h5 QEQ h8 h4 QEQ h21 h1 QEQ h2 > ]
+
+{e3:
+ e3:implicit_conj<0:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[L-HNDL e7, L-INDEX e7, R-HNDL e6, R-INDEX e6]
+ e6:unknown<0:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG i9]
+ _1:proper_q<0:9>[BV x12]
+ e16:compound<0:9>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x12, ARG2 x15]
+ _2:udef_q<0:3>[BV x15]
+ x15:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x12:named<4:9>("Lorin"){x PERS 3, NUM sg, IND +}[]
+ e7:_respond_v_to-fn.Communication_response<10:20>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x12]
+ e24:_no_a_1<21:26>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ i9:fw_seq<21:26>{i PERS 3, NUM sg}[]
+}
+
+{
+  implicit_conj<0:26> L-HNDL _respond_v_to<10:20>  
+  implicit_conj<0:26> L-INDEX _respond_v_to<10:20>  
+  implicit_conj<0:26> R-HNDL unknown<0:26>  
+  implicit_conj<0:26> R-INDEX unknown<0:26>  
+  unknown<0:26> ARG fw_seq<21:26>  
+  proper_q<0:9> BV named<4:9>(Lorin)  
+  compound<0:9> ARG1 named<4:9>(Lorin)  
+  compound<0:9> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _respond_v_to<10:20> ARG1 named<4:9>(Lorin)  
+  implicit_conj<0:26> SF prop  
+  implicit_conj<0:26> TENSE untensed  
+  implicit_conj<0:26> MOOD indicative  
+  implicit_conj<0:26> PROG -  
+  implicit_conj<0:26> PERF -  
+  unknown<0:26> SF prop  
+  unknown<0:26> TENSE untensed  
+  unknown<0:26> MOOD indicative  
+  unknown<0:26> PROG -  
+  unknown<0:26> PERF -  
+  compound<0:9> SF prop  
+  compound<0:9> TENSE untensed  
+  compound<0:9> MOOD indicative  
+  compound<0:9> PROG -  
+  compound<0:9> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:9>(Lorin) PERS 3  
+  named<4:9>(Lorin) NUM sg  
+  named<4:9>(Lorin) IND +  
+  _respond_v_to<10:20> SF prop  
+  _respond_v_to<10:20> TENSE past  
+  _respond_v_to<10:20> MOOD indicative  
+  _respond_v_to<10:20> PROG -  
+  _respond_v_to<10:20> PERF -  
+  _no_a_1<21:26> SF prop  
+  _no_a_1<21:26> TENSE untensed  
+  _no_a_1<21:26> MOOD indicative  
+  _no_a_1<21:26> PROG -  
+  _no_a_1<21:26> PERF -  
+  fw_seq<21:26> PERS 3  
+  fw_seq<21:26> NUM sg  
+}
+

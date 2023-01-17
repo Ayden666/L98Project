@@ -1,0 +1,77 @@
+;;;
+;;; Redwoods export of `wsj15c';
+;;; (wsun@wsun; 23-jan-2018 (00:28 h)).
+;;;
+
+[21566019] (1 of 1) {1} `Bank it?'
+
+[21566019:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Bank", 0, "null", "NNP" 0.9802 "VB" 0.0198)
+  (2, 1, 2, <5:7>, 1, "it", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <7:8>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (35, 0, 1, <0:4>, 1, "Bank", 0, "null")
+  (36, 0, 1, <0:4>, 1, "bank", 0, "null")
+  (38, 0, 1, <0:4>, 1, "bank", 0, "null")
+  (32, 1, 2, <5:8>, 1, "it?", 0, "null")
+  (37, 1, 2, <5:8>, 1, "it?", 0, "null")
+>
+
+(ROOT_FRAG
+ (141 VP_FIN-FRG_C -3.2571 0 2
+  (140 HD-CMP_U_C -1.00886 0 2
+   (137 ^V_N3S-BSE_ILR -0.823664 0 1
+    (42 bank_v1@v_np*_le -0.559216 0 1
+     ("bank" 36
+      "token [ +CARG \"Bank\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"bank\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98015989999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (139 HDN_BNP-QNT_C 0 1 2
+    (138 W_QMARK_PLR 0 1 2
+     (44 it2@n_-_pr-it_le 0 1 2
+      ("it?" 32
+       "token [ +CARG \"it\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"it?\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (VP (V (V "bank")) (NP (NP (NP "it?")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: TENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _bank_v_1<0:4>
+            LBL: h2
+            ARG0: e3
+            ARG1: i5
+            ARG2: x4 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pron<5:8>
+            LBL: h6
+            ARG0: x4 ]
+          [ pronoun_q<5:8>
+            LBL: h7
+            ARG0: x4
+            RSTR: h8
+            BODY: h9 ] >
+   HCONS: < h8 QEQ h6 h1 QEQ h2 > ]
+
+{e3:
+ e3:_bank_v_1<0:4>{e SF ques, TENSE tensed, MOOD indicative, PROG -, PERF -}[ARG2 x4]
+ x4:pron<5:8>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<5:8>[BV x4]
+}
+
+{
+  _bank_v_1<0:4> ARG2 pron<5:8>  
+  pronoun_q<5:8> BV pron<5:8>  
+  _bank_v_1<0:4> SF ques  
+  _bank_v_1<0:4> TENSE tensed  
+  _bank_v_1<0:4> MOOD indicative  
+  _bank_v_1<0:4> PROG -  
+  _bank_v_1<0:4> PERF -  
+  pron<5:8> PERS 3  
+  pron<5:8> NUM sg  
+  pron<5:8> GEND n  
+  pron<5:8> PT std  
+}
+

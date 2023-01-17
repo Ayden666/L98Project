@@ -1,0 +1,260 @@
+;;;
+;;; Redwoods export of `wsj04c';
+;;; (wsun@wsun; 22-jan-2018 (14:16 h)).
+;;;
+
+[20450013] (1 of 1) {1} `But on Oct. 6, he had reason to celebrate.'
+
+[20450013:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "But", 0, "null", "CC" 1.0)
+  (2, 1, 2, <4:6>, 1, "on", 0, "null", "IN" 1.0)
+  (3, 2, 3, <7:11>, 1, "Oct.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <12:13>, 1, "6", 0, "null", "CD" 1.0)
+  (5, 4, 5, <13:14>, 1, ",", 0, "null", "," 1.0)
+  (6, 5, 6, <15:17>, 1, "he", 0, "null", "PRP" 1.0)
+  (7, 6, 7, <18:21>, 1, "had", 0, "null", "VBD" 1.0)
+  (8, 7, 8, <22:28>, 1, "reason", 0, "null", "NN" 1.0)
+  (9, 8, 9, <29:31>, 1, "to", 0, "null", "TO" 1.0)
+  (10, 9, 10, <32:41>, 1, "celebrate", 0, "null", "VB" 1.0)
+  (11, 10, 11, <41:42>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (123, 0, 1, <0:3>, 1, "but", 0, "null")
+  (133, 0, 1, <0:3>, 1, "but", 0, "null")
+  (115, 1, 2, <4:6>, 1, "on", 0, "null")
+  (130, 1, 2, <4:6>, 1, "on", 0, "null")
+  (99, 2, 3, <7:11>, 1, "Oct.", 0, "null")
+  (118, 2, 3, <7:11>, 1, "Oct.", 0, "null", "NNP" 1.0)
+  (122, 2, 3, <7:11>, 1, "oct.", 0, "null")
+  (124, 2, 3, <7:11>, 1, "oct.", 0, "null")
+  (100, 3, 4, <12:14>, 1, "6,", 0, "null")
+  (125, 3, 4, <12:14>, 1, "6,", 0, "null")
+  (107, 4, 5, <15:17>, 1, "he", 0, "null")
+  (126, 4, 5, <15:17>, 1, "he", 0, "null")
+  (109, 5, 6, <18:21>, 1, "had", 0, "null")
+  (119, 5, 6, <18:21>, 1, "had", 0, "null", "VBD" 1.0)
+  (127, 5, 6, <18:21>, 1, "had", 0, "null")
+  (111, 6, 7, <22:28>, 1, "reason", 0, "null")
+  (120, 6, 7, <22:28>, 1, "reason", 0, "null", "NN" 1.0)
+  (128, 6, 7, <22:28>, 1, "reason", 0, "null")
+  (113, 7, 8, <29:31>, 1, "to", 0, "null")
+  (129, 7, 8, <29:31>, 1, "to", 0, "null")
+  (117, 8, 9, <32:42>, 1, "celebrate.", 0, "null")
+  (121, 8, 9, <32:42>, 1, "celebrate.", 0, "null", "VB" 1.0)
+  (131, 8, 9, <32:42>, 1, "celebrate.", 0, "null")
+>
+
+(ROOT_STRICT
+ (4604 CL_CNJ-FRG_C 18.3312 0 9
+  (4603 MRK-NH_CL_C 17.4613 0 9
+   (136 but_conj@c_xp_but_le 0.455325 0 1
+    ("but" 123
+     "token [ +CARG \"But\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"but\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (4602 FLR-HD_NWH_C 14.5786 1 9
+    (4589 HD-CMP_U_C 8.39642 1 4
+     (170 on_day@p_np_i-tmp_le 1.43876 1 2
+      ("on" 115
+       "token [ +CARG #1=\"on\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (4588 SP-HD_HC_C 6.56443 2 4
+      (4585 N_DET-MNTH_DLR 3.30853 2 3
+       (4584 N_SG_ILR 1.56763 2 3
+        (203 october_abb_n3@n_-_c-month_le 0.364507 2 3
+         ("oct." 122
+          "token [ +CARG \"Oct.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"oct.\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (4587 ^W_COMMA_PLR 2.62384 3 4
+       (4586 N_SG_ILR 1.45602 3 4
+        (217 generic_dom_card_ne@n_-_pn-dom-gen_le 0 3 4
+         ("6," 100
+          "token [ +CARG \"6\" +CLASS card_or_dom_ne +FORM \"6,\" +FROM \"12\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+    (4601 ^SB-HD_NMC_C 5.40223 4 9
+     (4590 HDN_BNP-QNT_C 0.566956 4 5
+      (224 he@n_-_pr-he_le 0.151439 4 5
+       ("he" 107
+        "token [ +CARG #1=\"he\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (4600 ^HD_XAJ-INT-VP_C 4.42304 5 9
+      (4599 HD-CMP_U_C 2.74761 5 9
+       (4591 ^V_PST_OLR 1.1296 5 6
+        (257 have-poss@v_np_poss_le 0.692688 5 6
+         ("had" 109
+          "token [ +CARG #1=\"had\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"18\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (4598 HDN_BNP_C 1.07985 6 9
+        (4597 HD-CMP_U_C 1.11068 6 9
+         (4592 ^N_MS-CNT_ILR -1.21509 6 7
+          (341 reason_n3@n_vp_mc_le 0.321858 6 7
+           ("reason" 111
+            "token [ +CARG #1=\"reason\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"8\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"28\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+         (4596 HD-CMP_U_C 0.979108 7 9
+          (375 to_c_prop@cm_vp_to_le 2.48409 7 8
+           ("to" 113
+            "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"29\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"31\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+          (4595 HD_OPTCMP_C -0.941788 8 9
+           (4594 W_PERIOD_PLR -1.53912 8 9
+            (4593 V_N3S-BSE_ILR -0.638355 8 9
+             (427 celebrate_v1@v_np*_le 0 8 9
+              ("celebrate." 117
+               "token [ +CARG \"celebrate\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"celebrate.\" +FROM #1=\"32\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"42\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))))
+
+(S
+ (S (CONJ "but")
+  (S (PP (P "on") (NP (DET (N (N "oct."))) (N (N (N "6,")))))
+   (S/PP (NP (NP "he"))
+    (VP/PP
+     (VP (V (V "had"))
+      (NP
+       (N (N (N "reason"))
+        (VP (COMP "to") (VP (V (V (V "celebrate.")))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _but_c<0:3>
+            LBL: h2
+            ARG0: e3
+            L-HNDL: u6
+            L-INDEX: i7
+            R-HNDL: h5
+            R-INDEX: e4 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ focus_d<4:42>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e4
+            ARG2: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _on_p_temp<4:6>
+            LBL: h8
+            ARG0: e9
+            ARG1: e4
+            ARG2: x11 [ x PERS: 3 NUM: SG GEND: N IND: + ] ]
+          [ mofy<7:11>
+            LBL: h12
+            ARG0: x13 [ x PERS: 3 NUM: SG IND: + ]
+            CARG: "Oct" ]
+          [ def_explicit_q<7:11>
+            LBL: h14
+            ARG0: x11
+            RSTR: h15
+            BODY: h16 ]
+          [ of_p<7:11>
+            LBL: h8
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x11
+            ARG2: x13 ]
+          [ def_implicit_q<7:11>
+            LBL: h18
+            ARG0: x13
+            RSTR: h19
+            BODY: h20 ]
+          [ dofm<12:14>
+            LBL: h8
+            ARG0: x11
+            CARG: "6" ]
+          [ pron<15:17>
+            LBL: h21
+            ARG0: x22 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<15:17>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ _have_v_1<18:21>
+            LBL: h8
+            ARG0: e4
+            ARG1: x22
+            ARG2: x26 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<22:42>
+            LBL: h27
+            ARG0: x26
+            RSTR: h28
+            BODY: h29 ]
+          [ _reason_n_for<22:28>
+            LBL: h30
+            ARG0: x26
+            ARG1: h31 ]
+          [ _celebrate_v_1<32:42>
+            LBL: h32
+            ARG0: e33 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i35
+            ARG2: p34 ] >
+   HCONS: < h31 QEQ h32 h28 QEQ h30 h24 QEQ h21 h19 QEQ h12 h15 QEQ h8 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:_but_c<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[R-HNDL e4, R-INDEX e4]
+ e10:focus_d<4:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4, ARG2 e9]
+ e9:_on_p_temp<4:6>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e4, ARG2 x11]
+ x13:mofy<7:11>("Oct"){x PERS 3, NUM sg, IND +}[]
+ _1:def_explicit_q<7:11>[BV x11]
+ e17:of_p<7:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x11, ARG2 x13]
+ _2:def_implicit_q<7:11>[BV x13]
+ x11:dofm<12:14>("6"){x PERS 3, NUM sg, GEND n, IND +}[]
+ x22:pron<15:17>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _3:pronoun_q<15:17>[BV x22]
+ e4:_have_v_1<18:21>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x26]
+ _4:udef_q<22:42>[BV x26]
+ x26:_reason_n_for<22:28>{x PERS 3, NUM sg}[ARG1 e33]
+ e33:_celebrate_v_1<32:42>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  _but_c<0:3> R-HNDL _have_v_1<18:21>  
+  _but_c<0:3> R-INDEX _have_v_1<18:21>  
+  focus_d<4:42> ARG1 _have_v_1<18:21>  
+  focus_d<4:42> ARG2 _on_p_temp<4:6>  
+  _on_p_temp<4:6> ARG1 _have_v_1<18:21>  
+  _on_p_temp<4:6> ARG2 dofm<12:14>(6)  
+  def_explicit_q<7:11> BV dofm<12:14>(6)  
+  of_p<7:11> ARG1 dofm<12:14>(6)  
+  of_p<7:11> ARG2 mofy<7:11>(Oct)  
+  def_implicit_q<7:11> BV mofy<7:11>(Oct)  
+  pronoun_q<15:17> BV pron<15:17>  
+  _have_v_1<18:21> ARG1 pron<15:17>  
+  _have_v_1<18:21> ARG2 _reason_n_for<22:28>  
+  udef_q<22:42> BV _reason_n_for<22:28>  
+  _reason_n_for<22:28> ARG1 _celebrate_v_1<32:42>  
+  _but_c<0:3> SF prop  
+  _but_c<0:3> TENSE untensed  
+  _but_c<0:3> MOOD indicative  
+  _but_c<0:3> PROG -  
+  _but_c<0:3> PERF -  
+  focus_d<4:42> SF prop  
+  focus_d<4:42> TENSE untensed  
+  focus_d<4:42> MOOD indicative  
+  focus_d<4:42> PROG -  
+  focus_d<4:42> PERF -  
+  _on_p_temp<4:6> SF prop  
+  _on_p_temp<4:6> TENSE untensed  
+  _on_p_temp<4:6> MOOD indicative  
+  _on_p_temp<4:6> PROG -  
+  _on_p_temp<4:6> PERF -  
+  mofy<7:11>(Oct) PERS 3  
+  mofy<7:11>(Oct) NUM sg  
+  mofy<7:11>(Oct) IND +  
+  of_p<7:11> SF prop  
+  of_p<7:11> TENSE untensed  
+  of_p<7:11> MOOD indicative  
+  of_p<7:11> PROG -  
+  of_p<7:11> PERF -  
+  dofm<12:14>(6) PERS 3  
+  dofm<12:14>(6) NUM sg  
+  dofm<12:14>(6) GEND n  
+  dofm<12:14>(6) IND +  
+  pron<15:17> PERS 3  
+  pron<15:17> NUM sg  
+  pron<15:17> GEND m  
+  pron<15:17> PT std  
+  _have_v_1<18:21> SF prop  
+  _have_v_1<18:21> TENSE past  
+  _have_v_1<18:21> MOOD indicative  
+  _have_v_1<18:21> PROG -  
+  _have_v_1<18:21> PERF -  
+  _reason_n_for<22:28> PERS 3  
+  _reason_n_for<22:28> NUM sg  
+  _celebrate_v_1<32:42> SF prop  
+  _celebrate_v_1<32:42> TENSE untensed  
+  _celebrate_v_1<32:42> MOOD indicative  
+  _celebrate_v_1<32:42> PROG -  
+  _celebrate_v_1<32:42> PERF -  
+}
+

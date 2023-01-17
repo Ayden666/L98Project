@@ -1,0 +1,140 @@
+;;;
+;;; Redwoods export of `wsj14c';
+;;; (wsun@wsun; 22-jan-2018 (23:31 h)).
+;;;
+
+[21464045] (1 of 1) {1} `Friday's Market Activity'
+
+[21464045:7] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Friday", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:8>, 1, "’s", 0, "null", "VBZ" 0.3943 "NNS" 0.29 "JJ" 0.1807 "NN" 0.0603 "FW" 0.0226 "CC" 0.0215 "NNP" 0.0214 "RB" 0.005 "IN" 0.0043)
+  (3, 2, 3, <9:15>, 1, "Market", 0, "null", "NNP" 0.5941 "NN" 0.4059)
+  (4, 3, 4, <16:24>, 1, "Activity", 0, "null", "NN" 0.6254 "NNP" 0.3746)
+>
+
+<
+  (69, 0, 1, <0:6>, 1, "Friday", 0, "null")
+  (75, 0, 1, <0:6>, 1, "friday", 0, "null")
+  (81, 0, 1, <0:6>, 1, "friday", 0, "null")
+  (67, 1, 2, <6:8>, 1, "’s", 0, "null")
+  (71, 1, 2, <6:8>, 1, "’s", 0, "null", "VBZ" 0.3943)
+  (72, 1, 2, <6:8>, 1, "’s", 0, "null", "NNS" 0.29)
+  (73, 1, 2, <6:8>, 1, "’s", 0, "null", "JJ" 0.1807)
+  (80, 1, 2, <6:8>, 1, "’s", 0, "null")
+  (39, 2, 3, <9:15>, 1, "Market", 0, "null")
+  (74, 2, 3, <9:15>, 1, "Market", 0, "null", "NN" 0.4059)
+  (76, 2, 3, <9:15>, 1, "market", 0, "null")
+  (78, 2, 3, <9:15>, 1, "market", 0, "null")
+  (40, 3, 4, <16:24>, 1, "Activity", 0, "null")
+  (70, 3, 4, <16:24>, 1, "Activity", 0, "null", "NN" 0.6254)
+  (77, 3, 4, <16:24>, 1, "activity", 0, "null")
+  (79, 3, 4, <16:24>, 1, "activity", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (910 SB-HD_MC_C 0.748516 0 4
+  (893 NP_ADV_C 0.424911 0 1
+   (877 HDN_BNP-PN_C 1.08619 0 1
+    (876 N_SG_ILR 0.471361 0 1
+     (85 friday_n1@n_-_c-dow_le 0.384498 0 1
+      ("friday" 75
+       "token [ +CARG \"Friday\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"friday\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (909 ^HD-CMP_U_C -0.370996 1 4
+   (99 be_inv_is_cx_2@v_np_locinv-is_le -0.763634 1 2
+    ("’s" 67
+     "token [ +CARG #1=\"’s\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.39431630000000001\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (908 HDN_BNP_C 0.631817 2 4
+    (890 NP-HDN_CPD_C 1.85865 2 4
+     (889 HDN_BNP-PN_C 0.268211 2 3
+      (350 generic_proper_ne@n_-_pn-gen_le 0.319094 2 3
+       ("Market" 39
+        "token [ +CARG #1=\"Market\" +CLASS proper_ne +FORM #1 +FROM \"9\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.59407189999999999\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (879 ^N_MS-CNT_ILR 2.35818 3 4
+      (389 activity_n1@n_-_mc-ns_le 1.27 3 4
+       ("activity" 77
+        "token [ +CARG \"Activity\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"activity\" +FROM #1=\"16\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.62540689999999999\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (PP (NP (N (N "friday"))))
+ (VP (V "’s") (NP (N (NP (N "Market")) (N (N "activity"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ loc_nonsp<0:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5 [ x PERS: 3 NUM: SG ]
+            ARG2: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:6>
+            LBL: h6
+            ARG0: x4
+            RSTR: h7
+            BODY: h8 ]
+          [ dofw<0:6>
+            LBL: h9
+            ARG0: x4
+            CARG: "Fri" ]
+          [ udef_q<9:24>
+            LBL: h10
+            ARG0: x5
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<9:24>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x5
+            ARG2: x14 [ x IND: + ] ]
+          [ proper_q<9:15>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<9:15>
+            LBL: h19
+            ARG0: x14
+            CARG: "Market" ]
+          [ _activity_n_1<16:24>
+            LBL: h13
+            ARG0: x5 ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h7 QEQ h9 h1 QEQ h2 > ]
+
+{e3:
+ e3:loc_nonsp<0:6>{e SF prop-or-ques, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x4]
+ _1:proper_q<0:6>[BV x4]
+ x4:dofw<0:6>("Fri"){x PERS 3, NUM sg, IND +}[]
+ _2:udef_q<9:24>[BV x5]
+ e15:compound<9:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x14]
+ _3:proper_q<9:15>[BV x14]
+ x14:named<9:15>("Market"){x IND +}[]
+ x5:_activity_n_1<16:24>{x PERS 3, NUM sg}[]
+}
+
+{
+  loc_nonsp<0:6> ARG1 _activity_n_1<16:24>  
+  loc_nonsp<0:6> ARG2 dofw<0:6>(Fri)  
+  proper_q<0:6> BV dofw<0:6>(Fri)  
+  udef_q<9:24> BV _activity_n_1<16:24>  
+  compound<9:24> ARG1 _activity_n_1<16:24>  
+  compound<9:24> ARG2 named<9:15>(Market)  
+  proper_q<9:15> BV named<9:15>(Market)  
+  loc_nonsp<0:6> SF prop-or-ques  
+  loc_nonsp<0:6> TENSE pres  
+  loc_nonsp<0:6> MOOD indicative  
+  loc_nonsp<0:6> PROG -  
+  loc_nonsp<0:6> PERF -  
+  dofw<0:6>(Fri) PERS 3  
+  dofw<0:6>(Fri) NUM sg  
+  dofw<0:6>(Fri) IND +  
+  compound<9:24> SF prop  
+  compound<9:24> TENSE untensed  
+  compound<9:24> MOOD indicative  
+  compound<9:24> PROG -  
+  compound<9:24> PERF -  
+  named<9:15>(Market) IND +  
+  _activity_n_1<16:24> PERS 3  
+  _activity_n_1<16:24> NUM sg  
+}
+

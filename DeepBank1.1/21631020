@@ -1,0 +1,241 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:17 h)).
+;;;
+
+[21631020] (1 of 1) {1} `At PaineWebber Inc., they are "investment executives."'
+
+[21631020:1] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "At", 0, "null", "IN" 1.0)
+  (2, 1, 2, <3:14>, 1, "PaineWebber", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <15:19>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (4, 3, 4, <19:20>, 1, ",", 0, "null", "," 1.0)
+  (5, 4, 5, <21:25>, 1, "they", 0, "null", "PRP" 1.0)
+  (6, 5, 6, <26:29>, 1, "are", 0, "null", "VBP" 1.0)
+  (7, 6, 7, <30:31>, 1, "“", 0, "null", "``" 1.0)
+  (8, 7, 8, <31:41>, 1, "investment", 0, "null", "NN" 0.9884 "JJ" 0.0116)
+  (9, 8, 9, <42:52>, 1, "executives", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <52:53>, 1, ".", 0, "null", "." 1.0)
+  (11, 10, 11, <53:54>, 1, "”", 0, "null", "''" 1.0)
+>
+
+<
+  (130, 0, 1, <0:2>, 1, "at", 0, "null")
+  (141, 0, 1, <0:2>, 1, "at", 0, "null")
+  (103, 1, 2, <3:14>, 1, "PaineWebber", 0, "null")
+  (126, 1, 2, <3:14>, 1, "PaineWebber", 0, "null", "NNP" 1.0)
+  (131, 1, 2, <3:14>, 1, "painewebber", 0, "null")
+  (133, 1, 2, <3:14>, 1, "painewebber", 0, "null")
+  (106, 2, 3, <15:20>, 1, "Inc.,", 0, "null")
+  (128, 2, 3, <15:20>, 1, "Inc.,", 0, "null", "NNP" 1.0)
+  (132, 2, 3, <15:20>, 1, "inc.,", 0, "null")
+  (134, 2, 3, <15:20>, 1, "inc.,", 0, "null")
+  (116, 3, 4, <21:25>, 1, "they", 0, "null")
+  (135, 3, 4, <21:25>, 1, "they", 0, "null")
+  (118, 4, 5, <26:29>, 1, "are", 0, "null")
+  (127, 4, 5, <26:29>, 1, "are", 0, "null", "VBP" 1.0)
+  (136, 4, 5, <26:29>, 1, "are", 0, "null")
+  (123, 5, 6, <30:41>, 1, "“investment", 0, "null")
+  (125, 5, 6, <30:41>, 1, "“investment", 0, "null", "NN" 0.9884)
+  (138, 5, 6, <30:41>, 1, "“investment", 0, "null")
+  (122, 6, 7, <42:54>, 1, "executives.”", 0, "null")
+  (129, 6, 7, <42:54>, 1, "executives.”", 0, "null", "NNS" 1.0)
+  (137, 6, 7, <42:54>, 1, "executives.”", 0, "null")
+>
+
+(ROOT_STRICT
+ (887 FLR-HD_NWH_C 8.429 0 7
+  (886 HD-CMP_U_C 0.79639 0 3
+   (142 at@p_np_i-reg_le -1.66448 0 1
+    ("at" 130
+     "token [ +CARG \"At\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"at\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (885 HDN_BNP-PN_C 2.18887 1 3
+    (884 NP-HDN_NME-CPD_C 2.0163 1 3
+     (881 HDN_BNP-PN_C 0.185263 1 2
+      (865 N_SG_ILR -0.748959 1 2
+       (145 generic_proper_ne@n_-_pn-gen_le 0 1 2
+        ("PaineWebber" 103
+         "token [ +CARG #1=\"PaineWebber\" +CLASS proper_ne +FORM #1 +FROM \"3\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))
+     (883 ^W_COMMA_PLR 0.592274 2 3
+      (882 N_SG_ILR -0.479073 2 3
+       (147 generic_proper_ne@n_-_pn-gen_le -0.980259 2 3
+        ("Inc.," 106
+         "token [ +CARG \"Inc.\" +CLASS proper_ne +FORM \"Inc.,\" +FROM \"15\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+  (879 ^SB-HD_NMC_C 6.19422 3 7
+   (870 HDN_BNP-QNT_C 1.61184 3 4
+    (157 they@n_-_pr-they_le 0.980748 3 4
+     ("they" 116
+      "token [ +CARG #1=\"they\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (878 ^HD_XAJ-INT-VP_C 3.90052 4 7
+    (877 HD-CMP_U_C 2.2251 4 7
+     (174 be_id_are@v_np_are_le -0.057292 4 5
+      ("are" 118
+       "token [ +CARG #1=\"are\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBP\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (876 HDN_BNP_C 2.73405 5 7
+      (875 N-HDN_CPD_C 3.63634 5 7
+       (871 W_DQLEFT_PLR 0 5 6
+        (179 investment_n1@n_-_mc-ns_le 0 5 6
+         ("“investment" 123
+          "token [ +CARG \"investment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"“investment\" +FROM \"30\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98843610000000004\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"31\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+       (874 ^W_DQRIGHT_PLR 2.84335 6 7
+        (873 W_PERIOD_PLR 0.126492 6 7
+         (872 N_PL_OLR 0.445673 6 7
+          (185 executive_n1@n_-_c_le 0 6 7
+           ("executives.”" 122
+            "token [ +CARG \"executives\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"executives.”\" +FROM #1=\"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"9\" REST *cons* [ FIRST \"10\" REST *cons* [ FIRST \"11\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"54\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))))
+
+(S
+ (PP (P "at") (NP (N (NP (N (N "PaineWebber"))) (N (N (N "Inc.,"))))))
+ (S/PP (NP (NP "they"))
+  (VP/PP
+   (VP (V "are")
+    (NP (N (N (N "“investment")) (N (N (N (N "executives.”"))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ focus_d<0:54>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: e4 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _at_p<0:2>
+            LBL: h2
+            ARG0: e4
+            ARG1: e3
+            ARG2: x6 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:20>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ compound<3:20>
+            LBL: h10
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x11 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<3:14>
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ named<3:14>
+            LBL: h16
+            ARG0: x11
+            CARG: "PaineWebber" ]
+          [ named<15:20>
+            LBL: h10
+            ARG0: x6
+            CARG: "Inc." ]
+          [ pron<21:25>
+            LBL: h17
+            ARG0: x18 [ x PERS: 3 NUM: PL PT: STD ] ]
+          [ pronoun_q<21:25>
+            LBL: h19
+            ARG0: x18
+            RSTR: h20
+            BODY: h21 ]
+          [ _be_v_id<26:29>
+            LBL: h2
+            ARG0: e3
+            ARG1: x18
+            ARG2: x22 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<30:54>
+            LBL: h23
+            ARG0: x22
+            RSTR: h24
+            BODY: h25 ]
+          [ compound<30:54>
+            LBL: h26
+            ARG0: e28 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x22
+            ARG2: x27 ]
+          [ udef_q<30:41>
+            LBL: h29
+            ARG0: x27
+            RSTR: h30
+            BODY: h31 ]
+          [ _investment_n_1<30:41>
+            LBL: h32
+            ARG0: x27 ]
+          [ _executive_n_1<42:54>
+            LBL: h26
+            ARG0: x22 ] >
+   HCONS: < h30 QEQ h32 h24 QEQ h26 h20 QEQ h17 h14 QEQ h16 h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e5:focus_d<0:54>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 e4]
+ e4:_at_p<0:2>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+ _1:proper_q<3:20>[BV x6]
+ e12:compound<3:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x11]
+ _2:proper_q<3:14>[BV x11]
+ x11:named<3:14>("PaineWebber"){x PERS 3, NUM sg, IND +}[]
+ x6:named<15:20>("Inc."){x PERS 3, NUM sg, IND +}[]
+ x18:pron<21:25>{x PERS 3, NUM pl, PT std}[]
+ _3:pronoun_q<21:25>[BV x18]
+ e3:_be_v_id<26:29>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x18, ARG2 x22]
+ _4:udef_q<30:54>[BV x22]
+ e28:compound<30:54>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x22, ARG2 x27]
+ _5:udef_q<30:41>[BV x27]
+ x27:_investment_n_1<30:41>{x}[]
+ x22:_executive_n_1<42:54>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  focus_d<0:54> ARG1 _be_v_id<26:29>  
+  focus_d<0:54> ARG2 _at_p<0:2>  
+  _at_p<0:2> ARG1 _be_v_id<26:29>  
+  _at_p<0:2> ARG2 named<15:20>(Inc.)  
+  proper_q<3:20> BV named<15:20>(Inc.)  
+  compound<3:20> ARG1 named<15:20>(Inc.)  
+  compound<3:20> ARG2 named<3:14>(PaineWebber)  
+  proper_q<3:14> BV named<3:14>(PaineWebber)  
+  pronoun_q<21:25> BV pron<21:25>  
+  _be_v_id<26:29> ARG1 pron<21:25>  
+  _be_v_id<26:29> ARG2 _executive_n_1<42:54>  
+  udef_q<30:54> BV _executive_n_1<42:54>  
+  compound<30:54> ARG1 _executive_n_1<42:54>  
+  compound<30:54> ARG2 _investment_n_1<30:41>  
+  udef_q<30:41> BV _investment_n_1<30:41>  
+  focus_d<0:54> SF prop  
+  focus_d<0:54> TENSE untensed  
+  focus_d<0:54> MOOD indicative  
+  focus_d<0:54> PROG -  
+  focus_d<0:54> PERF -  
+  _at_p<0:2> SF prop  
+  _at_p<0:2> TENSE untensed  
+  _at_p<0:2> MOOD indicative  
+  _at_p<0:2> PROG -  
+  _at_p<0:2> PERF -  
+  compound<3:20> SF prop  
+  compound<3:20> TENSE untensed  
+  compound<3:20> MOOD indicative  
+  compound<3:20> PROG -  
+  compound<3:20> PERF -  
+  named<3:14>(PaineWebber) PERS 3  
+  named<3:14>(PaineWebber) NUM sg  
+  named<3:14>(PaineWebber) IND +  
+  named<15:20>(Inc.) PERS 3  
+  named<15:20>(Inc.) NUM sg  
+  named<15:20>(Inc.) IND +  
+  pron<21:25> PERS 3  
+  pron<21:25> NUM pl  
+  pron<21:25> PT std  
+  _be_v_id<26:29> SF prop  
+  _be_v_id<26:29> TENSE pres  
+  _be_v_id<26:29> MOOD indicative  
+  _be_v_id<26:29> PROG -  
+  _be_v_id<26:29> PERF -  
+  compound<30:54> SF prop  
+  compound<30:54> TENSE untensed  
+  compound<30:54> MOOD indicative  
+  compound<30:54> PROG -  
+  compound<30:54> PERF -  
+  _executive_n_1<42:54> PERS 3  
+  _executive_n_1<42:54> NUM pl  
+  _executive_n_1<42:54> IND +  
+}
+

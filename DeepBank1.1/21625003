@@ -1,0 +1,62 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:14 h)).
+;;;
+
+[21625003] (1 of 1) {1} `No?'
+
+[21625003:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "No", 0, "null", "DT" 0.4969 "UH" 0.3208 "RB" 0.1292 "NNP" 0.0531)
+  (2, 1, 2, <2:3>, 1, "?", 0, "null", "." 1.0)
+>
+
+<
+  (28, 0, 1, <0:3>, 1, "No?", 0, "null", "RB" 0.1292)
+  (29, 0, 1, <0:3>, 1, "no?", 0, "null")
+  (30, 0, 1, <0:3>, 1, "no?", 0, "null")
+>
+
+(ROOT_FRAG
+ (75 R_SCP-FRG_C 0 0 1
+  (74 W_QMARK_PLR 0 0 1
+   (37 no_disc_root@av_-_s-cp-mc-pr_le 0 0 1
+    ("no?" 29
+     "token [ +CARG \"No\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"no?\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.4969248\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+
+(XP (ADV (ADV "no?")))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:3>
+            LBL: h4
+            ARG0: e3
+            ARG: u5 ]
+          [ _no_a_1<0:3>
+            LBL: h2
+            ARG0: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: h6 ] >
+   HCONS: < h6 QEQ h4 h1 QEQ h2 > ]
+
+{e7:
+ e3:unknown<0:3>{e SF ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e7:_no_a_1<0:3>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  _no_a_1<0:3> ARG1 unknown<0:3>  
+  unknown<0:3> SF ques  
+  unknown<0:3> TENSE untensed  
+  unknown<0:3> MOOD indicative  
+  unknown<0:3> PROG -  
+  unknown<0:3> PERF -  
+  _no_a_1<0:3> SF prop  
+  _no_a_1<0:3> TENSE untensed  
+  _no_a_1<0:3> MOOD indicative  
+  _no_a_1<0:3> PROG -  
+  _no_a_1<0:3> PERF -  
+}
+

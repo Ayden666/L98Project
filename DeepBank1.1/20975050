@@ -1,0 +1,128 @@
+;;;
+;;; Redwoods export of `wsj09c';
+;;; (wsun@wsun; 22-jan-2018 (18:53 h)).
+;;;
+
+[20975050] (1 of 1) {1} `The damage is already done.'
+
+[20975050:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:10>, 1, "damage", 0, "null", "NN" 1.0)
+  (3, 2, 3, <11:13>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <14:21>, 1, "already", 0, "null", "RB" 1.0)
+  (5, 4, 5, <22:26>, 1, "done", 0, "null", "VBN" 1.0)
+  (6, 5, 6, <26:27>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "the", 0, "null")
+  (75, 0, 1, <0:3>, 1, "the", 0, "null")
+  (59, 1, 2, <4:10>, 1, "damage", 0, "null")
+  (66, 1, 2, <4:10>, 1, "damage", 0, "null", "NN" 1.0)
+  (71, 1, 2, <4:10>, 1, "damage", 0, "null")
+  (61, 2, 3, <11:13>, 1, "is", 0, "null")
+  (67, 2, 3, <11:13>, 1, "is", 0, "null", "VBZ" 1.0)
+  (72, 2, 3, <11:13>, 1, "is", 0, "null")
+  (63, 3, 4, <14:21>, 1, "already", 0, "null")
+  (68, 3, 4, <14:21>, 1, "already", 0, "null", "RB" 1.0)
+  (73, 3, 4, <14:21>, 1, "already", 0, "null")
+  (65, 4, 5, <22:27>, 1, "done.", 0, "null")
+  (69, 4, 5, <22:27>, 1, "done.", 0, "null", "VBN" 1.0)
+  (74, 4, 5, <22:27>, 1, "done.", 0, "null")
+>
+
+(ROOT_STRICT
+ (1454 SB-HD_MC_C 9.26081 0 5
+  (1448 SP-HD_N_C 1.41693 0 2
+   (88 the_1@d_-_the_le 1.13181 0 1
+    ("the" 70
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1447 ^HDN_OPTCMP_C -0.16607 1 2
+    (1446 N_MS_ILR 0.242312 1 2
+     (113 damage_n1@n_pp_m_le 0.486387 1 2
+      ("damage" 59
+       "token [ +CARG #1=\"damage\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (1453 ^HD-CMP_U_C 5.88937 2 5
+   (155 be_c_is@v_prd_is_le 0.0636433 2 3
+    ("is" 61
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (1452 AJ-HD_INT_C 3.45515 3 5
+    (241 already_adv1@av_-_i-vp-x_le -0.19805 3 4
+     ("already" 63
+      "token [ +CARG #1=\"already\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (1451 ^HD_OPTCMP_C 1.82441 4 5
+     (1450 W_PERIOD_PLR 0.396991 4 5
+      (1449 V_PAS_ODLR 0.295437 4 5
+       (271 do2@v_np_le 0 4 5
+        ("done." 65
+         "token [ +CARG \"done\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"done.\" +FROM #1=\"22\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"27\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (DET "the") (N (N (N "damage"))))
+ (VP (V "is") (VP (ADV "already") (VP (V (V (V "done.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG GEND: N IND: - ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _damage_n_to<4:10>
+            LBL: h8
+            ARG0: x6
+            ARG1: i9 ]
+          [ _already_a_1<14:21>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _do_v_1<22:27>
+            LBL: h2
+            ARG0: e3
+            ARG1: i11
+            ARG2: x6 ]
+          [ parg_d<22:27>
+            LBL: h2
+            ARG0: e12 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_damage_n_to<4:10>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e10:_already_a_1<14:21>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_do_v_1<22:27>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e12:parg_d<22:27>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  _the_q<0:3> BV _damage_n_to<4:10>  
+  _already_a_1<14:21> ARG1 _do_v_1<22:27>  
+  _do_v_1<22:27> ARG2 _damage_n_to<4:10>  
+  parg_d<22:27> ARG1 _do_v_1<22:27>  
+  parg_d<22:27> ARG2 _damage_n_to<4:10>  
+  _damage_n_to<4:10> PERS 3  
+  _damage_n_to<4:10> NUM sg  
+  _damage_n_to<4:10> GEND n  
+  _damage_n_to<4:10> IND -  
+  _already_a_1<14:21> SF prop  
+  _already_a_1<14:21> TENSE untensed  
+  _already_a_1<14:21> MOOD indicative  
+  _already_a_1<14:21> PROG -  
+  _already_a_1<14:21> PERF -  
+  _do_v_1<22:27> SF prop  
+  _do_v_1<22:27> TENSE pres  
+  _do_v_1<22:27> MOOD indicative  
+  _do_v_1<22:27> PROG -  
+  _do_v_1<22:27> PERF -  
+  parg_d<22:27> SF prop  
+  parg_d<22:27> TENSE untensed  
+  parg_d<22:27> MOOD indicative  
+  parg_d<22:27> PROG -  
+  parg_d<22:27> PERF -  
+}
+

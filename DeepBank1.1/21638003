@@ -1,0 +1,301 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:22 h)).
+;;;
+
+[21638003] (1 of 1) {1} `Health Care Property holds an interest in 139 facilities in 30 states.'
+
+[21638003:2] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Health", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <7:11>, 1, "Care", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:20>, 1, "Property", 0, "null", "NNP" 0.9582 "NN" 0.0418)
+  (4, 3, 4, <21:26>, 1, "holds", 0, "null", "VBZ" 1.0)
+  (5, 4, 5, <27:29>, 1, "an", 0, "null", "DT" 1.0)
+  (6, 5, 6, <30:38>, 1, "interest", 0, "null", "NN" 1.0)
+  (7, 6, 7, <39:41>, 1, "in", 0, "null", "IN" 1.0)
+  (8, 7, 8, <42:45>, 1, "139", 0, "null", "CD" 1.0)
+  (9, 8, 9, <46:56>, 1, "facilities", 0, "null", "NNS" 1.0)
+  (10, 9, 10, <57:59>, 1, "in", 0, "null", "IN" 1.0)
+  (11, 10, 11, <60:62>, 1, "30", 0, "null", "CD" 1.0)
+  (12, 11, 12, <63:69>, 1, "states", 0, "null", "NNS" 1.0)
+  (13, 12, 13, <69:70>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (141, 0, 1, <0:6>, 1, "Health", 0, "null")
+  (149, 0, 1, <0:6>, 1, "health", 0, "null")
+  (162, 0, 1, <0:6>, 1, "health", 0, "null")
+  (116, 1, 2, <7:11>, 1, "Care", 0, "null")
+  (143, 1, 2, <7:11>, 1, "Care", 0, "null", "NNP" 1.0)
+  (148, 1, 2, <7:11>, 1, "care", 0, "null")
+  (153, 1, 2, <7:11>, 1, "care", 0, "null")
+  (117, 2, 3, <12:20>, 1, "Property", 0, "null")
+  (142, 2, 3, <12:20>, 1, "Property", 0, "null", "NNP" 0.9582)
+  (150, 2, 3, <12:20>, 1, "property", 0, "null")
+  (154, 2, 3, <12:20>, 1, "property", 0, "null")
+  (130, 3, 4, <21:26>, 1, "holds", 0, "null")
+  (145, 3, 4, <21:26>, 1, "holds", 0, "null", "VBZ" 1.0)
+  (157, 3, 4, <21:26>, 1, "holds", 0, "null")
+  (132, 4, 5, <27:29>, 1, "an", 0, "null")
+  (158, 4, 5, <27:29>, 1, "an", 0, "null")
+  (134, 5, 6, <30:38>, 1, "interest", 0, "null")
+  (146, 5, 6, <30:38>, 1, "interest", 0, "null", "NN" 1.0)
+  (159, 5, 6, <30:38>, 1, "interest", 0, "null")
+  (136, 6, 7, <39:41>, 1, "in", 0, "null")
+  (160, 6, 7, <39:41>, 1, "in", 0, "null")
+  (114, 7, 8, <42:45>, 1, "139", 0, "null")
+  (152, 7, 8, <42:45>, 1, "139", 0, "null")
+  (126, 8, 9, <46:56>, 1, "facilities", 0, "null")
+  (144, 8, 9, <46:56>, 1, "facilities", 0, "null", "NNS" 1.0)
+  (155, 8, 9, <46:56>, 1, "facilities", 0, "null")
+  (128, 9, 10, <57:59>, 1, "in", 0, "null")
+  (156, 9, 10, <57:59>, 1, "in", 0, "null")
+  (113, 10, 11, <60:62>, 1, "30", 0, "null")
+  (151, 10, 11, <60:62>, 1, "30", 0, "null")
+  (138, 11, 12, <63:70>, 1, "states.", 0, "null")
+  (147, 11, 12, <63:70>, 1, "states.", 0, "null", "NNS" 1.0)
+  (161, 11, 12, <63:70>, 1, "states.", 0, "null")
+>
+
+(ROOT_STRICT
+ (11198 SB-HD_MC_C 16.9156 0 12
+  (11197 HDN_BNP_C 2.06262 0 3
+   (11196 N-HDN_CPD_C 1.44187 0 3
+    (11195 N-HDN_CPD_C 1.35466 0 2
+     (166 health_n1@n_-_m_le 0.0559309 0 1
+      ("health" 149
+       "token [ +CARG \"Health\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"health\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (171 care_n1@n_-_m_le 0.134103 1 2
+      ("care" 148
+       "token [ +CARG \"Care\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"care\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (11191 ^N_MS-CNT_ILR 0.108492 2 3
+     (178 property_n1@n_-_mc-ns_le 0.120842 2 3
+      ("property" 150
+       "token [ +CARG \"Property\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"property\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.95824549999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (11187 ^HD-CMP_U_C 13.3371 3 12
+   (11172 ^V_3S-FIN_OLR 2.21279 3 4
+    (221 hold_v1@v_np*_le 1.82127 3 4
+     ("holds" 130
+      "token [ +CARG #1=\"holds\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"26\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (11186 SP-HD_N_C 10.1862 4 12
+    (241 an_det@d_-_sg-nmd-an_le 0.768586 4 5
+     ("an" 132
+      "token [ +CARG #1=\"an\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"27\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (11185 ^HD-CMP_U_C 7.87184 5 12
+     (11173 ^N_MS-CNT_ILR 2.37864 5 6
+      (265 interest_n1@n_pp_mc-in_le 0.658981 5 6
+       ("interest" 134
+        "token [ +CARG #1=\"interest\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"30\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (11184 HD-CMP_U_C 4.07681 6 12
+      (298 in_prtcl@p_np_ptcl_le 0.145478 6 7
+       ("in" 136
+        "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"39\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"41\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (11183 SP-HD_N_C 2.68657 7 12
+       (11174 NUM_DET_C 0.221839 7 8
+        (337 generic_card_ne@aj_-_i-crd-gen_le 0 7 8
+         ("139" 114
+          "token [ +CARG #1=\"139\" +CLASS card_or_year_ne +FORM #1 +FROM \"42\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"45\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+       (11182 ^HDN-AJ_REDREL_C 2.4675 8 12
+        (11175 ^N_PL_OLR 0.216564 8 9
+         (342 facility_n1@n_-_mc_le 0 8 9
+          ("facilities" 126
+           "token [ +CARG #1=\"facilities\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"46\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"9\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"56\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+        (11181 HD-CMP_U_C 1.48744 9 12
+         (380 in@p_np_i-reg_le -0.783763 9 10
+          ("in" 128
+           "token [ +CARG #1=\"in\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"57\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"10\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"59\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+         (11180 SP-HD_N_C 0.305698 10 12
+          (11176 NUM_DET_C 0.21137 10 11
+           (422 generic_card_ne@aj_-_i-crd-gen_le -0.0185806 10 11
+            ("30" 113
+             "token [ +CARG #1=\"30\" +CLASS card_or_dom_ne +FORM #1 +FROM \"60\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"11\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"62\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+          (11179 ^HDN_OPTCMP_C 0.404047 11 12
+           (11178 W_PERIOD_PLR 0.0737388 11 12
+            (11177 N_PL_OLR 0.0374678 11 12
+             (431 state_n1@n_pp_mc-of-lhc_le 0 11 12
+              ("states." 138
+               "token [ +CARG \"states\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"states.\" +FROM #1=\"63\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"12\" REST *cons* [ FIRST \"13\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"70\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))))))
+
+(S (NP (N (N (N "health") (N "care")) (N (N "property"))))
+ (VP (V (V "holds"))
+  (NP (DET "an")
+   (N (N (N "interest"))
+    (PP (P "in")
+     (NP (DET (ADJ "139"))
+      (N (N (N "facilities"))
+       (PP (P "in")
+        (NP (DET (ADJ "30")) (N (N (N (N "states.")))))))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:20>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:20>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:11>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:11>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<0:6>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _health_n_1<0:6>
+            LBL: h20
+            ARG0: x15 ]
+          [ _care_n_1<7:11>
+            LBL: h14
+            ARG0: x9 ]
+          [ _property_n_1<12:20>
+            LBL: h8
+            ARG0: x6 ]
+          [ _hold_v_1<21:26>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: x21 [ x PERS: 3 NUM: SG ] ]
+          [ _a_q<27:29>
+            LBL: h22
+            ARG0: x21
+            RSTR: h24
+            BODY: h23 ]
+          [ _interest_n_in<30:38>
+            LBL: h25
+            ARG0: x21
+            ARG1: x26 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<42:45>
+            LBL: h27
+            ARG0: x26
+            RSTR: h28
+            BODY: h29 ]
+          [ card<42:45>
+            LBL: h30
+            ARG0: e31 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x26
+            CARG: "139" ]
+          [ _facility_n_1<46:56>
+            LBL: h30
+            ARG0: x26 ]
+          [ _in_p<57:59>
+            LBL: h30
+            ARG0: e32 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x26
+            ARG2: x33 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<60:62>
+            LBL: h34
+            ARG0: x33
+            RSTR: h35
+            BODY: h36 ]
+          [ card<60:62>
+            LBL: h37
+            ARG0: e38 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x33
+            CARG: "30" ]
+          [ _state_n_of<63:70>
+            LBL: h37
+            ARG0: x33
+            ARG1: i39 ] >
+   HCONS: < h35 QEQ h37 h28 QEQ h30 h24 QEQ h25 h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:20>[BV x6]
+ e10:compound<0:20>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:11>[BV x9]
+ e16:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:udef_q<0:6>[BV x15]
+ x15:_health_n_1<0:6>{x PERS 3, NUM sg, IND -}[]
+ x9:_care_n_1<7:11>{x PERS 3, NUM sg, IND -}[]
+ x6:_property_n_1<12:20>{x PERS 3, NUM sg}[]
+ e3:_hold_v_1-fn.Manipulation<21:26>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1-fn.Agent x6, ARG2-fn.Entity x21]
+ _4:_a_q<27:29>[BV x21]
+ x21:_interest_n_in<30:38>{x PERS 3, NUM sg}[ARG1 x26]
+ _5:udef_q<42:45>[BV x26]
+ e31:card<42:45>("139"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x26]
+ x26:_facility_n_1<46:56>{x PERS 3, NUM pl}[]
+ e32:_in_p<57:59>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x26, ARG2 x33]
+ _6:udef_q<60:62>[BV x33]
+ e38:card<60:62>("30"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x33]
+ x33:_state_n_of<63:70>{x PERS 3, NUM pl}[]
+}
+
+{
+  udef_q<0:20> BV _property_n_1<12:20>  
+  compound<0:20> ARG1 _property_n_1<12:20>  
+  compound<0:20> ARG2 _care_n_1<7:11>  
+  udef_q<0:11> BV _care_n_1<7:11>  
+  compound<0:11> ARG1 _care_n_1<7:11>  
+  compound<0:11> ARG2 _health_n_1<0:6>  
+  udef_q<0:6> BV _health_n_1<0:6>  
+  _hold_v_1<21:26> ARG1 _property_n_1<12:20>  
+  _hold_v_1<21:26> ARG2 _interest_n_in<30:38>  
+  _a_q<27:29> BV _interest_n_in<30:38>  
+  _interest_n_in<30:38> ARG1 _facility_n_1<46:56>  
+  udef_q<42:45> BV _facility_n_1<46:56>  
+  card<42:45>(139) ARG1 _facility_n_1<46:56>  
+  _in_p<57:59> ARG1 _facility_n_1<46:56>  
+  _in_p<57:59> ARG2 _state_n_of<63:70>  
+  udef_q<60:62> BV _state_n_of<63:70>  
+  card<60:62>(30) ARG1 _state_n_of<63:70>  
+  compound<0:20> SF prop  
+  compound<0:20> TENSE untensed  
+  compound<0:20> MOOD indicative  
+  compound<0:20> PROG -  
+  compound<0:20> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  _health_n_1<0:6> PERS 3  
+  _health_n_1<0:6> NUM sg  
+  _health_n_1<0:6> IND -  
+  _care_n_1<7:11> PERS 3  
+  _care_n_1<7:11> NUM sg  
+  _care_n_1<7:11> IND -  
+  _property_n_1<12:20> PERS 3  
+  _property_n_1<12:20> NUM sg  
+  _hold_v_1<21:26> SF prop  
+  _hold_v_1<21:26> TENSE pres  
+  _hold_v_1<21:26> MOOD indicative  
+  _hold_v_1<21:26> PROG -  
+  _hold_v_1<21:26> PERF -  
+  _interest_n_in<30:38> PERS 3  
+  _interest_n_in<30:38> NUM sg  
+  card<42:45>(139) SF prop  
+  card<42:45>(139) TENSE untensed  
+  card<42:45>(139) MOOD indicative  
+  card<42:45>(139) PROG -  
+  card<42:45>(139) PERF -  
+  _facility_n_1<46:56> PERS 3  
+  _facility_n_1<46:56> NUM pl  
+  _in_p<57:59> SF prop  
+  _in_p<57:59> TENSE untensed  
+  _in_p<57:59> MOOD indicative  
+  _in_p<57:59> PROG -  
+  _in_p<57:59> PERF -  
+  card<60:62>(30) SF prop  
+  card<60:62>(30) TENSE untensed  
+  card<60:62>(30) MOOD indicative  
+  card<60:62>(30) PROG -  
+  card<60:62>(30) PERF -  
+  _state_n_of<63:70> PERS 3  
+  _state_n_of<63:70> NUM pl  
+}
+

@@ -1,0 +1,106 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:06 h)).
+;;;
+
+[21107017] (1 of 1) {1} `Paul Padget'
+
+[21107017:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Paul", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:11>, 1, "Padget", 0, "null", "NNP" 1.0)
+>
+
+<
+  (25, 0, 1, <0:4>, 1, "Paul", 0, "null")
+  (28, 0, 1, <0:4>, 1, "paul", 0, "null")
+  (30, 0, 1, <0:4>, 1, "paul", 0, "null")
+  (20, 1, 2, <5:11>, 1, "Padget", 0, "null")
+  (26, 1, 2, <5:11>, 1, "Padget", 0, "null", "NNP" 1.0)
+  (27, 1, 2, <5:11>, 1, "padget", 0, "null")
+  (29, 1, 2, <5:11>, 1, "padget", 0, "null")
+>
+
+(ROOT_FRAG
+ (79 NP_FRG_C -0.408341 0 2
+  (78 HDN_BNP-PN_C 0.738171 0 2
+   (77 NP-HDN_NME-CPD_C 0.777478 0 2
+    (75 HDN_BNP-PN_C 0.586141 0 1
+     (74 N_SG_ILR -0.166294 0 1
+      (33 paul_n1@n_-_pn_le 0 0 1
+       ("paul" 28
+        "token [ +CARG \"Paul\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"paul\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (76 ^N_SG_ILR -0.143257 1 2
+     (34 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Padget" 20
+       "token [ +CARG #1=\"Padget\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))))
+
+(XP (NP (N (NP (N (N "paul"))) (N (N "Padget")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:11>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:11>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "Paul" ]
+          [ named<5:11>
+            LBL: h8
+            ARG0: x4
+            CARG: "Padget" ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:11>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:11>[BV x4]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("Paul"){x PERS 3, NUM sg, IND +}[]
+ x4:named<5:11>("Padget"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:11> ARG named<5:11>(Padget)  
+  proper_q<0:11> BV named<5:11>(Padget)  
+  compound<0:11> ARG1 named<5:11>(Padget)  
+  compound<0:11> ARG2 named<0:4>(Paul)  
+  proper_q<0:4> BV named<0:4>(Paul)  
+  unknown<0:11> SF prop-or-ques  
+  unknown<0:11> TENSE untensed  
+  unknown<0:11> MOOD indicative  
+  unknown<0:11> PROG -  
+  unknown<0:11> PERF -  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:4>(Paul) PERS 3  
+  named<0:4>(Paul) NUM sg  
+  named<0:4>(Paul) IND +  
+  named<5:11>(Padget) PERS 3  
+  named<5:11>(Padget) NUM sg  
+  named<5:11>(Padget) IND +  
+}
+

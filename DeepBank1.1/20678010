@@ -1,0 +1,160 @@
+;;;
+;;; Redwoods export of `wsj06c';
+;;; (wsun@wsun; 22-jan-2018 (16:23 h)).
+;;;
+
+[20678010] (1 of 1) {1} `Brown & Sons Inc.'
+
+[20678010:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Brown", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <6:7>, 1, "&", 0, "null", "CC" 1.0)
+  (3, 2, 3, <8:12>, 1, "Sons", 0, "null", "NNP" 0.6928 "NNPS" 0.3072)
+  (4, 3, 4, <13:16>, 1, "Inc", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (62, 0, 1, <0:5>, 1, "Brown", 0, "null")
+  (66, 0, 1, <0:5>, 1, "brown", 0, "null")
+  (72, 0, 1, <0:5>, 1, "brown", 0, "null")
+  (57, 1, 2, <6:7>, 1, "&", 0, "null")
+  (71, 1, 2, <6:7>, 1, "&", 0, "null")
+  (48, 2, 3, <8:12>, 1, "Sons", 0, "null")
+  (63, 2, 3, <8:12>, 1, "Sons", 0, "null", "NNP" 0.6928)
+  (65, 2, 3, <8:12>, 1, "Sons", 0, "null", "NNPS" 0.3072)
+  (68, 2, 3, <8:12>, 1, "sons", 0, "null")
+  (69, 2, 3, <8:12>, 1, "sons", 0, "null")
+  (51, 3, 4, <13:17>, 1, "Inc.", 0, "null")
+  (64, 3, 4, <13:17>, 1, "Inc.", 0, "null", "NNP" 1.0)
+  (67, 3, 4, <13:17>, 1, "inc.", 0, "null")
+  (70, 3, 4, <13:17>, 1, "inc.", 0, "null")
+>
+
+(ROOT_FRAG
+ (481 NP_FRG_C 2.61694 0 4
+  (480 HDN_BNP-PN_C 3.76345 0 4
+   (479 NP-HDN_NME-CPD_C 3.80276 0 4
+    (476 NP-NP_CRD-T_C 4.24336 0 3
+     (472 HDN_BNP-PN_C 0.813595 0 1
+      (471 N_SG_ILR -0.051265 0 1
+       (77 brown_n1@n_-_pn_le 0.429392 0 1
+        ("brown" 66
+         "token [ +CARG \"Brown\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"brown\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (475 ^MRK-NH_NOM_C 2.45981 1 3
+      (80 and_conj_amp@c_xp_amp_le -1.48622 1 2
+       ("&" 57
+        "token [ +CARG #1=\"&\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (474 HDN_BNP-PN_C 0.454666 2 3
+       (473 N_SG_ILR 0.240221 2 3
+        (83 generic_proper_ne@n_-_pn-gen_le 0 2 3
+         ("Sons" 48
+          "token [ +CARG #1=\"Sons\" +CLASS proper_ne +FORM #1 +FROM \"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.69276729999999997\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+    (478 ^W_PERIOD_PLR -0.54044 3 4
+     (477 N_SG_ILR -1.09504 3 4
+      (102 generic_proper_ne@n_-_pn-gen_le -1.5611 3 4
+       ("Inc." 51
+        "token [ +CARG \"Inc\" +CLASS proper_ne +FORM \"Inc.\" +FROM \"13\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))))
+
+(XP
+ (NP
+  (N (NP (NP (N (N "brown"))) (NP-CJ (CONJ "&") (NP (N (N "Sons")))))
+   (N (N (N "Inc."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:17>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 ]
+          [ udef_q<0:12>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ proper_q<0:5>
+            LBL: h14
+            ARG0: x16 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h15
+            BODY: h17 ]
+          [ named<0:5>
+            LBL: h18
+            ARG0: x16
+            CARG: "Brown" ]
+          [ _and_c<6:7>
+            LBL: h19
+            ARG0: x9
+            L-INDEX: x16
+            R-INDEX: x20 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<8:12>
+            LBL: h21
+            ARG0: x20
+            RSTR: h22
+            BODY: h23 ]
+          [ named<8:12>
+            LBL: h24
+            ARG0: x20
+            CARG: "Sons" ]
+          [ named<13:17>
+            LBL: h8
+            ARG0: x4
+            CARG: "Inc" ] >
+   HCONS: < h22 QEQ h24 h15 QEQ h18 h12 QEQ h19 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:17>[BV x4]
+ e10:compound<0:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:12>[BV x9]
+ _3:proper_q<0:5>[BV x16]
+ x16:named<0:5>("Brown"){x PERS 3, NUM sg, IND +}[]
+ x9:_and_c<6:7>{x}[L-INDEX x16, R-INDEX x20]
+ _4:proper_q<8:12>[BV x20]
+ x20:named<8:12>("Sons"){x PERS 3, NUM sg, IND +}[]
+ x4:named<13:17>("Inc"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:17> ARG named<13:17>(Inc)  
+  proper_q<0:17> BV named<13:17>(Inc)  
+  compound<0:17> ARG1 named<13:17>(Inc)  
+  compound<0:17> ARG2 _and_c<6:7>  
+  udef_q<0:12> BV _and_c<6:7>  
+  proper_q<0:5> BV named<0:5>(Brown)  
+  _and_c<6:7> L-INDEX named<0:5>(Brown)  
+  _and_c<6:7> R-INDEX named<8:12>(Sons)  
+  proper_q<8:12> BV named<8:12>(Sons)  
+  unknown<0:17> SF prop  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  compound<0:17> SF prop  
+  compound<0:17> TENSE untensed  
+  compound<0:17> MOOD indicative  
+  compound<0:17> PROG -  
+  compound<0:17> PERF -  
+  named<0:5>(Brown) PERS 3  
+  named<0:5>(Brown) NUM sg  
+  named<0:5>(Brown) IND +  
+  named<8:12>(Sons) PERS 3  
+  named<8:12>(Sons) NUM sg  
+  named<8:12>(Sons) IND +  
+  named<13:17>(Inc) PERS 3  
+  named<13:17>(Inc) NUM sg  
+  named<13:17>(Inc) IND +  
+}
+

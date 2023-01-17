@@ -1,0 +1,107 @@
+;;;
+;;; Redwoods export of `wsj05d';
+;;; (wsun@wsun; 22-jan-2018 (15:36 h)).
+;;;
+
+[20592014] (1 of 1) {1} `The confusion could be costly.'
+
+[20592014:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "The", 0, "null", "DT" 1.0)
+  (2, 1, 2, <4:13>, 1, "confusion", 0, "null", "NN" 1.0)
+  (3, 2, 3, <14:19>, 1, "could", 0, "null", "MD" 1.0)
+  (4, 3, 4, <20:22>, 1, "be", 0, "null", "VB" 1.0)
+  (5, 4, 5, <23:29>, 1, "costly", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <29:30>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (69, 0, 1, <0:3>, 1, "the", 0, "null")
+  (74, 0, 1, <0:3>, 1, "the", 0, "null")
+  (59, 1, 2, <4:13>, 1, "confusion", 0, "null")
+  (66, 1, 2, <4:13>, 1, "confusion", 0, "null", "NN" 1.0)
+  (70, 1, 2, <4:13>, 1, "confusion", 0, "null")
+  (61, 2, 3, <14:19>, 1, "could", 0, "null")
+  (71, 2, 3, <14:19>, 1, "could", 0, "null")
+  (63, 3, 4, <20:22>, 1, "be", 0, "null")
+  (67, 3, 4, <20:22>, 1, "be", 0, "null", "VB" 1.0)
+  (72, 3, 4, <20:22>, 1, "be", 0, "null")
+  (65, 4, 5, <23:30>, 1, "costly.", 0, "null")
+  (68, 4, 5, <23:30>, 1, "costly.", 0, "null", "JJ" 1.0)
+  (73, 4, 5, <23:30>, 1, "costly.", 0, "null")
+>
+
+(ROOT_STRICT
+ (709 SB-HD_MC_C 7.3471 0 5
+  (705 SP-HD_N_C 1.24078 0 2
+   (87 the_1@d_-_the_le 1.13181 0 1
+    ("the" 69
+     "token [ +CARG \"The\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"the\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"DT\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (704 ^N_MS-CNT_ILR -0.341783 1 2
+    (112 confusion_n1@n_-_mc_le 0 1 2
+     ("confusion" 59
+      "token [ +CARG #1=\"confusion\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"13\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (708 ^HD-CMP_U_C 4.15181 2 5
+   (114 could_aux_pos@v_vp_mdl-p-unsp_le 1.44603 2 3
+    ("could" 61
+     "token [ +CARG #1=\"could\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"14\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (707 HD-CMP_U_C 1.77634 3 5
+    (116 be_c_be@v_prd_be_le 1.93526 3 4
+     ("be" 63
+      "token [ +CARG #1=\"be\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"22\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (706 W_PERIOD_PLR 0.0541355 4 5
+     (133 costly_a1@aj_-_i_le 0 4 5
+      ("costly." 65
+       "token [ +CARG \"costly\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"costly.\" +FROM #1=\"23\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"30\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (DET "the") (N (N "confusion")))
+ (VP (V "could") (VP (V "be") (AP (AP "costly.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ _the_q<0:3>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG ]
+            RSTR: h7
+            BODY: h5 ]
+          [ _confusion_n_1<4:13>
+            LBL: h8
+            ARG0: x6 ]
+          [ _could_v_modal<14:19>
+            LBL: h2
+            ARG0: e3
+            ARG1: h9 ]
+          [ _costly_a_1<23:30>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h9 QEQ h10 h7 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:_the_q<0:3>[BV x6]
+ x6:_confusion_n_1<4:13>{x PERS 3, NUM sg}[]
+ e3:_could_v_modal<14:19>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 e11]
+ e11:_costly_a_1<23:30>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  _the_q<0:3> BV _confusion_n_1<4:13>  
+  _could_v_modal<14:19> ARG1 _costly_a_1<23:30>  
+  _costly_a_1<23:30> ARG1 _confusion_n_1<4:13>  
+  _confusion_n_1<4:13> PERS 3  
+  _confusion_n_1<4:13> NUM sg  
+  _could_v_modal<14:19> SF prop  
+  _could_v_modal<14:19> TENSE pres  
+  _could_v_modal<14:19> MOOD indicative  
+  _could_v_modal<14:19> PROG -  
+  _could_v_modal<14:19> PERF -  
+  _costly_a_1<23:30> SF prop  
+  _costly_a_1<23:30> TENSE untensed  
+  _costly_a_1<23:30> MOOD indicative  
+  _costly_a_1<23:30> PROG -  
+  _costly_a_1<23:30> PERF -  
+}
+

@@ -1,0 +1,158 @@
+;;;
+;;; Redwoods export of `wsj00b';
+;;; (wsun@wsun; 22-jan-2018 (10:26 h)).
+;;;
+
+[20044134] (1 of 1) {1} `Mrs. Ward, for one, was relieved.'
+
+[20044134:1] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Mrs.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:9>, 1, "Ward", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <9:10>, 1, ",", 0, "null", "," 1.0)
+  (4, 3, 4, <11:14>, 1, "for", 0, "null", "IN" 1.0)
+  (5, 4, 5, <15:18>, 1, "one", 0, "null", "CD" 0.8806 "NN" 0.1021 "PRP" 0.0173)
+  (6, 5, 6, <18:19>, 1, ",", 0, "null", "," 1.0)
+  (7, 6, 7, <20:23>, 1, "was", 0, "null", "VBD" 1.0)
+  (8, 7, 8, <24:32>, 1, "relieved", 0, "null", "VBN" 0.9185 "JJ" 0.0815)
+  (9, 8, 9, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (106, 0, 1, <0:4>, 1, "Mrs.", 0, "null")
+  (112, 0, 1, <0:4>, 1, "mrs.", 0, "null")
+  (119, 0, 1, <0:4>, 1, "mrs.", 0, "null")
+  (85, 1, 2, <5:10>, 1, "Ward,", 0, "null")
+  (111, 1, 2, <5:10>, 1, "Ward,", 0, "null", "NNP" 1.0)
+  (113, 1, 2, <5:10>, 1, "ward,", 0, "null")
+  (114, 1, 2, <5:10>, 1, "ward,", 0, "null")
+  (97, 2, 3, <11:14>, 1, "for", 0, "null")
+  (115, 2, 3, <11:14>, 1, "for", 0, "null")
+  (102, 3, 4, <15:19>, 1, "one,", 0, "null")
+  (107, 3, 4, <15:19>, 1, "one,", 0, "null", "CD" 0.8806)
+  (109, 3, 4, <15:19>, 1, "one,", 0, "null", "NN" 0.1021)
+  (117, 3, 4, <15:19>, 1, "one,", 0, "null")
+  (99, 4, 5, <20:23>, 1, "was", 0, "null")
+  (110, 4, 5, <20:23>, 1, "was", 0, "null", "VBD" 1.0)
+  (116, 4, 5, <20:23>, 1, "was", 0, "null")
+  (103, 5, 6, <24:33>, 1, "relieved.", 0, "null")
+  (108, 5, 6, <24:33>, 1, "relieved.", 0, "null", "VBN" 0.9185)
+  (118, 5, 6, <24:33>, 1, "relieved.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2338 SB-HD_MC_C 7.04554 0 6
+  (2330 HD-AJ_SCP-PR_C 3.16914 0 4
+   (2328 ^HDN_BNP-PN_C 2.3126 0 2
+    (2327 NP-HDN_TTL-CPD_C 2.74073 0 2
+     (2324 N_SG_ILR 1.57757 0 1
+      (137 missus_abb_n2@n_-_c-nochd_le 0.0584842 0 1
+       ("mrs." 112
+        "token [ +CARG \"Mrs.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mrs.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (2326 ^W_COMMA_PLR 0.928892 1 2
+      (2325 N_SG_ILR -0.685616 1 2
+       (153 ward_n2@n_-_pn_le 0 1 2
+        ("ward," 113
+         "token [ +CARG \"Ward\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"ward,\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+   (2329 W_COMMA_PLR 1.16112 2 4
+    (490 for_one_disc_adv@av_-_dc-like-po_le 0 2 4
+     ("for one," 97
+      "token [ +CARG #1=\"for\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"11\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"
+      102
+      "token [ +CARG \"one\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"one,\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.88061469999999997\" +TAG \"CD\" ] +PRBS *null* +TAGS *null* ] +TO \"19\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2337 ^HD-CMP_U_C 2.76106 4 6
+   (314 be_c_was@v_prd_was_le 2.0009 4 5
+    ("was" 99
+     "token [ +CARG #1=\"was\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"20\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"7\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"23\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2336 HD_OPTCMP_C 0.772703 5 6
+    (2335 W_PERIOD_PLR 0.621276 5 6
+     (2334 V_PAS_ODLR 0.295437 5 6
+      (349 relieve_v1@v_np_le 0 5 6
+       ("relieved." 103
+        "token [ +CARG \"relieved\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"relieved.\" +FROM #1=\"24\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"8\" REST *cons* [ FIRST \"9\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.91850719999999997\" +TAG \"VBN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S
+ (NP (NP (N (N (N "mrs.")) (N (N (N "ward,")))))
+  (ADV (ADV "for one,")))
+ (VP (V "was") (VP (V (V (V "relieved."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:10>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:10>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _missus_n_1<0:4>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<5:10>
+            LBL: h8
+            ARG0: x6
+            CARG: "Ward" ]
+          [ _relieve_v_1<24:33>
+            LBL: h2
+            ARG0: e3
+            ARG1: i15
+            ARG2: x6 ]
+          [ parg_d<24:33>
+            LBL: h2
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:10>[BV x6]
+ e10:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:4>[BV x9]
+ x9:_missus_n_1<0:4>{x PERS 3, NUM sg, IND +}[]
+ x6:named<5:10>("Ward"){x PERS 3, NUM sg, IND +}[]
+ e3:_relieve_v_1<24:33>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ e16:parg_d<24:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x6]
+}
+
+{
+  proper_q<0:10> BV named<5:10>(Ward)  
+  compound<0:10> ARG1 named<5:10>(Ward)  
+  compound<0:10> ARG2 _missus_n_1<0:4>  
+  udef_q<0:4> BV _missus_n_1<0:4>  
+  _relieve_v_1<24:33> ARG2 named<5:10>(Ward)  
+  parg_d<24:33> ARG1 _relieve_v_1<24:33>  
+  parg_d<24:33> ARG2 named<5:10>(Ward)  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  _missus_n_1<0:4> PERS 3  
+  _missus_n_1<0:4> NUM sg  
+  _missus_n_1<0:4> IND +  
+  named<5:10>(Ward) PERS 3  
+  named<5:10>(Ward) NUM sg  
+  named<5:10>(Ward) IND +  
+  _relieve_v_1<24:33> SF prop  
+  _relieve_v_1<24:33> TENSE past  
+  _relieve_v_1<24:33> MOOD indicative  
+  _relieve_v_1<24:33> PROG -  
+  _relieve_v_1<24:33> PERF -  
+  parg_d<24:33> SF prop  
+  parg_d<24:33> TENSE untensed  
+  parg_d<24:33> MOOD indicative  
+  parg_d<24:33> PROG -  
+  parg_d<24:33> PERF -  
+}
+

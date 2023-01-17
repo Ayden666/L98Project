@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj18b';
+;;; (wsun@wsun; 23-jan-2018 (03:22 h)).
+;;;
+
+[21844067] (1 of 1) {1} `AC&R ADVERTISING:'
+
+[21844067:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "AC&R", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:16>, 1, "ADVERTISING", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <16:17>, 1, ":", 0, "null", ":" 1.0)
+>
+
+<
+  (37, 0, 1, <0:4>, 1, "AC&R", 0, "null", "NNP" 1.0)
+  (39, 0, 1, <0:4>, 1, "ac&r", 0, "null")
+  (43, 0, 1, <0:4>, 1, "ac&r", 0, "null")
+  (29, 1, 2, <5:16>, 1, "ADVERTISING", 0, "null")
+  (36, 1, 2, <5:16>, 1, "ADVERTISING", 0, "null", "NNP" 1.0)
+  (38, 1, 2, <5:16>, 1, "advertising", 0, "null")
+  (40, 1, 2, <5:16>, 1, "advertising", 0, "null")
+  (33, 2, 3, <16:17>, 1, ":", 0, "null")
+  (41, 2, 3, <16:17>, 1, ":", 0, "null")
+>
+
+(ROOT_FRAG
+ (360 NP_FRG_C 1.24096 0 3
+  (359 HDN_BNP_C 1.44537 0 3
+   (358 HDN-AJ_REDREL_C 1.54077 0 3
+    (357 ^NP-HDN_CPD_C 0.939446 0 2
+     (355 HDN_BNP-PN_C -0.136842 0 1
+      (44 genericname@n_-_pn-unk_le 0 0 1
+       ("AC&R" 37
+        "token [ +CARG #1=\"AC&R\" +CLASS non_alphanumeric [ +INITIAL + ] +FORM #1 +FROM #2=\"0\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"1\" REST #3 ] ] +PRED \"_ac&r/NNP_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"NNP\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))
+     (356 ^N_MS_ILR 0.914782 1 2
+      (53 advertising_n1@n_-_m_le 0.990609 1 2
+       ("advertising" 38
+        "token [ +CARG \"ADVERTISING\" +CLASS alphabetic [ +CASE capitalized+upper +INITIAL - ] +FORM \"advertising\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (65 colon_namely_pp@pp_-_i-cln_le 0.338554 2 3
+     (":" 33
+      "token [ +CARG #1=\":\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"16\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (NP (N (N (NP (N "AC&R")) (N (N "advertising"))) (PP ":"))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:17>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG GEND: N IND: - ] ]
+          [ udef_q<0:17>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "AC&R" ]
+          [ _advertising_n_1<5:16>
+            LBL: h8
+            ARG0: x4 ]
+          [ _colon_p_namely<16:17>
+            LBL: h8
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4 ] >
+   HCONS: < h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:17>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:17>[BV x4]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("AC&R"){x IND +}[]
+ x4:_advertising_n_1<5:16>{x PERS 3, NUM sg, GEND n, IND -}[]
+ e15:_colon_p_namely<16:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4]
+}
+
+{
+  unknown<0:17> ARG _advertising_n_1<5:16>  
+  udef_q<0:17> BV _advertising_n_1<5:16>  
+  compound<0:16> ARG1 _advertising_n_1<5:16>  
+  compound<0:16> ARG2 named<0:4>(AC&R)  
+  proper_q<0:4> BV named<0:4>(AC&R)  
+  _colon_p_namely<16:17> ARG1 _advertising_n_1<5:16>  
+  unknown<0:17> SF prop-or-ques  
+  unknown<0:17> TENSE untensed  
+  unknown<0:17> MOOD indicative  
+  unknown<0:17> PROG -  
+  unknown<0:17> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  named<0:4>(AC&R) IND +  
+  _advertising_n_1<5:16> PERS 3  
+  _advertising_n_1<5:16> NUM sg  
+  _advertising_n_1<5:16> GEND n  
+  _advertising_n_1<5:16> IND -  
+  _colon_p_namely<16:17> SF prop  
+  _colon_p_namely<16:17> TENSE untensed  
+  _colon_p_namely<16:17> MOOD indicative  
+  _colon_p_namely<16:17> PROG -  
+  _colon_p_namely<16:17> PERF -  
+}
+

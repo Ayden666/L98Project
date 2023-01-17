@@ -1,0 +1,65 @@
+;;;
+;;; Redwoods export of `wsj16b';
+;;; (wsun@wsun; 23-jan-2018 (01:10 h)).
+;;;
+
+[21618047] (1 of 1) {1} `Sure.'
+
+[21618047:3] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Sure", 0, "null", "RB" 0.4603 "JJ" 0.2875 "NNP" 0.2522)
+  (2, 1, 2, <4:5>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (26, 0, 1, <0:5>, 1, "Sure.", 0, "null")
+  (27, 0, 1, <0:5>, 1, "Sure.", 0, "null", "RB" 0.4603)
+  (28, 0, 1, <0:5>, 1, "Sure.", 0, "null", "JJ" 0.2875)
+  (29, 0, 1, <0:5>, 1, "sure.", 0, "null")
+  (30, 0, 1, <0:5>, 1, "sure.", 0, "null")
+>
+
+(ROOT_FRAG
+ (116 J_FRG_C -5.1e-4 0 1
+  (115 W_PERIOD_PLR 0.160078 0 1
+   (114 J_ATT_DLR 0.160078 0 1
+    (45 sure_a2@aj_pp_i_le 0 0 1
+     ("sure." 29
+      "token [ +CARG \"Sure\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"sure.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.46031129999999998\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (AP (AP (ADJ "sure."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:5>
+            LBL: h2
+            ARG0: e3
+            ARG: p4 ]
+          [ _sure_a_of<0:5>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: p4
+            ARG2: i6 ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:_sure_a_of<0:5>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  unknown<0:5> SF prop  
+  unknown<0:5> TENSE untensed  
+  unknown<0:5> MOOD indicative  
+  unknown<0:5> PROG -  
+  unknown<0:5> PERF -  
+  _sure_a_of<0:5> SF prop  
+  _sure_a_of<0:5> TENSE untensed  
+  _sure_a_of<0:5> MOOD indicative  
+  _sure_a_of<0:5> PROG -  
+  _sure_a_of<0:5> PERF -  
+}
+

@@ -1,0 +1,174 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:01 h)).
+;;;
+
+[20989001] (1 of 1) {1} `Motorola is fighting back against junk mail.'
+
+[20989001:0] (active)
+
+<
+  (1, 0, 1, <0:8>, 1, "Motorola", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <12:20>, 1, "fighting", 0, "null", "VBG" 1.0)
+  (4, 3, 4, <21:25>, 1, "back", 0, "null", "RP" 0.5523 "RB" 0.4266 "NN" 0.0211)
+  (5, 4, 5, <26:33>, 1, "against", 0, "null", "IN" 1.0)
+  (6, 5, 6, <34:38>, 1, "junk", 0, "null", "NN" 1.0)
+  (7, 6, 7, <39:43>, 1, "mail", 0, "null", "NN" 1.0)
+  (8, 7, 8, <43:44>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (92, 0, 1, <0:8>, 1, "Motorola", 0, "null")
+  (98, 0, 1, <0:8>, 1, "motorola", 0, "null")
+  (105, 0, 1, <0:8>, 1, "motorola", 0, "null")
+  (81, 1, 2, <9:11>, 1, "is", 0, "null")
+  (94, 1, 2, <9:11>, 1, "is", 0, "null", "VBZ" 1.0)
+  (99, 1, 2, <9:11>, 1, "is", 0, "null")
+  (83, 2, 3, <12:20>, 1, "fighting", 0, "null")
+  (95, 2, 3, <12:20>, 1, "fighting", 0, "null", "VBG" 1.0)
+  (100, 2, 3, <12:20>, 1, "fighting", 0, "null")
+  (90, 3, 4, <21:25>, 1, "back", 0, "null")
+  (93, 3, 4, <21:25>, 1, "back", 0, "null", "RB" 0.4266)
+  (104, 3, 4, <21:25>, 1, "back", 0, "null")
+  (85, 4, 5, <26:33>, 1, "against", 0, "null")
+  (101, 4, 5, <26:33>, 1, "against", 0, "null")
+  (87, 5, 6, <34:38>, 1, "junk", 0, "null")
+  (96, 5, 6, <34:38>, 1, "junk", 0, "null", "NN" 1.0)
+  (102, 5, 6, <34:38>, 1, "junk", 0, "null")
+  (89, 6, 7, <39:44>, 1, "mail.", 0, "null")
+  (97, 6, 7, <39:44>, 1, "mail.", 0, "null", "NN" 1.0)
+  (103, 6, 7, <39:44>, 1, "mail.", 0, "null")
+>
+
+(ROOT_STRICT
+ (2077 SB-HD_MC_C 9.60972 0 7
+  (2067 HDN_BNP-PN_C 0.489307 0 1
+   (2066 N_SG_ILR 0.538263 0 1
+    (107 motorola_n1@n_-_pn_le 0 0 1
+     ("motorola" 98
+      "token [ +CARG \"Motorola\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"motorola\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"8\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (2076 ^HD-CMP_U_C 8.10336 1 7
+   (147 be_c_is@v_prd_is_le 1.53171 1 2
+    ("is" 81
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"9\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (2075 HD-AJ_INT-UNSL_C 6.43499 2 7
+    (2069 ^HD-CMP_U_C 4.11698 2 4
+     (2068 ^V_PRP_OLR 1.28756 2 3
+      (233 fight_back_v1@v_p_le 0 2 3
+       ("fighting" 83
+        "token [ +CARG #1=\"fighting\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBG\" ] +PRBS *null* +TAGS *null* ] +TO \"20\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (256 back_particle@pp_-_ptcl_le 2.82942 3 4
+      ("back" 90
+       "token [ +CARG #1=\"back\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"21\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.55230349999999995\" +TAG \"RP\" ] +PRBS *null* +TAGS *null* ] +TO \"25\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (2074 HD-CMP_U_C 1.09934 4 7
+     (286 against@p_np_i_le 0.263975 4 5
+      ("against" 85
+       "token [ +CARG #1=\"against\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"26\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"5\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"IN\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+     (2073 HDN_BNP_C 1.04919 5 7
+      (2072 N-HDN_CPD_C 1.49286 5 7
+       (288 junk_n1@n_-_m_le -0.0675351 5 6
+        ("junk" 87
+         "token [ +CARG #1=\"junk\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"34\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"6\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"38\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+       (2071 ^W_PERIOD_PLR 0.784596 6 7
+        (2070 N_MS-CNT_ILR 0.214285 6 7
+         (300 mail_n1@n_-_mc_le 0 6 7
+          ("mail." 89
+           "token [ +CARG \"mail\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"mail.\" +FROM #1=\"39\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"7\" REST *cons* [ FIRST \"8\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"44\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))))
+
+(S (NP (N (N "motorola")))
+ (VP (V "is")
+  (VP (VP (V (V "fighting")) (PP "back"))
+   (PP (P "against") (NP (N (N "junk") (N (N (N "mail.")))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: + PERF: - ]
+   RELS: <
+          [ proper_q<0:8>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ named<0:8>
+            LBL: h8
+            ARG0: x6
+            CARG: "Motorola" ]
+          [ _fight_v_back<12:20>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ]
+          [ _against_p<26:33>
+            LBL: h2
+            ARG0: e9 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3
+            ARG2: x10 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<34:44>
+            LBL: h11
+            ARG0: x10
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<34:44>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x10
+            ARG2: x15 [ x PERS: 3 NUM: SG IND: - ] ]
+          [ udef_q<34:38>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ _junk_n_1<34:38>
+            LBL: h20
+            ARG0: x15 ]
+          [ _mail_n_1<39:44>
+            LBL: h14
+            ARG0: x10 ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:8>[BV x6]
+ x6:named<0:8>("Motorola"){x PERS 3, NUM sg, IND +}[]
+ e3:_fight_v_back-fn.Hostile_encounter<12:20>{e SF prop, TENSE pres, MOOD indicative, PROG +, PERF -}[ARG1-fn.Side_1 x6]
+ e9:_against_p<26:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3, ARG2 x10]
+ _2:udef_q<34:44>[BV x10]
+ e16:compound<34:44>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x10, ARG2 x15]
+ _3:udef_q<34:38>[BV x15]
+ x15:_junk_n_1<34:38>{x PERS 3, NUM sg, IND -}[]
+ x10:_mail_n_1<39:44>{x PERS 3, NUM sg}[]
+}
+
+{
+  proper_q<0:8> BV named<0:8>(Motorola)  
+  _fight_v_back<12:20> ARG1 named<0:8>(Motorola)  
+  _against_p<26:33> ARG1 _fight_v_back<12:20>  
+  _against_p<26:33> ARG2 _mail_n_1<39:44>  
+  udef_q<34:44> BV _mail_n_1<39:44>  
+  compound<34:44> ARG1 _mail_n_1<39:44>  
+  compound<34:44> ARG2 _junk_n_1<34:38>  
+  udef_q<34:38> BV _junk_n_1<34:38>  
+  named<0:8>(Motorola) PERS 3  
+  named<0:8>(Motorola) NUM sg  
+  named<0:8>(Motorola) IND +  
+  _fight_v_back<12:20> SF prop  
+  _fight_v_back<12:20> TENSE pres  
+  _fight_v_back<12:20> MOOD indicative  
+  _fight_v_back<12:20> PROG +  
+  _fight_v_back<12:20> PERF -  
+  _against_p<26:33> SF prop  
+  _against_p<26:33> TENSE untensed  
+  _against_p<26:33> MOOD indicative  
+  _against_p<26:33> PROG -  
+  _against_p<26:33> PERF -  
+  compound<34:44> SF prop  
+  compound<34:44> TENSE untensed  
+  compound<34:44> MOOD indicative  
+  compound<34:44> PROG -  
+  compound<34:44> PERF -  
+  _junk_n_1<34:38> PERS 3  
+  _junk_n_1<34:38> NUM sg  
+  _junk_n_1<34:38> IND -  
+  _mail_n_1<39:44> PERS 3  
+  _mail_n_1<39:44> NUM sg  
+}
+

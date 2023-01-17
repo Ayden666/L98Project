@@ -1,0 +1,104 @@
+;;;
+;;; Redwoods export of `wsj05a';
+;;; (wsun@wsun; 22-jan-2018 (14:51 h)).
+;;;
+
+[20514002] (1 of 1) {1} `He will remain chairman.'
+
+[20514002:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:7>, 1, "will", 0, "null", "MD" 1.0)
+  (3, 2, 3, <8:14>, 1, "remain", 0, "null", "VB" 1.0)
+  (4, 3, 4, <15:23>, 1, "chairman", 0, "null", "NN" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (57, 0, 1, <0:2>, 1, "he", 0, "null")
+  (61, 0, 1, <0:2>, 1, "he", 0, "null")
+  (50, 1, 2, <3:7>, 1, "will", 0, "null")
+  (58, 1, 2, <3:7>, 1, "will", 0, "null")
+  (52, 2, 3, <8:14>, 1, "remain", 0, "null")
+  (55, 2, 3, <8:14>, 1, "remain", 0, "null", "VB" 1.0)
+  (59, 2, 3, <8:14>, 1, "remain", 0, "null")
+  (54, 3, 4, <15:24>, 1, "chairman.", 0, "null")
+  (56, 3, 4, <15:24>, 1, "chairman.", 0, "null", "NN" 1.0)
+  (60, 3, 4, <15:24>, 1, "chairman.", 0, "null")
+>
+
+(ROOT_STRICT
+ (424 SB-HD_MC_C 4.16845 0 4
+  (419 HDN_BNP-QNT_C 1.50958 0 1
+   (62 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 57
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (423 ^HD-CMP_U_C 1.38952 1 4
+   (81 will_aux_pos@v_vp_will-p_le 2.13462 1 2
+    ("will" 50
+     "token [ +CARG #1=\"will\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"MD\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (422 HD-CMP_U_C -1.28002 2 4
+    (420 ^V_N3S-BSE_ILR -1.82033 2 3
+     (106 remain_v6@v_nb_le -0.573146 2 3
+      ("remain" 52
+       "token [ +CARG #1=\"remain\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"8\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (421 W_PERIOD_PLR -0.267914 3 4
+     (120 chairman_prd_n1@n_-_c-prd_le 0 3 4
+      ("chairman." 54
+       "token [ +CARG \"chairman\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"chairman.\" +FROM #1=\"15\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (NP "he"))
+ (VP (V "will") (VP (V (V "remain")) (N (N "chairman.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: FUT MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _remain_v_1<8:14>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 ]
+          [ udef_q<8:14>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _chairman_n_of<15:24>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_remain_v_1-fn.State_continue<8:14>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2-fn.Theme x9]
+ _2:udef_q<8:14>[BV x9]
+ x9:_chairman_n_of<15:24>{x}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _remain_v_1<8:14> ARG1 pron<0:2>  
+  _remain_v_1<8:14> ARG2 _chairman_n_of<15:24>  
+  udef_q<8:14> BV _chairman_n_of<15:24>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _remain_v_1<8:14> SF prop  
+  _remain_v_1<8:14> TENSE fut  
+  _remain_v_1<8:14> MOOD indicative  
+  _remain_v_1<8:14> PROG -  
+  _remain_v_1<8:14> PERF -  
+}
+

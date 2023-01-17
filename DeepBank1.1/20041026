@@ -1,0 +1,123 @@
+;;;
+;;; Redwoods export of `wsj00b';
+;;; (wsun@wsun; 22-jan-2018 (10:18 h)).
+;;;
+
+[20041026] (1 of 1) {1} `Everybody -- and nobody.'
+
+[20041026:0] (active)
+
+<
+  (1, 0, 1, <0:9>, 1, "Everybody", 0, "null", "NN" 1.0)
+  (2, 1, 2, <10:12>, 1, "–", 0, "null", ":" 1.0)
+  (3, 2, 3, <13:16>, 1, "and", 0, "null", "CC" 1.0)
+  (4, 3, 4, <17:23>, 1, "nobody", 0, "null", "NN" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (55, 0, 1, <0:9>, 1, "Everybody", 0, "null")
+  (57, 0, 1, <0:9>, 1, "everybody", 0, "null")
+  (61, 0, 1, <0:9>, 1, "everybody", 0, "null")
+  (52, 1, 2, <10:12>, 1, "–", 0, "null")
+  (59, 1, 2, <10:12>, 1, "–", 0, "null")
+  (50, 2, 3, <13:16>, 1, "and", 0, "null")
+  (58, 2, 3, <13:16>, 1, "and", 0, "null")
+  (54, 3, 4, <17:24>, 1, "nobody.", 0, "null")
+  (56, 3, 4, <17:24>, 1, "nobody.", 0, "null", "NN" 1.0)
+  (60, 3, 4, <17:24>, 1, "nobody.", 0, "null")
+>
+
+(ROOT_FRAG
+ (233 NP_FRG_C -1.47602 0 4
+  (232 NP-NP_CRD-T_C -1.03408 0 4
+   (227 HDN_BNP-QNT_C 0.349905 0 2
+    (226 HDN_OPTCMP_C 1.36126 0 2
+     (225 HD-PCT_C 1.32347 0 2
+      (63 everybody@n_-_pr_le 0 0 1
+       ("everybody" 57
+        "token [ +CARG \"Everybody\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"everybody\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"9\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+      (67 s_dbl_dash_pct@pt_-_s-dash_le 1.09473 1 2
+       ("–" 52
+        "token [ +CARG #1=\"–\" +CLASS non_alphanumeric [ +INITIAL - ] +FORM #1 +FROM #2=\"10\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \":\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+   (231 ^MRK-NH_NOM_C -1.91417 2 4
+    (76 and_conj@c_xp_and_le -0.668842 2 3
+     ("and" 50
+      "token [ +CARG #1=\"and\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"CC\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (230 HDN_BNP-QNT_C -1.37 3 4
+     (229 HDN_OPTCMP_C 0.0815302 3 4
+      (228 W_PERIOD_PLR 0 3 4
+       (92 nobody@n_-_pr_le 0 3 4
+        ("nobody." 54
+         "token [ +CARG \"nobody\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"nobody.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(XP
+ (NP (NP (N (N (N "everybody") (PNCT "–"))))
+  (NP-CJ (CONJ "and") (NP (N (N (N "nobody.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:24>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: PL ] ]
+          [ udef_q<0:24>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ person<0:9>
+            LBL: h8
+            ARG0: x9 [ x PERS: 3 NUM: SG ] ]
+          [ every_q<0:9>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ _and_c<13:16>
+            LBL: h13
+            ARG0: x4
+            L-INDEX: x9
+            R-INDEX: x14 [ x PERS: 3 NUM: SG ] ]
+          [ person<17:24>
+            LBL: h15
+            ARG0: x14 ]
+          [ _no_q<17:24>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ] >
+   HCONS: < h17 QEQ h15 h11 QEQ h8 h6 QEQ h13 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:24>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:24>[BV x4]
+ x9:person<0:9>{x PERS 3, NUM sg}[]
+ _2:every_q<0:9>[BV x9]
+ x4:_and_c<13:16>{x PERS 3, NUM pl}[L-INDEX x9, R-INDEX x14]
+ x14:person<17:24>{x PERS 3, NUM sg}[]
+ _3:_no_q<17:24>[BV x14]
+}
+
+{
+  unknown<0:24> ARG _and_c<13:16>  
+  udef_q<0:24> BV _and_c<13:16>  
+  every_q<0:9> BV person<0:9>  
+  _and_c<13:16> L-INDEX person<0:9>  
+  _and_c<13:16> R-INDEX person<17:24>  
+  _no_q<17:24> BV person<17:24>  
+  unknown<0:24> SF prop  
+  unknown<0:24> TENSE untensed  
+  unknown<0:24> MOOD indicative  
+  unknown<0:24> PROG -  
+  unknown<0:24> PERF -  
+  person<0:9> PERS 3  
+  person<0:9> NUM sg  
+  _and_c<13:16> PERS 3  
+  _and_c<13:16> NUM pl  
+  person<17:24> PERS 3  
+  person<17:24> NUM sg  
+}
+

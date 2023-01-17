@@ -1,0 +1,140 @@
+;;;
+;;; Redwoods export of `wsj02c';
+;;; (wsun@wsun; 22-jan-2018 (12:29 h)).
+;;;
+
+[20268005] (1 of 1) {1} `William S. Smith'
+
+[20268005:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "William", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <8:10>, 1, "S.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <11:16>, 1, "Smith", 0, "null", "NNP" 1.0)
+>
+
+<
+  (38, 0, 1, <0:7>, 1, "William", 0, "null")
+  (43, 0, 1, <0:7>, 1, "william", 0, "null")
+  (46, 0, 1, <0:7>, 1, "william", 0, "null")
+  (31, 1, 2, <8:10>, 1, "S.", 0, "null")
+  (40, 1, 2, <8:10>, 1, "S.", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <8:10>, 1, "s.", 0, "null")
+  (45, 1, 2, <8:10>, 1, "s.", 0, "null")
+  (30, 2, 3, <11:16>, 1, "Smith", 0, "null")
+  (39, 2, 3, <11:16>, 1, "Smith", 0, "null", "NNP" 1.0)
+  (41, 2, 3, <11:16>, 1, "smith", 0, "null")
+  (44, 2, 3, <11:16>, 1, "smith", 0, "null")
+>
+
+(ROOT_FRAG
+ (285 NP_FRG_C 0.00566521 0 3
+  (284 HDN_BNP-PN_C 1.15218 0 3
+   (283 NP-HDN_TTL-CPD_C 2.05851 0 3
+    (281 NP-HDN_CPD_C 1.84857 0 2
+     (279 HDN_BNP-PN_C 0.283458 0 1
+      (50 william_n1@n_-_pn_le 0.318558 0 1
+       ("william" 43
+        "token [ +CARG \"William\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"william\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+     (280 ^N_SG_ILR 0.92003 1 2
+      (69 second_abb_n2@n_-_c-nday_le 0.415739 1 2
+       ("s." 42
+        "token [ +CARG \"S.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"s.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (282 ^N_SG_ILR -0.0982517 2 3
+     (79 smith@n_-_pn_le 0 2 3
+      ("smith" 41
+       "token [ +CARG \"Smith\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"smith\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP (NP (N (N (NP (N "william")) (N (N "s."))) (N (N "smith")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:16>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:16>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:16>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:10>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:10>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:7>
+            LBL: h20
+            ARG0: x15
+            CARG: "William" ]
+          [ _second_n_1<8:10>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<11:16>
+            LBL: h8
+            ARG0: x4
+            CARG: "Smith" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:16>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:16>[BV x4]
+ e10:compound<0:16>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:udef_q<0:10>[BV x9]
+ e16:compound<0:10>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:7>[BV x15]
+ x15:named<0:7>("William"){x IND +}[]
+ x9:_second_n_1<8:10>{x PERS 3, NUM sg, IND +}[]
+ x4:named<11:16>("Smith"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:16> ARG named<11:16>(Smith)  
+  proper_q<0:16> BV named<11:16>(Smith)  
+  compound<0:16> ARG1 named<11:16>(Smith)  
+  compound<0:16> ARG2 _second_n_1<8:10>  
+  udef_q<0:10> BV _second_n_1<8:10>  
+  compound<0:10> ARG1 _second_n_1<8:10>  
+  compound<0:10> ARG2 named<0:7>(William)  
+  proper_q<0:7> BV named<0:7>(William)  
+  unknown<0:16> SF prop-or-ques  
+  unknown<0:16> TENSE untensed  
+  unknown<0:16> MOOD indicative  
+  unknown<0:16> PROG -  
+  unknown<0:16> PERF -  
+  compound<0:16> SF prop  
+  compound<0:16> TENSE untensed  
+  compound<0:16> MOOD indicative  
+  compound<0:16> PROG -  
+  compound<0:16> PERF -  
+  compound<0:10> SF prop  
+  compound<0:10> TENSE untensed  
+  compound<0:10> MOOD indicative  
+  compound<0:10> PROG -  
+  compound<0:10> PERF -  
+  named<0:7>(William) IND +  
+  _second_n_1<8:10> PERS 3  
+  _second_n_1<8:10> NUM sg  
+  _second_n_1<8:10> IND +  
+  named<11:16>(Smith) PERS 3  
+  named<11:16>(Smith) NUM sg  
+  named<11:16>(Smith) IND +  
+}
+

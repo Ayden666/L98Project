@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj13d';
+;;; (wsun@wsun; 22-jan-2018 (22:39 h)).
+;;;
+
+[21376044] (1 of 1) {1} `(It is John Hart.)'
+
+[21376044:0] (active)
+
+<
+  (1, 0, 1, <0:1>, 1, "(", 0, "null", "(" 1.0)
+  (2, 1, 2, <1:3>, 1, "It", 0, "null", "PRP" 1.0)
+  (3, 2, 3, <4:6>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <7:11>, 1, "John", 0, "null", "NNP" 1.0)
+  (5, 4, 5, <12:16>, 1, "Hart", 0, "null", "NNP" 1.0)
+  (6, 5, 6, <16:17>, 1, ".", 0, "null", "." 1.0)
+  (7, 6, 7, <17:18>, 1, ")", 0, "null", ")" 1.0)
+>
+
+<
+  (85, 0, 1, <0:3>, 1, "(it", 0, "null")
+  (92, 0, 1, <0:3>, 1, "(it", 0, "null")
+  (76, 1, 2, <4:6>, 1, "is", 0, "null")
+  (82, 1, 2, <4:6>, 1, "is", 0, "null", "VBZ" 1.0)
+  (89, 1, 2, <4:6>, 1, "is", 0, "null")
+  (66, 2, 3, <7:11>, 1, "John", 0, "null")
+  (81, 2, 3, <7:11>, 1, "John", 0, "null", "NNP" 1.0)
+  (84, 2, 3, <7:11>, 1, "john", 0, "null")
+  (87, 2, 3, <7:11>, 1, "john", 0, "null")
+  (72, 3, 4, <12:18>, 1, "Hart.)", 0, "null")
+  (83, 3, 4, <12:18>, 1, "Hart.)", 0, "null", "NNP" 1.0)
+  (86, 3, 4, <12:18>, 1, "hart.)", 0, "null")
+  (88, 3, 4, <12:18>, 1, "hart.)", 0, "null")
+>
+
+(ROOT_INFORMAL
+ (624 SB-HD_MC_C 5.58067 0 4
+  (615 HDN_BNP-QNT_C 0 0 1
+   (614 W_LPAREN_PLR 0 0 1
+    (94 it2@n_-_pr-it_le 0 0 1
+     ("(it" 85
+      "token [ +CARG \"It\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"(it\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #1 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI \"1\" ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+  (623 ^HD-CMP_U_C 4.31132 1 4
+   (151 be_id_is@v_np_is_le 0.159389 1 2
+    ("is" 76
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"4\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"6\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (622 HDN_BNP-PN_C 3.50138 2 4
+    (621 NP-HDN_NME-CPD_C 4.42114 2 4
+     (617 HDN_BNP-PN_C 2.25501 2 3
+      (616 N_SG_ILR 1.50257 2 3
+       (237 john@n_-_pn-msc_le 0.500553 2 3
+        ("john" 84
+         "token [ +CARG \"John\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"john\" +FROM #1=\"7\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+     (620 ^W_RPAREN_PLR 1.56812 3 4
+      (619 W_PERIOD_PLR 0.273958 3 4
+       (618 N_SG_ILR -0.626861 3 4
+        (249 hart_n2@n_-_pn_le 0 3 4
+         ("hart.)" 86
+          "token [ +CARG \"Hart\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"hart.)\" +FROM #1=\"12\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST *cons* [ FIRST \"7\" REST #2 ] ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))))
+
+(S (NP (NP (NP "(it")))
+ (VP (V "is") (NP (N (NP (N (N "john"))) (N (N (N (N "hart.)"))))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:3>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: N PT: STD ] ]
+          [ pronoun_q<0:3>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _be_v_id<4:6>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<7:18>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ compound<7:18>
+            LBL: h13
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x14 [ x PERS: 3 NUM: SG GEND: M IND: + ] ]
+          [ proper_q<7:11>
+            LBL: h16
+            ARG0: x14
+            RSTR: h17
+            BODY: h18 ]
+          [ named<7:11>
+            LBL: h19
+            ARG0: x14
+            CARG: "John" ]
+          [ named<12:18>
+            LBL: h13
+            ARG0: x9
+            CARG: "Hart" ] >
+   HCONS: < h17 QEQ h19 h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:3>{x PERS 3, NUM sg, GEND n, PT std}[]
+ _1:pronoun_q<0:3>[BV x5]
+ e3:_be_v_id<4:6>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:proper_q<7:18>[BV x9]
+ e15:compound<7:18>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x14]
+ _3:proper_q<7:11>[BV x14]
+ x14:named<7:11>("John"){x PERS 3, NUM sg, GEND m, IND +}[]
+ x9:named<12:18>("Hart"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  pronoun_q<0:3> BV pron<0:3>  
+  _be_v_id<4:6> ARG1 pron<0:3>  
+  _be_v_id<4:6> ARG2 named<12:18>(Hart)  
+  proper_q<7:18> BV named<12:18>(Hart)  
+  compound<7:18> ARG1 named<12:18>(Hart)  
+  compound<7:18> ARG2 named<7:11>(John)  
+  proper_q<7:11> BV named<7:11>(John)  
+  pron<0:3> PERS 3  
+  pron<0:3> NUM sg  
+  pron<0:3> GEND n  
+  pron<0:3> PT std  
+  _be_v_id<4:6> SF prop  
+  _be_v_id<4:6> TENSE pres  
+  _be_v_id<4:6> MOOD indicative  
+  _be_v_id<4:6> PROG -  
+  _be_v_id<4:6> PERF -  
+  compound<7:18> SF prop  
+  compound<7:18> TENSE untensed  
+  compound<7:18> MOOD indicative  
+  compound<7:18> PROG -  
+  compound<7:18> PERF -  
+  named<7:11>(John) PERS 3  
+  named<7:11>(John) NUM sg  
+  named<7:11>(John) GEND m  
+  named<7:11>(John) IND +  
+  named<12:18>(Hart) PERS 3  
+  named<12:18>(Hart) NUM sg  
+  named<12:18>(Hart) IND +  
+}
+

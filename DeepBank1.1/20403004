@@ -1,0 +1,96 @@
+;;;
+;;; Redwoods export of `wsj04a';
+;;; (wsun@wsun; 22-jan-2018 (13:42 h)).
+;;;
+
+[20403004] (1 of 1) {1} `Double-Jointed'
+
+[20403004:0] (active)
+
+<
+  (1, 0, 1, <0:14>, 1, "Double-Jointed", 0, "null", "NNP" 1.0)
+>
+
+<
+  (23, 0, 1, <0:14>, 1, "Double-", 0, "null")
+  (26, 0, 1, <0:14>, 1, "double-", 0, "null")
+  (28, 0, 1, <0:14>, 1, "double-", 0, "null")
+  (18, 1, 2, <0:14>, 1, "Jointed", 0, "null")
+  (24, 1, 2, <0:14>, 1, "Jointed", 0, "null", "NNP" 1.0)
+  (25, 1, 2, <0:14>, 1, "jointed", 0, "null")
+  (27, 1, 2, <0:14>, 1, "jointed", 0, "null")
+>
+
+(ROOT_FRAG
+ (447 J_FRG_C 2.15691 0 2
+  (446 J_N-ED_C 2.15691 0 2
+   (445 XP_BRCK-PR_C 1.51199 0 2
+    (444 AJ-HDN_NORM_C 1.08439 0 2
+     (442 W_HYPHEN_PLR 0.165272 0 1
+      (32 double_a1@aj_-_i_le 0 0 1
+       ("double-" 26
+        "token [ +CARG \"Double-\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"double-\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1.0\" +TAG \"NN\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +RB bracket_null +UW - ] ]")))
+     (443 ^N_N-ED_ODLR -0.009297 1 2
+      (141 joint_n1@n_-_c-ed_le 0 1 2
+       ("jointed" 25
+        "token [ +CARG \"Jointed\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"jointed\" +FROM \"0\" +ID *diff-list* [ LAST #1=*list* LIST *cons* [ FIRST \"1\" REST #1 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_cons [ FIRST ctype [ -CTYPE- string ] REST bracket_null ] +UW - ] ]"))))))))
+
+(XP (AP (N (N (AP (AP "double-")) (N (N "jointed"))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: i4 ]
+          [ compound<0:14>
+            LBL: h2
+            ARG0: e5 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: i4
+            ARG2: x6 [ x IND: + ] ]
+          [ udef_q<0:14>
+            LBL: h7
+            ARG0: x6
+            RSTR: h8
+            BODY: h9 ]
+          [ _double_a_1<0:14>
+            LBL: h10
+            ARG0: e11 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ]
+          [ _joint_n_1<0:14>
+            LBL: h10
+            ARG0: x6 ] >
+   HCONS: < h8 QEQ h10 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e5:compound<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG2 x6]
+ _1:udef_q<0:14>[BV x6]
+ e11:_double_a_1<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+ x6:_joint_n_1<0:14>{x IND +}[]
+}
+
+{
+  compound<0:14> ARG2 _joint_n_1<0:14>  
+  udef_q<0:14> BV _joint_n_1<0:14>  
+  _double_a_1<0:14> ARG1 _joint_n_1<0:14>  
+  unknown<0:14> SF prop-or-ques  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  compound<0:14> SF prop  
+  compound<0:14> TENSE untensed  
+  compound<0:14> MOOD indicative  
+  compound<0:14> PROG -  
+  compound<0:14> PERF -  
+  _double_a_1<0:14> SF prop  
+  _double_a_1<0:14> TENSE untensed  
+  _double_a_1<0:14> MOOD indicative  
+  _double_a_1<0:14> PROG -  
+  _double_a_1<0:14> PERF -  
+  _joint_n_1<0:14> IND +  
+}
+

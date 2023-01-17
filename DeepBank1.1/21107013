@@ -1,0 +1,147 @@
+;;;
+;;; Redwoods export of `wsj11a';
+;;; (wsun@wsun; 22-jan-2018 (20:06 h)).
+;;;
+
+[21107013] (1 of 1) {1} `John F. Merrill'
+
+[21107013:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "John", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:7>, 1, "F.", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <8:15>, 1, "Merrill", 0, "null", "NNP" 1.0)
+>
+
+<
+  (38, 0, 1, <0:4>, 1, "John", 0, "null")
+  (43, 0, 1, <0:4>, 1, "john", 0, "null")
+  (46, 0, 1, <0:4>, 1, "john", 0, "null")
+  (31, 1, 2, <5:7>, 1, "F.", 0, "null")
+  (40, 1, 2, <5:7>, 1, "F.", 0, "null", "NNP" 1.0)
+  (42, 1, 2, <5:7>, 1, "f.", 0, "null")
+  (45, 1, 2, <5:7>, 1, "f.", 0, "null")
+  (30, 2, 3, <8:15>, 1, "Merrill", 0, "null")
+  (39, 2, 3, <8:15>, 1, "Merrill", 0, "null", "NNP" 1.0)
+  (41, 2, 3, <8:15>, 1, "merrill", 0, "null")
+  (44, 2, 3, <8:15>, 1, "merrill", 0, "null")
+>
+
+(ROOT_FRAG
+ (223 NP_FRG_C 2.54711 0 3
+  (222 HDN_BNP-PN_C 3.69363 0 3
+   (221 NP-HDN_NME-CPD_C 3.73293 0 3
+    (219 HDN_BNP-PN_C 3.8967 0 2
+     (218 NP-HDN_NME-CPD_C 3.54878 0 2
+      (216 HDN_BNP-PN_C 2.25501 0 1
+       (215 N_SG_ILR 1.50257 0 1
+        (50 john@n_-_pn-msc_le 0.500553 0 1
+         ("john" 43
+          "token [ +CARG \"John\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"john\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+      (217 ^N_SG_ILR -0.222119 1 2
+       (63 f_period_np1@n_-_pn_le 0.380743 1 2
+        ("f." 42
+         "token [ +CARG \"F.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL - ] +FORM \"f.\" +FROM #1=\"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+    (220 ^N_SG_ILR -0.498359 2 3
+     (71 merrill_n1@n_-_pn_le 0.104503 2 3
+      ("merrill" 41
+       "token [ +CARG \"Merrill\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL - ] +FORM \"merrill\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"15\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(XP
+ (NP (N (NP (N (NP (N (N "john"))) (N (N "f.")))) (N (N "merrill")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP-OR-QUES TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:15>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:15>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ compound<0:15>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x4
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:7>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ compound<0:7>
+            LBL: h14
+            ARG0: e16 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            ARG2: x15 [ x PERS: 3 NUM: SG GEND: M IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h17
+            ARG0: x15
+            RSTR: h18
+            BODY: h19 ]
+          [ named<0:4>
+            LBL: h20
+            ARG0: x15
+            CARG: "John" ]
+          [ named<5:7>
+            LBL: h14
+            ARG0: x9
+            CARG: "F" ]
+          [ named<8:15>
+            LBL: h8
+            ARG0: x4
+            CARG: "Merrill" ] >
+   HCONS: < h18 QEQ h20 h12 QEQ h14 h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:15>{e SF prop-or-ques, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:proper_q<0:15>[BV x4]
+ e10:compound<0:15>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x4, ARG2 x9]
+ _2:proper_q<0:7>[BV x9]
+ e16:compound<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9, ARG2 x15]
+ _3:proper_q<0:4>[BV x15]
+ x15:named<0:4>("John"){x PERS 3, NUM sg, GEND m, IND +}[]
+ x9:named<5:7>("F"){x PERS 3, NUM sg, IND +}[]
+ x4:named<8:15>("Merrill"){x PERS 3, NUM sg, IND +}[]
+}
+
+{
+  unknown<0:15> ARG named<8:15>(Merrill)  
+  proper_q<0:15> BV named<8:15>(Merrill)  
+  compound<0:15> ARG1 named<8:15>(Merrill)  
+  compound<0:15> ARG2 named<5:7>(F)  
+  proper_q<0:7> BV named<5:7>(F)  
+  compound<0:7> ARG1 named<5:7>(F)  
+  compound<0:7> ARG2 named<0:4>(John)  
+  proper_q<0:4> BV named<0:4>(John)  
+  unknown<0:15> SF prop-or-ques  
+  unknown<0:15> TENSE untensed  
+  unknown<0:15> MOOD indicative  
+  unknown<0:15> PROG -  
+  unknown<0:15> PERF -  
+  compound<0:15> SF prop  
+  compound<0:15> TENSE untensed  
+  compound<0:15> MOOD indicative  
+  compound<0:15> PROG -  
+  compound<0:15> PERF -  
+  compound<0:7> SF prop  
+  compound<0:7> TENSE untensed  
+  compound<0:7> MOOD indicative  
+  compound<0:7> PROG -  
+  compound<0:7> PERF -  
+  named<0:4>(John) PERS 3  
+  named<0:4>(John) NUM sg  
+  named<0:4>(John) GEND m  
+  named<0:4>(John) IND +  
+  named<5:7>(F) PERS 3  
+  named<5:7>(F) NUM sg  
+  named<5:7>(F) IND +  
+  named<8:15>(Merrill) PERS 3  
+  named<8:15>(Merrill) NUM sg  
+  named<8:15>(Merrill) IND +  
+}
+

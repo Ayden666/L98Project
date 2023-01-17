@@ -1,0 +1,108 @@
+;;;
+;;; Redwoods export of `wsj18a';
+;;; (wsun@wsun; 23-jan-2018 (02:59 h)).
+;;;
+
+[21810020] (1 of 1) {1} `Stock prices rose.'
+
+[21810020:0] (active)
+
+<
+  (1, 0, 1, <0:5>, 1, "Stock", 0, "null", "NNP" 0.9335 "NN" 0.0665)
+  (2, 1, 2, <6:12>, 1, "prices", 0, "null", "NNS" 1.0)
+  (3, 2, 3, <13:17>, 1, "rose", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <17:18>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (46, 0, 1, <0:5>, 1, "Stock", 0, "null")
+  (49, 0, 1, <0:5>, 1, "stock", 0, "null")
+  (52, 0, 1, <0:5>, 1, "stock", 0, "null")
+  (41, 1, 2, <6:12>, 1, "prices", 0, "null")
+  (47, 1, 2, <6:12>, 1, "prices", 0, "null", "NNS" 1.0)
+  (50, 1, 2, <6:12>, 1, "prices", 0, "null")
+  (43, 2, 3, <13:18>, 1, "rose.", 0, "null")
+  (48, 2, 3, <13:18>, 1, "rose.", 0, "null", "VBD" 1.0)
+  (51, 2, 3, <13:18>, 1, "rose.", 0, "null")
+>
+
+(ROOT_STRICT
+ (332 SB-HD_MC_C 6.11741 0 3
+  (328 HDN_BNP_C 4.36471 0 2
+   (327 N-HDN_CPD_C 3.74396 0 2
+    (56 stock_n1@n_-_mc_le 0.680693 0 1
+     ("stock" 49
+      "token [ +CARG \"Stock\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"stock\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.93348620000000004\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"5\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (326 ^N_PL_OLR 1.04317 1 2
+     (63 price_n1@n_-_mc-ed_le 0.382246 1 2
+      ("prices" 41
+       "token [ +CARG #1=\"prices\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"6\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))
+  (331 ^HD_OPTCMP_C 1.77316 2 3
+   (330 W_PERIOD_PLR 1.46917 2 3
+    (329 V_PST_OLR 0.778807 2 3
+     (80 rise_v2@v_pp_unacc_le 0 2 3
+      ("rose." 43
+       "token [ +CARG \"rose\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"rose.\" +FROM #1=\"13\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"18\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))
+
+(S (NP (N (N "stock") (N (N "prices")))) (VP (V (V (V "rose.")))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ udef_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: PL ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 ]
+          [ udef_q<0:5>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _stock_n_1<0:5>
+            LBL: h14
+            ARG0: x9 ]
+          [ _price_n_of<6:12>
+            LBL: h8
+            ARG0: x6 ]
+          [ _rise_v_1<13:18>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:udef_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:5>[BV x9]
+ x9:_stock_n_1<0:5>{x}[]
+ x6:_price_n_of<6:12>{x PERS 3, NUM pl}[]
+ e3:_rise_v_1-fn.Change_position_on_a_scale<13:18>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  udef_q<0:12> BV _price_n_of<6:12>  
+  compound<0:12> ARG1 _price_n_of<6:12>  
+  compound<0:12> ARG2 _stock_n_1<0:5>  
+  udef_q<0:5> BV _stock_n_1<0:5>  
+  _rise_v_1<13:18> ARG1 _price_n_of<6:12>  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _price_n_of<6:12> PERS 3  
+  _price_n_of<6:12> NUM pl  
+  _rise_v_1<13:18> SF prop  
+  _rise_v_1<13:18> TENSE past  
+  _rise_v_1<13:18> MOOD indicative  
+  _rise_v_1<13:18> PROG -  
+  _rise_v_1<13:18> PERF -  
+}
+

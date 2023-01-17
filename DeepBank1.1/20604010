@@ -1,0 +1,146 @@
+;;;
+;;; Redwoods export of `wsj06a';
+;;; (wsun@wsun; 22-jan-2018 (15:42 h)).
+;;;
+
+[20604010] (1 of 1) {1} `Wall Street is understandably skeptical.'
+
+[20604010:0] (active)
+
+<
+  (1, 0, 1, <0:4>, 1, "Wall", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <5:11>, 1, "Street", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (4, 3, 4, <15:29>, 1, "understandably", 0, "null", "RB" 1.0)
+  (5, 4, 5, <30:39>, 1, "skeptical", 0, "null", "JJ" 1.0)
+  (6, 5, 6, <39:40>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (68, 0, 1, <0:4>, 1, "Wall", 0, "null")
+  (74, 0, 1, <0:4>, 1, "wall", 0, "null")
+  (79, 0, 1, <0:4>, 1, "wall", 0, "null")
+  (56, 1, 2, <5:11>, 1, "Street", 0, "null")
+  (69, 1, 2, <5:11>, 1, "Street", 0, "null", "NNP" 1.0)
+  (73, 1, 2, <5:11>, 1, "street", 0, "null")
+  (75, 1, 2, <5:11>, 1, "street", 0, "null")
+  (63, 2, 3, <12:14>, 1, "is", 0, "null")
+  (70, 2, 3, <12:14>, 1, "is", 0, "null", "VBZ" 1.0)
+  (76, 2, 3, <12:14>, 1, "is", 0, "null")
+  (65, 3, 4, <15:29>, 1, "understandably", 0, "null")
+  (71, 3, 4, <15:29>, 1, "understandably", 0, "null", "RB" 1.0)
+  (77, 3, 4, <15:29>, 1, "understandably", 0, "null")
+  (67, 4, 5, <30:40>, 1, "skeptical.", 0, "null")
+  (72, 4, 5, <30:40>, 1, "skeptical.", 0, "null", "JJ" 1.0)
+  (78, 4, 5, <30:40>, 1, "skeptical.", 0, "null")
+>
+
+(ROOT_STRICT
+ (893 SB-HD_MC_C 10.3402 0 5
+  (888 HDN_BNP-PN_C 4.8463 0 2
+   (887 NP-HDN_NME-CPD_C 4.30658 0 2
+    (885 HDN_BNP-PN_C 2.30764 0 1
+     (884 N_SG_ILR 1.55521 0 1
+      (84 wall_n1@n_-_pn_le 1.7215 0 1
+       ("wall" 74
+        "token [ +CARG \"Wall\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"wall\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"4\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+    (886 ^N_SG_ILR 0.681358 1 2
+     (90 generic_proper_ne@n_-_pn-gen_le 0.824615 1 2
+      ("Street" 56
+       "token [ +CARG #1=\"Street\" +CLASS proper_ne +FORM #1 +FROM \"5\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"11\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (892 ^HD-CMP_U_C 4.47681 2 5
+   (133 be_c_is@v_prd_is_le 0.414667 2 3
+    ("is" 63
+     "token [ +CARG #1=\"is\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"12\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (891 AJ-HD_INT_C 2.0426 3 5
+    (221 generic_adverb@av_-_i-unk_le 0 3 4
+     ("understandably" 71
+      "token [ +CARG #1=\"understandably\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"15\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED \"_understandably/RB_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #4=\"1\" +TAG #5=\"RB\" ] +PRBS *cons* [ FIRST #4 REST *null* ] +TAGS *cons* [ FIRST #5 REST *null* ] ] +TO \"29\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+    (890 ^HD_OPTCMP_C 1.66231 4 5
+     (889 W_PERIOD_PLR 0.234888 4 5
+      (225 skeptical_a2@aj_pp_i_le 0 4 5
+       ("skeptical." 67
+        "token [ +CARG \"skeptical\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"skeptical.\" +FROM #1=\"30\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"40\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (NP (N (N "wall"))) (N (N "Street"))))
+ (VP (V "is")
+  (AP (ADV "understandably") (AP (ADJ (ADJ "skeptical."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:11>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:11>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ proper_q<0:4>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ named<0:4>
+            LBL: h14
+            ARG0: x9
+            CARG: "Wall" ]
+          [ named<5:11>
+            LBL: h8
+            ARG0: x6
+            CARG: "Street" ]
+          [ _understandably/rb_u_unknown<15:29>
+            LBL: h2
+            ARG0: e15 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ]
+          [ _skeptical_a_of<30:40>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: i16 ] >
+   HCONS: < h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:11>[BV x6]
+ e10:compound<0:11>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:proper_q<0:4>[BV x9]
+ x9:named<0:4>("Wall"){x PERS 3, NUM sg, IND +}[]
+ x6:named<5:11>("Street"){x PERS 3, NUM sg, IND +}[]
+ e15:_understandably/rb_u_unknown<15:29>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+ e3:_skeptical_a_of<30:40>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x6]
+}
+
+{
+  proper_q<0:11> BV named<5:11>(Street)  
+  compound<0:11> ARG1 named<5:11>(Street)  
+  compound<0:11> ARG2 named<0:4>(Wall)  
+  proper_q<0:4> BV named<0:4>(Wall)  
+  _understandably/rb_u_unknown<15:29> ARG1 _skeptical_a_of<30:40>  
+  _skeptical_a_of<30:40> ARG1 named<5:11>(Street)  
+  compound<0:11> SF prop  
+  compound<0:11> TENSE untensed  
+  compound<0:11> MOOD indicative  
+  compound<0:11> PROG -  
+  compound<0:11> PERF -  
+  named<0:4>(Wall) PERS 3  
+  named<0:4>(Wall) NUM sg  
+  named<0:4>(Wall) IND +  
+  named<5:11>(Street) PERS 3  
+  named<5:11>(Street) NUM sg  
+  named<5:11>(Street) IND +  
+  _understandably/rb_u_unknown<15:29> SF prop  
+  _understandably/rb_u_unknown<15:29> TENSE untensed  
+  _understandably/rb_u_unknown<15:29> MOOD indicative  
+  _understandably/rb_u_unknown<15:29> PROG -  
+  _understandably/rb_u_unknown<15:29> PERF -  
+  _skeptical_a_of<30:40> SF prop  
+  _skeptical_a_of<30:40> TENSE pres  
+  _skeptical_a_of<30:40> MOOD indicative  
+  _skeptical_a_of<30:40> PROG -  
+  _skeptical_a_of<30:40> PERF -  
+}
+

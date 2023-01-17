@@ -1,0 +1,144 @@
+;;;
+;;; Redwoods export of `wsj20a';
+;;; (wsun@wsun; 23-jan-2018 (04:56 h)).
+;;;
+
+[22006003] (1 of 1) {1} `Mr. Percival declined to comment.'
+
+[22006003:0] (active)
+
+<
+  (1, 0, 1, <0:3>, 1, "Mr.", 0, "null", "NNP" 1.0)
+  (2, 1, 2, <4:12>, 1, "Percival", 0, "null", "NNP" 1.0)
+  (3, 2, 3, <13:21>, 1, "declined", 0, "null", "VBD" 1.0)
+  (4, 3, 4, <22:24>, 1, "to", 0, "null", "TO" 1.0)
+  (5, 4, 5, <25:32>, 1, "comment", 0, "null", "VB" 0.9642 "NN" 0.0358)
+  (6, 5, 6, <32:33>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (70, 0, 1, <0:3>, 1, "Mr.", 0, "null")
+  (75, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (80, 0, 1, <0:3>, 1, "mr.", 0, "null")
+  (56, 1, 2, <4:12>, 1, "Percival", 0, "null")
+  (72, 1, 2, <4:12>, 1, "Percival", 0, "null", "NNP" 1.0)
+  (74, 1, 2, <4:12>, 1, "percival", 0, "null")
+  (76, 1, 2, <4:12>, 1, "percival", 0, "null")
+  (65, 2, 3, <13:21>, 1, "declined", 0, "null")
+  (73, 2, 3, <13:21>, 1, "declined", 0, "null", "VBD" 1.0)
+  (77, 2, 3, <13:21>, 1, "declined", 0, "null")
+  (67, 3, 4, <22:24>, 1, "to", 0, "null")
+  (78, 3, 4, <22:24>, 1, "to", 0, "null")
+  (68, 4, 5, <25:33>, 1, "comment.", 0, "null")
+  (71, 4, 5, <25:33>, 1, "comment.", 0, "null", "VB" 0.9642)
+  (79, 4, 5, <25:33>, 1, "comment.", 0, "null")
+>
+
+(ROOT_STRICT
+ (927 SB-HD_MC_C 10.9872 0 5
+  (921 HDN_BNP-PN_C 3.86187 0 2
+   (920 NP-HDN_TTL-CPD_C 3.17593 0 2
+    (918 N_SG_ILR 2.02901 0 1
+     (88 mister_abb_n2@n_-_c-nochd_le 0.509922 0 1
+      ("mr." 75
+       "token [ +CARG \"Mr.\" +CLASS alphanumeric [ +CASE capitalized+lower +INITIAL + ] +FORM \"mr.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"3\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+    (919 ^N_SG_ILR -0.259177 1 2
+     (91 generic_proper_ne@n_-_pn-gen_le 0 1 2
+      ("Percival" 56
+       "token [ +CARG #1=\"Percival\" +CLASS proper_ne +FORM #1 +FROM \"4\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNP\" ] +PRBS *null* +TAGS *null* ] +TO \"12\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]")))))
+  (926 ^HD-CMP_U_C 6.10833 2 5
+   (922 ^V_PST_OLR 2.50099 2 3
+    (108 decline_v2@v_vp_seq_le 1.27984 2 3
+     ("declined" 65
+      "token [ +CARG #1=\"declined\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"13\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"3\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"21\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (925 HD-CMP_U_C 2.69111 3 5
+    (218 to_c_prop@cm_vp_to_le 2.48409 3 4
+     ("to" 67
+      "token [ +CARG #1=\"to\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"22\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"4\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"TO\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+    (924 W_PERIOD_PLR -0.468337 4 5
+     (923 V_N3S-BSE_ILR -0.466301 4 5
+      (273 comment_v2@v_-_le 0.214297 4 5
+       ("comment." 68
+        "token [ +CARG \"comment\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"comment.\" +FROM #1=\"25\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"5\" REST *cons* [ FIRST \"6\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.96420229999999996\" +TAG \"VB\" ] +PRBS *null* +TAGS *null* ] +TO \"33\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))))
+
+(S (NP (N (N (N "mr.")) (N (N "Percival"))))
+ (VP (V (V "declined")) (VP (COMP "to") (VP (VP (V "comment."))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ proper_q<0:12>
+            LBL: h4
+            ARG0: x6 [ x PERS: 3 NUM: SG IND: + ]
+            RSTR: h5
+            BODY: h7 ]
+          [ compound<0:12>
+            LBL: h8
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6
+            ARG2: x9 [ x PERS: 3 NUM: SG IND: + ] ]
+          [ udef_q<0:3>
+            LBL: h11
+            ARG0: x9
+            RSTR: h12
+            BODY: h13 ]
+          [ _mister_n_1<0:3>
+            LBL: h14
+            ARG0: x9 ]
+          [ named<4:12>
+            LBL: h8
+            ARG0: x6
+            CARG: "Percival" ]
+          [ _decline_v_1<13:21>
+            LBL: h2
+            ARG0: e3
+            ARG1: x6
+            ARG2: h15 ]
+          [ _comment_v_on<25:33>
+            LBL: h16
+            ARG0: e17 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x6 ] >
+   HCONS: < h15 QEQ h16 h12 QEQ h14 h5 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ _1:proper_q<0:12>[BV x6]
+ e10:compound<0:12>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 x9]
+ _2:udef_q<0:3>[BV x9]
+ x9:_mister_n_1<0:3>{x PERS 3, NUM sg, IND +}[]
+ x6:named<4:12>("Percival"){x PERS 3, NUM sg, IND +}[]
+ e3:_decline_v_1<13:21>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x6, ARG2 e17]
+ e17:_comment_v_on-fn.Statement<25:33>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1-fn.Speaker x6]
+}
+
+{
+  proper_q<0:12> BV named<4:12>(Percival)  
+  compound<0:12> ARG1 named<4:12>(Percival)  
+  compound<0:12> ARG2 _mister_n_1<0:3>  
+  udef_q<0:3> BV _mister_n_1<0:3>  
+  _decline_v_1<13:21> ARG1 named<4:12>(Percival)  
+  _decline_v_1<13:21> ARG2 _comment_v_on<25:33>  
+  _comment_v_on<25:33> ARG1 named<4:12>(Percival)  
+  compound<0:12> SF prop  
+  compound<0:12> TENSE untensed  
+  compound<0:12> MOOD indicative  
+  compound<0:12> PROG -  
+  compound<0:12> PERF -  
+  _mister_n_1<0:3> PERS 3  
+  _mister_n_1<0:3> NUM sg  
+  _mister_n_1<0:3> IND +  
+  named<4:12>(Percival) PERS 3  
+  named<4:12>(Percival) NUM sg  
+  named<4:12>(Percival) IND +  
+  _decline_v_1<13:21> SF prop  
+  _decline_v_1<13:21> TENSE past  
+  _decline_v_1<13:21> MOOD indicative  
+  _decline_v_1<13:21> PROG -  
+  _decline_v_1<13:21> PERF -  
+  _comment_v_on<25:33> SF prop  
+  _comment_v_on<25:33> TENSE untensed  
+  _comment_v_on<25:33> MOOD indicative  
+  _comment_v_on<25:33> PROG -  
+  _comment_v_on<25:33> PERF -  
+}
+

@@ -1,0 +1,96 @@
+;;;
+;;; Redwoods export of `wsj16c';
+;;; (wsun@wsun; 23-jan-2018 (01:19 h)).
+;;;
+
+[21634008] (1 of 1) {1} `He figured wrong.'
+
+[21634008:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:10>, 1, "figured", 0, "null", "VBD" 0.9892 "VBN" 0.0108)
+  (3, 2, 3, <11:16>, 1, "wrong", 0, "null", "JJ" 0.929 "RB" 0.071)
+  (4, 3, 4, <16:17>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (50, 0, 1, <0:2>, 1, "he", 0, "null")
+  (53, 0, 1, <0:2>, 1, "he", 0, "null")
+  (44, 1, 2, <3:10>, 1, "figured", 0, "null")
+  (48, 1, 2, <3:10>, 1, "figured", 0, "null", "VBD" 0.9892)
+  (51, 1, 2, <3:10>, 1, "figured", 0, "null")
+  (46, 2, 3, <11:17>, 1, "wrong.", 0, "null")
+  (49, 2, 3, <11:17>, 1, "wrong.", 0, "null", "JJ" 0.929)
+  (52, 2, 3, <11:17>, 1, "wrong.", 0, "null")
+>
+
+(ROOT_STRICT
+ (728 SB-HD_MC_C 3.10123 0 3
+  (723 HDN_BNP-QNT_C 1.50958 0 1
+   (54 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 50
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (727 ^HD-AJ_INT-UNSL_C 1.01213 1 3
+   (725 ^HD_OPTCMP_C 0.442001 1 2
+    (724 V_PST_OLR -0.436528 1 2
+     (94 figure_v1@v_np*_le 0 1 2
+      ("figured" 44
+       "token [ +CARG #1=\"figured\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.98922330000000003\" +TAG \"VBD\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))
+   (726 W_PERIOD_PLR 0.0599084 2 3
+    (233 wrong_adv1@av_-_i-vp-po_le 0 2 3
+     ("wrong." 46
+      "token [ +CARG \"wrong\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"wrong.\" +FROM #1=\"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST *cons* [ FIRST \"4\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.92895119999999998\" +TAG \"JJ\" ] +PRBS *null* +TAGS *null* ] +TO \"17\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(S (NP (NP "he")) (VP (VP (V (V "figured"))) (ADV (ADV "wrong."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _figure_v_1<3:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: p9 ]
+          [ _wrong_a_with<11:17>
+            LBL: h2
+            ARG0: e10 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e3 ] >
+   HCONS: < h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_figure_v_1<3:10>{e SF prop, TENSE past, MOOD indicative, PROG -, PERF -}[ARG1 x5]
+ e10:_wrong_a_with<11:17>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e3]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _figure_v_1<3:10> ARG1 pron<0:2>  
+  _wrong_a_with<11:17> ARG1 _figure_v_1<3:10>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _figure_v_1<3:10> SF prop  
+  _figure_v_1<3:10> TENSE past  
+  _figure_v_1<3:10> MOOD indicative  
+  _figure_v_1<3:10> PROG -  
+  _figure_v_1<3:10> PERF -  
+  _wrong_a_with<11:17> SF prop  
+  _wrong_a_with<11:17> TENSE untensed  
+  _wrong_a_with<11:17> MOOD indicative  
+  _wrong_a_with<11:17> PROG -  
+  _wrong_a_with<11:17> PERF -  
+}
+

@@ -1,0 +1,121 @@
+;;;
+;;; Redwoods export of `wsj11c';
+;;; (wsun@wsun; 22-jan-2018 (20:35 h)).
+;;;
+
+[21157015] (1 of 1) {1} `He retains 9,232 shares.'
+
+[21157015:0] (active)
+
+<
+  (1, 0, 1, <0:2>, 1, "He", 0, "null", "PRP" 1.0)
+  (2, 1, 2, <3:10>, 1, "retains", 0, "null", "VBZ" 1.0)
+  (3, 2, 3, <11:16>, 1, "9,232", 0, "null", "CD" 1.0)
+  (4, 3, 4, <17:23>, 1, "shares", 0, "null", "NNS" 1.0)
+  (5, 4, 5, <23:24>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (53, 0, 1, <0:2>, 1, "he", 0, "null")
+  (57, 0, 1, <0:2>, 1, "he", 0, "null")
+  (48, 1, 2, <3:10>, 1, "retains", 0, "null")
+  (51, 1, 2, <3:10>, 1, "retains", 0, "null", "VBZ" 1.0)
+  (55, 1, 2, <3:10>, 1, "retains", 0, "null")
+  (42, 2, 3, <11:16>, 1, "9,232", 0, "null")
+  (54, 2, 3, <11:16>, 1, "9,232", 0, "null")
+  (50, 3, 4, <17:24>, 1, "shares.", 0, "null")
+  (52, 3, 4, <17:24>, 1, "shares.", 0, "null", "NNS" 1.0)
+  (56, 3, 4, <17:24>, 1, "shares.", 0, "null")
+>
+
+(ROOT_STRICT
+ (306 SB-HD_MC_C 6.67285 0 4
+  (299 HDN_BNP-QNT_C 1.50958 0 1
+   (58 he@n_-_pr-he_le 0.589291 0 1
+    ("he" 53
+     "token [ +CARG \"He\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"he\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"PRP\" ] +PRBS *null* +TAGS *null* ] +TO \"2\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+  (305 ^HD-CMP_U_C 3.89392 1 4
+   (300 ^V_3S-FIN_OLR 0.198464 1 2
+    (73 retain_v1@v_np_le 0 1 2
+     ("retains" 48
+      "token [ +CARG #1=\"retains\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM #1 +FROM #2=\"3\" +ID *diff-list* [ LAST #3=*list* LIST *cons* [ FIRST \"2\" REST #3 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"VBZ\" ] +PRBS *null* +TAGS *null* ] +TO \"10\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #2 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))
+   (304 HDN_BNP_C 3.08899 2 4
+    (303 NUM-N_MNP_C 2.04684 2 4
+     (88 generic_card_ne@aj_-_i-crd-gen_le 0 2 3
+      ("9,232" 42
+       "token [ +CARG #1=\"9,232\" +CLASS card_ne +FORM #1 +FROM \"11\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"3\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB string +TAG string ] +PRBS *null* +TAGS *null* ] +TO \"16\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI string ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))
+     (302 ^W_PERIOD_PLR 1.14792 3 4
+      (301 N_PL_OLR 0.601066 3 4
+       (91 share_n2@n_-_c-meas-nb_le 0.737088 3 4
+        ("shares." 50
+         "token [ +CARG \"shares\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"shares.\" +FROM #1=\"17\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"4\" REST *cons* [ FIRST \"5\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"NNS\" ] +PRBS *null* +TAGS *null* ] +TO \"24\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]")))))))))
+
+(S (NP (NP "he"))
+ (VP (V (V "retains")) (NP (N (ADJ "9,232") (N (N (N "shares.")))))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: PRES MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ pron<0:2>
+            LBL: h4
+            ARG0: x5 [ x PERS: 3 NUM: SG GEND: M PT: STD ] ]
+          [ pronoun_q<0:2>
+            LBL: h6
+            ARG0: x5
+            RSTR: h7
+            BODY: h8 ]
+          [ _retain_v_1<3:10>
+            LBL: h2
+            ARG0: e3
+            ARG1: x5
+            ARG2: x9 [ x PERS: 3 NUM: PL IND: + ] ]
+          [ udef_q<11:24>
+            LBL: h10
+            ARG0: x9
+            RSTR: h11
+            BODY: h12 ]
+          [ card<11:16>
+            LBL: h13
+            ARG0: e14 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: x9
+            CARG: "9,232" ]
+          [ _share_n_of<17:24>
+            LBL: h13
+            ARG0: x9 ] >
+   HCONS: < h11 QEQ h13 h7 QEQ h4 h1 QEQ h2 > ]
+
+{e3:
+ x5:pron<0:2>{x PERS 3, NUM sg, GEND m, PT std}[]
+ _1:pronoun_q<0:2>[BV x5]
+ e3:_retain_v_1<3:10>{e SF prop, TENSE pres, MOOD indicative, PROG -, PERF -}[ARG1 x5, ARG2 x9]
+ _2:udef_q<11:24>[BV x9]
+ e14:card<11:16>("9,232"){e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 x9]
+ x9:_share_n_of<17:24>{x PERS 3, NUM pl, IND +}[]
+}
+
+{
+  pronoun_q<0:2> BV pron<0:2>  
+  _retain_v_1<3:10> ARG1 pron<0:2>  
+  _retain_v_1<3:10> ARG2 _share_n_of<17:24>  
+  udef_q<11:24> BV _share_n_of<17:24>  
+  card<11:16>(9,232) ARG1 _share_n_of<17:24>  
+  pron<0:2> PERS 3  
+  pron<0:2> NUM sg  
+  pron<0:2> GEND m  
+  pron<0:2> PT std  
+  _retain_v_1<3:10> SF prop  
+  _retain_v_1<3:10> TENSE pres  
+  _retain_v_1<3:10> MOOD indicative  
+  _retain_v_1<3:10> PROG -  
+  _retain_v_1<3:10> PERF -  
+  card<11:16>(9,232) SF prop  
+  card<11:16>(9,232) TENSE untensed  
+  card<11:16>(9,232) MOOD indicative  
+  card<11:16>(9,232) PROG -  
+  card<11:16>(9,232) PERF -  
+  _share_n_of<17:24> PERS 3  
+  _share_n_of<17:24> NUM pl  
+  _share_n_of<17:24> IND +  
+}
+

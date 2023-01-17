@@ -1,0 +1,66 @@
+;;;
+;;; Redwoods export of `wsj14a';
+;;; (wsun@wsun; 22-jan-2018 (22:59 h)).
+;;;
+
+[21412016] (1 of 1) {1} `Salaam.'
+
+[21412016:0] (active)
+
+<
+  (1, 0, 1, <0:6>, 1, "Salaam", 0, "null", "FW" 1.0)
+  (2, 1, 2, <6:7>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (22, 0, 1, <0:7>, 1, "Salaam.", 0, "null", "FW" 1.0)
+  (23, 0, 1, <0:7>, 1, "salaam.", 0, "null")
+  (24, 0, 1, <0:7>, 1, "salaam.", 0, "null")
+>
+
+(ROOT_FRAG
+ (38 NP_NB-FRG_C -0.426442 0 1
+  (37 W_PERIOD_PLR -0.426442 0 1
+   (36 N_MS-CNT_ILR -0.724921 0 1
+    (25 generic_mass_noun@n_-_mc-unk_le 0 0 1
+     ("Salaam." 22
+      "token [ +CARG \"Salaam\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"Salaam.\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST *cons* [ FIRST \"2\" REST #2 ] ] ] +PRED \"_salaam/FW_u_unknown_rel\" +TICK bool +TNT tnt [ +MAIN tnt_main [ +PRB #3=\"1\" +TAG #4=\"FW\" ] +PRBS *cons* [ FIRST #3 REST *null* ] +TAGS *cons* [ FIRST #4 REST *null* ] ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW + ] ]"))))))
+
+(XP (N (N (N "Salaam."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:7>
+            LBL: h2
+            ARG0: e3
+            ARG: x4 [ x PERS: 3 NUM: SG ] ]
+          [ udef_q<0:7>
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ _salaam/fw_u_unknown<0:7>
+            LBL: h8
+            ARG0: x4 ] >
+   HCONS: < h6 QEQ h8 h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG x4]
+ _1:udef_q<0:7>[BV x4]
+ x4:_salaam/fw_u_unknown<0:7>{x PERS 3, NUM sg}[]
+}
+
+{
+  unknown<0:7> ARG _salaam/fw_u_unknown<0:7>  
+  udef_q<0:7> BV _salaam/fw_u_unknown<0:7>  
+  unknown<0:7> SF prop  
+  unknown<0:7> TENSE untensed  
+  unknown<0:7> MOOD indicative  
+  unknown<0:7> PROG -  
+  unknown<0:7> PERF -  
+  _salaam/fw_u_unknown<0:7> PERS 3  
+  _salaam/fw_u_unknown<0:7> NUM sg  
+}
+

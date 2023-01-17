@@ -1,0 +1,82 @@
+;;;
+;;; Redwoods export of `wsj09d';
+;;; (wsun@wsun; 22-jan-2018 (19:05 h)).
+;;;
+
+[20996032] (1 of 1) {1} `Exactly right.'
+
+[20996032:0] (active)
+
+<
+  (1, 0, 1, <0:7>, 1, "Exactly", 0, "null", "RB" 1.0)
+  (2, 1, 2, <8:13>, 1, "right", 0, "null", "RB" 0.473 "JJ" 0.3768 "NN" 0.1502)
+  (3, 2, 3, <13:14>, 1, ".", 0, "null", "." 1.0)
+>
+
+<
+  (39, 0, 1, <0:7>, 1, "Exactly", 0, "null", "RB" 1.0)
+  (41, 0, 1, <0:7>, 1, "exactly", 0, "null")
+  (43, 0, 1, <0:7>, 1, "exactly", 0, "null")
+  (35, 1, 2, <8:14>, 1, "right.", 0, "null")
+  (37, 1, 2, <8:14>, 1, "right.", 0, "null", "RB" 0.473)
+  (38, 1, 2, <8:14>, 1, "right.", 0, "null", "JJ" 0.3768)
+  (40, 1, 2, <8:14>, 1, "right.", 0, "null", "NN" 0.1502)
+  (42, 1, 2, <8:14>, 1, "right.", 0, "null")
+>
+
+(ROOT_FRAG
+ (273 R_INT-FRG_C 0.569561 0 2
+  (272 SP-HD_HC_C 0.569561 0 2
+   (46 exactly_deg@av_-_dg-jomv_le 0 0 1
+    ("exactly" 41
+     "token [ +CARG \"Exactly\" +CLASS alphabetic [ +CASE capitalized+lower +INITIAL + ] +FORM \"exactly\" +FROM #1=\"0\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"1\" REST #2 ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"1\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"7\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))
+   (271 ^W_PERIOD_PLR 0.410135 1 2
+    (63 right_adv1@av_-_i-vp-po_le 0 1 2
+     ("right." 35
+      "token [ +CARG \"right\" +CLASS alphabetic [ +CASE non_capitalized+lower +INITIAL - ] +FORM \"right.\" +FROM #1=\"8\" +ID *diff-list* [ LAST #2=*list* LIST *cons* [ FIRST \"2\" REST *cons* [ FIRST \"3\" REST #2 ] ] ] +PRED predsort +TICK bool +TNT null_tnt [ +MAIN tnt_main [ +PRB \"0.47303669999999998\" +TAG \"RB\" ] +PRBS *null* +TAGS *null* ] +TO \"14\" +TRAIT token_trait [ +HD token_head [ +LL ctype [ -CTYPE- string ] +TG string +TI #1 ] +IT italics +LB bracket_null +RB bracket_null +UW - ] ]"))))))
+
+(XP (ADV (ADV "exactly") (ADV (ADV "right."))))
+
+
+ [ TOP: h1
+   INDEX: e3 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+   RELS: <
+          [ unknown<0:14>
+            LBL: h2
+            ARG0: e3
+            ARG: u4 ]
+          [ _exactly_x_deg<0:7>
+            LBL: h5
+            ARG0: e6 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ]
+            ARG1: e7 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ]
+          [ _right_a_1<8:14>
+            LBL: h5
+            ARG0: e7
+            ARG1: e8 [ e SF: PROP TENSE: UNTENSED MOOD: INDICATIVE PROG: - PERF: - ] ] >
+   HCONS: < h1 QEQ h2 > ]
+
+{e3:
+ e3:unknown<0:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+ e6:_exactly_x_deg<0:7>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[ARG1 e7]
+ e7:_right_a_1<8:14>{e SF prop, TENSE untensed, MOOD indicative, PROG -, PERF -}[]
+}
+
+{
+  _exactly_x_deg<0:7> ARG1 _right_a_1<8:14>  
+  unknown<0:14> SF prop  
+  unknown<0:14> TENSE untensed  
+  unknown<0:14> MOOD indicative  
+  unknown<0:14> PROG -  
+  unknown<0:14> PERF -  
+  _exactly_x_deg<0:7> SF prop  
+  _exactly_x_deg<0:7> TENSE untensed  
+  _exactly_x_deg<0:7> MOOD indicative  
+  _exactly_x_deg<0:7> PROG -  
+  _exactly_x_deg<0:7> PERF -  
+  _right_a_1<8:14> SF prop  
+  _right_a_1<8:14> TENSE untensed  
+  _right_a_1<8:14> MOOD indicative  
+  _right_a_1<8:14> PROG -  
+  _right_a_1<8:14> PERF -  
+}
+
