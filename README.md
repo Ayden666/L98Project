@@ -6,7 +6,7 @@ For task 1, the files in `/DeepBank1.1` have been modified and the associated Fr
 
 For example, in `/DeepBank1.1/20001001`, the node e3 becomes (modified text are bolded)
 
-> e3:_join_v_1**-fn.Cause_to_amalgamate**<34:38>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1**-fn.Agent** x6, ARG2**-fn.Part_1** x23]
+e3:_join_v_1**-fn.Cause_to_amalgamate**<34:38>{e SF prop, TENSE fut, MOOD indicative, PROG -, PERF -}[ARG1**-fn.Agent** x6, ARG2**-fn.Part_1** x23]
 
 The FrameNet frame Cause_to_amalgamate was added to the predicate and the FrameNet roles Agent and Part_1 were added to its arguments.
 
